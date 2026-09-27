@@ -167,22 +167,7 @@ xueersi-diancan-原型/
 | `scan_index.py` / `scan_tl.py` / `shot_unit.py` | 索引 / 时间轴 / 单元页的扫描与截图 |
 | `split_audio.py` | 音频按句切分，产出句级 wav |
 
-### D. 配套技能包（**位于仓库外**，内容生产流水线）
-
-以下 8 个技能位于 `~/.trae-cn/skills/`，用于**生产**本应用所需的教学内容（词汇分层、音标、朗读标注、意群切分、句级对齐），**不是应用运行时依赖**，随仓库发布时按需单独同步。
-
-| 技能 | 规模 | 作用 |
-|---|---|---|
-| `article-vocab-analyzer` | 15 文件 / 820 KB | **主技能**：KET/PET/NGSL/NAWL 四词表分层 + lemma 归一 + 短语优先 + CEFR 难度标签 + 覆盖率/Range/超纲报告 |
-| `text-vocab-coverage` | 12 文件 / 785 KB | 多词表命中率与覆盖面检测（轻量版） |
-| `british-phonetics` | 6 文件 / 73 KB | 英式音标（UK IPA）+ 英式真人发音 + 朗读标注（意群切分/停连/降升调/弱读） |
-| `student-vocab-cards` | 4 文件 / 61 KB | 学生记忆词卡：本义/音标/发音/派生/双语例句 |
-| `teacher-vocab-prep` | 3 文件 / 17 KB | 教师备课本：分层词卡 + 考点命题矩阵 + 超纲补卡 + 单元统计 |
-| `cet-cn2en-scholar` | 11 文件 / 432 KB | 四六级汉译英「原文先行」三规约闭环 |
-| `chunk-splitter` | 1 文件 / 4 KB | 句中意群（呼吸群）人工切分，产出 CHUNKS |
-| `sentence-alignment` | 1 文件 / 6 KB | 句级音频↔文本对齐（ASR 粗锚 + 声学能量精修） |
-
-### E. 不应入库（已在 `.gitignore` 中排除）
+### D. 不应入库（已在 `.gitignore` 中排除）
 
 | 内容 | 大小 | 原因 |
 |---|---|---|
