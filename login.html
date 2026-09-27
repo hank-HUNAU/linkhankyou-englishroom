@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>登录 · TH!NK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ui.css">
+<script src="ui.js"></script>
+<style>
+  *{box-sizing:border-box} html,body{margin:0;padding:0;height:100%}
+  body{min-height:100vh;background:var(--bg);color:var(--ink);font-family:var(--font);display:flex;align-items:center;justify-content:center;padding:20px;-webkit-font-smoothing:antialiased}
+  .bg{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+  .bg span{position:absolute;border-radius:50%;filter:blur(80px)}
+  .bg .b1{width:440px;height:440px;left:2%;top:6%;background:var(--p);opacity:.30}
+  .bg .b2{width:420px;height:420px;right:6%;top:8%;background:var(--v);opacity:.32}
+  .bg .b3{width:480px;height:480px;left:12%;bottom:2%;background:var(--vk);opacity:.22}
+  .card{position:relative;z-index:1;width:100%;max-width:420px;background:var(--card);border-radius:var(--r-xl);padding:36px 30px;box-shadow:var(--sh-2);border:1px solid var(--line)}
+  .brand{font-weight:900;font-size:27px;letter-spacing:-.03em;margin-bottom:4px;background:var(--grad-p);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .brand .gr{background:linear-gradient(135deg,var(--p),var(--v));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:12.5px;color:var(--mut);font-weight:600;margin:6px 0 20px;line-height:1.7}
+  .roles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+  .role{border:1.5px solid var(--line-2);border-radius:var(--r-md);padding:14px 10px;text-align:center;cursor:pointer;font-family:inherit;font-weight:800;font-size:14px;color:#334155;background:#f8fafc;transition:all .2s}
+  .role:hover{border-color:var(--v)}
+  .role.on{background:var(--grad-v);color:#fff;border-color:transparent;box-shadow:0 10px 20px -8px rgba(124,58,237,.5)}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:11.5px;font-weight:800;color:var(--mut);margin-bottom:6px}
+  .field input{width:100%;font-family:inherit;font-size:15px;font-weight:800;color:var(--ink-2);padding:12px 14px;border-radius:var(--r-sm);border:1.5px solid var(--line-2);outline:none;transition:border-color .2s}
+  .field input:focus{border-color:var(--p);box-shadow:var(--ring)}
+  .btn{width:100%;appearance:none;border:none;cursor:pointer;font-family:inherit;padding:12px 16px;border-radius:var(--r-sm);font-size:14px;font-weight:900;color:#fff;background:var(--grad-p);box-shadow:var(--sh-btn);transition:all .2s}
+  .btn:hover{transform:translateY(-1px);box-shadow:var(--sh-btn-hover)}
+  .btn.sec{background:rgba(16,185,129,.1);color:#047857;box-shadow:none;margin-top:10px}
+  .err{color:#be185d;font-size:12px;font-weight:800;margin-top:10px;min-height:16px;text-align:center}
+  .hint{font-size:11px;color:var(--mut-2);margin-top:16px;line-height:1.7;text-align:center}
+  .busy{opacity:.6;pointer-events:none}
+</style>
+</head>
+<body>
+<script>
+/* 直开文件（file://）连不上后端 → 提示用服务器访问 */
+if(location.protocol==='file:'){
+  document.write('<div style="position:fixed;inset:0;z-index:2147483647;background:#10122b;color:#fff;display:flex;align-items:center;justify-content:center;padding:28px;font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.75"><div style="max-width:540px">'+
+  '<h2 style="margin:0 0 12px;font-size:22px">请通过服务器访问</h2>'+
+  '<p style="margin:0 0 12px;color:#cbd5e1">本应用需后端服务，不要直接双击 HTML 文件。请：</p>'+
+  '<ol style="margin:0 0 14px;padding-left:20px;color:#e2e8f0">'+
+  '<li>终端进入该目录，运行 <code style="background:#ffffff24;padding:2px 8px;border-radius:var(--r-xs)">node server.js</code></li>'+
+  '<li>浏览器打开 <code style="background:#10B98133;border:1px solid #10B981;color:#34d399;padding:2px 8px;border-radius:var(--r-xs)">http://localhost:8000/login.html</code></li>'+
+  '</ol></div></div>');
+}
+</script>
+<div class="bg"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+<div class="card">
+  <div class="brand">TH<span class="gr">!</span>NK · 登录</div>
+  <div class="sub">多设备账号系统 · 教师端与学生端数据经服务器同步，换设备也能查看同一份进度。</div>
+  <div class="roles">
+    <button class="role on" id="roleStudent"><svg class="ico"><use href="#i-cap"/></svg> 学生</button>
+    <button class="role" id="roleTeacher"><svg class="ico"><use href="#i-teacher"/></svg> 教师</button>
+  </div>
+  <div class="field"><label>姓名</label><input id="name" placeholder="请输入姓名" autocomplete="off"></div>
+  <div class="field"><label>口令</label><input id="pass" type="password" placeholder="4 位以上" autocomplete="off"></div>
+  <button class="btn" id="loginBtn">登录 <svg class="ico sm"><use href="#i-right"/></svg></button>
+  <button class="btn sec" id="registerBtn"><svg class="ico sm"><use href="#i-link"/></svg> 我是学生 · 注册新账号</button>
+  <div class="err" id="err"></div>
+  <div class="hint">教师：teacher / think-teacher　·　预备学生：张小美、学生01、学生02 / 1234<br>本地环境：node server.js 后访问本页</div>
+</div>
+<script>
+(function(){
+  var role='student';
+  document.getElementById('roleStudent').onclick=function(){role='student';paint(0);};
+  document.getElementById('roleTeacher').onclick=function(){role='teacher';paint(1);};
+  function paint(i){[0,1].forEach(function(k){document.querySelectorAll('.role')[k].classList.toggle('on', k===i);});}
+
+  function doFetch(path, body, okCb){
+    var btn=document.getElementById('loginBtn');
+    btn.classList.add('busy');
+    fetch('/api'+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+      .then(function(r){return r.json();})
+      .then(function(res){
+        btn.classList.remove('busy');
+        if(!res.ok){ document.getElementById('err').textContent=res.error||'请求失败'; return; }
+        localStorage.setItem('tf_token', res.token);
+        localStorage.setItem('tf_user', JSON.stringify(res.user));
+        // 触发本页水合缓存（登录页自身也受益）
+        var target = role==='teacher' ? '/教师端.html' : '/学生端.html';
+        location.href = target;
+      })
+      .catch(function(){ btn.classList.remove('busy'); document.getElementById('err').textContent='无法连接服务器，请先运行 node server.js'; });
+  }
+  document.getElementById('loginBtn').onclick=function(){
+    document.getElementById('err').textContent='';
+    doFetch('/login', {role:role, name:document.getElementById('name').value, pass:document.getElementById('pass').value});
+  };
+  document.getElementById('registerBtn').onclick=function(){
+    document.getElementById('err').textContent='';
+    var n=document.getElementById('name').value, p=document.getElementById('pass').value;
+    if(!n||p.length<4){ document.getElementById('err').textContent='请填写姓名与至少 4 位口令'; return; }
+    doFetch('/register', {name:n, pass:p});
+  };
+  ['name','pass'].forEach(function(id){
+    document.getElementById(id).addEventListener('keydown',function(e){ if(e.key==='Enter') document.getElementById('loginBtn').click(); });
+  });
+})();
+</script>
+</body>
+</html>

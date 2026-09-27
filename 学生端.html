@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TH!NK Foundation · 学习端</title>
+<meta name="description" content="TH!NK Foundation Second Edition 学习端：书架 → 单元 → 篇章 词汇与跟读学习。">
+<meta name="theme-color" content="#eef1f8">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%237C3AED'/><text x='50' y='70' font-size='58' font-family='Inter,sans-serif' font-weight='900' fill='white' text-anchor='middle'>0</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ui.css">
+<script src="ui.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+
+  /* 设计令牌（颜色/圆角/阴影/字体/噪点）统一由 ui.css 提供，此处不再重复定义 */
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  .bg { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+  .bg span { position: absolute; border-radius: 50%; filter: blur(80px); }
+  .bg .b1 { width: 520px; height: 520px; left: 2%;  top: 4%;    background: #7C3AED; opacity: .42; }
+  .bg .b2 { width: 460px; height: 460px; right: 6%; top: 6%;    background: #EC4899; opacity: .38; }
+  .bg .b3 { width: 540px; height: 540px; left: 12%; bottom: 4%; background: #06B6D4; opacity: .34; }
+  .bg .b4 { width: 480px; height: 480px; right: 10%; bottom: 6%; background: #F97316; opacity: .32; }
+  .bg .b5 { width: 380px; height: 380px; left: 44%; top: 38%;   background: #FACC15; opacity: .24; }
+
+  body::after {
+    content: ""; position: fixed; inset: 0; z-index: 9999; pointer-events: none; opacity: .018;
+    background-image: var(--noise);
+  }
+
+  .wrap { position: relative; z-index: 1; max-width: 1300px; width: 100%; margin: 0 auto; padding: 0 28px; }
+
+  /* ── 顶栏 ── */
+  header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 26px 0 18px; flex-wrap: wrap; }
+  .logo { display: inline-flex; align-items: baseline; gap: 14px; flex: none; flex-wrap: wrap; }
+  .think { display: inline-block; font-weight: 900; font-size: 40px; letter-spacing: -.055em; line-height: 1;
+    background: var(--noise), linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    filter: drop-shadow(0 4px 18px rgba(124,58,237,.45)); }
+  .bang { display: inline-block; position: relative; width: .22em; height: .78em; margin: 0 .045em; vertical-align: -.04em; }
+  .bang::before, .bang::after { content:""; position:absolute; left:0; width:100%; background:linear-gradient(180deg,#A78BFA,#EC4899); }
+  .bang::before { top:0; height:.60em; } .bang::after { bottom:0; height:.15em; }
+  .foundation { display: inline-block; font-weight: 800; font-size: 40px; letter-spacing: -.035em; line-height: 1;
+    background: var(--noise), linear-gradient(135deg,#312e81 0%,#4c1d95 60%,#0e7490 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    filter: drop-shadow(0 3px 12px rgba(76,29,149,.4)); padding-bottom: 3px; }
+  .edition { font-size: 9px; font-weight: 700; letter-spacing: .16em; color: rgba(30,27,75,.5); padding-bottom: 8px; white-space: nowrap; }
+
+  .nav-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .chip { appearance:none; border:none; cursor:pointer; font-family:inherit; padding:9px 16px; border-radius:var(--r-pill);
+    border:1.5px solid rgba(124,58,237,.28); background:linear-gradient(135deg,rgba(124,58,237,.10),rgba(236,72,153,.08));
+    color:#4c1d95; font-size:13.5px; font-weight:800; transition:all .25s; }
+  .chip:hover { transform:translateY(-1px); box-shadow:0 8px 18px -8px rgba(124,58,237,.5); border-color:rgba(124,58,237,.45); }
+
+  /* ── 书架 ── */
+  .shelf { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); column-gap:14px; row-gap:26px; padding:8px 0 48px; }
+  .book { --h:200; position:relative; display:flex; flex-direction:column; border-radius:var(--r-lg); overflow:hidden; isolation:isolate;
+    cursor:pointer; appearance:none; -webkit-appearance:none; margin:0; padding:0; width:100%; font:inherit; text-align:inherit;
+    background:none; border:1px solid rgba(0,0,0,.06);
+    background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(255,255,255,.74) 55%,rgba(255,255,255,.92));
+    box-shadow:var(--sh-card);
+    transition:transform .35s cubic-bezier(.19,1,.22,1),opacity .28s ease,border-color .28s ease,box-shadow .35s;
+    min-height:180px; }
+  .cover { position:relative; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
+    padding:16px 14px; overflow:hidden; text-align:center;
+    background:radial-gradient(62% 52% at 28% 26%,hsl(var(--h) 92% 60%/.38) 0%,transparent 72%),
+              radial-gradient(52% 48% at 76% 70%,hsl(var(--h) 88% 58%/.26) 0%,transparent 72%),
+              linear-gradient(180deg,rgba(255,255,255,.6),rgba(255,255,255,.1)); }
+  .num { position:relative; z-index:1; font-weight:900; line-height:1; letter-spacing:-.06em;
+    background:linear-gradient(180deg,hsl(var(--h) 84% 36%),hsl(var(--h) 90% 54%));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+    filter:drop-shadow(0 6px 16px hsl(var(--h) 90% 60%/.38)); font-size:clamp(38px,3.4vw,50px); }
+  .cover h3 { position:relative; z-index:1; width:100%; margin:6px 0 0; font-size:clamp(12px,1.05vw,14px); font-weight:700;
+    line-height:1.25; color:rgba(0,0,0,.78); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .tag { position:absolute; top:10px; left:10px; z-index:2; font-size:10.5px; font-weight:800; letter-spacing:.03em;
+    padding:3px 8px; border-radius:var(--r-pill); background:rgba(15,23,42,.06); color:rgba(15,23,42,.55); }
+  .book.live .tag { background:linear-gradient(135deg,#22c55e,#16a34a); color:#fff; }
+  .done-mark { position:absolute; top:12px; right:12px; z-index:3; width:24px; height:24px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; background:rgba(255,255,255,.55);
+    border:1.5px solid rgba(15,23,42,.1); color:transparent; font-size:12px; font-weight:900;
+    transition:all .4s cubic-bezier(.34,1.56,.64,1); }
+  .book.live .done-mark { background:linear-gradient(135deg,#22c55e,#16a34a); border-color:#16a34a; color:#fff;
+    box-shadow:0 4px 14px -3px rgba(34,197,94,.7); }
+  @media (hover:hover) and (pointer:fine) { .book:hover { transform:translateY(-5px); border-color:hsl(var(--h) 88% 55%/.42); box-shadow:0 30px 56px -22px rgba(31,41,55,.34); } }
+  @media (max-width:1100px){ .shelf{grid-template-columns:repeat(4,minmax(0,1fr));} }
+  @media (max-width:720px){ .shelf{grid-template-columns:repeat(3,minmax(0,1fr));} .wrap{padding:0 18px;} }
+  @media (max-width:520px){ .shelf{grid-template-columns:repeat(2,minmax(0,1fr));} }
+
+  /* ── 单元页 ── */
+  .crumb { display:inline-flex; align-items:center; gap:8px; padding:12px 0 4px; font-size:13px; font-weight:700; color:#64748b; }
+  .crumb button { appearance:none; border:none; background:none; cursor:pointer; color:#7C3AED; font-weight:800; font-family:inherit; font-size:13px; padding:4px 8px; border-radius:var(--r-xs); }
+  .crumb button:hover { background:rgba(124,58,237,.08); }
+  .unit-head { display:flex; align-items:flex-end; justify-content:space-between; gap:18px; flex-wrap:wrap; padding:6px 0 18px; }
+  .unit-title { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
+  .unit-num { font-weight:900; font-size:30px; line-height:1; letter-spacing:-.04em; background:linear-gradient(135deg,#312e81,#7C3AED); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .unit-name { font-weight:900; font-size:clamp(22px,3vw,30px); letter-spacing:-.02em; color:#1d1d1f; }
+  .unit-sub { font-size:13px; font-weight:700; color:#64748b; }
+
+  .sec { margin:20px 0 8px; display:flex; align-items:center; gap:10px; }
+  .sec-h { font-size:16px; font-weight:900; letter-spacing:-.01em; color:#1e1b4b; }
+  .sec-n { font-size:10.5px; font-weight:800; letter-spacing:.03em; color:#7C3AED; background:rgba(124,58,237,.1); padding:3px 8px; border-radius:var(--r-pill); }
+
+  /* 主题词卡 */
+  .vw-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+  @media(max-width:1100px){ .vw-grid{grid-template-columns:repeat(3,minmax(0,1fr));} }
+  @media(max-width:720px){ .vw-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  .vw { background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(255,255,255,.78)); border:1px solid rgba(0,0,0,.06);
+    border-radius:var(--r-md); padding:14px 15px; cursor:pointer; transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background .25s;
+    box-shadow:var(--sh-card); }
+  .vw:hover { transform:translateY(-3px); box-shadow:var(--sh-card-hover); }
+  .vw .top { display:flex; align-items:baseline; justify-content:space-between; gap:8px; }
+  .vw .w { font-weight:900; font-size:18px; letter-spacing:-.02em; color:#1e1b4b; line-height:1.15; }
+  .vw .ipa { font-size:12.5px; color:#7c3aed; font-weight:700; }
+  .vw .pos { font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:#94a3b8; }
+  .vw .def { margin-top:7px; font-size:13px; line-height:1.5; color:#475569; font-weight:600; }
+  .vw .ex { margin-top:5px; font-size:12px; line-height:1.45; color:#94a3b8; font-style:italic; }
+  .vw .hidden-def { margin-top:7px; font-size:13px; color:#7c3aed; font-weight:700; display:none; }
+  .vw.show .hidden-def { display:block; }
+  .vw.show .def { color:transparent; user-select:none; }
+
+  /* 篇章卡 */
+  .pg-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; padding-bottom:48px; }
+  @media(max-width:900px){ .pg-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  @media(max-width:560px){ .pg-grid{grid-template-columns:1fr;} }
+  .pg { background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(255,255,255,.8)); border:1px solid rgba(0,0,0,.06);
+    border-radius:var(--r-lg); padding:16px 16px 14px; cursor:pointer; transition:all .28s cubic-bezier(.19,1,.22,1);
+    box-shadow:var(--sh-card); }
+  .pg:hover { transform:translateY(-3px); border-color:rgba(124,58,237,.4); box-shadow:var(--sh-card-hover); }
+  .pg .kind { display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.03em; padding:3px 8px; border-radius:var(--r-pill);
+    background:rgba(124,58,237,.1); color:#7C3AED; }
+  .pg .pt { margin-top:10px; font-weight:900; font-size:16.5px; letter-spacing:-.01em; color:#1e1b4b; line-height:1.3; }
+  .pg .pps { margin-top:3px; font-size:11.5px; font-weight:700; color:#94a3b8; }
+  .pg .acts { margin-top:13px; display:flex; flex-direction:column; gap:7px; }
+  .pg .act { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:8px 11px; border-radius:var(--r-sm);
+    font-size:12.5px; font-weight:800; color:#4338ca; background:rgba(124,58,237,.07); border:1px solid transparent; transition:all .2s; }
+  .pg .act:hover { background:rgba(124,58,237,.14); }
+  .pg .act .a-name { display:flex; align-items:center; gap:7px; }
+  .pg .act .a-more { color:#7c3aed; font-weight:900; }
+  .pg .act.wip { color:#94a3b8; background:rgba(15,23,42,.04); }
+  .pg .act.wip .a-more { color:#cbd5e1; }
+
+  /* 锁定样式 */
+  .pg.pending { opacity:.72; }
+  .lock-note { font-size:11px; font-weight:700; color:#94a3b8; margin-top:10px; }
+
+  /* ── 篇章页 ── */
+  .pg-page-head { padding:8px 0 14px; }
+  .pg-page-title { font-weight:900; font-size:26px; letter-spacing:-.02em; color:#1e1b4b; line-height:1.25; }
+  .pg-page-sub { font-size:13px; font-weight:700; color:#7C3AED; margin-top:4px; }
+  .flow { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; padding:8px 0 60px; }
+  @media(max-width:720px){ .flow{grid-template-columns:1fr;} }
+  .flow-card { background:linear-gradient(170deg,rgba(255,255,255,.97),rgba(255,255,255,.84)); border:1px solid rgba(0,0,0,.06);
+    border-radius:var(--r-lg); padding:20px; box-shadow:var(--sh-card); }
+  .flow-card .fc-ico { font-size:26px; }
+  .flow-card h4 { margin:8px 0 4px; font-size:17px; font-weight:900; color:#1e1b4b; }
+  .flow-card .fc-desc { font-size:12.5px; line-height:1.6; color:#64748b; font-weight:600; margin-bottom:14px; }
+  .flow-card .steps { display:flex; flex-direction:column; gap:8px; margin-bottom:16px; }
+  .flow-card .step { display:flex; gap:10px; align-items:flex-start; font-size:13px; font-weight:700; color:#334155; line-height:1.5; }
+  .flow-card .step .s-num { flex:none; width:20px; height:20px; border-radius:var(--r-xs); background:rgba(124,58,237,.12); color:#7C3AED;
+    font-size:11px; font-weight:900; display:flex; align-items:center; justify-content:center; }
+  .btn { appearance:none; border:none; cursor:pointer; font-family:inherit; width:100%; padding:12px 16px; border-radius:var(--r-sm);
+    font-size:14px; font-weight:900; color:#fff; background:var(--grad-p);
+    box-shadow:var(--sh-btn); transition:all .25s cubic-bezier(.19,1,.22,1); }
+  .btn:hover { transform:translateY(-1px); box-shadow:var(--sh-btn-hover); }
+  .btn.ghost { background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(236,72,153,.07)); color:#7C3AED; border:1.5px solid rgba(124,58,237,.3); box-shadow:none; }
+
+  /* toast */
+  #toast { position:fixed; left:50%; bottom:34px; transform:translateX(-50%) translateY(20px); z-index:10000;
+    background:rgba(15,23,42,.86); color:#fff; padding:12px 20px; border-radius:var(--r-sm); font-size:13.5px; font-weight:700;
+    opacity:0; pointer-events:none; transition:all .35s cubic-bezier(.19,1,.22,1); backdrop-filter:blur(10px);
+    box-shadow:0 14px 30px -8px rgba(15,23,42,.5); max-width:86vw; text-align:center; }
+  #toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+
+  /* 视图切换 */
+  .view { display:none; }
+  .view.on { display:block; animation:fade .4s ease; }
+  @keyframes fade { from{opacity:0;transform:translateY(8px);} }
+
+  /* ── 学生身份 ── */
+  .who { display:inline-flex; align-items:center; gap:8px; padding:9px 14px; border-radius:var(--r-pill);
+    background:linear-gradient(135deg,rgba(16,185,129,.14),rgba(16,185,129,.06)); border:1.5px solid rgba(16,185,129,.35);
+    color:#047857; font-size:13px; font-weight:800; cursor:pointer; transition:all .22s; }
+  .who:hover { transform:translateY(-1px); box-shadow:0 8px 16px -8px rgba(16,185,129,.5); }
+  .who .w-sm { content:""; width:12px; height:12px; border-radius:50%; background:linear-gradient(135deg,#10B981,#7C3AED); display:inline-block; }
+  .who.req { background:linear-gradient(135deg,rgba(124,58,237,.12),rgba(236,72,153,.08)); border-color:rgba(124,58,237,.4); color:#6d28d9; }
+  .who.req .w-sm { background:linear-gradient(135deg,#7C3AED,#EC4899); }
+
+  /* ── 姓名弹窗 ── */
+  #nameGate { position:fixed; inset:0; z-index:10001; display:flex; align-items:center; justify-content:center; padding:20px;
+    background:rgba(233,236,245,.72); backdrop-filter:blur(10px); }
+  #nameGate.hide { display:none; }
+  .gate-card { width:100%; max-width:400px; background:#fff; border-radius:var(--r-xl); padding:34px 28px; text-align:center;
+    box-shadow:var(--sh-2); border:1px solid rgba(0,0,0,.08); }
+  .gate-card .gb { font-weight:900; font-size:25px; letter-spacing:-.03em; margin-bottom:6px;
+    background:var(--noise),linear-gradient(135deg,#1e1b4b,#7C3AED); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .gate-card p { font-size:12.5px; color:#64748b; font-weight:600; margin:6px 0 16px; line-height:1.7; }
+  .gate-card input[type=text] { width:100%; font-family:inherit; font-size:16px; font-weight:800; color:#1e1b4b; text-align:center;
+    padding:13px 14px; border-radius:var(--r-sm); border:1.5px solid rgba(0,0,0,.12); margin-bottom:14px; outline:none; }
+  .gate-card input:focus { border-color:var(--p); box-shadow:var(--ring); }
+  .gate-card .btn { width:100%; }
+  .err { color:#be185d; font-size:12px; font-weight:800; margin-top:10px; min-height:16px; }
+
+  /* ── 单元任务面板 ── */
+  .taskzone { margin:6px 0 22px; display:flex; flex-direction:column; gap:14px; }
+  .task-card { border-radius:var(--r-lg); padding:18px 20px; }
+  .task-card.t-pre { background:linear-gradient(170deg,rgba(16,185,129,.14),rgba(16,185,129,.04)); border:1.5px solid rgba(16,185,129,.30); }
+  .task-card.t-rev { background:linear-gradient(170deg,rgba(236,72,153,.12),rgba(236,72,153,.04)); border:1.5px solid rgba(236,72,153,.26); }
+  .task-card .t-head { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .task-card .t-badge { font-weight:900; font-size:14px; }
+  .t-pre .t-badge { color:#047857; } .t-rev .t-badge { color:#be185d; }
+  .task-card .t-deadline { font-size:12px; font-weight:800; color:#64748b; margin-left:auto; }
+  .task-card .t-deadline.late { color:#be185d; }
+  .task-card .t-items { display:flex; flex-wrap:wrap; gap:9px; margin-top:13px; }
+  .t-item { display:inline-flex; align-items:center; gap:8px; padding:9px 13px; border-radius:var(--r-sm); background:#fff;
+    border:1.5px solid rgba(0,0,0,.07); cursor:pointer; transition:all .2s; }
+  .t-item:hover { transform:translateY(-2px); border-color:#7C3AED; box-shadow:0 10px 20px -12px rgba(124,58,237,.5); }
+  .t-item .ti-ico { font-size:16px; }
+  .t-item .ti-body { display:flex; flex-direction:column; }
+  .t-item .ti-title { font-weight:800; font-size:13px; color:#1e1b4b; line-height:1.25; }
+  .t-item .ti-sub { font-size:10.5px; font-weight:700; color:#94a3b8; }
+  .t-item .ti-mk { appearance:none; border:none; cursor:pointer; margin-left:2px; width:24px; height:24px; border-radius:50%;
+    background:rgba(15,23,42,.06); color:transparent; font-size:12px; font-weight:900; display:flex; align-items:center; justify-content:center; transition:all .3s; }
+  .t-item.done .ti-mk { background:linear-gradient(135deg,#22c55e,#16a34a); color:#fff; box-shadow:0 4px 12px -3px rgba(34,197,94,.6); }
+  .t-item .ti-mk:hover { transform:scale(1.08); }
+  .t-item .ti-voc { font-size:10px; font-weight:800; color:#16a34a; }
+  .task-meta { font-size:11.5px; color:#94a3b8; font-weight:700; margin-top:11px; }
+  .task-none { font-size:12px; color:#94a3b8; font-weight:700; padding:2px 4px; }
+
+  /* ── 沉浸式任务流 ── */
+  .tz-hero{ position:relative; overflow:hidden; border-radius:var(--r-lg); padding:20px 20px 16px; color:#fff;
+    background:linear-gradient(135deg,#312e81 0%,#4c1d95 46%,#0e7490 100%); border:1px solid rgba(255,255,255,.12);
+    box-shadow:0 22px 44px -24px rgba(49,46,129,.75); }
+  .tz-hero::before{ content:""; position:absolute; right:-70px; top:-70px; width:240px;height:240px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, rgba(255,255,255,.22), transparent 70%); }
+  .tz-hero::after{ content:""; position:absolute; left:-40px; bottom:-70px; width:200px;height:200px;border-radius:50%;
+    background:radial-gradient(circle at 60% 40%, rgba(124,58,237,.55), transparent 70%); }
+  .tz-hero-in{ position:relative; z-index:1; display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+  .tz-day{ flex:1; min-width:190px; }
+  .tz-kicker{ font-size:11px; letter-spacing:.18em; font-weight:800; color:#c4b5fd; }
+  .tz-title{ font-size:22px; font-weight:900; margin:3px 0 2px; letter-spacing:-.02em; text-shadow:0 2px 8px rgba(0,0,0,.2); }
+  .tz-sub{ font-size:12.5px; color:#d9d2f7; font-weight:600; }
+  .tz-ring{ flex:none; width:86px; height:86px; filter:drop-shadow(0 4px 10px rgba(0,0,0,.25)); }
+  .tz-ring .rp{ fill:none; stroke-width:8; stroke-linecap:round; }
+  .tz-msg{ flex-basis:100%; display:flex; align-items:center; gap:8px; font-size:13px; font-weight:800; color:#fff; margin-top:4px; }
+  .tz-stage{ border-radius:var(--r-lg); border:1px solid rgba(0,0,0,.07); background:rgba(255,255,255,.84);
+    box-shadow:var(--sh-card); overflow:hidden; }
+  .tz-stage.tre{ border-top:4px solid #0e7490; } .tz-stage.trev{ border-top:4px solid #7c3aed; }
+  .tz-sh{ padding:14px 18px 12px; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .tz-sh .ico-box{ width:36px;height:36px;border-radius:var(--r-sm);display:grid;place-items:center;font-size:18px;color:#fff;flex:none; }
+  .tre .tz-sh .ico-box{ background:linear-gradient(135deg,#0891b2,#0e7490); } .trev .tz-sh .ico-box{ background:linear-gradient(135deg,#8b5cf6,#7c3aed); }
+  .tz-sh-t{ flex:1; min-width:150px; }
+  .tz-sh-t b{ display:block; font-size:15px; color:#1e1b4b; letter-spacing:-.01em; }
+  .tz-sh-t span{ font-size:11.5px; font-weight:700; color:#64748b; }
+  .tz-bar{ height:7px; border-radius:var(--r-pill); background:#e7eaf0; overflow:hidden; margin:0 18px 6px; }
+  .tz-bar i{ display:block; height:100%; border-radius:var(--r-pill); transition:width .5s ease; }
+  .tre .tz-bar i{ background:linear-gradient(90deg,#22d3ee,#0ea5e9); } .trev .tz-bar i{ background:linear-gradient(90deg,#a78bfa,#7c3aed); }
+  .tz-rows{ padding:8px 14px 14px; display:flex; flex-direction:column; gap:9px; }
+  .tz-row{ position:relative; width:100%; display:flex; align-items:center; gap:12px; padding:12px 13px; border-radius:var(--r-sm);
+    background:#fff; border:1.5px solid rgba(0,0,0,.07); cursor:pointer; text-align:left; font-family:inherit;
+    transition:transform .15s, box-shadow .2s, border-color .2s, opacity .2s; }
+  .tz-row:hover{ transform:translateY(-2px); border-color:rgba(124,58,237,.4); box-shadow:0 12px 24px -16px rgba(124,58,237,.55); }
+  .tz-row .i-ic{ flex:none; width:40px;height:40px;border-radius:var(--r-sm);display:grid;place-items:center;font-size:19px;
+    background:#f1f5f9;border:1px solid rgba(0,0,0,.05); }
+  .tz-row .i-bd{ flex:1; min-width:0; }
+  .tz-row .i-tl{ display:flex; align-items:center; gap:6px; font-weight:800; font-size:14px; color:#1e1b4b; }
+  .tz-row .i-tl .m{ font-size:9px; font-weight:900; letter-spacing:.14em; color:#7c3aed; }
+  .tz-row .i-st{ font-size:11.5px; font-weight:700; color:#94a3b8; margin-top:2px; }
+  .tz-row .i-st b{ color:#16a34a; }
+  .tz-row .i-cta{ flex:none; font-size:12px; font-weight:800; color:#7c3aed; background:rgba(124,58,237,.12); padding:7px 13px; border-radius:var(--r-pill); }
+  .tz-row.done{ opacity:.5; } .tz-row.done:hover{ opacity:.8; }
+  .tz-row.done .i-cta{ color:#16a34a; background:rgba(22,163,74,.12); }
+  .tz-mark{ flex:none; width:30px;height:30px;border-radius:50%;border:2px solid #e2e8f0;background:#fff;cursor:pointer;
+    font-family:inherit;font-weight:900;font-size:15px;color:transparent;line-height:1; display:grid;place-items:center; transition:all .18s; }
+  .tz-mark:hover{ transform:scale(1.1); }
+  .tz-mark.done{ background:linear-gradient(135deg,#10b981,#059669); border-color:transparent; color:#fff; box-shadow:0 4px 12px -3px rgba(16,185,129,.6); }
+  .tz-chip{ font-size:10.5px; font-weight:800; letter-spacing:.03em; color:#b45309; background:#fef3c7; padding:3px 8px; border-radius:var(--r-pill); white-space:nowrap; }
+  .tz-chip.late{ color:#b91c1c; background:#fee2e2; }
+  .tz-empty{ border-radius:var(--r-lg); background:rgba(255,255,255,.6); border:1.5px dashed rgba(0,0,0,.12);
+    padding:26px 18px; text-align:center; color:#64748b; font-weight:700; font-size:13px; }
+  .tz-empty .ic{ font-size:30px; display:block; margin-bottom:8px; }
+  .tz-empty span{ color:#94a3b8; font-weight:600; font-size:12px; display:block; margin-top:4px; line-height:1.7; }
+
+  /* ── 预习→复习 衔接引导 ── */
+  .bridge{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin:14px 0; padding:16px 18px; border-radius:var(--r-lg);
+    background:linear-gradient(135deg,#052e16,#065f46); color:#fff; border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 18px 36px -24px rgba(6,78,59,.7); position:relative; overflow:hidden; }
+  .bridge::after{ content:""; position:absolute; right:-50px; top:-50px; width:170px;height:170px;border-radius:50%;
+    background:radial-gradient(circle, rgba(255,255,255,.2), transparent 70%); }
+  .bridge .b-ic{ font-size:28px; flex:none; }
+  .bridge .b-t{ flex:1; min-width:170px; }
+  .bridge .b-t b{ display:block; font-size:15.5px; letter-spacing:-.01em; }
+  .bridge .b-t span{ font-size:12px; font-weight:700; color:#a7f3d0; line-height:1.6; display:block; margin-top:2px; }
+  .bridge .b-btn{ flex:none; border:none; cursor:pointer; font-family:inherit; font-weight:900; font-size:13.5px; color:#052e16;
+    background:linear-gradient(135deg,#6ee7b7,#34d399); padding:11px 18px; border-radius:var(--r-pill); box-shadow:0 8px 18px -8px rgba(110,231,183,.6); transition:transform .15s, box-shadow .2s; }
+  .bridge .b-btn:hover{ transform:translateY(-2px); box-shadow:0 12px 22px -8px rgba(110,231,183,.75); }
+
+  /* ── 预习完成 · 全屏引导 ── */
+  .guide{ position:fixed; inset:0; z-index:10000; display:flex; align-items:center; justify-content:center; padding:24px;
+    background:rgba(15,23,42,.52); -webkit-backdrop-filter:blur(16px) saturate(1.15); backdrop-filter:blur(16px) saturate(1.15);
+    opacity:0; visibility:hidden; transition:opacity .3s ease, visibility .3s; }
+  .guide.on{ opacity:1; visibility:visible; }
+  .guide-card{ position:relative; overflow:hidden; width:min(560px,100%); max-height:92vh; overflow-y:auto; border-radius:var(--r-2xl);
+    padding:40px 34px 30px; text-align:center; color:#fff; background:linear-gradient(160deg,#052e16 0%,#065f46 46%,#0e7490 100%);
+    border:1px solid rgba(255,255,255,.16); box-shadow:0 40px 90px -32px rgba(2,44,34,.9);
+    transform:translateY(28px) scale(.94); transition:transform .42s cubic-bezier(.2,.9,.25,1.06); }
+  .guide.on .guide-card{ transform:none; }
+  .guide-card::before{ content:""; position:absolute; right:-90px; top:-90px; width:300px; height:300px; border-radius:50%;
+    background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.24), transparent 70%); }
+  .guide-card::after{ content:""; position:absolute; left:-70px; bottom:-110px; width:280px; height:280px; border-radius:50%;
+    background:radial-gradient(circle at 60% 40%, rgba(52,211,153,.42), transparent 70%); }
+  .guide-in{ position:relative; z-index:1; }
+  .guide-badge{ width:92px; height:92px; margin:0 auto 18px; border-radius:50%; display:grid; place-items:center; font-size:44px;
+    background:radial-gradient(circle at 32% 28%,#a7f3d0,#34d399 58%,#059669);
+    box-shadow:0 18px 36px -14px rgba(52,211,153,.9), inset 0 -4px 12px rgba(0,0,0,.18); animation:gfloat 2.6s ease-in-out infinite; }
+  @keyframes gfloat{ 50%{ transform:translateY(-7px); } }
+  .guide-kicker{ font-size:11px; letter-spacing:.2em; font-weight:800; color:#a7f3d0; }
+  .guide-title{ font-size:28px; font-weight:900; letter-spacing:-.03em; margin:8px 0; text-shadow:0 3px 12px rgba(0,0,0,.3); }
+  .guide-sub{ font-size:13.5px; font-weight:700; color:#d1fae5; line-height:1.75; max-width:410px; margin:0 auto; }
+  .guide-steps{ display:flex; align-items:center; justify-content:center; gap:12px; margin:22px 0 0; flex-wrap:wrap; }
+  .guide-step{ font-size:12px; font-weight:800; padding:8px 15px; border-radius:var(--r-pill); color:#fff;
+    background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.2); }
+  .guide-step.ok{ background:linear-gradient(135deg,#6ee7b7,#34d399); color:#052e16; border-color:transparent;
+    box-shadow:0 8px 18px -8px rgba(110,231,183,.7); }
+  .guide-arrow{ color:#a7f3d0; font-weight:900; }
+  .guide-btns{ display:flex; gap:12px; justify-content:center; margin-top:26px; flex-wrap:wrap; }
+  .guide-go{ border:none; cursor:pointer; font-family:inherit; font-weight:900; font-size:15px; color:#052e16;
+    background:linear-gradient(135deg,#6ee7b7,#34d399); padding:14px 30px; border-radius:var(--r-pill);
+    box-shadow:0 16px 30px -12px rgba(110,231,183,.8); transition:transform .16s, box-shadow .22s; }
+  .guide-go:hover{ transform:translateY(-2px); box-shadow:0 20px 34px -12px rgba(110,231,183,.95); }
+  .guide-later{ border:1.5px solid rgba(255,255,255,.3); background:transparent; cursor:pointer; font-family:inherit;
+    font-weight:800; font-size:13.5px; color:#e6fff5; padding:13px 22px; border-radius:var(--r-pill);
+    transition:background .2s, border-color .2s; }
+  .guide-later:hover{ background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.45); }
+  .tz-stage.jump{ animation:tzpulse 1.6s ease 2; }
+  @keyframes tzpulse{ 0%{ box-shadow:0 0 0 0 rgba(124,58,237,.55); } 60%{ box-shadow:0 0 0 15px rgba(124,58,237,0); } 100%{ box-shadow:0 0 0 0 rgba(124,58,237,0); } }
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span>
+</div>
+
+<!-- ═══ 书架 ═══ -->
+<section class="view on" id="view-home">
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-label="TH!NK Foundation Second Edition">
+        <span class="think" aria-hidden="true">TH<span class="bang"></span>NK</span>
+        <span class="foundation" aria-hidden="true">Foundation</span>
+        <span class="edition" aria-hidden="true">SECOND EDITION</span>
+      </div>
+      <div class="nav-right">
+        <button class="who" id="whoBtn" title="点击切换学生"><svg class="ico sm"><use href="#i-user"/></svg> <span id="whoName">填写姓名</span></button>
+        <button class="chip" id="teacherLink"><svg class="ico sm"><use href="#i-teacher"/></svg> 教师工作台</button>
+        <button class="chip" id="welcomeBtn"><svg class="ico sm"><use href="#i-star"/></svg> Welcome 入门单元</button>
+      </div>
+    </header>
+    <main class="shelf" id="shelf"></main>
+  </div>
+</section>
+
+<!-- ═══ 单元页 ═══ -->
+<section class="view" id="view-unit">
+  <div class="wrap">
+    <div class="crumb"><button id="unitBack"><svg class="ico sm"><use href="#i-left"/></svg> 书架</button><span>/</span><span id="unitCrumb"></span></div>
+    <div class="unit-head">
+      <div class="unit-title">
+        <span class="unit-num" id="unitNum"></span>
+        <span class="unit-name" id="unitName"></span>
+      </div>
+      <span class="unit-sub" id="unitSub"></span>
+    </div>
+    <div class="taskzone" id="taskzone"></div>
+    <div class="sec"><span class="sec-h">单元主题词汇</span><span class="sec-n" id="vwCount"></span></div>
+    <p style="margin:0 0 12px;font-size:12.5px;color:#64748b;font-weight:600;">点击卡片先回忆释义，再点击揭示核对 · 点「<svg class="ico sm"><use href="#i-sound"/></svg> 播放」听英音</p>
+    <div class="vw-grid" id="vwGrid" style="padding-bottom:8px;"></div>
+    <div class="sec" style="margin-top:30px;"><span class="sec-h">篇章学习</span><span class="sec-n" id="pgCount"></span></div>
+    <div class="pg-grid" id="pgGrid"></div>
+  </div>
+</section>
+
+<!-- ═══ 篇章页 ═══ -->
+<section class="view" id="view-passage">
+  <div class="wrap">
+    <div class="crumb"><button id="pgBack"><svg class="ico sm"><use href="#i-left"/></svg> 返回单元</button></div>
+    <div class="pg-page-head">
+      <div class="pg-page-title" id="pgTitle"></div>
+      <div class="pg-page-sub" id="pgSub"></div>
+    </div>
+    <div class="flow" id="flow"></div>
+  </div>
+</section>
+
+<div id="toast"></div>
+
+<div id="nameGate">
+  <div class="gate-card">
+    <div class="gb">开始学习</div>
+    <p id="gateHint">请输入你的姓名，用于记录预习 / 复习进度。<br>老师可在教师工作台查看你的完成情况。</p>
+    <input type="text" id="nameInput" placeholder="你的姓名" maxlength="12" autocomplete="off">
+    <button class="btn" id="nameOk">开始学习 <svg class="ico sm"><use href="#i-right"/></svg></button>
+    <div class="err" id="nameErr"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ═══════════ 数据模型 ═══════════ */
+  var UNITS = [
+    { key:'1',  n:1,  title:'All together',     sub:'互动与交友',  h:217, live:false },
+    { key:'2',  n:2,  title:"I'm excited",      sub:'情绪与表达',  h:190, live:false },
+    { key:'3',  n:3,  title:'Family time',      sub:'家庭时光',    h:265, live:false },
+    { key:'4',  n:4,  title:'City life',        sub:'都市生活',    h:330, live:false },
+    { key:'5',  n:5,  title:'Free time',        sub:'休闲时光',    h:350, live:false },
+    { key:'6',  n:6,  title:'Best friends',     sub:'最佳伙伴',    h:0,   live:false },
+    { key:'7',  n:7,  title:'Living for sport', sub:'运动人生',    h:25,  live:true  },
+    { key:'8',  n:8,  title:'Feel the rhythm',  sub:'律动节拍',    h:45,  live:false },
+    { key:'9',  n:9,  title:"Who's hungry?",    sub:'谁是吃货',    h:80,  live:false },
+    { key:'10', n:10, title:'Big successes',    sub:'大成就',      h:145, live:false },
+    { key:'11', n:11, title:'The animal world', sub:'动物世界',    h:195, live:false },
+    { key:'12', n:12, title:'Moving about',     sub:'出行方式',    h:275, live:true  }
+  ];
+
+  /* 单元主题词汇（来源：Think Starter Wordlist.xlsx，按 UNIT NO 归类）
+     字段：w 词/短语, ipa 音标, pos 词性, zh 释义, ex 例句 */
+  var THEME = {
+    "7": [
+      { w:'cycle', ipa:'ˈsaɪ.kəl', pos:'v', zh:'骑自行车', ex:'He cycles to school.' },
+      { w:'dive', ipa:'daɪv', pos:'v', zh:'跳水', ex:"I can swim but I can't dive." },
+      { w:'do Taekwondo', ipa:'ˌduː taɪˈkwɒn.dəʊ', pos:'phr', zh:'练跆拳道', ex:'Can you do Taekwondo?' },
+      { w:'play basketball', ipa:'ˌpleɪ ˈbɑː.skɪt.bɔːl', pos:'phr', zh:'打篮球', ex:'I like playing basketball.' },
+      { w:'play volleyball', ipa:'ˌpleɪ ˈvɒl.i.bɔːl', pos:'phr', zh:'打排球', ex:"I can't play volleyball." },
+      { w:'skateboard', ipa:'ˈskeɪt.bɔː.d', pos:'v', zh:'玩滑板', ex:'He can skateboard.' },
+      { w:'ski', ipa:'skiː', pos:'v', zh:'滑雪', ex:'We often ski in winter.' },
+      { w:"(three) o'clock", ipa:'əˈklɒk', pos:'phr', zh:'（三点）整', ex:"It's eleven o'clock." },
+      { w:'half past (eight)', ipa:'ˈhɑːf ˌpɑːst', pos:'phr', zh:'（八点）半', ex:"It's half past six." },
+      { w:'quarter past (ten)', ipa:'ˈkwɔː.tə ˌpɑːst', pos:'phr', zh:'（十点）过一刻', ex:"It's quarter past nine." },
+      { w:'quarter to (one)', ipa:'ˈkwɔː.tə tə', pos:'phr', zh:'（一点）差一刻', ex:"It's quarter to two." },
+      { w:'June', ipa:'dʒuːn', pos:'n', zh:'六月', ex:'the 24th of June' },
+      { w:'May', ipa:'meɪ', pos:'n', zh:'五月', ex:'the 30th of May' },
+      { w:'March', ipa:'mɑːtʃ', pos:'n', zh:'三月', ex:'the 26th of March' },
+      { w:'November', ipa:'nəʊˈvem.bə', pos:'n', zh:'十一月', ex:'the 5th of November' },
+      { w:'September', ipa:'sepˈtem.bə', pos:'n', zh:'九月', ex:'the 23rd of September' },
+      { w:'October', ipa:'ɒkˈtəʊ.bə', pos:'n', zh:'十月', ex:'the 22nd of October' },
+      { w:'January', ipa:'ˈdʒæn.jʊ.ri', pos:'n', zh:'一月', ex:'the 1st of January' },
+      { w:'April', ipa:'ˈeɪ.prəl', pos:'n', zh:'四月', ex:'the 20th of April' },
+      { w:'February', ipa:'ˈfeb.ru.ri', pos:'n', zh:'二月', ex:'the 27th of February' },
+      { w:'July', ipa:'dʒʊˈlaɪ', pos:'n', zh:'七月', ex:'the 22nd of July' },
+      { w:'August', ipa:'ˈɔː.gəst', pos:'n', zh:'八月', ex:'the 13th of August' },
+      { w:'December', ipa:'dɪˈsem.bə', pos:'n', zh:'十二月', ex:'the 23rd of December' },
+      { w:'winter', ipa:'ˈwɪn.tə', pos:'n', zh:'冬季', ex:'Winter is from December to February.' },
+      { w:'spring', ipa:'sprɪŋ', pos:'n', zh:'春季', ex:'Spring is from March to May.' },
+      { w:'summer', ipa:'ˈsʌm.ə', pos:'n', zh:'夏季', ex:'Summer is from June to August.' },
+      { w:'autumn', ipa:'ˈɔː.təm', pos:'n', zh:'秋季', ex:'Autumn is from September to November.' },
+      { w:'fifth', ipa:'fɪfθ', pos:'ord', zh:'第五', ex:'the fifth floor of the building' },
+      { w:'ninth', ipa:'naɪnθ', pos:'ord', zh:'第九', ex:'The ninth letter of the alphabet is I.' },
+      { w:'first', ipa:'ˈfɜːst', pos:'ord', zh:'第一', ex:'I live on the first floor.' },
+      { w:'thirtieth', ipa:'ˈθɜː.ti.əθ', pos:'ord', zh:'第三十', ex:"Today is my aunt's thirtieth birthday." },
+      { w:'eighth', ipa:'eɪtθ', pos:'ord', zh:'第八', ex:'He finished eighth in the race.' },
+      { w:'thirty-first', ipa:'ˌθɜː.ti ˈfɜːst', pos:'ord', zh:'第三十一', ex:"This year is our school's thirty-first Maths competition." },
+      { w:'twelfth', ipa:'twelfθ', pos:'ord', zh:'第十二', ex:'Today is the twelfth of September.' },
+      { w:'second', ipa:'ˈsek.ənd', pos:'ord', zh:'第二', ex:'Her birthday is on the second of May.' },
+      { w:'twentieth', ipa:'ˈtwen.ti.əθ', pos:'ord', zh:'第二十', ex:"Our school's Sports Day is on the twentieth of June." },
+      { w:'seventh', ipa:'ˈsev.ənθ', pos:'ord', zh:'第七', ex:"It's the seventh (of May) today." },
+      { w:'fourth', ipa:'fɔːθ', pos:'ord', zh:'第四', ex:'My birthday is on the fourth of December.' },
+      { w:'third', ipa:'θɜːd', pos:'ord', zh:'第三', ex:'the third road on the right' },
+      { w:'sixth', ipa:'sɪksθ', pos:'ord', zh:'第六', ex:'I have to return my library books on the sixth (of July).' },
+      { w:'tenth', ipa:'tenθ', pos:'ord', zh:'第十', ex:"My sister's birthday is on the tenth of July." },
+      { w:'eleventh', ipa:'ɪˈlev.nθ', pos:'ord', zh:'第十一', ex:"We're going to a wedding on the eleventh of June." },
+      { w:'thirteenth', ipa:'ˈθɜːˈtiːnθ', pos:'ord', zh:'第十三', ex:"We're on the thirteenth floor." }
+    ],
+    "12": [
+      { w:'bike', ipa:'baɪk', pos:'n', zh:'自行车', ex:'One presenter went by bike.' },
+      { w:'boat', ipa:'bəʊt', pos:'n', zh:'小船', ex:'The last one travelled by speedboat up the River Thames.' },
+      { w:'bus', ipa:'bʌs', pos:'n', zh:'公交车', ex:'I go to school by bus.' },
+      { w:'car', ipa:'kɑː', pos:'n', zh:'汽车', ex:'One went by car.' },
+      { w:'underground train', ipa:'ˈʌn.də.graʊnd ˌtreɪn', pos:'n', zh:'地铁', ex:'He took the underground train.' },
+      { w:'ferry', ipa:'ˈfer.i', pos:'n', zh:'渡轮', ex:'a car ferry' },
+      { w:'helicopter', ipa:'ˈhel.ɪ.kɒp.tə', pos:'n', zh:'直升机', ex:'The injured were flown to hospital by helicopter.' },
+      { w:'motorbike', ipa:'ˈməʊ.tə.baɪk', pos:'n', zh:'摩托车', ex:'My cousin rides a motorbike.' },
+      { w:'plane', ipa:'pleɪn', pos:'n', zh:'飞机', ex:'We go by plane.' },
+      { w:'taxi', ipa:'ˈtæk.si', pos:'n', zh:'出租车', ex:'I took a taxi from the station to the hotel.' },
+      { w:'train', ipa:'treɪn', pos:'n', zh:'火车', ex:'We always go by train.' },
+      { w:'mountain', ipa:'ˈmaʊn.tɪn', pos:'n', zh:'高山', ex:'My favourite journey is to the mountains to ski.' },
+      { w:'beach', ipa:'biːtʃ', pos:'n', zh:'海滩', ex:"It's got really beautiful beaches and we always have a great time." },
+      { w:'river', ipa:'ˈrɪv.ə', pos:'n', zh:'河流', ex:'Every morning I walk along the river.' },
+      { w:'sea', ipa:'siː', pos:'n', zh:'大海', ex:'Every year my family goes on holiday to a small town by the sea.' },
+      { w:'field', ipa:'fiːld', pos:'n', zh:'田野', ex:'corn fields' },
+      { w:'lake', ipa:'leɪk', pos:'n', zh:'湖泊', ex:'Lake Titicaca is a large lake between Peru and Bolivia.' },
+      { w:'farm', ipa:'fɑːm', pos:'n', zh:'农场', ex:'We live on a farm and my school is about one kilometre away.' },
+      { w:'forest', ipa:'ˈfɒr.ɪst', pos:'n', zh:'森林', ex:'I just love watching the mountains and forests go past.' },
+      { w:'cable car', ipa:'ˈkeɪ.bl ˌkɑː', pos:'n', zh:'缆车', ex:"Ankara's cable car is cheaper than other forms of public transport." },
+      { w:'escalator', ipa:'ˈes.kə.leɪ.tə', pos:'n', zh:'自动扶梯', ex:'Escalators are usually inside a shopping centre or an airport.' },
+      { w:'submarine', ipa:'ˌsʌb.mə.rˈiːn', pos:'n', zh:'潜艇', ex:'Now you can travel in a submarine!' }
+    ]
+  };
+
+  /* 篇章元数据 */
+  var PASSAGES = {
+    "7": [
+      { key:'u7_p66_livingforsport', p:'p66', kind:'纪录片', title:'LIVING FOR SPORT', intro:'日常运动与生活', demo:true },
+      { key:'u7_p67_sportwonders',   p:'p67', kind:'阅读 A', title:'SPORT WONDERS!',  intro:'了不起的运动奇人', demo:false },
+      { key:'u7_p69_listening',      p:'p69', kind:'听力',   title:'Listening · A phone call', intro:'电话对话', demo:false },
+      { key:'u7_p70_last4min',       p:'p70', kind:'阅读 B', title:'An Amazing Last Four Minutes', intro:'惊心动魄的最后四分钟', demo:false },
+      { key:'u7_p72_rainyday',       p:'p72', kind:'口语对话',title:'Rainy Day · Nina & Dave', intro:'雨天对话', demo:false },
+      { key:'u7_p73_staypositive',   p:'p73', kind:'播客',   title:'Stay Positive', intro:'保持积极', demo:false }
+    ],
+    "12": [
+      { key:'u12_p110_movingabout',  p:'p110', kind:'纪录片', title:'Moving About',    intro:'出行方式大盘点', demo:false },
+      { key:'u12_p111_greatrace',    p:'p111', kind:'阅读 A', title:'The Great Race',  intro:'伟大的比赛', demo:true },
+      { key:'u12_p113_trainstation', p:'p113', kind:'听力',   title:'At the Train Station', intro:'车站对话', demo:false },
+      { key:'u12_p114_favjourney',   p:'p114', kind:'阅读 B', title:'My Favourite Journey', intro:'我最爱的旅程', demo:false },
+      { key:'u12_p117_transport',    p:'p117', kind:'文化',   title:'Transport Around the World', intro:'世界交通', demo:false }
+    ]
+  };
+
+  var K = 'think-foundation-progress-v6';
+
+  /* ── 存储 ── */
+  function loadState(){ try { var p=JSON.parse(localStorage.getItem(K)); return (p && typeof p==='object')?p:{visited:[],done:[],welcome:false}; } catch(e){ return {visited:[],done:[],welcome:false}; } }
+  function saveState(s){ try{ localStorage.setItem(K, JSON.stringify(s)); }catch(e){} }
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
+  /* ═══════════ 教师任务 / 学生身份 / 上报 ═══════════ */
+  var AKEY='tf_assignments', RKEY='tf_reports', STUKEY='tf_current_student';
+  function loadJ(k,d){ try { var p=JSON.parse(localStorage.getItem(k)); return (p&&typeof p==='object')?p:d; } catch(e){ return d; } }
+  function nowTs(){ return Date.now(); }
+  function pad(n){ return (n<10?'0':'')+n; }
+  function fmtTs(t){ if(!t) return '—'; var d=new Date(t); return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+' '+pad(d.getHours())+':'+pad(d.getMinutes()); }
+
+  function accountName(){ try{ var u=JSON.parse(localStorage.getItem('tf_user')||'null'); return (u&&u.name)||''; }catch(e){ return ''; } }
+  function getStudent(){ return accountName() || localStorage.getItem(STUKEY) || ''; }
+  function logout(){ 
+    try{ localStorage.removeItem('tf_token'); localStorage.removeItem('tf_user'); }catch(e){}
+    location.href='/login.html';
+  }
+
+  /* 上报：name / unit / type(preview|review) / itemId / 'start'|'done'
+     itemId 约定：主题词='theme'，篇章='<passageKey>'；词汇项自动读取词汇 records 判定 */
+  function report(name, unit, type, itemId, action){
+    if(!name) return;
+    var R = loadJ(RKEY, {});
+    (R[name] = R[name] || {})[unit] = (R[name][unit] || {});
+    var su = R[name][unit];
+    (su[type] = su[type] || {})[itemId] = (su[type][itemId] || {});
+    var rec = su[type][itemId];
+    if(action==='start' && !rec.startedAt){ rec.startedAt = nowTs(); }
+    if(action==='done'){ rec.doneAt = nowTs(); }
+    if(action==='undone'){ delete rec.doneAt; }
+    try{ localStorage.setItem(RKEY, JSON.stringify(R)); }catch(e){}
+  }
+  function getReport(name, unit, type, itemId){
+    var R = loadJ(RKEY, {});
+    var st = (R[name] && R[name][unit] && R[name][unit][type] && R[name][unit][type][itemId]) || {};
+    return st;
+  }
+  /* 词汇完成度：读 `<passageKey>_records_v2`，known/mastered 判掌握 */
+  function vocabProgress(key){
+    var d={total:0,done:0,pct:0,has:false};
+    try{
+      var raw=localStorage.getItem(key+'_records_v2')||localStorage.getItem(key+'_records_v1');
+      if(!raw) return d;
+      var obj=JSON.parse(raw), karr=Object.keys(obj);
+      d.total=karr.length; d.has=karr.length>0;
+      var c=0; karr.forEach(function(k2){ var s=obj[k2]&&obj[k2].status; if(s==='known'||s==='mastered') c++; });
+      d.done=c; d.pct=d.total?Math.round(c/d.total*100):0;
+      return d;
+    }catch(e){ return d; }
+  }
+  function findPassageMeta(key){ for(var u in PASSAGES){ var f=PASSAGES[u].find(function(p){return p.key===key;}); if(f) return f; } return null; }
+  function pgOfKey(pk){ var m=String(pk).match(/p(\d+)/); return m? +m[1] : 0; }
+  function followProg(pg){ try{ var o=JSON.parse(localStorage.getItem('tf_follow_'+pg)); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
+  var THEME_TITLE = { '7':'单元主题词汇（运动·时间·月份·序数）', '12':'单元主题词汇（交通出行）' };
+
+  function passageItemCard(it, unitKey, type, name, done){
+    var meta = findPassageMeta(it.passageKey);
+    var id = it.passageKey;
+    var title = meta ? (meta.kind+' · '+meta.title) : it.passageKey;
+    var wants = [];
+    if(it.engines.indexOf('vocab')!==-1)  wants.push({mode:'vocab',  ico:ICON('book','sm'), lab:'词汇 · 诊断学习'});
+    if(it.engines.indexOf('follow')!==-1) wants.push({mode:'follow', ico:ICON('sound','sm'), lab:'跟读 · 听读写'});
+    if(!wants.length) return '';
+    var vp = it.engines.indexOf('vocab')!==-1 ? vocabProgress(it.passageKey) : null;
+    var vocTxt = (vp && vp.has) ? '<span class="ti-voc" style="margin-left:2px;">词·已掌握 '+vp.done+'/'+vp.total+'</span>' : '';
+    var fp = followProg(pgOfKey(it.passageKey));
+    var folTxt = (fp.follow) ? '<span class="ti-voc" style="margin-left:2px;color:#16a34a;">跟读·已完成</span>' : '';
+    var engHtml = wants.map(function(w){
+      return '<button class="t-item" data-u="'+unitKey+'" data-t="'+type+'" data-id="'+id+'" data-mode="'+w.mode+'">'
+        + '<span class="ti-ico">'+w.ico+'</span>'
+        + '<span class="ti-body"><span class="ti-title">'+esc(title)+'</span><span class="ti-sub">'+esc(w.lab)+'</span></span>'
+        + (w.mode==='vocab'?vocTxt:'') + (w.mode==='follow'?folTxt:'')
+        + '</button>';
+    }).join('');
+    return engHtml
+      + '<button class="ti-mk'+(done?' done':'')+'" data-u="'+unitKey+'" data-t="'+type+'" data-id="'+id+'" data-mark="1" title="标记完成">'+ICON('check','sm')+'</button>';
+  }
+
+  /* ── Toast ── */
+  var toastEl = document.getElementById('toast'), toastT = null;
+  function toast(msg, ms){ toastEl.textContent = msg; toastEl.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(function(){ toastEl.classList.remove('show'); }, ms||1800); }
+
+  /* ── 视图切换 ── */
+  var views = ['home','unit','passage'];
+  function showView(v){ views.forEach(function(x){ document.getElementById('view-'+x).classList.toggle('on', x===v); }); window.scrollTo(0,0); }
+
+  /* ── 发音：浏览器 TTS 英音兜底 ── */
+  function speak(text){ try { var u = new SpeechSynthesisUtterance(text); u.lang='en-GB'; u.rate=0.92; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch(e){} }
+
+  /* ═══════════ 首页：书架 ═══════════ */
+  var shelfEl = document.getElementById('shelf');
+  function renderShelf(){
+    var s = loadState();
+    shelfEl.innerHTML = UNITS.map(function(u){
+      var cls = 'book' + (u.live?' live':'');
+      var tag = u.live ? '可学习' : '筹备中';
+      var mark = (s.done.indexOf(u.key)!==-1 && u.live) ? '<span class="done-mark">'+ICON('check','sm')+'</span>' : '';
+      return '<button class="'+cls+'" type="button" data-k="'+u.key+'" style="--h:'+u.h+'">'
+        + '<span class="tag">'+tag+'</span>' + mark
+        + '<div class="cover"><span class="num">'+u.n+'</span><h3>'+esc(u.title)+'</h3></div>'
+        + '</button>';
+    }).join('');
+    shelfEl.querySelectorAll('.book').forEach(function(card){
+      var key = card.dataset.k;
+      card.addEventListener('click', function(){ openUnit(key); });
+    });
+  }
+
+  function openUnit(key){
+    var u = UNITS.find(function(x){return x.key===key;});
+    if(!u) return;
+    if(!u.live){ toast('「'+u.n+' · '+u.title+'」正在筹备中，敬请期待'); return; }
+    var s = loadState();
+    if(s.visited.indexOf(key)===-1){ s.visited.push(key); saveState(s); }
+    var unit = findUnitPage(key);
+    document.getElementById('unitNum').textContent = 'Unit ' + u.n;
+    document.getElementById('unitName').textContent = u.title;
+    document.getElementById('unitSub').textContent = u.sub;
+    document.getElementById('unitCrumb').textContent = 'Unit ' + u.n + ' · ' + u.title;
+    renderThemeVocab(key);
+    renderPassages(key);
+    renderTaskZone(key);
+    showView('unit');
+  }
+
+  function autoOpenUnit(){
+    var m = location.search.match(/[?&]unit=(\d+)/);
+    if(!m) return;
+    var key = m[1];
+    var u = UNITS.find(function(x){return x.key===key;});
+    if(u && u.live){
+      openUnit(key);
+      window.addEventListener('store-hydrated', function(){ renderTaskZone(key); });
+    }
+  }
+
+  function renderThemeVocab(key){
+    var words = THEME[key] || [];
+    document.getElementById('vwCount').textContent = words.length + ' 词';
+    var grid = document.getElementById('vwGrid');
+    grid.innerHTML = words.map(function(w,i){
+      return '<div class="vw" data-i="'+i+'">'
+        + '<div class="top"><span class="w">'+esc(w.w)+'</span><span class="ipa">'+esc(w.ipa)+'</span><span class="pos">'+esc(w.pos)+'</span></div>'
+        + '<div class="def">'+esc(w.zh)+'</div>'
+        + '<div class="hidden-def"><button class="spk" style="appearance:none;border:none;background:none;cursor:pointer;color:#7C3AED;font-weight:900;font-size:12px;padding:0;" data-word="'+esc(w.w)+'">'+ICON('sound','sm')+' 播放</button></div>'
+        + '<div class="ex">'+esc(w.ex)+'</div>'
+        + '</div>';
+    }).join('');
+    grid.querySelectorAll('.vw').forEach(function(card){
+      card.addEventListener('click', function(e){
+        if(e.target.closest('.spk')) return;
+        card.classList.toggle('show');
+      });
+    });
+    grid.querySelectorAll('.spk').forEach(function(b){
+      b.addEventListener('click', function(e){ e.stopPropagation(); speak(b.dataset.word); });
+    });
+  }
+
+  function renderPassages(key){
+    var list = PASSAGES[key] || [];
+    document.getElementById('pgCount').textContent = list.length + ' 篇';
+    var grid = document.getElementById('pgGrid');
+    grid.innerHTML = list.map(function(p){
+      return '<div class="pg" data-key="'+p.key+'">'
+        + '<span class="kind">'+esc(p.kind)+'</span>'
+        + '<div class="pt">'+esc(p.title)+'</div>'
+        + '<div class="pps">'+p.p+' · '+esc(p.intro)+'</div>'
+        + '<div class="acts">'
+        + '<div class="act" data-act="vocab"><span class="a-name">'+ICON('book','sm')+' 篇章词汇</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+        + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章跟读</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+        + '</div>'
+        + '</div>';
+    }).join('');
+    grid.querySelectorAll('.pg').forEach(function(card){
+      card.addEventListener('click', function(e){
+        var act = e.target.closest('[data-act]');
+        var key2 = card.dataset.key;
+        if(act){ openPassageAction(key2, act.dataset.act, e.target.closest('.pg')); return; }
+        openPassage(key2);
+      });
+    });
+  }
+
+  function findPassage(key){
+    for(var uk in PASSAGES){ var f = PASSAGES[uk].find(function(p){return p.key===key;}); if(f) return { u:uk, p:f }; }
+    return null;
+  }
+
+  /* ═══════════ 篇章页 ═══════════ */
+  var currentUnit = null, currentPg = null;
+  function openPassage(key){
+    var found = findPassage(key); if(!found) return;
+    currentUnit = found.u; currentPg = found.p;
+    var u = UNITS.find(function(x){return x.key===currentUnit;});
+    document.getElementById('pgTitle').textContent = currentPg.title;
+    document.getElementById('pgSub').textContent = 'Unit '+u.n+' · '+u.title+' · '+currentPg.kind+' · '+currentPg.p;
+    renderFlow();
+    showView('passage');
+  }
+
+  function actBtn(action, label, cls, done){
+    return '<button class="btn'+(cls?' '+cls:'')+'" data-action="'+action+'">'+label+(done?'':'')+'</button>';
+  }
+
+  function renderFlow(){
+    var el = document.getElementById('flow'); var p = currentPg;
+    var live = (p.key.indexOf('u7_')===0 || p.key.indexOf('u12_')===0);
+    var vocabReady = live;   // U7/U12 已逐篇参数化生成独立词汇诊断页
+    var followReady = live;      // 句级对齐引擎已收录 U7/U12 全部篇章（文本+音频+时间轴）
+    var vocabBtn = vocabReady
+      ? actBtn('open-vocab', '开始篇章词汇学习 '+ICON('right','sm'), '', false)
+      : actBtn('soon-vocab', '词汇词卡建设中', 'ghost', false);
+    var followBtn = followReady
+      ? actBtn('open-follow', '进入篇章跟读 '+ICON('right','sm'), '', false)
+      : actBtn('soon-follow', '跟读组件建设中', 'ghost', false);
+    el.innerHTML =
+      '<div class="flow-card">'
+      + '<div class="fc-ico">'+ICON('book')+'</div><h4>篇章词汇</h4>'
+      + '<div class="fc-desc">为这一篇的词汇做「预习 · 复习 · 测试」三步。不认识的一个个学起来，测试达标即完成本篇预习。</div>'
+      + '<div class="steps">'
+      +   '<div class="step"><span class="s-num">1</span>筛选：认出会/不会的词</div>'
+      +   '<div class="step"><span class="s-num">2</span>学习：先回忆再揭示，掌握发音与释义</div>'
+      +   '<div class="step"><span class="s-num">3</span>测试：按状态分层自测，答对连续两次才升级</div>'
+      + '</div>'
+      + vocabBtn
+      + '</div>'
+      + '<div class="flow-card">'
+      + '<div class="fc-ico">'+ICON('sound')+'</div><h4>篇章跟读</h4>'
+      + '<div class="fc-desc">听读原文，逐句跟读、逐句听写。让嘴巴和耳朵把这一篇真正练熟。</div>'
+      + '<div class="steps">'
+      +   '<div class="step"><span class="s-num">1</span>聆听：整篇听读，感受节奏</div>'
+      +   '<div class="step"><span class="s-num">2</span>跟读：逐句跟读，对照原文</div>'
+      +   '<div class="step"><span class="s-num">3</span>听写：逐句听写，检验掌握</div>'
+      + '</div>'
+      + followBtn
+      + '</div>';
+
+    el.querySelectorAll('[data-action]').forEach(function(b){
+      b.addEventListener('click', function(){
+        switch(b.dataset.action){
+          case 'open-vocab': openVocabEngine(); break;
+          case 'open-follow': openFollowEngine(); break;
+          case 'soon-vocab': toast('「'+ currentPg.title +'」篇章词汇词表正在生成'); break;
+          case 'soon-follow': toast('「'+ currentPg.title +'」跟读组件正在接入'); break;
+        }
+      });
+    });
+  }
+
+  function openPassageAction(key, act){
+    var found = findPassage(key); if(!found) return;
+    currentUnit = found.u; currentPg = found.p;
+    var u = UNITS.find(function(x){return x.key===currentUnit;});
+    document.getElementById('pgTitle').textContent = currentPg.title;
+    document.getElementById('pgSub').textContent = 'Unit '+u.n+' · '+u.title+' · '+currentPg.kind+' · '+currentPg.p;
+    renderFlow();
+    showView('passage');
+    if(act==='vocab'){ var b=document.querySelector('#flow [data-action]'); if(b && b.dataset.action==='open-vocab') b.click(); else toast('「'+currentPg.title+'」词汇词表正在生成'); }
+    if(act==='follow'){ var f=document.querySelector('#flow .flow-card:nth-of-type(2) .btn'); }
+  }
+
+  /* 引擎接入：按篇章 key 打开对应独立词汇诊断页（每篇存储键自动隔离） */
+  function openVocabEngine(){
+    var key = currentPg.key;
+    var live = (key.indexOf('u7_')===0 || key.indexOf('u12_')===0);
+    if(!live){ toast('「'+currentPg.title+'」词汇词表建设中'); return; }
+    window.open('词汇诊断/词汇诊断_'+key+'.html','_blank');
+  }
+  function openFollowEngine(){
+    var key = currentPg.key;
+    var live = (key.indexOf('u7_')===0 || key.indexOf('u12_')===0);
+    if(!live){ toast('「'+currentPg.title+'」跟读组件接入中，稍后开放'); return; }
+    var pg = parseInt(String(currentPg.p).replace(/^p/,''), 10);
+    if(isNaN(pg)){ toast('无法定位该篇音频'); return; }
+    window.open('index.html?pg='+pg, '_blank');
+  }
+
+  /* ── 稀释：任务面板入口直接打开引擎 ── */
+  function launchTaskMaterial(unit, type, it){
+    var name = getStudent();
+    if(it.id==='theme'){
+      // 单元主题词汇：直接定位到本页词汇区
+      report(name, unit, type, 'theme', 'start');
+      var target = document.getElementById('vwGrid');
+      if(target){ target.scrollIntoView({behavior:'smooth', block:'start'}); }
+      toast('已开始：'+(type==='preview'?'预习':'复习')+' · 单元主题词汇，请学习下方词汇卡片');
+      return;
+    }
+    var meta = findPassageMeta(it.passageKey);
+    var live = !meta || (it.passageKey.indexOf('u7_')===0 || it.passageKey.indexOf('u12_')===0);
+    if(!live){ toast('「'+ (meta?meta.title:it.passageKey) +'」材料暂未接入'); return; }
+    if(it.mode==='vocab'){
+      report(name, unit, type, it.passageKey, 'start');
+      window.open('词汇诊断/词汇诊断_'+it.passageKey+'.html','_blank');
+    } else if(it.mode==='follow'){
+      report(name, unit, type, it.passageKey, 'start');
+      var pg = parseInt(String(meta.p).replace(/^p/,''), 10);
+      if(!isNaN(pg)) window.open('index.html?pg='+pg, '_blank');
+      else toast('找不到该篇音频');
+    }
+  }
+
+  /* ── 单元任务面板（教师工作台发放的预习/复习） ── */
+  function renderTaskZone(unitKey){
+    var zone = document.getElementById('taskzone');
+    var A = loadJ(AKEY, {});
+    var u = A[unitKey];
+    var name = getStudent();
+    function isDone(it, type){
+      var id = it.id || (it.kind==='theme' ? 'theme' : it.passageKey);
+      if(getReport(name, unitKey, type, id).doneAt) return true;
+      if(it.kind==='passage' && it.engines.indexOf('follow')!==-1 && followProg(pgOfKey(it.passageKey)).follow) return true;
+      if(it.kind==='passage' && it.engines.indexOf('vocab')!==-1){ var v=vocabProgress(it.passageKey); if(v.has && v.pct>=100) return true; }
+      return false;
+    }
+    var P=(u&&u.preview)||{}, R=(u&&u.review)||{};
+    var pI=(P.items)||[], rI=(R.items)||[];
+    if(!pI.length && !rI.length){
+      zone.innerHTML = '<div class="tz-empty"><span class="ic">'+ICON('inbox')+'</span>本单元暂无任务<span>老师还没有为本单元发放预习 / 复习任务，你可以自由浏览下方材料。</span></div>';
+      return;
+    }
+    var groups = [
+      { type:'preview', items:pI, dl:P.deadline||'' },
+      { type:'review', items:rI, dl:R.deadline||'' }
+    ];
+    var totItems=0, totDone=0;
+    groups.forEach(function(g){ totItems+=g.items.length; totDone+=g.items.filter(function(it){return isDone(it,g.type);}).length; });
+    var totPct = totItems ? Math.round(totDone/totItems*100) : 0;
+    var allDone = totItems>0 && totDone>=totItems;
+    var preDone = groups[0].items.length>0 && groups[0].items.every(function(it){return isDone(it,'preview');});
+    var revDone = groups[1].items.length>0 && groups[1].items.every(function(it){return isDone(it,'review');});
+    var today=new Date();
+    var dateTxt=(today.getMonth()+1)+'月'+today.getDate()+'日 · '+['周日','周一','周二','周三','周四','周五','周六'][today.getDay()];
+    var ringTxt = totPct>=100 ? '100%' : totPct+'%';
+
+    function stage(g){
+      if(!g.items.length) return '';
+      var dlTs = g.dl ? new Date(g.dl.replace('T',' ')).getTime() : 0;
+      var late = dlTs && nowTs()>dlTs;
+      var done = g.items.filter(function(it){ return isDone(it,g.type); }).length;
+      var pct = Math.round(done/g.items.length*100);
+      var chip = g.dl
+        ? (late ? '<span class="tz-chip late">'+ICON('calendar','sm')+' 已过 · '+esc(g.dl.replace('T',' '))+'</span>' : '<span class="tz-chip">'+ICON('calendar','sm')+' 截止 '+esc(g.dl.replace('T',' '))+'</span>')
+        : '';
+      var isPre = g.type==='preview';
+      var rows='';
+      g.items.forEach(function(it){
+        var doneThis = isDone(it,g.type);
+        var id = it.id || (it.kind==='theme' ? 'theme' : it.passageKey);
+        var mark = '<button class="tz-mark'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'" data-id="'+id+'" data-mark="1" title="标记完成">'+ICON('check','sm')+'</button>';
+        if(it.kind==='theme'){
+          rows += '<div class="tz-row'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'">'
+            + '<span class="i-ic">'+ICON('folder')+'</span>'
+            + '<span class="i-bd"><span class="i-tl">'+esc(THEME_TITLE[unitKey]||'单元主题词汇')+'<span class="m">主题</span></span><span class="i-st">词汇卡片 · 发音 · 释义</span></span>'
+            + '<span class="i-cta">'+(doneThis?'已完成':'开始 '+ICON('play','sm'))+'</span>'
+            + mark + '</div>';
+          return;
+        }
+        var meta = findPassageMeta(it.passageKey);
+        var title = meta ? (meta.kind+' · '+meta.title) : it.passageKey;
+        var wants=[];
+        if(it.engines.indexOf('vocab')!==-1)  wants.push({mode:'vocab',  ico:ICON('book','sm'), lab:'词汇 · 诊断学习'});
+        if(it.engines.indexOf('follow')!==-1) wants.push({mode:'follow', ico:ICON('sound','sm'), lab:'跟读 · 听读写'});
+        wants.forEach(function(w){
+          var vp = w.mode==='vocab' ? vocabProgress(it.passageKey) : null;
+          var fp = w.mode==='follow' ? followProg(pgOfKey(it.passageKey)) : null;
+          var extra='';
+          if(vp && vp.has) extra='<b> 词·已掌握 '+vp.done+'/'+vp.total+'</b>';
+          if(fp && fp.follow) extra='<b> 跟读·已完成</b>';
+          rows += '<div class="tz-row'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'" data-id="'+id+'" data-mode="'+w.mode+'" data-kind="passage">'
+            + '<span class="i-ic">'+w.ico+'</span>'
+            + '<span class="i-bd"><span class="i-tl">'+esc(title)+'<span class="m">'+(w.mode==='vocab'?'词汇':'跟读')+'</span></span><span class="i-st">'+esc(w.lab)+extra+'</span></span>'
+            + '<span class="i-cta">'+(doneThis?'已完成':'开始 '+ICON('play','sm'))+'</span>'
+            + mark + '</div>';
+        });
+      });
+      return '<div class="tz-stage '+(isPre?'tre':'trev')+'"'+(isPre?'':' id="tzReview"')+'>'
+        + '<div class="tz-sh"><span class="ico-box">'+ICON(isPre?'book':'loop')+'</span>'
+        + '<span class="tz-sh-t"><b>'+(isPre?('预习任务'+(preDone?' · 已完成':'')):'复习任务')+'</b><span>'+(isPre?'上课前 · 认识生词、初听原文':'课后 · 测试掌握、练熟跟读')+'</span></span>'
+        + chip + '</div>'
+        + '<div class="tz-bar"><i style="width:'+pct+'%"></i></div>'
+        + '<div class="tz-rows">'+rows+'</div></div>';
+    }
+
+    /* 预习全部完成：有复习任务 → 全屏引导；无复习任务 → 轻提示条 */
+    var bridge='', guideOn=false;
+    if(preDone && !revDone){
+      if(groups[1].items.length){
+        var seen=false; try{ seen=!!sessionStorage.getItem('tf_guide_'+unitKey); }catch(e){}
+        guideOn=!seen;
+      } else {
+        bridge='<div class="bridge"><span class="b-ic">'+ICON('star')+'</span><span class="b-t"><b>预习任务已完成！</b><span>本单元老师暂未布置复习任务，可以自由巩固下方材料。</span></span></div>';
+      }
+    }
+
+    zone.innerHTML =
+      '<div class="tz-hero"><div class="tz-hero-in">'
+      + '<div class="tz-day"><div class="tz-kicker">TH!NK · 今日学习</div>'
+      + '<div class="tz-title">'+(allDone?'全部完成 '+ICON('star','sm'):'预习 · 复习')+'</div>'
+      + '<div class="tz-sub">'+esc(dateTxt)+' · 本单元布置的任务</div></div>'
+      + '<div class="tz-ring"><svg width="86" height="86" viewBox="0 0 92 92">'
+      + '<circle cx="46" cy="46" r="34" class="rp" stroke="rgba(255,255,255,.18)"/>'
+      + '<circle cx="46" cy="46" r="34" class="rp" stroke="#34d399" stroke-width="8" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="'+(213.6*(1-totPct/100)).toFixed(1)+'" transform="rotate(-90 46 46)"/>'
+      + '<text x="46" y="51" text-anchor="middle" font-size="15" font-weight="900" fill="#fff" stroke="none">'+ringTxt+'</text>'
+      + '<text x="46" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="rgba(255,255,255,.85)" stroke="none">'+totDone+'/'+totItems+'</text>'
+      + '</svg></div>'
+      + '<div class="tz-msg">'+(allDone?'所有预习与复习任务都完成了，很棒！':'完成预习与复习任务，跟着提示一步步学，打开材料即自动记录。')+'</div>'
+      + '</div></div>'
+      + bridge
+      + stage(groups[0])
+      + stage(groups[1]);
+
+    /* 全屏引导：仅在尚未展示时创建，避免重复渲染重播动画 */
+    if(guideOn && !document.getElementById('tzGuide')){
+      var gEl=document.createElement('div');
+      gEl.className='guide'; gEl.id='tzGuide';
+      gEl.innerHTML='<div class="guide-card"><div class="guide-in">'
+        + '<div class="guide-badge">'+ICON('star')+'</div>'
+        + '<div class="guide-kicker">PREVIEW COMPLETE · 预习通关</div>'
+        + '<div class="guide-title">预习任务已完成！</div>'
+        + '<div class="guide-sub">生词与初读都过关了。趁热打铁进入复习，测一测真正掌握了多少。</div>'
+        + '<div class="guide-steps"><span class="guide-step ok">'+ICON('book','sm')+' 预习 '+ICON('check','sm')+'</span><span class="guide-arrow">'+ICON('right','sm')+'</span><span class="guide-step">'+ICON('loop','sm')+' 复习</span></div>'
+        + '<div class="guide-btns"><button class="guide-go" id="tzGuideGo">进入复习任务 '+ICON('right','sm')+'</button><button class="guide-later" id="tzGuideLater">稍后再说</button></div>'
+        + '</div></div>';
+      document.body.appendChild(gEl);
+      requestAnimationFrame(function(){ gEl.classList.add('on'); });
+      var onEsc=function(e){ if(e.key==='Escape') closeG(); };
+      var closeG=function(){
+        document.removeEventListener('keydown', onEsc);
+        try{ sessionStorage.setItem('tf_guide_'+unitKey,'1'); }catch(e){}
+        gEl.classList.remove('on');
+        setTimeout(function(){ if(gEl.parentNode) gEl.parentNode.removeChild(gEl); }, 320);
+      };
+      var gGo=document.getElementById('tzGuideGo'), gLater=document.getElementById('tzGuideLater');
+      if(gGo) gGo.addEventListener('click', function(){
+        closeG();
+        var rv=zone.querySelector('#tzReview');
+        if(rv){ rv.scrollIntoView({behavior:'smooth', block:'center'}); rv.classList.add('jump'); setTimeout(function(){ rv.classList.remove('jump'); }, 3400); }
+      });
+      if(gLater) gLater.addEventListener('click', closeG);
+      gEl.addEventListener('click', function(e){ if(e.target===gEl) closeG(); });
+      document.addEventListener('keydown', onEsc);
+    }
+
+    zone.querySelectorAll('.tz-row[data-mode]').forEach(function(row){
+      row.addEventListener('click', function(e){
+        if(e.target.closest('.tz-mark')) return;
+        launchTaskMaterial(row.dataset.u, row.dataset.t, { id:row.dataset.id, passageKey:row.dataset.id, mode:row.dataset.mode, kind:row.dataset.kind||'passage' });
+      });
+    });
+    zone.querySelectorAll('.tz-row').forEach(function(row){
+      if(row.dataset.mode) return;
+      row.addEventListener('click', function(e){
+        if(e.target.closest('.tz-mark')) return;
+        launchTaskMaterial(unitKey, row.dataset.t, { id:'theme', passageKey:'theme', mode:'theme', kind:'theme' });
+      });
+    });
+    zone.querySelectorAll('.tz-mark').forEach(function(m){
+      m.addEventListener('click', function(e){
+        e.stopPropagation();
+        var name2 = getStudent(); if(!name2){ showNameGate(); return; }
+        var rec = getReport(name2, m.dataset.u, m.dataset.t, m.dataset.id);
+        if(rec.doneAt){ report(name2, m.dataset.u, m.dataset.t, m.dataset.id, 'undone'); toast('已取消完成标记'); }
+        else { report(name2, m.dataset.u, m.dataset.t, m.dataset.id, 'done'); toast('已标记完成'); }
+        renderTaskZone(m.dataset.u);
+      });
+    });
+  }
+
+  /* ── 身份 ── */
+  var whoBtn=document.getElementById('whoBtn'), whoName=document.getElementById('whoName'), nameGate=document.getElementById('nameGate');
+  function refreshWho(){
+    var n = getStudent();
+    if(n){ whoName.textContent = n; whoBtn.classList.remove('req'); whoBtn.title='当前学生，点击切换'; }
+    else { whoName.textContent = '填写姓名'; whoBtn.classList.add('req'); whoBtn.title='请先填写姓名'; }
+  }
+  function showNameGate(){
+    nameGate.classList.remove('hide');
+    document.getElementById('gateHint').textContent = getStudent()
+      ? '切换为另一位同学学习。输入新姓名后，进度将按新姓名记录。'
+      : '请输入你的姓名，用于记录预习 / 复习进度。老师可在教师工作台查看你的完成情况。';
+    var inp = document.getElementById('nameInput'); inp.value=''; document.getElementById('nameErr').textContent='';
+    setTimeout(function(){ inp.focus(); }, 60);
+  }
+  function hideNameGate(){ nameGate.classList.add('hide'); }
+  function confirmName(){
+    var v = document.getElementById('nameInput').value.trim();
+    if(!v){ document.getElementById('nameErr').textContent='请输入姓名'; return; }
+    setStudent(v); hideNameGate(); refreshWho();
+    toast(v+' 同学，开始学习吧');
+  }
+  var setStudent = function(n){ try{ localStorage.setItem(STUKEY, n); }catch(e){} };
+  whoBtn.addEventListener('click', function(){
+    if(!getStudent()){ showNameGate(); return; }
+    if(confirm('退出当前账号并返回登录页？')) logout();
+  });
+  document.getElementById('nameOk').addEventListener('click', confirmName);
+  document.getElementById('nameInput').addEventListener('keydown', function(e){ if(e.key==='Enter') confirmName(); });
+
+  /* ── 返回 ── */
+  document.getElementById('unitBack').addEventListener('click', function(){ showView('home'); });
+  document.getElementById('pgBack').addEventListener('click', function(){ if(currentUnit) openUnit(currentUnit); else showView('home'); });
+  function findUnitPage(key){ return key; }
+  document.getElementById('welcomeBtn').addEventListener('click', function(){
+    var s = loadState(); if(!s.welcome){ s.welcome=true; saveState(s); }
+    toast('Welcome 入门单元正在筹备中');
+  });
+  document.getElementById('teacherLink').addEventListener('click', function(){ window.open('教师端.html','_blank'); });
+
+  refreshWho();
+  renderShelf();
+  showView('home');
+  autoOpenUnit();
+  if(!localStorage.getItem('tf_token')){
+    setTimeout(function(){ location.href='/login.html'; }, 350);
+  } else if(!accountName()){
+    setTimeout(showNameGate, 300);
+  }
+})();
+</script>
+<script src="/store.js"></script></body>
+</html>

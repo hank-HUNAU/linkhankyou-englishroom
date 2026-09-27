@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TH!NK Foundation · 教师工作台</title>
+<meta name="theme-color" content="#eef1f8">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2310B981'/><text x='50' y='72' font-size='56' font-family='Inter,sans-serif' font-weight='900' fill='white' text-anchor='middle'>T</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ui.css">
+<script src="ui.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  /* 设计令牌（颜色/圆角/阴影/字体/噪点）统一由 ui.css 提供，此处不再重复定义 */
+  body { min-height:100vh; background:var(--bg); color:var(--ink); font-family:var(--font); -webkit-font-smoothing:antialiased; }
+  .bg { position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none; }
+  .bg span { position:absolute; border-radius:50%; filter:blur(80px); }
+  .bg .b1{width:460px;height:460px;left:2%;top:4%;background:#10B981;opacity:.30;}
+  .bg .b2{width:420px;height:420px;right:6%;top:6%;background:#7C3AED;opacity:.32;}
+  .bg .b3{width:500px;height:500px;left:10%;bottom:4%;background:#EC4899;opacity:.24;}
+  .bg .b4{width:420px;height:420px;right:8%;bottom:6%;background:#F97316;opacity:.22;}
+  .wrap { position:relative; z-index:1; max-width:1180px; width:100%; margin:0 auto; padding:0 26px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:24px 0 16px; flex-wrap:wrap; }
+  .logo { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  .brand { font-weight:900; font-size:32px; letter-spacing:-.04em; line-height:1;
+    background:var(--noise,linear-gradient(135deg,#059669,#10B981)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .brand .grad{ background:linear-gradient(135deg,#10B981,#7C3AED); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .edition { font-size:9px; font-weight:800; letter-spacing:.16em; color:rgba(30,27,75,.5); }
+
+  .tabs { display:flex; gap:8px; flex-wrap:wrap; }
+  .tab { appearance:none; border:1.5px solid var(--line); background:rgba(255,255,255,.6); color:#475569; cursor:pointer;
+    font-family:inherit; font-weight:800; font-size:13.5px; padding:9px 16px; border-radius:var(--r-pill); transition:all .22s; }
+  .tab:hover { transform:translateY(-1px); border-color:rgba(16,185,129,.4); }
+  .tab.on { background:linear-gradient(135deg,#059669,#10B981); color:#fff; border-color:transparent; box-shadow:0 10px 20px -8px rgba(16,185,129,.55); }
+
+  .panel { display:none; padding-bottom:60px; }
+  .panel.on { display:block; animation:fade .35s ease; }
+  @keyframes fade { from{opacity:0;transform:translateY(8px);} }
+
+  .card { background:linear-gradient(170deg,rgba(255,255,255,.97),rgba(255,255,255,.86)); border:1px solid var(--line);
+    border-radius:var(--r-lg); padding:22px; box-shadow:var(--sh-card); }
+  .card + .card { margin-top:18px; }
+  .card h3 { margin:0 0 4px; font-size:17px; font-weight:900; color:#1e1b4b; letter-spacing:-.01em; }
+  .card .sub { font-size:12.5px; font-weight:600; color:var(--mut); margin-bottom:16px; line-height:1.6; }
+
+  .unit-pick { display:flex; gap:10px; margin-bottom:18px; flex-wrap:wrap; }
+  .unit-btn { appearance:none; border:1.5px solid var(--line); background:#fff; color:#334155; cursor:pointer; font-family:inherit;
+    font-weight:800; font-size:13.5px; padding:10px 16px; border-radius:var(--r-sm); transition:all .2s; }
+  .unit-btn:hover { border-color:rgba(124,58,237,.4); }
+  .unit-btn.on { background:linear-gradient(135deg,#7C3AED,#EC4899); color:#fff; border-color:transparent; box-shadow:0 10px 20px -8px rgba(124,58,237,.5); }
+
+  .duo { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  @media(max-width:900px){ .duo{grid-template-columns:1fr;} }
+  .taskbox { border:1.5px solid transparent; border-radius:var(--r-md); padding:16px; }
+  .taskbox.pre { background:linear-gradient(170deg,rgba(16,185,129,.10),rgba(16,185,129,.04)); border-color:rgba(16,185,129,.30); }
+  .taskbox.rev { background:linear-gradient(170deg,rgba(236,72,153,.10),rgba(236,72,153,.05)); border-color:rgba(236,72,153,.28); }
+  .taskbox h4 { margin:0 0 2px; font-size:15px; font-weight:900; letter-spacing:-.01em; }
+  .taskbox.pre h4 { color:#047857; } .taskbox.rev h4 { color:#be185d; }
+  .taskbox .tip { font-size:11.5px; font-weight:700; color:var(--mut); margin-bottom:12px; }
+
+  .row { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .lbl { font-size:12px; font-weight:800; color:var(--mut); }
+  input[type="datetime-local"], input[type="date"] { font-family:inherit; font-size:13px; font-weight:700; color:#1e1b4b;
+    padding:8px 10px; border-radius:var(--r-sm); border:1.5px solid var(--line); background:#fff; }
+  .switch { display:inline-flex; align-items:center; gap:7px; font-size:12.5px; font-weight:700; color:#334155; cursor:pointer; user-select:none; }
+  .switch input { width:16px; height:16px; accent-color:var(--p); cursor:pointer; }
+
+  .items { display:flex; flex-direction:column; gap:8px; margin-top:14px; }
+  .item { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 12px; border-radius:var(--r-sm);
+    background:#fff; border:1px solid var(--line); }
+  .item .it-l { display:flex; align-items:center; gap:8px; min-width:0; }
+  .item .it-title { font-weight:800; font-size:13px; color:#1e1b4b; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .item .it-eng { display:flex; gap:6px; }
+  .engbtn { appearance:none; border:1.5px solid var(--line); background:#f8fafc; color:#64748b; cursor:pointer; font-family:inherit;
+    font-weight:800; font-size:11px; padding:4px 9px; border-radius:var(--r-xs); transition:all .18s; }
+  .engbtn.on { background:linear-gradient(135deg,#7C3AED,#EC4899); color:#fff; border-color:transparent; }
+  .rm { appearance:none; border:none; background:none; color:#94a3b8; cursor:pointer; font-size:16px; font-weight:800; padding:2px 6px; border-radius:var(--r-xs); }
+  .rm:hover { background:rgba(236,72,153,.1); color:#be185d; }
+
+  .btn { appearance:none; border:none; cursor:pointer; font-family:inherit; padding:12px 16px; border-radius:var(--r-sm);
+    font-size:14px; font-weight:900; color:#fff; background:var(--grad-p);
+    box-shadow:var(--sh-btn); transition:all .22s; }
+  .btn:hover { transform:translateY(-1px); box-shadow:var(--sh-btn-hover); }
+  .btn.add { background:rgba(124,58,237,.08); color:#7C3AED; box-shadow:none; border:1.5px dashed rgba(124,58,237,.4); }
+  .btn.danger { background:rgba(236,72,153,.1); color:#be185d; box-shadow:none; }
+
+  /* 学情表格 */
+  .toolbar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
+  .tbl-wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:720px; }
+  th, td { padding:9px 11px; text-align:left; border-bottom:1px solid var(--line); vertical-align:middle; }
+  th { font-size:11.5px; font-weight:900; color:var(--mut); background:rgba(148,163,184,.08); letter-spacing:.03em; }
+  tr:last-child td { border-bottom:none; }
+  .stu-c { font-weight:900; color:#1e1b4b; }
+  .dot { display:inline-flex; align-items:center; gap:5px; font-size:11.5px; font-weight:700; }
+  .dot::before { content:""; width:9px; height:9px; border-radius:50%; background:#cbd5e1; }
+  .dot.s::before { background:#f59e0b; }
+  .dot.d::before { background:#10B981; box-shadow:0 0 0 3px rgba(16,185,129,.18); }
+  .deadline-late { color:#be185d; font-weight:800; }
+  .pill { display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.03em; padding:3px 8px; border-radius:var(--r-pill); }
+  .pill.pre { background:rgba(16,185,129,.14); color:#047857; }
+  .pill.rev { background:rgba(236,72,153,.13); color:#be185d; }
+  .empty { padding:24px; text-align:center; color:var(--mut); font-weight:700; }
+
+  /* 题库分析 */
+  .bank-sum { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+  @media(max-width:820px){ .bank-sum{grid-template-columns:repeat(2,1fr);} }
+  .bs-card { background:#fff; border:1px solid var(--line); border-radius:var(--r-md); padding:12px 14px; }
+  .bs-card .k { font-size:11px; font-weight:800; color:var(--mut); }
+  .bs-card .v { font-size:23px; font-weight:900; color:#1e1b4b; line-height:1.2; font-variant-numeric:tabular-nums; }
+  .bs-card .k2 { font-size:10.5px; font-weight:700; color:#94a3b8; margin-top:2px; }
+  .bs-card.hot .v { color:#be185d; }
+  .bank-tbl { min-width:940px; }
+  .bank-tbl td.w { font-weight:900; color:#1e1b4b; }
+  .bank-tbl td.w small { display:block; font-size:10.5px; font-weight:700; color:#94a3b8; }
+  .pbar { display:flex; align-items:center; gap:7px; }
+  .pbar .bar { width:54px; height:6px; border-radius:var(--r-pill); background:rgba(148,163,184,.22); overflow:hidden; }
+  .pbar .bar i { display:block; height:100%; border-radius:var(--r-pill); background:#10B981; }
+  .pbar b { font-size:12px; font-weight:900; color:#334155; font-variant-numeric:tabular-nums; }
+  .fl { display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.03em; padding:3px 8px; border-radius:var(--r-pill); margin:1px 3px 1px 0; white-space:nowrap; }
+  .fl.bad { background:rgba(190,24,93,.12); color:#be185d; }
+  .fl.warn { background:rgba(245,158,11,.16); color:#b45309; }
+  .fl.mute { background:rgba(148,163,184,.18); color:#64748b; }
+  .optbar { display:flex; flex-direction:column; gap:3px; min-width:168px; }
+  .optrow { display:flex; align-items:center; gap:6px; font-size:11px; font-weight:700; color:#475569; }
+  .optrow .ov { max-width:104px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .optrow .ob { flex:1; height:5px; border-radius:var(--r-pill); background:rgba(148,163,184,.22); overflow:hidden; }
+  .optrow .ob i { display:block; height:100%; background:#94a3b8; }
+  .optrow.key { color:#047857; }
+  .optrow.key .ob i { background:#10B981; }
+  .ri { font-family:inherit; font-weight:800; font-size:13px; padding:10px 12px; border-radius:var(--r-sm); border:1.5px solid var(--line); background:#fff; color:#1e1b4b; outline:none; }
+  .ri:focus { border-color:rgba(16,185,129,.6); }
+  .ri:disabled { opacity:.5; pointer-events:none; }
+
+  /* 登录遮罩 */
+  #gate { position:fixed; inset:0; z-index:1000; display:flex; align-items:center; justify-content:center; padding:20px;
+    background:radial-gradient(70% 60% at 30% 20%,rgba(16,185,129,.16),transparent),#eef1f8; }
+  #gate.hide { display:none; }
+  .gate-card { width:100%; max-width:400px; background:#fff; border-radius:var(--r-xl); padding:34px 30px; text-align:center;
+    box-shadow:var(--sh-2); border:1px solid var(--line); }
+  .gate-card .gb { font-weight:900; font-size:26px; letter-spacing:-.03em; margin-bottom:6px;
+    background:linear-gradient(135deg,#059669,#10B981); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .gate-card p { font-size:12.5px; color:var(--mut); font-weight:600; margin:6px 0 18px; line-height:1.6; }
+  .gate-card input[type=password] { width:100%; font-family:inherit; font-size:15px; font-weight:800; color:#1e1b4b;
+    padding:12px 14px; border-radius:var(--r-sm); border:1.5px solid var(--line); margin-bottom:14px; outline:none; }
+  .gate-card input[type=text], .gate-card select { font-family:inherit; font-size:14px; font-weight:800; color:#1e1b4b;
+    padding:11px 12px; border-radius:var(--r-sm); border:1.5px solid var(--line); outline:none; background:#fff; }
+  .gate-card .roleline { display:flex; gap:8px; margin-bottom:12px; }
+  .gate-card .roleline select { flex:none; }
+  .gate-card .roleline input[type=text] { flex:1; margin:0; }
+  .gate-card input:focus, .gate-card select:focus { border-color:rgba(16,185,129,.6); box-shadow:var(--ring); }
+  .gate-card .btn { width:100%; }
+  .busy { opacity:.6; pointer-events:none; }
+  .err { color:#be185d; font-size:12px; font-weight:800; margin-top:10px; min-height:16px; }
+
+  .toast { position:fixed; left:50%; bottom:30px; transform:translateX(-50%) translateY(16px); z-index:2000;
+    background:rgba(15,23,42,.88); color:#fff; padding:12px 20px; border-radius:var(--r-md); font-size:13px; font-weight:700;
+    opacity:0; pointer-events:none; transition:all .3s cubic-bezier(.19,1,.22,1); box-shadow:0 14px 30px -8px rgba(15,23,42,.5); }
+  .toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+  .perm-hint { font-size:11px; color:#94a3b8; margin-top:14px; line-height:1.6; }
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span></div>
+
+<!-- ═══ 登录 ═══ -->
+<div id="gate">
+  <div class="gate-card">
+    <div class="gb">TH!NK·教师工作台</div>
+    <p>以教师或助教身份进入工作台。助教可分配任务、查看学情与班级，但只有教师可管理账号与班级。</p>
+    <div class="roleline">
+      <select id="roleSel">
+        <option value="teacher">教师</option>
+        <option value="assistant">助教</option>
+      </select>
+      <input type="text" id="name" placeholder="账号名" autocomplete="off" value="">
+    </div>
+    <input type="password" id="pass" placeholder="口令" autocomplete="off">
+    <button class="btn" id="loginBtn">进入工作台</button>
+    <div class="err" id="lErr"></div>
+    <div class="perm-hint">默认账号 · 教师 <b>teacher</b> / <b>think-teacher</b>；助教 <b>助教</b> / <b>think-assist</b></div>
+  </div>
+</div>
+
+<div class="wrap" id="app">
+  <header>
+    <div class="logo">
+      <span class="brand">TH<span class="grad">!</span>NK 教师工作台</span>
+      <span class="edition">TH!NK FOUNDATION · SECOND EDITION</span>
+    </div>
+    <div class="tabs">
+      <button class="tab on" data-p="assign"><svg class="ico sm"><use href="#i-clipboard"/></svg> 分配任务</button>
+      <button class="tab" data-p="data"><svg class="ico sm"><use href="#i-chart"/></svg> 学情数据</button>
+      <button class="tab" data-p="bank"><svg class="ico sm"><use href="#i-target"/></svg> 题库分析</button>
+      <button class="tab" data-p="roster"><svg class="ico sm"><use href="#i-users"/></svg> 班级与学生</button>
+      <button class="tab" data-p="about"><svg class="ico sm"><use href="#i-bulb"/></svg> 使用说明</button>
+    </div>
+    <div id="accountBar" style="display:none;align-items:center;gap:8px;color:#475569;background:#fff;border:1px solid var(--line);border-radius:var(--r-pill);padding:6px 8px 6px 14px;"></div>
+  </header>
+
+  <!-- ═══ 分配任务 ═══ -->
+  <section class="panel on" id="panel-assign">
+    <div class="card">
+      <h3>第一步 · 选择单元</h3>
+      <div class="sub">为单元分配「预习」与「复习」任务。教师在下方勾选学习材料并设定截止时间，学生在学习端点击单元卡片即可直接进入。</div>
+      <div class="unit-pick" id="unitPick"></div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;">
+        <button class="btn" id="unitPreviewBtn"><svg class="ico sm"><use href="#i-eye"/></svg> 预览当前单元（学生视角）</button>
+        <span style="font-size:12px;color:#94a3b8;font-weight:700;">以学生端打开该单元，可逐篇进入词汇诊断与跟读页核对材料。</span>
+      </div>
+      <div class="duo">
+        <div class="taskbox pre">
+          <h4><svg class="ico sm"><use href="#i-book"/></svg> 预习任务</h4>
+          <div class="tip">上课前完成：新材料初学 · 认词、听读</div>
+          <div class="row">
+            <span class="lbl">截止时间</span>
+            <input type="datetime-local" id="preDeadline">
+          </div>
+          <div class="items" id="preItems"></div>
+          <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="btn add" id="preAddTheme"><svg class="ico sm"><use href="#i-plus"/></svg> 单元主题词汇</button>
+          </div>
+        </div>
+        <div class="taskbox rev">
+          <h4><svg class="ico sm"><use href="#i-loop"/></svg> 复习任务</h4>
+          <div class="tip">课后复习：巩固记忆 · 测试、跟读</div>
+          <div class="row">
+            <span class="lbl">截止时间</span>
+            <input type="datetime-local" id="revDeadline">
+          </div>
+          <div class="items" id="revItems"></div>
+          <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="btn add" id="revAddTheme"><svg class="ico sm"><use href="#i-plus"/></svg> 单元主题词汇</button>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
+        <button class="btn" id="saveAssign">保存本单元任务</button>
+        <button class="btn danger" id="clearAssign">清空本单元任务</button>
+        <span style="font-size:12px;color:#94a3b8;font-weight:700;align-self:center;" id="assignStat"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ 学情数据 ═══ -->
+  <section class="panel" id="panel-data">
+    <div class="card">
+      <h3>学生预习 / 复习数据</h3>
+      <div class="sub">在本机学习端填写过姓名并打开任务材料的学生会自动上报。词汇完成度取自词汇诊断页的真实学习记录；跟读与主题词以学生「标记完成」为准。</div>
+      <div class="toolbar">
+        <span class="lbl">单元</span>
+        <div class="unit-pick" id="dataUnitPick" style="margin:0"></div>
+        <div class="tabs" id="dataTypeTabs" style="gap:6px">
+          <button class="tab on" data-t="preview">预习</button>
+          <button class="tab" data-t="review">复习</button>
+        </div>
+        <span class="lbl" style="margin-left:12px;">班级</span>
+        <select id="dataClassFilter" style="font-family:inherit;font-weight:800;font-size:13px;padding:8px 10px;border-radius:var(--r-sm);border:1.5px solid var(--line);background:#fff;color:#1e1b4b;"><option value="">全部班级</option></select>
+      </div>
+      <div class="tbl-wrap" id="dataTable"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 题库分析 ═══ -->
+  <section class="panel" id="panel-bank">
+    <div class="card">
+      <h3>题库难度 / 区分度分析</h3>
+      <div class="sub">按「篇章 × 词 × 题型」聚合全体学生的测试作答。难度 p = 正确率（越高越容易）；区分度 D = 高分组（前 27%）与低分组（后 27%）正确率之差，r = 点二列相关；选项分布来自学生实际点击记录，用于人工审校干扰项。作答数不足 8 次的题只做标记，不参与难度/区分度结论。</div>
+      <div class="toolbar">
+        <span class="lbl">范围</span>
+        <select class="ri" id="bankScope"><option value="all">全部篇章</option></select>
+        <span class="lbl" style="margin-left:12px;">题型</span>
+        <select class="ri" id="bankMode">
+          <option value="all">全部题型</option>
+          <option value="unknown">看词选义</option>
+          <option value="fuzzy">看义拼写</option>
+          <option value="known">选词填空</option>
+        </select>
+        <button class="btn add" id="bankRefresh" style="margin-left:auto;"><svg class="ico sm"><use href="#i-refresh"/></svg> 重新汇总</button>
+      </div>
+      <div class="bank-sum" id="bankSummary"></div>
+      <div class="tbl-wrap" id="bankTable"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 班级与学生 ═══ -->
+  <section class="panel" id="panel-roster">
+    <div class="card">
+      <h3><svg class="ico sm"><use href="#i-users"/></svg> 班级管理</h3>
+      <div class="sub">建立班级并对学生账号分组。仅教师可新增、改名或删除班级；助教只读。</div>
+      <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+        <input type="text" id="newClass" placeholder="新班级名称，如「秋季三班」" class="ri">
+        <button class="btn" id="addClassBtn"><svg class="ico sm"><use href="#i-plus"/></svg> 建班</button>
+      </div>
+      <div class="tbl-wrap" id="classTable"></div>
+    </div>
+    <div class="card">
+      <h3><svg class="ico sm"><use href="#i-cap"/></svg> 学生账号</h3>
+      <div class="sub">新增学生账号并分配班级；可改班、重置口令或删除账号。学生用「姓名 + 口令」登录跨设备同步。</div>
+      <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+        <input type="text" id="newStuName" placeholder="学生姓名" class="ri" style="min-width:150px;flex:1">
+        <input type="text" id="newStuPass" placeholder="初始口令（≥4位）" class="ri" style="min-width:160px;flex:1">
+        <select id="newStuClass" class="ri" style="min-width:150px;"></select>
+        <button class="btn" id="addStuBtn"><svg class="ico sm"><use href="#i-plus"/></svg> 新增学生</button>
+      </div>
+      <div class="tbl-wrap" id="stuTable"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 使用说明 ═══ -->
+  <section class="panel" id="panel-about">
+    <div class="card">
+      <h3>双端使用流程</h3>
+      <div class="sub">本工具为单机原型：教师端、学生端、词汇页面在本机同一浏览器中通过 localStorage 交换数据，无需联网与数据库。</div>
+      <div style="font-size:13px;line-height:1.9;color:#334155;font-weight:600;" id="aboutBody"></div>
+    </div>
+  </section>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+'use strict';
+
+/* ═══════════ 常量与数据（与 学生端.html 对齐） ═══════════ */
+var TEACHER_PASSWORD = 'think-teacher';
+var ASSIGN_KEY = 'tf_assignments';
+var REPORT_KEY = 'tf_reports';
+var STU_KEY = 'tf_current_student';
+
+var UNITS = [
+  { key:'7', n:7,  title:'Living for sport', sub:'运动人生' },
+  { key:'12', n:12, title:'Moving about',     sub:'出行方式' }
+];
+var THEME_TITLE = { '7':'单元主题词汇（运动·时间·月份·序数）', '12':'单元主题词汇（交通出行）' };
+
+var PASSAGES = {
+  "7": [
+    { key:'u7_p66_livingforsport', p:'p66', kind:'纪录片', title:'LIVING FOR SPORT' },
+    { key:'u7_p67_sportwonders',   p:'p67', kind:'阅读 A', title:'SPORT WONDERS!' },
+    { key:'u7_p69_listening',      p:'p69', kind:'听力',   title:'Listening · A phone call' },
+    { key:'u7_p70_last4min',       p:'p70', kind:'阅读 B', title:'An Amazing Last Four Minutes' },
+    { key:'u7_p72_rainyday',       p:'p72', kind:'口语对话',title:'Rainy Day · Nina & Dave' },
+    { key:'u7_p73_staypositive',   p:'p73', kind:'播客',   title:'Stay Positive' }
+  ],
+  "12": [
+    { key:'u12_p110_movingabout',  p:'p110', kind:'纪录片', title:'Moving About' },
+    { key:'u12_p111_greatrace',    p:'p111', kind:'阅读 A', title:'The Great Race' },
+    { key:'u12_p113_trainstation', p:'p113', kind:'听力',   title:'At the Train Station' },
+    { key:'u12_p114_favjourney',   p:'p114', kind:'阅读 B', title:'My Favourite Journey' },
+    { key:'u12_p117_transport',    p:'p117', kind:'文化',   title:'Transport Around the World' }
+  ]
+};
+
+var ENGINES = [
+  { id:'vocab',  label:'词汇' },
+  { id:'follow', label:'跟读' }
+];
+
+/* ═══════════ 存储工具 ═══════════ */
+function load(k, d){ try { var p=JSON.parse(localStorage.getItem(k)); return (p && typeof p==='object')?p:d; } catch(e){ return d; } }
+function save(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
+function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+function pad(n){ return (n<10?'0':'')+n; }
+function nowStr(){ var d=new Date(); return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+' '+pad(d.getHours())+':'+pad(d.getMinutes()); }
+function fmt(t){ if(!t) return '—'; var d=new Date(t); return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+' '+pad(d.getHours())+':'+pad(d.getMinutes()); }
+function toDT(dt){ if(!dt) return ''; return dt.replace('T',' '); }
+
+function escTodo(){}
+
+var toastEl = document.getElementById('toast'), toastT;
+function toast(msg){ toastEl.textContent=msg; toastEl.classList.add('show'); clearTimeout(toastT); toastT=setTimeout(function(){toastEl.classList.remove('show');},2200); }
+
+/* 运行时状态 */
+var curUnit = '7';
+var editing = {  // 当前编辑中的单元任务（未保存到 storage，仅内存）
+  preview: { items:[], deadline:'' },
+  review:  { items:[], deadline:'' }
+};
+
+function emptyTask(){ return { items:[], deadline:'' }; }
+
+/* ═══════════ 登录（服务端账号） ═══════════ */
+var loggedIn = false, myRole = '', myName = '';
+document.getElementById('loginBtn').addEventListener('click', login);
+document.getElementById('pass').addEventListener('keydown', function(e){ if(e.key==='Enter') login(); });
+document.getElementById('roleSel').addEventListener('change', function(){ document.getElementById('name').value = (this.value==='teacher' ? 'teacher' : '助教'); });
+function login(){
+  var btn = document.getElementById('loginBtn');
+  btn.classList.add('busy');
+  document.getElementById('lErr').textContent='';
+  var role = document.getElementById('roleSel').value;
+  var name = document.getElementById('name').value.trim() || (role==='teacher'?'teacher':'助教');
+  fetch('/api/login', { method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ role:role, name: name, pass: document.getElementById('pass').value }) })
+    .then(function(r){ return r.json(); })
+    .then(function(res){
+      btn.classList.remove('busy');
+      if(!res.ok){
+        document.getElementById('lErr').textContent = (res.error||'登录失败')+'（'+(role==='teacher'?'teacher / think-teacher':'助教 / think-assist')+'）';
+        document.getElementById('pass').value=''; document.getElementById('pass').focus(); return;
+      }
+      localStorage.setItem('tf_token', res.token);
+      localStorage.setItem('tf_user', JSON.stringify(res.user));
+      // 整页重载让 store.js 以新令牌重新水合，再走自动登录路径（已登录态直接 init）
+      location.href = '/教师端.html';
+    })
+    .catch(function(){ btn.classList.remove('busy');
+      document.getElementById('lErr').textContent = '无法连接服务器：请确认 ① 已运行 node server.js，② 用 http://localhost:8000/教师端.html 访问（勿直接双击 HTML 文件）'; });
+}
+function renderAccountBar(){
+  var el = document.getElementById('accountBar');
+  if(!el) return;
+  el.style.display='inline-flex';
+  el.innerHTML = '<span style="font-weight:800;font-size:12.5px;">'+(myRole==='assistant'?'助教':'教师')
+    +' · '+esc(myName)+'</span><button class="tab" style="padding:6px 12px;font-size:12px;" id="logoutBtn">'+ICON('logout','sm')+' 退出</button>';
+  var b = el.querySelector('#logoutBtn');
+  if(b) b.addEventListener('click', function(){ localStorage.removeItem('tf_token'); localStorage.removeItem('tf_user'); location.reload(); });
+}
+function enableReadOnly(){
+  ['newClass','addClassBtn','newStuName','newStuPass','newStuClass','addStuBtn'].forEach(function(id){
+    var e = document.getElementById(id); if(e) e.disabled = true;
+  });
+}
+document.addEventListener('DOMContentLoaded', function(){
+  if(localStorage.getItem('tf_token')){
+    var u; try{ u=JSON.parse(localStorage.getItem('tf_user')); }catch(e){}
+    myRole = (u&&u.role)||'teacher'; myName = (u&&u.name)||'';
+    loggedIn = true;
+    document.getElementById('gate').classList.add('hide');
+    renderAccountBar();
+    if(myRole==='assistant') enableReadOnly();
+    var fin=function(){ init(); };
+    if(window.storeMeta && window.storeMeta.hydrate){ window.addEventListener('store-hydrated', fin); setTimeout(fin, 2500); }
+    else fin();
+  }
+});
+
+/* ═══════════ 初始加载 ═══════════ */
+function init(){
+  buildUnitPick();
+  buildDataUnitPick();
+  buildTabs();
+  loadEditing();
+  renderAssign();
+  buildAbout();
+  buildRoster();
+  buildPreviewBtn();
+  buildClassFilter();
+  renderData();
+}
+
+function buildTabs(){
+  var panels = ['assign','data','bank','roster','about'];
+  document.querySelectorAll('#app .tabs .tab[data-p]').forEach(function(t){
+    t.addEventListener('click', function(){
+      document.querySelectorAll('#app .tabs .tab[data-p]').forEach(function(x){x.classList.remove('on');});
+      t.classList.add('on');
+      panels.forEach(function(p){ document.getElementById('panel-'+p).classList.toggle('on', p===t.dataset.p); });
+      if(t.dataset.p==='data') renderData();       // 切换到学情时刷新
+      if(t.dataset.p==='bank') renderBank();       // 切换到题库分析时刷新
+      if(t.dataset.p==='roster') renderRoster();   // 切换到班级时刷新
+    });
+  });
+}
+
+function buildPreviewBtn(){
+  var b = document.getElementById('unitPreviewBtn');
+  if(b) b.addEventListener('click', function(){ window.open('学生端.html?unit='+curUnit, '_blank'); });
+}
+
+function buildClassFilter(){
+  var sel = document.getElementById('dataClassFilter');
+  if(!sel) return;
+  sel.addEventListener('change', renderData);
+  loadClasses(function(classes){
+    sel.innerHTML = '<option value="">全部班级</option>' + classes.map(function(c){ return '<option value="'+c.id+'">'+esc(c.name)+'</option>'; }).join('');
+  });
+}
+function loadClasses(cb){
+  apiGet('/classes', function(res){ cb((res&&res.classes)||[]); });
+}
+function apiGet(path, cb){
+  var token = localStorage.getItem('tf_token');
+  fetch('/api'+path, { headers: token?{'Authorization':'Bearer '+token}:{} })
+    .then(function(r){ return r.json(); }).catch(function(){ return {ok:false}; })
+    .then(cb);
+}
+function apiPost(path, body, onok, onerr){
+  var token = localStorage.getItem('tf_token');
+  fetch('/api'+path, { method:'POST', headers:{'Content-Type':'application/json', 'Authorization': token?('Bearer '+token):''}, body: JSON.stringify(body||{}) })
+    .then(function(r){ return r.json(); })
+    .then(function(res){
+      if(res.ok){ if(onok) onok(res); }
+      else { if(onerr) onerr(res); else toast((res.error||'操作失败')); }
+    })
+    .catch(function(){ toast('请求失败，请检查服务器'); });
+}
+
+/* ═══════════ 班级与学生管理 ═══════════ */
+var isTeacherAccount = function(){ return myRole !== 'assistant'; };
+function buildRoster(){
+  var ac = document.getElementById('addClassBtn'); if(ac) ac.addEventListener('click', addClass);
+  var as = document.getElementById('addStuBtn'); if(as) as.addEventListener('click', addStudent);
+  loadStuClasses();
+  renderRoster();
+}
+function loadStuClasses(){
+  loadClasses(function(cls){ fillStuClassSelect('<option value="">（未分班）</option>' + cls.map(function(c){ return '<option value="'+c.id+'">'+esc(c.name)+'</option>'; }).join('')); });
+}
+function fillStuClassSelect(inner){
+  ['newStuClass'].forEach(function(id){
+    var s=document.getElementById(id); if(s) s.innerHTML = inner;
+  });
+}
+function addClass(){
+  var name=document.getElementById('newClass').value.trim();
+  if(!name){ toast('请输入班级名称'); return; }
+  apiPost('/classes', {name:name}, function(){ document.getElementById('newClass').value=''; toast('已建班'); loadStuClasses(); renderRoster(); });
+}
+function addStudent(){
+  var name=document.getElementById('newStuName').value.trim();
+  var pass=document.getElementById('newStuPass').value.trim();
+  var cid=document.getElementById('newStuClass').value;
+  if(!name || pass.length<4){ toast('请填写姓名与≥4位口令'); return; }
+  apiPost('/students', {name:name, pass:pass, class_id: cid?+cid:null}, function(){
+    document.getElementById('newStuName').value=''; document.getElementById('newStuPass').value='';
+    toast('已新增学生'); renderRoster();
+  });
+}
+function renderRoster(){
+  apiGet('/classes', function(res){
+    var cls=(res&&res.classes)||[];
+    var canEdit = isTeacherAccount();
+    var t=document.getElementById('classTable');
+    t.innerHTML = '<table><thead><tr><th>班级</th><th>学生数</th>'+(canEdit?'<th>操作</th>':'')+'</tr></thead><tbody>'
+      + (cls.length? cls.map(function(c){
+          var row='<tr><td>'+esc(c.name)+'</td><td>'+c.n+'</td>';
+          if(canEdit) row+='<td><button class="btn" data-act="ren" data-id="'+c.id+'">改名</button> <button class="btn danger" data-act="delc" data-id="'+c.id+'">删除</button></td>';
+          return row+'</tr>';
+        }).join('') : '<tr><td colspan="'+(canEdit?3:2)+'" class="empty">还没有班级，先在顶部输入名称建班。</td></tr>')
+      + '</tbody></table>';
+    t.querySelectorAll('button[data-act]').forEach(function(b){
+      b.addEventListener('click', function(){
+        var id=+b.dataset.id;
+        if(b.dataset.act==='delc'){ if(!confirm('删除该班级？其学生将变为未分班。')) return; apiPost('/classes/delete',{id:id},function(){ toast('已删除'); loadStuClasses(); renderRoster(); }); }
+        else renameClass(id);
+      });
+    });
+  });
+  loadStudents();
+}
+function renameClass(id){
+  var name=prompt('新班级名称'); if(!name) return;
+  apiPost('/classes/update',{id:id,name:name.trim()},function(){ toast('已改名'); loadStuClasses(); renderRoster(); });
+}
+function loadStudents(){
+  apiGet('/students', function(res){
+    var st=(res&&res.students)||[];
+    var canEdit=isTeacherAccount();
+    var t=document.getElementById('stuTable');
+    if(!canEdit){ t.innerHTML = '<table><thead><tr><th>姓名</th><th>班级</th></tr></thead><tbody>'
+      + (st.length? st.map(function(s){ return '<tr><td>'+esc(s.name)+'</td><td>'+esc(s.className||'未分班')+'</td></tr>'; }).join('')
+        : '<tr><td colspan="2" class="empty">暂无学生账号。</td></tr>') + '</tbody></table>';
+      return;
+    }
+    loadClasses(function(cls){
+      var opts='<option value="">（未分班）</option>'+cls.map(function(c){ return '<option value="'+c.id+'">'+esc(c.name)+'</option>'; }).join('');
+      t.innerHTML='<table><thead><tr><th>姓名</th><th>班级</th><th>操作</th></tr></thead><tbody>'
+        + (st.length? st.map(function(s){
+            var sel=opts.replace('<option value="'+(s.classId||'')+'">', '<option value="'+(s.classId||'')+'" selected>');
+            return '<tr><td>'+esc(s.name)+'</td>'
+              + '<td><select data-move="'+s.id+'" style="font-family:inherit;font-weight:800;font-size:12px;padding:6px 8px;border-radius:var(--r-xs);border:1.5px solid var(--line);background:#fff;color:#1e1b4b;">'+sel+'</select></td>'
+              + '<td><button class="btn" data-reset="'+s.id+'" data-rs="'+esc(s.name)+'">重置口令</button> <button class="btn danger" data-delstu="'+s.id+'">删除</button></td></tr>';
+          }).join('') : '<tr><td colspan="3" class="empty">暂无学生账号，可在顶部新增。</td></tr>')
+        + '</tbody></table>';
+      t.querySelectorAll('select[data-move]').forEach(function(sel){
+        sel.addEventListener('change', function(){ apiPost('/students/update',{id:+sel.dataset.move, class_id: sel.value==='' ? '' : +sel.value}, function(){ toast('班级已更新'); }); });
+      });
+      t.querySelectorAll('button[data-reset]').forEach(function(b){
+        b.addEventListener('click', function(){
+          var np=prompt('为「'+(b.dataset.rs)+'」设置新口令（≥4位）'); if(np===null) return;
+          if(!np || np.length<4){ toast('口令长度需≥4位'); return; }
+          apiPost('/students/update',{id:+b.dataset.reset, pass:np}, function(){ toast('口令已重置'); });
+        });
+      });
+      t.querySelectorAll('button[data-delstu]').forEach(function(b){
+        b.addEventListener('click', function(){ if(!confirm('删除该学生账号及其全部学习记录？')) return; apiPost('/students/delete',{id:+b.dataset.delstu}, function(){ toast('已删除'); loadStudents(); }); });
+      });
+    });
+  });
+}
+
+function buildUnitPick(){
+  var el = document.getElementById('unitPick');
+  el.innerHTML = UNITS.map(function(u){
+    return '<button class="unit-btn'+(u.key===curUnit?' on':'')+'" data-k="'+u.key+'">Unit '+u.n+' · '+esc(u.title)+'</button>';
+  }).join('');
+  el.querySelectorAll('.unit-btn').forEach(function(b){
+    b.addEventListener('click', function(){
+      curUnit = b.dataset.k;
+      el.querySelectorAll('.unit-btn').forEach(function(x){x.classList.remove('on');}); b.classList.add('on');
+      loadEditing(); renderAssign();
+    });
+  });
+}
+
+/* ── 任务编辑 ── */
+function loadEditing(){
+  var A = load(ASSIGN_KEY, {});
+  var u = A[curUnit] || { preview:{items:[],deadline:''}, review:{items:[],deadline:''} };
+  editing.preview = deepCopy(u.preview || emptyTask());
+  editing.review  = deepCopy(u.review  || emptyTask());
+}
+function deepCopy(o){ return JSON.parse(JSON.stringify(o)); }
+function saveEditing(){
+  var A = load(ASSIGN_KEY, {});
+  A[curUnit] = { preview: editing.preview, review: editing.review };
+  save(ASSIGN_KEY, A);
+}
+
+function itemUI(tb){
+  var d = (tb==='preview')?editing.preview.items:editing.review.items;
+  var el = (tb==='preview')?document.getElementById('preItems'):document.getElementById('revItems');
+  el.innerHTML = d.map(function(it,i){
+    var title = it.kind==='theme'
+      ? (THEME_TITLE[curUnit] || '单元主题词汇')
+      : (function(){ var f=findP(it.passageKey); return (f?f.kind+' · ':'')+(f?f.title:it.passageKey); })();
+    var engs = '';
+    if(it.kind==='passage'){
+      engs = ENGINES.map(function(e2){
+        var on = it.engines.indexOf(e2.id)!==-1;
+        return '<button class="engbtn'+(on?' on':'')+'" data-i="'+i+'" data-e="'+e2.id+'">'+e2.label+'</button>';
+      }).join('');
+    }
+    return '<div class="item">'
+      + '<div class="it-l"><span class="pill '+(tb==='preview'?'pre':'rev')+'">'+(tb==='preview'?'预习':'复习')+'</span>'
+      + '<span class="it-title">'+esc(title)+'</span></div>'
+      + '<div class="it-eng">'+engs+'</div>'
+      + '<button class="rm" data-i="'+i+'" title="移除">'+ICON('close')+'</button>'
+      + '</div>';
+  }).join('') || '<div class="empty">尚未添加材料</div>';
+
+  el.querySelectorAll('.engbtn').forEach(function(b){
+    b.addEventListener('click', function(){
+      var list=(tb==='preview')?editing.preview.items:editing.review.items;
+      var it=list[+b.dataset.i]; var e=b.dataset.e;
+      var at=it.engines.indexOf(e);
+      if(at===-1){ it.engines.push(e); } else { it.engines.splice(at,1); }
+      itemUI(tb);
+    });
+  });
+  el.querySelectorAll('.rm').forEach(function(b){
+    b.addEventListener('click', function(){
+      var list=(tb==='preview')?editing.preview.items:editing.review.items;
+      list.splice(+b.dataset.i,1);
+      itemUI(tb);
+    });
+  });
+}
+function findP(key){ for(var u in PASSAGES){ var f=PASSAGES[u].find(function(p){return p.key===key;}); if(f) return f; } return null; }
+function pgOfKey(pk){ var m=String(pk).match(/p(\d+)/); return m? +m[1] : 0; }
+function followProg(pg){ try{ var o=JSON.parse(localStorage.getItem('tf_follow_'+pg)); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
+
+/* 添加材料 */
+function addTheme(tb){
+  var list=(tb==='preview')?editing.preview.items:editing.review.items;
+  if(list.find(function(it){return it.kind==='theme';})){ toast('单元主题词汇已在列表中'); return; }
+  list.push({ id:'theme', kind:'theme', passageKey:null, engines:[] });
+  itemUI(tb);
+}
+function addPassage(tb, key, engine){
+  var list=(tb==='preview')?editing.preview.items:editing.review.items;
+  var it = list.find(function(x){return x.kind==='passage' && x.passageKey===key;});
+  if(it){
+    if(it.engines.indexOf(engine)===-1) it.engines.push(engine);
+  } else {
+    list.push({ id:key, kind:'passage', passageKey:key, engines:[engine] });
+  }
+  itemUI(tb);
+}
+
+function renderAssign(){
+  document.getElementById('preDeadline').value = editing.preview.deadline || '';
+  document.getElementById('revDeadline').value = editing.review.deadline || '';
+  itemUI('preview'); itemUI('review');
+  // 材料选择面板：每篇文本框，点击加入
+  renderPicker();
+  var A = load(ASSIGN_KEY, {});
+  var has = A[curUnit] && (A[curUnit].preview.items.length || A[curUnit].review.items.length);
+  document.getElementById('assignStat').textContent = has ? '已有任务，可继续编辑' : '当前单元尚未发布任务';
+}
+
+function renderPicker(){
+  var c = document.getElementById('pickerHost'); if(!c) return;
+  var list = PASSAGES[curUnit] || [];
+  c.innerHTML = '<div class="row" style="gap:8px;flex-wrap:wrap;margin-top:4px;">'
+    + '<span class="lbl">快速添加篇章：</span>'
+    + list.map(function(p){
+        var pl = (editing.preview.items.find(function(x){return x.kind==='passage'&&x.passageKey===p.key;})||{engines:[]}).engines;
+        var rl = (editing.review.items.find(function(x){return x.kind==='passage'&&x.passageKey===p.key;})||{engines:[]}).engines;
+        return '<button class="engbtn'+(pl.length?' on':'')+'" data-k="'+p.key+'" data-tb="preview" title="加入预习">'+p.p+'·预'+(pl.length?'('+pl.length+')':'')+'</button>'
+          + '<button class="engbtn'+(rl.length?' on':'')+'" data-k="'+p.key+'" data-tb="review" title="加入复习">'+p.p+'·复'+(rl.length?'('+rl.length+')':'')+'</button>';
+      }).join('')
+    + '</div>';
+  c.querySelectorAll('.engbtn').forEach(function(b){
+    b.addEventListener('click', function(){
+      // 默认加入两个引擎
+      var tb = b.dataset.tb;
+      addPassage(tb, b.dataset.k, 'vocab');
+      addPassage(tb, b.dataset.k, 'follow');
+      renderAssign();
+    });
+  });
+}
+
+document.getElementById('preAddTheme').addEventListener('click', function(){ addTheme('preview'); });
+document.getElementById('revAddTheme').addEventListener('click', function(){ addTheme('review'); });
+document.getElementById('preDeadline').addEventListener('change', function(){ editing.preview.deadline = this.value; });
+document.getElementById('revDeadline').addEventListener('change', function(){ editing.review.deadline = this.value; });
+document.getElementById('saveAssign').addEventListener('click', saveAssign);
+document.getElementById('clearAssign').addEventListener('click', clearAssign);
+
+function saveAssign(){
+  editing.preview.deadline = document.getElementById('preDeadline').value || '';
+  editing.review.deadline = document.getElementById('revDeadline').value || '';
+  saveEditing();
+  toast('已保存 Unit '+(curUnit)+' 的任务分配');
+  renderAssign();
+  renderData();
+}
+function clearAssign(){
+  var A = load(ASSIGN_KEY, {}); delete A[curUnit];
+  save(ASSIGN_KEY, A);
+  editing.preview = emptyTask(); editing.review = emptyTask();
+  renderAssign(); renderData();
+  toast('已清空 Unit '+(curUnit)+' 任务');
+}
+
+/* ═══════════ 学情数据 ═══════════ */
+var dataUnit = '7', dataType = 'preview';
+function buildDataUnitPick(){
+  var el = document.getElementById('dataUnitPick');
+  el.innerHTML = UNITS.map(function(u){
+    return '<button class="unit-btn'+(u.key===dataUnit?' on':'')+'" data-k="'+u.key+'">Unit '+u.n+'</button>';
+  }).join('');
+  el.querySelectorAll('.unit-btn').forEach(function(b){
+    b.addEventListener('click', function(){ dataUnit=b.dataset.k;
+      el.querySelectorAll('.unit-btn').forEach(function(x){x.classList.remove('on');}); b.classList.add('on'); renderData(); });
+  });
+  document.getElementById('dataTypeTabs').querySelectorAll('.tab').forEach(function(t){
+    t.addEventListener('click', function(){
+      dataType = t.dataset.t;
+      document.getElementById('dataTypeTabs').querySelectorAll('.tab').forEach(function(x){x.classList.remove('on');});
+      t.classList.add('on'); renderData();
+    });
+  });
+}
+
+function itemSummary(it){
+  if(it.kind==='theme'){ return { id:'theme', title:(THEME_TITLE[dataUnit]||'单元主题词汇'), type:'theme', passageKey:null }; }
+  var f = findP(it.passageKey);
+  return { id:it.passageKey, title:(f?f.kind+' · ':'')+(f?f.title:it.passageKey), type:'passage', passageKey:it.passageKey };
+}
+
+function kvVocab(kv, key){
+  var d={total:0,done:0,pct:0,has:false};
+  try{
+    var raw=kv[key+'_records_v2']||kv[key+'_records_v1']; if(!raw) return d;
+    var obj=JSON.parse(raw), arr=Object.keys(obj);
+    d.total=arr.length; d.has=arr.length>0;
+    var c=0; arr.forEach(function(k){ var s=obj[k]&&obj[k].status; if(s==='known'||s==='mastered')c++; });
+    d.done=c; d.pct=d.total?Math.round(c/d.total*100):0; return d;
+  }catch(e){ return d; }
+}
+function kvFollow(kv, pg){ try{ var o=JSON.parse(kv['tf_follow_'+pg]||'null'); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
+function parseKv(v){ try{ return JSON.parse(v||'null')||{}; }catch(e){ return {}; } }
+
+function renderData(){
+  var A = load(ASSIGN_KEY, {});
+  var u = A[dataUnit] || { preview:{items:[],deadline:''}, review:{items:[],deadline:''} };
+  var task = u[dataType] || {items:[],deadline:''};
+  var items = task.items || [];
+  var tb = document.getElementById('dataTable');
+  var deadline = task.deadline ? new Date(task.deadline.replace('T',' ')).getTime() : 0;
+  var hasDeadline = deadline>0;
+
+  if(!items.length){
+    tb.innerHTML = '<div class="empty">本单元还未发布「'+(dataType==='preview'?'预习':'复习')+'」任务，请到「分配任务」页设置。</div>';
+    return;
+  }
+  tb.innerHTML = '<div class="empty" style="padding:18px">… 正在从服务器汇总学生数据 …</div>';
+  var itemCols = items.map(itemSummary);
+  var token = localStorage.getItem('tf_token');
+  fetch('/api/reports', { headers: token?{'Authorization':'Bearer '+token}:{} })
+    .then(function(r){ return r.json(); })
+    .catch(function(){ return {ok:false}; })
+    .then(function(res){
+      var students=(res&&res.students)||[];
+      var sdf=document.getElementById('dataClassFilter');
+      var cid=sdf? sdf.value : '';
+      if(cid) students=students.filter(function(s){ return String(s.classId)===String(cid); });
+      renderDataTable(itemCols, items.length, hasDeadline, students, tb, toDT(task.deadline));
+    });
+}
+
+function itemDoneFor(ctx, col){
+  var rec=(ctx.st[col.id])||{};
+  if(rec.doneAt) return true;
+  if(col.type==='passage'){
+    if(ctx.follow[col.passageKey]) return true;
+    var v=ctx.vocab[col.passageKey];
+    if(v && v.has && v.pct>=100) return true;
+  }
+  return false;
+}
+
+function renderDataTable(itemCols, nItems, hasDeadline, students, tb, dlTxt){
+  var html='<table><thead><tr><th>学生</th>';
+  itemCols.forEach(function(col){ html+='<th>'+esc(col.title)+'</th>'; });
+  html+='<th>完成情况</th></tr></thead><tbody>';
+  if(!students.length){
+    html+='<tr><td colspan="'+(itemCols.length+2)+'" class="empty">尚无学生数据。学生登录后完成预习/复习并上报，将在此显示。</td></tr>';
+  } else {
+    students.forEach(function(su){
+      var kv=su.kv||{};
+      var R1=parseKv(kv['tf_reports']);
+      var stu=(R1[su.name])||{};
+      var unitRec=stu[dataUnit]||{};
+      var st=unitRec[dataType]||{};
+      var ctx={ st:st, vocab:{}, follow:{} };
+      itemCols.forEach(function(col){
+        if(col.type!=='passage') return;
+        ctx.vocab[col.passageKey]=kvVocab(kv,col.passageKey);
+        ctx.follow[col.passageKey]=!!kvFollow(kv,pgOfKey(col.passageKey)).follow;
+      });
+      html+='<tr><td class="stu-c">'+esc(su.name)+'</td>';
+      itemCols.forEach(function(col){ html+='<td>'+cell(col,ctx)+'</td>'; });
+      var doneN=0; itemCols.forEach(function(col){ if(itemDoneFor(ctx,col)) doneN++; });
+      var pct=Math.round(doneN/nItems*100);
+      html+='<td><div class="dot'+(pct===100?' d':(pct>0?' s':''))+'">'+doneN+'/'+nItems+' · '+pct+'%</div></td>';
+      html+='</tr>';
+    });
+  }
+  html+='</tbody></table>';
+  if(hasDeadline) html='<div style="margin-bottom:10px;font-size:12px;font-weight:800;color:#64748b;">截止时间：'+esc(dlTxt)+'</div>'+html;
+  tb.innerHTML=html;
+}
+
+function cell(col, ctx){
+  var rec=(ctx.st[col.id])||{};
+  var parts=[];
+  if(rec.startedAt) parts.push(ICON('clock','sm')+' '+fmt(rec.startedAt).slice(5));
+  if(col.type==='passage'){
+    if(ctx.follow[col.passageKey]) parts.push('跟读'+ICON('check','sm'));
+    var v=ctx.vocab[col.passageKey];
+    if(v && v.has) parts.push('词 '+v.done+'/'+v.total+'('+v.pct+'%)');
+  }
+  var d=itemDoneFor(ctx,col);
+  return '<div class="dot'+(d?' d':'')+'">'+(d?'已完成':(rec.startedAt?'进行中':'未开始'))+'</div>'
+       + (parts.length?'<div style="font-size:11px;color:#94a3b8;font-weight:600;margin-top:3px;">'+parts.join(' · ')+'</div>':'');
+}
+
+/* ═══════════ 题库分析：难度 / 区分度 / 干扰项审校 ═══════════ */
+var BANK={ data:null, scope:'all', mode:'all', wired:false };
+var MODE_LABEL={ unknown:'看词选义', fuzzy:'看义拼写', known:'选词填空' };
+var FLAG_META={
+  ambig:['疑似歧义','bad'], deadOpt:['干扰项无效','warn'], thin:['样本不足','mute'],
+  tooEasy:['偏易','warn'], tooHard:['偏难','warn'], lowD:['区分度低','warn']
+};
+function pgLabel(page){
+  var m=String(page).match(/^u(\d+)_p(\d+)/);
+  return m ? ('Unit '+m[1]+' · p'+m[2]) : String(page);
+}
+function bankCard(k, v, sub, hot){
+  return '<div class="bs-card'+(hot?' hot':'')+'"><div class="k">'+esc(k)+'</div><div class="v">'+v+'</div><div class="k2">'+esc(sub)+'</div></div>';
+}
+function bankPbar(p){
+  var pct=Math.round(p*100);
+  var col = p>=0.85 ? '#10B981' : (p>=0.5 ? '#f59e0b' : '#be185d');
+  return '<div class="pbar"><span class="bar"><i style="width:'+pct+'%;background:'+col+'"></i></span><b>'+pct+'%</b></div>';
+}
+function renderBank(force){
+  var tb=document.getElementById('bankTable'); if(!tb) return;
+  if(!BANK.wired){
+    BANK.wired=true;
+    var sc=document.getElementById('bankScope'), md=document.getElementById('bankMode'), rf=document.getElementById('bankRefresh');
+    if(sc) sc.addEventListener('change', function(){ BANK.scope=sc.value; paintBank(); });
+    if(md) md.addEventListener('change', function(){ BANK.mode=md.value; paintBank(); });
+    if(rf) rf.addEventListener('click', function(){ BANK.data=null; renderBank(true); });
+  }
+  if(BANK.data && !force){ paintBank(); return; }
+  tb.innerHTML='<div class="empty" style="padding:18px">… 正在从服务器汇总题库数据 …</div>';
+  apiGet('/bank', function(res){
+    if(!res || !res.ok){
+      tb.innerHTML='<div class="empty">读取失败：'+esc((res&&res.error)||'请确认已登录教师或助教账号')+'</div>';
+      var s=document.getElementById('bankSummary'); if(s) s.innerHTML='';
+      return;
+    }
+    BANK.data=res; paintBank();
+  });
+}
+function paintBank(){
+  var res=BANK.data; if(!res) return;
+  var items=res.items||[], sum=res.summary||{};
+  var sc=document.getElementById('bankScope');
+  if(sc && !sc.dataset.built){
+    var units={};
+    items.forEach(function(x){ units[String(x.page).split('_')[0]]=1; });
+    var opts='<option value="all">全部篇章</option><option value="flagged">仅待审校</option>';
+    Object.keys(units).sort().forEach(function(u){ opts+='<option value="u:'+esc(u)+'">'+esc(u.toUpperCase())+'</option>'; });
+    sc.innerHTML=opts; sc.dataset.built='1';
+  }
+  var view=items.filter(function(x){
+    if(BANK.scope==='flagged') return x.flags && x.flags.length;
+    if(BANK.scope.indexOf('u:')===0) return String(x.page).split('_')[0]===BANK.scope.slice(2);
+    return true;
+  }).filter(function(x){ return BANK.mode==='all' || x.mode===BANK.mode; });
+
+  document.getElementById('bankSummary').innerHTML =
+    bankCard('题目条目', sum.items||0, '篇章 × 词 × 题型') +
+    bankCard('待审校', sum.flagged||0, '需人工复核选项', (sum.flagged||0)>0) +
+    bankCard('作答样本', sum.answers||0, '学生测试作答数') +
+    bankCard('参与学生', sum.students||0, '有测试数据的学生');
+
+  var tb=document.getElementById('bankTable');
+  if(!view.length){
+    tb.innerHTML='<div class="empty">当前筛选下没有题目数据。学生完成「词汇诊断 → 测试」后，这里会自动汇总。</div>';
+    return;
+  }
+  var html='<table class="bank-tbl"><thead><tr><th>篇章</th><th>词</th><th>题型</th><th>作答 / 答对</th><th>难度 p</th><th>区分度 D</th><th>r</th><th>选项分布（含干扰项）</th><th>判定</th></tr></thead><tbody>';
+  view.forEach(function(x){
+    var flags=(x.flags||[]).map(function(f){ var m=FLAG_META[f]||[f,'mute']; return '<span class="fl '+m[1]+'">'+esc(m[0])+'</span>'; }).join('') || '<span class="fl mute">正常</span>';
+    var optHtml='<span style="color:#94a3b8;font-weight:700;">—（输入题，无选项）</span>';
+    if(x.opts && x.opts.length){
+      var mx=1; x.opts.forEach(function(o){ if(o.pick>mx) mx=o.pick; });
+      optHtml='<div class="optbar">'+x.opts.map(function(o){
+        var isKey=(o.v===x.keyOpt);
+        return '<div class="optrow'+(isKey?' key':'')+'" title="'+esc(o.v)+'"><span class="ov">'+(isKey?ICON('check','sm')+' ':'')+esc(o.v)+'</span>'
+          +'<span class="ob"><i style="width:'+Math.round(o.pick/mx*100)+'%"></i></span><span>'+o.pick+'</span></div>';
+      }).join('')+'</div>';
+    }
+    var dTxt = (x.d===null||x.d===undefined) ? '<span style="color:#94a3b8;font-weight:700;">样本不足</span>'
+      : '<b style="color:'+(x.d<0.2?'#be185d':'#334155')+'">'+x.d.toFixed(2)+'</b>';
+    html+='<tr><td>'+esc(pgLabel(x.page))+'</td>'
+      +'<td class="w">'+esc(x.en)+'<small>'+esc(String(x.itemId).split('#')[1]||'')+'</small></td>'
+      +'<td>'+esc(MODE_LABEL[x.mode]||x.mode)+'</td>'
+      +'<td>'+x.n+' <span style="color:#94a3b8;">/ '+x.ok+'</span></td>'
+      +'<td>'+bankPbar(x.p)+'</td>'
+      +'<td>'+dTxt+'</td>'
+      +'<td>'+((x.r===null||x.r===undefined)?'—':x.r.toFixed(2))+'</td>'
+      +'<td>'+optHtml+'</td>'
+      +'<td>'+flags+'</td></tr>';
+  });
+  html+='</tbody></table>';
+  tb.innerHTML=html;
+}
+
+/* ═══════════ 使用说明 ═══════════ */
+function buildAbout(){
+  document.getElementById('aboutBody').innerHTML =
+    '<ol style="margin:0;padding-left:20px;">'
+    + '<li><b>教师端</b>：在「分配任务」选择单元，为预习/复习勾选材料（单元主题词汇 + 各篇章的词汇/跟读），设置截止时间并保存。</li>'
+    + '<li><b>学生端</b>：学生登录后打开 <b>学生端.html</b>，点击书架上的单元卡片，会看到上方出现「今日预习/复习任务」，直接点击即可进入对应材料。</li>'
+    + '<li><b>数据上报</b>：学生每打开一个任务材料，系统自动记录开启时间；词汇页掌握数据与跟读完成度自动同步到服务器；主题词由学生在任务面板点「标记完成」确认。</li>'
+    + '<li><b>学情查看</b>：教师端「学情数据」从服务器汇总所有学生（跨设备）的完成度。</li>'
+    + '</ol>'
+    + '<div style="margin-top:14px;padding:12px 14px;border-radius:var(--r-sm);background:rgba(16,185,129,.08);color:#047857;font-size:12.5px;line-height:1.7;">'
+    + '多设备账号系统：启动 <code>node server.js</code> 后，教师端与学生端经服务器同步。<code>login.html</code> 统一登录（教师 teacher / 学生 张小美、学生01、学生02，口令 1234）。数据存于本机 <code>think.db</code>（SQLite）。</div>';
+}
+
+/* 隐藏的选材宿主（renderPicker 挂载点） */
+window.addEventListener('DOMContentLoaded', function(){ /* 由 login 后 init 触发 */ });
+
+document.getElementById('unitPick') && (function(){
+  var host = document.createElement('div'); host.id='pickerHost';
+  var card = document.querySelector('#panel-assign .card');
+  // 放在第二步标题前
+  var sec = document.querySelector('#panel-assign .card .duo');
+  if(sec && sec.parentNode) sec.parentNode.insertBefore(host, sec);
+})();
+
+})();
+</script>
+<script src="/store.js"></script></body>
+</html>

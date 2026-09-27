@@ -1,0 +1,92 @@
+/* TH!NK · 统一设计令牌（三页共用：login / 学生端 / 教师端）
+ * 用法：在页面 <style> 之前 <link rel="stylesheet" href="ui.css">
+ * 说明：只定义变量与图标基础规则，不覆盖任何元素选择器，避免与各页既有样式冲突。
+ *       页面自身 :root 若重复定义同名变量，将按加载顺序覆盖此处默认值。 */
+
+:root{
+  /* 品牌色 */
+  --p:   #10B981;   /* 主色 · 绿 */
+  --p-d: #059669;   /* 主色深 */
+  --v:   #7C3AED;   /* 辅色 · 紫 */
+  --vk:  #EC4899;   /* 强调 · 玫红 */
+  --cy:  #06B6D4;   /* 青 */
+  --or:  #F97316;   /* 橙 */
+  --ye:  #FACC15;   /* 黄 */
+
+  /* 中性色 */
+  --ink:  #1d1d1f;              /* 正文 */
+  --ink-2:#1e1b4b;              /* 标题深靛 */
+  --mut:  #64748b;              /* 次要文字 */
+  --mut-2:#94a3b8;              /* 弱文字 */
+  --line: rgba(0,0,0,.08);      /* 描边 */
+  --line-2:rgba(0,0,0,.12);     /* 强描边 */
+
+  /* 面 */
+  --bg:   #eef1f8;
+  --card: #fff;
+
+  /* 圆角刻度（按控件尺寸取档，不要写裸数值）
+     --r-xs  小标签 / 小按钮 / 图标盒 / 细进度条
+     --r-sm  按钮 / 输入框 / 列表项
+     --r-md  小卡片 / 提示条
+     --r-lg  标准卡片
+     --r-xl  大容器 / 弹窗
+     --r-2xl 全屏引导卡
+     --r-pill 胶囊 / 圆形条 */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 20px;
+  --r-xl: 24px;
+  --r-2xl: 28px;
+  --r-pill: 999px;
+
+  /* 阴影刻度 */
+  --sh-1: 0 14px 30px -20px rgba(31,41,55,.30);         /* 轻浮起 */
+  --sh-2: 0 30px 60px -28px rgba(124,58,237,.45), 0 2px 10px -2px rgba(31,41,55,.12); /* 弹窗级 */
+  --sh-card: inset 0 1px 0 #fff, 0 14px 30px -20px rgba(31,41,55,.30);  /* 卡片静置 */
+  --sh-card-hover: 0 22px 40px -18px rgba(124,58,237,.38);              /* 卡片悬停 */
+  --sh-btn: 0 10px 22px -9px rgba(16,185,129,.60);       /* 主按钮（绿） */
+  --sh-btn-hover: 0 16px 30px -11px rgba(16,185,129,.70);
+  --sh-btn-v: 0 10px 22px -9px rgba(124,58,237,.60);     /* 强调按钮（紫） */
+  --sh-btn-v-hover: 0 16px 30px -11px rgba(124,58,237,.70);
+  --ring: 0 0 0 3px rgba(16,185,129,.18);                /* 输入框聚焦环 */
+
+  /* 字体 */
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+  /* 渐变 */
+  --grad-p: linear-gradient(135deg, #059669, #10B981);
+  --grad-v: linear-gradient(135deg, #7C3AED, #EC4899);
+
+  /* 噪点纹理 */
+  --noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+}
+
+/* ── 图标基础规则（配合 ui.js 的 SVG sprite） ── */
+.ico{
+  width: 1em; height: 1em;
+  display: inline-block; vertical-align: -.14em; flex: none;
+  fill: none; stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round;
+  overflow: visible;
+}
+.ico.lg{ width: 1.25em; height: 1.25em; }
+.ico.sm{ width: .85em;  height: .85em; }
+.ico.fill{ fill: currentColor; stroke: none; }
+.ico.spin{ animation: ico-spin 1s linear infinite; }
+@keyframes ico-spin{ to{ transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce){ .ico.spin{ animation: none; } }
+
+/* ── 组件契约（三页共用口径；各页保留自己的类名，但取值必须与此一致） ──
+ * 主按钮   background:var(--grad-p)  border-radius:var(--r-sm)  box-shadow:var(--sh-btn)
+ *          padding:11px 16px  font-size:13.5px  font-weight:900  color:#fff
+ *          悬停     translateY(-1px) + box-shadow:var(--sh-btn-hover)
+ * 强调按钮 background:var(--grad-v)  box-shadow:var(--sh-btn-v)（如学生端 .btn.ghost / 教师端 .btn.add）
+ * 次级按钮 底色用主色 8%~10% 透明 + 主色文字，无阴影
+ * 卡片     background:linear-gradient(170deg,rgba(255,255,255,.97),rgba(255,255,255,.86))
+ *          border:1px solid var(--line)  border-radius:var(--r-lg)  box-shadow:var(--sh-card)
+ * 徽标     border-radius:var(--r-pill)  font-size:10.5px  font-weight:800
+ *          padding:3px 8px  letter-spacing:.03em
+ */

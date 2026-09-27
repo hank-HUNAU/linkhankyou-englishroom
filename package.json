@@ -1,0 +1,21 @@
+{
+  "name": "think-study-tablet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TH!NK 学习平板：课文点读 / 跟读支架化 / 预习复习任务 / 教师学情与题库分析。零依赖 Node 后端（http + node:sqlite）。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node server.js --http",
+    "cert": "node gen-cert.js",
+    "test": "node _regress.js",
+    "test:core": "node _regress.js --core",
+    "test:list": "node _regress.js --list"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
