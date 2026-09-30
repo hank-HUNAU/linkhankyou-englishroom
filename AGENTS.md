@@ -57,12 +57,16 @@ npm run test:list    # 列出全部套件
 
 | 仓库路径 | 去向 | 内容 |
 |---|---|---|
-| `skills/project/` | 新工作区的 `.trae/skills/` | `sentence-alignment`、`text-vocab-coverage` |
-| `skills/global/` | 新环境的 `.trae-cn/skills/` | `local-mineru`、`article-vocab-analyzer`、`text-vocab-coverage`、`cet-cn2en-scholar`、`british-phonetics`、`student-vocab-cards`、`exam-paper-bank`、`teacher-vocab-prep`、`sentence-alignment`、`chunk-splitter` |
+| `skills/project/` | 新工作区的 `.trae/skills/` | `sentence-alignment` |
+| `skills/global/` | 新环境的 `.trae-cn/skills/` | `local-mineru`、`article-vocab-analyzer`、`cet-cn2en-scholar`、`british-phonetics`、`student-vocab-cards`、`exam-paper-bank`、`teacher-vocab-prep`、`sentence-alignment`、`chunk-splitter` |
 
-产出对应关系：`article-vocab-analyzer` / `text-vocab-coverage` 分析课文产出词汇报告与 `词汇诊断/`；`sentence-alignment` 对齐音频产出 `assets/timeline.json`；`teacher-vocab-prep` / `student-vocab-cards` / `british-phonetics` 是三个软分支，由 `article-vocab-analyzer/scripts/vocab_pipeline.py` 串联编排。
+产出对应关系：`article-vocab-analyzer` 分析课文产出词汇报告与 `词汇诊断/`；`sentence-alignment` 对齐音频产出 `assets/timeline.json`；`teacher-vocab-prep` / `student-vocab-cards` / `british-phonetics` 是三个软分支，由 `article-vocab-analyzer/scripts/vocab_pipeline.py` 串联编排。
 
-`text-vocab-coverage` 在 `project/` 与 `global/` 下已统一为同一版本（项目版的 `PER_surname` 与 `ORG_multi` 增强已合并回全局）。
+`text-vocab-coverage` **已退役**，四处副本（`project/`、`global/`、工作区 `.trae/skills/`、用户 `.trae-cn/skills/`）已全部删除，能力由 `article-vocab-analyzer` 承接：`entity_classify.py` 与 `entity_lexicon.json` 已迁入其 `scripts/`（含项目版的 `PER_surname` / `ORG_multi` 增强）；词汇分析改用其 `assess_vocab.py`（超集，新增 `AGENT_ER_NOUNS`、弯引号归一、纯引号 token 过滤），`lemma_candidates` 对 -er 名词的候选集与旧版不同（如 `owner` 不再归并到 `own`），依赖该函数的词汇分级可能微调。删除前四处副本字节一致，内容仍可从 git 历史取回。
+
+工作区根目录（`xueersi-diancan-原型` 的上一级）的 `tools-whisper/` 是内容生产脚本目录，其中两个脚本原引用该技能，解析路径已改为 `article-vocab-analyzer`（工作区 `.trae/skills/` 优先、回落全局 `.trae-cn/skills/`）：`ketpet/build_entities.py`、`ketpet/verify_entities.py`。改后已复跑验证：`verify_entities.py` 准确率 100%，`build_entities.py` 产物与现网 `entity_tables_lesson.json` / `entity_tables_stage.json` 字节一致。
+
+原第三个引用方 `tools-whisper/build_page.py` 是**遗留脚本，已删除**：它仍输出已下线的词级 `WORDS`，产物约 80 KB，远落后于现网 `index.html`（约 176 KB，只有句级 `TL` / `CHUNKS`），重跑会把页面回退。其模板 `index.html.template`（约 55 KB，仓库外未跟踪）已一并删除。
 
 `sentence-alignment` 也已统一到全局版，方向与直觉相反：全局版更晚编辑、已声明「词级点读（WORDS / `.wd`）下线，只保证句级对齐」，与应用现状一致（`index.html` 只有句级 `TL` 与 `CHUNKS`）；项目级旧副本曾含词级归属钳制，现已用全局版覆盖，并把旧副本独有的「端到端总流程」一节回灌进全局版。**不要用旧版项目副本反向覆盖全局版。** 详见 `skills/README.md`。
 

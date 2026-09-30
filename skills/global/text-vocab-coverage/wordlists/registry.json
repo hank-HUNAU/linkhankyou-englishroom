@@ -1,8 +1,0 @@
-{
-  "wordlists": [
-    { "key": "KET", "label": "KET(A2基础)", "file": "KET.json" },
-    { "key": "PET", "label": "PET(B1,含KET)", "file": "PET.json" },
-    { "key": "NGSL", "label": "NGSL(新通用服务词表1.2)", "file": "NGSL.json" },
-    { "key": "NAWL", "label": "NAWL(新学术词表1.2)", "file": "NAWL.json" }
-  ]
-}
