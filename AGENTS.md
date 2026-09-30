@@ -62,7 +62,9 @@ npm run test:list    # 列出全部套件
 
 产出对应关系：`article-vocab-analyzer` / `text-vocab-coverage` 分析课文产出词汇报告与 `词汇诊断/`；`sentence-alignment` 对齐音频产出 `assets/timeline.json`；`teacher-vocab-prep` / `student-vocab-cards` / `british-phonetics` 是三个软分支，由 `article-vocab-analyzer/scripts/vocab_pipeline.py` 串联编排。
 
-`sentence-alignment` 与 `text-vocab-coverage` 在 `project/` 与 `global/` 下内容不完全相同（详见 `skills/README.md`）。迁移前先确定单一权威版本，否则同一份课文在不同环境会算出不同覆盖率。
+`text-vocab-coverage` 在 `project/` 与 `global/` 下已统一为同一版本（项目版的 `PER_surname` 与 `ORG_multi` 增强已合并回全局）。
+
+`sentence-alignment` 仍分歧，且方向与直觉相反：全局版更晚编辑、已声明「词级点读（WORDS / `.wd`）下线，只保证句级对齐」，与应用现状一致（`index.html` 只有句级 `TL` 与 `CHUNKS`）；`project/` 下是更早版本，仍含词级归属钳制。**不要用项目版覆盖全局版。** 详见 `skills/README.md`。
 
 ## 改动后的验证
 

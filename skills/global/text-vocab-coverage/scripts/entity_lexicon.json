@@ -8,6 +8,7 @@
   },
   "PER": {
     "given": ["jason", "dana", "maureen", "mo", "nikolai", "sloan", "amy", "lily", "ben", "tom", "sam", "luke", "emma", "olivia", "ava", "jack", "noah", "liam", "mason", "zoe", "mia", "ella", "anna", "david", "mike", "john", "jane", "mark", "paul", "sarah", "kate", "peter", "lucy", "nancy", "robert", "william", "james", "henry"],
+    "surname": ["mcelwain", "henderson", "kutsenko", "mcgregor", "beck"],
     "pet": ["goatee", "mimi", "tommy", "rex", "coco", "max", "kitty", "whiskey"]
   },
   "GPE": {
@@ -18,6 +19,7 @@
     "multi": ["new york", "los angeles", "san francisco"]
   },
   "ORG": {
+    "multi": ["greece athena high school"],
     "suffix": ["school", "high school", "middle school", "elementary school", "college", "university", "academy", "institute", "club", "hospital", "hotel", "company", "corporation", "inc", "co", "ltd", "team", "fc", "agency", "association"]
   },
   "OTH": {

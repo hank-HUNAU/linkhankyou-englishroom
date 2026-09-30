@@ -19,8 +19,9 @@ LEX_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entity_lexi
 def load_lexicon(path=None):
     """载入实体词典(缺失时返回空结构)。"""
     p = path or LEX_FILE
-    empty = {"SYM": set(), "PER_given": set(), "PER_pet": set(),
-             "GPE": set(), "GPE_multi": [], "ORG_suffix": set(), "OTH": set()}
+    empty = {"SYM": set(), "PER_given": set(), "PER_pet": set(), "PER_surname": set(),
+             "GPE": set(), "GPE_multi": [], "ORG_suffix": set(), "ORG_multi": [],
+             "OTH": set()}
     if not os.path.exists(p):
         return empty
     raw = json.load(open(p, encoding="utf-8"))
@@ -32,13 +33,17 @@ def load_lexicon(path=None):
     for k in ("country", "state", "city", "region"):
         gpe_word.update({w: k for w in raw.get("GPE", {}).get(k, [])})
     multi = [tuple(w.split()) for w in raw.get("GPE", {}).get("multi", [])]
+    org = raw.get("ORG", {})
+    org_multi = [tuple(w.split()) for w in org.get("multi", [])]
     return {
         "SYM": sym,
         "PER_given": set(per.get("given", [])),
+        "PER_surname": set(per.get("surname", [])),
         "PER_pet": set(per.get("pet", [])),
         "GPE": set(gpe_word),
         "GPE_multi": sorted(multi, key=len, reverse=True),
-        "ORG_suffix": set(raw.get("ORG", {}).get("suffix", [])),
+        "ORG_suffix": set(org.get("suffix", [])),
+        "ORG_multi": sorted(org_multi, key=len, reverse=True),
         "OTH": set(raw.get("OTH", {}).get("single", [])),
     }
 
@@ -81,8 +86,8 @@ def classify_proper(toks, i, lex):
     if c in lex["SYM"]:
         return ("SYM", _cname(toks[i]), i + 1)
 
-    # 2) 人名: 已知名/宠物名, 顺延收集后续大写"姓"
-    if c in lex["PER_given"] or c in lex["PER_pet"]:
+    # 2) 人名: 已知名/宠物名/姓, 顺延收集后续大写"姓"
+    if c in lex["PER_given"] or c in lex["PER_pet"] or c in lex["PER_surname"]:
         lead = _cname(toks[i])
         j = i + 1
         while j < n:
@@ -94,7 +99,11 @@ def classify_proper(toks, i, lex):
                 break
         return ("PER", lead, j)
 
-    # 3) 机构: [i, i+4) 内出现机构后缀词 -> 整段归机构
+    # 3) 机构: 显式多词 > 后缀词
+    for words in lex["ORG_multi"]:
+        wl = len(words)
+        if i + wl <= n and [_core(t) for t in toks[i:i + wl]] == list(words):
+            return ("ORG", " ".join(_cname(t) for t in toks[i:i + wl]), i + wl)
     for j in range(i, min(n, i + 4)):
         if _core(toks[j]) in lex["ORG_suffix"]:
             return ("ORG", " ".join(_cname(t) for t in toks[i:j + 1]), j + 1)

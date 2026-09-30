@@ -35,14 +35,13 @@
 
 词汇分析产出词汇报告与 `词汇诊断/`；句级对齐产出 `assets/timeline.json`；`teacher-vocab-prep`、`student-vocab-cards`、`british-phonetics` 是三个软分支，由 `article-vocab-analyzer/scripts/vocab_pipeline.py` 串联编排。
 
-## 注意：同名技能存在版本分歧
+## 同名技能的两处状态
 
-`sentence-alignment` 与 `text-vocab-coverage` 同时出现在 `project/` 与 `global/` 下，且内容不完全相同：
+`sentence-alignment` 与 `text-vocab-coverage` 同时出现在 `project/` 与 `global/` 下。两者的处置状态不同：
 
-- `sentence-alignment`：项目版 9,621 B、全局版 5,762 B，两份 `SKILL.md` 内容不同
-- `text-vocab-coverage`：`entity_classify.py`（4,833 vs 4,367 B）与 `entity_lexicon.json`（2,705 vs 2,587 B）不同，项目版较新
+**`text-vocab-coverage` 已统一为单一版本。** 项目版新增了姓氏起头识别（`PER_surname`）与多词机构匹配（`ORG_multi`），全局版此前是更早的快照。已把项目版的 `entity_classify.py` 与 `entity_lexicon.json` 合并回全局，现两处内容一致，其余文件本就相同。
 
-两份都原样保留，便于对比后确定单一权威版本。合并前请勿直接覆盖，否则同一份课文在不同环境会算出不同覆盖率。
+**`sentence-alignment` 仍存在分歧，且方向与直觉相反。** 全局版（更晚编辑）已明确「词级点读（WORDS / `.wd`）下线，本技能只保证句级对齐」，与应用现状一致——`index.html` 中的点读只有句级 `TL` 与 `CHUNKS`，没有任何 `WORDS` 数据结构。`project/` 下的副本是更早版本，仍把词级归属钳制作为管线第 ③ 层，并额外含一节「端到端总流程（S0–S5）」。**合并前请勿用项目版覆盖全局版**，那会把已废弃的词级流程重新引入。
 
 另注：全局的 `article-vocab-analyzer` 与 `text-vocab-coverage` 各装一套分析能力，`assess_vocab.py` 分别是 29,559 B 与 14,969 B，`NGSL.json`、`NAWL.json` 两份词表也不同。
 
