@@ -1,0 +1,26 @@
+{
+  "_comment": "实体专名词典(用户可编辑)。PER/GPE/ORG/OTH 进实体表; SYM(月份/星期/节日/居民词)=符号专名, 仅标注、不进实体表。多词实体用空格分隔小写(如 \"new york\")。识别规则: SYM -> PER(名/宠物名, 顺延收集大写姓) -> ORG(校名/机构+后缀) -> GPE(多词/国家州城市) -> OTH。",
+  "SYM": {
+    "months": ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
+    "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+    "holidays": ["christmas", "halloween", "thanksgiving", "new year", "new year's day", "easter", "earth day"],
+    "demonyms": ["american", "american's", "british", "chinese", "japanese", "korean", "german", "french", "spanish", "italian", "russian", "australian", "canadian", "mexican", "brazilian", "indian", "african", "asian", "european", "egyptian", "turkish", "greek"]
+  },
+  "PER": {
+    "given": ["jason", "dana", "maureen", "mo", "nikolai", "sloan", "amy", "lily", "ben", "tom", "sam", "luke", "emma", "olivia", "ava", "jack", "noah", "liam", "mason", "zoe", "mia", "ella", "anna", "david", "mike", "john", "jane", "mark", "paul", "sarah", "kate", "peter", "lucy", "nancy", "robert", "william", "james", "henry"],
+    "pet": ["goatee", "mimi", "tommy", "rex", "coco", "max", "kitty", "whiskey"]
+  },
+  "GPE": {
+    "country": ["ukraine", "greece", "usa", "united states", "america", "canada", "united kingdom", "uk", "england", "china", "japan", "korea", "australia", "germany", "france", "italy", "spain", "portugal", "russia", "brazil", "india", "egypt", "turkey", "thailand", "singapore", "new zealand", "ireland", "norway", "sweden", "switzerland", "netherlands"],
+    "state": ["utah", "california", "texas", "florida", "new york", "nevada", "colorado", "alaska", "hawaii", "arizona", "oregon", "washington", "illinois", "georgia"],
+    "city": ["new york", "los angeles", "chicago", "houston", "london", "paris", "tokyo", "beijing", "shanghai", "san francisco", "boston", "washington", "seattle", "denver", "miami"],
+    "region": ["california", "florida"],
+    "multi": ["new york", "los angeles", "san francisco"]
+  },
+  "ORG": {
+    "suffix": ["school", "high school", "middle school", "elementary school", "college", "university", "academy", "institute", "club", "hospital", "hotel", "company", "corporation", "inc", "co", "ltd", "team", "fc", "agency", "association"]
+  },
+  "OTH": {
+    "single": ["athena", "zeus", "hercules", "odyssey", "titanic", "avatar"]
+  }
+}

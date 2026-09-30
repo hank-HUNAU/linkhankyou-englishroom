@@ -1,0 +1,9097 @@
+{
+"label": "NAWL 1.2 (New Academic Word List)",
+"entries": [
+{
+"head": "abdominal",
+"pos": "",
+"raw": "abdominal,abdominals,,,,,,",
+"forms": [
+"abdominal",
+"abdominals"
+]
+},
+{
+"head": "absorb",
+"pos": "",
+"raw": "absorb,absorbs,absorbed,absorbing,,,,",
+"forms": [
+"absorb",
+"absorbs",
+"absorbed",
+"absorbing"
+]
+},
+{
+"head": "absorption",
+"pos": "",
+"raw": "absorption,absorptions,,,,,,",
+"forms": [
+"absorption",
+"absorptions"
+]
+},
+{
+"head": "accelerate",
+"pos": "",
+"raw": "accelerate,accelerates,accelerated,accelerating,,,,",
+"forms": [
+"accelerate",
+"accelerates",
+"accelerated",
+"accelerating"
+]
+},
+{
+"head": "acceleration",
+"pos": "",
+"raw": "acceleration,accelerations,,,,,,",
+"forms": [
+"acceleration",
+"accelerations"
+]
+},
+{
+"head": "accent",
+"pos": "",
+"raw": "accent,accents,accented,accenting,,,,",
+"forms": [
+"accent",
+"accents",
+"accented",
+"accenting"
+]
+},
+{
+"head": "accumulate",
+"pos": "",
+"raw": "accumulate,accumulates,accumulated,accumulating,,,,",
+"forms": [
+"accumulate",
+"accumulates",
+"accumulated",
+"accumulating"
+]
+},
+{
+"head": "accumulation",
+"pos": "",
+"raw": "accumulation,accumulations,,,,,,",
+"forms": [
+"accumulation",
+"accumulations"
+]
+},
+{
+"head": "accuracy",
+"pos": "",
+"raw": "accuracy,accuracies,,,,,,",
+"forms": [
+"accuracy",
+"accuracies"
+]
+},
+{
+"head": "accurately",
+"pos": "",
+"raw": "accurately,,,,,,,",
+"forms": [
+"accurately"
+]
+},
+{
+"head": "acid",
+"pos": "",
+"raw": "acid,acids,,,,,,",
+"forms": [
+"acid",
+"acids"
+]
+},
+{
+"head": "acidic",
+"pos": "",
+"raw": "acidic,acidics,,,,,,",
+"forms": [
+"acidic",
+"acidics"
+]
+},
+{
+"head": "activate",
+"pos": "",
+"raw": "activate,activates,activated,activating,,,,",
+"forms": [
+"activate",
+"activates",
+"activated",
+"activating"
+]
+},
+{
+"head": "actively",
+"pos": "",
+"raw": "actively,,,,,,,",
+"forms": [
+"actively"
+]
+},
+{
+"head": "acute",
+"pos": "",
+"raw": "acute,acutest,,,,,,",
+"forms": [
+"acute",
+"acutest"
+]
+},
+{
+"head": "adaptation",
+"pos": "",
+"raw": "adaptation,adaptations,,,,,,",
+"forms": [
+"adaptation",
+"adaptations"
+]
+},
+{
+"head": "adaptive",
+"pos": "",
+"raw": "adaptive,adaptives,,,,,,",
+"forms": [
+"adaptive",
+"adaptives"
+]
+},
+{
+"head": "adjacent",
+"pos": "",
+"raw": "adjacent,adjacents,,,,,,",
+"forms": [
+"adjacent",
+"adjacents"
+]
+},
+{
+"head": "admission",
+"pos": "",
+"raw": "admission,admissions,,,,,,",
+"forms": [
+"admission",
+"admissions"
+]
+},
+{
+"head": "adolescent",
+"pos": "",
+"raw": "adolescent,adolescents,,,,,,",
+"forms": [
+"adolescent",
+"adolescents"
+]
+},
+{
+"head": "adverse",
+"pos": "",
+"raw": "adverse,,,,,,,",
+"forms": [
+"adverse"
+]
+},
+{
+"head": "aerosol",
+"pos": "",
+"raw": "aerosol,aerosols,,,,,,",
+"forms": [
+"aerosol",
+"aerosols"
+]
+},
+{
+"head": "aesthetic",
+"pos": "",
+"raw": "aesthetic,aesthetics,esthetic,esthetics,,,,",
+"forms": [
+"aesthetic",
+"aesthetics",
+"esthetic",
+"esthetics"
+]
+},
+{
+"head": "affirm",
+"pos": "",
+"raw": "affirm,affirms,affirmed,affirming,,,,",
+"forms": [
+"affirm",
+"affirms",
+"affirmed",
+"affirming"
+]
+},
+{
+"head": "afterward",
+"pos": "",
+"raw": "afterward,afterwards,,,,,,",
+"forms": [
+"afterward",
+"afterwards"
+]
+},
+{
+"head": "aggregate",
+"pos": "",
+"raw": "aggregate,aggregates,aggregated,aggregating,,,,",
+"forms": [
+"aggregate",
+"aggregates",
+"aggregated",
+"aggregating"
+]
+},
+{
+"head": "agriculture",
+"pos": "",
+"raw": "agriculture,agricultures,,,,,,",
+"forms": [
+"agriculture",
+"agricultures"
+]
+},
+{
+"head": "airplane",
+"pos": "",
+"raw": "airplane,airplanes,aeroplane,aeroplanes,,,,",
+"forms": [
+"airplane",
+"airplanes",
+"aeroplane",
+"aeroplanes"
+]
+},
+{
+"head": "algebra",
+"pos": "",
+"raw": "algebra,algebras,,,,,,",
+"forms": [
+"algebra",
+"algebras"
+]
+},
+{
+"head": "algorithm",
+"pos": "",
+"raw": "algorithm,algorithms,,,,,,",
+"forms": [
+"algorithm",
+"algorithms"
+]
+},
+{
+"head": "alien",
+"pos": "",
+"raw": "alien,aliens,,,,,,",
+"forms": [
+"alien",
+"aliens"
+]
+},
+{
+"head": "alliance",
+"pos": "",
+"raw": "alliance,alliances,,,,,,",
+"forms": [
+"alliance",
+"alliances"
+]
+},
+{
+"head": "allocate",
+"pos": "",
+"raw": "allocate,allocates,allocated,allocating,,,,",
+"forms": [
+"allocate",
+"allocates",
+"allocated",
+"allocating"
+]
+},
+{
+"head": "allocation",
+"pos": "",
+"raw": "allocation,allocations,,,,,,",
+"forms": [
+"allocation",
+"allocations"
+]
+},
+{
+"head": "altitude",
+"pos": "",
+"raw": "altitude,altitudes,,,,,,",
+"forms": [
+"altitude",
+"altitudes"
+]
+},
+{
+"head": "aluminum",
+"pos": "",
+"raw": "aluminum,aluminium,,,,,,",
+"forms": [
+"aluminum",
+"aluminium"
+]
+},
+{
+"head": "amino",
+"pos": "",
+"raw": "amino,,,,,,,",
+"forms": [
+"amino"
+]
+},
+{
+"head": "amongst",
+"pos": "",
+"raw": "amongst,,,,,,,",
+"forms": [
+"amongst"
+]
+},
+{
+"head": "amplitude",
+"pos": "",
+"raw": "amplitude,amplitudes,,,,,,",
+"forms": [
+"amplitude",
+"amplitudes"
+]
+},
+{
+"head": "analogy",
+"pos": "",
+"raw": "analogy,analogies,,,,,,",
+"forms": [
+"analogy",
+"analogies"
+]
+},
+{
+"head": "ancestor",
+"pos": "",
+"raw": "ancestor,ancestors,,,,,,",
+"forms": [
+"ancestor",
+"ancestors"
+]
+},
+{
+"head": "anthropology",
+"pos": "",
+"raw": "anthropology,anthropologies,,,,,,",
+"forms": [
+"anthropology",
+"anthropologies"
+]
+},
+{
+"head": "anti",
+"pos": "",
+"raw": "anti,antis,,,,,,",
+"forms": [
+"anti",
+"antis"
+]
+},
+{
+"head": "antibiotic",
+"pos": "",
+"raw": "antibiotic,antibiotics,,,,,,",
+"forms": [
+"antibiotic",
+"antibiotics"
+]
+},
+{
+"head": "antibody",
+"pos": "",
+"raw": "antibody,antibodies,,,,,,",
+"forms": [
+"antibody",
+"antibodies"
+]
+},
+{
+"head": "antiquity",
+"pos": "",
+"raw": "antiquity,antiquities,,,,,,",
+"forms": [
+"antiquity",
+"antiquities"
+]
+},
+{
+"head": "appendix",
+"pos": "",
+"raw": "appendix,appendices,appendixes,,,,,",
+"forms": [
+"appendix",
+"appendices",
+"appendixes"
+]
+},
+{
+"head": "applause",
+"pos": "",
+"raw": "applause,,,,,,,",
+"forms": [
+"applause"
+]
+},
+{
+"head": "apple",
+"pos": "",
+"raw": "apple,apples,,,,,,",
+"forms": [
+"apple",
+"apples"
+]
+},
+{
+"head": "approximate",
+"pos": "",
+"raw": "approximate,approximates,approximated,approximating,,,,",
+"forms": [
+"approximate",
+"approximates",
+"approximated",
+"approximating"
+]
+},
+{
+"head": "approximation",
+"pos": "",
+"raw": "approximation,approximations,,,,,,",
+"forms": [
+"approximation",
+"approximations"
+]
+},
+{
+"head": "arbitrary",
+"pos": "",
+"raw": "arbitrary,,,,,,,",
+"forms": [
+"arbitrary"
+]
+},
+{
+"head": "archaeology",
+"pos": "",
+"raw": "archaeology,archaeologies,,,,,,",
+"forms": [
+"archaeology",
+"archaeologies"
+]
+},
+{
+"head": "architect",
+"pos": "",
+"raw": "architect,architects,architected,architecting,,,,",
+"forms": [
+"architect",
+"architects",
+"architected",
+"architecting"
+]
+},
+{
+"head": "array",
+"pos": "",
+"raw": "array,arrays,arrayed,arraying,,,,",
+"forms": [
+"array",
+"arrays",
+"arrayed",
+"arraying"
+]
+},
+{
+"head": "arrow",
+"pos": "",
+"raw": "arrow,arrows,arrowed,arrowing,,,,",
+"forms": [
+"arrow",
+"arrows",
+"arrowed",
+"arrowing"
+]
+},
+{
+"head": "articulate",
+"pos": "",
+"raw": "articulate,articulates,articulated,articulating,,,,",
+"forms": [
+"articulate",
+"articulates",
+"articulated",
+"articulating"
+]
+},
+{
+"head": "artifact",
+"pos": "",
+"raw": "artifact,artifacts,artefact,artefacts,,,,",
+"forms": [
+"artifact",
+"artifacts",
+"artefact",
+"artefacts"
+]
+},
+{
+"head": "artificial",
+"pos": "",
+"raw": "artificial,artificials,,,,,,",
+"forms": [
+"artificial",
+"artificials"
+]
+},
+{
+"head": "artistic",
+"pos": "",
+"raw": "artistic,artistics,,,,,,",
+"forms": [
+"artistic",
+"artistics"
+]
+},
+{
+"head": "artwork",
+"pos": "",
+"raw": "artwork,artworks,,,,,,",
+"forms": [
+"artwork",
+"artworks"
+]
+},
+{
+"head": "aspect",
+"pos": "",
+"raw": "aspect,aspects,,,,,,",
+"forms": [
+"aspect",
+"aspects"
+]
+},
+{
+"head": "assembly",
+"pos": "",
+"raw": "assembly,assemblies,,,,,,",
+"forms": [
+"assembly",
+"assemblies"
+]
+},
+{
+"head": "assert",
+"pos": "",
+"raw": "assert,asserts,asserted,asserting,,,,",
+"forms": [
+"assert",
+"asserts",
+"asserted",
+"asserting"
+]
+},
+{
+"head": "assignment",
+"pos": "",
+"raw": "assignment,assignments,,,,,,",
+"forms": [
+"assignment",
+"assignments"
+]
+},
+{
+"head": "athletic",
+"pos": "",
+"raw": "athletic,athletics,,,,,,",
+"forms": [
+"athletic",
+"athletics"
+]
+},
+{
+"head": "atom",
+"pos": "",
+"raw": "atom,atoms,,,,,,",
+"forms": [
+"atom",
+"atoms"
+]
+},
+{
+"head": "atomic",
+"pos": "",
+"raw": "atomic,atomics,,,,,,",
+"forms": [
+"atomic",
+"atomics"
+]
+},
+{
+"head": "auction",
+"pos": "",
+"raw": "auction,auctions,auctioned,auctioning,,,,",
+"forms": [
+"auction",
+"auctions",
+"auctioned",
+"auctioning"
+]
+},
+{
+"head": "audio",
+"pos": "",
+"raw": "audio,,,,,,,",
+"forms": [
+"audio"
+]
+},
+{
+"head": "audit",
+"pos": "",
+"raw": "audit,audits,audited,auditing,,,,",
+"forms": [
+"audit",
+"audits",
+"audited",
+"auditing"
+]
+},
+{
+"head": "authority",
+"pos": "",
+"raw": "authority,authorities,,,,,,",
+"forms": [
+"authority",
+"authorities"
+]
+},
+{
+"head": "autonomy",
+"pos": "",
+"raw": "autonomy,autonomies,,,,,,",
+"forms": [
+"autonomy",
+"autonomies"
+]
+},
+{
+"head": "availability",
+"pos": "",
+"raw": "availability,availabilities,,,,,,",
+"forms": [
+"availability",
+"availabilities"
+]
+},
+{
+"head": "axiom",
+"pos": "",
+"raw": "axiom,axioms,,,,,,",
+"forms": [
+"axiom",
+"axioms"
+]
+},
+{
+"head": "axis",
+"pos": "",
+"raw": "axis,,,,,,,",
+"forms": [
+"axis"
+]
+},
+{
+"head": "backward",
+"pos": "",
+"raw": "backward,backwards,,,,,,",
+"forms": [
+"backward",
+"backwards"
+]
+},
+{
+"head": "bacteria",
+"pos": "",
+"raw": "bacteria,,,,,,,",
+"forms": [
+"bacteria"
+]
+},
+{
+"head": "bacterial",
+"pos": "",
+"raw": "bacterial,bacterials,,,,,,",
+"forms": [
+"bacterial",
+"bacterials"
+]
+},
+{
+"head": "bang",
+"pos": "",
+"raw": "bang,bangs,banged,banging,,,,",
+"forms": [
+"bang",
+"bangs",
+"banged",
+"banging"
+]
+},
+{
+"head": "bargain",
+"pos": "",
+"raw": "bargain,bargains,bargained,bargaining,,,,",
+"forms": [
+"bargain",
+"bargains",
+"bargained",
+"bargaining"
+]
+},
+{
+"head": "barrel",
+"pos": "",
+"raw": "barrel,barrels,barrelled,barrelling,barreled,barreling,,",
+"forms": [
+"barrel",
+"barrels",
+"barrelled",
+"barrelling",
+"barreled",
+"barreling"
+]
+},
+{
+"head": "basin",
+"pos": "",
+"raw": "basin,basins,basined,,,,,",
+"forms": [
+"basin",
+"basins",
+"basined"
+]
+},
+{
+"head": "bat",
+"pos": "",
+"raw": "bat,bats,batted,batting,battings,,,",
+"forms": [
+"bat",
+"bats",
+"batted",
+"batting",
+"battings"
+]
+},
+{
+"head": "beam",
+"pos": "",
+"raw": "beam,beams,beamed,beaming,,,,",
+"forms": [
+"beam",
+"beams",
+"beamed",
+"beaming"
+]
+},
+{
+"head": "behavioral",
+"pos": "",
+"raw": "behavioral,behavioural,,,,,,",
+"forms": [
+"behavioral",
+"behavioural"
+]
+},
+{
+"head": "bilingual",
+"pos": "",
+"raw": "bilingual,bilinguals,,,,,,",
+"forms": [
+"bilingual",
+"bilinguals"
+]
+},
+{
+"head": "binary",
+"pos": "",
+"raw": "binary,binarys,binaries,,,,,",
+"forms": [
+"binary",
+"binarys",
+"binaries"
+]
+},
+{
+"head": "biodiversity",
+"pos": "",
+"raw": "biodiversity,,,,,,,",
+"forms": [
+"biodiversity"
+]
+},
+{
+"head": "biologist",
+"pos": "",
+"raw": "biologist,biologists,,,,,,",
+"forms": [
+"biologist",
+"biologists"
+]
+},
+{
+"head": "biology",
+"pos": "",
+"raw": "biology,biologies,,,,,,",
+"forms": [
+"biology",
+"biologies"
+]
+},
+{
+"head": "bizarre",
+"pos": "",
+"raw": "bizarre,,,,,,,",
+"forms": [
+"bizarre"
+]
+},
+{
+"head": "blank",
+"pos": "",
+"raw": "blank,blanks,blanked,blanking,blanker,,,",
+"forms": [
+"blank",
+"blanks",
+"blanked",
+"blanking",
+"blanker"
+]
+},
+{
+"head": "bleed",
+"pos": "",
+"raw": "bleed,bleeds,bled,bleeding,bleedin,,,",
+"forms": [
+"bleed",
+"bleeds",
+"bled",
+"bleeding",
+"bleedin"
+]
+},
+{
+"head": "bodily",
+"pos": "",
+"raw": "bodily,,,,,,,",
+"forms": [
+"bodily"
+]
+},
+{
+"head": "bonus",
+"pos": "",
+"raw": "bonus,bonuses,,,,,,",
+"forms": [
+"bonus",
+"bonuses"
+]
+},
+{
+"head": "bound",
+"pos": "",
+"raw": "bound,bounds,bounded,bounding,,,,",
+"forms": [
+"bound",
+"bounds",
+"bounded",
+"bounding"
+]
+},
+{
+"head": "bracket",
+"pos": "",
+"raw": "bracket,brackets,bracketed,bracketted,,,,",
+"forms": [
+"bracket",
+"brackets",
+"bracketed",
+"bracketted"
+]
+},
+{
+"head": "breakdown",
+"pos": "",
+"raw": "breakdown,breakdowns,,,,,,",
+"forms": [
+"breakdown",
+"breakdowns"
+]
+},
+{
+"head": "broadly",
+"pos": "",
+"raw": "broadly,,,,,,,",
+"forms": [
+"broadly"
+]
+},
+{
+"head": "bubble",
+"pos": "",
+"raw": "bubble,bubbles,bubbled,bubbling,,,,",
+"forms": [
+"bubble",
+"bubbles",
+"bubbled",
+"bubbling"
+]
+},
+{
+"head": "bucket",
+"pos": "",
+"raw": "bucket,buckets,,,,,,",
+"forms": [
+"bucket",
+"buckets"
+]
+},
+{
+"head": "bulk",
+"pos": "",
+"raw": "bulk,bulks,bulked,bulking,,,,",
+"forms": [
+"bulk",
+"bulks",
+"bulked",
+"bulking"
+]
+},
+{
+"head": "bullet",
+"pos": "",
+"raw": "bullet,bullets,,,,,,",
+"forms": [
+"bullet",
+"bullets"
+]
+},
+{
+"head": "bundle",
+"pos": "",
+"raw": "bundle,bundles,bundled,bundling,,,,",
+"forms": [
+"bundle",
+"bundles",
+"bundled",
+"bundling"
+]
+},
+{
+"head": "calcium",
+"pos": "",
+"raw": "calcium,,,,,,,",
+"forms": [
+"calcium"
+]
+},
+{
+"head": "calculation",
+"pos": "",
+"raw": "calculation,calculations,,,,,,",
+"forms": [
+"calculation",
+"calculations"
+]
+},
+{
+"head": "calculator",
+"pos": "",
+"raw": "calculator,calculators,,,,,,",
+"forms": [
+"calculator",
+"calculators"
+]
+},
+{
+"head": "calculus",
+"pos": "",
+"raw": "calculus,,,,,,,",
+"forms": [
+"calculus"
+]
+},
+{
+"head": "campus",
+"pos": "",
+"raw": "campus,campuses,,,,,,",
+"forms": [
+"campus",
+"campuses"
+]
+},
+{
+"head": "capillary",
+"pos": "",
+"raw": "capillary,capillaries,,,,,,",
+"forms": [
+"capillary",
+"capillaries"
+]
+},
+{
+"head": "capitalism",
+"pos": "",
+"raw": "capitalism,capitalisms,,,,,,",
+"forms": [
+"capitalism",
+"capitalisms"
+]
+},
+{
+"head": "capitalist",
+"pos": "",
+"raw": "capitalist,capitalists,,,,,,",
+"forms": [
+"capitalist",
+"capitalists"
+]
+},
+{
+"head": "carrier",
+"pos": "",
+"raw": "carrier,carriers,,,,,,",
+"forms": [
+"carrier",
+"carriers"
+]
+},
+{
+"head": "cattle",
+"pos": "",
+"raw": "cattle,,,,,,,",
+"forms": [
+"cattle"
+]
+},
+{
+"head": "censor",
+"pos": "",
+"raw": "censor,censors,censored,censoring,censorings,,,",
+"forms": [
+"censor",
+"censors",
+"censored",
+"censoring",
+"censorings"
+]
+},
+{
+"head": "characterization",
+"pos": "",
+"raw": "characterization,characterizations,characterisation,characterisations,,,,",
+"forms": [
+"characterization",
+"characterizations",
+"characterisation",
+"characterisations"
+]
+},
+{
+"head": "cheat",
+"pos": "",
+"raw": "cheat,cheats,cheated,cheating,cheatings,,,",
+"forms": [
+"cheat",
+"cheats",
+"cheated",
+"cheating",
+"cheatings"
+]
+},
+{
+"head": "cheer",
+"pos": "",
+"raw": "cheer,cheers,cheered,cheering,,,,",
+"forms": [
+"cheer",
+"cheers",
+"cheered",
+"cheering"
+]
+},
+{
+"head": "chemistry",
+"pos": "",
+"raw": "chemistry,chemistries,,,,,,",
+"forms": [
+"chemistry",
+"chemistries"
+]
+},
+{
+"head": "chemotherapy",
+"pos": "",
+"raw": "chemotherapy,chemotherapies,,,,,,",
+"forms": [
+"chemotherapy",
+"chemotherapies"
+]
+},
+{
+"head": "chess",
+"pos": "",
+"raw": "chess,,,,,,,",
+"forms": [
+"chess"
+]
+},
+{
+"head": "chloride",
+"pos": "",
+"raw": "chloride,chlorides,,,,,,",
+"forms": [
+"chloride",
+"chlorides"
+]
+},
+{
+"head": "chromosome",
+"pos": "",
+"raw": "chromosome,chromosomes,,,,,,",
+"forms": [
+"chromosome",
+"chromosomes"
+]
+},
+{
+"head": "chronic",
+"pos": "",
+"raw": "chronic,chronics,,,,,,",
+"forms": [
+"chronic",
+"chronics"
+]
+},
+{
+"head": "chunk",
+"pos": "",
+"raw": "chunk,chunks,chunked,chunking,,,,",
+"forms": [
+"chunk",
+"chunks",
+"chunked",
+"chunking"
+]
+},
+{
+"head": "cinema",
+"pos": "",
+"raw": "cinema,cinemas,,,,,,",
+"forms": [
+"cinema",
+"cinemas"
+]
+},
+{
+"head": "circa",
+"pos": "",
+"raw": "circa,,,,,,,",
+"forms": [
+"circa"
+]
+},
+{
+"head": "circulate",
+"pos": "",
+"raw": "circulate,circulates,circulated,circulating,,,,",
+"forms": [
+"circulate",
+"circulates",
+"circulated",
+"circulating"
+]
+},
+{
+"head": "circulation",
+"pos": "",
+"raw": "circulation,circulations,,,,,,",
+"forms": [
+"circulation",
+"circulations"
+]
+},
+{
+"head": "civilization",
+"pos": "",
+"raw": "civilization,civilizations,civilisation,civilisations,,,,",
+"forms": [
+"civilization",
+"civilizations",
+"civilisation",
+"civilisations"
+]
+},
+{
+"head": "clarify",
+"pos": "",
+"raw": "clarify,clarifies,clarified,clarifying,,,,",
+"forms": [
+"clarify",
+"clarifies",
+"clarified",
+"clarifying"
+]
+},
+{
+"head": "classification",
+"pos": "",
+"raw": "classification,classifications,,,,,,",
+"forms": [
+"classification",
+"classifications"
+]
+},
+{
+"head": "classify",
+"pos": "",
+"raw": "classify,classifies,classified,classifying,,,,",
+"forms": [
+"classify",
+"classifies",
+"classified",
+"classifying"
+]
+},
+{
+"head": "classroom",
+"pos": "",
+"raw": "classroom,classrooms,,,,,,",
+"forms": [
+"classroom",
+"classrooms"
+]
+},
+{
+"head": "clay",
+"pos": "",
+"raw": "clay,clays,,,,,,",
+"forms": [
+"clay",
+"clays"
+]
+},
+{
+"head": "clever",
+"pos": "",
+"raw": "clever,cleverer,cleverest,,,,,",
+"forms": [
+"clever",
+"cleverer",
+"cleverest"
+]
+},
+{
+"head": "client",
+"pos": "",
+"raw": "client,clients,,,,,,",
+"forms": [
+"client",
+"clients"
+]
+},
+{
+"head": "clinic",
+"pos": "",
+"raw": "clinic,clinics,,,,,,",
+"forms": [
+"clinic",
+"clinics"
+]
+},
+{
+"head": "clip",
+"pos": "",
+"raw": "clip,clips,clipped,clipping,clippings,,,",
+"forms": [
+"clip",
+"clips",
+"clipped",
+"clipping",
+"clippings"
+]
+},
+{
+"head": "clone",
+"pos": "",
+"raw": "clone,clones,cloned,cloning,,,,",
+"forms": [
+"clone",
+"clones",
+"cloned",
+"cloning"
+]
+},
+{
+"head": "closure",
+"pos": "",
+"raw": "closure,closures,,,,,,",
+"forms": [
+"closure",
+"closures"
+]
+},
+{
+"head": "clue",
+"pos": "",
+"raw": "clue,clues,clued,cluing,,,,",
+"forms": [
+"clue",
+"clues",
+"clued",
+"cluing"
+]
+},
+{
+"head": "coefficient",
+"pos": "",
+"raw": "coefficient,coefficients,,,,,,",
+"forms": [
+"coefficient",
+"coefficients"
+]
+},
+{
+"head": "cognitive",
+"pos": "",
+"raw": "cognitive,,,,,,,",
+"forms": [
+"cognitive"
+]
+},
+{
+"head": "coherent",
+"pos": "",
+"raw": "coherent,,,,,,,",
+"forms": [
+"coherent"
+]
+},
+{
+"head": "collective",
+"pos": "",
+"raw": "collective,collectives,,,,,,",
+"forms": [
+"collective",
+"collectives"
+]
+},
+{
+"head": "colonial",
+"pos": "",
+"raw": "colonial,colonials,,,,,,",
+"forms": [
+"colonial",
+"colonials"
+]
+},
+{
+"head": "colony",
+"pos": "",
+"raw": "colony,colonies,,,,,,",
+"forms": [
+"colony",
+"colonies"
+]
+},
+{
+"head": "comma",
+"pos": "",
+"raw": "comma,commas,,,,,,",
+"forms": [
+"comma",
+"commas"
+]
+},
+{
+"head": "commentary",
+"pos": "",
+"raw": "commentary,commentaries,,,,,,",
+"forms": [
+"commentary",
+"commentaries"
+]
+},
+{
+"head": "commodity",
+"pos": "",
+"raw": "commodity,commodities,,,,,,",
+"forms": [
+"commodity",
+"commodities"
+]
+},
+{
+"head": "commonly",
+"pos": "",
+"raw": "commonly,,,,,,,",
+"forms": [
+"commonly"
+]
+},
+{
+"head": "communicative",
+"pos": "",
+"raw": "communicative,,,,,,,",
+"forms": [
+"communicative"
+]
+},
+{
+"head": "communist",
+"pos": "",
+"raw": "communist,communists,,,,,,",
+"forms": [
+"communist",
+"communists"
+]
+},
+{
+"head": "compact",
+"pos": "",
+"raw": "compact,compacts,compacted,compacting,compacter,,,",
+"forms": [
+"compact",
+"compacts",
+"compacted",
+"compacting",
+"compacter"
+]
+},
+{
+"head": "comparable",
+"pos": "",
+"raw": "comparable,comparables,,,,,,",
+"forms": [
+"comparable",
+"comparables"
+]
+},
+{
+"head": "comparative",
+"pos": "",
+"raw": "comparative,comparatives,,,,,,",
+"forms": [
+"comparative",
+"comparatives"
+]
+},
+{
+"head": "compensate",
+"pos": "",
+"raw": "compensate,compensates,compensated,compensating,,,,",
+"forms": [
+"compensate",
+"compensates",
+"compensated",
+"compensating"
+]
+},
+{
+"head": "competence",
+"pos": "",
+"raw": "competence,competences,,,,,,",
+"forms": [
+"competence",
+"competences"
+]
+},
+{
+"head": "competent",
+"pos": "",
+"raw": "competent,,,,,,,",
+"forms": [
+"competent"
+]
+},
+{
+"head": "complement",
+"pos": "",
+"raw": "complement,complements,complemented,complementing,,,,",
+"forms": [
+"complement",
+"complements",
+"complemented",
+"complementing"
+]
+},
+{
+"head": "complication",
+"pos": "",
+"raw": "complication,complications,,,,,,",
+"forms": [
+"complication",
+"complications"
+]
+},
+{
+"head": "comply",
+"pos": "",
+"raw": "comply,complies,complied,complying,,,,",
+"forms": [
+"comply",
+"complies",
+"complied",
+"complying"
+]
+},
+{
+"head": "composer",
+"pos": "",
+"raw": "composer,composers,,,,,,",
+"forms": [
+"composer",
+"composers"
+]
+},
+{
+"head": "composite",
+"pos": "",
+"raw": "composite,,,,,,,",
+"forms": [
+"composite"
+]
+},
+{
+"head": "comprehension",
+"pos": "",
+"raw": "comprehension,,,,,,,",
+"forms": [
+"comprehension"
+]
+},
+{
+"head": "computation",
+"pos": "",
+"raw": "computation,computations,,,,,,",
+"forms": [
+"computation",
+"computations"
+]
+},
+{
+"head": "conceive",
+"pos": "",
+"raw": "conceive,conceives,conceived,conceiving,,,,",
+"forms": [
+"conceive",
+"conceives",
+"conceived",
+"conceiving"
+]
+},
+{
+"head": "conception",
+"pos": "",
+"raw": "conception,conceptions,,,,,,",
+"forms": [
+"conception",
+"conceptions"
+]
+},
+{
+"head": "conceptual",
+"pos": "",
+"raw": "conceptual,conceptuals,,,,,,",
+"forms": [
+"conceptual",
+"conceptuals"
+]
+},
+{
+"head": "conditional",
+"pos": "",
+"raw": "conditional,conditionals,,,,,,",
+"forms": [
+"conditional",
+"conditionals"
+]
+},
+{
+"head": "conduction",
+"pos": "",
+"raw": "conduction,,,,,,,",
+"forms": [
+"conduction"
+]
+},
+{
+"head": "cone",
+"pos": "",
+"raw": "cone,cones,,,,,,",
+"forms": [
+"cone",
+"cones"
+]
+},
+{
+"head": "configuration",
+"pos": "",
+"raw": "configuration,configurations,,,,,,",
+"forms": [
+"configuration",
+"configurations"
+]
+},
+{
+"head": "confine",
+"pos": "",
+"raw": "confine,confines,confined,confining,,,,",
+"forms": [
+"confine",
+"confines",
+"confined",
+"confining"
+]
+},
+{
+"head": "confound",
+"pos": "",
+"raw": "confound,confounds,confounded,confounding,,,,",
+"forms": [
+"confound",
+"confounds",
+"confounded",
+"confounding"
+]
+},
+{
+"head": "congruent",
+"pos": "",
+"raw": "congruent,,,,,,,",
+"forms": [
+"congruent"
+]
+},
+{
+"head": "connector",
+"pos": "",
+"raw": "connector,connectors,,,,,,",
+"forms": [
+"connector",
+"connectors"
+]
+},
+{
+"head": "connotation",
+"pos": "",
+"raw": "connotation,connotations,,,,,,",
+"forms": [
+"connotation",
+"connotations"
+]
+},
+{
+"head": "conscious",
+"pos": "",
+"raw": "conscious,,,,,,,",
+"forms": [
+"conscious"
+]
+},
+{
+"head": "consciousness",
+"pos": "",
+"raw": "consciousness,consciousnesses,,,,,,",
+"forms": [
+"consciousness",
+"consciousnesses"
+]
+},
+{
+"head": "consensus",
+"pos": "",
+"raw": "consensus,,,,,,,",
+"forms": [
+"consensus"
+]
+},
+{
+"head": "consent",
+"pos": "",
+"raw": "consent,consents,consented,consenting,,,,",
+"forms": [
+"consent",
+"consents",
+"consented",
+"consenting"
+]
+},
+{
+"head": "conservation",
+"pos": "",
+"raw": "conservation,conservations,,,,,,",
+"forms": [
+"conservation",
+"conservations"
+]
+},
+{
+"head": "conserve",
+"pos": "",
+"raw": "conserve,conserves,conserved,conserving,,,,",
+"forms": [
+"conserve",
+"conserves",
+"conserved",
+"conserving"
+]
+},
+{
+"head": "consonant",
+"pos": "",
+"raw": "consonant,consonants,,,,,,",
+"forms": [
+"consonant",
+"consonants"
+]
+},
+{
+"head": "constitution",
+"pos": "",
+"raw": "constitution,constitutions,,,,,,",
+"forms": [
+"constitution",
+"constitutions"
+]
+},
+{
+"head": "constrain",
+"pos": "",
+"raw": "constrain,constrains,constrained,constraining,,,,",
+"forms": [
+"constrain",
+"constrains",
+"constrained",
+"constraining"
+]
+},
+{
+"head": "consultation",
+"pos": "",
+"raw": "consultation,consultations,,,,,,",
+"forms": [
+"consultation",
+"consultations"
+]
+},
+{
+"head": "consumption",
+"pos": "",
+"raw": "consumption,consumptions,,,,,,",
+"forms": [
+"consumption",
+"consumptions"
+]
+},
+{
+"head": "container",
+"pos": "",
+"raw": "container,containers,,,,,,",
+"forms": [
+"container",
+"containers"
+]
+},
+{
+"head": "continent",
+"pos": "",
+"raw": "continent,continents,,,,,,",
+"forms": [
+"continent",
+"continents"
+]
+},
+{
+"head": "continuity",
+"pos": "",
+"raw": "continuity,continuities,,,,,,",
+"forms": [
+"continuity",
+"continuities"
+]
+},
+{
+"head": "contour",
+"pos": "",
+"raw": "contour,contours,contoured,contouring,,,,",
+"forms": [
+"contour",
+"contours",
+"contoured",
+"contouring"
+]
+},
+{
+"head": "contradict",
+"pos": "",
+"raw": "contradict,contradicts,contradicted,contradicting,,,,",
+"forms": [
+"contradict",
+"contradicts",
+"contradicted",
+"contradicting"
+]
+},
+{
+"head": "contradiction",
+"pos": "",
+"raw": "contradiction,contradictions,,,,,,",
+"forms": [
+"contradiction",
+"contradictions"
+]
+},
+{
+"head": "contradictory",
+"pos": "",
+"raw": "contradictory,,,,,,,",
+"forms": [
+"contradictory"
+]
+},
+{
+"head": "contrary",
+"pos": "",
+"raw": "contrary,contraries,,,,,,",
+"forms": [
+"contrary",
+"contraries"
+]
+},
+{
+"head": "controversy",
+"pos": "",
+"raw": "controversy,controversies,,,,,,",
+"forms": [
+"controversy",
+"controversies"
+]
+},
+{
+"head": "converge",
+"pos": "",
+"raw": "converge,converges,converged,converging,,,,",
+"forms": [
+"converge",
+"converges",
+"converged",
+"converging"
+]
+},
+{
+"head": "convergence",
+"pos": "",
+"raw": "convergence,convergences,,,,,,",
+"forms": [
+"convergence",
+"convergences"
+]
+},
+{
+"head": "coordinate",
+"pos": "",
+"raw": "coordinate,coordinates,coordinated,coordinating,,,,",
+"forms": [
+"coordinate",
+"coordinates",
+"coordinated",
+"coordinating"
+]
+},
+{
+"head": "coordination",
+"pos": "",
+"raw": "coordination,coordinations,,,,,,",
+"forms": [
+"coordination",
+"coordinations"
+]
+},
+{
+"head": "cord",
+"pos": "",
+"raw": "cord,cords,corded,cording,,,,",
+"forms": [
+"cord",
+"cords",
+"corded",
+"cording"
+]
+},
+{
+"head": "coronary",
+"pos": "",
+"raw": "coronary,,,,,,,",
+"forms": [
+"coronary"
+]
+},
+{
+"head": "corpus",
+"pos": "",
+"raw": "corpus,,,,,,,",
+"forms": [
+"corpus"
+]
+},
+{
+"head": "correction",
+"pos": "",
+"raw": "correction,corrections,,,,,,",
+"forms": [
+"correction",
+"corrections"
+]
+},
+{
+"head": "correctly",
+"pos": "",
+"raw": "correctly,,,,,,,",
+"forms": [
+"correctly"
+]
+},
+{
+"head": "correlate",
+"pos": "",
+"raw": "correlate,correlates,correlated,correlating,,,,",
+"forms": [
+"correlate",
+"correlates",
+"correlated",
+"correlating"
+]
+},
+{
+"head": "correlation",
+"pos": "",
+"raw": "correlation,correlations,,,,,,",
+"forms": [
+"correlation",
+"correlations"
+]
+},
+{
+"head": "correspondence",
+"pos": "",
+"raw": "correspondence,correspondences,,,,,,",
+"forms": [
+"correspondence",
+"correspondences"
+]
+},
+{
+"head": "corruption",
+"pos": "",
+"raw": "corruption,corruptions,,,,,,",
+"forms": [
+"corruption",
+"corruptions"
+]
+},
+{
+"head": "cortex",
+"pos": "",
+"raw": "cortex,cortexes,cortices,,,,,",
+"forms": [
+"cortex",
+"cortexes",
+"cortices"
+]
+},
+{
+"head": "credibility",
+"pos": "",
+"raw": "credibility,,,,,,,",
+"forms": [
+"credibility"
+]
+},
+{
+"head": "criteria",
+"pos": "",
+"raw": "criteria,,,,,,,",
+"forms": [
+"criteria"
+]
+},
+{
+"head": "critically",
+"pos": "",
+"raw": "critically,,,,,,,",
+"forms": [
+"critically"
+]
+},
+{
+"head": "critique",
+"pos": "",
+"raw": "critique,critiques,critiqued,critiquing,,,,",
+"forms": [
+"critique",
+"critiques",
+"critiqued",
+"critiquing"
+]
+},
+{
+"head": "crude",
+"pos": "",
+"raw": "crude,cruder,crudest,,,,,",
+"forms": [
+"crude",
+"cruder",
+"crudest"
+]
+},
+{
+"head": "crystal",
+"pos": "",
+"raw": "crystal,crystals,,,,,,",
+"forms": [
+"crystal",
+"crystals"
+]
+},
+{
+"head": "cue",
+"pos": "",
+"raw": "cue,cues,cued,cueing,,,,",
+"forms": [
+"cue",
+"cues",
+"cued",
+"cueing"
+]
+},
+{
+"head": "cure",
+"pos": "",
+"raw": "cure,cures,cured,curing,,,,",
+"forms": [
+"cure",
+"cures",
+"cured",
+"curing"
+]
+},
+{
+"head": "curriculum",
+"pos": "",
+"raw": "curriculum,curriculums,curricula,,,,,",
+"forms": [
+"curriculum",
+"curriculums",
+"curricula"
+]
+},
+{
+"head": "cyclic",
+"pos": "",
+"raw": "cyclic,cyclics,,,,,,",
+"forms": [
+"cyclic",
+"cyclics"
+]
+},
+{
+"head": "cylinder",
+"pos": "",
+"raw": "cylinder,cylinders,,,,,,",
+"forms": [
+"cylinder",
+"cylinders"
+]
+},
+{
+"head": "damp",
+"pos": "",
+"raw": "damp,damps,damped,damping,dampest,,,",
+"forms": [
+"damp",
+"damps",
+"damped",
+"damping",
+"dampest"
+]
+},
+{
+"head": "deadline",
+"pos": "",
+"raw": "deadline,deadlines,,,,,,",
+"forms": [
+"deadline",
+"deadlines"
+]
+},
+{
+"head": "decay",
+"pos": "",
+"raw": "decay,decays,decayed,decaying,,,,",
+"forms": [
+"decay",
+"decays",
+"decayed",
+"decaying"
+]
+},
+{
+"head": "deceive",
+"pos": "",
+"raw": "deceive,deceives,deceived,deceiving,,,,",
+"forms": [
+"deceive",
+"deceives",
+"deceived",
+"deceiving"
+]
+},
+{
+"head": "defect",
+"pos": "",
+"raw": "defect,defects,defected,defecting,,,,",
+"forms": [
+"defect",
+"defects",
+"defected",
+"defecting"
+]
+},
+{
+"head": "deficiency",
+"pos": "",
+"raw": "deficiency,deficiencies,,,,,,",
+"forms": [
+"deficiency",
+"deficiencies"
+]
+},
+{
+"head": "definite",
+"pos": "",
+"raw": "definite,,,,,,,",
+"forms": [
+"definite"
+]
+},
+{
+"head": "deflection",
+"pos": "",
+"raw": "deflection,deflections,,,,,,",
+"forms": [
+"deflection",
+"deflections"
+]
+},
+{
+"head": "degrade",
+"pos": "",
+"raw": "degrade,degrades,degraded,degrading,,,,",
+"forms": [
+"degrade",
+"degrades",
+"degraded",
+"degrading"
+]
+},
+{
+"head": "deliberately",
+"pos": "",
+"raw": "deliberately,,,,,,,",
+"forms": [
+"deliberately"
+]
+},
+{
+"head": "delta",
+"pos": "",
+"raw": "delta,deltas,,,,,,",
+"forms": [
+"delta",
+"deltas"
+]
+},
+{
+"head": "demonstrator",
+"pos": "",
+"raw": "demonstrator,demonstrators,,,,,,",
+"forms": [
+"demonstrator",
+"demonstrators"
+]
+},
+{
+"head": "denominator",
+"pos": "",
+"raw": "denominator,denominators,,,,,,",
+"forms": [
+"denominator",
+"denominators"
+]
+},
+{
+"head": "denote",
+"pos": "",
+"raw": "denote,denotes,denoted,denoting,,,,",
+"forms": [
+"denote",
+"denotes",
+"denoted",
+"denoting"
+]
+},
+{
+"head": "dense",
+"pos": "",
+"raw": "dense,denser,densest,,,,,",
+"forms": [
+"dense",
+"denser",
+"densest"
+]
+},
+{
+"head": "dependence",
+"pos": "",
+"raw": "dependence,dependences,,,,,,",
+"forms": [
+"dependence",
+"dependences"
+]
+},
+{
+"head": "depict",
+"pos": "",
+"raw": "depict,depicts,depicted,depicting,,,,",
+"forms": [
+"depict",
+"depicts",
+"depicted",
+"depicting"
+]
+},
+{
+"head": "derivative",
+"pos": "",
+"raw": "derivative,derivatives,,,,,,",
+"forms": [
+"derivative",
+"derivatives"
+]
+},
+{
+"head": "descendent",
+"pos": "",
+"raw": "descendent,descendents,,,,,,",
+"forms": [
+"descendent",
+"descendents"
+]
+},
+{
+"head": "descriptor",
+"pos": "",
+"raw": "descriptor,descriptors,,,,,,",
+"forms": [
+"descriptor",
+"descriptors"
+]
+},
+{
+"head": "destination",
+"pos": "",
+"raw": "destination,destinations,,,,,,",
+"forms": [
+"destination",
+"destinations"
+]
+},
+{
+"head": "detection",
+"pos": "",
+"raw": "detection,detections,,,,,,",
+"forms": [
+"detection",
+"detections"
+]
+},
+{
+"head": "developmental",
+"pos": "",
+"raw": "developmental,developmentals,,,,,,",
+"forms": [
+"developmental",
+"developmentals"
+]
+},
+{
+"head": "deviation",
+"pos": "",
+"raw": "deviation,deviations,,,,,,",
+"forms": [
+"deviation",
+"deviations"
+]
+},
+{
+"head": "diagnose",
+"pos": "",
+"raw": "diagnose,diagnoses,diagnosed,diagnosing,,,,",
+"forms": [
+"diagnose",
+"diagnoses",
+"diagnosed",
+"diagnosing"
+]
+},
+{
+"head": "diagnosis",
+"pos": "",
+"raw": "diagnosis,,,,,,,",
+"forms": [
+"diagnosis"
+]
+},
+{
+"head": "diagnostic",
+"pos": "",
+"raw": "diagnostic,diagnostics,,,,,,",
+"forms": [
+"diagnostic",
+"diagnostics"
+]
+},
+{
+"head": "diagram",
+"pos": "",
+"raw": "diagram,diagrams,diagrammed,diagramming,,,,",
+"forms": [
+"diagram",
+"diagrams",
+"diagrammed",
+"diagramming"
+]
+},
+{
+"head": "dialect",
+"pos": "",
+"raw": "dialect,dialects,,,,,,",
+"forms": [
+"dialect",
+"dialects"
+]
+},
+{
+"head": "diameter",
+"pos": "",
+"raw": "diameter,diameters,,,,,,",
+"forms": [
+"diameter",
+"diameters"
+]
+},
+{
+"head": "diary",
+"pos": "",
+"raw": "diary,diaries,,,,,,",
+"forms": [
+"diary",
+"diaries"
+]
+},
+{
+"head": "dictate",
+"pos": "",
+"raw": "dictate,dictates,dictated,dictating,,,,",
+"forms": [
+"dictate",
+"dictates",
+"dictated",
+"dictating"
+]
+},
+{
+"head": "dictionary",
+"pos": "",
+"raw": "dictionary,dictionaries,,,,,,",
+"forms": [
+"dictionary",
+"dictionaries"
+]
+},
+{
+"head": "differential",
+"pos": "",
+"raw": "differential,differentials,,,,,,",
+"forms": [
+"differential",
+"differentials"
+]
+},
+{
+"head": "differentiate",
+"pos": "",
+"raw": "differentiate,differentiates,differentiated,differentiating,,,,",
+"forms": [
+"differentiate",
+"differentiates",
+"differentiated",
+"differentiating"
+]
+},
+{
+"head": "differentiation",
+"pos": "",
+"raw": "differentiation,differentiations,,,,,,",
+"forms": [
+"differentiation",
+"differentiations"
+]
+},
+{
+"head": "diffusion",
+"pos": "",
+"raw": "diffusion,diffusions,,,,,,",
+"forms": [
+"diffusion",
+"diffusions"
+]
+},
+{
+"head": "dilemma",
+"pos": "",
+"raw": "dilemma,dilemmas,,,,,,",
+"forms": [
+"dilemma",
+"dilemmas"
+]
+},
+{
+"head": "dilute",
+"pos": "",
+"raw": "dilute,dilutes,diluted,diluting,,,,",
+"forms": [
+"dilute",
+"dilutes",
+"diluted",
+"diluting"
+]
+},
+{
+"head": "dimensional",
+"pos": "",
+"raw": "dimensional,dimensionals,,,,,,",
+"forms": [
+"dimensional",
+"dimensionals"
+]
+},
+{
+"head": "dioxide",
+"pos": "",
+"raw": "dioxide,dioxides,,,,,,",
+"forms": [
+"dioxide",
+"dioxides"
+]
+},
+{
+"head": "directive",
+"pos": "",
+"raw": "directive,directives,,,,,,",
+"forms": [
+"directive",
+"directives"
+]
+},
+{
+"head": "disability",
+"pos": "",
+"raw": "disability,disabilities,,,,,,",
+"forms": [
+"disability",
+"disabilities"
+]
+},
+{
+"head": "disadvantage",
+"pos": "",
+"raw": "disadvantage,disadvantages,disadvantaged,disadvantaging,,,,",
+"forms": [
+"disadvantage",
+"disadvantages",
+"disadvantaged",
+"disadvantaging"
+]
+},
+{
+"head": "discharge",
+"pos": "",
+"raw": "discharge,discharges,discharged,discharging,,,,",
+"forms": [
+"discharge",
+"discharges",
+"discharged",
+"discharging"
+]
+},
+{
+"head": "discourse",
+"pos": "",
+"raw": "discourse,discourses,discoursed,discoursing,,,,",
+"forms": [
+"discourse",
+"discourses",
+"discoursed",
+"discoursing"
+]
+},
+{
+"head": "discrete",
+"pos": "",
+"raw": "discrete,,,,,,,",
+"forms": [
+"discrete"
+]
+},
+{
+"head": "discrimination",
+"pos": "",
+"raw": "discrimination,discriminations,,,,,,",
+"forms": [
+"discrimination",
+"discriminations"
+]
+},
+{
+"head": "displacement",
+"pos": "",
+"raw": "displacement,displacements,,,,,,",
+"forms": [
+"displacement",
+"displacements"
+]
+},
+{
+"head": "dissection",
+"pos": "",
+"raw": "dissection,dissections,,,,,,",
+"forms": [
+"dissection",
+"dissections"
+]
+},
+{
+"head": "dissertation",
+"pos": "",
+"raw": "dissertation,dissertations,,,,,,",
+"forms": [
+"dissertation",
+"dissertations"
+]
+},
+{
+"head": "dissolve",
+"pos": "",
+"raw": "dissolve,dissolves,dissolved,dissolving,,,,",
+"forms": [
+"dissolve",
+"dissolves",
+"dissolved",
+"dissolving"
+]
+},
+{
+"head": "distribution",
+"pos": "",
+"raw": "distribution,distributions,,,,,,",
+"forms": [
+"distribution",
+"distributions"
+]
+},
+{
+"head": "disturbance",
+"pos": "",
+"raw": "disturbance,disturbances,,,,,,",
+"forms": [
+"disturbance",
+"disturbances"
+]
+},
+{
+"head": "diverse",
+"pos": "",
+"raw": "diverse,,,,,,,",
+"forms": [
+"diverse"
+]
+},
+{
+"head": "domain",
+"pos": "",
+"raw": "domain,domains,,,,,,",
+"forms": [
+"domain",
+"domains"
+]
+},
+{
+"head": "dominance",
+"pos": "",
+"raw": "dominance,dominances,,,,,,",
+"forms": [
+"dominance",
+"dominances"
+]
+},
+{
+"head": "dominant",
+"pos": "",
+"raw": "dominant,,,,,,,",
+"forms": [
+"dominant"
+]
+},
+{
+"head": "domination",
+"pos": "",
+"raw": "domination,dominations,,,,,,",
+"forms": [
+"domination",
+"dominations"
+]
+},
+{
+"head": "donor",
+"pos": "",
+"raw": "donor,donors,,,,,,",
+"forms": [
+"donor",
+"donors"
+]
+},
+{
+"head": "dose",
+"pos": "",
+"raw": "dose,doses,dosed,dosing,,,,",
+"forms": [
+"dose",
+"doses",
+"dosed",
+"dosing"
+]
+},
+{
+"head": "drain",
+"pos": "",
+"raw": "drain,drains,drained,draining,,,,",
+"forms": [
+"drain",
+"drains",
+"drained",
+"draining"
+]
+},
+{
+"head": "drift",
+"pos": "",
+"raw": "drift,drifts,drifted,drifting,driftin,,,",
+"forms": [
+"drift",
+"drifts",
+"drifted",
+"drifting",
+"driftin"
+]
+},
+{
+"head": "duration",
+"pos": "",
+"raw": "duration,durations,,,,,,",
+"forms": [
+"duration",
+"durations"
+]
+},
+{
+"head": "dye",
+"pos": "",
+"raw": "dye,dyes,dyed,dyeing,,,,",
+"forms": [
+"dye",
+"dyes",
+"dyed",
+"dyeing"
+]
+},
+{
+"head": "dynamic",
+"pos": "",
+"raw": "dynamic,dynamics,,,,,,",
+"forms": [
+"dynamic",
+"dynamics"
+]
+},
+{
+"head": "ecological",
+"pos": "",
+"raw": "ecological,ecologicals,,,,,,",
+"forms": [
+"ecological",
+"ecologicals"
+]
+},
+{
+"head": "ecology",
+"pos": "",
+"raw": "ecology,ecologies,,,,,,",
+"forms": [
+"ecology",
+"ecologies"
+]
+},
+{
+"head": "economically",
+"pos": "",
+"raw": "economically,,,,,,,",
+"forms": [
+"economically"
+]
+},
+{
+"head": "economist",
+"pos": "",
+"raw": "economist,economists,,,,,,",
+"forms": [
+"economist",
+"economists"
+]
+},
+{
+"head": "effectiveness",
+"pos": "",
+"raw": "effectiveness,,,,,,,",
+"forms": [
+"effectiveness"
+]
+},
+{
+"head": "elaborate",
+"pos": "",
+"raw": "elaborate,elaborates,elaborated,elaborating,,,,",
+"forms": [
+"elaborate",
+"elaborates",
+"elaborated",
+"elaborating"
+]
+},
+{
+"head": "elastic",
+"pos": "",
+"raw": "elastic,elastics,,,,,,",
+"forms": [
+"elastic",
+"elastics"
+]
+},
+{
+"head": "elasticity",
+"pos": "",
+"raw": "elasticity,elasticities,,,,,,",
+"forms": [
+"elasticity",
+"elasticities"
+]
+},
+{
+"head": "electron",
+"pos": "",
+"raw": "electron,electrons,,,,,,",
+"forms": [
+"electron",
+"electrons"
+]
+},
+{
+"head": "elementary",
+"pos": "",
+"raw": "elementary,,,,,,,",
+"forms": [
+"elementary"
+]
+},
+{
+"head": "elevate",
+"pos": "",
+"raw": "elevate,elevates,elevated,elevating,,,,",
+"forms": [
+"elevate",
+"elevates",
+"elevated",
+"elevating"
+]
+},
+{
+"head": "elevation",
+"pos": "",
+"raw": "elevation,elevations,,,,,,",
+"forms": [
+"elevation",
+"elevations"
+]
+},
+{
+"head": "elimination",
+"pos": "",
+"raw": "elimination,eliminations,,,,,,",
+"forms": [
+"elimination",
+"eliminations"
+]
+},
+{
+"head": "elite",
+"pos": "",
+"raw": "elite,elites,élite,élites,,,,",
+"forms": [
+"elite",
+"elites",
+"élite",
+"élites"
+]
+},
+{
+"head": "embed",
+"pos": "",
+"raw": "embed,embeds,embedded,embedding,embeddings,,,",
+"forms": [
+"embed",
+"embeds",
+"embedded",
+"embedding",
+"embeddings"
+]
+},
+{
+"head": "emergence",
+"pos": "",
+"raw": "emergence,emergences,,,,,,",
+"forms": [
+"emergence",
+"emergences"
+]
+},
+{
+"head": "emission",
+"pos": "",
+"raw": "emission,emissions,,,,,,",
+"forms": [
+"emission",
+"emissions"
+]
+},
+{
+"head": "emit",
+"pos": "",
+"raw": "emit,emits,emitted,emitting,,,,",
+"forms": [
+"emit",
+"emits",
+"emitted",
+"emitting"
+]
+},
+{
+"head": "emperor",
+"pos": "",
+"raw": "emperor,emperors,,,,,,",
+"forms": [
+"emperor",
+"emperors"
+]
+},
+{
+"head": "empirical",
+"pos": "",
+"raw": "empirical,empiricals,,,,,,",
+"forms": [
+"empirical",
+"empiricals"
+]
+},
+{
+"head": "encode",
+"pos": "",
+"raw": "encode,encodes,encoded,encoding,encodings,,,",
+"forms": [
+"encode",
+"encodes",
+"encoded",
+"encoding",
+"encodings"
+]
+},
+{
+"head": "enforcement",
+"pos": "",
+"raw": "enforcement,enforcements,,,,,,",
+"forms": [
+"enforcement",
+"enforcements"
+]
+},
+{
+"head": "enormously",
+"pos": "",
+"raw": "enormously,,,,,,,",
+"forms": [
+"enormously"
+]
+},
+{
+"head": "entity",
+"pos": "",
+"raw": "entity,entities,,,,,,",
+"forms": [
+"entity",
+"entities"
+]
+},
+{
+"head": "entrant",
+"pos": "",
+"raw": "entrant,entrants,,,,,,",
+"forms": [
+"entrant",
+"entrants"
+]
+},
+{
+"head": "enzyme",
+"pos": "",
+"raw": "enzyme,enzymes,,,,,,",
+"forms": [
+"enzyme",
+"enzymes"
+]
+},
+{
+"head": "epidemic",
+"pos": "",
+"raw": "epidemic,epidemics,,,,,,",
+"forms": [
+"epidemic",
+"epidemics"
+]
+},
+{
+"head": "epidemiology",
+"pos": "",
+"raw": "epidemiology,epidemiologies,,,,,,",
+"forms": [
+"epidemiology",
+"epidemiologies"
+]
+},
+{
+"head": "equality",
+"pos": "",
+"raw": "equality,equalities,,,,,,",
+"forms": [
+"equality",
+"equalities"
+]
+},
+{
+"head": "equilibrium",
+"pos": "",
+"raw": "equilibrium,,,,,,,",
+"forms": [
+"equilibrium"
+]
+},
+{
+"head": "equivalence",
+"pos": "",
+"raw": "equivalence,equivalences,,,,,,",
+"forms": [
+"equivalence",
+"equivalences"
+]
+},
+{
+"head": "erase",
+"pos": "",
+"raw": "erase,erases,erased,erasing,,,,",
+"forms": [
+"erase",
+"erases",
+"erased",
+"erasing"
+]
+},
+{
+"head": "essence",
+"pos": "",
+"raw": "essence,essences,,,,,,",
+"forms": [
+"essence",
+"essences"
+]
+},
+{
+"head": "essentially",
+"pos": "",
+"raw": "essentially,,,,,,,",
+"forms": [
+"essentially"
+]
+},
+{
+"head": "estimation",
+"pos": "",
+"raw": "estimation,estimations,,,,,,",
+"forms": [
+"estimation",
+"estimations"
+]
+},
+{
+"head": "ethical",
+"pos": "",
+"raw": "ethical,ethicals,,,,,,",
+"forms": [
+"ethical",
+"ethicals"
+]
+},
+{
+"head": "ethics",
+"pos": "",
+"raw": "ethics,ethic,,,,,,",
+"forms": [
+"ethics",
+"ethic"
+]
+},
+{
+"head": "evident",
+"pos": "",
+"raw": "evident,evidents,,,,,,",
+"forms": [
+"evident",
+"evidents"
+]
+},
+{
+"head": "evolutionary",
+"pos": "",
+"raw": "evolutionary,,,,,,,",
+"forms": [
+"evolutionary"
+]
+},
+{
+"head": "ex",
+"pos": "",
+"raw": "ex,exes,,,,,,",
+"forms": [
+"ex",
+"exes"
+]
+},
+{
+"head": "execute",
+"pos": "",
+"raw": "execute,executes,executed,executing,,,,",
+"forms": [
+"execute",
+"executes",
+"executed",
+"executing"
+]
+},
+{
+"head": "execution",
+"pos": "",
+"raw": "execution,executions,,,,,,",
+"forms": [
+"execution",
+"executions"
+]
+},
+{
+"head": "exit",
+"pos": "",
+"raw": "exit,exits,exited,exiting,,,,",
+"forms": [
+"exit",
+"exits",
+"exited",
+"exiting"
+]
+},
+{
+"head": "expertise",
+"pos": "",
+"raw": "expertise,expertises,,,,,,",
+"forms": [
+"expertise",
+"expertises"
+]
+},
+{
+"head": "explicit",
+"pos": "",
+"raw": "explicit,,,,,,,",
+"forms": [
+"explicit"
+]
+},
+{
+"head": "explicitly",
+"pos": "",
+"raw": "explicitly,,,,,,,",
+"forms": [
+"explicitly"
+]
+},
+{
+"head": "exploit",
+"pos": "",
+"raw": "exploit,exploits,exploited,exploiting,,,,",
+"forms": [
+"exploit",
+"exploits",
+"exploited",
+"exploiting"
+]
+},
+{
+"head": "exponential",
+"pos": "",
+"raw": "exponential,exponentials,,,,,,",
+"forms": [
+"exponential",
+"exponentials"
+]
+},
+{
+"head": "fabric",
+"pos": "",
+"raw": "fabric,fabrics,,,,,,",
+"forms": [
+"fabric",
+"fabrics"
+]
+},
+{
+"head": "facet",
+"pos": "",
+"raw": "facet,facets,faceted,faceting,,,,",
+"forms": [
+"facet",
+"facets",
+"faceted",
+"faceting"
+]
+},
+{
+"head": "facilitate",
+"pos": "",
+"raw": "facilitate,facilitates,facilitated,facilitating,,,,",
+"forms": [
+"facilitate",
+"facilitates",
+"facilitated",
+"facilitating"
+]
+},
+{
+"head": "factorial",
+"pos": "",
+"raw": "factorial,factorials,,,,,,",
+"forms": [
+"factorial",
+"factorials"
+]
+},
+{
+"head": "faculty",
+"pos": "",
+"raw": "faculty,faculties,,,,,,",
+"forms": [
+"faculty",
+"faculties"
+]
+},
+{
+"head": "fatigue",
+"pos": "",
+"raw": "fatigue,fatigues,fatigued,fatiguing,,,,",
+"forms": [
+"fatigue",
+"fatigues",
+"fatigued",
+"fatiguing"
+]
+},
+{
+"head": "feedback",
+"pos": "",
+"raw": "feedback,feedbacks,,,,,,",
+"forms": [
+"feedback",
+"feedbacks"
+]
+},
+{
+"head": "fertility",
+"pos": "",
+"raw": "fertility,,,,,,,",
+"forms": [
+"fertility"
+]
+},
+{
+"head": "fetal",
+"pos": "",
+"raw": "fetal,foetal,,,,,,",
+"forms": [
+"fetal",
+"foetal"
+]
+},
+{
+"head": "fever",
+"pos": "",
+"raw": "fever,fevers,fevered,,,,,",
+"forms": [
+"fever",
+"fevers",
+"fevered"
+]
+},
+{
+"head": "fiber",
+"pos": "",
+"raw": "fiber,fibers,fibres,fibre,,,,",
+"forms": [
+"fiber",
+"fibers",
+"fibres",
+"fibre"
+]
+},
+{
+"head": "fin",
+"pos": "",
+"raw": "fin,fins,finned,finning,,,,",
+"forms": [
+"fin",
+"fins",
+"finned",
+"finning"
+]
+},
+{
+"head": "finite",
+"pos": "",
+"raw": "finite,,,,,,,",
+"forms": [
+"finite"
+]
+},
+{
+"head": "flesh",
+"pos": "",
+"raw": "flesh,fleshes,fleshed,fleshing,,,,",
+"forms": [
+"flesh",
+"fleshes",
+"fleshed",
+"fleshing"
+]
+},
+{
+"head": "flexibility",
+"pos": "",
+"raw": "flexibility,flexibilities,,,,,,",
+"forms": [
+"flexibility",
+"flexibilities"
+]
+},
+{
+"head": "flip",
+"pos": "",
+"raw": "flip,flips,flipped,flipping,,,,",
+"forms": [
+"flip",
+"flips",
+"flipped",
+"flipping"
+]
+},
+{
+"head": "fluid",
+"pos": "",
+"raw": "fluid,fluids,,,,,,",
+"forms": [
+"fluid",
+"fluids"
+]
+},
+{
+"head": "flux",
+"pos": "",
+"raw": "flux,fluxes,fluxed,fluxing,,,,",
+"forms": [
+"flux",
+"fluxes",
+"fluxed",
+"fluxing"
+]
+},
+{
+"head": "footnote",
+"pos": "",
+"raw": "footnote,footnotes,footnoted,footnoting,,,,",
+"forms": [
+"footnote",
+"footnotes",
+"footnoted",
+"footnoting"
+]
+},
+{
+"head": "formally",
+"pos": "",
+"raw": "formally,,,,,,,",
+"forms": [
+"formally"
+]
+},
+{
+"head": "formulation",
+"pos": "",
+"raw": "formulation,formulations,,,,,,",
+"forms": [
+"formulation",
+"formulations"
+]
+},
+{
+"head": "forum",
+"pos": "",
+"raw": "forum,forums,fora,,,,,",
+"forms": [
+"forum",
+"forums",
+"fora"
+]
+},
+{
+"head": "fossil",
+"pos": "",
+"raw": "fossil,fossils,,,,,,",
+"forms": [
+"fossil",
+"fossils"
+]
+},
+{
+"head": "founds",
+"pos": "",
+"raw": "founds,founded,founding,foundings,,,,",
+"forms": [
+"founds",
+"founded",
+"founding",
+"foundings"
+]
+},
+{
+"head": "fraction",
+"pos": "",
+"raw": "fraction,fractions,,,,,,",
+"forms": [
+"fraction",
+"fractions"
+]
+},
+{
+"head": "fracture",
+"pos": "",
+"raw": "fracture,fractures,fractured,fracturing,,,,",
+"forms": [
+"fracture",
+"fractures",
+"fractured",
+"fracturing"
+]
+},
+{
+"head": "freely",
+"pos": "",
+"raw": "freely,,,,,,,",
+"forms": [
+"freely"
+]
+},
+{
+"head": "friction",
+"pos": "",
+"raw": "friction,frictions,,,,,,",
+"forms": [
+"friction",
+"frictions"
+]
+},
+{
+"head": "fringe",
+"pos": "",
+"raw": "fringe,fringes,fringed,fringing,,,,",
+"forms": [
+"fringe",
+"fringes",
+"fringed",
+"fringing"
+]
+},
+{
+"head": "fundamentally",
+"pos": "",
+"raw": "fundamentally,,,,,,,",
+"forms": [
+"fundamentally"
+]
+},
+{
+"head": "fungus",
+"pos": "",
+"raw": "fungus,fungi,,,,,,",
+"forms": [
+"fungus",
+"fungi"
+]
+},
+{
+"head": "fusion",
+"pos": "",
+"raw": "fusion,fusions,,,,,,",
+"forms": [
+"fusion",
+"fusions"
+]
+},
+{
+"head": "gauge",
+"pos": "",
+"raw": "gauge,gauges,gauged,gauging,gage,gages,gaged,gaging",
+"forms": [
+"gauge",
+"gauges",
+"gauged",
+"gauging",
+"gage",
+"gages",
+"gaged",
+"gaging"
+]
+},
+{
+"head": "generalization",
+"pos": "",
+"raw": "generalization,generalizations,generalisation,generalisations,,,,",
+"forms": [
+"generalization",
+"generalizations",
+"generalisation",
+"generalisations"
+]
+},
+{
+"head": "generalize",
+"pos": "",
+"raw": "generalize,generalizes,generalized,generalizing,generalise,generalises,generalised,generalising",
+"forms": [
+"generalize",
+"generalizes",
+"generalized",
+"generalizing",
+"generalise",
+"generalises",
+"generalised",
+"generalising"
+]
+},
+{
+"head": "genetically",
+"pos": "",
+"raw": "genetically,,,,,,,",
+"forms": [
+"genetically"
+]
+},
+{
+"head": "genetics",
+"pos": "",
+"raw": "genetics,,,,,,,",
+"forms": [
+"genetics"
+]
+},
+{
+"head": "ghost",
+"pos": "",
+"raw": "ghost,ghosts,ghosted,ghosting,,,,",
+"forms": [
+"ghost",
+"ghosts",
+"ghosted",
+"ghosting"
+]
+},
+{
+"head": "globalization",
+"pos": "",
+"raw": "globalization,globalizations,globalisation,globalisations,,,,",
+"forms": [
+"globalization",
+"globalizations",
+"globalisation",
+"globalisations"
+]
+},
+{
+"head": "goat",
+"pos": "",
+"raw": "goat,goats,,,,,,",
+"forms": [
+"goat",
+"goats"
+]
+},
+{
+"head": "goodness",
+"pos": "",
+"raw": "goodness,,,,,,,",
+"forms": [
+"goodness"
+]
+},
+{
+"head": "goods",
+"pos": "",
+"raw": "goods,,,,,,,",
+"forms": [
+"goods"
+]
+},
+{
+"head": "gradient",
+"pos": "",
+"raw": "gradient,gradients,,,,,,",
+"forms": [
+"gradient",
+"gradients"
+]
+},
+{
+"head": "gram",
+"pos": "",
+"raw": "gram,grams,,,,,,",
+"forms": [
+"gram",
+"grams"
+]
+},
+{
+"head": "grammatical",
+"pos": "",
+"raw": "grammatical,grammaticals,,,,,,",
+"forms": [
+"grammatical",
+"grammaticals"
+]
+},
+{
+"head": "graph",
+"pos": "",
+"raw": "graph,graphs,graphed,graphing,,,,",
+"forms": [
+"graph",
+"graphs",
+"graphed",
+"graphing"
+]
+},
+{
+"head": "grasp",
+"pos": "",
+"raw": "grasp,grasps,grasped,grasping,,,,",
+"forms": [
+"grasp",
+"grasps",
+"grasped",
+"grasping"
+]
+},
+{
+"head": "gravity",
+"pos": "",
+"raw": "gravity,gravities,,,,,,",
+"forms": [
+"gravity",
+"gravities"
+]
+},
+{
+"head": "grid",
+"pos": "",
+"raw": "grid,grids,,,,,,",
+"forms": [
+"grid",
+"grids"
+]
+},
+{
+"head": "gross",
+"pos": "",
+"raw": "gross,grosses,grossed,grossing,grosser,grossest,,",
+"forms": [
+"gross",
+"grosses",
+"grossed",
+"grossing",
+"grosser",
+"grossest"
+]
+},
+{
+"head": "gut",
+"pos": "",
+"raw": "gut,guts,gutted,gutting,,,,",
+"forms": [
+"gut",
+"guts",
+"gutted",
+"gutting"
+]
+},
+{
+"head": "habitat",
+"pos": "",
+"raw": "habitat,habitats,,,,,,",
+"forms": [
+"habitat",
+"habitats"
+]
+},
+{
+"head": "halfway",
+"pos": "",
+"raw": "halfway,halfways,,,,,,",
+"forms": [
+"halfway",
+"halfways"
+]
+},
+{
+"head": "handout",
+"pos": "",
+"raw": "handout,handouts,,,,,,",
+"forms": [
+"handout",
+"handouts"
+]
+},
+{
+"head": "harvest",
+"pos": "",
+"raw": "harvest,harvests,harvested,harvesting,harvestings,,,",
+"forms": [
+"harvest",
+"harvests",
+"harvested",
+"harvesting",
+"harvestings"
+]
+},
+{
+"head": "hawk",
+"pos": "",
+"raw": "hawk,hawks,hawked,hawking,,,,",
+"forms": [
+"hawk",
+"hawks",
+"hawked",
+"hawking"
+]
+},
+{
+"head": "headquarter",
+"pos": "",
+"raw": "headquarter,headquarters,headquartered,headquartering,,,,",
+"forms": [
+"headquarter",
+"headquarters",
+"headquartered",
+"headquartering"
+]
+},
+{
+"head": "hedge",
+"pos": "",
+"raw": "hedge,hedges,hedged,hedging,,,,",
+"forms": [
+"hedge",
+"hedges",
+"hedged",
+"hedging"
+]
+},
+{
+"head": "helix",
+"pos": "",
+"raw": "helix,helixes,helices,,,,,",
+"forms": [
+"helix",
+"helixes",
+"helices"
+]
+},
+{
+"head": "hepatitis",
+"pos": "",
+"raw": "hepatitis,,,,,,,",
+"forms": [
+"hepatitis"
+]
+},
+{
+"head": "herbicide",
+"pos": "",
+"raw": "herbicide,herbicides,,,,,,",
+"forms": [
+"herbicide",
+"herbicides"
+]
+},
+{
+"head": "hierarchy",
+"pos": "",
+"raw": "hierarchy,hierarchies,,,,,,",
+"forms": [
+"hierarchy",
+"hierarchies"
+]
+},
+{
+"head": "hip",
+"pos": "",
+"raw": "hip,hips,hipped,,,,,",
+"forms": [
+"hip",
+"hips",
+"hipped"
+]
+},
+{
+"head": "historically",
+"pos": "",
+"raw": "historically,,,,,,,",
+"forms": [
+"historically"
+]
+},
+{
+"head": "homework",
+"pos": "",
+"raw": "homework,homeworks,,,,,,",
+"forms": [
+"homework",
+"homeworks"
+]
+},
+{
+"head": "horizon",
+"pos": "",
+"raw": "horizon,horizons,,,,,,",
+"forms": [
+"horizon",
+"horizons"
+]
+},
+{
+"head": "horizontal",
+"pos": "",
+"raw": "horizontal,horizontals,,,,,,",
+"forms": [
+"horizontal",
+"horizontals"
+]
+},
+{
+"head": "hormone",
+"pos": "",
+"raw": "hormone,hormones,,,,,,",
+"forms": [
+"hormone",
+"hormones"
+]
+},
+{
+"head": "hydrogen",
+"pos": "",
+"raw": "hydrogen,hydrogens,,,,,,",
+"forms": [
+"hydrogen",
+"hydrogens"
+]
+},
+{
+"head": "identical",
+"pos": "",
+"raw": "identical,identicals,,,,,,",
+"forms": [
+"identical",
+"identicals"
+]
+},
+{
+"head": "identification",
+"pos": "",
+"raw": "identification,identifications,,,,,,",
+"forms": [
+"identification",
+"identifications"
+]
+},
+{
+"head": "ideology",
+"pos": "",
+"raw": "ideology,ideologies,,,,,,",
+"forms": [
+"ideology",
+"ideologies"
+]
+},
+{
+"head": "illusion",
+"pos": "",
+"raw": "illusion,illusions,,,,,,",
+"forms": [
+"illusion",
+"illusions"
+]
+},
+{
+"head": "immune",
+"pos": "",
+"raw": "immune,,,,,,,",
+"forms": [
+"immune"
+]
+},
+{
+"head": "impact",
+"pos": "",
+"raw": "impact,impacts,impacted,impacting,,,,",
+"forms": [
+"impact",
+"impacts",
+"impacted",
+"impacting"
+]
+},
+{
+"head": "implicit",
+"pos": "",
+"raw": "implicit,,,,,,,",
+"forms": [
+"implicit"
+]
+},
+{
+"head": "importantly",
+"pos": "",
+"raw": "importantly,,,,,,,",
+"forms": [
+"importantly"
+]
+},
+{
+"head": "impulse",
+"pos": "",
+"raw": "impulse,impulses,,,,,,",
+"forms": [
+"impulse",
+"impulses"
+]
+},
+{
+"head": "incidence",
+"pos": "",
+"raw": "incidence,incidences,,,,,,",
+"forms": [
+"incidence",
+"incidences"
+]
+},
+{
+"head": "incline",
+"pos": "",
+"raw": "incline,inclines,inclined,inclining,,,,",
+"forms": [
+"incline",
+"inclines",
+"inclined",
+"inclining"
+]
+},
+{
+"head": "inclusion",
+"pos": "",
+"raw": "inclusion,inclusions,,,,,,",
+"forms": [
+"inclusion",
+"inclusions"
+]
+},
+{
+"head": "incredible",
+"pos": "",
+"raw": "incredible,incredibles,,,,,,",
+"forms": [
+"incredible",
+"incredibles"
+]
+},
+{
+"head": "incredibly",
+"pos": "",
+"raw": "incredibly,,,,,,,",
+"forms": [
+"incredibly"
+]
+},
+{
+"head": "incumbent",
+"pos": "",
+"raw": "incumbent,incumbents,,,,,,",
+"forms": [
+"incumbent",
+"incumbents"
+]
+},
+{
+"head": "independently",
+"pos": "",
+"raw": "independently,,,,,,,",
+"forms": [
+"independently"
+]
+},
+{
+"head": "indicator",
+"pos": "",
+"raw": "indicator,indicators,,,,,,",
+"forms": [
+"indicator",
+"indicators"
+]
+},
+{
+"head": "indifference",
+"pos": "",
+"raw": "indifference,indifferences,,,,,,",
+"forms": [
+"indifference",
+"indifferences"
+]
+},
+{
+"head": "indigenous",
+"pos": "",
+"raw": "indigenous,,,,,,,",
+"forms": [
+"indigenous"
+]
+},
+{
+"head": "indirect",
+"pos": "",
+"raw": "indirect,indirects,,,,,,",
+"forms": [
+"indirect",
+"indirects"
+]
+},
+{
+"head": "individually",
+"pos": "",
+"raw": "individually,,,,,,,",
+"forms": [
+"individually"
+]
+},
+{
+"head": "induce",
+"pos": "",
+"raw": "induce,induces,induced,inducing,,,,",
+"forms": [
+"induce",
+"induces",
+"induced",
+"inducing"
+]
+},
+{
+"head": "induction",
+"pos": "",
+"raw": "induction,inductions,,,,,,",
+"forms": [
+"induction",
+"inductions"
+]
+},
+{
+"head": "industrialization",
+"pos": "",
+"raw": "industrialization,industrializations,industrialisation,,,,,",
+"forms": [
+"industrialization",
+"industrializations",
+"industrialisation"
+]
+},
+{
+"head": "industrialize",
+"pos": "",
+"raw": "industrialize,industrializes,industrialized,industrializing,industrialise,industrialises,industrialised,industrialising",
+"forms": [
+"industrialize",
+"industrializes",
+"industrialized",
+"industrializing",
+"industrialise",
+"industrialises",
+"industrialised",
+"industrialising"
+]
+},
+{
+"head": "inequality",
+"pos": "",
+"raw": "inequality,inequalities,,,,,,",
+"forms": [
+"inequality",
+"inequalities"
+]
+},
+{
+"head": "inevitably",
+"pos": "",
+"raw": "inevitably,,,,,,,",
+"forms": [
+"inevitably"
+]
+},
+{
+"head": "infect",
+"pos": "",
+"raw": "infect,infects,infected,infecting,,,,",
+"forms": [
+"infect",
+"infects",
+"infected",
+"infecting"
+]
+},
+{
+"head": "infectious",
+"pos": "",
+"raw": "infectious,,,,,,,",
+"forms": [
+"infectious"
+]
+},
+{
+"head": "inference",
+"pos": "",
+"raw": "inference,inferences,,,,,,",
+"forms": [
+"inference",
+"inferences"
+]
+},
+{
+"head": "inferior",
+"pos": "",
+"raw": "inferior,inferiors,,,,,,",
+"forms": [
+"inferior",
+"inferiors"
+]
+},
+{
+"head": "infinite",
+"pos": "",
+"raw": "infinite,,,,,,,",
+"forms": [
+"infinite"
+]
+},
+{
+"head": "infinity",
+"pos": "",
+"raw": "infinity,infinities,infinitys,,,,,",
+"forms": [
+"infinity",
+"infinities",
+"infinitys"
+]
+},
+{
+"head": "influential",
+"pos": "",
+"raw": "influential,influentials,,,,,,",
+"forms": [
+"influential",
+"influentials"
+]
+},
+{
+"head": "informal",
+"pos": "",
+"raw": "informal,informals,,,,,,",
+"forms": [
+"informal",
+"informals"
+]
+},
+{
+"head": "inhibit",
+"pos": "",
+"raw": "inhibit,inhibits,inhibited,inhibiting,,,,",
+"forms": [
+"inhibit",
+"inhibits",
+"inhibited",
+"inhibiting"
+]
+},
+{
+"head": "inhibition",
+"pos": "",
+"raw": "inhibition,inhibitions,,,,,,",
+"forms": [
+"inhibition",
+"inhibitions"
+]
+},
+{
+"head": "initiate",
+"pos": "",
+"raw": "initiate,initiates,initiated,initiating,,,,",
+"forms": [
+"initiate",
+"initiates",
+"initiated",
+"initiating"
+]
+},
+{
+"head": "initiation",
+"pos": "",
+"raw": "initiation,initiations,,,,,,",
+"forms": [
+"initiation",
+"initiations"
+]
+},
+{
+"head": "inject",
+"pos": "",
+"raw": "inject,injects,injected,injecting,,,,",
+"forms": [
+"inject",
+"injects",
+"injected",
+"injecting"
+]
+},
+{
+"head": "injection",
+"pos": "",
+"raw": "injection,injections,,,,,,",
+"forms": [
+"injection",
+"injections"
+]
+},
+{
+"head": "innate",
+"pos": "",
+"raw": "innate,,,,,,,",
+"forms": [
+"innate"
+]
+},
+{
+"head": "insect",
+"pos": "",
+"raw": "insect,insects,,,,,,",
+"forms": [
+"insect",
+"insects"
+]
+},
+{
+"head": "insert",
+"pos": "",
+"raw": "insert,inserts,inserted,inserting,,,,",
+"forms": [
+"insert",
+"inserts",
+"inserted",
+"inserting"
+]
+},
+{
+"head": "instability",
+"pos": "",
+"raw": "instability,instabilities,,,,,,",
+"forms": [
+"instability",
+"instabilities"
+]
+},
+{
+"head": "instinct",
+"pos": "",
+"raw": "instinct,instincts,,,,,,",
+"forms": [
+"instinct",
+"instincts"
+]
+},
+{
+"head": "integral",
+"pos": "",
+"raw": "integral,integrals,,,,,,",
+"forms": [
+"integral",
+"integrals"
+]
+},
+{
+"head": "integration",
+"pos": "",
+"raw": "integration,integrations,,,,,,",
+"forms": [
+"integration",
+"integrations"
+]
+},
+{
+"head": "intensity",
+"pos": "",
+"raw": "intensity,intensities,,,,,,",
+"forms": [
+"intensity",
+"intensities"
+]
+},
+{
+"head": "intensive",
+"pos": "",
+"raw": "intensive,,,,,,,",
+"forms": [
+"intensive"
+]
+},
+{
+"head": "interact",
+"pos": "",
+"raw": "interact,interacts,interacted,interacting,,,,",
+"forms": [
+"interact",
+"interacts",
+"interacted",
+"interacting"
+]
+},
+{
+"head": "interestingly",
+"pos": "",
+"raw": "interestingly,,,,,,,",
+"forms": [
+"interestingly"
+]
+},
+{
+"head": "interface",
+"pos": "",
+"raw": "interface,interfaces,interfaced,interfacing,interfacings,,,",
+"forms": [
+"interface",
+"interfaces",
+"interfaced",
+"interfacing",
+"interfacings"
+]
+},
+{
+"head": "interfere",
+"pos": "",
+"raw": "interfere,interferes,interfered,interfering,,,,",
+"forms": [
+"interfere",
+"interferes",
+"interfered",
+"interfering"
+]
+},
+{
+"head": "intermediate",
+"pos": "",
+"raw": "intermediate,intermediates,intermediated,intermediating,,,,",
+"forms": [
+"intermediate",
+"intermediates",
+"intermediated",
+"intermediating"
+]
+},
+{
+"head": "interrupt",
+"pos": "",
+"raw": "interrupt,interrupts,interrupted,interrupting,,,,",
+"forms": [
+"interrupt",
+"interrupts",
+"interrupted",
+"interrupting"
+]
+},
+{
+"head": "interval",
+"pos": "",
+"raw": "interval,intervals,,,,,,",
+"forms": [
+"interval",
+"intervals"
+]
+},
+{
+"head": "intervene",
+"pos": "",
+"raw": "intervene,intervenes,intervened,intervening,,,,",
+"forms": [
+"intervene",
+"intervenes",
+"intervened",
+"intervening"
+]
+},
+{
+"head": "interviewer",
+"pos": "",
+"raw": "interviewer,interviewers,,,,,,",
+"forms": [
+"interviewer",
+"interviewers"
+]
+},
+{
+"head": "invade",
+"pos": "",
+"raw": "invade,invades,invaded,invading,,,,",
+"forms": [
+"invade",
+"invades",
+"invaded",
+"invading"
+]
+},
+{
+"head": "invasion",
+"pos": "",
+"raw": "invasion,invasions,,,,,,",
+"forms": [
+"invasion",
+"invasions"
+]
+},
+{
+"head": "inversion",
+"pos": "",
+"raw": "inversion,inversions,,,,,,",
+"forms": [
+"inversion",
+"inversions"
+]
+},
+{
+"head": "invert",
+"pos": "",
+"raw": "invert,inverts,inverted,inverting,,,,",
+"forms": [
+"invert",
+"inverts",
+"inverted",
+"inverting"
+]
+},
+{
+"head": "ion",
+"pos": "",
+"raw": "ion,ions,,,,,,",
+"forms": [
+"ion",
+"ions"
+]
+},
+{
+"head": "irrelevant",
+"pos": "",
+"raw": "irrelevant,,,,,,,",
+"forms": [
+"irrelevant"
+]
+},
+{
+"head": "irrigation",
+"pos": "",
+"raw": "irrigation,irrigations,,,,,,",
+"forms": [
+"irrigation",
+"irrigations"
+]
+},
+{
+"head": "jazz",
+"pos": "",
+"raw": "jazz,jazzes,jazzed,jazzing,,,,",
+"forms": [
+"jazz",
+"jazzes",
+"jazzed",
+"jazzing"
+]
+},
+{
+"head": "junior",
+"pos": "",
+"raw": "junior,juniors,,,,,,",
+"forms": [
+"junior",
+"juniors"
+]
+},
+{
+"head": "justification",
+"pos": "",
+"raw": "justification,justifications,,,,,,",
+"forms": [
+"justification",
+"justifications"
+]
+},
+{
+"head": "kidney",
+"pos": "",
+"raw": "kidney,kidneys,,,,,,",
+"forms": [
+"kidney",
+"kidneys"
+]
+},
+{
+"head": "kilometer",
+"pos": "",
+"raw": "kilometer,kilometers,kilometres,kilometre,,,,",
+"forms": [
+"kilometer",
+"kilometers",
+"kilometres",
+"kilometre"
+]
+},
+{
+"head": "lab",
+"pos": "",
+"raw": "lab,labs,,,,,,",
+"forms": [
+"lab",
+"labs"
+]
+},
+{
+"head": "lateral",
+"pos": "",
+"raw": "lateral,laterals,,,,,,",
+"forms": [
+"lateral",
+"laterals"
+]
+},
+{
+"head": "layout",
+"pos": "",
+"raw": "layout,layouts,,,,,,",
+"forms": [
+"layout",
+"layouts"
+]
+},
+{
+"head": "leaf",
+"pos": "",
+"raw": "leaf,leafs,leafed,leafing,,,,",
+"forms": [
+"leaf",
+"leafs",
+"leafed",
+"leafing"
+]
+},
+{
+"head": "lecturer",
+"pos": "",
+"raw": "lecturer,lecturers,,,,,,",
+"forms": [
+"lecturer",
+"lecturers"
+]
+},
+{
+"head": "legend",
+"pos": "",
+"raw": "legend,legends,,,,,,",
+"forms": [
+"legend",
+"legends"
+]
+},
+{
+"head": "legitimate",
+"pos": "",
+"raw": "legitimate,legitimates,legitimated,legitimating,,,,",
+"forms": [
+"legitimate",
+"legitimates",
+"legitimated",
+"legitimating"
+]
+},
+{
+"head": "leisure",
+"pos": "",
+"raw": "leisure,leisures,,,,,,",
+"forms": [
+"leisure",
+"leisures"
+]
+},
+{
+"head": "lever",
+"pos": "",
+"raw": "lever,levers,levered,levering,,,,",
+"forms": [
+"lever",
+"levers",
+"levered",
+"levering"
+]
+},
+{
+"head": "lexical",
+"pos": "",
+"raw": "lexical,lexicals,,,,,,",
+"forms": [
+"lexical",
+"lexicals"
+]
+},
+{
+"head": "liable",
+"pos": "",
+"raw": "liable,liables,,,,,,",
+"forms": [
+"liable",
+"liables"
+]
+},
+{
+"head": "lifestyle",
+"pos": "",
+"raw": "lifestyle,lifestyles,,,,,,",
+"forms": [
+"lifestyle",
+"lifestyles"
+]
+},
+{
+"head": "lifetime",
+"pos": "",
+"raw": "lifetime,lifetimes,,,,,,",
+"forms": [
+"lifetime",
+"lifetimes"
+]
+},
+{
+"head": "likelihood",
+"pos": "",
+"raw": "likelihood,likelihoods,,,,,,",
+"forms": [
+"likelihood",
+"likelihoods"
+]
+},
+{
+"head": "likewise",
+"pos": "",
+"raw": "likewise,,,,,,,",
+"forms": [
+"likewise"
+]
+},
+{
+"head": "limb",
+"pos": "",
+"raw": "limb,limbs,limbed,,,,,",
+"forms": [
+"limb",
+"limbs",
+"limbed"
+]
+},
+{
+"head": "linear",
+"pos": "",
+"raw": "linear,linears,,,,,,",
+"forms": [
+"linear",
+"linears"
+]
+},
+{
+"head": "linguistic",
+"pos": "",
+"raw": "linguistic,,,,,,,",
+"forms": [
+"linguistic"
+]
+},
+{
+"head": "linguistics",
+"pos": "",
+"raw": "linguistics,,,,,,,",
+"forms": [
+"linguistics"
+]
+},
+{
+"head": "liter",
+"pos": "",
+"raw": "liter,liters,litres,litre,,,,",
+"forms": [
+"liter",
+"liters",
+"litres",
+"litre"
+]
+},
+{
+"head": "liver",
+"pos": "",
+"raw": "liver,livers,,,,,,",
+"forms": [
+"liver",
+"livers"
+]
+},
+{
+"head": "locally",
+"pos": "",
+"raw": "locally,,,,,,,",
+"forms": [
+"locally"
+]
+},
+{
+"head": "locus",
+"pos": "",
+"raw": "locus,locuses,loci,,,,,",
+"forms": [
+"locus",
+"locuses",
+"loci"
+]
+},
+{
+"head": "logical",
+"pos": "",
+"raw": "logical,logicals,,,,,,",
+"forms": [
+"logical",
+"logicals"
+]
+},
+{
+"head": "longitudinal",
+"pos": "",
+"raw": "longitudinal,longitudinals,,,,,,",
+"forms": [
+"longitudinal",
+"longitudinals"
+]
+},
+{
+"head": "loop",
+"pos": "",
+"raw": "loop,loops,looped,looping,,,,",
+"forms": [
+"loop",
+"loops",
+"looped",
+"looping"
+]
+},
+{
+"head": "lump",
+"pos": "",
+"raw": "lump,lumps,lumped,lumping,,,,",
+"forms": [
+"lump",
+"lumps",
+"lumped",
+"lumping"
+]
+},
+{
+"head": "lung",
+"pos": "",
+"raw": "lung,lungs,,,,,,",
+"forms": [
+"lung",
+"lungs"
+]
+},
+{
+"head": "machinery",
+"pos": "",
+"raw": "machinery,machineries,,,,,,",
+"forms": [
+"machinery",
+"machineries"
+]
+},
+{
+"head": "magnetic",
+"pos": "",
+"raw": "magnetic,magnetics,,,,,,",
+"forms": [
+"magnetic",
+"magnetics"
+]
+},
+{
+"head": "magnitude",
+"pos": "",
+"raw": "magnitude,magnitudes,,,,,,",
+"forms": [
+"magnitude",
+"magnitudes"
+]
+},
+{
+"head": "mall",
+"pos": "",
+"raw": "mall,malls,,,,,,",
+"forms": [
+"mall",
+"malls"
+]
+},
+{
+"head": "manipulate",
+"pos": "",
+"raw": "manipulate,manipulates,manipulated,manipulating,,,,",
+"forms": [
+"manipulate",
+"manipulates",
+"manipulated",
+"manipulating"
+]
+},
+{
+"head": "manipulation",
+"pos": "",
+"raw": "manipulation,manipulations,,,,,,",
+"forms": [
+"manipulation",
+"manipulations"
+]
+},
+{
+"head": "manual",
+"pos": "",
+"raw": "manual,manuals,,,,,,",
+"forms": [
+"manual",
+"manuals"
+]
+},
+{
+"head": "manuscript",
+"pos": "",
+"raw": "manuscript,manuscripts,,,,,,",
+"forms": [
+"manuscript",
+"manuscripts"
+]
+},
+{
+"head": "marble",
+"pos": "",
+"raw": "marble,marbles,marbled,,,,,",
+"forms": [
+"marble",
+"marbles",
+"marbled"
+]
+},
+{
+"head": "marginal",
+"pos": "",
+"raw": "marginal,marginals,,,,,,",
+"forms": [
+"marginal",
+"marginals"
+]
+},
+{
+"head": "marker",
+"pos": "",
+"raw": "marker,markers,,,,,,",
+"forms": [
+"marker",
+"markers"
+]
+},
+{
+"head": "marrow",
+"pos": "",
+"raw": "marrow,marrows,,,,,,",
+"forms": [
+"marrow",
+"marrows"
+]
+},
+{
+"head": "maternal",
+"pos": "",
+"raw": "maternal,maternals,,,,,,",
+"forms": [
+"maternal",
+"maternals"
+]
+},
+{
+"head": "mathematical",
+"pos": "",
+"raw": "mathematical,mathematicals,,,,,,",
+"forms": [
+"mathematical",
+"mathematicals"
+]
+},
+{
+"head": "matrix",
+"pos": "",
+"raw": "matrix,matrices,matrixes,,,,,",
+"forms": [
+"matrix",
+"matrices",
+"matrixes"
+]
+},
+{
+"head": "maximize",
+"pos": "",
+"raw": "maximize,maximizes,maximized,maximizing,maximise,maximises,maximised,maximising",
+"forms": [
+"maximize",
+"maximizes",
+"maximized",
+"maximizing",
+"maximise",
+"maximises",
+"maximised",
+"maximising"
+]
+},
+{
+"head": "meaningful",
+"pos": "",
+"raw": "meaningful,,,,,,,",
+"forms": [
+"meaningful"
+]
+},
+{
+"head": "mechanic",
+"pos": "",
+"raw": "mechanic,mechanics,,,,,,",
+"forms": [
+"mechanic",
+"mechanics"
+]
+},
+{
+"head": "mechanical",
+"pos": "",
+"raw": "mechanical,mechanicals,,,,,,",
+"forms": [
+"mechanical",
+"mechanicals"
+]
+},
+{
+"head": "media",
+"pos": "",
+"raw": "media,,,,,,,",
+"forms": [
+"media"
+]
+},
+{
+"head": "mediate",
+"pos": "",
+"raw": "mediate,mediates,mediated,mediating,,,,",
+"forms": [
+"mediate",
+"mediates",
+"mediated",
+"mediating"
+]
+},
+{
+"head": "membrane",
+"pos": "",
+"raw": "membrane,membranes,,,,,,",
+"forms": [
+"membrane",
+"membranes"
+]
+},
+{
+"head": "memorize",
+"pos": "",
+"raw": "memorize,memorizes,memorized,memorizing,memorise,memorises,memorised,memorising",
+"forms": [
+"memorize",
+"memorizes",
+"memorized",
+"memorizing",
+"memorise",
+"memorises",
+"memorised",
+"memorising"
+]
+},
+{
+"head": "mentor",
+"pos": "",
+"raw": "mentor,mentors,mentored,mentoring,,,,",
+"forms": [
+"mentor",
+"mentors",
+"mentored",
+"mentoring"
+]
+},
+{
+"head": "mercury",
+"pos": "",
+"raw": "mercury,,,,,,,",
+"forms": [
+"mercury"
+]
+},
+{
+"head": "merge",
+"pos": "",
+"raw": "merge,merges,merged,merging,,,,",
+"forms": [
+"merge",
+"merges",
+"merged",
+"merging"
+]
+},
+{
+"head": "messenger",
+"pos": "",
+"raw": "messenger,messengers,,,,,,",
+"forms": [
+"messenger",
+"messengers"
+]
+},
+{
+"head": "metabolism",
+"pos": "",
+"raw": "metabolism,metabolisms,,,,,,",
+"forms": [
+"metabolism",
+"metabolisms"
+]
+},
+{
+"head": "metaphor",
+"pos": "",
+"raw": "metaphor,metaphors,,,,,,",
+"forms": [
+"metaphor",
+"metaphors"
+]
+},
+{
+"head": "methodology",
+"pos": "",
+"raw": "methodology,methodologies,,,,,,",
+"forms": [
+"methodology",
+"methodologies"
+]
+},
+{
+"head": "micro",
+"pos": "",
+"raw": "micro,,,,,,,",
+"forms": [
+"micro"
+]
+},
+{
+"head": "mid",
+"pos": "",
+"raw": "mid,,,,,,,",
+"forms": [
+"mid"
+]
+},
+{
+"head": "migrate",
+"pos": "",
+"raw": "migrate,migrates,migrated,migrating,,,,",
+"forms": [
+"migrate",
+"migrates",
+"migrated",
+"migrating"
+]
+},
+{
+"head": "migration",
+"pos": "",
+"raw": "migration,migrations,,,,,,",
+"forms": [
+"migration",
+"migrations"
+]
+},
+{
+"head": "millimeter",
+"pos": "",
+"raw": "millimeter,millimeters,millimetres,millimetre,,,,",
+"forms": [
+"millimeter",
+"millimeters",
+"millimetres",
+"millimetre"
+]
+},
+{
+"head": "mineral",
+"pos": "",
+"raw": "mineral,minerals,,,,,,",
+"forms": [
+"mineral",
+"minerals"
+]
+},
+{
+"head": "minimal",
+"pos": "",
+"raw": "minimal,minimals,,,,,,",
+"forms": [
+"minimal",
+"minimals"
+]
+},
+{
+"head": "minimize",
+"pos": "",
+"raw": "minimize,minimizes,minimized,minimizing,minimise,minimises,minimised,minimising",
+"forms": [
+"minimize",
+"minimizes",
+"minimized",
+"minimizing",
+"minimise",
+"minimises",
+"minimised",
+"minimising"
+]
+},
+{
+"head": "minus",
+"pos": "",
+"raw": "minus,minuses,,,,,,",
+"forms": [
+"minus",
+"minuses"
+]
+},
+{
+"head": "missile",
+"pos": "",
+"raw": "missile,missiles,,,,,,",
+"forms": [
+"missile",
+"missiles"
+]
+},
+{
+"head": "mobility",
+"pos": "",
+"raw": "mobility,mobilities,,,,,,",
+"forms": [
+"mobility",
+"mobilities"
+]
+},
+{
+"head": "modification",
+"pos": "",
+"raw": "modification,modifications,,,,,,",
+"forms": [
+"modification",
+"modifications"
+]
+},
+{
+"head": "mole",
+"pos": "",
+"raw": "mole,moles,,,,,,",
+"forms": [
+"mole",
+"moles"
+]
+},
+{
+"head": "molecular",
+"pos": "",
+"raw": "molecular,moleculars,,,,,,",
+"forms": [
+"molecular",
+"moleculars"
+]
+},
+{
+"head": "molecule",
+"pos": "",
+"raw": "molecule,molecules,,,,,,",
+"forms": [
+"molecule",
+"molecules"
+]
+},
+{
+"head": "momentum",
+"pos": "",
+"raw": "momentum,momentums,momenta,,,,,",
+"forms": [
+"momentum",
+"momentums",
+"momenta"
+]
+},
+{
+"head": "monetary",
+"pos": "",
+"raw": "monetary,,,,,,,",
+"forms": [
+"monetary"
+]
+},
+{
+"head": "monkey",
+"pos": "",
+"raw": "monkey,monkeys,monkeyed,monkeying,,,,",
+"forms": [
+"monkey",
+"monkeys",
+"monkeyed",
+"monkeying"
+]
+},
+{
+"head": "monopoly",
+"pos": "",
+"raw": "monopoly,monopolies,,,,,,",
+"forms": [
+"monopoly",
+"monopolies"
+]
+},
+{
+"head": "morality",
+"pos": "",
+"raw": "morality,moralities,,,,,,",
+"forms": [
+"morality",
+"moralities"
+]
+},
+{
+"head": "morphological",
+"pos": "",
+"raw": "morphological,morphologicals,,,,,,",
+"forms": [
+"morphological",
+"morphologicals"
+]
+},
+{
+"head": "morphology",
+"pos": "",
+"raw": "morphology,morphologies,,,,,,",
+"forms": [
+"morphology",
+"morphologies"
+]
+},
+{
+"head": "mortality",
+"pos": "",
+"raw": "mortality,mortalities,,,,,,",
+"forms": [
+"mortality",
+"mortalities"
+]
+},
+{
+"head": "motif",
+"pos": "",
+"raw": "motif,motifs,,,,,,",
+"forms": [
+"motif",
+"motifs"
+]
+},
+{
+"head": "motive",
+"pos": "",
+"raw": "motive,motives,,,,,,",
+"forms": [
+"motive",
+"motives"
+]
+},
+{
+"head": "multi",
+"pos": "",
+"raw": "multi,,,,,,,",
+"forms": [
+"multi"
+]
+},
+{
+"head": "multinational",
+"pos": "",
+"raw": "multinational,multinationals,,,,,,",
+"forms": [
+"multinational",
+"multinationals"
+]
+},
+{
+"head": "multiply",
+"pos": "",
+"raw": "multiply,multiplies,multiplied,multiplying,,,,",
+"forms": [
+"multiply",
+"multiplies",
+"multiplied",
+"multiplying"
+]
+},
+{
+"head": "mutation",
+"pos": "",
+"raw": "mutation,mutations,,,,,,",
+"forms": [
+"mutation",
+"mutations"
+]
+},
+{
+"head": "myth",
+"pos": "",
+"raw": "myth,myths,,,,,,",
+"forms": [
+"myth",
+"myths"
+]
+},
+{
+"head": "naked",
+"pos": "",
+"raw": "naked,,,,,,,",
+"forms": [
+"naked"
+]
+},
+{
+"head": "namely",
+"pos": "",
+"raw": "namely,,,,,,,",
+"forms": [
+"namely"
+]
+},
+{
+"head": "nasty",
+"pos": "",
+"raw": "nasty,nastier,nastiest,,,,,",
+"forms": [
+"nasty",
+"nastier",
+"nastiest"
+]
+},
+{
+"head": "nationalism",
+"pos": "",
+"raw": "nationalism,nationalisms,,,,,,",
+"forms": [
+"nationalism",
+"nationalisms"
+]
+},
+{
+"head": "neat",
+"pos": "",
+"raw": "neat,neater,neatest,,,,,",
+"forms": [
+"neat",
+"neater",
+"neatest"
+]
+},
+{
+"head": "necessity",
+"pos": "",
+"raw": "necessity,necessities,,,,,,",
+"forms": [
+"necessity",
+"necessities"
+]
+},
+{
+"head": "neo",
+"pos": "",
+"raw": "neo,,,,,,,",
+"forms": [
+"neo"
+]
+},
+{
+"head": "nest",
+"pos": "",
+"raw": "nest,nests,nested,nesting,,,,",
+"forms": [
+"nest",
+"nests",
+"nested",
+"nesting"
+]
+},
+{
+"head": "neural",
+"pos": "",
+"raw": "neural,neurals,,,,,,",
+"forms": [
+"neural",
+"neurals"
+]
+},
+{
+"head": "neuron",
+"pos": "",
+"raw": "neuron,neurons,neurone,neurones,,,,",
+"forms": [
+"neuron",
+"neurons",
+"neurone",
+"neurones"
+]
+},
+{
+"head": "neutral",
+"pos": "",
+"raw": "neutral,neutrals,,,,,,",
+"forms": [
+"neutral",
+"neutrals"
+]
+},
+{
+"head": "nicely",
+"pos": "",
+"raw": "nicely,,,,,,,",
+"forms": [
+"nicely"
+]
+},
+{
+"head": "niche",
+"pos": "",
+"raw": "niche,nich?niches,nichés,,,,,",
+"forms": [
+"niche",
+"nich?niches",
+"nichés"
+]
+},
+{
+"head": "nitrogen",
+"pos": "",
+"raw": "nitrogen,nitrogens,,,,,,",
+"forms": [
+"nitrogen",
+"nitrogens"
+]
+},
+{
+"head": "noble",
+"pos": "",
+"raw": "noble,nobles,nobler,noblest,,,,",
+"forms": [
+"noble",
+"nobles",
+"nobler",
+"noblest"
+]
+},
+{
+"head": "node",
+"pos": "",
+"raw": "node,nodes,,,,,,",
+"forms": [
+"node",
+"nodes"
+]
+},
+{
+"head": "noisy",
+"pos": "",
+"raw": "noisy,noisier,noisiest,,,,,",
+"forms": [
+"noisy",
+"noisier",
+"noisiest"
+]
+},
+{
+"head": "nominal",
+"pos": "",
+"raw": "nominal,nominals,,,,,,",
+"forms": [
+"nominal",
+"nominals"
+]
+},
+{
+"head": "non",
+"pos": "",
+"raw": "non,,,,,,,",
+"forms": [
+"non"
+]
+},
+{
+"head": "nonetheless",
+"pos": "",
+"raw": "nonetheless,,,,,,,",
+"forms": [
+"nonetheless"
+]
+},
+{
+"head": "nonlinear",
+"pos": "",
+"raw": "nonlinear,nonlinears,,,,,,",
+"forms": [
+"nonlinear",
+"nonlinears"
+]
+},
+{
+"head": "norm",
+"pos": "",
+"raw": "norm,norms,,,,,,",
+"forms": [
+"norm",
+"norms"
+]
+},
+{
+"head": "notation",
+"pos": "",
+"raw": "notation,notations,,,,,,",
+"forms": [
+"notation",
+"notations"
+]
+},
+{
+"head": "novice",
+"pos": "",
+"raw": "novice,novices,,,,,,",
+"forms": [
+"novice",
+"novices"
+]
+},
+{
+"head": "nucleus",
+"pos": "",
+"raw": "nucleus,nuclei,,,,,,",
+"forms": [
+"nucleus",
+"nuclei"
+]
+},
+{
+"head": "null",
+"pos": "",
+"raw": "null,nulls,nulled,nulling,,,,",
+"forms": [
+"null",
+"nulls",
+"nulled",
+"nulling"
+]
+},
+{
+"head": "numerical",
+"pos": "",
+"raw": "numerical,numericals,,,,,,",
+"forms": [
+"numerical",
+"numericals"
+]
+},
+{
+"head": "nutrient",
+"pos": "",
+"raw": "nutrient,nutrients,,,,,,",
+"forms": [
+"nutrient",
+"nutrients"
+]
+},
+{
+"head": "objection",
+"pos": "",
+"raw": "objection,objections,,,,,,",
+"forms": [
+"objection",
+"objections"
+]
+},
+{
+"head": "obscure",
+"pos": "",
+"raw": "obscure,obscures,obscured,obscuring,,,,",
+"forms": [
+"obscure",
+"obscures",
+"obscured",
+"obscuring"
+]
+},
+{
+"head": "observer",
+"pos": "",
+"raw": "observer,observers,,,,,,",
+"forms": [
+"observer",
+"observers"
+]
+},
+{
+"head": "obtain",
+"pos": "",
+"raw": "obtain,obtains,obtained,obtaining,,,,",
+"forms": [
+"obtain",
+"obtains",
+"obtained",
+"obtaining"
+]
+},
+{
+"head": "occupation",
+"pos": "",
+"raw": "occupation,occupations,,,,,,",
+"forms": [
+"occupation",
+"occupations"
+]
+},
+{
+"head": "occurrence",
+"pos": "",
+"raw": "occurrence,occurrences,,,,,,",
+"forms": [
+"occurrence",
+"occurrences"
+]
+},
+{
+"head": "offspring",
+"pos": "",
+"raw": "offspring,offsprings,,,,,,",
+"forms": [
+"offspring",
+"offsprings"
+]
+},
+{
+"head": "onset",
+"pos": "",
+"raw": "onset,onsets,,,,,,",
+"forms": [
+"onset",
+"onsets"
+]
+},
+{
+"head": "onwards",
+"pos": "",
+"raw": "onwards,,,,,,,",
+"forms": [
+"onwards"
+]
+},
+{
+"head": "optical",
+"pos": "",
+"raw": "optical,opticals,,,,,,",
+"forms": [
+"optical",
+"opticals"
+]
+},
+{
+"head": "optimal",
+"pos": "",
+"raw": "optimal,optimals,,,,,,",
+"forms": [
+"optimal",
+"optimals"
+]
+},
+{
+"head": "optimum",
+"pos": "",
+"raw": "optimum,,,,,,,",
+"forms": [
+"optimum"
+]
+},
+{
+"head": "oral",
+"pos": "",
+"raw": "oral,orals,,,,,,",
+"forms": [
+"oral",
+"orals"
+]
+},
+{
+"head": "organ",
+"pos": "",
+"raw": "organ,organs,,,,,,",
+"forms": [
+"organ",
+"organs"
+]
+},
+{
+"head": "organism",
+"pos": "",
+"raw": "organism,organisms,,,,,,",
+"forms": [
+"organism",
+"organisms"
+]
+},
+{
+"head": "orient",
+"pos": "",
+"raw": "orient,orients,oriented,orienting,,,,",
+"forms": [
+"orient",
+"orients",
+"oriented",
+"orienting"
+]
+},
+{
+"head": "orientation",
+"pos": "",
+"raw": "orientation,orientations,,,,,,",
+"forms": [
+"orientation",
+"orientations"
+]
+},
+{
+"head": "oscillation",
+"pos": "",
+"raw": "oscillation,oscillations,,,,,,",
+"forms": [
+"oscillation",
+"oscillations"
+]
+},
+{
+"head": "outer",
+"pos": "",
+"raw": "outer,outers,,,,,,",
+"forms": [
+"outer",
+"outers"
+]
+},
+{
+"head": "outlet",
+"pos": "",
+"raw": "outlet,outlets,,,,,,",
+"forms": [
+"outlet",
+"outlets"
+]
+},
+{
+"head": "overhead",
+"pos": "",
+"raw": "overhead,overheads,,,,,,",
+"forms": [
+"overhead",
+"overheads"
+]
+},
+{
+"head": "overlap",
+"pos": "",
+"raw": "overlap,overlaps,overlapped,overlapping,,,,",
+"forms": [
+"overlap",
+"overlaps",
+"overlapped",
+"overlapping"
+]
+},
+{
+"head": "overview",
+"pos": "",
+"raw": "overview,overviews,overviewed,overviewing,,,,",
+"forms": [
+"overview",
+"overviews",
+"overviewed",
+"overviewing"
+]
+},
+{
+"head": "oxidize",
+"pos": "",
+"raw": "oxidize,oxidizes,oxidized,oxidizing,oxidise,oxidises,oxidised,oxidising",
+"forms": [
+"oxidize",
+"oxidizes",
+"oxidized",
+"oxidizing",
+"oxidise",
+"oxidises",
+"oxidised",
+"oxidising"
+]
+},
+{
+"head": "oxygen",
+"pos": "",
+"raw": "oxygen,oxygens,,,,,,",
+"forms": [
+"oxygen",
+"oxygens"
+]
+},
+{
+"head": "painful",
+"pos": "",
+"raw": "painful,,,,,,,",
+"forms": [
+"painful"
+]
+},
+{
+"head": "par",
+"pos": "",
+"raw": "par,pars,parred,parring,,,,",
+"forms": [
+"par",
+"pars",
+"parred",
+"parring"
+]
+},
+{
+"head": "paradigm",
+"pos": "",
+"raw": "paradigm,paradigms,,,,,,",
+"forms": [
+"paradigm",
+"paradigms"
+]
+},
+{
+"head": "paradox",
+"pos": "",
+"raw": "paradox,paradoxes,,,,,,",
+"forms": [
+"paradox",
+"paradoxes"
+]
+},
+{
+"head": "parameter",
+"pos": "",
+"raw": "parameter,parameters,,,,,,",
+"forms": [
+"parameter",
+"parameters"
+]
+},
+{
+"head": "parcel",
+"pos": "",
+"raw": "parcel,parcels,parceled,parceling,parcelled,parcelling,,",
+"forms": [
+"parcel",
+"parcels",
+"parceled",
+"parceling",
+"parcelled",
+"parcelling"
+]
+},
+{
+"head": "pardon",
+"pos": "",
+"raw": "pardon,pardons,pardoned,pardoning,,,,",
+"forms": [
+"pardon",
+"pardons",
+"pardoned",
+"pardoning"
+]
+},
+{
+"head": "parental",
+"pos": "",
+"raw": "parental,parentals,,,,,,",
+"forms": [
+"parental",
+"parentals"
+]
+},
+{
+"head": "parenthesis",
+"pos": "",
+"raw": "parenthesis,parentheses,,,,,,",
+"forms": [
+"parenthesis",
+"parentheses"
+]
+},
+{
+"head": "partial",
+"pos": "",
+"raw": "partial,partials,,,,,,",
+"forms": [
+"partial",
+"partials"
+]
+},
+{
+"head": "partially",
+"pos": "",
+"raw": "partially,,,,,,,",
+"forms": [
+"partially"
+]
+},
+{
+"head": "particle",
+"pos": "",
+"raw": "particle,particles,,,,,,",
+"forms": [
+"particle",
+"particles"
+]
+},
+{
+"head": "partition",
+"pos": "",
+"raw": "partition,partitions,partitioned,partitioning,,,,",
+"forms": [
+"partition",
+"partitions",
+"partitioned",
+"partitioning"
+]
+},
+{
+"head": "pathway",
+"pos": "",
+"raw": "pathway,pathways,,,,,,",
+"forms": [
+"pathway",
+"pathways"
+]
+},
+{
+"head": "peasant",
+"pos": "",
+"raw": "peasant,peasants,,,,,,",
+"forms": [
+"peasant",
+"peasants"
+]
+},
+{
+"head": "periodic",
+"pos": "",
+"raw": "periodic,periodics,,,,,,",
+"forms": [
+"periodic",
+"periodics"
+]
+},
+{
+"head": "peripheral",
+"pos": "",
+"raw": "peripheral,peripherals,,,,,,",
+"forms": [
+"peripheral",
+"peripherals"
+]
+},
+{
+"head": "pest",
+"pos": "",
+"raw": "pest,pests,,,,,,",
+"forms": [
+"pest",
+"pests"
+]
+},
+{
+"head": "pesticide",
+"pos": "",
+"raw": "pesticide,pesticides,,,,,,",
+"forms": [
+"pesticide",
+"pesticides"
+]
+},
+{
+"head": "phenomenal",
+"pos": "",
+"raw": "phenomenal,phenomenals,,,,,,",
+"forms": [
+"phenomenal",
+"phenomenals"
+]
+},
+{
+"head": "philosopher",
+"pos": "",
+"raw": "philosopher,philosophers,,,,,,",
+"forms": [
+"philosopher",
+"philosophers"
+]
+},
+{
+"head": "philosophical",
+"pos": "",
+"raw": "philosophical,philosophicals,,,,,,",
+"forms": [
+"philosophical",
+"philosophicals"
+]
+},
+{
+"head": "phonological",
+"pos": "",
+"raw": "phonological,phonologicals,,,,,,",
+"forms": [
+"phonological",
+"phonologicals"
+]
+},
+{
+"head": "phosphate",
+"pos": "",
+"raw": "phosphate,phosphates,,,,,,",
+"forms": [
+"phosphate",
+"phosphates"
+]
+},
+{
+"head": "photographic",
+"pos": "",
+"raw": "photographic,photographics,,,,,,",
+"forms": [
+"photographic",
+"photographics"
+]
+},
+{
+"head": "physically",
+"pos": "",
+"raw": "physically,,,,,,,",
+"forms": [
+"physically"
+]
+},
+{
+"head": "physician",
+"pos": "",
+"raw": "physician,physicians,,,,,,",
+"forms": [
+"physician",
+"physicians"
+]
+},
+{
+"head": "physics",
+"pos": "",
+"raw": "physics,,,,,,,",
+"forms": [
+"physics"
+]
+},
+{
+"head": "physiological",
+"pos": "",
+"raw": "physiological,physiologicals,,,,,,",
+"forms": [
+"physiological",
+"physiologicals"
+]
+},
+{
+"head": "pi",
+"pos": "",
+"raw": "pi,,,,,,,",
+"forms": [
+"pi"
+]
+},
+{
+"head": "planner",
+"pos": "",
+"raw": "planner,planners,,,,,,",
+"forms": [
+"planner",
+"planners"
+]
+},
+{
+"head": "plantation",
+"pos": "",
+"raw": "plantation,plantations,,,,,,",
+"forms": [
+"plantation",
+"plantations"
+]
+},
+{
+"head": "plausible",
+"pos": "",
+"raw": "plausible,plausibles,,,,,,",
+"forms": [
+"plausible",
+"plausibles"
+]
+},
+{
+"head": "plug",
+"pos": "",
+"raw": "plug,plugs,plugged,plugging,,,,",
+"forms": [
+"plug",
+"plugs",
+"plugged",
+"plugging"
+]
+},
+{
+"head": "plural",
+"pos": "",
+"raw": "plural,plurals,,,,,,",
+"forms": [
+"plural",
+"plurals"
+]
+},
+{
+"head": "polar",
+"pos": "",
+"raw": "polar,polars,,,,,,",
+"forms": [
+"polar",
+"polars"
+]
+},
+{
+"head": "pole",
+"pos": "",
+"raw": "pole,poles,poled,poling,,,,",
+"forms": [
+"pole",
+"poles",
+"poled",
+"poling"
+]
+},
+{
+"head": "politically",
+"pos": "",
+"raw": "politically,,,,,,,",
+"forms": [
+"politically"
+]
+},
+{
+"head": "portfolio",
+"pos": "",
+"raw": "portfolio,portfolios,,,,,,",
+"forms": [
+"portfolio",
+"portfolios"
+]
+},
+{
+"head": "portray",
+"pos": "",
+"raw": "portray,portrays,portrayed,portraying,,,,",
+"forms": [
+"portray",
+"portrays",
+"portrayed",
+"portraying"
+]
+},
+{
+"head": "portrayal",
+"pos": "",
+"raw": "portrayal,portrayals,,,,,,",
+"forms": [
+"portrayal",
+"portrayals"
+]
+},
+{
+"head": "positively",
+"pos": "",
+"raw": "positively,,,,,,,",
+"forms": [
+"positively"
+]
+},
+{
+"head": "poster",
+"pos": "",
+"raw": "poster,posters,,,,,,",
+"forms": [
+"poster",
+"posters"
+]
+},
+{
+"head": "postgraduate",
+"pos": "",
+"raw": "postgraduate,postgraduates,,,,,,",
+"forms": [
+"postgraduate",
+"postgraduates"
+]
+},
+{
+"head": "potassium",
+"pos": "",
+"raw": "potassium,,,,,,,",
+"forms": [
+"potassium"
+]
+},
+{
+"head": "powder",
+"pos": "",
+"raw": "powder,powders,powdered,powdering,,,,",
+"forms": [
+"powder",
+"powders",
+"powdered",
+"powdering"
+]
+},
+{
+"head": "practitioner",
+"pos": "",
+"raw": "practitioner,practitioners,,,,,,",
+"forms": [
+"practitioner",
+"practitioners"
+]
+},
+{
+"head": "pragmatic",
+"pos": "",
+"raw": "pragmatic,pragmatics,,,,,,",
+"forms": [
+"pragmatic",
+"pragmatics"
+]
+},
+{
+"head": "pre",
+"pos": "",
+"raw": "pre,,,,,,,",
+"forms": [
+"pre"
+]
+},
+{
+"head": "precede",
+"pos": "",
+"raw": "precede,precedes,preceded,preceding,,,,",
+"forms": [
+"precede",
+"precedes",
+"preceded",
+"preceding"
+]
+},
+{
+"head": "precipitate",
+"pos": "",
+"raw": "precipitate,precipitates,precipitated,precipitating,,,,",
+"forms": [
+"precipitate",
+"precipitates",
+"precipitated",
+"precipitating"
+]
+},
+{
+"head": "precipitation",
+"pos": "",
+"raw": "precipitation,precipitations,,,,,,",
+"forms": [
+"precipitation",
+"precipitations"
+]
+},
+{
+"head": "predator",
+"pos": "",
+"raw": "predator,predators,,,,,,",
+"forms": [
+"predator",
+"predators"
+]
+},
+{
+"head": "prediction",
+"pos": "",
+"raw": "prediction,predictions,,,,,,",
+"forms": [
+"prediction",
+"predictions"
+]
+},
+{
+"head": "predominantly",
+"pos": "",
+"raw": "predominantly,,,,,,,",
+"forms": [
+"predominantly"
+]
+},
+{
+"head": "prejudice",
+"pos": "",
+"raw": "prejudice,prejudices,prejudiced,prejudicing,,,,",
+"forms": [
+"prejudice",
+"prejudices",
+"prejudiced",
+"prejudicing"
+]
+},
+{
+"head": "preliminary",
+"pos": "",
+"raw": "preliminary,preliminaries,,,,,,",
+"forms": [
+"preliminary",
+"preliminaries"
+]
+},
+{
+"head": "presume",
+"pos": "",
+"raw": "presume,presumes,presumed,presuming,,,,",
+"forms": [
+"presume",
+"presumes",
+"presumed",
+"presuming"
+]
+},
+{
+"head": "prevalence",
+"pos": "",
+"raw": "prevalence,prevalences,,,,,,",
+"forms": [
+"prevalence",
+"prevalences"
+]
+},
+{
+"head": "prey",
+"pos": "",
+"raw": "prey,preys,preyed,preying,,,,",
+"forms": [
+"prey",
+"preys",
+"preyed",
+"preying"
+]
+},
+{
+"head": "primer",
+"pos": "",
+"raw": "primer,primers,,,,,,",
+"forms": [
+"primer",
+"primers"
+]
+},
+{
+"head": "primitive",
+"pos": "",
+"raw": "primitive,primitives,,,,,,",
+"forms": [
+"primitive",
+"primitives"
+]
+},
+{
+"head": "probe",
+"pos": "",
+"raw": "probe,probes,probed,probing,,,,",
+"forms": [
+"probe",
+"probes",
+"probed",
+"probing"
+]
+},
+{
+"head": "problematic",
+"pos": "",
+"raw": "problematic,problematics,,,,,,",
+"forms": [
+"problematic",
+"problematics"
+]
+},
+{
+"head": "processor",
+"pos": "",
+"raw": "processor,processors,,,,,,",
+"forms": [
+"processor",
+"processors"
+]
+},
+{
+"head": "productive",
+"pos": "",
+"raw": "productive,,,,,,,",
+"forms": [
+"productive"
+]
+},
+{
+"head": "productivity",
+"pos": "",
+"raw": "productivity,productivities,,,,,,",
+"forms": [
+"productivity",
+"productivities"
+]
+},
+{
+"head": "profound",
+"pos": "",
+"raw": "profound,profounder,profoundest,,,,,",
+"forms": [
+"profound",
+"profounder",
+"profoundest"
+]
+},
+{
+"head": "progression",
+"pos": "",
+"raw": "progression,progressions,,,,,,",
+"forms": [
+"progression",
+"progressions"
+]
+},
+{
+"head": "progressive",
+"pos": "",
+"raw": "progressive,,,,,,,",
+"forms": [
+"progressive"
+]
+},
+{
+"head": "projection",
+"pos": "",
+"raw": "projection,projections,,,,,,",
+"forms": [
+"projection",
+"projections"
+]
+},
+{
+"head": "prominent",
+"pos": "",
+"raw": "prominent,,,,,,,",
+"forms": [
+"prominent"
+]
+},
+{
+"head": "pronounce",
+"pos": "",
+"raw": "pronounce,pronounces,pronounced,pronouncing,,,,",
+"forms": [
+"pronounce",
+"pronounces",
+"pronounced",
+"pronouncing"
+]
+},
+{
+"head": "proposition",
+"pos": "",
+"raw": "proposition,propositions,propositioned,propositioning,,,,",
+"forms": [
+"proposition",
+"propositions",
+"propositioned",
+"propositioning"
+]
+},
+{
+"head": "protocol",
+"pos": "",
+"raw": "protocol,protocols,,,,,,",
+"forms": [
+"protocol",
+"protocols"
+]
+},
+{
+"head": "proton",
+"pos": "",
+"raw": "proton,protons,,,,,,",
+"forms": [
+"proton",
+"protons"
+]
+},
+{
+"head": "psychiatric",
+"pos": "",
+"raw": "psychiatric,psychiatrics,,,,,,",
+"forms": [
+"psychiatric",
+"psychiatrics"
+]
+},
+{
+"head": "psychologist",
+"pos": "",
+"raw": "psychologist,psychologists,,,,,,",
+"forms": [
+"psychologist",
+"psychologists"
+]
+},
+{
+"head": "psychology",
+"pos": "",
+"raw": "psychology,psychologies,,,,,,",
+"forms": [
+"psychology",
+"psychologies"
+]
+},
+{
+"head": "publish",
+"pos": "",
+"raw": "publish,publishes,published,publishing,,,,",
+"forms": [
+"publish",
+"publishes",
+"published",
+"publishing"
+]
+},
+{
+"head": "pulse",
+"pos": "",
+"raw": "pulse,pulses,pulsed,pulsing,,,,",
+"forms": [
+"pulse",
+"pulses",
+"pulsed",
+"pulsing"
+]
+},
+{
+"head": "punch",
+"pos": "",
+"raw": "punch,punches,punched,punching,,,,",
+"forms": [
+"punch",
+"punches",
+"punched",
+"punching"
+]
+},
+{
+"head": "punish",
+"pos": "",
+"raw": "punish,punishes,punished,punishing,,,,",
+"forms": [
+"punish",
+"punishes",
+"punished",
+"punishing"
+]
+},
+{
+"head": "punishment",
+"pos": "",
+"raw": "punishment,punishments,,,,,,",
+"forms": [
+"punishment",
+"punishments"
+]
+},
+{
+"head": "purely",
+"pos": "",
+"raw": "purely,,,,,,,",
+"forms": [
+"purely"
+]
+},
+{
+"head": "puzzle",
+"pos": "",
+"raw": "puzzle,puzzles,puzzled,puzzling,,,,",
+"forms": [
+"puzzle",
+"puzzles",
+"puzzled",
+"puzzling"
+]
+},
+{
+"head": "qualitative",
+"pos": "",
+"raw": "qualitative,,,,,,,",
+"forms": [
+"qualitative"
+]
+},
+{
+"head": "quantitative",
+"pos": "",
+"raw": "quantitative,,,,,,,",
+"forms": [
+"quantitative"
+]
+},
+{
+"head": "quantum",
+"pos": "",
+"raw": "quantum,,,,,,,",
+"forms": [
+"quantum"
+]
+},
+{
+"head": "questionnaire",
+"pos": "",
+"raw": "questionnaire,questionnaires,,,,,,",
+"forms": [
+"questionnaire",
+"questionnaires"
+]
+},
+{
+"head": "quiz",
+"pos": "",
+"raw": "quiz,quizs,quizzes,quizzed,quizzing,quizzings,,",
+"forms": [
+"quiz",
+"quizs",
+"quizzes",
+"quizzed",
+"quizzing",
+"quizzings"
+]
+},
+{
+"head": "quotation",
+"pos": "",
+"raw": "quotation,quotations,,,,,,",
+"forms": [
+"quotation",
+"quotations"
+]
+},
+{
+"head": "rack",
+"pos": "",
+"raw": "rack,racks,racked,racking,,,,",
+"forms": [
+"rack",
+"racks",
+"racked",
+"racking"
+]
+},
+{
+"head": "radar",
+"pos": "",
+"raw": "radar,radars,,,,,,",
+"forms": [
+"radar",
+"radars"
+]
+},
+{
+"head": "radiation",
+"pos": "",
+"raw": "radiation,radiations,,,,,,",
+"forms": [
+"radiation",
+"radiations"
+]
+},
+{
+"head": "radius",
+"pos": "",
+"raw": "radius,radii,,,,,,",
+"forms": [
+"radius",
+"radii"
+]
+},
+{
+"head": "rainfall",
+"pos": "",
+"raw": "rainfall,rainfalls,,,,,,",
+"forms": [
+"rainfall",
+"rainfalls"
+]
+},
+{
+"head": "randomize",
+"pos": "",
+"raw": "randomize,randomizes,randomized,randomizing,randomise,randomises,randomised,randomising",
+"forms": [
+"randomize",
+"randomizes",
+"randomized",
+"randomizing",
+"randomise",
+"randomises",
+"randomised",
+"randomising"
+]
+},
+{
+"head": "randomly",
+"pos": "",
+"raw": "randomly,,,,,,,",
+"forms": [
+"randomly"
+]
+},
+{
+"head": "rational",
+"pos": "",
+"raw": "rational,rationals,,,,,,",
+"forms": [
+"rational",
+"rationals"
+]
+},
+{
+"head": "rationality",
+"pos": "",
+"raw": "rationality,rationalities,,,,,,",
+"forms": [
+"rationality",
+"rationalities"
+]
+},
+{
+"head": "ray",
+"pos": "",
+"raw": "ray,rays,rayed,raying,,,,",
+"forms": [
+"ray",
+"rays",
+"rayed",
+"raying"
+]
+},
+{
+"head": "reactive",
+"pos": "",
+"raw": "reactive,,,,,,,",
+"forms": [
+"reactive"
+]
+},
+{
+"head": "reactor",
+"pos": "",
+"raw": "reactor,reactors,,,,,,",
+"forms": [
+"reactor",
+"reactors"
+]
+},
+{
+"head": "readily",
+"pos": "",
+"raw": "readily,,,,,,,",
+"forms": [
+"readily"
+]
+},
+{
+"head": "realism",
+"pos": "",
+"raw": "realism,realisms,,,,,,",
+"forms": [
+"realism",
+"realisms"
+]
+},
+{
+"head": "realistic",
+"pos": "",
+"raw": "realistic,realistics,,,,,,",
+"forms": [
+"realistic",
+"realistics"
+]
+},
+{
+"head": "realm",
+"pos": "",
+"raw": "realm,realms,,,,,,",
+"forms": [
+"realm",
+"realms"
+]
+},
+{
+"head": "receptor",
+"pos": "",
+"raw": "receptor,receptors,,,,,,",
+"forms": [
+"receptor",
+"receptors"
+]
+},
+{
+"head": "recipe",
+"pos": "",
+"raw": "recipe,recipes,,,,,,",
+"forms": [
+"recipe",
+"recipes"
+]
+},
+{
+"head": "reconstruct",
+"pos": "",
+"raw": "reconstruct,reconstructs,reconstructed,reconstructing,,,,",
+"forms": [
+"reconstruct",
+"reconstructs",
+"reconstructed",
+"reconstructing"
+]
+},
+{
+"head": "regime",
+"pos": "",
+"raw": "regime,regimes,régime,régimes,,,,",
+"forms": [
+"regime",
+"regimes",
+"régime",
+"régimes"
+]
+},
+{
+"head": "regression",
+"pos": "",
+"raw": "regression,regressions,,,,,,",
+"forms": [
+"regression",
+"regressions"
+]
+},
+{
+"head": "rehabilitation",
+"pos": "",
+"raw": "rehabilitation,rehabilitations,,,,,,",
+"forms": [
+"rehabilitation",
+"rehabilitations"
+]
+},
+{
+"head": "reinforce",
+"pos": "",
+"raw": "reinforce,reinforces,reinforced,reinforcing,,,,",
+"forms": [
+"reinforce",
+"reinforces",
+"reinforced",
+"reinforcing"
+]
+},
+{
+"head": "rejection",
+"pos": "",
+"raw": "rejection,rejections,,,,,,",
+"forms": [
+"rejection",
+"rejections"
+]
+},
+{
+"head": "reliability",
+"pos": "",
+"raw": "reliability,reliabilities,,,,,,",
+"forms": [
+"reliability",
+"reliabilities"
+]
+},
+{
+"head": "render",
+"pos": "",
+"raw": "render,renders,rendered,rendering,renderings,,,",
+"forms": [
+"render",
+"renders",
+"rendered",
+"rendering",
+"renderings"
+]
+},
+{
+"head": "repertoire",
+"pos": "",
+"raw": "repertoire,repertoires,,,,,,",
+"forms": [
+"repertoire",
+"repertoires"
+]
+},
+{
+"head": "replacement",
+"pos": "",
+"raw": "replacement,replacements,,,,,,",
+"forms": [
+"replacement",
+"replacements"
+]
+},
+{
+"head": "replicate",
+"pos": "",
+"raw": "replicate,replicates,replicated,replicating,,,,",
+"forms": [
+"replicate",
+"replicates",
+"replicated",
+"replicating"
+]
+},
+{
+"head": "replication",
+"pos": "",
+"raw": "replication,replications,,,,,,",
+"forms": [
+"replication",
+"replications"
+]
+},
+{
+"head": "reproduce",
+"pos": "",
+"raw": "reproduce,reproduces,reproduced,reproducing,,,,",
+"forms": [
+"reproduce",
+"reproduces",
+"reproduced",
+"reproducing"
+]
+},
+{
+"head": "reproduction",
+"pos": "",
+"raw": "reproduction,reproductions,,,,,,",
+"forms": [
+"reproduction",
+"reproductions"
+]
+},
+{
+"head": "republic",
+"pos": "",
+"raw": "republic,republics,,,,,,",
+"forms": [
+"republic",
+"republics"
+]
+},
+{
+"head": "resemble",
+"pos": "",
+"raw": "resemble,resembles,resembled,resembling,,,,",
+"forms": [
+"resemble",
+"resembles",
+"resembled",
+"resembling"
+]
+},
+{
+"head": "reservoir",
+"pos": "",
+"raw": "reservoir,reservoirs,,,,,,",
+"forms": [
+"reservoir",
+"reservoirs"
+]
+},
+{
+"head": "residual",
+"pos": "",
+"raw": "residual,residuals,,,,,,",
+"forms": [
+"residual",
+"residuals"
+]
+},
+{
+"head": "residue",
+"pos": "",
+"raw": "residue,residues,,,,,,",
+"forms": [
+"residue",
+"residues"
+]
+},
+{
+"head": "resistant",
+"pos": "",
+"raw": "resistant,,,,,,,",
+"forms": [
+"resistant"
+]
+},
+{
+"head": "respiratory",
+"pos": "",
+"raw": "respiratory,,,,,,,",
+"forms": [
+"respiratory"
+]
+},
+{
+"head": "retrieve",
+"pos": "",
+"raw": "retrieve,retrieves,retrieved,retrieving,,,,",
+"forms": [
+"retrieve",
+"retrieves",
+"retrieved",
+"retrieving"
+]
+},
+{
+"head": "revolutionary",
+"pos": "",
+"raw": "revolutionary,revolutionaries,,,,,,",
+"forms": [
+"revolutionary",
+"revolutionaries"
+]
+},
+{
+"head": "rewrite",
+"pos": "",
+"raw": "rewrite,rewrites,rewrote,rewritten,rewrited,rewriting,rewrit,",
+"forms": [
+"rewrite",
+"rewrites",
+"rewrote",
+"rewritten",
+"rewrited",
+"rewriting",
+"rewrit"
+]
+},
+{
+"head": "rhetoric",
+"pos": "",
+"raw": "rhetoric,rhetorics,,,,,,",
+"forms": [
+"rhetoric",
+"rhetorics"
+]
+},
+{
+"head": "rhythm",
+"pos": "",
+"raw": "rhythm,rhythms,,,,,,",
+"forms": [
+"rhythm",
+"rhythms"
+]
+},
+{
+"head": "ridiculous",
+"pos": "",
+"raw": "ridiculous,,,,,,,",
+"forms": [
+"ridiculous"
+]
+},
+{
+"head": "ritual",
+"pos": "",
+"raw": "ritual,rituals,,,,,,",
+"forms": [
+"ritual",
+"rituals"
+]
+},
+{
+"head": "robot",
+"pos": "",
+"raw": "robot,robots,,,,,,",
+"forms": [
+"robot",
+"robots"
+]
+},
+{
+"head": "rope",
+"pos": "",
+"raw": "rope,ropes,roped,roping,,,,",
+"forms": [
+"rope",
+"ropes",
+"roped",
+"roping"
+]
+},
+{
+"head": "rotate",
+"pos": "",
+"raw": "rotate,rotates,rotated,rotating,,,,",
+"forms": [
+"rotate",
+"rotates",
+"rotated",
+"rotating"
+]
+},
+{
+"head": "rotation",
+"pos": "",
+"raw": "rotation,rotations,,,,,,",
+"forms": [
+"rotation",
+"rotations"
+]
+},
+{
+"head": "rub",
+"pos": "",
+"raw": "rub,rubs,rubbed,rubbing,rubbings,,,",
+"forms": [
+"rub",
+"rubs",
+"rubbed",
+"rubbing",
+"rubbings"
+]
+},
+{
+"head": "ruler",
+"pos": "",
+"raw": "ruler,rulers,,,,,,",
+"forms": [
+"ruler",
+"rulers"
+]
+},
+{
+"head": "scatter",
+"pos": "",
+"raw": "scatter,scatters,scattered,scattering,scatterings,,,",
+"forms": [
+"scatter",
+"scatters",
+"scattered",
+"scattering",
+"scatterings"
+]
+},
+{
+"head": "scenario",
+"pos": "",
+"raw": "scenario,scenarios,,,,,,",
+"forms": [
+"scenario",
+"scenarios"
+]
+},
+{
+"head": "scholarship",
+"pos": "",
+"raw": "scholarship,scholarships,,,,,,",
+"forms": [
+"scholarship",
+"scholarships"
+]
+},
+{
+"head": "scripture",
+"pos": "",
+"raw": "scripture,scriptures,,,,,,",
+"forms": [
+"scripture",
+"scriptures"
+]
+},
+{
+"head": "scroll",
+"pos": "",
+"raw": "scroll,scrolls,scrolled,scrolling,,,,",
+"forms": [
+"scroll",
+"scrolls",
+"scrolled",
+"scrolling"
+]
+},
+{
+"head": "secrete",
+"pos": "",
+"raw": "secrete,secretes,secreted,secreting,,,,",
+"forms": [
+"secrete",
+"secretes",
+"secreted",
+"secreting"
+]
+},
+{
+"head": "sediment",
+"pos": "",
+"raw": "sediment,sediments,sedimented,sedimenting,,,,",
+"forms": [
+"sediment",
+"sediments",
+"sedimented",
+"sedimenting"
+]
+},
+{
+"head": "selective",
+"pos": "",
+"raw": "selective,,,,,,,",
+"forms": [
+"selective"
+]
+},
+{
+"head": "semantic",
+"pos": "",
+"raw": "semantic,semantics,,,,,,",
+"forms": [
+"semantic",
+"semantics"
+]
+},
+{
+"head": "semester",
+"pos": "",
+"raw": "semester,semesters,,,,,,",
+"forms": [
+"semester",
+"semesters"
+]
+},
+{
+"head": "semi",
+"pos": "",
+"raw": "semi,,,,,,,",
+"forms": [
+"semi"
+]
+},
+{
+"head": "seminar",
+"pos": "",
+"raw": "seminar,seminars,,,,,,",
+"forms": [
+"seminar",
+"seminars"
+]
+},
+{
+"head": "sensation",
+"pos": "",
+"raw": "sensation,sensations,,,,,,",
+"forms": [
+"sensation",
+"sensations"
+]
+},
+{
+"head": "sensible",
+"pos": "",
+"raw": "sensible,sensibles,,,,,,",
+"forms": [
+"sensible",
+"sensibles"
+]
+},
+{
+"head": "sensitivity",
+"pos": "",
+"raw": "sensitivity,sensitivities,,,,,,",
+"forms": [
+"sensitivity",
+"sensitivities"
+]
+},
+{
+"head": "sensory",
+"pos": "",
+"raw": "sensory,,,,,,,",
+"forms": [
+"sensory"
+]
+},
+{
+"head": "separately",
+"pos": "",
+"raw": "separately,,,,,,,",
+"forms": [
+"separately"
+]
+},
+{
+"head": "separation",
+"pos": "",
+"raw": "separation,separations,,,,,,",
+"forms": [
+"separation",
+"separations"
+]
+},
+{
+"head": "sexuality",
+"pos": "",
+"raw": "sexuality,sexualities,,,,,,",
+"forms": [
+"sexuality",
+"sexualities"
+]
+},
+{
+"head": "shallow",
+"pos": "",
+"raw": "shallow,shallows,shallowed,shallowing,shallower,shallowest,,",
+"forms": [
+"shallow",
+"shallows",
+"shallowed",
+"shallowing",
+"shallower",
+"shallowest"
+]
+},
+{
+"head": "shortly",
+"pos": "",
+"raw": "shortly,,,,,,,",
+"forms": [
+"shortly"
+]
+},
+{
+"head": "shuttle",
+"pos": "",
+"raw": "shuttle,shuttles,shuttled,shuttling,,,,",
+"forms": [
+"shuttle",
+"shuttles",
+"shuttled",
+"shuttling"
+]
+},
+{
+"head": "similarity",
+"pos": "",
+"raw": "similarity,similarities,,,,,,",
+"forms": [
+"similarity",
+"similarities"
+]
+},
+{
+"head": "simplify",
+"pos": "",
+"raw": "simplify,simplifies,simplified,simplifying,,,,",
+"forms": [
+"simplify",
+"simplifies",
+"simplified",
+"simplifying"
+]
+},
+{
+"head": "simulate",
+"pos": "",
+"raw": "simulate,simulates,simulated,simulating,,,,",
+"forms": [
+"simulate",
+"simulates",
+"simulated",
+"simulating"
+]
+},
+{
+"head": "simulation",
+"pos": "",
+"raw": "simulation,simulations,,,,,,",
+"forms": [
+"simulation",
+"simulations"
+]
+},
+{
+"head": "simultaneously",
+"pos": "",
+"raw": "simultaneously,,,,,,,",
+"forms": [
+"simultaneously"
+]
+},
+{
+"head": "sin",
+"pos": "",
+"raw": "sin,sins,sinned,sinning,,,,",
+"forms": [
+"sin",
+"sins",
+"sinned",
+"sinning"
+]
+},
+{
+"head": "singular",
+"pos": "",
+"raw": "singular,singulars,,,,,,",
+"forms": [
+"singular",
+"singulars"
+]
+},
+{
+"head": "sketch",
+"pos": "",
+"raw": "sketch,sketches,sketched,sketching,,,,",
+"forms": [
+"sketch",
+"sketches",
+"sketched",
+"sketching"
+]
+},
+{
+"head": "skip",
+"pos": "",
+"raw": "skip,skips,skipped,skipping,,,,",
+"forms": [
+"skip",
+"skips",
+"skipped",
+"skipping"
+]
+},
+{
+"head": "slab",
+"pos": "",
+"raw": "slab,slabs,slabed,slabing,,,,",
+"forms": [
+"slab",
+"slabs",
+"slabed",
+"slabing"
+]
+},
+{
+"head": "slash",
+"pos": "",
+"raw": "slash,slashes,slashed,slashing,slashings,,,",
+"forms": [
+"slash",
+"slashes",
+"slashed",
+"slashing",
+"slashings"
+]
+},
+{
+"head": "slavery",
+"pos": "",
+"raw": "slavery,,,,,,,",
+"forms": [
+"slavery"
+]
+},
+{
+"head": "slot",
+"pos": "",
+"raw": "slot,slots,slotted,slotting,,,,",
+"forms": [
+"slot",
+"slots",
+"slotted",
+"slotting"
+]
+},
+{
+"head": "snake",
+"pos": "",
+"raw": "snake,snakes,snaked,snaking,,,,",
+"forms": [
+"snake",
+"snakes",
+"snaked",
+"snaking"
+]
+},
+{
+"head": "sneeze",
+"pos": "",
+"raw": "sneeze,sneezes,sneezed,sneezing,,,,",
+"forms": [
+"sneeze",
+"sneezes",
+"sneezed",
+"sneezing"
+]
+},
+{
+"head": "sniff",
+"pos": "",
+"raw": "sniff,sniffs,sniffed,sniffing,,,,",
+"forms": [
+"sniff",
+"sniffs",
+"sniffed",
+"sniffing"
+]
+},
+{
+"head": "socialize",
+"pos": "",
+"raw": "socialize,socializes,socialized,socializing,socialise,socialises,socialised,socialising",
+"forms": [
+"socialize",
+"socializes",
+"socialized",
+"socializing",
+"socialise",
+"socialises",
+"socialised",
+"socialising"
+]
+},
+{
+"head": "socially",
+"pos": "",
+"raw": "socially,,,,,,,",
+"forms": [
+"socially"
+]
+},
+{
+"head": "sodium",
+"pos": "",
+"raw": "sodium,sodiums,,,,,,",
+"forms": [
+"sodium",
+"sodiums"
+]
+},
+{
+"head": "soluble",
+"pos": "",
+"raw": "soluble,solubles,,,,,,",
+"forms": [
+"soluble",
+"solubles"
+]
+},
+{
+"head": "solute",
+"pos": "",
+"raw": "solute,solutes,,,,,,",
+"forms": [
+"solute",
+"solutes"
+]
+},
+{
+"head": "solvent",
+"pos": "",
+"raw": "solvent,solvents,,,,,,",
+"forms": [
+"solvent",
+"solvents"
+]
+},
+{
+"head": "sometime",
+"pos": "",
+"raw": "sometime,,,,,,,",
+"forms": [
+"sometime"
+]
+},
+{
+"head": "sophisticate",
+"pos": "",
+"raw": "sophisticate,sophisticated,sophisticating,sophisticates,,,,",
+"forms": [
+"sophisticate",
+"sophisticated",
+"sophisticating",
+"sophisticates"
+]
+},
+{
+"head": "span",
+"pos": "",
+"raw": "span,spans,spanned,spanning,,,,",
+"forms": [
+"span",
+"spans",
+"spanned",
+"spanning"
+]
+},
+{
+"head": "spatial",
+"pos": "",
+"raw": "spatial,spatials,,,,,,",
+"forms": [
+"spatial",
+"spatials"
+]
+},
+{
+"head": "specialty",
+"pos": "",
+"raw": "specialty,specialties,speciality,specialities,,,,",
+"forms": [
+"specialty",
+"specialties",
+"speciality",
+"specialities"
+]
+},
+{
+"head": "specification",
+"pos": "",
+"raw": "specification,specifications,,,,,,",
+"forms": [
+"specification",
+"specifications"
+]
+},
+{
+"head": "specimen",
+"pos": "",
+"raw": "specimen,specimens,,,,,,",
+"forms": [
+"specimen",
+"specimens"
+]
+},
+{
+"head": "spectrum",
+"pos": "",
+"raw": "spectrum,spectrums,spectra,,,,,",
+"forms": [
+"spectrum",
+"spectrums",
+"spectra"
+]
+},
+{
+"head": "sperm",
+"pos": "",
+"raw": "sperm,sperms,,,,,,",
+"forms": [
+"sperm",
+"sperms"
+]
+},
+{
+"head": "sphere",
+"pos": "",
+"raw": "sphere,spheres,,,,,,",
+"forms": [
+"sphere",
+"spheres"
+]
+},
+{
+"head": "splice",
+"pos": "",
+"raw": "splice,splices,spliced,splicing,,,,",
+"forms": [
+"splice",
+"splices",
+"spliced",
+"splicing"
+]
+},
+{
+"head": "sponsorship",
+"pos": "",
+"raw": "sponsorship,sponsorships,,,,,,",
+"forms": [
+"sponsorship",
+"sponsorships"
+]
+},
+{
+"head": "spontaneous",
+"pos": "",
+"raw": "spontaneous,,,,,,,",
+"forms": [
+"spontaneous"
+]
+},
+{
+"head": "spray",
+"pos": "",
+"raw": "spray,sprays,sprayed,spraying,sprayings,,,",
+"forms": [
+"spray",
+"sprays",
+"sprayed",
+"spraying",
+"sprayings"
+]
+},
+{
+"head": "stabilize",
+"pos": "",
+"raw": "stabilize,stabilizes,stabilized,stabilizing,stabilise,stabilises,stabilised,stabilising",
+"forms": [
+"stabilize",
+"stabilizes",
+"stabilized",
+"stabilizing",
+"stabilise",
+"stabilises",
+"stabilised",
+"stabilising"
+]
+},
+{
+"head": "stack",
+"pos": "",
+"raw": "stack,stacks,stacked,stacking,,,,",
+"forms": [
+"stack",
+"stacks",
+"stacked",
+"stacking"
+]
+},
+{
+"head": "stadium",
+"pos": "",
+"raw": "stadium,stadiums,,,,,,",
+"forms": [
+"stadium",
+"stadiums"
+]
+},
+{
+"head": "stance",
+"pos": "",
+"raw": "stance,stances,stanced,stancing,,,,",
+"forms": [
+"stance",
+"stances",
+"stanced",
+"stancing"
+]
+},
+{
+"head": "standardize",
+"pos": "",
+"raw": "standardize,standardizes,standardized,standardizing,standardise,standardises,standardised,standardising",
+"forms": [
+"standardize",
+"standardizes",
+"standardized",
+"standardizing",
+"standardise",
+"standardises",
+"standardised",
+"standardising"
+]
+},
+{
+"head": "static",
+"pos": "",
+"raw": "static,statics,,,,,,",
+"forms": [
+"static",
+"statics"
+]
+},
+{
+"head": "statistical",
+"pos": "",
+"raw": "statistical,statisticals,,,,,,",
+"forms": [
+"statistical",
+"statisticals"
+]
+},
+{
+"head": "statistically",
+"pos": "",
+"raw": "statistically,,,,,,,",
+"forms": [
+"statistically"
+]
+},
+{
+"head": "statistics",
+"pos": "",
+"raw": "statistics,,,,,,,",
+"forms": [
+"statistics"
+]
+},
+{
+"head": "stereotype",
+"pos": "",
+"raw": "stereotype,stereotypes,stereotyped,stereotyping,,,,",
+"forms": [
+"stereotype",
+"stereotypes",
+"stereotyped",
+"stereotyping"
+]
+},
+{
+"head": "stimulus",
+"pos": "",
+"raw": "stimulus,stimuli,,,,,,",
+"forms": [
+"stimulus",
+"stimuli"
+]
+},
+{
+"head": "straightforward",
+"pos": "",
+"raw": "straightforward,,,,,,,",
+"forms": [
+"straightforward"
+]
+},
+{
+"head": "strand",
+"pos": "",
+"raw": "strand,strands,stranded,stranding,,,,",
+"forms": [
+"strand",
+"strands",
+"stranded",
+"stranding"
+]
+},
+{
+"head": "strategic",
+"pos": "",
+"raw": "strategic,,,,,,,",
+"forms": [
+"strategic"
+]
+},
+{
+"head": "strictly",
+"pos": "",
+"raw": "strictly,,,,,,,",
+"forms": [
+"strictly"
+]
+},
+{
+"head": "stripe",
+"pos": "",
+"raw": "stripe,stripes,striped,striping,,,,",
+"forms": [
+"stripe",
+"stripes",
+"striped",
+"striping"
+]
+},
+{
+"head": "sub",
+"pos": "",
+"raw": "sub,subs,subbed,subbing,,,,",
+"forms": [
+"sub",
+"subs",
+"subbed",
+"subbing"
+]
+},
+{
+"head": "subjective",
+"pos": "",
+"raw": "subjective,,,,,,,",
+"forms": [
+"subjective"
+]
+},
+{
+"head": "subset",
+"pos": "",
+"raw": "subset,subsets,,,,,,",
+"forms": [
+"subset",
+"subsets"
+]
+},
+{
+"head": "substitution",
+"pos": "",
+"raw": "substitution,substitutions,,,,,,",
+"forms": [
+"substitution",
+"substitutions"
+]
+},
+{
+"head": "substrate",
+"pos": "",
+"raw": "substrate,substrates,,,,,,",
+"forms": [
+"substrate",
+"substrates"
+]
+},
+{
+"head": "subtle",
+"pos": "",
+"raw": "subtle,subtler,subtlest,,,,,",
+"forms": [
+"subtle",
+"subtler",
+"subtlest"
+]
+},
+{
+"head": "subtract",
+"pos": "",
+"raw": "subtract,subtracts,subtracted,subtracting,,,,",
+"forms": [
+"subtract",
+"subtracts",
+"subtracted",
+"subtracting"
+]
+},
+{
+"head": "sufficiently",
+"pos": "",
+"raw": "sufficiently,,,,,,,",
+"forms": [
+"sufficiently"
+]
+},
+{
+"head": "suicide",
+"pos": "",
+"raw": "suicide,suicides,,,,,,",
+"forms": [
+"suicide",
+"suicides"
+]
+},
+{
+"head": "super",
+"pos": "",
+"raw": "super,supers,,,,,,",
+"forms": [
+"super",
+"supers"
+]
+},
+{
+"head": "superior",
+"pos": "",
+"raw": "superior,superiors,,,,,,",
+"forms": [
+"superior",
+"superiors"
+]
+},
+{
+"head": "supposedly",
+"pos": "",
+"raw": "supposedly,,,,,,,",
+"forms": [
+"supposedly"
+]
+},
+{
+"head": "surgeon",
+"pos": "",
+"raw": "surgeon,surgeons,,,,,,",
+"forms": [
+"surgeon",
+"surgeons"
+]
+},
+{
+"head": "surgical",
+"pos": "",
+"raw": "surgical,surgicals,,,,,,",
+"forms": [
+"surgical",
+"surgicals"
+]
+},
+{
+"head": "surplus",
+"pos": "",
+"raw": "surplus,surpluses,,,,,,",
+"forms": [
+"surplus",
+"surpluses"
+]
+},
+{
+"head": "susceptible",
+"pos": "",
+"raw": "susceptible,susceptibles,,,,,,",
+"forms": [
+"susceptible",
+"susceptibles"
+]
+},
+{
+"head": "sustainable",
+"pos": "",
+"raw": "sustainable,sustainables,,,,,,",
+"forms": [
+"sustainable",
+"sustainables"
+]
+},
+{
+"head": "swap",
+"pos": "",
+"raw": "swap,swaps,swapped,swapping,,,,",
+"forms": [
+"swap",
+"swaps",
+"swapped",
+"swapping"
+]
+},
+{
+"head": "swell",
+"pos": "",
+"raw": "swell,swells,swelled,swelling,swollen,,,",
+"forms": [
+"swell",
+"swells",
+"swelled",
+"swelling",
+"swollen"
+]
+},
+{
+"head": "sword",
+"pos": "",
+"raw": "sword,swords,sworded,swording,,,,",
+"forms": [
+"sword",
+"swords",
+"sworded",
+"swording"
+]
+},
+{
+"head": "syllable",
+"pos": "",
+"raw": "syllable,syllables,syllabled,,,,,",
+"forms": [
+"syllable",
+"syllables",
+"syllabled"
+]
+},
+{
+"head": "syllabus",
+"pos": "",
+"raw": "syllabus,syllabi,syllabuses,,,,,",
+"forms": [
+"syllabus",
+"syllabi",
+"syllabuses"
+]
+},
+{
+"head": "symbolic",
+"pos": "",
+"raw": "symbolic,symbolics,,,,,,",
+"forms": [
+"symbolic",
+"symbolics"
+]
+},
+{
+"head": "syndrome",
+"pos": "",
+"raw": "syndrome,syndromes,,,,,,",
+"forms": [
+"syndrome",
+"syndromes"
+]
+},
+{
+"head": "syntactic",
+"pos": "",
+"raw": "syntactic,syntactics,,,,,,",
+"forms": [
+"syntactic",
+"syntactics"
+]
+},
+{
+"head": "syntax",
+"pos": "",
+"raw": "syntax,,,,,,,",
+"forms": [
+"syntax"
+]
+},
+{
+"head": "synthesis",
+"pos": "",
+"raw": "synthesis,syntheses,,,,,,",
+"forms": [
+"synthesis",
+"syntheses"
+]
+},
+{
+"head": "synthetic",
+"pos": "",
+"raw": "synthetic,synthetics,,,,,,",
+"forms": [
+"synthetic",
+"synthetics"
+]
+},
+{
+"head": "systematic",
+"pos": "",
+"raw": "systematic,systematics,,,,,,",
+"forms": [
+"systematic",
+"systematics"
+]
+},
+{
+"head": "tech",
+"pos": "",
+"raw": "tech,techs,,,,,,",
+"forms": [
+"tech",
+"techs"
+]
+},
+{
+"head": "technically",
+"pos": "",
+"raw": "technically,,,,,,,",
+"forms": [
+"technically"
+]
+},
+{
+"head": "temporal",
+"pos": "",
+"raw": "temporal,temporals,,,,,,",
+"forms": [
+"temporal",
+"temporals"
+]
+},
+{
+"head": "tempt",
+"pos": "",
+"raw": "tempt,tempts,tempted,tempting,,,,",
+"forms": [
+"tempt",
+"tempts",
+"tempted",
+"tempting"
+]
+},
+{
+"head": "tense",
+"pos": "",
+"raw": "tense,tenses,tensed,tensing,,,,",
+"forms": [
+"tense",
+"tenses",
+"tensed",
+"tensing"
+]
+},
+{
+"head": "terminal",
+"pos": "",
+"raw": "terminal,terminals,,,,,,",
+"forms": [
+"terminal",
+"terminals"
+]
+},
+{
+"head": "terminology",
+"pos": "",
+"raw": "terminology,terminologies,,,,,,",
+"forms": [
+"terminology",
+"terminologies"
+]
+},
+{
+"head": "terribly",
+"pos": "",
+"raw": "terribly,,,,,,,",
+"forms": [
+"terribly"
+]
+},
+{
+"head": "textbook",
+"pos": "",
+"raw": "textbook,textbooks,,,,,,",
+"forms": [
+"textbook",
+"textbooks"
+]
+},
+{
+"head": "theorem",
+"pos": "",
+"raw": "theorem,theorems,,,,,,",
+"forms": [
+"theorem",
+"theorems"
+]
+},
+{
+"head": "theorist",
+"pos": "",
+"raw": "theorist,theorists,,,,,,",
+"forms": [
+"theorist",
+"theorists"
+]
+},
+{
+"head": "thereby",
+"pos": "",
+"raw": "thereby,,,,,,,",
+"forms": [
+"thereby"
+]
+},
+{
+"head": "thermal",
+"pos": "",
+"raw": "thermal,thermals,,,,,,",
+"forms": [
+"thermal",
+"thermals"
+]
+},
+{
+"head": "thesis",
+"pos": "",
+"raw": "thesis,theses,,,,,,",
+"forms": [
+"thesis",
+"theses"
+]
+},
+{
+"head": "thickness",
+"pos": "",
+"raw": "thickness,thicknesses,,,,,,",
+"forms": [
+"thickness",
+"thicknesses"
+]
+},
+{
+"head": "thread",
+"pos": "",
+"raw": "thread,threads,threaded,threading,,,,",
+"forms": [
+"thread",
+"threads",
+"threaded",
+"threading"
+]
+},
+{
+"head": "threshold",
+"pos": "",
+"raw": "threshold,thresholds,,,,,,",
+"forms": [
+"threshold",
+"thresholds"
+]
+},
+{
+"head": "thumb",
+"pos": "",
+"raw": "thumb,thumbs,thumbed,thumbing,,,,",
+"forms": [
+"thumb",
+"thumbs",
+"thumbed",
+"thumbing"
+]
+},
+{
+"head": "tolerance",
+"pos": "",
+"raw": "tolerance,tolerances,,,,,,",
+"forms": [
+"tolerance",
+"tolerances"
+]
+},
+{
+"head": "ton",
+"pos": "",
+"raw": "ton,tons,,,,,,",
+"forms": [
+"ton",
+"tons"
+]
+},
+{
+"head": "toxic",
+"pos": "",
+"raw": "toxic,toxics,,,,,,",
+"forms": [
+"toxic",
+"toxics"
+]
+},
+{
+"head": "tract",
+"pos": "",
+"raw": "tract,tracts,,,,,,",
+"forms": [
+"tract",
+"tracts"
+]
+},
+{
+"head": "traditionally",
+"pos": "",
+"raw": "traditionally,,,,,,,",
+"forms": [
+"traditionally"
+]
+},
+{
+"head": "trait",
+"pos": "",
+"raw": "trait,traits,,,,,,",
+"forms": [
+"trait",
+"traits"
+]
+},
+{
+"head": "trajectory",
+"pos": "",
+"raw": "trajectory,trajectories,,,,,,",
+"forms": [
+"trajectory",
+"trajectories"
+]
+},
+{
+"head": "trans",
+"pos": "",
+"raw": "trans,,,,,,,",
+"forms": [
+"trans"
+]
+},
+{
+"head": "transaction",
+"pos": "",
+"raw": "transaction,transactions,,,,,,",
+"forms": [
+"transaction",
+"transactions"
+]
+},
+{
+"head": "transcribe",
+"pos": "",
+"raw": "transcribe,transcribes,transcribed,transcribing,,,,",
+"forms": [
+"transcribe",
+"transcribes",
+"transcribed",
+"transcribing"
+]
+},
+{
+"head": "transcription",
+"pos": "",
+"raw": "transcription,transcriptions,,,,,,",
+"forms": [
+"transcription",
+"transcriptions"
+]
+},
+{
+"head": "transformation",
+"pos": "",
+"raw": "transformation,transformations,,,,,,",
+"forms": [
+"transformation",
+"transformations"
+]
+},
+{
+"head": "translation",
+"pos": "",
+"raw": "translation,translations,,,,,,",
+"forms": [
+"translation",
+"translations"
+]
+},
+{
+"head": "transmission",
+"pos": "",
+"raw": "transmission,transmissions,,,,,,",
+"forms": [
+"transmission",
+"transmissions"
+]
+},
+{
+"head": "transmit",
+"pos": "",
+"raw": "transmit,transmits,transmitted,transmitting,,,,",
+"forms": [
+"transmit",
+"transmits",
+"transmitted",
+"transmitting"
+]
+},
+{
+"head": "transparency",
+"pos": "",
+"raw": "transparency,transparencies,,,,,,",
+"forms": [
+"transparency",
+"transparencies"
+]
+},
+{
+"head": "transplant",
+"pos": "",
+"raw": "transplant,transplants,transplanted,transplanting,,,,",
+"forms": [
+"transplant",
+"transplants",
+"transplanted",
+"transplanting"
+]
+},
+{
+"head": "trauma",
+"pos": "",
+"raw": "trauma,traumas,,,,,,",
+"forms": [
+"trauma",
+"traumas"
+]
+},
+{
+"head": "treaty",
+"pos": "",
+"raw": "treaty,treaties,,,,,,",
+"forms": [
+"treaty",
+"treaties"
+]
+},
+{
+"head": "tremendous",
+"pos": "",
+"raw": "tremendous,,,,,,,",
+"forms": [
+"tremendous"
+]
+},
+{
+"head": "triangle",
+"pos": "",
+"raw": "triangle,triangles,,,,,,",
+"forms": [
+"triangle",
+"triangles"
+]
+},
+{
+"head": "tribe",
+"pos": "",
+"raw": "tribe,tribes,,,,,,",
+"forms": [
+"tribe",
+"tribes"
+]
+},
+{
+"head": "tricky",
+"pos": "",
+"raw": "tricky,trickier,trickiest,,,,,",
+"forms": [
+"tricky",
+"trickier",
+"trickiest"
+]
+},
+{
+"head": "trivial",
+"pos": "",
+"raw": "trivial,trivials,,,,,,",
+"forms": [
+"trivial",
+"trivials"
+]
+},
+{
+"head": "tropical",
+"pos": "",
+"raw": "tropical,tropicals,,,,,,",
+"forms": [
+"tropical",
+"tropicals"
+]
+},
+{
+"head": "tumor",
+"pos": "",
+"raw": "tumor,tumors,tumour,tumours,,,,",
+"forms": [
+"tumor",
+"tumors",
+"tumour",
+"tumours"
+]
+},
+{
+"head": "turbulent",
+"pos": "",
+"raw": "turbulent,,,,,,,",
+"forms": [
+"turbulent"
+]
+},
+{
+"head": "tutor",
+"pos": "",
+"raw": "tutor,tutors,tutored,tutoring,,,,",
+"forms": [
+"tutor",
+"tutors",
+"tutored",
+"tutoring"
+]
+},
+{
+"head": "ultimate",
+"pos": "",
+"raw": "ultimate,ultimates,,,,,,",
+"forms": [
+"ultimate",
+"ultimates"
+]
+},
+{
+"head": "undergraduate",
+"pos": "",
+"raw": "undergraduate,undergraduates,,,,,,",
+"forms": [
+"undergraduate",
+"undergraduates"
+]
+},
+{
+"head": "undermine",
+"pos": "",
+"raw": "undermine,undermines,undermined,undermining,,,,",
+"forms": [
+"undermine",
+"undermines",
+"undermined",
+"undermining"
+]
+},
+{
+"head": "underneath",
+"pos": "",
+"raw": "underneath,,,,,,,",
+"forms": [
+"underneath"
+]
+},
+{
+"head": "unemployed",
+"pos": "",
+"raw": "unemployed,,,,,,,",
+"forms": [
+"unemployed"
+]
+},
+{
+"head": "unify",
+"pos": "",
+"raw": "unify,unifies,unified,unifying,,,,",
+"forms": [
+"unify",
+"unifies",
+"unified",
+"unifying"
+]
+},
+{
+"head": "unintelligible",
+"pos": "",
+"raw": "unintelligible,unintelligibles,,,,,,",
+"forms": [
+"unintelligible",
+"unintelligibles"
+]
+},
+{
+"head": "unity",
+"pos": "",
+"raw": "unity,unities,,,,,,",
+"forms": [
+"unity",
+"unities"
+]
+},
+{
+"head": "unstable",
+"pos": "",
+"raw": "unstable,unstables,,,,,,",
+"forms": [
+"unstable",
+"unstables"
+]
+},
+{
+"head": "uplift",
+"pos": "",
+"raw": "uplift,uplifts,uplifted,uplifting,,,,",
+"forms": [
+"uplift",
+"uplifts",
+"uplifted",
+"uplifting"
+]
+},
+{
+"head": "upward",
+"pos": "",
+"raw": "upward,upwards,,,,,,",
+"forms": [
+"upward",
+"upwards"
+]
+},
+{
+"head": "urine",
+"pos": "",
+"raw": "urine,,,,,,,",
+"forms": [
+"urine"
+]
+},
+{
+"head": "usage",
+"pos": "",
+"raw": "usage,usages,,,,,,",
+"forms": [
+"usage",
+"usages"
+]
+},
+{
+"head": "utility",
+"pos": "",
+"raw": "utility,utilities,,,,,,",
+"forms": [
+"utility",
+"utilities"
+]
+},
+{
+"head": "utilize",
+"pos": "",
+"raw": "utilize,utilizes,utilized,utilizing,utilise,utilises,utilised,utilising",
+"forms": [
+"utilize",
+"utilizes",
+"utilized",
+"utilizing",
+"utilise",
+"utilises",
+"utilised",
+"utilising"
+]
+},
+{
+"head": "utterance",
+"pos": "",
+"raw": "utterance,utterances,,,,,,",
+"forms": [
+"utterance",
+"utterances"
+]
+},
+{
+"head": "vague",
+"pos": "",
+"raw": "vague,,,,,,,",
+"forms": [
+"vague"
+]
+},
+{
+"head": "valid",
+"pos": "",
+"raw": "valid,,,,,,,",
+"forms": [
+"valid"
+]
+},
+{
+"head": "validity",
+"pos": "",
+"raw": "validity,validities,,,,,,",
+"forms": [
+"validity",
+"validities"
+]
+},
+{
+"head": "valve",
+"pos": "",
+"raw": "valve,valves,valved,,,,,",
+"forms": [
+"valve",
+"valves",
+"valved"
+]
+},
+{
+"head": "variability",
+"pos": "",
+"raw": "variability,variabilities,,,,,,",
+"forms": [
+"variability",
+"variabilities"
+]
+},
+{
+"head": "variance",
+"pos": "",
+"raw": "variance,variances,,,,,,",
+"forms": [
+"variance",
+"variances"
+]
+},
+{
+"head": "variant",
+"pos": "",
+"raw": "variant,variants,,,,,,",
+"forms": [
+"variant",
+"variants"
+]
+},
+{
+"head": "vector",
+"pos": "",
+"raw": "vector,vectors,,,,,,",
+"forms": [
+"vector",
+"vectors"
+]
+},
+{
+"head": "vegetation",
+"pos": "",
+"raw": "vegetation,,,,,,,",
+"forms": [
+"vegetation"
+]
+},
+{
+"head": "vein",
+"pos": "",
+"raw": "vein,veins,veined,veining,,,,",
+"forms": [
+"vein",
+"veins",
+"veined",
+"veining"
+]
+},
+{
+"head": "velocity",
+"pos": "",
+"raw": "velocity,velocities,,,,,,",
+"forms": [
+"velocity",
+"velocities"
+]
+},
+{
+"head": "verbal",
+"pos": "",
+"raw": "verbal,verbals,,,,,,",
+"forms": [
+"verbal",
+"verbals"
+]
+},
+{
+"head": "vertical",
+"pos": "",
+"raw": "vertical,verticals,,,,,,",
+"forms": [
+"vertical",
+"verticals"
+]
+},
+{
+"head": "viable",
+"pos": "",
+"raw": "viable,viables,,,,,,",
+"forms": [
+"viable",
+"viables"
+]
+},
+{
+"head": "virtue",
+"pos": "",
+"raw": "virtue,virtues,,,,,,",
+"forms": [
+"virtue",
+"virtues"
+]
+},
+{
+"head": "vitamin",
+"pos": "",
+"raw": "vitamin,vitamins,,,,,,",
+"forms": [
+"vitamin",
+"vitamins"
+]
+},
+{
+"head": "vocabulary",
+"pos": "",
+"raw": "vocabulary,vocabularies,,,,,,",
+"forms": [
+"vocabulary",
+"vocabularies"
+]
+},
+{
+"head": "volition",
+"pos": "",
+"raw": "volition,volitions,,,,,,",
+"forms": [
+"volition",
+"volitions"
+]
+},
+{
+"head": "vowel",
+"pos": "",
+"raw": "vowel,vowels,,,,,,",
+"forms": [
+"vowel",
+"vowels"
+]
+},
+{
+"head": "watershed",
+"pos": "",
+"raw": "watershed,watersheds,,,,,,",
+"forms": [
+"watershed",
+"watersheds"
+]
+},
+{
+"head": "wavelength",
+"pos": "",
+"raw": "wavelength,wavelengths,,,,,,",
+"forms": [
+"wavelength",
+"wavelengths"
+]
+},
+{
+"head": "weave",
+"pos": "",
+"raw": "weave,weaves,wove,weaving,woven,weaved,weavings,",
+"forms": [
+"weave",
+"weaves",
+"wove",
+"weaving",
+"woven",
+"weaved",
+"weavings"
+]
+},
+{
+"head": "wheat",
+"pos": "",
+"raw": "wheat,wheats,,,,,,",
+"forms": [
+"wheat",
+"wheats"
+]
+},
+{
+"head": "whereby",
+"pos": "",
+"raw": "whereby,,,,,,,",
+"forms": [
+"whereby"
+]
+},
+{
+"head": "whichever",
+"pos": "",
+"raw": "whichever,whichevers,,,,,,",
+"forms": [
+"whichever",
+"whichevers"
+]
+},
+{
+"head": "whoever",
+"pos": "",
+"raw": "whoever,whoevers,,,,,,",
+"forms": [
+"whoever",
+"whoevers"
+]
+},
+{
+"head": "widespread",
+"pos": "",
+"raw": "widespread,widespreads,,,,,,",
+"forms": [
+"widespread",
+"widespreads"
+]
+},
+{
+"head": "wisdom",
+"pos": "",
+"raw": "wisdom,wisdoms,,,,,,",
+"forms": [
+"wisdom",
+"wisdoms"
+]
+},
+{
+"head": "workshop",
+"pos": "",
+"raw": "workshop,workshops,,,,,,",
+"forms": [
+"workshop",
+"workshops"
+]
+},
+{
+"head": "yeast",
+"pos": "",
+"raw": "yeast,yeasts,,,,,,",
+"forms": [
+"yeast",
+"yeasts"
+]
+}
+]
+}

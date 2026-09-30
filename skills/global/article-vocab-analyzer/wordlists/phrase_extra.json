@@ -1,0 +1,9 @@
+{
+  "comment": "教学扩展短语种子库(教师自增)。官方 KET/PET 自带短语保留在原词表，本库放教师自定义、官方未收录的固定结构。识别后整体命中最低层词表；由教师手动核注。",
+  "level": "extra",
+  "entries": [
+    { "head": "have got", "pos": "v", "raw": "have got (v)", "note": "英式=have,表拥有" },
+    { "head": "has got", "pos": "v", "raw": "has got (v)", "note": "have got 第三人称变体" },
+    { "head": "had got", "pos": "v", "raw": "had got (v)", "note": "have got 过去变体" }
+  ]
+}

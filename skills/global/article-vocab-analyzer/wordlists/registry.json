@@ -1,0 +1,24 @@
+{
+  "wordlists": [
+    {
+      "key": "KET",
+      "label": "KET(A2基础层)",
+      "file": "KET.json"
+    },
+    {
+      "key": "PET",
+      "label": "PET(B1,含KET)",
+      "file": "PET.json"
+    },
+    {
+      "key": "NGSL",
+      "label": "NGSL(通用高频层)",
+      "file": "NGSL.json"
+    },
+    {
+      "key": "NAWL",
+      "label": "NAWL(学术层)",
+      "file": "NAWL.json"
+    }
+  ]
+}
