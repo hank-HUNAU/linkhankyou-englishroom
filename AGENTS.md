@@ -64,7 +64,7 @@ npm run test:list    # 列出全部套件
 
 `text-vocab-coverage` 在 `project/` 与 `global/` 下已统一为同一版本（项目版的 `PER_surname` 与 `ORG_multi` 增强已合并回全局）。
 
-`sentence-alignment` 仍分歧，且方向与直觉相反：全局版更晚编辑、已声明「词级点读（WORDS / `.wd`）下线，只保证句级对齐」，与应用现状一致（`index.html` 只有句级 `TL` 与 `CHUNKS`）；`project/` 下是更早版本，仍含词级归属钳制。**不要用项目版覆盖全局版。** 详见 `skills/README.md`。
+`sentence-alignment` 也已统一到全局版，方向与直觉相反：全局版更晚编辑、已声明「词级点读（WORDS / `.wd`）下线，只保证句级对齐」，与应用现状一致（`index.html` 只有句级 `TL` 与 `CHUNKS`）；项目级旧副本曾含词级归属钳制，现已用全局版覆盖，并把旧副本独有的「端到端总流程」一节回灌进全局版。**不要用旧版项目副本反向覆盖全局版。** 详见 `skills/README.md`。
 
 ## 改动后的验证
 
