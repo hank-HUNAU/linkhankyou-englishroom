@@ -56,8 +56,8 @@ with sync_playwright() as p:
         prev.goto(BASE+"/学生端.html?unit=7", wait_until="domcontentloaded")
         prev.wait_for_timeout(1200)
         un=prev.evaluate("document.getElementById('unitName').textContent")
-        apps=prev.evaluate("!!document.getElementById('vwGrid').children.length && !!document.getElementById('pgGrid').children.length")
-        log("[5] 单元预览打开的单元:", un, "| 主题词+篇章已渲染:", apps)
+        apps=prev.evaluate("!!document.getElementById('tvCard') && !!document.getElementById('pgGrid').children.length")
+        log("[5] 单元预览打开的单元:", un, "| 主题词汇入口+篇章已渲染:", apps)
 
     # 学情按班筛选（切换到学情页，选冒烟测试班，不报错）
     t.click(".tab[data-p='data']")

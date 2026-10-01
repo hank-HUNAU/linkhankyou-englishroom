@@ -33,8 +33,9 @@ npm run test:list    # 列出全部套件
 | `server.js` | 唯一后端：静态服务、账号认证、KV 存储、聚合接口、定时备份、安全响应头 |
 | `store.js` | 存储垫层，拦截 `localStorage`；登录后水合，写入自动镜像上云 |
 | `ui.css` / `ui.js` | 设计令牌与 SVG sprite 图标系统，三个页面共用 |
-| `index.html` | 点读 / 跟读三阶段 / 词汇测试 |
-| `学生端.html` | 书架 + 沉浸式任务区 |
+| `index.html` | **学生首页**：书架 → 单元页（任务区 + 主题词汇入口卡 + 篇章）；主题词汇跳独立词汇页，篇章跟读同页接入点读 / 跟读 / 听写引擎（深链 `?pg=`） |
+| `词汇诊断/词汇诊断_*.html` | 词汇诊断页（三步：筛选→学习→测试 + 诊断报告），键 `u7_*` / `u12_*` 为篇章词汇，`theme_u7` / `theme_u12` 为**单元主题词汇**；由模板生成，`gitignore` 排除 |
+| `学生端.html` | 已并入 `index.html`，现为兼容旧链接的跳转壳（`学生端.html?unit=N` → `index.html?unit=N`） |
 | `教师端.html` | 班级、学生账号、任务下发、学情汇总、题库分析 |
 | `login.html` | 登录 / 注册入口 |
 | `assets/p*.mp3` | 课文音频，当前版本唯一的运行时音频依赖 |
@@ -45,6 +46,7 @@ npm run test:list    # 列出全部套件
 
 ## 架构要点
 
+- 实时同步：`GET /api/events` 是 SSE 事件流（零依赖，`db` 变更后广播）。教师改 `tf_assignments` → `event: assignment` 推全体在线学生；学生写 `*_records_v2`/`tf_reports`/`tf_follow_*` → `event: progress` 推在线教师/助教（限流 3s）。心跳 20s，值未变化不推送。客户端 `store.js` 在页面不可见时断开 SSE、可见时重连并补拉，另有 30s 轮询兜底。
 - 数据分桶：`kv` 表按 `uid` 隔离，`uid = -1` 是全局数据（教师下发的 `tf_assignments`，所有学生可见），其余为各账号私有学情。
 - 令牌：`tf_token` 默认 7 天有效，剩余不足一半时滑动续期；写接口需 `Authorization: Bearer <token>`。
 - 角色：`teacher` 可写，`assistant` 只读，写操作按钮自动置灰。

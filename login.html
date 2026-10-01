@@ -83,7 +83,7 @@ if(location.protocol==='file:'){
         localStorage.setItem('tf_token', res.token);
         localStorage.setItem('tf_user', JSON.stringify(res.user));
         // 触发本页水合缓存（登录页自身也受益）
-        var target = role==='teacher' ? '/教师端.html' : '/学生端.html';
+        var target = role==='teacher' ? '/教师端.html' : '/index.html';
         location.href = target;
       })
       .catch(function(){ btn.classList.remove('busy'); document.getElementById('err').textContent='无法连接服务器，请先运行 node server.js'; });

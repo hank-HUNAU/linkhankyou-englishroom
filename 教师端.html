@@ -452,6 +452,20 @@ function init(){
   buildPreviewBtn();
   buildClassFilter();
   renderData();
+
+  /* 跨设备自动刷新：学生在他机做完题（SSE 推来 progress）或切回学情页时，自动重拉 /api/reports */
+  if(!window.__dataWatch){
+    window.__dataWatch = 1;
+    var dataActive = function(){
+      var t = document.querySelector('#app .tabs .tab[data-p="data"]');
+      return !!(t && t.classList.contains('on'));
+    };
+    var refreshData = function(){ if(dataActive()) renderData(); };
+    document.addEventListener('visibilitychange', function(){ if(!document.hidden) refreshData(); });
+    window.addEventListener('focus', refreshData);
+    window.addEventListener('assignments-updated', refreshData);
+    window.addEventListener('progress-updated', refreshData);
+  }
 }
 
 function buildTabs(){
@@ -470,7 +484,7 @@ function buildTabs(){
 
 function buildPreviewBtn(){
   var b = document.getElementById('unitPreviewBtn');
-  if(b) b.addEventListener('click', function(){ window.open('学生端.html?unit='+curUnit, '_blank'); });
+  if(b) b.addEventListener('click', function(){ window.open('index.html?unit='+curUnit, '_blank'); });
 }
 
 function buildClassFilter(){

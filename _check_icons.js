@@ -13,7 +13,7 @@ const re = /^\s*([A-Za-z][\w]*):\s*'/gm;
 let m;
 while ((m = re.exec(ui))) defined.add(m[1]);
 
-const pages = ['学生端.html', '教师端.html', 'login.html'];
+const pages = ['index.html', '教师端.html', 'login.html'];
 const used = new Map();
 let bad = 0;
 for (const p of pages) {

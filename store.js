@@ -64,8 +64,11 @@
 
   var _set  = Storage.prototype.setItem;
   var _rm   = Storage.prototype.removeItem;
+  var _get  = Storage.prototype.getItem;
   Storage.prototype.setItem = function(k,v){
+    var prev = null; try{ prev = _get.call(this, k); }catch(e){}
     _set.call(this,k,v);
+    if(prev === String(v)) return;   /* 值没变（最常见的是 hydrate 回填）→ 不必回传服务器 */
     queue.push({ op:'set', key:k, value:v, scope:scopeFor(k) });
     schedule();
   };
@@ -75,6 +78,70 @@
     schedule();
   };
 
-  window.storeMeta = { token:token, user:user, api:api, hydrate:hydrate };
+  /* ── 教师任务的跨设备同步 ──
+     背景：hydrate() 只在加载时跑一次，跨设备改不到；storage 事件不跨设备。
+     主通道：SSE（/api/events），教师一保存任务立即推送，秒级到达；
+     兜底：可见时每 30s 拉一次 /api/assignments，防止 SSE 被代理/网关掐断后失去更新。
+     省资源：页面不可见时主动断开 SSE（避免 HTTP/1.1 每域 6 连接被占用），
+             切回可见时立刻重连并补拉一次。 */
+  var AS_KEY = 'tf_assignments';
+  var AS_POLL_MS = 30000;
+  var asTimer = null, es = null;
+
+  /* 静默落盘：不走被补丁过的 setItem，避免把服务器数据又回传写库 */
+  function applyAssignments(val){
+    val = val || '';
+    if(val === (localStorage.getItem(AS_KEY) || '')) return false;
+    _set.call(localStorage, AS_KEY, val);
+    window.dispatchEvent(new Event('assignments-updated'));
+    return true;
+  }
+
+  function pullAssignments(){
+    if(!token) return Promise.resolve(false);
+    return api('/assignments').then(function(res){
+      return (res && res.ok) ? applyAssignments(res.value) : false;
+    }).catch(function(){ return false; });
+  }
+
+  function openStream(){
+    if(!token || es || typeof EventSource === 'undefined') return;
+    try{ es = new EventSource('/api/events?token=' + encodeURIComponent(token)); }
+    catch(e){ es = null; return; }
+    es.addEventListener('open', function(){ pullAssignments(); });   /* 重连后补齐断线期间的变化 */
+    es.addEventListener('assignment', function(ev){
+      var d = null; try{ d = JSON.parse(ev.data); }catch(e){}
+      if(d) applyAssignments(d.value);
+    });
+    es.addEventListener('progress', function(){
+      window.dispatchEvent(new Event('progress-updated'));
+    });
+    es.addEventListener('error', function(){
+      /* 可重连的失败交给浏览器自动重试；被永久关闭（如令牌失效）才放手，交由 30s 轮询兜底 */
+      if(es && es.readyState === 2){ try{ es.close(); }catch(e){} es = null; }
+    });
+  }
+  function closeStream(){
+    if(!es) return;
+    try{ es.close(); }catch(e){}
+    es = null;
+  }
+
+  function startAssignWatch(){
+    if(!token) return;
+    if(!asTimer) asTimer = setInterval(function(){ if(!document.hidden) pullAssignments(); }, AS_POLL_MS);
+    if(!document.hidden) openStream();
+    document.addEventListener('visibilitychange', function(){
+      if(document.hidden){ closeStream(); }
+      else { pullAssignments(); openStream(); }
+    });
+    window.addEventListener('focus', function(){ pullAssignments(); openStream(); });
+    window.addEventListener('online', function(){ pullAssignments(); openStream(); });
+    window.addEventListener('pagehide', closeStream);
+  }
+
+  window.storeMeta = { token:token, user:user, api:api, hydrate:hydrate,
+                       pullAssignments:pullAssignments, sseState:function(){ return es ? es.readyState : -1; } };
   hydrate();
+  startAssignWatch();
 })();

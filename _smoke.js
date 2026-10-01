@@ -107,11 +107,14 @@ const CORRECT_OPT = { 'climb#unknown':'攀登，攀爬', 'board#unknown':'板，
   const csv = fs.readFileSync(path.join(__dirname, '词汇诊断', '干扰项审校工作表.csv'), 'utf8');
   const rows = csv.trim().split(/\r?\n/);
   ok('审校工作表已生成', rows.length > 100, '数据行=' + (rows.length - 1));
-  const page = fs.readFileSync(path.join(__dirname, '词汇诊断', '词汇诊断_GR.html'), 'utf8');
-  ok('词汇页已接入覆盖表脚本', page.includes('干扰项审校.js'));
-  ok('词汇页用惰性 vqDis() 读取覆盖表', /function vqDis\(\)/.test(page) && /vqDis\(\)\[String/.test(page));
-  ok('词汇页用确定性优选 pickDistractors', /function pickDistractors/.test(page) && /pickDistractors\(w, 'zh'/.test(page));
-  ok('逐题记录含 opts/picked', /test\.curOpts/.test(page) && /test\.curPicked/.test(page));
+  /* 篇章词汇页与单元主题词汇页共用同一套诊断模板，两处都要有覆盖表接线 */
+  for (const pf of ['词汇诊断_u12_p111_greatrace.html', '词汇诊断_theme_u7.html']) {
+    const page = fs.readFileSync(path.join(__dirname, '词汇诊断', pf), 'utf8');
+    ok('词汇页已接入覆盖表脚本 — ' + pf, page.includes('干扰项审校.js'));
+    ok('词汇页用惰性 vqDis() 读取覆盖表 — ' + pf, /function vqDis\(\)/.test(page) && /vqDis\(\)\[String/.test(page));
+    ok('词汇页用确定性优选 pickDistractors — ' + pf, /function pickDistractors/.test(page) && /pickDistractors\(w, 'zh'/.test(page));
+    ok('逐题记录含 opts/picked — ' + pf, /test\.curOpts/.test(page) && /test\.curPicked/.test(page));
+  }
 
   console.log('\n=== 4. 跟读支架数据同步 ===');
   const fkey = 'follow_u7_p67';

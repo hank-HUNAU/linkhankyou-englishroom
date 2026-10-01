@@ -155,10 +155,7 @@ function serveStatic(req, res, urlPath){
 }
 
 /* 鉴权：校验令牌 + 有效期（滑动续期） */
-function authUser(req){
-  const h = req.headers.authorization || '';
-  if(!/^Bearer /.test(h)) return null;
-  const tok = h.slice(7).trim();
+function userByToken(tok){
   if(!tok) return null;
   const u = db.prepare('SELECT * FROM users WHERE token=?').get(tok);
   if(!u) return null;
@@ -174,10 +171,44 @@ function authUser(req){
   }
   return u;
 }
+function authUser(req){
+  const h = req.headers.authorization || '';
+  if(!/^Bearer /.test(h)) return null;
+  return userByToken(h.slice(7).trim());
+}
 const only = role => user => user && (role==='teacher' ? user.role==='teacher' : user.role===role);
 const isTeacher = only('teacher');
 const isStaff = user => user && (user.role==='teacher' || user.role==='assistant');
 const pubUser = u => ({ id:u.id, role:u.role, name:u.name, classId: u.class_id ?? null });
+
+/* ───────────── 事件推送（SSE，零依赖） ─────────────
+   方向一：教师下发/改动任务 → 全体在线学生端秒级更新（event: assignment）
+   方向二：学生产生学情写入   → 在线教师/助教刷新学情（event: progress，限流 3s）
+   心跳 20s 防中间层断连；断线由浏览器自动重连，重连即刻对齐一次任务。 */
+const sseClients = new Set();          /* { res, uid, staff } */
+const SSE_HEARTBEAT_MS = 20000;
+const PROGRESS_MIN_GAP_MS = 3000;
+let lastProgressPush = 0;
+
+function sseSend(c, event, data){
+  try{ c.res.write('event: ' + event + '\ndata: ' + JSON.stringify(data) + '\n\n'); }catch(e){}
+}
+function sseBroadcast(event, data, filter){
+  for(const c of sseClients) if(!filter || filter(c)) sseSend(c, event, data);
+}
+function currentAssignments(){
+  const r = db.prepare('SELECT val FROM kv WHERE uid=-1 AND key=?').get('tf_assignments');
+  return r ? r.val : '';
+}
+function pushAssignments(){
+  sseBroadcast('assignment', { value: currentAssignments() });
+}
+function pushProgress(user){
+  const now = Date.now();
+  if(now - lastProgressPush < PROGRESS_MIN_GAP_MS) return;
+  lastProgressPush = now;
+  sseBroadcast('progress', { uid:user.id, name:user.name }, c => c.staff);
+}
 
 /* ───────────── API 路由 ───────────── */
 const routes = {
@@ -220,6 +251,47 @@ const routes = {
     const kv = {}; rows.forEach(r => kv[r.key] = r.val);
     send(res, 200, { ok:true, rows: kv });
   },
+  /* SSE 事件流。EventSource 无法自定义请求头，故同时允许 ?token= 传令牌 */
+  async ['GET /api/events'](req, res){
+    const m = /[?&]token=([^&]+)/.exec(req.url || '');
+    const u = authUser(req) || (m ? userByToken(decodeURIComponent(m[1])) : null);
+    if(!u) return sendErr(res, 401, '未登录');
+
+    res.writeHead(200, {
+      'Content-Type': 'text/event-stream; charset=utf-8',
+      'Cache-Control': 'no-cache, no-transform',
+      'Connection': 'keep-alive',
+      'X-Accel-Buffering': 'no'
+    });
+    req.socket.setTimeout(0);          /* 长连接不参与空闲超时 */
+    req.socket.setNoDelay(true);
+    if(typeof res.flushHeaders === 'function') res.flushHeaders();
+
+    const client = { res, uid: u.id, staff: isStaff(u) };
+    sseClients.add(client);
+    /* 建连即对齐，补上断线期间漏掉的变更 */
+    sseSend(client, 'assignment', { value: currentAssignments() });
+
+    const hb = setInterval(function(){ try{ res.write(': ping\n\n'); }catch(e){} }, SSE_HEARTBEAT_MS);
+    let done = false;
+    const bye = function(){
+      if(done) return;
+      done = true;
+      clearInterval(hb);
+      sseClients.delete(client);
+      try{ res.end(); }catch(e){}
+    };
+    req.on('close', bye);
+    req.on('error', bye);
+    res.on('close', bye);
+  },
+  /* 轻量轮询专用：只返回教师下发的全局任务，避免每次拉回全部 KV */
+  async ['GET /api/assignments'](req, res){
+    const u = authUser(req);
+    if(!u) return sendErr(res, 401, '未登录');
+    const r = db.prepare('SELECT val FROM kv WHERE uid=-1 AND key=?').get('tf_assignments');
+    send(res, 200, { ok:true, value: r ? r.val : '' });
+  },
   /* 批量写入/删除：body = [{op:'set'|'del', key, value?, scope?}]  scope:'global' 仅限教师 */
   async ['POST /api/kv'](req, res){
     const u = authUser(req);
@@ -228,7 +300,9 @@ const routes = {
     const arr = Array.isArray(batch) ? batch : [batch];
     const ins = db.prepare('INSERT INTO kv(uid,key,val) VALUES(?,?,?) ON CONFLICT(uid,key) DO UPDATE SET val=excluded.val');
     const del = db.prepare('DELETE FROM kv WHERE uid=? AND key=?');
+    const prevAssign = db.prepare('SELECT val FROM kv WHERE uid=-1 AND key=?').get('tf_assignments');
     db.exec('BEGIN');
+    let touchAssign = false, touchProgress = false;
     try{
       arr.forEach(it => {
         let uid = u.id;
@@ -236,11 +310,17 @@ const routes = {
           if(!isStaff(u)) return;
           uid = -1;
         }
-        if(it.op === 'del') del.run(uid, String(it.key));
-        else ins.run(uid, String(it.key), it.value===undefined ? '' : String(it.value));
+        const k = String(it.key);
+        if(uid === -1){ if(k === 'tf_assignments') touchAssign = true; }
+        else if(/_records_v2$/.test(k) || k === 'tf_reports' || /^tf_follow_/.test(k)) touchProgress = true;
+        if(it.op === 'del') del.run(uid, k);
+        else ins.run(uid, k, it.value===undefined ? '' : String(it.value));
       });
       db.exec('COMMIT');
     }catch(e){ db.exec('ROLLBACK'); return sendErr(res, 500, '存储失败'); }
+    /* 推送放在 COMMIT 之后、读库取最新值；值没变就不推，避免客户端回传同值时造成广播噪音 */
+    if(touchAssign && currentAssignments() !== (prevAssign ? prevAssign.val : '')) pushAssignments();
+    if(touchProgress) pushProgress(u);
     send(res, 200, { ok:true, n:arr.length });
   },
   /* 教师聚合：返回全部学生本人 KV（含 tf_reports / *_records_v2 / tf_follow_*） */
