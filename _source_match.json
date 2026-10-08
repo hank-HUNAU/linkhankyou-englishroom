@@ -1,0 +1,254 @@
+{
+ "p066": {
+  "asset": {
+   "dur": 176.15093,
+   "sr": 22050,
+   "ch": 1,
+   "kbps": 32
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第12单元\\第12单元 音频\\Thk2e_BE_L0_SB_Unit_12_p117_t07[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_12_p117_t07[公众号happyshare2023].mp3",
+   "dur": 175.226188,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": -0.925,
+   "better": true
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_10_p100_t10[公众号happyshare2023].mp3"
+  ]
+ },
+ "p067": {
+  "asset": {
+   "dur": 149.111563,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第7单元\\第7单元 音频\\Thk2e_BE_L0_SB_Unit_7_p66_t01[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_7_p66_t01[公众号happyshare2023].mp3",
+   "dur": 149.111563,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_6_p56_t01[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_SB_Unit_8_p81_t07[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_WB_Unit_9_p88_t02[公众号happyshare2023].mp3"
+  ]
+ },
+ "p069": {
+  "asset": {
+   "dur": 102.59,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第7单元\\第7单元 音频\\Thk2e_BE_L0_SB_Unit_7_p69_t06[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_7_p69_t06[公众号happyshare2023].mp3",
+   "dur": 102.59,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_WB_Unit_10_p99_t07[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_WB_Unit_6_p63_t05[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_WB_Unit_10_p97_t05[公众号happyshare2023].mp3"
+  ]
+ },
+ "p070": {
+  "asset": {
+   "dur": 151.978438,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第7单元\\第7单元 音频\\Thk2e_BE_L0_SB_Unit_7_p70_t07[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_7_p70_t07[公众号happyshare2023].mp3",
+   "dur": 151.978438,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_10_p96_t05[公众号happyshare2023].mp3",
+   "第8单元 阅读1 Music in the Forest 课文音频.mp3",
+   "Thk2e_BE_L0_SB_Unit_8_p82_t08[公众号happyshare2023].mp3"
+  ]
+ },
+ "p072": {
+  "asset": {
+   "dur": 95.214313,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第7单元\\第7单元 音频\\Thk2e_BE_L0_SB_Unit_7_p72_t11[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_7_p72_t11[公众号happyshare2023].mp3",
+   "dur": 95.214313,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_WB_Unit_3_p34_t03[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_SB_Unit_2_p28_t08[公众号happyshare2023].mp3",
+   "903.mp3"
+  ]
+ },
+ "p073": {
+  "asset": {
+   "dur": 163.816009,
+   "sr": 22050,
+   "ch": 1,
+   "kbps": 32
+  },
+  "match": null
+ },
+ "p110": {
+  "asset": {
+   "dur": 142.378685,
+   "sr": 22050,
+   "ch": 2,
+   "kbps": 64
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第1单元\\第1单元 音频\\Thk2e_BE_L0_SB_Unit_1_p12_t01[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_1_p12_t01[公众号happyshare2023].mp3",
+   "dur": 141.136438,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": -1.242,
+   "better": true
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_6_p63_t10[公众号happyshare2023].mp3"
+  ]
+ },
+ "p111": {
+  "asset": {
+   "dur": 146.192563,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第12单元\\第12单元 音频\\Thk2e_BE_L0_SB_Unit_12_p110_t01[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_12_p110_t01[公众号happyshare2023].mp3",
+   "dur": 146.192563,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "00 纪录片音频.mp3",
+   "Thk2e_BE_L0_SB_Unit_2_p24_t06[公众号happyshare2023].mp3",
+   "4-p42-reading-ex1.mp3"
+  ]
+ },
+ "p113": {
+  "asset": {
+   "dur": 119.452438,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第12单元\\第12单元 音频\\Thk2e_BE_L0_SB_Unit_12_p113_t05[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_12_p113_t05[公众号happyshare2023].mp3",
+   "dur": 119.452438,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_9_p90_t09[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_WB_Unit_12_p116_t03[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_WB_Unit_W_p009_t09[公众号happyshare2023].mp3"
+  ]
+ },
+ "p114": {
+  "asset": {
+   "dur": 173.949125,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第12单元\\第12单元 音频\\Thk2e_BE_L0_SB_Unit_12_p114_t06[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_12_p114_t06[公众号happyshare2023].mp3",
+   "dur": 173.949125,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_10_p100_t10[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_SB_Unit_12_p117_t07[公众号happyshare2023].mp3"
+  ]
+ },
+ "p117": {
+  "asset": {
+   "dur": 175.226188,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第12单元\\第12单元 音频\\Thk2e_BE_L0_SB_Unit_12_p117_t07[公众号happyshare2023].mp3",
+   "name": "Thk2e_BE_L0_SB_Unit_12_p117_t07[公众号happyshare2023].mp3",
+   "dur": 175.226188,
+   "sr": 44100,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 0.0,
+   "better": false
+  },
+  "alts": [
+   "Thk2e_BE_L0_SB_Unit_10_p100_t10[公众号happyshare2023].mp3",
+   "Thk2e_BE_L0_SB_Unit_12_p114_t06[公众号happyshare2023].mp3"
+  ]
+ },
+ "p202": {
+  "asset": {
+   "dur": 194.43229,
+   "sr": 22050,
+   "ch": 1,
+   "kbps": 32
+  },
+  "match": {
+   "path": "E:\\04 少儿原版课程\\03 Think 0 课程制作\\003 第三版课程材料\\第8单元\\001 第8单元 纪录片\\Unit_08.2_Grammar_Rap.mp3",
+   "name": "Unit_08.2_Grammar_Rap.mp3",
+   "dur": 196.053333,
+   "sr": 48000,
+   "ch": 2,
+   "kbps": 128,
+   "delta": 1.621,
+   "better": true
+  },
+  "alts": []
+ }
+}

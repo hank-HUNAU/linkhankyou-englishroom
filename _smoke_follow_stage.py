@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""跟读支架化验证：跟意群 → 跟句 → 影子跟读（index.html 三步状态机）"""
+"""跟读支架化验证：跟句 → 影子跟读（index.html 两步状态机）
+
+学生端已砍掉登录：直接打开 index.html 即可，身份由本地姓名闸口决定。"""
 import io, sys, json
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 from playwright.sync_api import sync_playwright
@@ -18,31 +20,28 @@ with sync_playwright() as p:
     errs = []
     pg.on("pageerror", lambda e: errs.append(str(e)))
 
-    # 先登录（真实会话），再进点读页
-    pg.goto(BASE + "/login.html", wait_until="domcontentloaded"); pg.wait_for_timeout(500)
-    pg.fill("#name", "张小美"); pg.fill("#pass", "1234"); pg.click("#loginBtn")
-    pg.wait_for_timeout(2000)
-    print("[0] 登录后 URL:", pg.url,
-          "| 提示:", pg.evaluate("()=>(document.getElementById('err')||{}).textContent||''"),
-          "| 已拿令牌:", pg.evaluate("()=>!!localStorage.getItem('tf_token')"))
+    # 无登录直开；预先写入本地姓名，避免姓名闸口遮挡交互
+    ctx.add_init_script("try{localStorage.setItem('tf_current_student','冒烟同学');}catch(e){}")
     pg.goto(BASE + "/index.html?pg=66", wait_until="domcontentloaded"); pg.wait_for_timeout(1400)
+    print("[0] 直开学生端 URL:", pg.url,
+          "| 未跳登录页:", "login.html" not in pg.url)
 
-    print("[1] 三阶段入口")
+    print("[1] 两阶段入口")
     n = pg.eval_on_selector_all("#fpass .fpc", "es=>es.length")
-    chk("步骤芯片共 3 个", n == 3, "实际 %d" % n)
+    chk("步骤芯片共 2 个", n == 2, "实际 %d" % n)
     titles = pg.eval_on_selector_all("#fpass .fpc", "es=>es.map(e=>e.getAttribute('title')||'')")
-    chk("芯片语义 = 跟意群 / 跟句 / 影子跟读",
-        "跟意群" in titles[0] and "跟句" in titles[1] and "影子跟读" in titles[2],
+    chk("芯片语义 = 跟句 / 影子跟读",
+        "跟句" in titles[0] and "影子跟读" in titles[1],
         " | ".join(t[:18] for t in titles))
 
-    print("[2] 意群切分数据")
-    ch = pg.evaluate("()=>{var c=(DB.CHUNKS||{})['66']; return c? c.map(x=>x.length): null;}")
-    chk("pg66 存在 CHUNKS", bool(ch), "句数=%s" % (len(ch) if ch else 0))
-    fc = pg.evaluate("()=>{var a=folChunks(0); return a? a.map(x=>[+x[0].toFixed(2),+x[1].toFixed(2)]): null;}")
-    chk("第 1 句可切出意群块", bool(fc) and len(fc) >= 1, "第1句意群=%s" % json.dumps(fc))
+    print("[2] 句级时间轴（意群已下线）")
+    tl = pg.evaluate("()=>{var a=TL[state.pg]; return {n:a.length, first:[+a[0][0].toFixed(3),+a[0][1].toFixed(3)]};}")
+    chk("pg66 有句级时间轴", tl["n"] > 0, "句数=%s" % tl["n"])
+    chk("第 1 句区间有效", tl["first"][0] < tl["first"][1], str(tl["first"]))
+    chk("CHUNKS 已移除", pg.evaluate("()=>typeof DB.CHUNKS==='undefined' && typeof CHUNKS==='undefined'"))
 
     print("[3] 手动切步 + UI 同步")
-    for s, lbl, cnt in [(1, "意群", None), (2, "句", None), (3, "全篇", "全文")]:
+    for s, lbl, cnt in [(1, "句", None), (2, "全篇", "全文")]:
         pg.click('#fpass .fpc[data-s="%d"]' % s); pg.wait_for_timeout(250)
         st = pg.evaluate("""()=>({
           f: FOL.fstep,
@@ -55,9 +54,8 @@ with sync_playwright() as p:
 
     print("[4] 自动进阶")
     pg.evaluate("()=>beginFollowStep2()"); pg.wait_for_timeout(200)
-    chk("beginFollowStep2 → 第 2 步", pg.evaluate("()=>FOL.fstep") == 2)
-    pg.evaluate("()=>beginFollowStep3()"); pg.wait_for_timeout(200)
-    chk("beginFollowStep3 → 第 3 步", pg.evaluate("()=>FOL.fstep") == 3)
+    chk("beginFollowStep2 → 第 2 步（影子）", pg.evaluate("()=>FOL.fstep") == 2)
+    chk("第 2 步为全文影子", pg.evaluate("()=>{var t=TL[state.pg];return FOL.start<=t[0][0]+1e-6;}"))
 
     print("[5] 暂停间隙引导开口")
     pg.evaluate("()=>showGap(2,'该你开口 · 测试',function(){})"); pg.wait_for_timeout(250)
@@ -67,7 +65,7 @@ with sync_playwright() as p:
     pg.evaluate("()=>cancelGap()"); pg.wait_for_timeout(200)
     chk("间隙提示层可关闭", not pg.evaluate("()=>!!(document.getElementById('fsGap')||{}).classList.contains('on')"))
 
-    print("[6] 三步完成 → 进入听写")
+    print("[6] 两步完成 → 进入听写")
     pg.evaluate("()=>followWholeEnd()"); pg.wait_for_timeout(400)
     fin = pg.evaluate("()=>({follow: !!(typeof PROG!=='undefined' && PROG.follow), stage: (typeof state!=='undefined'&&state.stage)||null})")
     chk("标记跟读完成", fin["follow"], json.dumps(fin, ensure_ascii=False))

@@ -37,7 +37,9 @@ index.backup.html
 index.before-home-redesign.html
 
 # 当前版本未引用的旧资源（保留在本地，不入库）
-assets/timeline.json
+# assets/timeline.json 曾因版权被排除，但它现在是句级时间轴的唯一权威源，
+# _timeline_check.js 依赖它，故改为入库（正文文字本来也已内联在 index.html 里）。
+# assets/sents、assets/sents_v2 仍排除。
 assets/vocab_youdao.json
 
 # ─────────────────────────────────────────────
@@ -51,3 +53,13 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# 句级对齐试点用的独立环境（torch/torchaudio/faster-whisper）
+.venv-align/
+
+# ─────────────────────────────────────────────
+# 桥接对齐的中间产物（体积大、可重算，不入库）
+# ─────────────────────────────────────────────
+_whisper_*.json
+_ab_p*.html
+assets/timeline.json.bak-*

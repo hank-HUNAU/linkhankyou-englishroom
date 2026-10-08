@@ -7,15 +7,11 @@ with sync_playwright() as p:
     b=p.chromium.launch()
     ctx=b.new_context(); pg=ctx.new_page(); errs=[]
     pg.on("pageerror", lambda e: errs.append(str(e)))
-    # 学生登录
-    pg.goto(BASE+"/login.html", wait_until="domcontentloaded")
-    pg.wait_for_timeout(300)
-    pg.fill("#name","张小美"); pg.fill("#pass","1234"); pg.click("#loginBtn")
-    pg.wait_for_function("location.pathname.indexOf('学生端')>=0 || !!document.getElementById('shelf')", timeout=8000)
-    pg.wait_for_timeout(800)
-    # 深链打开单元7
-    pg.goto(BASE+"/学生端.html?unit=7", wait_until="domcontentloaded")
-    pg.wait_for_timeout(1200)
+    # 学生端已砍掉登录：预置本地姓名后直开单元 7（任务由匿名只读接口拉取）
+    pg.add_init_script("try{localStorage.setItem('tf_current_student','张小美');}catch(e){}")
+    pg.goto(BASE+"/index.html?unit=7", wait_until="domcontentloaded")
+    pg.wait_for_function("!!document.querySelector('#taskzone .tz-row')", timeout=10000)
+    pg.wait_for_timeout(600)
     probe=pg.evaluate("""(function(){
       var z=document.getElementById('taskzone');
       return JSON.stringify({

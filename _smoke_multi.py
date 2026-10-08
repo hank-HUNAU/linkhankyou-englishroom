@@ -38,23 +38,24 @@ with sync_playwright() as p:
     saved = t.evaluate("fetch('/api/kv',{headers:{Authorization:'Bearer '+localStorage.getItem('tf_token')}}).then(r=>r.json()).then(o=>JSON.stringify(o.rows['tf_assignments']))")
     log("[2] 服务器端 tf_assignments(全局) 是否已含 p67+主题:", saved and "u7_p67_sportwonders" in saved)
 
-    # 学生登录（另一台设备）
+    # 学生端（另一台设备）：已砍掉登录，预置本地姓名后直开
     s = ctxStudent.new_page()
-    do_login(s, "student", "张小美", "1234")
-    s.wait_for_timeout(900)
-    log("[3] 学生端已登录:", s.evaluate("JSON.parse(localStorage.getItem('tf_user')).name"))
+    s.add_init_script("try{localStorage.setItem('tf_current_student','张小美');}catch(e){}")
+    s.goto(BASE + "/index.html", wait_until="domcontentloaded")
+    s.wait_for_function("!!localStorage.getItem('tf_assignments')", timeout=10000)
+    s.wait_for_timeout(600)
+    log("[3] 学生端本地姓名:", s.evaluate("localStorage.getItem('tf_current_student')"))
 
-    # 学生端书架是否已水合到全局任务
+    # 学生端是否已匿名拉取到全局任务
     s.wait_for_timeout(300)
     dbg = s.evaluate("""(async function(){
-      var tok = localStorage.getItem('tf_token');
-      var kv = await fetch('/api/kv',{headers:{Authorization:'Bearer '+tok}}).then(r=>r.json());
+      var kv = await fetch('/api/assignments').then(r=>r.json());
       return JSON.stringify({
         local_tf: !!localStorage.getItem('tf_assignments'),
-        server_has_assign: !!(kv.rows && kv.rows['tf_assignments'])
+        server_has_assign: !!(kv && kv.value)
       });
     })();""")
-    log("[3.5] 学生端水合检查:", dbg)
+    log("[3.5] 学生端拉取检查:", dbg)
     s.evaluate("""(function(){var c=document.querySelectorAll('#shelf .book');for(var i=0;i<c.length;i++){if(c[i].dataset.k==='7'){c[i].click();return;}}})();""")
     s.wait_for_timeout(600)
     dbg2 = s.evaluate("""(function(){

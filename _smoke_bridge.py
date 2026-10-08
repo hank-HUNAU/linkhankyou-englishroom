@@ -38,28 +38,36 @@ with sync_playwright() as p:
     log("[教师] 写回全局:", written, "| JS错误:", terr)
     t.close()
 
-    # ── 学生端：张小美 打开单元7，完成预习全部 → 验证衔接条 ──
+    # ── 学生端：已砍掉登录，预置本地姓名 → 打开单元7 → 完成预习全部 → 验证衔接条 ──
     s=b.new_context(); sp=s.new_page(); serr=[]
     sp.on("pageerror", lambda e: serr.append(str(e)))
-    sp.goto(BASE+"/login.html", wait_until="domcontentloaded"); sp.wait_for_timeout(300)
-    sp.fill("#name","张小美"); sp.fill("#pass","1234"); sp.click("#loginBtn")
-    sp.wait_for_function("location.pathname.indexOf('学生端')>=0 || !!document.getElementById('shelf')", timeout=8000)
-    sp.wait_for_timeout(900)
-    sp.goto(BASE+"/学生端.html?unit=7", wait_until="domcontentloaded"); sp.wait_for_timeout(1300)
+    sp.add_init_script("try{localStorage.setItem('tf_current_student','张小美');}catch(e){}")
+    sp.goto(BASE+"/index.html?unit=7", wait_until="domcontentloaded")
+    sp.wait_for_function("!!document.querySelector('#taskzone .tz-row')", timeout=10000)
+    sp.wait_for_timeout(600)
     # 打印当前任务结构
     pre0=sp.evaluate("""(function(){
       var A=JSON.parse(localStorage.getItem('tf_assignments')||'{}');
       var u=A['7']||{};
       return JSON.stringify({preview:(u.preview||{}).items, review:(u.review||{}).items});
     })();""")
-    log("[学生] 水合后任务: ", pre0)
-    # 完成预习：点主题词汇的√（若未完成）
-    sp.evaluate("""(function(){
-      var m=document.querySelector('#taskzone .tre .tz-mark');
-      var txt=m.closest('.tz-row').querySelector('.i-cta').textContent;
-      if(m && txt.trim()!=='已完成'){ m.click(); }
-    })();""")
-    sp.wait_for_timeout(600)
+    log("[学生] 拉取后任务: ", pre0)
+    # 完成预习：把预习组的每一项都勾上（学生端已无云端水合，浏览器从空白进度开始）
+    for _ in range(6):
+        hit = sp.evaluate("""(function(){
+          var rows=document.querySelectorAll('#taskzone .tre .tz-row');
+          for(var i=0;i<rows.length;i++){
+            var r=rows[i], m=r.querySelector('.tz-mark');
+            if(!m) continue;
+            var cta=r.querySelector('.i-cta');
+            if(cta && cta.textContent.trim()==='已完成') continue;
+            m.click(); return 'clicked';
+          }
+          return 'none';
+        })();""")
+        sp.wait_for_timeout(450)
+        if hit == 'none':
+            break
     st=sp.evaluate("""(function(){
       var z=document.getElementById('taskzone');
       var g=document.getElementById('tzGuide');

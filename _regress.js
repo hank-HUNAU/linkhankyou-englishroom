@@ -54,6 +54,14 @@ const SUITE = [
     mustMatch: [/结果：✓ 全部图标引用有效/]
   },
   {
+    name: '时间轴单一数据源（index.html ↔ assets/timeline.json）',
+    kind: 'core',
+    run: 'node',
+    args: ['_timeline_check.js'],
+    mustMatch: [/^OK {3}时间轴单一数据源一致/],
+    forbid: [/^FAIL/m]
+  },
+  {
     name: 'API 层冒烟（账号/存储/聚合）',
     kind: 'core',
     run: 'node',
@@ -61,7 +69,7 @@ const SUITE = [
     mustMatch: [/结果：通过 \d+ 项，失败 0 项/]
   },
   {
-    name: '跟读支架化（跟意群→跟句→影子）',
+    name: '跟读支架化（跟句→影子，意群已下线）',
     kind: 'core',
     run: 'python',
     args: ['_smoke_follow_stage.py'],
@@ -104,13 +112,14 @@ const SUITE = [
     forbid: [/JS错误: \[[^\]]/]
   },
   {
-    name: '跨设备同步（教师机↔学生机）',
+    name: '跨设备同步（教师下发 → 学生端只读拉取）',
     kind: 'diag',
     run: 'python',
     args: ['_smoke_multi.py'],
     mustMatch: [
       /\[2\] 服务器端 tf_assignments\(全局\) 是否已含 p67\+主题: [Tt]rue/,
-      /\[3\] 学生端已登录: 张小美/,
+      /\[3\] 学生端本地姓名: 张小美/,
+      /\[3\.5\] 学生端拉取检查: .*"server_has_assign":true/,
       /\[4\] 学生端看到教师下发的任务\+截止: [Tt]rue/
     ]
   }

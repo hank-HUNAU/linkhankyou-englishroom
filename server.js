@@ -285,10 +285,10 @@ const routes = {
     req.on('error', bye);
     res.on('close', bye);
   },
-  /* 轻量轮询专用：只返回教师下发的全局任务，避免每次拉回全部 KV */
+  /* 轻量轮询专用：只返回教师下发的全局任务，避免每次拉回全部 KV。
+     学生端已砍掉登录，而"全班任务"本就是 uid=-1 的公共数据、每名学生都看得到，
+     因此这里放行匿名只读；其余接口仍然需要令牌。 */
   async ['GET /api/assignments'](req, res){
-    const u = authUser(req);
-    if(!u) return sendErr(res, 401, '未登录');
     const r = db.prepare('SELECT val FROM kv WHERE uid=-1 AND key=?').get('tf_assignments');
     send(res, 200, { ok:true, value: r ? r.val : '' });
   },

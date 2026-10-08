@@ -31,7 +31,7 @@ npm run test:list    # 列出全部套件
 | 路径 | 作用 |
 |---|---|
 | `server.js` | 唯一后端：静态服务、账号认证、KV 存储、聚合接口、定时备份、安全响应头 |
-| `store.js` | 存储垫层，拦截 `localStorage`；登录后水合，写入自动镜像上云 |
+| `store.js` | 存储垫层，拦截 `localStorage`；登录后水合，写入自动镜像上云。**学生端已不加载它**（见下），仅教师端与词汇诊断页引用 |
 | `ui.css` / `ui.js` | 设计令牌与 SVG sprite 图标系统，三个页面共用 |
 | `index.html` | **学生首页**：书架 → 单元页（任务区 + 主题词汇入口卡 + 篇章）；主题词汇跳独立词汇页，篇章跟读同页接入点读 / 跟读 / 听写引擎（深链 `?pg=`） |
 | `词汇诊断/词汇诊断_*.html` | 词汇诊断页（三步：筛选→学习→测试 + 诊断报告），键 `u7_*` / `u12_*` 为篇章词汇，`theme_u7` / `theme_u12` 为**单元主题词汇**；由模板生成，`gitignore` 排除 |
@@ -64,6 +64,14 @@ npm run test:list    # 列出全部套件
 
 产出对应关系：`article-vocab-analyzer` 分析课文产出词汇报告与 `词汇诊断/`；`sentence-alignment` 对齐音频产出 `assets/timeline.json`；`teacher-vocab-prep` / `student-vocab-cards` / `british-phonetics` 是三个软分支，由 `article-vocab-analyzer/scripts/vocab_pipeline.py` 串联编排。
 
+### 时间轴是单一数据源（重要）
+
+`assets/timeline.json` 是 12 篇的**唯一权威时间轴**（312 句），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
+
+历史教训：这份数据曾经有"两代"——`var DB` 字面量里的旧值，加第 772/773 行一整行 12 KB 的运行时覆盖块。实际生效的是覆盖块，所以改字面量完全不生效；更糟的是它和 `assets/timeline.json`（那份"3 遍人工核查 + ASR 复验通过"的产物）逐条都不一致，真实播放值最大偏差 1.02s，导致被核查过的 p067/p070 反而是切音最严重的两篇。已合并为一份。
+
+句级边界体检与重切工具：`py _align_audio.py check|refine|dump|cmp <timeline.json>`（能量法：边界 ±60ms 内峰值能量 / 全篇峰值，<0.25 正常、0.25~0.50 可疑、≥0.50 切音）。重切清单见 `_align_report.md`：300 条句间边界里，切音/可疑/正常 由 36/43/221 改善为 16/24/260，改动 130 句，仍有 40 条边界需人工试听（多为句间无可用停顿，如 p113 听力全程连读）。
+
 `text-vocab-coverage` **已退役**，四处副本（`project/`、`global/`、工作区 `.trae/skills/`、用户 `.trae-cn/skills/`）已全部删除，能力由 `article-vocab-analyzer` 承接：`entity_classify.py` 与 `entity_lexicon.json` 已迁入其 `scripts/`（含项目版的 `PER_surname` / `ORG_multi` 增强）；词汇分析改用其 `assess_vocab.py`（超集，新增 `AGENT_ER_NOUNS`、弯引号归一、纯引号 token 过滤），`lemma_candidates` 对 -er 名词的候选集与旧版不同（如 `owner` 不再归并到 `own`），依赖该函数的词汇分级可能微调。删除前四处副本字节一致，内容仍可从 git 历史取回。
 
 工作区根目录（`xueersi-diancan-原型` 的上一级）的 `tools-whisper/` 是内容生产脚本目录，其中两个脚本原引用该技能，解析路径已改为 `article-vocab-analyzer`（工作区 `.trae/skills/` 优先、回落全局 `.trae-cn/skills/`）：`ketpet/build_entities.py`、`ketpet/verify_entities.py`。改后已复跑验证：`verify_entities.py` 准确率 100%，`build_entities.py` 产物与现网 `entity_tables_lesson.json` / `entity_tables_stage.json` 字节一致。
@@ -71,6 +79,18 @@ npm run test:list    # 列出全部套件
 原第三个引用方 `tools-whisper/build_page.py` 是**遗留脚本，已删除**：它仍输出已下线的词级 `WORDS`，产物约 80 KB，远落后于现网 `index.html`（约 176 KB，只有句级 `TL` / `CHUNKS`），重跑会把页面回退。其模板 `index.html.template`（约 55 KB，仓库外未跟踪）已一并删除。
 
 `sentence-alignment` 也已统一到全局版，方向与直觉相反：全局版更晚编辑、已声明「词级点读（WORDS / `.wd`）下线，只保证句级对齐」，与应用现状一致（`index.html` 只有句级 `TL` 与 `CHUNKS`）；项目级旧副本曾含词级归属钳制，现已用全局版覆盖，并把旧副本独有的「端到端总流程」一节回灌进全局版。**不要用旧版项目副本反向覆盖全局版。** 详见 `skills/README.md`。
+
+### 学生端已砍掉登录（无会话模式）
+
+`index.html` 不再加载 `store.js`：学生直接打开即可用，进度只落本机 `localStorage`，身份由本地姓名闸口（`tf_current_student`）决定。`getStudent()` 特意不再回退读 `tf_user`——否则共用一台平板时，上一位同学的登录名会把新同学的学情算到自己头上（该串号问题已实测复现过）。
+
+代价与补偿：
+
+- 学情不再自动上云，教师端「学情汇总」收不到学生端产生的记录。
+- 任务区仍在：`server.js` 的 `GET /api/assignments` 允许匿名只读（下发任务是 `uid=-1` 的全局数据，每名学生本来就看得见），`index.html` 启动时拉取并每 30s 兜底轮询。教师端其余接口照旧要令牌，写操作仍限教师。
+- 纯静态托管（不跑 `server.js`）时该请求失败会静默降级，任务区显示「本单元暂无任务」。
+- 跟读已由三步（意群 → 跟句 → 影子）收敛为两步（跟句 → 影子），`CHUNKS` 数据与 `folChunks` / `folChunkSlice` / `followPlayChunk` / `followChunkEnd` 全部下线。
+- 回归套件同步更新：`_smoke_follow_stage.py` 改为两步且不再登录；`_smoke_immerse.py` / `_smoke_bridge.py` / `_smoke_multi.py` 的学生端改为"预置本地姓名 + 匿名拉任务"。
 
 ## 改动后的验证
 
