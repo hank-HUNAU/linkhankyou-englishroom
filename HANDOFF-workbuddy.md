@@ -60,18 +60,40 @@ npm test                     # 全量回归，11 个套件
 | #17 | end | 139.000 | 139.420 | 核查报告：句尾 `very well` 残缺 |
 | #18 | start | 139.000 | 139.488 | 连带——不改会与 #17 倒序 |
 
-### 1.7 p067 #2/#3 边界修正（人耳定案后写入）
+### 1.7 句级边界修正（人耳 A/B 定案后逐批写入）
 
-`assets/timeline.json` 的 p067：
+改的都是 `assets/timeline.json`，每批改完走 `node _sync_timeline.js` → `node _timeline_check.js`
+→ `npm run test:core`，**每批都是 7/7 全绿**。首次改动前备份 `assets/timeline.json.bak-20261009`
+（已 ignore，别删）。
+
+**第一批 · p067**（首次跑通整条方法链）
 
 | 句 | 字段 | 改前 | 改后 |
 |---|---|---|---|
 | #2 | end | 28.500 | 28.680（`this` 收尾完整） |
 | #3 | start | 28.560 | 29.500（`but` 起头） |
 
-`dur_s` 同步重算（#2 3.030→3.210、#3 8.361→7.421），#3 的 end 保持 36.921 未动。
-改前备份 `assets/timeline.json.bak-20261009`。
-流程：`node _sync_timeline.js` → `node _timeline_check.js` → `npm run test:core`，**7/7 全绿**。
+**第二批 · p069 + p072**
+
+| 篇 | 句 | start 改前 → 改后 | 课文开头 |
+|---|---|---|---|
+| p069 | #1 | 10.696 → 11.480 | Hi, Mike. How's it going? |
+| p069 | #5 | 26.410 → 26.240 | Two o'clock? No, sorry… |
+| p069 | #10 | 52.690 → 53.240 | Until what time? |
+| p072 | #2 | 24.265 → 24.840 | Just a minute! Oh, no! |
+| p072 | #9 | 61.540 → 62.360 | Yes. But I'm a bit sad now. |
+| p072 | #12 | 78.970 → 79.500 | Good idea. I like watching… |
+| p072 | #13 | 83.954 → 84.360 | And we can eat our food. |
+
+连带一处：p069 #5 改后与前句 #4 的 end（26.400）重叠 0.16s，故把 **#4 end 26.400 → 26.240**。
+其余 6 处前句 end 都 ≤ 新 start，无重叠。`dur_s` 全部按 `end - start` 重算。
+
+**一个排查结论**：这一批曾怀疑「p072 音频有问题，要不要用本地原音频重新处理」。
+MD5 逐字节比对后查明——**`assets/p072.mp3` 与原始素材 `Unit_7_p72_t11.mp3` 完全相同**
+（同为 `cef9d210…c680ba`、1525759 字节），p069 同此。**两篇本来就是 128kbps / 44.1kHz /
+立体声的最高质量副本，换文件不会有任何变化**，问题一直在时间轴的数值上。
+
+> 教训：怀疑音频有问题时，先拿 MD5 比对来路不明的副本与原始轨，别急着重编码或替换。
 
 ### 1.6 回归套件同步更新
 
