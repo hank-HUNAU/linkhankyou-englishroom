@@ -62,4 +62,5 @@ desktop.ini
 # ─────────────────────────────────────────────
 _whisper_*.json
 _ab_p*.html
+_ab_cand_*.html
 assets/timeline.json.bak-*
