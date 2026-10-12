@@ -1,0 +1,123 @@
+# U8 四篇句级时间轴产出摘要
+
+## p075  #Musicintheforest · 阅读A · 微博客
+- 句数 32，首句 15.680s，末句 149.200s
+
+   0    15.680 -   17.560  I'm leaving home.
+   1    18.370 -   20.360  We're on our way to the station.
+   2    20.990 -   22.440  I'm so excited!
+   3    26.820 -   32.360  We're standing on the platform waiting for the train to Delamere Forest.
+   4    36.700 -   37.940  We're here!
+   5    38.880 -   48.715  What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest.
+   6    53.160 -   55.391  I'm eating a hot dog.
+   7    55.880 -   59.880  It's very expensive, but it's not very good!
+   8    64.700 -   67.082  It's getting dark now.
+   9    67.380 -   69.960  The stage is completely black.
+  10    70.700 -   75.140  A few people are talking, but most people are quiet.
+  11    75.980 -   77.580  We're waiting for Jess.
+  12    78.400 -   80.020  And here she comes!
+  13    80.700 -   82.120  Everyone is cheering!
+  14    82.820 -   84.040  What a noise!
+  15    89.000 -   91.500  Jess isn't on stage.
+  16    92.440 -   94.180  Is the show over?
+  17    94.980 -   96.360  No way!
+  18    96.840 -   99.340  We're all shouting 'more'.
+  19   100.080 -  101.560  Why are we shouting?
+  20   102.240 -  104.600  Because we want MORE!
+  21   105.280 -  106.568  But don't worry.
+  22   106.920 -  109.761  She's walking back onto the stage.
+  23   114.540 -  116.760  We're on the train home.
+  24   117.510 -  119.280  We aren't sitting down.
+  25   119.950 -  121.120  I don't care.
+  26   121.710 -  128.100  There are so many people on the train and everybody's a Jess Glynne fan.
+  27   128.710 -  131.564  We're all singing 'Hold my Hand'.
+  28   132.130 -  134.142  It's my favourite song.
+  29   137.840 -  141.990  It's exactly midnight and we're back home.
+  30   142.710 -  145.720  I'm feeling tired but very happy.
+  31   146.570 -  149.200  I'm going straight upstairs to bed.
+
+## p077  Musicians around the world · 听力 · 广播
+- 句数 27，首句 6.820s，末句 136.160s
+
+   0     6.820 -    8.420  Hello and welcome!
+   1     9.480 -   14.559  Today we are talking about different music from around the world.
+   2    15.220 -   19.064  Is there a type of music that you really like?
+   3    19.700 -   21.432  Phone and tell us.
+   4    22.160 -   24.920  Our first caller is Liliana.
+   5    25.870 -   30.080  OK Liliana, what's your favourite music?
+   6    30.760 -   37.180  Hello! My mother is Mexican and we often go to Mexico.
+   7    37.860 -   41.378  I love the mariachi music I see there.
+   8    42.060 -   52.940  There's a group of men and sometimes women and they all stand up playing instruments like guitars, trumpets and violins.
+   9    53.650 -   56.980  They also wear traditional Mexican hats.
+  10    57.700 -   59.640  I think they look fantastic.
+  11    60.420 -   62.520  Yes, thanks Liliana.
+  12    63.400 -   65.220  And now here's Lewis.
+  13    66.320 -   69.358  Hi Lewis, tell us what you like.
+  14    69.780 -   70.565  Hi there.
+  15    71.200 -   77.973  Well in Indonesia there's this traditional musical performance called gamelan.
+  16    78.540 -   83.500  They have these orchestras with some very unusual instruments.
+  17    84.240 -   92.264  They make beautiful sounds and when they all play the musicians wear the same traditional clothes.
+  18    92.580 -   93.300  Thanks Lewis.
+  19    94.220 -   96.820  And now let's talk to Jen.
+  20    97.760 -  100.090  I love African drumming.
+  21   100.380 -  106.626  I go to a lot of musical festivals and there's always some African drumming.
+  22   107.080 -  111.300  Is there any African country you like the drumming from most?
+  23   111.960 -  125.028  Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes.
+  24   125.340 -  127.880  They're the colours of the Burundi flag.
+  25   128.820 -  133.400  Sometimes they also paint their drums in the same colours.
+  26   133.400 -  136.160  Okay, thank you Jen.
+
+## p078  A teenage DJ · 阅读B · 访谈对话
+- 句数 25，首句 6.200s，末句 98.760s
+
+   0     6.200 -    7.380  Who are you?
+   1     7.920 -    9.360  I'm Danny Boyd.
+   2     9.900 -   12.887  I'm 14 years old and I'm from Luton.
+   3    13.520 -   14.360  What do you do?
+   4    14.980 -   20.120  I'm a student at school and at the weekends I work as a DJ.
+   5    20.840 -   22.980  Wow, that's interesting.
+   6    23.900 -   25.287  Can you tell us more?
+   7    25.760 -   28.793  I'm a DJ at a local youth club.
+   8    29.020 -   34.320  I play every Saturday from 6pm to 10pm.
+   9    35.040 -   38.243  There's usually about 100 people there.
+  10    39.060 -   40.101  It's great fun.
+  11    40.860 -   47.404  I also sometimes play for big crowds in the park and sometimes on the beach too.
+  12    48.000 -   50.380  What do you like doing in your free time?
+  13    50.990 -   55.658  I love listening to music and finding new songs to play.
+  14    56.320 -   63.240  I like watching films and playing games on my VR headset but I hate dancing.
+  15    64.180 -   67.440  I know that's a strange thing for a DJ to say.
+  16    68.240 -   73.100  I love watching other people dance but I never dance myself.
+  17    74.420 -   75.920  What do you like wearing?
+  18    76.660 -   81.200  I like wearing jeans and a white T-shirt.
+  19    82.140 -   84.265  I also wear a red cap.
+  20    85.300 -   87.760  I don't like wearing shirts and trousers.
+  21    88.500 -   90.540  I wear those every day at school.
+  22    91.600 -   93.840  Thanks Danny and good luck.
+  23    94.380 -   95.086  Thank you.
+  24    95.740 -   98.760  Why don't you come to one of my shows one day?
+
+## p080  Dances around the world · 文化 · 文章
+- 句数 22，首句 12.740s，末句 144.760s
+
+   0    12.740 -   25.658  The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango.
+   1    26.520 -   32.500  They do the tango in dance halls, parks and squares all over the city.
+   2    33.720 -   37.860  The dance is usually performed by a man and a woman.
+   3    39.040 -   42.860  The man often wears smart trousers and a shirt.
+   4    44.400 -   47.320  The woman often wears a beautiful dress.
+   5    48.720 -   51.900  The dance is often very interesting to watch.
+   6    57.640 -   62.560  The Whirling Dervish is a dance from Turkey.
+   7    63.480 -   66.520  There is a group of twelve men who dance.
+   8    67.800 -   71.180  They wear traditional costumes with big skirts.
+   9    72.680 -   78.820  They often all wear white, but sometimes the skirts are different colours.
+  10    79.820 -   83.060  There is another group of twelve musicians.
+  11    84.260 -   87.180  They play traditional Turkish instruments.
+  12    88.440 -   95.760  As the music plays, the dancers spin around in circles, getting faster and faster.
+  13    97.040 -   99.480  The dance is very popular with tourists.
+  14   106.100 -  113.620  There are lots of Irish dances, but perhaps the most famous one is the step dance.
+  15   114.640 -  118.220  One or more dancers perform the step dance.
+  16   119.520 -  121.960  The dancers only move their legs.
+  17   122.920 -  124.880  They move them very quickly.
+  18   126.400 -  129.149  The top half of the body doesn't move.
+  19   130.420 -  134.280  Dancers usually wear traditional Irish costumes.
+  20   135.620 -  140.376  The music they dance to is played by an Irish folk band.
+  21   141.400 -  144.760  They play instruments like the fiddle and the whistle.
