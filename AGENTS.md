@@ -39,6 +39,7 @@ npm run test:list    # 列出全部套件
 | `教师端.html` | 班级、学生账号、任务下发、学情汇总、题库分析 |
 | `login.html` | 登录 / 注册入口 |
 | `assets/p*.mp3` | 课文音频，当前版本唯一的运行时音频依赖 |
+| `_align_unit.py` + `_unit_N_source.json` | 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
 | `_regress.js` | 回归入口，套件定义在文件顶部的 `SUITE` 数组 |
 | `_check.js` / `_align_check.js` / `_check_icons.js` / `_smoke.js` | 纯 Node 校验，无外部依赖 |
 | `_smoke_*.py` | Playwright 端到端，需要 Python 3 + Playwright |
@@ -66,11 +67,17 @@ npm run test:list    # 列出全部套件
 
 ### 时间轴是单一数据源（重要）
 
-`assets/timeline.json` 是 12 篇的**唯一权威时间轴**（312 句），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
+`assets/timeline.json` 是 **16 篇 / 418 句**的唯一权威时间轴（U7 4 篇 + U8 4 篇 + U12 4 篇正课文 + p066/p073/p110/p202），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
+
+**新增正课文时间轴的唯一入口是 `_align_unit.py --unit N`**（全自动，无人耳终审），权威规约见 `_ALIGNMENT_WORKFLOW.md`：写 `_unit_N_source.json`（正课文清单 + 源文本 + 音频映射）后一键跑完 ASR→对齐→合入→同步→门禁。
 
 历史教训：这份数据曾经有"两代"——`var DB` 字面量里的旧值，加第 772/773 行一整行 12 KB 的运行时覆盖块。实际生效的是覆盖块，所以改字面量完全不生效；更糟的是它和 `assets/timeline.json`（那份"3 遍人工核查 + ASR 复验通过"的产物）逐条都不一致，真实播放值最大偏差 1.02s，导致被核查过的 p067/p070 反而是切音最严重的两篇。已合并为一份。
 
-句级边界体检与重切工具：`py _align_audio.py check|refine|dump|cmp <timeline.json>`（能量法：边界 ±60ms 内峰值能量 / 全篇峰值，<0.25 正常、0.25~0.50 可疑、≥0.50 切音）。重切清单见 `_align_report.md`：300 条句间边界里，切音/可疑/正常 由 36/43/221 改善为 16/24/260，改动 130 句，仍有 40 条边界需人工试听（多为句间无可用停顿，如 p113 听力全程连读）。
+句级边界体检与重切工具：`py _align_audio.py check|refine|dump|cmp <timeline.json>`（能量法：边界 ±60ms 内峰值能量 / 全篇峰值，<0.25 正常、0.25~0.50 可疑、≥0.50 切音）。重切清单见 `_align_report.md`：300 条句间边界里，切音/可疑/正常 由 36/43/221 改善为 16/24/260，改动 130 句。
+
+> **2026-10-13 起已废止「人工试听定案」**：句级边界改由 `_align_unit.py --unit N` 全自动产出
+> （faster-whisper 词级时间戳 × 源文本校准 + 静音吸附），见 `_ALIGNMENT_WORKFLOW.md`。
+> 旧的 `_align_audio.py` 能量法体检与 `_bridge_aligner.py` 交叉验证保留作参考，不再作为生产一环。
 
 `text-vocab-coverage` **已退役**，四处副本（`project/`、`global/`、工作区 `.trae/skills/`、用户 `.trae-cn/skills/`）已全部删除，能力由 `article-vocab-analyzer` 承接：`entity_classify.py` 与 `entity_lexicon.json` 已迁入其 `scripts/`（含项目版的 `PER_surname` / `ORG_multi` 增强）；词汇分析改用其 `assess_vocab.py`（超集，新增 `AGENT_ER_NOUNS`、弯引号归一、纯引号 token 过滤），`lemma_candidates` 对 -er 名词的候选集与旧版不同（如 `owner` 不再归并到 `own`），依赖该函数的词汇分级可能微调。删除前四处副本字节一致，内容仍可从 git 历史取回。
 
