@@ -140,11 +140,19 @@ const secs = ms => (ms / 1000).toFixed(1) + 's';
 const tail = (s, n) => s.trimEnd().split('\n').slice(-n).join('\n');
 
 function resolvePython() {
+  // UI 冒烟套件依赖 playwright。PATH 里若同时存在多个 Python（如 3.13 与 3.10），
+  // 只按 --version 取第一个会把套件跑在无 playwright 的解释器上，整片报红但与代码无关。
+  // 因此优先挑真正装了 playwright 的那个；都没有时退回第一个可用的，由环境行显式提示。
+  let fallback = null;
   for (const [cmd, pre] of [['python', []], ['py', ['-3']]]) {
     const r = spawnSync(cmd, [...pre, '--version'], { encoding: 'utf8' });
-    if (!r.error && r.status === 0) return { cmd, pre };
+    if (r.error || r.status !== 0) continue;
+    const cand = { cmd, pre, hasPw: false };
+    const pw = spawnSync(cmd, [...pre, '-c', 'import playwright'], { encoding: 'utf8' });
+    if (!pw.error && pw.status === 0) { cand.hasPw = true; return cand; }
+    if (!fallback) fallback = cand;
   }
-  return null;
+  return fallback;
 }
 
 function probe(proto) {
@@ -230,7 +238,7 @@ function runTask(task, py) {
   console.log(C.b(`  TH!NK 一键回归 · ${new Date().toLocaleString('zh-CN')}`));
   console.log(`  服务器   ${BASE}  ${C.d(srv.note)}`);
   console.log(`  套件     ${tasks.length} 项（${CORE_ONLY ? '仅核心门禁' : '全量：核心 + 诊断'}）`);
-  console.log(`  运行环境 node ${process.version} · ${py ? py.cmd : 'python 缺失'}`);
+  console.log(`  运行环境 node ${process.version} · ${py ? py.cmd + (py.hasPw ? '（含 playwright）' : C.y('（缺 playwright，UI 冒烟将失败）')) : C.y('python 缺失')}`);
   console.log(C.b('═'.repeat(74)));
 
   const results = [];
