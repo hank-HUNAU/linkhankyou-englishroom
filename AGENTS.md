@@ -44,6 +44,7 @@ npm run test:list    # 列出全部套件
 | `_check.js` / `_align_check.js` / `_check_icons.js` / `_smoke.js` | 纯 Node 校验，无外部依赖 |
 | `_smoke_*.py` | Playwright 端到端，需要 Python 3 + Playwright |
 | `skills/` | 内容生产技能文件，详见 `skills/README.md`；应用运行时不加载 |
+| `MANIFEST.md` | **文件清单**：核心运行时 / 依赖开发 / 内容生产 / 溯源参考 四级归档 + 弃用候选；文件增删后更新 |
 
 ## 架构要点
 
