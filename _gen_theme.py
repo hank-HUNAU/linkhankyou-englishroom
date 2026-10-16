@@ -87,7 +87,9 @@ for u in sorted(units):
         poszh = POS_ZH.get(x["pos"].lower(), x["pos"] or "—")
         raw.append([x["w"], x["ipa"], x["pos"][:4] or "—", zh, "—", poszh, x["ex"] or "—"])
     h = tpl
-    h = re.sub(r"const RAW = \[[\s\S]*?\n\];", "const RAW = " + json.dumps(raw, ensure_ascii=False) + ";", h, count=1)
+    _r0 = h.find("const RAW = [")
+    _r1 = h.find("\n];", _r0) + 3
+    h = h[:_r0] + "const RAW = " + json.dumps(raw, ensure_ascii=False) + ";" + h[_r1:]
     h = re.sub(r"const TOTAL_COUNT = \d+;", "const TOTAL_COUNT = %d;" % len(raw), h, count=1)
     h = h.replace('key: "theme_u7",', 'key: "theme_u%d",' % u)
     h = h.replace('title: "Unit 7 · 单元主题词汇"', 'title: "Unit %d · 单元主题词汇"' % u)

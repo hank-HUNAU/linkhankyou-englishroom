@@ -290,6 +290,7 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 .nb-tip{font-size:13px;line-height:1.75;color:var(--ink-2);background:var(--bg-soft);border-radius:10px;padding:10px 12px;margin:10px 0}
 .nb-audio{display:flex;gap:8px;margin:8px 0}
 
+.oit{position:relative}.oseq{position:absolute;top:-8px;right:-8px;background:#5a76d8;color:#fff;border-radius:999px;min-width:20px;height:20px;line-height:20px;font-size:12px;font-weight:800}
 </style></head>
 <body class="listen">
 <div class="app">
@@ -727,6 +728,7 @@ function showQuiz(){
   var html = QUIZ.map(function(q,i){
     var inner = "";
     if(q.t==="tf") inner = ["T","F","DS"].map(function(o){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+o+'">'+(o==="T"?"✓ T":(o==="F"?"✗ F":"? DS"))+'</button>'; }).join("");
+    else if(q.t==="order") inner = q.items.map(function(it,ii){ return '<button class="quiz-opt oit dis" data-qi="'+i+'" data-k="'+it.k+'">'+escQ(it.txt)+'</button>'; }).join("");
     else inner = q.opts.map(function(o,oi){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+oi+'">'+escQ(o)+'</button>'; }).join("");
     return '<div class="qz-q">'+(i+1)+'. '+escQ(q.q)+'</div><div class="quiz-opts">'+inner+'</div>';
   }).join("");
@@ -734,6 +736,27 @@ function showQuiz(){
   $("qzBody").querySelectorAll(".quiz-opt").forEach(function(b){
     b.addEventListener("click", function(){
       var q = QUIZ[+b.dataset.qi];
+      if(q.t==="order"){
+        var box = b.parentNode;
+        var seq = (box.dataset.user||"").split(",").filter(Boolean);
+        if(b.dataset.seq){ b.dataset.seq=""; seq = seq.filter(function(k){return k!==b.dataset.k;}); }
+        else { seq.push(b.dataset.k); b.dataset.seq = String(seq.length); }
+        box.dataset.user = seq.join(",");
+        box.querySelectorAll(".oit").forEach(function(x){ x.dataset.seq = ""; });
+        seq.forEach(function(k, si){ var t = box.querySelector('.oit[data-k="'+k+'"]'); if(t) t.dataset.seq = String(si+1); });
+        box.querySelectorAll(".oit").forEach(function(x){ x.classList.remove("ok","no"); var n = x.querySelector(".oseq"); if(n) n.remove();
+          if(x.dataset.seq) { var tag = document.createElement("span"); tag.className="oseq"; tag.textContent = "①②③④⑤⑥"[+x.dataset.seq-1]||x.dataset.seq; x.appendChild(tag); } });
+        if(seq.length === q.items.length){
+          var okAll = seq.join("") === q.a;
+          box.querySelectorAll(".oit").forEach(function(x){
+            x.classList.add(okAll && x.dataset.seq ? "ok" : "no");
+          });
+          if(okAll){ box.querySelectorAll(".oit").forEach(function(x){ x.classList.add("ok"); }); }
+          box.dataset.user = seq.join(",");
+        }
+        checkAllAnswered();
+        return;
+      }
       var ok = (q.t==="tf") ? (b.dataset.ans===q.a) : (+b.dataset.ans===q.a);
       b.parentNode.querySelectorAll(".quiz-opt").forEach(function(x){ x.classList.remove("ok","no"); });
       b.classList.add(ok ? "ok" : "no");
@@ -753,7 +776,7 @@ function submitQuiz(){
   QUIZ.forEach(function(q,i){
     var sel = $("qzBody").querySelector('.quiz-opt.ok[data-qi="'+i+'"]');
     var ans = sel ? sel.dataset.ans : null;
-    var ok = q.t==="tf" ? (ans===q.a) : (+ans===q.a);
+    var ok = q.t==="tf" ? (ans===q.a) : (q.t==="order" ? (ans===q.a) : (+ans===q.a));
     if(ok) score++;
   });
   var pass = score >= Math.ceil(QUIZ.length*0.75);
