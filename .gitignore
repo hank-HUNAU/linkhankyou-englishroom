@@ -30,8 +30,8 @@ assets/sents_v2/
 !00_主题词汇/*.html
 !00_主题词汇/*.json
 00_主题词汇/*.xlsx
-词汇音频/*.mp3
-词汇音频/audio_index.json
+!词汇音频/*.mp3
+!词汇音频/audio_index.json
 
 课程资产/课程资源汇总/
 *.xlsx
