@@ -1,0 +1,27 @@
+===== u9_p085_kitchenkids =====
+完成: 109 词 -> u9_p085_kitchenkids.xlsx (联网补全 109 词)
+完成: 109 词 -> u9_p085_kitchenkids.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 2 个专名
+===== u9_p087_cooking =====
+完成: 84 词 -> u9_p087_cooking.xlsx (联网补全 84 词)
+完成: 84 词 -> u9_p087_cooking.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 1 个专名
+===== u9_p088_inarestaurant =====
+完成: 66 词 -> u9_p088_inarestaurant.xlsx (联网补全 66 词)
+完成: 66 词 -> u9_p088_inarestaurant.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 66 词 / 28 个原句朗读标注 / 英标覆盖 66 词（限流可用 --limit 分批）→ u9_p088_inarestaurant.xlsx
+===== u9_p090_offeringhelp =====
+完成: 99 词 -> u9_p090_offeringhelp.xlsx (联网补全 99 词)
+完成: 99 词 -> u9_p090_offeringhelp.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 1 个专名
+===== u10_p092_firstwomaninspace =====
+完成: 86 词 -> u10_p092_firstwomaninspace.xlsx (联网补全 86 词)
+完成: 86 词 -> u10_p092_firstwomaninspace.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 1 个专名
+===== u10_p095_prizegiving =====
+完成: 92 词 -> u10_p095_prizegiving.xlsx (联网补全 92 词)
+完成: 92 词 -> u10_p095_prizegiving.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 1 个专名
+===== u10_p096_sportsachievers =====
+完成: 124 词 -> u10_p096_sportsachievers.xlsx (联网补全 124 词)
+完成: 124 词 -> u10_p096_sportsachievers.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)

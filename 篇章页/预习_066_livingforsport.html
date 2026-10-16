@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>课文 p066 · 课文预习（聆听）</title>
+<link rel="stylesheet" href="../ui.css">
+<script src="../ui.js"></script>
+<style>
+/* ============ AppleOS 扁平设计系统 ============ */
+:root{
+  --bg:#f2f2f7; --bg-soft:#f7f7fa; --bg-2:#e5e5ea;
+  --card:#ffffff;
+  --ink:#1c1c1e; --ink-2:#3c3c43; --ink-3:#8e8e93; --ink-4:#aeaeb2;
+  --blue:#0a84ff; --blue-bg:#e8f1ff; --blue-deep:#0b6ce0;
+  --green:#34c759; --green-bg:#e6f7ea; --green-deep:#1f9a45;
+  --orange:#ff9f0a; --orange-bg:#fff3e0;
+  --red:#ff453a; --red-bg:#ffe9e7;
+  --line:rgba(60,60,67,.14); --line-soft:rgba(60,60,67,.08);
+  --rad:16px; --rad-lg:22px; --rad-sm:10px;
+  --glass:rgba(255,255,255,.72);
+  --font:"-apple-system","SF Pro Text","SF Pro Display","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI",system-ui,sans-serif;
+  --font-num:"SF Mono",ui-monospace,"Menlo",Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{font-family:var(--font);color:var(--ink);overflow:hidden;background:var(--bg);user-select:none;-webkit-font-smoothing:antialiased;font-size:15px;line-height:1.5}
+.app{height:100vh;display:flex;flex-direction:column;background:var(--bg);position:relative}
+
+/* ---------- 顶部玻璃栏 ---------- */
+header.top{
+  display:flex;align-items:center;gap:12px;padding:12px 18px 10px;
+  background:var(--glass);backdrop-filter:saturate(180%) blur(20px);
+  -webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:0.5px solid var(--line);z-index:20;flex:none;
+}
+.top .meta{display:flex;flex-direction:column;min-width:0}
+.top .u{font-size:10.5px;font-weight:600;letter-spacing:.06em;color:var(--ink-3);text-transform:uppercase}
+.top .t{font-size:19px;font-weight:700;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top .sp{flex:1}
+.tabs{display:flex;gap:8px}
+.tab{display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 13px;border-radius:var(--rad-sm);border:1px solid var(--line);background:var(--card);color:var(--ink-2);font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font);transition:.15s}
+.tab .pno{font-family:var(--font-num);color:var(--ink-3);font-size:11px;font-weight:600}
+.tab .tty{font-size:10px;line-height:1;font-weight:700;padding:4px 6px;border-radius:5px;letter-spacing:.02em}
+.tab .tsep{font-style:normal;color:var(--ink-3);opacity:.55;font-weight:400}
+.tab .tty.tt-rd{background:rgba(88,120,230,.10);color:#5a76d8}
+.tab .tty.tt-ls{background:rgba(222,142,80,.12);color:#c97f3c}
+.tab.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.tab.on .pno{color:rgba(255,255,255,.85)}
+.tab.on .tsep{color:rgba(255,255,255,.55)}
+.tab.on .tty.tt-rd{background:rgba(255,255,255,.18);color:#fff}
+.tab.on .tty.tt-ls{background:rgba(255,255,255,.18);color:#fff}
+
+/* ---------- 流程步骤条 ---------- */
+.flowbar{flex:none;display:flex;align-items:center;justify-content:center;gap:0;padding:12px 18px 4px;background:var(--bg)}
+.steps{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line-soft);border-radius:30px;padding:6px 12px}
+.step{display:flex;align-items:center;gap:8px;padding:4px 8px;border-radius:20px;transition:.2s}
+.step b{width:22px;height:22px;border-radius:50%;background:var(--bg-2);color:var(--ink-3);font-size:11px;font-weight:700;display:grid;place-items:center;font-family:var(--font-num)}
+.step span{font-size:13px;font-weight:600;color:var(--ink-3)}
+.step.on{background:var(--blue-bg)}
+.step.on b{background:var(--blue);color:#fff}
+.step.on span{color:var(--blue-deep)}
+.step.done b{background:var(--green);color:#fff}
+.step.done span{color:var(--green-deep)}
+.con{width:14px;height:1.5px;background:var(--ink-4)}
+
+/* ---------- 主区 ---------- */
+.stage{flex:1;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.reader{flex:1;padding:14px 22px 250px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--ink-4) transparent}
+.reader::-webkit-scrollbar{width:8px}
+.reader::-webkit-scrollbar-thumb{background:var(--ink-4);border-radius:8px;background-clip:content-box;border:2px solid transparent}
+.head-wrap{padding:6px 2px 14px;text-align:center}
+.headline{font-size:29px;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+
+.para{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--rad-lg);padding:20px 22px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.03)}
+.para:first-of-type{margin-top:2px}
+.sent{font-size:18.5px;line-height:1.85;letter-spacing:.005em;color:var(--ink);cursor:pointer;border-radius:8px;padding:2px 3px;transition:background .2s;display:inline}
+.sent:hover{background:rgba(10,132,255,.07)}
+.sent.on{background:rgba(10,132,255,.06)}
+.zh{display:block;margin-top:-2px;font-size:15.5px;color:var(--ink-3);line-height:1.7;border-left:2px solid var(--line);padding-left:10px;margin-left:2px}
+.zh.hide{display:none}
+.sent .zh{display:inline-block;vertical-align:middle;margin-left:10px;font-size:16px;color:var(--ink-3)}
+.sent .zh.hide{display:none}
+/* —— 对话按人物排版（p69 听力对话） —— */
+body.dialog .para{background:transparent;border:none;box-shadow:none;padding:2px 8px;margin:9px 0}
+body.dialog .sent{display:block;max-width:84%;padding:9px 15px 11px;border-radius:16px;line-height:1.6;font-size:18px;width:max-content}
+body.dialog .sent .spk{display:block;font-size:12.5px;font-weight:700;letter-spacing:.05em;margin-bottom:3px}
+body.dialog .sent[data-spk="mike"]{margin-right:auto;background:#eef4fc;border:1px solid #d5e3f6}
+body.dialog .sent[data-spk="mike"] .spk{color:#1971d2}
+body.dialog .sent[data-spk="julia"]{margin-left:auto;background:#f6f3f9;border:1px solid #e5e0ee}
+body.dialog .sent[data-spk="julia"] .spk{color:#9a5bd0}
+body.dialog .sent .zh{display:block;margin:6px 0 0;border-left:none;padding-left:0;font-size:15px;color:var(--ink-3)}
+body.dialog .sent .zh.hide{display:none}
+body.dialog .sent:hover{background:rgba(10,132,255,.08)}
+body.dialog .para:first-of-type{margin-top:2px}
+.dict-zh.hide{display:none}
+
+/* ---------- 沉浸跟读 · 一屏一句字幕巨幕 ---------- */
+.fstage{display:none;flex:1;position:relative;align-items:center;justify-content:center;padding:8px 22px 228px;overflow:hidden}
+body.follow .reader{display:none}
+body.follow .fstage{display:flex}
+.fs-card{max-width:min(780px,100%);width:100%;background:var(--card);border:1px solid var(--line-soft);border-radius:var(--rad-lg);padding:38px 44px;box-shadow:0 10px 34px rgba(0,0,0,.06);text-align:center}
+.fs-txt{font-size:35px;line-height:2.0;letter-spacing:.01em;color:var(--ink)}
+.fs-txt{position:relative}
+.fol-w{border-radius:5px;transition:background .08s,color .08s,box-shadow .08s;padding:1px 1px}
+.fol-w.cur{background:rgba(124,58,237,.14);box-shadow:inset 0 -3px 0 rgba(124,58,237,.85)}
+.fol-w.shd{background:#ffd9a8;color:#7c2d12;font-weight:800}
+/* 第2步：整篇信纸式滚动字幕 */
+.fs-card.whole{max-width:min(880px,100%);text-align:left;padding:28px 36px 34px;max-height:min(58vh,520px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(156,39,176,.5) transparent}
+.fs-card.whole::-webkit-scrollbar{width:8px}
+.fs-card.whole::-webkit-scrollbar-thumb{background:rgba(156,39,176,.45);border-radius:8px;background-clip:content-box;border:2px solid transparent}
+.fs-card.whole::-webkit-scrollbar-thumb:hover{background:rgba(156,39,176,.7)}
+.fs-card.whole .fs-txt{font-size:24px;line-height:2.1}
+.fs-card.whole .fs-num{display:inline-block;margin-left:.2em;color:var(--ink-4);font-size:.72em;font-family:var(--font-num)}
+.fol-legend{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:12px;color:var(--ink-3)}
+.fol-legend i{display:inline-flex;align-items:center;gap:6px;font-style:normal}
+.fol-legend .k{display:inline-block;width:14px;height:14px;border-radius:4px}
+.fol-legend .k1{background:rgba(124,58,237,.2);box-shadow:inset 0 -3px 0 rgba(124,58,237,.85)}
+.fol-legend .k2{background:#ffd9a8}
+.fs-hint{margin-top:18px;font-size:12.5px;color:var(--ink-3)}
+.fol-legend{animation:none}
+.fs-gap{display:none;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;gap:18px;background:rgba(242,242,247,.9);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);z-index:6}
+.fs-gap.on{display:flex}
+.fs-ring{width:96px;height:96px;border-radius:50%;border:4px solid var(--green-bg);border-top-color:var(--green);animation:fsring 1.8s ease-in-out infinite}
+@keyframes fsring{0%{transform:rotate(0) scale(.96);opacity:.72}50%{transform:rotate(180deg) scale(1.05);opacity:1}100%{transform:rotate(360deg) scale(.96);opacity:.72}}
+.fs-gap-msg{font-size:22px;font-weight:800;color:var(--green-deep);letter-spacing:.01em}
+.fs-gapbar{width:min(300px,70%);height:5px;border-radius:5px;background:var(--line-soft);overflow:hidden}
+.fs-gapbar-i{height:100%;width:100%;background:var(--green)}
+
+/* ---------- 听写面板 ---------- */
+.dict{display:none;flex:1;flex-direction:column;padding:16px 20px 250px;overflow-y:auto}
+.dict.on{display:flex}
+.dict-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:10px}
+.dict-tag{font-size:13px;font-weight:700;color:var(--ink)}
+.dict-sub{font-size:11.5px;color:var(--ink-3);font-family:var(--font-num);margin-top:2px}
+.dict-pass{font-size:12px;font-weight:700;color:var(--blue-deep);background:var(--blue-bg);padding:5px 12px;border-radius:16px;font-family:var(--font-num)}
+.dict-card{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--rad-lg);padding:20px 22px;box-shadow:0 1px 3px rgba(0,0,0,.03)}
+.dt-line{font-size:22px;line-height:2.1;letter-spacing:.01em;color:var(--ink)}
+.dt-w{white-space:nowrap}
+.dt-anchor{color:var(--green-deep);font-weight:700;border-bottom:2px solid rgba(52,199,89,.45)}
+.dt-hint{color:var(--ink-3)}
+.dt-gsep{color:var(--ink-4);padding:0 2px}
+.dt-blank{position:relative;display:inline-block}
+.dt-blank .fst{font-weight:600}
+.dt-blank.is-on b.fst{color:var(--blue-deep)}
+.dt-in{font:inherit;text-align:center;color:transparent;caret-color:transparent;background:linear-gradient(180deg,transparent 78%,var(--blue) 78%,var(--blue) 100%);border:none;outline:none;margin:0 1px;border-radius:2px;text-transform:none;font-family:var(--font)}
+.dt-blank.is-on .dt-in{caret-color:var(--blue);color:var(--ink);background:linear-gradient(180deg,transparent 78%,var(--ink-2) 78%,var(--ink-2) 100%)}
+.dt-blank .dt-in:disabled{opacity:.45;color:transparent;background:linear-gradient(180deg,transparent 78%,var(--ink-4) 78%,var(--ink-4) 100%)}
+.dt-r-ok{color:var(--green-deep);font-weight:800}
+.dt-r-bad{color:var(--red);font-weight:700}
+.dt-r-tip{color:var(--ink-3);font-size:13px;margin-left:5px}
+.dict-zh{margin-top:14px;font-size:17px;color:var(--ink-3);line-height:1.75;border-left:2px solid var(--line);padding-left:10px}
+.dict-desc{margin-top:10px;font-size:11.5px;color:var(--ink-4)}
+.dict-act{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;flex-wrap:wrap}
+.dict-score{font-size:14px;font-weight:700;color:var(--green-deep)}
+.dict-diag{display:none;margin-top:12px;background:var(--bg-soft);border:1px solid var(--line-soft);border-radius:var(--rad);padding:14px 16px}
+.dict-diag.on{display:block}
+.ddq-row{font-size:14px;line-height:1.9;color:var(--ink)}
+.ddq-row .lbl{color:var(--ink-3);font-size:12.5px}
+.em1{font-size:13px;color:var(--blue-deep);font-weight:700}
+.dt-blank.paper{color:var(--ink-3)}
+.dt-blank.paper .fst{color:var(--blue-deep);font-weight:700}
+.dt-blank.paper .ul{letter-spacing:2px}
+.dt-blank.paper.revealed .ans{color:var(--green-deep);font-weight:800;letter-spacing:.02em}
+
+/* ---------- 听写方式选择 ---------- */
+.waypick{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(28,28,30,.3);backdrop-filter:saturate(120%) blur(6px);-webkit-backdrop-filter:saturate(120%) blur(6px);opacity:0;pointer-events:none;transition:.2s}
+.waypick.on{opacity:1;pointer-events:auto}
+.way-card{width:min(520px,92vw);background:var(--card);border-radius:24px;padding:22px;box-shadow:0 24px 60px rgba(0,0,0,.16);text-align:left}
+.way-card .w-head{font-size:18px;font-weight:700;letter-spacing:-.01em}
+.way-card .w-sub{font-size:12.5px;color:var(--ink-3);margin:6px 0 16px}
+.way-btn{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px;border-radius:16px;border:1px solid var(--line);background:var(--bg-soft);cursor:pointer;font-family:var(--font);transition:.15s}
+.way-btn+.way-btn{margin-top:12px}
+.way-btn:hover{border-color:var(--blue);background:var(--blue-bg)}
+.way-btn:active{transform:scale(.985)}
+.way-btn .wb-ic{width:44px;height:44px;border-radius:12px;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;font-size:19px;flex:none;color:var(--blue-deep)}
+.way-btn .wb-t{display:flex;flex-direction:column;gap:3px}
+.way-btn .wb-t b{font-size:15px;color:var(--ink)}
+.way-btn .wb-t i{font-style:normal;font-size:12px;color:var(--ink-3)}
+
+/* ---------- 聆听全文循环遍次 ---------- */
+.lp-dots{display:flex;gap:6px}
+.lp-dot{width:8px;height:8px;border-radius:50%;background:var(--ink-4);transition:.2s}
+.lp-dot.on{background:var(--blue)}
+.fpass{display:flex;gap:3px;background:var(--bg-2);border-radius:8px;padding:2px}
+.fpc{border:none;background:transparent;color:var(--ink-3);font-weight:600;font-size:11px;height:20px;padding:0 8px;border-radius:6px;cursor:pointer;font-family:var(--font);transition:.15s}
+.fpc.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+@keyframes gapfill{from{width:100%}to{width:0}}
+
+/* 跟读环节禁用译文开关 */
+.chip.off{opacity:.4;pointer-events:none}
+
+/* ---------- 底部 dock ---------- */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:25;display:flex;align-items:center;justify-content:center;gap:16px;padding:11px 20px calc(11px + env(safe-area-inset-bottom));background:var(--glass);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-top:0.5px solid var(--line)}
+.dgroup{display:flex;align-items:center;gap:10px}
+.tbtn{width:40px;height:40px;border:none;border-radius:50%;background:transparent;color:var(--ink-2);display:grid;place-items:center;cursor:pointer;transition:.15s}
+.tbtn:active{background:var(--bg-2)}
+.big{width:46px;height:46px;border-radius:50%;border:none;color:#fff;display:grid;place-items:center;cursor:pointer;background:var(--blue);box-shadow:0 5px 14px rgba(10,132,255,.3),0 1px 3px rgba(0,0,0,.1);transition:.15s}
+.big:active{transform:scale(.96)}
+.big svg{width:20px;height:20px}
+.chip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 14px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--ink-2);font-size:12.5px;font-weight:600;cursor:pointer;font-family:var(--font);transition:.15s}
+.chip.on{background:var(--blue-bg);border-color:var(--blue);color:var(--blue-deep)}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:var(--ink-4)}
+.chip.on .dot{background:var(--blue)}
+.cta{height:40px;padding:0 20px;border-radius:20px;border:none;background:var(--blue);color:#fff;font-size:14px;font-weight:700;cursor:pointer;font-family:var(--font);box-shadow:0 4px 12px rgba(10,132,255,.3);transition:.15s}
+.cta:active{transform:scale(.97)}
+.cta:disabled{background:var(--ink-4);box-shadow:none;cursor:default}
+
+/* 播放条内嵌：译文 + 跟读遍数（三个流程常驻） */
+.dmid{display:flex;align-items:center;gap:10px}
+.di{display:inline-flex;align-items:center;gap:4px;margin-right:1px;white-space:nowrap}
+.di .lbl{font-size:11px;color:var(--ink-3);font-weight:600}
+.di .num{font-family:var(--font-num);font-size:13px;font-weight:700;color:var(--ink)}
+.di-dots{display:inline-flex;gap:4px;align-items:center;margin-right:1px;white-space:nowrap}
+body.follow #dkDots .lp-dot.on{background:var(--green)}
+.dlp{display:flex;align-items:center;gap:7px}
+.dlp-t{font-size:11px;color:var(--ink-3);font-weight:600}
+.dock .fpass{background:rgba(60,60,67,.08)}
+.dock .fpc{color:var(--ink-3)}
+.dock .fpc.on{background:var(--card);color:var(--blue-deep);box-shadow:0 1px 2px rgba(0,0,0,.1)}
+
+/* ---------- toast ---------- */
+.toast{position:fixed;left:50%;bottom:128px;transform:translateX(-50%) translateY(12px);background:rgba(28,28,30,.9);color:#fff;font-size:13px;padding:9px 16px;border-radius:11px;opacity:0;pointer-events:none;transition:.2s;z-index:60;max-width:86vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ---------- 分组目录面板 ---------- */
+.tabs .tbtn{width:34px;height:34px}
+.curtab{display:inline-flex;align-items:center;gap:7px;height:34px;max-width:300px;padding:0 13px;border-radius:var(--rad-sm);border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font);transition:.15s}
+.curtab:hover{border-color:var(--blue)}
+.curtab .curTt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.curtab .curArr{font-style:normal;color:var(--ink-3);font-size:9px;margin-left:1px}
+.dir{position:fixed;inset:0;background:rgba(12,17,32,.35);backdrop-filter:blur(2px);display:none;z-index:80;padding:74px 18px 18px;justify-content:flex-end;align-items:flex-start}
+.dir.on{display:flex}
+.dir-panel{width:min(330px,88vw);max-height:calc(100vh - 96px);background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(10,15,30,.28);overflow:hidden;display:flex;flex-direction:column;animation:dirIn .16s ease}
+@keyframes dirIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.dir-head{display:flex;align-items:center;gap:9px;padding:13px 15px;border-bottom:1px solid var(--line-soft);flex:none}
+.dir-head b{font-size:15px}
+.dir-head .du{font-size:10.5px;color:var(--ink-3);font-weight:600;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dir-head .x{margin-left:auto;width:28px;height:28px;border-radius:8px;border:none;background:var(--bg-2);color:var(--ink-2);font-size:14px;line-height:1;cursor:pointer;display:grid;place-items:center;flex:none}
+.dir-body{overflow-y:auto;padding:4px 12px 14px}
+.grp{margin-bottom:6px}
+.grp-label{font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--ink-4);text-transform:uppercase;margin:12px 8px 5px}
+.grp-item{display:flex;align-items:center;gap:9px;width:100%;text-align:left;padding:7px 9px;border-radius:9px;border:none;background:transparent;cursor:pointer;font-family:var(--font);transition:.12s}
+.grp-item:hover{background:var(--bg-soft)}
+.grp-item.on{background:var(--blue)}
+.grp-item .gi-ic{width:27px;height:27px;border-radius:8px;display:grid;place-items:center;flex:none}
+.grp-item .gi-t{min-width:0;display:flex;align-items:baseline;gap:7px}
+.grp-item .gi-pg{font-family:var(--font-num);font-size:10.5px;color:var(--ink-3);font-weight:700}
+.grp-item.on .gi-pg{color:#fff}
+.grp-item .gi-tt{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grp-item.on .gi-tt{color:#fff}
+.grp-empty{font-size:11.5px;color:var(--ink-4);padding:2px 10px 8px}
+
+.toast{z-index:1400}
+.tchip{display:inline-block;margin-left:10px;padding:3px 10px;border-radius:999px;background:rgba(0,0,0,.06);font-size:12px;font-weight:700;color:var(--ink-2,#333)}
+.gapw{display:inline-flex;flex-direction:column;align-items:center;gap:1px;border:1.5px solid #f2c94c;background:#fff8e6;border-radius:10px;padding:5px 10px;font-size:14.5px;font-weight:700;cursor:pointer}
+.gapw i{font-style:normal;font-size:10px;color:#b07a00;font-weight:600}
+
+.qzboard{position:fixed;inset:0;z-index:1500;background:rgba(15,18,34,.55);display:none;align-items:flex-start;justify-content:center;padding:16px;overflow:auto}
+.qzboard.on{display:flex}
+.qz-card{position:relative;background:#fff;border-radius:20px;max-width:640px;width:100%;padding:18px 18px 14px}
+.qz-head{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.qz-tip{font-size:13px;font-weight:800;color:#5a76d8}
+.qz-tools{display:flex;gap:6px}
+.qz-tool{border:1.5px solid #d9d9e3;background:#fff;border-radius:9px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
+.qz-tool.on{background:#5a76d8;color:#fff;border-color:#5a76d8}
+.qz-sec{position:relative}
+.qz-q{font-size:15px;font-weight:600;line-height:1.6;margin:14px 0 8px}
+.qz-opts{display:flex;gap:8px;flex-wrap:wrap}
+.quiz-opt.dis{opacity:.45;pointer-events:none}
+.qz-canvas{position:absolute;inset:0;pointer-events:none}
+.qz-canvas.on{pointer-events:auto;cursor:crosshair}
+.qz-submit{margin-top:16px;width:100%;border:none;border-radius:14px;padding:14px;font-size:16px;font-weight:800;background:#5a76d8;color:#fff;cursor:pointer}
+.qz-submit:disabled{opacity:.45;cursor:not-allowed}
+/* == v2 补齐（v1 缺失样式）：盲听遮罩 / 答题横幅 / 答题选项 / 听写本浮层 == */
+#body.blind{filter:blur(9px);pointer-events:none;user-select:none;transition:filter .3s}
+.quiz-banner{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;margin:0 0 12px;background:#fff8e6;border:1.5px solid #f2c94c;border-radius:14px;font-size:13.5px;font-weight:700;color:#7a5800}
+.quiz-banner button{border:none;background:#f2b706;color:#fff;font-weight:800;font-size:13px;padding:7px 16px;border-radius:16px;cursor:pointer;font-family:var(--font)}
+.quiz-banner.hide{display:none}
+.quiz-prog{font-size:12.5px;font-weight:700;color:var(--ink-3);margin-bottom:8px}
+.quiz-opts{display:flex;gap:8px;flex-wrap:wrap}
+.quiz-opt{border:1.5px solid var(--line);background:var(--card);border-radius:10px;padding:9px 14px;font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font);color:var(--ink);text-align:left}
+.quiz-opt:hover{border-color:var(--blue)}
+.quiz-opt.ok{border-color:var(--green);background:var(--green-bg);color:var(--green-deep);font-weight:800}
+.quiz-opt.no{border-color:var(--red);background:var(--red-bg);color:var(--red);font-weight:700}
+.nb-ov{position:fixed;inset:0;z-index:1500;background:rgba(15,18,34,.55);display:none;align-items:flex-start;justify-content:center;padding:16px;overflow:auto}
+.nb-ov.on{display:flex}
+.nb-card{background:#fff;border-radius:20px;max-width:640px;width:100%;padding:18px}
+.nb-words{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+.nb-w{border:1.5px solid var(--line);border-radius:9px;padding:5px 11px;font-size:14px;cursor:pointer;user-select:none;background:var(--bg-soft)}
+.nb-w.mark{background:var(--red-bg);border-color:var(--red);color:#c2261c;text-decoration:line-through;font-weight:700}
+.nb-tip{font-size:13px;line-height:1.75;color:var(--ink-2);background:var(--bg-soft);border-radius:10px;padding:10px 12px;margin:10px 0}
+.nb-audio{display:flex;gap:8px;margin:8px 0}
+
+</style><script>window.VOICE={"(three) o'clock.":{"f":"threeoclock.mp3","src":"youdao-uk-concat"},"a":{"f":"a.mp3","src":"youdao-uk"},"a big hotel":{"f":"abighotel.mp3","src":"youdao-uk-concat"},"a cheap car":{"f":"acheapcar.mp3","src":"youdao-uk-concat"},"a dirty t-shirt":{"f":"adirtytshirt.mp3","src":"youdao-uk-concat"},"a fast train":{"f":"afasttrain.mp3","src":"youdao-uk-concat"},"a new football":{"f":"anewfootball.mp3","src":"youdao-uk-concat"},"a slow train":{"f":"aslowtrain.mp3","src":"youdao-uk-concat"},"a small hotel":{"f":"asmallhotel.mp3","src":"youdao-uk-concat"},"about":{"f":"about.mp3","src":"youdao-uk"},"above":{"f":"above.mp3","src":"youdao-uk"},"accident":{"f":"accident.mp3","src":"youdao-uk"},"achievement":{"f":"achievement.mp3","src":"youdao-uk"},"across":{"f":"across.mp3","src":"youdao-uk"},"afraid":{"f":"afraid.mp3","src":"youdao-uk"},"after":{"f":"after.mp3","src":"youdao-uk"},"afternoon":{"f":"afternoon.mp3","src":"youdao-uk"},"again":{"f":"again.mp3","src":"youdao-uk"},"against":{"f":"against.mp3","src":"youdao-uk"},"age":{"f":"age.mp3","src":"youdao-uk"},"ago":{"f":"ago.mp3","src":"youdao-uk"},"air":{"f":"air.mp3","src":"youdao-uk"},"airplane":{"f":"airplane.mp3","src":"youdao-uk"},"airport":{"f":"airport.mp3","src":"youdao-uk"},"alice":{"f":"alice.mp3","src":"youdao-uk"},"all":{"f":"all.mp3","src":"youdao-uk"},"almost":{"f":"almost.mp3","src":"youdao-uk"},"alone":{"f":"alone.mp3","src":"youdao-uk"},"along":{"f":"along.mp3","src":"youdao-uk"},"alright":{"f":"alright.mp3","src":"youdao-uk"},"also":{"f":"also.mp3","src":"youdao-uk"},"altogether":{"f":"altogether.mp3","src":"youdao-uk"},"always":{"f":"always.mp3","src":"youdao-uk"},"amazing":{"f":"amazing.mp3","src":"youdao-uk"},"an":{"f":"an.mp3","src":"youdao-uk"},"an expensive car":{"f":"anexpensivecar.mp3","src":"youdao-uk-concat"},"an old football":{"f":"anoldfootball.mp3","src":"youdao-uk-concat"},"and":{"f":"and.mp3","src":"youdao-uk"},"angry":{"f":"angry.mp3","src":"youdao-uk"},"animal":{"f":"animal.mp3","src":"youdao-uk"},"another":{"f":"another.mp3","src":"youdao-uk"},"answer":{"f":"answer.mp3","src":"youdao-uk"},"any":{"f":"any.mp3","src":"youdao-uk"},"anything":{"f":"anything.mp3","src":"youdao-uk"},"anyway":{"f":"anyway.mp3","src":"youdao-uk"},"app":{"f":"app.mp3","src":"youdao-uk"},"apple":{"f":"apple.mp3","src":"youdao-uk"},"april":{"f":"april.mp3","src":"youdao-uk"},"arctic":{"f":"arctic.mp3","src":"youdao-uk"},"arm":{"f":"arm.mp3","src":"youdao-uk"},"armchair":{"f":"armchair.mp3","src":"youdao-uk"},"around":{"f":"around.mp3","src":"youdao-uk"},"arrive":{"f":"arrive.mp3","src":"youdao-uk"},"arrived":{"f":"arrived.mp3","src":"youdao-uk"},"as":{"f":"as.mp3","src":"youdao-uk"},"ask":{"f":"ask.mp3","src":"youdao-uk"},"assistant":{"f":"assistant.mp3","src":"youdao-uk"},"astronaut":{"f":"astronaut.mp3","src":"youdao-uk"},"at":{"f":"at.mp3","src":"youdao-uk"},"at home":{"f":"athome.mp3","src":"youdao-uk"},"at school":{"f":"atschool.mp3","src":"youdao-uk"},"at the cinema":{"f":"atthecinema.mp3","src":"youdao-uk"},"at the computer shop":{"f":"atthecomputershop.mp3","src":"youdao-uk-concat"},"at the stadium":{"f":"atthestadium.mp3","src":"youdao-uk"},"at the station":{"f":"atthestation.mp3","src":"youdao-uk"},"ate":{"f":"ate.mp3","src":"youdao-uk"},"athlete":{"f":"athlete.mp3","src":"youdao-uk"},"august":{"f":"august.mp3","src":"youdao-uk"},"aunt":{"f":"aunt.mp3","src":"youdao-uk"},"author":{"f":"author.mp3","src":"youdao-uk"},"autumn":{"f":"autumn.mp3","src":"youdao-uk"},"away":{"f":"away.mp3","src":"youdao-uk"},"awful":{"f":"awful.mp3","src":"youdao-uk"},"back":{"f":"back.mp3","src":"youdao-uk"},"bad":{"f":"bad.mp3","src":"youdao-uk"},"ball":{"f":"ball.mp3","src":"youdao-uk"},"banana":{"f":"banana.mp3","src":"youdao-uk"},"band":{"f":"band.mp3","src":"youdao-uk"},"bank":{"f":"bank.mp3","src":"youdao-uk"},"baseball":{"f":"baseball.mp3","src":"youdao-uk"},"basket":{"f":"basket.mp3","src":"youdao-uk"},"basketball":{"f":"basketball.mp3","src":"youdao-uk"},"bath":{"f":"bath.mp3","src":"youdao-uk"},"bathroom":{"f":"bathroom.mp3","src":"youdao-uk"},"be":{"f":"be.mp3","src":"youdao-uk"},"beach":{"f":"beach.mp3","src":"youdao-uk"},"bear":{"f":"bear.mp3","src":"youdao-uk"},"beard":{"f":"beard.mp3","src":"youdao-uk"},"beautiful":{"f":"beautiful.mp3","src":"youdao-uk"},"because":{"f":"because.mp3","src":"youdao-uk"},"become":{"f":"become.mp3","src":"youdao-uk"},"bed":{"f":"bed.mp3","src":"youdao-uk"},"bedroom":{"f":"bedroom.mp3","src":"youdao-uk"},"beef":{"f":"beef.mp3","src":"youdao-uk"},"before":{"f":"before.mp3","src":"youdao-uk"},"behind":{"f":"behind.mp3","src":"youdao-uk"},"believe":{"f":"believe.mp3","src":"youdao-uk"},"believed":{"f":"believed.mp3","src":"youdao-uk"},"below":{"f":"below.mp3","src":"youdao-uk"},"between":{"f":"between.mp3","src":"youdao-uk"},"big":{"f":"big.mp3","src":"youdao-uk"},"bike":{"f":"bike.mp3","src":"youdao-uk"},"bill":{"f":"bill.mp3","src":"youdao-uk"},"bird":{"f":"bird.mp3","src":"youdao-uk"},"bit":{"f":"bit.mp3","src":"youdao-uk"},"black":{"f":"black.mp3","src":"youdao-uk"},"block":{"f":"block.mp3","src":"youdao-uk"},"blonde":{"f":"blonde.mp3","src":"youdao-uk"},"blue":{"f":"blue.mp3","src":"youdao-uk"},"board":{"f":"board.mp3","src":"youdao-uk"},"boat":{"f":"boat.mp3","src":"youdao-uk"},"body":{"f":"body.mp3","src":"youdao-uk"},"book":{"f":"book.mp3","src":"youdao-uk"},"bored":{"f":"bored.mp3","src":"youdao-uk"},"boring":{"f":"boring.mp3","src":"youdao-uk"},"born":{"f":"born.mp3","src":"youdao-uk"},"bowl":{"f":"bowl.mp3","src":"youdao-uk"},"boy":{"f":"boy.mp3","src":"youdao-uk"},"brazil":{"f":"brazil.mp3","src":"youdao-uk"},"bread":{"f":"bread.mp3","src":"youdao-uk"},"break":{"f":"break.mp3","src":"youdao-uk"},"bridge":{"f":"bridge.mp3","src":"youdao-uk"},"bring":{"f":"bring.mp3","src":"youdao-uk"},"brother":{"f":"brother.mp3","src":"youdao-uk"},"brown":{"f":"brown.mp3","src":"youdao-uk"},"build":{"f":"build.mp3","src":"youdao-uk"},"build robots":{"f":"buildrobots.mp3","src":"youdao-uk-concat"},"burger":{"f":"burger.mp3","src":"youdao-uk"},"bus":{"f":"bus.mp3","src":"youdao-uk"},"busy":{"f":"busy.mp3","src":"youdao-uk"},"but":{"f":"but.mp3","src":"youdao-uk"},"butter":{"f":"butter.mp3","src":"youdao-uk"},"buy":{"f":"buy.mp3","src":"youdao-uk"},"by":{"f":"by.mp3","src":"youdao-uk"},"cable":{"f":"cable.mp3","src":"youdao-uk"},"cable car":{"f":"cablecar.mp3","src":"youdao-uk"},"cake":{"f":"cake.mp3","src":"youdao-uk"},"call":{"f":"call.mp3","src":"youdao-uk"},"called":{"f":"called.mp3","src":"youdao-uk"},"camp":{"f":"camp.mp3","src":"youdao-uk"},"can":{"f":"can.mp3","src":"youdao-uk"},"cap":{"f":"cap.mp3","src":"youdao-uk"},"capital":{"f":"capital.mp3","src":"youdao-uk"},"car":{"f":"car.mp3","src":"youdao-uk"},"care":{"f":"care.mp3","src":"youdao-uk"},"careful":{"f":"careful.mp3","src":"youdao-uk"},"carrier":{"f":"carrier.mp3","src":"youdao-uk"},"carrot":{"f":"carrot.mp3","src":"youdao-uk"},"carrot cake":{"f":"carrotcake.mp3","src":"youdao-uk"},"carry":{"f":"carry.mp3","src":"youdao-uk"},"cat":{"f":"cat.mp3","src":"youdao-uk"},"catch":{"f":"catch.mp3","src":"youdao-uk"},"caught":{"f":"caught.mp3","src":"youdao-uk"},"celebrate":{"f":"celebrate.mp3","src":"youdao-uk"},"celebration":{"f":"celebration.mp3","src":"youdao-uk"},"central":{"f":"central.mp3","src":"youdao-uk"},"centre":{"f":"centre.mp3","src":"youdao-uk"},"century":{"f":"century.mp3","src":"youdao-uk"},"cereal":{"f":"cereal.mp3","src":"youdao-uk"},"ceremony":{"f":"ceremony.mp3","src":"youdao-uk"},"certainly":{"f":"certainly.mp3","src":"youdao-uk"},"championship":{"f":"championship.mp3","src":"youdao-uk"},"chance":{"f":"chance.mp3","src":"youdao-uk"},"changed":{"f":"changed.mp3","src":"youdao-uk"},"channel":{"f":"channel.mp3","src":"youdao-uk"},"charity":{"f":"charity.mp3","src":"youdao-uk"},"chat to friends online":{"f":"chattofriendsonline.mp3","src":"youdao-uk"},"cheap":{"f":"cheap.mp3","src":"youdao-uk"},"cheer":{"f":"cheer.mp3","src":"youdao-uk"},"cheese":{"f":"cheese.mp3","src":"youdao-uk"},"chef":{"f":"chef.mp3","src":"youdao-uk"},"chemist":{"f":"chemist.mp3","src":"youdao-uk"},"chicken":{"f":"chicken.mp3","src":"youdao-uk"},"children":{"f":"children.mp3","src":"youdao-uk"},"chips":{"f":"chips.mp3","src":"youdao-uk"},"chocolate":{"f":"chocolate.mp3","src":"youdao-uk"},"choose":{"f":"choose.mp3","src":"youdao-uk"},"chose":{"f":"chose.mp3","src":"youdao-uk"},"circle":{"f":"circle.mp3","src":"youdao-uk"},"city":{"f":"city.mp3","src":"youdao-uk"},"class":{"f":"class.mp3","src":"youdao-uk"},"classmate":{"f":"classmate.mp3","src":"youdao-uk"},"clean":{"f":"clean.mp3","src":"youdao-uk"},"clean trousers":{"f":"cleantrousers.mp3","src":"youdao-uk-concat"},"clever":{"f":"clever.mp3","src":"youdao-uk"},"climb":{"f":"climb.mp3","src":"youdao-uk"},"clothes":{"f":"clothes.mp3","src":"youdao-uk"},"club":{"f":"club.mp3","src":"youdao-uk"},"coach":{"f":"coach.mp3","src":"youdao-uk"},"coast":{"f":"coast.mp3","src":"youdao-uk"},"coat":{"f":"coat.mp3","src":"youdao-uk"},"coffee":{"f":"coffee.mp3","src":"youdao-uk"},"cold":{"f":"cold.mp3","src":"youdao-uk"},"colour":{"f":"colour.mp3","src":"youdao-uk"},"colourful":{"f":"colourful.mp3","src":"youdao-uk"},"come":{"f":"come.mp3","src":"youdao-uk"},"comfortable":{"f":"comfortable.mp3","src":"youdao-uk"},"coming":{"f":"coming.mp3","src":"youdao-uk"},"competition":{"f":"competition.mp3","src":"youdao-uk"},"completely":{"f":"completely.mp3","src":"youdao-uk"},"computer":{"f":"computer.mp3","src":"youdao-uk"},"concert":{"f":"concert.mp3","src":"youdao-uk"},"connection":{"f":"connection.mp3","src":"youdao-uk"},"cook":{"f":"cook.mp3","src":"youdao-uk"},"cooker":{"f":"cooker.mp3","src":"youdao-uk"},"cool":{"f":"cool.mp3","src":"youdao-uk"},"cost":{"f":"cost.mp3","src":"youdao-uk"},"costume":{"f":"costume.mp3","src":"youdao-uk"},"could":{"f":"could.mp3","src":"youdao-uk"},"country":{"f":"country.mp3","src":"youdao-uk"},"course":{"f":"course.mp3","src":"youdao-uk"},"court":{"f":"court.mp3","src":"youdao-uk"},"cousin":{"f":"cousin.mp3","src":"youdao-uk"},"cover":{"f":"cover.mp3","src":"youdao-uk"},"cow":{"f":"cow.mp3","src":"youdao-uk"},"crazy":{"f":"crazy.mp3","src":"youdao-uk"},"cream":{"f":"cream.mp3","src":"youdao-uk"},"crocodile":{"f":"crocodile.mp3","src":"youdao-uk"},"crowd":{"f":"crowd.mp3","src":"youdao-uk"},"cucumber":{"f":"cucumber.mp3","src":"youdao-uk"},"curly":{"f":"curly.mp3","src":"youdao-uk"},"cycle":{"f":"cycle.mp3","src":"youdao-uk"},"cycling":{"f":"cycling.mp3","src":"youdao-uk"},"dad":{"f":"dad.mp3","src":"youdao-uk"},"dance":{"f":"dance.mp3","src":"youdao-uk"},"dancer":{"f":"dancer.mp3","src":"youdao-uk"},"dancing":{"f":"dancing.mp3","src":"youdao-uk"},"danger":{"f":"danger.mp3","src":"youdao-uk"},"dangerous":{"f":"dangerous.mp3","src":"youdao-uk"},"dark":{"f":"dark.mp3","src":"youdao-uk"},"daughter":{"f":"daughter.mp3","src":"youdao-uk"},"day":{"f":"day.mp3","src":"youdao-uk"},"deal":{"f":"deal.mp3","src":"youdao-uk"},"death":{"f":"death.mp3","src":"youdao-uk"},"december":{"f":"december.mp3","src":"youdao-uk"},"decided":{"f":"decided.mp3","src":"youdao-uk"},"degree":{"f":"degree.mp3","src":"youdao-uk"},"dessert":{"f":"dessert.mp3","src":"youdao-uk"},"died":{"f":"died.mp3","src":"youdao-uk"},"different":{"f":"different.mp3","src":"youdao-uk"},"difficult":{"f":"difficult.mp3","src":"youdao-uk"},"dig":{"f":"dig.mp3","src":"youdao-uk"},"dirty":{"f":"dirty.mp3","src":"youdao-uk"},"disabled":{"f":"disabled.mp3","src":"youdao-uk"},"disease":{"f":"disease.mp3","src":"youdao-uk"},"dive":{"f":"dive.mp3","src":"youdao-uk"},"do":{"f":"do.mp3","src":"youdao-uk"},"do homework":{"f":"dohomework.mp3","src":"youdao-uk"},"do something":{"f":"dosomething.mp3","src":"youdao-uk"},"do taekwondo":{"f":"dotaekwondo.mp3","src":"youdao-uk"},"dog":{"f":"dog.mp3","src":"youdao-uk"},"dolphin":{"f":"dolphin.mp3","src":"youdao-uk"},"down":{"f":"down.mp3","src":"youdao-uk"},"dream":{"f":"dream.mp3","src":"youdao-uk"},"dress":{"f":"dress.mp3","src":"youdao-uk"},"drink":{"f":"drink.mp3","src":"youdao-uk"},"drive":{"f":"drive.mp3","src":"youdao-uk"},"driver":{"f":"driver.mp3","src":"youdao-uk"},"drum":{"f":"drum.mp3","src":"youdao-uk"},"e-reader":{"f":"ereader.mp3","src":"youdao-uk"},"each":{"f":"each.mp3","src":"youdao-uk"},"ear":{"f":"ear.mp3","src":"youdao-uk"},"earring":{"f":"earring.mp3","src":"youdao-uk"},"easier":{"f":"easier.mp3","src":"youdao-uk"},"east":{"f":"east.mp3","src":"youdao-uk"},"easy":{"f":"easy.mp3","src":"youdao-uk"},"eat":{"f":"eat.mp3","src":"youdao-uk"},"ecuador":{"f":"ecuador.mp3","src":"youdao-uk"},"egg":{"f":"egg.mp3","src":"youdao-uk"},"eighth":{"f":"eighth.mp3","src":"youdao-uk"},"either":{"f":"either.mp3","src":"youdao-uk"},"electric":{"f":"electric.mp3","src":"youdao-uk"},"elephant":{"f":"elephant.mp3","src":"youdao-uk"},"eleventh":{"f":"eleventh.mp3","src":"youdao-uk"},"else":{"f":"else.mp3","src":"youdao-uk"},"empty":{"f":"empty.mp3","src":"youdao-uk"},"end":{"f":"end.mp3","src":"youdao-uk"},"engine":{"f":"engine.mp3","src":"youdao-uk"},"english":{"f":"english.mp3","src":"youdao-uk"},"enjoy":{"f":"enjoy.mp3","src":"youdao-uk"},"environment":{"f":"environment.mp3","src":"youdao-uk"},"escalator":{"f":"escalator.mp3","src":"youdao-uk"},"especially":{"f":"especially.mp3","src":"youdao-uk"},"ever":{"f":"ever.mp3","src":"youdao-uk"},"every":{"f":"every.mp3","src":"youdao-uk"},"everybody":{"f":"everybody.mp3","src":"youdao-uk"},"everyone":{"f":"everyone.mp3","src":"youdao-uk"},"everything":{"f":"everything.mp3","src":"youdao-uk"},"exactly":{"f":"exactly.mp3","src":"youdao-uk"},"example":{"f":"example.mp3","src":"youdao-uk"},"excellent":{"f":"excellent.mp3","src":"youdao-uk"},"excited":{"f":"excited.mp3","src":"youdao-uk"},"exciting":{"f":"exciting.mp3","src":"youdao-uk"},"expensive":{"f":"expensive.mp3","src":"youdao-uk"},"expert":{"f":"expert.mp3","src":"youdao-uk"},"extinct":{"f":"extinct.mp3","src":"youdao-uk"},"extra":{"f":"extra.mp3","src":"youdao-uk"},"eye":{"f":"eye.mp3","src":"youdao-uk"},"face":{"f":"face.mp3","src":"youdao-uk"},"factory":{"f":"factory.mp3","src":"youdao-uk"},"fail":{"f":"fail.mp3","src":"youdao-uk"},"fall":{"f":"fall.mp3","src":"youdao-uk"},"family":{"f":"family.mp3","src":"youdao-uk"},"famous":{"f":"famous.mp3","src":"youdao-uk"},"fan":{"f":"fan.mp3","src":"youdao-uk"},"fantastic":{"f":"fantastic.mp3","src":"youdao-uk"},"farm":{"f":"farm.mp3","src":"youdao-uk"},"farmer":{"f":"farmer.mp3","src":"youdao-uk"},"fast":{"f":"fast.mp3","src":"youdao-uk"},"father":{"f":"father.mp3","src":"youdao-uk"},"favourite":{"f":"favourite.mp3","src":"youdao-uk"},"february":{"f":"february.mp3","src":"youdao-uk"},"feed":{"f":"feed.mp3","src":"youdao-uk"},"feel":{"f":"feel.mp3","src":"youdao-uk"},"feet":{"f":"feet.mp3","src":"youdao-uk"},"fell":{"f":"fell.mp3","src":"youdao-uk"},"ferry":{"f":"ferry.mp3","src":"youdao-uk"},"festival":{"f":"festival.mp3","src":"youdao-uk"},"few":{"f":"few.mp3","src":"youdao-uk"},"fiddle":{"f":"fiddle.mp3","src":"youdao-uk"},"field":{"f":"field.mp3","src":"youdao-uk"},"fifth":{"f":"fifth.mp3","src":"youdao-uk"},"figure":{"f":"figure.mp3","src":"youdao-uk"},"film":{"f":"film.mp3","src":"youdao-uk"},"find":{"f":"find.mp3","src":"youdao-uk"},"finish":{"f":"finish.mp3","src":"youdao-uk"},"first":{"f":"first.mp3","src":"youdao-uk"},"fish":{"f":"fish.mp3","src":"youdao-uk"},"flag":{"f":"flag.mp3","src":"youdao-uk"},"flight":{"f":"flight.mp3","src":"youdao-uk"},"floor":{"f":"floor.mp3","src":"youdao-uk"},"fly":{"f":"fly.mp3","src":"youdao-uk"},"folk":{"f":"folk.mp3","src":"youdao-uk"},"food":{"f":"food.mp3","src":"youdao-uk"},"foot":{"f":"foot.mp3","src":"youdao-uk"},"football":{"f":"football.mp3","src":"youdao-uk"},"footballer":{"f":"footballer.mp3","src":"youdao-uk"},"for":{"f":"for.mp3","src":"youdao-uk"},"forest":{"f":"forest.mp3","src":"youdao-uk"},"form":{"f":"form.mp3","src":"youdao-uk"},"fountain":{"f":"fountain.mp3","src":"youdao-uk"},"fourth":{"f":"fourth.mp3","src":"youdao-uk"},"free":{"f":"free.mp3","src":"youdao-uk"},"fridge":{"f":"fridge.mp3","src":"youdao-uk"},"friend":{"f":"friend.mp3","src":"youdao-uk"},"friendly":{"f":"friendly.mp3","src":"youdao-uk"},"from":{"f":"from.mp3","src":"youdao-uk"},"front":{"f":"front.mp3","src":"youdao-uk"},"fruit":{"f":"fruit.mp3","src":"youdao-uk"},"fun":{"f":"fun.mp3","src":"youdao-uk"},"funny":{"f":"funny.mp3","src":"youdao-uk"},"further":{"f":"further.mp3","src":"youdao-uk"},"game":{"f":"game.mp3","src":"youdao-uk"},"games console":{"f":"gamesconsole.mp3","src":"youdao-uk"},"garage":{"f":"garage.mp3","src":"youdao-uk"},"garden":{"f":"garden.mp3","src":"youdao-uk"},"geography":{"f":"geography.mp3","src":"youdao-uk"},"get":{"f":"get.mp3","src":"youdao-uk"},"get angry":{"f":"getangry.mp3","src":"youdao-uk"},"get excited":{"f":"getexcited.mp3","src":"youdao-uk"},"give":{"f":"give.mp3","src":"youdao-uk"},"giving":{"f":"giving.mp3","src":"youdao-uk"},"glasses":{"f":"glasses.mp3","src":"youdao-uk"},"go":{"f":"go.mp3","src":"youdao-uk"},"go away":{"f":"goaway.mp3","src":"youdao-uk"},"go on holiday":{"f":"goonholiday.mp3","src":"youdao-uk"},"go shopping":{"f":"goshopping.mp3","src":"youdao-uk"},"goat":{"f":"goat.mp3","src":"youdao-uk"},"gold":{"f":"gold.mp3","src":"youdao-uk"},"good":{"f":"good.mp3","src":"youdao-uk"},"gorilla":{"f":"gorilla.mp3","src":"youdao-uk"},"gps":{"f":"gps.mp3","src":"youdao-uk"},"grandfather":{"f":"grandfather.mp3","src":"youdao-uk"},"grandma":{"f":"grandma.mp3","src":"youdao-uk"},"grandmother":{"f":"grandmother.mp3","src":"youdao-uk"},"grandparent":{"f":"grandparent.mp3","src":"youdao-uk"},"great":{"f":"great.mp3","src":"youdao-uk"},"green":{"f":"green.mp3","src":"youdao-uk"},"grew":{"f":"grew.mp3","src":"youdao-uk"},"grey":{"f":"grey.mp3","src":"youdao-uk"},"ground":{"f":"ground.mp3","src":"youdao-uk"},"group":{"f":"group.mp3","src":"youdao-uk"},"guess":{"f":"guess.mp3","src":"youdao-uk"},"guide":{"f":"guide.mp3","src":"youdao-uk"},"guitar":{"f":"guitar.mp3","src":"youdao-uk"},"half":{"f":"half.mp3","src":"youdao-uk"},"half past (eight).":{"f":"halfpasteight.mp3","src":"youdao-uk-concat"},"hall":{"f":"hall.mp3","src":"youdao-uk"},"hand":{"f":"hand.mp3","src":"youdao-uk"},"hang out with friends":{"f":"hangoutwithfriends.mp3","src":"youdao-uk"},"happen":{"f":"happen.mp3","src":"youdao-uk"},"happy":{"f":"happy.mp3","src":"youdao-uk"},"hard":{"f":"hard.mp3","src":"youdao-uk"},"harry":{"f":"harry.mp3","src":"youdao-uk"},"hat":{"f":"hat.mp3","src":"youdao-uk"},"hate":{"f":"hate.mp3","src":"youdao-uk"},"have":{"f":"have.mp3","src":"youdao-uk"},"have a good time":{"f":"haveagoodtime.mp3","src":"youdao-uk"},"have a shower":{"f":"haveashower.mp3","src":"youdao-uk"},"he":{"f":"he.mp3","src":"youdao-uk"},"head":{"f":"head.mp3","src":"youdao-uk"},"headband":{"f":"headband.mp3","src":"youdao-uk"},"headphones":{"f":"headphones.mp3","src":"youdao-uk"},"healthier":{"f":"healthier.mp3","src":"youdao-uk"},"hear":{"f":"hear.mp3","src":"youdao-uk"},"heard":{"f":"heard.mp3","src":"youdao-uk"},"helicopter":{"f":"helicopter.mp3","src":"youdao-uk"},"hello":{"f":"hello.mp3","src":"youdao-uk"},"help":{"f":"help.mp3","src":"youdao-uk"},"her":{"f":"her.mp3","src":"youdao-uk"},"here":{"f":"here.mp3","src":"youdao-uk"},"hero":{"f":"hero.mp3","src":"youdao-uk"},"hey":{"f":"hey.mp3","src":"youdao-uk"},"hi":{"f":"hi.mp3","src":"youdao-uk"},"high":{"f":"high.mp3","src":"youdao-uk"},"hill":{"f":"hill.mp3","src":"youdao-uk"},"him":{"f":"him.mp3","src":"youdao-uk"},"his":{"f":"his.mp3","src":"youdao-uk"},"history":{"f":"history.mp3","src":"youdao-uk"},"hit":{"f":"hit.mp3","src":"youdao-uk"},"hobby":{"f":"hobby.mp3","src":"youdao-uk"},"hold":{"f":"hold.mp3","src":"youdao-uk"},"holiday":{"f":"holiday.mp3","src":"youdao-uk"},"home":{"f":"home.mp3","src":"youdao-uk"},"homework":{"f":"homework.mp3","src":"youdao-uk"},"honey":{"f":"honey.mp3","src":"youdao-uk"},"horrible":{"f":"horrible.mp3","src":"youdao-uk"},"horse":{"f":"horse.mp3","src":"youdao-uk"},"hot":{"f":"hot.mp3","src":"youdao-uk"},"hotel":{"f":"hotel.mp3","src":"youdao-uk"},"hour":{"f":"hour.mp3","src":"youdao-uk"},"house":{"f":"house.mp3","src":"youdao-uk"},"how":{"f":"how.mp3","src":"youdao-uk"},"human":{"f":"human.mp3","src":"youdao-uk"},"hungry":{"f":"hungry.mp3","src":"youdao-uk"},"hurry":{"f":"hurry.mp3","src":"youdao-uk"},"husband":{"f":"husband.mp3","src":"youdao-uk"},"i":{"f":"i.mp3","src":"youdao-uk"},"ice":{"f":"ice.mp3","src":"youdao-uk"},"idea":{"f":"idea.mp3","src":"youdao-uk"},"if":{"f":"if.mp3","src":"youdao-uk"},"ill":{"f":"ill.mp3","src":"youdao-uk"},"imagine":{"f":"imagine.mp3","src":"youdao-uk"},"important":{"f":"important.mp3","src":"youdao-uk"},"in":{"f":"in.mp3","src":"youdao-uk"},"in front of":{"f":"infrontof.mp3","src":"youdao-uk"},"indonesia":{"f":"indonesia.mp3","src":"youdao-uk"},"indoor":{"f":"indoor.mp3","src":"youdao-uk"},"information":{"f":"information.mp3","src":"youdao-uk"},"inside":{"f":"inside.mp3","src":"youdao-uk"},"instrument":{"f":"instrument.mp3","src":"youdao-uk"},"intelligent":{"f":"intelligent.mp3","src":"youdao-uk"},"interested":{"f":"interested.mp3","src":"youdao-uk"},"interesting":{"f":"interesting.mp3","src":"youdao-uk"},"internet":{"f":"internet.mp3","src":"youdao-uk"},"into":{"f":"into.mp3","src":"youdao-uk"},"island":{"f":"island.mp3","src":"youdao-uk"},"it":{"f":"it.mp3","src":"youdao-uk"},"it's cloudy.":{"f":"itscloudy.mp3","src":"youdao-uk"},"it's cold.":{"f":"itscold.mp3","src":"youdao-uk"},"it's hot.":{"f":"itshot.mp3","src":"youdao-uk"},"it's raining.":{"f":"itsraining.mp3","src":"youdao-uk"},"it's snowing.":{"f":"itssnowing.mp3","src":"youdao-uk"},"it's sunny.":{"f":"itssunny.mp3","src":"youdao-uk"},"it's warm.":{"f":"itswarm.mp3","src":"youdao-uk"},"it's windy.":{"f":"itswindy.mp3","src":"youdao-uk"},"its":{"f":"its.mp3","src":"youdao-uk"},"jacket":{"f":"jacket.mp3","src":"youdao-uk"},"jam":{"f":"jam.mp3","src":"youdao-uk"},"january":{"f":"january.mp3","src":"youdao-uk"},"japan":{"f":"japan.mp3","src":"youdao-uk"},"jeans":{"f":"jeans.mp3","src":"youdao-uk"},"join":{"f":"join.mp3","src":"youdao-uk"},"joke":{"f":"joke.mp3","src":"youdao-uk"},"joking":{"f":"joking.mp3","src":"youdao-uk"},"journey":{"f":"journey.mp3","src":"youdao-uk"},"juice":{"f":"juice.mp3","src":"youdao-uk"},"julia":{"f":"julia.mp3","src":"youdao-uk"},"july":{"f":"july.mp3","src":"youdao-uk"},"jump":{"f":"jump.mp3","src":"youdao-uk"},"jumper":{"f":"jumper.mp3","src":"youdao-uk"},"june":{"f":"june.mp3","src":"youdao-uk"},"just":{"f":"just.mp3","src":"youdao-uk"},"keep":{"f":"keep.mp3","src":"youdao-uk"},"kick":{"f":"kick.mp3","src":"youdao-uk"},"kid":{"f":"kid.mp3","src":"youdao-uk"},"kill":{"f":"kill.mp3","src":"youdao-uk"},"killed":{"f":"killed.mp3","src":"youdao-uk"},"kilometre":{"f":"kilometre.mp3","src":"youdao-uk"},"kind":{"f":"kind.mp3","src":"youdao-uk"},"kitchen":{"f":"kitchen.mp3","src":"youdao-uk"},"knee":{"f":"knee.mp3","src":"youdao-uk"},"knock":{"f":"knock.mp3","src":"youdao-uk"},"know":{"f":"know.mp3","src":"youdao-uk"},"lake":{"f":"lake.mp3","src":"youdao-uk"},"lamb":{"f":"lamb.mp3","src":"youdao-uk"},"land":{"f":"land.mp3","src":"youdao-uk"},"laptop":{"f":"laptop.mp3","src":"youdao-uk"},"large":{"f":"large.mp3","src":"youdao-uk"},"last":{"f":"last.mp3","src":"youdao-uk"},"late":{"f":"late.mp3","src":"youdao-uk"},"later":{"f":"later.mp3","src":"youdao-uk"},"learn":{"f":"learn.mp3","src":"youdao-uk"},"leave":{"f":"leave.mp3","src":"youdao-uk"},"leaves":{"f":"leaves.mp3","src":"youdao-uk"},"leaving":{"f":"leaving.mp3","src":"youdao-uk"},"leg":{"f":"leg.mp3","src":"youdao-uk"},"lesson":{"f":"lesson.mp3","src":"youdao-uk"},"let":{"f":"let.mp3","src":"youdao-uk"},"level":{"f":"level.mp3","src":"youdao-uk"},"library":{"f":"library.mp3","src":"youdao-uk"},"life":{"f":"life.mp3","src":"youdao-uk"},"lights":{"f":"lights.mp3","src":"youdao-uk"},"like":{"f":"like.mp3","src":"youdao-uk"},"listen":{"f":"listen.mp3","src":"youdao-uk"},"listen to music":{"f":"listentomusic.mp3","src":"youdao-uk"},"little":{"f":"little.mp3","src":"youdao-uk"},"live":{"f":"live.mp3","src":"youdao-uk"},"lived":{"f":"lived.mp3","src":"youdao-uk"},"living":{"f":"living.mp3","src":"youdao-uk"},"living room":{"f":"livingroom.mp3","src":"youdao-uk"},"load":{"f":"load.mp3","src":"youdao-uk"},"local":{"f":"local.mp3","src":"youdao-uk"},"log":{"f":"log.mp3","src":"youdao-uk"},"london":{"f":"london.mp3","src":"youdao-uk"},"long":{"f":"long.mp3","src":"youdao-uk"},"look":{"f":"look.mp3","src":"youdao-uk"},"lot":{"f":"lot.mp3","src":"youdao-uk"},"lots":{"f":"lots.mp3","src":"youdao-uk"},"love":{"f":"love.mp3","src":"youdao-uk"},"lovely":{"f":"lovely.mp3","src":"youdao-uk"},"luck":{"f":"luck.mp3","src":"youdao-uk"},"lucky":{"f":"lucky.mp3","src":"youdao-uk"},"lunch":{"f":"lunch.mp3","src":"youdao-uk"},"make":{"f":"make.mp3","src":"youdao-uk"},"make a mistake":{"f":"makeamistake.mp3","src":"youdao-uk"},"make a noise":{"f":"makeanoise.mp3","src":"youdao-uk"},"man":{"f":"man.mp3","src":"youdao-uk"},"managed":{"f":"managed.mp3","src":"youdao-uk"},"many":{"f":"many.mp3","src":"youdao-uk"},"marathon":{"f":"marathon.mp3","src":"youdao-uk"},"march":{"f":"march.mp3","src":"youdao-uk"},"mark":{"f":"mark.mp3","src":"youdao-uk"},"married":{"f":"married.mp3","src":"youdao-uk"},"match":{"f":"match.mp3","src":"youdao-uk"},"may":{"f":"may.mp3","src":"youdao-uk"},"maybe":{"f":"maybe.mp3","src":"youdao-uk"},"me":{"f":"me.mp3","src":"youdao-uk"},"mean":{"f":"mean.mp3","src":"youdao-uk"},"meat":{"f":"meat.mp3","src":"youdao-uk"},"meet":{"f":"meet.mp3","src":"youdao-uk"},"member":{"f":"member.mp3","src":"youdao-uk"},"men":{"f":"men.mp3","src":"youdao-uk"},"menu":{"f":"menu.mp3","src":"youdao-uk"},"mess":{"f":"mess.mp3","src":"youdao-uk"},"meter":{"f":"meter.mp3","src":"youdao-uk"},"metre":{"f":"metre.mp3","src":"youdao-uk"},"mexico":{"f":"mexico.mp3","src":"youdao-uk"},"mid":{"f":"mid.mp3","src":"youdao-uk"},"middle":{"f":"middle.mp3","src":"youdao-uk"},"midnight":{"f":"midnight.mp3","src":"youdao-uk"},"milk":{"f":"milk.mp3","src":"youdao-uk"},"mind":{"f":"mind.mp3","src":"youdao-uk"},"minute":{"f":"minute.mp3","src":"youdao-uk"},"miss":{"f":"miss.mp3","src":"youdao-uk"},"moment":{"f":"moment.mp3","src":"youdao-uk"},"money":{"f":"money.mp3","src":"youdao-uk"},"month":{"f":"month.mp3","src":"youdao-uk"},"more":{"f":"more.mp3","src":"youdao-uk"},"morning":{"f":"morning.mp3","src":"youdao-uk"},"most":{"f":"most.mp3","src":"youdao-uk"},"mother":{"f":"mother.mp3","src":"youdao-uk"},"motorbike":{"f":"motorbike.mp3","src":"youdao-uk"},"motorcycle":{"f":"motorcycle.mp3","src":"youdao-uk"},"mount":{"f":"mount.mp3","src":"youdao-uk"},"mountain":{"f":"mountain.mp3","src":"youdao-uk"},"moustache":{"f":"moustache.mp3","src":"youdao-uk"},"mouth":{"f":"mouth.mp3","src":"youdao-uk"},"move":{"f":"move.mp3","src":"youdao-uk"},"movie":{"f":"movie.mp3","src":"youdao-uk"},"moving":{"f":"moving.mp3","src":"youdao-uk"},"much":{"f":"much.mp3","src":"youdao-uk"},"mum":{"f":"mum.mp3","src":"youdao-uk"},"museum":{"f":"museum.mp3","src":"youdao-uk"},"mushroom":{"f":"mushroom.mp3","src":"youdao-uk"},"music":{"f":"music.mp3","src":"youdao-uk"},"musical":{"f":"musical.mp3","src":"youdao-uk"},"musician":{"f":"musician.mp3","src":"youdao-uk"},"must":{"f":"must.mp3","src":"youdao-uk"},"my":{"f":"my.mp3","src":"youdao-uk"},"myself":{"f":"myself.mp3","src":"youdao-uk"},"name":{"f":"name.mp3","src":"youdao-uk"},"named":{"f":"named.mp3","src":"youdao-uk"},"national":{"f":"national.mp3","src":"youdao-uk"},"near":{"f":"near.mp3","src":"youdao-uk"},"need":{"f":"need.mp3","src":"youdao-uk"},"neither":{"f":"neither.mp3","src":"youdao-uk"},"never":{"f":"never.mp3","src":"youdao-uk"},"new":{"f":"new.mp3","src":"youdao-uk"},"next":{"f":"next.mp3","src":"youdao-uk"},"next to":{"f":"nextto.mp3","src":"youdao-uk"},"nice":{"f":"nice.mp3","src":"youdao-uk"},"night":{"f":"night.mp3","src":"youdao-uk"},"ninth":{"f":"ninth.mp3","src":"youdao-uk"},"no":{"f":"no.mp3","src":"youdao-uk"},"noise":{"f":"noise.mp3","src":"youdao-uk"},"non":{"f":"non.mp3","src":"youdao-uk"},"north":{"f":"north.mp3","src":"youdao-uk"},"nose":{"f":"nose.mp3","src":"youdao-uk"},"not":{"f":"not.mp3","src":"youdao-uk"},"november":{"f":"november.mp3","src":"youdao-uk"},"now":{"f":"now.mp3","src":"youdao-uk"},"number":{"f":"number.mp3","src":"youdao-uk"},"nut":{"f":"nut.mp3","src":"youdao-uk"},"october":{"f":"october.mp3","src":"youdao-uk"},"of":{"f":"of.mp3","src":"youdao-uk"},"off":{"f":"off.mp3","src":"youdao-uk"},"offer":{"f":"offer.mp3","src":"youdao-uk"},"often":{"f":"often.mp3","src":"youdao-uk"},"oh":{"f":"oh.mp3","src":"youdao-uk"},"ok":{"f":"ok.mp3","src":"youdao-uk"},"okay":{"f":"okay.mp3","src":"youdao-uk"},"old":{"f":"old.mp3","src":"youdao-uk"},"olympic":{"f":"olympic.mp3","src":"youdao-uk"},"omelette":{"f":"omelette.mp3","src":"youdao-uk"},"on":{"f":"on.mp3","src":"youdao-uk"},"on the corner of":{"f":"onthecornerof.mp3","src":"youdao-uk"},"one":{"f":"one.mp3","src":"youdao-uk"},"onion":{"f":"onion.mp3","src":"youdao-uk"},"online":{"f":"online.mp3","src":"youdao-uk"},"only":{"f":"only.mp3","src":"youdao-uk"},"onto":{"f":"onto.mp3","src":"youdao-uk"},"open":{"f":"open.mp3","src":"youdao-uk"},"opposite":{"f":"opposite.mp3","src":"youdao-uk"},"or":{"f":"or.mp3","src":"youdao-uk"},"orange":{"f":"orange.mp3","src":"youdao-uk"},"orange juice":{"f":"orangejuice.mp3","src":"youdao-uk"},"order":{"f":"order.mp3","src":"youdao-uk"},"other":{"f":"other.mp3","src":"youdao-uk"},"our":{"f":"our.mp3","src":"youdao-uk"},"out":{"f":"out.mp3","src":"youdao-uk"},"outside":{"f":"outside.mp3","src":"youdao-uk"},"oven":{"f":"oven.mp3","src":"youdao-uk"},"over":{"f":"over.mp3","src":"youdao-uk"},"own":{"f":"own.mp3","src":"youdao-uk"},"owner":{"f":"owner.mp3","src":"youdao-uk"},"paid":{"f":"paid.mp3","src":"youdao-uk"},"paint":{"f":"paint.mp3","src":"youdao-uk"},"palace":{"f":"palace.mp3","src":"youdao-uk"},"parent":{"f":"parent.mp3","src":"youdao-uk"},"park":{"f":"park.mp3","src":"youdao-uk"},"parrot":{"f":"parrot.mp3","src":"youdao-uk"},"part":{"f":"part.mp3","src":"youdao-uk"},"passenger":{"f":"passenger.mp3","src":"youdao-uk"},"past":{"f":"past.mp3","src":"youdao-uk"},"path":{"f":"path.mp3","src":"youdao-uk"},"pavement":{"f":"pavement.mp3","src":"youdao-uk"},"peak":{"f":"peak.mp3","src":"youdao-uk"},"people":{"f":"people.mp3","src":"youdao-uk"},"pepper":{"f":"pepper.mp3","src":"youdao-uk"},"per":{"f":"per.mp3","src":"youdao-uk"},"perform":{"f":"perform.mp3","src":"youdao-uk"},"performance":{"f":"performance.mp3","src":"youdao-uk"},"perhaps":{"f":"perhaps.mp3","src":"youdao-uk"},"person":{"f":"person.mp3","src":"youdao-uk"},"phone":{"f":"phone.mp3","src":"youdao-uk"},"pillow":{"f":"pillow.mp3","src":"youdao-uk"},"pin":{"f":"pin.mp3","src":"youdao-uk"},"pizza":{"f":"pizza.mp3","src":"youdao-uk"},"place":{"f":"place.mp3","src":"youdao-uk"},"plan":{"f":"plan.mp3","src":"youdao-uk"},"plane":{"f":"plane.mp3","src":"youdao-uk"},"plant":{"f":"plant.mp3","src":"youdao-uk"},"plate":{"f":"plate.mp3","src":"youdao-uk"},"platform":{"f":"platform.mp3","src":"youdao-uk"},"play":{"f":"play.mp3","src":"youdao-uk"},"play basketball":{"f":"playbasketball.mp3","src":"youdao-uk"},"play computer games":{"f":"playcomputergames.mp3","src":"youdao-uk"},"play sport":{"f":"playsport.mp3","src":"youdao-uk"},"play volleyball":{"f":"playvolleyball.mp3","src":"youdao-uk"},"player":{"f":"player.mp3","src":"youdao-uk"},"please":{"f":"please.mp3","src":"youdao-uk"},"pleased":{"f":"pleased.mp3","src":"youdao-uk"},"point":{"f":"point.mp3","src":"youdao-uk"},"police":{"f":"police.mp3","src":"youdao-uk"},"poor":{"f":"poor.mp3","src":"youdao-uk"},"popular":{"f":"popular.mp3","src":"youdao-uk"},"positive":{"f":"positive.mp3","src":"youdao-uk"},"post office":{"f":"postoffice.mp3","src":"youdao-uk"},"potato":{"f":"potato.mp3","src":"youdao-uk"},"power":{"f":"power.mp3","src":"youdao-uk"},"practice":{"f":"practice.mp3","src":"youdao-uk"},"prefer":{"f":"prefer.mp3","src":"youdao-uk"},"presenter":{"f":"presenter.mp3","src":"youdao-uk"},"president":{"f":"president.mp3","src":"youdao-uk"},"prize":{"f":"prize.mp3","src":"youdao-uk"},"probably":{"f":"probably.mp3","src":"youdao-uk"},"problem":{"f":"problem.mp3","src":"youdao-uk"},"programme":{"f":"programme.mp3","src":"youdao-uk"},"proud":{"f":"proud.mp3","src":"youdao-uk"},"public":{"f":"public.mp3","src":"youdao-uk"},"pulled":{"f":"pulled.mp3","src":"youdao-uk"},"push":{"f":"push.mp3","src":"youdao-uk"},"put":{"f":"put.mp3","src":"youdao-uk"},"quarter":{"f":"quarter.mp3","src":"youdao-uk"},"quarter past (ten).":{"f":"quarterpastten.mp3","src":"youdao-uk-concat"},"quarter to (one).":{"f":"quartertoone.mp3","src":"youdao-uk-concat"},"quick":{"f":"quick.mp3","src":"youdao-uk"},"quickly":{"f":"quickly.mp3","src":"youdao-uk"},"quiet":{"f":"quiet.mp3","src":"youdao-uk"},"quite":{"f":"quite.mp3","src":"youdao-uk"},"rabbit":{"f":"rabbit.mp3","src":"youdao-uk"},"race":{"f":"race.mp3","src":"youdao-uk"},"racket":{"f":"racket.mp3","src":"youdao-uk"},"rain":{"f":"rain.mp3","src":"youdao-uk"},"read":{"f":"read.mp3","src":"youdao-uk"},"ready":{"f":"ready.mp3","src":"youdao-uk"},"real":{"f":"real.mp3","src":"youdao-uk"},"really":{"f":"really.mp3","src":"youdao-uk"},"record":{"f":"record.mp3","src":"youdao-uk"},"red":{"f":"red.mp3","src":"youdao-uk"},"relax":{"f":"relax.mp3","src":"youdao-uk"},"remember":{"f":"remember.mp3","src":"youdao-uk"},"rent":{"f":"rent.mp3","src":"youdao-uk"},"rescue":{"f":"rescue.mp3","src":"youdao-uk"},"research":{"f":"research.mp3","src":"youdao-uk"},"restaurant":{"f":"restaurant.mp3","src":"youdao-uk"},"result":{"f":"result.mp3","src":"youdao-uk"},"return":{"f":"return.mp3","src":"youdao-uk"},"ride":{"f":"ride.mp3","src":"youdao-uk"},"right":{"f":"right.mp3","src":"youdao-uk"},"river":{"f":"river.mp3","src":"youdao-uk"},"road":{"f":"road.mp3","src":"youdao-uk"},"rock":{"f":"rock.mp3","src":"youdao-uk"},"roll":{"f":"roll.mp3","src":"youdao-uk"},"room":{"f":"room.mp3","src":"youdao-uk"},"rose":{"f":"rose.mp3","src":"youdao-uk"},"round":{"f":"round.mp3","src":"youdao-uk"},"rugby":{"f":"rugby.mp3","src":"youdao-uk"},"rule":{"f":"rule.mp3","src":"youdao-uk"},"run":{"f":"run.mp3","src":"youdao-uk"},"russia":{"f":"russia.mp3","src":"youdao-uk"},"sad":{"f":"sad.mp3","src":"youdao-uk"},"safe":{"f":"safe.mp3","src":"youdao-uk"},"sail":{"f":"sail.mp3","src":"youdao-uk"},"salad":{"f":"salad.mp3","src":"youdao-uk"},"sally":{"f":"sally.mp3","src":"youdao-uk"},"sam":{"f":"sam.mp3","src":"youdao-uk"},"same":{"f":"same.mp3","src":"youdao-uk"},"sandwich":{"f":"sandwich.mp3","src":"youdao-uk"},"saturday":{"f":"saturday.mp3","src":"youdao-uk"},"saved":{"f":"saved.mp3","src":"youdao-uk"},"say":{"f":"say.mp3","src":"youdao-uk"},"scared":{"f":"scared.mp3","src":"youdao-uk"},"school":{"f":"school.mp3","src":"youdao-uk"},"science":{"f":"science.mp3","src":"youdao-uk"},"scientist":{"f":"scientist.mp3","src":"youdao-uk"},"scooter":{"f":"scooter.mp3","src":"youdao-uk"},"score":{"f":"score.mp3","src":"youdao-uk"},"sea":{"f":"sea.mp3","src":"youdao-uk"},"season":{"f":"season.mp3","src":"youdao-uk"},"seat":{"f":"seat.mp3","src":"youdao-uk"},"second":{"f":"second.mp3","src":"youdao-uk"},"see":{"f":"see.mp3","src":"youdao-uk"},"september":{"f":"september.mp3","src":"youdao-uk"},"sequencing":{"f":"sequencing.mp3","src":"youdao-uk"},"seventh":{"f":"seventh.mp3","src":"youdao-uk"},"shape":{"f":"shape.mp3","src":"youdao-uk"},"sharing":{"f":"sharing.mp3","src":"youdao-uk"},"shark":{"f":"shark.mp3","src":"youdao-uk"},"she":{"f":"she.mp3","src":"youdao-uk"},"sheep":{"f":"sheep.mp3","src":"youdao-uk"},"shirt":{"f":"shirt.mp3","src":"youdao-uk"},"shoes":{"f":"shoes.mp3","src":"youdao-uk"},"shop":{"f":"shop.mp3","src":"youdao-uk"},"shopping":{"f":"shopping.mp3","src":"youdao-uk"},"short":{"f":"short.mp3","src":"youdao-uk"},"shorts":{"f":"shorts.mp3","src":"youdao-uk"},"shoulder":{"f":"shoulder.mp3","src":"youdao-uk"},"shoulders":{"f":"shoulders.mp3","src":"youdao-uk"},"shout":{"f":"shout.mp3","src":"youdao-uk"},"show":{"f":"show.mp3","src":"youdao-uk"},"shower":{"f":"shower.mp3","src":"youdao-uk"},"side":{"f":"side.mp3","src":"youdao-uk"},"sing":{"f":"sing.mp3","src":"youdao-uk"},"singer":{"f":"singer.mp3","src":"youdao-uk"},"single":{"f":"single.mp3","src":"youdao-uk"},"sister":{"f":"sister.mp3","src":"youdao-uk"},"sit":{"f":"sit.mp3","src":"youdao-uk"},"sixth":{"f":"sixth.mp3","src":"youdao-uk"},"skateboard":{"f":"skateboard.mp3","src":"youdao-uk"},"ski":{"f":"ski.mp3","src":"youdao-uk"},"skirt":{"f":"skirt.mp3","src":"youdao-uk"},"sky":{"f":"sky.mp3","src":"youdao-uk"},"skydiving":{"f":"skydiving.mp3","src":"youdao-uk"},"slam":{"f":"slam.mp3","src":"youdao-uk"},"slow":{"f":"slow.mp3","src":"youdao-uk"},"small":{"f":"small.mp3","src":"youdao-uk"},"smart":{"f":"smart.mp3","src":"youdao-uk"},"smart trousers":{"f":"smarttrousers.mp3","src":"youdao-uk"},"smartphone":{"f":"smartphone.mp3","src":"youdao-uk"},"smell":{"f":"smell.mp3","src":"youdao-uk"},"smile":{"f":"smile.mp3","src":"youdao-uk"},"snake":{"f":"snake.mp3","src":"youdao-uk"},"snow":{"f":"snow.mp3","src":"youdao-uk"},"snowboard":{"f":"snowboard.mp3","src":"youdao-uk"},"so":{"f":"so.mp3","src":"youdao-uk"},"socks":{"f":"socks.mp3","src":"youdao-uk"},"sofa":{"f":"sofa.mp3","src":"youdao-uk"},"soft":{"f":"soft.mp3","src":"youdao-uk"},"some":{"f":"some.mp3","src":"youdao-uk"},"something":{"f":"something.mp3","src":"youdao-uk"},"sometimes":{"f":"sometimes.mp3","src":"youdao-uk"},"son":{"f":"son.mp3","src":"youdao-uk"},"song":{"f":"song.mp3","src":"youdao-uk"},"soon":{"f":"soon.mp3","src":"youdao-uk"},"sorry":{"f":"sorry.mp3","src":"youdao-uk"},"sort":{"f":"sort.mp3","src":"youdao-uk"},"sound":{"f":"sound.mp3","src":"youdao-uk"},"soup":{"f":"soup.mp3","src":"youdao-uk"},"south":{"f":"south.mp3","src":"youdao-uk"},"south africa":{"f":"southafrica.mp3","src":"youdao-uk"},"southeast":{"f":"southeast.mp3","src":"youdao-uk"},"space":{"f":"space.mp3","src":"youdao-uk"},"spacecraft":{"f":"spacecraft.mp3","src":"youdao-uk"},"spain":{"f":"spain.mp3","src":"youdao-uk"},"speak":{"f":"speak.mp3","src":"youdao-uk"},"special":{"f":"special.mp3","src":"youdao-uk"},"speed":{"f":"speed.mp3","src":"youdao-uk"},"spin":{"f":"spin.mp3","src":"youdao-uk"},"splash":{"f":"splash.mp3","src":"youdao-uk"},"sport":{"f":"sport.mp3","src":"youdao-uk"},"spring":{"f":"spring.mp3","src":"youdao-uk"},"square":{"f":"square.mp3","src":"youdao-uk"},"squash":{"f":"squash.mp3","src":"youdao-uk"},"stage":{"f":"stage.mp3","src":"youdao-uk"},"stamp":{"f":"stamp.mp3","src":"youdao-uk"},"stand":{"f":"stand.mp3","src":"youdao-uk"},"star":{"f":"star.mp3","src":"youdao-uk"},"start":{"f":"start.mp3","src":"youdao-uk"},"station":{"f":"station.mp3","src":"youdao-uk"},"statue":{"f":"statue.mp3","src":"youdao-uk"},"stay":{"f":"stay.mp3","src":"youdao-uk"},"steak":{"f":"steak.mp3","src":"youdao-uk"},"step":{"f":"step.mp3","src":"youdao-uk"},"still":{"f":"still.mp3","src":"youdao-uk"},"stop":{"f":"stop.mp3","src":"youdao-uk"},"story":{"f":"story.mp3","src":"youdao-uk"},"straight":{"f":"straight.mp3","src":"youdao-uk"},"strait":{"f":"strait.mp3","src":"youdao-uk"},"strange":{"f":"strange.mp3","src":"youdao-uk"},"strawberry":{"f":"strawberry.mp3","src":"youdao-uk"},"stripe":{"f":"stripe.mp3","src":"youdao-uk"},"student":{"f":"student.mp3","src":"youdao-uk"},"studio":{"f":"studio.mp3","src":"youdao-uk"},"study":{"f":"study.mp3","src":"youdao-uk"},"stuff":{"f":"stuff.mp3","src":"youdao-uk"},"stupid":{"f":"stupid.mp3","src":"youdao-uk"},"submarine":{"f":"submarine.mp3","src":"youdao-uk"},"sudan":{"f":"sudan.mp3","src":"youdao-uk"},"suddenly":{"f":"suddenly.mp3","src":"youdao-uk"},"suit":{"f":"suit.mp3","src":"youdao-uk"},"summer":{"f":"summer.mp3","src":"youdao-uk"},"sunday":{"f":"sunday.mp3","src":"youdao-uk"},"supermarket":{"f":"supermarket.mp3","src":"youdao-uk"},"sure":{"f":"sure.mp3","src":"youdao-uk"},"surf":{"f":"surf.mp3","src":"youdao-uk"},"surprise":{"f":"surprise.mp3","src":"youdao-uk"},"surprised":{"f":"surprised.mp3","src":"youdao-uk"},"swam":{"f":"swam.mp3","src":"youdao-uk"},"swim":{"f":"swim.mp3","src":"youdao-uk"},"swimmer":{"f":"swimmer.mp3","src":"youdao-uk"},"switch":{"f":"switch.mp3","src":"youdao-uk"},"t":{"f":"t.mp3","src":"youdao-uk"},"t-shirt":{"f":"tshirt.mp3","src":"youdao-uk"},"table":{"f":"table.mp3","src":"youdao-uk"},"tablet":{"f":"tablet.mp3","src":"youdao-uk"},"take":{"f":"take.mp3","src":"youdao-uk"},"take a break":{"f":"takeabreak.mp3","src":"youdao-uk"},"take photos":{"f":"takephotos.mp3","src":"youdao-uk"},"talk":{"f":"talk.mp3","src":"youdao-uk"},"tall":{"f":"tall.mp3","src":"youdao-uk"},"taxi":{"f":"taxi.mp3","src":"youdao-uk"},"tea":{"f":"tea.mp3","src":"youdao-uk"},"teacher":{"f":"teacher.mp3","src":"youdao-uk"},"team":{"f":"team.mp3","src":"youdao-uk"},"technical":{"f":"technical.mp3","src":"youdao-uk"},"tell":{"f":"tell.mp3","src":"youdao-uk"},"tennis":{"f":"tennis.mp3","src":"youdao-uk"},"tent":{"f":"tent.mp3","src":"youdao-uk"},"tenth":{"f":"tenth.mp3","src":"youdao-uk"},"term":{"f":"term.mp3","src":"youdao-uk"},"terrible":{"f":"terrible.mp3","src":"youdao-uk"},"test":{"f":"test.mp3","src":"youdao-uk"},"than":{"f":"than.mp3","src":"youdao-uk"},"thank":{"f":"thank.mp3","src":"youdao-uk"},"thanks":{"f":"thanks.mp3","src":"youdao-uk"},"that":{"f":"that.mp3","src":"youdao-uk"},"the":{"f":"the.mp3","src":"youdao-uk"},"the uk":{"f":"theuk.mp3","src":"youdao-uk"},"the us":{"f":"theus.mp3","src":"youdao-uk"},"their":{"f":"their.mp3","src":"youdao-uk"},"them":{"f":"them.mp3","src":"youdao-uk"},"then":{"f":"then.mp3","src":"youdao-uk"},"there":{"f":"there.mp3","src":"youdao-uk"},"these":{"f":"these.mp3","src":"youdao-uk"},"they":{"f":"they.mp3","src":"youdao-uk"},"thing":{"f":"thing.mp3","src":"youdao-uk"},"think":{"f":"think.mp3","src":"youdao-uk"},"third":{"f":"third.mp3","src":"youdao-uk"},"thirsty":{"f":"thirsty.mp3","src":"youdao-uk"},"thirteenth":{"f":"thirteenth.mp3","src":"youdao-uk"},"thirtieth":{"f":"thirtieth.mp3","src":"youdao-uk"},"thirty-first":{"f":"thirtyfirst.mp3","src":"youdao-uk"},"this":{"f":"this.mp3","src":"youdao-uk"},"those":{"f":"those.mp3","src":"youdao-uk"},"through":{"f":"through.mp3","src":"youdao-uk"},"throw":{"f":"throw.mp3","src":"youdao-uk"},"ticket":{"f":"ticket.mp3","src":"youdao-uk"},"tiger":{"f":"tiger.mp3","src":"youdao-uk"},"time":{"f":"time.mp3","src":"youdao-uk"},"tired":{"f":"tired.mp3","src":"youdao-uk"},"to":{"f":"to.mp3","src":"youdao-uk"},"toast":{"f":"toast.mp3","src":"youdao-uk"},"today":{"f":"today.mp3","src":"youdao-uk"},"together":{"f":"together.mp3","src":"youdao-uk"},"toilet":{"f":"toilet.mp3","src":"youdao-uk"},"tom":{"f":"tom.mp3","src":"youdao-uk"},"tomato":{"f":"tomato.mp3","src":"youdao-uk"},"tomato soup":{"f":"tomatosoup.mp3","src":"youdao-uk"},"tomorrow":{"f":"tomorrow.mp3","src":"youdao-uk"},"tonight":{"f":"tonight.mp3","src":"youdao-uk"},"too":{"f":"too.mp3","src":"youdao-uk"},"tool":{"f":"tool.mp3","src":"youdao-uk"},"tools":{"f":"tools.mp3","src":"youdao-uk"},"top":{"f":"top.mp3","src":"youdao-uk"},"toppings":{"f":"toppings.mp3","src":"youdao-uk"},"tour":{"f":"tour.mp3","src":"youdao-uk"},"tourist":{"f":"tourist.mp3","src":"youdao-uk"},"town":{"f":"town.mp3","src":"youdao-uk"},"traditional":{"f":"traditional.mp3","src":"youdao-uk"},"traditional costume":{"f":"traditionalcostume.mp3","src":"youdao-uk"},"traffic":{"f":"traffic.mp3","src":"youdao-uk"},"train":{"f":"train.mp3","src":"youdao-uk"},"train station":{"f":"trainstation.mp3","src":"youdao-uk"},"trainers":{"f":"trainers.mp3","src":"youdao-uk"},"transport":{"f":"transport.mp3","src":"youdao-uk"},"travel":{"f":"travel.mp3","src":"youdao-uk"},"tried":{"f":"tried.mp3","src":"youdao-uk"},"trousers":{"f":"trousers.mp3","src":"youdao-uk"},"true":{"f":"true.mp3","src":"youdao-uk"},"trumpet":{"f":"trumpet.mp3","src":"youdao-uk"},"try":{"f":"try.mp3","src":"youdao-uk"},"tube":{"f":"tube.mp3","src":"youdao-uk"},"turkey":{"f":"turkey.mp3","src":"youdao-uk"},"tv":{"f":"tv.mp3","src":"youdao-uk"},"twelfth":{"f":"twelfth.mp3","src":"youdao-uk"},"twentieth":{"f":"twentieth.mp3","src":"youdao-uk"},"type":{"f":"type.mp3","src":"youdao-uk"},"ugly":{"f":"ugly.mp3","src":"youdao-uk"},"uncle":{"f":"uncle.mp3","src":"youdao-uk"},"under":{"f":"under.mp3","src":"youdao-uk"},"underground":{"f":"underground.mp3","src":"youdao-uk"},"underground train":{"f":"undergroundtrain.mp3","src":"youdao-uk"},"underwater":{"f":"underwater.mp3","src":"youdao-uk"},"unhappy":{"f":"unhappy.mp3","src":"youdao-uk"},"until":{"f":"until.mp3","src":"youdao-uk"},"unusual":{"f":"unusual.mp3","src":"youdao-uk"},"up":{"f":"up.mp3","src":"youdao-uk"},"upstairs":{"f":"upstairs.mp3","src":"youdao-uk"},"urban":{"f":"urban.mp3","src":"youdao-uk"},"us":{"f":"us.mp3","src":"youdao-uk"},"use":{"f":"use.mp3","src":"youdao-uk"},"usually":{"f":"usually.mp3","src":"youdao-uk"},"valley":{"f":"valley.mp3","src":"youdao-uk"},"vanilla":{"f":"vanilla.mp3","src":"youdao-uk"},"very":{"f":"very.mp3","src":"youdao-uk"},"video":{"f":"video.mp3","src":"youdao-uk"},"view":{"f":"view.mp3","src":"youdao-uk"},"village":{"f":"village.mp3","src":"youdao-uk"},"violin":{"f":"violin.mp3","src":"youdao-uk"},"visit":{"f":"visit.mp3","src":"youdao-uk"},"volleyball":{"f":"volleyball.mp3","src":"youdao-uk"},"vr headset":{"f":"vrheadset.mp3","src":"youdao-uk-concat"},"wait":{"f":"wait.mp3","src":"youdao-uk"},"walk":{"f":"walk.mp3","src":"youdao-uk"},"wall":{"f":"wall.mp3","src":"youdao-uk"},"want":{"f":"want.mp3","src":"youdao-uk"},"wash":{"f":"wash.mp3","src":"youdao-uk"},"watch":{"f":"watch.mp3","src":"youdao-uk"},"water":{"f":"water.mp3","src":"youdao-uk"},"wave":{"f":"wave.mp3","src":"youdao-uk"},"wavy":{"f":"wavy.mp3","src":"youdao-uk"},"way":{"f":"way.mp3","src":"youdao-uk"},"we":{"f":"we.mp3","src":"youdao-uk"},"wear":{"f":"wear.mp3","src":"youdao-uk"},"weekend":{"f":"weekend.mp3","src":"youdao-uk"},"welcome":{"f":"welcome.mp3","src":"youdao-uk"},"well":{"f":"well.mp3","src":"youdao-uk"},"west":{"f":"west.mp3","src":"youdao-uk"},"what":{"f":"what.mp3","src":"youdao-uk"},"when":{"f":"when.mp3","src":"youdao-uk"},"where":{"f":"where.mp3","src":"youdao-uk"},"which":{"f":"which.mp3","src":"youdao-uk"},"whistle":{"f":"whistle.mp3","src":"youdao-uk"},"white":{"f":"white.mp3","src":"youdao-uk"},"who":{"f":"who.mp3","src":"youdao-uk"},"whole":{"f":"whole.mp3","src":"youdao-uk"},"why":{"f":"why.mp3","src":"youdao-uk"},"wife":{"f":"wife.mp3","src":"youdao-uk"},"will":{"f":"will.mp3","src":"youdao-uk"},"william":{"f":"william.mp3","src":"youdao-uk"},"win":{"f":"win.mp3","src":"youdao-uk"},"wind":{"f":"wind.mp3","src":"youdao-uk"},"window":{"f":"window.mp3","src":"youdao-uk"},"winner":{"f":"winner.mp3","src":"youdao-uk"},"winter":{"f":"winter.mp3","src":"youdao-uk"},"with":{"f":"with.mp3","src":"youdao-uk"},"without":{"f":"without.mp3","src":"youdao-uk"},"woman":{"f":"woman.mp3","src":"youdao-uk"},"women":{"f":"women.mp3","src":"youdao-uk"},"wonder":{"f":"wonder.mp3","src":"youdao-uk"},"wonderful":{"f":"wonderful.mp3","src":"youdao-uk"},"work":{"f":"work.mp3","src":"youdao-uk"},"worker":{"f":"worker.mp3","src":"youdao-uk"},"world":{"f":"world.mp3","src":"youdao-uk"},"worried":{"f":"worried.mp3","src":"youdao-uk"},"worry":{"f":"worry.mp3","src":"youdao-uk"},"would":{"f":"would.mp3","src":"youdao-uk"},"wow":{"f":"wow.mp3","src":"youdao-uk"},"write":{"f":"write.mp3","src":"youdao-uk"},"writer":{"f":"writer.mp3","src":"youdao-uk"},"yeah":{"f":"yeah.mp3","src":"youdao-uk"},"year":{"f":"year.mp3","src":"youdao-uk"},"yellow":{"f":"yellow.mp3","src":"youdao-uk"},"yes":{"f":"yes.mp3","src":"youdao-uk"},"yesterday":{"f":"yesterday.mp3","src":"youdao-uk"},"yoghurt":{"f":"yoghurt.mp3","src":"youdao-uk"},"you":{"f":"you.mp3","src":"youdao-uk"},"young":{"f":"young.mp3","src":"youdao-uk"},"your":{"f":"your.mp3","src":"youdao-uk"},"youth":{"f":"youth.mp3","src":"youdao-uk"},"zoo":{"f":"zoo.mp3","src":"youdao-uk"}};</script><script>window.AUD_BASE="../词汇音频/";function speak(text, rate){
+  var k = String(text||"").toLowerCase().replace(/[^a-z' ]/g,"").trim();
+  var v = (window.VOICE||{})[k] || (window.VOICE||{})[k.replace(/\s+/g,"")];
+  if (v && v.f) { try { var a = new Audio(window.AUD_BASE + v.f); a.play(); return; } catch(e){} }
+  playSeq(String(text||"").split(/[\s']+/).filter(Boolean), 0);
+}
+function playSeq(ws, i){
+  if (i >= ws.length) return;
+  var w = (ws[i]||"").toLowerCase().replace(/[^a-z']/g, "");
+  if (!w) { playSeq(ws, i+1); return; }
+  var v = (window.VOICE||{})[w]; if (!v || !v.f) { playSeq(ws, i+1); return; }
+  var a = new Audio(window.AUD_BASE + v.f);
+  a.onended = function(){ playSeq(ws, i+1); };
+  try { a.play(); } catch(e) { playSeq(ws, i+1); }
+}
+function playSeq(ws, i){
+  if (i >= ws.length) return;
+  var w = (ws[i]||"").toLowerCase().replace(/[^a-z']/g, "");
+  if (!w) { playSeq(ws, i+1); return; }
+  var v = (window.VOICE||{})[w]; if (!v || !v.f) { playSeq(ws, i+1); return; }
+  var a = new Audio(window.AUD_BASE + v.f);
+  a.onended = function(){ playSeq(ws, i+1); };
+  try { a.play(); } catch(e) { playSeq(ws, i+1); }
+}</script>
+</head>
+<body class="listen">
+<div class="app">
+
+  <header class="top">
+    <div class="meta"><span class="t" id="headline">Unit 7</span><span class="tchip" id="timerChip" title="本次练习时长">00:00</span></div>
+    <button class="tbtn" id="rateBtn" title="播放速度">1x</button>
+    <button class="tbtn" id="loopBtn" title="循环次数（聆听整篇 / 跟读单句）">↻1</button>
+    <div class="sp"></div>
+    <nav class="tabs" id="tabs">
+      <button class="tbtn" id="mapBtn" title="返回书架">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
+      </button>
+      <button class="curtab" id="curTab" title="当前篇章"><span class="tty" id="curTty">阅读</span><i class="tsep">·</i><span class="curTt" id="curTitle"></span><i class="curArr">▾</i></button>
+      <button class="tbtn" id="openDir" title="目录">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="4" cy="6" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="6" x2="20" y2="6"/><circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="12" x2="20" y2="12"/><circle cx="4" cy="18" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="18" x2="20" y2="18"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <div class="flowbar">
+    <nav class="steps" id="steps">
+      <div class="step on" data-s="listen"><b>1</b><span>预习（聆听）</span></div>
+    </nav>
+  </div>
+
+  <main class="stage">
+    <div class="reader" id="reader">
+      <div class="head-wrap">
+        <h1 class="headline" id="paperTitle"></h1>
+      </div>
+      <div class="body" id="body"></div>
+    </div>
+
+  </main>
+  <footer class="dock">
+    <div class="dgroup">
+      <button class="tbtn" id="prev" title="上一条"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"></path></svg></button>
+      <button class="big" id="play"><svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="7 4 20 12 7 20 7 4"/></svg></button>
+      <button class="tbtn" id="next" title="下一条"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 17 5-5-5-5M12 17l5-5-5-5"></path></svg></button>
+    </div>
+    <div class="dmid">
+      <span class="di-dots" id="dkDots"></span>
+      <button class="chip" id="cnToggle">译文</button>
+    </div>
+    <button class="cta" id="nextStage">进入 复习 →</button>
+  </footer>
+
+</div>
+<div class="toast" id="toast"></div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script>
+var DB={"ZH":{"Nikolai Kutsenko, from Ukraine, can do amazing things with a football.":"来自乌克兰的尼古拉·库岑科能用足球做出令人惊叹的花样。","He can kick a ball well … but he can also keep the ball in the air with his feet, legs and head.":"他踢球踢得很好……但他也能用脚、腿和头让球一直保持在空中。","Lots of footballers can do this.":"很多足球运动员都能做到这一点。","But can they do it for 24 hours and 30 minutes without stopping?":"但他们能不停地做24小时30分钟吗？","Nikolai can and it's a world record!":"尼古拉能做到，而且这是世界纪录！","Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!":"来自犹他州的斯隆·亨德森是一名非常棒的单板滑雪选手——而且她只有14个月大！","Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!":"她的爸爸妈妈带她去山上，把她放到滑雪板上——然后她就滑起来了！","Sloan loves to be on the board.":"斯隆很喜欢待在滑雪板上。","People are often surprised when they see her because she doesn't fall over!":"人们看到她时常感到很惊讶，因为她不会摔倒！","American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well.":"美国攀岩运动员莫琳·'莫'·贝克出生时就没有左手，左臂也仅有短短一截，但她攀岩攀得很好。","She is the winner of two climbing World Championships for disabled athletes, and five national championships.":"她是两届残障运动员攀岩世锦赛和五届全国锦标赛的冠军。","She has her own special way of climbing, but Maureen thinks she is just the same as any other climber.":"她有自己独特的攀岩方式，但莫琳觉得自己和其他任何攀岩者一样。","Goatee can't talk or write, but she can surf!":"戈蒂不会说话也不会写字，但它会冲浪！","Why is this special?":"这有什么特别的呢？","Because Goatee is a goat!":"因为戈蒂是一只山羊！","She surfs with her owner, Dana McGregor.":"它和它的主人达娜·麦格雷戈一起冲浪。","Dana helps Goatee to stand on the board and together they ride the waves in California.":"达娜帮戈蒂站上冲浪板，然后他们一起在加利福尼亚乘风破浪。","Goatee wears a yellow life-jacket because she can't swim very well!":"戈蒂穿着一件黄色的救生衣，因为它不太会游泳！","And now there is a children's book about her, too – Dana is the author.":"现在还有一本关于它的儿童绘本呢——达娜就是作者。","It's 15th February at Greece Athena High School, New York.":"2月15日，在纽约的希腊镇雅典娜高中。","Jason McElwain is an 18-year-old student.":"杰森·麦克尔温是一名18岁的学生。","Jason is autistic.":"杰森患有自闭症。","He loves basketball and he helps with the school basketball team.":"他热爱篮球，并协助学校的篮球队。","Jason practises hard every day, but he never plays in the team.":"杰森每天刻苦训练，但他从不在队里上场比赛。","Tonight is the last game of the season.":"今晚是这个赛季的最后一场比赛。","It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches.":"这是杰森跟球队一起打球的最后机会，但在44分钟里，他只是坐在替补席上观看。","It's four minutes before the end.":"距比赛结束还有四分钟。","The team is winning, so the coach tells Jason to go out and play.":"球队正在领先，于是教练让杰森上场打球。","The team and the crowd are very happy, because everyone knows Jason and likes him.":"球队和观众都非常高兴，因为每个人都认识并喜欢杰森。","Jason tries to score a basket, but he misses.":"杰森试着投篮得分，但没有投中。","But suddenly he hits a 3-point basket.":"但突然间，他命中了一记三分球。","The crowd goes crazy.":"观众沸腾了。","Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether.":"杰森又命中一记三分球，接着一记、又一记——他共命中六个三分球（这是全队的纪录），总共得了二十分。","The team wins, and Jason is a real hero.":"球队获胜了，杰森成为了真正的英雄。","It's an amazing night for him!":"对他来说，这是一个不可思议的夜晚！","Soon Jason starts to become famous.":"不久，杰森开始出名了。","People in his town know who he is.":"他镇里的人都知道他是谁。","The US president comes to Jason's town to meet him.":"美国总统来到杰森的小镇与他见面。","Jason writes a book and some people want to make a film about him.":"杰森写了一本书，有些人想拍一部关于他的电影。","He becomes assistant coach to the high school basketball team.":"他成为了这所高中篮球队的助理教练。","Now Jason works hard to help other autistic people.":"如今杰森努力工作，去帮助其他自闭症患者。","He travels across the US to help get money for autism research.":"他奔波于美国各地，为自闭症研究筹集资金。"},"TITLE_START":{"p067":6.27,"p070":5.91},"ENTITY":{"67":{"goatee":{"t":"PER","s":1},"dana":{"t":"PER","s":1},"maureen":{"t":"PER","s":1},"nikolai":{"t":"PER","s":1},"sloan":{"t":"PER","s":1},"california":{"t":"GPE","s":1},"ukraine":{"t":"GPE","s":1},"utah":{"t":"GPE","s":1}},"70":{"jason":{"t":"PER","s":1},"jason's":{"t":"PER","s":1}}},"ENTITYMULTI":{"67":[[["maureen","mo","beck"],{"t":"PER","s":1}],[["dana","mcgregor"],{"t":"PER","s":1}],[["nikolai","kutsenko"],{"t":"PER","s":1}],[["sloan","henderson"],{"t":"PER","s":1}]],"70":[[["greece","athena","high","school"],{"t":"ORG","s":1}],[["jason","mcelwain"],{"t":"PER","s":1}],[["new","york"],{"t":"GPE","s":1}]]},"LEVEL":{"nikolai":"X","kutsenko":"X","from":"K","ukraine":"X","can":"K","do":"K","amazing":"K","things":"K","with":"K","a":"K","football":"K","he":"K","kick":"K","ball":"K","well":"K","but":"K","also":"K","keep":"K","the":"K","in":"K","air":"K","his":"K","feet":"K","legs":"K","and":"K","head":"P","lots":"K","of":"K","footballers":"K","this":"K","they":"K","it":"K","for":"K","hours":"K","minutes":"K","without":"K","stopping":"K","it's":"K","world":"K","record":"K","sloan":"X","henderson":"X","utah":"X","is":"K","really":"K","good":"K","snowboarder":"K","she's":"K","only":"K","months":"K","old":"K","her":"K","mother":"K","father":"K","take":"K","to":"K","mountains":"K","put":"K","on":"K","snowboard":"K","there":"K","she":"K","goes":"K","loves":"K","be":"K","board":"K","people":"K","are":"K","often":"K","surprised":"K","when":"K","see":"K","because":"K","doesn't":"K","fall":"K","over":"K","american":"X","rock":"K","climber":"K","maureen":"X","'mo'":"X","beck":"X","was":"K","born":"K","left":"K","hand":"K","part":"K","arm":"K","climb":"K","winner":"K","climbing":"K","championships":"P","disabled":"P","athletes":"P","national":"K","has":"K","own":"K","special":"K","way":"K","thinks":"K","just":"K","same":"K","as":"K","any":"K","other":"K","goatee":"X","can't":"K","talk":"K","or":"K","write":"K","surf":"K","why":"K","goat":"P","surfs":"K","owner":"K","dana":"X","mcgregor":"X","helps":"K","stand":"P","together":"K","ride":"K","waves":"P","california":"X","wears":"K","yellow":"K","life":"K","jacket":"K","swim":"K","very":"K","now":"K","children's":"K","book":"K","about":"K","too":"K","author":"P","th":"X","february":"X","at":"K","greece":"X","athena":"X","high":"K","school":"K","new":"K","york":"X","jason":"X","mcelwain":"X","an":"K","year":"K","student":"K","autistic":"X","basketball":"K","team":"K","practises":"K","hard":"K","every":"K","day":"K","never":"K","plays":"K","tonight":"K","last":"K","game":"P","season":"K","jason's":"X","chance":"P","play":"K","sits":"K","bench":"X","watches":"K","before":"K","end":"K","winning":"K","so":"K","coach":"K","tells":"K","go":"K","out":"K","crowd":"K","happy":"K","everyone":"K","knows":"K","likes":"K","him":"K","tries":"K","score":"P","basket":"P","misses":"K","suddenly":"K","hits":"K","point":"K","crazy":"K","another":"K","pointer":"K","then":"K","pointers":"X","scores":"P","points":"K","altogether":"P","wins":"K","real":"P","hero":"P","night":"K","soon":"K","starts":"P","become":"K","famous":"K","town":"K","know":"K","who":"K","us":"K","president":"P","comes":"K","meet":"K","writes":"K","some":"K","want":"K","make":"K","film":"K","becomes":"K","assistant":"K","works":"K","help":"K","travels":"K","across":"K","get":"K","money":"K","autism":"X","research":"P"},"TOPIC":{"amazing":1,"football":1,"kick":1,"keep":1,"air":1,"hours":1,"minutes":1,"stopping":1,"world":1,"record":1,"snowboarder":1,"snowboard":1,"board":1,"fall":1,"climber":1,"climb":1,"winner":1,"climbing":1,"championships":1,"disabled":1,"athletes":1,"national":1,"special":1,"surf":1,"goat":1,"surfs":1,"stand":1,"ride":1,"waves":1,"jacket":1,"swim":1,"book":1,"author":1,"school":1,"autistic":1,"basketball":1,"team":1,"practises":1,"season":1,"chance":1,"bench":1,"winning":1,"coach":1,"crowd":1,"score":1,"basket":1,"misses":1,"hits":1,"point":1,"pointer":1,"pointers":1,"scores":1,"points":1,"wins":1,"hero":1,"night":1,"become":1,"famous":1,"town":1,"president":1,"film":1,"becomes":1,"assistant":1,"travels":1,"autism":1,"research":1},"BASE":{"ball":1,"mother":1,"father":1,"put":1,"goes":1,"see":1,"write":1,"helps":1,"school":1,"new":1,"team":1,"day":1,"plays":1,"game":1,"play":1,"sits":1,"watches":1,"go":1,"happy":1,"knows":1,"likes":1,"night":1,"know":1,"comes":1,"writes":1,"want":1,"help":1},"TRAP":{"world":1,"snowboarder":1,"mountains":1,"snowboard":1,"people":1,"surprised":1,"championships":1,"disabled":1,"athletes":1,"national":1,"special":1,"together":1,"yellow":1,"february":1,"autistic":1,"season":1,"crowd":1,"pointer":1,"pointers":1,"altogether":1,"president":1,"assistant":1,"travels":1,"across":1,"autism":1,"research":1}};
+/* ==TL-DATA-START== 由 assets/timeline.json 生成（_sync_timeline.js）；请勿手改这一块 == */
+DB.TL={"66":[[12.142,17.185],[17.185,23.083],[23.097,34.582],[35.32,38.188],[38.188,42.823],[43.765,45.966],[46.015,50.206],[50.206,55.384],[56.457,60.852],[61.42,63.975],[65.531,71.438],[72.106,78.582],[79.195,86.97],[86.97,91.173],[91.986,97.254],[98.192,101.29],[102.312,108.543],[108.638,118.197],[118.321,121.14],[121.14,129.87],[129.97,135.732],[135.746,140.182],[140.196,144.626],[144.626,154.983],[154.998,164.137],[164.137,170.258],[170.867,174.733]],"67":[[9.678,16.124],[16.258,25.023],[25.47,28.68],[29.5,36.921],[36.921,40.383],[42.379,52.621],[52.845,61.086],[62.129,65.466],[65.466,70.575],[72.01,86.668],[87.995,97.144],[97.89,109.456],[109.456,113.921],[115.019,116.83],[116.83,119.873],[119.883,123.764],[124.622,132.714],[133.756,139.42],[139.488,146.452]],"69":[[8.121,10.696],[11.48,14.053],[14.662,17.485],[18.388,22.419],[22.923,26.4],[26.7,34.901],[35.404,38.7],[39.2,43.566],[43.92,47.8],[48.32,52.68],[53.24,54.96],[55.464,59.61],[59.959,66.798],[67.282,71.099],[71.652,75.119],[75.853,81.545],[81.65,83.88],[84.373,85.476],[85.945,88.898],[89.487,94.545],[94.824,99.798]],"70":[[10.197,15.665],[16.732,21.012],[22.09,23.801],[23.801,29.937],[31.409,37.595],[39.131,43.485],[43.485,53.838],[55.05,57.765],[57.765,63.356],[64.324,72.55],[72.575,76.661],[77.633,81.385],[81.89,84.997],[85.835,102.033],[103.145,108.175],[108.175,110.813],[111.886,115.925],[115.925,120.771],[121.05,126.13],[126.13,132.1],[132.11,136.774],[138.096,142.34],[142.34,149.306]],"72":[[8.76,13.75],[13.75,24.265],[24.84,29.758],[29.802,31.723],[31.872,36.297],[36.297,42.863],[42.967,49.383],[49.383,53.923],[54.017,61.54],[62.36,66.195],[66.229,72.485],[72.67,78.961],[79.5,83.954],[84.36,86.992],[87.297,89.956]],"73":[[11.095,17.34],[17.34,28.426],[28.52,33.718],[35.265,37.904],[37.914,40.997],[42.663,53.628],[53.628,59.954],[61.021,63.715],[65.157,68.045],[68.045,71.867],[72.89,75.394],[75.543,77.679],[78.392,81.804],[82.168,88.595],[88.595,89.92],[89.92,91.971],[93.95,95.525],[95.525,98.182],[99.673,100.103],[101.095,103.485],[105.036,106.27],[106.27,118.301],[118.77,123.195],[123.539,127.54],[127.54,134.779],[134.988,139.383],[155.5,158.9]],"75":[[15.68,17.56],[18.37,20.36],[20.99,22.44],[26.82,32.36],[36.7,37.94],[38.88,48.715],[53.16,55.391],[55.88,59.88],[64.7,67.082],[67.38,69.96],[70.7,75.14],[75.98,77.58],[78.4,80.02],[80.7,82.12],[82.82,84.04],[89,91.5],[92.44,94.18],[94.98,96.36],[96.84,99.34],[100.08,101.56],[102.24,104.6],[105.28,106.568],[106.92,109.761],[114.54,116.76],[117.51,119.28],[119.95,121.12],[121.71,128.1],[128.71,131.564],[132.13,134.142],[137.84,141.99],[142.71,145.72],[146.57,149.2]],"77":[[6.82,8.42],[9.48,14.559],[15.22,19.064],[19.7,21.432],[22.16,24.92],[25.87,30.08],[30.76,37.18],[37.86,41.378],[42.06,52.94],[53.65,56.98],[57.7,59.64],[60.42,62.52],[63.4,65.22],[66.32,69.358],[69.78,70.565],[71.2,77.973],[78.54,83.5],[84.24,92.264],[92.58,93.3],[94.22,96.82],[97.76,100.09],[100.38,106.626],[107.08,111.3],[111.96,125.028],[125.34,127.88],[128.82,133.4],[133.4,136.16]],"78":[[6.2,7.38],[7.92,9.36],[9.9,12.887],[13.52,14.36],[14.98,20.12],[20.84,22.98],[23.9,25.287],[25.76,28.793],[29.02,34.32],[35.04,38.243],[39.06,40.101],[40.86,47.404],[48,50.38],[50.99,55.658],[56.32,63.24],[64.18,67.44],[68.24,73.1],[74.42,75.92],[76.66,81.2],[82.14,84.265],[85.3,87.76],[88.5,90.54],[91.6,93.84],[94.38,95.086],[95.74,98.76]],"80":[[12.74,25.658],[26.52,32.5],[33.72,37.86],[39.04,42.86],[44.4,47.32],[48.72,51.9],[57.64,62.56],[63.48,66.52],[67.8,71.18],[72.68,78.82],[79.82,83.06],[84.26,87.18],[88.44,95.76],[97.04,99.48],[106.1,113.62],[114.64,118.22],[119.52,121.96],[122.92,124.88],[126.4,129.149],[130.42,134.28],[135.62,140.376],[141.4,144.76]],"85":[[8.3,12.34],[12.86,15.1],[15.88,20.6],[21.56,24.86],[25.72,32.96],[33.96,36.94],[36.94,39.59],[40.64,44.858],[45.08,48.14],[49.18,53.96],[54.86,59.78],[60.96,64.84],[66.4,69.82],[71.08,76.208],[77.04,78.76],[79.8,84.14],[85,89.56],[90.38,93.42],[94.42,95.88],[95.88,99.64],[100.9,101.84],[102.96,104.26],[105.34,107.48],[108.72,115.972],[116.92,122.683],[123.84,125.12],[125.98,127.141],[127.9,130.6],[131.68,132.563],[133.3,134.92]],"87":[[10.82,12.84],[13.52,15.54],[16.26,17.833],[18.24,20.26],[21.02,23.046],[23.32,27.42],[27.91,28.26],[28.68,32.66],[33.1,36.98],[37.8,41.12],[41.72,42.284],[42.66,44.08],[44.62,49.08],[49.44,50.32],[50.86,51.4],[51.9,55.36],[56,58.08],[58.723,60.74],[61.34,63.054],[63.28,66.94],[67.64,70.74],[71.32,73.82],[74.28,74.82],[75.5,77.88],[78.4,79.92],[80.56,83.28],[83.8,88.6],[89.32,90.76]],"88":[[6.86,9.1],[9.88,13.66],[14.4,15.42],[16.486,16.96],[17.8,19.8],[20.28,21.92],[22.64,24.66],[25.26,25.72],[30.62,32.7],[33.12,36.08],[36.6,37.4],[38.26,38.9],[39.48,45.8],[46.36,47.68],[48.32,49.7],[50.24,52.12],[52.88,55.32],[55.32,57.48],[61.452,63.08],[64.06,69.04],[69.5,70.16],[74.52,76.06],[76.96,77.36],[77.96,79.7],[80.36,83.02],[83.02,83.685],[83.72,84.04]],"90":[[8.44,11.38],[12.14,18.24],[18.84,20.44],[20.94,23.54],[23.54,30.78],[31.74,34.82],[35.68,40.16],[41.04,47.44],[48.26,49.8],[50.54,53.52],[53.52,54.04],[54.54,58.72],[59.22,65.271],[66.36,68.1],[68.7,73.561],[73.8,81.66],[82.733,83.94],[84.54,94.06],[94.32,100.64],[101.42,110.52],[110.52,113.78]],"92":[[10.32,16.34],[17.94,22.1],[24.2,27.156],[28.02,35.6],[36.96,43.56],[44.52,48.84],[50.06,55.72],[56.14,59.455],[60.894,68.185],[69.6,77.48],[78.58,88.38],[89.46,92.311],[93.4,97.18],[98.56,103.027],[104.22,107],[108.42,119.76],[121.1,132.7],[132.7,136.88]],"95":[[7.62,11.36],[11.98,18.17],[18.48,20.1],[20.88,26.02],[26.02,33.44],[33.98,39.578],[40.1,44.2],[45.28,51.583],[52.08,58.77],[59.24,63.32],[64.06,72.853],[73.24,78.66],[79.38,88.58],[89.1,92.94],[93.88,98.74],[99.44,102.47],[102.82,104.64],[105.3,114.96],[115.48,121.974],[122.34,126.24]],"96":[[8.42,27.64],[28.6,44.06],[45.08,66.328],[67.94,112.74],[114.98,149.14]],"99":[[9.12,13.305],[14.12,18.4],[19.86,21.107],[22,36.2],[37.2,42.028],[43.38,49.54],[49.54,58.86],[60.76,62.18],[63.2,66.8],[67.44,70.34],[71.2,73.32],[74.92,81.096],[81.96,84.56],[85.8,89.32],[90.26,93.693],[95.66,96.92],[97.78,111.537],[112.22,124.738],[125.94,136.84],[138.06,141.32],[143.04,144.916],[145.62,152.613],[153.48,160.5],[161.7,164.5],[165.64,168.12],[169.06,177.02]],"102":[[9.22,13.76],[14.66,21.72],[22.62,27.74],[27.74,31.01],[33.44,43.514],[44.3,52.419],[53.1,56.181],[56.96,58.967],[59.78,63.971],[64.58,71.773],[72.52,75.105],[75.98,81],[81.8,84.602],[86.18,96.107],[96.92,101.506],[102.14,107.671],[108.44,111.36],[111.36,121.26],[122.42,125.353],[126.02,133.32]],"105":[[7.32,11.02],[11.6,14.32],[14.96,15.86],[16.52,22.732],[23.2,27.06],[27.06,31.324],[31.777,36.42],[36.8,38.243],[38.68,41],[41.54,43.76],[44.34,47.4],[48.04,57.44],[58.2,60.2],[60.92,62.88],[63.56,65.12],[65.54,67.72],[68.26,70.32],[70.76,73.607],[74.02,85.368],[85.7,88.2],[89.014,95.109],[95.5,97.98],[98.72,104.74],[105.44,110.26],[110.84,112.14],[112.8,113.98],[114.92,117.02],[117.76,119.1],[119.7,128.24],[129.02,131.7],[132.22,134.4]],"106":[[8.28,9.84],[10.844,12.02],[13.01,18.56],[19.52,22.4],[23.6,26.4],[27.4,31.3],[32.66,38.32],[39.34,42.18],[43.32,48.62],[51,51.24],[52.349,53.66],[55.04,61.46],[62.28,69.38],[70.46,77.322],[78.36,84.74],[86.04,91.72],[93.5,94.34],[95.6,96.86],[98.28,105.9],[106.7,109.923],[110.74,114.8],[115.5,118.375],[118.96,121.394],[121.78,123.1],[123.1,127.048],[127.66,131.92],[132.992,136.66]],"108":[[7.4,12.1],[12.9,16.7],[17.26,20.6],[21.36,23.58],[23.58,33.53],[33.98,34.98],[35.56,41.32],[41.74,45.58],[46.28,48.44],[48.44,52.4],[53.06,56.6],[57.3,68.26],[69.06,72.5],[72.5,78.704],[79.06,84.56],[85.34,90.86]],"110":[[8.835,16.218],[17.839,21.277],[21.561,27.014],[27.133,28.63],[29.019,36.323],[36.567,42.329],[42.354,49.358],[49.882,52.93],[52.999,55.08],[55.703,61.301],[62.398,65.426],[65.9,69.437],[70.36,72.67],[73.079,74.172],[75.27,81.171],[83.36,85.042],[86.344,88.474],[88.484,94.52],[95.767,98.167],[99.274,100.302],[100.312,105.63],[105.63,112.115],[112.115,118.66],[119.229,123.938],[124.582,132.714],[133.092,134.889],[135.163,138.076],[139.428,140.596]],"111":[[5.313,12.751],[13.235,18.862],[19.59,23.202],[23.212,29.2],[29.2,32.85],[33.923,39.925],[39.925,48.046],[48.056,51.3],[51.3,54.152],[54.74,64.848],[65.83,75.982],[75.992,79.046],[79.689,81.849],[82.547,85.202],[85.86,90.574],[91.756,94.111],[94.61,101.45],[101.45,106.872],[107.466,113.865],[113.865,117.995],[117.995,120.905],[120.905,127.071],[127.41,132.868],[133.816,143.494]],"113":[[8.41,9.094],[9.813,11.005],[11.574,12.087],[12.087,14.622],[14.697,17.021],[17.041,19.351],[19.55,20.139],[20.942,24.015],[24.864,26.96],[26.96,28.675],[28.685,32.436],[33.225,35.59],[35.59,36.971],[36.971,40.912],[41.406,45.18],[45.18,47.063],[47.467,48.79],[48.79,51.658],[52.166,53.563],[53.798,54.257],[54.267,57.729],[57.769,61.21],[61.21,62.87],[62.87,64.85],[64.85,66.339],[66.998,71.84],[71.84,75.219],[77.125,77.18],[77.359,78.247],[78.247,82.213],[82.707,83.251],[83.45,85.66],[85.66,89.322],[89.661,92.35],[92.35,96.296],[96.88,98.865],[99.269,100.332],[100.332,105.49],[105.789,108.663],[108.733,110.499],[111.342,112.864],[113.018,114.28]],"114":[[7.159,13.021],[13.888,18.513],[19.82,29.154],[29.618,32.325],[32.325,36.215],[36.215,38.423],[38.782,40.588],[41.216,45.691],[45.691,48.27],[48.679,50.855],[52.775,53.633],[54.45,56.576],[57.335,59.615],[60.004,67.981],[68.853,72.765],[73.124,79.968],[80.552,85.616],[86.404,91.577],[93.497,97.613],[98.421,100.77],[100.77,106.987],[106.997,115.533],[115.97,118.655],[118.655,121.688],[121.688,124.328],[125.001,128.922],[128.922,132.235],[132.688,135.752],[137.692,144.058],[145.065,152.605],[152.605,158.001],[159.123,163.06],[164.112,171.326]],"117":[[7.403,9.124],[10.481,13.021],[14.342,19.221],[20.324,25.048],[25.058,26.674],[26.684,31.015],[31.025,38.073],[38.083,41.74],[41.75,50.116],[50.126,57.25],[59.255,62.987],[64.364,69.602],[71.033,78.17],[78.17,79.674],[80.17,84.383],[85.286,86.344],[87.616,91.248],[92.225,99.973],[100.586,105.116],[106.25,108.698],[108.833,115.812],[115.822,119.873],[119.883,128.343],[128.353,136.55],[138.52,142.641],[144.087,147.051],[147.061,150.897],[150.907,159.787],[159.797,168.363],[169.435,172.598]],"202":[[10.975,19.895],[19.895,33.494],[34.791,39.535],[40.283,50.6],[50.6,57.898],[58.727,68.73],[68.73,74.15],[74.15,79.564],[79.664,88.374],[88.484,93.408],[94.051,97.114],[98.102,109.17],[109.17,117.373],[117.518,121.935],[121.935,132.978],[133.901,137.757],[137.767,148.473],[148.682,160.894],[161.08,166.6],[167.5,172.405],[172.405,180.2],[180.3,182.7],[184.7,189.9]]};
+/* ==TL-DATA-END== */
+/* ===== p69 听力对话 (无原文画像并入) ===== */
+DB.ZH["Hi, Julia. It's me, Mike."]="嗨，朱莉娅。我是迈克。";
+DB.ZH["Hi, Mike. How's it going?"]="嗨，迈克。你好吗？";
+DB.ZH["Do you want to go cycling later today?"]="你今天晚些时候想去骑车吗？";
+DB.ZH["Go cycling? Good idea. What time?"]="骑车？好主意。几点？";
+DB.ZH["How about after lunch? Say, two o'clock?"]="午饭后怎么样？比如说两点？";
+DB.ZH["Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two."]="两点？不了，抱歉，我去不了。我两点有跆拳道课。";
+DB.ZH["OK, how about three o'clock?"]="好，那三点呢？";
+DB.ZH["No, the lesson only finishes at half past three."]="不行，课要到三点半才结束。";
+DB.ZH["OK, so how about four o'clock?"]="好，那四点呢？";
+DB.ZH["I can't. Mum wants to give me a tennis lesson at four."]="我去不了。妈妈四点要给我上网球课。";
+DB.ZH["Until what time?"]="到几点？";
+DB.ZH["I'm not sure. Maybe about quarter to five?"]="我不确定。大概差一刻五点？";
+DB.ZH["Really? But we can't go cycling then. It gets dark at half past four."]="真的吗？那我们就不能骑车了。四点半就天黑了。";
+DB.ZH["Well, yes, you're right. Sorry."]="嗯，是啊，你说得对。抱歉。";
+DB.ZH["So maybe we can go cycling before lunch?"]="那我们也许可以在午饭前去骑车？";
+DB.ZH["Um, I've got a school rugby match until about half past eleven."]="嗯，我有一场学校橄榄球比赛，要到十一点半左右。";
+DB.ZH["What time does it start?"]="几点开始？";
+DB.ZH["Ten o'clock."]="十点。";
+DB.ZH["Julia, it's quarter to ten now."]="朱莉娅，现在已经十点差一刻了。";
+DB.ZH["Really? I need to go. Let's go cycling tomorrow."]="真的吗？我得走了。我们明天去骑车吧。";
+DB.ZH["OK. Call me in the morning. See you. Have a good match."]="好。早上给我打电话。再见。祝你比赛顺利。";
+DB.ENTITY["69"]={"mike": {"t": "PER", "s": 1}, "julia": {"t": "PER", "s": 1}};
+DB.SPE=DB.SPE||{};DB.SPE["69"]=["mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike"];
+DB.TITLE_START["p069"]=8.0;
+/* 全局 TOPIC/TRAP 追加 p69 独有主题/难点词 */
+DB.TOPIC["cycling"]=1;DB.TOPIC["taekwondo"]=1;DB.TOPIC["rugby"]=1;DB.TOPIC["tennis"]=1;DB.TOPIC["o'clock"]=1;DB.TOPIC["quarter"]=1;DB.TOPIC["lesson"]=1;DB.TOPIC["match"]=1;DB.TOPIC["lunch"]=1;DB.TOPIC["half"]=1;
+DB.TRAP["taekwondo"]=1;DB.TRAP["rugby"]=1;DB.TRAP["cycling"]=1;DB.TRAP["tennis"]=1;DB.TRAP["o'clock"]=1;DB.TRAP["quarter"]=1;DB.TRAP["tomorrow"]=1;DB.TRAP["morning"]=1;DB.TRAP["lunch"]=1;DB.TRAP["really"]=1;
+/* ===== p110 纪录片 Moving About / p111 阅读 The Great Race (第12单元) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"Our lives move very fast today, especially in big cities.":"如今我们的生活节奏非常快，尤其是在大城市里。","But many years ago, that was different.":"但很多年前，情况并非如此。","People couldn't jump on a bus or take the tube to work.":"人们无法跳上公交车，也无法坐地铁去上班。","They walked.":"他们只能步行。","For a long time, the fastest way of travelling was by horse or boat.":"在很长一段时间里，最快的出行方式是骑马或乘船。","That changed with the steam engine in the 18th century.":"这一状况在18世纪随着蒸汽机的问世而改变。","Then came cars, motorcycles and, of course, airplanes.":"接着出现了汽车、摩托车，当然还有飞机。","So what's new and popular today?":"那么，如今什么又新又流行呢？","E-scooters!":"电动滑板车！","Electric scooter sharing is the new way to get around.":"电动滑板车共享出行是一种新兴的出行方式。","They are taking over the world's big cities.":"它们正在席卷世界各地的大城市。","They are fun and easy to use.":"它们既有趣又容易使用。","You don't have to buy one.":"你不必花钱买一辆。","You rent one.":"租一辆即可。","All you need is to log on to an app and then, off you go.":"你只需登录一个应用程序，就可以出发了。","They are cheaper than taxis.":"它们比出租车便宜。","You can get around traffic jams.":"你还可以绕过交通拥堵。","And you don't have to do any hard work, like on a bike.":"而且你不必像骑自行车那样费力。","They aren't bad for the environment either.":"它们对环境的危害也不大。","But is that true?":"但真是这样吗？","Well, these e-scooters don't last very long.":"嗯，这些电动滑板车用不了多久就会坏。","In Paris, some e-scooters break after one month.":"在巴黎，有些电动滑板车一个月后就坏了。","Many people are unhappy because there are too many e-scooters.":"很多人不开心，因为电动滑板车太多了。","They block the pavements and drive into people.":"它们堵住人行道，还会撞到人。","Because people are angry about e-scooters, they throw them into rivers or break them.":"由于人们对电动滑板车很恼火，就把它扔进河里或砸坏。","Is that the answer?":"这就是解决办法吗？","What do you think of e-scooters?":"你怎么看待电动滑板车？","Do you like them?":"你喜欢它们吗？","A lot of big cities, like London, have got many traffic problems.":"许多大城市，比如伦敦，都存在很多交通问题。","Sometimes a journey of a few kilometres can take more than an hour.":"有时几公里的路程要花上一个多小时。","So what's the best way to get across London?":"那么，穿越伦敦的最佳方式是什么呢？","For a very short journey, it's probably a good idea to walk.":"对于非常短的路程，步行可能是个好主意。","But what happens when you want to go further?":"但如果你想走得更远，又会怎样呢？","The presenters of a popular TV show about cars decided to find out.":"一档关于汽车的知名电视节目的主持人决定一探究竟。","Each of the presenters chose a different type of transport to make the same 27-kilometre journey.":"每位主持人选择了一种不同的交通工具，来完成相同的27公里路程。","One presenter went by bike.":"一位主持人骑自行车。","One went by car.":"一位开车。","Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames.":"另一位选择公共交通——地铁和公交车——最后一位则乘快艇沿泰晤士河而上。","They all started at the same time and the same place in West London, but who got to City Airport in East London first?":"他们都在伦敦西部的同一时间同一地点出发，但谁先到达伦敦东部的城市机场呢？","The results were a surprise.":"结果出人意料。","The bike came first.":"自行车最先到达。","In second place was the speedboat.":"第二名是快艇。","Public transport came third and the car was last.":"公共交通名列第三，汽车垫底。","So the presenters had an answer.":"于是主持人有了答案。","The bike was quicker than all the other types of transport and the car was slower.":"自行车比所有其他交通工具都快，而汽车最慢。","They weren't very happy with the result because they wanted the car to win.":"他们对这一结果不太高兴，因为他们希望汽车获胜。","They made a joke and said the bike wasn't a real winner because it was more dangerous.":"他们开玩笑说，自行车算不上真正的赢家，因为它更危险。","But, of course, the bike is the real winner.":"但当然啦，自行车才是真正的赢家。","It's the best way to get about.":"它是四处出行的最佳方式。","It's cheaper than public transport and it is healthier than going by car.":"它比公共交通便宜，也比开车更健康。","It's also better for our cities because bikes don't make the air dirty.":"它对我们的城市也更有利，因为自行车不会弄脏空气。","So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'":"所以，下次你需要出行时，在你和父母上车前先想一想：“这段路我们可以骑自行车吗？”"});
+DB.TITLE_START["p110"]=8.835;
+DB.TITLE_START["p111"]=5.313;
+DB.ENTITY["110"]={};DB.ENTITY["111"]={"london": {"t": "GPE", "s": 1}, "thames": {"t": "GPE", "s": 1}};
+DB.ENTITYMULTI["110"]=[];DB.ENTITYMULTI["111"]=[[["river", "thames"], {"t": "GPE", "s": 1}]];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["journey"]=1;DB.TOPIC["journeys"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;DB.TOPIC["travels"]=1;DB.TOPIC["ride"]=1;DB.TOPIC["bike"]=1;DB.TOPIC["boat"]=1;DB.TOPIC["bus"]=1;DB.TOPIC["car"]=1;DB.TOPIC["cars"]=1;DB.TOPIC["speedboat"]=1;DB.TOPIC["underground"]=1;DB.TOPIC["scooters"]=1;DB.TOPIC["steam"]=1;DB.TOPIC["engine"]=1;DB.TOPIC["century"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["rent"]=1;DB.TOPIC["app"]=1;DB.TOPIC["taxi"]=1;DB.TOPIC["jam"]=1;DB.TOPIC["environment"]=1;DB.TOPIC["pavements"]=1;DB.TOPIC["rivers"]=1;DB.TOPIC["motorcycles"]=1;DB.TOPIC["airplanes"]=1;DB.TOPIC["electric"]=1;DB.TOPIC["sharing"]=1;DB.TOPIC["city"]=1;DB.TOPIC["cities"]=1;DB.TOPIC["scooter"]=1;DB.TOPIC["public"]=1;DB.TOPIC["winners"]=1;DB.TOPIC["dangerous"]=1;DB.TOPIC["healthier"]=1;DB.TOPIC["pollution"]=1;DB.TOPIC["kilometres"]=1;DB.TOPIC["river"]=1;DB.TOPIC["thames"]=1;DB.TOPIC["london"]=1;DB.TOPIC["race"]=1;DB.TOPIC["results"]=1;DB.TOPIC["surprise"]=1;DB.TOPIC["presenter"]=1;DB.TOPIC["presenters"]=1;DB.TOPIC["airport"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["kilometres"]=1;DB.TRAP["environment"]=1;DB.TRAP["pavements"]=1;DB.TRAP["underground"]=1;DB.TRAP["speedboat"]=1;DB.TRAP["scooters"]=1;DB.TRAP["scooter"]=1;DB.TRAP["motorcycles"]=1;DB.TRAP["airplanes"]=1;DB.TRAP["travelling"]=1;DB.TRAP["electric"]=1;DB.TRAP["century"]=1;DB.TRAP["traffic"]=1;DB.TRAP["journey"]=1;DB.TRAP["public"]=1;DB.TRAP["velocity"]=1;DB.TRAP["dangerous"]=1;DB.TRAP["healthier"]=1;DB.TRAP["pollution"]=1;DB.TRAP["thames"]=1;
+
+/* ============ 教材原文数据（逐字还原，来自 L7 课本第67/70页） ============ */
+/* ===== p72 口语 Rainy Day: Nina & Dave (第7单元) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"Right! Have we got everything? Tennis rackets, balls …?":"对啊！东西都带齐了吗？网球拍、球……？","Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go.":"是的，我觉得齐了。我们还带了些吃的——三明治、水果什么的——还有一些水。那我们走吧。","Just a minute! Oh, no! It's raining!":"等一等！哦，不！下雨了！","Now what do we do?":"现在咱们怎么办？","You're right. We can't play outside in the rain.":"你说得对。下雨天我们不能在外面打。","Why don't we go to the sports centre in town? They've got an indoor court.":"我们不如去镇上的体育中心吧？那里有室内球场。","No, it's always very busy. I'm sure we can't play there today.":"不去了，那里总是很拥挤。我确定今天咱们在那边打不了。","Maybe you're right. It's a bit expensive, too.":"也许你说得对。那边也有点贵。","OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps.":"好吧，那我们今天没法打了。没什么大不了的。我们也许可以明天打。","Yes. But I'm a bit sad now.":"嗯。但让我有点难过。","Me, too. But what can we do? It's raining, and that's that.":"我也是。可我们能怎么办呢？天下着雨，就是这样。","I know! How about watching some old tennis games on the internet?":"我有主意了！不如在网上看一些以前的网球比赛吧？","Good idea. I like watching really good players.":"好主意。我喜欢看高水平的选手比赛。","And we can eat our food.":"而且我们可以吃带来的东西。","Let's go and switch the computer on.":"那我们走吧，把电脑打开。"});
+DB.SPE["72"]=["Nina", "Dave", "Nina", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave"];
+DB.TITLE_START["p072"]=8.76;
+DB.ENTITY["72"]={"nina": {"t": "PERSON", "s": 1}, "dave": {"t": "PERSON", "s": 1}};
+DB.ENTITYMULTI["72"]=[];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["tennis"]=1;DB.TOPIC["racket"]=1;DB.TOPIC["rackets"]=1;DB.TOPIC["balls"]=1;DB.TOPIC["food"]=1;DB.TOPIC["sandwiches"]=1;DB.TOPIC["fruit"]=1;DB.TOPIC["water"]=1;DB.TOPIC["rain"]=1;DB.TOPIC["raining"]=1;DB.TOPIC["sports"]=1;DB.TOPIC["centre"]=1;DB.TOPIC["court"]=1;DB.TOPIC["busy"]=1;DB.TOPIC["expensive"]=1;DB.TOPIC["watch"]=1;DB.TOPIC["internet"]=1;DB.TOPIC["players"]=1;DB.TOPIC["computer"]=1;DB.TOPIC["suggestions"]=1;DB.TOPIC["hurry"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["racket"]=1;DB.TRAP["rackets"]=1;DB.TRAP["sandwiches"]=1;DB.TRAP["sports"]=1;DB.TRAP["centre"]=1;DB.TRAP["court"]=1;DB.TRAP["expensive"]=1;DB.TRAP["internet"]=1;DB.TRAP["players"]=1;DB.TRAP["nina"]=1;DB.TRAP["dave"]=1;DB.TRAP["tomorrow"]=1;
+/* ===== p117 文化 Transport Around the World (第12单元) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"Transport around the world.":"世界各地的交通工具。","The Amfibus, the Netherlands.":"荷兰的两栖巴士。","The big, blue Amfibus certainly makes a big splash!":"这辆庞大的蓝色两栖巴士确实激起了不小的水花！","It's in Rotterdam, and it takes people on tours of the city.":"它在鹿特丹，载着人们游览这座城市。","It's cool.":"它很酷。","It can travel on land and in the water.":"它既能在陆地上行驶，也能在水里航行。","It is more expensive than water taxis, but it is more exciting, too.":"它比水上出租车更贵，但也更刺激。","It is slower in the water than on land.":"它在水中比在陆地上行驶得慢。","It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land.":"它在水中的时速是8公里，在陆地上的时速是96公里。","The tour lasts for an hour, and it costs 27.50 euros.":"这趟游览持续一个小时，票价27.50欧元。","Moving walkways and escalators, Hong Kong.":"香港的自动扶梯和电动步道。","The Central-Mid-Levels Escalator is 800 metres long.":"中央-半山自动扶梯长达800米。","Escalators are usually inside a shopping centre or an airport, but not this one!":"自动扶梯通常位于购物中心或机场内，但这座不是！","It's outside.":"它在室外。","It's a great way to travel round this city of hills.":"这是游遍这座山城的好办法。","And it's free!":"而且免费！","There are 14 places where you can get on and off.":"有14个可以上下的地方。","The escalators travel down the hill from 6am to 10am, so people can travel to work.":"自动扶梯每天上午6点到10点向下运行，方便人们上班出行。","They travel up the hill from 10am to midnight.":"上午10点到午夜它们向上运行。","The urban cable car, Turkey.":"土耳其的城市缆车。","Ankara's cable car is cheaper than other forms of public transport.":"安卡拉的缆车比其他公共交通方式更便宜。","It is healthier because it doesn't pollute the air.":"它更健康，因为它不污染空气。","It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!":"它也比驾车出行更轻松、更快捷，因为空中不会有交通堵塞！","It travels 60 metres above the ground, and passengers can get great views of the city.":"它在距地面60米的高处运行，乘客可以饱览城市美景。","Submarines, Lanzarote and Tenerife.":"兰萨罗特岛和特内里费岛的观光潜艇。","Now you can travel in a submarine!":"现在你还能乘坐潜艇出行！","This submarine carries tourists.":"这种潜艇载着游客。","It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas.":"它是观赏海里五颜六色的鱼以及水下植物和岩石的一种安全又舒适的方式。","The submarine can carry 48 people, and it has 11 large windows on each side.":"这种潜艇可载48人，每侧有11扇大窗户。","It travels down 60 metres under the sea.":"它可下潜到海面下60米。"});
+DB.TITLE_START["p117"]=7.403;
+DB.ENTITY["117"]={"rotterdam": {"t": "GPE", "s": 1}, "ankara": {"t": "GPE", "s": 1}, "lanzarote": {"t": "GPE", "s": 1}, "tenerife": {"t": "GPE", "s": 1}};
+DB.ENTITYMULTI["117"]=[[["hong", "kong"], {"t": "GPE", "s": 1}], [["central", "mid-levels"], {"t": "LOC", "s": 1}]];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;DB.TOPIC["amfibus"]=1;DB.TOPIC["splash"]=1;DB.TOPIC["rotterdam"]=1;DB.TOPIC["tours"]=1;DB.TOPIC["water"]=1;DB.TOPIC["taxis"]=1;DB.TOPIC["exciting"]=1;DB.TOPIC["slower"]=1;DB.TOPIC["kilometres"]=1;DB.TOPIC["cable"]=1;DB.TOPIC["escalator"]=1;DB.TOPIC["escalators"]=1;DB.TOPIC["shopping"]=1;DB.TOPIC["centre"]=1;DB.TOPIC["airport"]=1;DB.TOPIC["outside"]=1;DB.TOPIC["hills"]=1;DB.TOPIC["free"]=1;DB.TOPIC["places"]=1;DB.TOPIC["hill"]=1;DB.TOPIC["midnight"]=1;DB.TOPIC["cable"]=1;DB.TOPIC["healthier"]=1;DB.TOPIC["pollute"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["jams"]=1;DB.TOPIC["passengers"]=1;DB.TOPIC["views"]=1;DB.TOPIC["submarine"]=1;DB.TOPIC["tourists"]=1;DB.TOPIC["colourful"]=1;DB.TOPIC["plants"]=1;DB.TOPIC["rocks"]=1;DB.TOPIC["windows"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["escalator"]=1;DB.TRAP["escalators"]=1;DB.TRAP["amfibus"]=1;DB.TRAP["amphibus"]=1;DB.TRAP["rotterdam"]=1;DB.TRAP["ankara"]=1;DB.TRAP["lanzarote"]=1;DB.TRAP["tenerife"]=1;DB.TRAP["pollute"]=1;DB.TRAP["traffic"]=1;DB.TRAP["passengers"]=1;DB.TRAP["colourful"]=1;DB.TRAP["submarine"]=1;DB.TRAP["kilometres"]=1;DB.TRAP["healthier"]=1;DB.TRAP["taxis"]=1;DB.TRAP["exciting"]=1;
+/* ===== p202 文化视频 Ways to Get Around (第12单元 Culture) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"People use different types of transport to get from one place to the next.":"人们用各种各样的交通工具从一个地方到另一个地方。","In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special.":"德国有一座城市叫伍珀塔尔，那里有一种叫 Schwebebahn 的悬挂铁路，非常特别。","The first track opened in 1901.":"第一条轨道于1901年通车。","It is the oldest electric elevated railway with hanging cars in the world.":"它是全世界最古老的电动高架悬挂铁路。","More than 85,000 passengers use it every day.":"每天有超过8.5万名乘客乘坐它。","There are lots of special cars in Cuba, especially in Havana.":"在古巴，尤其是在哈瓦那，有许多特别的车。","Most of them are very old.":"其中大多数都非常老旧。","But these yellow taxis are much newer.":"但这些黄色的出租车要新得多。","They are called cocotaxis because they look like coconuts.":"它们被称为 cocotaxi（椰子车），因为它们看起来像椰子。","They are a great way of getting around.":"它们是四处出游的好方式。","Tourists love them!":"游客们非常喜欢它们！","Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan.":"游客们还喜欢在葡萄牙马德拉岛的蒙特山乘坐木滑车沿山坡滑下来。","Originally, people used these sledges to transport food and other things.":"最初，人们用这些雪橇运送食物和其他物品。","Today, they transport people.":"如今，它们运送的是乘客。","Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street.":"两名 carreiros（即雪橇驾驶员）在雪橇旁奔跑，让它保持在路中央。","They wear special shoes.":"他们穿着特制的鞋子。","When the ride gets too fast, the drivers can use their shoes to slow it down.":"当滑行速度太快时，驾驶员就能用他们的鞋来减速。","This strange form of transportation is called zorbing or globe-riding.":"这种奇特的交通方式被称为”翻滚球“（zorbing），也叫作“人球骑行”。","And yes, a person is inside!":"没错，人就待在球里面！","The first zorbing site was in New Zealand.":"第一个翻滚球场地在新西兰。","But now you can go zorbing all over the world.":"但现在，你在世界各地都能玩翻滚球。","Even on water.":"甚至在水上也可以。","What's a popular way of getting around in your city?":"在你所在的城市，有什么流行的出行方式呢？"});
+DB.TITLE_START["p202"]=10.975;
+DB.ENTITY["202"]={"wuppertal": {"t": "GPE", "s": 1}, "germany": {"t": "GPE", "s": 1}, "cuba": {"t": "GPE", "s": 1}, "havana": {"t": "GPE", "s": 1}, "madeira": {"t": "GPE", "s": 1}, "portugal": {"t": "GPE", "s": 1}, "zealand": {"t": "GPE", "s": 1}};
+DB.ENTITYMULTI["202"]=[[["new", "zealand"], {"t": "GPE", "s": 1}], [["monte", "toboggan"], {"t": "LOC", "s": 1}], [["schwebebahn"], {"t": "ORG", "s": 1}]];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["types"]=1;DB.TOPIC["wuppertal"]=1;DB.TOPIC["schwebebahn"]=1;DB.TOPIC["suspension"]=1;DB.TOPIC["railway"]=1;DB.TOPIC["track"]=1;DB.TOPIC["electric"]=1;DB.TOPIC["elevated"]=1;DB.TOPIC["hanging"]=1;DB.TOPIC["passengers"]=1;DB.TOPIC["cuba"]=1;DB.TOPIC["havana"]=1;DB.TOPIC["taxis"]=1;DB.TOPIC["cocotaxis"]=1;DB.TOPIC["coconuts"]=1;DB.TOPIC["tourists"]=1;DB.TOPIC["madeira"]=1;DB.TOPIC["portugal"]=1;DB.TOPIC["toboggan"]=1;DB.TOPIC["hill"]=1;DB.TOPIC["hills"]=1;DB.TOPIC["sledges"]=1;DB.TOPIC["carreiros"]=1;DB.TOPIC["drivers"]=1;DB.TOPIC["shoes"]=1;DB.TOPIC["zorbing"]=1;DB.TOPIC["globe-riding"]=1;DB.TOPIC["zealand"]=1;DB.TOPIC["water"]=1;DB.TOPIC["city"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["getting"]=1;DB.TOPIC["around"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["transport"]=1;DB.TRAP["wuppertal"]=1;DB.TRAP["schwebebahn"]=1;DB.TRAP["suspension"]=1;DB.TRAP["elevated"]=1;DB.TRAP["passengers"]=1;DB.TRAP["cocotaxis"]=1;DB.TRAP["coconuts"]=1;DB.TRAP["toboggan"]=1;DB.TRAP["sledges"]=1;DB.TRAP["carreiros"]=1;DB.TRAP["zorbing"]=1;DB.TRAP["globe-riding"]=1;DB.TRAP["madeira"]=1;DB.TRAP["havana"]=1;DB.TRAP["zealand"]=1;
+/* ===== p73 播客 Stay Positive (第7单元 vlog · LIFE COMPETENCIES) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"Oh, hello. It's you. Sorry, I'm not feeling great.":"哦，你好。是你啊。抱歉，我现在不太舒服。","Why? This is why. And I have a geography test tomorrow.":"为什么？就是这个原因。而且我明天有地理考试。","I like geography, but there's just so much information to learn.":"我喜欢地理，可需要记的内容实在太多了。","How can I stay positive today?":"我今天怎么才能保持积极呢？","But that's not the only problem.":"可这还不是唯一的问题。","Because I have a geography test tomorrow, I can't do all the things I really want to do today.":"因为我明天有地理考试，今天没法做所有我真正想做的事了。","I can't play tennis with Tyler.":"我没法和泰勒一起打网球了。","I can't go to see a movie with Tyler.":"我没法和泰勒一起去看电影了。","I can't watch baseball with Tyler.":"我没法和泰勒一起看棒球赛了。","I can't go for an ice cream with Tyler.":"我没法和泰勒一起去吃冰淇淋了。","How can I be positive?":"我怎么才能积极起来呢？","I can't do anything.":"我什么事都做不了。","Or can I?":"又或许，我真的还能行？","It's Tyler!":"是泰勒！","Hi, Tyler!":"嗨，泰勒！","Really?":"真的吗？","Good idea!":"好主意！","Of course!":"当然啦！","Now?":"现在？","Amazing!":"太棒了！","See you soon!":"一会儿见！","Tyler has a geography test tomorrow too, and Tyler's great at geography.":"泰勒明天也要考地理，而且泰勒地理学得特别好。","He's coming over to help me, and he's bringing popcorn.":"他要过来帮我，还带了爆米花。","See, stay positive.":"你看，保持积极就好。","That's what I always say, because if you stay positive, you can find an answer to any problem.":"这是我常说的话：只要你保持积极，任何难题你都能找到答案。","Just relax.":"放松就好。","See you next time!":"下次见！"});
+DB.TITLE_START["p073"]=11.095;
+DB.ENTITY["73"]={"tyler": {"t": "PER", "s": 1}};
+DB.ENTITYMULTI["73"]=[];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["positive"]=1;DB.TOPIC["geography"]=1;DB.TOPIC["test"]=1;DB.TOPIC["information"]=1;DB.TOPIC["learn"]=1;DB.TOPIC["tennis"]=1;DB.TOPIC["movie"]=1;DB.TOPIC["baseball"]=1;DB.TOPIC["ice"]=1;DB.TOPIC["cream"]=1;DB.TOPIC["problem"]=1;DB.TOPIC["anything"]=1;DB.TOPIC["popcorn"]=1;DB.TOPIC["relax"]=1;DB.TOPIC["answer"]=1;DB.TOPIC["great"]=1;DB.TOPIC["things"]=1;DB.TOPIC["today"]=1;DB.TOPIC["bringing"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["positive"]=1;DB.TRAP["geography"]=1;DB.TRAP["information"]=1;DB.TRAP["popcorn"]=1;DB.TRAP["relax"]=1;DB.TRAP["baseball"]=1;DB.TRAP["anything"]=1;DB.TRAP["tennis"]=1;DB.TRAP["cream"]=1;
+/* ===== p66 纪录片 LIVING FOR SPORT (第7单元 纪录片视频 · Unit_07.1) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"A slam dunk and the crowds cheer!":"一记暴扣，全场欢呼！","A game of sports can be so exciting.":"一场比赛可以如此激动人心。","All over the world, people love watching sports, talking about sports and playing sports.":"全世界的人都爱看体育、谈体育、参与体育。","Can you guess why?":"你能猜到为什么吗？","Ball sports are very popular.":"球类运动非常受欢迎。","For example, football.":"比如，足球。","Half of the world loves football.":"全世界有一半的人热爱足球。","That's almost four billion people.":"那几乎是四十亿人。","Volleyball is another popular ball sport.":"排球是另一种受欢迎的球类运动。","You probably know it.":"你很可能对它很熟悉。","But here in Laos they don't play volleyball with their hands and arms.":"但在老挝，人们不用手和手臂打排球。","They play it with their feet, head and knees.":"他们用脚、头和膝盖来打。","This game is called Sepak takraw – kick volleyball.":"这项运动叫藤球——踢式排球。","People love playing it in southeast Asia.":"在东南亚，人们都很喜欢玩这项运动。","Dodgeball is another great ball game.":"躲避球是另一种很棒的打球游戏。","Do you play it at school?":"你在学校玩过吗？","You have to be very good at throwing and catching the ball.":"你必须非常擅长投球和接球。","Bowling uses a different kind of ball – a very hard ball.":"保龄球用的是另一种球——一个非常硬的球。","You can't kick it.":"你不能踢它。","You roll it and try to knock over the pins at the end of the lane.":"你把它滚出去，努力击倒球道尽头的球瓶。","Young and old people can play this game.":"老人和小孩都能玩这项运动。","Do you know squash?":"你了解壁球吗？","Lots of people like playing it.":"很多人都喜欢打壁球。","Usually, it's a game between two players but you can also play in a team.":"通常这是两人对打，但也可以组队来玩。","Players hit the ball against four walls, and it's a very quick sport!":"球员把球打向四面墙，这是一项非常快的运动！","But you have to be careful so you don't get hit.":"但你要小心，别被球砸到。","What's your favourite sport?":"你最喜欢的运动是什么？"});
+DB.TITLE_START["p066"]=12.142;
+DB.ENTITY["66"]={"laos": {"t": "LOC", "s": 1}, "asia": {"t": "LOC", "s": 1}, "sepak": {"t": "TERM", "s": 1}, "takraw": {"t": "TERM", "s": 1}};
+DB.ENTITYMULTI["66"]=[];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["sport"]=1;DB.TOPIC["ball"]=1;DB.TOPIC["football"]=1;DB.TOPIC["volleyball"]=1;DB.TOPIC["dodgeball"]=1;DB.TOPIC["bowling"]=1;DB.TOPIC["squash"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["favourite"]=1;DB.TOPIC["players"]=1;DB.TOPIC["team"]=1;DB.TOPIC["throw"]=1;DB.TOPIC["catch"]=1;DB.TOPIC["kick"]=1;DB.TOPIC["roll"]=1;DB.TOPIC["knock"]=1;DB.TOPIC["pins"]=1;DB.TOPIC["lane"]=1;DB.TOPIC["walls"]=1;DB.TOPIC["careful"]=1;DB.TOPIC["exciting"]=1;DB.TOPIC["crowds"]=1;DB.TOPIC["guess"]=1;DB.TOPIC["billion"]=1;DB.TOPIC["feet"]=1;DB.TOPIC["knees"]=1;DB.TOPIC["world"]=1;DB.TOPIC["game"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["volleyball"]=1;DB.TRAP["dodgeball"]=1;DB.TRAP["bowling"]=1;DB.TRAP["squash"]=1;DB.TRAP["favourite"]=1;DB.TRAP["throw"]=1;DB.TRAP["cheer"]=1;DB.TRAP["lane"]=1;DB.TRAP["crowds"]=1;DB.TRAP["billion"]=1;DB.TRAP["careful"]=1;DB.TRAP["exciting"]=1;DB.TRAP["knock"]=1;DB.TRAP["knees"]=1;
+var BOOK={
+ 67:{u:"Unit 7", audio:"../assets/p067.mp3", title:"SPORT WONDERS!", arts:[
+   ["Nikolai Kutsenko, from Ukraine, can do amazing things with a football.",
+    "He can kick a ball well ... but he can also keep the ball in the air with his feet, legs and head.",
+    "Lots of footballers can do this.",
+    "But can they do it for 24 hours and 30 minutes without stopping?",
+    "Nikolai can and it's a world record!"],
+   ["Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!",
+    "Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!",
+    "Sloan loves to be on the board.",
+    "People are often surprised when they see her because she doesn't fall over!"],
+   ["American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well.",
+    "She is the winner of two climbing World Championships for disabled athletes, and five national championships.",
+    "She has her own special way of climbing, but Maureen thinks she is just the same as any other climber."],
+   ["Goatee can't talk or write, but she can surf!",
+    "Why is this special?",
+    "Because Goatee is a goat!",
+    "She surfs with her owner, Dana McGregor.",
+    "Dana helps Goatee to stand on the board and together they ride the waves in California.",
+    "Goatee wears a yellow life-jacket because she can't swim very well!",
+    "And now there is a children's book about her, too – Dana is the author."]]},
+ 70:{u:"Unit 7", audio:"../assets/p070.mp3", title:"An Amazing Last Four Minutes", arts:[
+   ["It's 15th February at Greece Athena High School, New York.",
+    "Jason McElwain is an 18-year-old student.",
+    "Jason is autistic.",
+    "He loves basketball and he helps with the school basketball team.",
+    "Jason practises hard every day, but he never plays in the team."],
+   ["Tonight is the last game of the season.",
+    "It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches."],
+   ["It's four minutes before the end.",
+    "The team is winning, so the coach tells Jason to go out and play.",
+    "The team and the crowd are very happy, because everyone knows Jason and likes him.",
+    "Jason tries to score a basket, but he misses.",
+    "But suddenly he hits a 3-point basket.",
+    "The crowd goes crazy.",
+    "Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether.",
+    "The team wins, and Jason is a real hero.",
+    "It's an amazing night for him!"],
+   ["Soon Jason starts to become famous.",
+    "People in his town know who he is.",
+    "The US president comes to Jason's town to meet him.",
+    "Jason writes a book and some people want to make a film about him.",
+    "He becomes assistant coach to the high school basketball team."],
+   ["Now Jason works hard to help other autistic people.",
+    "He travels across the US to help get money for autism research."]]},
+  69:{u:"Unit 7", audio:"../assets/p069.mp3", title:"Dialogue: Planning a Bike Ride", dialog:1, spk:DB.SPE["69"], arts:[
+  ["Hi, Julia. It's me, Mike."],
+  ["Hi, Mike. How's it going?"],
+  ["Do you want to go cycling later today?"],
+  ["Go cycling? Good idea. What time?"],
+  ["How about after lunch? Say, two o'clock?"],
+  ["Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two."],
+  ["OK, how about three o'clock?"],
+  ["No, the lesson only finishes at half past three."],
+  ["OK, so how about four o'clock?"],
+  ["I can't. Mum wants to give me a tennis lesson at four."],
+  ["Until what time?"],
+  ["I'm not sure. Maybe about quarter to five?"],
+  ["Really? But we can't go cycling then. It gets dark at half past four."],
+  ["Well, yes, you're right. Sorry."],
+  ["So maybe we can go cycling before lunch?"],
+  ["Um, I've got a school rugby match until about half past eleven."],
+  ["What time does it start?"],
+  ["Ten o'clock."],
+  ["Julia, it's quarter to ten now."],
+  ["Really? I need to go. Let's go cycling tomorrow."],
+  ["OK. Call me in the morning. See you. Have a good match."] ]}
+,72:{u:"Unit 7", audio:"../assets/p072.mp3", title:"Rainy Day: Nina & Dave", dialog:1, spk:DB.SPE["72"], arts:[["Right! Have we got everything? Tennis rackets, balls …?"], ["Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go."], ["Just a minute! Oh, no! It's raining!", "Now what do we do?"], ["You're right. We can't play outside in the rain."], ["Why don't we go to the sports centre in town? They've got an indoor court."], ["No, it's always very busy. I'm sure we can't play there today."], ["Maybe you're right. It's a bit expensive, too."], ["OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps."], ["Yes. But I'm a bit sad now."], ["Me, too. But what can we do? It's raining, and that's that."], ["I know! How about watching some old tennis games on the internet?"], ["Good idea. I like watching really good players."], ["And we can eat our food."], ["Let's go and switch the computer on."]]},117:{u:"Unit 12", audio:"../assets/p117.mp3", title:"Transport Around the World", arts:[["Transport around the world."], ["The Amfibus, the Netherlands.", "The big, blue Amfibus certainly makes a big splash!", "It's in Rotterdam, and it takes people on tours of the city.", "It's cool.", "It can travel on land and in the water.", "It is more expensive than water taxis, but it is more exciting, too.", "It is slower in the water than on land.", "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land.", "The tour lasts for an hour, and it costs 27.50 euros."], ["Moving walkways and escalators, Hong Kong.", "The Central-Mid-Levels Escalator is 800 metres long.", "Escalators are usually inside a shopping centre or an airport, but not this one!", "It's outside.", "It's a great way to travel round this city of hills.", "And it's free!", "There are 14 places where you can get on and off.", "The escalators travel down the hill from 6am to 10am, so people can travel to work.", "They travel up the hill from 10am to midnight."], ["The urban cable car, Turkey.", "Ankara's cable car is cheaper than other forms of public transport.", "It is healthier because it doesn't pollute the air.", "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!", "It travels 60 metres above the ground, and passengers can get great views of the city."], ["Submarines, Lanzarote and Tenerife.", "Now you can travel in a submarine!", "This submarine carries tourists.", "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas.", "The submarine can carry 48 people, and it has 11 large windows on each side.", "It travels down 60 metres under the sea."]]},202:{u:"Unit 12", audio:"../assets/p202.mp3", title:"Ways to Get Around", arts:[["People use different types of transport to get from one place to the next.", "In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special.", "The first track opened in 1901.", "It is the oldest electric elevated railway with hanging cars in the world.", "More than 85,000 passengers use it every day."], ["There are lots of special cars in Cuba, especially in Havana.", "Most of them are very old.", "But these yellow taxis are much newer.", "They are called cocotaxis because they look like coconuts.", "They are a great way of getting around.", "Tourists love them!"], ["Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan.", "Originally, people used these sledges to transport food and other things.", "Today, they transport people.", "Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street.", "They wear special shoes.", "When the ride gets too fast, the drivers can use their shoes to slow it down."], ["This strange form of transportation is called zorbing or globe-riding.", "And yes, a person is inside!", "The first zorbing site was in New Zealand.", "But now you can go zorbing all over the world.", "Even on water.", "What's a popular way of getting around in your city?"]]},73:{u:"Unit 7", audio:"../assets/p073.mp3", title:"Stay Positive", arts:[["Oh, hello. It's you. Sorry, I'm not feeling great.", "Why? This is why. And I have a geography test tomorrow.", "I like geography, but there's just so much information to learn.", "How can I stay positive today?", "But that's not the only problem.", "Because I have a geography test tomorrow, I can't do all the things I really want to do today."], ["I can't play tennis with Tyler.", "I can't go to see a movie with Tyler.", "I can't watch baseball with Tyler.", "I can't go for an ice cream with Tyler.", "How can I be positive?", "I can't do anything.", "Or can I?"], ["It's Tyler!", "Hi, Tyler!", "Really?", "Good idea!", "Of course!", "Now?", "Amazing!", "See you soon!"], ["Tyler has a geography test tomorrow too, and Tyler's great at geography.", "He's coming over to help me, and he's bringing popcorn.", "See, stay positive.", "That's what I always say, because if you stay positive, you can find an answer to any problem.", "Just relax.", "See you next time!"]]},66:{u:"Unit 7", audio:"../assets/p066.mp3", title:"LIVING FOR SPORT", arts:[["A slam dunk and the crowds cheer!", "A game of sports can be so exciting.", "All over the world, people love watching sports, talking about sports and playing sports."], ["Can you guess why?", "Ball sports are very popular.", "For example, football.", "Half of the world loves football.", "That's almost four billion people.", "Volleyball is another popular ball sport.", "You probably know it."], ["But here in Laos they don't play volleyball with their hands and arms.", "They play it with their feet, head and knees.", "This game is called Sepak takraw – kick volleyball.", "People love playing it in southeast Asia."], ["Dodgeball is another great ball game.", "Do you play it at school?", "You have to be very good at throwing and catching the ball.", "Bowling uses a different kind of ball – a very hard ball.", "You can't kick it.", "You roll it and try to knock over the pins at the end of the lane.", "Young and old people can play this game."], ["Do you know squash?", "Lots of people like playing it.", "Usually, it's a game between two players but you can also play in a team.", "Players hit the ball against four walls, and it's a very quick sport!", "But you have to be careful so you don't get hit.", "What's your favourite sport?"]]}};
+/* ===== p114 阅读B My Favourite Journey (第12单元) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"My favourite journey. We all love going on a journey.":"我最喜欢的旅程。我们大家都喜欢去旅行。","Here are some of your favourites. Thank you for sharing them!":"这里有一些你们最喜欢的旅程。感谢大家的分享！","Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River.":"亚当：我喜欢船，我最喜欢的乘船旅程是乘渡船横渡多瑙河的那一段。","My grandma lives in Budapest.":"我奶奶住在布达佩斯。","When I visit her, we often go on it together.":"我去看她时，我们常常一起乘坐这条渡船。","It's not a long journey.":"这趟旅程并不长。","It's only ten minutes.":"只需十分钟。","The ferry just takes you across the river to the other side of the city.":"渡船只是把你送到河对岸，也就是城市的另一边。","We don't get off the boat.":"我们不下船。","We just go there and back again.":"我们只是坐过去，再坐回来。","Rose!":"罗斯：","I really love steam trains.":"我真的很喜欢蒸汽火车。","There's one in Scotland.":"苏格兰就有一列。","It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train.":"它从西海岸的威廉堡驶往马莱格，被称为“詹姆斯党号”蒸汽火车。","It's the famous one you see in the Harry Potter films.":"它就是你在《哈利·波特》电影里看到的那一列著名的火车。","The one that takes Harry and his classmates to Hogwarts. But that's not why I like it.":"就是送哈利和他的同学们去霍格沃茨的那一列。但我喜欢它并非因为这个原因。","I like the sound it makes and I like the view from the window.":"我喜欢它发出的声响，也喜欢窗外的景色。","It travels past lakes and mountains and beautiful beaches.":"它沿途经过湖泊、山峦和美丽的海滩。","What's my favourite journey?":"我最喜欢的旅程是什么呢？","My journey to school.":"是我上学的那段路。","We live in a village and my school is in the next village.":"我们住在一个村子里，我的学校在下一个村子。","Every morning, I walk across the fields and then along the river until I'm at school.":"每天早晨，我穿过田野，再沿着河边走，直到到达学校。","It's a really beautiful walk.":"这段路程真是美极了。","I love looking for birds.":"我喜欢寻找小鸟。","There are some lovely ones.":"那儿有几只可爱的小鸟。","And sometimes, if I'm lucky, I see a rabbit.":"有时，如果我运气好，还能看到一只兔子。","I love my walk to school.":"我喜欢去学校的那段路。","But I love the walk home more!":"但我更喜欢回家那段路！","Max. My favourite journey is a very fast bike ride.":"马克斯：我最喜欢的旅程是一次极速的骑行。","My grandparents have a house in the mountains. There is a road down the mountain to the town.":"我的祖父母在山里有一栋房子。有一条路从山上通向小镇。","It goes down very fast, and it goes through a big forest.":"下山的路非常快，途中还会经过一大片森林。","Every morning, we ride down to the town to get bread.":"每天早晨，我们骑车下到镇上买面包。","It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!":"骑车下去只需十分钟，可再骑回山上却要久得多！"});
+DB.TITLE_START["p114"]=7.159;
+DB.ENTITY["114"]={"danube": {"t": "GPE", "s": 1}, "budapest": {"t": "GPE", "s": 1}, "scotland": {"t": "GPE", "s": 1}, "mallaig": {"t": "GPE", "s": 1}, "hogwarts": {"t": "GPE", "s": 1}};
+DB.ENTITYMULTI["114"]=[[["fort", "william"], {"t": "GPE", "s": 1}], [["jacobite", "steam", "train."], {"t": "ORG", "s": 1}], [["harry", "potter"], {"t": "ORG", "s": 1}]];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["journey"]=1;DB.TOPIC["journeys"]=1;DB.TOPIC["ferry"]=1;DB.TOPIC["boat"]=1;DB.TOPIC["boats"]=1;DB.TOPIC["steam"]=1;DB.TOPIC["trains"]=1;DB.TOPIC["river"]=1;DB.TOPIC["city"]=1;DB.TOPIC["minutes"]=1;DB.TOPIC["minute"]=1;DB.TOPIC["village"]=1;DB.TOPIC["school"]=1;DB.TOPIC["fields"]=1;DB.TOPIC["birds"]=1;DB.TOPIC["rabbit"]=1;DB.TOPIC["bike"]=1;DB.TOPIC["ride"]=1;DB.TOPIC["mountain"]=1;DB.TOPIC["town"]=1;DB.TOPIC["bread"]=1;DB.TOPIC["forest"]=1;DB.TOPIC["lakes"]=1;DB.TOPIC["mountains"]=1;DB.TOPIC["beaches"]=1;DB.TOPIC["sharing"]=1;DB.TOPIC["favourites"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["journey"]=1;DB.TRAP["ferry"]=1;DB.TRAP["village"]=1;DB.TRAP["favourite"]=1;DB.TRAP["minutes"]=1;DB.TRAP["mountains"]=1;DB.TRAP["beaches"]=1;DB.TRAP["sharing"]=1;DB.TRAP["hogwarts"]=1;DB.TRAP["mallaig"]=1;DB.TRAP["jacobite"]=1;DB.TRAP["budapest"]=1;DB.TRAP["mountain"]=1;DB.TRAP["rabbit"]=1;
+/* ===== p113 听力 At the Train Station (第12单元) ===== */
+DB.ZH = Object.assign(DB.ZH||{}, {"Good morning.":"早上好。","How can I help you?":"有什么可以帮您？","Hello.":"你好。","I want to go to Windsor.":"我想去温莎。","What time's the next train?":"下一趟火车几点开？","There's one in five minutes.":"五分钟后就有一趟。","It's a fast train.":"那是一趟快车。","It only stops at Clapham Junction and Windsor.":"它只在克拉珀姆交汇站和温莎停靠。","You can catch that one.":"您可以搭那一趟。","And the one after that?":"那下一趟呢？","There's one at half past ten, but that's a slower train.":"十点半有一趟，但那是慢车。","It stops at every station.":"它每站都停。","That's OK.":"没关系。","I'm not in a hurry, and I don't want to run.":"我不赶时间，也不想跑着赶车。","What time does that one arrive in Windsor?":"那趟车几点到温莎？","At half past eleven.":"十一点半到。","It takes an hour.":"要行驶一个小时。","And how often are the trains to Windsor?":"去温莎的火车多久一班？","They're every half hour.":"每半小时一班。","Great!":"太好了！","And how much is a ticket?":"车票多少钱一张？","Do you want a single or a return?":"您要单程票还是往返票？","A return, please.":"请给我一张往返票。","Are you returning today?":"您是今天返回吗？","Yes, I am.":"是的。","Then you can get an off-peak day return ticket for £12.70.":"那么您可以买一张非高峰时段当日往返票，票价12.70英镑。","It's cheaper than the anytime day return.":"它比任何时段都适用的当日往返票更便宜。","That's £19.90.":"那种票价是19.90英镑。","Right.":"好的。","I'd like the off-peak day return one then.":"那我就买非高峰时段当日往返票。","OK.":"好的。","That's £12.70, please.":"请付12.70英镑。","What platform does the train leave from?":"火车从哪个站台发车？","It leaves from platform 15.":"从15号站台发车。","And what platform does it arrive at in Windsor?":"那在温莎从哪个站台到站呢？","My friend wants to meet me there.":"我的朋友要在那里接我。","Platform 1.":"在1号站台。","But Windsor is a very small station, a lot smaller than Waterloo.":"不过温莎是个很小的车站，比滑铁卢站小得多。","There are only two platforms at Windsor.":"温莎站只有两个站台。","OK, then that's not a problem.":"好吧，那就不成问题了。","Thank you.":"谢谢。","Have a good journey.":"祝您旅途愉快。"});
+DB.SPE["113"]=["Ticket seller", "Ticket seller", "Kate", "Kate", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Ticket seller", "Kate", "Kate", "Kate", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Kate", "Kate", "Ticket seller", "Kate", "Ticket seller", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Kate", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Kate", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Kate", "Ticket seller"];
+DB.TITLE_START["p113"]=8.41;
+DB.ENTITY["113"]={"windsor": {"t": "GPE", "s": 1}, "clapham": {"t": "GPE", "s": 1}, "waterloo": {"t": "GPE", "s": 1}};
+DB.ENTITYMULTI["113"]=[[["clapham", "junction"], {"t": "GPE", "s": 1}]];
+DB.TOPIC=DB.TOPIC||{};DB.TOPIC["train"]=1;DB.TOPIC["trains"]=1;DB.TOPIC["ticket"]=1;DB.TOPIC["single"]=1;DB.TOPIC["return"]=1;DB.TOPIC["platform"]=1;DB.TOPIC["station"]=1;DB.TOPIC["station"]=1;DB.TOPIC["journey"]=1;DB.TOPIC["hurry"]=1;DB.TOPIC["arrive"]=1;DB.TOPIC["hour"]=1;DB.TOPIC["half"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["off-peak"]=1;DB.TOPIC["anytime"]=1;DB.TOPIC["minute"]=1;DB.TOPIC["minutes"]=1;DB.TOPIC["cheaper"]=1;
+DB.TRAP=DB.TRAP||{};DB.TRAP["platform"]=1;DB.TRAP["windsor"]=1;DB.TRAP["clapham"]=1;DB.TRAP["junction"]=1;DB.TRAP["waterloo"]=1;DB.TRAP["arrive"]=1;DB.TRAP["off-peak"]=1;DB.TRAP["anytime"]=1;DB.TRAP["return"]=1;DB.TRAP["single"]=1;DB.TRAP["cheaper"]=1;
+var BOOKU12={110:{u:"Unit 12", audio:"../assets/p110.mp3", title:"Documentary: Moving About", arts:[["Our lives move very fast today, especially in big cities.", "But many years ago, that was different.", "People couldn't jump on a bus or take the tube to work.", "They walked.", "For a long time, the fastest way of travelling was by horse or boat.", "That changed with the steam engine in the 18th century.", "Then came cars, motorcycles and, of course, airplanes."], ["So what's new and popular today?", "E-scooters!", "Electric scooter sharing is the new way to get around.", "They are taking over the world's big cities.", "They are fun and easy to use.", "You don't have to buy one.", "You rent one.", "All you need is to log on to an app and then, off you go.", "They are cheaper than taxis."], ["You can get around traffic jams.", "And you don't have to do any hard work, like on a bike.", "They aren't bad for the environment either.", "But is that true?", "Well, these e-scooters don't last very long."], ["In Paris, some e-scooters break after one month.", "Many people are unhappy because there are too many e-scooters.", "They block the pavements and drive into people.", "Because people are angry about e-scooters, they throw them into rivers or break them.", "Is that the answer?", "What do you think of e-scooters?", "Do you like them?"]]},111:{u:"Unit 12", audio:"../assets/p111.mp3", title:"The Great Race", arts:[["A lot of big cities, like London, have got many traffic problems.", "Sometimes a journey of a few kilometres can take more than an hour.", "So what's the best way to get across London?"], ["For a very short journey, it's probably a good idea to walk.", "But what happens when you want to go further?"], ["The presenters of a popular TV show about cars decided to find out.", "Each of the presenters chose a different type of transport to make the same 27-kilometre journey.", "One presenter went by bike.", "One went by car."], ["Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames.", "They all started at the same time and the same place in West London, but who got to City Airport in East London first?", "The results were a surprise."], ["The bike came first.", "In second place was the speedboat.", "Public transport came third and the car was last."], ["So the presenters had an answer.", "The bike was quicker than all the other types of transport and the car was slower.", "They weren't very happy with the result because they wanted the car to win.", "They made a joke and said the bike wasn't a real winner because it was more dangerous."], ["But, of course, the bike is the real winner.", "It's the best way to get about.", "It's cheaper than public transport and it is healthier than going by car.", "It's also better for our cities because bikes don't make the air dirty.", "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'"]]},114:{u:"Unit 12", audio:"../assets/p114.mp3", title:"My Favourite Journey", arts:[["My favourite journey. We all love going on a journey.", "Here are some of your favourites. Thank you for sharing them!"], ["Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River.", "My grandma lives in Budapest.", "When I visit her, we often go on it together.", "It's not a long journey.", "It's only ten minutes.", "The ferry just takes you across the river to the other side of the city.", "We don't get off the boat.", "We just go there and back again."], ["Rose!", "I really love steam trains.", "There's one in Scotland.", "It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train.", "It's the famous one you see in the Harry Potter films.", "The one that takes Harry and his classmates to Hogwarts. But that's not why I like it.", "I like the sound it makes and I like the view from the window.", "It travels past lakes and mountains and beautiful beaches."], ["What's my favourite journey?", "My journey to school.", "We live in a village and my school is in the next village.", "Every morning, I walk across the fields and then along the river until I'm at school.", "It's a really beautiful walk.", "I love looking for birds.", "There are some lovely ones.", "And sometimes, if I'm lucky, I see a rabbit.", "I love my walk to school.", "But I love the walk home more!"], ["Max. My favourite journey is a very fast bike ride.", "My grandparents have a house in the mountains. There is a road down the mountain to the town.", "It goes down very fast, and it goes through a big forest.", "Every morning, we ride down to the town to get bread.", "It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!"]]},113:{u:"Unit 12", audio:"../assets/p113.mp3", title:"At the Train Station", dialog:1, spk:DB.SPE["113"], arts:[["Good morning.", "How can I help you?"], ["Hello.", "I want to go to Windsor.", "What time's the next train?"], ["There's one in five minutes.", "It's a fast train.", "It only stops at Clapham Junction and Windsor.", "You can catch that one."], ["And the one after that?"], ["There's one at half past ten, but that's a slower train.", "It stops at every station."], ["That's OK.", "I'm not in a hurry, and I don't want to run.", "What time does that one arrive in Windsor?"], ["At half past eleven.", "It takes an hour."], ["And how often are the trains to Windsor?"], ["They're every half hour."], ["Great!", "And how much is a ticket?"], ["Do you want a single or a return?"], ["A return, please."], ["Are you returning today?"], ["Yes, I am."], ["Then you can get an off-peak day return ticket for £12.70.", "It's cheaper than the anytime day return.", "That's £19.90."], ["Right.", "I'd like the off-peak day return one then."], ["OK.", "That's £12.70, please."], ["What platform does the train leave from?"], ["It leaves from platform 15."], ["And what platform does it arrive at in Windsor?", "My friend wants to meet me there."], ["Platform 1.", "But Windsor is a very small station, a lot smaller than Waterloo.", "There are only two platforms at Windsor."], ["OK, then that's not a problem.", "Thank you."], ["Have a good journey."]]}};
+Object.assign(BOOK, BOOKU12);
+</script>
+<script>
+var $=id=>document.getElementById(id);
+var audio=$("audio");
+var TL, ZH, TITLE_START, ENTITY, ENTITYMULTI, LEVEL, TOPIC, BASE, TRAP;
+function initDB(){ TL=DB.TL; ZH=DB.ZH||{}; TITLE_START=DB.TITLE_START;
+  ENTITY=DB.ENTITY||{}; ENTITYMULTI=DB.ENTITYMULTI||{}; LEVEL=DB.LEVEL||{}; TOPIC=DB.TOPIC||{}; BASE=DB.BASE||{}; TRAP=DB.TRAP||{}; }
+
+/* == 三页互链注入点（_gen_follow_v2.py 注入本篇 预习/复习/听写 文件名） == */
+var SIBLINGS={"listen": "预习_066_livingforsport.html", "follow": "复习_066_livingforsport.html", "dictate": "听写_066_livingforsport.html"};
+var CUR="listen";
+var QUIZ = [];
+var TASKS = (function(){ var m=(location.search||"").match(/[?&]tasks=([\w,]+)/); return m ? m[1].split(",") : null; })();
+function tasksAllow(k){ return !TASKS || TASKS.indexOf(k) >= 0; }
+
+/* ---------- state ---------- */
+var state={ pg:66, stage:CUR, mode:"whole", cn:false, idx:0, flow:"read", loopN:1, loopLeft:0, rate:1 };
+var PROG={ listen:false, follow:false, dictate:false };
+var SEGS=[], sentEls=[];
+var seeking=false;
+
+/* ---------- 进度落盘：三页共用 tf_follow_<pg>，主站任务判定读 follow 键 ---------- */
+var FK='tf_follow_';
+function loadFollow(pg){ try{ var o=JSON.parse(localStorage.getItem(FK+pg)); return (o&&typeof o==='object')?o:null; }catch(e){ return null; } }
+function saveFollow(){ try{ localStorage.setItem(FK+state.pg, JSON.stringify({ listen:PROG.listen, follow:PROG.follow, dictate:PROG.dictate, updatedAt:Date.now() })); }catch(e){} }
+
+function partsOf(s){
+  var re=/([A-Za-z']+|[0-9]+)|([^\s])/g, m, o=[], i=0;
+  while((m=re.exec(s))){
+    if(m.index>i) o.push({t:s.slice(i,m.index),w:-1});
+    o.push(m[1]? {t:m[1],w:1} : {t:m[2],w:0});
+    i=m.index+m[0].length;
+  }
+  if(i<s.length) o.push({t:s.slice(i),w:-1});
+  return o;
+}
+function wrapWords(s){ var h=""; partsOf(s).forEach(function(p){ h+= p.t; }); return h; }
+function normTok(t){ return (t||"").toLowerCase().replace(/[.,;'!?]+$/,''); }
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+function escQ(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+let tt; function toast(m){ var t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove("show"),2200); }
+
+function render(pg){
+  state.pg=pg; state.idx=0;
+  var B=BOOK[pg], body=$("body"), seg=0, spk=B.spk||null;
+  state.dialog = !!(spk && spk.length>1);
+  body.innerHTML="";
+  SEGS=[]; sentEls=[];
+  PROG={ listen:false, follow:false, dictate:false };
+  var _saved=loadFollow(pg);
+  if(_saved){ PROG.listen=!!_saved.listen; PROG.follow=!!_saved.follow; PROG.dictate=!!_saved.dictate; }
+  B.arts.forEach(function(ar){
+    var p=document.createElement("div"); p.className="para";
+    ar.forEach(function(s){
+      var sent=document.createElement("span");
+      sent.className="sent"; sent.dataset.i=seg;
+      if(spk){ sent.dataset.spk=spk[seg]; sent.innerHTML='<b class="spk">'+(spk[seg]==="julia"?"Julia":"Mike")+'</b>'+wrapWords(s)+`<span class="zh ${state.cn?"":"hide"}">${ZH[s]||""}</span>`; }
+      else sent.innerHTML=wrapWords(s)+`<span class="zh ${state.cn?"":"hide"}">${ZH[s]||""}</span>`;
+      p.appendChild(sent); p.appendChild(document.createTextNode(" "));
+      SEGS.push(s); sentEls.push(sent);
+      seg++;
+    });
+    body.appendChild(p);
+  });
+  $("paperTitle").textContent=B.title;
+  $("headline").textContent=B.u;
+  audio.pause();
+  audio.src=B.audio;
+  setStage(state.stage);
+}
+
+/* ---------- transport ---------- */
+function jump(sec, fromPlay){
+  var d=audio.duration;
+  var t=Math.max(0, Math.min(sec, isFinite(d)?d: sec));
+  if(Math.abs(audio.currentTime-t)<0.04 && !audio.paused) return;
+  audio.pause(); seeking=true;
+  try{ audio.currentTime=t; }catch(e){}
+  audio.addEventListener("seeked", function h(){ seeking=false; audio.play(); audio.removeEventListener("seeked",h); });
+  setPlayIc(true);
+}
+function startFrom(){
+  var k=state.pg; var start=(TITLE_START["p"+String(k).padStart(3,"0")]||0);
+  jump(start, true);
+}
+audio.addEventListener("play", function(){ setPlayIc(true); });
+audio.addEventListener("pause", function(){ setPlayIc(false); });
+
+/* ---------- highlight ---------- */
+function highlightAt(t){
+  var tls=TL[state.pg]; var si=0;
+  for(var i=0;i<tls.length;i++){ if(t>=tls[i][0]-0.01) si=i; else break; }
+  setActiveSentence(si);
+}
+function setActiveSentence(si){
+  for(var i=0;i<sentEls.length;i++) sentEls[i].classList.toggle("on", i===si);
+  autoScroll(si);
+}
+function autoScroll(si){
+  var el=sentEls[si]; if(!el) return;
+  var body=$("body");
+  var er=el.getBoundingClientRect(), br=body.getBoundingClientRect();
+  if(er.top<br.top+4 || er.bottom>br.bottom-8){
+    el.scrollIntoView({block:"center",behavior:"smooth"});
+  }
+}
+function setPlayIc(on){
+  $("playIc").outerHTML = on
+    ? '<svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="5" width="4" height="14" rx="1"/><rect x="13" y="5" width="4" height="14" rx="1"/></svg>'
+    : '<svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="7 4 20 12 7 20 7 4"/></svg>';
+}
+
+/* == 跟读间隙生词提示（方案A：unknown 优先，fuzzy 补位）+ 听写本错词入待复习（v1 全量保留） == */
+var VQKEY = "u7_p66_livingforsport";
+function vqRecords(){ try{ return JSON.parse(localStorage.getItem(VQKEY + "_records_v2")) || {}; }catch(e){ return {}; } }
+function vqMark(word, status){
+  if(!VQKEY) return;
+  var R = vqRecords(); var w = word.toLowerCase();
+  R[w] = R[w] || { status:"none", filterTime:0, filterChanges:0, isPriority:false, listenCount:0, studyTime:0,
+    studyRounds:0, lastStudyAt:0, spellChecked:false, spellResult:null, consecCorrect:0, nearMissCount:0,
+    reviewCount:0, lastReviewAt:0, nextReviewAt:0, testHistory:[], testCount:0, correctCount:0, wrongCount:0, uncertainCount:0 };
+  R[w].status = status;
+  if(status==="unknown"){ R[w].lastReviewAt = Date.now(); R[w].reviewCount = 0; R[w].nextReviewAt = Date.now() + 864e5; }
+  try{ localStorage.setItem(VQKEY + "_records_v2", JSON.stringify(R)); }catch(e){}
+}
+function speakW(w){ try{ var u=new SpeechSynthesisUtterance(w); u.lang="en-GB"; u.rate=0.85; speechSynthesis.cancel(); speechSynthesis.speak(u); }catch(e){} }
+function vqWordsFor(seg){
+  if(!VQKEY) return [];
+  var R = vqRecords(), unk = [], fz = [];
+  for(var w in R){ if(R[w].status==="unknown") unk.push(w); else if(R[w].status==="fuzzy") fz.push(w); }
+  if(!unk.length && !fz.length) return [];
+  var toks = partsOf(seg).map(function(p){ return (p.t||"").toLowerCase().replace(/[^a-z']/g,""); }).filter(Boolean);
+  var hitU = [], hitF = [];
+  toks.forEach(function(t){
+    unk.forEach(function(w){ if(t.indexOf(w)===0 || w.indexOf(t)===0) hitU.push(w); });
+    fz.forEach(function(w){ if(t.indexOf(w)===0 || w.indexOf(t)===0) hitF.push(w); });
+  });
+  var seen = {}; var out = [];
+  unk.concat(fz).forEach(function(w){ if(hitU.indexOf(w)>=0 && !seen[w]){ out.push([w,"u"]); seen[w]=1; } });
+  hitF.forEach(function(w){ if(!seen[w]){ out.push([w,"f"]); seen[w]=1; } });
+  return out;
+}
+function renderGapWords(si){
+  var box = $("fsGapWords"); if(!box) return;
+  var list = vqWordsFor(SEGS[si]);
+  if(!list.length){ box.innerHTML = '<span style="font-size:12px;color:#8a8a92">本句无生词，直接跟读</span>'; return; }
+  box.innerHTML = list.map(function(p){
+    var lab = p[1]==="u" ? "不会" : "模糊";
+    return '<span class="gapw" onclick="speakW(\''+p[0]+'\')">'+escQ(p[0])+'<i>'+lab+' 🔊</i></span>';
+  }).join("") + '<span style="font-size:11.5px;color:#8a8a92;align-self:center">跟着读音开口</span>';
+}
+
+/* ---------- binds (script runs at end of body, DOM present) ---------- */
+document.addEventListener("DOMContentLoaded", function(){
+  initDB();
+  bindSentClicks();
+  render(66);
+  $("play").onclick=togglePlay;
+  document.addEventListener("keydown",function(e){
+    if(e.code!=="Space") return;
+    var el=document.activeElement;
+    if(el && (el.tagName==="INPUT"||el.tagName==="TEXTAREA")) return;
+    e.preventDefault(); togglePlay();
+  });
+  $("prev").onclick=()=>nxt(-1);
+  $("next").onclick=()=>nxt(1);
+  $("cnToggle").onclick=function(){
+    state.cn=!state.cn; syncCnUI(); toast(state.cn?"译文：显示":"译文：隐藏");
+  };
+});
+
+/* ========== 预习（聆听）：整篇循环 + 盲听答题（v1 功能全量保留） ========== */
+var QZ = {done:false};
+function quizDone(){ return QZ.done || PROG.listen; }
+var LCOUNT={ n:0, p:0 };
+function setListenN(n){
+  var dots=$("dkDots"); if(dots){ dots.innerHTML=""; for(var i=0;i<3;i++){ var d=document.createElement("span"); d.className="lp-dot"+((i<n)?" on":""); dots.appendChild(d); } }
+}
+function listenLoop(){
+  if(LCOUNT.p!==state.pg) return;
+  LCOUNT.n++;
+  PROG.listen=true; saveFollow();
+  if(LCOUNT.n>=3){ setListenN(0); toast("聆听 3 遍完成，进入复习跟读"); setTimeout(function(){ location.href=SIBLINGS.follow; }, 900); }
+  else { setListenN(LCOUNT.n); startFrom(); }
+}
+audio.addEventListener("ended", function(){
+  if(!seeking){
+    if(QUIZ.length && !quizDone()){ showQuiz(); return; }
+    listenLoop();
+  }
+});
+
+/* 盲听：答题（≥75% 记完成）前隐去原文 */
+function applyBlind(){
+  var b = $("body");
+  if(!b) return;
+  if(QUIZ.length && !quizDone()){ b.classList.add("blind"); showQuizBanner(); }
+  else { b.classList.remove("blind"); var bn=$("quizBanner"); if(bn) bn.classList.add("hide"); }
+}
+function showQuizBanner(){
+  var bn = $("quizBanner");
+  if(!bn){
+    bn = document.createElement("div"); bn.id="quizBanner"; bn.className="quiz-banner";
+    bn.innerHTML = '<span>📖 预习（聆听）：全文整体听 · 阅读题目 —— 听后做题</span><button onclick="showQuiz()">答题</button>';
+    var reader = $("reader") || document.body;
+    reader.parentNode.insertBefore(bn, reader);
+  }
+  bn.classList.remove("hide");
+}
+var QZB = {answered:false, submitted:false};
+var MK = {mode:null, down:false, sx:0, sy:0, ctx:null};
+function showQuiz(){
+  audio.pause(); setPlayIc(false);
+  QZB.answered=false; QZB.submitted=false;
+  $("quizOv").classList.add("on");
+  $("qzSubmit").disabled = true; $("qzSubmit").textContent = "🔊 全文整体听 · 听后作答";
+  $("qzTip").textContent = "📖 阅读题目 · 听后做题（可用下划线/画圈标记）";
+  var html = QUIZ.map(function(q,i){
+    var inner = "";
+    if(q.t==="tf") inner = ["T","F","DS"].map(function(o){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+o+'">'+(o==="T"?"✓ T":(o==="F"?"✗ F":"? DS"))+'</button>'; }).join("");
+    else inner = q.opts.map(function(o,oi){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+oi+'">'+escQ(o)+'</button>'; }).join("");
+    return '<div class="qz-q">'+(i+1)+'. '+escQ(q.q)+'</div><div class="quiz-opts">'+inner+'</div>';
+  }).join("");
+  $("qzBody").innerHTML = html;
+  $("qzBody").querySelectorAll(".quiz-opt").forEach(function(b){
+    b.addEventListener("click", function(){
+      var q = QUIZ[+b.dataset.qi];
+      var ok = (q.t==="tf") ? (b.dataset.ans===q.a) : (+b.dataset.ans===q.a);
+      b.parentNode.querySelectorAll(".quiz-opt").forEach(function(x){ x.classList.remove("ok","no"); });
+      b.classList.add(ok ? "ok" : "no");
+      if(!ok){ b.parentNode.querySelectorAll(".quiz-opt")[q.t==="tf" ? ["T","F","DS"].indexOf(q.a) : q.a].classList.add("ok"); }
+      checkAllAnswered();
+    });
+  });
+  resizeCanvas(); mkMode(null);
+}
+function checkAllAnswered(){
+  var btns = $("qzBody").querySelectorAll(".quiz-opt.ok,.quiz-opt.no");
+  var need = 0; QUIZ.forEach(function(q){ need++; });
+  if(btns.length >= need && !QZB.submitted){ QZB.submitted = true; submitQuiz(); }
+}
+function submitQuiz(){
+  var score = 0;
+  QUIZ.forEach(function(q,i){
+    var sel = $("qzBody").querySelector('.quiz-opt.ok[data-qi="'+i+'"]');
+    var ans = sel ? sel.dataset.ans : null;
+    var ok = q.t==="tf" ? (ans===q.a) : (+ans===q.a);
+    if(ok) score++;
+  });
+  var pass = score >= Math.ceil(QUIZ.length*0.75);
+  $("qzSubmit").textContent = "得分 " + score + " / " + QUIZ.length + (pass ? " · 🎉 预习完成，正文已解锁" : " · 再听一遍试试");
+  $("qzSubmit").disabled = false;
+  $("qzSubmit").onclick = function(){ closeQuiz(); };
+  if(pass){ QZ.done=true; PROG.listen=true; saveFollow(); applyBlind(); }
+}
+function closeQuiz(){ $("quizOv").classList.remove("on"); applyBlind(); }
+/* 标记：下划线/画圈（鼠标+触摸手势） */
+function mkMode(m){
+  MK.mode = (MK.mode===m) ? null : m;
+  $("mkU").classList.toggle("on", MK.mode==="u");
+  $("mkC").classList.toggle("on", MK.mode==="c");
+  var c = $("qzCanvas"); c.classList.toggle("on", !!MK.mode);
+  if(MK.mode) resizeCanvas();
+}
+function mkClear(){ var c=$("qzCanvas"); c.getContext("2d").clearRect(0,0,c.width,c.height); }
+function resizeCanvas(){
+  var sec = $("qzSec"), c = $("qzCanvas");
+  c.width = sec.clientWidth; c.height = sec.scrollHeight;
+}
+function mkPos(e){
+  var r = $("qzCanvas").getBoundingClientRect();
+  var t = e.touches ? e.touches[0] : e;
+  return {x:t.clientX-r.left, y:t.clientY-r.top};
+}
+function mkStart(e){
+  if(!MK.mode) return; e.preventDefault();
+  MK.down = true; var p = mkPos(e); MK.sx = p.x; MK.sy = p.y;
+  MK.ctx = $("qzCanvas").getContext("2d");
+  MK.ctx.strokeStyle = "#f2b706"; MK.ctx.lineWidth = MK.mode==="u" ? 2.5 : 3; MK.ctx.lineCap = "round";
+  if(MK.mode==="c") MK.ctx.beginPath(), MK.ctx.moveTo(p.x,p.y);
+}
+function mkMove(e){
+  if(!MK.down || !MK.mode) return; e.preventDefault();
+  var p = mkPos(e), ctx = MK.ctx;
+  if(MK.mode==="u"){ ctx.clearRect(MK.sx-1, MK.sy-9, p.x-MK.sx+2, 18); ctx.beginPath(); ctx.moveTo(MK.sx, MK.sy); ctx.lineTo(p.x, p.y); ctx.stroke(); }
+  else { ctx.lineTo(p.x, p.y); ctx.stroke(); }
+}
+function mkEnd(){ MK.down = false; }
+
+/* ---------- 单环节状态机（预习） ---------- */
+function setStage(s){
+  document.body.className = "listen" + (state.dialog?" dialog":"");
+  syncCnUI();
+  LCOUNT={ n:0, p:state.pg }; setListenN(0);
+  applyBlind();
+}
+function syncCnUI(){
+  var t=$("cnToggle"); if(!t) return;
+  t.classList.toggle("on", state.cn);
+  document.querySelectorAll(".sent .zh").forEach(function(z){ z.classList.toggle("hide",!state.cn); });
+}
+function bindSentClicks(){
+  $("body").addEventListener("click",function(e){
+    var sent=e.target.closest(".sent"); if(!sent) return;
+    state.idx=+sent.dataset.i;
+    jump(TL[state.pg][state.idx][0], false);
+  });
+}
+function togglePlay(){
+  if(audio.paused){ if(audio.ended || audio.currentTime===0){ startFrom(); } else audio.play(); }
+  else audio.pause();
+}
+function nxt(d){ var L=SEGS.length; var i=Math.max(0,Math.min(L-1,state.idx+d));
+  state.idx=i; jump(TL[state.pg][i][0], false); }
+audio.addEventListener("timeupdate", function(){
+  var t=audio.currentTime; if(!isFinite(t)) return;
+  var tls=TL[state.pg], lastI=tls.length-1, wholeEnd=tls[lastI][1];
+  if(!seeking && t>=wholeEnd){
+    if(state.loopLeft>0){ state.loopLeft--; jump(tls[0][0], true); toast("整篇循环 · 剩 "+state.loopLeft+" 遍"); return; }
+    audio.pause(); return;
+  }
+  highlightAt(t);
+});
+$("nextStage").onclick=function(){ location.href=SIBLINGS.follow; };
+
+</script></script>
+<script>
+(function(){
+var ID=function(o){return document.getElementById(o);};
+/* 类型视觉编码：图标 + 颜色（阅读/听力/口语/文化/纪录片/播客 六类，v1 全量保留） */
+var TYPES={
+ rt:{n:"阅读",c:"#5a76d8",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'},
+ ls:{n:"听力",c:"#c97f3c",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2.5" y="13" width="4" height="7" rx="2"/><rect x="17.5" y="13" width="4" height="7" rx="2"/></svg>'},
+ sp:{n:"口语",c:"#2f9e5f",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M19 11v1a7 7 0 0 1-14 0v-1"/><line x1="12" y1="19" x2="12" y2="22"/></svg>'},
+ cu:{n:"文化",c:"#8a5cd8",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21v-5h6v5"/><line x1="8" y1="7" x2="16" y2="7"/></svg>'},
+ dv:{n:"纪录片",c:"#1f9d9b",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="14" height="14" rx="2"/></svg>'},
+ pd:{n:"播客",c:"#d8567a",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="5.5" y2="12"/><line x1="7.5" y1="8" x2="7.5" y2="16"/><line x1="10.5" y1="5" x2="10.5" y2="19"/><line x1="13.5" y1="8" x2="13.5" y2="16"/><line x1="16.5" y1="4" x2="16.5" y2="20"/><line x1="19" y1="9" x2="19" y2="15"/><line x1="21" y1="11.5" x2="21" y2="12.5"/></svg>'}
+};
+
+/* U8-U11 扩展条目（_gen_follow_v2.py 注入） */
+var BOOK_EXTRA={"75": {"u": "Unit 8", "audio": "../assets/p075.mp3", "title": "#Music in the forest", "arts": [["I'm leaving home.", "We're on our way to the station.", "I'm so excited!", "We're standing on the platform waiting for the train to Delamere Forest.", "We're here!", "What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest.", "I'm eating a hot dog.", "It's very expensive, but it's not very good!", "It's getting dark now.", "The stage is completely black.", "A few people are talking, but most people are quiet.", "We're waiting for Jess.", "And here she comes!", "Everyone is cheering!", "What a noise!", "Jess isn't on stage.", "Is the show over?", "No way!", "We're all shouting 'more'.", "Why are we shouting?", "Because we want MORE!", "But don't worry.", "She's walking back onto the stage.", "We're on the train home.", "We aren't sitting down.", "I don't care.", "There are so many people on the train and everybody's a Jess Glynne fan.", "We're all singing 'Hold my Hand'.", "It's my favourite song.", "It's exactly midnight and we're back home.", "I'm feeling tired but very happy.", "I'm going straight upstairs to bed."]]}, "77": {"u": "Unit 8", "audio": "../assets/p077.mp3", "title": "Musicians around the world", "arts": [["Hello and welcome!", "Today we are talking about different music from around the world.", "Is there a type of music that you really like?", "Phone and tell us.", "Our first caller is Liliana.", "OK Liliana, what's your favourite music?", "Hello! My mother is Mexican and we often go to Mexico.", "I love the mariachi music I see there.", "There's a group of men and sometimes women and they all stand up playing instruments like guitars, trumpets and violins.", "They also wear traditional Mexican hats.", "I think they look fantastic.", "Yes, thanks Liliana.", "And now here's Lewis.", "Hi Lewis, tell us what you like.", "Hi there.", "Well in Indonesia there's this traditional musical performance called gamelan.", "They have these orchestras with some very unusual instruments.", "They make beautiful sounds and when they all play the musicians wear the same traditional clothes.", "Thanks Lewis.", "And now let's talk to Jen.", "I love African drumming.", "I go to a lot of musical festivals and there's always some African drumming.", "Is there any African country you like the drumming from most?", "Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes.", "They're the colours of the Burundi flag.", "Sometimes they also paint their drums in the same colours.", "Okay, thank you Jen."]]}, "78": {"u": "Unit 8", "audio": "../assets/p078.mp3", "title": "A teenage DJ", "arts": [["Who are you?", "I'm Danny Boyd.", "I'm 14 years old and I'm from Luton.", "What do you do?", "I'm a student at school and at the weekends I work as a DJ.", "Wow, that's interesting.", "Can you tell us more?", "I'm a DJ at a local youth club.", "I play every Saturday from 6pm to 10pm.", "There's usually about 100 people there.", "It's great fun.", "I also sometimes play for big crowds in the park and sometimes on the beach too.", "What do you like doing in your free time?", "I love listening to music and finding new songs to play.", "I like watching films and playing games on my VR headset but I hate dancing.", "I know that's a strange thing for a DJ to say.", "I love watching other people dance but I never dance myself.", "What do you like wearing?", "I like wearing jeans and a white T-shirt.", "I also wear a red cap.", "I don't like wearing shirts and trousers.", "I wear those every day at school.", "Thanks Danny and good luck.", "Thank you.", "Why don't you come to one of my shows one day?"]]}, "80": {"u": "Unit 8", "audio": "../assets/p080.mp3", "title": "Dances around the world", "arts": [["The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango.", "They do the tango in dance halls, parks and squares all over the city.", "The dance is usually performed by a man and a woman.", "The man often wears smart trousers and a shirt.", "The woman often wears a beautiful dress.", "The dance is often very interesting to watch.", "The Whirling Dervish is a dance from Turkey.", "There is a group of twelve men who dance.", "They wear traditional costumes with big skirts.", "They often all wear white, but sometimes the skirts are different colours.", "There is another group of twelve musicians.", "They play traditional Turkish instruments.", "As the music plays, the dancers spin around in circles, getting faster and faster.", "The dance is very popular with tourists.", "There are lots of Irish dances, but perhaps the most famous one is the step dance.", "One or more dancers perform the step dance.", "The dancers only move their legs.", "They move them very quickly.", "The top half of the body doesn't move.", "Dancers usually wear traditional Irish costumes.", "The music they dance to is played by an Irish folk band.", "They play instruments like the fiddle and the whistle."]]}, "85": {"u": "Unit 9", "audio": "../assets/p085.mp3", "title": "Kitchen Kids", "arts": [["Harry doesn't want to be a star chef when he's 20.", "He wants to be one now.", "This is why he's on the TV programme Kitchen Kids.", "The ten-year-old New Yorker likes cooking.", "He can make fantastic soups and salads, excellent omelettes and the best cakes.", "But there are many other children on the show, too.", "And they are all very good.", "More and more young people are interested in cooking.", "Many of them learn it from their parents.", "Others watch special cooking videos for children on YouTube.", "In many cities, there are special cooking classes for young people.", "Some of them are for children from the age of three!", "But what must you do to become a star chef?", "Of course, it's important that you like cooking and are really good at it.", "But there are some rules.", "You must be nine years old or more to be on Kitchen Kids.", "'We must wash our hands before we start cooking,' Harry says.", "'And of course we mustn't put them in our mouths.", "A chef doesn't do that!", "And we must be very careful with hot plates.'", "The show starts.", "Harry is excited.", "He knows he's an excellent cook.", "This time he makes tomato soup, some salad, steak and carrot cake.", "The experts in the studio love Harry's food, and he stays on the show.", "It's 5 pm.", "The show is over.", "Harry is happy, and a little tired.", "He goes home.", "It's time to do his homework."]]}, "87": {"u": "Unit 9", "audio": "../assets/p087.mp3", "title": "Cooking", "arts": [["Can we make some sandwiches, Dad?", "Of course you can. No problem.", "Would you like some help?", "No, we're okay, thanks.", "Can we use this cheese, Dad?", "No, your mum wants that for the lasagna. Use this cheese.", "Okay.", "We need some salad in the sandwiches. Have we got any?", "There's no cucumber, but there are some tomatoes.", "Let's have cheese and tomato sandwiches then.", "Cool.", "What are you doing, Dad?", "I'm putting some peanut butter on the bread. It's tastier than butter.", "Don't do that.", "Too late.", "The thing is, Sally is allergic to nuts.", "Oh no. I'm sorry.", "Never mind. I can eat these.", "And you can make some more.", "We can't make any more. We haven't got any more bread.", "I know. Can we go for fish and chips, Dad?", "Hmm, okay. Yes, we can.", "Great.", "And can Sally and Max come too?", "Yes, of course they can.", "But first, we must clean up this mess.", "Oh, Dad. We're hungry now. Can we do that later?", "No, we can't."]]}, "88": {"u": "Unit 9", "audio": "../assets/p088.mp3", "title": "In a restaurant", "arts": [["Hello. Can I help you?", "Hi, yes. We'd like a table for two, please.", "Here are the menus.", "Thanks.", "What would you like to drink?", "I'd like an orange juice.", "And I'd like water, please.", "Great.", "Are you ready to order now?", "Yes. I'd like the pizza with salad.", "Any starters?", "No thanks.", "Would you like any extra toppings on the pizza? Onion, peppers, or tomatoes?", "Some peppers, please.", "And what would you like?", "I'd like the chicken and chips.", "Okay. Is that everything?", "Yes. Thank you.", "Would you like a dessert?", "Yes, please. I'd like the fruit salad with vanilla ice cream.", "Me, too.", "How are your desserts?", "Great.", "Would you like any more drinks?", "No, thanks. We'd like the bill, please.", "Of course.", "Thank you."]]}, "90": {"u": "Unit 9", "audio": "../assets/p090.mp3", "title": "Offering and asking for help", "arts": [["Wow! What a great smell!", "Thanks, Mum! It's lasagna. It's in the oven and it's almost ready.", "Lasagna from the shop?", "No, Mum. It's my lasagna.", "It's got meat, pepper, mushrooms, cheese, onion, everything.", "And we can eat it with a bit of salad.", "Oh, right! But we? Who's coming for lunch?", "Mark and Chloe. We want to study together this afternoon and have lunch together first.", "That's okay, right?", "Of course, Joe. But...", "But what, Mum?", "Well, the thing is, I'd like a nice quiet afternoon.", "Oh, don't worry, Mum. After lunch, we plan to study upstairs in my room.", "Oh! It's ready!", "Be careful, Joe. It's very hot. Can I help you?", "It's okay, Mum. I can just... Oh, no! My lasagna! It's all over the floor!", "Now what?", "Well, first, let's clean it all up. And then, do you and your friends want to go to the new sandwich shop?", "Not really. But I've got an idea, Mum. We can just have the salad.", "Okay. And you and I can make some chocolate-covered bananas so your friends can have some dessert, too.", "Thanks, Mum. You're the best!"]]}, "92": {"u": "Unit 10", "audio": "../assets/p092.mp3", "title": "She was the first woman in space", "arts": [["Valentina Tereshkova was born in Russia on 6th March 1937.", "Her father was a driver and her mother worked in a factory.", "Valentina was a worker in a factory, too.", "Her hobby was skydiving and it was her dream to be an astronaut and to go into space.", "In 1962, there was a big competition to find new astronauts.", "There were 400 people interested in going to space.", "The training programme wasn't very easy, but Tereshkova was hardworking.", "And she was the lucky one.", "Tereshkova's big day was on 16th June 1963, and she was just 26.", "The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space.", "The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight.", "She was in space for three days.", "She is the only woman to fly into space alone.", "After that, she was very famous all over the world.", "Her face was on stamps in many countries.", "In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'.", "At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag.", "These were very important moments for her."]]}, "95": {"u": "Unit 10", "audio": "../assets/p095.mp3", "title": "A prize-giving at school", "arts": [["Hi Will, how are you? Are you better?", "Yes, thanks. I was ill yesterday and the day before but I'm okay now.", "Good, I'm pleased.", "So yesterday was the prize-giving at school, right? Was it good?", "No, it wasn't. Well, not really. There weren't many parents there.", "Oh really? There were lots last year. Were all the teachers there?", "Of course! The teachers can't choose, can they?", "No, and neither can the kids. Anyway, who were the big winners this year?", "Well, the best student of the year for the whole school was Sandra Hammond.", "Sandra? Was she the best student last year too?", "No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school.", "Oh, the Hammonds! They always win everything! Boring!", "I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you!", "You're joking of course. I'm never the best at anything.", "Well, anyway, guess who the best science student was?", "No idea. Andy Clarkson?", "No, me!", "You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice?", "Yes, it was. A book about science. I really want to read it.", "Good for you, Alice. Well done. Thanks, Will."]]}, "96": {"u": "Unit 10", "audio": "../assets/p096.mp3", "title": "Sports achievers", "arts": [["Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that?", "How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny.", "OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam.", "My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha.", "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark."]]}, "99": {"u": "Unit 10", "audio": "../assets/p099.mp3", "title": "Statues around the world", "arts": [["There are many wonderful statues all over the world.", "Many of them help us to remember the lives of great people.", "Rosa Parks", "One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black.", "She said no and the police decided to take her away.", "It was a very important moment in the history of black people's rights in the US.", "The statue shows Rosa sitting on a rock wearing the same clothes as that day in 1965.", "Franz Kafka", "Franz Kafka was a writer from Prague.", "He was born in 1883.", "His books were in German.", "In his life, he was not very famous, but now he is.", "Many of his stories were very strange.", "There's a very unusual statue of him in Prague.", "He's sitting on the shoulders of an empty suit.", "Os Candango", "The Candango were men who travelled from all over Brazil between 1956 and 1960 to build the new capital city of Brazil, Brasilia.", "In 1956, 256 men arrived, but before long there were 30,000 who worked hard to build the city.", "Brasilia opened in 1960 and this 8 meter high statue to remember the Candango is in the 3 powers square.", "The two figures are holding digging tools.", "Suzanne Lenglen", "At the Roland Garros tennis centre in Paris, there is a court called Suzanne Lenglen.", "Lenglen was a famous French tennis player who played from 1914 to 1926.", "She was the number one player for many years.", "In front of the court is this statue.", "Lenglen is jumping with a racket in her hand and she is wearing her famous white dress and headband."]]}, "102": {"u": "Unit 11", "audio": "../assets/p102.mp3", "title": "Dolphins to the rescue", "arts": [["Everyone knows that dolphins are very intelligent animals.", "But did you know that many scientists believe there is a special connection between dolphins and humans?", "There are lots of stories about dolphins helping humans who are in danger.", "Here are two of our favourites.", "14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water.", "Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat.", "He shouted, but his dad didn't hear him.", "Davide got very worried.", "Then, very quickly, a dolphin came to help him.", "It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back.", "The dolphin took him back to the boat.", "When Davide's father saw his son, he pulled him from the water.", "The dolphin saved Davide's life.", "In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands.", "He was swimming when he saw a large dark shape below him.", "He knew that it was a great white shark and his life was in danger.", "Adam knew he didn't have a lot of time.", "A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark.", "The circle of dolphins kept Adam safe.", "After half an hour, the shark left, but the dolphins swam with him for another hour."]]}, "105": {"u": "Unit 11", "audio": "../assets/p105.mp3", "title": "Josh's holiday", "arts": [["Hey Josh, did you have a good holiday?", "Hi Mandy, yes it was great.", "Where did you go?", "The Pantanal, it's in the east of Brazil. It's a really big wetland.", "Oh right, so why did you go there?", "Because there are amazing animals and birds there.", "We all love animals in my family, especially my dad.", "He's a bird watcher.", "Really? I didn't know that.", "Yes, he loves birds.", "So are you a big bird watcher too?", "Well I like them and we saw some really beautiful parrots and toucans, but I prefer the other animals.", "Did you see anything special?", "Yes, loads of stuff.", "There were lots of Cayman.", "Cayman? What are they?", "They're like small crocodiles.", "Cool, what else did you see?", "We saw an anaconda, you know one of those really big snakes, and then one night we heard a jaguar but we didn't see it.", "Wow, were you scared?", "No, it was exciting, especially because it was so near our tent.", "Tent? Did you go camping?", "Yes, but just for a few nights. Most of the time we were in small hotels.", "So how did you travel around? Did you have a guide?", "Yes, we did.", "His name was Sergio.", "He knew where to find all the animals.", "Did he speak English?", "Yes, he did. His English was good which was lucky because no one in my family can speak Portuguese.", "It sounds like you had a great time.", "We did. It was fantastic."]]}, "106": {"u": "Unit 11", "audio": "../assets/p106.mp3", "title": "Extinct animals", "arts": [["1.", "The Great Auk", "The Great Auk was a large seabird that lived in the North Atlantic.", "It was a bird but it couldn't fly.", "It could swim underwater really well.", "It caught and ate fish when it dived under the water.", "Its feathers were very soft and people used them to make pillows for their beds.", "Because of this people killed the birds.", "The last Great Auk died on the island of Eldey in 1835.", "2.", "The Tasmanian Tiger", "The Tasmanian Tiger was only found in Australia, Tasmania and New Guinea.", "It got its name because it had stripes like a tiger but it was not a member of the cat family.", "Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them.", "Many of the tigers died after getting ill from diseases they caught from other animals.", "The last Tasmanian Tiger died in Hobart Zoo in 1936.", "3.", "Steller's Sea Cow", "Steller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska.", "It grew up to nine metres long.", "Because it was so big it couldn't go under the water.", "It ate the plants on top of the sea.", "It wasn't a very dangerous animal.", "It was quite friendly.", "Because of this it was very easy to kill.", "Europeans first found the sea cow in 1741.", "27 years later they killed the last one."]]}, "108": {"u": "Unit 11", "audio": "../assets/p108.mp3", "title": "Sequencing a story", "arts": [["Hey Nathan, how are you? Did you have a good weekend?", "Well, sort of. I mean, it was okay.", "You don't sound very sure. What happened?", "Yeah, come on, tell us.", "Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone.", "Where did you go?", "I went to the forest, you know, outside town. It's really nice there.", "And I started walking when suddenly...", "Yes, suddenly what?", "Well, in front of me there was a snake.", "Are there snakes in the forest? Are you sure?", "Yes, I'm sure. It was on the path. I stopped. I didn't do anything. Then it just went away. I was afraid.", "Poor you. I hate snakes too.", "Why were you afraid? It's just a snake. A snake can't kill you.", "Some snakes can. Anyway, it's okay to be afraid sometimes.", "Thanks Lena. Anyway, that's why my weekend was just okay."]]}};Object.keys(BOOK_EXTRA).forEach(function(k){ BOOK[k]=BOOK_EXTRA[k]; });
+
+/* 单元目录配置：按单元分组，组内按页码数字升序；新增篇章只需在此追加 [pg, 类型key, 题名] */
+var UNIT_GROUPS={
+ 7:{label:"Unit 7", items:[[66,"dv","LIVING FOR SPORT"],[67,"rt","SPORT WONDERS!"],[69,"ls","Dialogue: Planning a Bike Ride"],[70,"rt","An Amazing Last Four Minutes"],[72,"sp","Rainy Day: Nina & Dave"],[73,"pd","Stay Positive"]]},
+ 12:{label:"Unit 12", items:[[110,"dv","Moving About"],[111,"rt","The Great Race"],[113,"ls","At the Train Station"],[114,"rt","My Favourite Journey"],[117,"cu","Transport Around the World"],[202,"cu","Ways to Get Around"]]}
+};
+Object.assign(UNIT_GROUPS, {"8": {"label": "Unit 8", "items": [[75, "rt", "#Music in the forest"], [77, "ls", "Musicians around the world"], [78, "rt", "A teenage DJ"], [80, "cu", "Dances around the world"]]}, "9": {"label": "Unit 9", "items": [[85, "rt", "Kitchen Kids"], [87, "ls", "Cooking"], [88, "rt", "In a restaurant"], [90, "sp", "Offering and asking for help"]]}, "10": {"label": "Unit 10", "items": [[92, "rt", "She was the first woman in space"], [95, "ls", "A prize-giving at school"], [96, "rt", "Sports achievers"], [99, "cu", "Statues around the world"]]}, "11": {"label": "Unit 11", "items": [[102, "rt", "Dolphins to the rescue"], [105, "ls", "Josh's holiday"], [106, "rt", "Extinct animals"], [108, "sp", "Sequencing a story"]]}});
+
+function unitOf(pg){ return (pg===110||pg===111||pg===113||pg===114||pg===117||pg===202)?12:7; }
+function meta(pg){
+  var items=UNIT_GROUPS[unitOf(pg)].items;
+  for(var i=0;i<items.length;i++)
+    if(items[i][0]===pg)return {pg:pg,ty:items[i][1],tt:items[i][2]};
+  return null;
+}
+function paint(){
+  var cur=meta(state.pg)||meta(67); if(!cur)return;
+  var ty=TYPES[cur.ty];
+  var tty=ID("curTty"); tty.textContent=ty.n; tty.style.background=ty.c+"1a"; tty.style.color=ty.c;
+  ID("curTitle").textContent=cur.tt;
+  ID("curTab").title="当前："+cur.tt;
+}
+/* v2 目录：只列本篇三环节互链（预习↔复习↔听写），由 SIBLINGS 提供文件名 */
+var STEP_NAMES={listen:"预习（聆听）",follow:"复习（跟读）",dictate:"听写"};
+function build(){
+  var g=UNIT_GROUPS[unitOf(state.pg)];
+  var body=ID("dirGroups"); body.innerHTML="";
+  ID("dirUnit").textContent=g.label;
+  var lab=document.createElement("div"); lab.className="grp-label"; lab.textContent=g.label; body.appendChild(lab);
+  var m=meta(state.pg)||{ty:"rt",tt:BOOK[state.pg].title};
+  var ty=TYPES[m.ty];
+  ["listen","follow","dictate"].forEach(function(k){
+    var b=document.createElement("button"); b.type="button"; b.className="grp-item"; b.dataset.k=k;
+    b.innerHTML='<span class="gi-ic" style="background:'+ty.c+'1a;color:'+ty.c+'">'+ty.ic+'</span>'
+      +'<span class="gi-t"><span class="gi-pg">'+("000"+state.pg).slice(-3)+'</span>'
+      +'<span class="gi-tt">'+(k===CUR?"当前 · ":"")+STEP_NAMES[k]+'</span></span>';
+    b.addEventListener("click",function(){ closeDir(); if(k!==CUR) location.href=SIBLINGS[k]; });
+    body.appendChild(b);
+  });
+}
+function markOn(){
+  var items=ID("dirGroups").querySelectorAll(".grp-item");
+  for(var i=0;i<items.length;i++){
+    var on=items[i].dataset.k===CUR;
+    items[i].classList.toggle("on",on);
+    if(on)items[i].scrollIntoView({block:"nearest"});
+  }
+}
+function openDir(){ build(); ID("dir").classList.add("on"); markOn(); }
+function closeDir(){ ID("dir").classList.remove("on"); }
+document.addEventListener("DOMContentLoaded",function(){
+  var mb=ID("mapBtn"); if(mb) mb.onclick=function(){ location.href="../index.html"; };
+  var RATES=[1,0.75,1.25], RI=0;
+  ID("rateBtn").onclick=function(){ RI=(RI+1)%3; state.rate=RATES[RI]; audio.playbackRate=state.rate; ID("rateBtn").textContent=state.rate+"x"; toast("播放速度 "+state.rate+"x"); };
+  ID("loopBtn").onclick=function(){ var N=[1,2,3,5], I=N.indexOf(state.loopN); state.loopN=N[(I+1)%4]; state.loopLeft=state.loopN-1; ID("loopBtn").textContent="↻"+state.loopN; toast(state.loopN>1?("循环 "+state.loopN+" 次（跟读=每句，聆听=整篇）"):"循环关闭"); };
+  var t0=Date.now(); setInterval(function(){ var s=Math.floor((Date.now()-t0)/1000); ID("timerChip").textContent=("0"+Math.floor(s/60)).slice(-2)+":"+("0"+s%60).slice(-2); },1000);
+  build(); paint();
+    applyBlind();
+  var qc = ID("qzCanvas");
+  ["mousedown","touchstart"].forEach(function(ev){ qc.addEventListener(ev, mkStart, {passive:false}); });
+  ["mousemove","touchmove"].forEach(function(ev){ qc.addEventListener(ev, mkMove, {passive:false}); });
+  ["mouseup","mouseleave","touchend","touchcancel"].forEach(function(ev){ qc.addEventListener(ev, mkEnd); });
+  ID("qzSubmit").addEventListener("click", function(){ if(QZB.submitted) closeQuiz(); });
+  window.addEventListener("resize", function(){ if($("quizOv").classList.contains("on")) resizeCanvas(); });
+  ID("openDir").addEventListener("click",function(e){ e.stopPropagation(); openDir(); });
+  ID("curTab").addEventListener("click",openDir);
+  ID("curTab").addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){e.preventDefault();openDir();} });
+  ID("dirClose").addEventListener("click",closeDir);
+  ID("dir").addEventListener("click",function(e){ if(e.target.id==="dir")closeDir(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape")closeDir(); });
+  /* 暴露给宿主脚本复用（头部类型标注） */
+  window.paint=paint; window.meta=meta; window.TYPES=TYPES;
+  window.currentUnit=function(){ return unitOf(state.pg); };
+});
+})();
+</script>
+
+<!-- 分组目录面板（v2：只列本篇三环节互链，由 {"listen": "预习_066_livingforsport.html", "follow": "复习_066_livingforsport.html", "dictate": "听写_066_livingforsport.html"} 注入） -->
+<div class="dir" id="dir">
+  <div class="dir-panel">
+    <div class="dir-head">
+      <b>目录</b>
+      <span class="du" id="dirUnit">Unit 7</span>
+      <button class="x" id="dirClose" type="button" title="关闭" aria-label="关闭">✕</button>
+    </div>
+    <div class="dir-body" id="dirGroups"></div>
+  </div>
+</div>
+
+<div class="qzboard" id="quizOv"><div class="qz-card">
+  <div class="qz-head">
+    <span class="qz-tip" id="qzTip">📖 阅读题目 · 听后做题</span>
+    <span class="qz-tools">
+      <button class="qz-tool" id="mkU" onclick="mkMode('u')">下划线</button>
+      <button class="qz-tool" id="mkC" onclick="mkMode('c')">画圈</button>
+      <button class="qz-tool" onclick="mkClear()">清除</button>
+    </span>
+  </div>
+  <div class="qz-sec" id="qzSec"><canvas class="qz-canvas" id="qzCanvas"></canvas><div id="qzBody"></div></div>
+  <button class="qz-submit" id="qzSubmit" disabled>🔊 听后作答（播放中…）</button>
+</div></div>
+
+</body></html>

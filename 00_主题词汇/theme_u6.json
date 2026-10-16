@@ -1,0 +1,242 @@
+[
+ {
+  "w": "teacher",
+  "ipa": "ˈtiː.tʃə",
+  "pos": "noun",
+  "zh": "n. 教师，老师，教员",
+  "en": "someone whose job is to teach in a school or college",
+  "ex": "This is my English teacher."
+ },
+ {
+  "w": "arm",
+  "ipa": "ɑːm",
+  "pos": "noun",
+  "zh": "n. 手臂，上肢",
+  "en": "the long part at each side of the human body, ending in a hand",
+  "ex": "It's an arm."
+ },
+ {
+  "w": "body",
+  "ipa": "ˈbɒd.i",
+  "pos": "noun",
+  "zh": "n. 身体，躯体",
+  "en": "the whole physical structure that forms a person or animal",
+  "ex": "Where on your body is your head?"
+ },
+ {
+  "w": "ear",
+  "ipa": "ɪə",
+  "pos": "noun",
+  "zh": "耳朵；灵敏的听力；倾听；穗；耳状物",
+  "en": "one of the two organs on your head that you hear with",
+  "ex": "She's got an earring in her right ear."
+ },
+ {
+  "w": "eye",
+  "ipa": "aɪ",
+  "pos": "noun",
+  "zh": "注视，仔细打量",
+  "en": "one of the two organs in your face that you use to see with",
+  "ex": "My eyes aren't very good."
+ },
+ {
+  "w": "face",
+  "ipa": "feɪs",
+  "pos": "noun",
+  "zh": "n. 脸，面部",
+  "en": "the front part of the head, where the eyes, nose and mouth are",
+  "ex": "She's got a long, thin face."
+ },
+ {
+  "w": "foot",
+  "ipa": "fʊt",
+  "pos": "noun",
+  "zh": "脚，足；英尺；基础，底部；袜底；音步；&lt;文&gt;步态，步伐；（缝纫机的）压脚板",
+  "en": "one of the two flat parts on the ends of your legs that you stand on",
+  "ex": "I hurt my left foot playing football."
+ },
+ {
+  "w": "hand",
+  "ipa": "hænd",
+  "pos": "noun",
+  "zh": "n. 手",
+  "en": "one of the two parts on the ends of your arms that have fingers and a thumb",
+  "ex": "Put your hands up."
+ },
+ {
+  "w": "leg",
+  "ipa": "leg",
+  "pos": "noun",
+  "zh": "n. 腿",
+  "en": "one of the parts of the body of a human or animal that is used for standing and walking",
+  "ex": "The dog has got short legs."
+ },
+ {
+  "w": "mouth",
+  "ipa": "maʊθ",
+  "pos": "noun",
+  "zh": "n. 嘴，口腔",
+  "en": "the part of the face that is used for eating and speaking",
+  "ex": "Open your mouth."
+ },
+ {
+  "w": "nose",
+  "ipa": "nəʊz",
+  "pos": "noun",
+  "zh": "鼻子；（飞机、火箭等的）头部，机首；嗅觉；觉察力；（酒的）特有的气味；&lt;非正式&gt;警方线人；探听，探问",
+  "en": "the part of your face through which you breathe and smell",
+  "ex": "He's got a big nose."
+ },
+ {
+  "w": "blue",
+  "ipa": "bluː",
+  "pos": "adjective",
+  "zh": "adj. 蓝色的",
+  "en": "the colour of the sky without clouds on a bright day",
+  "ex": "She's got blue eyes."
+ },
+ {
+  "w": "grey",
+  "ipa": "greɪ",
+  "pos": "adjective",
+  "zh": "灰色，灰色颜料；灰色衣服；灰白头发；灰马，白马",
+  "en": "the colour that is a mixture of black and white",
+  "ex": "The waiter has got grey hair."
+ },
+ {
+  "w": "long",
+  "ipa": "lɒŋ",
+  "pos": "adjective",
+  "zh": "adj. 长的",
+  "en": "having a large distance from one end to the other",
+  "ex": "She’s tall and she’s got long black hair."
+ },
+ {
+  "w": "curly",
+  "ipa": "ˈkɜː.li",
+  "pos": "adjective",
+  "zh": "（头发）卷曲的，鬈曲的；弧形的，螺旋形的；（木材）有皱状纹理的",
+  "en": "having curls or a curved shape",
+  "ex": "It’s short and it’s curly."
+ },
+ {
+  "w": "short",
+  "ipa": "ʃɔːt",
+  "pos": "adjective",
+  "zh": "adj. 短暂的，短期的",
+  "en": "small in length",
+  "ex": "It’s short and it’s curly."
+ },
+ {
+  "w": "black",
+  "ipa": "blæk",
+  "pos": "adjective",
+  "zh": "adj. 黑的，黑色的",
+  "en": "the colour of the sky on a dark night",
+  "ex": "She’s tall and she’s got long black hair."
+ },
+ {
+  "w": "blonde",
+  "ipa": "blɒnd",
+  "pos": "adjective",
+  "zh": "金黄色的，浅棕色的；金发的；浅色的",
+  "en": "describes hair which is a pale yellow colour",
+  "ex": "long, blonde hair"
+ },
+ {
+  "w": "red",
+  "ipa": "red",
+  "pos": "adjective",
+  "zh": "adj. 红的，红色的",
+  "en": "describes hair which is an orange-brown colour",
+  "ex": "red hair"
+ },
+ {
+  "w": "brown",
+  "ipa": "braʊn",
+  "pos": "adjective",
+  "zh": "褐色的，棕色的；肤色深的，晒黑的；未去壳的，糙的",
+  "en": "the colour of chocolate or soil",
+  "ex": "My eyes are brown."
+ },
+ {
+  "w": "wavy",
+  "ipa": "ˈweɪ.vi",
+  "pos": "adjective",
+  "zh": "（头发）鬈曲的；波纹状的，波浪形的；（纹章）波形的，波状的",
+  "en": "with slight curves",
+  "ex": "wavy, red hair"
+ },
+ {
+  "w": "straight",
+  "ipa": "streɪt",
+  "pos": "adjective",
+  "zh": "adj. 直的，笔直的",
+  "en": "not curved or bent",
+  "ex": "straight, brown hair"
+ },
+ {
+  "w": "green",
+  "ipa": "griːn",
+  "pos": "adjective",
+  "zh": "adj. 绿色的",
+  "en": "the colour of grass",
+  "ex": "green eyes"
+ },
+ {
+  "w": "beard",
+  "ipa": "bɪəd",
+  "pos": "noun",
+  "zh": "胡须，络腮胡子；（动物的）颔毛，须；（植物的）芒，髯毛；替身；&lt;非正式&gt;名义女伴",
+  "en": "the hair that grows on a man's chin",
+  "ex": "He's got a beard."
+ },
+ {
+  "w": "earring",
+  "ipa": "ˈɪə.rɪŋ",
+  "pos": "noun",
+  "zh": "耳环，耳饰",
+  "en": "a piece of jewellery that you wear on your ear",
+  "ex": "She's got an earring in her right ear."
+ },
+ {
+  "w": "glasses",
+  "ipa": "ˈglɑːsɪz",
+  "pos": "noun",
+  "zh": "眼镜；玻璃杯（glass 的复数）；双筒望远镜（尤见于 field glasses）",
+  "en": "a piece of equipment with two transparent parts that you wear in front of your eyes to help you see better",
+  "ex": "She wears glasses."
+ },
+ {
+  "w": "moustache",
+  "ipa": "məˈstɑːʃ",
+  "pos": "noun",
+  "zh": "髭，小胡子；长髭；（动物嘴部周围的）须状物",
+  "en": "a line of hair that some men grow above their mouths",
+  "ex": "He's got a moustache."
+ },
+ {
+  "w": "short",
+  "ipa": "ʃɔːt",
+  "pos": "adjective",
+  "zh": "adj. 短暂的，短期的",
+  "en": "small in height",
+  "ex": "She's quite tall, she's not short."
+ },
+ {
+  "w": "smile",
+  "ipa": "smaɪl",
+  "pos": "noun",
+  "zh": "微笑；微笑着说，以微笑表示；现出（笑容）；觉得好笑，觉得高兴；惠及，赞许",
+  "en": "a happy or friendly expression in which the corners of your mouth curve up",
+  "ex": "She's got a very nice smile."
+ },
+ {
+  "w": "tall",
+  "ipa": "tɔːl",
+  "pos": "adjective",
+  "zh": "高的，高大的；（用于指高度）有……高的，身高……的；过分的，夸大的；（饮料）含少量酒精的",
+  "en": "having a greater than average height",
+  "ex": "She's quite tall, she's not short."
+ }
+]

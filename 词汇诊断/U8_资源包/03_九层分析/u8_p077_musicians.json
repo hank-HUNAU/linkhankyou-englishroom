@@ -1,0 +1,2770 @@
+{
+ "source": "A1_Starters | A1_Movers | A2_Flyers | KET | PET | FCE | CAE | NGSL | NAWL",
+ "total": 226,
+ "numbers": 0,
+ "proper": 18,
+ "tokens": [
+  {
+   "kind": "word",
+   "form": "Musicians",
+   "lemma": "musician",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "around",
+   "lemma": "around",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "world",
+   "lemma": "world",
+   "hit": [
+    1,
+    3,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Hello",
+   "lemma": "hello",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "welcome",
+   "lemma": "welcome",
+   "hit": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "Today",
+   "lemma": "today",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "we",
+   "lemma": "we",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "talking",
+   "lemma": "talk",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "about",
+   "lemma": "about",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "music",
+   "lemma": "music",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "around",
+   "lemma": "around",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "world",
+   "lemma": "world",
+   "hit": [
+    1,
+    3,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Is",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "type",
+   "lemma": "type",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "music",
+   "lemma": "music",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "that",
+   "lemma": "that",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "really",
+   "lemma": "really",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "Phone",
+   "lemma": "phone",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "tell",
+   "lemma": "tell",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "us",
+   "lemma": "us",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Our",
+   "lemma": "our",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "first",
+   "lemma": "first",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "caller",
+   "lemma": "call",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Liliana",
+   "lemma": "liliana",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "OK",
+   "lemma": "ok",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Liliana",
+   "lemma": "liliana",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "what's",
+   "lemma": "what",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "your",
+   "lemma": "your",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "favourite",
+   "lemma": "favourite",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "music",
+   "lemma": "music",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Hello",
+   "lemma": "hello",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "My",
+   "lemma": "my",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "mother",
+   "lemma": "mother",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexican",
+   "lemma": "mexican",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "we",
+   "lemma": "we",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "often",
+   "lemma": "often",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "go",
+   "lemma": "go",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexico",
+   "lemma": "mexico",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "love",
+   "lemma": "love",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "mariachi",
+   "lemma": "mariachi",
+   "hit": [],
+   "sent": "I love the mariachi music I see there."
+  },
+  {
+   "kind": "word",
+   "form": "music",
+   "lemma": "music",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "see",
+   "lemma": "see",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "There's",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "group",
+   "lemma": "group",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "men",
+   "lemma": "men",
+   "hit": [
+    0,
+    3,
+    4,
+    6,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "sometimes",
+   "lemma": "sometimes",
+   "hit": [
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "women",
+   "lemma": "women",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "stand",
+   "lemma": "stand",
+   "hit": [
+    0,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "up",
+   "lemma": "up",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "playing",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "instruments",
+   "lemma": "instrument",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "guitars",
+   "lemma": "guitar",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "trumpets",
+   "lemma": "trumpet",
+   "hit": [
+    4
+   ],
+   "layer": "PET",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "violins",
+   "lemma": "violin",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "They",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "also",
+   "lemma": "also",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "wear",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "traditional",
+   "lemma": "traditional",
+   "hit": [
+    4,
+    7
+   ],
+   "layer": "PET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexican",
+   "lemma": "mexican",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "hats",
+   "lemma": "hat",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "think",
+   "lemma": "think",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "look",
+   "lemma": "look",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "fantastic",
+   "lemma": "fantastic",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Yes",
+   "lemma": "yes",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "thanks",
+   "lemma": "thanks",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Liliana",
+   "lemma": "liliana",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "And",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "now",
+   "lemma": "now",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "here's",
+   "lemma": "here",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Lewis",
+   "lemma": "lewis",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "Hi",
+   "lemma": "hi",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Lewis",
+   "lemma": "lewis",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "tell",
+   "lemma": "tell",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "us",
+   "lemma": "us",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "what",
+   "lemma": "what",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "Hi",
+   "lemma": "hi",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Well",
+   "lemma": "well",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Indonesia",
+   "lemma": "indonesia",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "there's",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "this",
+   "lemma": "this",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "traditional",
+   "lemma": "traditional",
+   "hit": [
+    4,
+    7
+   ],
+   "layer": "PET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "musical",
+   "lemma": "musical",
+   "hit": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "performance",
+   "lemma": "performance",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "called",
+   "lemma": "called",
+   "hit": [
+    7
+   ],
+   "layer": "NGSL",
+   "cefr": ""
+  },
+  {
+   "kind": "out",
+   "form": "gamelan",
+   "lemma": "gamelan",
+   "hit": [],
+   "sent": "Well in Indonesia there's this traditional musical performance called gamelan."
+  },
+  {
+   "kind": "word",
+   "form": "They",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "have",
+   "lemma": "have",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "these",
+   "lemma": "these",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": ""
+  },
+  {
+   "kind": "out",
+   "form": "orchestras",
+   "lemma": "orchestras",
+   "hit": [],
+   "sent": "They have these orchestras with some very unusual instruments."
+  },
+  {
+   "kind": "word",
+   "form": "with",
+   "lemma": "with",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "some",
+   "lemma": "some",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "very",
+   "lemma": "very",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "unusual",
+   "lemma": "unusual",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "instruments",
+   "lemma": "instrument",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "They",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "make",
+   "lemma": "make",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "beautiful",
+   "lemma": "beautiful",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "sounds",
+   "lemma": "sound",
+   "hit": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "when",
+   "lemma": "when",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "play",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "musicians",
+   "lemma": "musician",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "wear",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "same",
+   "lemma": "same",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "traditional",
+   "lemma": "traditional",
+   "hit": [
+    4,
+    7
+   ],
+   "layer": "PET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "clothes",
+   "lemma": "clothes",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Thanks",
+   "lemma": "thanks",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Lewis",
+   "lemma": "lewis",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "And",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "now",
+   "lemma": "now",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "let's",
+   "lemma": "let",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "talk",
+   "lemma": "talk",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Jen",
+   "lemma": "jen",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "love",
+   "lemma": "love",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "African",
+   "lemma": "african",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "drumming",
+   "lemma": "drum",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "go",
+   "lemma": "go",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "lot",
+   "lemma": "lot",
+   "hit": [
+    7
+   ],
+   "layer": "NGSL",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "musical",
+   "lemma": "musical",
+   "hit": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "festivals",
+   "lemma": "festival",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there's",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "always",
+   "lemma": "always",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "some",
+   "lemma": "some",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "African",
+   "lemma": "african",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "drumming",
+   "lemma": "drum",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "Is",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "any",
+   "lemma": "any",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "proper",
+   "form": "African",
+   "lemma": "african",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "country",
+   "lemma": "country",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "drumming",
+   "lemma": "drum",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "most",
+   "lemma": "most",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Well",
+   "lemma": "well",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "proper",
+   "form": "African",
+   "lemma": "african",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "drumming",
+   "lemma": "drum",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "but",
+   "lemma": "but",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "drummers",
+   "lemma": "drummers",
+   "hit": [],
+   "sent": "Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes."
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Burundi",
+   "lemma": "burundi",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "fantastic",
+   "lemma": "fantastic",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "wear",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "these",
+   "lemma": "these",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "really",
+   "lemma": "really",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "cool",
+   "lemma": "cool",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "green",
+   "lemma": "green",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "red",
+   "lemma": "red",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "white",
+   "lemma": "white",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "clothes",
+   "lemma": "clothes",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "They're",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "colours",
+   "lemma": "colour",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Burundi",
+   "lemma": "burundi",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "flag",
+   "lemma": "flag",
+   "hit": [
+    2,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "Sometimes",
+   "lemma": "sometimes",
+   "hit": [
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "also",
+   "lemma": "also",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "paint",
+   "lemma": "paint",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "their",
+   "lemma": "their",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "drums",
+   "lemma": "drum",
+   "hit": [
+    2,
+    3,
+    4
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "same",
+   "lemma": "same",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "colours",
+   "lemma": "colour",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Okay",
+   "lemma": "okay",
+   "hit": [
+    3,
+    7
+   ],
+   "layer": "KET",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "thank",
+   "lemma": "thank",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Jen",
+   "lemma": "jen",
+   "hit": []
+  }
+ ]
+}

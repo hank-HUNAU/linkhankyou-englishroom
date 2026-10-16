@@ -1,0 +1,49 @@
+===== u9_p085_kitchenkids =====
+完成: 109 词 -> u9_p085_kitchenkids_学生卡.xlsx (联网补全 109 词)
+完成: 109 词 -> u9_p085_kitchenkids_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 109 词 / 28 个原句朗读标注 / 英标覆盖 109 词（限流可用 --limit 分批）→ u9_p085_kitchenkids_语音卡.xlsx
+===== u9_p087_cooking =====
+完成: 84 词 -> u9_p087_cooking_学生卡.xlsx (联网补全 84 词)
+完成: 84 词 -> u9_p087_cooking_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 84 词 / 31 个原句朗读标注 / 英标覆盖 84 词（限流可用 --limit 分批）→ u9_p087_cooking_语音卡.xlsx
+===== u9_p088_inarestaurant =====
+完成: 66 词 -> u9_p088_inarestaurant_学生卡.xlsx (联网补全 66 词)
+完成: 66 词 -> u9_p088_inarestaurant_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 66 词 / 28 个原句朗读标注 / 英标覆盖 66 词（限流可用 --limit 分批）→ u9_p088_inarestaurant_语音卡.xlsx
+===== u9_p090_offeringhelp =====
+完成: 99 词 -> u9_p090_offeringhelp_学生卡.xlsx (联网补全 99 词)
+完成: 99 词 -> u9_p090_offeringhelp_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 99 词 / 32 个原句朗读标注 / 英标覆盖 99 词（限流可用 --limit 分批）→ u9_p090_offeringhelp_语音卡.xlsx
+===== u10_p092_firstwomaninspace =====
+完成: 86 词 -> u10_p092_firstwomaninspace_学生卡.xlsx (联网补全 86 词)
+完成: 86 词 -> u10_p092_firstwomaninspace_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 86 词 / 17 个原句朗读标注 / 英标覆盖 86 词（限流可用 --limit 分批）→ u10_p092_firstwomaninspace_语音卡.xlsx
+===== u10_p095_prizegiving =====
+完成: 92 词 -> u10_p095_prizegiving_学生卡.xlsx (联网补全 92 词)
+完成: 92 词 -> u10_p095_prizegiving_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+完成: 92 词 / 38 个原句朗读标注 / 英标覆盖 92 词（限流可用 --limit 分批）→ u10_p095_prizegiving_语音卡.xlsx
+===== u10_p096_sportsachievers =====
+完成: 124 词 -> u10_p096_sportsachievers_学生卡.xlsx (联网补全 124 词)
+完成: 124 词 -> u10_p096_sportsachievers_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 8 个专名
+===== u10_p099_statues =====
+完成: 115 词 -> u10_p099_statues_学生卡.xlsx (联网补全 115 词)
+完成: 115 词 -> u10_p099_statues_备课本.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)
+已回写内置读音库 names_ipa.json，新增 12 个专名
+===== u11_p102_dolphins =====
+  .. 处理 later
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__tp_u11_p102_dolphins_备课本.json"],"targetCount":1}
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__ph_u11_p102_dolphins_语音卡.json"],"targetCount":1}
+===== u11_p105_joshsholiday =====
+  .. 处理 can
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__tp_u11_p105_joshsholiday_备课本.json"],"targetCount":1}
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__ph_u11_p105_joshsholiday_语音卡.json"],"targetCount":1}
+===== u11_p106_extinctanimals =====
+  .. 处理 cold
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__tp_u11_p106_extinctanimals_备课本.json"],"targetCount":1}
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__ph_u11_p106_extinctanimals_语音卡.json"],"targetCount":1}
+===== u11_p108_sequencing =====
+  .. 处理 anything
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__tp_u11_p108_sequencing_备课本.json"],"targetCount":1}
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\codex-handoff\\词汇诊断\\篇章词汇_产出\\__ph_u11_p108_sequencing_语音卡.json"],"targetCount":1}
+ALL_DONE_C

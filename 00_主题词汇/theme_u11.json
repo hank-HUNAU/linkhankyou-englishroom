@@ -1,0 +1,290 @@
+[
+ {
+  "w": "bear",
+  "ipa": "beə",
+  "pos": "noun",
+  "zh": "【名】 （Bear）（美）贝尔（人名）",
+  "en": "a large, strong, wild animal with thick fur",
+  "ex": "Erin knew there were bears in the woods."
+ },
+ {
+  "w": "bird",
+  "ipa": "bɜːd",
+  "pos": "noun",
+  "zh": "n. 鸟",
+  "en": "an animal that has wings and feathers, and is usually able to fly",
+  "ex": "This animal was a bird but it couldn’t fly."
+ },
+ {
+  "w": "cat",
+  "ipa": "kæt",
+  "pos": "noun",
+  "zh": "n. 猫，猫科动物",
+  "en": "a small animal with fur, four legs and a tail that is kept as a pet",
+  "ex": "The Europeans took animals such as dogs and cats to the island."
+ },
+ {
+  "w": "dolphin",
+  "ipa": "ˈdɒl.fɪn",
+  "pos": "noun",
+  "zh": "n. 海豚",
+  "en": "an intelligent animal that lives in the sea, breathes air, and looks like a large, smooth, grey fish",
+  "ex": "Dolphins are very intelligent animals."
+ },
+ {
+  "w": "dog",
+  "ipa": "dɒg",
+  "pos": "noun",
+  "zh": "n. 狗，犬",
+  "en": "an animal with fur, four legs and a tail, especially kept by people as a pet",
+  "ex": "The Europeans took animals such as dogs and cats to the island."
+ },
+ {
+  "w": "elephant",
+  "ipa": "ˈe.lɪ.fənt",
+  "pos": "noun",
+  "zh": "象，大象；大号图画纸",
+  "en": "a very large, grey animal with big ears and a very long nose",
+  "ex": "We saw elephants, tigers, and snakes at the zoo."
+ },
+ {
+  "w": "gorilla",
+  "ipa": "gəˈrɪl.ə",
+  "pos": "noun",
+  "zh": "大猩猩；（非正式，常含贬义）高大强壮、凶悍的人，常指保镖或打手，也指粗壮笨拙的人",
+  "en": "a big, black, hairy animal, like a large monkey",
+  "ex": "There's a gorilla at the zoo."
+ },
+ {
+  "w": "horse",
+  "ipa": "hɔːs",
+  "pos": "noun",
+  "zh": "n. 马",
+  "en": "a large animal with four legs, which people ride on",
+  "ex": "It was very near to an eight-year-old boy who was on his horse."
+ },
+ {
+  "w": "tiger",
+  "ipa": "ˈtaɪ.gə",
+  "pos": "noun",
+  "zh": "n. 老虎",
+  "en": "a large wild cat that has yellow fur with black lines on it",
+  "ex": "We saw elephants, tigers, and snakes at the zoo."
+ },
+ {
+  "w": "rabbit",
+  "ipa": "ˈræb.ɪt",
+  "pos": "noun",
+  "zh": "n. 兔",
+  "en": "a small animal with fur and long ears that lives in a hole in the ground",
+  "ex": "She has a pet rabbit."
+ },
+ {
+  "w": "sheep",
+  "ipa": "ʃiːp",
+  "pos": "noun",
+  "zh": "n. 羊，绵羊",
+  "en": "a farm animal whose skin is covered with wool",
+  "ex": "This cheese is made from sheep's milk."
+ },
+ {
+  "w": "snake",
+  "ipa": "sneɪk",
+  "pos": "noun",
+  "zh": "n. 蛇",
+  "en": "a long, thin creature with no legs that slides along the ground",
+  "ex": "We saw elephants, tigers, and snakes at the zoo."
+ },
+ {
+  "w": "take a break",
+  "ipa": "ˌteɪk ə ˈbreɪk",
+  "pos": "phrase",
+  "zh": "休息一下：停下正在做的事情，暂时休息一下。",
+  "en": "to stop an activity for a short time, usually in order to rest or eat",
+  "ex": "I always take a break when I study."
+ },
+ {
+  "w": "have a good time",
+  "ipa": "ˌhæv ə gʊd ˈtaɪm",
+  "pos": "phrase",
+  "zh": "玩得开心：指在某个活动或场合中享受快乐和愉悦的时光。",
+  "en": "to enjoy yourself",
+  "ex": "I have a good time at the weekend."
+ },
+ {
+  "w": "make a mistake",
+  "ipa": "ˌmeɪk ə mɪsˈteɪk",
+  "pos": "phrase",
+  "zh": "犯错误：在做某事时出现错误或不正确的行为。",
+  "en": "to do something that is not correct",
+  "ex": "I don't often make mistakes with my homework."
+ },
+ {
+  "w": "make a noise",
+  "ipa": "ˌmeɪk ə ˈnɔɪz",
+  "pos": "phrase",
+  "zh": "大谈特谈或抱怨：对某事大谈特谈或抱怨。",
+  "en": "to make a sound, often a loud, unpleasant sound",
+  "ex": "The bear made a terrible noise."
+ },
+ {
+  "w": "have a shower",
+  "ipa": "ˌhæv ə ˈʃaʊə",
+  "pos": "phrase",
+  "zh": "淋浴：在浴室内用水淋浴来清洗身体。",
+  "en": "to wash your body while standing under a flow of water",
+  "ex": "I have a shower in the morning."
+ },
+ {
+  "w": "get angry",
+  "ipa": "ˌget ˈæŋ.gri",
+  "pos": "phrase",
+  "zh": "变得生气，发怒：感到愤怒或不满（常与 at/with 连用，表示对某人或某事生气）。",
+  "en": "to start to have a strong feeling against someone who has behaved badly or something you do not like",
+  "ex": "I get angry when my brother takes my things."
+ },
+ {
+  "w": "go away",
+  "ipa": "ˌgəʊ əˈweɪ",
+  "pos": "phrase",
+  "zh": "to leave a place",
+  "en": "to leave a place",
+  "ex": "After a while, the bear went away."
+ },
+ {
+  "w": "get excited",
+  "ipa": "ˌget ɪkˈsaɪ.tɪd",
+  "pos": "phrase",
+  "zh": "变得兴奋：感到非常高兴和热情。",
+  "en": "to start to feel happy and enthusiastic",
+  "ex": "I always get excited when I go on holiday."
+ },
+ {
+  "w": "do homework",
+  "ipa": "ˌdu: ˈhəʊm.wɜːk",
+  "pos": "phrase",
+  "zh": "做作业，做家庭作业；做足功课（事先认真研究某个主题或情况，以便能够妥善处理）。",
+  "en": "to do work your teacher has given you to do at home",
+  "ex": "I didn't do my homework last night."
+ },
+ {
+  "w": "go on holiday",
+  "ipa": "ˌgəʊ ɒn ˈhɒl.ə.deɪ",
+  "pos": "phrase",
+  "zh": "度假：离开日常生活去休闲或旅游的行为。",
+  "en": "to go to a place away from where you live, for pleasure",
+  "ex": "My family didn't go on holiday last year."
+ },
+ {
+  "w": "take photos",
+  "ipa": "ˌteɪk ˈfəʊ.təʊz",
+  "pos": "phrase",
+  "zh": "拍照：使用相机或手机等设备拍摄照片。",
+  "en": "to produce pictures with a camera",
+  "ex": "Last week I took a lot of photos with my phone."
+ },
+ {
+  "w": "do something",
+  "ipa": "ˈdu: ˌsʌm.θɪŋ",
+  "pos": "phrase",
+  "zh": "采取行动：为了帮助情况而采取某种行动。",
+  "en": "to take an action",
+  "ex": "We need to do something to help him!"
+ },
+ {
+  "w": "beautiful",
+  "ipa": "ˈbjuː.tɪ.fəl",
+  "pos": "adjective",
+  "zh": "adj. 美丽的，漂亮的",
+  "en": "very attractive",
+  "ex": "Erin thought Tonk was a beautiful horse."
+ },
+ {
+  "w": "boring",
+  "ipa": "ˈbɔː.rɪŋ",
+  "pos": "adjective",
+  "zh": "adj. 令人厌烦的",
+  "en": "not interesting or exciting",
+  "ex": "a boring TV programme"
+ },
+ {
+  "w": "clean",
+  "ipa": "kliːn",
+  "pos": "adjective",
+  "zh": "adj. 洁净的，干净的",
+  "en": "not dirty",
+  "ex": "a clean white shirt"
+ },
+ {
+  "w": "clever",
+  "ipa": "ˈklev.ə",
+  "pos": "adjective",
+  "zh": "able to learn and understand things quickly and easily",
+  "en": "able to learn and understand things quickly and easily",
+  "ex": "Both children were clever."
+ },
+ {
+  "w": "dangerous",
+  "ipa": "ˈdeɪn.dʒə.rəs",
+  "pos": "adjective",
+  "zh": "adj. 危险的，有威胁的",
+  "en": "If someone or something is dangerous, they could harm you.",
+  "ex": "Sometimes snakes are dangerous."
+ },
+ {
+  "w": "dirty",
+  "ipa": "ˈdɜː.ti",
+  "pos": "adjective",
+  "zh": "adj. 肮脏的",
+  "en": "not clean",
+  "ex": "a dirty car"
+ },
+ {
+  "w": "horrible",
+  "ipa": "ˈhɒr.ə.bl̩",
+  "pos": "adjective",
+  "zh": "可怕的，令人恐惧的；糟糕的，讨厌的；不友好的",
+  "en": "very unpleasant or bad",
+  "ex": "Dan! Don’t be horrible!"
+ },
+ {
+  "w": "interesting",
+  "ipa": "ˈɪn.trəs.tɪŋ",
+  "pos": "adjective",
+  "zh": "adj. 有趣的，有吸引力的",
+  "en": "Someone or something that is interesting keeps your attention because they are unusual, exciting, or have a lot of ideas.",
+  "ex": "I talked to my friends but they didn’t say anything interesting."
+ },
+ {
+  "w": "lovely",
+  "ipa": "ˈlʌv.li",
+  "pos": "adjective",
+  "zh": "adj. 可爱的，迷人的",
+  "en": "pleasant or enjoyable",
+  "ex": "a lovely meal/evening"
+ },
+ {
+  "w": "safe",
+  "ipa": "seɪf",
+  "pos": "adjective",
+  "zh": "adj. 安全的，平安的",
+  "en": "not in danger or likely to be harmed",
+  "ex": "In some cities you don't feel safe going out alone at night."
+ },
+ {
+  "w": "stupid",
+  "ipa": "ˈstjuː.pɪd",
+  "pos": "adjective",
+  "zh": "笨的，傻的，脑子不好使的；欠考虑的，糊涂的；（用以加强语气）讨厌的，恼人的，无聊的；（因醉、累等）不省人事的，神思恍惚的",
+  "en": "silly or not intelligent",
+  "ex": "How could you be so stupid?"
+ },
+ {
+  "w": "ugly",
+  "ipa": "ˈʌg.li",
+  "pos": "adjective",
+  "zh": "unpleasant to look at",
+  "en": "unpleasant to look at",
+  "ex": "a big, fat, ugly spider"
+ }
+]

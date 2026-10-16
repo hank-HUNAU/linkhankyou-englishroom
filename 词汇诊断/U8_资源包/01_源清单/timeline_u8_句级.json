@@ -1,0 +1,752 @@
+{
+ "p075": [
+  {
+   "i": 0,
+   "start_s": 15.68,
+   "end_s": 17.56,
+   "dur_s": 1.88,
+   "text": "I'm leaving home."
+  },
+  {
+   "i": 1,
+   "start_s": 18.37,
+   "end_s": 20.36,
+   "dur_s": 1.99,
+   "text": "We're on our way to the station."
+  },
+  {
+   "i": 2,
+   "start_s": 20.99,
+   "end_s": 22.44,
+   "dur_s": 1.45,
+   "text": "I'm so excited!"
+  },
+  {
+   "i": 3,
+   "start_s": 26.82,
+   "end_s": 32.36,
+   "dur_s": 5.54,
+   "text": "We're standing on the platform waiting for the train to Delamere Forest."
+  },
+  {
+   "i": 4,
+   "start_s": 36.7,
+   "end_s": 37.94,
+   "dur_s": 1.24,
+   "text": "We're here!"
+  },
+  {
+   "i": 5,
+   "start_s": 38.88,
+   "end_s": 48.715,
+   "dur_s": 9.835,
+   "text": "What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest."
+  },
+  {
+   "i": 6,
+   "start_s": 53.16,
+   "end_s": 55.391,
+   "dur_s": 2.231,
+   "text": "I'm eating a hot dog."
+  },
+  {
+   "i": 7,
+   "start_s": 55.88,
+   "end_s": 59.88,
+   "dur_s": 4.0,
+   "text": "It's very expensive, but it's not very good!"
+  },
+  {
+   "i": 8,
+   "start_s": 64.7,
+   "end_s": 67.082,
+   "dur_s": 2.382,
+   "text": "It's getting dark now."
+  },
+  {
+   "i": 9,
+   "start_s": 67.38,
+   "end_s": 69.96,
+   "dur_s": 2.58,
+   "text": "The stage is completely black."
+  },
+  {
+   "i": 10,
+   "start_s": 70.7,
+   "end_s": 75.14,
+   "dur_s": 4.44,
+   "text": "A few people are talking, but most people are quiet."
+  },
+  {
+   "i": 11,
+   "start_s": 75.98,
+   "end_s": 77.58,
+   "dur_s": 1.6,
+   "text": "We're waiting for Jess."
+  },
+  {
+   "i": 12,
+   "start_s": 78.4,
+   "end_s": 80.02,
+   "dur_s": 1.62,
+   "text": "And here she comes!"
+  },
+  {
+   "i": 13,
+   "start_s": 80.7,
+   "end_s": 82.12,
+   "dur_s": 1.42,
+   "text": "Everyone is cheering!"
+  },
+  {
+   "i": 14,
+   "start_s": 82.82,
+   "end_s": 84.04,
+   "dur_s": 1.22,
+   "text": "What a noise!"
+  },
+  {
+   "i": 15,
+   "start_s": 89.0,
+   "end_s": 91.5,
+   "dur_s": 2.5,
+   "text": "Jess isn't on stage."
+  },
+  {
+   "i": 16,
+   "start_s": 92.44,
+   "end_s": 94.18,
+   "dur_s": 1.74,
+   "text": "Is the show over?"
+  },
+  {
+   "i": 17,
+   "start_s": 94.98,
+   "end_s": 96.36,
+   "dur_s": 1.38,
+   "text": "No way!"
+  },
+  {
+   "i": 18,
+   "start_s": 96.84,
+   "end_s": 99.34,
+   "dur_s": 2.5,
+   "text": "We're all shouting 'more'."
+  },
+  {
+   "i": 19,
+   "start_s": 100.08,
+   "end_s": 101.56,
+   "dur_s": 1.48,
+   "text": "Why are we shouting?"
+  },
+  {
+   "i": 20,
+   "start_s": 102.24,
+   "end_s": 104.6,
+   "dur_s": 2.36,
+   "text": "Because we want MORE!"
+  },
+  {
+   "i": 21,
+   "start_s": 105.28,
+   "end_s": 106.568,
+   "dur_s": 1.288,
+   "text": "But don't worry."
+  },
+  {
+   "i": 22,
+   "start_s": 106.92,
+   "end_s": 109.761,
+   "dur_s": 2.841,
+   "text": "She's walking back onto the stage."
+  },
+  {
+   "i": 23,
+   "start_s": 114.54,
+   "end_s": 116.76,
+   "dur_s": 2.22,
+   "text": "We're on the train home."
+  },
+  {
+   "i": 24,
+   "start_s": 117.51,
+   "end_s": 119.28,
+   "dur_s": 1.77,
+   "text": "We aren't sitting down."
+  },
+  {
+   "i": 25,
+   "start_s": 119.95,
+   "end_s": 121.12,
+   "dur_s": 1.17,
+   "text": "I don't care."
+  },
+  {
+   "i": 26,
+   "start_s": 121.71,
+   "end_s": 128.1,
+   "dur_s": 6.39,
+   "text": "There are so many people on the train and everybody's a Jess Glynne fan."
+  },
+  {
+   "i": 27,
+   "start_s": 128.71,
+   "end_s": 131.564,
+   "dur_s": 2.854,
+   "text": "We're all singing 'Hold my Hand'."
+  },
+  {
+   "i": 28,
+   "start_s": 132.13,
+   "end_s": 134.142,
+   "dur_s": 2.012,
+   "text": "It's my favourite song."
+  },
+  {
+   "i": 29,
+   "start_s": 137.84,
+   "end_s": 141.99,
+   "dur_s": 4.15,
+   "text": "It's exactly midnight and we're back home."
+  },
+  {
+   "i": 30,
+   "start_s": 142.71,
+   "end_s": 145.72,
+   "dur_s": 3.01,
+   "text": "I'm feeling tired but very happy."
+  },
+  {
+   "i": 31,
+   "start_s": 146.57,
+   "end_s": 149.2,
+   "dur_s": 2.63,
+   "text": "I'm going straight upstairs to bed."
+  }
+ ],
+ "p077": [
+  {
+   "i": 0,
+   "start_s": 6.82,
+   "end_s": 8.42,
+   "dur_s": 1.6,
+   "text": "Hello and welcome!"
+  },
+  {
+   "i": 1,
+   "start_s": 9.48,
+   "end_s": 14.559,
+   "dur_s": 5.079,
+   "text": "Today we are talking about different music from around the world."
+  },
+  {
+   "i": 2,
+   "start_s": 15.22,
+   "end_s": 19.064,
+   "dur_s": 3.844,
+   "text": "Is there a type of music that you really like?"
+  },
+  {
+   "i": 3,
+   "start_s": 19.7,
+   "end_s": 21.432,
+   "dur_s": 1.732,
+   "text": "Phone and tell us."
+  },
+  {
+   "i": 4,
+   "start_s": 22.16,
+   "end_s": 24.92,
+   "dur_s": 2.76,
+   "text": "Our first caller is Liliana."
+  },
+  {
+   "i": 5,
+   "start_s": 25.87,
+   "end_s": 30.08,
+   "dur_s": 4.21,
+   "text": "OK Liliana, what's your favourite music?"
+  },
+  {
+   "i": 6,
+   "start_s": 30.76,
+   "end_s": 37.18,
+   "dur_s": 6.42,
+   "text": "Hello! My mother is Mexican and we often go to Mexico."
+  },
+  {
+   "i": 7,
+   "start_s": 37.86,
+   "end_s": 41.378,
+   "dur_s": 3.518,
+   "text": "I love the mariachi music I see there."
+  },
+  {
+   "i": 8,
+   "start_s": 42.06,
+   "end_s": 52.94,
+   "dur_s": 10.88,
+   "text": "There's a group of men and sometimes women and they all stand up playing instruments like guitars, trumpets and violins."
+  },
+  {
+   "i": 9,
+   "start_s": 53.65,
+   "end_s": 56.98,
+   "dur_s": 3.33,
+   "text": "They also wear traditional Mexican hats."
+  },
+  {
+   "i": 10,
+   "start_s": 57.7,
+   "end_s": 59.64,
+   "dur_s": 1.94,
+   "text": "I think they look fantastic."
+  },
+  {
+   "i": 11,
+   "start_s": 60.42,
+   "end_s": 62.52,
+   "dur_s": 2.1,
+   "text": "Yes, thanks Liliana."
+  },
+  {
+   "i": 12,
+   "start_s": 63.4,
+   "end_s": 65.22,
+   "dur_s": 1.82,
+   "text": "And now here's Lewis."
+  },
+  {
+   "i": 13,
+   "start_s": 66.32,
+   "end_s": 69.358,
+   "dur_s": 3.038,
+   "text": "Hi Lewis, tell us what you like."
+  },
+  {
+   "i": 14,
+   "start_s": 69.78,
+   "end_s": 70.565,
+   "dur_s": 0.785,
+   "text": "Hi there."
+  },
+  {
+   "i": 15,
+   "start_s": 71.2,
+   "end_s": 77.973,
+   "dur_s": 6.773,
+   "text": "Well in Indonesia there's this traditional musical performance called gamelan."
+  },
+  {
+   "i": 16,
+   "start_s": 78.54,
+   "end_s": 83.5,
+   "dur_s": 4.96,
+   "text": "They have these orchestras with some very unusual instruments."
+  },
+  {
+   "i": 17,
+   "start_s": 84.24,
+   "end_s": 92.264,
+   "dur_s": 8.024,
+   "text": "They make beautiful sounds and when they all play the musicians wear the same traditional clothes."
+  },
+  {
+   "i": 18,
+   "start_s": 92.58,
+   "end_s": 93.3,
+   "dur_s": 0.72,
+   "text": "Thanks Lewis."
+  },
+  {
+   "i": 19,
+   "start_s": 94.22,
+   "end_s": 96.82,
+   "dur_s": 2.6,
+   "text": "And now let's talk to Jen."
+  },
+  {
+   "i": 20,
+   "start_s": 97.76,
+   "end_s": 100.09,
+   "dur_s": 2.33,
+   "text": "I love African drumming."
+  },
+  {
+   "i": 21,
+   "start_s": 100.38,
+   "end_s": 106.626,
+   "dur_s": 6.246,
+   "text": "I go to a lot of musical festivals and there's always some African drumming."
+  },
+  {
+   "i": 22,
+   "start_s": 107.08,
+   "end_s": 111.3,
+   "dur_s": 4.22,
+   "text": "Is there any African country you like the drumming from most?"
+  },
+  {
+   "i": 23,
+   "start_s": 111.96,
+   "end_s": 125.028,
+   "dur_s": 13.068,
+   "text": "Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes."
+  },
+  {
+   "i": 24,
+   "start_s": 125.34,
+   "end_s": 127.88,
+   "dur_s": 2.54,
+   "text": "They're the colours of the Burundi flag."
+  },
+  {
+   "i": 25,
+   "start_s": 128.82,
+   "end_s": 133.4,
+   "dur_s": 4.58,
+   "text": "Sometimes they also paint their drums in the same colours."
+  },
+  {
+   "i": 26,
+   "start_s": 133.4,
+   "end_s": 136.16,
+   "dur_s": 2.76,
+   "text": "Okay, thank you Jen."
+  }
+ ],
+ "p078": [
+  {
+   "i": 0,
+   "start_s": 6.2,
+   "end_s": 7.38,
+   "dur_s": 1.18,
+   "text": "Who are you?"
+  },
+  {
+   "i": 1,
+   "start_s": 7.92,
+   "end_s": 9.36,
+   "dur_s": 1.44,
+   "text": "I'm Danny Boyd."
+  },
+  {
+   "i": 2,
+   "start_s": 9.9,
+   "end_s": 12.887,
+   "dur_s": 2.987,
+   "text": "I'm 14 years old and I'm from Luton."
+  },
+  {
+   "i": 3,
+   "start_s": 13.52,
+   "end_s": 14.36,
+   "dur_s": 0.84,
+   "text": "What do you do?"
+  },
+  {
+   "i": 4,
+   "start_s": 14.98,
+   "end_s": 20.12,
+   "dur_s": 5.14,
+   "text": "I'm a student at school and at the weekends I work as a DJ."
+  },
+  {
+   "i": 5,
+   "start_s": 20.84,
+   "end_s": 22.98,
+   "dur_s": 2.14,
+   "text": "Wow, that's interesting."
+  },
+  {
+   "i": 6,
+   "start_s": 23.9,
+   "end_s": 25.287,
+   "dur_s": 1.387,
+   "text": "Can you tell us more?"
+  },
+  {
+   "i": 7,
+   "start_s": 25.76,
+   "end_s": 28.793,
+   "dur_s": 3.033,
+   "text": "I'm a DJ at a local youth club."
+  },
+  {
+   "i": 8,
+   "start_s": 29.02,
+   "end_s": 34.32,
+   "dur_s": 5.3,
+   "text": "I play every Saturday from 6pm to 10pm."
+  },
+  {
+   "i": 9,
+   "start_s": 35.04,
+   "end_s": 38.243,
+   "dur_s": 3.203,
+   "text": "There's usually about 100 people there."
+  },
+  {
+   "i": 10,
+   "start_s": 39.06,
+   "end_s": 40.101,
+   "dur_s": 1.041,
+   "text": "It's great fun."
+  },
+  {
+   "i": 11,
+   "start_s": 40.86,
+   "end_s": 47.404,
+   "dur_s": 6.544,
+   "text": "I also sometimes play for big crowds in the park and sometimes on the beach too."
+  },
+  {
+   "i": 12,
+   "start_s": 48.0,
+   "end_s": 50.38,
+   "dur_s": 2.38,
+   "text": "What do you like doing in your free time?"
+  },
+  {
+   "i": 13,
+   "start_s": 50.99,
+   "end_s": 55.658,
+   "dur_s": 4.668,
+   "text": "I love listening to music and finding new songs to play."
+  },
+  {
+   "i": 14,
+   "start_s": 56.32,
+   "end_s": 63.24,
+   "dur_s": 6.92,
+   "text": "I like watching films and playing games on my VR headset but I hate dancing."
+  },
+  {
+   "i": 15,
+   "start_s": 64.18,
+   "end_s": 67.44,
+   "dur_s": 3.26,
+   "text": "I know that's a strange thing for a DJ to say."
+  },
+  {
+   "i": 16,
+   "start_s": 68.24,
+   "end_s": 73.1,
+   "dur_s": 4.86,
+   "text": "I love watching other people dance but I never dance myself."
+  },
+  {
+   "i": 17,
+   "start_s": 74.42,
+   "end_s": 75.92,
+   "dur_s": 1.5,
+   "text": "What do you like wearing?"
+  },
+  {
+   "i": 18,
+   "start_s": 76.66,
+   "end_s": 81.2,
+   "dur_s": 4.54,
+   "text": "I like wearing jeans and a white T-shirt."
+  },
+  {
+   "i": 19,
+   "start_s": 82.14,
+   "end_s": 84.265,
+   "dur_s": 2.125,
+   "text": "I also wear a red cap."
+  },
+  {
+   "i": 20,
+   "start_s": 85.3,
+   "end_s": 87.76,
+   "dur_s": 2.46,
+   "text": "I don't like wearing shirts and trousers."
+  },
+  {
+   "i": 21,
+   "start_s": 88.5,
+   "end_s": 90.54,
+   "dur_s": 2.04,
+   "text": "I wear those every day at school."
+  },
+  {
+   "i": 22,
+   "start_s": 91.6,
+   "end_s": 93.84,
+   "dur_s": 2.24,
+   "text": "Thanks Danny and good luck."
+  },
+  {
+   "i": 23,
+   "start_s": 94.38,
+   "end_s": 95.086,
+   "dur_s": 0.706,
+   "text": "Thank you."
+  },
+  {
+   "i": 24,
+   "start_s": 95.74,
+   "end_s": 98.76,
+   "dur_s": 3.02,
+   "text": "Why don't you come to one of my shows one day?"
+  }
+ ],
+ "p080": [
+  {
+   "i": 0,
+   "start_s": 12.74,
+   "end_s": 25.658,
+   "dur_s": 12.918,
+   "text": "The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango."
+  },
+  {
+   "i": 1,
+   "start_s": 26.52,
+   "end_s": 32.5,
+   "dur_s": 5.98,
+   "text": "They do the tango in dance halls, parks and squares all over the city."
+  },
+  {
+   "i": 2,
+   "start_s": 33.72,
+   "end_s": 37.86,
+   "dur_s": 4.14,
+   "text": "The dance is usually performed by a man and a woman."
+  },
+  {
+   "i": 3,
+   "start_s": 39.04,
+   "end_s": 42.86,
+   "dur_s": 3.82,
+   "text": "The man often wears smart trousers and a shirt."
+  },
+  {
+   "i": 4,
+   "start_s": 44.4,
+   "end_s": 47.32,
+   "dur_s": 2.92,
+   "text": "The woman often wears a beautiful dress."
+  },
+  {
+   "i": 5,
+   "start_s": 48.72,
+   "end_s": 51.9,
+   "dur_s": 3.18,
+   "text": "The dance is often very interesting to watch."
+  },
+  {
+   "i": 6,
+   "start_s": 57.64,
+   "end_s": 62.56,
+   "dur_s": 4.92,
+   "text": "The Whirling Dervish is a dance from Turkey."
+  },
+  {
+   "i": 7,
+   "start_s": 63.48,
+   "end_s": 66.52,
+   "dur_s": 3.04,
+   "text": "There is a group of twelve men who dance."
+  },
+  {
+   "i": 8,
+   "start_s": 67.8,
+   "end_s": 71.18,
+   "dur_s": 3.38,
+   "text": "They wear traditional costumes with big skirts."
+  },
+  {
+   "i": 9,
+   "start_s": 72.68,
+   "end_s": 78.82,
+   "dur_s": 6.14,
+   "text": "They often all wear white, but sometimes the skirts are different colours."
+  },
+  {
+   "i": 10,
+   "start_s": 79.82,
+   "end_s": 83.06,
+   "dur_s": 3.24,
+   "text": "There is another group of twelve musicians."
+  },
+  {
+   "i": 11,
+   "start_s": 84.26,
+   "end_s": 87.18,
+   "dur_s": 2.92,
+   "text": "They play traditional Turkish instruments."
+  },
+  {
+   "i": 12,
+   "start_s": 88.44,
+   "end_s": 95.76,
+   "dur_s": 7.32,
+   "text": "As the music plays, the dancers spin around in circles, getting faster and faster."
+  },
+  {
+   "i": 13,
+   "start_s": 97.04,
+   "end_s": 99.48,
+   "dur_s": 2.44,
+   "text": "The dance is very popular with tourists."
+  },
+  {
+   "i": 14,
+   "start_s": 106.1,
+   "end_s": 113.62,
+   "dur_s": 7.52,
+   "text": "There are lots of Irish dances, but perhaps the most famous one is the step dance."
+  },
+  {
+   "i": 15,
+   "start_s": 114.64,
+   "end_s": 118.22,
+   "dur_s": 3.58,
+   "text": "One or more dancers perform the step dance."
+  },
+  {
+   "i": 16,
+   "start_s": 119.52,
+   "end_s": 121.96,
+   "dur_s": 2.44,
+   "text": "The dancers only move their legs."
+  },
+  {
+   "i": 17,
+   "start_s": 122.92,
+   "end_s": 124.88,
+   "dur_s": 1.96,
+   "text": "They move them very quickly."
+  },
+  {
+   "i": 18,
+   "start_s": 126.4,
+   "end_s": 129.149,
+   "dur_s": 2.749,
+   "text": "The top half of the body doesn't move."
+  },
+  {
+   "i": 19,
+   "start_s": 130.42,
+   "end_s": 134.28,
+   "dur_s": 3.86,
+   "text": "Dancers usually wear traditional Irish costumes."
+  },
+  {
+   "i": 20,
+   "start_s": 135.62,
+   "end_s": 140.376,
+   "dur_s": 4.756,
+   "text": "The music they dance to is played by an Irish folk band."
+  },
+  {
+   "i": 21,
+   "start_s": 141.4,
+   "end_s": 144.76,
+   "dur_s": 3.36,
+   "text": "They play instruments like the fiddle and the whistle."
+  }
+ ]
+}

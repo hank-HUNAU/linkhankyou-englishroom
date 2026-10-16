@@ -1,0 +1,178 @@
+[
+ {
+  "w": "bike",
+  "ipa": "baɪk",
+  "pos": "noun",
+  "zh": "n. 自行车，脚踏车，单车",
+  "en": "a bicycle",
+  "ex": "One presenter went by bike."
+ },
+ {
+  "w": "boat",
+  "ipa": "bəʊt",
+  "pos": "noun",
+  "zh": "n. 小船",
+  "en": "a vehicle for travelling on water",
+  "ex": "The last one travelled by speedboat up the River Thames."
+ },
+ {
+  "w": "bus",
+  "ipa": "bʌs",
+  "pos": "noun",
+  "zh": "n. 公共汽车",
+  "en": "a large vehicle in which people are driven from one place to another",
+  "ex": "I go to school by bus."
+ },
+ {
+  "w": "car",
+  "ipa": "kɑː",
+  "pos": "noun",
+  "zh": "n. 汽车，轿车",
+  "en": "a road vehicle with an engine, four wheels, and seats for a small number of people",
+  "ex": "One went by car."
+ },
+ {
+  "w": "underground train",
+  "ipa": "ˈʌn.də.graʊnd ˌtreɪn",
+  "pos": "noun",
+  "zh": "地铁：城市轨道交通系统中的一种列车，通常在地下运行。",
+  "en": "a train that travels in tunnels beneath a city",
+  "ex": "He took the underground train."
+ },
+ {
+  "w": "ferry",
+  "ipa": "ˈfer.i",
+  "pos": "noun",
+  "zh": "n. 渡船，摆渡",
+  "en": "a boat that regularly carries passengers and often vehicles across an area of water",
+  "ex": "a car ferry"
+ },
+ {
+  "w": "helicopter",
+  "ipa": "ˈhel.ɪ.kɒp.tə",
+  "pos": "noun",
+  "zh": "直升机",
+  "en": "an aircraft which flies using long, thin parts on top of it that turn round and round very fast",
+  "ex": "The injured were flown to hospital by helicopter."
+ },
+ {
+  "w": "motorbike",
+  "ipa": "ˈməʊ.tə.baɪk",
+  "pos": "noun",
+  "zh": "摩托车（尤指较小或较轻型的摩托车）",
+  "en": "a vehicle with two wheels and an engine",
+  "ex": "My cousin rides a motorbike."
+ },
+ {
+  "w": "plane",
+  "ipa": "pleɪn",
+  "pos": "noun",
+  "zh": "平的，平坦的；二维平面的，二维空间的",
+  "en": "a vehicle that flies and has at least one engine and wings",
+  "ex": "We visit them every year and, of course, we go by plane."
+ },
+ {
+  "w": "taxi",
+  "ipa": "ˈtæk.si",
+  "pos": "noun",
+  "zh": "n. 出租车，计程车，的士",
+  "en": "a car with a driver who you pay to take you somewhere",
+  "ex": "I took a taxi from the station to the hotel."
+ },
+ {
+  "w": "train",
+  "ipa": "treɪn",
+  "pos": "noun",
+  "zh": "n. 火车，列车",
+  "en": "a long, thin vehicle which travels along metal tracks and carries people or goods",
+  "ex": "We always go by train."
+ },
+ {
+  "w": "mountain",
+  "ipa": "ˈmaʊn.tɪn",
+  "pos": "noun",
+  "zh": "n. 山，高山",
+  "en": "a raised part of the Earth's surface, much larger than a hill, the top of which might be covered in snow",
+  "ex": "My favourite journey is to the mountains to ski."
+ },
+ {
+  "w": "beach",
+  "ipa": "biːtʃ",
+  "pos": "noun",
+  "zh": "n. 海滩，海滨",
+  "en": "an area of sand or small stones next to the sea",
+  "ex": "It’s got really beautiful beaches and we always have a great time."
+ },
+ {
+  "w": "river",
+  "ipa": "ˈrɪv.ə",
+  "pos": "noun",
+  "zh": "n. 河，江",
+  "en": "a long, natural area of water that flows across the land and into a sea, lake, or another river",
+  "ex": "Every morning I walk across the fields and then along the river."
+ },
+ {
+  "w": "sea",
+  "ipa": "siː",
+  "pos": "noun",
+  "zh": "n. 海洋",
+  "en": "a large area of salt water",
+  "ex": "Every year my family goes on holiday to a small town by the sea."
+ },
+ {
+  "w": "field",
+  "ipa": "fiːld",
+  "pos": "noun",
+  "zh": "n. 田地，田野",
+  "en": "an area of land used for growing crops or keeping animals",
+  "ex": "corn fields"
+ },
+ {
+  "w": "lake",
+  "ipa": "leɪk",
+  "pos": "noun",
+  "zh": "n. 湖，湖泊",
+  "en": "a large area of water which has land all around it",
+  "ex": "Lake Titicaca is a large lake between Peru and Bolivia."
+ },
+ {
+  "w": "farm",
+  "ipa": "fɑːm",
+  "pos": "noun",
+  "zh": "农场，养殖场；农舍；生产企业",
+  "en": "an area of land with fields and buildings, used for growing crops and/or keeping animals as a business",
+  "ex": "We live on a farm and my school is about one kilometre away."
+ },
+ {
+  "w": "forest",
+  "ipa": "ˈfɒr.ɪst",
+  "pos": "noun",
+  "zh": "森林，林区；（森林似的）一丛，一片；御猎场",
+  "en": "a large area of trees growing closely together",
+  "ex": "I just love watching the mountains and forests go past."
+ },
+ {
+  "w": "cable car",
+  "ipa": "ˈkeɪ.bl ˌkɑː",
+  "pos": "noun",
+  "zh": "缆车，空中缆车；&lt;美&gt;有轨缆车（尤指旧金山等地的传统有轨缆车，常称叮当车）",
+  "en": "a vehicle that hangs from thick cables and carries people up hills and mountains",
+  "ex": "Ankara’s cable car is cheaper than other forms of public transport."
+ },
+ {
+  "w": "escalator",
+  "ipa": "ˈes.kə.leɪ.tə",
+  "pos": "noun",
+  "zh": "自动扶梯，电动扶梯",
+  "en": "moving stairs that take people from one level of a building to another",
+  "ex": "Escalators are usually inside a shopping centre or an airport."
+ },
+ {
+  "w": "submarine",
+  "ipa": "ˌsʌb.mə.rˈiːn",
+  "pos": "noun",
+  "zh": "潜艇，潜水艇；&lt;美&gt;潜艇三明治，长卷三明治；海底生物",
+  "en": "a boat that travels under water",
+  "ex": "Now you can travel in a submarine!"
+ }
+]

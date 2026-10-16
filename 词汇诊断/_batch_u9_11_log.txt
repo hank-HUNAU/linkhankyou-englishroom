@@ -1,0 +1,73 @@
+===== u9_p085_kitchenkids =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u9_p085_kitchenkids.xlsx
+各层命中: A1_Starters=70.2% A1_Movers=17.1% A2_Flyers=11.1% KET=90.9% PET=88.9% FCE=6.7% CAE=0.4% NGSL=89.3% NAWL=0.4%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u9_p087_cooking =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u9_p087_cooking.xlsx
+各层命中: A1_Starters=67.6% A1_Movers=16.2% A2_Flyers=9.8% KET=93.1% PET=83.8% FCE=8.1% CAE=0.0% NGSL=87.3% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u9_p088_inarestaurant =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u9_p088_inarestaurant.xlsx
+各层命中: A1_Starters=75.4% A1_Movers=13.1% A2_Flyers=10.8% KET=96.2% PET=83.1% FCE=3.1% CAE=0.0% NGSL=89.2% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u9_p090_offeringhelp =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u9_p090_offeringhelp.xlsx
+各层命中: A1_Starters=73.0% A1_Movers=12.8% A2_Flyers=12.2% KET=95.4% PET=90.3% FCE=4.1% CAE=0.0% NGSL=85.2% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u10_p092_firstwomaninspace =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u10_p092_firstwomaninspace.xlsx
+各层命中: A1_Starters=61.2% A1_Movers=10.1% A2_Flyers=15.4% KET=81.1% PET=78.4% FCE=4.0% CAE=0.4% NGSL=82.8% NAWL=0.4%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u10_p095_prizegiving =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u10_p095_prizegiving.xlsx
+各层命中: A1_Starters=76.5% A1_Movers=15.2% A2_Flyers=13.4% KET=93.1% PET=91.7% FCE=7.8% CAE=0.0% NGSL=94.9% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u10_p096_sportsachievers =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u10_p096_sportsachievers.xlsx
+各层命中: A1_Starters=54.7% A1_Movers=16.3% A2_Flyers=12.2% KET=77.6% PET=75.5% FCE=5.7% CAE=0.0% NGSL=82.9% NAWL=0.8%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u10_p099_statues =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u10_p099_statues.xlsx
+各层命中: A1_Starters=61.8% A1_Movers=10.6% A2_Flyers=6.5% KET=78.2% PET=76.5% FCE=3.1% CAE=1.4% NGSL=81.6% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u11_p102_dolphins =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u11_p102_dolphins.xlsx
+各层命中: A1_Starters=62.1% A1_Movers=20.3% A2_Flyers=8.8% KET=87.7% PET=84.3% FCE=5.7% CAE=0.0% NGSL=87.4% NAWL=0.0%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u11_p105_joshsholiday =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u11_p105_joshsholiday.xlsx
+各层命中: A1_Starters=76.9% A1_Movers=8.0% A2_Flyers=10.4% KET=91.6% PET=83.7% FCE=5.2% CAE=0.0% NGSL=90.4% NAWL=0.4%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u11_p106_extinctanimals =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u11_p106_extinctanimals.xlsx
+各层命中: A1_Starters=63.6% A1_Movers=12.7% A2_Flyers=6.4% KET=78.4% PET=78.8% FCE=6.4% CAE=0.0% NGSL=82.6% NAWL=0.4%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+===== u11_p108_sequencing =====
+saved: E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\词汇诊断\篇章词汇_产出/u11_p108_sequencing.xlsx
+各层命中: A1_Starters=72.2% A1_Movers=17.7% A2_Flyers=13.9% KET=95.6% PET=89.9% FCE=4.4% CAE=0.0% NGSL=93.7% NAWL=4.4%
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\student-vocab-cards\\scripts\\student_cards.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\teacher-vocab-prep\\scripts\\teacher_prep.py': [Errno 2] No such file or directory
+C:\Users\Thinkpad\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'E:\\04 少儿原版课程\\03 Think 0 课程制作\\Codex 学习中心\\skills\\global\\british-phonetics\\scripts\\phonetics.py': [Errno 2] No such file or directory
+ALL_DONE

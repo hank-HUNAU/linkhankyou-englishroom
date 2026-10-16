@@ -1,0 +1,178 @@
+[
+ {
+  "w": "Brazil",
+  "ipa": "brə.ˈzɪl",
+  "pos": "noun",
+  "zh": "a country in South America",
+  "en": "a country in South America",
+  "ex": "Flavia is from Brazil."
+ },
+ {
+  "w": "Ecuador",
+  "ipa": "ˈek.wə.dɔː",
+  "pos": "noun",
+  "zh": "厄瓜多尔（南美洲西北部国家，西临太平洋，首都基多；正式名称为厄瓜多尔共和国）",
+  "en": "a country in South America",
+  "ex": "We're from Ecuador."
+ },
+ {
+  "w": "Indonesia",
+  "ipa": "ˌɪn.dəʊˈniː.ʒə",
+  "pos": "noun",
+  "zh": "印尼，印度尼西亚（东南亚岛国）",
+  "en": "a country consisting of a group of islands in southeast Asia",
+  "ex": "I'm from Indonesia."
+ },
+ {
+  "w": "Japan",
+  "ipa": "dʒəˈpæn",
+  "pos": "noun",
+  "zh": "日本（东亚国家名）",
+  "en": "a country consisting of a group of islands near the east coast of Asia",
+  "ex": "He's from Japan."
+ },
+ {
+  "w": "Mexico",
+  "ipa": "ˈmek.sɪ.kəʊ",
+  "pos": "noun",
+  "zh": "墨西哥",
+  "en": "a country in North America",
+  "ex": "They are from Mexico."
+ },
+ {
+  "w": "Russia",
+  "ipa": "ˈrʌ.ʃə",
+  "pos": "noun",
+  "zh": "俄罗斯（俄罗斯联邦）；（历史）俄国（俄罗斯帝国）；（历史）苏联（1922—1991）",
+  "en": "a ​country in ​eastern ​Europe and ​northern ​Asia",
+  "ex": "Moscow is a city in Russia."
+ },
+ {
+  "w": "South Africa",
+  "ipa": "ˌsaʊθ ˈæf.rɪ.kə",
+  "pos": "noun",
+  "zh": "南非：非洲南部的一个国家，位于林波波河、莫洛波河和橙河以南，毗邻大西洋和印度洋。",
+  "en": "a country in southern Africa",
+  "ex": "Cape Town is a city in South Africa."
+ },
+ {
+  "w": "Spain",
+  "ipa": "speɪn",
+  "pos": "noun",
+  "zh": "西班牙",
+  "en": "a country in western Europe",
+  "ex": "I'm from Spain."
+ },
+ {
+  "w": "Sudan",
+  "ipa": "su.ːˈdɑːn",
+  "pos": "noun",
+  "zh": "苏丹（非洲国家）",
+  "en": "a country in Africa",
+  "ex": "We're from Sudan."
+ },
+ {
+  "w": "the UK",
+  "ipa": "ðəˌjuːˈkeɪ",
+  "pos": "noun",
+  "zh": "（等于 the United Kingdom）英国",
+  "en": "abbreviation for 'the United Kingdom'",
+  "ex": "She's from the UK."
+ },
+ {
+  "w": "the US",
+  "ipa": "ðəˌjuːˈes",
+  "pos": "noun",
+  "zh": "美国（the United States of America）",
+  "en": "abbreviation for 'the United States of America'",
+  "ex": "He's a singer from the US."
+ },
+ {
+  "w": "Turkey",
+  "ipa": "ˈtɜː.ki",
+  "pos": "noun",
+  "zh": "n. 火鸡",
+  "en": "a ​country in ​southeastern ​Europe and ​western ​Asia",
+  "ex": "Cenc is from Turkey."
+ },
+ {
+  "w": "an expensive car",
+  "ipa": "ən ɪkˈspen.sɪv ˈkɑː",
+  "pos": "phrase",
+  "zh": "a car that costs a lot of money",
+  "en": "a car that costs a lot of money",
+  "ex": "That's an expensive car."
+ },
+ {
+  "w": "a big hotel",
+  "ipa": "ə ˌbɪɡ həʊˈtel",
+  "pos": "phrase",
+  "zh": "a large hotel",
+  "en": "a large hotel",
+  "ex": "They're in a big hotel in the city centre."
+ },
+ {
+  "w": "a fast train",
+  "ipa": "ə ˌfɑːst ˈtreɪn",
+  "pos": "phrase",
+  "zh": "a train that travels quickly",
+  "en": "a train that travels quickly",
+  "ex": "There is a fast train from Paris to Strasbourg"
+ },
+ {
+  "w": "a new football",
+  "ipa": "ə ˌnjuː ˈfʊt.bɔːl",
+  "pos": "phrase",
+  "zh": "a football that you have not owned or used before",
+  "en": "a football that you have not owned or used before",
+  "ex": "I want to buy a new football."
+ },
+ {
+  "w": "a slow train",
+  "ipa": "ə ˌsləʊ ˈtreɪn",
+  "pos": "phrase",
+  "zh": "a train that travels without much speed",
+  "en": "a train that travels without much speed",
+  "ex": "It's a slow train."
+ },
+ {
+  "w": "a small hotel",
+  "ipa": "ə ˌsmɔːl həʊˈtel",
+  "pos": "phrase",
+  "zh": "a little hotel",
+  "en": "a little hotel",
+  "ex": "We're in a small hotel."
+ },
+ {
+  "w": "a dirty T-shirt",
+  "ipa": "ə ˌdɜː.ti ˈtiː.ʃɜːt",
+  "pos": "phrase",
+  "zh": "a T-shirt that is not clean",
+  "en": "a T-shirt that is not clean",
+  "ex": "That's a dirty T-shirt!"
+ },
+ {
+  "w": "an old football",
+  "ipa": "ən ˌəʊld ˈfʊt.bɔːl",
+  "pos": "phrase",
+  "zh": "a football that has existed for a long time",
+  "en": "a football that has existed for a long time",
+  "ex": "This is an old football."
+ },
+ {
+  "w": "a cheap car",
+  "ipa": "ə ˌtʃiːp ˈkɑː",
+  "pos": "phrase",
+  "zh": "a car that does not cost a lot of money",
+  "en": "a car that does not cost a lot of money",
+  "ex": "Anna wants to buy a cheap car."
+ },
+ {
+  "w": "clean trousers",
+  "ipa": "ˌkliːn ˈtraʊ.zəz",
+  "pos": "phrase",
+  "zh": "trousers that are not dirty",
+  "en": "trousers that are not dirty",
+  "ex": "I need clean trousers to wear tomorrow."
+ }
+]

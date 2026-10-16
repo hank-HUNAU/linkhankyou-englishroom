@@ -1,0 +1,530 @@
+{
+ "p085": {
+  "title": "Kitchen Kids",
+  "src": "书内答案 T84（1T 2DS 3F 4F 5T 6DS 7T）",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "He is ten years old and he's from New York.",
+    "a": "T",
+    "src": "book T84"
+   },
+   {
+    "t": "tf",
+    "q": "His sister likes cooking, too, but she's not very good.",
+    "a": "DS",
+    "src": "book T84"
+   },
+   {
+    "t": "tf",
+    "q": "The other children on the TV show aren't very good cooks.",
+    "a": "F",
+    "src": "book T84"
+   },
+   {
+    "t": "tf",
+    "q": "It's OK for the children to eat the food they are cooking.",
+    "a": "DS",
+    "src": "book T84"
+   }
+  ]
+ },
+ "p092": {
+  "title": "She was the first woman in space",
+  "src": "书内答案 T92（排序 a5 b4 c6 d2 e1 f3；问答 She was the first woman in space.）",
+  "quiz": [
+   {
+    "t": "order",
+    "q": "把瓦莲京娜的大事按发生顺序排好（点卡片依次编号）",
+    "items": [
+     {
+      "k": "e",
+      "txt": "Valentina Tereshkova was born."
+     },
+     {
+      "k": "d",
+      "txt": "There was a competition to find new astronauts."
+     },
+     {
+      "k": "f",
+      "txt": "She was on a training programme."
+     },
+     {
+      "k": "b",
+      "txt": "Tereshkova was in space for three days."
+     },
+     {
+      "k": "a",
+      "txt": "She was named 'Woman of the Century'."
+     },
+     {
+      "k": "c",
+      "txt": "She was the carrier of the Olympic flag."
+     }
+    ],
+    "a": [
+     "e",
+     "d",
+     "f",
+     "b",
+     "a",
+     "c"
+    ],
+    "src": "book T92"
+   },
+   {
+    "t": "choice",
+    "q": "Why is Valentina Tereshkova famous?",
+    "opts": [
+     "She was the first woman in space.",
+     "She was a famous singer.",
+     "She was the youngest astronaut."
+    ],
+    "a": 0,
+    "src": "book T92"
+   }
+  ]
+ },
+ "p102": {
+  "title": "Dolphins to the rescue",
+  "src": "书内答案 T102（1 scared 2 under 3 father 4 New Zealand 5 shark 6 ten 7 90）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Davide was excited / scared in the water.",
+    "opts": [
+     "excited",
+     "scared"
+    ],
+    "a": 1,
+    "src": "book T102"
+   },
+   {
+    "t": "choice",
+    "q": "The dolphin found Davide on top of / under the water.",
+    "opts": [
+     "on top of",
+     "under"
+    ],
+    "a": 1,
+    "src": "book T102"
+   },
+   {
+    "t": "choice",
+    "q": "Davide's brother / father helped him onto the boat.",
+    "opts": [
+     "his brother",
+     "his father"
+    ],
+    "a": 1,
+    "src": "book T102"
+   },
+   {
+    "t": "choice",
+    "q": "Adam Walker was in the water in New Zealand / Australia.",
+    "opts": [
+     "New Zealand",
+     "Australia"
+    ],
+    "a": 0,
+    "src": "book T102"
+   },
+   {
+    "t": "choice",
+    "q": "Adam saw a whale / shark in the water.",
+    "opts": [
+     "a whale",
+     "a shark"
+    ],
+    "a": 1,
+    "src": "book T102"
+   },
+   {
+    "t": "choice",
+    "q": "The dolphins stayed with Adam for 60 / 90 minutes.",
+    "opts": [
+     "60 minutes",
+     "90 minutes"
+    ],
+    "a": 1,
+    "src": "book T102"
+   }
+  ]
+ },
+ "p075": {
+  "title": "#Music in the forest",
+  "src": "书内答案 T74（时间戳问答）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "What is Lucy eating at 19.17?",
+    "opts": [
+     "a hot dog",
+     "an ice cream",
+     "a burger"
+    ],
+    "a": 0,
+    "src": "book T74"
+   },
+   {
+    "t": "choice",
+    "q": "What time is Jess Glynne's concert?",
+    "opts": [
+     "19.17",
+     "19.57",
+     "21.45"
+    ],
+    "a": 1,
+    "src": "book T74"
+   },
+   {
+    "t": "choice",
+    "q": "What time does Lucy go to bed?",
+    "opts": [
+     "22.56",
+     "00.00 (midnight)",
+     "18.30"
+    ],
+    "a": 1,
+    "src": "book T74"
+   },
+   {
+    "t": "choice",
+    "q": "Where is Lucy at 18.05?",
+    "opts": [
+     "Delamere Forest",
+     "at home",
+     "on the stage"
+    ],
+    "a": 0,
+    "src": "book T74"
+   }
+  ]
+ },
+ "p067": {
+  "title": "Sport wonders!",
+  "src": "书内答案 T66（1 true 2 false 3 doesn't say 4 false 5 true 6 doesn't say 7 false）",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Nikolai can do this for more than a day.",
+    "a": "T",
+    "src": "book T66"
+   },
+   {
+    "t": "tf",
+    "q": "Sloan is 14 years old.",
+    "a": "F",
+    "src": "book T66"
+   },
+   {
+    "t": "tf",
+    "q": "Sloan goes very fast on the snowboard.",
+    "a": "DS",
+    "src": "book T66"
+   },
+   {
+    "t": "tf",
+    "q": "Maureen doesn't think she is different from other climbers.",
+    "a": "T",
+    "src": "book T66"
+   },
+   {
+    "t": "tf",
+    "q": "Goatee can swim very well.",
+    "a": "F",
+    "src": "book T66"
+   }
+  ]
+ },
+ "p070": {
+  "title": "An amazing last four minutes",
+  "src": "书内答案 T70（1 true 2 false 3 false 4 false）",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Jason helps the players in his school team.",
+    "a": "T",
+    "src": "book T70"
+   },
+   {
+    "t": "tf",
+    "q": "Jason practises basketball three times a week.",
+    "a": "F",
+    "src": "book T70"
+   },
+   {
+    "t": "tf",
+    "q": "Jason loves basketball but he never plays in the team.",
+    "a": "F",
+    "src": "book T70"
+   },
+   {
+    "t": "tf",
+    "q": "Jason plays in the first game of the season.",
+    "a": "F",
+    "src": "book T70"
+   }
+  ]
+ },
+ "p096": {
+  "title": "Sports achievers",
+  "src": "书内答案 T96（Ex3 4T 5T 6T；1-3 答案行待精读暂不入）",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Gertrude Ederle was the first woman to swim the English Channel.",
+    "a": "T",
+    "src": "book T96"
+   },
+   {
+    "t": "tf",
+    "q": "Now people know why some sports achievers do what they do.",
+    "a": "T",
+    "src": "book T96"
+   }
+  ]
+ },
+ "p106": {
+  "title": "Extinct animals",
+  "src": "书内答案 T106（Ex3：1/2 Tasmanian tiger 3/5 Steller's sea cow 4 great auk）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "This animal was the last to go.",
+    "opts": [
+     "the Tasmanian tiger",
+     "the great auk",
+     "Steller's sea cow"
+    ],
+    "a": 0,
+    "src": "book T106"
+   },
+   {
+    "t": "choice",
+    "q": "Farmers paid this animal to go.",
+    "opts": [
+     "the Tasmanian tiger",
+     "the great auk",
+     "Steller's sea cow"
+    ],
+    "a": 0,
+    "src": "book T106"
+   },
+   {
+    "t": "choice",
+    "q": "This animal lived in the sea, but couldn't go under the water.",
+    "opts": [
+     "the Tasmanian tiger",
+     "the great auk",
+     "Steller's sea cow"
+    ],
+    "a": 2,
+    "src": "book T106"
+   },
+   {
+    "t": "choice",
+    "q": "People liked this animal for its feathers.",
+    "opts": [
+     "the Tasmanian tiger",
+     "the great auk",
+     "Steller's sea cow"
+    ],
+    "a": 1,
+    "src": "book T106"
+   }
+  ]
+ },
+ "p111": {
+  "title": "The great race",
+  "src": "书内答案 T110（Ex5 match：1a 2f 3b 4e 5c）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Why did the class choose the bike?",
+    "opts": [
+     "Because the bike won.",
+     "Because it is fast.",
+     "Because it is new."
+    ],
+    "a": 0,
+    "src": "book T110"
+   },
+   {
+    "t": "choice",
+    "q": "Why did they choose the coach?",
+    "opts": [
+     "Because the bike won.",
+     "Because it is fast and cheap and healthy.",
+     "Because it is dangerous."
+    ],
+    "a": 1,
+    "src": "book T110"
+   },
+   {
+    "t": "choice",
+    "q": "Why did the presenters choose the bike for the city?",
+    "opts": [
+     "Because it is slow.",
+     "Because it is good for the city and it wins.",
+     "Because it is big."
+    ],
+    "a": 1,
+    "src": "book T110"
+   }
+  ]
+ },
+ "p078": {
+  "title": "A teenage DJ",
+  "src": "书内答案 T78（8.03 match 4,1,6,3,5,2）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Where is Danny from?",
+    "opts": [
+     "Luton",
+     "London",
+     "Liverpool"
+    ],
+    "a": 0,
+    "src": "book T78 (match Q1→r4)"
+   },
+   {
+    "t": "choice",
+    "q": "What does Danny like doing in his free time?",
+    "opts": [
+     "listening to music and playing games on his VR headset",
+     "playing football and swimming",
+     "dancing at parties"
+    ],
+    "a": 0,
+    "src": "book T78 (match Q3→r6)"
+   },
+   {
+    "t": "choice",
+    "q": "What is Danny wearing when he's DJing?",
+    "opts": [
+     "a suit",
+     "jeans and a white T-shirt (and a red cap)",
+     "a school uniform"
+    ],
+    "a": 1,
+    "src": "book T78 (match Q5→r1)"
+   }
+  ]
+ },
+ "p088": {
+  "title": "In a restaurant",
+  "src": "书内答案 T88（Ex2 Emma/Oscar 点餐；Ex3 1C 2S 3S 4C 5S 6C 7S，C=customer S=server）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "What does Emma have to eat?",
+    "opts": [
+     "pizza and salad, fruit salad with vanilla ice cream",
+     "chicken and chips",
+     "cheese and tomato sandwich"
+    ],
+    "a": 0,
+    "src": "book T88"
+   },
+   {
+    "t": "choice",
+    "q": "What does Oscar have to eat?",
+    "opts": [
+     "chicken and chips, fruit salad",
+     "pizza and salad",
+     "steak and chips"
+    ],
+    "a": 0,
+    "src": "book T88"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'A table for two, please.'?",
+    "opts": [
+     "the customer",
+     "the server"
+    ],
+    "a": 0,
+    "src": "book T88 (1C)"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'Are you ready to order?'",
+    "opts": [
+     "the customer",
+     "the server"
+    ],
+    "a": 1,
+    "src": "book T88 (3S)"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'Can we have the bill, please?'",
+    "opts": [
+     "the customer",
+     "the server"
+    ],
+    "a": 0,
+    "src": "book T88 (6C)"
+   }
+  ]
+ },
+ "p114": {
+  "title": "My favourite journey",
+  "src": "书内答案 T114（Ex3 改错：1 ten minutes 2 lakes, mountains and beaches 3 across the fields and along the river 4 the walk home 5 ten minutes to ride down）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Adam's boat journey takes ten hours / ten minutes.",
+    "opts": [
+     "ten hours",
+     "ten minutes"
+    ],
+    "a": 1,
+    "src": "book T114"
+   },
+   {
+    "t": "choice",
+    "q": "Rose can see forests and mountains / lakes, mountains and beaches from the window.",
+    "opts": [
+     "forests and mountains",
+     "lakes, mountains and beaches"
+    ],
+    "a": 1,
+    "src": "book T114"
+   },
+   {
+    "t": "choice",
+    "q": "Rebecca walks by the sea / across the fields and along the river to school.",
+    "opts": [
+     "by the sea",
+     "across the fields and along the river"
+    ],
+    "a": 1,
+    "src": "book T114"
+   },
+   {
+    "t": "choice",
+    "q": "She likes the walk to school / the walk home more.",
+    "opts": [
+     "the walk to school",
+     "the walk home"
+    ],
+    "a": 1,
+    "src": "book T114"
+   },
+   {
+    "t": "choice",
+    "q": "It takes Max fifteen / ten minutes to ride down to the town.",
+    "opts": [
+     "fifteen minutes",
+     "ten minutes"
+    ],
+    "a": 1,
+    "src": "book T114"
+   }
+  ]
+ }
+}

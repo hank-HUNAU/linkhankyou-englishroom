@@ -1,0 +1,4174 @@
+{
+ "(three) o'clock.": {
+  "f": "threeoclock.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a": {
+  "f": "a.mp3",
+  "src": "youdao-uk"
+ },
+ "a big hotel": {
+  "f": "abighotel.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a cheap car": {
+  "f": "acheapcar.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a dirty t-shirt": {
+  "f": "adirtytshirt.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a fast train": {
+  "f": "afasttrain.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a new football": {
+  "f": "anewfootball.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a slow train": {
+  "f": "aslowtrain.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "a small hotel": {
+  "f": "asmallhotel.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "about": {
+  "f": "about.mp3",
+  "src": "youdao-uk"
+ },
+ "above": {
+  "f": "above.mp3",
+  "src": "youdao-uk"
+ },
+ "accident": {
+  "f": "accident.mp3",
+  "src": "youdao-uk"
+ },
+ "achievement": {
+  "f": "achievement.mp3",
+  "src": "youdao-uk"
+ },
+ "across": {
+  "f": "across.mp3",
+  "src": "youdao-uk"
+ },
+ "afraid": {
+  "f": "afraid.mp3",
+  "src": "youdao-uk"
+ },
+ "after": {
+  "f": "after.mp3",
+  "src": "youdao-uk"
+ },
+ "afternoon": {
+  "f": "afternoon.mp3",
+  "src": "youdao-uk"
+ },
+ "again": {
+  "f": "again.mp3",
+  "src": "youdao-uk"
+ },
+ "against": {
+  "f": "against.mp3",
+  "src": "youdao-uk"
+ },
+ "age": {
+  "f": "age.mp3",
+  "src": "youdao-uk"
+ },
+ "ago": {
+  "f": "ago.mp3",
+  "src": "youdao-uk"
+ },
+ "air": {
+  "f": "air.mp3",
+  "src": "youdao-uk"
+ },
+ "airplane": {
+  "f": "airplane.mp3",
+  "src": "youdao-uk"
+ },
+ "airport": {
+  "f": "airport.mp3",
+  "src": "youdao-uk"
+ },
+ "alice": {
+  "f": "alice.mp3",
+  "src": "youdao-uk"
+ },
+ "all": {
+  "f": "all.mp3",
+  "src": "youdao-uk"
+ },
+ "almost": {
+  "f": "almost.mp3",
+  "src": "youdao-uk"
+ },
+ "alone": {
+  "f": "alone.mp3",
+  "src": "youdao-uk"
+ },
+ "along": {
+  "f": "along.mp3",
+  "src": "youdao-uk"
+ },
+ "alright": {
+  "f": "alright.mp3",
+  "src": "youdao-uk"
+ },
+ "also": {
+  "f": "also.mp3",
+  "src": "youdao-uk"
+ },
+ "altogether": {
+  "f": "altogether.mp3",
+  "src": "youdao-uk"
+ },
+ "always": {
+  "f": "always.mp3",
+  "src": "youdao-uk"
+ },
+ "amazing": {
+  "f": "amazing.mp3",
+  "src": "youdao-uk"
+ },
+ "an": {
+  "f": "an.mp3",
+  "src": "youdao-uk"
+ },
+ "an expensive car": {
+  "f": "anexpensivecar.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "an old football": {
+  "f": "anoldfootball.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "and": {
+  "f": "and.mp3",
+  "src": "youdao-uk"
+ },
+ "angry": {
+  "f": "angry.mp3",
+  "src": "youdao-uk"
+ },
+ "animal": {
+  "f": "animal.mp3",
+  "src": "youdao-uk"
+ },
+ "another": {
+  "f": "another.mp3",
+  "src": "youdao-uk"
+ },
+ "answer": {
+  "f": "answer.mp3",
+  "src": "youdao-uk"
+ },
+ "any": {
+  "f": "any.mp3",
+  "src": "youdao-uk"
+ },
+ "anything": {
+  "f": "anything.mp3",
+  "src": "youdao-uk"
+ },
+ "anyway": {
+  "f": "anyway.mp3",
+  "src": "youdao-uk"
+ },
+ "app": {
+  "f": "app.mp3",
+  "src": "youdao-uk"
+ },
+ "apple": {
+  "f": "apple.mp3",
+  "src": "youdao-uk"
+ },
+ "april": {
+  "f": "april.mp3",
+  "src": "youdao-uk"
+ },
+ "arctic": {
+  "f": "arctic.mp3",
+  "src": "youdao-uk"
+ },
+ "arm": {
+  "f": "arm.mp3",
+  "src": "youdao-uk"
+ },
+ "armchair": {
+  "f": "armchair.mp3",
+  "src": "youdao-uk"
+ },
+ "around": {
+  "f": "around.mp3",
+  "src": "youdao-uk"
+ },
+ "arrive": {
+  "f": "arrive.mp3",
+  "src": "youdao-uk"
+ },
+ "arrived": {
+  "f": "arrived.mp3",
+  "src": "youdao-uk"
+ },
+ "as": {
+  "f": "as.mp3",
+  "src": "youdao-uk"
+ },
+ "ask": {
+  "f": "ask.mp3",
+  "src": "youdao-uk"
+ },
+ "assistant": {
+  "f": "assistant.mp3",
+  "src": "youdao-uk"
+ },
+ "astronaut": {
+  "f": "astronaut.mp3",
+  "src": "youdao-uk"
+ },
+ "at": {
+  "f": "at.mp3",
+  "src": "youdao-uk"
+ },
+ "at home": {
+  "f": "athome.mp3",
+  "src": "youdao-uk"
+ },
+ "at school": {
+  "f": "atschool.mp3",
+  "src": "youdao-uk"
+ },
+ "at the cinema": {
+  "f": "atthecinema.mp3",
+  "src": "youdao-uk"
+ },
+ "at the computer shop": {
+  "f": "atthecomputershop.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "at the stadium": {
+  "f": "atthestadium.mp3",
+  "src": "youdao-uk"
+ },
+ "at the station": {
+  "f": "atthestation.mp3",
+  "src": "youdao-uk"
+ },
+ "ate": {
+  "f": "ate.mp3",
+  "src": "youdao-uk"
+ },
+ "athlete": {
+  "f": "athlete.mp3",
+  "src": "youdao-uk"
+ },
+ "august": {
+  "f": "august.mp3",
+  "src": "youdao-uk"
+ },
+ "aunt": {
+  "f": "aunt.mp3",
+  "src": "youdao-uk"
+ },
+ "author": {
+  "f": "author.mp3",
+  "src": "youdao-uk"
+ },
+ "autumn": {
+  "f": "autumn.mp3",
+  "src": "youdao-uk"
+ },
+ "away": {
+  "f": "away.mp3",
+  "src": "youdao-uk"
+ },
+ "awful": {
+  "f": "awful.mp3",
+  "src": "youdao-uk"
+ },
+ "back": {
+  "f": "back.mp3",
+  "src": "youdao-uk"
+ },
+ "bad": {
+  "f": "bad.mp3",
+  "src": "youdao-uk"
+ },
+ "ball": {
+  "f": "ball.mp3",
+  "src": "youdao-uk"
+ },
+ "banana": {
+  "f": "banana.mp3",
+  "src": "youdao-uk"
+ },
+ "band": {
+  "f": "band.mp3",
+  "src": "youdao-uk"
+ },
+ "bank": {
+  "f": "bank.mp3",
+  "src": "youdao-uk"
+ },
+ "baseball": {
+  "f": "baseball.mp3",
+  "src": "youdao-uk"
+ },
+ "basket": {
+  "f": "basket.mp3",
+  "src": "youdao-uk"
+ },
+ "basketball": {
+  "f": "basketball.mp3",
+  "src": "youdao-uk"
+ },
+ "bath": {
+  "f": "bath.mp3",
+  "src": "youdao-uk"
+ },
+ "bathroom": {
+  "f": "bathroom.mp3",
+  "src": "youdao-uk"
+ },
+ "be": {
+  "f": "be.mp3",
+  "src": "youdao-uk"
+ },
+ "beach": {
+  "f": "beach.mp3",
+  "src": "youdao-uk"
+ },
+ "bear": {
+  "f": "bear.mp3",
+  "src": "youdao-uk"
+ },
+ "beard": {
+  "f": "beard.mp3",
+  "src": "youdao-uk"
+ },
+ "beautiful": {
+  "f": "beautiful.mp3",
+  "src": "youdao-uk"
+ },
+ "because": {
+  "f": "because.mp3",
+  "src": "youdao-uk"
+ },
+ "become": {
+  "f": "become.mp3",
+  "src": "youdao-uk"
+ },
+ "bed": {
+  "f": "bed.mp3",
+  "src": "youdao-uk"
+ },
+ "bedroom": {
+  "f": "bedroom.mp3",
+  "src": "youdao-uk"
+ },
+ "beef": {
+  "f": "beef.mp3",
+  "src": "youdao-uk"
+ },
+ "before": {
+  "f": "before.mp3",
+  "src": "youdao-uk"
+ },
+ "behind": {
+  "f": "behind.mp3",
+  "src": "youdao-uk"
+ },
+ "believe": {
+  "f": "believe.mp3",
+  "src": "youdao-uk"
+ },
+ "believed": {
+  "f": "believed.mp3",
+  "src": "youdao-uk"
+ },
+ "below": {
+  "f": "below.mp3",
+  "src": "youdao-uk"
+ },
+ "between": {
+  "f": "between.mp3",
+  "src": "youdao-uk"
+ },
+ "big": {
+  "f": "big.mp3",
+  "src": "youdao-uk"
+ },
+ "bike": {
+  "f": "bike.mp3",
+  "src": "youdao-uk"
+ },
+ "bill": {
+  "f": "bill.mp3",
+  "src": "youdao-uk"
+ },
+ "bird": {
+  "f": "bird.mp3",
+  "src": "youdao-uk"
+ },
+ "bit": {
+  "f": "bit.mp3",
+  "src": "youdao-uk"
+ },
+ "black": {
+  "f": "black.mp3",
+  "src": "youdao-uk"
+ },
+ "block": {
+  "f": "block.mp3",
+  "src": "youdao-uk"
+ },
+ "blonde": {
+  "f": "blonde.mp3",
+  "src": "youdao-uk"
+ },
+ "blue": {
+  "f": "blue.mp3",
+  "src": "youdao-uk"
+ },
+ "board": {
+  "f": "board.mp3",
+  "src": "youdao-uk"
+ },
+ "boat": {
+  "f": "boat.mp3",
+  "src": "youdao-uk"
+ },
+ "body": {
+  "f": "body.mp3",
+  "src": "youdao-uk"
+ },
+ "book": {
+  "f": "book.mp3",
+  "src": "youdao-uk"
+ },
+ "bored": {
+  "f": "bored.mp3",
+  "src": "youdao-uk"
+ },
+ "boring": {
+  "f": "boring.mp3",
+  "src": "youdao-uk"
+ },
+ "born": {
+  "f": "born.mp3",
+  "src": "youdao-uk"
+ },
+ "bowl": {
+  "f": "bowl.mp3",
+  "src": "youdao-uk"
+ },
+ "boy": {
+  "f": "boy.mp3",
+  "src": "youdao-uk"
+ },
+ "brazil": {
+  "f": "brazil.mp3",
+  "src": "youdao-uk"
+ },
+ "bread": {
+  "f": "bread.mp3",
+  "src": "youdao-uk"
+ },
+ "break": {
+  "f": "break.mp3",
+  "src": "youdao-uk"
+ },
+ "bridge": {
+  "f": "bridge.mp3",
+  "src": "youdao-uk"
+ },
+ "bring": {
+  "f": "bring.mp3",
+  "src": "youdao-uk"
+ },
+ "brother": {
+  "f": "brother.mp3",
+  "src": "youdao-uk"
+ },
+ "brown": {
+  "f": "brown.mp3",
+  "src": "youdao-uk"
+ },
+ "build": {
+  "f": "build.mp3",
+  "src": "youdao-uk"
+ },
+ "build robots": {
+  "f": "buildrobots.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "burger": {
+  "f": "burger.mp3",
+  "src": "youdao-uk"
+ },
+ "bus": {
+  "f": "bus.mp3",
+  "src": "youdao-uk"
+ },
+ "busy": {
+  "f": "busy.mp3",
+  "src": "youdao-uk"
+ },
+ "but": {
+  "f": "but.mp3",
+  "src": "youdao-uk"
+ },
+ "butter": {
+  "f": "butter.mp3",
+  "src": "youdao-uk"
+ },
+ "buy": {
+  "f": "buy.mp3",
+  "src": "youdao-uk"
+ },
+ "by": {
+  "f": "by.mp3",
+  "src": "youdao-uk"
+ },
+ "cable": {
+  "f": "cable.mp3",
+  "src": "youdao-uk"
+ },
+ "cable car": {
+  "f": "cablecar.mp3",
+  "src": "youdao-uk"
+ },
+ "cake": {
+  "f": "cake.mp3",
+  "src": "youdao-uk"
+ },
+ "call": {
+  "f": "call.mp3",
+  "src": "youdao-uk"
+ },
+ "called": {
+  "f": "called.mp3",
+  "src": "youdao-uk"
+ },
+ "camp": {
+  "f": "camp.mp3",
+  "src": "youdao-uk"
+ },
+ "can": {
+  "f": "can.mp3",
+  "src": "youdao-uk"
+ },
+ "cap": {
+  "f": "cap.mp3",
+  "src": "youdao-uk"
+ },
+ "capital": {
+  "f": "capital.mp3",
+  "src": "youdao-uk"
+ },
+ "car": {
+  "f": "car.mp3",
+  "src": "youdao-uk"
+ },
+ "care": {
+  "f": "care.mp3",
+  "src": "youdao-uk"
+ },
+ "careful": {
+  "f": "careful.mp3",
+  "src": "youdao-uk"
+ },
+ "carrier": {
+  "f": "carrier.mp3",
+  "src": "youdao-uk"
+ },
+ "carrot": {
+  "f": "carrot.mp3",
+  "src": "youdao-uk"
+ },
+ "carrot cake": {
+  "f": "carrotcake.mp3",
+  "src": "youdao-uk"
+ },
+ "carry": {
+  "f": "carry.mp3",
+  "src": "youdao-uk"
+ },
+ "cat": {
+  "f": "cat.mp3",
+  "src": "youdao-uk"
+ },
+ "catch": {
+  "f": "catch.mp3",
+  "src": "youdao-uk"
+ },
+ "caught": {
+  "f": "caught.mp3",
+  "src": "youdao-uk"
+ },
+ "celebrate": {
+  "f": "celebrate.mp3",
+  "src": "youdao-uk"
+ },
+ "celebration": {
+  "f": "celebration.mp3",
+  "src": "youdao-uk"
+ },
+ "central": {
+  "f": "central.mp3",
+  "src": "youdao-uk"
+ },
+ "centre": {
+  "f": "centre.mp3",
+  "src": "youdao-uk"
+ },
+ "century": {
+  "f": "century.mp3",
+  "src": "youdao-uk"
+ },
+ "cereal": {
+  "f": "cereal.mp3",
+  "src": "youdao-uk"
+ },
+ "ceremony": {
+  "f": "ceremony.mp3",
+  "src": "youdao-uk"
+ },
+ "certainly": {
+  "f": "certainly.mp3",
+  "src": "youdao-uk"
+ },
+ "championship": {
+  "f": "championship.mp3",
+  "src": "youdao-uk"
+ },
+ "chance": {
+  "f": "chance.mp3",
+  "src": "youdao-uk"
+ },
+ "changed": {
+  "f": "changed.mp3",
+  "src": "youdao-uk"
+ },
+ "channel": {
+  "f": "channel.mp3",
+  "src": "youdao-uk"
+ },
+ "charity": {
+  "f": "charity.mp3",
+  "src": "youdao-uk"
+ },
+ "chat to friends online": {
+  "f": "chattofriendsonline.mp3",
+  "src": "youdao-uk"
+ },
+ "cheap": {
+  "f": "cheap.mp3",
+  "src": "youdao-uk"
+ },
+ "cheer": {
+  "f": "cheer.mp3",
+  "src": "youdao-uk"
+ },
+ "cheese": {
+  "f": "cheese.mp3",
+  "src": "youdao-uk"
+ },
+ "chef": {
+  "f": "chef.mp3",
+  "src": "youdao-uk"
+ },
+ "chemist": {
+  "f": "chemist.mp3",
+  "src": "youdao-uk"
+ },
+ "chicken": {
+  "f": "chicken.mp3",
+  "src": "youdao-uk"
+ },
+ "children": {
+  "f": "children.mp3",
+  "src": "youdao-uk"
+ },
+ "chips": {
+  "f": "chips.mp3",
+  "src": "youdao-uk"
+ },
+ "chocolate": {
+  "f": "chocolate.mp3",
+  "src": "youdao-uk"
+ },
+ "choose": {
+  "f": "choose.mp3",
+  "src": "youdao-uk"
+ },
+ "chose": {
+  "f": "chose.mp3",
+  "src": "youdao-uk"
+ },
+ "circle": {
+  "f": "circle.mp3",
+  "src": "youdao-uk"
+ },
+ "city": {
+  "f": "city.mp3",
+  "src": "youdao-uk"
+ },
+ "class": {
+  "f": "class.mp3",
+  "src": "youdao-uk"
+ },
+ "classmate": {
+  "f": "classmate.mp3",
+  "src": "youdao-uk"
+ },
+ "clean": {
+  "f": "clean.mp3",
+  "src": "youdao-uk"
+ },
+ "clean trousers": {
+  "f": "cleantrousers.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "clever": {
+  "f": "clever.mp3",
+  "src": "youdao-uk"
+ },
+ "climb": {
+  "f": "climb.mp3",
+  "src": "youdao-uk"
+ },
+ "clothes": {
+  "f": "clothes.mp3",
+  "src": "youdao-uk"
+ },
+ "club": {
+  "f": "club.mp3",
+  "src": "youdao-uk"
+ },
+ "coach": {
+  "f": "coach.mp3",
+  "src": "youdao-uk"
+ },
+ "coast": {
+  "f": "coast.mp3",
+  "src": "youdao-uk"
+ },
+ "coat": {
+  "f": "coat.mp3",
+  "src": "youdao-uk"
+ },
+ "coffee": {
+  "f": "coffee.mp3",
+  "src": "youdao-uk"
+ },
+ "cold": {
+  "f": "cold.mp3",
+  "src": "youdao-uk"
+ },
+ "colour": {
+  "f": "colour.mp3",
+  "src": "youdao-uk"
+ },
+ "colourful": {
+  "f": "colourful.mp3",
+  "src": "youdao-uk"
+ },
+ "come": {
+  "f": "come.mp3",
+  "src": "youdao-uk"
+ },
+ "comfortable": {
+  "f": "comfortable.mp3",
+  "src": "youdao-uk"
+ },
+ "coming": {
+  "f": "coming.mp3",
+  "src": "youdao-uk"
+ },
+ "competition": {
+  "f": "competition.mp3",
+  "src": "youdao-uk"
+ },
+ "completely": {
+  "f": "completely.mp3",
+  "src": "youdao-uk"
+ },
+ "computer": {
+  "f": "computer.mp3",
+  "src": "youdao-uk"
+ },
+ "concert": {
+  "f": "concert.mp3",
+  "src": "youdao-uk"
+ },
+ "connection": {
+  "f": "connection.mp3",
+  "src": "youdao-uk"
+ },
+ "cook": {
+  "f": "cook.mp3",
+  "src": "youdao-uk"
+ },
+ "cooker": {
+  "f": "cooker.mp3",
+  "src": "youdao-uk"
+ },
+ "cool": {
+  "f": "cool.mp3",
+  "src": "youdao-uk"
+ },
+ "cost": {
+  "f": "cost.mp3",
+  "src": "youdao-uk"
+ },
+ "costume": {
+  "f": "costume.mp3",
+  "src": "youdao-uk"
+ },
+ "could": {
+  "f": "could.mp3",
+  "src": "youdao-uk"
+ },
+ "country": {
+  "f": "country.mp3",
+  "src": "youdao-uk"
+ },
+ "course": {
+  "f": "course.mp3",
+  "src": "youdao-uk"
+ },
+ "court": {
+  "f": "court.mp3",
+  "src": "youdao-uk"
+ },
+ "cousin": {
+  "f": "cousin.mp3",
+  "src": "youdao-uk"
+ },
+ "cover": {
+  "f": "cover.mp3",
+  "src": "youdao-uk"
+ },
+ "cow": {
+  "f": "cow.mp3",
+  "src": "youdao-uk"
+ },
+ "crazy": {
+  "f": "crazy.mp3",
+  "src": "youdao-uk"
+ },
+ "cream": {
+  "f": "cream.mp3",
+  "src": "youdao-uk"
+ },
+ "crocodile": {
+  "f": "crocodile.mp3",
+  "src": "youdao-uk"
+ },
+ "crowd": {
+  "f": "crowd.mp3",
+  "src": "youdao-uk"
+ },
+ "cucumber": {
+  "f": "cucumber.mp3",
+  "src": "youdao-uk"
+ },
+ "curly": {
+  "f": "curly.mp3",
+  "src": "youdao-uk"
+ },
+ "cycle": {
+  "f": "cycle.mp3",
+  "src": "youdao-uk"
+ },
+ "cycling": {
+  "f": "cycling.mp3",
+  "src": "youdao-uk"
+ },
+ "dad": {
+  "f": "dad.mp3",
+  "src": "youdao-uk"
+ },
+ "dance": {
+  "f": "dance.mp3",
+  "src": "youdao-uk"
+ },
+ "dancer": {
+  "f": "dancer.mp3",
+  "src": "youdao-uk"
+ },
+ "dancing": {
+  "f": "dancing.mp3",
+  "src": "youdao-uk"
+ },
+ "danger": {
+  "f": "danger.mp3",
+  "src": "youdao-uk"
+ },
+ "dangerous": {
+  "f": "dangerous.mp3",
+  "src": "youdao-uk"
+ },
+ "dark": {
+  "f": "dark.mp3",
+  "src": "youdao-uk"
+ },
+ "daughter": {
+  "f": "daughter.mp3",
+  "src": "youdao-uk"
+ },
+ "day": {
+  "f": "day.mp3",
+  "src": "youdao-uk"
+ },
+ "deal": {
+  "f": "deal.mp3",
+  "src": "youdao-uk"
+ },
+ "death": {
+  "f": "death.mp3",
+  "src": "youdao-uk"
+ },
+ "december": {
+  "f": "december.mp3",
+  "src": "youdao-uk"
+ },
+ "decided": {
+  "f": "decided.mp3",
+  "src": "youdao-uk"
+ },
+ "degree": {
+  "f": "degree.mp3",
+  "src": "youdao-uk"
+ },
+ "dessert": {
+  "f": "dessert.mp3",
+  "src": "youdao-uk"
+ },
+ "died": {
+  "f": "died.mp3",
+  "src": "youdao-uk"
+ },
+ "different": {
+  "f": "different.mp3",
+  "src": "youdao-uk"
+ },
+ "difficult": {
+  "f": "difficult.mp3",
+  "src": "youdao-uk"
+ },
+ "dig": {
+  "f": "dig.mp3",
+  "src": "youdao-uk"
+ },
+ "dirty": {
+  "f": "dirty.mp3",
+  "src": "youdao-uk"
+ },
+ "disabled": {
+  "f": "disabled.mp3",
+  "src": "youdao-uk"
+ },
+ "disease": {
+  "f": "disease.mp3",
+  "src": "youdao-uk"
+ },
+ "dive": {
+  "f": "dive.mp3",
+  "src": "youdao-uk"
+ },
+ "do": {
+  "f": "do.mp3",
+  "src": "youdao-uk"
+ },
+ "do homework": {
+  "f": "dohomework.mp3",
+  "src": "youdao-uk"
+ },
+ "do something": {
+  "f": "dosomething.mp3",
+  "src": "youdao-uk"
+ },
+ "do taekwondo": {
+  "f": "dotaekwondo.mp3",
+  "src": "youdao-uk"
+ },
+ "dog": {
+  "f": "dog.mp3",
+  "src": "youdao-uk"
+ },
+ "dolphin": {
+  "f": "dolphin.mp3",
+  "src": "youdao-uk"
+ },
+ "down": {
+  "f": "down.mp3",
+  "src": "youdao-uk"
+ },
+ "dream": {
+  "f": "dream.mp3",
+  "src": "youdao-uk"
+ },
+ "dress": {
+  "f": "dress.mp3",
+  "src": "youdao-uk"
+ },
+ "drink": {
+  "f": "drink.mp3",
+  "src": "youdao-uk"
+ },
+ "drive": {
+  "f": "drive.mp3",
+  "src": "youdao-uk"
+ },
+ "driver": {
+  "f": "driver.mp3",
+  "src": "youdao-uk"
+ },
+ "drum": {
+  "f": "drum.mp3",
+  "src": "youdao-uk"
+ },
+ "e-reader": {
+  "f": "ereader.mp3",
+  "src": "youdao-uk"
+ },
+ "each": {
+  "f": "each.mp3",
+  "src": "youdao-uk"
+ },
+ "ear": {
+  "f": "ear.mp3",
+  "src": "youdao-uk"
+ },
+ "earring": {
+  "f": "earring.mp3",
+  "src": "youdao-uk"
+ },
+ "easier": {
+  "f": "easier.mp3",
+  "src": "youdao-uk"
+ },
+ "east": {
+  "f": "east.mp3",
+  "src": "youdao-uk"
+ },
+ "easy": {
+  "f": "easy.mp3",
+  "src": "youdao-uk"
+ },
+ "eat": {
+  "f": "eat.mp3",
+  "src": "youdao-uk"
+ },
+ "ecuador": {
+  "f": "ecuador.mp3",
+  "src": "youdao-uk"
+ },
+ "egg": {
+  "f": "egg.mp3",
+  "src": "youdao-uk"
+ },
+ "eighth": {
+  "f": "eighth.mp3",
+  "src": "youdao-uk"
+ },
+ "either": {
+  "f": "either.mp3",
+  "src": "youdao-uk"
+ },
+ "electric": {
+  "f": "electric.mp3",
+  "src": "youdao-uk"
+ },
+ "elephant": {
+  "f": "elephant.mp3",
+  "src": "youdao-uk"
+ },
+ "eleventh": {
+  "f": "eleventh.mp3",
+  "src": "youdao-uk"
+ },
+ "else": {
+  "f": "else.mp3",
+  "src": "youdao-uk"
+ },
+ "empty": {
+  "f": "empty.mp3",
+  "src": "youdao-uk"
+ },
+ "end": {
+  "f": "end.mp3",
+  "src": "youdao-uk"
+ },
+ "engine": {
+  "f": "engine.mp3",
+  "src": "youdao-uk"
+ },
+ "english": {
+  "f": "english.mp3",
+  "src": "youdao-uk"
+ },
+ "enjoy": {
+  "f": "enjoy.mp3",
+  "src": "youdao-uk"
+ },
+ "environment": {
+  "f": "environment.mp3",
+  "src": "youdao-uk"
+ },
+ "escalator": {
+  "f": "escalator.mp3",
+  "src": "youdao-uk"
+ },
+ "especially": {
+  "f": "especially.mp3",
+  "src": "youdao-uk"
+ },
+ "ever": {
+  "f": "ever.mp3",
+  "src": "youdao-uk"
+ },
+ "every": {
+  "f": "every.mp3",
+  "src": "youdao-uk"
+ },
+ "everybody": {
+  "f": "everybody.mp3",
+  "src": "youdao-uk"
+ },
+ "everyone": {
+  "f": "everyone.mp3",
+  "src": "youdao-uk"
+ },
+ "everything": {
+  "f": "everything.mp3",
+  "src": "youdao-uk"
+ },
+ "exactly": {
+  "f": "exactly.mp3",
+  "src": "youdao-uk"
+ },
+ "example": {
+  "f": "example.mp3",
+  "src": "youdao-uk"
+ },
+ "excellent": {
+  "f": "excellent.mp3",
+  "src": "youdao-uk"
+ },
+ "excited": {
+  "f": "excited.mp3",
+  "src": "youdao-uk"
+ },
+ "exciting": {
+  "f": "exciting.mp3",
+  "src": "youdao-uk"
+ },
+ "expensive": {
+  "f": "expensive.mp3",
+  "src": "youdao-uk"
+ },
+ "expert": {
+  "f": "expert.mp3",
+  "src": "youdao-uk"
+ },
+ "extinct": {
+  "f": "extinct.mp3",
+  "src": "youdao-uk"
+ },
+ "extra": {
+  "f": "extra.mp3",
+  "src": "youdao-uk"
+ },
+ "eye": {
+  "f": "eye.mp3",
+  "src": "youdao-uk"
+ },
+ "face": {
+  "f": "face.mp3",
+  "src": "youdao-uk"
+ },
+ "factory": {
+  "f": "factory.mp3",
+  "src": "youdao-uk"
+ },
+ "fail": {
+  "f": "fail.mp3",
+  "src": "youdao-uk"
+ },
+ "fall": {
+  "f": "fall.mp3",
+  "src": "youdao-uk"
+ },
+ "family": {
+  "f": "family.mp3",
+  "src": "youdao-uk"
+ },
+ "famous": {
+  "f": "famous.mp3",
+  "src": "youdao-uk"
+ },
+ "fan": {
+  "f": "fan.mp3",
+  "src": "youdao-uk"
+ },
+ "fantastic": {
+  "f": "fantastic.mp3",
+  "src": "youdao-uk"
+ },
+ "farm": {
+  "f": "farm.mp3",
+  "src": "youdao-uk"
+ },
+ "farmer": {
+  "f": "farmer.mp3",
+  "src": "youdao-uk"
+ },
+ "fast": {
+  "f": "fast.mp3",
+  "src": "youdao-uk"
+ },
+ "father": {
+  "f": "father.mp3",
+  "src": "youdao-uk"
+ },
+ "favourite": {
+  "f": "favourite.mp3",
+  "src": "youdao-uk"
+ },
+ "february": {
+  "f": "february.mp3",
+  "src": "youdao-uk"
+ },
+ "feed": {
+  "f": "feed.mp3",
+  "src": "youdao-uk"
+ },
+ "feel": {
+  "f": "feel.mp3",
+  "src": "youdao-uk"
+ },
+ "feet": {
+  "f": "feet.mp3",
+  "src": "youdao-uk"
+ },
+ "fell": {
+  "f": "fell.mp3",
+  "src": "youdao-uk"
+ },
+ "ferry": {
+  "f": "ferry.mp3",
+  "src": "youdao-uk"
+ },
+ "festival": {
+  "f": "festival.mp3",
+  "src": "youdao-uk"
+ },
+ "few": {
+  "f": "few.mp3",
+  "src": "youdao-uk"
+ },
+ "fiddle": {
+  "f": "fiddle.mp3",
+  "src": "youdao-uk"
+ },
+ "field": {
+  "f": "field.mp3",
+  "src": "youdao-uk"
+ },
+ "fifth": {
+  "f": "fifth.mp3",
+  "src": "youdao-uk"
+ },
+ "figure": {
+  "f": "figure.mp3",
+  "src": "youdao-uk"
+ },
+ "film": {
+  "f": "film.mp3",
+  "src": "youdao-uk"
+ },
+ "find": {
+  "f": "find.mp3",
+  "src": "youdao-uk"
+ },
+ "finish": {
+  "f": "finish.mp3",
+  "src": "youdao-uk"
+ },
+ "first": {
+  "f": "first.mp3",
+  "src": "youdao-uk"
+ },
+ "fish": {
+  "f": "fish.mp3",
+  "src": "youdao-uk"
+ },
+ "flag": {
+  "f": "flag.mp3",
+  "src": "youdao-uk"
+ },
+ "flight": {
+  "f": "flight.mp3",
+  "src": "youdao-uk"
+ },
+ "floor": {
+  "f": "floor.mp3",
+  "src": "youdao-uk"
+ },
+ "fly": {
+  "f": "fly.mp3",
+  "src": "youdao-uk"
+ },
+ "folk": {
+  "f": "folk.mp3",
+  "src": "youdao-uk"
+ },
+ "food": {
+  "f": "food.mp3",
+  "src": "youdao-uk"
+ },
+ "foot": {
+  "f": "foot.mp3",
+  "src": "youdao-uk"
+ },
+ "football": {
+  "f": "football.mp3",
+  "src": "youdao-uk"
+ },
+ "footballer": {
+  "f": "footballer.mp3",
+  "src": "youdao-uk"
+ },
+ "for": {
+  "f": "for.mp3",
+  "src": "youdao-uk"
+ },
+ "forest": {
+  "f": "forest.mp3",
+  "src": "youdao-uk"
+ },
+ "form": {
+  "f": "form.mp3",
+  "src": "youdao-uk"
+ },
+ "fountain": {
+  "f": "fountain.mp3",
+  "src": "youdao-uk"
+ },
+ "fourth": {
+  "f": "fourth.mp3",
+  "src": "youdao-uk"
+ },
+ "free": {
+  "f": "free.mp3",
+  "src": "youdao-uk"
+ },
+ "fridge": {
+  "f": "fridge.mp3",
+  "src": "youdao-uk"
+ },
+ "friend": {
+  "f": "friend.mp3",
+  "src": "youdao-uk"
+ },
+ "friendly": {
+  "f": "friendly.mp3",
+  "src": "youdao-uk"
+ },
+ "from": {
+  "f": "from.mp3",
+  "src": "youdao-uk"
+ },
+ "front": {
+  "f": "front.mp3",
+  "src": "youdao-uk"
+ },
+ "fruit": {
+  "f": "fruit.mp3",
+  "src": "youdao-uk"
+ },
+ "fun": {
+  "f": "fun.mp3",
+  "src": "youdao-uk"
+ },
+ "funny": {
+  "f": "funny.mp3",
+  "src": "youdao-uk"
+ },
+ "further": {
+  "f": "further.mp3",
+  "src": "youdao-uk"
+ },
+ "game": {
+  "f": "game.mp3",
+  "src": "youdao-uk"
+ },
+ "games console": {
+  "f": "gamesconsole.mp3",
+  "src": "youdao-uk"
+ },
+ "garage": {
+  "f": "garage.mp3",
+  "src": "youdao-uk"
+ },
+ "garden": {
+  "f": "garden.mp3",
+  "src": "youdao-uk"
+ },
+ "geography": {
+  "f": "geography.mp3",
+  "src": "youdao-uk"
+ },
+ "get": {
+  "f": "get.mp3",
+  "src": "youdao-uk"
+ },
+ "get angry": {
+  "f": "getangry.mp3",
+  "src": "youdao-uk"
+ },
+ "get excited": {
+  "f": "getexcited.mp3",
+  "src": "youdao-uk"
+ },
+ "give": {
+  "f": "give.mp3",
+  "src": "youdao-uk"
+ },
+ "giving": {
+  "f": "giving.mp3",
+  "src": "youdao-uk"
+ },
+ "glasses": {
+  "f": "glasses.mp3",
+  "src": "youdao-uk"
+ },
+ "go": {
+  "f": "go.mp3",
+  "src": "youdao-uk"
+ },
+ "go away": {
+  "f": "goaway.mp3",
+  "src": "youdao-uk"
+ },
+ "go on holiday": {
+  "f": "goonholiday.mp3",
+  "src": "youdao-uk"
+ },
+ "go shopping": {
+  "f": "goshopping.mp3",
+  "src": "youdao-uk"
+ },
+ "goat": {
+  "f": "goat.mp3",
+  "src": "youdao-uk"
+ },
+ "gold": {
+  "f": "gold.mp3",
+  "src": "youdao-uk"
+ },
+ "good": {
+  "f": "good.mp3",
+  "src": "youdao-uk"
+ },
+ "gorilla": {
+  "f": "gorilla.mp3",
+  "src": "youdao-uk"
+ },
+ "gps": {
+  "f": "gps.mp3",
+  "src": "youdao-uk"
+ },
+ "grandfather": {
+  "f": "grandfather.mp3",
+  "src": "youdao-uk"
+ },
+ "grandma": {
+  "f": "grandma.mp3",
+  "src": "youdao-uk"
+ },
+ "grandmother": {
+  "f": "grandmother.mp3",
+  "src": "youdao-uk"
+ },
+ "grandparent": {
+  "f": "grandparent.mp3",
+  "src": "youdao-uk"
+ },
+ "great": {
+  "f": "great.mp3",
+  "src": "youdao-uk"
+ },
+ "green": {
+  "f": "green.mp3",
+  "src": "youdao-uk"
+ },
+ "grew": {
+  "f": "grew.mp3",
+  "src": "youdao-uk"
+ },
+ "grey": {
+  "f": "grey.mp3",
+  "src": "youdao-uk"
+ },
+ "ground": {
+  "f": "ground.mp3",
+  "src": "youdao-uk"
+ },
+ "group": {
+  "f": "group.mp3",
+  "src": "youdao-uk"
+ },
+ "guess": {
+  "f": "guess.mp3",
+  "src": "youdao-uk"
+ },
+ "guide": {
+  "f": "guide.mp3",
+  "src": "youdao-uk"
+ },
+ "guitar": {
+  "f": "guitar.mp3",
+  "src": "youdao-uk"
+ },
+ "half": {
+  "f": "half.mp3",
+  "src": "youdao-uk"
+ },
+ "half past (eight).": {
+  "f": "halfpasteight.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "hall": {
+  "f": "hall.mp3",
+  "src": "youdao-uk"
+ },
+ "hand": {
+  "f": "hand.mp3",
+  "src": "youdao-uk"
+ },
+ "hang out with friends": {
+  "f": "hangoutwithfriends.mp3",
+  "src": "youdao-uk"
+ },
+ "happen": {
+  "f": "happen.mp3",
+  "src": "youdao-uk"
+ },
+ "happy": {
+  "f": "happy.mp3",
+  "src": "youdao-uk"
+ },
+ "hard": {
+  "f": "hard.mp3",
+  "src": "youdao-uk"
+ },
+ "harry": {
+  "f": "harry.mp3",
+  "src": "youdao-uk"
+ },
+ "hat": {
+  "f": "hat.mp3",
+  "src": "youdao-uk"
+ },
+ "hate": {
+  "f": "hate.mp3",
+  "src": "youdao-uk"
+ },
+ "have": {
+  "f": "have.mp3",
+  "src": "youdao-uk"
+ },
+ "have a good time": {
+  "f": "haveagoodtime.mp3",
+  "src": "youdao-uk"
+ },
+ "have a shower": {
+  "f": "haveashower.mp3",
+  "src": "youdao-uk"
+ },
+ "he": {
+  "f": "he.mp3",
+  "src": "youdao-uk"
+ },
+ "head": {
+  "f": "head.mp3",
+  "src": "youdao-uk"
+ },
+ "headband": {
+  "f": "headband.mp3",
+  "src": "youdao-uk"
+ },
+ "headphones": {
+  "f": "headphones.mp3",
+  "src": "youdao-uk"
+ },
+ "healthier": {
+  "f": "healthier.mp3",
+  "src": "youdao-uk"
+ },
+ "hear": {
+  "f": "hear.mp3",
+  "src": "youdao-uk"
+ },
+ "heard": {
+  "f": "heard.mp3",
+  "src": "youdao-uk"
+ },
+ "helicopter": {
+  "f": "helicopter.mp3",
+  "src": "youdao-uk"
+ },
+ "hello": {
+  "f": "hello.mp3",
+  "src": "youdao-uk"
+ },
+ "help": {
+  "f": "help.mp3",
+  "src": "youdao-uk"
+ },
+ "her": {
+  "f": "her.mp3",
+  "src": "youdao-uk"
+ },
+ "here": {
+  "f": "here.mp3",
+  "src": "youdao-uk"
+ },
+ "hero": {
+  "f": "hero.mp3",
+  "src": "youdao-uk"
+ },
+ "hey": {
+  "f": "hey.mp3",
+  "src": "youdao-uk"
+ },
+ "hi": {
+  "f": "hi.mp3",
+  "src": "youdao-uk"
+ },
+ "high": {
+  "f": "high.mp3",
+  "src": "youdao-uk"
+ },
+ "hill": {
+  "f": "hill.mp3",
+  "src": "youdao-uk"
+ },
+ "him": {
+  "f": "him.mp3",
+  "src": "youdao-uk"
+ },
+ "his": {
+  "f": "his.mp3",
+  "src": "youdao-uk"
+ },
+ "history": {
+  "f": "history.mp3",
+  "src": "youdao-uk"
+ },
+ "hit": {
+  "f": "hit.mp3",
+  "src": "youdao-uk"
+ },
+ "hobby": {
+  "f": "hobby.mp3",
+  "src": "youdao-uk"
+ },
+ "hold": {
+  "f": "hold.mp3",
+  "src": "youdao-uk"
+ },
+ "holiday": {
+  "f": "holiday.mp3",
+  "src": "youdao-uk"
+ },
+ "home": {
+  "f": "home.mp3",
+  "src": "youdao-uk"
+ },
+ "homework": {
+  "f": "homework.mp3",
+  "src": "youdao-uk"
+ },
+ "honey": {
+  "f": "honey.mp3",
+  "src": "youdao-uk"
+ },
+ "horrible": {
+  "f": "horrible.mp3",
+  "src": "youdao-uk"
+ },
+ "horse": {
+  "f": "horse.mp3",
+  "src": "youdao-uk"
+ },
+ "hot": {
+  "f": "hot.mp3",
+  "src": "youdao-uk"
+ },
+ "hotel": {
+  "f": "hotel.mp3",
+  "src": "youdao-uk"
+ },
+ "hour": {
+  "f": "hour.mp3",
+  "src": "youdao-uk"
+ },
+ "house": {
+  "f": "house.mp3",
+  "src": "youdao-uk"
+ },
+ "how": {
+  "f": "how.mp3",
+  "src": "youdao-uk"
+ },
+ "human": {
+  "f": "human.mp3",
+  "src": "youdao-uk"
+ },
+ "hungry": {
+  "f": "hungry.mp3",
+  "src": "youdao-uk"
+ },
+ "hurry": {
+  "f": "hurry.mp3",
+  "src": "youdao-uk"
+ },
+ "husband": {
+  "f": "husband.mp3",
+  "src": "youdao-uk"
+ },
+ "i": {
+  "f": "i.mp3",
+  "src": "youdao-uk"
+ },
+ "ice": {
+  "f": "ice.mp3",
+  "src": "youdao-uk"
+ },
+ "idea": {
+  "f": "idea.mp3",
+  "src": "youdao-uk"
+ },
+ "if": {
+  "f": "if.mp3",
+  "src": "youdao-uk"
+ },
+ "ill": {
+  "f": "ill.mp3",
+  "src": "youdao-uk"
+ },
+ "imagine": {
+  "f": "imagine.mp3",
+  "src": "youdao-uk"
+ },
+ "important": {
+  "f": "important.mp3",
+  "src": "youdao-uk"
+ },
+ "in": {
+  "f": "in.mp3",
+  "src": "youdao-uk"
+ },
+ "in front of": {
+  "f": "infrontof.mp3",
+  "src": "youdao-uk"
+ },
+ "indonesia": {
+  "f": "indonesia.mp3",
+  "src": "youdao-uk"
+ },
+ "indoor": {
+  "f": "indoor.mp3",
+  "src": "youdao-uk"
+ },
+ "information": {
+  "f": "information.mp3",
+  "src": "youdao-uk"
+ },
+ "inside": {
+  "f": "inside.mp3",
+  "src": "youdao-uk"
+ },
+ "instrument": {
+  "f": "instrument.mp3",
+  "src": "youdao-uk"
+ },
+ "intelligent": {
+  "f": "intelligent.mp3",
+  "src": "youdao-uk"
+ },
+ "interested": {
+  "f": "interested.mp3",
+  "src": "youdao-uk"
+ },
+ "interesting": {
+  "f": "interesting.mp3",
+  "src": "youdao-uk"
+ },
+ "internet": {
+  "f": "internet.mp3",
+  "src": "youdao-uk"
+ },
+ "into": {
+  "f": "into.mp3",
+  "src": "youdao-uk"
+ },
+ "island": {
+  "f": "island.mp3",
+  "src": "youdao-uk"
+ },
+ "it": {
+  "f": "it.mp3",
+  "src": "youdao-uk"
+ },
+ "it's cloudy.": {
+  "f": "itscloudy.mp3",
+  "src": "youdao-uk"
+ },
+ "it's cold.": {
+  "f": "itscold.mp3",
+  "src": "youdao-uk"
+ },
+ "it's hot.": {
+  "f": "itshot.mp3",
+  "src": "youdao-uk"
+ },
+ "it's raining.": {
+  "f": "itsraining.mp3",
+  "src": "youdao-uk"
+ },
+ "it's snowing.": {
+  "f": "itssnowing.mp3",
+  "src": "youdao-uk"
+ },
+ "it's sunny.": {
+  "f": "itssunny.mp3",
+  "src": "youdao-uk"
+ },
+ "it's warm.": {
+  "f": "itswarm.mp3",
+  "src": "youdao-uk"
+ },
+ "it's windy.": {
+  "f": "itswindy.mp3",
+  "src": "youdao-uk"
+ },
+ "its": {
+  "f": "its.mp3",
+  "src": "youdao-uk"
+ },
+ "jacket": {
+  "f": "jacket.mp3",
+  "src": "youdao-uk"
+ },
+ "jam": {
+  "f": "jam.mp3",
+  "src": "youdao-uk"
+ },
+ "january": {
+  "f": "january.mp3",
+  "src": "youdao-uk"
+ },
+ "japan": {
+  "f": "japan.mp3",
+  "src": "youdao-uk"
+ },
+ "jeans": {
+  "f": "jeans.mp3",
+  "src": "youdao-uk"
+ },
+ "join": {
+  "f": "join.mp3",
+  "src": "youdao-uk"
+ },
+ "joke": {
+  "f": "joke.mp3",
+  "src": "youdao-uk"
+ },
+ "joking": {
+  "f": "joking.mp3",
+  "src": "youdao-uk"
+ },
+ "journey": {
+  "f": "journey.mp3",
+  "src": "youdao-uk"
+ },
+ "juice": {
+  "f": "juice.mp3",
+  "src": "youdao-uk"
+ },
+ "julia": {
+  "f": "julia.mp3",
+  "src": "youdao-uk"
+ },
+ "july": {
+  "f": "july.mp3",
+  "src": "youdao-uk"
+ },
+ "jump": {
+  "f": "jump.mp3",
+  "src": "youdao-uk"
+ },
+ "jumper": {
+  "f": "jumper.mp3",
+  "src": "youdao-uk"
+ },
+ "june": {
+  "f": "june.mp3",
+  "src": "youdao-uk"
+ },
+ "just": {
+  "f": "just.mp3",
+  "src": "youdao-uk"
+ },
+ "keep": {
+  "f": "keep.mp3",
+  "src": "youdao-uk"
+ },
+ "kick": {
+  "f": "kick.mp3",
+  "src": "youdao-uk"
+ },
+ "kid": {
+  "f": "kid.mp3",
+  "src": "youdao-uk"
+ },
+ "kill": {
+  "f": "kill.mp3",
+  "src": "youdao-uk"
+ },
+ "killed": {
+  "f": "killed.mp3",
+  "src": "youdao-uk"
+ },
+ "kilometre": {
+  "f": "kilometre.mp3",
+  "src": "youdao-uk"
+ },
+ "kind": {
+  "f": "kind.mp3",
+  "src": "youdao-uk"
+ },
+ "kitchen": {
+  "f": "kitchen.mp3",
+  "src": "youdao-uk"
+ },
+ "knee": {
+  "f": "knee.mp3",
+  "src": "youdao-uk"
+ },
+ "knock": {
+  "f": "knock.mp3",
+  "src": "youdao-uk"
+ },
+ "know": {
+  "f": "know.mp3",
+  "src": "youdao-uk"
+ },
+ "lake": {
+  "f": "lake.mp3",
+  "src": "youdao-uk"
+ },
+ "lamb": {
+  "f": "lamb.mp3",
+  "src": "youdao-uk"
+ },
+ "land": {
+  "f": "land.mp3",
+  "src": "youdao-uk"
+ },
+ "laptop": {
+  "f": "laptop.mp3",
+  "src": "youdao-uk"
+ },
+ "large": {
+  "f": "large.mp3",
+  "src": "youdao-uk"
+ },
+ "last": {
+  "f": "last.mp3",
+  "src": "youdao-uk"
+ },
+ "late": {
+  "f": "late.mp3",
+  "src": "youdao-uk"
+ },
+ "later": {
+  "f": "later.mp3",
+  "src": "youdao-uk"
+ },
+ "learn": {
+  "f": "learn.mp3",
+  "src": "youdao-uk"
+ },
+ "leave": {
+  "f": "leave.mp3",
+  "src": "youdao-uk"
+ },
+ "leaves": {
+  "f": "leaves.mp3",
+  "src": "youdao-uk"
+ },
+ "leaving": {
+  "f": "leaving.mp3",
+  "src": "youdao-uk"
+ },
+ "leg": {
+  "f": "leg.mp3",
+  "src": "youdao-uk"
+ },
+ "lesson": {
+  "f": "lesson.mp3",
+  "src": "youdao-uk"
+ },
+ "let": {
+  "f": "let.mp3",
+  "src": "youdao-uk"
+ },
+ "level": {
+  "f": "level.mp3",
+  "src": "youdao-uk"
+ },
+ "library": {
+  "f": "library.mp3",
+  "src": "youdao-uk"
+ },
+ "life": {
+  "f": "life.mp3",
+  "src": "youdao-uk"
+ },
+ "lights": {
+  "f": "lights.mp3",
+  "src": "youdao-uk"
+ },
+ "like": {
+  "f": "like.mp3",
+  "src": "youdao-uk"
+ },
+ "listen": {
+  "f": "listen.mp3",
+  "src": "youdao-uk"
+ },
+ "listen to music": {
+  "f": "listentomusic.mp3",
+  "src": "youdao-uk"
+ },
+ "little": {
+  "f": "little.mp3",
+  "src": "youdao-uk"
+ },
+ "live": {
+  "f": "live.mp3",
+  "src": "youdao-uk"
+ },
+ "lived": {
+  "f": "lived.mp3",
+  "src": "youdao-uk"
+ },
+ "living": {
+  "f": "living.mp3",
+  "src": "youdao-uk"
+ },
+ "living room": {
+  "f": "livingroom.mp3",
+  "src": "youdao-uk"
+ },
+ "load": {
+  "f": "load.mp3",
+  "src": "youdao-uk"
+ },
+ "local": {
+  "f": "local.mp3",
+  "src": "youdao-uk"
+ },
+ "log": {
+  "f": "log.mp3",
+  "src": "youdao-uk"
+ },
+ "london": {
+  "f": "london.mp3",
+  "src": "youdao-uk"
+ },
+ "long": {
+  "f": "long.mp3",
+  "src": "youdao-uk"
+ },
+ "look": {
+  "f": "look.mp3",
+  "src": "youdao-uk"
+ },
+ "lot": {
+  "f": "lot.mp3",
+  "src": "youdao-uk"
+ },
+ "lots": {
+  "f": "lots.mp3",
+  "src": "youdao-uk"
+ },
+ "love": {
+  "f": "love.mp3",
+  "src": "youdao-uk"
+ },
+ "lovely": {
+  "f": "lovely.mp3",
+  "src": "youdao-uk"
+ },
+ "luck": {
+  "f": "luck.mp3",
+  "src": "youdao-uk"
+ },
+ "lucky": {
+  "f": "lucky.mp3",
+  "src": "youdao-uk"
+ },
+ "lunch": {
+  "f": "lunch.mp3",
+  "src": "youdao-uk"
+ },
+ "make": {
+  "f": "make.mp3",
+  "src": "youdao-uk"
+ },
+ "make a mistake": {
+  "f": "makeamistake.mp3",
+  "src": "youdao-uk"
+ },
+ "make a noise": {
+  "f": "makeanoise.mp3",
+  "src": "youdao-uk"
+ },
+ "man": {
+  "f": "man.mp3",
+  "src": "youdao-uk"
+ },
+ "managed": {
+  "f": "managed.mp3",
+  "src": "youdao-uk"
+ },
+ "many": {
+  "f": "many.mp3",
+  "src": "youdao-uk"
+ },
+ "marathon": {
+  "f": "marathon.mp3",
+  "src": "youdao-uk"
+ },
+ "march": {
+  "f": "march.mp3",
+  "src": "youdao-uk"
+ },
+ "mark": {
+  "f": "mark.mp3",
+  "src": "youdao-uk"
+ },
+ "married": {
+  "f": "married.mp3",
+  "src": "youdao-uk"
+ },
+ "match": {
+  "f": "match.mp3",
+  "src": "youdao-uk"
+ },
+ "may": {
+  "f": "may.mp3",
+  "src": "youdao-uk"
+ },
+ "maybe": {
+  "f": "maybe.mp3",
+  "src": "youdao-uk"
+ },
+ "me": {
+  "f": "me.mp3",
+  "src": "youdao-uk"
+ },
+ "mean": {
+  "f": "mean.mp3",
+  "src": "youdao-uk"
+ },
+ "meat": {
+  "f": "meat.mp3",
+  "src": "youdao-uk"
+ },
+ "meet": {
+  "f": "meet.mp3",
+  "src": "youdao-uk"
+ },
+ "member": {
+  "f": "member.mp3",
+  "src": "youdao-uk"
+ },
+ "men": {
+  "f": "men.mp3",
+  "src": "youdao-uk"
+ },
+ "menu": {
+  "f": "menu.mp3",
+  "src": "youdao-uk"
+ },
+ "mess": {
+  "f": "mess.mp3",
+  "src": "youdao-uk"
+ },
+ "meter": {
+  "f": "meter.mp3",
+  "src": "youdao-uk"
+ },
+ "metre": {
+  "f": "metre.mp3",
+  "src": "youdao-uk"
+ },
+ "mexico": {
+  "f": "mexico.mp3",
+  "src": "youdao-uk"
+ },
+ "mid": {
+  "f": "mid.mp3",
+  "src": "youdao-uk"
+ },
+ "middle": {
+  "f": "middle.mp3",
+  "src": "youdao-uk"
+ },
+ "midnight": {
+  "f": "midnight.mp3",
+  "src": "youdao-uk"
+ },
+ "milk": {
+  "f": "milk.mp3",
+  "src": "youdao-uk"
+ },
+ "mind": {
+  "f": "mind.mp3",
+  "src": "youdao-uk"
+ },
+ "minute": {
+  "f": "minute.mp3",
+  "src": "youdao-uk"
+ },
+ "miss": {
+  "f": "miss.mp3",
+  "src": "youdao-uk"
+ },
+ "moment": {
+  "f": "moment.mp3",
+  "src": "youdao-uk"
+ },
+ "money": {
+  "f": "money.mp3",
+  "src": "youdao-uk"
+ },
+ "month": {
+  "f": "month.mp3",
+  "src": "youdao-uk"
+ },
+ "more": {
+  "f": "more.mp3",
+  "src": "youdao-uk"
+ },
+ "morning": {
+  "f": "morning.mp3",
+  "src": "youdao-uk"
+ },
+ "most": {
+  "f": "most.mp3",
+  "src": "youdao-uk"
+ },
+ "mother": {
+  "f": "mother.mp3",
+  "src": "youdao-uk"
+ },
+ "motorbike": {
+  "f": "motorbike.mp3",
+  "src": "youdao-uk"
+ },
+ "motorcycle": {
+  "f": "motorcycle.mp3",
+  "src": "youdao-uk"
+ },
+ "mount": {
+  "f": "mount.mp3",
+  "src": "youdao-uk"
+ },
+ "mountain": {
+  "f": "mountain.mp3",
+  "src": "youdao-uk"
+ },
+ "moustache": {
+  "f": "moustache.mp3",
+  "src": "youdao-uk"
+ },
+ "mouth": {
+  "f": "mouth.mp3",
+  "src": "youdao-uk"
+ },
+ "move": {
+  "f": "move.mp3",
+  "src": "youdao-uk"
+ },
+ "movie": {
+  "f": "movie.mp3",
+  "src": "youdao-uk"
+ },
+ "moving": {
+  "f": "moving.mp3",
+  "src": "youdao-uk"
+ },
+ "much": {
+  "f": "much.mp3",
+  "src": "youdao-uk"
+ },
+ "mum": {
+  "f": "mum.mp3",
+  "src": "youdao-uk"
+ },
+ "museum": {
+  "f": "museum.mp3",
+  "src": "youdao-uk"
+ },
+ "mushroom": {
+  "f": "mushroom.mp3",
+  "src": "youdao-uk"
+ },
+ "music": {
+  "f": "music.mp3",
+  "src": "youdao-uk"
+ },
+ "musical": {
+  "f": "musical.mp3",
+  "src": "youdao-uk"
+ },
+ "musician": {
+  "f": "musician.mp3",
+  "src": "youdao-uk"
+ },
+ "must": {
+  "f": "must.mp3",
+  "src": "youdao-uk"
+ },
+ "my": {
+  "f": "my.mp3",
+  "src": "youdao-uk"
+ },
+ "myself": {
+  "f": "myself.mp3",
+  "src": "youdao-uk"
+ },
+ "name": {
+  "f": "name.mp3",
+  "src": "youdao-uk"
+ },
+ "named": {
+  "f": "named.mp3",
+  "src": "youdao-uk"
+ },
+ "national": {
+  "f": "national.mp3",
+  "src": "youdao-uk"
+ },
+ "near": {
+  "f": "near.mp3",
+  "src": "youdao-uk"
+ },
+ "need": {
+  "f": "need.mp3",
+  "src": "youdao-uk"
+ },
+ "neither": {
+  "f": "neither.mp3",
+  "src": "youdao-uk"
+ },
+ "never": {
+  "f": "never.mp3",
+  "src": "youdao-uk"
+ },
+ "new": {
+  "f": "new.mp3",
+  "src": "youdao-uk"
+ },
+ "next": {
+  "f": "next.mp3",
+  "src": "youdao-uk"
+ },
+ "next to": {
+  "f": "nextto.mp3",
+  "src": "youdao-uk"
+ },
+ "nice": {
+  "f": "nice.mp3",
+  "src": "youdao-uk"
+ },
+ "night": {
+  "f": "night.mp3",
+  "src": "youdao-uk"
+ },
+ "ninth": {
+  "f": "ninth.mp3",
+  "src": "youdao-uk"
+ },
+ "no": {
+  "f": "no.mp3",
+  "src": "youdao-uk"
+ },
+ "noise": {
+  "f": "noise.mp3",
+  "src": "youdao-uk"
+ },
+ "non": {
+  "f": "non.mp3",
+  "src": "youdao-uk"
+ },
+ "north": {
+  "f": "north.mp3",
+  "src": "youdao-uk"
+ },
+ "nose": {
+  "f": "nose.mp3",
+  "src": "youdao-uk"
+ },
+ "not": {
+  "f": "not.mp3",
+  "src": "youdao-uk"
+ },
+ "november": {
+  "f": "november.mp3",
+  "src": "youdao-uk"
+ },
+ "now": {
+  "f": "now.mp3",
+  "src": "youdao-uk"
+ },
+ "number": {
+  "f": "number.mp3",
+  "src": "youdao-uk"
+ },
+ "nut": {
+  "f": "nut.mp3",
+  "src": "youdao-uk"
+ },
+ "october": {
+  "f": "october.mp3",
+  "src": "youdao-uk"
+ },
+ "of": {
+  "f": "of.mp3",
+  "src": "youdao-uk"
+ },
+ "off": {
+  "f": "off.mp3",
+  "src": "youdao-uk"
+ },
+ "offer": {
+  "f": "offer.mp3",
+  "src": "youdao-uk"
+ },
+ "often": {
+  "f": "often.mp3",
+  "src": "youdao-uk"
+ },
+ "oh": {
+  "f": "oh.mp3",
+  "src": "youdao-uk"
+ },
+ "ok": {
+  "f": "ok.mp3",
+  "src": "youdao-uk"
+ },
+ "okay": {
+  "f": "okay.mp3",
+  "src": "youdao-uk"
+ },
+ "old": {
+  "f": "old.mp3",
+  "src": "youdao-uk"
+ },
+ "olympic": {
+  "f": "olympic.mp3",
+  "src": "youdao-uk"
+ },
+ "omelette": {
+  "f": "omelette.mp3",
+  "src": "youdao-uk"
+ },
+ "on": {
+  "f": "on.mp3",
+  "src": "youdao-uk"
+ },
+ "on the corner of": {
+  "f": "onthecornerof.mp3",
+  "src": "youdao-uk"
+ },
+ "one": {
+  "f": "one.mp3",
+  "src": "youdao-uk"
+ },
+ "onion": {
+  "f": "onion.mp3",
+  "src": "youdao-uk"
+ },
+ "online": {
+  "f": "online.mp3",
+  "src": "youdao-uk"
+ },
+ "only": {
+  "f": "only.mp3",
+  "src": "youdao-uk"
+ },
+ "onto": {
+  "f": "onto.mp3",
+  "src": "youdao-uk"
+ },
+ "open": {
+  "f": "open.mp3",
+  "src": "youdao-uk"
+ },
+ "opposite": {
+  "f": "opposite.mp3",
+  "src": "youdao-uk"
+ },
+ "or": {
+  "f": "or.mp3",
+  "src": "youdao-uk"
+ },
+ "orange": {
+  "f": "orange.mp3",
+  "src": "youdao-uk"
+ },
+ "orange juice": {
+  "f": "orangejuice.mp3",
+  "src": "youdao-uk"
+ },
+ "order": {
+  "f": "order.mp3",
+  "src": "youdao-uk"
+ },
+ "other": {
+  "f": "other.mp3",
+  "src": "youdao-uk"
+ },
+ "our": {
+  "f": "our.mp3",
+  "src": "youdao-uk"
+ },
+ "out": {
+  "f": "out.mp3",
+  "src": "youdao-uk"
+ },
+ "outside": {
+  "f": "outside.mp3",
+  "src": "youdao-uk"
+ },
+ "oven": {
+  "f": "oven.mp3",
+  "src": "youdao-uk"
+ },
+ "over": {
+  "f": "over.mp3",
+  "src": "youdao-uk"
+ },
+ "own": {
+  "f": "own.mp3",
+  "src": "youdao-uk"
+ },
+ "owner": {
+  "f": "owner.mp3",
+  "src": "youdao-uk"
+ },
+ "paid": {
+  "f": "paid.mp3",
+  "src": "youdao-uk"
+ },
+ "paint": {
+  "f": "paint.mp3",
+  "src": "youdao-uk"
+ },
+ "palace": {
+  "f": "palace.mp3",
+  "src": "youdao-uk"
+ },
+ "parent": {
+  "f": "parent.mp3",
+  "src": "youdao-uk"
+ },
+ "park": {
+  "f": "park.mp3",
+  "src": "youdao-uk"
+ },
+ "parrot": {
+  "f": "parrot.mp3",
+  "src": "youdao-uk"
+ },
+ "part": {
+  "f": "part.mp3",
+  "src": "youdao-uk"
+ },
+ "passenger": {
+  "f": "passenger.mp3",
+  "src": "youdao-uk"
+ },
+ "past": {
+  "f": "past.mp3",
+  "src": "youdao-uk"
+ },
+ "path": {
+  "f": "path.mp3",
+  "src": "youdao-uk"
+ },
+ "pavement": {
+  "f": "pavement.mp3",
+  "src": "youdao-uk"
+ },
+ "peak": {
+  "f": "peak.mp3",
+  "src": "youdao-uk"
+ },
+ "people": {
+  "f": "people.mp3",
+  "src": "youdao-uk"
+ },
+ "pepper": {
+  "f": "pepper.mp3",
+  "src": "youdao-uk"
+ },
+ "per": {
+  "f": "per.mp3",
+  "src": "youdao-uk"
+ },
+ "perform": {
+  "f": "perform.mp3",
+  "src": "youdao-uk"
+ },
+ "performance": {
+  "f": "performance.mp3",
+  "src": "youdao-uk"
+ },
+ "perhaps": {
+  "f": "perhaps.mp3",
+  "src": "youdao-uk"
+ },
+ "person": {
+  "f": "person.mp3",
+  "src": "youdao-uk"
+ },
+ "phone": {
+  "f": "phone.mp3",
+  "src": "youdao-uk"
+ },
+ "pillow": {
+  "f": "pillow.mp3",
+  "src": "youdao-uk"
+ },
+ "pin": {
+  "f": "pin.mp3",
+  "src": "youdao-uk"
+ },
+ "pizza": {
+  "f": "pizza.mp3",
+  "src": "youdao-uk"
+ },
+ "place": {
+  "f": "place.mp3",
+  "src": "youdao-uk"
+ },
+ "plan": {
+  "f": "plan.mp3",
+  "src": "youdao-uk"
+ },
+ "plane": {
+  "f": "plane.mp3",
+  "src": "youdao-uk"
+ },
+ "plant": {
+  "f": "plant.mp3",
+  "src": "youdao-uk"
+ },
+ "plate": {
+  "f": "plate.mp3",
+  "src": "youdao-uk"
+ },
+ "platform": {
+  "f": "platform.mp3",
+  "src": "youdao-uk"
+ },
+ "play": {
+  "f": "play.mp3",
+  "src": "youdao-uk"
+ },
+ "play basketball": {
+  "f": "playbasketball.mp3",
+  "src": "youdao-uk"
+ },
+ "play computer games": {
+  "f": "playcomputergames.mp3",
+  "src": "youdao-uk"
+ },
+ "play sport": {
+  "f": "playsport.mp3",
+  "src": "youdao-uk"
+ },
+ "play volleyball": {
+  "f": "playvolleyball.mp3",
+  "src": "youdao-uk"
+ },
+ "player": {
+  "f": "player.mp3",
+  "src": "youdao-uk"
+ },
+ "please": {
+  "f": "please.mp3",
+  "src": "youdao-uk"
+ },
+ "pleased": {
+  "f": "pleased.mp3",
+  "src": "youdao-uk"
+ },
+ "point": {
+  "f": "point.mp3",
+  "src": "youdao-uk"
+ },
+ "police": {
+  "f": "police.mp3",
+  "src": "youdao-uk"
+ },
+ "poor": {
+  "f": "poor.mp3",
+  "src": "youdao-uk"
+ },
+ "popular": {
+  "f": "popular.mp3",
+  "src": "youdao-uk"
+ },
+ "positive": {
+  "f": "positive.mp3",
+  "src": "youdao-uk"
+ },
+ "post office": {
+  "f": "postoffice.mp3",
+  "src": "youdao-uk"
+ },
+ "potato": {
+  "f": "potato.mp3",
+  "src": "youdao-uk"
+ },
+ "power": {
+  "f": "power.mp3",
+  "src": "youdao-uk"
+ },
+ "practice": {
+  "f": "practice.mp3",
+  "src": "youdao-uk"
+ },
+ "prefer": {
+  "f": "prefer.mp3",
+  "src": "youdao-uk"
+ },
+ "presenter": {
+  "f": "presenter.mp3",
+  "src": "youdao-uk"
+ },
+ "president": {
+  "f": "president.mp3",
+  "src": "youdao-uk"
+ },
+ "prize": {
+  "f": "prize.mp3",
+  "src": "youdao-uk"
+ },
+ "probably": {
+  "f": "probably.mp3",
+  "src": "youdao-uk"
+ },
+ "problem": {
+  "f": "problem.mp3",
+  "src": "youdao-uk"
+ },
+ "programme": {
+  "f": "programme.mp3",
+  "src": "youdao-uk"
+ },
+ "proud": {
+  "f": "proud.mp3",
+  "src": "youdao-uk"
+ },
+ "public": {
+  "f": "public.mp3",
+  "src": "youdao-uk"
+ },
+ "pulled": {
+  "f": "pulled.mp3",
+  "src": "youdao-uk"
+ },
+ "push": {
+  "f": "push.mp3",
+  "src": "youdao-uk"
+ },
+ "put": {
+  "f": "put.mp3",
+  "src": "youdao-uk"
+ },
+ "quarter": {
+  "f": "quarter.mp3",
+  "src": "youdao-uk"
+ },
+ "quarter past (ten).": {
+  "f": "quarterpastten.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "quarter to (one).": {
+  "f": "quartertoone.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "quick": {
+  "f": "quick.mp3",
+  "src": "youdao-uk"
+ },
+ "quickly": {
+  "f": "quickly.mp3",
+  "src": "youdao-uk"
+ },
+ "quiet": {
+  "f": "quiet.mp3",
+  "src": "youdao-uk"
+ },
+ "quite": {
+  "f": "quite.mp3",
+  "src": "youdao-uk"
+ },
+ "rabbit": {
+  "f": "rabbit.mp3",
+  "src": "youdao-uk"
+ },
+ "race": {
+  "f": "race.mp3",
+  "src": "youdao-uk"
+ },
+ "racket": {
+  "f": "racket.mp3",
+  "src": "youdao-uk"
+ },
+ "rain": {
+  "f": "rain.mp3",
+  "src": "youdao-uk"
+ },
+ "read": {
+  "f": "read.mp3",
+  "src": "youdao-uk"
+ },
+ "ready": {
+  "f": "ready.mp3",
+  "src": "youdao-uk"
+ },
+ "real": {
+  "f": "real.mp3",
+  "src": "youdao-uk"
+ },
+ "really": {
+  "f": "really.mp3",
+  "src": "youdao-uk"
+ },
+ "record": {
+  "f": "record.mp3",
+  "src": "youdao-uk"
+ },
+ "red": {
+  "f": "red.mp3",
+  "src": "youdao-uk"
+ },
+ "relax": {
+  "f": "relax.mp3",
+  "src": "youdao-uk"
+ },
+ "remember": {
+  "f": "remember.mp3",
+  "src": "youdao-uk"
+ },
+ "rent": {
+  "f": "rent.mp3",
+  "src": "youdao-uk"
+ },
+ "rescue": {
+  "f": "rescue.mp3",
+  "src": "youdao-uk"
+ },
+ "research": {
+  "f": "research.mp3",
+  "src": "youdao-uk"
+ },
+ "restaurant": {
+  "f": "restaurant.mp3",
+  "src": "youdao-uk"
+ },
+ "result": {
+  "f": "result.mp3",
+  "src": "youdao-uk"
+ },
+ "return": {
+  "f": "return.mp3",
+  "src": "youdao-uk"
+ },
+ "ride": {
+  "f": "ride.mp3",
+  "src": "youdao-uk"
+ },
+ "right": {
+  "f": "right.mp3",
+  "src": "youdao-uk"
+ },
+ "river": {
+  "f": "river.mp3",
+  "src": "youdao-uk"
+ },
+ "road": {
+  "f": "road.mp3",
+  "src": "youdao-uk"
+ },
+ "rock": {
+  "f": "rock.mp3",
+  "src": "youdao-uk"
+ },
+ "roll": {
+  "f": "roll.mp3",
+  "src": "youdao-uk"
+ },
+ "room": {
+  "f": "room.mp3",
+  "src": "youdao-uk"
+ },
+ "rose": {
+  "f": "rose.mp3",
+  "src": "youdao-uk"
+ },
+ "round": {
+  "f": "round.mp3",
+  "src": "youdao-uk"
+ },
+ "rugby": {
+  "f": "rugby.mp3",
+  "src": "youdao-uk"
+ },
+ "rule": {
+  "f": "rule.mp3",
+  "src": "youdao-uk"
+ },
+ "run": {
+  "f": "run.mp3",
+  "src": "youdao-uk"
+ },
+ "russia": {
+  "f": "russia.mp3",
+  "src": "youdao-uk"
+ },
+ "sad": {
+  "f": "sad.mp3",
+  "src": "youdao-uk"
+ },
+ "safe": {
+  "f": "safe.mp3",
+  "src": "youdao-uk"
+ },
+ "sail": {
+  "f": "sail.mp3",
+  "src": "youdao-uk"
+ },
+ "salad": {
+  "f": "salad.mp3",
+  "src": "youdao-uk"
+ },
+ "sally": {
+  "f": "sally.mp3",
+  "src": "youdao-uk"
+ },
+ "sam": {
+  "f": "sam.mp3",
+  "src": "youdao-uk"
+ },
+ "same": {
+  "f": "same.mp3",
+  "src": "youdao-uk"
+ },
+ "sandwich": {
+  "f": "sandwich.mp3",
+  "src": "youdao-uk"
+ },
+ "saturday": {
+  "f": "saturday.mp3",
+  "src": "youdao-uk"
+ },
+ "saved": {
+  "f": "saved.mp3",
+  "src": "youdao-uk"
+ },
+ "say": {
+  "f": "say.mp3",
+  "src": "youdao-uk"
+ },
+ "scared": {
+  "f": "scared.mp3",
+  "src": "youdao-uk"
+ },
+ "school": {
+  "f": "school.mp3",
+  "src": "youdao-uk"
+ },
+ "science": {
+  "f": "science.mp3",
+  "src": "youdao-uk"
+ },
+ "scientist": {
+  "f": "scientist.mp3",
+  "src": "youdao-uk"
+ },
+ "scooter": {
+  "f": "scooter.mp3",
+  "src": "youdao-uk"
+ },
+ "score": {
+  "f": "score.mp3",
+  "src": "youdao-uk"
+ },
+ "sea": {
+  "f": "sea.mp3",
+  "src": "youdao-uk"
+ },
+ "season": {
+  "f": "season.mp3",
+  "src": "youdao-uk"
+ },
+ "seat": {
+  "f": "seat.mp3",
+  "src": "youdao-uk"
+ },
+ "second": {
+  "f": "second.mp3",
+  "src": "youdao-uk"
+ },
+ "see": {
+  "f": "see.mp3",
+  "src": "youdao-uk"
+ },
+ "september": {
+  "f": "september.mp3",
+  "src": "youdao-uk"
+ },
+ "sequencing": {
+  "f": "sequencing.mp3",
+  "src": "youdao-uk"
+ },
+ "seventh": {
+  "f": "seventh.mp3",
+  "src": "youdao-uk"
+ },
+ "shape": {
+  "f": "shape.mp3",
+  "src": "youdao-uk"
+ },
+ "sharing": {
+  "f": "sharing.mp3",
+  "src": "youdao-uk"
+ },
+ "shark": {
+  "f": "shark.mp3",
+  "src": "youdao-uk"
+ },
+ "she": {
+  "f": "she.mp3",
+  "src": "youdao-uk"
+ },
+ "sheep": {
+  "f": "sheep.mp3",
+  "src": "youdao-uk"
+ },
+ "shirt": {
+  "f": "shirt.mp3",
+  "src": "youdao-uk"
+ },
+ "shoes": {
+  "f": "shoes.mp3",
+  "src": "youdao-uk"
+ },
+ "shop": {
+  "f": "shop.mp3",
+  "src": "youdao-uk"
+ },
+ "shopping": {
+  "f": "shopping.mp3",
+  "src": "youdao-uk"
+ },
+ "short": {
+  "f": "short.mp3",
+  "src": "youdao-uk"
+ },
+ "shorts": {
+  "f": "shorts.mp3",
+  "src": "youdao-uk"
+ },
+ "shoulder": {
+  "f": "shoulder.mp3",
+  "src": "youdao-uk"
+ },
+ "shoulders": {
+  "f": "shoulders.mp3",
+  "src": "youdao-uk"
+ },
+ "shout": {
+  "f": "shout.mp3",
+  "src": "youdao-uk"
+ },
+ "show": {
+  "f": "show.mp3",
+  "src": "youdao-uk"
+ },
+ "shower": {
+  "f": "shower.mp3",
+  "src": "youdao-uk"
+ },
+ "side": {
+  "f": "side.mp3",
+  "src": "youdao-uk"
+ },
+ "sing": {
+  "f": "sing.mp3",
+  "src": "youdao-uk"
+ },
+ "singer": {
+  "f": "singer.mp3",
+  "src": "youdao-uk"
+ },
+ "single": {
+  "f": "single.mp3",
+  "src": "youdao-uk"
+ },
+ "sister": {
+  "f": "sister.mp3",
+  "src": "youdao-uk"
+ },
+ "sit": {
+  "f": "sit.mp3",
+  "src": "youdao-uk"
+ },
+ "sixth": {
+  "f": "sixth.mp3",
+  "src": "youdao-uk"
+ },
+ "skateboard": {
+  "f": "skateboard.mp3",
+  "src": "youdao-uk"
+ },
+ "ski": {
+  "f": "ski.mp3",
+  "src": "youdao-uk"
+ },
+ "skirt": {
+  "f": "skirt.mp3",
+  "src": "youdao-uk"
+ },
+ "sky": {
+  "f": "sky.mp3",
+  "src": "youdao-uk"
+ },
+ "skydiving": {
+  "f": "skydiving.mp3",
+  "src": "youdao-uk"
+ },
+ "slam": {
+  "f": "slam.mp3",
+  "src": "youdao-uk"
+ },
+ "slow": {
+  "f": "slow.mp3",
+  "src": "youdao-uk"
+ },
+ "small": {
+  "f": "small.mp3",
+  "src": "youdao-uk"
+ },
+ "smart": {
+  "f": "smart.mp3",
+  "src": "youdao-uk"
+ },
+ "smart trousers": {
+  "f": "smarttrousers.mp3",
+  "src": "youdao-uk"
+ },
+ "smartphone": {
+  "f": "smartphone.mp3",
+  "src": "youdao-uk"
+ },
+ "smell": {
+  "f": "smell.mp3",
+  "src": "youdao-uk"
+ },
+ "smile": {
+  "f": "smile.mp3",
+  "src": "youdao-uk"
+ },
+ "snake": {
+  "f": "snake.mp3",
+  "src": "youdao-uk"
+ },
+ "snow": {
+  "f": "snow.mp3",
+  "src": "youdao-uk"
+ },
+ "snowboard": {
+  "f": "snowboard.mp3",
+  "src": "youdao-uk"
+ },
+ "so": {
+  "f": "so.mp3",
+  "src": "youdao-uk"
+ },
+ "socks": {
+  "f": "socks.mp3",
+  "src": "youdao-uk"
+ },
+ "sofa": {
+  "f": "sofa.mp3",
+  "src": "youdao-uk"
+ },
+ "soft": {
+  "f": "soft.mp3",
+  "src": "youdao-uk"
+ },
+ "some": {
+  "f": "some.mp3",
+  "src": "youdao-uk"
+ },
+ "something": {
+  "f": "something.mp3",
+  "src": "youdao-uk"
+ },
+ "sometimes": {
+  "f": "sometimes.mp3",
+  "src": "youdao-uk"
+ },
+ "son": {
+  "f": "son.mp3",
+  "src": "youdao-uk"
+ },
+ "song": {
+  "f": "song.mp3",
+  "src": "youdao-uk"
+ },
+ "soon": {
+  "f": "soon.mp3",
+  "src": "youdao-uk"
+ },
+ "sorry": {
+  "f": "sorry.mp3",
+  "src": "youdao-uk"
+ },
+ "sort": {
+  "f": "sort.mp3",
+  "src": "youdao-uk"
+ },
+ "sound": {
+  "f": "sound.mp3",
+  "src": "youdao-uk"
+ },
+ "soup": {
+  "f": "soup.mp3",
+  "src": "youdao-uk"
+ },
+ "south": {
+  "f": "south.mp3",
+  "src": "youdao-uk"
+ },
+ "south africa": {
+  "f": "southafrica.mp3",
+  "src": "youdao-uk"
+ },
+ "southeast": {
+  "f": "southeast.mp3",
+  "src": "youdao-uk"
+ },
+ "space": {
+  "f": "space.mp3",
+  "src": "youdao-uk"
+ },
+ "spacecraft": {
+  "f": "spacecraft.mp3",
+  "src": "youdao-uk"
+ },
+ "spain": {
+  "f": "spain.mp3",
+  "src": "youdao-uk"
+ },
+ "speak": {
+  "f": "speak.mp3",
+  "src": "youdao-uk"
+ },
+ "special": {
+  "f": "special.mp3",
+  "src": "youdao-uk"
+ },
+ "speed": {
+  "f": "speed.mp3",
+  "src": "youdao-uk"
+ },
+ "spin": {
+  "f": "spin.mp3",
+  "src": "youdao-uk"
+ },
+ "splash": {
+  "f": "splash.mp3",
+  "src": "youdao-uk"
+ },
+ "sport": {
+  "f": "sport.mp3",
+  "src": "youdao-uk"
+ },
+ "spring": {
+  "f": "spring.mp3",
+  "src": "youdao-uk"
+ },
+ "square": {
+  "f": "square.mp3",
+  "src": "youdao-uk"
+ },
+ "squash": {
+  "f": "squash.mp3",
+  "src": "youdao-uk"
+ },
+ "stage": {
+  "f": "stage.mp3",
+  "src": "youdao-uk"
+ },
+ "stamp": {
+  "f": "stamp.mp3",
+  "src": "youdao-uk"
+ },
+ "stand": {
+  "f": "stand.mp3",
+  "src": "youdao-uk"
+ },
+ "star": {
+  "f": "star.mp3",
+  "src": "youdao-uk"
+ },
+ "start": {
+  "f": "start.mp3",
+  "src": "youdao-uk"
+ },
+ "station": {
+  "f": "station.mp3",
+  "src": "youdao-uk"
+ },
+ "statue": {
+  "f": "statue.mp3",
+  "src": "youdao-uk"
+ },
+ "stay": {
+  "f": "stay.mp3",
+  "src": "youdao-uk"
+ },
+ "steak": {
+  "f": "steak.mp3",
+  "src": "youdao-uk"
+ },
+ "step": {
+  "f": "step.mp3",
+  "src": "youdao-uk"
+ },
+ "still": {
+  "f": "still.mp3",
+  "src": "youdao-uk"
+ },
+ "stop": {
+  "f": "stop.mp3",
+  "src": "youdao-uk"
+ },
+ "story": {
+  "f": "story.mp3",
+  "src": "youdao-uk"
+ },
+ "straight": {
+  "f": "straight.mp3",
+  "src": "youdao-uk"
+ },
+ "strait": {
+  "f": "strait.mp3",
+  "src": "youdao-uk"
+ },
+ "strange": {
+  "f": "strange.mp3",
+  "src": "youdao-uk"
+ },
+ "strawberry": {
+  "f": "strawberry.mp3",
+  "src": "youdao-uk"
+ },
+ "stripe": {
+  "f": "stripe.mp3",
+  "src": "youdao-uk"
+ },
+ "student": {
+  "f": "student.mp3",
+  "src": "youdao-uk"
+ },
+ "studio": {
+  "f": "studio.mp3",
+  "src": "youdao-uk"
+ },
+ "study": {
+  "f": "study.mp3",
+  "src": "youdao-uk"
+ },
+ "stuff": {
+  "f": "stuff.mp3",
+  "src": "youdao-uk"
+ },
+ "stupid": {
+  "f": "stupid.mp3",
+  "src": "youdao-uk"
+ },
+ "submarine": {
+  "f": "submarine.mp3",
+  "src": "youdao-uk"
+ },
+ "sudan": {
+  "f": "sudan.mp3",
+  "src": "youdao-uk"
+ },
+ "suddenly": {
+  "f": "suddenly.mp3",
+  "src": "youdao-uk"
+ },
+ "suit": {
+  "f": "suit.mp3",
+  "src": "youdao-uk"
+ },
+ "summer": {
+  "f": "summer.mp3",
+  "src": "youdao-uk"
+ },
+ "sunday": {
+  "f": "sunday.mp3",
+  "src": "youdao-uk"
+ },
+ "supermarket": {
+  "f": "supermarket.mp3",
+  "src": "youdao-uk"
+ },
+ "sure": {
+  "f": "sure.mp3",
+  "src": "youdao-uk"
+ },
+ "surf": {
+  "f": "surf.mp3",
+  "src": "youdao-uk"
+ },
+ "surprise": {
+  "f": "surprise.mp3",
+  "src": "youdao-uk"
+ },
+ "surprised": {
+  "f": "surprised.mp3",
+  "src": "youdao-uk"
+ },
+ "swam": {
+  "f": "swam.mp3",
+  "src": "youdao-uk"
+ },
+ "swim": {
+  "f": "swim.mp3",
+  "src": "youdao-uk"
+ },
+ "swimmer": {
+  "f": "swimmer.mp3",
+  "src": "youdao-uk"
+ },
+ "switch": {
+  "f": "switch.mp3",
+  "src": "youdao-uk"
+ },
+ "t": {
+  "f": "t.mp3",
+  "src": "youdao-uk"
+ },
+ "t-shirt": {
+  "f": "tshirt.mp3",
+  "src": "youdao-uk"
+ },
+ "table": {
+  "f": "table.mp3",
+  "src": "youdao-uk"
+ },
+ "tablet": {
+  "f": "tablet.mp3",
+  "src": "youdao-uk"
+ },
+ "take": {
+  "f": "take.mp3",
+  "src": "youdao-uk"
+ },
+ "take a break": {
+  "f": "takeabreak.mp3",
+  "src": "youdao-uk"
+ },
+ "take photos": {
+  "f": "takephotos.mp3",
+  "src": "youdao-uk"
+ },
+ "talk": {
+  "f": "talk.mp3",
+  "src": "youdao-uk"
+ },
+ "tall": {
+  "f": "tall.mp3",
+  "src": "youdao-uk"
+ },
+ "taxi": {
+  "f": "taxi.mp3",
+  "src": "youdao-uk"
+ },
+ "tea": {
+  "f": "tea.mp3",
+  "src": "youdao-uk"
+ },
+ "teacher": {
+  "f": "teacher.mp3",
+  "src": "youdao-uk"
+ },
+ "team": {
+  "f": "team.mp3",
+  "src": "youdao-uk"
+ },
+ "technical": {
+  "f": "technical.mp3",
+  "src": "youdao-uk"
+ },
+ "tell": {
+  "f": "tell.mp3",
+  "src": "youdao-uk"
+ },
+ "tennis": {
+  "f": "tennis.mp3",
+  "src": "youdao-uk"
+ },
+ "tent": {
+  "f": "tent.mp3",
+  "src": "youdao-uk"
+ },
+ "tenth": {
+  "f": "tenth.mp3",
+  "src": "youdao-uk"
+ },
+ "term": {
+  "f": "term.mp3",
+  "src": "youdao-uk"
+ },
+ "terrible": {
+  "f": "terrible.mp3",
+  "src": "youdao-uk"
+ },
+ "test": {
+  "f": "test.mp3",
+  "src": "youdao-uk"
+ },
+ "than": {
+  "f": "than.mp3",
+  "src": "youdao-uk"
+ },
+ "thank": {
+  "f": "thank.mp3",
+  "src": "youdao-uk"
+ },
+ "thanks": {
+  "f": "thanks.mp3",
+  "src": "youdao-uk"
+ },
+ "that": {
+  "f": "that.mp3",
+  "src": "youdao-uk"
+ },
+ "the": {
+  "f": "the.mp3",
+  "src": "youdao-uk"
+ },
+ "the uk": {
+  "f": "theuk.mp3",
+  "src": "youdao-uk"
+ },
+ "the us": {
+  "f": "theus.mp3",
+  "src": "youdao-uk"
+ },
+ "their": {
+  "f": "their.mp3",
+  "src": "youdao-uk"
+ },
+ "them": {
+  "f": "them.mp3",
+  "src": "youdao-uk"
+ },
+ "then": {
+  "f": "then.mp3",
+  "src": "youdao-uk"
+ },
+ "there": {
+  "f": "there.mp3",
+  "src": "youdao-uk"
+ },
+ "these": {
+  "f": "these.mp3",
+  "src": "youdao-uk"
+ },
+ "they": {
+  "f": "they.mp3",
+  "src": "youdao-uk"
+ },
+ "thing": {
+  "f": "thing.mp3",
+  "src": "youdao-uk"
+ },
+ "think": {
+  "f": "think.mp3",
+  "src": "youdao-uk"
+ },
+ "third": {
+  "f": "third.mp3",
+  "src": "youdao-uk"
+ },
+ "thirsty": {
+  "f": "thirsty.mp3",
+  "src": "youdao-uk"
+ },
+ "thirteenth": {
+  "f": "thirteenth.mp3",
+  "src": "youdao-uk"
+ },
+ "thirtieth": {
+  "f": "thirtieth.mp3",
+  "src": "youdao-uk"
+ },
+ "thirty-first": {
+  "f": "thirtyfirst.mp3",
+  "src": "youdao-uk"
+ },
+ "this": {
+  "f": "this.mp3",
+  "src": "youdao-uk"
+ },
+ "those": {
+  "f": "those.mp3",
+  "src": "youdao-uk"
+ },
+ "through": {
+  "f": "through.mp3",
+  "src": "youdao-uk"
+ },
+ "throw": {
+  "f": "throw.mp3",
+  "src": "youdao-uk"
+ },
+ "ticket": {
+  "f": "ticket.mp3",
+  "src": "youdao-uk"
+ },
+ "tiger": {
+  "f": "tiger.mp3",
+  "src": "youdao-uk"
+ },
+ "time": {
+  "f": "time.mp3",
+  "src": "youdao-uk"
+ },
+ "tired": {
+  "f": "tired.mp3",
+  "src": "youdao-uk"
+ },
+ "to": {
+  "f": "to.mp3",
+  "src": "youdao-uk"
+ },
+ "toast": {
+  "f": "toast.mp3",
+  "src": "youdao-uk"
+ },
+ "today": {
+  "f": "today.mp3",
+  "src": "youdao-uk"
+ },
+ "together": {
+  "f": "together.mp3",
+  "src": "youdao-uk"
+ },
+ "toilet": {
+  "f": "toilet.mp3",
+  "src": "youdao-uk"
+ },
+ "tom": {
+  "f": "tom.mp3",
+  "src": "youdao-uk"
+ },
+ "tomato": {
+  "f": "tomato.mp3",
+  "src": "youdao-uk"
+ },
+ "tomato soup": {
+  "f": "tomatosoup.mp3",
+  "src": "youdao-uk"
+ },
+ "tomorrow": {
+  "f": "tomorrow.mp3",
+  "src": "youdao-uk"
+ },
+ "tonight": {
+  "f": "tonight.mp3",
+  "src": "youdao-uk"
+ },
+ "too": {
+  "f": "too.mp3",
+  "src": "youdao-uk"
+ },
+ "tool": {
+  "f": "tool.mp3",
+  "src": "youdao-uk"
+ },
+ "tools": {
+  "f": "tools.mp3",
+  "src": "youdao-uk"
+ },
+ "top": {
+  "f": "top.mp3",
+  "src": "youdao-uk"
+ },
+ "toppings": {
+  "f": "toppings.mp3",
+  "src": "youdao-uk"
+ },
+ "tour": {
+  "f": "tour.mp3",
+  "src": "youdao-uk"
+ },
+ "tourist": {
+  "f": "tourist.mp3",
+  "src": "youdao-uk"
+ },
+ "town": {
+  "f": "town.mp3",
+  "src": "youdao-uk"
+ },
+ "traditional": {
+  "f": "traditional.mp3",
+  "src": "youdao-uk"
+ },
+ "traditional costume": {
+  "f": "traditionalcostume.mp3",
+  "src": "youdao-uk"
+ },
+ "traffic": {
+  "f": "traffic.mp3",
+  "src": "youdao-uk"
+ },
+ "train": {
+  "f": "train.mp3",
+  "src": "youdao-uk"
+ },
+ "train station": {
+  "f": "trainstation.mp3",
+  "src": "youdao-uk"
+ },
+ "trainers": {
+  "f": "trainers.mp3",
+  "src": "youdao-uk"
+ },
+ "transport": {
+  "f": "transport.mp3",
+  "src": "youdao-uk"
+ },
+ "travel": {
+  "f": "travel.mp3",
+  "src": "youdao-uk"
+ },
+ "tried": {
+  "f": "tried.mp3",
+  "src": "youdao-uk"
+ },
+ "trousers": {
+  "f": "trousers.mp3",
+  "src": "youdao-uk"
+ },
+ "true": {
+  "f": "true.mp3",
+  "src": "youdao-uk"
+ },
+ "trumpet": {
+  "f": "trumpet.mp3",
+  "src": "youdao-uk"
+ },
+ "try": {
+  "f": "try.mp3",
+  "src": "youdao-uk"
+ },
+ "tube": {
+  "f": "tube.mp3",
+  "src": "youdao-uk"
+ },
+ "turkey": {
+  "f": "turkey.mp3",
+  "src": "youdao-uk"
+ },
+ "tv": {
+  "f": "tv.mp3",
+  "src": "youdao-uk"
+ },
+ "twelfth": {
+  "f": "twelfth.mp3",
+  "src": "youdao-uk"
+ },
+ "twentieth": {
+  "f": "twentieth.mp3",
+  "src": "youdao-uk"
+ },
+ "type": {
+  "f": "type.mp3",
+  "src": "youdao-uk"
+ },
+ "ugly": {
+  "f": "ugly.mp3",
+  "src": "youdao-uk"
+ },
+ "uncle": {
+  "f": "uncle.mp3",
+  "src": "youdao-uk"
+ },
+ "under": {
+  "f": "under.mp3",
+  "src": "youdao-uk"
+ },
+ "underground": {
+  "f": "underground.mp3",
+  "src": "youdao-uk"
+ },
+ "underground train": {
+  "f": "undergroundtrain.mp3",
+  "src": "youdao-uk"
+ },
+ "underwater": {
+  "f": "underwater.mp3",
+  "src": "youdao-uk"
+ },
+ "unhappy": {
+  "f": "unhappy.mp3",
+  "src": "youdao-uk"
+ },
+ "until": {
+  "f": "until.mp3",
+  "src": "youdao-uk"
+ },
+ "unusual": {
+  "f": "unusual.mp3",
+  "src": "youdao-uk"
+ },
+ "up": {
+  "f": "up.mp3",
+  "src": "youdao-uk"
+ },
+ "upstairs": {
+  "f": "upstairs.mp3",
+  "src": "youdao-uk"
+ },
+ "urban": {
+  "f": "urban.mp3",
+  "src": "youdao-uk"
+ },
+ "us": {
+  "f": "us.mp3",
+  "src": "youdao-uk"
+ },
+ "use": {
+  "f": "use.mp3",
+  "src": "youdao-uk"
+ },
+ "usually": {
+  "f": "usually.mp3",
+  "src": "youdao-uk"
+ },
+ "valley": {
+  "f": "valley.mp3",
+  "src": "youdao-uk"
+ },
+ "vanilla": {
+  "f": "vanilla.mp3",
+  "src": "youdao-uk"
+ },
+ "very": {
+  "f": "very.mp3",
+  "src": "youdao-uk"
+ },
+ "video": {
+  "f": "video.mp3",
+  "src": "youdao-uk"
+ },
+ "view": {
+  "f": "view.mp3",
+  "src": "youdao-uk"
+ },
+ "village": {
+  "f": "village.mp3",
+  "src": "youdao-uk"
+ },
+ "violin": {
+  "f": "violin.mp3",
+  "src": "youdao-uk"
+ },
+ "visit": {
+  "f": "visit.mp3",
+  "src": "youdao-uk"
+ },
+ "volleyball": {
+  "f": "volleyball.mp3",
+  "src": "youdao-uk"
+ },
+ "vr headset": {
+  "f": "vrheadset.mp3",
+  "src": "youdao-uk-concat"
+ },
+ "wait": {
+  "f": "wait.mp3",
+  "src": "youdao-uk"
+ },
+ "walk": {
+  "f": "walk.mp3",
+  "src": "youdao-uk"
+ },
+ "wall": {
+  "f": "wall.mp3",
+  "src": "youdao-uk"
+ },
+ "want": {
+  "f": "want.mp3",
+  "src": "youdao-uk"
+ },
+ "wash": {
+  "f": "wash.mp3",
+  "src": "youdao-uk"
+ },
+ "watch": {
+  "f": "watch.mp3",
+  "src": "youdao-uk"
+ },
+ "water": {
+  "f": "water.mp3",
+  "src": "youdao-uk"
+ },
+ "wave": {
+  "f": "wave.mp3",
+  "src": "youdao-uk"
+ },
+ "wavy": {
+  "f": "wavy.mp3",
+  "src": "youdao-uk"
+ },
+ "way": {
+  "f": "way.mp3",
+  "src": "youdao-uk"
+ },
+ "we": {
+  "f": "we.mp3",
+  "src": "youdao-uk"
+ },
+ "wear": {
+  "f": "wear.mp3",
+  "src": "youdao-uk"
+ },
+ "weekend": {
+  "f": "weekend.mp3",
+  "src": "youdao-uk"
+ },
+ "welcome": {
+  "f": "welcome.mp3",
+  "src": "youdao-uk"
+ },
+ "well": {
+  "f": "well.mp3",
+  "src": "youdao-uk"
+ },
+ "west": {
+  "f": "west.mp3",
+  "src": "youdao-uk"
+ },
+ "what": {
+  "f": "what.mp3",
+  "src": "youdao-uk"
+ },
+ "when": {
+  "f": "when.mp3",
+  "src": "youdao-uk"
+ },
+ "where": {
+  "f": "where.mp3",
+  "src": "youdao-uk"
+ },
+ "which": {
+  "f": "which.mp3",
+  "src": "youdao-uk"
+ },
+ "whistle": {
+  "f": "whistle.mp3",
+  "src": "youdao-uk"
+ },
+ "white": {
+  "f": "white.mp3",
+  "src": "youdao-uk"
+ },
+ "who": {
+  "f": "who.mp3",
+  "src": "youdao-uk"
+ },
+ "whole": {
+  "f": "whole.mp3",
+  "src": "youdao-uk"
+ },
+ "why": {
+  "f": "why.mp3",
+  "src": "youdao-uk"
+ },
+ "wife": {
+  "f": "wife.mp3",
+  "src": "youdao-uk"
+ },
+ "will": {
+  "f": "will.mp3",
+  "src": "youdao-uk"
+ },
+ "william": {
+  "f": "william.mp3",
+  "src": "youdao-uk"
+ },
+ "win": {
+  "f": "win.mp3",
+  "src": "youdao-uk"
+ },
+ "wind": {
+  "f": "wind.mp3",
+  "src": "youdao-uk"
+ },
+ "window": {
+  "f": "window.mp3",
+  "src": "youdao-uk"
+ },
+ "winner": {
+  "f": "winner.mp3",
+  "src": "youdao-uk"
+ },
+ "winter": {
+  "f": "winter.mp3",
+  "src": "youdao-uk"
+ },
+ "with": {
+  "f": "with.mp3",
+  "src": "youdao-uk"
+ },
+ "without": {
+  "f": "without.mp3",
+  "src": "youdao-uk"
+ },
+ "woman": {
+  "f": "woman.mp3",
+  "src": "youdao-uk"
+ },
+ "women": {
+  "f": "women.mp3",
+  "src": "youdao-uk"
+ },
+ "wonder": {
+  "f": "wonder.mp3",
+  "src": "youdao-uk"
+ },
+ "wonderful": {
+  "f": "wonderful.mp3",
+  "src": "youdao-uk"
+ },
+ "work": {
+  "f": "work.mp3",
+  "src": "youdao-uk"
+ },
+ "worker": {
+  "f": "worker.mp3",
+  "src": "youdao-uk"
+ },
+ "world": {
+  "f": "world.mp3",
+  "src": "youdao-uk"
+ },
+ "worried": {
+  "f": "worried.mp3",
+  "src": "youdao-uk"
+ },
+ "worry": {
+  "f": "worry.mp3",
+  "src": "youdao-uk"
+ },
+ "would": {
+  "f": "would.mp3",
+  "src": "youdao-uk"
+ },
+ "wow": {
+  "f": "wow.mp3",
+  "src": "youdao-uk"
+ },
+ "write": {
+  "f": "write.mp3",
+  "src": "youdao-uk"
+ },
+ "writer": {
+  "f": "writer.mp3",
+  "src": "youdao-uk"
+ },
+ "yeah": {
+  "f": "yeah.mp3",
+  "src": "youdao-uk"
+ },
+ "year": {
+  "f": "year.mp3",
+  "src": "youdao-uk"
+ },
+ "yellow": {
+  "f": "yellow.mp3",
+  "src": "youdao-uk"
+ },
+ "yes": {
+  "f": "yes.mp3",
+  "src": "youdao-uk"
+ },
+ "yesterday": {
+  "f": "yesterday.mp3",
+  "src": "youdao-uk"
+ },
+ "yoghurt": {
+  "f": "yoghurt.mp3",
+  "src": "youdao-uk"
+ },
+ "you": {
+  "f": "you.mp3",
+  "src": "youdao-uk"
+ },
+ "young": {
+  "f": "young.mp3",
+  "src": "youdao-uk"
+ },
+ "your": {
+  "f": "your.mp3",
+  "src": "youdao-uk"
+ },
+ "youth": {
+  "f": "youth.mp3",
+  "src": "youdao-uk"
+ },
+ "zoo": {
+  "f": "zoo.mp3",
+  "src": "youdao-uk"
+ }
+}

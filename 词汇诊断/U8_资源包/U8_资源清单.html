@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>U8 资源清单 · 从 0 到全链路交付</title>
+<style>
+:root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--sub:#6e6e73;--line:#e5e5ea;--blue:#0071e3}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;padding:28px 16px 80px}
+.wrap{max-width:920px;margin:0 auto}
+h1{font-size:22px}h2{font-size:17px;margin:26px 0 12px}
+.meta{color:var(--sub);font-size:13px;margin:6px 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;color:var(--sub);padding:8px 6px;border-bottom:1.5px solid var(--line);white-space:nowrap}
+td{padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+td code, li code{background:#f2f2f7;border-radius:5px;padding:1px 6px;font-size:12px}
+ul{padding-left:20px}li{margin:4px 0}
+.tag{display:inline-block;background:#eaf3ff;color:var(--blue);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700;margin-right:6px}
+</style>
+</head>
+<body><div class="wrap">
+<h1>U8 资源清单</h1>
+<div class="meta">生成 2026-10-14 · Unit 8 四篇正课文（p075 阅读A / p077 听力 / p078 阅读B / p080 文化）· 本文件夹为 U8 自包含交付包 · canonical 副本在 课程资源汇总/词汇/</div>
+
+<div class="card">
+<h2 style="margin-top:0">资源总览（41 文件 + 时间轴 4 键，约 1.5 MB）</h2>
+<table>
+<tr><th>目录</th><th>内容</th><th>生成时间</th><th>数据量</th></tr>
+<tr><td><code>01_源清单</code></td><td>_unit_8_source.json + timeline_u8_句级.json</td><td>10-13 01:28</td><td>4 页配置 + 106 句时间戳</td></tr>
+<tr><td><code>02_篇章文本</code></td><td>p075/p077/p078/p080 正文 ×4</td><td>10-13 11:58</td><td>4.4 KB</td></tr>
+<tr><td><code>03_九层分析</code></td><td>assess json + xlsx ×8</td><td>10-13 11:59</td><td>逐词 token（lemma/layer/cefr）</td></tr>
+<tr><td><code>04_学生卡</code></td><td>学生记忆卡 ×4</td><td>10-13 12:03→22:00</td><td>387 词（联网补全）</td></tr>
+<tr><td><code>05_备课本</code></td><td>xlsx ×4 + HTML ×4（四页签）</td><td>10-13 21:49–21:52</td><td>387 词族</td></tr>
+<tr><td><code>06_语音卡</code></td><td>xlsx ×4 + tts mp3 ×6</td><td>10-14 00:07–00:26</td><td>387 词英标 100% + 99 原句标注</td></tr>
+<tr><td><code>07_词汇诊断页</code></td><td>单文件交互页 ×4</td><td>10-13 16:37</td><td>246 卡（58/63/61/64）</td></tr>
+<tr><td><code>08_跟读听写</code></td><td>p077 听力篇 逐句跟读+段落听写诊断页</td><td>10-14 00:45</td><td>27 句 / 4 段 · 按句存储</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">制作时间轴</h2>
+<ul>
+<li><span class="tag">10-13 凌晨</span>音频对齐：写源清单 → _align_unit.py（ASR 对齐）→ 合入 timeline.json</li>
+<li><span class="tag">10-13 午</span>篇章文本抽取 + 九层分析（&lt;1 分钟）· p075 学生卡（≈12 分钟）</li>
+<li><span class="tag">10-13 下午</span>词汇诊断页 ×4（首轮建词典缓存 12 分钟，重出 30 秒/轮）</li>
+<li><span class="tag">10-13 晚</span>学生卡 ×3（11.5 分钟）· 备课本 15 份同步新口径（2 分钟）</li>
+<li><span class="tag">10-14 凌晨</span>语音卡 ×4（24.5 分钟）· 跟读听写诊断页 · 资源包归档</li>
+</ul>
+<p style="color:var(--sub);font-size:13px;margin-top:8px">联网工序（学生卡/语音卡）合计约 48 分钟；离线工序全部秒级。</p>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">技能 / 工作流</h2>
+<table>
+<tr><th>技能</th><th>用途</th></tr>
+<tr><td><code>_align_unit.py</code> 句级对齐</td><td>faster-whisper 词级时间戳 × 源文本校准 + 静音吸附 → timeline.json</td></tr>
+<tr><td><code>assess_vocab.py</code> 九层分析</td><td>A1_Starters→CAE + NGSL/NAWL + cefr.json，最低层只归一层</td></tr>
+<tr><td><code>student_cards.py</code></td><td>学生卡 + 有道词典联网补全</td></tr>
+<tr><td><code>teacher_prep.py</code></td><td>备课本四页签（不规则词形保留口径）</td></tr>
+<tr><td><code>phonetics.py</code></td><td>语音卡：剑桥主源 + 有道英标 / 真人 mp3</td></tr>
+<tr><td><code>_gen_vqdis.py</code> / <code>_gen_prep_html.py</code></td><td>词汇诊断页 / 备课本 HTML 生成器</td></tr>
+<tr><td>跟读听写页（手作单文件）</td><td>参考网站「聆听→跟读→听写」三段式 + 按句 localStorage</td></tr>
+<tr><td><code>_gen_assets.py</code></td><td>课程资产三件套渲染 + 汇总归档</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">数据量</h2>
+<ul>
+<li>音频侧：<b>4 篇 / 106 句 / 369.2 秒</b>（p075 85.7s · p077 111.9s · p078 75.0s · p080 96.6s）</li>
+<li>学生卡 <b>387 词</b> · 备课本 <b>387 词族</b> · 语音卡 <b>387 词英标 100%</b> + 6 真人 mp3</li>
+<li>词汇诊断页 <b>246 卡</b>（九层 level + 不规则词形保留原形式口径）</li>
+<li>跟读听写（p077）：<b>27 句 / 4 段</b>，跟读计数与听写成绩按句 ID <code>u8/p077/sNN</code> 存本机</li>
+</ul>
+<p style="color:var(--sub);font-size:13px;margin-top:8px">口注：语音卡非交互关闭 TTS 兜底；专名音标待核注 5 个（glynne/delamere/liliana/buenos/aires）；仅限内部教学研究使用，教材版权归剑桥所有。</p>
+</div>
+</div></body>
+</html>

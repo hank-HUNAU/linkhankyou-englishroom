@@ -1,0 +1,3891 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"> <!--P1: 允许双指缩放（WCAG 1.4.4），移除 user-scalable=no-->
+<title>Unit 8 · A teenage DJ · 词汇诊断</title>
+<meta name="theme-color" content="#eef1f8">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%237C3AED'/><text x='50' y='72' font-size='58' font-family='Inter,sans-serif' font-weight='900' fill='white' text-anchor='middle'>8</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; overflow: hidden; margin: 0; padding: 0; }
+
+:root {
+  --brand-purple: #7C3AED;
+  --brand-pink: #EC4899;
+  --brand-cyan: #06B6D4;
+  --brand-orange: #F97316;
+  --brand-yellow: #FACC15;
+
+  --brand-powder:
+    radial-gradient(circle at 16% 30%, #8B5CF6 0%, transparent 42%),
+    radial-gradient(circle at 78% 20%, #EC4899 0%, transparent 44%),
+    radial-gradient(circle at 28% 76%, #06B6D4 0%, transparent 46%),
+    radial-gradient(circle at 86% 72%, #F97316 0%, transparent 44%),
+    radial-gradient(circle at 54% 50%, #FACC15 0%, transparent 40%);
+
+  --glass-bg: rgba(255, 255, 255, .78);
+  --glass-border: rgba(15, 23, 42, .07);
+  --glass-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, .98),
+    0 8px 22px -14px rgba(31, 41, 55, .16),
+    0 2px 6px -2px rgba(31, 41, 55, .06);
+  --glass-shadow-hover:
+    inset 0 1px 0 0 rgba(255, 255, 255, 1),
+    0 20px 40px -20px rgba(31, 41, 55, .24),
+    0 4px 10px -3px rgba(31, 41, 55, .10);
+  --ease: cubic-bezier(.19, 1, .22, 1);
+}
+
+body {
+  background: #f3f5fb;
+  color: #1d1d1f;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+               "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── 背景光斑 ─────────────── */
+.bg { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.bg span { position: absolute; border-radius: 50%; filter: blur(80px); }
+.bg .b1 { width: 520px; height: 520px; left: 2%;  top: 4%;    background: #7C3AED; opacity: .11; }
+.bg .b2 { width: 460px; height: 460px; right: 6%; top: 6%;    background: #EC4899; opacity: .10; }
+.bg .b3 { width: 540px; height: 540px; left: 12%; bottom: 4%; background: #06B6D4; opacity: .09; }
+.bg .b4 { width: 480px; height: 480px; right: 10%; bottom: 6%; background: #F97316; opacity: .08; }
+.bg .b5 { width: 380px; height: 380px; left: 44%; top: 38%;   background: #FACC15; opacity: .06; }
+
+.app {
+  position: relative; z-index: 1;
+  height: 100vh; height: 100dvh;
+  display: flex; flex-direction: column;
+}
+
+/* ── 顶栏 ─────────────── */
+.topbar {
+  flex-shrink: 0;
+  padding: 14px 20px 12px;
+  display: flex; flex-direction: column; gap: 12px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(26px) saturate(190%);
+  -webkit-backdrop-filter: blur(26px) saturate(190%);
+  border-bottom: 1px solid var(--glass-border);
+}
+.top-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; padding: 0 2px;
+}
+.top-title {
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -.04em;
+  line-height: 1;
+  background-image:
+    var(--brand-powder),
+    linear-gradient(135deg, #1e1b4b 0%, #312e81 60%, #0e7490 100%);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter:
+    drop-shadow(0 1px 0 rgba(255,255,255,.4))
+    drop-shadow(0 3px 14px rgba(124,58,237,.25));
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  padding-bottom: 3px;
+}
+.top-sub {
+  font-size: 11.5px; font-weight: 800;
+  padding: 4px 12px; border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  box-shadow: 0 4px 12px -3px rgba(124,58,237,.55), inset 0 1px 0 rgba(255,255,255,.25);
+  white-space: nowrap;
+}
+
+.nav-pills {
+  display: flex; gap: 5px;
+  background: rgba(15, 23, 42, .05);
+  border-radius: 15px; padding: 5px;
+  border: 1px solid rgba(15, 23, 42, .04);
+}
+.tab-btn {
+  flex: 1; padding: 9px 6px;
+  min-height: 44px; /*P1: 触控目标 ≥44px*/
+  border: 0; border-radius: 10px;
+  background: transparent;
+  color: rgba(15, 23, 42, .55);
+  font-size: 12.5px; font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .25s var(--ease);
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  white-space: nowrap;
+}
+.tab-btn:hover:not(.active) {
+  background: rgba(255, 255, 255, .6);
+  color: rgba(15, 23, 42, .85);
+}
+.tab-btn.active {
+  background: #fff;
+  color: #7C3AED;
+  font-weight: 800;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 1),
+    0 4px 14px -4px rgba(31, 41, 55, .18),
+    0 0 0 1px rgba(124, 58, 237, .10);
+}
+.nav-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: rgba(15, 23, 42, .07);
+  color: rgba(15, 23, 42, .55);
+  font-size: 11px; font-weight: 800;
+  transition: all .25s var(--ease);
+  flex-shrink: 0;
+}
+.tab-btn.active .nav-num {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  box-shadow: 0 2px 8px -2px rgba(124, 58, 237, .60);
+}
+.nav-label { font-size: 12.5px; line-height: 1; }
+
+.stage { flex: 1; min-height: 0; position: relative; overflow: hidden; }
+.slide {
+  position: absolute; inset: 0;
+  padding: 12px 66px;
+  display: none; flex-direction: column; min-height: 0;
+}
+.slide.active { display: flex; }
+#filterGrid, #studyGrid { touch-action: none; }
+
+/* ── 分类条 ─────────────── */
+.catbar {
+  display: flex; gap: 6px;
+  overflow-x: auto; flex-shrink: 0;
+  padding: 2px 0 10px;
+  scrollbar-width: none;
+}
+.catbar::-webkit-scrollbar { display: none; }
+.catbar button {
+  flex-shrink: 0;
+  border: 1px solid rgba(15, 23, 42, .08);
+  background: rgba(255, 255, 255, .82);
+  border-radius: 999px;
+  padding: 5px 13px;
+  font-size: 11.5px; font-weight: 600;
+  cursor: pointer;
+  color: #4b5563;
+  font-family: inherit;
+  transition: all .2s var(--ease);
+}
+.catbar button:hover:not(.active) {
+  border-color: rgba(124, 58, 237, .28);
+  color: #7C3AED;
+  transform: translateY(-1px);
+}
+.catbar button.active {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  border-color: transparent;
+  font-weight: 800;
+  box-shadow:
+    0 6px 18px -6px rgba(124, 58, 237, .55),
+    inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+
+.page-hint {
+  flex-shrink: 0;
+  font-size: 11.5px; color: #4b5563;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, .82);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .9);
+  line-height: 1.4;
+  display: flex; align-items: center; gap: 10px;
+}
+.page-hint .hint-text { flex: 1; text-align: center; font-weight: 600; }
+.shuffle-btn {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  font-size: 11.5px; font-weight: 800;
+  border-radius: 9px;
+  border: 1px solid rgba(124, 58, 237, .25);
+  background: rgba(255, 255, 255, .9);
+  color: #7C3AED;
+  cursor: pointer; font-family: inherit;
+  transition: all .2s var(--ease);
+  display: flex; align-items: center; gap: 4px;
+  white-space: nowrap;
+}
+.shuffle-btn:hover {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px -5px rgba(124, 58, 237, .55);
+}
+.shuffle-btn:active { transform: scale(.96); }
+
+.card-grid {
+  display: grid; gap: 12px;
+  flex: 1; min-height: 0;
+  width: 100%; max-width: 1320px; margin: 0 auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  position: relative;
+  display: flex; flex-direction: column;
+  gap: 8px;
+  padding: 14px 14px 12px;
+  border-radius: 20px;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  min-height: 0;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, .96);
+  box-shadow: var(--glass-shadow);
+  transition:
+    transform .35s var(--ease),
+    opacity .35s ease,
+    filter .28s ease,
+    border-color .28s ease,
+    box-shadow .35s var(--ease),
+    background .3s ease;
+}
+.card:active { transform: scale(.985); transition: transform .1s ease; }
+.card.mastered { opacity: 0; transform: scale(.9); }
+
+.card.known {
+  border-color: rgba(34, 197, 94, .35);
+  background: linear-gradient(170deg, #f0fdf4 0%, #dcfce7 100%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 1),
+    0 8px 22px -14px rgba(34, 197, 94, .40),
+    0 2px 6px -2px rgba(31, 41, 55, .06);
+}
+.card.known::before {
+  content: '✓';
+  position: absolute; top: 0; left: 0; z-index: 1;
+  width: 26px; height: 26px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 900;
+  border-radius: 20px 0 14px 0;
+  box-shadow: 0 4px 12px -4px rgba(34, 197, 94, .70);
+}
+.card.fuzzy {
+  border-color: rgba(245, 158, 11, .38);
+  background: linear-gradient(170deg, #fffbeb 0%, #fef3c7 100%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 1),
+    0 8px 22px -14px rgba(245, 158, 11, .40),
+    0 2px 6px -2px rgba(31, 41, 55, .06);
+}
+.card.fuzzy::before {
+  content: '◐';
+  position: absolute; top: 0; left: 0; z-index: 1;
+  width: 26px; height: 26px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 900;
+  border-radius: 20px 0 14px 0;
+  box-shadow: 0 4px 12px -4px rgba(245, 158, 11, .70);
+}
+.card.unknown {
+  border-color: rgba(239, 68, 68, .35);
+  background: linear-gradient(170deg, #fef2f2 0%, #fee2e2 100%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 1),
+    0 8px 22px -14px rgba(239, 68, 68, .40),
+    0 2px 6px -2px rgba(31, 41, 55, .06);
+}
+.card.unknown::before {
+  content: '✗';
+  position: absolute; top: 0; left: 0; z-index: 1;
+  width: 26px; height: 26px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 900;
+  border-radius: 20px 0 14px 0;
+  box-shadow: 0 4px 12px -4px rgba(239, 68, 68, .70);
+}
+.card.prio::after {
+  content: '★';
+  position: absolute; top: 6px; right: 8px; z-index: 1;
+  color: #F59E0B;
+  font-size: 16px; line-height: 1;
+  text-shadow: 0 0 6px rgba(255, 255, 255, .95), 0 1px 2px rgba(0, 0, 0, .12);
+}
+
+.review-tag {
+  position: absolute; bottom: 0; right: 0;
+  font-size: 10px; font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 10px 0 19px 0;
+  line-height: 1.4;
+  white-space: nowrap;
+  letter-spacing: .2px;
+}
+.review-tag.due {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+  color: #fff;
+  box-shadow: -4px -4px 12px -4px rgba(220, 38, 38, .6);
+}
+.review-tag.new {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  box-shadow: -4px -4px 12px -4px rgba(124, 58, 237, .6);
+}
+.review-tag.scheduled {
+  background: rgba(15, 23, 42, .10);
+  color: #475569;
+}
+.review-tag.mastered-tag {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #fff;
+}
+
+.upgrade-tag {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #fff;
+  font-size: 14px; font-weight: 900;
+  padding: 10px 22px;
+  border-radius: 999px;
+  opacity: 0; pointer-events: none;
+  transition: opacity .3s ease, transform .3s var(--ease);
+  z-index: 10;
+  white-space: nowrap;
+  letter-spacing: .3px;
+  box-shadow:
+    0 12px 32px -8px rgba(22, 163, 74, .65),
+    inset 0 1px 0 rgba(255, 255, 255, .35);
+}
+.card.show-upgrade .upgrade-tag {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.cbody {
+  flex: 1; min-height: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 5px;
+  text-align: center;
+  overflow: hidden;
+  padding: 4px 0;
+}
+#filterGrid .cbody { justify-content: space-evenly; }
+
+.badges { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; }
+.badges span {
+  font-size: 11px; line-height: 1.5;
+  border-radius: 6px; padding: 1px 7px; font-weight: 700;
+}
+.pos { background: rgba(124, 58, 237, .12); color: #6d28d9; }
+.lvl { background: rgba(6, 182, 212, .12); color: #0e7490; }
+
+.word {
+  font-size: clamp(20px, 2vw, 32px);
+  font-weight: 900;
+  line-height: 1.1;
+  color: #0f172a;
+  overflow-wrap: anywhere;
+  letter-spacing: -.035em;
+}
+.ipa {
+  font-size: clamp(11px, 1vw, 14px);
+  color: #64748b; /*P1: 4.8:1 对比度（原 #94a3b8 仅 2.8:1）*/
+  line-height: 1.3;
+  font-weight: 500;
+}
+.zh {
+  font-size: clamp(13px, 1.15vw, 17px);
+  color: #334155;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.ex {
+  font-size: clamp(10px, 0.85vw, 12px);
+  color: #64748b; /*P1: 对比度修正*/
+  line-height: 1.4;
+  font-style: italic;
+  text-align: left;
+  margin-top: 4px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 0 2px;
+}
+#filterGrid .ex { display: none; }
+
+.study-reveal { display: none; width: 100%; flex-direction: column; gap: 4px; align-items: center; }
+.card.study.revealed .study-reveal { display: flex; }
+
+.recall-hint {
+  display: block;
+  font-size: 11px;
+  color: #cbd5e1;
+  margin-top: 6px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.card.study.revealed .recall-hint { display: none; }
+
+.acts, .study-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.acts button, .study-actions button {
+  flex: 1;
+  padding: 10px 0;
+  min-height: 44px; /*P1: 触控目标 ≥44px*/
+  font-size: 13px;
+  border-radius: 11px;
+  border: 1px solid rgba(15, 23, 42, .10);
+  background: rgba(255, 255, 255, .9);
+  color: #475569;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 800;
+  white-space: nowrap;
+  transition: all .2s var(--ease);
+}
+.acts button:hover:not(.active):not(:disabled),
+.study-actions button:hover:not(.active):not(:disabled) {
+  border-color: rgba(124, 58, 237, .30);
+  color: #7C3AED;
+  transform: translateY(-1px);
+}
+.acts button:active, .study-actions button:active { transform: scale(.96); }
+
+.acts .ok.active {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  border-color: transparent; color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(34, 197, 94, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.acts .fz.active {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  border-color: transparent; color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(245, 158, 11, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.acts .no.active {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  border-color: transparent; color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(239, 68, 68, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+
+.study-actions .reveal-btn {
+  background: rgba(124, 58, 237, .10);
+  border-color: rgba(124, 58, 237, .28);
+  color: #7C3AED;
+}
+.study-actions .reveal-btn:hover {
+  background: linear-gradient(135deg, #7C3AED, #EC4899) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+.study-actions .master-btn {
+  display: none;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  border-color: transparent; color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(34, 197, 94, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.card.study.revealed .master-btn { display: block; }
+
+.speak {
+  position: absolute; top: 8px; right: 8px;
+  border: 0;
+  background: rgba(124, 58, 237, .10);
+  color: #7C3AED;
+  border-radius: 50%;
+  width: 28px; height: 28px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1; line-height: 1;
+  transition: all .2s var(--ease);
+}
+.speak::before { /*P1: 视觉28px但热区扩到44px*/
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+}
+.speak:hover {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px -4px rgba(124, 58, 237, .6);
+}
+
+.empty {
+  grid-column: 1/-1; grid-row: 1/-1;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 10px; color: #94a3b8; font-size: 14px; text-align: center; padding: 20px;
+}
+.empty .big { font-size: 42px; filter: drop-shadow(0 4px 12px rgba(124, 58, 237, .25)); }
+
+.nav-side {
+  position: absolute; top: 50%;
+  transform: translateY(-50%);
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, .88);
+  color: #334155;
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 20;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 10px 24px -10px rgba(31, 41, 55, .30);
+  transition: all .25s var(--ease);
+}
+.nav-side:hover:not(:disabled) {
+  color: #7C3AED;
+  border-color: rgba(124, 58, 237, .28);
+  transform: translateY(-50%) scale(1.06);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 14px 30px -10px rgba(124, 58, 237, .40);
+}
+.nav-side:active:not(:disabled) {
+  transform: translateY(-50%) scale(.94);
+  transition: transform .1s ease;
+}
+.nav-side:disabled { opacity: .25; cursor: not-allowed; }
+.nav-side.left { left: 10px; }
+.nav-side.right { right: 10px; }
+.nav-side.hidden { display: none; }
+
+.bottom-bar {
+  flex-shrink: 0;
+  height: 48px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0 20px;
+  font-size: 13px; font-weight: 700; color: #64748b;
+  transition: color .2s;
+  letter-spacing: .3px;
+}
+.bottom-bar.hidden { display: none; }
+.bottom-bar.bb-hint { color: #7C3AED; }
+.bottom-bar.bb-done { color: #16a34a; }
+.bottom-bar .bb-page { color: #94a3b8; font-weight: 600; margin-right: 8px; font-variant-numeric: tabular-nums; }
+.bottom-bar .bb-progress { color: #7C3AED; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+/* ── 测试页 ─────────────── */
+.test-wrap {
+  flex: 1; min-height: 0;
+  display: flex; flex-direction: column;
+  overflow-y: auto;
+  max-width: 760px; margin: 0 auto; width: 100%;
+}
+.test-wrap::-webkit-scrollbar { width: 0; }
+.sec-title {
+  font-size: 16px; margin: 2px 0 6px;
+  color: #0f172a; font-weight: 900; letter-spacing: -.02em;
+}
+.test-intro { font-size: 12px; color: #94a3b8; line-height: 1.6; margin: 0 0 14px; font-weight: 500; }
+
+.test-group {
+  background: rgba(255, 255, 255, .82);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  padding: 16px 18px; margin-bottom: 10px;
+  box-shadow: var(--glass-shadow);
+  transition: all .25s var(--ease);
+}
+.test-group:hover:not(.empty-state) {
+  transform: translateY(-2px);
+  box-shadow: var(--glass-shadow-hover);
+  border-color: rgba(124, 58, 237, .22);
+}
+.test-group.empty-state { opacity: .45; pointer-events: none; }
+.tg-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.tg-icon {
+  width: 36px; height: 36px; border-radius: 11px;
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 900; color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-icon.unknown {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  box-shadow: 0 6px 16px -6px rgba(239, 68, 68, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-icon.fuzzy {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  box-shadow: 0 6px 16px -6px rgba(245, 158, 11, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-icon.known {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  box-shadow: 0 6px 16px -6px rgba(34, 197, 94, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-title { font-size: 15px; font-weight: 800; color: #0f172a; letter-spacing: -.01em; }
+.tg-count {
+  margin-left: auto; font-size: 13px; font-weight: 800;
+  color: #7C3AED;
+  background: rgba(124, 58, 237, .10);
+  padding: 4px 11px; border-radius: 999px;
+}
+.tg-meta { font-size: 11.5px; color: #64748b; line-height: 1.5; margin-left: 46px; }
+.tg-meta b { color: #334155; font-weight: 700; }
+.tg-meta .dim { color: #7C3AED; font-weight: 700; }
+.tg-start {
+  margin-top: 10px; margin-left: 46px;
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff; border: 0; border-radius: 11px;
+  padding: 10px 22px; font-size: 13px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+  box-shadow: 0 8px 20px -8px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-start:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px -8px rgba(124, 58, 237, .75), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tg-start:active:not(:disabled) { transform: scale(.97); }
+.tg-start:disabled { background: #cbd5e1; cursor: not-allowed; box-shadow: none; }
+
+.mix-group {
+  background: rgba(255, 255, 255, .82);
+  border: 1.5px dashed rgba(124, 58, 237, .28);
+  border-radius: 18px;
+  padding: 14px 18px; text-align: center; margin-top: 6px;
+}
+.mix-group .tg-title { font-size: 14px; }
+.mix-group .tg-desc { font-size: 11.5px; color: #94a3b8; margin: 5px 0 12px; }
+.mix-group button {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff; border: 0; border-radius: 11px;
+  padding: 10px 24px; font-size: 13px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+  box-shadow: 0 8px 20px -8px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.mix-group button:hover { transform: translateY(-2px); }
+
+.test-top {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 8px; font-size: 12.5px; color: #64748b;
+  margin-bottom: 6px; flex-shrink: 0;
+}
+.test-top .quit {
+  border: 1px solid rgba(15, 23, 42, .10);
+  background: rgba(255, 255, 255, .88);
+  border-radius: 9px;
+  padding: 6px 12px; font-size: 12px;
+  cursor: pointer; font-family: inherit; color: #475569;
+  font-weight: 700;
+  transition: all .2s var(--ease);
+}
+.test-top .quit:hover {
+  border-color: rgba(239, 68, 68, .3);
+  color: #dc2626;
+}
+.test-mode-tag {
+  font-size: 11px; font-weight: 800;
+  padding: 4px 11px; border-radius: 999px;
+  background: rgba(124, 58, 237, .10);
+  color: #7C3AED;
+}
+
+.test-progress-bar {
+  height: 5px;
+  background: rgba(15, 23, 42, .07);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 14px; flex-shrink: 0;
+}
+.test-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #7C3AED, #EC4899, #F97316);
+  border-radius: 999px;
+  transition: width .35s var(--ease);
+  width: 0%;
+  box-shadow: 0 0 12px rgba(124, 58, 237, .55);
+}
+
+.qbox {
+  background: rgba(255, 255, 255, .94);
+  border: 1px solid var(--glass-border);
+  border-radius: 22px;
+  padding: 24px 20px;
+  box-shadow: var(--glass-shadow);
+}
+.q-label { font-size: 12.5px; color: #94a3b8; margin-bottom: 14px; text-align: center; font-weight: 600; }
+.q-word {
+  font-size: 34px; font-weight: 900;
+  text-align: center; color: #0f172a;
+  letter-spacing: -.04em; line-height: 1.1;
+}
+.q-ipa { text-align: center; color: #94a3b8; font-size: 13px; margin: 6px 0 18px; font-weight: 500; }
+.q-zh { font-size: 26px; font-weight: 900; text-align: center; margin: 10px 0 4px; color: #0f172a; letter-spacing: -.03em; }
+.q-pos { text-align: center; color: #7C3AED; font-size: 12.5px; margin-bottom: 18px; font-weight: 700; }
+.q-hint {
+  text-align: center;
+  font-size: 20px; font-weight: 800;
+  color: #7C3AED;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+  font-family: "Courier New", monospace;
+}
+.q-cloze {
+  font-size: 16px; line-height: 1.7; color: #0f172a;
+  background: rgba(15, 23, 42, .04);
+  border-radius: 12px;
+  padding: 16px 18px; margin-bottom: 18px;
+  border-left: 3px solid #7C3AED;
+  font-weight: 500;
+}
+.q-cloze .blank { color: #7C3AED; font-weight: 800; letter-spacing: 2px; }
+
+.center { text-align: center; }
+.answer-input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 17px;
+  border: 1.5px solid rgba(15, 23, 42, .10);
+  border-radius: 13px;
+  outline: none;
+  margin-bottom: 14px;
+  font-family: inherit;
+  background: #f8fafc;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all .2s var(--ease);
+  color: #0f172a;
+}
+.answer-input:focus {
+  border-color: #7C3AED;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, .15);
+}
+.row { display: flex; gap: 9px; flex-wrap: wrap; }
+.row.center { justify-content: center; margin-top: 12px; }
+button.primary {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff; border: 0; border-radius: 12px;
+  padding: 12px 24px; font-size: 14px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+  box-shadow: 0 8px 20px -8px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+button.primary:hover:not(:disabled) { transform: translateY(-2px); }
+button.primary:disabled { opacity: .5; cursor: not-allowed; }
+button.ghost {
+  background: rgba(255, 255, 255, .9);
+  border: 1.5px solid rgba(15, 23, 42, .10);
+  color: #475569; border-radius: 12px;
+  padding: 11px 20px; font-size: 13.5px;
+  cursor: pointer; font-family: inherit;
+  font-weight: 700;
+  transition: all .2s var(--ease);
+}
+button.ghost:hover {
+  border-color: rgba(124, 58, 237, .28);
+  color: #7C3AED;
+}
+.speak-big {
+  background: rgba(124, 58, 237, .10);
+  color: #7C3AED;
+  border: 2px solid rgba(124, 58, 237, .25);
+  border-radius: 15px;
+  padding: 15px 34px; font-size: 15px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+}
+.speak-big:hover {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 10px 24px -8px rgba(124, 58, 237, .65);
+  transform: translateY(-2px);
+}
+.options { display: grid; gap: 10px; }
+.opt {
+  padding: 16px;
+  font-size: 14.5px;
+  background: rgba(255, 255, 255, .9);
+  border: 1.5px solid rgba(15, 23, 42, .08);
+  border-radius: 13px;
+  cursor: pointer;
+  text-align: left; font-family: inherit;
+  color: #0f172a; font-weight: 600;
+  transition: all .2s var(--ease);
+}
+.opt:hover:not(:disabled) {
+  border-color: rgba(124, 58, 237, .35);
+  background: rgba(124, 58, 237, .04);
+  transform: translateY(-1px);
+}
+.opt.correct {
+  background: linear-gradient(170deg, #dcfce7, #bbf7d0);
+  border-color: #16a34a;
+  font-weight: 800;
+  color: #14532d;
+}
+.opt.wrong {
+  background: linear-gradient(170deg, #fee2e2, #fecaca);
+  border-color: #dc2626;
+  color: #7f1d1d;
+}
+.opt:disabled { cursor: default; }
+
+.uncertain-btn {
+  display: block; margin: 16px auto 0;
+  padding: 9px 22px;
+  min-height: 44px; /*P1: 触控目标 ≥44px*/
+  font-size: 12.5px;
+  border-radius: 10px;
+  border: 1.5px dashed rgba(15, 23, 42, .18);
+  background: rgba(255, 255, 255, .85);
+  color: #94a3b8;
+  cursor: pointer; font-family: inherit; font-weight: 700;
+  transition: all .2s var(--ease);
+}
+.uncertain-btn:hover:not(:disabled) {
+  border-color: rgba(124, 58, 237, .4);
+  color: #7C3AED;
+  background: rgba(124, 58, 237, .06);
+}
+.uncertain-btn:disabled { opacity: .4; cursor: not-allowed; }
+
+.feedback { margin-top: 12px; border-radius: 18px; padding: 18px; display: none; }
+.feedback.good, .feedback.bad, .feedback.uncertain { display: block; }
+.feedback.good {
+  background: linear-gradient(170deg, #f0fdf4, #dcfce7);
+  border: 1.5px solid rgba(134, 239, 172, .9);
+  box-shadow: 0 8px 22px -14px rgba(34, 197, 94, .40);
+}
+.feedback.bad {
+  background: linear-gradient(170deg, #fef2f2, #fee2e2);
+  border: 1.5px solid rgba(252, 165, 165, .9);
+  box-shadow: 0 8px 22px -14px rgba(239, 68, 68, .40);
+}
+.feedback.uncertain {
+  background: linear-gradient(170deg, #fffbeb, #fef3c7);
+  border: 1.5px solid rgba(252, 211, 77, .9);
+  box-shadow: 0 8px 22px -14px rgba(245, 158, 11, .40);
+}
+.fb-title { font-weight: 900; margin-bottom: 10px; font-size: 14px; letter-spacing: -.01em; }
+.fb-answer { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 15px; }
+.fb-en { font-weight: 900; color: #0f172a; font-size: 20px; letter-spacing: -.02em; }
+.fb-ipa { color: #94a3b8; font-size: 12.5px; font-weight: 500; }
+.fb-zh { color: #334155; font-weight: 600; }
+.fb-ex { margin-top: 8px; font-size: 12.5px; color: #64748b; font-style: italic; line-height: 1.45; }
+.fb-badge {
+  display: inline-block; margin-top: 12px;
+  font-size: 11.5px; font-weight: 800;
+  padding: 5px 13px; border-radius: 999px;
+}
+.fb-up { background: #dcfce7; color: #16a34a; }
+.fb-down { background: #fee2e2; color: #dc2626; }
+.fb-keep { background: rgba(15, 23, 42, .07); color: #64748b; }
+.fb-uncertain { background: #fef3c7; color: #92400e; }
+
+.meta-tip {
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: rgba(124, 58, 237, .07);
+  border: 1px solid rgba(124, 58, 237, .18);
+  border-radius: 12px;
+  font-size: 12.5px;
+  color: #5b21b6;
+  line-height: 1.55;
+  display: flex; gap: 9px; align-items: flex-start;
+}
+.meta-tip .icon { flex-shrink: 0; font-size: 15px; line-height: 1.3; }
+.meta-tip .text { flex: 1; font-weight: 500; }
+
+.speak {
+  border: 0;
+  background: rgba(124, 58, 237, .12);
+  color: #7C3AED;
+  border-radius: 50%;
+  width: 30px; height: 30px;
+  cursor: pointer; font-size: 14px; flex-shrink: 0;
+  transition: all .2s var(--ease);
+}
+.speak:hover {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  transform: scale(1.08);
+}
+
+.done-card {
+  background: rgba(255, 255, 255, .94);
+  border: 1px solid var(--glass-border);
+  border-radius: 22px;
+  padding: 28px 22px; text-align: center;
+  box-shadow: var(--glass-shadow);
+}
+.done-emoji { font-size: 46px; filter: drop-shadow(0 6px 16px rgba(124, 58, 237, .3)); }
+.done-card h2 { margin: 8px 0; font-size: 20px; font-weight: 900; letter-spacing: -.02em; }
+.done-score { font-size: 15px; color: #475569; margin: 6px 0 0; }
+.done-score b { color: #7C3AED; font-size: 24px; font-weight: 900; }
+.done-changes {
+  text-align: left; margin: 18px 0 4px;
+  background: rgba(15, 23, 42, .04);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.done-changes h3 { font-size: 12.5px; color: #64748b; margin: 0 0 10px; font-weight: 800; }
+.done-changes ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; font-size: 13px; }
+.done-changes li { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.done-changes .arrow-up { color: #16a34a; font-weight: 900; }
+.done-changes .arrow-down { color: #dc2626; font-weight: 900; }
+.done-changes .arrow-keep { color: #94a3b8; font-weight: 900; }
+.wrong-list { text-align: left; margin: 16px 0 4px; }
+.wrong-list h3 { font-size: 13px; color: #94a3b8; margin: 0 0 10px; text-align: center; font-weight: 700; }
+.wrong-list ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-height: 30vh; overflow-y: auto; }
+.wrong-list li {
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(255, 255, 255, .9);
+  border: 1px solid rgba(15, 23, 42, .06);
+  border-radius: 12px;
+  padding: 10px 12px; font-size: 14px; flex-wrap: wrap;
+}
+.wrong-list li span:first-child { font-weight: 900; }
+.wrong-list em { color: #94a3b8; font-style: normal; font-size: 11.5px; font-weight: 500; }
+.wrong-list .zh { color: #334155; margin-left: auto; font-weight: 600; }
+
+/* ── 结果页 ─────────────── */
+.result-wrap {
+  flex: 1; min-height: 0;
+  display: flex; flex-direction: column;
+  max-width: 980px; margin: 0 auto; width: 100%;
+}
+.stats {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 8px; margin-bottom: 12px; flex-shrink: 0;
+}
+.stat {
+  background: rgba(255, 255, 255, .88);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  padding: 12px 4px; text-align: center;
+  box-shadow: var(--glass-shadow);
+  transition: all .25s var(--ease);
+}
+.stat:hover { transform: translateY(-2px); box-shadow: var(--glass-shadow-hover); }
+.stat .n { font-size: 22px; font-weight: 900; color: #7C3AED; line-height: 1.1; letter-spacing: -.02em; }
+.stat .l { font-size: 10.5px; color: #94a3b8; margin-top: 4px; font-weight: 700; }
+
+.analysis-tabs { display: flex; gap: 6px; margin-bottom: 10px; flex-shrink: 0; flex-wrap: wrap; }
+.atab {
+  padding: 7px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(15, 23, 42, .08);
+  background: rgba(255, 255, 255, .82);
+  font-size: 12px; font-weight: 800;
+  color: #64748b;
+  cursor: pointer; font-family: inherit;
+  transition: all .2s var(--ease);
+}
+.atab:hover:not(.active) {
+  border-color: rgba(124, 58, 237, .28);
+  color: #7C3AED;
+}
+.atab.active {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 6px 16px -6px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+
+.apanel {
+  flex: 1; min-height: 0;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, .9);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  box-shadow: var(--glass-shadow);
+  padding: 18px;
+}
+.apanel::-webkit-scrollbar { width: 5px; }
+.apanel::-webkit-scrollbar-thumb { background: rgba(15, 23, 42, .15); border-radius: 3px; }
+.apanel.hidden { display: none; }
+
+.res-bar {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 8px; margin-bottom: 10px; flex-shrink: 0; flex-wrap: wrap;
+}
+.res-bar .progress { font-size: 13px; color: #475569; font-weight: 600; }
+.res-bar .progress b { color: #7C3AED; font-size: 15px; font-weight: 900; }
+.res-bar .tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.res-bar button {
+  border: 0; border-radius: 10px;
+  padding: 9px 14px; font-size: 12.5px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .2s var(--ease);
+}
+.res-bar button:hover { transform: translateY(-1px); }
+.btn-pdf {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(239, 68, 68, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.btn-xls {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #fff;
+  box-shadow: 0 6px 16px -6px rgba(34, 197, 94, .55), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.btn-csv {
+  background: rgba(255, 255, 255, .9);
+  color: #475569;
+  border: 1.5px solid rgba(15, 23, 42, .10) !important;
+}
+
+.ana-title {
+  font-size: 14px; font-weight: 900;
+  color: #0f172a; margin: 0 0 10px;
+  letter-spacing: -.01em;
+}
+.ana-sub { font-size: 11.5px; color: #64748b; margin: 0 0 14px; line-height: 1.5; font-weight: 500; } /*P1: 对比度修正*/
+
+.matrix-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.matrix-table th, .matrix-table td {
+  padding: 10px 12px; text-align: center;
+  border: 1px solid rgba(15, 23, 42, .06);
+}
+.matrix-table th {
+  background: rgba(15, 23, 42, .04);
+  color: #64748b; font-size: 11px; font-weight: 800;
+}
+.matrix-table .row-head {
+  background: rgba(15, 23, 42, .04);
+  font-weight: 800; color: #475569; text-align: left;
+}
+.matrix-table .diag { color: #16a34a; font-weight: 900; background: rgba(34, 197, 94, .10); }
+.matrix-table .up { color: #16a34a; font-weight: 900; }
+.matrix-table .down { color: #dc2626; font-weight: 900; }
+.matrix-table .zero { color: #cbd5e1; }
+
+.bar-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; font-size: 12.5px; }
+.bar-label { width: 92px; color: #475569; font-weight: 700; flex-shrink: 0; }
+.bar-track {
+  flex: 1; height: 22px;
+  background: rgba(15, 23, 42, .05);
+  border-radius: 999px; overflow: hidden;
+}
+.bar-fill {
+  height: 100%; border-radius: 999px;
+  transition: width .55s var(--ease);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35);
+}
+.bar-val {
+  width: 70px; text-align: right;
+  color: #334155; font-weight: 800;
+  flex-shrink: 0; font-variant-numeric: tabular-nums;
+}
+
+.top-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 7px; }
+.top-list li {
+  display: flex; align-items: center; gap: 12px;
+  background: rgba(255, 255, 255, .82);
+  border: 1px solid rgba(15, 23, 42, .06);
+  border-radius: 12px;
+  padding: 10px 12px; font-size: 13px;
+  transition: all .2s var(--ease);
+}
+.top-list li:hover {
+  transform: translateX(2px);
+  border-color: rgba(124, 58, 237, .20);
+  background: rgba(255, 255, 255, .95);
+}
+.top-list .rank {
+  width: 24px; height: 24px; border-radius: 50%;
+  background: rgba(15, 23, 42, .08);
+  color: #64748b;
+  font-size: 11px; font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.top-list .rank.r1 { background: linear-gradient(135deg, #FACC15, #F59E0B); color: #fff; box-shadow: 0 4px 10px -3px rgba(245, 158, 11, .65); }
+.top-list .rank.r2 { background: linear-gradient(135deg, #E5E7EB, #9CA3AF); color: #fff; }
+.top-list .rank.r3 { background: linear-gradient(135deg, #FDBA74, #EA580C); color: #fff; }
+.top-list .en { font-weight: 900; color: #0f172a; }
+.top-list .meta { margin-left: auto; font-size: 11.5px; color: #94a3b8; font-weight: 600; }
+.top-list .count { color: #dc2626; font-weight: 900; font-size: 12px; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.kpi {
+  background: rgba(255, 255, 255, .82);
+  border: 1px solid rgba(15, 23, 42, .06);
+  border-radius: 12px;
+  padding: 13px 14px;
+  transition: all .2s var(--ease);
+}
+.kpi:hover { transform: translateY(-2px); box-shadow: 0 8px 20px -10px rgba(31, 41, 55, .20); }
+.kpi .k { font-size: 10.5px; color: #94a3b8; font-weight: 800; text-transform: uppercase; letter-spacing: .6px; }
+.kpi .v { font-size: 20px; font-weight: 900; color: #0f172a; margin-top: 5px; line-height: 1.1; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.kpi .u { font-size: 11px; color: #94a3b8; font-weight: 600; }
+
+table.result-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+table.result-table th, table.result-table td {
+  padding: 10px 11px; text-align: left;
+  border-bottom: 1px solid rgba(15, 23, 42, .06);
+  vertical-align: top;
+}
+table.result-table th {
+  background: rgba(15, 23, 42, .04);
+  font-size: 11px; color: #64748b;
+  font-weight: 800;
+  position: sticky; top: 0; z-index: 1;
+}
+td.en-cell { font-weight: 900; color: #0f172a; }
+td.ipa-cell { color: #94a3b8; font-size: 11px; font-weight: 500; }
+td.dim-cell { font-size: 11px; color: #7C3AED; font-weight: 700; white-space: nowrap; }
+.badge-cell { font-weight: 800; font-size: 11px; white-space: nowrap; }
+.b-known { color: #16a34a; }
+.b-fuzzy { color: #d97706; }
+.b-unknown { color: #dc2626; }
+.b-none { color: #cbd5e1; }
+.prio-cell { color: #F59E0B; font-weight: 900; text-align: center; }
+.review-cell { font-size: 10.5px; color: #94a3b8; white-space: nowrap; font-weight: 600; }
+.review-cell.due { color: #dc2626; font-weight: 800; }
+.review-cell.ok { color: #16a34a; font-weight: 700; }
+
+/* ── 教程弹窗 ─────────────── */
+.tutorial {
+  position: fixed; inset: 0;
+  z-index: 300;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, .72);
+  backdrop-filter: blur(28px) saturate(120%) brightness(.92);
+  -webkit-backdrop-filter: blur(28px) saturate(120%) brightness(.92);
+}
+.tutorial-box {
+  background: rgba(255, 255, 255, .99);
+  border-radius: 24px;
+  padding: 28px 26px;
+  max-width: 460px; width: 100%;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 30px 70px -20px rgba(15, 23, 42, .55),
+    0 0 0 1px rgba(255, 255, 255, .65);
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: modalIn .35s var(--ease);
+}
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(12px) scale(.96); }
+}
+.tutorial-box h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -.025em;
+  color: #0f172a;
+}
+.tutorial-box p { margin: 0 0 12px; font-size: 13.5px; color: #475569; line-height: 1.6; font-weight: 500; }
+.tutorial-box ol {
+  padding-left: 22px; margin: 0 0 18px;
+  font-size: 13px; color: #334155; line-height: 1.9;
+  font-weight: 500;
+}
+.tutorial-box ol b { color: #7C3AED; font-weight: 800; }
+.tutorial-box ol em { color: #94a3b8; font-style: normal; font-size: 11.5px; }
+.tutorial-box .theory {
+  background: rgba(124, 58, 237, .08);
+  border: 1px solid rgba(124, 58, 237, .18);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 12px;
+  color: #5b21b6;
+  line-height: 1.65;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+.tutorial-box button {
+  display: block; width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff; border: 0; border-radius: 13px;
+  font-size: 14px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+  box-shadow: 0 10px 24px -10px rgba(124, 58, 237, .70), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tutorial-box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -10px rgba(124, 58, 237, .80), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.tutorial.hidden { display: none; }
+
+/* ══════════════════════════════════════════════════════════════
+   拼写验证弹窗：完整字段 + 背景强模糊 + 一字母一框
+   ══════════════════════════════════════════════════════════════ */
+.spell-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 310;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  /* 背景强模糊：28px + 亮度降低，背后词汇完全看不清 */
+  background: rgba(15, 23, 42, .72);
+  backdrop-filter: blur(28px) saturate(120%) brightness(.92);
+  -webkit-backdrop-filter: blur(28px) saturate(120%) brightness(.92);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease;
+}
+.spell-modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.spell-box {
+  background: rgba(255, 255, 255, .99);
+  border-radius: 22px;
+  padding: 24px 22px 20px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 30px 70px -20px rgba(15, 23, 42, .55),
+    0 0 0 1px rgba(255, 255, 255, .65);
+  transform: translateY(12px) scale(.96);
+  transition: transform .35s var(--ease);
+}
+.spell-modal.show .spell-box {
+  transform: translateY(0) scale(1);
+}
+
+.spell-title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -.02em;
+  margin: 0 0 6px;
+  text-align: center;
+}
+.spell-sub {
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 600;
+  margin: 0 0 18px;
+  text-align: center;
+  letter-spacing: .01em;
+}
+
+.spell-zh {
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 4px;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+}
+.spell-pos {
+  text-align: center;
+  color: #7C3AED;
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: .02em;
+}
+
+/* 字母结构提示 chips */
+.spell-struct {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.spell-struct .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #7C3AED;
+  background: rgba(124, 58, 237, .10);
+  border: 1px solid rgba(124, 58, 237, .20);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+.spell-struct .chip.phrase {
+  color: #EC4899;
+  background: rgba(236, 72, 153, .10);
+  border-color: rgba(236, 72, 153, .22);
+}
+.spell-struct .chip .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: .7;
+}
+
+/* 字母框 */
+.letter-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  min-height: 56px;
+}
+.letter-box {
+  width: 42px;
+  height: 52px;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: lowercase;
+  border: 2px solid rgba(15, 23, 42, .10);
+  border-radius: 12px;
+  background: #f8fafc;
+  color: #0f172a;
+  outline: none;
+  transition: all .2s var(--ease);
+  font-family: inherit;
+  padding: 0;
+  caret-color: #7C3AED;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.letter-box:focus {
+  border-color: #7C3AED;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, .15);
+  transform: translateY(-2px);
+}
+.letter-box.filled {
+  background: rgba(124, 58, 237, .06);
+  border-color: rgba(124, 58, 237, .35);
+  color: #7C3AED;
+}
+.letter-box.correct {
+  background: #dcfce7;
+  border-color: #16a34a;
+  color: #16a34a;
+  animation: popIn .3s var(--ease);
+}
+.letter-box.wrong {
+  background: #fee2e2;
+  border-color: #dc2626;
+  color: #dc2626;
+  animation: shake .35s ease;
+}
+@keyframes popIn {
+  0%   { transform: scale(.85); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%      { transform: translateX(-4px); }
+  40%      { transform: translateX(4px); }
+  60%      { transform: translateX(-3px); }
+  80%      { transform: translateX(2px); }
+}
+.letter-gap {
+  width: 14px;
+  flex-shrink: 0;
+}
+
+/* 反馈条 */
+.spell-feedback {
+  display: none;
+  margin-bottom: 14px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: center;
+}
+.spell-feedback b {
+  font-weight: 900;
+  letter-spacing: -.01em;
+  font-size: 14px;
+}
+.spell-feedback.good {
+  background: #f0fdf4;
+  border: 1.5px solid rgba(134, 239, 172, .9);
+  color: #16a34a;
+}
+.spell-feedback.near {
+  background: #eff6ff;
+  border: 1.5px solid rgba(191, 219, 254, .95);
+  color: #1d4ed8;
+}
+.spell-feedback.miss {
+  background: #fef2f2;
+  border: 1.5px solid rgba(252, 165, 165, .9);
+  color: #dc2626;
+}
+.spell-feedback.skip {
+  background: #fffbeb;
+  border: 1.5px solid rgba(252, 211, 77, .9);
+  color: #92400e;
+}
+
+.spell-actions { display: flex; gap: 10px; }
+.spell-actions .submit {
+  flex: 1;
+  padding: 13px;
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #fff;
+  border: 0; border-radius: 12px;
+  font-size: 14px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .25s var(--ease);
+  box-shadow: 0 8px 20px -8px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.spell-actions .submit:hover:not(:disabled) { transform: translateY(-2px); }
+.spell-actions .submit.ready {
+  animation: pulseReady 1.6s ease-in-out infinite;
+}
+@keyframes pulseReady {
+  0%, 100% { box-shadow: 0 8px 20px -8px rgba(124, 58, 237, .65), inset 0 1px 0 rgba(255, 255, 255, .25); }
+  50%      { box-shadow: 0 8px 24px -6px rgba(124, 58, 237, .90), inset 0 1px 0 rgba(255, 255, 255, .25); }
+}
+.spell-actions .skip {
+  padding: 13px 20px;
+  background: rgba(255, 255, 255, .9);
+  color: #64748b;
+  border: 1.5px solid rgba(15, 23, 42, .10);
+  border-radius: 12px;
+  font-size: 13px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+  transition: all .2s var(--ease);
+}
+.spell-actions .skip:hover:not(:disabled) {
+  border-color: rgba(124, 58, 237, .3);
+  color: #7C3AED;
+}
+.spell-actions button:disabled { opacity: .5; cursor: not-allowed; transform: none !important; }
+
+.hidden { display: none !important; }
+
+/* ── 响应式 ─────────────── */
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .word { font-size: clamp(18px, 2.2vw, 26px); }
+  .ipa { font-size: clamp(10.5px, 1.1vw, 13px); }
+  .zh { font-size: clamp(12.5px, 1.3vw, 15px); }
+}
+@media (max-width: 780px) {
+  .slide { padding: 10px 54px; }
+  .nav-side { width: 42px; height: 42px; font-size: 15px; }
+  .nav-side.left { left: 6px; }
+  .nav-side.right { right: 6px; }
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .card { padding: 12px; border-radius: 16px; gap: 6px; }
+  .acts button, .study-actions button { font-size: 12px; padding: 9px 0; }
+}
+@media (max-width: 520px) {
+  .topbar { padding: 12px 14px 10px; gap: 10px; }
+  .top-title { font-size: 16px; letter-spacing: -.03em; }
+  .top-sub { font-size: 10.5px; padding: 3px 10px; }
+  .nav-pills { gap: 4px; padding: 4px; border-radius: 13px; }
+  .tab-btn { padding: 8px 4px; gap: 4px; font-size: 11.5px; border-radius: 9px; }
+  .nav-num { width: 17px; height: 17px; font-size: 10px; }
+  .nav-label { font-size: 11px; }
+  .slide { padding: 8px 48px; }
+  .nav-side { width: 38px; height: 38px; font-size: 14px; }
+  .card-grid { gap: 8px; }
+  .card { padding: 10px; border-radius: 14px; gap: 5px; }
+  .acts button, .study-actions button { font-size: 11px; padding: 8px 0; border-radius: 9px; }
+  .badges span { font-size: 10px; padding: 0 6px; }
+  .word { font-size: clamp(16px, 4.8vw, 22px); }
+  .ipa { font-size: clamp(10px, 3.2vw, 12px); }
+  .zh { font-size: clamp(11.5px, 3.6vw, 14px); }
+  .ex { font-size: clamp(9px, 2.8vw, 11px); -webkit-line-clamp: 2; }
+  .stat .n { font-size: 17px; }
+  .stats { gap: 5px; }
+  .tg-meta, .tg-start { margin-left: 0; }
+  .bar-label { width: 76px; font-size: 11.5px; }
+  .bar-val { width: 60px; font-size: 11.5px; }
+  .bottom-bar { font-size: 12px; height: 42px; }
+  .bottom-bar .bb-page { margin-right: 6px; }
+  .page-hint { flex-wrap: wrap; padding: 6px 10px; }
+  .shuffle-btn { padding: 4px 9px; font-size: 11px; }
+  .review-tag { font-size: 9px; padding: 2px 7px; }
+  .speak { width: 24px; height: 24px; font-size: 12px; top: 6px; right: 6px; }
+  .tutorial-box { padding: 22px 20px; border-radius: 20px; }
+  .spell-box { padding: 22px 18px 18px; border-radius: 20px; }
+  .spell-zh { font-size: 22px; }
+  .letter-boxes { gap: 4px; margin-bottom: 18px; min-height: 46px; }
+  .letter-box { width: 34px; height: 44px; font-size: 18px; border-radius: 10px; border-width: 1.5px; }
+  .letter-gap { width: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition-duration: .01ms !important; }
+}
+#tutorial{display:none!important}
+.hint-text,.page-hint,.meta-tip,.q-hint,.recall-hint{display:none!important}
+</style>
+<script>
+/* == SwipeDeck 样机：左右滑翻词卡页（跟手/微振动/键盘），平板 App 感 2026-10-17 == */
+(function(){
+  var SD={h:[],x0:0,y0:0,lock:null,active:false};
+  function curStage(){
+    var on=document.querySelector(".stage.on,#stageWrap .on,[data-stage].on");
+    var el=on||document.querySelector("[class*=stage]");
+    if(!on){ var vs=document.querySelectorAll(".stage"); for(var i=0;i<vs.length;i++){ if(vs[i].offsetParent) return vs[i].id||vs[i].dataset.stage||"filter"; } return "filter"; }
+    return on.id||on.dataset.stage||"filter";
+  }
+  function dispatch(dir){
+    var st=curStage();
+    if(st.indexOf("filter")>=0){ pageState.filter += (dir==="L"?1:-1); renderFilterPage(); vib(); }
+    else if(st.indexOf("study")>=0){ pageState.study += (dir==="L"?1:-1); renderStudyPage(); vib(); }
+    else if(st.indexOf("test")>=0 || st.indexOf("quiz")>=0){ if(dir==="L") nextQuestion(); vib(); }
+  }
+  function vib(){ try{ navigator.vibrate && navigator.vibrate(10); }catch(e){} }
+  function sdDown(e){ var t=e.touches?e.touches[0]:e; SD.x0=t.clientX; SD.y0=t.clientY; SD.lock=null; SD.active=true; }
+  function sdMove(e){ if(!SD.active) return; var t=e.touches?e.touches[0]:e; var dx=t.clientX-SD.x0, dy=t.clientY-SD.y0;
+    if(!SD.lock && Math.abs(dx)>12 && Math.abs(dx)>Math.abs(dy)*1.4){ SD.lock="x"; }
+    else if(!SD.lock && Math.abs(dy)>12){ SD.lock="y"; } }
+  function sdUp(e){ if(!SD.active) return; SD.active=false;
+    if(SD.lock!=="x"){ SD.x0=0; return; }
+    var t=e.changedTouches?e.changedTouches[0]:e; var dx=t.clientX-SD.x0; SD.x0=0;
+    if(Math.abs(dx)<56) return; dispatch(dx<0?"L":"R"); }
+  document.addEventListener("pointerdown", sdDown, {passive:true});
+  document.addEventListener("touchstart", sdDown, {passive:true});
+  document.addEventListener("pointermove", sdMove, {passive:true});
+  document.addEventListener("touchmove", sdMove, {passive:true});
+  document.addEventListener("pointerup", sdUp);
+  document.addEventListener("touchend", sdUp);
+  
+  
+  document.addEventListener("keydown",function(e){
+    if(e.key!=="ArrowLeft"&&e.key!=="ArrowRight") return;
+    var t=e.target.tagName; if(t==="INPUT"||t==="TEXTAREA") return;
+    dispatch(e.key==="ArrowLeft"?"L":"R");
+  });
+  window.SwipeDeck=SD;
+})();
+</script>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span>
+</div>
+
+<div class="app">
+
+  <div class="topbar">
+    <div class="top-row">
+      <div class="top-title">Unit 8 · A teenage DJ</div>
+      <div class="top-sub" id="topSub">61 词</div>
+    </div>
+    <nav class="nav-pills">
+      <button class="tab-btn active" data-tab="filter">
+        <span class="nav-num">1</span><span class="nav-label">筛选</span>
+      </button>
+      <button class="tab-btn" data-tab="study">
+        <span class="nav-num">2</span><span class="nav-label">学习</span>
+      </button>
+      <button class="tab-btn" data-tab="test">
+        <span class="nav-num">3</span><span class="nav-label">测试</span>
+      </button>
+      <button class="tab-btn" data-tab="result">
+        <span class="nav-num">4</span><span class="nav-label">档案</span>
+      </button>
+    </nav>
+  </div>
+
+  <div class="stage" id="stage">
+
+    <section class="slide active" id="slide-filter">
+      <div class="catbar" id="catbar"></div>
+      <div class="card-grid" id="filterGrid"></div>
+    </section>
+
+    <section class="slide" id="slide-study">
+      <div class="page-hint">
+        <span class="hint-text" id="studyHintText">💡 先回忆 · 点卡看释义</span>
+        <button class="shuffle-btn" id="shuffleBtn" title="打乱当前顺序">🔀 打乱</button>
+      </div>
+      <div class="card-grid" id="studyGrid"></div>
+    </section>
+
+    <section class="slide" id="slide-test">
+      <div class="test-wrap">
+        <div id="testSetup">
+          <h2 class="sec-title">分层测试</h2>
+          <p class="test-intro">
+            依据 Nation（2013）词汇知识框架，不同掌握程度的词测不同维度。<br>
+            答题后自动安排下次复习时间（间隔重复）。
+          </p>
+          <div id="testGroups"></div>
+        </div>
+        <div id="testArea" class="hidden">
+          <div class="test-top">
+            <span id="testProgress"></span>
+            <span id="testModeTag" class="test-mode-tag"></span>
+            <button id="quitTest" class="quit">退出</button>
+          </div>
+          <div class="test-progress-bar"><div class="test-progress-fill" id="testProgressFill"></div></div>
+          <div id="questionBox" class="qbox"></div>
+          <div id="feedbackBox" class="feedback"></div>
+        </div>
+        <div id="testDone" class="hidden"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-result">
+      <div class="result-wrap">
+        <div class="stats" id="statsBox"></div>
+        <div class="res-bar">
+          <div class="progress">词汇档案 · <b id="resCount">0</b> 条记录</div>
+          <div class="tools">
+            <button id="exportPdf" class="btn-pdf">📄 导出报告</button>
+            <button id="exportXls" class="btn-xls">⬇ Excel</button>
+            <button id="exportCsv" class="btn-csv">⬇ CSV</button>
+            <button id="exportArc" class="btn-csv">⬇ 存档</button>
+            <button id="importArc" class="btn-csv">⬆ 恢复</button>
+            <input type="file" id="importFile" accept="application/json,.json" style="display:none">
+          </div>
+        </div>
+        <div class="analysis-tabs">
+          <button class="atab active" data-ap="overview">概览</button>
+          <button class="atab" data-ap="schedule">复习计划</button>
+          <button class="atab" data-ap="matrix">状态转移</button>
+          <button class="atab" data-ap="wrong">高频错词</button>
+          <button class="atab" data-ap="detail">完整档案</button>
+        </div>
+        <div class="apanel" id="panel-overview"></div>
+        <div class="apanel hidden" id="panel-schedule"></div>
+        <div class="apanel hidden" id="panel-matrix"></div>
+        <div class="apanel hidden" id="panel-wrong"></div>
+        <div class="apanel hidden" id="panel-detail"></div>
+      </div>
+    </section>
+
+    <button id="prevBtn" class="nav-side left hidden" aria-label="上一页">◀</button>
+    <button id="nextBtn" class="nav-side right hidden" aria-label="下一页">▶</button>
+
+  </div>
+
+  <div class="bottom-bar hidden" id="bottomBar">
+    <span id="bottomText"></span>
+  </div>
+
+</div>
+
+<div id="tutorial" class="tutorial hidden">
+  <div class="tutorial-box">
+    <h2>👋 欢迎使用词汇预习工具</h2>
+    <p>Unit 8 · A teenage DJ ｜ 共 61 词</p>
+    <div class="theory">
+      📖 <b>学理依据</b>：基于 Nation（2013）词汇知识框架与间隔重复理论。<br>
+      · 三档状态对应接受性 → 产出性知识的连续体<br>
+      · 学习页采用提取练习（先回忆再揭示）<br>
+      · 测试答错自动安排更短的复习间隔
+    </div>
+    <ol>
+      <li><b>① 筛选</b> — 标记：会 / 眼熟 / 不会</li>
+      <li><b>② 学习</b> — 先回忆，再揭示释义；点“已掌握”升级</li>
+      <li><b>③ 测试</b> — 分层测试；答错自动安排 5 分钟后再复习</li>
+      <li><b>④ 档案</b> — 查看复习计划与学习进度</li>
+    </ol>
+    <button id="tutorialClose">开始使用</button>
+  </div>
+</div>
+
+<div id="spellCheckModal" class="spell-modal">
+  <div class="spell-box">
+    <h3 class="spell-title">🔍 快速验证</h3>
+    <p class="spell-sub">按字母填入 · 允许 1 个字母误差</p>
+    <div class="spell-zh" id="scZh"></div>
+    <div class="spell-pos" id="scPos"></div>
+    <div class="spell-struct" id="scStruct"></div>
+    <div class="letter-boxes" id="scBoxes"></div>
+    <div id="scFeedback" class="spell-feedback"></div>
+    <div class="spell-actions">
+      <button id="scSubmit" class="submit">提交</button>
+      <button id="scSkip" class="skip">跳过</button>
+    </div>
+  </div>
+</div>
+
+<script src="干扰项审校.js"></script>
+<script>
+/* ============================================================
+   词表（61 词）
+   ============================================================ */
+const RAW = [["who", "huː", "pron", "谁，什么人（用于疑问句）", "A1_Starters·A1", "代词", "Who are you?"], ["year", "jɪə(r)", "n", "年，日历年", "A1_Starters·A1", "名词", "I'm 14 years old and I'm from Luton."], ["old", "əʊld", "adj", "（人）……岁的，（事物）存在……久的", "A1_Starters·A1", "形容词", "I'm 14 years old and I'm from Luton."], ["what", "wɒt", "det", "什么，什么样的", "A1_Starters·A1", "冠词", "What do you do?"], ["student", "ˈstjuːd(ə)nt", "n", "学生", "A2_Flyers·A1", "名词", "I'm a student at school and at the weekends I work as a DJ."], ["school", "skuːl", "n", "（中、小）学校", "A1_Starters·A1", "名词", "I'm a student at school and at the weekends I work as a DJ."], ["weekend", "ˌwiːkˈend; ˈwiːkend", "n", "周末", "A1_Movers·A1", "名词", "I'm a student at school and at the weekends I work as a DJ."], ["work", "wɜːk", "n", "工作，职业", "A1_Movers·A1", "名词", "I'm a student at school and at the weekends I work as a DJ."], ["wow", "waʊ", "int", "<非正式>（表示极大的惊奇或钦佩）哇，呀", "A1_Starters·A2", "", "Wow, that's interesting."], ["interesting", "ˈɪntrəstɪŋ", "adj", "有趣的，有吸引力的", "A2_Flyers·A1", "形容词", "Wow, that's interesting."], ["tell", "tel", "v", "告诉，告知", "A1_Starters·A1", "动词", "Can you tell us more?"], ["local", "ˈləʊk(ə)l", "adj", "当地的，地方的", "KET·B1", "形容词", "I'm a DJ at a local youth club."], ["youth", "juːθ", "n", "青少年时期", "PET·B1", "名词", "I'm a DJ at a local youth club."], ["club", "klʌb", "n", "俱乐部，社团", "A2_Flyers·A1", "名词", "I'm a DJ at a local youth club."], ["play", "pleɪ", "v", "玩，玩耍", "A1_Starters·A1", "动词", "I play every Saturday from 6pm to 10pm."], ["saturday", "ˈsætədeɪ", "n", "星期六，周六", "A1_Movers·A1", "名词", "I play every Saturday from 6pm to 10pm."], ["usually", "ˈjuːʒuəli; ˈjuːʒəli", "adv", "通常地，经常地", "A2_Flyers·A1", "副词", "There's usually about 100 people there."], ["people", "ˈpiːp(ə)l", "n", "人，人类", "A1_Starters·A1", "名词", "There's usually about 100 people there."], ["great", "ɡreɪt", "adj", "伟大的，著名的", "A1_Starters·A1", "形容词", "It's great fun."], ["fun", "fʌn", "n", "乐趣，享受", "A1_Starters·A2", "名词", "It's great fun."], ["sometimes", "ˈsʌmtaɪmz", "adv", "有时，间或", "A1_Movers·A1", "副词", "I also sometimes play for big crowds in the park and sometimes on the beach too."], ["big", "bɪɡ", "adj", "（尺寸、数量、规模或年龄）大的", "A1_Starters·A1", "形容词", "I also sometimes play for big crowds in the park and sometimes on the beach too."], ["crowd", "kraʊd", "n", "人群", "KET·A2", "名词", "I also sometimes play for big crowds in the park and sometimes on the beach too."], ["park", "pɑːk", "n", "公园", "A1_Starters·A1", "名词", "I also sometimes play for big crowds in the park and sometimes on the beach too."], ["beach", "biːtʃ", "n", "海滩，海滨", "A1_Starters·A1", "名词", "I also sometimes play for big crowds in the park and sometimes on the beach too."], ["like", "laɪk", "prep", "像，如同", "A1_Starters·B1", "介词", "What do you like doing in your free time?"], ["free", "friː", "adj", "免费的", "KET·B2", "形容词", "What do you like doing in your free time?"], ["time", "taɪm", "n", "（以分钟、小时、天等计量的）时间", "A2_Flyers·B2", "名词", "What do you like doing in your free time?"], ["love", "lʌv", "n", "（对家庭成员或挚友的）喜爱，关爱", "A1_Starters·A1", "名词", "I love listening to music and finding new songs to play."], ["listen", "ˈlɪs(ə)n", "v", "听，倾听", "A1_Starters·A1", "动词", "I love listening to music and finding new songs to play."], ["music", "ˈmjuːzɪk", "n", "音乐，乐曲", "A1_Starters·A1", "名词", "I love listening to music and finding new songs to play."], ["find", "faɪnd", "v", "找到，找回", "A1_Starters·A1", "动词", "I love listening to music and finding new songs to play."], ["new", "njuː", "adj", "新出现的，新兴的", "A1_Starters·A1", "形容词", "I love listening to music and finding new songs to play."], ["song", "sɒŋ", "n", "歌，歌曲", "A1_Starters·A1", "名词", "I love listening to music and finding new songs to play."], ["watch", "wɒtʃ", "v", "看，注视", "A1_Starters·A1", "动词", "I like watching films and playing games on my VR headset but I hate dancing."], ["film", "fɪlm", "n", "电影，影片", "KET·A2", "名词", "I like watching films and playing games on my VR headset but I hate dancing."], ["game", "ɡeɪm", "n", "游戏，比赛", "A1_Starters·A1", "名词", "I like watching films and playing games on my VR headset but I hate dancing."], ["hate", "heɪt", "v", "厌恶，不喜欢", "A2_Flyers·B1", "动词", "I like watching films and playing games on my VR headset but I hate dancing."], ["dancing", "ˈdɑːnsɪŋ", "n", "跳舞，舞蹈", "KET·A1", "名词", "I like watching films and playing games on my VR headset but I hate dancing."], ["know", "nəʊ", "v", "知道", "A1_Starters·A1", "动词", "I know that's a strange thing for a DJ to say."], ["strange", "streɪndʒ", "adj", "奇怪的，不寻常的", "A2_Flyers·A2", "形容词", "I know that's a strange thing for a DJ to say."], ["thing", "θɪŋ", "n", "东西，物", "A1_Starters·A1", "名词", "I know that's a strange thing for a DJ to say."], ["say", "seɪ", "vt", "说，讲", "A1_Starters·C1", "", "I know that's a strange thing for a DJ to say."], ["dance", "dɑːns", "v", "跳舞", "A1_Movers·A1", "动词", "I love watching other people dance but I never dance myself."], ["never", "ˈnevə(r)", "adv", "决不，永不", "A1_Movers·A1", "副词", "I love watching other people dance but I never dance myself."], ["myself", "maɪˈself", "pron", "我自己（反身代词，作动词或介词宾语）", "KET·A2", "代词", "I love watching other people dance but I never dance myself."], ["wear", "weə(r)", "v", "穿（衣服），戴（首饰等）", "A1_Starters·A1", "动词", "What do you like wearing?"], ["jeans", "dʒiːnz", "n", "牛仔裤", "A1_Starters·A1", "名词", "I like wearing jeans and a white T-shirt."], ["white", "waɪt", "adj", "白色的", "A1_Starters·A1", "形容词", "I like wearing jeans and a white T-shirt."], ["shirt", "ʃɜːt", "n", "衬衫，恤衫", "A1_Starters·A1", "名词", "I like wearing jeans and a white T-shirt."], ["red", "red", "adj", "红的，红色的", "A1_Starters·A1", "形容词", "I also wear a red cap."], ["cap", "kæp", "n", "帽子", "KET·B1", "名词", "I also wear a red cap."], ["trousers", "ˈtraʊzəz", "n", "裤子，长裤", "A1_Starters·A1", "名词", "I don't like wearing shirts and trousers."], ["day", "deɪ", "n", "一天", "A1_Starters·A1", "名词", "I wear those every day at school."], ["thanks", "θæŋks", "n", "谢意，感谢，感激（只用复数）", "A1_Starters·A1", "名词", "Thanks Danny and good luck."], ["good", "ɡʊd", "adj", "优良的", "A1_Starters·A2", "形容词", "Thanks Danny and good luck."], ["luck", "lʌk", "n", "幸运，好运", "KET·A2", "名词", "Thanks Danny and good luck."], ["thank", "θæŋk", "v", "感谢，向……表示谢意", "A2_Flyers·A1", "动词", "Thanks Danny and good luck."], ["why", "waɪ", "adv", "（用于问句）为什么，为何", "A1_Movers·A1", "副词", "Why don't you come to one of my shows one day?"], ["come", "kʌm", "v", "来", "A1_Starters·A1", "动词", "Why don't you come to one of my shows one day?"], ["show", "ʃəʊ", "v", "显示，表明", "A1_Starters·A1", "动词", "Why don't you come to one of my shows one day?"]];
+const WORDS = RAW.map(r => { /*P1: level 拆 band(词表层)+cefr，复合串全等会杀死同层干扰项池*/
+  const lv = String(r[4] || ''), i = lv.indexOf('·');
+  return { en:r[0], ipa:r[1], pos:r[2], zh:r[3], level:r[4], cat:r[5], ex:r[6], dis:r[7] || null,
+           band: i > -1 ? lv.slice(0, i) : lv, cefr: i > -1 ? lv.slice(i + 1) : '' };
+}); /*VQ-PATCH*/
+const TOTAL_COUNT = WORDS.length;
+const keyOf = w => w.en + '#' + w.pos;
+
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle = a => { for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+
+/*VQ-PATCH*/ /* ── 干扰项优选：确定性生成，保证同一题的选项集合对所有学生一致（难度/区分度才可比） ──
+   优先级：人工审校(w.dis / window.__VQ_DIS__) → 同类+同词性+同CEFR → 同类+同词性+同词表 → 同词性+同CEFR → 同词性+同词表 → 同词性 → 全体
+   排除：自身、近义释义、同词根(climb/climbing)、重复释义；同层内按词长相近排序，避免靠长度猜答案
+   P1：①层级匹配拆 band/cefr（不再用复合串全等）②池子不足时逐层降级，最终兜底全体仍不足才允许 <4 选项 */
+function vqDis(){ return (typeof window !== 'undefined' && window.__VQ_DIS__) ? window.__VQ_DIS__ : {}; } /*VQ-DIS*/
+function vqEnStem(s){ return String(s||'').toLowerCase().replace(/[^a-z]/g,'').replace(/(ings|ing|ied|ed|ies|es|s|er|est|ly)$/,''); }
+function vqEnClose(a, b){
+  const x = vqEnStem(a), y = vqEnStem(b);
+  if (!x || !y) return false;
+  if (x === y) return true;
+  return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x));
+}
+function vqZhClean(s){ return String(s||'').replace(/[（(].*?[)）]/g,'').replace(/[，,、;；。.！!？?\s]/g,''); }
+function vqZhClose(a, b){
+  const x = vqZhClean(a), y = vqZhClean(b);
+  if (!x || !y) return false;
+  return x === y || x.includes(y) || y.includes(x);
+}
+function pickDistractors(w, field, n){
+  n = n || 3;
+  const ov = (w && w.dis && typeof w.dis === 'object') ? w.dis : vqDis()[String(w.en||'').toLowerCase()];
+  if (ov && Array.isArray(ov[field]) && ov[field].length >= n){
+    return ov[field].slice(0, n).map(v => field === 'zh' ? { zh: v, en: '' } : { en: v, zh: '' });
+  }
+  const L = String(w[field] || '').length;
+  const usable = x => x !== w
+    && String(x[field]||'').toLowerCase() !== String(w[field]||'').toLowerCase()
+    && !vqEnClose(x.en, w.en)
+    && !(field === 'zh' && vqZhClose(x.zh, w.zh));
+  const sameCefr = x => !!w.cefr && x.cefr === w.cefr;   /*P1: 无 CEFR 标注的词(如 NGSL-only)不在此层匹配*/
+  const sameBand = x => !!w.band && x.band === w.band;
+  const tiers = [
+    x => x.pos === w.pos && x.cat === w.cat && sameCefr(x),
+    x => x.pos === w.pos && x.cat === w.cat && sameBand(x),
+    x => x.pos === w.pos && sameCefr(x),
+    x => x.pos === w.pos && sameBand(x),
+    x => x.pos === w.pos,
+    () => true
+  ];
+  const byLen = (a, b) => {
+    const da = Math.abs(String(a[field]||'').length - L), db2 = Math.abs(String(b[field]||'').length - L);
+    if (da !== db2) return da - db2;
+    return String(a.en).localeCompare(String(b.en));
+  };
+  const picked = [], seen = new Set([String(w[field]||'').toLowerCase()]);
+  for (const t of tiers){
+    if (picked.length >= n) break;
+    const pool = WORDS.filter(x => usable(x) && t(x)).sort(byLen);
+    for (const c of pool){
+      if (picked.length >= n) break;
+      const v = String(c[field]||'').toLowerCase();
+      if (!v || seen.has(v)) continue;
+      seen.add(v); picked.push(c);
+    }
+  }
+  if (picked.length < n){ /*P1-2: 全体兜底（usable 已排除同义/同根；seen 已去重）*/
+    const pool = WORDS.filter(usable).sort(byLen);
+    for (const c of pool){
+      if (picked.length >= n) break;
+      const v = String(c[field]||'').toLowerCase();
+      if (!v || seen.has(v)) continue;
+      seen.add(v); picked.push(c);
+    }
+  }
+  return picked.slice(0, n);
+}
+const normalize = s => (s||'').toLowerCase().replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,' ').trim();
+const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+
+function editDistance(a, b){
+  a = a.toLowerCase(); b = b.toLowerCase();
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = Array.from({length:m+1}, () => new Array(n+1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++){
+    for (let j = 1; j <= n; j++){
+      dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+    }
+  }
+  return dp[m][n];
+}
+function fmtTime(sec){
+  sec = Math.round(sec);
+  if (sec < 60) return sec + 's';
+  const m = Math.floor(sec / 60); const s = sec % 60;
+  return m + 'm' + (s ? s + 's' : '');
+}
+function fmtMs(ms){ return (ms / 1000).toFixed(1) + 's'; }
+
+/* 间隔重复 */
+const REVIEW_INTERVALS_DAYS = [1, 2, 4, 7, 15, 30, 60];
+const SHORT_RETRY_MS = 5 * 60 * 1000;
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function scheduleNextReview(rec, ok){
+  const now = Date.now();
+  rec.lastReviewAt = now;
+  if (!ok){
+    rec.reviewCount = 0;
+    rec.nextReviewAt = now + SHORT_RETRY_MS;
+    return;
+  }
+  rec.reviewCount = (rec.reviewCount || 0) + 1;
+  // 加固③：陌生词短线兜底——首次升级始终沿用 idx0(=次日) 短间隔，不因历史 while 兜到长间隔
+  const idx = (rec.status === 'unknown') ? 0 : Math.min(rec.reviewCount - 1, REVIEW_INTERVALS_DAYS.length - 1);
+  rec.nextReviewAt = now + REVIEW_INTERVALS_DAYS[idx] * DAY_MS;
+}
+function reviewStatusOf(rec){
+  if (!rec.lastReviewAt || !rec.nextReviewAt) return 'new';
+  const now = Date.now();
+  if (rec.nextReviewAt <= now) return 'due';
+  return 'scheduled';
+}
+function reviewTagText(rec){
+  const st = reviewStatusOf(rec);
+  if (st === 'new') return '🆕 首次学习';
+  if (st === 'due') return '🔔 该复习了';
+  const diff = rec.nextReviewAt - Date.now();
+  const days = Math.ceil(diff / DAY_MS);
+  if (days <= 1) return '✓ 明天复习';
+  return `✓ ${days} 天后复习`;
+}
+function reviewStatusLabel(rec){
+  const st = reviewStatusOf(rec);
+  if (st === 'new') return '首次';
+  if (st === 'due') return '到期';
+  const diff = rec.nextReviewAt - Date.now();
+  const days = Math.ceil(diff / DAY_MS);
+  return `${days}天后`;
+}
+
+function metaTipFor(rec, ok, errorType){
+  if (ok){
+    if (rec.testHistory.length >= 2){
+      const last = rec.testHistory[rec.testHistory.length - 1];
+      if (last && last.timeMs > 8000){
+        return { icon: '💡', text: '✓ 稍慢' };
+      }
+    }
+    return null;
+  }
+  if (errorType === 'spelling'){
+    return { icon: '🔤', text: '✗ 拆音节拼写' };
+  }
+  if (errorType === 'meaning'){
+    return { icon: '📖', text: '意义记混了。建议：回到例句中理解这个词的语境，比单独背释义更有效。' };
+  }
+  if (errorType === 'usage'){
+    return { icon: '🧩', text: '用法没掌握。建议：记一个固定搭配或句型，而不只是记单词本身。' };
+  }
+  return null;
+}
+
+function letterInfo(word){
+  const text = word.en.trim();
+  const parts = text.split(/\s+/).filter(Boolean);
+  const wordCount = parts.length;
+  const letters = text.replace(/[^a-zA-Z]/g, '').length;
+  return {
+    wordCount, letters, isPhrase: wordCount > 1,
+    partsLetters: parts.map(p => p.replace(/[^a-zA-Z]/g, '').length)
+  };
+}
+function structChipsHTML(info){
+  if (!info.isPhrase){
+    return `<span class="chip"><span class="dot"></span>${info.letters} 个字母</span>`;
+  }
+  return `
+    <span class="chip phrase"><span class="dot"></span>${info.wordCount} 个词</span>
+    <span class="chip"><span class="dot"></span>共 ${info.letters} 个字母</span>
+  `;
+}
+
+/* ========== 参数化（每篇一个实例就改这里 + 替换下方 RAW 词集） ========== */
+const PASSAGE = {
+  key: "u8_p078_ateenagedj",                 // 存储键前缀，每篇必须唯一
+  title: "Unit 8 \u00b7 A teenage DJ"
+};
+const STORE_KEY = PASSAGE.key + '_records_v2';
+const TUTORIAL_KEY = PASSAGE.key + '_tutorial_v2';
+try { document.title = PASSAGE.title + ' · 词汇诊断'; } catch(e) {}
+const records = {};
+
+function makeEmptyRecord(){
+  return {
+    status: 'none', filterTime: 0, filterChanges: 0, isPriority: false,
+    listenCount: 0, studyTime: 0, studyRounds: 0, lastStudyAt: 0,
+    spellChecked: false, spellResult: null,
+    consecCorrect: 0, nearMissCount: 0,
+    reviewCount: 0, lastReviewAt: 0, nextReviewAt: 0,
+    testHistory: [], testCount: 0, correctCount: 0, wrongCount: 0, uncertainCount: 0
+  };
+}
+function getRecord(key){
+  if (!records[key]) records[key] = makeEmptyRecord();
+  return records[key];
+}
+function saveRecords(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(records)); } catch(e){} }
+function loadRecords(){
+  const tryKeys = [STORE_KEY, PASSAGE.key + '_records_v1'];
+  for (const k of tryKeys){
+    try {
+      const raw = localStorage.getItem(k);
+      if (raw){
+        const obj = JSON.parse(raw);
+        Object.keys(obj).forEach(key => {
+          records[key] = Object.assign(makeEmptyRecord(), obj[key]);
+        });
+        if (k !== STORE_KEY) saveRecords();
+        return;
+      }
+    } catch(e){}
+  }
+}
+loadRecords();
+
+function getStatus(key){ return getRecord(key).status; }
+function statusLabel(s){
+  return s === 'known' ? '会' : s === 'fuzzy' ? '眼熟' : s === 'unknown' ? '不会' : '未标记';
+}
+function dimensionOf(s){
+  return s === 'known' ? '用法产出'
+       : s === 'fuzzy' ? '形式-意义产出'
+       : s === 'unknown' ? '形式-意义识别'
+       : '未评估';
+}
+
+/* ========== 加固：①连续2次才升档 ②拼写near-miss ③陌生词短线 ④本篇预习完成判定 ========== */
+function bumpCorrect(rec){
+  rec.consecCorrect = (rec.consecCorrect || 0) + 1;
+  return rec.consecCorrect >= 2;   // 达到2次才放行升级；升级分支里需复位
+}
+function bumpWrong(rec){ rec.consecCorrect = 0; }
+function previewCompletion(){
+  /*P1-C: 自评轨与测试轨分轨——自评轨=不会词清零（自标口径）；测试轨=测试正确率≥80%（仅统计测过的题，附带覆盖度）*/
+  const u = getUnknown().length;
+  let tests = 0, correct = 0, covered = 0;
+  WORDS.forEach(w => {
+    const r = getRecord(keyOf(w));
+    tests += r.testCount; correct += r.correctCount;
+    if (r.testCount > 0) covered++;
+  });
+  const acc = tests ? correct / tests : 0;
+  const passU = u === 0;
+  const passAcc = tests > 0 && acc >= 0.8;
+  return { done: passU && passAcc, u, tests, acc, passU, passAcc, covered, total: TOTAL_COUNT };
+}
+
+let voices = [];
+function loadVoices(){ voices = window.speechSynthesis ? speechSynthesis.getVoices() : []; }
+if (window.speechSynthesis){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+function speak(text, rate){
+  if (!window.speechSynthesis){ alert('当前浏览器不支持语音朗读。'); return; }
+  try{
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-GB'; u.rate = rate || 0.85;
+    const v = voices.find(v => /en[-_]GB/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang));
+    if (v) u.voice = v;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+
+let currentTab = 'filter';
+let currentCat = '全部';
+const pageState = { filter:0, study:0 };
+let swapBusy = false;
+let currentAPanel = 'overview';
+let hintActive = false;
+let studyOrder = null;
+
+const filterGrid = document.getElementById('filterGrid');
+const studyGrid  = document.getElementById('studyGrid');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const bottomBarEl = document.getElementById('bottomBar');
+const bottomTextEl = document.getElementById('bottomText');
+const shuffleBtn = document.getElementById('shuffleBtn');
+
+function calcLayout(){
+  const w = window.innerWidth;
+  if (w > 1200) return { cols:4, rows:2, per:8 };
+  if (w > 760)  return { cols:3, rows:2, per:6 };
+  return              { cols:2, rows:2, per:4 };
+}
+function applyLayout(grid){
+  const L = calcLayout();
+  grid.style.gridTemplateColumns = `repeat(${L.cols},minmax(0,1fr))`;
+  grid.style.gridTemplateRows    = `repeat(${L.rows},minmax(0,1fr))`;
+  return L.per;
+}
+
+function getFilterList(){
+  return currentCat === '全部' ? WORDS : WORDS.filter(w => w.cat === currentCat);
+}
+function getByStatus(s){ return WORDS.filter(w => getStatus(keyOf(w)) === s); }
+function getKnown(){ return getByStatus('known'); }
+function getFuzzy(){ return getByStatus('fuzzy'); }
+function getUnknown(){ return getByStatus('unknown'); }
+
+function getStudyList(){
+  /*P1-5: 已会但到期的词也进学习列表（复习=再认一次，答对保持、答错降级），排在本词性未掌握词之后*/
+  const list = WORDS.filter(w => {
+    const s = getStatus(keyOf(w));
+    if (s === 'fuzzy' || s === 'unknown') return true;
+    if (s === 'known') return reviewStatusOf(getRecord(keyOf(w))) === 'due';
+    return false;
+  });
+
+  if (studyOrder && studyOrder.length){
+    const orderMap = {};
+    studyOrder.forEach((k, i) => orderMap[k] = i);
+    return list.sort((a, b) => {
+      const oa = orderMap[keyOf(a)] ?? 99999;
+      const ob = orderMap[keyOf(b)] ?? 99999;
+      return oa - ob;
+    });
+  }
+
+  const rankOf = s => s === 'unknown' ? 0 : s === 'fuzzy' ? 1 : 2; /*P1-5: 会(到期)排最后*/
+  return list.sort((a, b) => {
+    const ra = getRecord(keyOf(a)), rb = getRecord(keyOf(b));
+    const stA = reviewStatusOf(ra), stB = reviewStatusOf(rb);
+    const aDue = (stA === 'due' || stA === 'new') ? 0 : 1;
+    const bDue = (stB === 'due' || stB === 'new') ? 0 : 1;
+    if (aDue !== bDue) return aDue - bDue;
+    if (ra.isPriority !== rb.isPriority) return ra.isPriority ? -1 : 1;
+    const sa = rankOf(ra.status), sb = rankOf(rb.status);
+    if (sa !== sb) return sa - sb;
+    return (ra.reviewCount || 0) - (rb.reviewCount || 0);
+  });
+}
+
+const visibleTrackers = new Map();
+let studyObserver = null;
+
+function initStudyObserver(){
+  if (studyObserver) return;
+  studyObserver = new IntersectionObserver((entries) => {
+    const now = Date.now();
+    entries.forEach(entry => {
+      const key = entry.target.dataset.key;
+      if (!key) return;
+      let t = visibleTrackers.get(key);
+      if (!t){ t = { startAt: 0, total: 0 }; visibleTrackers.set(key, t); }
+      if (entry.isIntersecting){
+        if (!t.startAt) t.startAt = now;
+      } else {
+        if (t.startAt){ t.total += now - t.startAt; t.startAt = 0; }
+      }
+    });
+  }, { threshold: 0.5 });
+}
+function settleStudyTracking(){
+  if (!visibleTrackers.size) return;
+  const now = Date.now();
+  visibleTrackers.forEach((t, key) => {
+    if (t.startAt){ t.total += now - t.startAt; t.startAt = 0; }
+    if (t.total > 0){
+      const rec = getRecord(key);
+      rec.studyTime += t.total / 1000;
+      rec.lastStudyAt = now;
+    }
+  });
+  visibleTrackers.clear();
+  if (studyObserver) studyObserver.disconnect();
+  saveRecords();
+}
+function startStudyTracking(cards){
+  initStudyObserver();
+  cards.forEach(card => {
+    const key = card.dataset.key;
+    if (!key) return;
+    const rec = getRecord(key);
+    rec.studyRounds++;
+    rec.lastStudyAt = Date.now();
+    if (!visibleTrackers.has(key)) visibleTrackers.set(key, { startAt: 0, total: 0 });
+    studyObserver.observe(card);
+  });
+  saveRecords();
+}
+window.addEventListener('visibilitychange', () => { if (document.hidden) settleStudyTracking(); });
+window.addEventListener('beforeunload', settleStudyTracking);
+
+function cardHTML(w, mode){
+  const key = keyOf(w);
+  const rec = getRecord(key);
+  const st = rec.status;
+  const cls = st === 'known' ? 'known' : st === 'fuzzy' ? 'fuzzy' : st === 'unknown' ? 'unknown' : '';
+  const prio = rec.isPriority ? ' prio' : '';
+  const badges = `<div class="badges">
+      <span class="pos">${esc(w.pos)}</span>
+      ${w.level !== '—' ? `<span class="lvl">${esc(w.level)}</span>` : ''}
+    </div>`;
+  const exHTML = w.ex ? `<div class="ex" title="${esc(w.ex)}">${esc(w.ex)}</div>` : '';
+
+  if (mode === 'filter'){
+    return `<div class="card ${cls}${prio}" data-key="${esc(key)}" data-en="${esc(w.en)}" data-shownat="${Date.now()}">
+      <div class="cbody">
+        ${badges}
+        <div class="word">${esc(w.en)}</div>
+        <div class="ipa">${esc(w.ipa)}</div>
+        <div class="zh">${esc(w.zh)}</div>
+        ${exHTML}
+      </div>
+      <div class="acts">
+        <button class="ok ${st==='known'?'active':''}" data-act="known">✓ 会</button>
+        <button class="fz ${st==='fuzzy'?'active':''}" data-act="fuzzy">◐ 眼熟</button>
+        <button class="no ${st==='unknown'?'active':''}" data-act="unknown">✗ 不会</button>
+      </div>
+    </div>`;
+  }
+
+  const rst = reviewStatusOf(rec);
+  const rtag = `<div class="review-tag ${rst}">${esc(reviewTagText(rec))}</div>`;
+
+  return `<div class="card study ${cls}${prio}" data-key="${esc(key)}" data-en="${esc(w.en)}">
+    <div class="upgrade-tag">↑ 眼熟</div>
+    ${rtag}
+    <button class="speak" data-speak="1">🔊</button>
+    <div class="cbody">
+      ${badges}
+      <div class="word">${esc(w.en)}</div>
+      <div class="ipa">${esc(w.ipa)}</div>
+      <div class="study-reveal">
+        <div class="zh">${esc(w.zh)}</div>
+        ${exHTML}
+      </div>
+      <div class="recall-hint">先回忆意思</div>
+    </div>
+    <div class="study-actions">
+      <button class="reveal-btn" data-act="reveal">👁 显示释义</button>
+      <button class="master-btn" data-act="master">✓ 已掌握</button>
+    </div>
+  </div>`;
+}
+
+let autoAdvanceTimer = null;
+let hintTimer = null;
+
+function showHint(text, mode, duration){
+  hintActive = true;
+  bottomTextEl.textContent = text;
+  bottomBarEl.className = 'bottom-bar ' + (mode === 'done' ? 'bb-done' : 'bb-hint');
+  if (hintTimer) clearTimeout(hintTimer);
+  hintTimer = setTimeout(() => hideHint(), duration || 2200);
+}
+function hideHint(){
+  hintActive = false;
+  if (hintTimer){ clearTimeout(hintTimer); hintTimer = null; }
+  bottomBarEl.className = 'bottom-bar';
+  updatePager();
+}
+function cancelAutoAdvance(){
+  if (autoAdvanceTimer){ clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+  if (hintTimer){ clearTimeout(hintTimer); hintTimer = null; }
+  hintActive = false;
+  bottomBarEl.className = 'bottom-bar';
+}
+function checkAutoAdvance(){
+  if (currentTab !== 'filter') return;
+  if (autoAdvanceTimer){ clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+  const per = calcLayout().per;
+  const list = getFilterList();
+  const start = pageState.filter * per;
+  const items = list.slice(start, start + per);
+  if (!items.length) return;
+  const allMarked = items.every(w => getStatus(keyOf(w)) !== 'none');
+  if (!allMarked){
+    if (!hintActive) updatePager();
+    return;
+  }
+  const totalPages = Math.max(1, Math.ceil(list.length / per));
+  const isLast = pageState.filter >= totalPages - 1;
+  if (isLast){
+    showHint('✓ 进入学习', 'done', 2600);
+  } else {
+    showHint('进入下一组…', 'hint', 2400);
+    autoAdvanceTimer = setTimeout(() => {
+      autoAdvanceTimer = null;
+      hideHint();
+      doAutoAdvance();
+    }, 700);
+  }
+}
+function doAutoAdvance(){
+  if (swapBusy) return;
+  if (currentTab !== 'filter') return;
+  const list = getFilterList();
+  const per = calcLayout().per;
+  const total = Math.max(1, Math.ceil(list.length / per));
+  const next = pageState.filter + 1;
+  if (next >= total) return;
+  swapBusy = true;
+  animateSwap(filterGrid, 1, () => {
+    pageState.filter = next;
+    renderFilterPage();
+  }, () => { swapBusy = false; });
+}
+
+function renderFilterPage(){
+  const per = applyLayout(filterGrid);
+  const list = getFilterList();
+  const totalPages = Math.max(1, Math.ceil(list.length / per));
+  if (pageState.filter >= totalPages) pageState.filter = totalPages - 1;
+  if (pageState.filter < 0) pageState.filter = 0;
+  const start = pageState.filter * per;
+  const items = list.slice(start, start + per);
+
+  if (!items.length){
+    filterGrid.innerHTML = '<div class="empty"><div class="big">🗂️</div><div>该类别暂无词汇</div></div>';
+  } else {
+    filterGrid.innerHTML = items.map(w => cardHTML(w, 'filter')).join('');
+  }
+  updatePager();
+}
+
+function renderStudyPage(){
+  settleStudyTracking();
+  const per = applyLayout(studyGrid);
+  const list = getStudyList();
+  const totalPages = Math.max(1, Math.ceil(list.length / per));
+  if (pageState.study >= totalPages) pageState.study = totalPages - 1;
+  if (pageState.study < 0) pageState.study = 0;
+  const start = pageState.study * per;
+  const items = list.slice(start, start + per);
+
+  const dueCount = list.filter(w => {
+    const r = getRecord(keyOf(w));
+    const st = reviewStatusOf(r);
+    return st === 'due' || st === 'new';
+  }).length;
+  const hintEl = document.getElementById('studyHintText');
+  if (hintEl){
+    if (dueCount > 0) hintEl.textContent = `🔔 待复习 ${dueCount}`;
+    else hintEl.textContent = `💡 先回忆 · 点卡看释义`;
+  }
+
+  if (!list.length){
+    studyGrid.innerHTML = `<div class="empty">
+      <div class="big">🎉</div>
+      <div>所有词都已掌握<br><span style="font-size:12.5px;color:#cbd5e1;">可去③测试</span></div>
+    </div>`;
+  } else {
+    studyGrid.innerHTML = items.map(w => cardHTML(w, 'study')).join('');
+    const cards = Array.from(studyGrid.querySelectorAll('.card'));
+    startStudyTracking(cards);
+  }
+  updatePager();
+}
+
+function updatePager(){
+  const showNav = (currentTab === 'filter' || currentTab === 'study');
+  prevBtn.classList.toggle('hidden', !showNav);
+  nextBtn.classList.toggle('hidden', !showNav);
+  bottomBarEl.classList.toggle('hidden', !showNav);
+  if (!showNav) return;
+
+  const list = currentTab === 'filter' ? getFilterList() : getStudyList();
+  const per  = calcLayout().per;
+  const total = Math.max(1, Math.ceil(list.length / per));
+  const cur = Math.min(pageState[currentTab] + 1, total);
+
+  if (!hintActive){
+    if (currentTab === 'filter'){
+      const start = pageState.filter * per;
+      const items = list.slice(start, start + per);
+      const marked = items.filter(w => getStatus(keyOf(w)) !== 'none').length;
+      bottomTextEl.innerHTML = `<span class="bb-page">第 ${cur} / ${total} 组</span>已标记 <span class="bb-progress">${marked} / ${items.length}</span>`;
+    } else {
+      bottomTextEl.textContent = list.length ? `第 ${cur} / ${total} 组` : '暂无词汇';
+    }
+  }
+  prevBtn.disabled = pageState[currentTab] <= 0;
+  nextBtn.disabled = pageState[currentTab] >= total - 1 || list.length === 0;
+}
+
+function animateSwap(el, dir, doRender, done){
+  el.style.transition = 'transform .18s cubic-bezier(.19,1,.22,1), opacity .18s ease';
+  el.style.transform  = `translateX(${-dir * 46}px)`;
+  el.style.opacity    = '0';
+  setTimeout(() => {
+    doRender();
+    el.style.transition = 'none';
+    el.style.transform  = `translateX(${dir * 46}px)`;
+    el.style.opacity    = '0';
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      el.style.transition = 'transform .22s cubic-bezier(.19,1,.22,1), opacity .22s ease';
+      el.style.transform  = 'translateX(0)';
+      el.style.opacity    = '1';
+      setTimeout(() => { if (done) done(); }, 230);
+    }));
+  }, 180);
+}
+
+function goPage(dir){
+  cancelAutoAdvance();
+  if (swapBusy) return;
+  if (currentTab !== 'filter' && currentTab !== 'study') return;
+  const list = currentTab === 'filter' ? getFilterList() : getStudyList();
+  const per  = calcLayout().per;
+  const total = Math.max(1, Math.ceil(list.length / per));
+  const next = pageState[currentTab] + dir;
+  if (next < 0 || next >= total) return;
+  swapBusy = true;
+  const grid = currentTab === 'filter' ? filterGrid : studyGrid;
+  animateSwap(grid, dir, () => {
+    pageState[currentTab] = next;
+    if (currentTab === 'filter') renderFilterPage(); else renderStudyPage();
+  }, () => { swapBusy = false; });
+}
+
+prevBtn.onclick = () => goPage(-1);
+nextBtn.onclick = () => goPage(1);
+
+document.addEventListener('keydown', e => {
+  if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+  if (e.key === 'ArrowLeft')  goPage(-1);
+  if (e.key === 'ArrowRight') goPage(1);
+});
+
+let tx = 0, ty = 0, touchActive = false, swipeLockTime = 0;
+function isSwipeLocked(){ return Date.now() - swipeLockTime < 320; }
+
+[filterGrid, studyGrid].forEach(grid => {
+  grid.addEventListener('touchstart', e => {
+    if (e.touches.length !== 1){ touchActive = false; return; }
+    touchActive = true;
+    tx = e.touches[0].clientX; ty = e.touches[0].clientY;
+  }, { passive:true });
+  grid.addEventListener('touchmove', e => {
+    if (!touchActive || e.touches.length !== 1) return;
+    const dx = Math.abs(e.touches[0].clientX - tx);
+    const dy = Math.abs(e.touches[0].clientY - ty);
+    if (dx > dy && dx > 10){ if (e.cancelable) e.preventDefault(); }
+  }, { passive:false });
+  grid.addEventListener('touchend', e => {
+    if (!touchActive) return;
+    touchActive = false;
+    const dx = e.changedTouches[0].clientX - tx;
+    const dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.25){
+      swipeLockTime = Date.now();
+      goPage(dx < 0 ? 1 : -1);
+    }
+  }, { passive:true });
+});
+
+const CATS = ["全部", "代词", "名词", "形容词", "冠词", "动词", "副词", "介词", "专有名词"];
+const catbar = document.getElementById('catbar');
+function renderCatbar(){
+  catbar.innerHTML = CATS.map(c => {
+    const n = c === '全部' ? TOTAL_COUNT : WORDS.filter(w => w.cat === c).length;
+    return `<button data-cat="${c}" class="${currentCat===c?'active':''}">${c} ${n}</button>`;
+  }).join('');
+}
+catbar.addEventListener('click', e => {
+  const b = e.target.closest('button[data-cat]');
+  if (!b) return;
+  cancelAutoAdvance();
+  currentCat = b.dataset.cat;
+  pageState.filter = 0;
+  renderCatbar();
+  renderFilterPage();
+});
+
+filterGrid.addEventListener('click', e => {
+  if (isSwipeLocked()) return;
+  const card = e.target.closest('.card');
+  if (!card) return;
+  const btn = e.target.closest('button[data-act]');
+
+  if (btn){
+    e.stopPropagation();
+    const key = card.dataset.key;
+    const act = btn.dataset.act;
+    const rec = getRecord(key);
+    if (rec.status === 'none'){
+      const shownAt = parseInt(card.dataset.shownat, 10);
+      if (shownAt) rec.filterTime = Date.now() - shownAt;
+    } else if (rec.status !== act){
+      rec.filterChanges++;
+    }
+    if (rec.status === act) rec.status = 'none';
+    else rec.status = act;
+    if (rec.status !== 'unknown' && rec.isPriority && act !== 'unknown') rec.isPriority = false;
+    if (rec.status !== 'none' && !rec.nextReviewAt){
+      rec.nextReviewAt = Date.now();
+    }
+    saveRecords();
+
+    card.classList.remove('known','fuzzy','unknown','prio');
+    const ns = rec.status;
+    if (ns !== 'none') card.classList.add(ns);
+    if (rec.isPriority) card.classList.add('prio');
+    card.querySelector('.ok').classList.toggle('active', ns === 'known');
+    card.querySelector('.fz').classList.toggle('active', ns === 'fuzzy');
+    card.querySelector('.no').classList.toggle('active', ns === 'unknown');
+    updateTopSub();
+    checkAutoAdvance();
+    return;
+  }
+  speak(card.dataset.en);
+});
+
+function showUpgradeTag(card, text){
+  const tag = card.querySelector('.upgrade-tag');
+  if (!tag) return;
+  tag.textContent = text;
+  card.classList.add('show-upgrade');
+  setTimeout(() => card.classList.remove('show-upgrade'), 1300);
+}
+
+shuffleBtn.onclick = () => {
+  if (currentTab !== 'study') return;
+  settleStudyTracking();
+  const list = getStudyList();
+  if (!list.length) return;
+  const shuffled = shuffle(list.slice());
+  studyOrder = shuffled.map(w => keyOf(w));
+  pageState.study = 0;
+  swapBusy = true;
+  animateSwap(studyGrid, 1, () => {
+    renderStudyPage();
+  }, () => { swapBusy = false; });
+  showHint('已打乱顺序', 'hint', 1200);
+};
+
+/* ============================================================
+   拼写验证：一字母一框 + 完整字段
+   ============================================================ */
+let scWord = null;
+let scCallback = null;
+
+function buildLetterBoxes(word){
+  const boxesEl = document.getElementById('scBoxes');
+  const text = word.en.trim();
+  const parts = text.split(/\s+/).filter(Boolean);
+  let html = '';
+  parts.forEach((part, pi) => {
+    if (pi > 0) html += '<span class="letter-gap"></span>';
+    for (let i = 0; i < part.length; i++){
+      html += `<input type="text" maxlength="1" class="letter-box" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">`;
+    }
+  });
+  boxesEl.innerHTML = html;
+  return boxesEl.querySelectorAll('.letter-box');
+}
+
+function bindLetterBoxes(boxes){
+  const arr = Array.from(boxes);
+
+  function checkReady(){
+    const allFilled = arr.every(b => (b.value || '').trim() !== '');
+    const submit = document.getElementById('scSubmit');
+    if (submit) submit.classList.toggle('ready', allFilled);
+  }
+
+  arr.forEach((box, idx) => {
+    box.addEventListener('input', (e) => {
+      const cleaned = (e.target.value || '').replace(/[^a-zA-Z]/g, '').slice(0, 1);
+      if (cleaned !== e.target.value) e.target.value = cleaned;
+
+      if (cleaned){
+        e.target.classList.add('filled');
+        if (idx < arr.length - 1){
+          arr[idx + 1].focus();
+        } else {
+          e.target.blur();
+        }
+      } else {
+        e.target.classList.remove('filled');
+      }
+      checkReady();
+    });
+
+    box.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace'){
+        if (!box.value && idx > 0){
+          arr[idx - 1].value = '';
+          arr[idx - 1].classList.remove('filled');
+          arr[idx - 1].focus();
+          e.preventDefault();
+          checkReady();
+        } else if (box.value){
+          setTimeout(checkReady, 0);
+        }
+      } else if (e.key === 'Enter'){
+        e.preventDefault();
+        submitSpellCheck();
+      } else if (e.key === 'ArrowLeft' && idx > 0){
+        e.preventDefault();
+        arr[idx - 1].focus();
+      } else if (e.key === 'ArrowRight' && idx < arr.length - 1){
+        e.preventDefault();
+        arr[idx + 1].focus();
+      }
+    });
+
+    box.addEventListener('paste', (e) => {
+      e.preventDefault();
+      const text = (e.clipboardData || window.clipboardData).getData('text') || '';
+      const letters = text.replace(/[^a-zA-Z]/g, '').split('');
+      for (let i = 0; i < letters.length && idx + i < arr.length; i++){
+        arr[idx + i].value = letters[i];
+        arr[idx + i].classList.add('filled');
+      }
+      const nextIdx = Math.min(idx + letters.length, arr.length - 1);
+      arr[nextIdx].focus();
+      checkReady();
+    });
+
+    box.addEventListener('focus', () => { box.select(); });
+  });
+
+  checkReady();
+}
+
+function openSpellCheck(word, callback){
+  scWord = word;
+  scCallback = callback;
+
+  document.getElementById('scZh').textContent = word.zh;
+  document.getElementById('scPos').textContent = word.pos;
+
+  const info = letterInfo(word);
+  document.getElementById('scStruct').innerHTML = structChipsHTML(info);
+
+  const boxes = buildLetterBoxes(word);
+
+  const submit = document.getElementById('scSubmit');
+  submit.disabled = false;
+  submit.classList.remove('ready');
+  const skip = document.getElementById('scSkip');
+  skip.disabled = false;
+  const fb = document.getElementById('scFeedback');
+  fb.style.display = 'none';
+  fb.className = 'spell-feedback';
+  fb.innerHTML = '';
+
+  bindLetterBoxes(boxes);
+
+  document.getElementById('spellCheckModal').classList.add('show');
+  setTimeout(() => { if (boxes[0]) boxes[0].focus(); }, 100);
+}
+
+function closeSpellCheck(){
+  document.getElementById('spellCheckModal').classList.remove('show');
+  scWord = null;
+  scCallback = null;
+  if (currentTab === 'study') renderStudyPage();
+}
+
+function submitSpellCheck(){
+  if (!scWord || !scCallback) return;
+
+  const boxes = document.querySelectorAll('.letter-box');
+  const userAnswer = Array.from(boxes).map(b => (b.value || '').trim()).join('');
+  if (!userAnswer){
+    if (boxes[0]) boxes[0].focus();
+    return;
+  }
+
+  const dist = editDistance(normalize(userAnswer), normalize(scWord.en));
+  let result;
+  if (dist === 0) result = 'exact';
+  else if (dist <= 1) result = 'near';
+  else result = 'miss';
+
+  boxes.forEach(b => {
+    b.disabled = true;
+    b.classList.remove('filled');
+    b.classList.add(result === 'miss' ? 'wrong' : 'correct');
+  });
+
+  const fb = document.getElementById('scFeedback');
+  fb.style.display = 'block';
+  fb.className = 'spell-feedback ' + (result === 'exact' ? 'good' : result === 'near' ? 'near' : 'miss');
+
+  if (result === 'exact'){
+    fb.innerHTML = '✅ 拼写正确';
+  } else if (result === 'near'){
+    fb.innerHTML = `✓ ${esc(scWord.en)}`;
+  } else {
+    fb.innerHTML = `✗ ${esc(scWord.en)}`;
+  }
+
+  document.getElementById('scSubmit').disabled = true;
+  document.getElementById('scSkip').disabled = true;
+
+  const cb = scCallback;
+  cb(result, userAnswer);
+  setTimeout(() => closeSpellCheck(), result === 'miss' ? 1700 : 800);
+}
+
+function skipSpellCheck(){
+  if (!scCallback) return;
+  const cb = scCallback;
+  document.getElementById('scSubmit').disabled = true;
+  document.getElementById('scSkip').disabled = true;
+
+  const boxes = document.querySelectorAll('.letter-box');
+  boxes.forEach(b => { b.disabled = true; });
+
+  const fb = document.getElementById('scFeedback');
+  fb.style.display = 'block';
+  fb.className = 'spell-feedback skip';
+  fb.innerHTML = '已跳过验证 · 保持「眼熟」';
+
+  cb('skipped', '');
+  setTimeout(() => closeSpellCheck(), 900);
+}
+
+document.getElementById('scSubmit').onclick = submitSpellCheck;
+document.getElementById('scSkip').onclick = skipSpellCheck;
+document.getElementById('spellCheckModal').addEventListener('click', (e) => {
+  if (e.target.id === 'spellCheckModal') closeSpellCheck();
+});
+
+/* ── 学习页交互 ─────────────── */
+studyGrid.addEventListener('click', e => {
+  if (isSwipeLocked()) return;
+  const card = e.target.closest('.card');
+  if (!card) return;
+  const key = card.dataset.key;
+  const rec = getRecord(key);
+
+  if (e.target.closest('.speak')){
+    e.stopPropagation();
+    rec.listenCount++;
+    rec.lastStudyAt = Date.now();
+    saveRecords();
+    speak(card.dataset.en);
+    return;
+  }
+
+  if (e.target.closest('.reveal-btn')){
+    e.stopPropagation();
+    card.classList.toggle('revealed');
+    const btn = card.querySelector('.reveal-btn');
+    btn.textContent = card.classList.contains('revealed') ? '🙈 隐藏释义' : '👁 显示释义';
+    return;
+  }
+
+  if (e.target.closest('.master-btn')){
+    e.stopPropagation();
+    const fromStatus = rec.status;
+    const w = WORDS.find(x => keyOf(x) === key);
+    if (!w) return;
+
+    if (fromStatus === 'unknown'){
+      if (!bumpCorrect(rec)){
+        saveRecords();
+        showHint('✓ 再对 1 次→眼熟', 'hint', 1700);
+        return;
+      }
+      rec.status = 'fuzzy';
+      rec.isPriority = false;
+      rec.testHistory.push({
+        mode: 'study', fromStatus, toStatus: 'fuzzy',
+        correct: true, skipped: false, timeMs: 0, errorType: null, testedAt: Date.now()
+      });
+      rec.testCount++; rec.correctCount++;
+      scheduleNextReview(rec, true);
+      saveRecords();
+      updateTopSub();
+
+      card.classList.remove('unknown', 'prio');
+      card.classList.add('fuzzy');
+      showUpgradeTag(card, '↑ 已升级为眼熟');
+      const days = Math.ceil((rec.nextReviewAt - Date.now()) / DAY_MS);
+      showHint(`↑眼熟 · ${days} 天后`, 'done', 2400);
+      const rtag = card.querySelector('.review-tag');
+      if (rtag){
+        rtag.className = 'review-tag scheduled';
+        rtag.textContent = reviewTagText(rec);
+      }
+      return;
+    }
+
+    if (fromStatus === 'fuzzy'){
+      if (rec.spellChecked){
+        if (!bumpCorrect(rec)){
+          saveRecords();
+          showHint('✓ 再对 1 次→会', 'hint', 1700);
+          return;
+        }
+        rec.status = 'known';
+        rec.testHistory.push({
+          mode: 'study', fromStatus, toStatus: 'known',
+          correct: true, skipped: false, timeMs: 0, errorType: null, testedAt: Date.now()
+        });
+        rec.testCount++; rec.correctCount++;
+        scheduleNextReview(rec, true);
+        saveRecords(); updateTopSub();
+        card.classList.add('mastered');
+        showHint('✓ 已升级为「会」', 'done', 1800);
+        setTimeout(() => renderStudyPage(), 500);
+        return;
+      }
+
+      openSpellCheck(w, (result, ans) => {
+        rec.spellChecked = true;
+        rec.spellResult = result;
+
+        if (result === 'exact'){
+          if (!bumpCorrect(rec)){
+            saveRecords();
+            showHint('✓ 拼写对·再 1 次→会', 'hint', 1700);
+            return;
+          }
+          rec.status = 'known';
+          rec.testHistory.push({
+            mode: 'study-verify', fromStatus: 'fuzzy', toStatus: 'known',
+            correct: true, skipped: false, timeMs: 0, errorType: null, testedAt: Date.now()
+          });
+          rec.testCount++; rec.correctCount++;
+          scheduleNextReview(rec, true);
+          saveRecords(); updateTopSub();
+          card.classList.add('mastered');
+          setTimeout(() => renderStudyPage(), 500);
+        } else if (result === 'near'){
+          // 加固②：near-miss 放行但计入 nearMissCount，不并入"拼写正确"掌握数
+          rec.nearMissCount = (rec.nearMissCount || 0) + 1;
+          if (!bumpCorrect(rec)){
+            saveRecords();
+            showHint('✓ 基本对·再 1 次→会', 'hint', 1700);
+            return;
+          }
+          rec.status = 'known';
+          rec.testHistory.push({
+            mode: 'study-verify', fromStatus: 'fuzzy', toStatus: 'known',
+            correct: true, skipped: false, timeMs: 0, errorType: 'spelling-near', testedAt: Date.now()
+          });
+          rec.testCount++;                   // 不 ++correctCount：near-miss 不进正确率
+          scheduleNextReview(rec, true);
+          saveRecords(); updateTopSub();
+          card.classList.add('mastered');
+          setTimeout(() => renderStudyPage(), 500);
+        } else {
+          bumpWrong(rec);
+          rec.testHistory.push({
+            mode: 'study-verify', fromStatus: 'fuzzy', toStatus: 'fuzzy',
+            correct: false, skipped: result === 'skipped', timeMs: 0,
+            errorType: result === 'skipped' ? 'skipped' : (editDistance(normalize(ans||''), normalize(w.en)) <= 2 ? 'spelling' : 'meaning'),
+            testedAt: Date.now()
+          });
+          rec.testCount++;
+          if (result !== 'skipped') rec.wrongCount++;
+          scheduleNextReview(rec, false);
+          saveRecords(); updateTopSub();
+          const rtag = card.querySelector('.review-tag');
+          if (rtag){
+            rtag.className = 'review-tag due';
+            rtag.textContent = '🔔 5 分钟后';
+          }
+        }
+      });
+      return;
+    }
+
+    card.classList.add('mastered');
+    setTimeout(() => renderStudyPage(), 420);
+    return;
+  }
+
+  card.classList.toggle('revealed');
+  const rbtn = card.querySelector('.reveal-btn');
+  if (rbtn) rbtn.textContent = card.classList.contains('revealed') ? '🙈 隐藏释义' : '👁 显示释义';
+});
+
+function updateTopSub(){
+  const k = getKnown().length, f = getFuzzy().length, u = getUnknown().length;
+  document.getElementById('topSub').textContent = `✓ ${k} · ◐ ${f} · ✗ ${u} / ${TOTAL_COUNT}`;
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.onclick = () => switchTab(btn.dataset.tab);
+});
+
+function switchTab(tab){
+  if (currentTab === 'study') settleStudyTracking();
+  if (currentTab === 'filter') cancelAutoAdvance();
+  if (currentTab === 'study' && tab !== 'study'){
+    studyOrder = null;
+  }
+  currentTab = tab;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.querySelectorAll('.slide').forEach(s => s.classList.toggle('active', s.id === 'slide-' + tab));
+
+  if (window.speechSynthesis) speechSynthesis.cancel();
+
+  if (tab === 'filter') renderFilterPage();
+  if (tab === 'study')  renderStudyPage();
+  if (tab === 'test')   renderTestSetup();
+  if (tab === 'result') renderResult();
+
+  updatePager();
+}
+
+function applyTestResult(word, ok, meta){
+  const k = keyOf(word);
+  const rec = getRecord(k);
+  const cur = rec.status;
+  let change = 'keep';
+  let msg = '';
+
+  if (cur === 'unknown'){
+    if (ok){
+      if (!bumpCorrect(rec)){ rec.isPriority = false; change = 'keep'; msg = '✓ 答对 · 还需连续答对 1 次才能升级'; }
+      else { rec.status = 'fuzzy'; rec.isPriority = false; change = 'up'; msg = '↑ 已升级为「眼熟」'; }
+    }
+    else { rec.isPriority = true; bumpWrong(rec); change = 'keep'; msg = '★ 保持「不会」，已标记为重点'; }
+  } else if (cur === 'fuzzy'){
+    if (ok){
+      if (!bumpCorrect(rec)){ change = 'keep'; msg = '✓ 答对 · 还需连续答对 1 次才能升级'; }
+      else { rec.status = 'known'; change = 'up'; msg = '↑ 已升级为「会」'; }
+    }
+    else { rec.status = 'unknown'; bumpWrong(rec); change = 'down'; msg = '↓ 已降为「不会」'; }
+  } else if (cur === 'known'){
+    if (ok){ change = 'keep'; msg = '保持「会」'; }
+    else { rec.status = 'fuzzy'; bumpWrong(rec); change = 'down'; msg = '↓ 已降为「眼熟」'; }
+  }
+
+  rec.testHistory.push({
+    itemId: k, mode: meta.mode, fromStatus: cur, toStatus: rec.status,
+    correct: !!ok, skipped: !!meta.skipped, uncertain: !!meta.uncertain,
+    timeMs: meta.timeMs || 0, errorType: meta.errorType || null,
+    opts: meta.opts || null, picked: meta.picked || null,
+    testedAt: Date.now()
+  }); /*VQ-PATCH*/
+  rec.testCount++;
+  if (ok) rec.correctCount++; else rec.wrongCount++;
+
+  if (!meta.uncertain){
+    scheduleNextReview(rec, ok);
+  }
+
+  saveRecords();
+  updateTopSub();
+  return { change, msg };
+}
+
+const test = { group:'unknown', queue:[], idx:0, correct:0, answered:false, changes:[], wrong:[], uncertain:[], questionStartAt:0 };
+
+function renderTestSetup(){
+  const setup = document.getElementById('testSetup');
+  const area  = document.getElementById('testArea');
+  const done  = document.getElementById('testDone');
+  setup.classList.remove('hidden');
+  area.classList.add('hidden');
+  done.classList.add('hidden');
+
+  const u = getUnknown().length, f = getFuzzy().length, k = getKnown().length;
+
+  const groups = [
+    { key:'unknown', icon:'✗', cls:'unknown', title:'不会的词', count:u,
+      dim:'形式识别 + 意义识别', mode:'看词选义', desc:'目标：建立形式与意义的初步联结。' },
+    { key:'fuzzy', icon:'◐', cls:'fuzzy', title:'眼熟的词', count:f,
+      dim:'形式产出 + 意义产出', mode:'中→英填空', desc:'目标：从接受性知识过渡到产出性知识。' },
+    { key:'known', icon:'✓', cls:'known', title:'会的词', count:k,
+      dim:'用法产出 + 深度知识', mode:'语境填空', desc:'目标：检验能否在语境中灵活使用。' }
+  ];
+
+  document.getElementById('testGroups').innerHTML = groups.map(g => `
+    <div class="test-group ${g.count === 0 ? 'empty-state' : ''}">
+      <div class="tg-head">
+        <div class="tg-icon ${g.cls}">${g.icon}</div>
+        <div class="tg-title">${g.title}</div>
+        <div class="tg-count">${g.count} 词</div>
+      </div>
+      <div class="tg-meta">
+        测：<span class="dim">${g.dim}</span> ｜ 题型：<b>${g.mode}</b><br>
+        ${g.desc}
+      </div>
+      <button class="tg-start" data-group="${g.key}" ${g.count === 0 ? 'disabled' : ''}>
+        ${g.count === 0 ? '暂无词汇' : '开始测试'}
+      </button>
+    </div>
+  `).join('') + `
+    <div class="mix-group">
+      <div class="tg-title">综合抽测</div>
+      <div class="tg-desc">从三组各抽几题，快速检查整体状态</div>
+      <button id="mixStart">开始综合测试</button>
+    </div>
+  `;
+
+  document.querySelectorAll('.tg-start').forEach(b => { b.onclick = () => startTest(b.dataset.group); });
+  document.getElementById('mixStart').onclick = () => startMixTest();
+}
+
+function startTest(group){
+  const pool = group === 'unknown' ? getUnknown()
+             : group === 'fuzzy'   ? getFuzzy()
+             :                        getKnown();
+  if (!pool.length){ alert('该组暂无词汇。'); return; }
+  test.group = group;
+  test.queue = shuffle(pool.slice());
+  test.idx = 0; test.correct = 0; test.changes = []; test.wrong = []; test.uncertain = []; test.answered = false;
+  document.getElementById('testSetup').classList.add('hidden');
+  document.getElementById('testDone').classList.add('hidden');
+  document.getElementById('testArea').classList.remove('hidden');
+  renderQuestion();
+}
+
+function startMixTest(){
+  const u = shuffle(getUnknown()).slice(0, 3);
+  const f = shuffle(getFuzzy()).slice(0, 3);
+  const k = shuffle(getKnown()).slice(0, 3);
+  const mix = shuffle([...u, ...f, ...k]);
+  if (!mix.length){ alert('暂无词汇可测。'); return; }
+  test.group = 'mix';
+  test.queue = mix;
+  test.idx = 0; test.correct = 0; test.changes = []; test.wrong = []; test.uncertain = []; test.answered = false;
+  document.getElementById('testSetup').classList.add('hidden');
+  document.getElementById('testDone').classList.add('hidden');
+  document.getElementById('testArea').classList.remove('hidden');
+  renderQuestion();
+}
+
+function resetTestUI(){
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  document.getElementById('testArea').classList.add('hidden');
+  document.getElementById('testDone').classList.add('hidden');
+  renderTestSetup();
+}
+document.getElementById('quitTest').onclick = resetTestUI;
+
+function makeCloze(word){
+  if (!word.ex) return null;
+  const re = new RegExp('\\b' + escapeRegex(word.en) + '\\b', 'i');
+  if (!re.test(word.ex)) return null;
+  return { stem: word.ex.replace(re, '______') };
+}
+function makeHint(word){
+  const parts = word.en.split(/\s+/);
+  return parts.map(part =>
+    part.split('').map((ch, i) => i === 0 ? ch : '_').join(' ')
+  ).join('   ');
+}
+
+function renderQuestion(){
+  test.answered = false;
+  test.questionStartAt = Date.now();
+  test.curOpts = null; test.curPicked = null; /*VQ-PATCH*/
+  const w = test.queue[test.idx];
+  const total = test.queue.length;
+  const curStatus = getStatus(keyOf(w));
+
+  document.getElementById('testProgress').textContent = `第 ${test.idx + 1} / ${total} 题`;
+  document.getElementById('testModeTag').textContent = `当前状态：${statusLabel(curStatus)}`;
+  document.getElementById('testProgressFill').style.width = ((test.idx) / total * 100) + '%';
+
+  const q  = document.getElementById('questionBox');
+  const fb = document.getElementById('feedbackBox');
+  fb.className = 'feedback'; fb.innerHTML = '';
+
+  const effectiveMode = test.group === 'mix' ? curStatus : test.group;
+
+  if (effectiveMode === 'unknown'){
+    const distractors = pickDistractors(w, 'zh', 3);
+    const opts = shuffle([w.zh, ...distractors.map(x => x.zh)]);
+    test.curOpts = opts.slice(); /*VQ-PATCH*/
+    q.innerHTML = `
+      <div class="q-label">看单词，选出正确的中文意思</div>
+      <div class="q-word">${esc(w.en)}</div>
+      <div class="q-ipa">${esc(w.ipa)}</div>
+      <div class="center" style="margin-bottom:18px;">
+        <button class="speak" id="qSpeak" style="width:38px;height:38px;font-size:16px;">🔊</button>
+      </div>
+      <div class="options">
+        ${opts.map((o, i) => `<button class="opt" data-zh="${esc(o)}">${String.fromCharCode(65+i)}. ${esc(o)}</button>`).join('')}
+      </div>
+      <button class="uncertain-btn" id="uncertainBtn">🤔 不确定</button>`;
+    document.getElementById('qSpeak').onclick = () => speak(w.en);
+    q.querySelectorAll('.opt').forEach(btn => {
+      btn.onclick = () => {
+        if (test.answered) return;
+        test.curPicked = btn.dataset.zh; /*VQ-PATCH*/
+        const ok = btn.dataset.zh === w.zh;
+        q.querySelectorAll('.opt').forEach(b => {
+          b.disabled = true;
+          if (b.dataset.zh === w.zh) b.classList.add('correct');
+          else if (b === btn) b.classList.add('wrong');
+        });
+        finishQuestion(ok, false);
+      };
+    });
+    document.getElementById('uncertainBtn').onclick = handleUncertain;
+  }
+  else if (effectiveMode === 'fuzzy'){
+    q.innerHTML = `
+      <div class="q-label">看中文，写出英文单词</div>
+      <div class="q-zh">${esc(w.zh)}</div>
+      <div class="q-pos">${esc(w.pos)}</div>
+      <div class="q-hint">${esc(makeHint(w))}</div>
+      <input id="answerInput" class="answer-input" type="text" placeholder="输入完整单词…"
+             autocomplete="off" autocapitalize="off" spellcheck="false">
+      <div class="row center">
+        <button id="checkBtn" class="primary">提交答案</button>
+        <button id="skipBtn" class="ghost">不会，看答案</button>
+      </div>
+      <button class="uncertain-btn" id="uncertainBtn">🤔 不确定</button>`;
+    bindInput();
+    document.getElementById('uncertainBtn').onclick = handleUncertain;
+  }
+  else {
+    const cloze = makeCloze(w);
+    if (cloze){
+      const distractors = pickDistractors(w, 'en', 3);
+      const opts = shuffle([w.en, ...distractors.map(x => x.en)]);
+      test.curOpts = opts.slice(); /*VQ-PATCH*/
+      q.innerHTML = `
+        <div class="q-label">选择最合适的词填入空格</div>
+        <div class="q-cloze">${esc(cloze.stem).replace('______', '<span class="blank">______</span>')}</div>
+        <div class="options">
+          ${opts.map((o, i) => `<button class="opt" data-en="${esc(o)}">${String.fromCharCode(65+i)}. ${esc(o)}</button>`).join('')}
+        </div>
+        <button class="uncertain-btn" id="uncertainBtn">🤔 不确定</button>`;
+      q.querySelectorAll('.opt').forEach(btn => {
+        btn.onclick = () => {
+          if (test.answered) return;
+          test.curPicked = btn.dataset.en; /*VQ-PATCH*/
+          const ok = btn.dataset.en === w.en;
+          q.querySelectorAll('.opt').forEach(b => {
+            b.disabled = true;
+            if (b.dataset.en === w.en) b.classList.add('correct');
+            else if (b === btn) b.classList.add('wrong');
+          });
+          finishQuestion(ok, false);
+        };
+      });
+      document.getElementById('uncertainBtn').onclick = handleUncertain;
+    } else {
+      q.innerHTML = `
+        <div class="q-label">看中文，写出英文单词</div>
+        <div class="q-zh">${esc(w.zh)}</div>
+        <div class="q-pos">${esc(w.pos)}</div>
+        <div class="q-hint">${esc(makeHint(w))}</div>
+        <input id="answerInput" class="answer-input" type="text" placeholder="输入完整单词…"
+               autocomplete="off" autocapitalize="off" spellcheck="false">
+        <div class="row center">
+          <button id="checkBtn" class="primary">提交答案</button>
+          <button id="skipBtn" class="ghost">不会，看答案</button>
+        </div>
+        <button class="uncertain-btn" id="uncertainBtn">🤔 不确定</button>`;
+      bindInput();
+      document.getElementById('uncertainBtn').onclick = handleUncertain;
+    }
+  }
+}
+
+function bindInput(){
+  const inp = document.getElementById('answerInput');
+  if (!inp) return;
+  inp.focus();
+  inp.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); checkTyped(); } });
+  document.getElementById('checkBtn').onclick = checkTyped;
+  document.getElementById('skipBtn').onclick = () => { if (!test.answered) finishQuestion(false, true); };
+}
+
+function checkTyped(){
+  if (test.answered) return;
+  const w = test.queue[test.idx];
+  const inp = document.getElementById('answerInput');
+  const val = (inp.value || '').trim();
+  if (!val){ inp.focus(); return; }
+  finishQuestion(normalize(val) === normalize(w.en), false, val);
+}
+
+function handleUncertain(){
+  if (test.answered) return;
+  test.answered = true;
+  const w = test.queue[test.idx];
+  const timeMs = Date.now() - test.questionStartAt;
+  const rec = getRecord(keyOf(w));
+  const effectiveMode = test.group === 'mix' ? rec.status : test.group;
+
+  rec.testHistory.push({
+    mode: effectiveMode, fromStatus: rec.status, toStatus: rec.status,
+    correct: false, skipped: true, uncertain: true,
+    timeMs, errorType: 'uncertain', testedAt: Date.now()
+  });
+  rec.testCount++;
+  rec.uncertainCount = (rec.uncertainCount || 0) + 1;
+  bumpWrong(rec);
+  rec.nextReviewAt = Date.now() + SHORT_RETRY_MS;
+  saveRecords();
+  updateTopSub();
+
+  test.uncertain.push(w);
+  test.changes.push({ word: w, change: 'keep', msg: '🤔 标记为不确定' });
+
+  document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+  const inp = document.getElementById('answerInput');
+  if (inp) inp.disabled = true;
+  ['checkBtn','skipBtn','uncertainBtn'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = true; });
+
+  const isLast = test.idx + 1 >= test.queue.length;
+  const fb = document.getElementById('feedbackBox');
+  fb.className = 'feedback uncertain';
+  fb.innerHTML = `
+    <div class="fb-title" style="color:#92400e;">🤔 已记录为不确定</div>
+    <div class="fb-answer">
+      <span class="fb-en">${esc(w.en)}</span>
+      <span class="fb-ipa">${esc(w.ipa)}</span>
+      <span class="fb-zh">${esc(w.pos)} ${esc(w.zh)}</span>
+      <button class="speak" id="fbSpeak">🔊</button>
+    </div>
+    ${w.ex ? `<div class="fb-ex">例：${esc(w.ex)}</div>` : ''}
+    <div class="fb-badge fb-uncertain">状态不变 ｜ 5 分钟后再次复习</div>
+    <div class="meta-tip">
+      <span class="icon">💡</span>
+      <span class="text">不确定说明这个词在你记忆里还不稳固。建议回到学习页，闭上眼睛回忆一遍再看释义。</span>
+    </div>
+    <div class="row center">
+      <button id="nextBtn" class="primary">${isLast ? '查看测试结果' : '下一题 →'}</button>
+    </div>`;
+  document.getElementById('fbSpeak').onclick = () => speak(w.en);
+  document.getElementById('nextBtn').onclick = nextQuestion;
+  setTimeout(() => speak(w.en), 320);
+}
+
+function finishQuestion(ok, skipped, userAnswer){
+  if (test.answered) return;
+  test.answered = true;
+
+  const w = test.queue[test.idx];
+  const timeMs = Date.now() - test.questionStartAt;
+  const effectiveMode = test.group === 'mix' ? getStatus(keyOf(w)) : test.group;
+
+  let errorType = null;
+  if (!ok){
+    if (effectiveMode === 'known'){ errorType = 'usage'; }
+    else if (effectiveMode === 'fuzzy' && userAnswer){
+      const dist = editDistance(normalize(userAnswer), normalize(w.en));
+      errorType = dist <= 2 ? 'spelling' : 'meaning';
+    } else { errorType = 'meaning'; }
+  }
+
+  const result = applyTestResult(w, ok, { mode: effectiveMode, skipped: !!skipped, timeMs, errorType,
+    opts: test.curOpts || null, picked: test.curPicked || null }); /*VQ-PATCH*/
+  test.changes.push({ word: w, change: result.change, msg: result.msg });
+
+  if (ok) test.correct++;
+  else if (!test.wrong.find(x => keyOf(x) === keyOf(w))) test.wrong.push(w);
+
+  const inp = document.getElementById('answerInput');
+  if (inp) inp.disabled = true;
+  ['checkBtn','skipBtn','uncertainBtn'].forEach(id => { const el = document.getElementById(id); if (el) el.disabled = true; });
+  document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+
+  const isLast = test.idx + 1 >= test.queue.length;
+  const fb = document.getElementById('feedbackBox');
+  fb.className = 'feedback ' + (ok ? 'good' : 'bad');
+
+  const badgeCls = result.change === 'up' ? 'fb-up' : result.change === 'down' ? 'fb-down' : 'fb-keep';
+  const newStatus = getStatus(keyOf(w));
+  const badgeText = `${result.msg} ｜ 当前：${statusLabel(newStatus)}`;
+
+  const rec = getRecord(keyOf(w));
+  const tip = metaTipFor(rec, ok, errorType);
+  const tipHTML = tip ? `
+    <div class="meta-tip">
+      <span class="icon">${tip.icon}</span>
+      <span class="text">${esc(tip.text)}</span>
+    </div>` : '';
+
+  let reviewInfo = '';
+  if (!skipped){
+    if (ok){
+      const days = Math.ceil((rec.nextReviewAt - Date.now()) / DAY_MS);
+      reviewInfo = `<div style="margin-top:10px;font-size:11.5px;color:#16a34a;font-weight:800;text-align:center;">📅 下次复习：${days} 天后</div>`;
+    } else {
+      reviewInfo = `<div style="margin-top:10px;font-size:11.5px;color:#dc2626;font-weight:800;text-align:center;">📅 5 分钟后再次复习</div>`;
+    }
+  }
+
+  fb.innerHTML = `
+    <div class="fb-title">${ok ? '✅ 回答正确' : (skipped ? '💡 正确答案' : '❌ 回答错误')}
+      <span style="font-weight:600;color:#94a3b8;font-size:11px;margin-left:8px;">用时 ${fmtMs(timeMs)}</span>
+    </div>
+    <div class="fb-answer">
+      <span class="fb-en">${esc(w.en)}</span>
+      <span class="fb-ipa">${esc(w.ipa)}</span>
+      <span class="fb-zh">${esc(w.pos)} ${esc(w.zh)}</span>
+      <button class="speak" id="fbSpeak">🔊</button>
+    </div>
+    ${w.ex ? `<div class="fb-ex">例：${esc(w.ex)}</div>` : ''}
+    <div class="fb-badge ${badgeCls}">${esc(badgeText)}</div>
+    ${reviewInfo}
+    ${tipHTML}
+    <div class="row center">
+      <button id="nextBtn" class="primary">${isLast ? '查看测试结果' : '下一题 →'}</button>
+    </div>`;
+  document.getElementById('fbSpeak').onclick = () => speak(w.en);
+  document.getElementById('nextBtn').onclick = nextQuestion;
+  if (!ok) setTimeout(() => speak(w.en), 320);
+}
+
+function nextQuestion(){
+  test.idx++;
+  if (test.idx >= test.queue.length){ endTest(); return; }
+  renderQuestion();
+}
+
+function endTest(){
+  document.getElementById('testArea').classList.add('hidden');
+  const done = document.getElementById('testDone');
+  done.classList.remove('hidden');
+
+  const total = test.queue.length;
+  const rate  = total ? Math.round(test.correct / total * 100) : 0;
+  const emoji = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
+
+  done.innerHTML = `
+    <div class="done-card">
+      <div class="done-emoji">${emoji}</div>
+      <h2>测试完成</h2>
+      <p class="done-score">答对 <b>${test.correct}</b> / ${total} 题（正确率 ${rate}%）</p>
+      ${test.uncertain.length ? `
+        <div style="margin-top:10px;padding:10px 12px;background:#fffbeb;border:1px solid rgba(252,211,77,.9);border-radius:12px;font-size:12.5px;color:#92400e;text-align:left;line-height:1.5;">
+          🤔 有 <b>${test.uncertain.length}</b> 个词被标记为不确定，5 分钟后会再次安排复习。
+        </div>` : ''}
+
+      ${test.changes.length ? `
+        <div class="done-changes">
+          <h3>本轮状态变化</h3>
+          <ul>
+            ${test.changes.map(c => `
+              <li>
+                <span class="${c.change === 'up' ? 'arrow-up' : c.change === 'down' ? 'arrow-down' : 'arrow-keep'}">
+                  ${c.change === 'up' ? '↑' : c.change === 'down' ? '↓' : '·'}
+                </span>
+                <span><b>${esc(c.word.en)}</b></span>
+                <span style="color:#94a3b8;font-size:12px;">${esc(c.msg.replace(/^[↑↓·★🤔]\s*/, ''))}</span>
+              </li>`).join('')}
+          </ul>
+        </div>` : ''}
+
+      ${test.wrong.length
+        ? `<div class="wrong-list">
+             <h3>需要复习的单词（${test.wrong.length}）</h3>
+             <ul>${test.wrong.map(w => `<li>
+                <span>${esc(w.en)}</span>
+                <em>${esc(w.ipa)}</em>
+                <span class="zh">${esc(w.pos)} ${esc(w.zh)}</span>
+                <button class="speak" data-say="${esc(w.en)}">🔊</button>
+              </li>`).join('')}</ul>
+           </div>`
+        : '<p style="color:#16a34a;font-weight:800;margin-top:12px;">全部答对，太棒了！</p>'}
+
+      <div class="row center" style="margin-top:20px;">
+        <button id="againBtn" class="primary">再测一次</button>
+        <button id="backSetupBtn" class="ghost">返回分组</button>
+      </div>
+    </div>`;
+
+  done.querySelectorAll('[data-say]').forEach(b => b.onclick = () => speak(b.dataset.say));
+  document.getElementById('againBtn').onclick = () => {
+    if (test.group === 'mix') startMixTest();
+    else startTest(test.group);
+  };
+  document.getElementById('backSetupBtn').onclick = resetTestUI;
+}
+
+function renderResult(){
+  const k = getKnown().length;
+  const f = getFuzzy().length;
+  const u = getUnknown().length;
+  const prioCount = WORDS.filter(w => getRecord(keyOf(w)).isPriority).length;
+  const none = TOTAL_COUNT - k - f - u;
+
+  document.getElementById('statsBox').innerHTML = `
+    <div class="stat"><div class="n">${TOTAL_COUNT}</div><div class="l">总词数</div></div>
+    <div class="stat"><div class="n" style="color:#16a34a">${k}</div><div class="l">✓ 会</div></div>
+    <div class="stat"><div class="n" style="color:#d97706">${f}</div><div class="l">◐ 眼熟</div></div>
+    <div class="stat"><div class="n" style="color:#dc2626">${u}</div><div class="l">✗ 不会</div></div>
+    <div class="stat"><div class="n" style="color:#f59e0b">${prioCount}</div><div class="l">★ 重点</div></div>`;
+
+  document.getElementById('resCount').textContent = TOTAL_COUNT;
+
+  renderOverview(k, f, u, prioCount, none);
+  renderSchedule();
+  renderMatrix();
+  renderWrong();
+  renderDetail();
+}
+
+function renderOverview(k, f, u, prioCount, none){
+  const total = TOTAL_COUNT;
+  const pct = n => total ? (n / total * 100) : 0;
+  const dims = [
+    { label:'形式-意义识别', count: u, color:'linear-gradient(90deg, #EF4444, #DC2626)' },
+    { label:'形式-意义产出', count: f, color:'linear-gradient(90deg, #F59E0B, #D97706)' },
+    { label:'用法产出',       count: k, color:'linear-gradient(90deg, #22C55E, #16A34A)' },
+    { label:'未评估',         count: none, color:'linear-gradient(90deg, #CBD5E1, #94A3B8)' }
+  ];
+  document.getElementById('panel-overview').innerHTML = `
+    ${(() => {
+      const c = previewCompletion();
+      const pct = c.tests ? Math.round(c.acc * 100) : 0;
+      return `<div class="done-flag ${c.done ? 'ok' : 'pending'}" style="display:flex;flex-direction:column;gap:6px;padding:14px 16px;border-radius:16px;margin-bottom:20px;color:#fff;background:${c.done ? 'linear-gradient(135deg,#16a34a,#059669)' : 'linear-gradient(135deg,#7C3AED,#EC4899)'};box-shadow:0 10px 24px -10px ${c.done ? 'rgba(22,163,74,.5)' : 'rgba(124,58,237,.5)'};">
+        <div style="font-weight:900;font-size:15.5px;">${c.done ? '🎉 本篇预习完成' : '⏳ 本篇预习未完成'}</div>
+        <div style="font-size:12px;opacity:.92;line-height:1.6;">
+          两轨判据：① 自评轨——不会的词清零 ② 测试轨——测试正确率 ≥80%<br>
+          ① 自评轨 <b>${c.u}</b> 个不会（${c.passU ? '✓ 已清零' : '需清零'}）<br>
+          ② 测试轨 <b>${c.tests ? pct + '%' : '未测试'}</b>（${c.passAcc ? '✓ 达标' : '需 ≥80%'}）· 已覆盖 ${c.covered}/${c.total} 词<br>
+          ${c.done ? '可以进入该章的复习了。' : '回到「②学习 / ③测试」补齐后再回来这里查看。'}
+        </div>
+      </div>`;
+    })()}
+    <h3 class="ana-title">词汇知识维度分布</h3>
+    <p class="ana-sub">依据 Nation（2013）框架，当前各维度词汇占比。</p>
+    ${dims.map(d => `
+      <div class="bar-row">
+        <div class="bar-label">${d.label}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct(d.count)}%;background:${d.color}"></div></div>
+        <div class="bar-val">${d.count} 词 (${pct(d.count).toFixed(0)}%)</div>
+      </div>`).join('')}
+    <h3 class="ana-title" style="margin-top:24px;">整体投入</h3>
+    ${(() => {
+      const recs = WORDS.map(w => getRecord(keyOf(w)));
+      const totalListen = recs.reduce((s, r) => s + r.listenCount, 0);
+      const totalStudyTime = recs.reduce((s, r) => s + r.studyTime, 0);
+      const totalTests = recs.reduce((s, r) => s + r.testCount, 0);
+      const totalCorrect = recs.reduce((s, r) => s + r.correctCount, 0);
+      const totalUncertain = recs.reduce((s, r) => s + (r.uncertainCount || 0), 0);
+      const totalNear = recs.reduce((s, r) => s + (r.nearMissCount || 0), 0);
+      const avgRate = totalTests ? (totalCorrect / totalTests * 100).toFixed(1) : '—';
+      return `<div class="kpi-grid">
+        <div class="kpi"><div class="k">听音次数</div><div class="v">${totalListen}</div></div>
+        <div class="kpi"><div class="k">学习时长</div><div class="v">${fmtTime(totalStudyTime)}</div></div>
+        <div class="kpi"><div class="k">测试题数</div><div class="v">${totalTests}</div></div>
+        <div class="kpi"><div class="k">平均正确率</div><div class="v">${avgRate}<span class="u">${avgRate !== '—' ? '%' : ''}</span></div></div>
+        <div class="kpi"><div class="k">不确定</div><div class="v">${totalUncertain}</div></div>
+        <div class="kpi"><div class="k">拼写near-miss</div><div class="v">${totalNear}</div></div>
+      </div>`;
+    })()}
+  `;
+}
+
+function renderSchedule(){
+  const now = Date.now();
+  const groups = { due: [], new: [], today: [], tomorrow: [], week: [], later: [] };
+
+  WORDS.forEach(w => {
+    const rec = getRecord(keyOf(w));
+    const s = rec.status;
+    if (s !== 'fuzzy' && s !== 'unknown') return;
+    const st = reviewStatusOf(rec);
+    if (st === 'new'){ groups.new.push(w); return; }
+    if (st === 'due'){ groups.due.push(w); return; }
+    const diff = rec.nextReviewAt - now;
+    const days = diff / DAY_MS;
+    if (days <= 1) groups.today.push(w);
+    else if (days <= 2) groups.tomorrow.push(w);
+    else if (days <= 7) groups.week.push(w);
+    else groups.later.push(w);
+  });
+
+  const totalDue = groups.due.length + groups.new.length;
+
+  const renderGroup = (title, arr, cls, color) => {
+    if (!arr.length) return '';
+    return `
+      <h3 class="ana-title" style="margin-top:22px;">
+        ${title} <span style="font-weight:600;color:${color};font-size:12px;margin-left:6px;">${arr.length} 词</span>
+      </h3>
+      <ul class="top-list">
+        ${arr.map(w => {
+          const rec = getRecord(keyOf(w));
+          return `<li>
+            <span class="en">${esc(w.en)}</span>
+            <span style="color:#94a3b8;font-size:12px;">${esc(w.pos)} ${esc(w.zh)}</span>
+            <span class="meta">${statusLabel(rec.status)} ｜ 已复习 ${rec.reviewCount || 0} 次</span>
+          </li>`;
+        }).join('')}
+      </ul>`;
+  };
+
+  document.getElementById('panel-schedule').innerHTML = `
+    <h3 class="ana-title">复习计划</h3>
+    <p class="ana-sub">
+      基于间隔重复（Spaced Repetition）理论，答对后间隔按 1→2→4→7→15→30→60 天递增；答错则重置为 5 分钟后重试。
+    </p>
+
+    <div class="kpi-grid" style="margin-bottom:18px;">
+      <div class="kpi" style="background:#fef2f2;border-color:rgba(252,165,165,.6);">
+        <div class="k">今日待复习</div>
+        <div class="v" style="color:#dc2626;">${totalDue}<span class="u"> 词</span></div>
+      </div>
+      <div class="kpi" style="background:#eff6ff;border-color:rgba(191,219,254,.6);">
+        <div class="k">本周内</div>
+        <div class="v" style="color:#1d4ed8;">${groups.today.length + groups.tomorrow.length + groups.week.length}<span class="u"> 词</span></div>
+      </div>
+      <div class="kpi" style="background:#f0fdf4;border-color:rgba(134,239,172,.6);">
+        <div class="k">已掌握</div>
+        <div class="v" style="color:#16a34a;">${getKnown().length}<span class="u"> 词</span></div>
+      </div>
+    </div>
+
+    ${renderGroup('🔔 已到期，建议立即复习', groups.due, 'due', '#dc2626')}
+    ${renderGroup('🆕 首次学习（未复习）', groups.new, 'new', '#1d4ed8')}
+    ${renderGroup('📅 今天内复习', groups.today, 'today', '#7c3aed')}
+    ${renderGroup('📅 明天复习', groups.tomorrow, 'tomorrow', '#0891b2')}
+    ${renderGroup('📅 一周内复习', groups.week, 'week', '#64748b')}
+    ${renderGroup('📅 更久之后', groups.later, 'later', '#94a3b8')}
+
+    ${(totalDue + groups.today.length + groups.tomorrow.length + groups.week.length + groups.later.length === 0)
+      ? '<div class="empty" style="padding:40px 0;"><div class="big">🎉</div><div>所有词都在计划中，休息一下吧</div></div>'
+      : ''}
+  `;
+}
+
+function renderMatrix(){
+  const labels = { 'known':'会', 'fuzzy':'眼熟', 'unknown':'不会' };
+  const statuses = ['known','fuzzy','unknown'];
+  const matrix = {};
+  statuses.forEach(a => { matrix[a] = {}; statuses.forEach(b => { matrix[a][b] = 0; }); });
+  let totalEvents = 0;
+  WORDS.forEach(w => {
+    getRecord(keyOf(w)).testHistory.forEach(h => {
+      if (statuses.includes(h.fromStatus) && statuses.includes(h.toStatus)){
+        matrix[h.fromStatus][h.toStatus]++; totalEvents++;
+      }
+    });
+  });
+
+  if (!totalEvents){
+    document.getElementById('panel-matrix').innerHTML = `
+      <h3 class="ana-title">状态转移矩阵</h3>
+      <p class="ana-sub">暂无测试记录。完成测试后，这里会显示每类状态在测试后如何变化。</p>
+      <div class="empty" style="padding:40px 0;"><div class="big">📊</div><div>还没有测试数据</div></div>`;
+    return;
+  }
+
+  const head = `<tr><th>从 ↓ / 到 →</th>${statuses.map(s => `<th>${labels[s]}</th>`).join('')}<th>合计</th></tr>`;
+  const rows = statuses.map(a => {
+    const rowSum = statuses.reduce((s, b) => s + matrix[a][b], 0);
+    const cells = statuses.map(b => {
+      const v = matrix[a][b];
+      let cls = '';
+      if (a === b && v > 0) cls = 'diag';
+      else if (b === 'known' && v > 0) cls = 'up';
+      else if (b === 'unknown' && v > 0) cls = 'down';
+      else if (v === 0) cls = 'zero';
+      return `<td class="${cls}">${v}</td>`;
+    }).join('');
+    return `<tr><td class="row-head">${labels[a]}</td>${cells}<td><b>${rowSum}</b></td></tr>`;
+  }).join('');
+
+  const fuzzyTotal = statuses.reduce((s, b) => s + matrix.fuzzy[b], 0);
+  const fuzzyToKnown = matrix.fuzzy.known;
+  const fuzzyRate = fuzzyTotal ? (fuzzyToKnown / fuzzyTotal * 100).toFixed(1) : '—';
+  const unknownTotal = statuses.reduce((s, b) => s + matrix.unknown[b], 0);
+  const unknownToFuzzy = matrix.unknown.fuzzy;
+  const unknownRate = unknownTotal ? (unknownToFuzzy / unknownTotal * 100).toFixed(1) : '—';
+
+  document.getElementById('panel-matrix').innerHTML = `
+    <h3 class="ana-title">状态转移矩阵</h3>
+    <p class="ana-sub">每一行表示测试前状态，每一列表示测试后状态。对角线为保持，向上为升级，向下为降级。</p>
+    <table class="matrix-table"><thead>${head}</thead><tbody>${rows}</tbody></table>
+    <h3 class="ana-title" style="margin-top:24px;">关键转化率</h3>
+    <div class="kpi-grid">
+      <div class="kpi">
+        <div class="k">眼熟 → 会</div>
+        <div class="v">${fuzzyRate}<span class="u">%</span></div>
+        <div style="font-size:10.5px;color:#94a3b8;margin-top:4px;">${fuzzyToKnown} / ${fuzzyTotal} 次</div>
+      </div>
+      <div class="kpi">
+        <div class="k">不会 → 眼熟</div>
+        <div class="v">${unknownRate}<span class="u">%</span></div>
+        <div style="font-size:10.5px;color:#94a3b8;margin-top:4px;">${unknownToFuzzy} / ${unknownTotal} 次</div>
+      </div>
+      <div class="kpi">
+        <div class="k">累计测试事件</div>
+        <div class="v">${totalEvents}</div>
+      </div>
+    </div>
+  `;
+}
+
+function renderWrong(){
+  const arr = WORDS.map(w => ({ w, rec: getRecord(keyOf(w)) }))
+                    .filter(x => x.rec.wrongCount > 0)
+                    .sort((a, b) => b.rec.wrongCount - a.rec.wrongCount)
+                    .slice(0, 12);
+
+  if (!arr.length){
+    document.getElementById('panel-wrong').innerHTML = `
+      <h3 class="ana-title">高频错词</h3>
+      <p class="ana-sub">暂无错题记录。</p>
+      <div class="empty" style="padding:40px 0;"><div class="big">🎯</div><div>还没有错题</div></div>`;
+    return;
+  }
+
+  document.getElementById('panel-wrong').innerHTML = `
+    <h3 class="ana-title">高频错词 Top ${arr.length}</h3>
+    <p class="ana-sub">按累计答错次数排序。排名靠前的词建议优先复习。</p>
+    <ul class="top-list">
+      ${arr.map((x, i) => {
+        const r = i + 1;
+        const rankCls = r === 1 ? 'r1' : r === 2 ? 'r2' : r === 3 ? 'r3' : '';
+        const rec = x.rec;
+        const errTypes = {};
+        rec.testHistory.forEach(h => { if (h.errorType) errTypes[h.errorType] = (errTypes[h.errorType] || 0) + 1; });
+        const errStr = Object.keys(errTypes).map(k => {
+          const zh = k === 'spelling' ? '拼写' : k === 'meaning' ? '意义' : k === 'usage' ? '用法' : '不确定';
+          return `${zh}×${errTypes[k]}`;
+        }).join(' · ');
+        return `<li>
+          <span class="rank ${rankCls}">${r}</span>
+          <span class="en">${esc(x.w.en)}</span>
+          <span style="color:#94a3b8;font-size:12px;">${esc(x.w.pos)} ${esc(x.w.zh)}</span>
+          ${errStr ? `<span style="color:#7C3AED;font-size:11.5px;font-weight:700;">${esc(errStr)}</span>` : ''}
+          <span class="meta">当前：${statusLabel(rec.status)} ｜ 错 <span class="count">${rec.wrongCount}</span> / 测 ${rec.testCount}</span>
+        </li>`;
+      }).join('')}
+    </ul>
+  `;
+}
+
+function renderDetail(){
+  const box = document.getElementById('panel-detail');
+  box.innerHTML = `
+    <h3 class="ana-title">完整词汇档案</h3>
+    <p class="ana-sub">共 ${TOTAL_COUNT} 条记录。包含状态、知识维度、复习计划、学习投入、测试表现。</p>
+    <table class="result-table">
+      <thead><tr>
+        <th style="width:30px">#</th>
+        <th style="width:50px">状态</th>
+        <th style="width:86px">知识维度</th>
+        <th style="width:32px">★</th>
+        <th>英文</th>
+        <th>释义</th>
+        <th style="width:72px">复习</th>
+        <th style="width:48px">次数</th>
+        <th style="width:64px">正确率</th>
+      </tr></thead>
+      <tbody>
+        ${WORDS.map((w, i) => {
+          const key = keyOf(w);
+          const rec = getRecord(key);
+          const s = rec.status;
+          const cls = s === 'known' ? 'b-known' : s === 'fuzzy' ? 'b-fuzzy' : s === 'unknown' ? 'b-unknown' : 'b-none';
+          const rate = rec.testCount ? (rec.correctCount / rec.testCount * 100).toFixed(0) + '%' : '—';
+          const rLabel = reviewStatusLabel(rec);
+          const rCls = reviewStatusOf(rec) === 'due' ? 'due' : 'ok';
+          return `<tr>
+            <td>${i + 1}</td>
+            <td class="badge-cell ${cls}">${statusLabel(s)}</td>
+            <td class="dim-cell">${dimensionOf(s)}</td>
+            <td class="prio-cell">${rec.isPriority ? '★' : ''}</td>
+            <td class="en-cell">${esc(w.en)}<br><span class="ipa-cell">${esc(w.ipa)}</span></td>
+            <td>${esc(w.pos)} ${esc(w.zh)}</td>
+            <td class="review-cell ${rCls}">${rLabel}</td>
+            <td style="text-align:center;">${rec.reviewCount || 0}</td>
+            <td style="text-align:center;">${rate}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+document.querySelectorAll('.atab').forEach(t => {
+  t.onclick = () => {
+    currentAPanel = t.dataset.ap;
+    document.querySelectorAll('.atab').forEach(x => x.classList.toggle('active', x === t));
+    ['overview','schedule','matrix','wrong','detail'].forEach(p => {
+      document.getElementById('panel-' + p).classList.toggle('hidden', p !== currentAPanel);
+    });
+  };
+});
+
+function download(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1500);
+}
+
+document.getElementById('exportPdf').onclick = () => {
+  const date = new Date().toLocaleDateString('zh-CN', { year:'numeric', month:'2-digit', day:'2-digit' });
+  const k = getKnown().length, f = getFuzzy().length, u = getUnknown().length;
+  const prioCount = WORDS.filter(w => getRecord(keyOf(w)).isPriority).length;
+  const none = TOTAL_COUNT - k - f - u;
+
+  const recs = WORDS.map(w => ({ w, rec: getRecord(keyOf(w)) }));
+  const totalListen = recs.reduce((s, x) => s + x.rec.listenCount, 0);
+  const totalStudyTime = recs.reduce((s, x) => s + x.rec.studyTime, 0);
+  const totalTests = recs.reduce((s, x) => s + x.rec.testCount, 0);
+  const totalCorrect = recs.reduce((s, x) => s + x.rec.correctCount, 0);
+  const avgRate = totalTests ? (totalCorrect / totalTests * 100).toFixed(1) : '—';
+
+  const html = `<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>Unit 8 · A teenage DJ · 词汇诊断报告</title>
+<style>
+  @page { size: A4 portrait; margin: 14mm 12mm; }
+  *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  body{margin:0;padding:0;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;}
+  .header{border-bottom:2.5px solid #7C3AED;padding-bottom:10px;margin-bottom:14px;}
+  .header h1{margin:0;font-size:20px;color:#0f172a;}
+  .header .meta{margin-top:6px;font-size:11.5px;color:#6b7280;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;}
+  .summary{display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap;background:#f8fafc;border-radius:10px;padding:10px 14px;font-size:12px;}
+  .summary span{font-weight:700;}
+  .summary .k{color:#16a34a;} .summary .f{color:#d97706;} .summary .u{color:#dc2626;}
+  .summary .n{color:#94a3b8;} .summary .p{color:#f59e0b;}
+  .sec-title{font-size:14px;color:#334155;margin:20px 0 10px;padding-bottom:5px;border-bottom:1px solid #e2e8f0;}
+  .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+  .kpi{background:#f8fafc;border-radius:8px;padding:9px 10px;}
+  .kpi .k{font-size:10px;color:#94a3b8;font-weight:700;text-transform:uppercase;}
+  .kpi .v{font-size:16px;font-weight:800;color:#0f172a;margin-top:3px;}
+  .kpi .v .u{font-size:11px;color:#94a3b8;font-weight:600;}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;}
+  .item{border:1.5px solid #cbd5e1;border-radius:9px;padding:9px 11px;break-inside:avoid;background:#fff;position:relative;}
+  .item.known{border-color:#86efac;background:#f0fdf4;}
+  .item.fuzzy{border-color:#fcd34d;background:#fffbeb;}
+  .item.unknown{border-color:#fca5a5;background:#fef2f2;}
+  .item.prio::after{content:'★';position:absolute;top:5px;right:7px;color:#f59e0b;font-size:13px;}
+  .row1{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;margin-bottom:3px;}
+  .word{font-size:15px;font-weight:800;color:#0f172a;}
+  .ipa{font-size:10.5px;color:#6b7280;}
+  .status{margin-left:auto;font-size:9px;padding:2px 7px;border-radius:5px;font-weight:800;}
+  .st-known{background:#dcfce7;color:#16a34a;}
+  .st-fuzzy{background:#fef3c7;color:#d97706;}
+  .st-unknown{background:#fee2e2;color:#dc2626;}
+  .st-none{background:#f1f5f9;color:#94a3b8;}
+  .row2{font-size:12px;line-height:1.4;color:#334155;padding-left:0;}
+  .row2 .pos{color:#7C3AED;font-weight:800;margin-right:4px;}
+  .row3{margin-top:4px;padding-left:7px;font-size:10.5px;line-height:1.4;color:#94a3b8;font-style:italic;border-left:2px solid #e2e8f0;}
+  .stats-line{margin-top:4px;font-size:9.5px;color:#94a3b8;font-variant-numeric:tabular-nums;}
+  .stats-line b{color:#64748b;}
+  .footer{margin-top:22px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:10.5px;color:#9ca3af;text-align:center;}
+</style></head><body>
+  <div class="header">
+    <h1>Unit 8 · A teenage DJ · 词汇诊断报告</h1>
+    <div class="meta">
+      <span>基于 Nation（2013）+ 间隔重复理论 ｜ 共 <b>${TOTAL_COUNT}</b> 词</span>
+      <span>导出日期：${date}</span>
+    </div>
+  </div>
+  <div class="summary">
+    <span>✓ 会：<span class="k">${k}</span></span>
+    <span>◐ 眼熟：<span class="f">${f}</span></span>
+    <span>✗ 不会：<span class="u">${u}</span></span>
+    <span>★ 重点：<span class="p">${prioCount}</span></span>
+    <span>未标记：<span class="n">${none}</span></span>
+  </div>
+  <div class="sec-title">学习投入</div>
+  <div class="kpi-grid">
+    <div class="kpi"><div class="k">听音次数</div><div class="v">${totalListen}</div></div>
+    <div class="kpi"><div class="k">学习时长</div><div class="v">${fmtTime(totalStudyTime)}</div></div>
+    <div class="kpi"><div class="k">测试题数</div><div class="v">${totalTests}</div></div>
+    <div class="kpi"><div class="k">平均正确率</div><div class="v">${avgRate}<span class="u">${avgRate !== '—' ? '%' : ''}</span></div></div>
+  </div>
+  <div class="sec-title">复习计划</div>
+  <table style="width:100%;border-collapse:collapse;font-size:11.5px;">
+    <tr style="background:#f8fafc;">
+      <th style="padding:6px 8px;text-align:left;">词</th>
+      <th style="padding:6px 8px;text-align:left;">释义</th>
+      <th style="padding:6px 8px;text-align:center;">状态</th>
+      <th style="padding:6px 8px;text-align:center;">已复习</th>
+      <th style="padding:6px 8px;text-align:center;">下次复习</th>
+    </tr>
+    ${WORDS.filter(w => {
+      const rec = getRecord(keyOf(w));
+      return rec.status === 'fuzzy' || rec.status === 'unknown';
+    }).map(w => {
+      const rec = getRecord(keyOf(w));
+      return `<tr>
+        <td style="padding:6px 8px;font-weight:700;">${esc(w.en)}</td>
+        <td style="padding:6px 8px;color:#64748b;">${esc(w.zh)}</td>
+        <td style="padding:6px 8px;text-align:center;">${statusLabel(rec.status)}</td>
+        <td style="padding:6px 8px;text-align:center;">${rec.reviewCount || 0} 次</td>
+        <td style="padding:6px 8px;text-align:center;${reviewStatusOf(rec)==='due'?'color:#dc2626;font-weight:800;':''}">${reviewStatusLabel(rec)}</td>
+      </tr>`;
+    }).join('')}
+  </table>
+  <div class="sec-title">完整词汇档案</div>
+  <div class="grid">
+    ${WORDS.map((w, i) => {
+      const key = keyOf(w);
+      const rec = getRecord(key);
+      const s = rec.status;
+      const itemCls = s === 'known' ? 'known' : s === 'fuzzy' ? 'fuzzy' : s === 'unknown' ? 'unknown' : '';
+      const prioCls = rec.isPriority ? ' prio' : '';
+      const stCls = 'st-' + (s === 'none' ? 'none' : s);
+      const rate = rec.testCount ? (rec.correctCount / rec.testCount * 100).toFixed(0) + '%' : '—';
+      return `
+      <div class="item ${itemCls}${prioCls}">
+        <div class="row1">
+          <span class="word">${esc(w.en)}</span>
+          <span class="ipa">${esc(w.ipa)}</span>
+          <span class="status ${stCls}">${statusLabel(s)}</span>
+        </div>
+        <div class="row2"><span class="pos">${esc(w.pos)}</span>${esc(w.zh)}</div>
+        ${w.ex ? `<div class="row3">${esc(w.ex)}</div>` : ''}
+        <div class="stats-line">
+          复习 ${rec.reviewCount || 0} 次 ｜ 测试 ${rec.testCount} 题 ｜ 正确率 ${rate} ｜ 下次：${reviewStatusLabel(rec)}
+        </div>
+      </div>`;
+    }).join('')}
+  </div>
+  <div class="footer">Unit 8 · A teenage DJ · 词汇诊断报告</div>
+</body></html>`;
+
+  const iframe = document.createElement('iframe');
+  iframe.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;';
+  document.body.appendChild(iframe);
+  const doc = iframe.contentDocument || iframe.contentWindow.document;
+  doc.open(); doc.write(html); doc.close();
+  setTimeout(() => {
+    try { iframe.contentWindow.focus(); iframe.contentWindow.print(); }
+    catch(e){ console.error(e); }
+    setTimeout(() => { if (document.body.contains(iframe)) document.body.removeChild(iframe); }, 1800);
+  }, 320);
+};
+
+document.getElementById('exportCsv').onclick = () => {
+  const rows = [['序号','状态','知识维度','重点','复习次数','下次复习','英文','音标','词性','中文释义','考纲','类别','例句',
+                 '听音次数','学习时长秒','学习轮次','测试题数','正确数','错误数','不确定数','正确率']];
+  WORDS.forEach((w, i) => {
+    const key = keyOf(w);
+    const rec = getRecord(key);
+    const rate = rec.testCount ? (rec.correctCount / rec.testCount * 100).toFixed(1) + '%' : '';
+    rows.push([
+      i+1, statusLabel(rec.status), dimensionOf(rec.status), rec.isPriority ? '★' : '',
+      rec.reviewCount || 0, reviewStatusLabel(rec),
+      w.en, w.ipa, w.pos, w.zh, w.level, w.cat, w.ex,
+      rec.listenCount, Math.round(rec.studyTime), rec.studyRounds,
+      rec.testCount, rec.correctCount, rec.wrongCount, rec.uncertainCount || 0, rate
+    ]);
+  });
+  const csv = '\ufeff' + rows.map(r => r.map(c => `"${String(c).replace(/"/g,'""')}"`).join(',')).join('\r\n');
+  download(new Blob([csv], { type:'text/csv;charset=utf-8;' }), PASSAGE.key + '_词汇诊断.csv');
+};
+
+document.getElementById('exportXls').onclick = () => {
+  let html = '<html xmlns:x="urn:schemas-microsoft-com:office:excel"><head><meta charset="utf-8"></head><body>';
+  html += '<table border="1" cellspacing="0" cellpadding="4">';
+  html += '<tr style="background:#ede9fe;font-weight:bold;">'
+        + '<td>序号</td><td>状态</td><td>知识维度</td><td>重点</td>'
+        + '<td>复习次数</td><td>下次复习</td>'
+        + '<td>英文</td><td>音标</td><td>词性</td><td>中文释义</td><td>考纲等级</td><td>类别</td><td>例句</td>'
+        + '<td>听音次数</td><td>学习时长秒</td><td>学习轮次</td>'
+        + '<td>测试题数</td><td>正确数</td><td>错误数</td><td>不确定数</td><td>正确率</td></tr>';
+  WORDS.forEach((w, i) => {
+    const key = keyOf(w);
+    const rec = getRecord(key);
+    const rate = rec.testCount ? (rec.correctCount / rec.testCount * 100).toFixed(1) + '%' : '';
+    html += `<tr><td>${i+1}</td><td>${statusLabel(rec.status)}</td><td>${dimensionOf(rec.status)}</td>
+             <td>${rec.isPriority ? '★' : ''}</td>
+             <td>${rec.reviewCount || 0}</td><td>${reviewStatusLabel(rec)}</td>
+             <td>${esc(w.en)}</td><td>${esc(w.ipa)}</td><td>${esc(w.pos)}</td>
+             <td>${esc(w.zh)}</td><td>${esc(w.level)}</td><td>${esc(w.cat)}</td>
+             <td>${esc(w.ex)}</td>
+             <td>${rec.listenCount}</td><td>${Math.round(rec.studyTime)}</td><td>${rec.studyRounds}</td>
+             <td>${rec.testCount}</td><td>${rec.correctCount}</td><td>${rec.wrongCount}</td><td>${rec.uncertainCount || 0}</td>
+             <td>${rate}</td></tr>`;
+  });
+  html += '</table></body></html>';
+  download(new Blob(['\ufeff' + html], { type:'application/vnd.ms-excel;charset=utf-8;' }),
+           PASSAGE.key + '_词汇诊断.xls');
+};
+
+/* ========== P0-2：完整存档导出 / 恢复（跨设备迁移唯一手段） ========== */
+document.getElementById('exportArc').onclick = () => {
+  const data = {};
+  try {
+    for (let i = 0; i < localStorage.length; i++){
+      const k = localStorage.key(i);
+      if (k && k.indexOf(PASSAGE.key) === 0) data[k] = localStorage.getItem(k);
+    }
+  } catch(e){}
+  const payload = { app: 'vqdis-archive', version: 1, key: PASSAGE.key, title: PASSAGE.title,
+                    exportedAt: new Date().toISOString(), data: data };
+  download(new Blob([JSON.stringify(payload, null, 1)], { type:'application/json' }),
+           PASSAGE.key + '_存档.json');
+};
+document.getElementById('importArc').onclick = () => document.getElementById('importFile').click();
+document.getElementById('importFile').onchange = (e) => {
+  const f = e.target.files && e.target.files[0];
+  if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    let payload = null;
+    try { payload = JSON.parse(rd.result); } catch(err){ alert('存档文件解析失败：不是有效的 JSON。'); return; }
+    if (!payload || payload.app !== 'vqdis-archive' || !payload.data || payload.key !== PASSAGE.key){
+      alert('存档与本篇不匹配（预期 ' + PASSAGE.key + '，文件为 ' + (payload && payload.key ? payload.key : '未知') + '）。');
+      return;
+    }
+    if (!confirm('将用存档覆盖本机本篇进度（' + Object.keys(payload.data).length + ' 条记录），继续？')) return;
+    try {
+      Object.keys(payload.data).forEach(k => localStorage.setItem(k, payload.data[k]));
+      location.reload();
+    } catch(err){ alert('恢复失败：' + err.message); }
+  };
+  rd.readAsText(f);
+  e.target.value = '';
+};
+
+function showTutorialIfNeeded(){
+  if (!localStorage.getItem(TUTORIAL_KEY)){
+    document.getElementById('tutorial').classList.remove('hidden');
+  }
+}
+document.getElementById('tutorialClose').onclick = () => {
+  try { localStorage.setItem(TUTORIAL_KEY, '1'); } catch(e){}
+  document.getElementById('tutorial').classList.add('hidden');
+};
+
+renderCatbar();
+renderFilterPage();
+renderStudyPage();
+updateTopSub();
+updatePager();
+showTutorialIfNeeded();
+</script>
+<script>
+/* P0-3：离线优先——移除 /store.js 引用（云同步与双击打开互相矛盾）。
+   进度按篇存本机 localStorage；「档案」页提供 存档导出/恢复（JSON）做跨设备迁移。 */
+</script>
+<div style="text-align:center;color:#94a3b8;font-size:12px;padding:10px 0 26px">进度仅存本机浏览器 · 换设备请在「档案」页先「存档」再到新设备「恢复」</div>
+</body>
+</html>

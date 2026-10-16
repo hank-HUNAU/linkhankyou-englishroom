@@ -557,144 +557,8 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 #shelfRoot .guide-later:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.45)}
 #shelfRoot .tz-stage.jump{animation:tzpulse 1.6s ease 2}
 @keyframes tzpulse{0%{box-shadow:0 0 0 0 rgba(124,58,237,.55)}60%{box-shadow:0 0 0 15px rgba(124,58,237,0)}100%{box-shadow:0 0 0 0 rgba(124,58,237,0)}}
-</style></head><body class="listen">
-<div class="app">
-
-  <header class="top">
-    <div class="meta"><span class="t" id="headline">Unit 7</span></div>
-    <div class="sp"></div>
-    <nav class="tabs" id="tabs">
-      <button class="tbtn" id="mapBtn" title="返回书架">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
-      </button>
-      <button class="curtab" id="curTab" title="当前：SPORT WONDERS!"><span class="tty" id="curTty">阅读</span><i class="tsep">·</i><span class="curTt" id="curTitle">SPORT WONDERS!</span><i class="curArr">▾</i></button>
-      <button class="tbtn" id="openDir" title="目录">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="4" cy="6" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="6" x2="20" y2="6"/><circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="12" x2="20" y2="12"/><circle cx="4" cy="18" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="18" x2="20" y2="18"/></svg>
-      </button>
-    </nav>
-  </header>
-
-  <div class="flowbar">
-    <nav class="steps" id="steps">
-      <div class="step on" data-s="listen"><b>1</b><span>聆听</span></div><i class="con"></i>
-      <div class="step" data-s="follow"><b>2</b><span>跟读</span></div><i class="con"></i>
-      <div class="step" data-s="dictate"><b>3</b><span>听写</span></div>
-    </nav>
-  </div>
-
-  <main class="stage">
-    <div class="reader" id="reader">
-      <div class="head-wrap">
-        <h1 class="headline" id="paperTitle"></h1>
-      </div>
-      <div class="body" id="body"></div>
-    </div>
-
-    <div class="fstage" id="fstage">
-      <div class="fs-card" id="fsCard">
-        <div class="fs-txt" id="fsTxt"></div>
-        <div class="fs-hint" id="fsHint"></div>
-      </div>
-      <div class="fs-gap" id="fsGap">
-        <div class="fs-ring" id="fsRing"></div>
-        <div class="fs-gap-msg" id="fsGapMsg">该你开口 · 跟读这段</div>
-        <div class="fs-gapbar"><div class="fs-gapbar-i" id="fsGapBar"></div></div>
-      </div>
-    </div>
-
-    <div class="waypick" id="pickpick" aria-hidden="true">
-      <div class="way-card">
-        <div class="w-head">选择听写抽句</div>
-        <p class="w-sub">从本篇句子中挑"最能练到重点词"的句来听写，每句精听 4 遍（第1、4遍 1.0×，第2、3遍 0.85×）。</p>
-        <button class="way-btn" type="button" onclick="pickCount(3)">
-          <span class="wb-ic">✳</span>
-          <span class="wb-t"><b>抽 3 句</b><i>覆盖本篇重点词的精听，适合快速巩固</i></span>
-        </button>
-        <button class="way-btn" type="button" onclick="pickCount(5)">
-          <span class="wb-ic">✳✳</span>
-          <span class="wb-t"><b>抽 5 句</b><i>更充分的听写覆盖</i></span>
-        </button>
-        <button class="way-btn" type="button" onclick="pickCustom()">
-          <span class="wb-ic">☰</span>
-          <span class="wb-t"><b>自定义选段落</b><i>勾选若干段，在该段内听写全部句子</i></span>
-        </button>
-        <div id="pcustom" class="wx"></div>
-      </div>
-    </div>
-
-    <div class="waypick" id="waypick" aria-hidden="true">
-      <div class="way-card">
-        <div class="w-head">选择听写方式</div>
-        <p class="w-sub">选定后本课全程使用，两种方式都按抽句四遍精听。</p>
-        <button class="way-btn" type="button" onclick="pickWay('key')">
-          <span class="wb-ic">⌨</span>
-          <span class="wb-t"><b>键盘输入听写</b><i>在原位下划线处打字，写完自动判分</i></span>
-        </button>
-        <button class="way-btn" type="button" onclick="pickWay('paper')">
-          <span class="wb-ic">✎</span>
-          <span class="wb-t"><b>稿纸听写</b><i>屏幕显示下划线占位，用你自己的纸笔写，点「核对答案」对照</i></span>
-        </button>
-      </div>
-    </div>
-
-    <!-- 知情把关浮层：前进跳过未完成环节时的元认知提示 -->
-    <div class="waypick" id="informed" aria-hidden="true">
-      <div class="way-card" style="max-width:440px">
-        <div class="w-head" id="informedTitle"></div>
-        <p class="w-sub" id="informedMsg"></p>
-        <div style="display:flex;gap:10px;justify-content:flex-end">
-          <button class="chip" id="informedNo" type="button">返回</button>
-          <button class="cta" id="informedYes" type="button">仍要前进</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="dict" id="dict">
-      <div class="dict-head">
-        <div style="display:flex;flex-direction:column;gap:2px">
-          <span class="dict-tag">听写 · 抽句四遍精听</span>
-          <span class="dict-sub" id="dt-count"></span>
-        </div>
-        <span class="dict-pass" id="dt-pass">第 1/4 遍 · 1.0× 常速</span>
-      </div>
-      <div class="dict-card">
-        <div class="dt-line" id="dt-sheet"></div>
-      </div>
-      <div class="dict-zh" id="dt-zh"></div>
-      <div class="dict-desc" id="dt-desc"></div>
-      <div class="dict-act">
-        <button class="chip" id="dtRelisten"><span class="dot"></span>重听本句</button>
-        <span class="dict-score" id="dt-score"></span>
-      </div>
-      <div class="dict-diag" id="dt-diag"></div>
-    </div>
-  </main>
-
-  <footer class="dock">
-    <div class="dgroup">
-      <button class="tbtn" id="prev" title="上一条"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"></path></svg></button>
-      <button class="big" id="play"><svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="7 4 20 12 7 20 7 4"/></svg></button>
-      <button class="tbtn" id="next" title="下一条"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 17 5-5-5-5M12 17l5-5-5-5"></path></svg></button>
-    </div>
-    <div class="dmid">
-      <span class="di" id="dkCntR" style="display:none"><span class="lbl">句</span><span class="num" id="dkS">1/1</span></span>
-      <span class="di-dots" id="dkDots"></span>
-      <button class="chip" id="cnToggle">译文</button>
-      <span class="dlp">
-        <span class="dlp-t">步骤</span>
-        <span class="fpass" id="fpass">
-        <span class="fpc" data-s="1" onclick="setFollowStep(1)" title="第1步 跟句：听完整一句 → 暂停 → 开口跟读整句">跟句</span>
-        <span class="fpc" data-s="2" onclick="setFollowStep(2)" title="第2步 影子跟读：落后音频半拍，从头到尾不停">影子</span>
-        </span>
-      </span>
-    </div>
-    <button class="cta" id="nextStage">进入 跟读 →</button>
-  </footer>
-
-</div>
-<div class="toast" id="toast"></div>
-
-<!-- 书架首页 + 单元页（由 学生端.html 迁入，覆盖在点读引擎之上） -->
+</style></head><body>
+<div id="toast"></div>
 <div id="shelfRoot" aria-hidden="false">
   <div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span></div>
 
@@ -758,1067 +622,25 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
   </div>
 </div>
 
-<!-- 深链 index.html?pg=111 由篇章跟读直达：首帧即隐藏书架，避免闪一屏 -->
-<script>
-(function(){ if(/[?&]pg=\d+/.test(location.search||"")) document.getElementById('shelfRoot').classList.add('off'); })();
-</script>
-
-<audio id="audio" preload="metadata"></audio>
-
-<script>
-var DB={"ZH":{"Nikolai Kutsenko, from Ukraine, can do amazing things with a football.":"来自乌克兰的尼古拉·库岑科能用足球做出令人惊叹的花样。","He can kick a ball well … but he can also keep the ball in the air with his feet, legs and head.":"他踢球踢得很好……但他也能用脚、腿和头让球一直保持在空中。","Lots of footballers can do this.":"很多足球运动员都能做到这一点。","But can they do it for 24 hours and 30 minutes without stopping?":"但他们能不停地做24小时30分钟吗？","Nikolai can and it's a world record!":"尼古拉能做到，而且这是世界纪录！","Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!":"来自犹他州的斯隆·亨德森是一名非常棒的单板滑雪选手——而且她只有14个月大！","Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!":"她的爸爸妈妈带她去山上，把她放到滑雪板上——然后她就滑起来了！","Sloan loves to be on the board.":"斯隆很喜欢待在滑雪板上。","People are often surprised when they see her because she doesn't fall over!":"人们看到她时常感到很惊讶，因为她不会摔倒！","American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well.":"美国攀岩运动员莫琳·'莫'·贝克出生时就没有左手，左臂也仅有短短一截，但她攀岩攀得很好。","She is the winner of two climbing World Championships for disabled athletes, and five national championships.":"她是两届残障运动员攀岩世锦赛和五届全国锦标赛的冠军。","She has her own special way of climbing, but Maureen thinks she is just the same as any other climber.":"她有自己独特的攀岩方式，但莫琳觉得自己和其他任何攀岩者一样。","Goatee can't talk or write, but she can surf!":"戈蒂不会说话也不会写字，但它会冲浪！","Why is this special?":"这有什么特别的呢？","Because Goatee is a goat!":"因为戈蒂是一只山羊！","She surfs with her owner, Dana McGregor.":"它和它的主人达娜·麦格雷戈一起冲浪。","Dana helps Goatee to stand on the board and together they ride the waves in California.":"达娜帮戈蒂站上冲浪板，然后他们一起在加利福尼亚乘风破浪。","Goatee wears a yellow life-jacket because she can't swim very well!":"戈蒂穿着一件黄色的救生衣，因为它不太会游泳！","And now there is a children's book about her, too – Dana is the author.":"现在还有一本关于它的儿童绘本呢——达娜就是作者。","It's 15th February at Greece Athena High School, New York.":"2月15日，在纽约的希腊镇雅典娜高中。","Jason McElwain is an 18-year-old student.":"杰森·麦克尔温是一名18岁的学生。","Jason is autistic.":"杰森患有自闭症。","He loves basketball and he helps with the school basketball team.":"他热爱篮球，并协助学校的篮球队。","Jason practises hard every day, but he never plays in the team.":"杰森每天刻苦训练，但他从不在队里上场比赛。","Tonight is the last game of the season.":"今晚是这个赛季的最后一场比赛。","It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches.":"这是杰森跟球队一起打球的最后机会，但在44分钟里，他只是坐在替补席上观看。","It's four minutes before the end.":"距比赛结束还有四分钟。","The team is winning, so the coach tells Jason to go out and play.":"球队正在领先，于是教练让杰森上场打球。","The team and the crowd are very happy, because everyone knows Jason and likes him.":"球队和观众都非常高兴，因为每个人都认识并喜欢杰森。","Jason tries to score a basket, but he misses.":"杰森试着投篮得分，但没有投中。","But suddenly he hits a 3-point basket.":"但突然间，他命中了一记三分球。","The crowd goes crazy.":"观众沸腾了。","Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether.":"杰森又命中一记三分球，接着一记、又一记——他共命中六个三分球（这是全队的纪录），总共得了二十分。","The team wins, and Jason is a real hero.":"球队获胜了，杰森成为了真正的英雄。","It's an amazing night for him!":"对他来说，这是一个不可思议的夜晚！","Soon Jason starts to become famous.":"不久，杰森开始出名了。","People in his town know who he is.":"他镇里的人都知道他是谁。","The US president comes to Jason's town to meet him.":"美国总统来到杰森的小镇与他见面。","Jason writes a book and some people want to make a film about him.":"杰森写了一本书，有些人想拍一部关于他的电影。","He becomes assistant coach to the high school basketball team.":"他成为了这所高中篮球队的助理教练。","Now Jason works hard to help other autistic people.":"如今杰森努力工作，去帮助其他自闭症患者。","He travels across the US to help get money for autism research.":"他奔波于美国各地，为自闭症研究筹集资金。"},"TITLE_START":{"p067":6.27,"p070":5.91},"ENTITY":{"67":{"goatee":{"t":"PER","s":1},"dana":{"t":"PER","s":1},"maureen":{"t":"PER","s":1},"nikolai":{"t":"PER","s":1},"sloan":{"t":"PER","s":1},"california":{"t":"GPE","s":1},"ukraine":{"t":"GPE","s":1},"utah":{"t":"GPE","s":1}},"70":{"jason":{"t":"PER","s":1},"jason's":{"t":"PER","s":1}}},"ENTITYMULTI":{"67":[[["maureen","mo","beck"],{"t":"PER","s":1}],[["dana","mcgregor"],{"t":"PER","s":1}],[["nikolai","kutsenko"],{"t":"PER","s":1}],[["sloan","henderson"],{"t":"PER","s":1}]],"70":[[["greece","athena","high","school"],{"t":"ORG","s":1}],[["jason","mcelwain"],{"t":"PER","s":1}],[["new","york"],{"t":"GPE","s":1}]]},"LEVEL":{"nikolai":"X","kutsenko":"X","from":"K","ukraine":"X","can":"K","do":"K","amazing":"K","things":"K","with":"K","a":"K","football":"K","he":"K","kick":"K","ball":"K","well":"K","but":"K","also":"K","keep":"K","the":"K","in":"K","air":"K","his":"K","feet":"K","legs":"K","and":"K","head":"P","lots":"K","of":"K","footballers":"K","this":"K","they":"K","it":"K","for":"K","hours":"K","minutes":"K","without":"K","stopping":"K","it's":"K","world":"K","record":"K","sloan":"X","henderson":"X","utah":"X","is":"K","really":"K","good":"K","snowboarder":"K","she's":"K","only":"K","months":"K","old":"K","her":"K","mother":"K","father":"K","take":"K","to":"K","mountains":"K","put":"K","on":"K","snowboard":"K","there":"K","she":"K","goes":"K","loves":"K","be":"K","board":"K","people":"K","are":"K","often":"K","surprised":"K","when":"K","see":"K","because":"K","doesn't":"K","fall":"K","over":"K","american":"X","rock":"K","climber":"K","maureen":"X","'mo'":"X","beck":"X","was":"K","born":"K","left":"K","hand":"K","part":"K","arm":"K","climb":"K","winner":"K","climbing":"K","championships":"P","disabled":"P","athletes":"P","national":"K","has":"K","own":"K","special":"K","way":"K","thinks":"K","just":"K","same":"K","as":"K","any":"K","other":"K","goatee":"X","can't":"K","talk":"K","or":"K","write":"K","surf":"K","why":"K","goat":"P","surfs":"K","owner":"K","dana":"X","mcgregor":"X","helps":"K","stand":"P","together":"K","ride":"K","waves":"P","california":"X","wears":"K","yellow":"K","life":"K","jacket":"K","swim":"K","very":"K","now":"K","children's":"K","book":"K","about":"K","too":"K","author":"P","th":"X","february":"X","at":"K","greece":"X","athena":"X","high":"K","school":"K","new":"K","york":"X","jason":"X","mcelwain":"X","an":"K","year":"K","student":"K","autistic":"X","basketball":"K","team":"K","practises":"K","hard":"K","every":"K","day":"K","never":"K","plays":"K","tonight":"K","last":"K","game":"P","season":"K","jason's":"X","chance":"P","play":"K","sits":"K","bench":"X","watches":"K","before":"K","end":"K","winning":"K","so":"K","coach":"K","tells":"K","go":"K","out":"K","crowd":"K","happy":"K","everyone":"K","knows":"K","likes":"K","him":"K","tries":"K","score":"P","basket":"P","misses":"K","suddenly":"K","hits":"K","point":"K","crazy":"K","another":"K","pointer":"K","then":"K","pointers":"X","scores":"P","points":"K","altogether":"P","wins":"K","real":"P","hero":"P","night":"K","soon":"K","starts":"P","become":"K","famous":"K","town":"K","know":"K","who":"K","us":"K","president":"P","comes":"K","meet":"K","writes":"K","some":"K","want":"K","make":"K","film":"K","becomes":"K","assistant":"K","works":"K","help":"K","travels":"K","across":"K","get":"K","money":"K","autism":"X","research":"P"},"TOPIC":{"amazing":1,"football":1,"kick":1,"keep":1,"air":1,"hours":1,"minutes":1,"stopping":1,"world":1,"record":1,"snowboarder":1,"snowboard":1,"board":1,"fall":1,"climber":1,"climb":1,"winner":1,"climbing":1,"championships":1,"disabled":1,"athletes":1,"national":1,"special":1,"surf":1,"goat":1,"surfs":1,"stand":1,"ride":1,"waves":1,"jacket":1,"swim":1,"book":1,"author":1,"school":1,"autistic":1,"basketball":1,"team":1,"practises":1,"season":1,"chance":1,"bench":1,"winning":1,"coach":1,"crowd":1,"score":1,"basket":1,"misses":1,"hits":1,"point":1,"pointer":1,"pointers":1,"scores":1,"points":1,"wins":1,"hero":1,"night":1,"become":1,"famous":1,"town":1,"president":1,"film":1,"becomes":1,"assistant":1,"travels":1,"autism":1,"research":1},"BASE":{"ball":1,"mother":1,"father":1,"put":1,"goes":1,"see":1,"write":1,"helps":1,"school":1,"new":1,"team":1,"day":1,"plays":1,"game":1,"play":1,"sits":1,"watches":1,"go":1,"happy":1,"knows":1,"likes":1,"night":1,"know":1,"comes":1,"writes":1,"want":1,"help":1},"TRAP":{"world":1,"snowboarder":1,"mountains":1,"snowboard":1,"people":1,"surprised":1,"championships":1,"disabled":1,"athletes":1,"national":1,"special":1,"together":1,"yellow":1,"february":1,"autistic":1,"season":1,"crowd":1,"pointer":1,"pointers":1,"altogether":1,"president":1,"assistant":1,"travels":1,"across":1,"autism":1,"research":1}};
-/* ==TL-DATA-START== 由 assets/timeline.json 生成（_sync_timeline.js）；请勿手改这一块 == */
-DB.TL={"66":[[12.142,17.185],[17.185,23.083],[23.097,34.582],[35.32,38.188],[38.188,42.823],[43.765,45.966],[46.015,50.206],[50.206,55.384],[56.457,60.852],[61.42,63.975],[65.531,71.438],[72.106,78.582],[79.195,86.97],[86.97,91.173],[91.986,97.254],[98.192,101.29],[102.312,108.543],[108.638,118.197],[118.321,121.14],[121.14,129.87],[129.97,135.732],[135.746,140.182],[140.196,144.626],[144.626,154.983],[154.998,164.137],[164.137,170.258],[170.867,174.733]],"67":[[9.678,16.124],[16.258,25.023],[25.47,28.68],[29.5,36.921],[36.921,40.383],[42.379,52.621],[52.845,61.086],[62.129,65.466],[65.466,70.575],[72.01,86.668],[87.995,97.144],[97.89,109.456],[109.456,113.921],[115.019,116.83],[116.83,119.873],[119.883,123.764],[124.622,132.714],[133.756,139.42],[139.488,146.452]],"69":[[8.121,10.696],[11.48,14.053],[14.662,17.485],[18.388,22.419],[22.923,26.4],[26.7,34.901],[35.404,38.7],[39.2,43.566],[43.92,47.8],[48.32,52.68],[53.24,54.96],[55.464,59.61],[59.959,66.798],[67.282,71.099],[71.652,75.119],[75.853,81.545],[81.65,83.88],[84.373,85.476],[85.945,88.898],[89.487,94.545],[94.824,99.798]],"70":[[10.197,15.665],[16.732,21.012],[22.09,23.801],[23.801,29.937],[31.409,37.595],[39.131,43.485],[43.485,53.838],[55.05,57.765],[57.765,63.356],[64.324,72.55],[72.575,76.661],[77.633,81.385],[81.89,84.997],[85.835,102.033],[103.145,108.175],[108.175,110.813],[111.886,115.925],[115.925,120.771],[121.05,126.13],[126.13,132.1],[132.11,136.774],[138.096,142.34],[142.34,149.306]],"72":[[8.76,13.75],[13.75,24.265],[24.84,29.758],[29.802,31.723],[31.872,36.297],[36.297,42.863],[42.967,49.383],[49.383,53.923],[54.017,61.54],[62.36,66.195],[66.229,72.485],[72.67,78.961],[79.5,83.954],[84.36,86.992],[87.297,89.956]],"73":[[11.095,17.34],[17.34,28.426],[28.52,33.718],[35.265,37.904],[37.914,40.997],[42.663,53.628],[53.628,59.954],[61.021,63.715],[65.157,68.045],[68.045,71.867],[72.89,75.394],[75.543,77.679],[78.392,81.804],[82.168,88.595],[88.595,89.92],[89.92,91.971],[93.95,95.525],[95.525,98.182],[99.673,100.103],[101.095,103.485],[105.036,106.27],[106.27,118.301],[118.77,123.195],[123.539,127.54],[127.54,134.779],[134.988,139.383],[155.5,158.9]],"75":[[15.68,17.56],[18.37,20.36],[20.99,22.44],[26.82,32.36],[36.7,37.94],[38.88,48.715],[53.16,55.391],[55.88,59.88],[64.7,67.082],[67.38,69.96],[70.7,75.14],[75.98,77.58],[78.4,80.02],[80.7,82.12],[82.82,84.04],[89,91.5],[92.44,94.18],[94.98,96.36],[96.84,99.34],[100.08,101.56],[102.24,104.6],[105.28,106.568],[106.92,109.761],[114.54,116.76],[117.51,119.28],[119.95,121.12],[121.71,128.1],[128.71,131.564],[132.13,134.142],[137.84,141.99],[142.71,145.72],[146.57,149.2]],"77":[[6.82,8.42],[9.48,14.559],[15.22,19.064],[19.7,21.432],[22.16,24.92],[25.87,30.08],[30.76,37.18],[37.86,41.378],[42.06,52.94],[53.65,56.98],[57.7,59.64],[60.42,62.52],[63.4,65.22],[66.32,69.358],[69.78,70.565],[71.2,77.973],[78.54,83.5],[84.24,92.264],[92.58,93.3],[94.22,96.82],[97.76,100.09],[100.38,106.626],[107.08,111.3],[111.96,125.028],[125.34,127.88],[128.82,133.4],[133.4,136.16]],"78":[[6.2,7.38],[7.92,9.36],[9.9,12.887],[13.52,14.36],[14.98,20.12],[20.84,22.98],[23.9,25.287],[25.76,28.793],[29.02,34.32],[35.04,38.243],[39.06,40.101],[40.86,47.404],[48,50.38],[50.99,55.658],[56.32,63.24],[64.18,67.44],[68.24,73.1],[74.42,75.92],[76.66,81.2],[82.14,84.265],[85.3,87.76],[88.5,90.54],[91.6,93.84],[94.38,95.086],[95.74,98.76]],"80":[[12.74,25.658],[26.52,32.5],[33.72,37.86],[39.04,42.86],[44.4,47.32],[48.72,51.9],[57.64,62.56],[63.48,66.52],[67.8,71.18],[72.68,78.82],[79.82,83.06],[84.26,87.18],[88.44,95.76],[97.04,99.48],[106.1,113.62],[114.64,118.22],[119.52,121.96],[122.92,124.88],[126.4,129.149],[130.42,134.28],[135.62,140.376],[141.4,144.76]],"110":[[8.835,16.218],[17.839,21.277],[21.561,27.014],[27.133,28.63],[29.019,36.323],[36.567,42.329],[42.354,49.358],[49.882,52.93],[52.999,55.08],[55.703,61.301],[62.398,65.426],[65.9,69.437],[70.36,72.67],[73.079,74.172],[75.27,81.171],[83.36,85.042],[86.344,88.474],[88.484,94.52],[95.767,98.167],[99.274,100.302],[100.312,105.63],[105.63,112.115],[112.115,118.66],[119.229,123.938],[124.582,132.714],[133.092,134.889],[135.163,138.076],[139.428,140.596]],"111":[[5.313,12.751],[13.235,18.862],[19.59,23.202],[23.212,29.2],[29.2,32.85],[33.923,39.925],[39.925,48.046],[48.056,51.3],[51.3,54.152],[54.74,64.848],[65.83,75.982],[75.992,79.046],[79.689,81.849],[82.547,85.202],[85.86,90.574],[91.756,94.111],[94.61,101.45],[101.45,106.872],[107.466,113.865],[113.865,117.995],[117.995,120.905],[120.905,127.071],[127.41,132.868],[133.816,143.494]],"113":[[8.41,9.094],[9.813,11.005],[11.574,12.087],[12.087,14.622],[14.697,17.021],[17.041,19.351],[19.55,20.139],[20.942,24.015],[24.864,26.96],[26.96,28.675],[28.685,32.436],[33.225,35.59],[35.59,36.971],[36.971,40.912],[41.406,45.18],[45.18,47.063],[47.467,48.79],[48.79,51.658],[52.166,53.563],[53.798,54.257],[54.267,57.729],[57.769,61.21],[61.21,62.87],[62.87,64.85],[64.85,66.339],[66.998,71.84],[71.84,75.219],[77.125,77.18],[77.359,78.247],[78.247,82.213],[82.707,83.251],[83.45,85.66],[85.66,89.322],[89.661,92.35],[92.35,96.296],[96.88,98.865],[99.269,100.332],[100.332,105.49],[105.789,108.663],[108.733,110.499],[111.342,112.864],[113.018,114.28]],"114":[[7.159,13.021],[13.888,18.513],[19.82,29.154],[29.618,32.325],[32.325,36.215],[36.215,38.423],[38.782,40.588],[41.216,45.691],[45.691,48.27],[48.679,50.855],[52.775,53.633],[54.45,56.576],[57.335,59.615],[60.004,67.981],[68.853,72.765],[73.124,79.968],[80.552,85.616],[86.404,91.577],[93.497,97.613],[98.421,100.77],[100.77,106.987],[106.997,115.533],[115.97,118.655],[118.655,121.688],[121.688,124.328],[125.001,128.922],[128.922,132.235],[132.688,135.752],[137.692,144.058],[145.065,152.605],[152.605,158.001],[159.123,163.06],[164.112,171.326]],"117":[[7.403,9.124],[10.481,13.021],[14.342,19.221],[20.324,25.048],[25.058,26.674],[26.684,31.015],[31.025,38.073],[38.083,41.74],[41.75,50.116],[50.126,57.25],[59.255,62.987],[64.364,69.602],[71.033,78.17],[78.17,79.674],[80.17,84.383],[85.286,86.344],[87.616,91.248],[92.225,99.973],[100.586,105.116],[106.25,108.698],[108.833,115.812],[115.822,119.873],[119.883,128.343],[128.353,136.55],[138.52,142.641],[144.087,147.051],[147.061,150.897],[150.907,159.787],[159.797,168.363],[169.435,172.598]],"202":[[10.975,19.895],[19.895,33.494],[34.791,39.535],[40.283,50.6],[50.6,57.898],[58.727,68.73],[68.73,74.15],[74.15,79.564],[79.664,88.374],[88.484,93.408],[94.051,97.114],[98.102,109.17],[109.17,117.373],[117.518,121.935],[121.935,132.978],[133.901,137.757],[137.767,148.473],[148.682,160.894],[161.08,166.6],[167.5,172.405],[172.405,180.2],[180.3,182.7],[184.7,189.9]]};
-/* ==TL-DATA-END== */
-/* ===== p69 听力对话 (无原文画像并入) ===== */
-DB.ZH["Hi, Julia. It's me, Mike."]="嗨，朱莉娅。我是迈克。";
-DB.ZH["Hi, Mike. How's it going?"]="嗨，迈克。你好吗？";
-DB.ZH["Do you want to go cycling later today?"]="你今天晚些时候想去骑车吗？";
-DB.ZH["Go cycling? Good idea. What time?"]="骑车？好主意。几点？";
-DB.ZH["How about after lunch? Say, two o'clock?"]="午饭后怎么样？比如说两点？";
-DB.ZH["Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two."]="两点？不了，抱歉，我去不了。我两点有跆拳道课。";
-DB.ZH["OK, how about three o'clock?"]="好，那三点呢？";
-DB.ZH["No, the lesson only finishes at half past three."]="不行，课要到三点半才结束。";
-DB.ZH["OK, so how about four o'clock?"]="好，那四点呢？";
-DB.ZH["I can't. Mum wants to give me a tennis lesson at four."]="我去不了。妈妈四点要给我上网球课。";
-DB.ZH["Until what time?"]="到几点？";
-DB.ZH["I'm not sure. Maybe about quarter to five?"]="我不确定。大概差一刻五点？";
-DB.ZH["Really? But we can't go cycling then. It gets dark at half past four."]="真的吗？那我们就不能骑车了。四点半就天黑了。";
-DB.ZH["Well, yes, you're right. Sorry."]="嗯，是啊，你说得对。抱歉。";
-DB.ZH["So maybe we can go cycling before lunch?"]="那我们也许可以在午饭前去骑车？";
-DB.ZH["Um, I've got a school rugby match until about half past eleven."]="嗯，我有一场学校橄榄球比赛，要到十一点半左右。";
-DB.ZH["What time does it start?"]="几点开始？";
-DB.ZH["Ten o'clock."]="十点。";
-DB.ZH["Julia, it's quarter to ten now."]="朱莉娅，现在已经十点差一刻了。";
-DB.ZH["Really? I need to go. Let's go cycling tomorrow."]="真的吗？我得走了。我们明天去骑车吧。";
-DB.ZH["OK. Call me in the morning. See you. Have a good match."]="好。早上给我打电话。再见。祝你比赛顺利。";
-DB.ENTITY["69"]={"mike": {"t": "PER", "s": 1}, "julia": {"t": "PER", "s": 1}};
-DB.SPE=DB.SPE||{};DB.SPE["69"]=["mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike","julia","mike"];
-DB.TITLE_START["p069"]=8.0;
-/* 全局 TOPIC/TRAP 追加 p69 独有主题/难点词 */
-DB.TOPIC["cycling"]=1;DB.TOPIC["taekwondo"]=1;DB.TOPIC["rugby"]=1;DB.TOPIC["tennis"]=1;DB.TOPIC["o'clock"]=1;DB.TOPIC["quarter"]=1;DB.TOPIC["lesson"]=1;DB.TOPIC["match"]=1;DB.TOPIC["lunch"]=1;DB.TOPIC["half"]=1;
-DB.TRAP["taekwondo"]=1;DB.TRAP["rugby"]=1;DB.TRAP["cycling"]=1;DB.TRAP["tennis"]=1;DB.TRAP["o'clock"]=1;DB.TRAP["quarter"]=1;DB.TRAP["tomorrow"]=1;DB.TRAP["morning"]=1;DB.TRAP["lunch"]=1;DB.TRAP["really"]=1;
-/* ===== p110 纪录片 Moving About / p111 阅读 The Great Race (第12单元) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"Our lives move very fast today, especially in big cities.":"如今我们的生活节奏非常快，尤其是在大城市里。","But many years ago, that was different.":"但很多年前，情况并非如此。","People couldn't jump on a bus or take the tube to work.":"人们无法跳上公交车，也无法坐地铁去上班。","They walked.":"他们只能步行。","For a long time, the fastest way of travelling was by horse or boat.":"在很长一段时间里，最快的出行方式是骑马或乘船。","That changed with the steam engine in the 18th century.":"这一状况在18世纪随着蒸汽机的问世而改变。","Then came cars, motorcycles and, of course, airplanes.":"接着出现了汽车、摩托车，当然还有飞机。","So what's new and popular today?":"那么，如今什么又新又流行呢？","E-scooters!":"电动滑板车！","Electric scooter sharing is the new way to get around.":"电动滑板车共享出行是一种新兴的出行方式。","They are taking over the world's big cities.":"它们正在席卷世界各地的大城市。","They are fun and easy to use.":"它们既有趣又容易使用。","You don't have to buy one.":"你不必花钱买一辆。","You rent one.":"租一辆即可。","All you need is to log on to an app and then, off you go.":"你只需登录一个应用程序，就可以出发了。","They are cheaper than taxis.":"它们比出租车便宜。","You can get around traffic jams.":"你还可以绕过交通拥堵。","And you don't have to do any hard work, like on a bike.":"而且你不必像骑自行车那样费力。","They aren't bad for the environment either.":"它们对环境的危害也不大。","But is that true?":"但真是这样吗？","Well, these e-scooters don't last very long.":"嗯，这些电动滑板车用不了多久就会坏。","In Paris, some e-scooters break after one month.":"在巴黎，有些电动滑板车一个月后就坏了。","Many people are unhappy because there are too many e-scooters.":"很多人不开心，因为电动滑板车太多了。","They block the pavements and drive into people.":"它们堵住人行道，还会撞到人。","Because people are angry about e-scooters, they throw them into rivers or break them.":"由于人们对电动滑板车很恼火，就把它扔进河里或砸坏。","Is that the answer?":"这就是解决办法吗？","What do you think of e-scooters?":"你怎么看待电动滑板车？","Do you like them?":"你喜欢它们吗？","A lot of big cities, like London, have got many traffic problems.":"许多大城市，比如伦敦，都存在很多交通问题。","Sometimes a journey of a few kilometres can take more than an hour.":"有时几公里的路程要花上一个多小时。","So what's the best way to get across London?":"那么，穿越伦敦的最佳方式是什么呢？","For a very short journey, it's probably a good idea to walk.":"对于非常短的路程，步行可能是个好主意。","But what happens when you want to go further?":"但如果你想走得更远，又会怎样呢？","The presenters of a popular TV show about cars decided to find out.":"一档关于汽车的知名电视节目的主持人决定一探究竟。","Each of the presenters chose a different type of transport to make the same 27-kilometre journey.":"每位主持人选择了一种不同的交通工具，来完成相同的27公里路程。","One presenter went by bike.":"一位主持人骑自行车。","One went by car.":"一位开车。","Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames.":"另一位选择公共交通——地铁和公交车——最后一位则乘快艇沿泰晤士河而上。","They all started at the same time and the same place in West London, but who got to City Airport in East London first?":"他们都在伦敦西部的同一时间同一地点出发，但谁先到达伦敦东部的城市机场呢？","The results were a surprise.":"结果出人意料。","The bike came first.":"自行车最先到达。","In second place was the speedboat.":"第二名是快艇。","Public transport came third and the car was last.":"公共交通名列第三，汽车垫底。","So the presenters had an answer.":"于是主持人有了答案。","The bike was quicker than all the other types of transport and the car was slower.":"自行车比所有其他交通工具都快，而汽车最慢。","They weren't very happy with the result because they wanted the car to win.":"他们对这一结果不太高兴，因为他们希望汽车获胜。","They made a joke and said the bike wasn't a real winner because it was more dangerous.":"他们开玩笑说，自行车算不上真正的赢家，因为它更危险。","But, of course, the bike is the real winner.":"但当然啦，自行车才是真正的赢家。","It's the best way to get about.":"它是四处出行的最佳方式。","It's cheaper than public transport and it is healthier than going by car.":"它比公共交通便宜，也比开车更健康。","It's also better for our cities because bikes don't make the air dirty.":"它对我们的城市也更有利，因为自行车不会弄脏空气。","So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'":"所以，下次你需要出行时，在你和父母上车前先想一想：“这段路我们可以骑自行车吗？”"});
-DB.TITLE_START["p110"]=8.835;
-DB.TITLE_START["p111"]=5.313;
-DB.ENTITY["110"]={};DB.ENTITY["111"]={"london": {"t": "GPE", "s": 1}, "thames": {"t": "GPE", "s": 1}};
-DB.ENTITYMULTI["110"]=[];DB.ENTITYMULTI["111"]=[[["river", "thames"], {"t": "GPE", "s": 1}]];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["journey"]=1;DB.TOPIC["journeys"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;DB.TOPIC["travels"]=1;DB.TOPIC["ride"]=1;DB.TOPIC["bike"]=1;DB.TOPIC["boat"]=1;DB.TOPIC["bus"]=1;DB.TOPIC["car"]=1;DB.TOPIC["cars"]=1;DB.TOPIC["speedboat"]=1;DB.TOPIC["underground"]=1;DB.TOPIC["scooters"]=1;DB.TOPIC["steam"]=1;DB.TOPIC["engine"]=1;DB.TOPIC["century"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["rent"]=1;DB.TOPIC["app"]=1;DB.TOPIC["taxi"]=1;DB.TOPIC["jam"]=1;DB.TOPIC["environment"]=1;DB.TOPIC["pavements"]=1;DB.TOPIC["rivers"]=1;DB.TOPIC["motorcycles"]=1;DB.TOPIC["airplanes"]=1;DB.TOPIC["electric"]=1;DB.TOPIC["sharing"]=1;DB.TOPIC["city"]=1;DB.TOPIC["cities"]=1;DB.TOPIC["scooter"]=1;DB.TOPIC["public"]=1;DB.TOPIC["winners"]=1;DB.TOPIC["dangerous"]=1;DB.TOPIC["healthier"]=1;DB.TOPIC["pollution"]=1;DB.TOPIC["kilometres"]=1;DB.TOPIC["river"]=1;DB.TOPIC["thames"]=1;DB.TOPIC["london"]=1;DB.TOPIC["race"]=1;DB.TOPIC["results"]=1;DB.TOPIC["surprise"]=1;DB.TOPIC["presenter"]=1;DB.TOPIC["presenters"]=1;DB.TOPIC["airport"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["kilometres"]=1;DB.TRAP["environment"]=1;DB.TRAP["pavements"]=1;DB.TRAP["underground"]=1;DB.TRAP["speedboat"]=1;DB.TRAP["scooters"]=1;DB.TRAP["scooter"]=1;DB.TRAP["motorcycles"]=1;DB.TRAP["airplanes"]=1;DB.TRAP["travelling"]=1;DB.TRAP["electric"]=1;DB.TRAP["century"]=1;DB.TRAP["traffic"]=1;DB.TRAP["journey"]=1;DB.TRAP["public"]=1;DB.TRAP["velocity"]=1;DB.TRAP["dangerous"]=1;DB.TRAP["healthier"]=1;DB.TRAP["pollution"]=1;DB.TRAP["thames"]=1;
-
-/* ============ 教材原文数据（逐字还原，来自 L7 课本第67/70页） ============ */
-/* ===== p72 口语 Rainy Day: Nina & Dave (第7单元) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"Right! Have we got everything? Tennis rackets, balls …?":"对啊！东西都带齐了吗？网球拍、球……？","Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go.":"是的，我觉得齐了。我们还带了些吃的——三明治、水果什么的——还有一些水。那我们走吧。","Just a minute! Oh, no! It's raining!":"等一等！哦，不！下雨了！","Now what do we do?":"现在咱们怎么办？","You're right. We can't play outside in the rain.":"你说得对。下雨天我们不能在外面打。","Why don't we go to the sports centre in town? They've got an indoor court.":"我们不如去镇上的体育中心吧？那里有室内球场。","No, it's always very busy. I'm sure we can't play there today.":"不去了，那里总是很拥挤。我确定今天咱们在那边打不了。","Maybe you're right. It's a bit expensive, too.":"也许你说得对。那边也有点贵。","OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps.":"好吧，那我们今天没法打了。没什么大不了的。我们也许可以明天打。","Yes. But I'm a bit sad now.":"嗯。但让我有点难过。","Me, too. But what can we do? It's raining, and that's that.":"我也是。可我们能怎么办呢？天下着雨，就是这样。","I know! How about watching some old tennis games on the internet?":"我有主意了！不如在网上看一些以前的网球比赛吧？","Good idea. I like watching really good players.":"好主意。我喜欢看高水平的选手比赛。","And we can eat our food.":"而且我们可以吃带来的东西。","Let's go and switch the computer on.":"那我们走吧，把电脑打开。"});
-DB.SPE["72"]=["Nina", "Dave", "Nina", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave", "Nina", "Dave"];
-DB.TITLE_START["p072"]=8.76;
-DB.ENTITY["72"]={"nina": {"t": "PERSON", "s": 1}, "dave": {"t": "PERSON", "s": 1}};
-DB.ENTITYMULTI["72"]=[];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["tennis"]=1;DB.TOPIC["racket"]=1;DB.TOPIC["rackets"]=1;DB.TOPIC["balls"]=1;DB.TOPIC["food"]=1;DB.TOPIC["sandwiches"]=1;DB.TOPIC["fruit"]=1;DB.TOPIC["water"]=1;DB.TOPIC["rain"]=1;DB.TOPIC["raining"]=1;DB.TOPIC["sports"]=1;DB.TOPIC["centre"]=1;DB.TOPIC["court"]=1;DB.TOPIC["busy"]=1;DB.TOPIC["expensive"]=1;DB.TOPIC["watch"]=1;DB.TOPIC["internet"]=1;DB.TOPIC["players"]=1;DB.TOPIC["computer"]=1;DB.TOPIC["suggestions"]=1;DB.TOPIC["hurry"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["racket"]=1;DB.TRAP["rackets"]=1;DB.TRAP["sandwiches"]=1;DB.TRAP["sports"]=1;DB.TRAP["centre"]=1;DB.TRAP["court"]=1;DB.TRAP["expensive"]=1;DB.TRAP["internet"]=1;DB.TRAP["players"]=1;DB.TRAP["nina"]=1;DB.TRAP["dave"]=1;DB.TRAP["tomorrow"]=1;
-/* ===== p117 文化 Transport Around the World (第12单元) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"Transport around the world.":"世界各地的交通工具。","The Amfibus, the Netherlands.":"荷兰的两栖巴士。","The big, blue Amfibus certainly makes a big splash!":"这辆庞大的蓝色两栖巴士确实激起了不小的水花！","It's in Rotterdam, and it takes people on tours of the city.":"它在鹿特丹，载着人们游览这座城市。","It's cool.":"它很酷。","It can travel on land and in the water.":"它既能在陆地上行驶，也能在水里航行。","It is more expensive than water taxis, but it is more exciting, too.":"它比水上出租车更贵，但也更刺激。","It is slower in the water than on land.":"它在水中比在陆地上行驶得慢。","It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land.":"它在水中的时速是8公里，在陆地上的时速是96公里。","The tour lasts for an hour, and it costs 27.50 euros.":"这趟游览持续一个小时，票价27.50欧元。","Moving walkways and escalators, Hong Kong.":"香港的自动扶梯和电动步道。","The Central-Mid-Levels Escalator is 800 metres long.":"中央-半山自动扶梯长达800米。","Escalators are usually inside a shopping centre or an airport, but not this one!":"自动扶梯通常位于购物中心或机场内，但这座不是！","It's outside.":"它在室外。","It's a great way to travel round this city of hills.":"这是游遍这座山城的好办法。","And it's free!":"而且免费！","There are 14 places where you can get on and off.":"有14个可以上下的地方。","The escalators travel down the hill from 6am to 10am, so people can travel to work.":"自动扶梯每天上午6点到10点向下运行，方便人们上班出行。","They travel up the hill from 10am to midnight.":"上午10点到午夜它们向上运行。","The urban cable car, Turkey.":"土耳其的城市缆车。","Ankara's cable car is cheaper than other forms of public transport.":"安卡拉的缆车比其他公共交通方式更便宜。","It is healthier because it doesn't pollute the air.":"它更健康，因为它不污染空气。","It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!":"它也比驾车出行更轻松、更快捷，因为空中不会有交通堵塞！","It travels 60 metres above the ground, and passengers can get great views of the city.":"它在距地面60米的高处运行，乘客可以饱览城市美景。","Submarines, Lanzarote and Tenerife.":"兰萨罗特岛和特内里费岛的观光潜艇。","Now you can travel in a submarine!":"现在你还能乘坐潜艇出行！","This submarine carries tourists.":"这种潜艇载着游客。","It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas.":"它是观赏海里五颜六色的鱼以及水下植物和岩石的一种安全又舒适的方式。","The submarine can carry 48 people, and it has 11 large windows on each side.":"这种潜艇可载48人，每侧有11扇大窗户。","It travels down 60 metres under the sea.":"它可下潜到海面下60米。"});
-DB.TITLE_START["p117"]=7.403;
-DB.ENTITY["117"]={"rotterdam": {"t": "GPE", "s": 1}, "ankara": {"t": "GPE", "s": 1}, "lanzarote": {"t": "GPE", "s": 1}, "tenerife": {"t": "GPE", "s": 1}};
-DB.ENTITYMULTI["117"]=[[["hong", "kong"], {"t": "GPE", "s": 1}], [["central", "mid-levels"], {"t": "LOC", "s": 1}]];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;DB.TOPIC["amfibus"]=1;DB.TOPIC["splash"]=1;DB.TOPIC["rotterdam"]=1;DB.TOPIC["tours"]=1;DB.TOPIC["water"]=1;DB.TOPIC["taxis"]=1;DB.TOPIC["exciting"]=1;DB.TOPIC["slower"]=1;DB.TOPIC["kilometres"]=1;DB.TOPIC["cable"]=1;DB.TOPIC["escalator"]=1;DB.TOPIC["escalators"]=1;DB.TOPIC["shopping"]=1;DB.TOPIC["centre"]=1;DB.TOPIC["airport"]=1;DB.TOPIC["outside"]=1;DB.TOPIC["hills"]=1;DB.TOPIC["free"]=1;DB.TOPIC["places"]=1;DB.TOPIC["hill"]=1;DB.TOPIC["midnight"]=1;DB.TOPIC["cable"]=1;DB.TOPIC["healthier"]=1;DB.TOPIC["pollute"]=1;DB.TOPIC["traffic"]=1;DB.TOPIC["jams"]=1;DB.TOPIC["passengers"]=1;DB.TOPIC["views"]=1;DB.TOPIC["submarine"]=1;DB.TOPIC["tourists"]=1;DB.TOPIC["colourful"]=1;DB.TOPIC["plants"]=1;DB.TOPIC["rocks"]=1;DB.TOPIC["windows"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["escalator"]=1;DB.TRAP["escalators"]=1;DB.TRAP["amfibus"]=1;DB.TRAP["amphibus"]=1;DB.TRAP["rotterdam"]=1;DB.TRAP["ankara"]=1;DB.TRAP["lanzarote"]=1;DB.TRAP["tenerife"]=1;DB.TRAP["pollute"]=1;DB.TRAP["traffic"]=1;DB.TRAP["passengers"]=1;DB.TRAP["colourful"]=1;DB.TRAP["submarine"]=1;DB.TRAP["kilometres"]=1;DB.TRAP["healthier"]=1;DB.TRAP["taxis"]=1;DB.TRAP["exciting"]=1;
-/* ===== p202 文化视频 Ways to Get Around (第12单元 Culture) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"People use different types of transport to get from one place to the next.":"人们用各种各样的交通工具从一个地方到另一个地方。","In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special.":"德国有一座城市叫伍珀塔尔，那里有一种叫 Schwebebahn 的悬挂铁路，非常特别。","The first track opened in 1901.":"第一条轨道于1901年通车。","It is the oldest electric elevated railway with hanging cars in the world.":"它是全世界最古老的电动高架悬挂铁路。","More than 85,000 passengers use it every day.":"每天有超过8.5万名乘客乘坐它。","There are lots of special cars in Cuba, especially in Havana.":"在古巴，尤其是在哈瓦那，有许多特别的车。","Most of them are very old.":"其中大多数都非常老旧。","But these yellow taxis are much newer.":"但这些黄色的出租车要新得多。","They are called cocotaxis because they look like coconuts.":"它们被称为 cocotaxi（椰子车），因为它们看起来像椰子。","They are a great way of getting around.":"它们是四处出游的好方式。","Tourists love them!":"游客们非常喜欢它们！","Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan.":"游客们还喜欢在葡萄牙马德拉岛的蒙特山乘坐木滑车沿山坡滑下来。","Originally, people used these sledges to transport food and other things.":"最初，人们用这些雪橇运送食物和其他物品。","Today, they transport people.":"如今，它们运送的是乘客。","Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street.":"两名 carreiros（即雪橇驾驶员）在雪橇旁奔跑，让它保持在路中央。","They wear special shoes.":"他们穿着特制的鞋子。","When the ride gets too fast, the drivers can use their shoes to slow it down.":"当滑行速度太快时，驾驶员就能用他们的鞋来减速。","This strange form of transportation is called zorbing or globe-riding.":"这种奇特的交通方式被称为”翻滚球“（zorbing），也叫作“人球骑行”。","And yes, a person is inside!":"没错，人就待在球里面！","The first zorbing site was in New Zealand.":"第一个翻滚球场地在新西兰。","But now you can go zorbing all over the world.":"但现在，你在世界各地都能玩翻滚球。","Even on water.":"甚至在水上也可以。","What's a popular way of getting around in your city?":"在你所在的城市，有什么流行的出行方式呢？"});
-DB.TITLE_START["p202"]=10.975;
-DB.ENTITY["202"]={"wuppertal": {"t": "GPE", "s": 1}, "germany": {"t": "GPE", "s": 1}, "cuba": {"t": "GPE", "s": 1}, "havana": {"t": "GPE", "s": 1}, "madeira": {"t": "GPE", "s": 1}, "portugal": {"t": "GPE", "s": 1}, "zealand": {"t": "GPE", "s": 1}};
-DB.ENTITYMULTI["202"]=[[["new", "zealand"], {"t": "GPE", "s": 1}], [["monte", "toboggan"], {"t": "LOC", "s": 1}], [["schwebebahn"], {"t": "ORG", "s": 1}]];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["transport"]=1;DB.TOPIC["types"]=1;DB.TOPIC["wuppertal"]=1;DB.TOPIC["schwebebahn"]=1;DB.TOPIC["suspension"]=1;DB.TOPIC["railway"]=1;DB.TOPIC["track"]=1;DB.TOPIC["electric"]=1;DB.TOPIC["elevated"]=1;DB.TOPIC["hanging"]=1;DB.TOPIC["passengers"]=1;DB.TOPIC["cuba"]=1;DB.TOPIC["havana"]=1;DB.TOPIC["taxis"]=1;DB.TOPIC["cocotaxis"]=1;DB.TOPIC["coconuts"]=1;DB.TOPIC["tourists"]=1;DB.TOPIC["madeira"]=1;DB.TOPIC["portugal"]=1;DB.TOPIC["toboggan"]=1;DB.TOPIC["hill"]=1;DB.TOPIC["hills"]=1;DB.TOPIC["sledges"]=1;DB.TOPIC["carreiros"]=1;DB.TOPIC["drivers"]=1;DB.TOPIC["shoes"]=1;DB.TOPIC["zorbing"]=1;DB.TOPIC["globe-riding"]=1;DB.TOPIC["zealand"]=1;DB.TOPIC["water"]=1;DB.TOPIC["city"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["getting"]=1;DB.TOPIC["around"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["transport"]=1;DB.TRAP["wuppertal"]=1;DB.TRAP["schwebebahn"]=1;DB.TRAP["suspension"]=1;DB.TRAP["elevated"]=1;DB.TRAP["passengers"]=1;DB.TRAP["cocotaxis"]=1;DB.TRAP["coconuts"]=1;DB.TRAP["toboggan"]=1;DB.TRAP["sledges"]=1;DB.TRAP["carreiros"]=1;DB.TRAP["zorbing"]=1;DB.TRAP["globe-riding"]=1;DB.TRAP["madeira"]=1;DB.TRAP["havana"]=1;DB.TRAP["zealand"]=1;
-/* ===== p73 播客 Stay Positive (第7单元 vlog · LIFE COMPETENCIES) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"Oh, hello. It's you. Sorry, I'm not feeling great.":"哦，你好。是你啊。抱歉，我现在不太舒服。","Why? This is why. And I have a geography test tomorrow.":"为什么？就是这个原因。而且我明天有地理考试。","I like geography, but there's just so much information to learn.":"我喜欢地理，可需要记的内容实在太多了。","How can I stay positive today?":"我今天怎么才能保持积极呢？","But that's not the only problem.":"可这还不是唯一的问题。","Because I have a geography test tomorrow, I can't do all the things I really want to do today.":"因为我明天有地理考试，今天没法做所有我真正想做的事了。","I can't play tennis with Tyler.":"我没法和泰勒一起打网球了。","I can't go to see a movie with Tyler.":"我没法和泰勒一起去看电影了。","I can't watch baseball with Tyler.":"我没法和泰勒一起看棒球赛了。","I can't go for an ice cream with Tyler.":"我没法和泰勒一起去吃冰淇淋了。","How can I be positive?":"我怎么才能积极起来呢？","I can't do anything.":"我什么事都做不了。","Or can I?":"又或许，我真的还能行？","It's Tyler!":"是泰勒！","Hi, Tyler!":"嗨，泰勒！","Really?":"真的吗？","Good idea!":"好主意！","Of course!":"当然啦！","Now?":"现在？","Amazing!":"太棒了！","See you soon!":"一会儿见！","Tyler has a geography test tomorrow too, and Tyler's great at geography.":"泰勒明天也要考地理，而且泰勒地理学得特别好。","He's coming over to help me, and he's bringing popcorn.":"他要过来帮我，还带了爆米花。","See, stay positive.":"你看，保持积极就好。","That's what I always say, because if you stay positive, you can find an answer to any problem.":"这是我常说的话：只要你保持积极，任何难题你都能找到答案。","Just relax.":"放松就好。","See you next time!":"下次见！"});
-DB.TITLE_START["p073"]=11.095;
-DB.ENTITY["73"]={"tyler": {"t": "PER", "s": 1}};
-DB.ENTITYMULTI["73"]=[];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["positive"]=1;DB.TOPIC["geography"]=1;DB.TOPIC["test"]=1;DB.TOPIC["information"]=1;DB.TOPIC["learn"]=1;DB.TOPIC["tennis"]=1;DB.TOPIC["movie"]=1;DB.TOPIC["baseball"]=1;DB.TOPIC["ice"]=1;DB.TOPIC["cream"]=1;DB.TOPIC["problem"]=1;DB.TOPIC["anything"]=1;DB.TOPIC["popcorn"]=1;DB.TOPIC["relax"]=1;DB.TOPIC["answer"]=1;DB.TOPIC["great"]=1;DB.TOPIC["things"]=1;DB.TOPIC["today"]=1;DB.TOPIC["bringing"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["positive"]=1;DB.TRAP["geography"]=1;DB.TRAP["information"]=1;DB.TRAP["popcorn"]=1;DB.TRAP["relax"]=1;DB.TRAP["baseball"]=1;DB.TRAP["anything"]=1;DB.TRAP["tennis"]=1;DB.TRAP["cream"]=1;
-/* ===== p66 纪录片 LIVING FOR SPORT (第7单元 纪录片视频 · Unit_07.1) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"A slam dunk and the crowds cheer!":"一记暴扣，全场欢呼！","A game of sports can be so exciting.":"一场比赛可以如此激动人心。","All over the world, people love watching sports, talking about sports and playing sports.":"全世界的人都爱看体育、谈体育、参与体育。","Can you guess why?":"你能猜到为什么吗？","Ball sports are very popular.":"球类运动非常受欢迎。","For example, football.":"比如，足球。","Half of the world loves football.":"全世界有一半的人热爱足球。","That's almost four billion people.":"那几乎是四十亿人。","Volleyball is another popular ball sport.":"排球是另一种受欢迎的球类运动。","You probably know it.":"你很可能对它很熟悉。","But here in Laos they don't play volleyball with their hands and arms.":"但在老挝，人们不用手和手臂打排球。","They play it with their feet, head and knees.":"他们用脚、头和膝盖来打。","This game is called Sepak takraw – kick volleyball.":"这项运动叫藤球——踢式排球。","People love playing it in southeast Asia.":"在东南亚，人们都很喜欢玩这项运动。","Dodgeball is another great ball game.":"躲避球是另一种很棒的打球游戏。","Do you play it at school?":"你在学校玩过吗？","You have to be very good at throwing and catching the ball.":"你必须非常擅长投球和接球。","Bowling uses a different kind of ball – a very hard ball.":"保龄球用的是另一种球——一个非常硬的球。","You can't kick it.":"你不能踢它。","You roll it and try to knock over the pins at the end of the lane.":"你把它滚出去，努力击倒球道尽头的球瓶。","Young and old people can play this game.":"老人和小孩都能玩这项运动。","Do you know squash?":"你了解壁球吗？","Lots of people like playing it.":"很多人都喜欢打壁球。","Usually, it's a game between two players but you can also play in a team.":"通常这是两人对打，但也可以组队来玩。","Players hit the ball against four walls, and it's a very quick sport!":"球员把球打向四面墙，这是一项非常快的运动！","But you have to be careful so you don't get hit.":"但你要小心，别被球砸到。","What's your favourite sport?":"你最喜欢的运动是什么？"});
-DB.TITLE_START["p066"]=12.142;
-DB.ENTITY["66"]={"laos": {"t": "LOC", "s": 1}, "asia": {"t": "LOC", "s": 1}, "sepak": {"t": "TERM", "s": 1}, "takraw": {"t": "TERM", "s": 1}};
-DB.ENTITYMULTI["66"]=[];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["sport"]=1;DB.TOPIC["ball"]=1;DB.TOPIC["football"]=1;DB.TOPIC["volleyball"]=1;DB.TOPIC["dodgeball"]=1;DB.TOPIC["bowling"]=1;DB.TOPIC["squash"]=1;DB.TOPIC["popular"]=1;DB.TOPIC["favourite"]=1;DB.TOPIC["players"]=1;DB.TOPIC["team"]=1;DB.TOPIC["throw"]=1;DB.TOPIC["catch"]=1;DB.TOPIC["kick"]=1;DB.TOPIC["roll"]=1;DB.TOPIC["knock"]=1;DB.TOPIC["pins"]=1;DB.TOPIC["lane"]=1;DB.TOPIC["walls"]=1;DB.TOPIC["careful"]=1;DB.TOPIC["exciting"]=1;DB.TOPIC["crowds"]=1;DB.TOPIC["guess"]=1;DB.TOPIC["billion"]=1;DB.TOPIC["feet"]=1;DB.TOPIC["knees"]=1;DB.TOPIC["world"]=1;DB.TOPIC["game"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["volleyball"]=1;DB.TRAP["dodgeball"]=1;DB.TRAP["bowling"]=1;DB.TRAP["squash"]=1;DB.TRAP["favourite"]=1;DB.TRAP["throw"]=1;DB.TRAP["cheer"]=1;DB.TRAP["lane"]=1;DB.TRAP["crowds"]=1;DB.TRAP["billion"]=1;DB.TRAP["careful"]=1;DB.TRAP["exciting"]=1;DB.TRAP["knock"]=1;DB.TRAP["knees"]=1;
-var BOOK={
- 67:{u:"Unit 7", audio:"assets/p067.mp3", title:"SPORT WONDERS!", arts:[
-   ["Nikolai Kutsenko, from Ukraine, can do amazing things with a football.",
-    "He can kick a ball well ... but he can also keep the ball in the air with his feet, legs and head.",
-    "Lots of footballers can do this.",
-    "But can they do it for 24 hours and 30 minutes without stopping?",
-    "Nikolai can and it's a world record!"],
-   ["Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!",
-    "Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!",
-    "Sloan loves to be on the board.",
-    "People are often surprised when they see her because she doesn't fall over!"],
-   ["American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well.",
-    "She is the winner of two climbing World Championships for disabled athletes, and five national championships.",
-    "She has her own special way of climbing, but Maureen thinks she is just the same as any other climber."],
-   ["Goatee can't talk or write, but she can surf!",
-    "Why is this special?",
-    "Because Goatee is a goat!",
-    "She surfs with her owner, Dana McGregor.",
-    "Dana helps Goatee to stand on the board and together they ride the waves in California.",
-    "Goatee wears a yellow life-jacket because she can't swim very well!",
-    "And now there is a children's book about her, too – Dana is the author."]]},
- 70:{u:"Unit 7", audio:"assets/p070.mp3", title:"An Amazing Last Four Minutes", arts:[
-   ["It's 15th February at Greece Athena High School, New York.",
-    "Jason McElwain is an 18-year-old student.",
-    "Jason is autistic.",
-    "He loves basketball and he helps with the school basketball team.",
-    "Jason practises hard every day, but he never plays in the team."],
-   ["Tonight is the last game of the season.",
-    "It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches."],
-   ["It's four minutes before the end.",
-    "The team is winning, so the coach tells Jason to go out and play.",
-    "The team and the crowd are very happy, because everyone knows Jason and likes him.",
-    "Jason tries to score a basket, but he misses.",
-    "But suddenly he hits a 3-point basket.",
-    "The crowd goes crazy.",
-    "Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether.",
-    "The team wins, and Jason is a real hero.",
-    "It's an amazing night for him!"],
-   ["Soon Jason starts to become famous.",
-    "People in his town know who he is.",
-    "The US president comes to Jason's town to meet him.",
-    "Jason writes a book and some people want to make a film about him.",
-    "He becomes assistant coach to the high school basketball team."],
-   ["Now Jason works hard to help other autistic people.",
-    "He travels across the US to help get money for autism research."]]},
-  69:{u:"Unit 7", audio:"assets/p069.mp3", title:"Dialogue: Planning a Bike Ride", dialog:1, spk:DB.SPE["69"], arts:[
-  ["Hi, Julia. It's me, Mike."],
-  ["Hi, Mike. How's it going?"],
-  ["Do you want to go cycling later today?"],
-  ["Go cycling? Good idea. What time?"],
-  ["How about after lunch? Say, two o'clock?"],
-  ["Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two."],
-  ["OK, how about three o'clock?"],
-  ["No, the lesson only finishes at half past three."],
-  ["OK, so how about four o'clock?"],
-  ["I can't. Mum wants to give me a tennis lesson at four."],
-  ["Until what time?"],
-  ["I'm not sure. Maybe about quarter to five?"],
-  ["Really? But we can't go cycling then. It gets dark at half past four."],
-  ["Well, yes, you're right. Sorry."],
-  ["So maybe we can go cycling before lunch?"],
-  ["Um, I've got a school rugby match until about half past eleven."],
-  ["What time does it start?"],
-  ["Ten o'clock."],
-  ["Julia, it's quarter to ten now."],
-  ["Really? I need to go. Let's go cycling tomorrow."],
-  ["OK. Call me in the morning. See you. Have a good match."] ]}
-,72:{u:"Unit 7", audio:"assets/p072.mp3", title:"Rainy Day: Nina & Dave", dialog:1, spk:DB.SPE["72"], arts:[["Right! Have we got everything? Tennis rackets, balls …?"], ["Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go."], ["Just a minute! Oh, no! It's raining!", "Now what do we do?"], ["You're right. We can't play outside in the rain."], ["Why don't we go to the sports centre in town? They've got an indoor court."], ["No, it's always very busy. I'm sure we can't play there today."], ["Maybe you're right. It's a bit expensive, too."], ["OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps."], ["Yes. But I'm a bit sad now."], ["Me, too. But what can we do? It's raining, and that's that."], ["I know! How about watching some old tennis games on the internet?"], ["Good idea. I like watching really good players."], ["And we can eat our food."], ["Let's go and switch the computer on."]]},117:{u:"Unit 12", audio:"assets/p117.mp3", title:"Transport Around the World", arts:[["Transport around the world."], ["The Amfibus, the Netherlands.", "The big, blue Amfibus certainly makes a big splash!", "It's in Rotterdam, and it takes people on tours of the city.", "It's cool.", "It can travel on land and in the water.", "It is more expensive than water taxis, but it is more exciting, too.", "It is slower in the water than on land.", "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land.", "The tour lasts for an hour, and it costs 27.50 euros."], ["Moving walkways and escalators, Hong Kong.", "The Central-Mid-Levels Escalator is 800 metres long.", "Escalators are usually inside a shopping centre or an airport, but not this one!", "It's outside.", "It's a great way to travel round this city of hills.", "And it's free!", "There are 14 places where you can get on and off.", "The escalators travel down the hill from 6am to 10am, so people can travel to work.", "They travel up the hill from 10am to midnight."], ["The urban cable car, Turkey.", "Ankara's cable car is cheaper than other forms of public transport.", "It is healthier because it doesn't pollute the air.", "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!", "It travels 60 metres above the ground, and passengers can get great views of the city."], ["Submarines, Lanzarote and Tenerife.", "Now you can travel in a submarine!", "This submarine carries tourists.", "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas.", "The submarine can carry 48 people, and it has 11 large windows on each side.", "It travels down 60 metres under the sea."]]},202:{u:"Unit 12", audio:"assets/p202.mp3", title:"Ways to Get Around", arts:[["People use different types of transport to get from one place to the next.", "In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special.", "The first track opened in 1901.", "It is the oldest electric elevated railway with hanging cars in the world.", "More than 85,000 passengers use it every day."], ["There are lots of special cars in Cuba, especially in Havana.", "Most of them are very old.", "But these yellow taxis are much newer.", "They are called cocotaxis because they look like coconuts.", "They are a great way of getting around.", "Tourists love them!"], ["Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan.", "Originally, people used these sledges to transport food and other things.", "Today, they transport people.", "Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street.", "They wear special shoes.", "When the ride gets too fast, the drivers can use their shoes to slow it down."], ["This strange form of transportation is called zorbing or globe-riding.", "And yes, a person is inside!", "The first zorbing site was in New Zealand.", "But now you can go zorbing all over the world.", "Even on water.", "What's a popular way of getting around in your city?"]]},73:{u:"Unit 7", audio:"assets/p073.mp3", title:"Stay Positive", arts:[["Oh, hello. It's you. Sorry, I'm not feeling great.", "Why? This is why. And I have a geography test tomorrow.", "I like geography, but there's just so much information to learn.", "How can I stay positive today?", "But that's not the only problem.", "Because I have a geography test tomorrow, I can't do all the things I really want to do today."], ["I can't play tennis with Tyler.", "I can't go to see a movie with Tyler.", "I can't watch baseball with Tyler.", "I can't go for an ice cream with Tyler.", "How can I be positive?", "I can't do anything.", "Or can I?"], ["It's Tyler!", "Hi, Tyler!", "Really?", "Good idea!", "Of course!", "Now?", "Amazing!", "See you soon!"], ["Tyler has a geography test tomorrow too, and Tyler's great at geography.", "He's coming over to help me, and he's bringing popcorn.", "See, stay positive.", "That's what I always say, because if you stay positive, you can find an answer to any problem.", "Just relax.", "See you next time!"]]},66:{u:"Unit 7", audio:"assets/p066.mp3", title:"LIVING FOR SPORT", arts:[["A slam dunk and the crowds cheer!", "A game of sports can be so exciting.", "All over the world, people love watching sports, talking about sports and playing sports."], ["Can you guess why?", "Ball sports are very popular.", "For example, football.", "Half of the world loves football.", "That's almost four billion people.", "Volleyball is another popular ball sport.", "You probably know it."], ["But here in Laos they don't play volleyball with their hands and arms.", "They play it with their feet, head and knees.", "This game is called Sepak takraw – kick volleyball.", "People love playing it in southeast Asia."], ["Dodgeball is another great ball game.", "Do you play it at school?", "You have to be very good at throwing and catching the ball.", "Bowling uses a different kind of ball – a very hard ball.", "You can't kick it.", "You roll it and try to knock over the pins at the end of the lane.", "Young and old people can play this game."], ["Do you know squash?", "Lots of people like playing it.", "Usually, it's a game between two players but you can also play in a team.", "Players hit the ball against four walls, and it's a very quick sport!", "But you have to be careful so you don't get hit.", "What's your favourite sport?"]]}};
-/* ===== p114 阅读B My Favourite Journey (第12单元) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"My favourite journey. We all love going on a journey.":"我最喜欢的旅程。我们大家都喜欢去旅行。","Here are some of your favourites. Thank you for sharing them!":"这里有一些你们最喜欢的旅程。感谢大家的分享！","Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River.":"亚当：我喜欢船，我最喜欢的乘船旅程是乘渡船横渡多瑙河的那一段。","My grandma lives in Budapest.":"我奶奶住在布达佩斯。","When I visit her, we often go on it together.":"我去看她时，我们常常一起乘坐这条渡船。","It's not a long journey.":"这趟旅程并不长。","It's only ten minutes.":"只需十分钟。","The ferry just takes you across the river to the other side of the city.":"渡船只是把你送到河对岸，也就是城市的另一边。","We don't get off the boat.":"我们不下船。","We just go there and back again.":"我们只是坐过去，再坐回来。","Rose!":"罗斯：","I really love steam trains.":"我真的很喜欢蒸汽火车。","There's one in Scotland.":"苏格兰就有一列。","It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train.":"它从西海岸的威廉堡驶往马莱格，被称为“詹姆斯党号”蒸汽火车。","It's the famous one you see in the Harry Potter films.":"它就是你在《哈利·波特》电影里看到的那一列著名的火车。","The one that takes Harry and his classmates to Hogwarts. But that's not why I like it.":"就是送哈利和他的同学们去霍格沃茨的那一列。但我喜欢它并非因为这个原因。","I like the sound it makes and I like the view from the window.":"我喜欢它发出的声响，也喜欢窗外的景色。","It travels past lakes and mountains and beautiful beaches.":"它沿途经过湖泊、山峦和美丽的海滩。","What's my favourite journey?":"我最喜欢的旅程是什么呢？","My journey to school.":"是我上学的那段路。","We live in a village and my school is in the next village.":"我们住在一个村子里，我的学校在下一个村子。","Every morning, I walk across the fields and then along the river until I'm at school.":"每天早晨，我穿过田野，再沿着河边走，直到到达学校。","It's a really beautiful walk.":"这段路程真是美极了。","I love looking for birds.":"我喜欢寻找小鸟。","There are some lovely ones.":"那儿有几只可爱的小鸟。","And sometimes, if I'm lucky, I see a rabbit.":"有时，如果我运气好，还能看到一只兔子。","I love my walk to school.":"我喜欢去学校的那段路。","But I love the walk home more!":"但我更喜欢回家那段路！","Max. My favourite journey is a very fast bike ride.":"马克斯：我最喜欢的旅程是一次极速的骑行。","My grandparents have a house in the mountains. There is a road down the mountain to the town.":"我的祖父母在山里有一栋房子。有一条路从山上通向小镇。","It goes down very fast, and it goes through a big forest.":"下山的路非常快，途中还会经过一大片森林。","Every morning, we ride down to the town to get bread.":"每天早晨，我们骑车下到镇上买面包。","It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!":"骑车下去只需十分钟，可再骑回山上却要久得多！"});
-DB.TITLE_START["p114"]=7.159;
-DB.ENTITY["114"]={"danube": {"t": "GPE", "s": 1}, "budapest": {"t": "GPE", "s": 1}, "scotland": {"t": "GPE", "s": 1}, "mallaig": {"t": "GPE", "s": 1}, "hogwarts": {"t": "GPE", "s": 1}};
-DB.ENTITYMULTI["114"]=[[["fort", "william"], {"t": "GPE", "s": 1}], [["jacobite", "steam", "train."], {"t": "ORG", "s": 1}], [["harry", "potter"], {"t": "ORG", "s": 1}]];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["journey"]=1;DB.TOPIC["journeys"]=1;DB.TOPIC["ferry"]=1;DB.TOPIC["boat"]=1;DB.TOPIC["boats"]=1;DB.TOPIC["steam"]=1;DB.TOPIC["trains"]=1;DB.TOPIC["river"]=1;DB.TOPIC["city"]=1;DB.TOPIC["minutes"]=1;DB.TOPIC["minute"]=1;DB.TOPIC["village"]=1;DB.TOPIC["school"]=1;DB.TOPIC["fields"]=1;DB.TOPIC["birds"]=1;DB.TOPIC["rabbit"]=1;DB.TOPIC["bike"]=1;DB.TOPIC["ride"]=1;DB.TOPIC["mountain"]=1;DB.TOPIC["town"]=1;DB.TOPIC["bread"]=1;DB.TOPIC["forest"]=1;DB.TOPIC["lakes"]=1;DB.TOPIC["mountains"]=1;DB.TOPIC["beaches"]=1;DB.TOPIC["sharing"]=1;DB.TOPIC["favourites"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["travelling"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["journey"]=1;DB.TRAP["ferry"]=1;DB.TRAP["village"]=1;DB.TRAP["favourite"]=1;DB.TRAP["minutes"]=1;DB.TRAP["mountains"]=1;DB.TRAP["beaches"]=1;DB.TRAP["sharing"]=1;DB.TRAP["hogwarts"]=1;DB.TRAP["mallaig"]=1;DB.TRAP["jacobite"]=1;DB.TRAP["budapest"]=1;DB.TRAP["mountain"]=1;DB.TRAP["rabbit"]=1;
-/* ===== p113 听力 At the Train Station (第12单元) ===== */
-DB.ZH = Object.assign(DB.ZH||{}, {"Good morning.":"早上好。","How can I help you?":"有什么可以帮您？","Hello.":"你好。","I want to go to Windsor.":"我想去温莎。","What time's the next train?":"下一趟火车几点开？","There's one in five minutes.":"五分钟后就有一趟。","It's a fast train.":"那是一趟快车。","It only stops at Clapham Junction and Windsor.":"它只在克拉珀姆交汇站和温莎停靠。","You can catch that one.":"您可以搭那一趟。","And the one after that?":"那下一趟呢？","There's one at half past ten, but that's a slower train.":"十点半有一趟，但那是慢车。","It stops at every station.":"它每站都停。","That's OK.":"没关系。","I'm not in a hurry, and I don't want to run.":"我不赶时间，也不想跑着赶车。","What time does that one arrive in Windsor?":"那趟车几点到温莎？","At half past eleven.":"十一点半到。","It takes an hour.":"要行驶一个小时。","And how often are the trains to Windsor?":"去温莎的火车多久一班？","They're every half hour.":"每半小时一班。","Great!":"太好了！","And how much is a ticket?":"车票多少钱一张？","Do you want a single or a return?":"您要单程票还是往返票？","A return, please.":"请给我一张往返票。","Are you returning today?":"您是今天返回吗？","Yes, I am.":"是的。","Then you can get an off-peak day return ticket for £12.70.":"那么您可以买一张非高峰时段当日往返票，票价12.70英镑。","It's cheaper than the anytime day return.":"它比任何时段都适用的当日往返票更便宜。","That's £19.90.":"那种票价是19.90英镑。","Right.":"好的。","I'd like the off-peak day return one then.":"那我就买非高峰时段当日往返票。","OK.":"好的。","That's £12.70, please.":"请付12.70英镑。","What platform does the train leave from?":"火车从哪个站台发车？","It leaves from platform 15.":"从15号站台发车。","And what platform does it arrive at in Windsor?":"那在温莎从哪个站台到站呢？","My friend wants to meet me there.":"我的朋友要在那里接我。","Platform 1.":"在1号站台。","But Windsor is a very small station, a lot smaller than Waterloo.":"不过温莎是个很小的车站，比滑铁卢站小得多。","There are only two platforms at Windsor.":"温莎站只有两个站台。","OK, then that's not a problem.":"好吧，那就不成问题了。","Thank you.":"谢谢。","Have a good journey.":"祝您旅途愉快。"});
-DB.SPE["113"]=["Ticket seller", "Ticket seller", "Kate", "Kate", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Ticket seller", "Kate", "Kate", "Kate", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Kate", "Kate", "Ticket seller", "Kate", "Ticket seller", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Kate", "Ticket seller", "Ticket seller", "Kate", "Ticket seller", "Kate", "Kate", "Ticket seller", "Ticket seller", "Ticket seller", "Kate", "Kate", "Ticket seller"];
-DB.TITLE_START["p113"]=8.41;
-DB.ENTITY["113"]={"windsor": {"t": "GPE", "s": 1}, "clapham": {"t": "GPE", "s": 1}, "waterloo": {"t": "GPE", "s": 1}};
-DB.ENTITYMULTI["113"]=[[["clapham", "junction"], {"t": "GPE", "s": 1}]];
-DB.TOPIC=DB.TOPIC||{};DB.TOPIC["train"]=1;DB.TOPIC["trains"]=1;DB.TOPIC["ticket"]=1;DB.TOPIC["single"]=1;DB.TOPIC["return"]=1;DB.TOPIC["platform"]=1;DB.TOPIC["station"]=1;DB.TOPIC["station"]=1;DB.TOPIC["journey"]=1;DB.TOPIC["hurry"]=1;DB.TOPIC["arrive"]=1;DB.TOPIC["hour"]=1;DB.TOPIC["half"]=1;DB.TOPIC["travel"]=1;DB.TOPIC["off-peak"]=1;DB.TOPIC["anytime"]=1;DB.TOPIC["minute"]=1;DB.TOPIC["minutes"]=1;DB.TOPIC["cheaper"]=1;
-DB.TRAP=DB.TRAP||{};DB.TRAP["platform"]=1;DB.TRAP["windsor"]=1;DB.TRAP["clapham"]=1;DB.TRAP["junction"]=1;DB.TRAP["waterloo"]=1;DB.TRAP["arrive"]=1;DB.TRAP["off-peak"]=1;DB.TRAP["anytime"]=1;DB.TRAP["return"]=1;DB.TRAP["single"]=1;DB.TRAP["cheaper"]=1;
-var BOOKU12={110:{u:"Unit 12", audio:"assets/p110.mp3", title:"Documentary: Moving About", arts:[["Our lives move very fast today, especially in big cities.", "But many years ago, that was different.", "People couldn't jump on a bus or take the tube to work.", "They walked.", "For a long time, the fastest way of travelling was by horse or boat.", "That changed with the steam engine in the 18th century.", "Then came cars, motorcycles and, of course, airplanes."], ["So what's new and popular today?", "E-scooters!", "Electric scooter sharing is the new way to get around.", "They are taking over the world's big cities.", "They are fun and easy to use.", "You don't have to buy one.", "You rent one.", "All you need is to log on to an app and then, off you go.", "They are cheaper than taxis."], ["You can get around traffic jams.", "And you don't have to do any hard work, like on a bike.", "They aren't bad for the environment either.", "But is that true?", "Well, these e-scooters don't last very long."], ["In Paris, some e-scooters break after one month.", "Many people are unhappy because there are too many e-scooters.", "They block the pavements and drive into people.", "Because people are angry about e-scooters, they throw them into rivers or break them.", "Is that the answer?", "What do you think of e-scooters?", "Do you like them?"]]},111:{u:"Unit 12", audio:"assets/p111.mp3", title:"The Great Race", arts:[["A lot of big cities, like London, have got many traffic problems.", "Sometimes a journey of a few kilometres can take more than an hour.", "So what's the best way to get across London?"], ["For a very short journey, it's probably a good idea to walk.", "But what happens when you want to go further?"], ["The presenters of a popular TV show about cars decided to find out.", "Each of the presenters chose a different type of transport to make the same 27-kilometre journey.", "One presenter went by bike.", "One went by car."], ["Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames.", "They all started at the same time and the same place in West London, but who got to City Airport in East London first?", "The results were a surprise."], ["The bike came first.", "In second place was the speedboat.", "Public transport came third and the car was last."], ["So the presenters had an answer.", "The bike was quicker than all the other types of transport and the car was slower.", "They weren't very happy with the result because they wanted the car to win.", "They made a joke and said the bike wasn't a real winner because it was more dangerous."], ["But, of course, the bike is the real winner.", "It's the best way to get about.", "It's cheaper than public transport and it is healthier than going by car.", "It's also better for our cities because bikes don't make the air dirty.", "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'"]]},114:{u:"Unit 12", audio:"assets/p114.mp3", title:"My Favourite Journey", arts:[["My favourite journey. We all love going on a journey.", "Here are some of your favourites. Thank you for sharing them!"], ["Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River.", "My grandma lives in Budapest.", "When I visit her, we often go on it together.", "It's not a long journey.", "It's only ten minutes.", "The ferry just takes you across the river to the other side of the city.", "We don't get off the boat.", "We just go there and back again."], ["Rose!", "I really love steam trains.", "There's one in Scotland.", "It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train.", "It's the famous one you see in the Harry Potter films.", "The one that takes Harry and his classmates to Hogwarts. But that's not why I like it.", "I like the sound it makes and I like the view from the window.", "It travels past lakes and mountains and beautiful beaches."], ["What's my favourite journey?", "My journey to school.", "We live in a village and my school is in the next village.", "Every morning, I walk across the fields and then along the river until I'm at school.", "It's a really beautiful walk.", "I love looking for birds.", "There are some lovely ones.", "And sometimes, if I'm lucky, I see a rabbit.", "I love my walk to school.", "But I love the walk home more!"], ["Max. My favourite journey is a very fast bike ride.", "My grandparents have a house in the mountains. There is a road down the mountain to the town.", "It goes down very fast, and it goes through a big forest.", "Every morning, we ride down to the town to get bread.", "It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!"]]},113:{u:"Unit 12", audio:"assets/p113.mp3", title:"At the Train Station", dialog:1, spk:DB.SPE["113"], arts:[["Good morning.", "How can I help you?"], ["Hello.", "I want to go to Windsor.", "What time's the next train?"], ["There's one in five minutes.", "It's a fast train.", "It only stops at Clapham Junction and Windsor.", "You can catch that one."], ["And the one after that?"], ["There's one at half past ten, but that's a slower train.", "It stops at every station."], ["That's OK.", "I'm not in a hurry, and I don't want to run.", "What time does that one arrive in Windsor?"], ["At half past eleven.", "It takes an hour."], ["And how often are the trains to Windsor?"], ["They're every half hour."], ["Great!", "And how much is a ticket?"], ["Do you want a single or a return?"], ["A return, please."], ["Are you returning today?"], ["Yes, I am."], ["Then you can get an off-peak day return ticket for £12.70.", "It's cheaper than the anytime day return.", "That's £19.90."], ["Right.", "I'd like the off-peak day return one then."], ["OK.", "That's £12.70, please."], ["What platform does the train leave from?"], ["It leaves from platform 15."], ["And what platform does it arrive at in Windsor?", "My friend wants to meet me there."], ["Platform 1.", "But Windsor is a very small station, a lot smaller than Waterloo.", "There are only two platforms at Windsor."], ["OK, then that's not a problem.", "Thank you."], ["Have a good journey."]]}};
-Object.assign(BOOK, BOOKU12);
-
-var $=id=>document.getElementById(id);
-var audio=$("audio");
-var TL, ZH, TITLE_START, ENTITY, ENTITYMULTI, LEVEL, TOPIC, BASE, TRAP;
-function initDB(){ TL=DB.TL; ZH=DB.ZH||{}; TITLE_START=DB.TITLE_START;
-  ENTITY=DB.ENTITY||{}; ENTITYMULTI=DB.ENTITYMULTI||{}; LEVEL=DB.LEVEL||{}; TOPIC=DB.TOPIC||{}; BASE=DB.BASE||{}; TRAP=DB.TRAP||{}; }
-
-/* ---------- state ---------- */
-var STAGES=["listen","follow","dictate"];
-var state={ pg:67, stage:"listen", mode:"whole", cn:false, idx:0, flow:"read" };
-var DT={ density:"mid", spell:false, hint:false, pass:0, way:"key", askedWay:false,
-          list:[], qi:0, spech:false };
-var LCOUNT={ n:0, p:0 };
-var FOL={ fstep:1, idx:0, ci:0, start:0, end:0, gap:false, next:null, timer:null, SCHED:null, track:[], _cur:-1, _sh:-1 };
-var SHADOW_DELAY=0.5;
-var PROG={ listen:false, follow:false, dictate:false };
-var SEGS=[], sentEls=[];
-var seeking=false;
-var LSENT=-1;
-
-/* 听写四遍变速：第1遍常速建立整体 → 第2、3遍慢速聚焦拼写 → 第4遍回常速末遍判分 */
-var PASS=[
-  { d:"mid", spell:false, hint:false, rate:1.0,  label:"1.0× 常速 · 整体预听"},
-  { d:"mid", spell:false, hint:false, rate:0.85, label:"0.85× 慢速 · 主词听写"},
-  { d:"mid", spell:false, hint:false, rate:0.85, label:"0.85× 慢速 · 补全漏空"},
-  { d:"mid", spell:false, hint:false, rate:1.0,  label:"1.0× 常速 · 末遍校验"}
-];
-
-function partsOf(s){
-  var re=/([A-Za-z']+|[0-9]+)|([^\s])/g, m, o=[], i=0;
-  while((m=re.exec(s))){
-    if(m.index>i) o.push({t:s.slice(i,m.index),w:-1});
-    o.push(m[1]? {t:m[1],w:1} : {t:m[2],w:0});
-    i=m.index+m[0].length;
-  }
-  if(i<s.length) o.push({t:s.slice(i),w:-1});
-  return o;
-}
-function wrapWords(s){ var h=""; partsOf(s).forEach(function(p){ h+= p.t; }); return h; }
-function normTok(t){ return (t||"").toLowerCase().replace(/[.,;'!?]+$/,''); }
-
-/* ---------- 进度落盘：按篇 pg 持久化 PROG，供重开恢复与教师端/学生端读取 ---------- */
-var FK='tf_follow_';
-function loadFollow(pg){ try{ var o=JSON.parse(localStorage.getItem(FK+pg)); return (o&&typeof o==='object')?o:null; }catch(e){ return null; } }
-function saveFollow(){ try{ localStorage.setItem(FK+state.pg, JSON.stringify({ listen:PROG.listen, follow:PROG.follow, dictate:PROG.dictate, updatedAt:Date.now() })); }catch(e){} }
-function render(pg){
-  state.pg=pg; state.idx=0;
-  var B=BOOK[pg], body=$("body"), seg=0, spk=B.spk||null;
-  state.dialog = !!(spk && spk.length>1);
-  body.innerHTML="";
-  SEGS=[]; sentEls=[]; LSENT=-1;
-  PROG={ listen:false, follow:false, dictate:false };
-  var _saved=loadFollow(pg);
-  if(_saved){ PROG.listen=!!_saved.listen; PROG.follow=!!_saved.follow; PROG.dictate=!!_saved.dictate; }
-  DT.list=[]; DT.qi=0; DT.askedWay=false; DT.g=0; DT.groups=[];
-  B.arts.forEach(function(ar){
-    var p=document.createElement("div"); p.className="para";
-    ar.forEach(function(s){
-      var sent=document.createElement("span");
-      sent.className="sent"; sent.dataset.i=seg;
-      if(spk){ sent.dataset.spk=spk[seg]; sent.innerHTML='<b class="spk">'+(spk[seg]==="julia"?"Julia":"Mike")+'</b>'+wrapWords(s)+`<span class="zh ${state.cn?"":"hide"}">${ZH[s]||""}</span>`; }
-      else sent.innerHTML=wrapWords(s)+`<span class="zh ${state.cn?"":"hide"}">${ZH[s]||""}</span>`;
-      p.appendChild(sent); p.appendChild(document.createTextNode(" "));
-      SEGS.push(s); sentEls.push(sent);
-      seg++;
-    });
-    body.appendChild(p);
-  });
-  $("paperTitle").textContent=B.title;
-  $("headline").textContent=B.u;
-  audio.pause();
-  audio.src=B.audio;
-  setStage(state.stage);
-}
-function bindSentClicks(){
-  $("body").addEventListener("click",function(e){
-    var sent=e.target.closest(".sent"); if(!sent) return;
-    var i=+sent.dataset.i; state.idx=i;
-    if(state.stage==="follow"){ playSentence(i); }
-    else if(state.stage==="listen"){ jump(TL[state.pg][i][0], false); }
-    else { var at=DT.list.indexOf(i); if(at>=0){ DT.qi=at; renderDictatePass(0); } else replayCurrentSentence(); }
-  });
-}
-/* ---------- transport ---------- */
-function playSentence(i){
-  cancelGap();
-  state.idx=i; setActiveSentence(i);
-  if(state.stage==="follow"){ if(FOL.fstep===2){ followPlayWhole(); return; } followPlaySentence(i); return; }
-  jump(TL[state.pg][i][0], true);
-}
-function jump(sec, fromPlay){
-  var d=audio.duration;
-  var t=Math.max(0, Math.min(sec, isFinite(d)?d: sec));
-  if(Math.abs(audio.currentTime-t)<0.04 && !audio.paused) return;
-  audio.pause(); seeking=true;
-  try{ audio.currentTime=t; }catch(e){}
-  audio.addEventListener("seeked", function h(){ seeking=false; audio.play(); audio.removeEventListener("seeked",h); });
-  setPlayIc(true);
-}
-function togglePlay(){
-  if(state.stage==="dictate"){ replayCurrentSentence(); return; }
-  if(state.stage==="follow"){ if(audio.paused){ if(FOL.fstep===2){ audio.play(); setPlayIc(true); } else if(FOL.gap){ resumeGap(); } else followPlaySentence(state.idx); } else audio.pause(); return; }
-  // listen：整段控制
-  if(audio.paused){ if(audio.ended || audio.currentTime===0){ startFrom(); } else audio.play(); }
-  else audio.pause();
-}
-function startFrom(){
-  var k=state.pg; var start=(TITLE_START["p"+String(k).padStart(3,"0")]||0);
-  jump(start, true);
-}
-function nxt(d){ var L=SEGS.length; var i=Math.max(0,Math.min(L-1,state.idx+d));
-  state.idx=i;
-  if(state.stage==="dictate"){ var at=DT.list.indexOf(i); if(at>=0){ DT.qi=at; renderDictatePass(0); } return; }
-  if(state.stage==="follow"){ if(FOL.fstep===2){ toast("正在影子跟读，全程不停"); return; } followPlaySentence(i); }
-  else jump(TL[state.pg][i][0], false);
-}
-
-/* ---------- highlight + progress ---------- */
-audio.addEventListener("timeupdate", function(){
-  var t=audio.currentTime; if(!isFinite(t)) return;
-  if(state.stage==="dictate"){ dtTimeupdate(t); return; }
-  var tls=TL[state.pg], lastI=tls.length-1, wholeEnd=tls[lastI][1];
-  if(state.stage==="follow"){
-    updateShadowCursors(t);
-    if(seeking || FOL.gap) return;
-    if(FOL.fstep===1){ if(t>=tls[state.idx][1]) followSentenceEnd(); }
-    else if(t>=wholeEnd){ followWholeEnd(); }
-    return;
-  } else {
-    if(!seeking && t>=wholeEnd){ audio.pause(); return; }
-  }
-  highlightAt(t);
-});
-audio.addEventListener("play", function(){ setPlayIc(true); });
-audio.addEventListener("pause", function(){ setPlayIc(false); });
-var HL=["on","done"];
-function clr(els){ for(var j=0;j<els.length;j++) for(var c=0;c<HL.length;c++) els[j].classList.remove(HL[c]); }
-function highlightAt(t){
-  var tls=TL[state.pg]; var si=0;
-  for(var i=0;i<tls.length;i++){ if(t>=tls[i][0]-0.01) si=i; else break; }
-  setActiveSentence(si);
-}
-function setActiveSentence(si){
-  for(var i=0;i<sentEls.length;i++) sentEls[i].classList.toggle("on", i===si);
-  autoScroll(si);
-}
-function autoScroll(si){
-  var el=sentEls[si]; if(!el) return;
-  var body=$("body");
-  var er=el.getBoundingClientRect(), br=body.getBoundingClientRect();
-  if(er.top<br.top+4 || er.bottom>br.bottom-8){
-    el.scrollIntoView({block:"center",behavior:"smooth"});
-  }
-}
-
-/* ========== 两步影子跟读 ========== */
-function folTokens(s){
-  var parts=[], re=/([A-Za-z']+|\d+)|([^A-Za-z'0-9]+)/g, m;
-  while((m=re.exec(s))){ if(m[1]!==undefined) parts.push({word:m[1]}); else parts.push({p:m[2]}); }
-  return parts;
-}
-/* 按词长把句段时间分摊到每个词 → 词级时间轴（无词级标注时的近似） */
-function folWordTimes(s, st, en){
-  var toks=folTokens(s), total=0;
-  toks.forEach(function(t){ if(t.word!==undefined) total+=t.word.length; });
-  if(!total){ toks.forEach(function(t){ if(t.word!==undefined){ t.st=st; t.en=en; } }); return toks; }
-  var t=st;
-  toks.forEach(function(tok){
-    if(tok.word===undefined) return;
-    var d=(en-st)*tok.word.length/total;
-    tok.st=t; tok.en=t+d; t+=d;
-  });
-  return toks;
-}
-function renderTokenSpans(toks){
-  var box=$("fsTxt"); box.innerHTML="";
-  FOL.track.length=0; FOL._cur=-1; FOL._sh=-1;
-  toks.forEach(function(tok){
-    if(tok.p!==undefined){ box.appendChild(document.createTextNode(tok.p)); return; }
-    var sp=document.createElement("span"); sp.className="fol-w"; sp.textContent=tok.word;
-    box.appendChild(sp); FOL.track.push({el:sp, st:tok.st, en:tok.en});
-  });
-}
-function clearShadowCursors(){
-  var tr=FOL.track;
-  if(FOL._cur>=0&&FOL._cur<tr.length){ tr[FOL._cur].el.classList.remove("cur"); }
-  if(FOL._sh>=0&&FOL._sh<tr.length){ tr[FOL._sh].el.classList.remove("shd"); }
-  FOL._cur=-1; FOL._sh=-1;
-}
-function wordAt(ts){
-  var tr=FOL.track, res=-1;
-  for(var i=0;i<tr.length;i++){ if(ts>=tr[i].st-0.012){ res=i; } else break; }
-  return res;
-}
-function maybeScrollWord(el){
-  var card=$("fsCard"), cr=card.getBoundingClientRect(), er=el.getBoundingClientRect();
-  if(er.top<cr.top+8 || er.bottom>cr.bottom-8){ el.scrollIntoView({block:"center",behavior:"smooth"}); }
-}
-function updateShadowCursors(t){
-  var tr=FOL.track; if(!tr.length) return;
-  var c=wordAt(t);
-  /* 影子光标只在第 3 步（影子跟读）出现：前两步是「听完再开口」，不追读 */
-    var st=t-SHADOW_DELAY, s=(FOL.fstep===2 && st>=tr[0].st) ? wordAt(st) : -1;
-  if(c!==FOL._cur){ if(FOL._cur>=0&&FOL._cur<tr.length) tr[FOL._cur].el.classList.remove("cur"); FOL._cur=c; if(c>=0&&c<tr.length){ tr[c].el.classList.add("cur"); if(FOL.fstep===2) maybeScrollWord(tr[c].el); } }
-  if(s!==FOL._sh){
-    if(FOL._sh>=0&&FOL._sh<tr.length) tr[FOL._sh].el.classList.remove("shd");
-    FOL._sh=s;
-    if(s>=0&&s<tr.length&&s<FOL.track.length) tr[s].el.classList.add("shd");
-  }
-}
-var FOL_HINT=[
-  '第 1 步 · 跟句：听完整一句 → 暂停 → 开口跟读整句（注意停顿与语调）',
-  '第 2 步 · 影子跟读：落后音频半拍，从头到尾不停（耳朵带嘴巴，不再停顿）'
-];
-function setFollowHint(step){
-  $("fsHint").innerHTML='<div class="fol-legend"><i><span class="k k1"></span>音频正在这里</i>'
-    + (step===3?'<i><span class="k k2"></span>你落后 0.5 秒该读到这里</i>':'') + '</div>' + FOL_HINT[step-1];
-}
-function followPlaySentence(i){
-  cancelGap();
-  state.idx=i; FOL.ci=0; setActiveSentence(i);
-  var tl=TL[state.pg][i];
-  FOL.start=tl[0]; FOL.end=tl[1];
-  renderTokenSpans(folWordTimes(SEGS[i], tl[0], tl[1]));
-  $("fsCard").classList.remove("whole");
-  setFollowHint(2);
-  setFollowUI();
-  jump(tl[0], true);
-}
-/* ---------- 「该你开口」间隙：暂停 + 倒计时条，走完自动进入下一段 ---------- */
-function showGap(dur, msg, next){
-  FOL.gap=true; FOL.next=next;
-  audio.pause(); setPlayIc(false);
-  var g=$("fsGap"), bar=$("fsGapBar"), m=$("fsGapMsg");
-  if(m) m.textContent=msg;
-  if(g) g.classList.add("on");
-  if(bar) bar.style.width="0%";
-  var t0=Date.now(), ms=Math.max(700, dur*1000);
-  if(FOL.timer) clearInterval(FOL.timer);
-  FOL.timer=setInterval(function(){
-    var p=(Date.now()-t0)/ms; if(p>1) p=1;
-    if(bar) bar.style.width=(p*100).toFixed(1)+"%";
-    if(p>=1){
-      clearInterval(FOL.timer); FOL.timer=null;
-      var nx=FOL.next; FOL.next=null; hideGap();
-      if(nx) nx();
-    }
-  }, 40);
-}
-function hideGap(){ FOL.gap=false; var g=$("fsGap"); if(g) g.classList.remove("on"); }
-function resumeGap(){  /* 间隙里按播放：不等倒计时，立刻进入下一段 */
-  if(FOL.timer){ clearInterval(FOL.timer); FOL.timer=null; }
-  var nx=FOL.next; FOL.next=null; hideGap();
-  if(nx) nx();
-}
-function followPlayWhole(){
-  audio.pause(); setPlayIc(false); cancelGap();
-  var tls=TL[state.pg];
-  state.idx=SEGS.length-1;
-  var box=$("fsTxt"); box.innerHTML="";
-  FOL.track.length=0; FOL._cur=-1; FOL._sh=-1;
-  for(var si=0; si<SEGS.length; si++){
-    if(si>0) box.appendChild(document.createTextNode(" "));
-    var ti=document.createElement("span"); ti.className="fs-num"; ti.textContent="["+(si+1)+"]";
-    box.appendChild(ti);
-    var toks=folWordTimes(SEGS[si], tls[si][0], tls[si][1]);
-    toks.forEach(function(tok){
-      if(tok.p!==undefined){ box.appendChild(document.createTextNode(tok.p)); return; }
-      var sp=document.createElement("span"); sp.className="fol-w"; sp.textContent=tok.word;
-      box.appendChild(sp); FOL.track.push({el:sp, st:tok.st, en:tok.en});
-    });
-  }
-  $("fsCard").classList.add("whole");
-  $("fsCard").scrollTop=0;
-  setFollowHint(3);
-  setFollowUI();
-  var start=TITLE_START["p"+String(state.pg).padStart(3,"0")] || tls[0][0];
-  jump(start, true);
-}
-/* 第1步：一句播完 → 让出跟读时间 → 下一句；末句 → 进入第2步（影子） */
-function followSentenceEnd(){
-  var si=state.idx, lastSent=si>=SEGS.length-1;
-  showGap(Math.min(5.5, Math.max(1.8, (FOL.end-FOL.start)*0.8)), '该你开口 · 跟读整句', function(){
-    if(!lastSent) return followPlaySentence(si+1);
-    beginFollowStep2();
-  });
-}
-function beginFollowStep2(){
-  FOL.fstep=2; setFollowUI();
-  followPlayWhole();
-  toast("进入第 2 步 · 影子跟读：落后半拍，全程不停");
-}
-function followWholeEnd(){ /* 第2步：全文播完 → 跟读完成 */
-  clearShadowCursors();
-  PROG.follow=true; audio.pause(); setPlayIc(false); setFollowUI();
-  saveFollow();
-  toast("跟句 → 影子跟读 两步完成，进入听写");
-  setStage("dictate");
-}
-function enterFollow(){
-  cancelGap();
-  FOL.fstep=1; FOL.idx=0; FOL._cur=-1; FOL._sh=-1;
-  setFollowUI();
-  followPlaySentence(0);
-}
-
-/* ---------- 三步流程状态机 ---------- */
-function setStageBadges(){
-  document.querySelectorAll("#steps .step").forEach(function(s){
-    var k=s.dataset.s, si=STAGES.indexOf(k), ci=STAGES.indexOf(state.stage);
-    s.classList.toggle("on", k===state.stage);
-    s.classList.toggle("done", si<ci);
-  });
-}
-function setStage(s){
-  state.stage=s;
-  state.flow = s==="dictate" ? "dictate" : "read";
-  state.mode = s==="listen" ? "whole" : "sentence";
-  document.body.className = (s==="listen" ? "listen" : (s==="follow" ? "follow" : "dictate")) + (state.dialog?" dialog":"");
-  var dictate = s==="dictate";
-  $("reader").style.display = dictate?"none":"";
-  $("dict").classList.toggle("on", dictate);
-  var ns = s==="listen" ? "进入 跟读 →" : (s==="follow" ? "进入 听写 →" : "完成本课");
-  $("nextStage").textContent = ns;
-  $("nextStage").style.margin = dictate ? "0" : "0";
-  setStageBadges();
-  syncCnUI();
-  if(dictate){
-    var _d=$("dkCntR"); if(_d) _d.style.display="none";
-    cancelGap();
-    if(FOL.SCHED){ clearTimeout(FOL.SCHED); FOL.SCHED=null; }
-    audio.pause();
-    $("pickpick").classList.remove("on");
-    $("waypick").classList.remove("on");
-    if(!(DT.list && DT.list.length)){ showPick(); return; }  // 先选抽句
-    if(!DT.askedWay){ showWayPick(); return; }               // 再选方式
-    renderDictatePass(0);
-  } else {
-    cancelGap();
-    try{ audio.playbackRate=1; }catch(e){}
-    if(s==="listen"){ LCOUNT={ n:0, p:state.pg }; setListenN(0); }
-    if(s==="follow"){ enterFollow(); }
-  }
-}
-function syncCnUI(){
-  var t=$("cnToggle"); if(!t) return;
-  var show = state.cn && state.stage!=="follow";
-  t.classList.toggle("on", state.cn);
-  t.classList.toggle("off", state.stage==="follow");
-  t.disabled = state.stage==="follow";
-  document.querySelectorAll(".sent .zh").forEach(function(z){ z.classList.toggle("hide",!show); });
-  if($("dt-zh")) $("dt-zh").classList.toggle("hide",!show);
-}
-function setListenN(n){
-  var dots=$("dkDots"); if(dots){ dots.innerHTML=""; for(var i=0;i<3;i++){ var d=document.createElement("span"); d.className="lp-dot"+((i<n)?" on":""); dots.appendChild(d); } }
-  var cnt=$("dkCntR"); if(cnt) cnt.style.display="none";
-  document.querySelectorAll("#fpass .fpc").forEach(function(x){ x.classList.remove("on"); });
-}
-function listenLoop(){
-  if(state.stage!=="listen") return;
-  if(LCOUNT.p!==state.pg) return;
-  LCOUNT.n++;
-  PROG.listen=true;
-  saveFollow();
-  if(LCOUNT.n>=3){ setListenN(0); toast("聆听 3 遍完成，进入跟读"); setStage("follow"); }
-  else { setListenN(LCOUNT.n); startFrom(); }
-}
-audio.addEventListener("ended", function(){ if(state.stage==="listen" && !seeking){ listenLoop(); } });
-/* ---------- 三步支架 · UI ---------- */
-function setFollowUI(){
-  var ct=$("dkS");
-  if(ct){
-    if(FOL.fstep===1){ ct.textContent=(state.idx+1)+"/"+SEGS.length; }
-    else ct.textContent="全文";
-  }
-  var lbl=document.querySelector("#dkCntR .lbl");
-  if(lbl) lbl.textContent = FOL.fstep===1 ? "句" : "全篇";
-  var cnt=$("dkCntR"); if(cnt) cnt.style.display="";
-  var dots=$("dkDots"); if(dots) dots.innerHTML="";
-  document.querySelectorAll("#fpass .fpc").forEach(function(x){ x.classList.toggle("on", +x.dataset.s===FOL.fstep); });
-}
-function setFollowStep(s){
-  s = (s===2) ? 2 : 1;
-  FOL.fstep=s; setFollowUI();
-  if(state.stage!=="follow") return;
-  if(s===2) followPlayWhole();
-  else followPlaySentence(state.idx);
-  toast(s===2 ? '第 2 步 · 影子跟读：落后半拍，全程不停' : '第 1 步 · 跟句：听完整一句，再开口跟读整句');
-}
-function cancelGap(){
-  FOL.gap=false; FOL.next=null;
-  if(FOL.timer){ clearInterval(FOL.timer); clearTimeout(FOL.timer); FOL.timer=null; }
-  var g=$("fsGap"); if(g) g.classList.remove("on");
-}
-function showPick(){ $("pickpick").classList.add("on"); }
-function closePick(){ $("pickpick").classList.remove("on"); }
-function buildParas(){ /* 每段句索引区间 [start,end] */
-  var B=BOOK[state.pg], s=0, out=[];
-  B.arts.forEach(function(ar){ out.push([s, s+ar.length-1]); s+=ar.length; });
-  return out;
-}
-function sentScore(segIdx){
-  var m=(SEGS[segIdx]||"").match(/[A-Za-z']+/g); if(!m) return 0;
-  var sc=0;
-  for(var i=0;i<m.length;i++){
-    var lo=m[i].toLowerCase().replace(/[.,'!?]+$/,'');
-    if(LEVEL[lo]==="X") sc+=4; else if(TRAP[lo]) sc+=3;
-    else if(TOPIC[lo])  sc+=2; else if(BASE[lo]) sc+=1;
-  }
-  return sc;
-}
-function pickCount(k){
-  var cand=[];
-  for(var i=0;i<SEGS.length;i++) cand.push(i);
-  cand.sort(function(a,b){ return sentScore(b)-sentScore(a); });
-  var list=cand.slice(0,k).sort(function(a,b){return a-b;});   // 分值Top-K，按原文顺序
-  startPick(list);
-}
-function pickCustom(){
-  var pc=$("pcustom"), paras=buildParas();
-  if(!pc.dataset.built){
-    pc.dataset.built=1;
-    pc.innerHTML='<div class="w-sub" style="margin:12px 0 6px">勾选要听写的段落（段内全部句都会进入听写）：</div>'+
-      paras.map(function(r,i){ return '<label style="display:flex;gap:9px;align-items:center;padding:9px 11px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;cursor:pointer;font-size:13px"><input type="checkbox" class="pc-check" data-i="'+i+'"><span>段落 '+(i+1)+' · '+((r[1]-r[0]+1)+' 句')+'</span></label>'; }).join('')+
-      '<div style="display:flex;gap:8px;margin-top:10px"><button class="cta" onclick="confirmCustom()">确定</button></div>';
-  }
-  pc.classList.add("on");
-}
-function confirmCustom(){
-  var paras=buildParas(), list=[], chs=document.querySelectorAll(".pc-check:checked");
-  if(!chs.length){ toast("请至少勾选一个段落"); return; }
-  chs.forEach(function(ch){ var i=+ch.dataset.i; for(var s=paras[i][0];s<=paras[i][1];s++) list.push(s); });
-  list.sort(function(a,b){return a-b;});
-  startPick(list);
-}
-function startPick(list){
-  DT.list=list; DT.qi=0; DT.askedWay=false; DT.g=0; DT.groups=[];
-  $("pickpick").classList.remove("on"); $("pcustom").classList.remove("on");
-  showWayPick();
-  toast("已选 "+list.length+" 句 · 开始后可重选");
-}
-function showWayPick(){ $("waypick").classList.add("on"); }
-function pickWay(w){
-  DT.way=w; DT.askedWay=true;
-  $("waypick").classList.remove("on");
-  toast(w==="paper" ? "稿纸听写：屏幕只显示下划线，用纸笔写，每遍点「核对答案」对照" : "键盘输入听写：在划线处打字，四遍听完末遍判分");
-  renderDictatePass(0);
-}
-function dictNext(){ /* 清单下一句；无则完成 */
-  if(DT.qi < DT.list.length-1){ DT.qi++; renderDictatePass(0); }
-  else { PROG.dictate=true; audio.pause(); setPlayIc(false);
-    $("dt-score").textContent="本次听写全部完成！";
-    saveFollow();
-    $("dt-diag").innerHTML='<div class="ddq-row">你已完成抽句四遍听写。可返回「聆听」回看整篇。</div><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="chip" onclick="goToStage(\'listen\')">返回聆听 →</button><button class="cta" onclick="goToStage(\'follow\')">再练跟读 →</button></div>';
-    $("dt-diag").classList.add("on");
-  }
-}
-function stepLabel(k){ return ({listen:"聆听",follow:"跟读",dictate:"听写"})[k]||k; }
-function stageDone(k){ return !!PROG[k]; }
-function prereqFor(k){ return k==="follow" ? "listen" : (k==="dictate" ? "follow" : null); }
-/* 知情把关中心：回看放行；前进跳过未完成环节时先作元认知确认 */
-function goToStage(s){
-  if(s===state.stage) return;
-  var cur=STAGES.indexOf(state.stage), tar=STAGES.indexOf(s);
-  audio.pause(); setPlayIc(false);
-  if(tar>cur){
-    var pre=prereqFor(s);
-    if(pre && !stageDone(pre)){
-      showInformed(
-        "跳过前面的环节？",
-        pre==="listen"
-          ? "还没有完整聆听一遍课文，直接进入跟读通常会比较吃力。确定要继续吗？"
-          : "还没有完成跟读练习，直接进入听写难度较大。确定要继续吗？",
-        function(){ setStage(s); toast("已进入“"+stepLabel(s)+"”环节"); });
-      return;
-    }
-  }
-  setStage(s);
-}
-var INFORMED=null;
-function showInformed(title,msg,onYes){
-  $("informedTitle").textContent=title;
-  $("informedMsg").textContent=msg;
-  INFORMED=onYes;
-  $("informed").classList.add("on");
-}
-function closeInformed(){ $("informed").classList.remove("on"); INFORMED=null; }
-function nextStage(){
-  var i=STAGES.indexOf(state.stage);
-  if(i>=STAGES.length-1){ toast("已完成三步学习：聆听 → 跟读 → 听写！"); return; }
-  var next=STAGES[i+1];
-  var pre=prereqFor(next);
-  if(pre && !stageDone(pre)){
-    showInformed(
-      "进入下一环节前，先完成当前环节？",
-      pre==="listen"
-        ? "完成「聆听」至少一遍后再进「跟读」，效果最好。仍未完成，仍要前进吗？"
-        : "完成「跟读」后再进「听写」，会更从容。仍未完成，仍要前进吗？",
-      function(){ setStage(next); toast("已进入“"+stepLabel(next)+"”环节"); });
-    return;
-  }
-  setStage(next); toast("已进入“"+stepLabel(next)+"”环节");
-}
-function setPlayIc(on){
-  $("playIc").outerHTML = on
-    ? '<svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="5" width="4" height="14" rx="1"/><rect x="13" y="5" width="4" height="14" rx="1"/></svg>'
-    : '<svg id="playIc" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="7 4 20 12 7 20 7 4"/></svg>';
-}
-
-/* ============ 听写：全句挖空逐词填 · 三遍 ============ */
-var FUNCTION={}; [
-  "a","an","the","this","that","these","those","some","any","every","each","no","another","other","others",
-  "of","to","in","on","at","by","for","with","from","into","onto","about","over","under","across","before","after","without","between","through","around","along","above",
-  "and","but","or","so","because","if","then","than","when","while","as","although","until","since","nor","yet",
-  "i","you","he","she","it","we","they","me","him","her","us","them","my","your","his","its","our","their",
-  "mine","yours","hers","ours","theirs","who","what","whose","whom","which","someone","everyone","nobody","anyone","anybody","everybody","somebody","nothing",
-  "am","is","are","was","were","be","been","being","have","has","had","do","does","did","can","could","will","would","shall","should","may","might","must",
-  "not","don't","doesn't","didn't","can't","couldn't","won't","wouldn't","isn't","aren't","wasn't","weren't","haven't","hasn't","hadn't","i'm","you're","we're","they're","he's","she's","it's","that's","what's","who's","there's","here's","i've","you've","we've","they've","i'll","you'll","he'll","she'll","we'll","they'll","let's","need","needs",
-  "very","really","so","too","also","still","only","just","here","there","then","now","again","never","often","always","already","sometimes","once","twice","ever","even",
-  "up","down","out","off","back","on","away"
-].forEach(function(w){ FUNCTION[w]=1; });
-var NUMB={}; ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety","hundred","thousand"].forEach(function(w){NUMB[w]=1;});
-function esc(s){ return String(s).replace(/[&<>"]/g, function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
-
-function splitSent(s){
-  var parts=[], re=/([A-Za-z']+|\d+)|([^A-Za-z'0-9]+)/g, m;
-  while((m=re.exec(s))){ if(m[1]!==undefined) parts.push({w:m[1]}); else parts.push({p:m[2]}); }
-  var out=[], i=0;
-  while(i<parts.length){
-    var it=parts[i];
-    if(it.p!==undefined){
-      if(/^(?:-+|\u2013+)$/.test(it.p) && !/\s/.test(it.p) && out.length && i+1<parts.length &&
-         out[out.length-1].w!==undefined && parts[i+1].w!==undefined){
-        out[out.length-1].w += "-" + parts[i+1].w; i+=2; continue;
-      }
-      out.push({p:it.p}); i++; continue;
-    }
-    out.push({w:it.w}); i++;
-  }
-  return out;
-}
-function dtBlankByDensity(lo){
-  var d=DT.density;
-  if(d==="easy") return BASE[lo]===1;        // 全员：基础高频词
-  if(d==="mid")  return TOPIC[lo]===1;       // 中：主题核心词
-  return TOPIC[lo]===1 || TRAP[lo]===1;      // 中强：主题 ∪ 拼写难点词
-}
-function dtBuild(s, pg){
-  var toks=splitSent(s), words=[], wmap=[];
-  toks.forEach(function(t,i){ if(t.w!==undefined){wmap[i]=words.length; words.push(t.w);} else wmap[i]=-1; });
-  var n=words.length, used=new Array(n).fill(false), entT=new Array(n).fill(""), entS=new Array(n).fill(0);
-  var cs=ENTITYMULTI[pg]||[];
-  for(var k=0;k<cs.length;k++){
-    var ts=cs[k][0], meta=cs[k][1], L=ts.length;
-    for(var i=0;i+L<=n;i++){
-      var ok=true;
-      for(var u=0;u<L;u++){ if(used[i+u] || words[i+u].toLowerCase().replace(/'+$/,'')!==ts[u]){ok=false;break;} }
-      if(ok){ for(var u=0;u<L;u++){ used[i+u]=true; entT[i+u]=meta.t; entS[i+u]=meta.s; } }
-    }
-  }
-  var sing=ENTITY[pg]||{};
-  for(var i=0;i<n;i++){ if(!used[i]){ var lo=words[i].toLowerCase().replace(/'+$/,''); if(sing[lo]){ used[i]=true; entT[i]=sing[lo].t; entS[i]=sing[lo].s; } } }
-  var wds=[];
-  for(var i=0;i<n;i++){
-    var w=words[i], lo=w.toLowerCase();
-    var kind;
-    if(used[i]) kind = (DT.spell && entS[i]) ? "blankE" : "anchor";
-    else if(/^\d/.test(lo) || NUMB[lo]) kind="hint";
-    else if(FUNCTION[lo]) kind="hint";
-    else kind = dtBlankByDensity(lo) ? "blank" : "hint";
-    wds.push({w:w, full:lo, kind:kind, etype:entT[i], espell:entS[i], wi:i});
-  }
-  var cells=[], wi=-1;
-  toks.forEach(function(t){
-    if(t.w!==undefined){ wi++; cells.push({kind:"wd", o:wds[wi]}); }
-    else cells.push({kind:"sep", s:t.p});
-  });
-  return {wds:wds, cells:cells};
-}
-function dtGroups(rec){
-  var blanks=[];
-  rec.wds.forEach(function(x){ if(x.kind==="blank"||x.kind==="blankE") blanks.push(x); });
-  if(DT.density==="hard"){
-    var gs=[]; for(var i=0;i<blanks.length;i+=2) gs.push(blanks.slice(i,i+2)); return gs.length?gs:[[]];
-  }
-  if(blanks.length<=6) return [blanks.slice()];
-  var h=Math.ceil(blanks.length/2); return [blanks.slice(0,h), blanks.slice(h)];
-}
-function renderDictatePass(p){
-  if(!(DT.list && DT.list.length)) return;
-  DT.qi=Math.max(0, Math.min(DT.qi, DT.list.length-1));
-  DT.pass=p;
-  var i=DT.list[DT.qi]; state.idx=i;
-  var P=PASS[p];
-  DT.density=P.d; DT.spell=P.spell; DT.hint=P.hint; DT.rate=P.rate;
-  dtRenderSentence(i);
-  $("dt-pass").textContent="第 "+(p+1)+"/4 遍 · "+P.label;
-  replayCurrentSentence();   // 每遍都播整句(按当前语速)
-}
-function nextDictatePass(){ if(DT.pass<3){ renderDictatePass(DT.pass+1); } }
-function dtRenderSentence(i){
-  var s=SEGS[i]; if(!s) return;
-  var rec=dtBuild(s, state.pg);
-  DT.rec=rec; DT.groups=dtGroups(rec); DT.g=0; DT.playEnd=null;
-  audio.pause(); setPlayIc(false);
-  var sheet=$("dt-sheet"); sheet.innerHTML="";
-  var groupOf={}; rec.wds.forEach(function(x){ groupOf[x.wi]=-1; });
-  DT.groups.forEach(function(g, gi){ g.forEach(function(b){ b.gi=gi; groupOf[b.wi]=gi; }); });
-  var starts={}; DT.groups.forEach(function(g, gi){ for(var b of g){ if(!(b.wi in starts)) starts[b.wi]=gi; } });
-  rec.cells.forEach(function(c){
-    if(c.kind==="sep"){ var t=c.s.replace(/\s/g,""); if(t) sheet.appendChild(document.createTextNode(t)); return; }
-    var o=c.o;
-    var wrap=document.createElement("span");
-    if(o.kind==="anchor"){ wrap.className="dt-w dt-anchor"; wrap.title="免写锚词 · 实体已给出"; wrap.textContent=o.w; sheet.appendChild(wrap); return; }
-    if(o.kind==="hint"){ wrap.className="dt-w dt-hint"; wrap.textContent=o.w; sheet.appendChild(wrap); return; }
-    if((o.wi in starts) && DT.groups.length>1 && starts[o.wi]>0){
-      var sep=document.createElement("span"); sep.className="dt-gsep"; sep.textContent="\u23d0"; sheet.appendChild(sep);
-    }
-    if(DT.way==="paper"){
-      var pp=document.createElement("span"); pp.className="dt-w dt-blank paper";
-      var pf=(DT.hint && o.full.length>1) ? o.full[0] : "";
-      var n=Math.max(o.full.length-pf.length,3);
-      var pb = pf ? '<b class="fst">'+esc(pf)+'</b>' : "";
-      pp.innerHTML = pb + '<span class="ul">'+new Array(n+1).join("_")+'</span>';
-      pp.dataset.full=o.full; pp.dataset.wi=o.wi;
-      sheet.appendChild(pp); return;
-    }
-    var bl=document.createElement("span"); bl.className="dt-w dt-blank";
-    var first = (DT.hint && o.full.length>1) ? o.full[0] : "";
-    o.fst=first; o.gi=starts[o.wi];
-    var body = first ? '<b class="fst">'+esc(first)+'</b>' : "";
-    var rest = o.full.slice(first.length);
-    var il=Math.max(rest.length,3);
-    body += '<input class="dt-in" size="'+il+'" maxlength="'+il+'" autocomplete="off" autocapitalize="off" spellcheck="false" value="">';
-    bl.innerHTML=body;
-    bl.dataset.full=o.full; bl.dataset.gi=o.gi; bl.dataset.wi=o.wi;
-    sheet.appendChild(bl);
-  });
-  document.querySelectorAll("#dt-sheet .dt-blank").forEach(function(el){
-    var gi=+el.dataset.gi;
-    var inp=el.querySelector("input"); if(inp) inp.disabled = gi!==DT.g;
-    el.classList.toggle("is-on", gi===DT.g);
-  });
-  DT.blankEls=[].slice.call(document.querySelectorAll("#dt-sheet .dt-blank"));
-  DT.blankEls.forEach(bindBlank);
-  $("dt-count").textContent="第 "+(DT.qi+1)+" / "+DT.list.length+" 句 · 遍 "+(DT.pass+1)+"/4 · 挖空 "+rec.wds.filter(function(x){return x.kind==="blank"||x.kind==="blankE";}).length+" 词 · 分 "+DT.groups.length+" 段";
-  $("dt-zh").textContent=ZH[s]||""; $("dt-zh").classList.toggle("hide", !state.cn);
-  $("dt-desc").textContent = DT.way==="paper"
-    ? "稿纸听写：下划线处用你自己的纸笔听写，写完点下方「核对答案」对照。"
-    : "绿色词＝已给出(免写锚词)；灰词＝提示词已给出；下划线＝本段要写的词，写完本段自动判分。";
-  $("dt-diag").classList.remove("on"); $("dt-diag").innerHTML="";
-  $("dt-score").textContent="";
-  var inp0=DT.blankEls[0]&&DT.blankEls[0].querySelector("input");
-  if(DT.way==="key"&&inp0&&!inp0.disabled) setTimeout(function(){ try{inp0.focus();}catch(e){} },80);
-  // 本遍无填空：整句试听，直接给推进入口
-  if(!DT.blankEls.length){
-    $("dt-score").textContent="本句无填空词 · 完整试听";
-    var nb = DT.pass<3
-      ? '<button class="cta" onclick="nextDictatePass()">进入第 '+(DT.pass+2)+' 遍 · '+PASS[DT.pass+1].label+' →</button>'
-      : '<button class="cta" onclick="dictNext()">下一句 →</button>';
-    $("dt-diag").innerHTML='<div class="ddq-row" style="margin-bottom:12px">本句没有需要填空的词，先完整听一遍。</div><div style="display:flex;gap:8px;flex-wrap:wrap">'+nb+'</div>';
-    $("dt-diag").classList.add("on");
-  } else if(DT.way==="paper"){
-    $("dt-diag").innerHTML='<div style="display:flex;gap:8px;flex-wrap:wrap"><button class="chip" onclick="dtRelisten()">重听本句</button><button class="cta" onclick="dtCheckAnswer()">核对答案</button></div>';
-    $("dt-diag").classList.add("on");
-    $("dt-score").textContent="";
-  }
-}
-function dtCheckAnswer(){
-  document.querySelectorAll('#dt-sheet .dt-blank.paper').forEach(function(el){
-    el.classList.add("revealed");
-    var ul=el.querySelector(".ul"); if(ul) ul.outerHTML='<span class="ans">'+esc(el.dataset.full)+'</span>';
-  });
-  var nb = DT.pass<3
-    ? '<button class="cta" onclick="nextDictatePass()">进入第 '+(DT.pass+2)+' 遍 · '+PASS[DT.pass+1].label+' →</button>'
-    : '<button class="cta" onclick="dictNext()">下一句 →</button>';
-  $("dt-diag").innerHTML='<div class="ddq-row" style="margin-bottom:12px">已展示答案，对照你纸上的写法查漏补缺。</div><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="chip" onclick="dtRelisten()">重听本句</button>'+nb+'</div>';
-  DT.g=1; toast("已核对答案");
-}
-function bindBlank(el){
-  var inp=el.querySelector("input"); if(!inp) return;
-  var full=el.dataset.full, gi=+el.dataset.gi, wi=+el.dataset.wi;
-  var fst=(el.querySelector(".fst")||{}).textContent||"";
-  var rest=full.length-fst.length;
-  inp.addEventListener("input", function(){
-    if(inp.value.length<rest) return;
-    var grp=DT.groups[gi];
-    var idx=grp.findIndex(function(b){return b.wi===wi;});
-    if(idx<grp.length-1){ focusBlank(grp[idx+1]); }
-    else dtSubmitGroup(gi);
-  });
-  inp.addEventListener("keydown", function(e){
-    if(e.key==="Enter"){ e.preventDefault(); dtSubmitGroup(gi); }
-    else if(e.key==="Tab"){ e.preventDefault(); nxtToBlank(el,1,gi); }
-  });
-}
-function focusBlank(b){
-  var inp=document.querySelector('#dt-sheet [data-wi="'+b.wi+'"] input');
-  if(inp&&!inp.disabled){ try{inp.focus();}catch(e){} }
-}
-function nxtToBlank(el,dir,gi){
-  var grp=DT.groups[gi], i=grp.findIndex(function(b){return b.wi===+el.dataset.wi;});
-  if(i<0) return;
-  var j=i+dir;
-  if(j>=0 && j<grp.length) focusBlank(grp[j]);
-}
-function dtSubmitGroup(gi){
-  if(gi!==DT.g) return;
-  var grp=DT.groups[gi], judge=(DT.pass>=3);   // 仅第4遍末判分
-  grp.forEach(function(b){
-    var el=document.querySelector('#dt-sheet [data-wi="'+b.wi+'"]'); if(!el) return;
-    var inp=el.querySelector("input"); if(!inp) return;
-    var fst=(el.querySelector(".fst")||{}).textContent||"";
-    var typed=(fst+inp.value).trim().toLowerCase();
-    if(!judge){ b.typed=typed; return; }        // 前3遍只记不判
-    var ok=typed===b.full;
-    var html= ok ? '<b class="dt-r-ok">'+esc(b.full)+'</b>'
-                 : '<b class="dt-r-bad">'+esc(b.full)+'</b><span class="dt-r-tip">你写: '+esc(typed||"—")+'</span>';
-    el.innerHTML=html;
-    b.ok=ok; b.typed=typed;
-  });
-  DT.g++;
-  if(DT.g>=DT.groups.length){
-    if(judge){ dtFinish(); return; }
-    nextDictatePass(); return;                  // 慢速试写两遍不计分 → 自动进下一遍
-  }
-  DT.groups[DT.g].forEach(function(b){
-    var el=document.querySelector('#dt-sheet [data-wi="'+b.wi+'"]');
-    var inp=el&&el.querySelector("input"); if(inp){ inp.disabled=false; }
-  });
-  focusBlank(DT.groups[DT.g][0]);
-  audio.pause(); setPlayIc(false);
-}
-function dtFinish(){                            // 仅第4遍(末遍)调用
-  var tot=0,cor=0,wrong=[];
-  DT.groups.forEach(function(g){ g.forEach(function(b){ tot++; if(b.ok)cor++; else wrong.push(b); }); });
-  var first=wrong.length===0;
-  $("dt-score").textContent=cor+"/"+tot+" 词正确"+(first?"　太棒了！":"");
-  var diag=$("dt-diag");
-  var h='<div class="ddq-row"><span class="lbl">末尾校验结果：</span><b>'+cor+'</b> / '+tot+' 词正确</div>';
-  if(wrong.length){
-    h+='<div class="ddq-row" style="margin-top:6px"><span class="lbl">看看正确的拼写：</span></div>';
-    wrong.forEach(function(b){ h+='<div class="ddq-row"><span class="em1">'+esc(b.full)+'</span>　你写：'+esc(b.typed||"—")+'</div>'; });
-  } else {
-    h+='<div class="ddq-row">末遍全对，真棒！</div>';
-  }
-  h+='<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap"><button class="chip" onclick="dtRelisten()">重听本句</button><button class="cta" onclick="dictNext()">下一句 →</button></div>';
-  diag.innerHTML=h; diag.classList.add("on");
-  audio.pause(); setPlayIc(false);
-  toast(first?"末遍全对，继续加油！":"末遍听写完成，看看需要巩固的词吧");
-}
-function seekSpec(st,en){ DT.playEnd=en; seeking=true; audio.pause();
-  try{audio.currentTime=st;}catch(e){}
-  audio.addEventListener("seeked",function h(){seeking=false; audio.play(); audio.removeEventListener("seeked",h); });
-  setPlayIc(true);
-}
-function replayCurrentSentence(){
-  var i=state.idx; if(!(TL[state.pg]&&TL[state.pg][i])) return;
-  if(DT.rate!=null){ try{ audio.playbackRate=DT.rate; }catch(e){} }
-  var st=TL[state.pg][i][0], en=TL[state.pg][i][1];
-  seekSpec(st,en);
-}
-function dtRelisten(){ replayCurrentSentence(); }
-function dtTimeupdate(t){ if(DT.playEnd!=null && t>=DT.playEnd){ DT.playEnd=null; audio.pause(); setPlayIc(false); } }
-
-/* ---------- binds (script runs at end of body, DOM present) ---------- */
-$("nextStage").onclick=nextStage;
-document.querySelectorAll("#steps .step").forEach(function(st){ st.onclick=function(){ goToStage(st.dataset.s); }; });
-$("informedYes").onclick=function(){ var cb=INFORMED; closeInformed(); if(cb) cb(); };
-$("informedNo").onclick=closeInformed;
-$("informed").addEventListener("click",function(e){ if(e.target===$("informed")) closeInformed(); });
-$("dtRelisten").onclick=dtRelisten;
-document.addEventListener("DOMContentLoaded", function(){
-  initDB();
-  bindSentClicks();
-  render(67);   LCOUNT={ n:0, p:state.pg };   setListenN(0);    $("play").onclick=togglePlay;
-  document.addEventListener("keydown",function(e){
-    if(e.code!=="Space") return;
-    var el=document.activeElement;
-    if(el && (el.tagName==="INPUT"||el.tagName==="TEXTAREA")) return;
-    e.preventDefault(); togglePlay();
-  });
-  $("prev").onclick=()=>nxt(-1);
-  $("next").onclick=()=>nxt(1);
-  $("fsCard").addEventListener("click",function(){
-    if(state.stage!=="follow") return;
-    if(FOL.gap){ resumeGap(); return; }
-    if(FOL.fstep===2){ followPlayWhole(); return; }
-    followPlaySentence(state.idx);
-  });
-
-  $("cnToggle").onclick=function(){
-    state.cn=!state.cn; syncCnUI(); toast(state.cn?"译文：显示":"译文：隐藏");
-  };
-
-  document.querySelectorAll(".tab").forEach(function(t){ t.onclick=function(){
-    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
-    t.classList.add("on"); cancelGap(); render(+t.dataset.pg);
-  };});
-});
-let tt; function toast(m){ var t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove("show"),2200); }
-</script>
-<!-- 分组目录面板 -->
-<div class="dir" id="dir">
-  <div class="dir-panel">
-    <div class="dir-head">
-      <b>目录</b>
-      <span class="du" id="dirUnit">Unit 7 · Unit 12</span>
-      <button class="x" id="dirClose" type="button" title="关闭" aria-label="关闭">✕</button>
-    </div>
-    <div class="dir-body" id="dirGroups"></div>
-  </div>
-</div>
-
+<!-- ==FOLLOW-FILES== 由 _gen_follow_v2.py 维护（三页结构 listen/follow/dictate）；?pg= 深链路由用 -->
+<script>window.FOLLOW_FILES={"102": {"dictate": "听写_102_dolphins.html", "follow": "复习_102_dolphins.html", "listen": "预习_102_dolphins.html"}, "105": {"dictate": "听写_105_joshsholiday.html", "follow": "复习_105_joshsholiday.html", "listen": "预习_105_joshsholiday.html"}, "106": {"dictate": "听写_106_extinctanimals.html", "follow": "复习_106_extinctanimals.html", "listen": "预习_106_extinctanimals.html"}, "108": {"dictate": "听写_108_sequencing.html", "follow": "复习_108_sequencing.html", "listen": "预习_108_sequencing.html"}, "110": {"dictate": "听写_110_movingabout.html", "follow": "复习_110_movingabout.html", "listen": "预习_110_movingabout.html"}, "111": {"dictate": "听写_111_greatrace.html", "follow": "复习_111_greatrace.html", "listen": "预习_111_greatrace.html"}, "113": {"dictate": "听写_113_trainstation.html", "follow": "复习_113_trainstation.html", "listen": "预习_113_trainstation.html"}, "114": {"dictate": "听写_114_favjourney.html", "follow": "复习_114_favjourney.html", "listen": "预习_114_favjourney.html"}, "117": {"dictate": "听写_117_transport.html", "follow": "复习_117_transport.html", "listen": "预习_117_transport.html"}, "202": {"dictate": "听写_202_p202.html", "follow": "复习_202_p202.html", "listen": "预习_202_p202.html"}, "66": {"dictate": "听写_066_livingforsport.html", "follow": "复习_066_livingforsport.html", "listen": "预习_066_livingforsport.html"}, "67": {"dictate": "听写_067_sportwonders.html", "follow": "复习_067_sportwonders.html", "listen": "预习_067_sportwonders.html"}, "69": {"dictate": "听写_069_listening.html", "follow": "复习_069_listening.html", "listen": "预习_069_listening.html"}, "70": {"dictate": "听写_070_last4min.html", "follow": "复习_070_last4min.html", "listen": "预习_070_last4min.html"}, "72": {"dictate": "听写_072_rainyday.html", "follow": "复习_072_rainyday.html", "listen": "预习_072_rainyday.html"}, "73": {"dictate": "听写_073_staypositive.html", "follow": "复习_073_staypositive.html", "listen": "预习_073_staypositive.html"}, "75": {"dictate": "听写_075_musicintheforest.html", "follow": "复习_075_musicintheforest.html", "listen": "预习_075_musicintheforest.html"}, "77": {"dictate": "听写_077_musicians.html", "follow": "复习_077_musicians.html", "listen": "预习_077_musicians.html"}, "78": {"dictate": "听写_078_ateenagedj.html", "follow": "复习_078_ateenagedj.html", "listen": "预习_078_ateenagedj.html"}, "80": {"dictate": "听写_080_dances.html", "follow": "复习_080_dances.html", "listen": "预习_080_dances.html"}, "85": {"dictate": "听写_085_kitchenkids.html", "follow": "复习_085_kitchenkids.html", "listen": "预习_085_kitchenkids.html"}, "87": {"dictate": "听写_087_cooking.html", "follow": "复习_087_cooking.html", "listen": "预习_087_cooking.html"}, "88": {"dictate": "听写_088_inarestaurant.html", "follow": "复习_088_inarestaurant.html", "listen": "预习_088_inarestaurant.html"}, "90": {"dictate": "听写_090_offeringhelp.html", "follow": "复习_090_offeringhelp.html", "listen": "预习_090_offeringhelp.html"}, "92": {"dictate": "听写_092_firstwomaninspace.html", "follow": "复习_092_firstwomaninspace.html", "listen": "预习_092_firstwomaninspace.html"}, "95": {"dictate": "听写_095_prizegiving.html", "follow": "复习_095_prizegiving.html", "listen": "预习_095_prizegiving.html"}, "96": {"dictate": "听写_096_sportsachievers.html", "follow": "复习_096_sportsachievers.html", "listen": "预习_096_sportsachievers.html"}, "99": {"dictate": "听写_099_statues.html", "follow": "复习_099_statues.html", "listen": "预习_099_statues.html"}};window.FOLLOW_META={"102": {"q": 6, "s": 20, "v": 1}, "105": {"q": 0, "s": 31, "v": 1}, "106": {"q": 4, "s": 27, "v": 1}, "108": {"q": 0, "s": 16, "v": 1}, "110": {"q": 0, "s": 28, "v": 1}, "111": {"q": 3, "s": 24, "v": 1}, "113": {"q": 0, "s": 42, "v": 1}, "114": {"q": 5, "s": 33, "v": 1}, "117": {"q": 0, "s": 30, "v": 1}, "202": {"q": 0, "s": 23, "v": 0}, "66": {"q": 0, "s": 27, "v": 1}, "67": {"q": 5, "s": 19, "v": 1}, "69": {"q": 0, "s": 21, "v": 1}, "70": {"q": 4, "s": 23, "v": 1}, "72": {"q": 0, "s": 15, "v": 1}, "73": {"q": 0, "s": 27, "v": 1}, "75": {"q": 4, "s": 32, "v": 1}, "77": {"q": 0, "s": 27, "v": 1}, "78": {"q": 3, "s": 25, "v": 1}, "80": {"q": 0, "s": 22, "v": 1}, "85": {"q": 4, "s": 30, "v": 1}, "87": {"q": 0, "s": 28, "v": 1}, "88": {"q": 5, "s": 27, "v": 1}, "90": {"q": 0, "s": 21, "v": 1}, "92": {"q": 2, "s": 18, "v": 1}, "95": {"q": 0, "s": 20, "v": 1}, "96": {"q": 2, "s": 5, "v": 1}, "99": {"q": 0, "s": 26, "v": 1}};</script>
+<!-- 深链路由：?pg=N → 篇章页三页结构（FOLLOW_FILES 必须先于本 script 定义；默认打开复习页） -->
 <script>
 (function(){
-var ID=function(o){return document.getElementById(o);};
-/* 类型视觉编码：图标 + 颜色（阅读/听力/口语/文化/纪录片/播客 六类预备） */
-var TYPES={
- rt:{n:"阅读",c:"#5a76d8",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'},
- ls:{n:"听力",c:"#c97f3c",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2.5" y="13" width="4" height="7" rx="2"/><rect x="17.5" y="13" width="4" height="7" rx="2"/></svg>'},
- sp:{n:"口语",c:"#2f9e5f",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M19 11v1a7 7 0 0 1-14 0v-1"/><line x1="12" y1="19" x2="12" y2="22"/></svg>'},
- cu:{n:"文化",c:"#8a5cd8",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21v-5h6v5"/><line x1="8" y1="7" x2="16" y2="7"/></svg>'},
- dv:{n:"纪录片",c:"#1f9d9b",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="14" height="14" rx="2"/></svg>'},
- pd:{n:"播客",c:"#d8567a",ic:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="5.5" y2="12"/><line x1="7.5" y1="8" x2="7.5" y2="16"/><line x1="10.5" y1="5" x2="10.5" y2="19"/><line x1="13.5" y1="8" x2="13.5" y2="16"/><line x1="16.5" y1="4" x2="16.5" y2="20"/><line x1="19" y1="9" x2="19" y2="15"/><line x1="21" y1="11.5" x2="21" y2="12.5"/></svg>'}
-};
-/* 单元目录配置：按单元分组，组内按页码数字升序；新增篇章只需在此追加 [pg, 类型key, 题名] */
-var UNIT_GROUPS={
- 7:{label:"Unit 7", items:[[66,"dv","LIVING FOR SPORT"],[67,"rt","SPORT WONDERS!"],[69,"ls","Dialogue: Planning a Bike Ride"],[70,"rt","An Amazing Last Four Minutes"],[72,"sp","Rainy Day: Nina & Dave"],[73,"pd","Stay Positive"]]},
- 12:{label:"Unit 12", items:[[110,"dv","Moving About"],[111,"rt","The Great Race"],[113,"ls","At the Train Station"],[114,"rt","My Favourite Journey"],[117,"cu","Transport Around the World"],[202,"cu","Ways to Get Around"]]}
-};
-function unitOf(pg){ return (pg===110||pg===111||pg===113||pg===114||pg===117||pg===202)?12:7; }
-function meta(pg){
-  var items=UNIT_GROUPS[unitOf(pg)].items;
-  for(var i=0;i<items.length;i++)
-    if(items[i][0]===pg)return {pg:pg,ty:items[i][1],tt:items[i][2]};
-  return null;
-}
-function paint(){
-  var cur=meta(state.pg)||meta(67); if(!cur)return;
-  var ty=TYPES[cur.ty];
-  var tty=ID("curTty"); tty.textContent=ty.n; tty.style.background=ty.c+"1a"; tty.style.color=ty.c;
-  ID("curTitle").textContent=cur.tt;
-  ID("curTab").title="当前："+cur.tt;
-}
-function build(){
-  var g=UNIT_GROUPS[unitOf(state.pg)];
-  var body=ID("dirGroups"); body.innerHTML="";
-  ID("dirUnit").textContent=g.label;
-  var lab=document.createElement("div"); lab.className="grp-label"; lab.textContent=g.label; body.appendChild(lab);
-  if(!g.items.length){ var e=document.createElement("div"); e.className="grp-empty"; e.textContent="（本单元暂无）"; body.appendChild(e); }
-  g.items.forEach(function(it){
-    var ty=TYPES[it[1]];
-    var b=document.createElement("button"); b.type="button"; b.className="grp-item"; b.dataset.pg=String(it[0]);
-    b.innerHTML='<span class="gi-ic" style="background:'+ty.c+'1a;color:'+ty.c+'">'+ty.ic+'</span>'
-      +'<span class="gi-t"><span class="gi-pg">'+("000"+it[0]).slice(-3)+'</span>'
-      +'<span class="gi-tt">'+ty.n+' · '+it[2]+'</span></span>';
-    b.addEventListener("click",function(){ switchDir(+this.dataset.pg); });
-    body.appendChild(b);
-  });
-}
-function markOn(){
-  var items=ID("dirGroups").querySelectorAll(".grp-item");
-  for(var i=0;i<items.length;i++){
-    var on=items[i].dataset.pg===String(state.pg);
-    items[i].classList.toggle("on",on);
-    if(on)items[i].scrollIntoView({block:"nearest"});
+  var m=(location.search||"").match(/[?&]pg=(\d+)/);
+  if(m && window.FOLLOW_FILES && FOLLOW_FILES[m[1]]){
+    var ff=FOLLOW_FILES[m[1]];
+    var key = ff.follow ? "follow" : (ff.listen ? "listen" : "dictate");
+    location.replace("篇章页/" + ff[key]);
   }
-}
-function openDir(){ build(); ID("dir").classList.add("on"); markOn(); }
-function closeDir(){ ID("dir").classList.remove("on"); }
-function switchDir(pg){
-  if(String(pg)===String(state.pg)){ closeDir(); return; }
-  cancelGap(); render(pg); paint(); closeDir();
-}
-document.addEventListener("DOMContentLoaded",function(){
-  build(); paint();
-  ID("openDir").addEventListener("click",function(e){ e.stopPropagation(); openDir(); });
-  ID("curTab").addEventListener("click",openDir);
-  ID("curTab").addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){e.preventDefault();openDir();} });
-  ID("dirClose").addEventListener("click",closeDir);
-  ID("dir").addEventListener("click",function(e){ if(e.target.id==="dir")closeDir(); });
-  document.addEventListener("keydown",function(e){ if(e.key==="Escape")closeDir(); });
-  /* 暴露给单元地图脚本复用（篇章切换 + 头部类型标注） */
-  window.switchDir=switchDir; window.paint=paint; window.meta=meta; window.TYPES=TYPES;
-  window.currentUnit=function(){ return unitOf(state.pg); };
-});
 })();
 </script>
-
+<script>
+var DB={}; /* 主站仅保留时间轴投影（_timeline_check 门禁用）；引擎数据在 篇章页/ 三页内 */
+/* ==TL-DATA-START== 由 assets/timeline.json 生成（_sync_timeline.js）；请勿手改这一块 == */
+DB.TL={"66":[[12.142,17.185],[17.185,23.083],[23.097,34.582],[35.32,38.188],[38.188,42.823],[43.765,45.966],[46.015,50.206],[50.206,55.384],[56.457,60.852],[61.42,63.975],[65.531,71.438],[72.106,78.582],[79.195,86.97],[86.97,91.173],[91.986,97.254],[98.192,101.29],[102.312,108.543],[108.638,118.197],[118.321,121.14],[121.14,129.87],[129.97,135.732],[135.746,140.182],[140.196,144.626],[144.626,154.983],[154.998,164.137],[164.137,170.258],[170.867,174.733]],"67":[[9.678,16.124],[16.258,25.023],[25.47,28.68],[29.5,36.921],[36.921,40.383],[42.379,52.621],[52.845,61.086],[62.129,65.466],[65.466,70.575],[72.01,86.668],[87.995,97.144],[97.89,109.456],[109.456,113.921],[115.019,116.83],[116.83,119.873],[119.883,123.764],[124.622,132.714],[133.756,139.42],[139.488,146.452]],"69":[[8.121,10.696],[11.48,14.053],[14.662,17.485],[18.388,22.419],[22.923,26.4],[26.7,34.901],[35.404,38.7],[39.2,43.566],[43.92,47.8],[48.32,52.68],[53.24,54.96],[55.464,59.61],[59.959,66.798],[67.282,71.099],[71.652,75.119],[75.853,81.545],[81.65,83.88],[84.373,85.476],[85.945,88.898],[89.487,94.545],[94.824,99.798]],"70":[[10.197,15.665],[16.732,21.012],[22.09,23.801],[23.801,29.937],[31.409,37.595],[39.131,43.485],[43.485,53.838],[55.05,57.765],[57.765,63.356],[64.324,72.55],[72.575,76.661],[77.633,81.385],[81.89,84.997],[85.835,102.033],[103.145,108.175],[108.175,110.813],[111.886,115.925],[115.925,120.771],[121.05,126.13],[126.13,132.1],[132.11,136.774],[138.096,142.34],[142.34,149.306]],"72":[[8.76,13.75],[13.75,24.265],[24.84,29.758],[29.802,31.723],[31.872,36.297],[36.297,42.863],[42.967,49.383],[49.383,53.923],[54.017,61.54],[62.36,66.195],[66.229,72.485],[72.67,78.961],[79.5,83.954],[84.36,86.992],[87.297,89.956]],"73":[[11.095,17.34],[17.34,28.426],[28.52,33.718],[35.265,37.904],[37.914,40.997],[42.663,53.628],[53.628,59.954],[61.021,63.715],[65.157,68.045],[68.045,71.867],[72.89,75.394],[75.543,77.679],[78.392,81.804],[82.168,88.595],[88.595,89.92],[89.92,91.971],[93.95,95.525],[95.525,98.182],[99.673,100.103],[101.095,103.485],[105.036,106.27],[106.27,118.301],[118.77,123.195],[123.539,127.54],[127.54,134.779],[134.988,139.383],[155.5,158.9]],"75":[[15.68,17.56],[18.37,20.36],[20.99,22.44],[26.82,32.36],[36.7,37.94],[38.88,48.715],[53.16,55.391],[55.88,59.88],[64.7,67.082],[67.38,69.96],[70.7,75.14],[75.98,77.58],[78.4,80.02],[80.7,82.12],[82.82,84.04],[89,91.5],[92.44,94.18],[94.98,96.36],[96.84,99.34],[100.08,101.56],[102.24,104.6],[105.28,106.568],[106.92,109.761],[114.54,116.76],[117.51,119.28],[119.95,121.12],[121.71,128.1],[128.71,131.564],[132.13,134.142],[137.84,141.99],[142.71,145.72],[146.57,149.2]],"77":[[6.82,8.42],[9.48,14.559],[15.22,19.064],[19.7,21.432],[22.16,24.92],[25.87,30.08],[30.76,37.18],[37.86,41.378],[42.06,52.94],[53.65,56.98],[57.7,59.64],[60.42,62.52],[63.4,65.22],[66.32,69.358],[69.78,70.565],[71.2,77.973],[78.54,83.5],[84.24,92.264],[92.58,93.3],[94.22,96.82],[97.76,100.09],[100.38,106.626],[107.08,111.3],[111.96,125.028],[125.34,127.88],[128.82,133.4],[133.4,136.16]],"78":[[6.2,7.38],[7.92,9.36],[9.9,12.887],[13.52,14.36],[14.98,20.12],[20.84,22.98],[23.9,25.287],[25.76,28.793],[29.02,34.32],[35.04,38.243],[39.06,40.101],[40.86,47.404],[48,50.38],[50.99,55.658],[56.32,63.24],[64.18,67.44],[68.24,73.1],[74.42,75.92],[76.66,81.2],[82.14,84.265],[85.3,87.76],[88.5,90.54],[91.6,93.84],[94.38,95.086],[95.74,98.76]],"80":[[12.74,25.658],[26.52,32.5],[33.72,37.86],[39.04,42.86],[44.4,47.32],[48.72,51.9],[57.64,62.56],[63.48,66.52],[67.8,71.18],[72.68,78.82],[79.82,83.06],[84.26,87.18],[88.44,95.76],[97.04,99.48],[106.1,113.62],[114.64,118.22],[119.52,121.96],[122.92,124.88],[126.4,129.149],[130.42,134.28],[135.62,140.376],[141.4,144.76]],"85":[[8.3,12.34],[12.86,15.1],[15.88,20.6],[21.56,24.86],[25.72,32.96],[33.96,36.94],[36.94,39.59],[40.64,44.858],[45.08,48.14],[49.18,53.96],[54.86,59.78],[60.96,64.84],[66.4,69.82],[71.08,76.208],[77.04,78.76],[79.8,84.14],[85,89.56],[90.38,93.42],[94.42,95.88],[95.88,99.64],[100.9,101.84],[102.96,104.26],[105.34,107.48],[108.72,115.972],[116.92,122.683],[123.84,125.12],[125.98,127.141],[127.9,130.6],[131.68,132.563],[133.3,134.92]],"87":[[10.82,12.84],[13.52,15.54],[16.26,17.833],[18.24,20.26],[21.02,23.046],[23.32,27.42],[27.91,28.26],[28.68,32.66],[33.1,36.98],[37.8,41.12],[41.72,42.284],[42.66,44.08],[44.62,49.08],[49.44,50.32],[50.86,51.4],[51.9,55.36],[56,58.08],[58.723,60.74],[61.34,63.054],[63.28,66.94],[67.64,70.74],[71.32,73.82],[74.28,74.82],[75.5,77.88],[78.4,79.92],[80.56,83.28],[83.8,88.6],[89.32,90.76]],"88":[[6.86,9.1],[9.88,13.66],[14.4,15.42],[16.486,16.96],[17.8,19.8],[20.28,21.92],[22.64,24.66],[25.26,25.72],[30.62,32.7],[33.12,36.08],[36.6,37.4],[38.26,38.9],[39.48,45.8],[46.36,47.68],[48.32,49.7],[50.24,52.12],[52.88,55.32],[55.32,57.48],[61.452,63.08],[64.06,69.04],[69.5,70.16],[74.52,76.06],[76.96,77.36],[77.96,79.7],[80.36,83.02],[83.02,83.685],[83.72,84.04]],"90":[[8.44,11.38],[12.14,18.24],[18.84,20.44],[20.94,23.54],[23.54,30.78],[31.74,34.82],[35.68,40.16],[41.04,47.44],[48.26,49.8],[50.54,53.52],[53.52,54.04],[54.54,58.72],[59.22,65.271],[66.36,68.1],[68.7,73.561],[73.8,81.66],[82.733,83.94],[84.54,94.06],[94.32,100.64],[101.42,110.52],[110.52,113.78]],"92":[[10.32,16.34],[17.94,22.1],[24.2,27.156],[28.02,35.6],[36.96,43.56],[44.52,48.84],[50.06,55.72],[56.14,59.455],[60.894,68.185],[69.6,77.48],[78.58,88.38],[89.46,92.311],[93.4,97.18],[98.56,103.027],[104.22,107],[108.42,119.76],[121.1,132.7],[132.7,136.88]],"95":[[7.62,11.36],[11.98,18.17],[18.48,20.1],[20.88,26.02],[26.02,33.44],[33.98,39.578],[40.1,44.2],[45.28,51.583],[52.08,58.77],[59.24,63.32],[64.06,72.853],[73.24,78.66],[79.38,88.58],[89.1,92.94],[93.88,98.74],[99.44,102.47],[102.82,104.64],[105.3,114.96],[115.48,121.974],[122.34,126.24]],"96":[[8.42,27.64],[28.6,44.06],[45.08,66.328],[67.94,112.74],[114.98,149.14]],"99":[[9.12,13.305],[14.12,18.4],[19.86,21.107],[22,36.2],[37.2,42.028],[43.38,49.54],[49.54,58.86],[60.76,62.18],[63.2,66.8],[67.44,70.34],[71.2,73.32],[74.92,81.096],[81.96,84.56],[85.8,89.32],[90.26,93.693],[95.66,96.92],[97.78,111.537],[112.22,124.738],[125.94,136.84],[138.06,141.32],[143.04,144.916],[145.62,152.613],[153.48,160.5],[161.7,164.5],[165.64,168.12],[169.06,177.02]],"102":[[9.22,13.76],[14.66,21.72],[22.62,27.74],[27.74,31.01],[33.44,43.514],[44.3,52.419],[53.1,56.181],[56.96,58.967],[59.78,63.971],[64.58,71.773],[72.52,75.105],[75.98,81],[81.8,84.602],[86.18,96.107],[96.92,101.506],[102.14,107.671],[108.44,111.36],[111.36,121.26],[122.42,125.353],[126.02,133.32]],"105":[[7.32,11.02],[11.6,14.32],[14.96,15.86],[16.52,22.732],[23.2,27.06],[27.06,31.324],[31.777,36.42],[36.8,38.243],[38.68,41],[41.54,43.76],[44.34,47.4],[48.04,57.44],[58.2,60.2],[60.92,62.88],[63.56,65.12],[65.54,67.72],[68.26,70.32],[70.76,73.607],[74.02,85.368],[85.7,88.2],[89.014,95.109],[95.5,97.98],[98.72,104.74],[105.44,110.26],[110.84,112.14],[112.8,113.98],[114.92,117.02],[117.76,119.1],[119.7,128.24],[129.02,131.7],[132.22,134.4]],"106":[[8.28,9.84],[10.844,12.02],[13.01,18.56],[19.52,22.4],[23.6,26.4],[27.4,31.3],[32.66,38.32],[39.34,42.18],[43.32,48.62],[51,51.24],[52.349,53.66],[55.04,61.46],[62.28,69.38],[70.46,77.322],[78.36,84.74],[86.04,91.72],[93.5,94.34],[95.6,96.86],[98.28,105.9],[106.7,109.923],[110.74,114.8],[115.5,118.375],[118.96,121.394],[121.78,123.1],[123.1,127.048],[127.66,131.92],[132.992,136.66]],"108":[[7.4,12.1],[12.9,16.7],[17.26,20.6],[21.36,23.58],[23.58,33.53],[33.98,34.98],[35.56,41.32],[41.74,45.58],[46.28,48.44],[48.44,52.4],[53.06,56.6],[57.3,68.26],[69.06,72.5],[72.5,78.704],[79.06,84.56],[85.34,90.86]],"110":[[8.835,16.218],[17.839,21.277],[21.561,27.014],[27.133,28.63],[29.019,36.323],[36.567,42.329],[42.354,49.358],[49.882,52.93],[52.999,55.08],[55.703,61.301],[62.398,65.426],[65.9,69.437],[70.36,72.67],[73.079,74.172],[75.27,81.171],[83.36,85.042],[86.344,88.474],[88.484,94.52],[95.767,98.167],[99.274,100.302],[100.312,105.63],[105.63,112.115],[112.115,118.66],[119.229,123.938],[124.582,132.714],[133.092,134.889],[135.163,138.076],[139.428,140.596]],"111":[[5.313,12.751],[13.235,18.862],[19.59,23.202],[23.212,29.2],[29.2,32.85],[33.923,39.925],[39.925,48.046],[48.056,51.3],[51.3,54.152],[54.74,64.848],[65.83,75.982],[75.992,79.046],[79.689,81.849],[82.547,85.202],[85.86,90.574],[91.756,94.111],[94.61,101.45],[101.45,106.872],[107.466,113.865],[113.865,117.995],[117.995,120.905],[120.905,127.071],[127.41,132.868],[133.816,143.494]],"113":[[8.41,9.094],[9.813,11.005],[11.574,12.087],[12.087,14.622],[14.697,17.021],[17.041,19.351],[19.55,20.139],[20.942,24.015],[24.864,26.96],[26.96,28.675],[28.685,32.436],[33.225,35.59],[35.59,36.971],[36.971,40.912],[41.406,45.18],[45.18,47.063],[47.467,48.79],[48.79,51.658],[52.166,53.563],[53.798,54.257],[54.267,57.729],[57.769,61.21],[61.21,62.87],[62.87,64.85],[64.85,66.339],[66.998,71.84],[71.84,75.219],[77.125,77.18],[77.359,78.247],[78.247,82.213],[82.707,83.251],[83.45,85.66],[85.66,89.322],[89.661,92.35],[92.35,96.296],[96.88,98.865],[99.269,100.332],[100.332,105.49],[105.789,108.663],[108.733,110.499],[111.342,112.864],[113.018,114.28]],"114":[[7.159,13.021],[13.888,18.513],[19.82,29.154],[29.618,32.325],[32.325,36.215],[36.215,38.423],[38.782,40.588],[41.216,45.691],[45.691,48.27],[48.679,50.855],[52.775,53.633],[54.45,56.576],[57.335,59.615],[60.004,67.981],[68.853,72.765],[73.124,79.968],[80.552,85.616],[86.404,91.577],[93.497,97.613],[98.421,100.77],[100.77,106.987],[106.997,115.533],[115.97,118.655],[118.655,121.688],[121.688,124.328],[125.001,128.922],[128.922,132.235],[132.688,135.752],[137.692,144.058],[145.065,152.605],[152.605,158.001],[159.123,163.06],[164.112,171.326]],"117":[[7.403,9.124],[10.481,13.021],[14.342,19.221],[20.324,25.048],[25.058,26.674],[26.684,31.015],[31.025,38.073],[38.083,41.74],[41.75,50.116],[50.126,57.25],[59.255,62.987],[64.364,69.602],[71.033,78.17],[78.17,79.674],[80.17,84.383],[85.286,86.344],[87.616,91.248],[92.225,99.973],[100.586,105.116],[106.25,108.698],[108.833,115.812],[115.822,119.873],[119.883,128.343],[128.353,136.55],[138.52,142.641],[144.087,147.051],[147.061,150.897],[150.907,159.787],[159.797,168.363],[169.435,172.598]],"202":[[10.975,19.895],[19.895,33.494],[34.791,39.535],[40.283,50.6],[50.6,57.898],[58.727,68.73],[68.73,74.15],[74.15,79.564],[79.664,88.374],[88.484,93.408],[94.051,97.114],[98.102,109.17],[109.17,117.373],[117.518,121.935],[121.935,132.978],[133.901,137.757],[137.767,148.473],[148.682,160.894],[161.08,166.6],[167.5,172.405],[172.405,180.2],[180.3,182.7],[184.7,189.9]]};
+/* ==TL-DATA-END== */
+</script>
 <script>
 /* ============ 书架首页 / 单元页 / 篇章页（原 学生端.html 逻辑并入 index.html） ============ */
 (function(){
@@ -1835,10 +657,10 @@ var UNITS = [
   { key:'5',  n:5,  title:'Free time',        sub:'休闲时光',    h:350, live:false },
   { key:'6',  n:6,  title:'Best friends',     sub:'最佳伙伴',    h:0,   live:false },
   { key:'7',  n:7,  title:'Living for sport', sub:'运动人生',    h:25,  live:true  },
-  { key:'8',  n:8,  title:'Feel the rhythm',  sub:'律动节拍',    h:45,  live:false },
-  { key:'9',  n:9,  title:"Who's hungry?",    sub:'谁是吃货',    h:80,  live:false },
-  { key:'10', n:10, title:'Big successes',    sub:'大成就',      h:145, live:false },
-  { key:'11', n:11, title:'The animal world', sub:'动物世界',    h:195, live:false },
+  { key:'8',  n:8,  title:'Feel the rhythm',  sub:'律动节拍',    h:45,  live:true },
+  { key:'9',  n:9,  title:"Who's hungry?",    sub:'谁是吃货',    h:80,  live:true },
+  { key:'10', n:10, title:'Big successes',    sub:'大成就',      h:145, live:true },
+  { key:'11', n:11, title:'The animal world', sub:'动物世界',    h:195, live:true },
   { key:'12', n:12, title:'Moving about',     sub:'出行方式',    h:275, live:true  }
 ];
 
@@ -1914,6 +736,17 @@ var THEME = {
     { w:'escalator', ipa:'ˈes.kə.leɪ.tə', pos:'n', zh:'自动扶梯', ex:'Escalators are usually inside a shopping centre or an airport.' },
     { w:'submarine', ipa:'ˌsʌb.mə.rˈiːn', pos:'n', zh:'潜艇', ex:'Now you can travel in a submarine!' }
   ]
+,
+  "1": [{"w": "Brazil", "ipa": "brə.ˈzɪl", "pos": "noun", "zh": "a country in South America", "ex": "Flavia is from Brazil."}, {"w": "Ecuador", "ipa": "ˈek.wə.dɔː", "pos": "noun", "zh": "厄瓜多尔（南美洲西北部国家，西临太平洋，首都基多；正式名称为厄瓜多尔共和国）", "ex": "We're from Ecuador."}, {"w": "Indonesia", "ipa": "ˌɪn.dəʊˈniː.ʒə", "pos": "noun", "zh": "印尼，印度尼西亚（东南亚岛国）", "ex": "I'm from Indonesia."}, {"w": "Japan", "ipa": "dʒəˈpæn", "pos": "noun", "zh": "日本（东亚国家名）", "ex": "He's from Japan."}, {"w": "Mexico", "ipa": "ˈmek.sɪ.kəʊ", "pos": "noun", "zh": "墨西哥", "ex": "They are from Mexico."}, {"w": "Russia", "ipa": "ˈrʌ.ʃə", "pos": "noun", "zh": "俄罗斯（俄罗斯联邦）；（历史）俄国（俄罗斯帝国）；（历史）苏联（1922—1991）", "ex": "Moscow is a city in Russia."}, {"w": "South Africa", "ipa": "ˌsaʊθ ˈæf.rɪ.kə", "pos": "noun", "zh": "南非：非洲南部的一个国家，位于林波波河、莫洛波河和橙河以南，毗邻大西洋和印度洋。", "ex": "Cape Town is a city in South Africa."}, {"w": "Spain", "ipa": "speɪn", "pos": "noun", "zh": "西班牙", "ex": "I'm from Spain."}, {"w": "Sudan", "ipa": "su.ːˈdɑːn", "pos": "noun", "zh": "苏丹（非洲国家）", "ex": "We're from Sudan."}, {"w": "the UK", "ipa": "ðəˌjuːˈkeɪ", "pos": "noun", "zh": "（等于 the United Kingdom）英国", "ex": "She's from the UK."}, {"w": "the US", "ipa": "ðəˌjuːˈes", "pos": "noun", "zh": "美国（the United States of America）", "ex": "He's a singer from the US."}, {"w": "Turkey", "ipa": "ˈtɜː.ki", "pos": "noun", "zh": "n. 火鸡", "ex": "Cenc is from Turkey."}, {"w": "an expensive car", "ipa": "ən ɪkˈspen.sɪv ˈkɑː", "pos": "phra", "zh": "a car that costs a lot of money", "ex": "That's an expensive car."}, {"w": "a big hotel", "ipa": "ə ˌbɪɡ həʊˈtel", "pos": "phra", "zh": "a large hotel", "ex": "They're in a big hotel in the city centre."}, {"w": "a fast train", "ipa": "ə ˌfɑːst ˈtreɪn", "pos": "phra", "zh": "a train that travels quickly", "ex": "There is a fast train from Paris to Strasbourg"}, {"w": "a new football", "ipa": "ə ˌnjuː ˈfʊt.bɔːl", "pos": "phra", "zh": "a football that you have not owned or used before", "ex": "I want to buy a new football."}, {"w": "a slow train", "ipa": "ə ˌsləʊ ˈtreɪn", "pos": "phra", "zh": "a train that travels without much speed", "ex": "It's a slow train."}, {"w": "a small hotel", "ipa": "ə ˌsmɔːl həʊˈtel", "pos": "phra", "zh": "a little hotel", "ex": "We're in a small hotel."}, {"w": "a dirty T-shirt", "ipa": "ə ˌdɜː.ti ˈtiː.ʃɜːt", "pos": "phra", "zh": "a T-shirt that is not clean", "ex": "That's a dirty T-shirt!"}, {"w": "an old football", "ipa": "ən ˌəʊld ˈfʊt.bɔːl", "pos": "phra", "zh": "a football that has existed for a long time", "ex": "This is an old football."}, {"w": "a cheap car", "ipa": "ə ˌtʃiːp ˈkɑː", "pos": "phra", "zh": "a car that does not cost a lot of money", "ex": "Anna wants to buy a cheap car."}, {"w": "clean trousers", "ipa": "ˌkliːn ˈtraʊ.zəz", "pos": "phra", "zh": "trousers that are not dirty", "ex": "I need clean trousers to wear tomorrow."}],
+  "2": [{"w": "at the station", "ipa": "ət ðə ˈsteɪ.ʃən", "pos": "phra", "zh": "在车站：指某人或某物在车站内或周围。", "ex": "We're at the station."}, {"w": "at the cinema", "ipa": "ət ðə ˈsɪ.nə.mə", "pos": "phra", "zh": "在电影院：指身处于电影院内观看电影的状态。", "ex": "I'm at the cinema and I'm so excited!"}, {"w": "at the stadium", "ipa": "ət ðə ˈsteɪ.di.əm", "pos": "phra", "zh": "at the large, open area with seats around it, used for playing and watching sports", "ex": "You're at the stadium."}, {"w": "at school", "ipa": "ət skuːl", "pos": "phra", "zh": "在学校（作为学生）上学", "ex": "Conner is at school."}, {"w": "at home", "ipa": "ət həʊm", "pos": "phra", "zh": "at the place where you live", "ex": "Lizzie is at home."}, {"w": "at the computer shop", "ipa": "ət ðə kəmˈpjuː.tə ˌʃɒp", "pos": "phra", "zh": "at the shop that sells computer equipment", "ex": "I'm at the computer shop with Dad to get my new phone!"}, {"w": "angry", "ipa": "ˈæŋ.gri", "pos": "adje", "zh": "adj. 愤怒的，生气的", "ex": "Your mum is angry with you."}, {"w": "bored", "ipa": "bɔːd", "pos": "adje", "zh": "无聊的，厌倦的；（枪）有特定口径的", "ex": "Are they tired or bored?"}, {"w": "cold", "ipa": "kəʊld", "pos": "adje", "zh": "adj. 冷的，凉的", "ex": "cold weather"}, {"w": "excited", "ipa": "ɪkˈsaɪ.tɪd", "pos": "adje", "zh": "adj. 激动的，兴奋的", "ex": "I feel excited!"}, {"w": "hot", "ipa": "hɒt", "pos": "adje", "zh": "adj. 热的，高温的", "ex": "a hot sunny day"}, {"w": "hungry", "ipa": "ˈhʌŋ.gri", "pos": "adje", "zh": "adj. 感到饿的，饥饿的", "ex": "I'm not hungry."}, {"w": "sad", "ipa": "sæd", "pos": "adje", "zh": "adj. 伤心的，难过的", "ex": "I'm sad."}, {"w": "thirsty", "ipa": "ˈθɜː.sti", "pos": "adje", "zh": "needing to drink", "ex": "Are you thirsty?"}, {"w": "tired", "ipa": "taɪəd", "pos": "adje", "zh": "adj. 疲倦的，累的", "ex": "Are they tired or bored?"}, {"w": "worried", "ipa": "ˈwʌr.id", "pos": "adje", "zh": "adj. 担心的，发愁的", "ex": "I'm a little worried."}, {"w": "awful", "ipa": "ˈɔː.fəl", "pos": "adje", "zh": "让人讨厌的，糟糕的；骇人听闻的，可怕的；生病的，不舒服的；非常的，很多的", "ex": "an awful actor"}, {"w": "bad", "ipa": "bæd", "pos": "adje", "zh": "adj. 坏的，不好的，令人不悦的", "ex": "a bad film"}, {"w": "excellent", "ipa": "ˈek.sə.lənt", "pos": "adje", "zh": "adj. 极好的，卓越的", "ex": "an excellent actor"}, {"w": "exciting", "ipa": "ɪkˈsaɪ.tɪŋ", "pos": "adje", "zh": "adj. 令人兴奋的，令人激动的", "ex": "an exciting computer game"}, {"w": "funny", "ipa": "ˈfʌn.i", "pos": "adje", "zh": "滑稽的，有趣的；古怪的，难以解释的；微恙的，稍有不适的；生气的，不友好的；疯疯癫癫的；出故障的；可疑的，不诚实的；放肆的", "ex": "a funny film"}, {"w": "good", "ipa": "gʊd", "pos": "adje", "zh": "adj. 优良的", "ex": "a good book"}, {"w": "great", "ipa": "greɪt", "pos": "adje", "zh": "adj. 伟大的，著名的", "ex": "a great country"}, {"w": "terrible", "ipa": "ˈter.ə.bl̩", "pos": "adje", "zh": "very bad, of low quality, or unpleasant", "ex": "a terrible singer"}],
+  "3": [{"w": "son", "ipa": "sʌn", "pos": "noun", "zh": "n. 儿子", "ex": "George is Kate's son."}, {"w": "daughter", "ipa": "ˈdɔː.tə", "pos": "noun", "zh": "女儿；（遗传学、农学）子代", "ex": "Charlotte is Kate's daughter."}, {"w": "husband", "ipa": "ˈhʌz.bənd", "pos": "noun", "zh": "丈夫", "ex": "William is Kate's husband."}, {"w": "wife", "ipa": "waɪf", "pos": "noun", "zh": "妻子，已婚妇女，夫人", "ex": "Kate is William's wife."}, {"w": "aunt", "ipa": "ɑːnt", "pos": "noun", "zh": "姑妈，伯母，舅妈等（指父亲或母亲的姐妹，或伯父、叔父、舅父等的妻子；也可放在名字前作称呼）", "ex": "She's my aunt Mary."}, {"w": "brother", "ipa": "ˈbrʌð.ə", "pos": "noun", "zh": "n. 兄弟，哥哥，弟弟", "ex": "James is Kate and Pippa's brother."}, {"w": "cousin", "ipa": "ˈkʌz.ən", "pos": "noun", "zh": "堂（表）兄弟，堂（表）姐妹；远房亲戚；兄弟民族（或国家）的人（来自不同国家但文化近似）；相似的人（物）", "ex": "She's my cousin."}, {"w": "father", "ipa": "ˈfɑː.ðə", "pos": "noun", "zh": "n. 父亲，爸爸", "ex": "William is George's father."}, {"w": "grandfather", "ipa": "ˈgrænˌfɑː.ðə", "pos": "noun", "zh": "祖父，外祖父；始祖，鼻祖", "ex": "Prince Charles is George's grandfather."}, {"w": "grandmother", "ipa": "ˈgrænˌmʌð.ə", "pos": "noun", "zh": "（外）祖母，奶奶，外婆；女祖先", "ex": "His grandmother is Queen Elizabeth."}, {"w": "mother", "ipa": "ˈmʌð.ə", "pos": "noun", "zh": "n. 母亲", "ex": "Kate is George's mother."}, {"w": "sister", "ipa": "ˈsɪs.tə", "pos": "noun", "zh": "同类的，同质的，如同姐妹的", "ex": "She has a sister called Pippa."}, {"w": "uncle", "ipa": "ˈʌŋ.kl̩", "pos": "noun", "zh": "the brother of your mother or father, or the husband of your aunt", "ex": "He's my uncle Richard."}, {"w": "bathroom", "ipa": "ˈbɑːθ.rʊm", "pos": "noun", "zh": "浴室，盥洗室；&lt;美&gt;卫生间，厕所；（尤指成套出售的）浴室用具", "ex": "an ensuite bathroom"}, {"w": "bedroom", "ipa": "ˈbed.rʊm", "pos": "noun", "zh": "卧室", "ex": "There is a great poster on your friend’s bedroom wall."}, {"w": "garage", "ipa": "ˈgær.ɑːʒ", "pos": "noun", "zh": "车库；加油站，汽车修理厂；车库音乐", "ex": "The car is in the garage."}, {"w": "garden", "ipa": "ˈgɑː.dən", "pos": "noun", "zh": "花园，菜园，果园；庭园；公园；（用于街名）街，广场", "ex": "The garden in Tom's house isn't very big."}, {"w": "hall", "ipa": "hɔːl", "pos": "noun", "zh": "n. 礼堂，大厅", "ex": "The telephone is in the hall."}, {"w": "kitchen", "ipa": "ˈkɪtʃ.ən", "pos": "noun", "zh": "n. 厨房", "ex": "Their apartment is really big, with twenty bedrooms and three kitchens."}, {"w": "living room", "ipa": "ˈlɪv.ɪŋ ˌrʊm", "pos": "noun", "zh": "客厅，起居室：住宅中用于居住者共同社交活动的房间。", "ex": "They listen to music in the living room."}, {"w": "armchair", "ipa": "ˈɑːm.tʃeə", "pos": "noun", "zh": "扶手椅，单人沙发", "ex": "Sit down in the armchair."}, {"w": "bath", "ipa": "bɑːθ", "pos": "noun", "zh": "浴缸，浴盆；洗澡，沐浴；浴室；池，盆", "ex": "The bath is in the bathroom."}, {"w": "bed", "ipa": "bed", "pos": "noun", "zh": "n. 床，床铺，床位", "ex": "I like your bed."}, {"w": "cooker", "ipa": "ˈkʊk.ə", "pos": "noun", "zh": "&lt;英&gt;炊具，锅，厨灶；&lt;英，非正式&gt;适宜煮食而不宜生吃的水果（尤指某种苹果）", "ex": "an electric cooker"}, {"w": "fridge", "ipa": "frɪdʒ", "pos": "noun", "zh": "冰箱", "ex": "The fridge is in the kitchen."}, {"w": "shower", "ipa": "ʃaʊə", "pos": "noun", "zh": "a piece of bathroom equipment that you stand under to wash your whole body", "ex": "He likes to sing in the shower."}, {"w": "sofa", "ipa": "ˈsəʊ.fə", "pos": "noun", "zh": "沙发；长椅；（Sofa）人名；（塞）索法", "ex": "Take a seat on the sofa."}, {"w": "toilet", "ipa": "ˈtɔɪ.lət", "pos": "noun", "zh": "抽水马桶，坐便器；厕所，洗手间；梳洗，打扮；（治疗过程中对身体部位的）清洗；上厕所，解手", "ex": "The toilet is in the bathroom."}],
+  "4": [{"w": "square", "ipa": "skweə", "pos": "noun", "zh": "adj. 正方形的，四方形的", "ex": "a famous square"}, {"w": "palace", "ipa": "ˈpæl.ɪs", "pos": "noun", "zh": "王宫，（官位极高者的）府邸；住在王宫里的人，王室（the Palace）；大厦，豪宅", "ex": "a famous palace"}, {"w": "statue", "ipa": "ˈstætʃ.uː", "pos": "noun", "zh": "n. （石或金属做的动物或人的）雕像", "ex": "a famous statue"}, {"w": "bank", "ipa": "bæŋk", "pos": "noun", "zh": "银行；储蓄罐；库存，库；河岸；斜坡；云团，雾团；一排，一组；庄家的赌本；（泥）滩，沙洲", "ex": "The chemist is next to the bank."}, {"w": "chemist", "ipa": "ˈkem.ɪst", "pos": "noun", "zh": "化学家；&lt;英&gt;药剂师；&lt;英&gt;药店，药房", "ex": "You buy medicine at a chemist."}, {"w": "library", "ipa": "ˈlaɪ.brər.i", "pos": "noun", "zh": "图书馆，藏书楼；（书、激光唱片等的）私人收藏；书房，书斋；文库，系列丛书（激光唱片集，成套录像等）；软件库", "ex": "You read books in a library."}, {"w": "museum", "ipa": "mjuːˈziː.əm", "pos": "noun", "zh": "博物馆", "ex": "You look at interesting things in a museum."}, {"w": "park", "ipa": "pɑːk", "pos": "noun", "zh": "n. 公园", "ex": "You play football in a park."}, {"w": "post office", "ipa": "ˈpəʊst ˌɒf.ɪs", "pos": "noun", "zh": "邮局；The Post Office（首字母大写，常与 the 连用）指国家邮政机构，在美国亦指美国邮政局", "ex": "You send letters in a post office."}, {"w": "restaurant", "ipa": "ˈrest.rɒnt", "pos": "noun", "zh": "n. 餐馆，饭店", "ex": "You eat lunch or dinner in a restaurant."}, {"w": "supermarket", "ipa": "ˈsuː.pəˌmɑː.kɪt", "pos": "noun", "zh": "超级市场，超市", "ex": "You buy milk in a supermarket."}, {"w": "train station", "ipa": "ˈtreɪn ˌsteɪ.ʃən", "pos": "noun", "zh": "火车站：火车停靠、供乘客上下车（或装卸货物）的地方。", "ex": "You get on a train at a train station."}, {"w": "behind", "ipa": "bɪˈhaɪnd", "pos": "prep", "zh": "在（或向）……的后面；落后于；是……背后的原因；支持；（……的外表）之下；成为（某人的）过去；低于；在……死后", "ex": "The chemist's is behind the bank."}, {"w": "between", "ipa": "bɪˈtwiːn", "pos": "prep", "zh": "prep. （空间上）在……中间", "ex": "The restaurant is between the post office and the park."}, {"w": "in front of", "ipa": "ɪn ˈfrʌnt əv", "pos": "prep", "zh": "在……的前部或附近", "ex": "The museum is in front of the library."}, {"w": "next to", "ipa": "ˈnekst tuː", "pos": "prep", "zh": "used when describing two people or things that are very close to each other with nothing between them", "ex": "The restaurant is next to the park."}, {"w": "on the corner of", "ipa": "ɒn ðə ˈkɔː.nə rəv", "pos": "prep", "zh": "在……的拐角处：表示某物或某人位于某个街角的交叉口处。", "ex": "The post office is on the corner of Green Street and High Street."}, {"w": "opposite", "ipa": "ˈɒp.ə.zɪt", "pos": "prep", "zh": "完全相反的，截然不同的；相反的，另一边的；（在说话者、所指的人或物）对面的；（角）对的；（叶，芽）对生的", "ex": "The bank is opposite the post office."}, {"w": "rose", "ipa": "rəʊz", "pos": "noun", "zh": "n. 玫瑰，蔷薇", "ex": "There's a lovely rose garden in the park."}, {"w": "lake", "ipa": "leɪk", "pos": "noun", "zh": "n. 湖，湖泊", "ex": "Chapultepec Park has a lake."}, {"w": "cable car", "ipa": "ˈkeɪ.bl ˌkɑː", "pos": "noun", "zh": "缆车，空中缆车；&lt;美&gt;有轨缆车（尤指旧金山等地的传统有轨缆车，常称叮当车）", "ex": "You can get there by cable car."}, {"w": "fountain", "ipa": "ˈfaʊn.tɪn", "pos": "noun", "zh": "喷泉；喷射；天然泉；源泉；（纹章）银蓝相间波状纹圆盾", "ex": "There are beautiful fountains in the park."}, {"w": "bridge", "ipa": "brɪdʒ", "pos": "noun", "zh": "弥合（分歧），消除（隔阂）；兼具……的特点；在……上架桥，横跨", "ex": "Everyone knows the Golden Gate Bridge."}, {"w": "feed", "ipa": "fiːd", "pos": "verb", "zh": "to give food to a person, group, or animal", "ex": "People feed the iguanas."}],
+  "5": [{"w": "listen to music", "ipa": "ˈlɪs.ən tə ˈmjuː.zɪk", "pos": "phra", "zh": "听音乐：通过耳朵感受和欣赏音乐的活动。", "ex": "I usually listen to music on my own."}, {"w": "play sport", "ipa": "ˌpleɪ ˈspɔːt", "pos": "phra", "zh": "进行体育运动：参与各种体育运动，如足球、篮球、网球等。", "ex": "I like to play sport."}, {"w": "build robots", "ipa": "ˌbɪld ˈrəʊ.bɒts", "pos": "phra", "zh": "制造机器人：使用各种材料和技术来设计、制造和组装机器人。", "ex": "He helps us build robots."}, {"w": "chat to friends online", "ipa": "ˌtʃæt tə ˌfrendz ɒn.ˈlaɪn", "pos": "phra", "zh": "to use the internet to talk to friends", "ex": "I always chat to friends online after school."}, {"w": "dance", "ipa": "dɑːns", "pos": "verb", "zh": "v. 跳舞", "ex": "I often dance in the living room."}, {"w": "do homework", "ipa": "ˌdu: ˈhəʊm.wɜːk", "pos": "phra", "zh": "做作业，做家庭作业；做足功课（事先认真研究某个主题或情况，以便能够妥善处理）。", "ex": "I never do homework in the morning."}, {"w": "go shopping", "ipa": "ˌgəʊ ˈʃɒp.ɪŋ", "pos": "verb", "zh": "购物：去商店或商场浏览和购买商品（说明购买对象时常用 go shopping for something）。", "ex": "She sometimes goes shopping with her mum."}, {"w": "hang out with friends", "ipa": "hæŋ ˌaʊt wɪð ˈfrendz", "pos": "phra", "zh": "与朋友一起闲逛：与朋友一起放松、聚会或共度时光。", "ex": "We often hang out with friends in the park."}, {"w": "play computer games", "ipa": "ˌpleɪ kəmˈpjuː.tə ɡeɪmz", "pos": "phra", "zh": "玩电脑游戏：使用电脑进行游戏活动。", "ex": "I never play computer games in the morning."}, {"w": "e-reader", "ipa": "ˈiːˌriː.də", "pos": "noun", "zh": "电子阅读器", "ex": "I use my e-reader to read books."}, {"w": "games console", "ipa": "ˈɡeɪmz ˌkɒn.səʊl", "pos": "noun", "zh": "游戏机", "ex": "I use my games console to play computer games."}, {"w": "GPS", "ipa": "ˌdʒiːˌpiːˈes", "pos": "noun", "zh": "abbreviation for Global Positioning System: a system that can show the position of a person or thing by using signals from satellites", "ex": "I use my GPS to find out which way to go."}, {"w": "headphones", "ipa": "ˈhed.fəʊnz", "pos": "noun", "zh": "耳机，头戴式耳机，头戴式受话器（headphone 的复数形式）；（旧式电话等）听筒，受话器", "ex": "I use my headphones to listen to music."}, {"w": "laptop", "ipa": "ˈlæp.tɒp", "pos": "noun", "zh": "膝上型计算机，便携式电脑（=laptop computer）", "ex": "I use my laptop to do homework."}, {"w": "smartphone", "ipa": "ˈsmɑːt.fəʊn", "pos": "noun", "zh": "智能手机（运行移动操作系统，可安装并运行应用程序，具备较强计算和联网能力的移动电话）", "ex": "I use my smartphone to talk to my friends."}, {"w": "tablet", "ipa": "ˈtæb.lət", "pos": "noun", "zh": "a small, flat computer that is controlled by touching the screen", "ex": "I use my tablet to shop."}, {"w": "VR headset", "ipa": "ˌviːˌɑː ˈhed.set", "pos": "noun", "zh": "虚拟现实头戴式显示器（VR 头显、VR 头盔）", "ex": "I use my VR headset to play computer  games."}],
+  "6": [{"w": "teacher", "ipa": "ˈtiː.tʃə", "pos": "noun", "zh": "n. 教师，老师，教员", "ex": "This is my English teacher."}, {"w": "arm", "ipa": "ɑːm", "pos": "noun", "zh": "n. 手臂，上肢", "ex": "It's an arm."}, {"w": "body", "ipa": "ˈbɒd.i", "pos": "noun", "zh": "n. 身体，躯体", "ex": "Where on your body is your head?"}, {"w": "ear", "ipa": "ɪə", "pos": "noun", "zh": "耳朵；灵敏的听力；倾听；穗；耳状物", "ex": "She's got an earring in her right ear."}, {"w": "eye", "ipa": "aɪ", "pos": "noun", "zh": "注视，仔细打量", "ex": "My eyes aren't very good."}, {"w": "face", "ipa": "feɪs", "pos": "noun", "zh": "n. 脸，面部", "ex": "She's got a long, thin face."}, {"w": "foot", "ipa": "fʊt", "pos": "noun", "zh": "脚，足；英尺；基础，底部；袜底；音步；&lt;文&gt;步态，步伐；（缝纫机的）压脚板", "ex": "I hurt my left foot playing football."}, {"w": "hand", "ipa": "hænd", "pos": "noun", "zh": "n. 手", "ex": "Put your hands up."}, {"w": "leg", "ipa": "leg", "pos": "noun", "zh": "n. 腿", "ex": "The dog has got short legs."}, {"w": "mouth", "ipa": "maʊθ", "pos": "noun", "zh": "n. 嘴，口腔", "ex": "Open your mouth."}, {"w": "nose", "ipa": "nəʊz", "pos": "noun", "zh": "鼻子；（飞机、火箭等的）头部，机首；嗅觉；觉察力；（酒的）特有的气味；&lt;非正式&gt;警方线人；探听，探问", "ex": "He's got a big nose."}, {"w": "blue", "ipa": "bluː", "pos": "adje", "zh": "adj. 蓝色的", "ex": "She's got blue eyes."}, {"w": "grey", "ipa": "greɪ", "pos": "adje", "zh": "灰色，灰色颜料；灰色衣服；灰白头发；灰马，白马", "ex": "The waiter has got grey hair."}, {"w": "long", "ipa": "lɒŋ", "pos": "adje", "zh": "adj. 长的", "ex": "She’s tall and she’s got long black hair."}, {"w": "curly", "ipa": "ˈkɜː.li", "pos": "adje", "zh": "（头发）卷曲的，鬈曲的；弧形的，螺旋形的；（木材）有皱状纹理的", "ex": "It’s short and it’s curly."}, {"w": "short", "ipa": "ʃɔːt", "pos": "adje", "zh": "adj. 短暂的，短期的", "ex": "It’s short and it’s curly."}, {"w": "black", "ipa": "blæk", "pos": "adje", "zh": "adj. 黑的，黑色的", "ex": "She’s tall and she’s got long black hair."}, {"w": "blonde", "ipa": "blɒnd", "pos": "adje", "zh": "金黄色的，浅棕色的；金发的；浅色的", "ex": "long, blonde hair"}, {"w": "red", "ipa": "red", "pos": "adje", "zh": "adj. 红的，红色的", "ex": "red hair"}, {"w": "brown", "ipa": "braʊn", "pos": "adje", "zh": "褐色的，棕色的；肤色深的，晒黑的；未去壳的，糙的", "ex": "My eyes are brown."}, {"w": "wavy", "ipa": "ˈweɪ.vi", "pos": "adje", "zh": "（头发）鬈曲的；波纹状的，波浪形的；（纹章）波形的，波状的", "ex": "wavy, red hair"}, {"w": "straight", "ipa": "streɪt", "pos": "adje", "zh": "adj. 直的，笔直的", "ex": "straight, brown hair"}, {"w": "green", "ipa": "griːn", "pos": "adje", "zh": "adj. 绿色的", "ex": "green eyes"}, {"w": "beard", "ipa": "bɪəd", "pos": "noun", "zh": "胡须，络腮胡子；（动物的）颔毛，须；（植物的）芒，髯毛；替身；&lt;非正式&gt;名义女伴", "ex": "He's got a beard."}, {"w": "earring", "ipa": "ˈɪə.rɪŋ", "pos": "noun", "zh": "耳环，耳饰", "ex": "She's got an earring in her right ear."}, {"w": "glasses", "ipa": "ˈglɑːsɪz", "pos": "noun", "zh": "眼镜；玻璃杯（glass 的复数）；双筒望远镜（尤见于 field glasses）", "ex": "She wears glasses."}, {"w": "moustache", "ipa": "məˈstɑːʃ", "pos": "noun", "zh": "髭，小胡子；长髭；（动物嘴部周围的）须状物", "ex": "He's got a moustache."}, {"w": "short", "ipa": "ʃɔːt", "pos": "adje", "zh": "adj. 短暂的，短期的", "ex": "She's quite tall, she's not short."}, {"w": "smile", "ipa": "smaɪl", "pos": "noun", "zh": "微笑；微笑着说，以微笑表示；现出（笑容）；觉得好笑，觉得高兴；惠及，赞许", "ex": "She's got a very nice smile."}, {"w": "tall", "ipa": "tɔːl", "pos": "adje", "zh": "高的，高大的；（用于指高度）有……高的，身高……的；过分的，夸大的；（饮料）含少量酒精的", "ex": "She's quite tall, she's not short."}],
+  "8": [{"w": "concert", "ipa": "ˈkɒn.sət", "pos": "noun", "zh": "音乐会，演奏会；一致，和谐；（尤指犯罪时的）联合行动", "ex": "Lucy is at a concert."}, {"w": "lights", "ipa": "laɪts", "pos": "noun", "zh": "点亮、点燃、照亮（light 的第三人称单数）", "ex": "The stage is dark because the lights aren't on."}, {"w": "singer", "ipa": "ˈsɪŋ.ə", "pos": "noun", "zh": "歌手，歌唱家；Singer（英语姓氏或人名，译名有“桑热”，常见“辛格”）", "ex": "Jess Glynne is Lucy's favourite singer."}, {"w": "stage", "ipa": "steɪdʒ", "pos": "noun", "zh": "n. 阶段，时期", "ex": "Jess is on stage now."}, {"w": "dress", "ipa": "dres", "pos": "noun", "zh": "n. 连衣裙，套裙", "ex": "She’s wearing a red dress."}, {"w": "coat", "ipa": "kəʊt", "pos": "noun", "zh": "外套，大衣；&lt;美&gt;（指套装的）短上衣；（动物）皮毛，（植物）表皮；涂料层，覆盖层", "ex": "Wear a coat today, it's cold."}, {"w": "jeans", "ipa": "dʒiːnz", "pos": "noun", "zh": "n. 牛仔裤", "ex": "Paul is wearing blue jeans, a white T-shirt and trainers."}, {"w": "jumper", "ipa": "ˈdʒʌm.pə", "pos": "noun", "zh": "（Jumper）（英）江珀（人名）", "ex": "I like your purple jumper."}, {"w": "shirt", "ipa": "ʃɜːt", "pos": "noun", "zh": "n. 衬衫，恤衫", "ex": "He’s wearing grey trousers and a green shirt."}, {"w": "shoes", "ipa": "ʃuːz", "pos": "noun", "zh": "鞋子（shoe 的复数形式）", "ex": "I hate wearing shoes and trousers."}, {"w": "shorts", "ipa": "ʃɔːts", "pos": "noun", "zh": "（使）短路（short 的第三人称单数）", "ex": "Wear shorts today, it's hot."}, {"w": "skirt", "ipa": "skɜːt", "pos": "noun", "zh": "n. 女裙，半身裙", "ex": "The dancers in Turkey wear skirts that are different colours."}, {"w": "socks", "ipa": "sɒks", "pos": "noun", "zh": "袜子（sock的复数）", "ex": "Mum, where are my socks?"}, {"w": "T-shirt", "ipa": "ˈtiː.ʃɜːt", "pos": "noun", "zh": "T恤衫，短袖圆领汗衫", "ex": "Paul is wearing blue jeans, a white T-shirt and trainers."}, {"w": "trainers", "ipa": "ˈtreɪ.nəz", "pos": "noun", "zh": "a ​pair of ​light, ​comfortable ​shoes that can be ​worn for ​sport", "ex": "You can't wear trainers to a party!"}, {"w": "trousers", "ipa": "ˈtraʊ.zəz", "pos": "noun", "zh": "n.  裤子，长裤", "ex": "He’s wearing grey trousers and a green shirt."}, {"w": "traditional costume", "ipa": "trəˈdɪʃ.ə.nəl ˈkɒs.tjuːm", "pos": "phra", "zh": "传统服装：一种代表某个国家或地区文化传统的服装，通常由特定的材料、颜色和设计制成。", "ex": "They wear traditional costumes with big skirts."}, {"w": "spin", "ipa": "spɪn", "pos": "verb", "zh": "v. （使）快速旋转", "ex": "The dancers spin around in circles."}, {"w": "smart trousers", "ipa": "ˌsmɑːt ˈtraʊ.zəz", "pos": "phra", "zh": "商务裤：一种适合正式场合穿着的裤子，通常是黑色或深色，有时会搭配西装。", "ex": "I'm wearing smart trousers for the party."}],
+  "9": [{"w": "carrot cake", "ipa": "ˈkær.ət ˌkeɪk", "pos": "noun", "zh": "胡萝卜蛋糕：一种加入切碎的胡萝卜的蛋糕，通常由面粉、油、鸡蛋、糖、胡萝卜和香料制成，顶部覆盖着奶油芝士糖霜。", "ex": "This time he makes tomato soup, some salad, steak and carrot cake."}, {"w": "chef", "ipa": "ʃef", "pos": "noun", "zh": "n.  厨师，主厨", "ex": "Harry doesn’t want to be a star chef when he’s 20."}, {"w": "omelette", "ipa": "ˈɒm.lət", "pos": "noun", "zh": "n. 煎蛋卷", "ex": "He can make fantastic soups and salads, excellent omelettes and the best cakes."}, {"w": "tomato soup", "ipa": "təˌmɑː.təʊ ˈsuːp", "pos": "noun", "zh": "番茄汤：一种被制成光滑浓稠液体的汤，通常含有奶油。", "ex": "This time he makes tomato soup, some salad, steak and carrot cake."}, {"w": "salad", "ipa": "ˈsæl.əd", "pos": "noun", "zh": "n. 沙拉，色拉，沙律（一种常加调味汁的凉拌食物）", "ex": "He can make fantastic soups and salads, excellent omelettes and the best cakes."}, {"w": "steak", "ipa": "steɪk", "pos": "noun", "zh": "n. 肉排，（尤指）牛排", "ex": "This time he makes tomato soup, some salad, steak and carrot cake."}, {"w": "chicken", "ipa": "ˈtʃɪk.ɪn", "pos": "noun", "zh": "n. 鸡", "ex": "a chicken and tomato sandwich"}, {"w": "beef", "ipa": "biːf", "pos": "noun", "zh": "&lt;非正式&gt;抱怨，发牢骚", "ex": "roast beef"}, {"w": "lamb", "ipa": "læm", "pos": "noun", "zh": "羔羊，小羊；羊羔肉；&lt;非正式&gt;宝贝，乖乖", "ex": "Lamb is delicious!"}, {"w": "burger", "ipa": "ˈbɜː.gə", "pos": "noun", "zh": "汉堡包，夹心牛肉饼；（类似汉堡包的）馅饼", "ex": "a burger and chips"}, {"w": "banana", "ipa": "bəˈnɑː.nə", "pos": "noun", "zh": "n. 香蕉", "ex": "I’ d like a banana, please."}, {"w": "orange", "ipa": "ˈɒr.ɪndʒ", "pos": "noun", "zh": "n. 橙，柑橘", "ex": "fruit juice (orange or apple)"}, {"w": "apple", "ipa": "ˈæp.l̩", "pos": "noun", "zh": "苹果；苹果树；苹果公司（Apple Inc.）", "ex": "fruit juice (orange or apple)"}, {"w": "strawberry", "ipa": "ˈstrɔː.bə.ri", "pos": "noun", "zh": "草莓；草莓色，紫红色", "ex": "strawberry ice cream"}, {"w": "potato", "ipa": "pəˈteɪ.təʊ", "pos": "noun", "zh": "马铃薯，土豆，洋芋；马铃薯植株；&lt;英，非正式&gt;（尤指脚后跟部的）袜子破洞", "ex": "boiled/baked/fried/roast potatoes"}, {"w": "carrot", "ipa": "ˈkær.ət", "pos": "noun", "zh": "n. 胡萝卜", "ex": "This time he makes tomato soup, some salad, steak and carrot cake."}, {"w": "tomato", "ipa": "təˈmɑː.təʊ", "pos": "noun", "zh": "n.  番茄，西红柿", "ex": "OK, first we need to add the tomato sauce."}, {"w": "pepper", "ipa": "ˈpep.ə", "pos": "noun", "zh": "n. 胡椒粉", "ex": "Can I cut the peppers for you?"}, {"w": "coffee", "ipa": "ˈkɒf.i", "pos": "noun", "zh": "咖啡（饮品）；一杯咖啡；咖啡豆或咖啡粉；咖啡色；咖啡树；（Coffee）人名，（英）科菲", "ex": "Would you like some coffee?"}, {"w": "tea", "ipa": "tiː", "pos": "noun", "zh": "&lt;古&gt;喝茶，吃下午茶", "ex": "Coffee and tea are drinks."}, {"w": "milk", "ipa": "mɪlk", "pos": "noun", "zh": "（牛或羊等的）奶；奶汁，母乳；乳液（用于清洁或保护皮肤）；（椰子等植物的）白色汁液", "ex": "a glass of milk"}, {"w": "orange juice", "ipa": "ˈɒr.ɪndʒ ˌdʒuːs", "pos": "noun", "zh": "橙汁：从橙子榨取的汁液，通常作为饮品饮用，也可指市售的瓶装或鲜榨橙汁（通常作不可数名词，指一杯或一份时可数）。", "ex": "a glass of orange juice"}, {"w": "bread", "ipa": "bred", "pos": "noun", "zh": "n. 面包", "ex": "a slice of bread"}, {"w": "butter", "ipa": "ˈbʌt.ə", "pos": "noun", "zh": "n. 黄油，牛油", "ex": "Have some bread and butter."}, {"w": "cereal", "ipa": "ˈsɪə.ri.əl", "pos": "noun", "zh": "谷类食物；谷类植物，谷物", "ex": "a bowl of cereal"}, {"w": "egg", "ipa": "eg", "pos": "noun", "zh": "（鸟类的）卵，蛋；（尤指用作食品的）蛋，鸡蛋；卵子，卵细胞；&lt;非正式&gt;人，家伙", "ex": "a hard-boiled/soft-boiled egg"}, {"w": "fruit", "ipa": "fruːt", "pos": "noun", "zh": "n. 水果", "ex": "I eat fruit every day."}, {"w": "honey", "ipa": "ˈhʌn.i", "pos": "noun", "zh": "蜂蜜；亲爱的，宝贝儿；&lt;非正式&gt;极好的事物", "ex": "We had a cup of tea and toast with honey."}, {"w": "jam", "ipa": "dʒæm", "pos": "noun", "zh": "n. 果酱", "ex": "strawberry/raspberry jam"}, {"w": "toast", "ipa": "təʊst", "pos": "noun", "zh": "烤面包片，吐司；干杯，祝酒，敬酒；极受敬慕的人（或事物）", "ex": "I always have toast for breakfast."}, {"w": "yoghurt", "ipa": "ˈjɒg.ət", "pos": "noun", "zh": "酸奶（亦作 yoghourt），酸乳酪", "ex": "a low-fat strawberry yoghurt"}],
+  "10": [{"w": "astronaut", "ipa": "ˈæs.trə.nɔːt", "pos": "noun", "zh": "n. 宇航员，太空人", "ex": "It was her dream to be an astronaut and to go into space."}, {"w": "competition", "ipa": "ˌkɒm.pəˈtɪʃ.ən", "pos": "noun", "zh": "n. 竞争", "ex": "There was a big competition to find new astronauts."}, {"w": "factory", "ipa": "ˈfæk.tə.ri", "pos": "noun", "zh": "n.  工厂，制造厂", "ex": "Her mother was a factory worker."}, {"w": "skydiving", "ipa": "ˈskaɪˌdaɪ.vɪŋ", "pos": "noun", "zh": "跳伞运动（从飞机上跳下后先自由坠落一段时间，再张开降落伞降落）", "ex": "Her hobby was skydiving"}, {"w": "spacecraft", "ipa": "ˈspeɪs.krɑːft", "pos": "noun", "zh": "宇宙飞船，航天器", "ex": "The name of her spacecraft was Vostok 6."}, {"w": "stamp", "ipa": "stæmp", "pos": "noun", "zh": "n. 邮票", "ex": "Her face was on stamps in many countries."}, {"w": "in", "ipa": "ɪn", "pos": "noun", "zh": "在里面的，内部的；时髦的，流行的；（用球）界内的", "ex": "In the year 2000, there was a big celebration in London."}, {"w": "at", "ipa": "æt", "pos": "prep", "zh": "阿特（老挝货币基本单位att）；砹（极不稳定放射性元素）", "ex": "Lillian was at the park at quarter past eleven."}, {"w": "last", "ipa": "lɑːst", "pos": "prep", "zh": "adj. 最后的", "ex": "She was at the cinema with her mum last night."}, {"w": "yesterday", "ipa": "ˈjes.tə.deɪ", "pos": "adve", "zh": "adv.  在昨天", "ex": "I was at home at quarter past eleven yesterday morning."}, {"w": "It's cloudy.", "ipa": "ɪts ˈklaʊ.di", "pos": "phra", "zh": "阴天", "ex": "It's cloudy today."}, {"w": "It's cold.", "ipa": "ɪts kəʊld", "pos": "phra", "zh": "天气寒冷：表示当前的气温较低，感觉寒冷。", "ex": "It's cold outside."}, {"w": "It's hot.", "ipa": "ɪts hɒt", "pos": "phra", "zh": "很热", "ex": "It's very hot today."}, {"w": "It's raining.", "ipa": "ɪts ˈreɪ.nɪŋ", "pos": "phra", "zh": "下雨了，正在下雨", "ex": "It's raining now."}, {"w": "It's snowing.", "ipa": "ɪts ˈsnəʊ.ɪŋ", "pos": "phra", "zh": "正在下雪：表示天气现象，雪花从天空飘落下来。", "ex": "It's snowing outside."}, {"w": "It's sunny.", "ipa": "ɪts ˈsʌn.i", "pos": "phra", "zh": "天气晴朗", "ex": "It's nice and sunny today."}, {"w": "It's warm.", "ipa": "ɪts wɔːm", "pos": "phra", "zh": "天气很暖和。", "ex": "It isn't very warm this morning."}, {"w": "It's windy.", "ipa": "ɪts ˈwɪn.di", "pos": "phra", "zh": "天气有风：表示当前的天气状况是有风的。", "ex": "It's very windy outside."}, {"w": "headband", "ipa": "ˈhed.bænd", "pos": "noun", "zh": "头带，头巾，头饰带", "ex": "She is wearing her famous white dress and headband."}, {"w": "shoulders", "ipa": "ˈʃəʊl.dəz", "pos": "noun", "zh": "肩膀（shoulder 的复数）；肩部；（Shoulders）人名；（英）舒尔德斯", "ex": "He’s sitting on the shoulders of an empty suit!"}, {"w": "suit", "ipa": "suːt", "pos": "noun", "zh": "n. 套装，西装", "ex": "He’s sitting on the shoulders of an empty suit!"}, {"w": "rock", "ipa": "rɒk", "pos": "noun", "zh": "n. 岩石", "ex": "The statue shows Rosa sitting on a rock."}, {"w": "tools", "ipa": "tuːlz", "pos": "noun", "zh": "工具（tool 的复数形式）；方法，手段（比喻用法）；工具菜单或工具栏选项（软件界面，常写作 Tools）", "ex": "The two figures are holding digging tools."}],
+  "11": [{"w": "bear", "ipa": "beə", "pos": "noun", "zh": "【名】 （Bear）（美）贝尔（人名）", "ex": "Erin knew there were bears in the woods."}, {"w": "bird", "ipa": "bɜːd", "pos": "noun", "zh": "n. 鸟", "ex": "This animal was a bird but it couldn’t fly."}, {"w": "cat", "ipa": "kæt", "pos": "noun", "zh": "n. 猫，猫科动物", "ex": "The Europeans took animals such as dogs and cats to the island."}, {"w": "dolphin", "ipa": "ˈdɒl.fɪn", "pos": "noun", "zh": "n. 海豚", "ex": "Dolphins are very intelligent animals."}, {"w": "dog", "ipa": "dɒg", "pos": "noun", "zh": "n. 狗，犬", "ex": "The Europeans took animals such as dogs and cats to the island."}, {"w": "elephant", "ipa": "ˈe.lɪ.fənt", "pos": "noun", "zh": "象，大象；大号图画纸", "ex": "We saw elephants, tigers, and snakes at the zoo."}, {"w": "gorilla", "ipa": "gəˈrɪl.ə", "pos": "noun", "zh": "大猩猩；（非正式，常含贬义）高大强壮、凶悍的人，常指保镖或打手，也指粗壮笨拙的人", "ex": "There's a gorilla at the zoo."}, {"w": "horse", "ipa": "hɔːs", "pos": "noun", "zh": "n. 马", "ex": "It was very near to an eight-year-old boy who was on his horse."}, {"w": "tiger", "ipa": "ˈtaɪ.gə", "pos": "noun", "zh": "n. 老虎", "ex": "We saw elephants, tigers, and snakes at the zoo."}, {"w": "rabbit", "ipa": "ˈræb.ɪt", "pos": "noun", "zh": "n. 兔", "ex": "She has a pet rabbit."}, {"w": "sheep", "ipa": "ʃiːp", "pos": "noun", "zh": "n. 羊，绵羊", "ex": "This cheese is made from sheep's milk."}, {"w": "snake", "ipa": "sneɪk", "pos": "noun", "zh": "n. 蛇", "ex": "We saw elephants, tigers, and snakes at the zoo."}, {"w": "take a break", "ipa": "ˌteɪk ə ˈbreɪk", "pos": "phra", "zh": "休息一下：停下正在做的事情，暂时休息一下。", "ex": "I always take a break when I study."}, {"w": "have a good time", "ipa": "ˌhæv ə gʊd ˈtaɪm", "pos": "phra", "zh": "玩得开心：指在某个活动或场合中享受快乐和愉悦的时光。", "ex": "I have a good time at the weekend."}, {"w": "make a mistake", "ipa": "ˌmeɪk ə mɪsˈteɪk", "pos": "phra", "zh": "犯错误：在做某事时出现错误或不正确的行为。", "ex": "I don't often make mistakes with my homework."}, {"w": "make a noise", "ipa": "ˌmeɪk ə ˈnɔɪz", "pos": "phra", "zh": "大谈特谈或抱怨：对某事大谈特谈或抱怨。", "ex": "The bear made a terrible noise."}, {"w": "have a shower", "ipa": "ˌhæv ə ˈʃaʊə", "pos": "phra", "zh": "淋浴：在浴室内用水淋浴来清洗身体。", "ex": "I have a shower in the morning."}, {"w": "get angry", "ipa": "ˌget ˈæŋ.gri", "pos": "phra", "zh": "变得生气，发怒：感到愤怒或不满（常与 at/with 连用，表示对某人或某事生气）。", "ex": "I get angry when my brother takes my things."}, {"w": "go away", "ipa": "ˌgəʊ əˈweɪ", "pos": "phra", "zh": "to leave a place", "ex": "After a while, the bear went away."}, {"w": "get excited", "ipa": "ˌget ɪkˈsaɪ.tɪd", "pos": "phra", "zh": "变得兴奋：感到非常高兴和热情。", "ex": "I always get excited when I go on holiday."}, {"w": "do homework", "ipa": "ˌdu: ˈhəʊm.wɜːk", "pos": "phra", "zh": "做作业，做家庭作业；做足功课（事先认真研究某个主题或情况，以便能够妥善处理）。", "ex": "I didn't do my homework last night."}, {"w": "go on holiday", "ipa": "ˌgəʊ ɒn ˈhɒl.ə.deɪ", "pos": "phra", "zh": "度假：离开日常生活去休闲或旅游的行为。", "ex": "My family didn't go on holiday last year."}, {"w": "take photos", "ipa": "ˌteɪk ˈfəʊ.təʊz", "pos": "phra", "zh": "拍照：使用相机或手机等设备拍摄照片。", "ex": "Last week I took a lot of photos with my phone."}, {"w": "do something", "ipa": "ˈdu: ˌsʌm.θɪŋ", "pos": "phra", "zh": "采取行动：为了帮助情况而采取某种行动。", "ex": "We need to do something to help him!"}, {"w": "beautiful", "ipa": "ˈbjuː.tɪ.fəl", "pos": "adje", "zh": "adj. 美丽的，漂亮的", "ex": "Erin thought Tonk was a beautiful horse."}, {"w": "boring", "ipa": "ˈbɔː.rɪŋ", "pos": "adje", "zh": "adj. 令人厌烦的", "ex": "a boring TV programme"}, {"w": "clean", "ipa": "kliːn", "pos": "adje", "zh": "adj. 洁净的，干净的", "ex": "a clean white shirt"}, {"w": "clever", "ipa": "ˈklev.ə", "pos": "adje", "zh": "able to learn and understand things quickly and easily", "ex": "Both children were clever."}, {"w": "dangerous", "ipa": "ˈdeɪn.dʒə.rəs", "pos": "adje", "zh": "adj. 危险的，有威胁的", "ex": "Sometimes snakes are dangerous."}, {"w": "dirty", "ipa": "ˈdɜː.ti", "pos": "adje", "zh": "adj. 肮脏的", "ex": "a dirty car"}, {"w": "horrible", "ipa": "ˈhɒr.ə.bl̩", "pos": "adje", "zh": "可怕的，令人恐惧的；糟糕的，讨厌的；不友好的", "ex": "Dan! Don’t be horrible!"}, {"w": "interesting", "ipa": "ˈɪn.trəs.tɪŋ", "pos": "adje", "zh": "adj. 有趣的，有吸引力的", "ex": "I talked to my friends but they didn’t say anything interesting."}, {"w": "lovely", "ipa": "ˈlʌv.li", "pos": "adje", "zh": "adj. 可爱的，迷人的", "ex": "a lovely meal/evening"}, {"w": "safe", "ipa": "seɪf", "pos": "adje", "zh": "adj. 安全的，平安的", "ex": "In some cities you don't feel safe going out alone at night."}, {"w": "stupid", "ipa": "ˈstjuː.pɪd", "pos": "adje", "zh": "笨的，傻的，脑子不好使的；欠考虑的，糊涂的；（用以加强语气）讨厌的，恼人的，无聊的；（因醉、累等）不省人事的，神思恍惚的", "ex": "How could you be so stupid?"}, {"w": "ugly", "ipa": "ˈʌg.li", "pos": "adje", "zh": "unpleasant to look at", "ex": "a big, fat, ugly spider"}]
 };
 
 /* 篇章元数据 */
@@ -1934,6 +767,11 @@ var PASSAGES = {
     { key:'u12_p117_transport',    p:'p117', kind:'文化',   title:'Transport Around the World', intro:'世界交通', demo:false }
   ]
 };
+Object.assign(PASSAGES, { "8": [{ key:'u8_75', p:'75', kind:'阅读 A', title:'#Music in the forest', intro:'I\'m leaving home.…', demo:false }, { key:'u8_77', p:'77', kind:'听力', title:'Musicians around the world', intro:'Hello and welcome!…', demo:false }, { key:'u8_78', p:'78', kind:'阅读 A', title:'A teenage DJ', intro:'Who are you?…', demo:false }, { key:'u8_80', p:'80', kind:'文化', title:'Dances around the world', intro:'The Tango is the nationa…', demo:false }] });
+Object.assign(PASSAGES, { "9": [{ key:'u9_85', p:'85', kind:'阅读 A', title:'Kitchen Kids', intro:'Harry doesn\'t want to be…', demo:false }, { key:'u9_87', p:'87', kind:'听力', title:'Cooking', intro:'Can we make some sandwic…', demo:false }, { key:'u9_88', p:'88', kind:'阅读 A', title:'In a restaurant', intro:'Hello. Can I help you?…', demo:false }, { key:'u9_90', p:'90', kind:'口语对话', title:'Offering and asking for help', intro:'Wow! What a great smell!…', demo:false }] });
+Object.assign(PASSAGES, { "10": [{ key:'u10_92', p:'92', kind:'阅读 A', title:'She was the first woman in space', intro:'Valentina Tereshkova was…', demo:false }, { key:'u10_95', p:'95', kind:'听力', title:'A prize-giving at school', intro:'Hi Will, how are you? Ar…', demo:false }, { key:'u10_96', p:'96', kind:'阅读 A', title:'Sports achievers', intro:'Yesterday, I was online …', demo:false }, { key:'u10_99', p:'99', kind:'文化', title:'Statues around the world', intro:'There are many wonderful…', demo:false }] });
+Object.assign(PASSAGES, { "11": [{ key:'u11_102', p:'102', kind:'阅读 A', title:'Dolphins to the rescue', intro:'Everyone knows that dolp…', demo:false }, { key:'u11_105', p:'105', kind:'听力', title:'Josh\'s holiday', intro:'Hey Josh, did you have a…', demo:false }, { key:'u11_106', p:'106', kind:'阅读 A', title:'Extinct animals', intro:'1.…', demo:false }, { key:'u11_108', p:'108', kind:'口语对话', title:'Sequencing a story', intro:'Hey Nathan, how are you?…', demo:false }] });
+
 
 var K = 'think-foundation-progress-v6';
 
@@ -1986,7 +824,7 @@ function vocabProgress(key){
 function findPassageMeta(key){ for(var u in PASSAGES){ var f=PASSAGES[u].find(function(p){return p.key===key;}); if(f) return f; } return null; }
 function pgOfKey(pk){ var m=String(pk).match(/p(\d+)/); return m? +m[1] : 0; }
 function followProg(pg){ try{ var o=JSON.parse(localStorage.getItem('tf_follow_'+pg)); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
-var THEME_TITLE = { '7':'单元主题词汇（运动·时间·月份·序数）', '12':'单元主题词汇（交通出行）' };
+var THEME_TITLE = { '1':'单元主题词汇 · Unit 1 全书词表', '2':'单元主题词汇 · Unit 2 全书词表', '3':'单元主题词汇 · Unit 3 全书词表', '4':'单元主题词汇 · Unit 4 全书词表', '5':'单元主题词汇 · Unit 5 全书词表', '6':'单元主题词汇 · Unit 6 全书词表', '7':'单元主题词汇（运动·时间·月份·序数）', '8':'单元主题词汇 · Unit 8 全书词表', '9':'单元主题词汇 · Unit 9 全书词表', '10':'单元主题词汇 · Unit 10 全书词表', '11':'单元主题词汇 · Unit 11 全书词表', '12':'单元主题词汇（交通出行）' };
 
 /* ── Toast ── */
 var toastEl = $('toast'), toastT = null;
@@ -2007,14 +845,6 @@ function closeShelf(){ shelfRoot.classList.add('off'); }
 function stopAudio(){ try{ var a=$('audio'); if(a){ a.pause(); } }catch(e){} }
 
 /* ═══════════ 接入原有点读引擎（同页切换，不再开新标签） ═══════════ */
-function gotoEngine(pg){
-  if(!pg || !window.BOOK || !window.BOOK[pg]){ toast('该篇音频尚未收录'); return; }
-  closeShelf();
-  try{ history.replaceState(null, '', location.pathname + '?pg=' + pg); }catch(e){}
-  if(typeof cancelGap==='function') cancelGap();
-  if(typeof render==='function') render(pg);
-  if(typeof paint==='function') paint();
-}
 
 /* ═══════════ 首页：书架 ═══════════ */
 var shelfEl = $('shelf');
@@ -2060,7 +890,7 @@ function themeProgress(unitKey){ return vocabProgress(themeKey(unitKey)); }
 function openThemeVocabEngine(unitKey){
   var words = THEME[unitKey] || [];
   if(!words.length){ toast('该单元主题词汇尚未整理'); return; }
-  window.open('词汇诊断/词汇诊断_' + themeKey(unitKey) + '.html','_blank');
+  window.open('00_主题词汇/词汇诊断_' + themeKey(unitKey) + '.html','_blank');
 }
 
 function renderThemeVocab(key){
@@ -2130,16 +960,54 @@ function actBtn(action, label, cls){
   return '<button class="btn'+(cls?' '+cls:'')+'" data-action="'+action+'">'+label+'</button>';
 }
 
+/* 引擎可用性（2026-10-15 定案，替代硬编码 u7_/u12_ 前缀白名单）：
+   词汇 = 诊断页已生成的单元（U7–U12 均已产出 词汇诊断/词汇诊断_<key>.html）
+   跟读 = 篇章页三页已生成（FOLLOW_FILES[pg]={listen,follow,dictate} 由 _gen_follow_v2.py 维护） */
+var LIVE_VOCAB_RE = /^u(7|8|9|10|11|12)_/;
+function vocabLive(key){ return LIVE_VOCAB_RE.test(String(key||'')); }
+function followLive(p){
+  var pg = parseInt(String(p).replace(/^p/,''), 10);
+  return !!(window.FOLLOW_FILES && FOLLOW_FILES[pg]);
+}
+
 function renderFlow(){
   var el = $('flow'); var p = currentPg;
-  var live = (p.key.indexOf('u7_')===0 || p.key.indexOf('u12_')===0);
-  var vocabBtn = live
+  var vLive = vocabLive(p.key), fLive = followLive(p.p);
+  var pgN = parseInt(String(p.p).replace(/^p/,''), 10);
+  var fm = (window.FOLLOW_META && FOLLOW_META[pgN]) || {};
+  var metaBits = [];
+  if(fm.s) metaBits.push(fm.s + ' 句 · 句级时间轴');
+  metaBits.push(fm.v ? '生词诊断 ✓' : '生词诊断未建');
+  var metaRow = '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
+    + metaBits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
+    + '</div>';
+  var vocabBtn = vLive
     ? actBtn('open-vocab', '开始篇章词汇学习 '+ICON('right','sm'), '')
     : actBtn('soon-vocab', '词汇词卡建设中', 'ghost');
-  var followBtn = live
-    ? actBtn('open-follow', '进入篇章跟读 '+ICON('right','sm'), '')
-    : actBtn('soon-follow', '跟读组件建设中', 'ghost');
-  el.innerHTML =
+  /* 篇章跟读三卡（2026-10-16 拆页）：预习（聆听）/ 复习（跟读）/ 听写，各自数据条 + 打开链接 */
+  function fmMeta(bits){
+    return '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
+      + bits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
+      + '</div>';
+  }
+  function stageCard(action, ico, title, desc, bits, btnLabel){
+    return '<div class="flow-card">'
+      + '<div class="fc-ico">'+ICON(ico)+'</div><h4>'+title+'</h4>'
+      + '<div class="fc-desc">'+desc+'</div>'
+      + (fLive ? fmMeta(bits) : '')
+      + (fLive ? actBtn(action, btnLabel+' '+ICON('right','sm'), '')
+               : actBtn('soon-follow', '跟读组件建设中', 'ghost'))
+      + '</div>';
+  }
+  var listenBits = [];
+  if(fm.s) listenBits.push(fm.s + ' 句 · 句级时间轴');
+  if(fm.q) listenBits.push('预习 ' + fm.q + ' 题');
+  listenBits.push(fm.v ? '生词诊断 ✓' : '生词诊断未建');
+  var followBits = [];
+  if(fm.s) followBits.push(fm.s + ' 句 · 逐句跟读');
+  followBits.push('间隙生词提示');
+  var dictateBits = ['抽 3/5 句 · 四遍精听', '键盘 / 稿纸 / 听写本'];
+  el.innerHTML = metaRow +
     '<div class="flow-card">'
     + '<div class="fc-ico">'+ICON('book')+'</div><h4>篇章词汇</h4>'
     + '<div class="fc-desc">为这一篇的词汇做「预习 · 复习 · 测试」三步。不认识的一个个学起来，测试达标即完成本篇预习。</div>'
@@ -2150,22 +1018,24 @@ function renderFlow(){
     + '</div>'
     + vocabBtn
     + '</div>'
-    + '<div class="flow-card">'
-    + '<div class="fc-ico">'+ICON('sound')+'</div><h4>篇章跟读</h4>'
-    + '<div class="fc-desc">听读原文，逐句跟读、逐句听写。让嘴巴和耳朵把这一篇真正练熟。</div>'
-    + '<div class="steps">'
-    +   '<div class="step"><span class="s-num">1</span>聆听：整篇听读，感受节奏</div>'
-    +   '<div class="step"><span class="s-num">2</span>跟读：逐句跟读，对照原文</div>'
-    +   '<div class="step"><span class="s-num">3</span>听写：逐句听写，检验掌握</div>'
-    + '</div>'
-    + followBtn
-    + '</div>';
+    + stageCard('open-follow-listen', 'ear', '篇章预习 · 聆听',
+        '盲听整篇（答题前隐去原文），阅读预习题并用下划线/画圈标记，≥75% 记完成；整篇循环聆听 3 遍。',
+        listenBits, '开始预习聆听')
+    + stageCard('open-follow-follow', 'mic', '篇章复习 · 跟读',
+        '听读原文，逐句跟读：听完整一句 → 间隙看生词提示 → 开口跟读整句。',
+        followBits, '开始复习跟读')
+    + stageCard('open-follow-dictate', 'clipboard', '篇章听写',
+        '从本篇抽句四遍精听（第1、4遍常速，第2、3遍慢速），键盘输入 / 稿纸对照 / 听写本逐词自评三种方式。',
+        dictateBits, '开始听写');
 
   el.querySelectorAll('[data-action]').forEach(function(b){
     b.addEventListener('click', function(){
       switch(b.dataset.action){
         case 'open-vocab': openVocabEngine(); break;
         case 'open-follow': openFollowEngine(); break;
+        case 'open-follow-listen': openFollowEngine('listen'); break;
+        case 'open-follow-follow': openFollowEngine('follow'); break;
+        case 'open-follow-dictate': openFollowEngine('dictate'); break;
         case 'soon-vocab': toast('「'+ currentPg.title +'」篇章词汇词表正在生成'); break;
         case 'soon-follow': toast('「'+ currentPg.title +'」跟读组件正在接入'); break;
       }
@@ -2195,17 +1065,22 @@ function el_query(sel){ return document.querySelector(sel); }
 /* 引擎接入：独立词汇诊断页（按篇章 key 隔离存储） / 本页点读引擎跟读 */
 function openVocabEngine(){
   var key = currentPg.key;
-  var live = (key.indexOf('u7_')===0 || key.indexOf('u12_')===0);
-  if(!live){ toast('「'+currentPg.title+'」词汇词表建设中'); return; }
+  if(!vocabLive(key)){ toast('「'+currentPg.title+'」词汇词表建设中'); return; }
   window.open('词汇诊断/词汇诊断_'+key+'.html','_blank');
 }
-function openFollowEngine(){
-  var key = currentPg.key;
-  var live = (key.indexOf('u7_')===0 || key.indexOf('u12_')===0);
-  if(!live){ toast('「'+currentPg.title+'」跟读组件接入中，稍后开放'); return; }
+function openFollowEngine(stage){
   var pg = parseInt(String(currentPg.p).replace(/^p/,''), 10);
-  if(isNaN(pg)){ toast('无法定位该篇音频'); return; }
-  gotoEngine(pg);
+  var f = window.FOLLOW_FILES && FOLLOW_FILES[pg];
+  if(!f){ toast('「'+currentPg.title+'」跟读页生成中，稍后开放'); return; }
+  /* 打开三页之一：显式 stage 优先；否则 URL 带 ?tasks= 时按首环节选页；默认复习页 */
+  var key = (stage && f[stage]) ? stage : null;
+  if(!key){
+    var t = (location.search||"").match(/[?&]tasks=([\w,]+)/);
+    var first = t ? t[1].split(",")[0] : null;
+    if(first && f[first]) key = first;
+  }
+  if(!key) key = f.follow ? "follow" : (f.listen ? "listen" : "dictate");
+  window.open('篇章页/' + f[key], '_blank');
 }
 
 /* ── 任务面板入口直接打开引擎 ── */
@@ -2218,16 +1093,18 @@ function launchTaskMaterial(unit, type, it){
     return;
   }
   var meta = findPassageMeta(it.passageKey);
-  var live = !meta || (it.passageKey.indexOf('u7_')===0 || it.passageKey.indexOf('u12_')===0);
-  if(!live){ toast('「'+ (meta?meta.title:it.passageKey) +'」材料暂未接入'); return; }
+  var pg = meta ? parseInt(String(meta.p).replace(/^p/,''), 10) : NaN;
   if(it.mode==='vocab'){
+    if(!vocabLive(it.passageKey)){ toast('「'+ (meta?meta.title:it.passageKey) +'」词汇词表建设中'); return; }
     report(name, unit, type, it.passageKey, 'start');
     window.open('词汇诊断/词汇诊断_'+it.passageKey+'.html','_blank');
   } else if(it.mode==='follow'){
+    var ff = (!isNaN(pg)) && window.FOLLOW_FILES && FOLLOW_FILES[pg];
+    if(!ff){ toast('「'+ (meta?meta.title:it.passageKey) +'」跟读页生成中'); return; }
     report(name, unit, type, it.passageKey, 'start');
-    var pg = parseInt(String(meta.p).replace(/^p/,''), 10);
-    if(!isNaN(pg)) gotoEngine(pg);
-    else toast('找不到该篇音频');
+    /* 预习任务开预习页（无则复习页），复习任务开复习页 */
+    var key = (type==='preview' && ff.listen) ? 'listen' : (ff.follow ? 'follow' : 'listen');
+    window.open('篇章页/' + ff[key], '_blank');
   }
 }
 
@@ -2439,7 +1316,7 @@ $('welcomeBtn').addEventListener('click', function(){
 
 /* 点读引擎顶栏「书架」按钮：随时回到书架首页 */
 var mapBtn = $('mapBtn');
-if(mapBtn) mapBtn.addEventListener('click', function(){ if(typeof cancelGap==='function') cancelGap(); openShelf(); showView('home'); });
+if(mapBtn) mapBtn.addEventListener('click', function(){ openShelf(); showView('home'); });
 
 /* ═══════════ 启动 ═══════════ */
 /* 词汇页在另一标签页学习完回来时，刷新单元页的进度显示与任务完成度 */
@@ -2472,23 +1349,15 @@ function boot(){
   renderShelf();
   pullAssignments();                                   /* 首次拉取全班任务 */
   setInterval(function(){ if(!document.hidden) pullAssignments(); }, 30000);
+  /* ?pg= 深链已由页首路由 script 直跳跟读听写单文件 */
   var q = location.search || '';
-  var pm = q.match(/[?&]pg=(\d+)/);
   var um = q.match(/[?&]unit=(\d+)/);
-  if(pm){                                    /* 深链：直达点读引擎，不显示书架 */
-    closeShelf();
-    if(window.BOOK && window.BOOK[+pm[1]]){
-      if(typeof render==='function') render(+pm[1]);
-      if(typeof paint==='function') paint();
-    }
-  } else {                                   /* 默认首页：书架 */
-    openShelf();
-    showView('home');
-    if(um){
-      var u = UNITS.find(function(x){ return x.key===um[1]; });
-      if(u && u.live){
-        openUnit(um[1]);
-      }
+  openShelf();
+  showView('home');
+  if(um){
+    var u = UNITS.find(function(x){ return x.key===um[1]; });
+    if(u && u.live){
+      openUnit(um[1]);
     }
   }
   /* 未填姓名时引导填写，保证预习/复习进度可记录 */

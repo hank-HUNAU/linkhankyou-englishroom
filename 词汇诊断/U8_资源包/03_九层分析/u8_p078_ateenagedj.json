@@ -1,0 +1,2406 @@
+{
+ "source": "A1_Starters | A1_Movers | A2_Flyers | KET | PET | FCE | CAE | NGSL | NAWL",
+ "total": 195,
+ "numbers": 6,
+ "proper": 9,
+ "tokens": [
+  {
+   "kind": "word",
+   "form": "A",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "teenage",
+   "lemma": "teenage",
+   "hit": [],
+   "sent": "A teenage DJ\nWho are you?"
+  },
+  {
+   "kind": "proper",
+   "form": "DJ",
+   "lemma": "dj",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "Who",
+   "lemma": "who",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I'm",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Danny",
+   "lemma": "danny",
+   "hit": []
+  },
+  {
+   "kind": "proper",
+   "form": "Boyd",
+   "lemma": "boyd",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "I'm",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "14",
+   "lemma": "14",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "years",
+   "lemma": "year",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "old",
+   "lemma": "old",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I'm",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Luton",
+   "lemma": "luton",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "What",
+   "lemma": "what",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "do",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "do",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I'm",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "student",
+   "lemma": "student",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "at",
+   "lemma": "at",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "school",
+   "lemma": "school",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "at",
+   "lemma": "at",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "weekends",
+   "lemma": "weekend",
+   "hit": [
+    1,
+    3,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "work",
+   "lemma": "work",
+   "hit": [
+    1,
+    3,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "as",
+   "lemma": "as",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "DJ",
+   "lemma": "dj",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "Wow",
+   "lemma": "wow",
+   "hit": [
+    0,
+    3
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "that's",
+   "lemma": "that",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "interesting",
+   "lemma": "interesting",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Can",
+   "lemma": "can",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "tell",
+   "lemma": "tell",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "us",
+   "lemma": "us",
+   "hit": [
+    0,
+    3,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "more",
+   "lemma": "more",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I'm",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "DJ",
+   "lemma": "dj",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "at",
+   "lemma": "at",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "local",
+   "lemma": "local",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "youth",
+   "lemma": "youth",
+   "hit": [
+    4,
+    7
+   ],
+   "layer": "PET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "club",
+   "lemma": "club",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "play",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "every",
+   "lemma": "every",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Saturday",
+   "lemma": "saturday",
+   "hit": [
+    1
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "6",
+   "lemma": "6",
+   "hit": []
+  },
+  {
+   "kind": "out",
+   "form": "pm",
+   "lemma": "pm",
+   "hit": [],
+   "sent": "I play every Saturday from 6pm to 10pm."
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "10",
+   "lemma": "10",
+   "hit": []
+  },
+  {
+   "kind": "out",
+   "form": "pm",
+   "lemma": "pm",
+   "hit": [],
+   "sent": "I play every Saturday from 6pm to 10pm."
+  },
+  {
+   "kind": "word",
+   "form": "There's",
+   "lemma": "be",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "usually",
+   "lemma": "usually",
+   "hit": [
+    2,
+    3,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "about",
+   "lemma": "about",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "100",
+   "lemma": "100",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "people",
+   "lemma": "people",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "It's",
+   "lemma": "it",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "great",
+   "lemma": "great",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "fun",
+   "lemma": "fun",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "also",
+   "lemma": "also",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "sometimes",
+   "lemma": "sometimes",
+   "hit": [
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "play",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "for",
+   "lemma": "for",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "big",
+   "lemma": "big",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "crowds",
+   "lemma": "crowd",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "park",
+   "lemma": "park",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "sometimes",
+   "lemma": "sometimes",
+   "hit": [
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "beach",
+   "lemma": "beach",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "too",
+   "lemma": "too",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "What",
+   "lemma": "what",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "do",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "doing",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "your",
+   "lemma": "your",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "free",
+   "lemma": "free",
+   "hit": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "time",
+   "lemma": "time",
+   "hit": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "love",
+   "lemma": "love",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "listening",
+   "lemma": "listen",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "music",
+   "lemma": "music",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "finding",
+   "lemma": "find",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "new",
+   "lemma": "new",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "songs",
+   "lemma": "song",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "play",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "watching",
+   "lemma": "watch",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "films",
+   "lemma": "film",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "playing",
+   "lemma": "play",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "games",
+   "lemma": "game",
+   "hit": [
+    0,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "my",
+   "lemma": "my",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "VR",
+   "lemma": "vr",
+   "hit": []
+  },
+  {
+   "kind": "out",
+   "form": "headset",
+   "lemma": "headset",
+   "hit": [],
+   "sent": "I like watching films and playing games on my VR headset but I hate dancing."
+  },
+  {
+   "kind": "word",
+   "form": "but",
+   "lemma": "but",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "hate",
+   "lemma": "hate",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "dancing",
+   "lemma": "dancing",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "know",
+   "lemma": "know",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "that's",
+   "lemma": "that",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "strange",
+   "lemma": "strange",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "thing",
+   "lemma": "thing",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "for",
+   "lemma": "for",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "DJ",
+   "lemma": "dj",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "say",
+   "lemma": "say",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "love",
+   "lemma": "love",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "watching",
+   "lemma": "watch",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "other",
+   "lemma": "other",
+   "hit": [
+    2,
+    3,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "people",
+   "lemma": "people",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "dance",
+   "lemma": "dance",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "but",
+   "lemma": "but",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "never",
+   "lemma": "never",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "dance",
+   "lemma": "dance",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "myself",
+   "lemma": "myself",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "What",
+   "lemma": "what",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "do",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "wearing",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "wearing",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "jeans",
+   "lemma": "jeans",
+   "hit": [
+    0,
+    3,
+    4
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "white",
+   "lemma": "white",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "T",
+   "lemma": "t",
+   "hit": [
+    7
+   ],
+   "layer": "NGSL",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "shirt",
+   "lemma": "shirt",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "also",
+   "lemma": "also",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "wear",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "red",
+   "lemma": "red",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "cap",
+   "lemma": "cap",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "don't",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "like",
+   "lemma": "like",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "wearing",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "shirts",
+   "lemma": "shirt",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "trousers",
+   "lemma": "trousers",
+   "hit": [
+    0,
+    3,
+    4
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "I",
+   "lemma": "i",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "wear",
+   "lemma": "wear",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "those",
+   "lemma": "those",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "every",
+   "lemma": "every",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "day",
+   "lemma": "day",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "at",
+   "lemma": "at",
+   "hit": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "school",
+   "lemma": "school",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Thanks",
+   "lemma": "thanks",
+   "hit": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Danny",
+   "lemma": "danny",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "good",
+   "lemma": "good",
+   "hit": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "luck",
+   "lemma": "luck",
+   "hit": [
+    3,
+    4,
+    7
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "Thank",
+   "lemma": "thank",
+   "hit": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "layer": "A2_Flyers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Why",
+   "lemma": "why",
+   "hit": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Movers",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "don't",
+   "lemma": "do",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "you",
+   "lemma": "you",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "come",
+   "lemma": "come",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "to",
+   "lemma": "to",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "one",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "my",
+   "lemma": "my",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "shows",
+   "lemma": "show",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "one",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "day",
+   "lemma": "day",
+   "hit": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "layer": "A1_Starters",
+   "cefr": "A1"
+  }
+ ]
+}
