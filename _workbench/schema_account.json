@@ -1,0 +1,14 @@
+{
+  "title": "学生账户",
+  "properties": [
+    { "name": "姓名", "config": { "text": "" } },
+    { "name": "学号", "config": { "text": "" } },
+    { "name": "所属班级", "config": { "text": "" } },
+    { "name": "账户状态", "config": { "select": { "options": [
+      { "text": "在读", "id": "s1t2u3v4w5x6y7z8" },
+      { "text": "停用", "id": "s2t3u4v5w6x7y8z9" }
+    ] } } },
+    { "name": "加入时间", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "备注", "config": { "text": "" } }
+  ]
+}

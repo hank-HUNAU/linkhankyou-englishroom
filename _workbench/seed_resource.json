@@ -1,0 +1,8 @@
+[
+  { "资源名称": { "text": "Unit 8 阅读A Music in the Forest 课文音频" }, "类型": { "select": "音频" }, "单元": { "text": "Unit 8" }, "标签": { "text": "阅读A · 精听" }, "链接": { "url": { "text": "课文音频", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/assets/p075.mp3" } }, "上传时间": { "date": "2026-10-13" } },
+  { "资源名称": { "text": "Unit 8 阅读B A teenage DJ 访谈音频" }, "类型": { "select": "音频" }, "单元": { "text": "Unit 8" }, "标签": { "text": "阅读B · 访谈" }, "链接": { "url": { "text": "访谈音频", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/assets/p078.mp3" } }, "上传时间": { "date": "2026-10-13" } },
+  { "资源名称": { "text": "Unit 8 文化 Dances around the world 音频" }, "类型": { "select": "音频" }, "单元": { "text": "Unit 8" }, "标签": { "text": "文化 · 拓展" }, "链接": { "url": { "text": "文化音频", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/assets/p080.mp3" } }, "上传时间": { "date": "2026-10-13" } },
+  { "资源名称": { "text": "Unit 7 听力 Musicians around the world 音频" }, "类型": { "select": "音频" }, "单元": { "text": "Unit 7" }, "标签": { "text": "听力 · 精听" }, "链接": { "url": { "text": "听力音频", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/assets/p077.mp3" } }, "上传时间": { "date": "2026-10-12" } },
+  { "资源名称": { "text": "Unit 8 核心词汇表（12 词）" }, "类型": { "select": "词汇表" }, "单元": { "text": "Unit 8" }, "标签": { "text": "词汇 · 预习" }, "链接": { "url": { "text": "学习平台", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/" } }, "上传时间": { "date": "2026-10-12" } },
+  { "资源名称": { "text": "Unit 8 教师用书讲义" }, "类型": { "select": "PDF讲义" }, "单元": { "text": "Unit 8" }, "标签": { "text": "备课 · 教学参考" }, "链接": { "url": { "text": "学习平台", "link": "https://hank-hunau.github.io/linkhankyou-englishroom/" } }, "上传时间": { "date": "2026-10-10" } }
+]

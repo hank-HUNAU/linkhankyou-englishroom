@@ -1,0 +1,24 @@
+{
+  "title": "预习任务",
+  "properties": [
+    { "name": "任务标题", "config": { "text": "" } },
+    { "name": "单元", "config": { "text": "" } },
+    { "name": "内容类型", "config": { "select": { "options": [
+      { "text": "词汇", "id": "k3x8f2m91jqvbz4a" },
+      { "text": "阅读", "id": "a7b2c9d41npwke5t" },
+      { "text": "听力", "id": "p9m3n7x52rqfhs6y" },
+      { "text": "口语", "id": "w4t6u8i0o2p1l3k5" },
+      { "text": "语法", "id": "z1y2x3w4v5u6t7s8" },
+      { "text": "文化", "id": "m2n4b6v8c1x3z5q7" }
+    ] } } },
+    { "name": "推送班级", "config": { "select": { "options": [
+      { "text": "全班", "id": "q1w2e3r4t5y6u7i8" },
+      { "text": "A组", "id": "a9s8d7f6g5h4j3k2" },
+      { "text": "B组", "id": "l0k9j8h7g6f5d4s3" }
+    ] } } },
+    { "name": "预计用时", "config": { "number": { "decimalPlaces": 0, "useSeparate": false } } },
+    { "name": "推送时间", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "截止日期", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "任务说明", "config": { "text": "" } }
+  ]
+}

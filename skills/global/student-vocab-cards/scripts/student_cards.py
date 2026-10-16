@@ -16,12 +16,15 @@
 import os, sys, re, json, io, glob, time, html, subprocess, urllib.request, urllib.parse, argparse
 
 def _main_dir():
-    """向上查找真实主技能目录(article-vocab-analyzer)，部署处与工作区均通用。"""
+    """向上查找真实主技能目录(article-vocab-analyzer)，兼容多布局(平铺/skills、skills/global、skills/project)。"""
     d = os.path.dirname(os.path.abspath(__file__))
+    subs = (("skills", "article-vocab-analyzer"), ("skills", "global", "article-vocab-analyzer"),
+            ("skills", "project", "article-vocab-analyzer"), ("article-vocab-analyzer",))
     for _ in range(8):
-        cand = os.path.join(d, "skills", "article-vocab-analyzer")
-        if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
-            return os.path.abspath(cand)
+        for sub in subs:
+            cand = os.path.join(d, *sub)
+            if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
+                return os.path.abspath(cand)
         d = os.path.dirname(d)
     return None
 MAIN = _main_dir() or os.path.abspath("article-vocab-analyzer")

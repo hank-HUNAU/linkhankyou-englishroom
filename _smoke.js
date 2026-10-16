@@ -108,8 +108,12 @@ const CORRECT_OPT = { 'climb#unknown':'攀登，攀爬', 'board#unknown':'板，
   const rows = csv.trim().split(/\r?\n/);
   ok('审校工作表已生成', rows.length > 100, '数据行=' + (rows.length - 1));
   /* 篇章词汇页与单元主题词汇页共用同一套诊断模板，两处都要有覆盖表接线 */
-  for (const pf of ['词汇诊断_u12_p111_greatrace.html', '词汇诊断_theme_u7.html']) {
-    const page = fs.readFileSync(path.join(__dirname, '词汇诊断', pf), 'utf8');
+  const pageChecks = [
+    ['词汇诊断', '词汇诊断_u12_p111_greatrace.html'],
+    ['../Think F 教材资产/00_主题词汇', '词汇诊断_theme_u7.html']  /* 主题词汇页已归正典至教材资产目录 */
+  ];
+  for (const [pd, pf] of pageChecks) {
+    const page = fs.readFileSync(path.join(__dirname, pd, pf), 'utf8');
     ok('词汇页已接入覆盖表脚本 — ' + pf, page.includes('干扰项审校.js'));
     ok('词汇页用惰性 vqDis() 读取覆盖表 — ' + pf, /function vqDis\(\)/.test(page) && /vqDis\(\)\[String/.test(page));
     ok('词汇页用确定性优选 pickDistractors — ' + pf, /function pickDistractors/.test(page) && /pickDistractors\(w, 'zh'/.test(page));

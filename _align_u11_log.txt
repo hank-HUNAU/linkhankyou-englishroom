@@ -1,0 +1,118 @@
+Unit 11 正课文：4 篇 -> p102, p105, p106, p108
+[+] p102 <- Thk2e_BE_L0_SB_Unit_11_p102_t01[公众号happyshare2023].mp3
+[+] p105 <- Thk2e_BE_L0_SB_Unit_11_p105_t02[公众号happyshare2023].mp3
+[+] p106 <- Thk2e_BE_L0_SB_Unit_11_p106_t05[公众号happyshare2023].mp3
+[+] p108 <- Thk2e_BE_L0_SB_Unit_11_p108_t07[公众号happyshare2023].mp3
+加载 faster-whisper small (cpu int8) ...
+[asr] p102 136.5s -> 268 词
+[asr] p105 138.1s -> 258 词
+[asr] p106 139.9s -> 243 词
+[asr] p108 94.2s -> 163 词
+
+=== p102  阅读A · Dolphins to the rescue（case2）===
+Aligning text with cached word alignments: Everyone knows that dolphins are very intelligent animals.
+But did you know that many scientists bel...
+Using 268 cached word alignments
+Split by newlines: 20 sentences
+Split into 20 sentences
+Word alignment: matched 255/255 text words to 268 whisper words
+Got 20 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 42
+Detected 42 silence intervals
+  Adjusted segment 3 end: 27.740 -> 27.852 (near silence)
+  Adjusted segment 4 end: 30.940 -> 31.010 (near silence)
+  Adjusted segment 5 end: 43.380 -> 43.514 (near silence)
+  Adjusted segment 6 end: 52.320 -> 52.419 (near silence)
+  Adjusted segment 7 end: 56.140 -> 56.181 (near silence)
+  Adjusted segment 8 end: 58.880 -> 58.967 (near silence)
+  Adjusted segment 9 end: 63.900 -> 63.971 (near silence)
+  Adjusted segment 10 end: 71.640 -> 71.773 (near silence)
+  Adjusted segment 11 end: 74.980 -> 75.105 (near silence)
+  Adjusted segment 13 end: 84.580 -> 84.602 (near silence)
+  Adjusted segment 14 end: 95.960 -> 96.107 (near silence)
+  Adjusted segment 15 end: 101.460 -> 101.506 (near silence)
+  Adjusted segment 16 end: 107.560 -> 107.671 (near silence)
+  Adjusted segment 17 end: 111.360 -> 111.479 (near silence)
+  Adjusted segment 19 end: 125.240 -> 125.353 (near silence)
+After silence validation: 20 aligned sentences
+[ok] p102 20 句，低置信 0，首句 9.220s
+
+=== p105  听力 · Josh's holiday（case1）===
+Aligning text with cached word alignments: Hey Josh, did you have a good holiday?
+Hi Mandy, yes it was great.
+Where did you go?
+The Pantanal, i...
+Using 258 cached word alignments
+Split by newlines: 31 sentences
+Split into 31 sentences
+Word alignment: matched 249/249 text words to 258 whisper words
+Got 31 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 60
+Detected 60 silence intervals
+  Adjusted segment 4 end: 22.680 -> 22.732 (near silence)
+  Adjusted segment 6 end: 31.240 -> 31.324 (near silence)
+  Adjusted segment 7 start: 31.780 -> 31.777 (near silence)
+  Adjusted segment 7 end: 36.280 -> 36.420 (near silence)
+  Adjusted segment 8 end: 38.220 -> 38.243 (near silence)
+  Adjusted segment 14 end: 62.820 -> 62.880 (near silence)
+  Adjusted segment 15 end: 65.000 -> 65.120 (near silence)
+  Adjusted segment 18 end: 73.480 -> 73.607 (near silence)
+  Adjusted segment 19 end: 85.360 -> 85.368 (near silence)
+  Adjusted segment 21 start: 89.040 -> 89.014 (near silence)
+  Adjusted segment 21 end: 94.960 -> 95.109 (near silence)
+  Adjusted segment 25 start: 110.920 -> 110.840 (near silence)
+After silence validation: 31 aligned sentences
+[ok] p105 31 句，低置信 0，首句 7.320s
+
+=== p106  阅读B · Extinct animals（case2）===
+Aligning text with cached word alignments: 1.
+The Great Auk
+The Great Auk was a large seabird that lived in the North Atlantic.
+It was a bird b...
+Using 243 cached word alignments
+Split by newlines: 27 sentences
+Split into 27 sentences
+Word alignment: matched 234/234 text words to 243 whisper words
+Got 27 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 48
+Detected 48 silence intervals
+  Adjusted segment 2 start: 10.860 -> 10.844 (near silence)
+  Adjusted segment 11 start: 52.460 -> 52.349 (near silence)
+  Adjusted segment 14 end: 77.240 -> 77.322 (near silence)
+  Adjusted segment 20 end: 109.800 -> 109.923 (near silence)
+  Adjusted segment 22 end: 118.260 -> 118.375 (near silence)
+  Adjusted segment 23 end: 121.280 -> 121.394 (near silence)
+  Adjusted segment 25 end: 127.000 -> 127.048 (near silence)
+  Adjusted segment 27 start: 133.020 -> 132.992 (near silence)
+After silence validation: 27 aligned sentences
+[ok] p106 27 句，低置信 0，首句 8.280s
+
+=== p108  口语 · Sequencing a story（case1）===
+Aligning text with cached word alignments: Hey Nathan, how are you? Did you have a good weekend?
+Well, sort of. I mean, it was okay.
+You don't ...
+Using 163 cached word alignments
+Split by newlines: 16 sentences
+Split into 16 sentences
+Word alignment: matched 155/155 text words to 163 whisper words
+Got 16 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 41
+Detected 41 silence intervals
+  Adjusted segment 4 end: 23.580 -> 23.673 (near silence)
+  Adjusted segment 5 end: 33.380 -> 33.530 (near silence)
+  Adjusted segment 7 end: 41.260 -> 41.320 (near silence)
+  Adjusted segment 14 end: 78.640 -> 78.704 (near silence)
+After silence validation: 16 aligned sentences
+[ok] p108 16 句，低置信 0，首句 7.400s
+
+[merge] 合入 assets/timeline.json：28 篇 / 687 句（备份 timeline.json.bak-20261015）
+✓ 已把 assets/timeline.json（28 篇）同步进 index.html
+FAIL  单一数据源校验未通过：
+      - p102 #2 与下一句重叠
+      - p102 #16 与下一句重叠
+      - p108 #3 与下一句重叠
+node _timeline_check.js 失败

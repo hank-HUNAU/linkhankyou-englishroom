@@ -1,0 +1,74 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>课程资源清单 · TH!NK Starter</title>
+<style>
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f6f8;color:#222;margin:0;padding:22px;line-height:1.5;}
+h1{font-size:20px;margin:0 0 4px;} .sub{color:#666;font-size:13px;margin-bottom:12px;}
+.lede{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px;}
+.lede span{background:#fff;border:1px solid #e3e6ec;padding:6px 13px;border-radius:20px;font-size:12.5px;}
+.lede b{color:#1565c0;}
+table{border-collapse:collapse;width:100%;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08);}
+td,th{border-bottom:1px solid #eef0f4;padding:7px 10px;text-align:left;font-size:12.5px;vertical-align:top;}
+th{background:#eef3fb;color:#1565c0;font-size:12px;white-space:nowrap;}
+tr:last-child td{border-bottom:none;}
+.side{font-weight:700;white-space:nowrap;} .t-text .side,.side.t-text{color:#1c4fb0;}
+tr.t-text{background:#f7faff;} tr.t-vocab{background:#fbf9ff;} tr.t-tech{background:#f7fffb;}
+.name{font-weight:600;white-space:nowrap;} .desc{color:#555;} .mono{font-family:Consolas,Menlo,monospace;font-size:11px;color:#666;word-break:break-all;}
+.ok{color:#1b5e20;background:#e6f4ea;padding:1px 8px;border-radius:10px;font-size:11px;white-space:nowrap;}
+.todo{color:#8a5a00;background:#fff3d6;padding:1px 8px;border-radius:10px;font-size:11px;white-space:nowrap;}
+.ext{color:#555;background:#eef0f4;padding:1px 8px;border-radius:10px;font-size:11px;white-space:nowrap;}
+.gh{padding:1px 8px;border-radius:10px;font-size:11px;white-space:nowrap;}
+.gh.pushed{color:#1b5e20;background:#e6f4ea;} .gh.nopush{color:#8a2b00;background:#fdeee6;} .gh.na{color:#777;background:#eef0f4;}
+</style></head><body>
+<h1>课程资源清单 · TH!NK Starter</h1>
+<div class="sub">三侧资产可视化核对表 · CSV 为 canonical，本页由 CSV 渲染 · 更新于 2026-10-13</div>
+<div class="lede">
+  <span>共 <b>39</b> 项</span>
+  <span>课文侧 <b>8</b></span>
+  <span>词汇侧 <b>16</b></span>
+  <span>技术栈侧 <b>15</b></span>
+  <span>✅已推送 <b>14</b> · ❌未推送 <b>24</b></span>
+</div>
+<table>
+<tr><th>侧</th><th>类别</th><th>资产名称</th><th>说明</th><th>存放位置</th><th>内容状态</th><th>GitHub</th></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>清单</td><td class="name">正课文清单三件套</td><td class="desc">48 正课文 + 36 非正文视频映射，课文追踪唯一来源（CSV canonical）</td><td class="mono">reports/正课文清单.{csv,md,html}</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>音频</td><td class="name">课文音频</td><td class="desc">16 篇点读/跟读唯一音源</td><td class="mono">assets/p*.mp3</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>时间轴</td><td class="name">句级时间轴</td><td class="desc">16 篇 / 418 句，唯一权威源（门禁盯一致性）</td><td class="mono">assets/timeline.json</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>视频</td><td class="name">SB 原版视频</td><td class="desc">纪录片 12 + 语法Rap 12 + 播客 6 + 文化视频 6</td><td class="mono">../Student's Book Video 原版/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>参考</td><td class="name">单元篇章清单</td><td class="desc">12 单元篇章标题 / 页码（含 +1 偏移提示）</td><td class="mono">单元篇章清单_unit1-12.html</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>附录</td><td class="name">逐字稿 / 校对 / 结构化笔记</td><td class="desc">p067 / p070 逐字稿与校对</td><td class="mono">p067_p070_*.md</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>素材源</td><td class="name">官方 CD 音频（198 轨）</td><td class="desc">素材库原始音频（版权，库外）</td><td class="mono">003 第三版课程材料/第N单元/第N单元 音频/</td><td><span class="ext">就绪（库外）</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-text"><td class="side t-text">课文</td><td>素材源</td><td class="name">课本 / 教师用书 / 练习册 / 试卷 PDF</td><td class="desc">词汇·语法·技能·测试卷（版权，库外）</td><td class="mono">003 第三版课程材料/第N单元/</td><td><span class="ext">就绪（库外）</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>诊断页</td><td class="name">主题词汇页 ×2</td><td class="desc">theme_u7 / theme_u12：筛选→学习→测试 + 诊断报告</td><td class="mono">词汇诊断/词汇诊断_theme_*.html</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>诊断页</td><td class="name">篇章词汇页 ×15</td><td class="desc">U7×6（p66/67/69/70/72/73）+ U8×4（p075/077/078/080）+ U12×5（p110/111/113/114/117），九层 level + 不规则词形保留原形式口径</td><td class="mono">词汇诊断/词汇诊断_u*_p*.html</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>审校</td><td class="name">干扰项审校工作表</td><td class="desc">干扰项审校工作表.csv + 干扰项审校.js</td><td class="mono">词汇诊断/干扰项审校工作表.csv</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>分析产物</td><td class="name">词汇分析中间产物</td><td class="desc">vocab_analysis_u7p070_u12p111 / 篇章词汇_产出 / 篇章文本_U7_U12</td><td class="mono">词汇诊断/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>词表</td><td class="name">剑桥 Wordlist</td><td class="desc">Think Starter Wordlist</td><td class="mono">../Think Starter Wordlist.xlsx</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>词表</td><td class="name">KET / PET 词表</td><td class="desc">KET_PET_总表 + 词表（剑桥官方词表）</td><td class="mono">KET_PET_*.xlsx</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>词表</td><td class="name">九层分级词表</td><td class="desc">少儿 Pre A1/A1/A2（剑桥少儿）+ 考点 KET/PET/FCE/CAE（A2–C1，FCE/CAE 为 CEFR-J/Octanove 替代）+ NGSL/NAWL</td><td class="mono">skills/global/article-vocab-analyzer/wordlists/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>分析产物</td><td class="name">U7 篇章词汇资产</td><td class="desc">6 篇（p66/67/69/70/72/73）九层分析 + 词汇诊断页 + 备课本</td><td class="mono">词汇诊断/（篇章词汇_产出 / 词汇诊断_u7_*.html）</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>分析产物</td><td class="name">U8 篇章词汇资产</td><td class="desc">4 篇（p075/077/078/080）九层分析 + 词汇诊断页 + 备课本（xlsx+HTML）+ 学生卡 ×4 + 语音卡 ×4（英标 100% 覆盖 + 真人发音 mp3）</td><td class="mono">词汇诊断/（篇章词汇_产出 / 词汇诊断_u8_*.html / 篇章文本_U8）</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>诊断页</td><td class="name">U8 逐句跟读听写诊断页</td><td class="desc">p077 听力篇：逐句跟读（播放/循环/录音 A/B）+ 段落听写（4 段逐句判分）+ 诊断报告，按句 ID u8/p077/sNN 存本机</td><td class="mono">词汇诊断/跟读听写_u8_p077_musicians.html（自包含包：词汇诊断/U8_资源包/）</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>清单</td><td class="name">U8 资源包</td><td class="desc">U8 单元自包含交付包：源清单/篇章文本/九层分析/学生卡/备课本/语音卡/词汇诊断页/跟读听写 + 资源清单 md+html（44 文件）</td><td class="mono">词汇诊断/U8_资源包/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>分析产物</td><td class="name">U9 篇章词汇资产</td><td class="desc">⚠ 缺：U9 正课文时间轴/词汇页均未做</td><td class="mono">—</td><td><span class="todo">待办</span></td><td><span class="gh na">—</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>分析产物</td><td class="name">U12 篇章词汇资产</td><td class="desc">5 篇（p110/111/113/114/117）九层复跑分析 + 词汇诊断页</td><td class="mono">词汇诊断/（篇章词汇_产出 / 词汇诊断_u12_*.html）</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>模板</td><td class="name">词汇诊断页模板</td><td class="desc">反推自 u7_p67（RAW/PASSAGE/CATS 三数据块置占位）</td><td class="mono">词汇诊断/_模板_词汇诊断页.html</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>技能</td><td class="name">词汇四技能</td><td class="desc">article-vocab-analyzer / teacher-vocab-prep / student-vocab-cards / british-phonetics</td><td class="mono">skills/</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-vocab"><td class="side t-vocab">词汇</td><td>工具</td><td class="name">词表加工脚本</td><td class="desc">_gen_review_sheet / _patch_vocab / _patch_vqdis</td><td class="mono">根目录</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>技能</td><td class="name">全局技能 ×9</td><td class="desc">local-mineru / article-vocab-analyzer / cet-cn2en-scholar / british-phonetics / student-vocab-cards / exam-paper-bank / teacher-vocab-prep / sentence-alignment / chunk-splitter</td><td class="mono">skills/global/</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>技能</td><td class="name">项目技能 ×1</td><td class="desc">sentence-alignment（项目版）</td><td class="mono">skills/project/</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>工作流</td><td class="name">句级对齐规约</td><td class="desc">方法定案 / 正课文清单 / 坑 / 门禁（权威规约）</td><td class="mono">_ALIGNMENT_WORKFLOW.md</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>工作流</td><td class="name">对齐生产入口</td><td class="desc">_align_unit.py --unit N（ASR→对齐→合入→同步→门禁）</td><td class="mono">_align_unit.py</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>工具链</td><td class="name">音频对齐工具链</td><td class="desc">教师用书栏目标题 ↔ 官方 CD 198 轨对齐（产 _alignment.json + 对照表）</td><td class="mono">tools/audio-alignment/</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>工具</td><td class="name">词表导入器</td><td class="desc">_import_yle.py（剑桥少儿三层）/ _import_fce_cae.py（CEFR-J·Octanove → FCE/CAE）</td><td class="mono">skills/global/article-vocab-analyzer/scripts/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>工具</td><td class="name">词汇技能主脚本</td><td class="desc">assess_vocab.py（九层分析）+ vocab_pipeline.py（学生卡/备课本/语音卡）</td><td class="mono">skills/global/article-vocab-analyzer/scripts/</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>质量</td><td class="name">回归套件</td><td class="desc">核心门禁 7 项 + 端到端 smoke 6 项</td><td class="mono">_regress.js / _check*.js / _smoke*</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>应用</td><td class="name">学习平板应用</td><td class="desc">server.js + index.html + 教师端 + login + store/ui</td><td class="mono">根目录</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>应用</td><td class="name">双工作台源</td><td class="desc">资料库在线学生端/教师端页面源</td><td class="mono">_workbench/</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>文档</td><td class="name">文件清单（MANIFEST）</td><td class="desc">核心/依赖/生产/溯源四级归档 + 弃用记录</td><td class="mono">MANIFEST.md</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>文档</td><td class="name">作业与交接指南</td><td class="desc">README / AGENTS / HANDOFF / HANDOFF-workbuddy</td><td class="mono">根目录</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>参考</td><td class="name">溯源工具</td><td class="desc">_source_match / _sents_v2_bounds / _bridge_* / _trace_* / _align_audio</td><td class="mono">根目录</td><td><span class="ok">就绪</span></td><td><span class="gh pushed">✅已推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>清单</td><td class="name">课程资源三件套（本表）</td><td class="desc">三侧资产可视化核对表</td><td class="mono">课程资产/课程资源.{csv,md,html}</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+<tr class="t-tech"><td class="side t-tech">技术栈</td><td>清单</td><td class="name">课程资产总目录</td><td class="desc">三侧索引 + GitHub 推送状态</td><td class="mono">课程资产/README.md</td><td><span class="ok">就绪</span></td><td><span class="gh nopush">❌未推送</span></td></tr>
+</table>
+</body></html>

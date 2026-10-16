@@ -13,12 +13,15 @@
 import os, sys, re, json, io, subprocess, argparse
 
 def _main_dir():
-    """向上查找真实主技能目录(article-vocab-analyzer)，部署处与工作区均通用。"""
+    """向上查找真实主技能目录(article-vocab-analyzer)，兼容多布局(平铺/skills、skills/global、skills/project)。"""
     d = os.path.dirname(os.path.abspath(__file__))
+    subs = (("skills", "article-vocab-analyzer"), ("skills", "global", "article-vocab-analyzer"),
+            ("skills", "project", "article-vocab-analyzer"), ("article-vocab-analyzer",))
     for _ in range(8):
-        cand = os.path.join(d, "skills", "article-vocab-analyzer")
-        if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
-            return os.path.abspath(cand)
+        for sub in subs:
+            cand = os.path.join(d, *sub)
+            if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
+                return os.path.abspath(cand)
         d = os.path.dirname(d)
     return None
 MAIN = _main_dir() or os.path.abspath("article-vocab-analyzer")
@@ -29,6 +32,12 @@ if os.path.exists(_flat):
     ASSESS = _flat
 
 # ---------- 1. 调主技能：json(lemma/layer/cefr/forms) + report.xlsx(词性/频次/跨句/原句) ----------
+def _load_assess():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("_av", ASSESS)
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    return m
+
 def run_main(text=None, file=None, stem="tp_tmp"):
     cmd = [sys.executable, ASSESS, "--out", stem]
     if text:
@@ -37,6 +46,7 @@ def run_main(text=None, file=None, stem="tp_tmp"):
         cmd += ["--file", file]
     subprocess.check_call(cmd)
     toks = json.load(io.open(stem + ".json", encoding="utf-8"))["tokens"]
+    av = _load_assess()
     words = {}
     for t in toks:
         if t.get("kind") not in ("word", "out"):
@@ -48,6 +58,11 @@ def run_main(text=None, file=None, stem="tp_tmp"):
         f = t.get("form", "")
         if f and f not in rec["forms"]:
             rec["forms"].append(f)
+    # 显示口径（2026-10-13 定案，与词汇诊断页一致）：词原本身在课文出现 → 词原；
+    # 否则该词族以不规则表层形式出现（came/went/children…）→ 显示表层形式。
+    for lm, rec in words.items():
+        bases = {av.base_word(f).lower() for f in rec["forms"]}
+        rec["disp"] = lm if lm in bases else (av.display_word(rec["forms"][0], lm) if rec["forms"] else lm)
     try:
         import openpyxl
     except ImportError:
@@ -158,10 +173,11 @@ def main():
         fr = m.get("freq")
         freq = int(fr) if isinstance(fr, (int, float)) else 0
         rows.append([
-            _band(w["layer"]), w["layer"], lm, m.get("pos", ""), freq,
+            _band(w["layer"]), w["layer"], w.get("disp", lm), m.get("pos", ""), freq,
             m.get("range") or "", w["cefr"] or m.get("cefr", "") or "", m.get("example", ""),
             m.get("type", ""),
         ])
+    disp2lm = {w.get("disp", lm): lm for lm, w in words.items()}   # 显示词 → 词原（词族回查用）
     # 分层词卡：超纲排在末；其余按频次降序
     rows.sort(key=lambda r: (1 if r[1] == "out" else 0, -(r[4] if r[4] else 0)))
     if a.band:
@@ -178,12 +194,13 @@ def main():
     ws2 = wb.create_sheet("考点命题矩阵")
     ws2.append(["教学梯度", "归属层", "词汇", "词性", "CEFR", "原文照搬", "可挖空(填空)", "命题参考(建议)", "考情提示"])
     for r in rows:
-        lm, pos, cefr = r[2], r[3], r[6]
+        disp, pos, cefr = r[2], r[3], r[6]
         tot = posset(pos)
         if not (tot & {"n", "v", "adj", "adv"}):
             continue
+        src = disp2lm.get(disp, disp)
         hint = "基础必考(A1/B1)" if r[1] in ("KET", "PET") or (cefr and cefr in ("A1", "A2", "B1")) else "进阶讲读(CET可萃取)"
-        ws2.append([r[0], r[1], lm, pos, cefr, r[7], _blanks(r[7], [lm] + words[lm].get("forms", [])),
+        ws2.append([r[0], r[1], disp, pos, cefr, r[7], _blanks(r[7], [src] + words[src].get("forms", [])),
                     "；".join(_quiz_tags(tot)), hint])
 
     # 超纲/进阶补卡：out + NAWL + NGSL(中阶) 按频次降序
@@ -199,7 +216,8 @@ def main():
     ws4 = wb.create_sheet("单元考点统计")
     lay = Counter(r[1] or "未知" for r in rows)
     ws4.append(["归属层", "词条数", "教学梯度"])
-    for k in ["KET", "PET", "NGSL", "NAWL", "out"]:
+    for k in [x for x in ("A1_Starters", "A1_Movers", "A2_Flyers", "KET", "PET", "FCE", "CAE",
+                          "NGSL", "NAWL", "out") if x in lay] + sorted(set(lay) - {"A1_Starters", "A1_Movers", "A2_Flyers", "KET", "PET", "FCE", "CAE", "NGSL", "NAWL", "out"}):
         if k in lay:
             ws4.append([k, lay[k], _band(k)])
     total = sum(lay.values()) or 1

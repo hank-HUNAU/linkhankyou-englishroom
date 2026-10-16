@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#eef1f8">
+<title>TH!NK · 视口锁定卡片页</title>
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237C3AED'/><text x='50' y='72' font-size='58' font-family='sans-serif' font-weight='900' fill='white' text-anchor='middle'>T</text></svg>">
+<style>
+/* ---- 1/2/5. 视口锁定：无滚动、全屏 dvh、禁回弹 ---- */
+*,*::before,*::after{box-sizing:border-box;}
+html,body{
+  margin:0; padding:0;
+  height:100%;                 /* 文档流兜底 */
+  overflow:hidden;             /* 要求 1：永不出现滚动条 */
+  overscroll-behavior:none;    /* 要求 5：禁移动端下拉回弹 */
+  -webkit-tap-highlight-color:transparent;
+}
+/* ---- 4. 相对单位：全部尺寸可伸缩，不溢出 ---- */
+:root{
+  --p:#10B981; --v:#7C3AED; --ink:#1d1d1f; --ink2:#1e1b4b; --mut:#64748b; --mut2:#94a3b8;
+  --line:rgba(0,0,0,.075);
+  --bg:#eef1f8; --card:#ffffff;
+  --grad-p:linear-gradient(135deg,#059669,#10B981);
+  --grad-v:linear-gradient(135deg,#6D28D9,#7C3AED);
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+}
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--font);
+  -webkit-font-smoothing:antialiased;
+  /* ---- 2/3. 全屏 + 安全区 + 垂直水平居中 ---- */
+  height:100vh;
+  height:100dvh;                                    /* 移动端动态视口 */
+  padding:
+    max(0px, env(safe-area-inset-top))
+    max(12px, env(safe-area-inset-right))
+    max(0px, env(safe-area-inset-bottom))
+    max(12px, env(safe-area-inset-left));
+  display:flex; flex-direction:column;              /* 要求 3 */
+  align-items:center; justify-content:center;
+  gap:clamp(10px, 2.2vmin, 22px);
+  text-align:center;
+}
+/* ---- 背景光斑（纯装饰，不参与布局） ---- */
+.blob{position:fixed; border-radius:50%; filter:blur(90px); pointer-events:none; z-index:0;}
+.b1{width:44vmin; height:44vmin; left:-6vmin; top:-8vmin; background:#7C3AED; opacity:.22;}
+.b2{width:40vmin; height:40vmin; right:-5vmin; top:4vmin; background:#10B981; opacity:.2;}
+.b3{width:46vmin; height:46vmin; left:22vmin; bottom:-12vmin; background:#EC4899; opacity:.12;}
+
+/* ---- 内容层 ---- */
+.z{position:relative; z-index:1; display:flex; flex-direction:column; align-items:center;
+   gap:clamp(10px, 2.2vmin, 22px); width:100%; max-width:min(560px, 88vw);}
+.mark{
+  width:clamp(44px, 9vmin, 64px); height:clamp(44px, 9vmin, 64px);
+  border-radius:clamp(13px, 2.6vmin, 19px); background:var(--grad-v);
+  display:grid; place-items:center; flex:0 0 auto;
+  box-shadow:0 12px 24px -12px rgba(124,58,237,.9);
+}
+.mark svg{width:52%; height:52%;}
+h1{
+  margin:0; color:var(--ink2); font-weight:900; letter-spacing:-.02em; line-height:1.15;
+  font-size:clamp(19px, 5.4vmin, 30px);
+}
+.desc{
+  margin:0; color:var(--mut); font-weight:600; line-height:1.6; max-width:34em;
+  font-size:clamp(12.5px, 2.6vmin, 14.5px);
+}
+/* ---- 6. 可替换内容卡片：换 innerHTML 即换内容，外壳不动 ---- */
+.card{
+  width:min(560px, 88vw);
+  max-height:min(52dvh, 520px);                    /* 卡片自身也锁在视口内 */
+  overflow:hidden;                                  /* 超长内容内部滚动，页面仍无滚动条 */
+  overscroll-behavior:contain;
+  background:var(--card); border:1px solid var(--line); border-radius:clamp(16px, 3.4vmin, 24px);
+  box-shadow:0 18px 36px -26px rgba(31,41,55,.34);
+  padding:clamp(14px, 3.2vmin, 24px);
+  display:flex; flex-direction:column; gap:clamp(8px, 1.8vmin, 14px);
+  text-align:left;
+}
+.card-h{display:flex; align-items:center; gap:10px;}
+.card-h .ico{width:clamp(28px, 5.6vmin, 34px); height:clamp(28px, 5.6vmin, 34px);
+  border-radius:clamp(9px, 1.8vmin, 11px); background:rgba(16,185,129,.12); color:#059669;
+  display:grid; place-items:center; flex:0 0 auto;}
+.card-h svg{width:56%; height:56%;}
+.card-h b{font-size:clamp(13.5px, 2.8vmin, 16px); font-weight:900; color:var(--ink2); line-height:1.25;}
+.card-h .cnt{margin-left:auto; font-size:clamp(10.5px, 2vmin, 12px); font-weight:800; color:var(--mut);
+  background:rgba(0,0,0,.045); padding:3px 10px; border-radius:999px; flex:0 0 auto;}
+.card-b{font-size:clamp(12px, 2.4vmin, 13.5px); font-weight:600; color:var(--mut); line-height:1.65;
+  overflow-y:auto; min-height:0; flex:1 1 auto;}   /* 内容长时只滚卡片内部 */
+.card-b::-webkit-scrollbar{width:4px;}
+.card-b::-webkit-scrollbar-thumb{background:rgba(0,0,0,.14); border-radius:99px;}
+.foot{color:var(--mut2); font-weight:700; font-size:clamp(10px, 1.9vmin, 11.5px); letter-spacing:.06em;}
+/* ---- 竖屏极矮视口兜底：进一步压缩间距，保证标题+卡片都可见 ---- */
+@media (max-height:480px){
+  body{gap:8px; justify-content:flex-start; padding-top:max(10px, env(safe-area-inset-top));}
+  .desc{display:none;}
+  .card{max-height:62dvh;}
+}
+</style>
+</head>
+<body>
+<span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+
+<div class="z">
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
+  </div>
+
+  <h1>今日关注</h1>
+  <p class="desc">页面锁定在视口内，任何屏幕都不出滚动条；下方卡片是唯一可替换区。</p>
+
+  <!-- ===== 可替换内容卡片：只改这一块 ===== -->
+  <section class="card">
+    <div class="card-h">
+      <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+      <b>卡片标题</b>
+      <span class="cnt">3 项</span>
+    </div>
+    <div class="card-b">
+      这里放卡片正文。内容超长时卡片内部滚动，页面本体始终保持零滚动条。<br><br>
+      可放任务列表、数据摘要、引导步骤——外壳样式与布局不用动。<br><br>
+      （示例填充行）<br>· 第一条<br>· 第二条<br>· 第三条<br>· 第四条<br>· 第五条<br>· 第六条
+    </div>
+  </section>
+
+  <div class="foot">TH!NK FOUNDATION</div>
+</div>
+</body>
+</html>

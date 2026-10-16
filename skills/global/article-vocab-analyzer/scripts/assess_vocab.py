@@ -150,6 +150,35 @@ def lemma_candidates(word):
         out.append(t[:-1])
     return list(dict.fromkeys(c for c in out if re.fullmatch(r"[a-z]+", c)))
 
+def display_word(form, lemma):
+    """卡面显示口径（2026-10-13 定案）：常规屈折 → 词原；不规则词形 → 保留表层形式。
+    dancers→dancer、babies→baby、goes→go、taking→take；children/feet/went/got/came/
+    best/better/made/said/left 等保留原形式，不折叠成 child/foot。
+    判定：lemma 可由常规后缀规则还原 → 词原；只能经 IRREG 解释 → 保留原形式。
+    （层级/CEFR 仍按词族原形标注，调用方自行取 lemma 的层。）"""
+    base = base_word(form).lower()
+    lemma = (lemma or "").lower()
+    if base == lemma or stem_suffix(base) == lemma:
+        return lemma                                   # 本形即词原，或常规后缀可还原
+    regs = set()                                       # 常规屈折全备选（补 stem_suffix 拼写缺陷）
+    if base.endswith("ies") and len(base) > 3: regs.add(base[:-3] + "y")
+    if base.endswith("es"):
+        regs.add(base[:-2]); regs.add(base[:-1]); regs.add(base[:-2] + "e")
+    if base.endswith("s"): regs.add(base[:-1])
+    if base.endswith("ing"):
+        b = base[:-3]; regs |= {b, b + "e"}
+        if len(b) >= 2 and b[-1] == b[-2]: regs.add(b[:-1])
+    if base.endswith("ed"):
+        b = base[:-2]; regs |= {b, b + "e"}
+        if len(b) >= 2 and b[-1] == b[-2]: regs.add(b[:-1])
+    if base.endswith("er") and base not in AGENT_ER_NOUNS: regs.add(base[:-2])
+    if base.endswith("est"): regs.add(base[:-3])
+    if lemma in regs:
+        return lemma                                   # 规则屈折可还原 → 词原
+    if IRREG.get(base) == lemma or IRREG.get(stem_suffix(base)) == lemma:
+        return base                                    # 不规则词形：保留原形式
+    return lemma                                       # 兜底：非常规拼写仍用词原
+
 def split_head(head):
     parts = []
     for seg in head.lower().split("/"):

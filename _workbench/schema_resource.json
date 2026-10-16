@@ -1,0 +1,18 @@
+{
+  "title": "教学资源",
+  "properties": [
+    { "name": "资源名称", "config": { "text": "" } },
+    { "name": "类型", "config": { "select": { "options": [
+      { "text": "音频", "id": "k0l1m2n3b4v5c6x7" },
+      { "text": "视频", "id": "l1m2n3b4v5c6x7z8" },
+      { "text": "PDF讲义", "id": "m2n3b4v5c6x7z8a9" },
+      { "text": "词汇表", "id": "n3b4v5c6x7z8a9s0" },
+      { "text": "练习题", "id": "b4v5c6x7z8a9s0d1" },
+      { "text": "图片", "id": "v5c6x7z8a9s0d1f2" }
+    ] } } },
+    { "name": "单元", "config": { "text": "" } },
+    { "name": "标签", "config": { "text": "" } },
+    { "name": "链接", "config": { "url": { "text": "", "link": "" } } },
+    { "name": "上传时间", "config": { "date": "yyyy-mm-dd" } }
+  ]
+}

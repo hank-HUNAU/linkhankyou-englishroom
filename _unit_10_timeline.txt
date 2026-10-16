@@ -1,0 +1,86 @@
+# Unit 10 句级时间轴产出摘要
+
+## p092  阅读A · She was the first woman in space
+- 句数 18，首句 10.320s，末句 136.880s
+
+   0    10.320 -   16.340  Valentina Tereshkova was born in Russia on 6th March 1937.
+   1    17.940 -   22.100  Her father was a driver and her mother worked in a factory.
+   2    24.200 -   27.156  Valentina was a worker in a factory, too.
+   3    28.020 -   35.600  Her hobby was skydiving and it was her dream to be an astronaut and to go into space.
+   4    36.960 -   43.560  In 1962, there was a big competition to find new astronauts.
+   5    44.520 -   48.840  There were 400 people interested in going to space.
+   6    50.060 -   55.720  The training programme wasn't very easy, but Tereshkova was hardworking.
+   7    56.140 -   59.455  And she was the lucky one.
+   8    60.894 -   68.185  Tereshkova's big day was on 16th June 1963, and she was just 26.
+   9    69.600 -   77.480  The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space.
+  10    78.580 -   88.380  The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight.
+  11    89.460 -   92.311  She was in space for three days.
+  12    93.400 -   97.180  She is the only woman to fly into space alone.
+  13    98.560 -  103.027  After that, she was very famous all over the world.
+  14   104.220 -  107.000  Her face was on stamps in many countries.
+  15   108.420 -  119.760  In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'.
+  16   121.100 -  132.830  At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag.
+  17   132.700 -  136.880  These were very important moments for her.
+
+## p095  听力 · A prize-giving at school
+- 句数 20，首句 7.620s，末句 126.240s
+
+   0     7.620 -   11.360  Hi Will, how are you? Are you better?
+   1    11.980 -   18.170  Yes, thanks. I was ill yesterday and the day before but I'm okay now.
+   2    18.480 -   20.100  Good, I'm pleased.
+   3    20.880 -   26.157  So yesterday was the prize-giving at school, right? Was it good?
+   4    26.020 -   33.440  No, it wasn't. Well, not really. There weren't many parents there.
+   5    33.980 -   39.578  Oh really? There were lots last year. Were all the teachers there?
+   6    40.100 -   44.200  Of course! The teachers can't choose, can they?
+   7    45.280 -   51.583  No, and neither can the kids. Anyway, who were the big winners this year?
+   8    52.080 -   58.770  Well, the best student of the year for the whole school was Sandra Hammond.
+   9    59.240 -   63.320  Sandra? Was she the best student last year too?
+  10    64.060 -   72.853  No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school.
+  11    73.240 -   78.660  Oh, the Hammonds! They always win everything! Boring!
+  12    79.380 -   88.580  I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you!
+  13    89.100 -   92.940  You're joking of course. I'm never the best at anything.
+  14    93.880 -   98.740  Well, anyway, guess who the best science student was?
+  15    99.440 -  102.470  No idea. Andy Clarkson?
+  16   102.820 -  104.640  No, me!
+  17   105.300 -  114.960  You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice?
+  18   115.480 -  121.974  Yes, it was. A book about science. I really want to read it.
+  19   122.340 -  126.240  Good for you, Alice. Well done. Thanks, Will.
+
+## p096  阅读B · Sports achievers
+- 句数 5，首句 8.420s，末句 149.140s
+
+   0     8.420 -   27.640  Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that?
+   1    28.600 -   44.060  How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny.
+   2    45.080 -   66.328  OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam.
+   3    67.940 -  112.740  My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha.
+   4   114.980 -  149.140  Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark.
+
+## p099  文化 · Statues around the world
+- 句数 26，首句 9.120s，末句 177.020s
+
+   0     9.120 -   13.305  There are many wonderful statues all over the world.
+   1    14.120 -   18.400  Many of them help us to remember the lives of great people.
+   2    19.860 -   21.107  Rosa Parks
+   3    22.000 -   36.200  One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black.
+   4    37.200 -   42.028  She said no and the police decided to take her away.
+   5    43.380 -   49.656  It was a very important moment in the history of black people's rights in the US.
+   6    49.540 -   58.860  The statue shows Rosa sitting on a rock wearing the same clothes as that day in 1965.
+   7    60.760 -   62.180  Franz Kafka
+   8    63.200 -   66.800  Franz Kafka was a writer from Prague.
+   9    67.440 -   70.340  He was born in 1883.
+  10    71.200 -   73.320  His books were in German.
+  11    74.920 -   81.096  In his life, he was not very famous, but now he is.
+  12    81.960 -   84.560  Many of his stories were very strange.
+  13    85.800 -   89.320  There's a very unusual statue of him in Prague.
+  14    90.260 -   93.693  He's sitting on the shoulders of an empty suit.
+  15    95.660 -   96.920  Os Candango
+  16    97.780 -  111.537  The Candango were men who travelled from all over Brazil between 1956 and 1960 to build the new capital city of Brazil, Brasilia.
+  17   112.220 -  124.738  In 1956, 256 men arrived, but before long there were 30,000 who worked hard to build the city.
+  18   125.940 -  136.840  Brasilia opened in 1960 and this 8 meter high statue to remember the Candango is in the 3 powers square.
+  19   138.060 -  141.320  The two figures are holding digging tools.
+  20   143.040 -  144.916  Suzanne Lenglen
+  21   145.620 -  152.613  At the Roland Garros tennis centre in Paris, there is a court called Suzanne Lenglen.
+  22   153.480 -  160.500  Lenglen was a famous French tennis player who played from 1914 to 1926.
+  23   161.700 -  164.500  She was the number one player for many years.
+  24   165.640 -  168.120  In front of the court is this statue.
+  25   169.060 -  177.020  Lenglen is jumping with a racket in her hand and she is wearing her famous white dress and headband.

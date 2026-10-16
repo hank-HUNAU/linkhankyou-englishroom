@@ -1,0 +1,16 @@
+{
+  "title": "班级",
+  "properties": [
+    { "name": "班级名称", "config": { "text": "" } },
+    { "name": "学段", "config": { "text": "" } },
+    { "name": "授课教师", "config": { "text": "" } },
+    { "name": "计划人数", "config": { "number": { "decimalPlaces": 0, "useSeparate": false } } },
+    { "name": "班级状态", "config": { "select": { "options": [
+      { "text": "进行中", "id": "p1q2w3e4r5t6y7u8" },
+      { "text": "筹备中", "id": "p3q4w5e6r7t8y9u0" },
+      { "text": "已结课", "id": "p2q3w4e5r6t7y8u9" }
+    ] } } },
+    { "name": "创建时间", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "备注", "config": { "text": "" } }
+  ]
+}

@@ -1,23 +1,25 @@
 ---
 name: "article-vocab-analyzer"
-description: "对任意英文文章做 KET/PET/NGSL/NAWL 四词表词汇分析：分词+lemma归一+短语先查+专名/数字分流+最小层归属分层+超纲检测，并内置 CEFR 难度标签（Oxford 3000/5000，A1–C1 自动标注、无需联网），输出覆盖率/Range/超纲/难度等级报告。当用户提供文章并要统计某词汇表命中率、词汇覆盖、难度测绘、标 CEFR、难度等级、超纲词、分层词汇卡时调用。"
+description: "对任意英文文章做九词表（Pre A1 Starters / A1 Movers / A2 Flyers / KET / PET / FCE / CAE / NGSL / NAWL）词汇分析：分词+lemma归一+短语先查+专名/数字分流+最小层归属分层+超纲检测，并内置 CEFR 难度标签（Oxford 3000/5000，A1–C1 自动标注、无需联网），输出覆盖率/Range/超纲/难度等级报告。当用户提供文章并要统计某词汇表命中率、词汇覆盖、难度测绘、标 CEFR、难度等级、超纲词、分层词汇卡时调用。"
 ---
 
 # 一篇文章词汇分析（Article Vocabulary Analyzer）
 
-把任意英文文章切词后，按 **KET/PET/NGSL/NAWL** 四词表判定每个词属于哪一层，输出 **命中覆盖率**、**归属分层**（最低层只归一层，闭环不重叠）、每词条的 **Range（跨句广度）/频次/原文例句**、**内置 CEFR 难度标签**（Oxford 3000/5000，A1–C1 自动标注、无需联网，查不出的规范留空）、以及 **超纲词清单**。用于评估课文难度、选取听写目标词、划分层重点词卡、学术测覆盖率等。
+把任意英文文章切词后，按 **九词表** 判定每个词属于哪一层，输出 **命中覆盖率**、**归属分层**（最低层只归一层，闭环不重叠）、每词条的 **Range（跨句广度）/频次/原文例句**、**内置 CEFR 难度标签**（Oxford 3000/5000，A1–C1 自动标注、无需联网，查不出的规范留空）、以及 **超纲词清单**。用于评估课文难度、选取听写目标词、划分层重点词卡、学术测覆盖率等。
 
 **定位**：本技能是通用的英文课文词汇分析工具——分析**任意英文课文**，交付分层/覆盖率/超纲/CEFR 等结构化结果，供编写教学资料与学习资料使用。技能本身不预设任何资料版式、界面或视觉偏好；具体材料如何编写由使用方决定。
 
-## 学理定位（三正交构念）
+## 学理定位（三正交构念 · 九词表）
 
-| 词表 | 回答的问题 | 属性 | 学理 |
-|---|---|---|---|
-| KET / PET | 考不考 / 属哪个考点层 | **考试考察** | 覆盖→可读性（Hu & Nation 2000）；KET≈A2、PET≈B1 剑桥锚定 |
-| NGSL / NAWL | 是不是高频 / 是否学术 | **频率与语体** | 频率假说（Ellis 2002）；通用→学术覆盖阶梯（Browne 2013） |
-| CEFR（可选） | 读起来有多难 | **难度坐标** | 熟练度阶段（CEFR 2001）；i+1（Krashen 1985） |
+| 词表 | 层位 | 回答的问题 | 属性 | 学理 / 来源 |
+|---|---|---|---|---|
+| A1_Starters / A1_Movers / A2_Flyers | Pre A1–A2 | 是不是**少儿入门词** | **少儿底表** | 剑桥少儿官方词表（2018）；补 pre-A1/A1 断层 |
+| KET / PET | A2 / B1 | 考不考 / 属哪个考点层 | **考试考察** | 覆盖→可读性（Hu & Nation 2000）；剑桥官方锚定 |
+| FCE / CAE | B2 / C1 | 高段考不考 | **考试考察（高段）** | 剑桥**不公布** FCE/CAE 词表 → CEFR-J B2 / Octanove C1 替代 |
+| NGSL / NAWL | 频率 / 语体 | 是不是高频 / 是否学术 | **频率与语体** | 频率假说（Ellis 2002）；通用→学术覆盖阶梯（Browne 2013） |
+| CEFR（可选） | A1–C1 | 读起来有多难 | **难度坐标** | 熟练度阶段（CEFR 2001）；i+1（Krashen 1985） |
 
-**关键约定**：四表内部不需要 CEFR（KET≈A2、PET≈B1 已锚定，NGSL/NAWL 非难度轴）；CEFR 仅作为一篇文章难度剖面的**独立正交模块**，来源优先级 EVP → 词典星标 → **留空不猜**。
+**关键约定**：前七层（少儿底表 + 考点阶梯）由 `registry.json` 顺序决定「最低层只归一层」；KET≈A2、PET≈B1、FCE≈B2、CAE≈C1 由 CEFR 锚定，NGSL/NAWL 是频率/语体轴（非难度轴）。CEFR 仅作为一篇文章难度剖面的**独立正交模块**，来源优先级 EVP → 词典星标 → **留空不猜**。**注意**：FCE/CAE 为 CEFR 分级**替代源**（非剑桥官方构念），语义上是 B2/C1 词表而非严格考试词表。
 
 ## 目录结构
 
@@ -33,16 +35,23 @@ article-vocab-analyzer/                  # 技能根目录(全局装于 <用户>
 │   ├── vocab_pipeline.py                # 一键: 主技能 + 三个软分支(学生卡/备课本/语音卡)
 │   └── vocab_merge.py                   # 整合各源 xlsx 为教师版/学生版
 └── wordlists/
-    ├── registry.json                    # 词表注册与顺序(KET<PET<NGSL<NAWL)
+    ├── registry.json                    # 词表注册与顺序(九层, 见下)
+    ├── A1_Starters.json                 # 剑桥少儿 Pre A1(入门底表)
+    ├── A1_Movers.json                   # 剑桥少儿 A1
+    ├── A2_Flyers.json                   # 剑桥少儿 A2
     ├── KET.json                         # 官方KET(A2)基表, 含词性 raw
     ├── PET.json                         # 官方PET(B1)基表, 含词性 raw
+    ├── FCE.json                         # FCE(B2)替代源 = CEFR-J B2
+    ├── CAE.json                         # CAE(C1)替代源 = Octanove C1
     ├── NGSL.json                        # NGSL通用高频(无词性, 含全屈折 forms)
     ├── NAWL.json                        # NAWL学术层(无词性, 含全屈折 forms)
     ├── cefr.json                        # CEFR标签(A1–C1), 缺省自动加载, 无需联网
     └── phrase_extra.json                # 教学扩展短语种子库(教师自增), 自动加载
 ```
 
-> 说明：`registry.json` 只声明**分层词表**（决定 KET<PET<NGSL<NAWL 归属顺序）；`cefr.json`、`phrase_extra.json`、`registry.json` 自身属辅助文件，脚本按名显式排除，不进词表循环。
+**九层归属顺序**（`registry.json`）：`A1_Starters < A1_Movers < A2_Flyers < KET < PET < FCE < CAE < NGSL < NAWL`。前七层为「少儿底表 + 考点阶梯」，后两层为频率/语体轴。导入脚本：`_import_yle.py`（少儿三层）、`_import_fce_cae.py`（FCE/CAE）。
+
+> 说明：`registry.json` 只声明**分层词表**（决定九层归属顺序，见上）；`cefr.json`、`phrase_extra.json`、`registry.json` 自身属辅助文件，脚本按名显式排除，不进词表循环。
 
 ## 词表统一格式
 
@@ -69,7 +78,7 @@ article-vocab-analyzer/                  # 技能根目录(全局装于 <用户>
 4. **单词** lemma 候选归一（表面→不规则→ing/双写/加 e 变体）+ **研究版屈折词形兜底**，逐词表判断 → 命中一个或多个（允许跨表重叠）。
 5. 未命中任何词表 → **超纲** `out`。
 
-**归属仲裁**：一个 token 命中多个词表时，按 **KET < PET < NGSL < NAWL 取最低层只归一层**，保证各层覆盖率相加闭环、不重叠、可解释。
+**归属仲裁**：一个 token 命中多个词表时，按 **`A1_Starters < A1_Movers < A2_Flyers < KET < PET < FCE < CAE < NGSL < NAWL` 取最低层只归一层**，保证各层覆盖率相加闭环、不重叠、可解释。
 
 词形归一要点（含已踩坑结论）：
 - 缩写/所有格剥离：`can't→can`、`Jake's→Jake`、`children's→children`、`kids'→kids`.
@@ -152,7 +161,7 @@ python assess_vocab.py --file 课文.txt --db vocab.db --db-export bank_views.xl
 
 - KET/PET 官方 A2/B1 词表为多栏 PDF：PyMuPDF `dict` 结构化行，按 `x0` 聚类分栏、`y` 容差聚类成行；词头行判定=左缘缩进浅+含 POS 括号+非句读整句；例句缩进更深剔除。产出 `{head,pos,raw}` 序列。
 - NGSL/NAWL 由三件套 `*_for_research.csv` 生成：第一列 head 为 entries，其余列并入 `forms`。CSV 可能非 UTF-8（NAWL 为 latin-1），读取需做编码探测。
-- **接入新词表（如中高考）**：转成 `{"entries":[{head,pos,raw}],"forms":[...]}` 放入 `wordlists/`，在 `registry.json` 的顺序里显式声明层级位置，重启即生效。中高考词表可与 KET/PET/NGSL/NAWL 并行，实现中国课标段适配度推断。
+- **接入新词表（如中高考）**：转成 `{"entries":[{head,pos,raw}],"forms":[...]}` 放入 `wordlists/`，在 `registry.json` 的顺序里显式声明层级位置，重启即生效。中高考词表可与现有九层并行，实现中国课标段适配度推断。
 
 ## 边界与学理提醒（教学/科研）
 

@@ -14,11 +14,15 @@ import os, sys, re, json, io, time, html, subprocess, urllib.parse
 import urllib.request, argparse
 
 def _main_dir():
+    """向下兼容多布局(平铺/skills、skills/global、skills/project)查找主技能目录。"""
     d = os.path.dirname(os.path.abspath(__file__))
+    subs = (("skills", "article-vocab-analyzer"), ("skills", "global", "article-vocab-analyzer"),
+            ("skills", "project", "article-vocab-analyzer"), ("article-vocab-analyzer",))
     for _ in range(8):
-        cand = os.path.join(d, "skills", "article-vocab-analyzer")
-        if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
-            return os.path.abspath(cand)
+        for sub in subs:
+            cand = os.path.join(d, *sub)
+            if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
+                return os.path.abspath(cand)
         d = os.path.dirname(d)
     return None
 MAIN = _main_dir() or os.path.abspath("article-vocab-analyzer")

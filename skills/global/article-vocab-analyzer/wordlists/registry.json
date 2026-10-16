@@ -1,6 +1,21 @@
 {
   "wordlists": [
     {
+      "key": "A1_Starters",
+      "label": "Pre A1 Starters(少儿入门层)",
+      "file": "A1_Starters.json"
+    },
+    {
+      "key": "A1_Movers",
+      "label": "A1 Movers(少儿A1层)",
+      "file": "A1_Movers.json"
+    },
+    {
+      "key": "A2_Flyers",
+      "label": "A2 Flyers(少儿A2层)",
+      "file": "A2_Flyers.json"
+    },
+    {
       "key": "KET",
       "label": "KET(A2基础层)",
       "file": "KET.json"
@@ -9,6 +24,16 @@
       "key": "PET",
       "label": "PET(B1,含KET)",
       "file": "PET.json"
+    },
+    {
+      "key": "FCE",
+      "label": "FCE(B2考点层·CEFR-J)",
+      "file": "FCE.json"
+    },
+    {
+      "key": "CAE",
+      "label": "CAE(C1考点层·Octanove)",
+      "file": "CAE.json"
     },
     {
       "key": "NGSL",

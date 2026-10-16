@@ -45,6 +45,7 @@ npm run test:list    # 列出全部套件
 | `_smoke_*.py` | Playwright 端到端，需要 Python 3 + Playwright |
 | `skills/` | 内容生产技能文件，详见 `skills/README.md`；应用运行时不加载 |
 | `MANIFEST.md` | **文件清单**：核心运行时 / 依赖开发 / 内容生产 / 溯源参考 四级归档 + 弃用候选；文件增删后更新 |
+| `课程资产/` | **课程资产总目录**：三侧（课文/词汇/技术栈）索引 + `课程资源.{csv,md,html}` 核对表。**任一侧资产变更后重跑 `_gen_assets.py` 同步**；课文侧底层清单用 `_gen_zwk_list.py` |
 
 ## 架构要点
 

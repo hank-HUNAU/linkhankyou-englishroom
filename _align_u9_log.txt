@@ -1,0 +1,97 @@
+Unit 9 正课文：4 篇 -> p085, p087, p088, p090
+[+] p085 <- 第9单元 第1次课 篇章阅读 音频.mp3
+[+] p087 <- 903.mp3
+[+] p088 <- 905.mp3
+[+] p090 <- Thk2e_BE_L0_SB_Unit_9_p90_t09[公众号happyshare2023].mp3
+加载 faster-whisper small (cpu int8) ...
+[asr] p085 138.2s -> 257 词
+[asr] p087 96.5s -> 187 词
+[asr] p088 90.1s -> 142 词
+[asr] p090 119.7s -> 199 词
+
+=== p085  阅读A · Kitchen Kids（case2）===
+Aligning text with cached word alignments: Harry doesn't want to be a star chef when he's 20.
+He wants to be one now.
+This is why he's on the T...
+Using 257 cached word alignments
+Split by newlines: 30 sentences
+Split into 30 sentences
+Word alignment: matched 248/248 text words to 257 whisper words
+Got 30 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 48
+Detected 48 silence intervals
+  Adjusted segment 7 end: 39.480 -> 39.590 (near silence)
+  Adjusted segment 14 end: 76.180 -> 76.208 (near silence)
+  Adjusted segment 19 end: 95.880 -> 95.991 (near silence)
+  Adjusted segment 24 end: 115.880 -> 115.972 (near silence)
+  Adjusted segment 25 end: 122.600 -> 122.683 (near silence)
+  Adjusted segment 27 end: 127.000 -> 127.141 (near silence)
+  Adjusted segment 29 end: 132.420 -> 132.563 (near silence)
+After silence validation: 30 aligned sentences
+[ok] p085 30 句，低置信 0，首句 8.300s
+
+=== p087  听力 · Cooking（case1）===
+Aligning text with cached word alignments: Can we make some sandwiches, Dad?
+Of course you can. No problem.
+Would you like some help?
+No, we're...
+Using 187 cached word alignments
+Split by newlines: 28 sentences
+Split into 28 sentences
+Word alignment: matched 172/172 text words to 187 whisper words
+Got 28 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 30
+Detected 30 silence intervals
+  Adjusted segment 3 end: 17.720 -> 17.833 (near silence)
+  Adjusted segment 5 end: 22.900 -> 23.046 (near silence)
+  Adjusted segment 7 start: 27.920 -> 27.910 (near silence)
+  Adjusted segment 11 end: 42.160 -> 42.284 (near silence)
+  Adjusted segment 18 start: 58.760 -> 58.723 (near silence)
+  Adjusted segment 19 end: 62.940 -> 63.054 (near silence)
+After silence validation: 28 aligned sentences
+[ok] p087 28 句，低置信 0，首句 10.820s
+
+=== p088  阅读B · In a restaurant（case1）===
+Aligning text with cached word alignments: Hello. Can I help you?
+Hi, yes. We'd like a table for two, please.
+Here are the menus.
+Thanks.
+What ...
+Using 142 cached word alignments
+Split by newlines: 27 sentences
+Split into 27 sentences
+Word alignment: matched 127/127 text words to 142 whisper words
+Got 27 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 24
+Detected 24 silence intervals
+  Adjusted segment 4 start: 16.500 -> 16.486 (near silence)
+  Adjusted segment 19 start: 61.480 -> 61.452 (near silence)
+After silence validation: 27 aligned sentences
+[ok] p088 27 句，低置信 0，首句 6.860s
+
+=== p090  口语 · Offering and asking for help（case1）===
+Aligning text with cached word alignments: Wow! What a great smell!
+Thanks, Mum! It's lasagna. It's in the oven and it's almost ready.
+Lasagna ...
+Using 199 cached word alignments
+Split by newlines: 21 sentences
+Split into 21 sentences
+Word alignment: matched 190/190 text words to 199 whisper words
+Got 21 aligned sentences
+Applying silence detection validation...
+  Silence intervals: 49
+Detected 49 silence intervals
+  Adjusted segment 13 end: 65.160 -> 65.271 (near silence)
+  Adjusted segment 15 end: 73.460 -> 73.561 (near silence)
+  Adjusted segment 17 start: 82.740 -> 82.733 (near silence)
+After silence validation: 21 aligned sentences
+[ok] p090 21 句，低置信 0，首句 8.440s
+
+[merge] 合入 assets/timeline.json：20 篇 / 524 句（备份 timeline.json.bak-20261015）
+✓ 已把 assets/timeline.json（20 篇）同步进 index.html
+FAIL  单一数据源校验未通过：
+      - p85 #18 与下一句重叠
+node _timeline_check.js 失败

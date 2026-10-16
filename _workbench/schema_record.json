@@ -1,0 +1,27 @@
+{
+  "title": "学习记录",
+  "properties": [
+    { "name": "学生", "config": { "text": "" } },
+    { "name": "记录类型", "config": { "select": { "options": [
+      { "text": "预习", "id": "e5r6t7y8u9i0o1p2" },
+      { "text": "复习", "id": "f6g7h8j9k0l1m2n3" },
+      { "text": "跟读", "id": "g7h8j9k0l1m2n3b4" },
+      { "text": "听写", "id": "h8j9k0l1m2n3b4v5" },
+      { "text": "测验", "id": "j9k0l1m2n3b4v5c6" }
+    ] } } },
+    { "name": "学习内容", "config": { "text": "" } },
+    { "name": "单元", "config": { "text": "" } },
+    { "name": "用时分钟", "config": { "number": { "decimalPlaces": 0, "useSeparate": false } } },
+    { "name": "正确率", "config": { "number": { "decimalPlaces": 0, "useSeparate": false } } },
+    { "name": "掌握度", "config": { "select": { "options": [
+      { "text": "陌生", "id": "o1p2q3r4s5t6u7v8" },
+      { "text": "模糊", "id": "b2n3m4k5l6j7h8g9" },
+      { "text": "熟悉", "id": "c3v4b5n6m7k8l9j0" },
+      { "text": "掌握", "id": "d4f5g6h7j8k9l0p1" }
+    ] } } },
+    { "name": "复习次数", "config": { "number": { "decimalPlaces": 0, "useSeparate": false } } },
+    { "name": "日期", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "下次复习", "config": { "date": "yyyy-mm-dd" } },
+    { "name": "备注", "config": { "text": "" } }
+  ]
+}

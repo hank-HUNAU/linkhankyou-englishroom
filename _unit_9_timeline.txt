@@ -1,0 +1,123 @@
+# Unit 9 句级时间轴产出摘要
+
+## p085  阅读A · Kitchen Kids
+- 句数 30，首句 8.300s，末句 134.920s
+
+   0     8.300 -   12.340  Harry doesn't want to be a star chef when he's 20.
+   1    12.860 -   15.100  He wants to be one now.
+   2    15.880 -   20.600  This is why he's on the TV programme Kitchen Kids.
+   3    21.560 -   24.860  The ten-year-old New Yorker likes cooking.
+   4    25.720 -   32.960  He can make fantastic soups and salads, excellent omelettes and the best cakes.
+   5    33.960 -   36.940  But there are many other children on the show, too.
+   6    36.940 -   39.590  And they are all very good.
+   7    40.640 -   44.858  More and more young people are interested in cooking.
+   8    45.080 -   48.140  Many of them learn it from their parents.
+   9    49.180 -   53.960  Others watch special cooking videos for children on YouTube.
+  10    54.860 -   59.780  In many cities, there are special cooking classes for young people.
+  11    60.960 -   64.840  Some of them are for children from the age of three!
+  12    66.400 -   69.820  But what must you do to become a star chef?
+  13    71.080 -   76.208  Of course, it's important that you like cooking and are really good at it.
+  14    77.040 -   78.760  But there are some rules.
+  15    79.800 -   84.140  You must be nine years old or more to be on Kitchen Kids.
+  16    85.000 -   89.560  'We must wash our hands before we start cooking,' Harry says.
+  17    90.380 -   93.420  'And of course we mustn't put them in our mouths.
+  18    94.420 -   95.991  A chef doesn't do that!
+  19    95.880 -   99.640  And we must be very careful with hot plates.'
+  20   100.900 -  101.840  The show starts.
+  21   102.960 -  104.260  Harry is excited.
+  22   105.340 -  107.480  He knows he's an excellent cook.
+  23   108.720 -  115.972  This time he makes tomato soup, some salad, steak and carrot cake.
+  24   116.920 -  122.683  The experts in the studio love Harry's food, and he stays on the show.
+  25   123.840 -  125.120  It's 5 pm.
+  26   125.980 -  127.141  The show is over.
+  27   127.900 -  130.600  Harry is happy, and a little tired.
+  28   131.680 -  132.563  He goes home.
+  29   133.300 -  134.920  It's time to do his homework.
+
+## p087  听力 · Cooking
+- 句数 28，首句 10.820s，末句 90.760s
+
+   0    10.820 -   12.840  Can we make some sandwiches, Dad?
+   1    13.520 -   15.540  Of course you can. No problem.
+   2    16.260 -   17.833  Would you like some help?
+   3    18.240 -   20.260  No, we're okay, thanks.
+   4    21.020 -   23.046  Can we use this cheese, Dad?
+   5    23.320 -   27.420  No, your mum wants that for the lasagna. Use this cheese.
+   6    27.910 -   28.260  Okay.
+   7    28.680 -   32.660  We need some salad in the sandwiches. Have we got any?
+   8    33.100 -   36.980  There's no cucumber, but there are some tomatoes.
+   9    37.800 -   41.120  Let's have cheese and tomato sandwiches then.
+  10    41.720 -   42.284  Cool.
+  11    42.660 -   44.080  What are you doing, Dad?
+  12    44.620 -   49.080  I'm putting some peanut butter on the bread. It's tastier than butter.
+  13    49.440 -   50.320  Don't do that.
+  14    50.860 -   51.400  Too late.
+  15    51.900 -   55.360  The thing is, Sally is allergic to nuts.
+  16    56.000 -   58.080  Oh no. I'm sorry.
+  17    58.723 -   60.740  Never mind. I can eat these.
+  18    61.340 -   63.054  And you can make some more.
+  19    63.280 -   66.940  We can't make any more. We haven't got any more bread.
+  20    67.640 -   70.740  I know. Can we go for fish and chips, Dad?
+  21    71.320 -   73.820  Hmm, okay. Yes, we can.
+  22    74.280 -   74.820  Great.
+  23    75.500 -   77.880  And can Sally and Max come too?
+  24    78.400 -   79.920  Yes, of course they can.
+  25    80.560 -   83.280  But first, we must clean up this mess.
+  26    83.800 -   88.600  Oh, Dad. We're hungry now. Can we do that later?
+  27    89.320 -   90.760  No, we can't.
+
+## p088  阅读B · In a restaurant
+- 句数 27，首句 6.860s，末句 84.040s
+
+   0     6.860 -    9.100  Hello. Can I help you?
+   1     9.880 -   13.660  Hi, yes. We'd like a table for two, please.
+   2    14.400 -   15.420  Here are the menus.
+   3    16.486 -   16.960  Thanks.
+   4    17.800 -   19.800  What would you like to drink?
+   5    20.280 -   21.920  I'd like an orange juice.
+   6    22.640 -   24.660  And I'd like water, please.
+   7    25.260 -   25.720  Great.
+   8    30.620 -   32.700  Are you ready to order now?
+   9    33.120 -   36.080  Yes. I'd like the pizza with salad.
+  10    36.600 -   37.400  Any starters?
+  11    38.260 -   38.900  No thanks.
+  12    39.480 -   45.800  Would you like any extra toppings on the pizza? Onion, peppers, or tomatoes?
+  13    46.360 -   47.680  Some peppers, please.
+  14    48.320 -   49.700  And what would you like?
+  15    50.240 -   52.120  I'd like the chicken and chips.
+  16    52.880 -   55.320  Okay. Is that everything?
+  17    55.320 -   57.480  Yes. Thank you.
+  18    61.452 -   63.080  Would you like a dessert?
+  19    64.060 -   69.040  Yes, please. I'd like the fruit salad with vanilla ice cream.
+  20    69.500 -   70.160  Me, too.
+  21    74.520 -   76.060  How are your desserts?
+  22    76.960 -   77.360  Great.
+  23    77.960 -   79.700  Would you like any more drinks?
+  24    80.360 -   83.020  No, thanks. We'd like the bill, please.
+  25    83.020 -   83.685  Of course.
+  26    83.720 -   84.040  Thank you.
+
+## p090  口语 · Offering and asking for help
+- 句数 21，首句 8.440s，末句 113.780s
+
+   0     8.440 -   11.380  Wow! What a great smell!
+   1    12.140 -   18.240  Thanks, Mum! It's lasagna. It's in the oven and it's almost ready.
+   2    18.840 -   20.440  Lasagna from the shop?
+   3    20.940 -   23.540  No, Mum. It's my lasagna.
+   4    23.540 -   30.780  It's got meat, pepper, mushrooms, cheese, onion, everything.
+   5    31.740 -   34.820  And we can eat it with a bit of salad.
+   6    35.680 -   40.160  Oh, right! But we? Who's coming for lunch?
+   7    41.040 -   47.440  Mark and Chloe. We want to study together this afternoon and have lunch together first.
+   8    48.260 -   49.800  That's okay, right?
+   9    50.540 -   53.520  Of course, Joe. But...
+  10    53.520 -   54.040  But what, Mum?
+  11    54.540 -   58.720  Well, the thing is, I'd like a nice quiet afternoon.
+  12    59.220 -   65.271  Oh, don't worry, Mum. After lunch, we plan to study upstairs in my room.
+  13    66.360 -   68.100  Oh! It's ready!
+  14    68.700 -   73.561  Be careful, Joe. It's very hot. Can I help you?
+  15    73.800 -   81.660  It's okay, Mum. I can just... Oh, no! My lasagna! It's all over the floor!
+  16    82.733 -   83.940  Now what?
+  17    84.540 -   94.060  Well, first, let's clean it all up. And then, do you and your friends want to go to the new sandwich shop?
+  18    94.320 -  100.640  Not really. But I've got an idea, Mum. We can just have the salad.
+  19   101.420 -  110.520  Okay. And you and I can make some chocolate-covered bananas so your friends can have some dessert, too.
+  20   110.520 -  113.780  Thanks, Mum. You're the best!

@@ -1,0 +1,5051 @@
+{
+ "source": "Octanove Vocabulary Profile C1/C2 v1.0 (C1) · CC BY-SA 4.0",
+ "entries": [
+  {
+   "head": "exterior",
+   "pos": "n",
+   "raw": "exterior (n)"
+  },
+  {
+   "head": "cloak",
+   "pos": "n",
+   "raw": "cloak (n)"
+  },
+  {
+   "head": "timid",
+   "pos": "adj",
+   "raw": "timid (adj)"
+  },
+  {
+   "head": "reluctantly",
+   "pos": "adv",
+   "raw": "reluctantly (adv)"
+  },
+  {
+   "head": "complexity",
+   "pos": "n",
+   "raw": "complexity (n)"
+  },
+  {
+   "head": "concur",
+   "pos": "v",
+   "raw": "concur (v)"
+  },
+  {
+   "head": "avid",
+   "pos": "adj",
+   "raw": "avid (adj)"
+  },
+  {
+   "head": "marvel",
+   "pos": "v",
+   "raw": "marvel (v)"
+  },
+  {
+   "head": "wing",
+   "pos": "n",
+   "raw": "wing (n)"
+  },
+  {
+   "head": "enviable",
+   "pos": "adv",
+   "raw": "enviable (adv)"
+  },
+  {
+   "head": "organizational",
+   "pos": "adj",
+   "raw": "organizational (adj)"
+  },
+  {
+   "head": "psychiatrist",
+   "pos": "n",
+   "raw": "psychiatrist (n)"
+  },
+  {
+   "head": "psychiatric",
+   "pos": "adj",
+   "raw": "psychiatric (adj)"
+  },
+  {
+   "head": "clinical",
+   "pos": "adj",
+   "raw": "clinical (adj)"
+  },
+  {
+   "head": "corps",
+   "pos": "n",
+   "raw": "corps (n)"
+  },
+  {
+   "head": "forensic",
+   "pos": "adj",
+   "raw": "forensic (adj)"
+  },
+  {
+   "head": "juvenile",
+   "pos": "n",
+   "raw": "juvenile (n)"
+  },
+  {
+   "head": "jurisdiction",
+   "pos": "n",
+   "raw": "jurisdiction (n)"
+  },
+  {
+   "head": "accustomed",
+   "pos": "adj",
+   "raw": "accustomed (adj)"
+  },
+  {
+   "head": "trauma",
+   "pos": "n",
+   "raw": "trauma (n)"
+  },
+  {
+   "head": "traumatic",
+   "pos": "adj",
+   "raw": "traumatic (adj)"
+  },
+  {
+   "head": "constraint",
+   "pos": "n",
+   "raw": "constraint (n)"
+  },
+  {
+   "head": "revealing",
+   "pos": "adj",
+   "raw": "revealing (adj)"
+  },
+  {
+   "head": "eccentric",
+   "pos": "adj",
+   "raw": "eccentric (adj)"
+  },
+  {
+   "head": "sanctity",
+   "pos": "n",
+   "raw": "sanctity (n)"
+  },
+  {
+   "head": "conform",
+   "pos": "v",
+   "raw": "conform (v)"
+  },
+  {
+   "head": "norms",
+   "pos": "n",
+   "raw": "norms (n)"
+  },
+  {
+   "head": "quirk",
+   "pos": "n",
+   "raw": "quirk (n)"
+  },
+  {
+   "head": "oddity",
+   "pos": "n",
+   "raw": "oddity (n)"
+  },
+  {
+   "head": "compel",
+   "pos": "v",
+   "raw": "compel (v)"
+  },
+  {
+   "head": "compulsion",
+   "pos": "n",
+   "raw": "compulsion (n)"
+  },
+  {
+   "head": "conceive",
+   "pos": "v",
+   "raw": "conceive (v)"
+  },
+  {
+   "head": "conceivable",
+   "pos": "adj",
+   "raw": "conceivable (adj)"
+  },
+  {
+   "head": "assertion",
+   "pos": "n",
+   "raw": "assertion (n)"
+  },
+  {
+   "head": "individuality",
+   "pos": "n",
+   "raw": "individuality (n)"
+  },
+  {
+   "head": "psyche",
+   "pos": "n",
+   "raw": "psyche (n)"
+  },
+  {
+   "head": "conformity",
+   "pos": "n",
+   "raw": "conformity (n)"
+  },
+  {
+   "head": "unconventional",
+   "pos": "adj",
+   "raw": "unconventional (adj)"
+  },
+  {
+   "head": "congregate",
+   "pos": "v",
+   "raw": "congregate (v)"
+  },
+  {
+   "head": "rally",
+   "pos": "v",
+   "raw": "rally (v)"
+  },
+  {
+   "head": "resent",
+   "pos": "v",
+   "raw": "resent (v)"
+  },
+  {
+   "head": "self-conscious",
+   "pos": "adj",
+   "raw": "self-conscious (adj)"
+  },
+  {
+   "head": "wary",
+   "pos": "adj",
+   "raw": "wary (adj)"
+  },
+  {
+   "head": "stoke",
+   "pos": "v",
+   "raw": "stoke (v)"
+  },
+  {
+   "head": "dynamically",
+   "pos": "adv",
+   "raw": "dynamically (adv)"
+  },
+  {
+   "head": "hostess",
+   "pos": "n",
+   "raw": "hostess (n)"
+  },
+  {
+   "head": "perpetuate",
+   "pos": "v",
+   "raw": "perpetuate (v)"
+  },
+  {
+   "head": "naturalness",
+   "pos": "n",
+   "raw": "naturalness (n)"
+  },
+  {
+   "head": "exhibitionist",
+   "pos": "n",
+   "raw": "exhibitionist (n)"
+  },
+  {
+   "head": "isolate",
+   "pos": "v",
+   "raw": "isolate (v)"
+  },
+  {
+   "head": "isolated",
+   "pos": "adj",
+   "raw": "isolated (adj)"
+  },
+  {
+   "head": "humble",
+   "pos": "v",
+   "raw": "humble (v)"
+  },
+  {
+   "head": "refreshingly",
+   "pos": "adv",
+   "raw": "refreshingly (adv)"
+  },
+  {
+   "head": "effortless",
+   "pos": "adj",
+   "raw": "effortless (adj)"
+  },
+  {
+   "head": "vegetation",
+   "pos": "n",
+   "raw": "vegetation (n)"
+  },
+  {
+   "head": "brief",
+   "pos": "v",
+   "raw": "brief (v)"
+  },
+  {
+   "head": "respite",
+   "pos": "n",
+   "raw": "respite (n)"
+  },
+  {
+   "head": "suffice",
+   "pos": "v",
+   "raw": "suffice (v)"
+  },
+  {
+   "head": "purity",
+   "pos": "n",
+   "raw": "purity (n)"
+  },
+  {
+   "head": "gruelling",
+   "pos": "adj",
+   "raw": "gruelling (adj)"
+  },
+  {
+   "head": "cast",
+   "pos": "n",
+   "raw": "cast (n)"
+  },
+  {
+   "head": "comprise",
+   "pos": "v",
+   "raw": "comprise (v)"
+  },
+  {
+   "head": "plaster",
+   "pos": "n",
+   "raw": "plaster (n)"
+  },
+  {
+   "head": "darkroom",
+   "pos": "n",
+   "raw": "darkroom (n)"
+  },
+  {
+   "head": "induct",
+   "pos": "v",
+   "raw": "induct (v)"
+  },
+  {
+   "head": "induction",
+   "pos": "n",
+   "raw": "induction (n)"
+  },
+  {
+   "head": "stock",
+   "pos": "v",
+   "raw": "stock (v)"
+  },
+  {
+   "head": "fossil",
+   "pos": "n",
+   "raw": "fossil (n)"
+  },
+  {
+   "head": "geological",
+   "pos": "adj",
+   "raw": "geological (adj)"
+  },
+  {
+   "head": "geologically",
+   "pos": "adv",
+   "raw": "geologically (adv)"
+  },
+  {
+   "head": "house",
+   "pos": "v",
+   "raw": "house (v)"
+  },
+  {
+   "head": "specimen",
+   "pos": "n",
+   "raw": "specimen (n)"
+  },
+  {
+   "head": "enormously",
+   "pos": "adv",
+   "raw": "enormously (adv)"
+  },
+  {
+   "head": "gem",
+   "pos": "n",
+   "raw": "gem (n)"
+  },
+  {
+   "head": "explanatory",
+   "pos": "adj",
+   "raw": "explanatory (adj)"
+  },
+  {
+   "head": "vertical",
+   "pos": "adj",
+   "raw": "vertical (adj)"
+  },
+  {
+   "head": "knowledgeable",
+   "pos": "adj",
+   "raw": "knowledgeable (adj)"
+  },
+  {
+   "head": "ordinarily",
+   "pos": "adv",
+   "raw": "ordinarily (adv)"
+  },
+  {
+   "head": "hanging",
+   "pos": "n",
+   "raw": "hanging (n)"
+  },
+  {
+   "head": "tomb",
+   "pos": "n",
+   "raw": "tomb (n)"
+  },
+  {
+   "head": "formulate",
+   "pos": "v",
+   "raw": "formulate (v)"
+  },
+  {
+   "head": "resin",
+   "pos": "n",
+   "raw": "resin (n)"
+  },
+  {
+   "head": "sacrifice",
+   "pos": "n",
+   "raw": "sacrifice (n)"
+  },
+  {
+   "head": "cleanly",
+   "pos": "adv",
+   "raw": "cleanly (adv)"
+  },
+  {
+   "head": "endorsement",
+   "pos": "n",
+   "raw": "endorsement (n)"
+  },
+  {
+   "head": "stretching",
+   "pos": "n",
+   "raw": "stretching (n)"
+  },
+  {
+   "head": "continuity",
+   "pos": "n",
+   "raw": "continuity (n)"
+  },
+  {
+   "head": "shambles",
+   "pos": "n",
+   "raw": "shambles (n)"
+  },
+  {
+   "head": "claustrophobic",
+   "pos": "adj",
+   "raw": "claustrophobic (adj)"
+  },
+  {
+   "head": "claustrophobia",
+   "pos": "n",
+   "raw": "claustrophobia (n)"
+  },
+  {
+   "head": "headstrong",
+   "pos": "adj",
+   "raw": "headstrong (adj)"
+  },
+  {
+   "head": "tact",
+   "pos": "n",
+   "raw": "tact (n)"
+  },
+  {
+   "head": "tactful",
+   "pos": "adj",
+   "raw": "tactful (adj)"
+  },
+  {
+   "head": "tactfully",
+   "pos": "adv",
+   "raw": "tactfully (adv)"
+  },
+  {
+   "head": "blister",
+   "pos": "n",
+   "raw": "blister (n)"
+  },
+  {
+   "head": "sponsorship",
+   "pos": "n",
+   "raw": "sponsorship (n)"
+  },
+  {
+   "head": "ego",
+   "pos": "n",
+   "raw": "ego (n)"
+  },
+  {
+   "head": "class",
+   "pos": "v",
+   "raw": "class (v)"
+  },
+  {
+   "head": "saloon",
+   "pos": "n",
+   "raw": "saloon (n)"
+  },
+  {
+   "head": "lap",
+   "pos": "n",
+   "raw": "lap (n)"
+  },
+  {
+   "head": "beforehand",
+   "pos": "adv",
+   "raw": "beforehand (adv)"
+  },
+  {
+   "head": "slob",
+   "pos": "n",
+   "raw": "slob (n)"
+  },
+  {
+   "head": "coverage",
+   "pos": "n",
+   "raw": "coverage (n)"
+  },
+  {
+   "head": "unplug",
+   "pos": "v",
+   "raw": "unplug (v)"
+  },
+  {
+   "head": "gadget",
+   "pos": "n",
+   "raw": "gadget (n)"
+  },
+  {
+   "head": "rediscover",
+   "pos": "v",
+   "raw": "rediscover (v)"
+  },
+  {
+   "head": "subtly",
+   "pos": "adv",
+   "raw": "subtly (adv)"
+  },
+  {
+   "head": "brainwash",
+   "pos": "v",
+   "raw": "brainwash (v)"
+  },
+  {
+   "head": "brainwashing",
+   "pos": "n",
+   "raw": "brainwashing (n)"
+  },
+  {
+   "head": "implicate",
+   "pos": "v",
+   "raw": "implicate (v)"
+  },
+  {
+   "head": "craft",
+   "pos": "v",
+   "raw": "craft (v)"
+  },
+  {
+   "head": "malfunction",
+   "pos": "v",
+   "raw": "malfunction (v)"
+  },
+  {
+   "head": "dependent",
+   "pos": "n",
+   "raw": "dependent (n)"
+  },
+  {
+   "head": "wayside",
+   "pos": "n",
+   "raw": "wayside (n)"
+  },
+  {
+   "head": "expire",
+   "pos": "v",
+   "raw": "expire (v)"
+  },
+  {
+   "head": "con",
+   "pos": "v",
+   "raw": "con (v)"
+  },
+  {
+   "head": "puzzle",
+   "pos": "v",
+   "raw": "puzzle (v)"
+  },
+  {
+   "head": "damply",
+   "pos": "adv",
+   "raw": "damply (adv)"
+  },
+  {
+   "head": "ghostly",
+   "pos": "adj",
+   "raw": "ghostly (adj)"
+  },
+  {
+   "head": "carrier",
+   "pos": "n",
+   "raw": "carrier (n)"
+  },
+  {
+   "head": "washtub",
+   "pos": "n",
+   "raw": "washtub (n)"
+  },
+  {
+   "head": "apt",
+   "pos": "adj",
+   "raw": "apt (adj)"
+  },
+  {
+   "head": "apt to",
+   "pos": "v",
+   "raw": "apt to (v)"
+  },
+  {
+   "head": "portable",
+   "pos": "adj",
+   "raw": "portable (adj)"
+  },
+  {
+   "head": "ornamental",
+   "pos": "adj",
+   "raw": "ornamental (adj)"
+  },
+  {
+   "head": "placid",
+   "pos": "adj",
+   "raw": "placid (adj)"
+  },
+  {
+   "head": "placidly",
+   "pos": "adv",
+   "raw": "placidly (adv)"
+  },
+  {
+   "head": "unmanageable",
+   "pos": "adj",
+   "raw": "unmanageable (adj)"
+  },
+  {
+   "head": "appliance",
+   "pos": "n",
+   "raw": "appliance (n)"
+  },
+  {
+   "head": "relinquish",
+   "pos": "v",
+   "raw": "relinquish (v)"
+  },
+  {
+   "head": "tedious",
+   "pos": "adj",
+   "raw": "tedious (adj)"
+  },
+  {
+   "head": "tedium",
+   "pos": "n",
+   "raw": "tedium (n)"
+  },
+  {
+   "head": "exert",
+   "pos": "v",
+   "raw": "exert (v)"
+  },
+  {
+   "head": "extortion",
+   "pos": "n",
+   "raw": "extortion (n)"
+  },
+  {
+   "head": "alleviate",
+   "pos": "v",
+   "raw": "alleviate (v)"
+  },
+  {
+   "head": "elaborate",
+   "pos": "adj",
+   "raw": "elaborate (adj)"
+  },
+  {
+   "head": "elaboration",
+   "pos": "n",
+   "raw": "elaboration (n)"
+  },
+  {
+   "head": "detest",
+   "pos": "v",
+   "raw": "detest (v)"
+  },
+  {
+   "head": "detestable",
+   "pos": "adj",
+   "raw": "detestable (adj)"
+  },
+  {
+   "head": "suds",
+   "pos": "n",
+   "raw": "suds (n)"
+  },
+  {
+   "head": "agreeable",
+   "pos": "adj",
+   "raw": "agreeable (adj)"
+  },
+  {
+   "head": "prowl",
+   "pos": "v",
+   "raw": "prowl (v)"
+  },
+  {
+   "head": "speculate",
+   "pos": "v",
+   "raw": "speculate (v)"
+  },
+  {
+   "head": "speculation",
+   "pos": "n",
+   "raw": "speculation (n)"
+  },
+  {
+   "head": "speculative",
+   "pos": "adj",
+   "raw": "speculative (adj)"
+  },
+  {
+   "head": "peacock",
+   "pos": "n",
+   "raw": "peacock (n)"
+  },
+  {
+   "head": "disdain",
+   "pos": "n",
+   "raw": "disdain (n)"
+  },
+  {
+   "head": "reenact",
+   "pos": "v",
+   "raw": "reenact (v)"
+  },
+  {
+   "head": "torment",
+   "pos": "v",
+   "raw": "torment (v)"
+  },
+  {
+   "head": "extravagance",
+   "pos": "n",
+   "raw": "extravagance (n)"
+  },
+  {
+   "head": "exploit",
+   "pos": "v",
+   "raw": "exploit (v)"
+  },
+  {
+   "head": "exploitation",
+   "pos": "n",
+   "raw": "exploitation (n)"
+  },
+  {
+   "head": "mechanism",
+   "pos": "n",
+   "raw": "mechanism (n)"
+  },
+  {
+   "head": "hence",
+   "pos": "adv",
+   "raw": "hence (adv)"
+  },
+  {
+   "head": "offspring",
+   "pos": "n",
+   "raw": "offspring (n)"
+  },
+  {
+   "head": "fit",
+   "pos": "adj",
+   "raw": "fit (adj)"
+  },
+  {
+   "head": "oblige",
+   "pos": "v",
+   "raw": "oblige (v)"
+  },
+  {
+   "head": "drive",
+   "pos": "v",
+   "raw": "drive (v)"
+  },
+  {
+   "head": "collaborate",
+   "pos": "v",
+   "raw": "collaborate (v)"
+  },
+  {
+   "head": "collaborator",
+   "pos": "n",
+   "raw": "collaborator (n)"
+  },
+  {
+   "head": "collaboration",
+   "pos": "n",
+   "raw": "collaboration (n)"
+  },
+  {
+   "head": "collaborative",
+   "pos": "adj",
+   "raw": "collaborative (adj)"
+  },
+  {
+   "head": "showy",
+   "pos": "adj",
+   "raw": "showy (adj)"
+  },
+  {
+   "head": "wrangle",
+   "pos": "v",
+   "raw": "wrangle (v)"
+  },
+  {
+   "head": "premise",
+   "pos": "n",
+   "raw": "premise (n)"
+  },
+  {
+   "head": "advantageous",
+   "pos": "adj",
+   "raw": "advantageous (adj)"
+  },
+  {
+   "head": "parasite",
+   "pos": "n",
+   "raw": "parasite (n)"
+  },
+  {
+   "head": "fanciful",
+   "pos": "adj",
+   "raw": "fanciful (adj)"
+  },
+  {
+   "head": "poise",
+   "pos": "n",
+   "raw": "poise (n)"
+  },
+  {
+   "head": "customary",
+   "pos": "adj",
+   "raw": "customary (adj)"
+  },
+  {
+   "head": "insightful",
+   "pos": "adj",
+   "raw": "insightful (adj)"
+  },
+  {
+   "head": "notable",
+   "pos": "adj",
+   "raw": "notable (adj)"
+  },
+  {
+   "head": "vicious",
+   "pos": "adj",
+   "raw": "vicious (adj)"
+  },
+  {
+   "head": "viciously",
+   "pos": "adv",
+   "raw": "viciously (adv)"
+  },
+  {
+   "head": "pupil",
+   "pos": "n",
+   "raw": "pupil (n)"
+  },
+  {
+   "head": "withdrawn",
+   "pos": "adj",
+   "raw": "withdrawn (adj)"
+  },
+  {
+   "head": "withdrawal",
+   "pos": "n",
+   "raw": "withdrawal (n)"
+  },
+  {
+   "head": "torturous",
+   "pos": "adj",
+   "raw": "torturous (adj)"
+  },
+  {
+   "head": "depict",
+   "pos": "v",
+   "raw": "depict (v)"
+  },
+  {
+   "head": "depiction",
+   "pos": "n",
+   "raw": "depiction (n)"
+  },
+  {
+   "head": "upheaval",
+   "pos": "n",
+   "raw": "upheaval (n)"
+  },
+  {
+   "head": "shortlist",
+   "pos": "v",
+   "raw": "shortlist (v)"
+  },
+  {
+   "head": "uneventful",
+   "pos": "adj",
+   "raw": "uneventful (adj)"
+  },
+  {
+   "head": "pertinent",
+   "pos": "adj",
+   "raw": "pertinent (adj)"
+  },
+  {
+   "head": "pertain to",
+   "pos": "v",
+   "raw": "pertain to (v)"
+  },
+  {
+   "head": "daydream",
+   "pos": "n",
+   "raw": "daydream (n)"
+  },
+  {
+   "head": "protagonist",
+   "pos": "n",
+   "raw": "protagonist (n)"
+  },
+  {
+   "head": "simplicity",
+   "pos": "n",
+   "raw": "simplicity (n)"
+  },
+  {
+   "head": "blockbuster",
+   "pos": "n",
+   "raw": "blockbuster (n)"
+  },
+  {
+   "head": "resonate",
+   "pos": "v",
+   "raw": "resonate (v)"
+  },
+  {
+   "head": "sequel",
+   "pos": "n",
+   "raw": "sequel (n)"
+  },
+  {
+   "head": "irony",
+   "pos": "n",
+   "raw": "irony (n)"
+  },
+  {
+   "head": "acidic",
+   "pos": "adj",
+   "raw": "acidic (adj)"
+  },
+  {
+   "head": "align",
+   "pos": "v",
+   "raw": "align (v)"
+  },
+  {
+   "head": "alignment",
+   "pos": "n",
+   "raw": "alignment (n)"
+  },
+  {
+   "head": "manipulation",
+   "pos": "n",
+   "raw": "manipulation (n)"
+  },
+  {
+   "head": "suitor",
+   "pos": "n",
+   "raw": "suitor (n)"
+  },
+  {
+   "head": "deceit",
+   "pos": "n",
+   "raw": "deceit (n)"
+  },
+  {
+   "head": "alienate",
+   "pos": "v",
+   "raw": "alienate (v)"
+  },
+  {
+   "head": "persuasively",
+   "pos": "adv",
+   "raw": "persuasively (adv)"
+  },
+  {
+   "head": "confinement",
+   "pos": "n",
+   "raw": "confinement (n)"
+  },
+  {
+   "head": "minutiae",
+   "pos": "n",
+   "raw": "minutiae (n)"
+  },
+  {
+   "head": "peasant",
+   "pos": "n",
+   "raw": "peasant (n)"
+  },
+  {
+   "head": "inexplicable",
+   "pos": "adj",
+   "raw": "inexplicable (adj)"
+  },
+  {
+   "head": "inexplicably",
+   "pos": "adv",
+   "raw": "inexplicably (adv)"
+  },
+  {
+   "head": "pigeon",
+   "pos": "n",
+   "raw": "pigeon (n)"
+  },
+  {
+   "head": "harass",
+   "pos": "v",
+   "raw": "harass (v)"
+  },
+  {
+   "head": "harassment",
+   "pos": "n",
+   "raw": "harassment (n)"
+  },
+  {
+   "head": "believably",
+   "pos": "adv",
+   "raw": "believably (adv)"
+  },
+  {
+   "head": "readable",
+   "pos": "adj",
+   "raw": "readable (adj)"
+  },
+  {
+   "head": "cleverness",
+   "pos": "n",
+   "raw": "cleverness (n)"
+  },
+  {
+   "head": "persecute",
+   "pos": "v",
+   "raw": "persecute (v)"
+  },
+  {
+   "head": "persecution",
+   "pos": "n",
+   "raw": "persecution (n)"
+  },
+  {
+   "head": "smug",
+   "pos": "adj",
+   "raw": "smug (adj)"
+  },
+  {
+   "head": "smugly",
+   "pos": "adv",
+   "raw": "smugly (adv)"
+  },
+  {
+   "head": "ferocious",
+   "pos": "adj",
+   "raw": "ferocious (adj)"
+  },
+  {
+   "head": "ferociously",
+   "pos": "adv",
+   "raw": "ferociously (adv)"
+  },
+  {
+   "head": "hostile",
+   "pos": "adj",
+   "raw": "hostile (adj)"
+  },
+  {
+   "head": "hostility",
+   "pos": "n",
+   "raw": "hostility (n)"
+  },
+  {
+   "head": "dismay",
+   "pos": "v",
+   "raw": "dismay (v)"
+  },
+  {
+   "head": "methodical",
+   "pos": "adj",
+   "raw": "methodical (adj)"
+  },
+  {
+   "head": "ruthless",
+   "pos": "adj",
+   "raw": "ruthless (adj)"
+  },
+  {
+   "head": "ruthlessness",
+   "pos": "n",
+   "raw": "ruthlessness (n)"
+  },
+  {
+   "head": "talkative",
+   "pos": "adj",
+   "raw": "talkative (adj)"
+  },
+  {
+   "head": "awe",
+   "pos": "v",
+   "raw": "awe (v)"
+  },
+  {
+   "head": "clan",
+   "pos": "n",
+   "raw": "clan (n)"
+  },
+  {
+   "head": "privileged",
+   "pos": "adj",
+   "raw": "privileged (adj)"
+  },
+  {
+   "head": "crumble",
+   "pos": "v",
+   "raw": "crumble (v)"
+  },
+  {
+   "head": "crumb",
+   "pos": "n",
+   "raw": "crumb (n)"
+  },
+  {
+   "head": "pace",
+   "pos": "v",
+   "raw": "pace (v)"
+  },
+  {
+   "head": "closeness",
+   "pos": "n",
+   "raw": "closeness (n)"
+  },
+  {
+   "head": "rarity",
+   "pos": "n",
+   "raw": "rarity (n)"
+  },
+  {
+   "head": "evoke",
+   "pos": "v",
+   "raw": "evoke (v)"
+  },
+  {
+   "head": "repel",
+   "pos": "v",
+   "raw": "repel (v)"
+  },
+  {
+   "head": "repellant",
+   "pos": "n",
+   "raw": "repellant (n)"
+  },
+  {
+   "head": "aqua",
+   "pos": "adj",
+   "raw": "aqua (adj)"
+  },
+  {
+   "head": "aquarium",
+   "pos": "n",
+   "raw": "aquarium (n)"
+  },
+  {
+   "head": "insightfully",
+   "pos": "adv",
+   "raw": "insightfully (adv)"
+  },
+  {
+   "head": "flashback",
+   "pos": "n",
+   "raw": "flashback (n)"
+  },
+  {
+   "head": "self-worth",
+   "pos": "n",
+   "raw": "self-worth (n)"
+  },
+  {
+   "head": "agonize",
+   "pos": "v",
+   "raw": "agonize (v)"
+  },
+  {
+   "head": "cite",
+   "pos": "v",
+   "raw": "cite (v)"
+  },
+  {
+   "head": "citation",
+   "pos": "n",
+   "raw": "citation (n)"
+  },
+  {
+   "head": "recite",
+   "pos": "v",
+   "raw": "recite (v)"
+  },
+  {
+   "head": "ecstasy",
+   "pos": "n",
+   "raw": "ecstasy (n)"
+  },
+  {
+   "head": "ecstatic",
+   "pos": "adj",
+   "raw": "ecstatic (adj)"
+  },
+  {
+   "head": "ecstatically",
+   "pos": "adv",
+   "raw": "ecstatically (adv)"
+  },
+  {
+   "head": "pleasurable",
+   "pos": "adj",
+   "raw": "pleasurable (adj)"
+  },
+  {
+   "head": "nature",
+   "pos": "n",
+   "raw": "nature (n)"
+  },
+  {
+   "head": "substantially",
+   "pos": "adv",
+   "raw": "substantially (adv)"
+  },
+  {
+   "head": "favorably/favourably",
+   "pos": "adv",
+   "raw": "favorably/favourably (adv)"
+  },
+  {
+   "head": "diversity",
+   "pos": "n",
+   "raw": "diversity (n)"
+  },
+  {
+   "head": "elitist",
+   "pos": "n",
+   "raw": "elitist (n)"
+  },
+  {
+   "head": "grumble",
+   "pos": "v",
+   "raw": "grumble (v)"
+  },
+  {
+   "head": "rumble",
+   "pos": "v",
+   "raw": "rumble (v)"
+  },
+  {
+   "head": "neglectful",
+   "pos": "adj",
+   "raw": "neglectful (adj)"
+  },
+  {
+   "head": "roundup",
+   "pos": "n",
+   "raw": "roundup (n)"
+  },
+  {
+   "head": "conscientious",
+   "pos": "adj",
+   "raw": "conscientious (adj)"
+  },
+  {
+   "head": "conscientiously",
+   "pos": "adv",
+   "raw": "conscientiously (adv)"
+  },
+  {
+   "head": "indefinite",
+   "pos": "adj",
+   "raw": "indefinite (adj)"
+  },
+  {
+   "head": "indefinitely",
+   "pos": "adv",
+   "raw": "indefinitely (adv)"
+  },
+  {
+   "head": "atmospheric",
+   "pos": "adj",
+   "raw": "atmospheric (adj)"
+  },
+  {
+   "head": "fuse",
+   "pos": "v",
+   "raw": "fuse (v)"
+  },
+  {
+   "head": "fusion",
+   "pos": "n",
+   "raw": "fusion (n)"
+  },
+  {
+   "head": "robust",
+   "pos": "adj",
+   "raw": "robust (adj)"
+  },
+  {
+   "head": "robustly",
+   "pos": "adv",
+   "raw": "robustly (adv)"
+  },
+  {
+   "head": "dismal",
+   "pos": "adj",
+   "raw": "dismal (adj)"
+  },
+  {
+   "head": "dismally",
+   "pos": "adv",
+   "raw": "dismally (adv)"
+  },
+  {
+   "head": "crave",
+   "pos": "v",
+   "raw": "crave (v)"
+  },
+  {
+   "head": "craving",
+   "pos": "n",
+   "raw": "craving (n)"
+  },
+  {
+   "head": "prospective",
+   "pos": "adj",
+   "raw": "prospective (adj)"
+  },
+  {
+   "head": "swap",
+   "pos": "v",
+   "raw": "swap (v)"
+  },
+  {
+   "head": "remotely",
+   "pos": "adv",
+   "raw": "remotely (adv)"
+  },
+  {
+   "head": "splatter",
+   "pos": "v",
+   "raw": "splatter (v)"
+  },
+  {
+   "head": "automatic",
+   "pos": "v",
+   "raw": "automatic (v)"
+  },
+  {
+   "head": "automatically",
+   "pos": "adv",
+   "raw": "automatically (adv)"
+  },
+  {
+   "head": "exhaust",
+   "pos": "v",
+   "raw": "exhaust (v)"
+  },
+  {
+   "head": "violet",
+   "pos": "adj",
+   "raw": "violet (adj)"
+  },
+  {
+   "head": "bubbly",
+   "pos": "adj",
+   "raw": "bubbly (adj)"
+  },
+  {
+   "head": "chaotically",
+   "pos": "adv",
+   "raw": "chaotically (adv)"
+  },
+  {
+   "head": "apprehensive",
+   "pos": "adj",
+   "raw": "apprehensive (adj)"
+  },
+  {
+   "head": "settee",
+   "pos": "n",
+   "raw": "settee (n)"
+  },
+  {
+   "head": "trampoline",
+   "pos": "n",
+   "raw": "trampoline (n)"
+  },
+  {
+   "head": "stamina",
+   "pos": "n",
+   "raw": "stamina (n)"
+  },
+  {
+   "head": "ploy",
+   "pos": "n",
+   "raw": "ploy (n)"
+  },
+  {
+   "head": "dither",
+   "pos": "v",
+   "raw": "dither (v)"
+  },
+  {
+   "head": "overalls",
+   "pos": "n",
+   "raw": "overalls (n)"
+  },
+  {
+   "head": "unison",
+   "pos": "n",
+   "raw": "unison (n)"
+  },
+  {
+   "head": "snail",
+   "pos": "n",
+   "raw": "snail (n)"
+  },
+  {
+   "head": "bliss",
+   "pos": "n",
+   "raw": "bliss (n)"
+  },
+  {
+   "head": "inexhaustible",
+   "pos": "adj",
+   "raw": "inexhaustible (adj)"
+  },
+  {
+   "head": "acre",
+   "pos": "n",
+   "raw": "acre (n)"
+  },
+  {
+   "head": "calf",
+   "pos": "n",
+   "raw": "calf (n)"
+  },
+  {
+   "head": "heifer",
+   "pos": "n",
+   "raw": "heifer (n)"
+  },
+  {
+   "head": "ewe",
+   "pos": "n",
+   "raw": "ewe (n)"
+  },
+  {
+   "head": "adversary",
+   "pos": "n",
+   "raw": "adversary (n)"
+  },
+  {
+   "head": "victorious",
+   "pos": "adj",
+   "raw": "victorious (adj)"
+  },
+  {
+   "head": "victoriously",
+   "pos": "adv",
+   "raw": "victoriously (adv)"
+  },
+  {
+   "head": "profound",
+   "pos": "adj",
+   "raw": "profound (adj)"
+  },
+  {
+   "head": "profoundly",
+   "pos": "adv",
+   "raw": "profoundly (adv)"
+  },
+  {
+   "head": "baldly",
+   "pos": "adv",
+   "raw": "baldly (adv)"
+  },
+  {
+   "head": "bald",
+   "pos": "v",
+   "raw": "bald (v)"
+  },
+  {
+   "head": "bearded",
+   "pos": "adj",
+   "raw": "bearded (adj)"
+  },
+  {
+   "head": "professionalism",
+   "pos": "n",
+   "raw": "professionalism (n)"
+  },
+  {
+   "head": "artistically",
+   "pos": "adv",
+   "raw": "artistically (adv)"
+  },
+  {
+   "head": "popularization",
+   "pos": "n",
+   "raw": "popularization (n)"
+  },
+  {
+   "head": "pendulum",
+   "pos": "n",
+   "raw": "pendulum (n)"
+  },
+  {
+   "head": "predecessor",
+   "pos": "n",
+   "raw": "predecessor (n)"
+  },
+  {
+   "head": "boast",
+   "pos": "n",
+   "raw": "boast (n)"
+  },
+  {
+   "head": "lapse",
+   "pos": "n",
+   "raw": "lapse (n)"
+  },
+  {
+   "head": "ceaseless",
+   "pos": "adj",
+   "raw": "ceaseless (adj)"
+  },
+  {
+   "head": "ceaselessly",
+   "pos": "adv",
+   "raw": "ceaselessly (adv)"
+  },
+  {
+   "head": "climax",
+   "pos": "n",
+   "raw": "climax (n)"
+  },
+  {
+   "head": "climactic",
+   "pos": "adj",
+   "raw": "climactic (adj)"
+  },
+  {
+   "head": "anticlimactic",
+   "pos": "adj",
+   "raw": "anticlimactic (adj)"
+  },
+  {
+   "head": "scramble",
+   "pos": "n",
+   "raw": "scramble (n)"
+  },
+  {
+   "head": "forfeit",
+   "pos": "v",
+   "raw": "forfeit (v)"
+  },
+  {
+   "head": "twitch",
+   "pos": "v",
+   "raw": "twitch (v)"
+  },
+  {
+   "head": "intellect",
+   "pos": "n",
+   "raw": "intellect (n)"
+  },
+  {
+   "head": "descent",
+   "pos": "n",
+   "raw": "descent (n)"
+  },
+  {
+   "head": "shed",
+   "pos": "v",
+   "raw": "shed (v)"
+  },
+  {
+   "head": "exodus",
+   "pos": "n",
+   "raw": "exodus (n)"
+  },
+  {
+   "head": "immortalize",
+   "pos": "v",
+   "raw": "immortalize (v)"
+  },
+  {
+   "head": "genome",
+   "pos": "n",
+   "raw": "genome (n)"
+  },
+  {
+   "head": "fraction",
+   "pos": "n",
+   "raw": "fraction (n)"
+  },
+  {
+   "head": "faction",
+   "pos": "n",
+   "raw": "faction (n)"
+  },
+  {
+   "head": "physique",
+   "pos": "n",
+   "raw": "physique (n)"
+  },
+  {
+   "head": "utensil",
+   "pos": "n",
+   "raw": "utensil (n)"
+  },
+  {
+   "head": "otter",
+   "pos": "n",
+   "raw": "otter (n)"
+  },
+  {
+   "head": "clammy",
+   "pos": "adj",
+   "raw": "clammy (adj)"
+  },
+  {
+   "head": "absolute",
+   "pos": "n",
+   "raw": "absolute (n)"
+  },
+  {
+   "head": "dispense",
+   "pos": "v",
+   "raw": "dispense (v)"
+  },
+  {
+   "head": "dispensable",
+   "pos": "adj",
+   "raw": "dispensable (adj)"
+  },
+  {
+   "head": "dispensary",
+   "pos": "n",
+   "raw": "dispensary (n)"
+  },
+  {
+   "head": "indispensable",
+   "pos": "adj",
+   "raw": "indispensable (adj)"
+  },
+  {
+   "head": "diverge",
+   "pos": "v",
+   "raw": "diverge (v)"
+  },
+  {
+   "head": "divergence",
+   "pos": "n",
+   "raw": "divergence (n)"
+  },
+  {
+   "head": "divergent",
+   "pos": "adj",
+   "raw": "divergent (adj)"
+  },
+  {
+   "head": "burst",
+   "pos": "n",
+   "raw": "burst (n)"
+  },
+  {
+   "head": "superficial",
+   "pos": "adj",
+   "raw": "superficial (adj)"
+  },
+  {
+   "head": "superficially",
+   "pos": "adv",
+   "raw": "superficially (adv)"
+  },
+  {
+   "head": "aesthetic",
+   "pos": "adj",
+   "raw": "aesthetic (adj)"
+  },
+  {
+   "head": "aesthetically",
+   "pos": "adv",
+   "raw": "aesthetically (adv)"
+  },
+  {
+   "head": "scrutinize/scrutinise",
+   "pos": "v",
+   "raw": "scrutinize/scrutinise (v)"
+  },
+  {
+   "head": "scrutiny",
+   "pos": "n",
+   "raw": "scrutiny (n)"
+  },
+  {
+   "head": "quip",
+   "pos": "n",
+   "raw": "quip (n)"
+  },
+  {
+   "head": "woo",
+   "pos": "v",
+   "raw": "woo (v)"
+  },
+  {
+   "head": "criteria",
+   "pos": "n",
+   "raw": "criteria (n)"
+  },
+  {
+   "head": "plausible",
+   "pos": "adj",
+   "raw": "plausible (adj)"
+  },
+  {
+   "head": "plausibility",
+   "pos": "n",
+   "raw": "plausibility (n)"
+  },
+  {
+   "head": "plausibly",
+   "pos": "adv",
+   "raw": "plausibly (adv)"
+  },
+  {
+   "head": "instinctive",
+   "pos": "adj",
+   "raw": "instinctive (adj)"
+  },
+  {
+   "head": "instinctively",
+   "pos": "adv",
+   "raw": "instinctively (adv)"
+  },
+  {
+   "head": "stylistic",
+   "pos": "adj",
+   "raw": "stylistic (adj)"
+  },
+  {
+   "head": "stylistically",
+   "pos": "adv",
+   "raw": "stylistically (adv)"
+  },
+  {
+   "head": "inheritance",
+   "pos": "n",
+   "raw": "inheritance (n)"
+  },
+  {
+   "head": "inherent",
+   "pos": "adj",
+   "raw": "inherent (adj)"
+  },
+  {
+   "head": "inherently",
+   "pos": "adv",
+   "raw": "inherently (adv)"
+  },
+  {
+   "head": "tune",
+   "pos": "v",
+   "raw": "tune (v)"
+  },
+  {
+   "head": "spontaneous",
+   "pos": "adj",
+   "raw": "spontaneous (adj)"
+  },
+  {
+   "head": "spontaneously",
+   "pos": "adv",
+   "raw": "spontaneously (adv)"
+  },
+  {
+   "head": "honk",
+   "pos": "v",
+   "raw": "honk (v)"
+  },
+  {
+   "head": "goose",
+   "pos": "n",
+   "raw": "goose (n)"
+  },
+  {
+   "head": "innovate",
+   "pos": "v",
+   "raw": "innovate (v)"
+  },
+  {
+   "head": "innovation",
+   "pos": "n",
+   "raw": "innovation (n)"
+  },
+  {
+   "head": "innovative",
+   "pos": "adj",
+   "raw": "innovative (adj)"
+  },
+  {
+   "head": "connoisseur",
+   "pos": "n",
+   "raw": "connoisseur (n)"
+  },
+  {
+   "head": "abstraction",
+   "pos": "n",
+   "raw": "abstraction (n)"
+  },
+  {
+   "head": "tantrum",
+   "pos": "n",
+   "raw": "tantrum (n)"
+  },
+  {
+   "head": "institute",
+   "pos": "v",
+   "raw": "institute (v)"
+  },
+  {
+   "head": "discard",
+   "pos": "v",
+   "raw": "discard (v)"
+  },
+  {
+   "head": "fatality",
+   "pos": "n",
+   "raw": "fatality (n)"
+  },
+  {
+   "head": "angle",
+   "pos": "v",
+   "raw": "angle (v)"
+  },
+  {
+   "head": "stiffen",
+   "pos": "v",
+   "raw": "stiffen (v)"
+  },
+  {
+   "head": "wooded",
+   "pos": "adj",
+   "raw": "wooded (adj)"
+  },
+  {
+   "head": "flatter",
+   "pos": "v",
+   "raw": "flatter (v)"
+  },
+  {
+   "head": "flattery",
+   "pos": "n",
+   "raw": "flattery (n)"
+  },
+  {
+   "head": "aimless",
+   "pos": "adj",
+   "raw": "aimless (adj)"
+  },
+  {
+   "head": "aimlessly",
+   "pos": "adv",
+   "raw": "aimlessly (adv)"
+  },
+  {
+   "head": "meaningless",
+   "pos": "adj",
+   "raw": "meaningless (adj)"
+  },
+  {
+   "head": "meaninglessly",
+   "pos": "adv",
+   "raw": "meaninglessly (adv)"
+  },
+  {
+   "head": "candid",
+   "pos": "adj",
+   "raw": "candid (adj)"
+  },
+  {
+   "head": "candidly",
+   "pos": "adv",
+   "raw": "candidly (adv)"
+  },
+  {
+   "head": "vitality",
+   "pos": "n",
+   "raw": "vitality (n)"
+  },
+  {
+   "head": "provoke",
+   "pos": "v",
+   "raw": "provoke (v)"
+  },
+  {
+   "head": "provocative",
+   "pos": "adj",
+   "raw": "provocative (adj)"
+  },
+  {
+   "head": "provocatively",
+   "pos": "adv",
+   "raw": "provocatively (adv)"
+  },
+  {
+   "head": "clench",
+   "pos": "v",
+   "raw": "clench (v)"
+  },
+  {
+   "head": "haggle",
+   "pos": "v",
+   "raw": "haggle (v)"
+  },
+  {
+   "head": "scorn",
+   "pos": "n",
+   "raw": "scorn (n)"
+  },
+  {
+   "head": "scornful",
+   "pos": "adj",
+   "raw": "scornful (adj)"
+  },
+  {
+   "head": "scornfully",
+   "pos": "adv",
+   "raw": "scornfully (adv)"
+  },
+  {
+   "head": "animatedly",
+   "pos": "adv",
+   "raw": "animatedly (adv)"
+  },
+  {
+   "head": "obscure",
+   "pos": "v",
+   "raw": "obscure (v)"
+  },
+  {
+   "head": "obscurely",
+   "pos": "adv",
+   "raw": "obscurely (adv)"
+  },
+  {
+   "head": "elevate",
+   "pos": "v",
+   "raw": "elevate (v)"
+  },
+  {
+   "head": "elevation",
+   "pos": "n",
+   "raw": "elevation (n)"
+  },
+  {
+   "head": "pose",
+   "pos": "v",
+   "raw": "pose (v)"
+  },
+  {
+   "head": "tediously",
+   "pos": "adv",
+   "raw": "tediously (adv)"
+  },
+  {
+   "head": "succession",
+   "pos": "n",
+   "raw": "succession (n)"
+  },
+  {
+   "head": "formality",
+   "pos": "n",
+   "raw": "formality (n)"
+  },
+  {
+   "head": "jog",
+   "pos": "v",
+   "raw": "jog (v)"
+  },
+  {
+   "head": "mountaineer",
+   "pos": "n",
+   "raw": "mountaineer (n)"
+  },
+  {
+   "head": "pioneer",
+   "pos": "v",
+   "raw": "pioneer (v)"
+  },
+  {
+   "head": "quest",
+   "pos": "n",
+   "raw": "quest (n)"
+  },
+  {
+   "head": "transatlantic",
+   "pos": "adj",
+   "raw": "transatlantic (adj)"
+  },
+  {
+   "head": "rudiments",
+   "pos": "n",
+   "raw": "rudiments (n)"
+  },
+  {
+   "head": "rudimentary",
+   "pos": "adj",
+   "raw": "rudimentary (adj)"
+  },
+  {
+   "head": "paddle",
+   "pos": "v",
+   "raw": "paddle (v)"
+  },
+  {
+   "head": "immense",
+   "pos": "adj",
+   "raw": "immense (adj)"
+  },
+  {
+   "head": "immensely",
+   "pos": "adv",
+   "raw": "immensely (adv)"
+  },
+  {
+   "head": "advisory",
+   "pos": "adj",
+   "raw": "advisory (adj)"
+  },
+  {
+   "head": "trying",
+   "pos": "adj",
+   "raw": "trying (adj)"
+  },
+  {
+   "head": "adrenaline",
+   "pos": "n",
+   "raw": "adrenaline (n)"
+  },
+  {
+   "head": "tinker",
+   "pos": "v",
+   "raw": "tinker (v)"
+  },
+  {
+   "head": "lavatory",
+   "pos": "n",
+   "raw": "lavatory (n)"
+  },
+  {
+   "head": "expedition",
+   "pos": "n",
+   "raw": "expedition (n)"
+  },
+  {
+   "head": "pinnacle",
+   "pos": "n",
+   "raw": "pinnacle (n)"
+  },
+  {
+   "head": "insecure",
+   "pos": "adj",
+   "raw": "insecure (adj)"
+  },
+  {
+   "head": "insecurely",
+   "pos": "adv",
+   "raw": "insecurely (adv)"
+  },
+  {
+   "head": "reassure",
+   "pos": "v",
+   "raw": "reassure (v)"
+  },
+  {
+   "head": "reassurance",
+   "pos": "n",
+   "raw": "reassurance (n)"
+  },
+  {
+   "head": "insensitive",
+   "pos": "adj",
+   "raw": "insensitive (adj)"
+  },
+  {
+   "head": "insensitively",
+   "pos": "adv",
+   "raw": "insensitively (adv)"
+  },
+  {
+   "head": "profess",
+   "pos": "v",
+   "raw": "profess (v)"
+  },
+  {
+   "head": "drawback",
+   "pos": "n",
+   "raw": "drawback (n)"
+  },
+  {
+   "head": "resort",
+   "pos": "v",
+   "raw": "resort (v)"
+  },
+  {
+   "head": "oversee",
+   "pos": "v",
+   "raw": "oversee (v)"
+  },
+  {
+   "head": "overseer",
+   "pos": "n",
+   "raw": "overseer (n)"
+  },
+  {
+   "head": "estimation",
+   "pos": "n",
+   "raw": "estimation (n)"
+  },
+  {
+   "head": "commission",
+   "pos": "v",
+   "raw": "commission (v)"
+  },
+  {
+   "head": "liaison",
+   "pos": "n",
+   "raw": "liaison (n)"
+  },
+  {
+   "head": "stressfully",
+   "pos": "adv",
+   "raw": "stressfully (adv)"
+  },
+  {
+   "head": "loom",
+   "pos": "v",
+   "raw": "loom (v)"
+  },
+  {
+   "head": "notwithstanding",
+   "pos": "prep",
+   "raw": "notwithstanding (prep)"
+  },
+  {
+   "head": "structurally",
+   "pos": "adv",
+   "raw": "structurally (adv)"
+  },
+  {
+   "head": "structural",
+   "pos": "adj",
+   "raw": "structural (adj)"
+  },
+  {
+   "head": "chauffer",
+   "pos": "n",
+   "raw": "chauffer (n)"
+  },
+  {
+   "head": "sedentary",
+   "pos": "adj",
+   "raw": "sedentary (adj)"
+  },
+  {
+   "head": "rapport",
+   "pos": "n",
+   "raw": "rapport (n)"
+  },
+  {
+   "head": "landscape",
+   "pos": "v",
+   "raw": "landscape (v)"
+  },
+  {
+   "head": "consultation",
+   "pos": "n",
+   "raw": "consultation (n)"
+  },
+  {
+   "head": "consultancy",
+   "pos": "n",
+   "raw": "consultancy (n)"
+  },
+  {
+   "head": "bloom",
+   "pos": "v",
+   "raw": "bloom (v)"
+  },
+  {
+   "head": "engineer",
+   "pos": "v",
+   "raw": "engineer (v)"
+  },
+  {
+   "head": "retention",
+   "pos": "n",
+   "raw": "retention (n)"
+  },
+  {
+   "head": "quarry",
+   "pos": "n",
+   "raw": "quarry (n)"
+  },
+  {
+   "head": "specification",
+   "pos": "n",
+   "raw": "specification (n)"
+  },
+  {
+   "head": "contract",
+   "pos": "v",
+   "raw": "contract (v)"
+  },
+  {
+   "head": "contractor",
+   "pos": "n",
+   "raw": "contractor (n)"
+  },
+  {
+   "head": "query",
+   "pos": "v",
+   "raw": "query (v)"
+  },
+  {
+   "head": "possessor",
+   "pos": "n",
+   "raw": "possessor (n)"
+  },
+  {
+   "head": "chill",
+   "pos": "v",
+   "raw": "chill (v)"
+  },
+  {
+   "head": "chilly",
+   "pos": "adj",
+   "raw": "chilly (adj)"
+  },
+  {
+   "head": "frost",
+   "pos": "v",
+   "raw": "frost (v)"
+  },
+  {
+   "head": "frosty",
+   "pos": "adj",
+   "raw": "frosty (adj)"
+  },
+  {
+   "head": "frostily",
+   "pos": "adv",
+   "raw": "frostily (adv)"
+  },
+  {
+   "head": "man",
+   "pos": "v",
+   "raw": "man (v)"
+  },
+  {
+   "head": "unmanned",
+   "pos": "adj",
+   "raw": "unmanned (adj)"
+  },
+  {
+   "head": "impersonal",
+   "pos": "adj",
+   "raw": "impersonal (adj)"
+  },
+  {
+   "head": "impersonally",
+   "pos": "adv",
+   "raw": "impersonally (adv)"
+  },
+  {
+   "head": "impersonate",
+   "pos": "v",
+   "raw": "impersonate (v)"
+  },
+  {
+   "head": "impersonator",
+   "pos": "n",
+   "raw": "impersonator (n)"
+  },
+  {
+   "head": "impersonation",
+   "pos": "n",
+   "raw": "impersonation (n)"
+  },
+  {
+   "head": "buzzer",
+   "pos": "n",
+   "raw": "buzzer (n)"
+  },
+  {
+   "head": "desert",
+   "pos": "v",
+   "raw": "desert (v)"
+  },
+  {
+   "head": "desertion",
+   "pos": "n",
+   "raw": "desertion (n)"
+  },
+  {
+   "head": "unoccupied",
+   "pos": "adj",
+   "raw": "unoccupied (adj)"
+  },
+  {
+   "head": "stuffy",
+   "pos": "adj",
+   "raw": "stuffy (adj)"
+  },
+  {
+   "head": "stuffily",
+   "pos": "adv",
+   "raw": "stuffily (adv)"
+  },
+  {
+   "head": "stuffiness",
+   "pos": "n",
+   "raw": "stuffiness (n)"
+  },
+  {
+   "head": "gape",
+   "pos": "v",
+   "raw": "gape (v)"
+  },
+  {
+   "head": "repute",
+   "pos": "v",
+   "raw": "repute (v)"
+  },
+  {
+   "head": "toughness",
+   "pos": "n",
+   "raw": "toughness (n)"
+  },
+  {
+   "head": "recall",
+   "pos": "n",
+   "raw": "recall (n)"
+  },
+  {
+   "head": "recollection",
+   "pos": "n",
+   "raw": "recollection (n)"
+  },
+  {
+   "head": "plumbing",
+   "pos": "n",
+   "raw": "plumbing (n)"
+  },
+  {
+   "head": "usher",
+   "pos": "n",
+   "raw": "usher (n)"
+  },
+  {
+   "head": "glum",
+   "pos": "adj",
+   "raw": "glum (adj)"
+  },
+  {
+   "head": "glumly",
+   "pos": "adv",
+   "raw": "glumly (adv)"
+  },
+  {
+   "head": "gamely",
+   "pos": "adv",
+   "raw": "gamely (adv)"
+  },
+  {
+   "head": "dissect",
+   "pos": "v",
+   "raw": "dissect (v)"
+  },
+  {
+   "head": "dissection",
+   "pos": "n",
+   "raw": "dissection (n)"
+  },
+  {
+   "head": "commend",
+   "pos": "v",
+   "raw": "commend (v)"
+  },
+  {
+   "head": "commendation",
+   "pos": "n",
+   "raw": "commendation (n)"
+  },
+  {
+   "head": "thereby",
+   "pos": "adv",
+   "raw": "thereby (adv)"
+  },
+  {
+   "head": "flick",
+   "pos": "v",
+   "raw": "flick (v)"
+  },
+  {
+   "head": "flicker",
+   "pos": "n",
+   "raw": "flicker (n)"
+  },
+  {
+   "head": "unenviable",
+   "pos": "adj",
+   "raw": "unenviable (adj)"
+  },
+  {
+   "head": "unenviably",
+   "pos": "adv",
+   "raw": "unenviably (adv)"
+  },
+  {
+   "head": "voice",
+   "pos": "v",
+   "raw": "voice (v)"
+  },
+  {
+   "head": "tread",
+   "pos": "n",
+   "raw": "tread (n)"
+  },
+  {
+   "head": "allege",
+   "pos": "v",
+   "raw": "allege (v)"
+  },
+  {
+   "head": "allegation",
+   "pos": "n",
+   "raw": "allegation (n)"
+  },
+  {
+   "head": "bribe",
+   "pos": "v",
+   "raw": "bribe (v)"
+  },
+  {
+   "head": "bribery",
+   "pos": "n",
+   "raw": "bribery (n)"
+  },
+  {
+   "head": "inclusion",
+   "pos": "n",
+   "raw": "inclusion (n)"
+  },
+  {
+   "head": "inclusive",
+   "pos": "adj",
+   "raw": "inclusive (adj)"
+  },
+  {
+   "head": "inclusively",
+   "pos": "adv",
+   "raw": "inclusively (adv)"
+  },
+  {
+   "head": "unconvincing",
+   "pos": "adj",
+   "raw": "unconvincing (adj)"
+  },
+  {
+   "head": "unconvincingly",
+   "pos": "adv",
+   "raw": "unconvincingly (adv)"
+  },
+  {
+   "head": "recharge",
+   "pos": "v",
+   "raw": "recharge (v)"
+  },
+  {
+   "head": "facilitation",
+   "pos": "n",
+   "raw": "facilitation (n)"
+  },
+  {
+   "head": "condition",
+   "pos": "v",
+   "raw": "condition (v)"
+  },
+  {
+   "head": "conditional",
+   "pos": "adj",
+   "raw": "conditional (adj)"
+  },
+  {
+   "head": "conditionally",
+   "pos": "adv",
+   "raw": "conditionally (adv)"
+  },
+  {
+   "head": "tone",
+   "pos": "v",
+   "raw": "tone (v)"
+  },
+  {
+   "head": "supple",
+   "pos": "adj",
+   "raw": "supple (adj)"
+  },
+  {
+   "head": "manicure",
+   "pos": "n",
+   "raw": "manicure (n)"
+  },
+  {
+   "head": "pedicure",
+   "pos": "n",
+   "raw": "pedicure (n)"
+  },
+  {
+   "head": "facial",
+   "pos": "adj",
+   "raw": "facial (adj)"
+  },
+  {
+   "head": "bouquet",
+   "pos": "n",
+   "raw": "bouquet (n)"
+  },
+  {
+   "head": "refurbish",
+   "pos": "v",
+   "raw": "refurbish (v)"
+  },
+  {
+   "head": "refurbishment",
+   "pos": "n",
+   "raw": "refurbishment (n)"
+  },
+  {
+   "head": "grounds",
+   "pos": "n",
+   "raw": "grounds (n)"
+  },
+  {
+   "head": "ground",
+   "pos": "v",
+   "raw": "ground (v)"
+  },
+  {
+   "head": "lethargy",
+   "pos": "n",
+   "raw": "lethargy (n)"
+  },
+  {
+   "head": "lethargic",
+   "pos": "adj",
+   "raw": "lethargic (adj)"
+  },
+  {
+   "head": "lethargically",
+   "pos": "adv",
+   "raw": "lethargically (adv)"
+  },
+  {
+   "head": "stately",
+   "pos": "adj",
+   "raw": "stately (adj)"
+  },
+  {
+   "head": "conserve",
+   "pos": "v",
+   "raw": "conserve (v)"
+  },
+  {
+   "head": "conservatory",
+   "pos": "n",
+   "raw": "conservatory (n)"
+  },
+  {
+   "head": "disquieting",
+   "pos": "adj",
+   "raw": "disquieting (adj)"
+  },
+  {
+   "head": "fiercely",
+   "pos": "adv",
+   "raw": "fiercely (adv)"
+  },
+  {
+   "head": "grapefruit",
+   "pos": "n",
+   "raw": "grapefruit (n)"
+  },
+  {
+   "head": "exotic",
+   "pos": "adj",
+   "raw": "exotic (adj)"
+  },
+  {
+   "head": "exotically",
+   "pos": "adv",
+   "raw": "exotically (adv)"
+  },
+  {
+   "head": "flask",
+   "pos": "n",
+   "raw": "flask (n)"
+  },
+  {
+   "head": "spacious",
+   "pos": "adj",
+   "raw": "spacious (adj)"
+  },
+  {
+   "head": "gourmet",
+   "pos": "adj",
+   "raw": "gourmet (adj)"
+  },
+  {
+   "head": "rich",
+   "pos": "adj",
+   "raw": "rich (adj)"
+  },
+  {
+   "head": "conjure",
+   "pos": "v",
+   "raw": "conjure (v)"
+  },
+  {
+   "head": "creamy",
+   "pos": "adj",
+   "raw": "creamy (adj)"
+  },
+  {
+   "head": "sauna",
+   "pos": "n",
+   "raw": "sauna (n)"
+  },
+  {
+   "head": "remedial",
+   "pos": "adj",
+   "raw": "remedial (adj)"
+  },
+  {
+   "head": "posture",
+   "pos": "n",
+   "raw": "posture (n)"
+  },
+  {
+   "head": "sedate",
+   "pos": "v",
+   "raw": "sedate (v)"
+  },
+  {
+   "head": "sedately",
+   "pos": "adv",
+   "raw": "sedately (adv)"
+  },
+  {
+   "head": "clutch",
+   "pos": "v",
+   "raw": "clutch (v)"
+  },
+  {
+   "head": "stagger",
+   "pos": "v",
+   "raw": "stagger (v)"
+  },
+  {
+   "head": "staggering",
+   "pos": "adj",
+   "raw": "staggering (adj)"
+  },
+  {
+   "head": "dutiful",
+   "pos": "adj",
+   "raw": "dutiful (adj)"
+  },
+  {
+   "head": "dutifully",
+   "pos": "adv",
+   "raw": "dutifully (adv)"
+  },
+  {
+   "head": "calorie",
+   "pos": "n",
+   "raw": "calorie (n)"
+  },
+  {
+   "head": "firm",
+   "pos": "v",
+   "raw": "firm (v)"
+  },
+  {
+   "head": "fabulously",
+   "pos": "adv",
+   "raw": "fabulously (adv)"
+  },
+  {
+   "head": "premises",
+   "pos": "n",
+   "raw": "premises (n)"
+  },
+  {
+   "head": "eclectic",
+   "pos": "adj",
+   "raw": "eclectic (adj)"
+  },
+  {
+   "head": "eclectically",
+   "pos": "adv",
+   "raw": "eclectically (adv)"
+  },
+  {
+   "head": "revere",
+   "pos": "v",
+   "raw": "revere (v)"
+  },
+  {
+   "head": "harbor/harbour",
+   "pos": "v",
+   "raw": "harbor/harbour (v)"
+  },
+  {
+   "head": "recognizable/recognisable",
+   "pos": "adj",
+   "raw": "recognizable/recognisable (adj)"
+  },
+  {
+   "head": "recognizably/recognisably",
+   "pos": "adv",
+   "raw": "recognizably/recognisably (adv)"
+  },
+  {
+   "head": "batter",
+   "pos": "v",
+   "raw": "batter (v)"
+  },
+  {
+   "head": "battery",
+   "pos": "n",
+   "raw": "battery (n)"
+  },
+  {
+   "head": "unreliably",
+   "pos": "adv",
+   "raw": "unreliably (adv)"
+  },
+  {
+   "head": "waterfront",
+   "pos": "n",
+   "raw": "waterfront (n)"
+  },
+  {
+   "head": "amply",
+   "pos": "adv",
+   "raw": "amply (adv)"
+  },
+  {
+   "head": "amplification",
+   "pos": "n",
+   "raw": "amplification (n)"
+  },
+  {
+   "head": "battered",
+   "pos": "adj",
+   "raw": "battered (adj)"
+  },
+  {
+   "head": "comply",
+   "pos": "v",
+   "raw": "comply (v)"
+  },
+  {
+   "head": "compliance",
+   "pos": "n",
+   "raw": "compliance (n)"
+  },
+  {
+   "head": "compliant",
+   "pos": "adj",
+   "raw": "compliant (adj)"
+  },
+  {
+   "head": "compliantly",
+   "pos": "adv",
+   "raw": "compliantly (adv)"
+  },
+  {
+   "head": "blankness",
+   "pos": "n",
+   "raw": "blankness (n)"
+  },
+  {
+   "head": "exuberant",
+   "pos": "adj",
+   "raw": "exuberant (adj)"
+  },
+  {
+   "head": "exuberance",
+   "pos": "n",
+   "raw": "exuberance (n)"
+  },
+  {
+   "head": "exuberantly",
+   "pos": "adv",
+   "raw": "exuberantly (adv)"
+  },
+  {
+   "head": "linear",
+   "pos": "adj",
+   "raw": "linear (adj)"
+  },
+  {
+   "head": "linearly",
+   "pos": "adv",
+   "raw": "linearly (adv)"
+  },
+  {
+   "head": "flourish",
+   "pos": "n",
+   "raw": "flourish (n)"
+  },
+  {
+   "head": "anchor",
+   "pos": "v",
+   "raw": "anchor (v)"
+  },
+  {
+   "head": "anchored",
+   "pos": "adj",
+   "raw": "anchored (adj)"
+  },
+  {
+   "head": "domination",
+   "pos": "n",
+   "raw": "domination (n)"
+  },
+  {
+   "head": "dominant",
+   "pos": "adj",
+   "raw": "dominant (adj)"
+  },
+  {
+   "head": "dominantly",
+   "pos": "adv",
+   "raw": "dominantly (adv)"
+  },
+  {
+   "head": "interject",
+   "pos": "v",
+   "raw": "interject (v)"
+  },
+  {
+   "head": "interjection",
+   "pos": "n",
+   "raw": "interjection (n)"
+  },
+  {
+   "head": "gush",
+   "pos": "v",
+   "raw": "gush (v)"
+  },
+  {
+   "head": "gushing",
+   "pos": "adj",
+   "raw": "gushing (adj)"
+  },
+  {
+   "head": "gushingly",
+   "pos": "adv",
+   "raw": "gushingly (adv)"
+  },
+  {
+   "head": "voracious",
+   "pos": "adj",
+   "raw": "voracious (adj)"
+  },
+  {
+   "head": "voraciously",
+   "pos": "adv",
+   "raw": "voraciously (adv)"
+  },
+  {
+   "head": "sketchbook",
+   "pos": "n",
+   "raw": "sketchbook (n)"
+  },
+  {
+   "head": "sketch",
+   "pos": "n",
+   "raw": "sketch (n)"
+  },
+  {
+   "head": "prop",
+   "pos": "v",
+   "raw": "prop (v)"
+  },
+  {
+   "head": "imp",
+   "pos": "n",
+   "raw": "imp (n)"
+  },
+  {
+   "head": "impish",
+   "pos": "adj",
+   "raw": "impish (adj)"
+  },
+  {
+   "head": "impishly",
+   "pos": "adv",
+   "raw": "impishly (adv)"
+  },
+  {
+   "head": "wicked",
+   "pos": "adj",
+   "raw": "wicked (adj)"
+  },
+  {
+   "head": "wickedly",
+   "pos": "adv",
+   "raw": "wickedly (adv)"
+  },
+  {
+   "head": "macabre",
+   "pos": "adj",
+   "raw": "macabre (adj)"
+  },
+  {
+   "head": "gusto",
+   "pos": "n",
+   "raw": "gusto (n)"
+  },
+  {
+   "head": "tantamount",
+   "pos": "adj",
+   "raw": "tantamount (adj)"
+  },
+  {
+   "head": "antics",
+   "pos": "n",
+   "raw": "antics (n)"
+  },
+  {
+   "head": "relapse",
+   "pos": "v",
+   "raw": "relapse (v)"
+  },
+  {
+   "head": "impede",
+   "pos": "v",
+   "raw": "impede (v)"
+  },
+  {
+   "head": "impediment",
+   "pos": "n",
+   "raw": "impediment (n)"
+  },
+  {
+   "head": "taut",
+   "pos": "adj",
+   "raw": "taut (adj)"
+  },
+  {
+   "head": "tautly",
+   "pos": "adv",
+   "raw": "tautly (adv)"
+  },
+  {
+   "head": "jersey",
+   "pos": "n",
+   "raw": "jersey (n)"
+  },
+  {
+   "head": "startling",
+   "pos": "adj",
+   "raw": "startling (adj)"
+  },
+  {
+   "head": "startlingly",
+   "pos": "adv",
+   "raw": "startlingly (adv)"
+  },
+  {
+   "head": "slack",
+   "pos": "v",
+   "raw": "slack (v)"
+  },
+  {
+   "head": "slackly",
+   "pos": "adv",
+   "raw": "slackly (adv)"
+  },
+  {
+   "head": "unwavering",
+   "pos": "adj",
+   "raw": "unwavering (adj)"
+  },
+  {
+   "head": "unwaveringly",
+   "pos": "adv",
+   "raw": "unwaveringly (adv)"
+  },
+  {
+   "head": "removed",
+   "pos": "adj",
+   "raw": "removed (adj)"
+  },
+  {
+   "head": "buffoon",
+   "pos": "n",
+   "raw": "buffoon (n)"
+  },
+  {
+   "head": "beguiling",
+   "pos": "adj",
+   "raw": "beguiling (adj)"
+  },
+  {
+   "head": "beguilingly",
+   "pos": "adv",
+   "raw": "beguilingly (adv)"
+  },
+  {
+   "head": "blithely",
+   "pos": "adv",
+   "raw": "blithely (adv)"
+  },
+  {
+   "head": "stray",
+   "pos": "v",
+   "raw": "stray (v)"
+  },
+  {
+   "head": "mythological",
+   "pos": "adj",
+   "raw": "mythological (adj)"
+  },
+  {
+   "head": "mythology",
+   "pos": "n",
+   "raw": "mythology (n)"
+  },
+  {
+   "head": "venerate",
+   "pos": "v",
+   "raw": "venerate (v)"
+  },
+  {
+   "head": "veneration",
+   "pos": "n",
+   "raw": "veneration (n)"
+  },
+  {
+   "head": "ethical",
+   "pos": "adj",
+   "raw": "ethical (adj)"
+  },
+  {
+   "head": "ethically",
+   "pos": "adv",
+   "raw": "ethically (adv)"
+  },
+  {
+   "head": "heroine",
+   "pos": "n",
+   "raw": "heroine (n)"
+  },
+  {
+   "head": "refreshing",
+   "pos": "adj",
+   "raw": "refreshing (adj)"
+  },
+  {
+   "head": "refresh",
+   "pos": "v",
+   "raw": "refresh (v)"
+  },
+  {
+   "head": "zany",
+   "pos": "adj",
+   "raw": "zany (adj)"
+  },
+  {
+   "head": "devotee",
+   "pos": "n",
+   "raw": "devotee (n)"
+  },
+  {
+   "head": "salve",
+   "pos": "n",
+   "raw": "salve (n)"
+  },
+  {
+   "head": "salvation",
+   "pos": "n",
+   "raw": "salvation (n)"
+  },
+  {
+   "head": "salvage",
+   "pos": "v",
+   "raw": "salvage (v)"
+  },
+  {
+   "head": "staccato",
+   "pos": "adj",
+   "raw": "staccato (adj)"
+  },
+  {
+   "head": "verve",
+   "pos": "n",
+   "raw": "verve (n)"
+  },
+  {
+   "head": "motley",
+   "pos": "adj",
+   "raw": "motley (adj)"
+  },
+  {
+   "head": "preach",
+   "pos": "v",
+   "raw": "preach (v)"
+  },
+  {
+   "head": "preacher",
+   "pos": "n",
+   "raw": "preacher (n)"
+  },
+  {
+   "head": "behind",
+   "pos": "prep",
+   "raw": "behind (prep)"
+  },
+  {
+   "head": "justly",
+   "pos": "adv",
+   "raw": "justly (adv)"
+  },
+  {
+   "head": "wry",
+   "pos": "adj",
+   "raw": "wry (adj)"
+  },
+  {
+   "head": "wryly",
+   "pos": "adv",
+   "raw": "wryly (adv)"
+  },
+  {
+   "head": "poetess",
+   "pos": "n",
+   "raw": "poetess (n)"
+  },
+  {
+   "head": "confide",
+   "pos": "v",
+   "raw": "confide (v)"
+  },
+  {
+   "head": "sentient",
+   "pos": "adj",
+   "raw": "sentient (adj)"
+  },
+  {
+   "head": "sentiment",
+   "pos": "n",
+   "raw": "sentiment (n)"
+  },
+  {
+   "head": "sentimental",
+   "pos": "adj",
+   "raw": "sentimental (adj)"
+  },
+  {
+   "head": "sentimentally",
+   "pos": "adv",
+   "raw": "sentimentally (adv)"
+  },
+  {
+   "head": "tangle",
+   "pos": "v",
+   "raw": "tangle (v)"
+  },
+  {
+   "head": "tangled",
+   "pos": "adj",
+   "raw": "tangled (adj)"
+  },
+  {
+   "head": "untangle",
+   "pos": "v",
+   "raw": "untangle (v)"
+  },
+  {
+   "head": "untangled",
+   "pos": "adj",
+   "raw": "untangled (adj)"
+  },
+  {
+   "head": "perceptive",
+   "pos": "adj",
+   "raw": "perceptive (adj)"
+  },
+  {
+   "head": "perceptively",
+   "pos": "adv",
+   "raw": "perceptively (adv)"
+  },
+  {
+   "head": "outset",
+   "pos": "n",
+   "raw": "outset (n)"
+  },
+  {
+   "head": "tycoon",
+   "pos": "n",
+   "raw": "tycoon (n)"
+  },
+  {
+   "head": "launch",
+   "pos": "n",
+   "raw": "launch (n)"
+  },
+  {
+   "head": "engross",
+   "pos": "v",
+   "raw": "engross (v)"
+  },
+  {
+   "head": "engrossing",
+   "pos": "adj",
+   "raw": "engrossing (adj)"
+  },
+  {
+   "head": "plague",
+   "pos": "v",
+   "raw": "plague (v)"
+  },
+  {
+   "head": "orphan",
+   "pos": "v",
+   "raw": "orphan (v)"
+  },
+  {
+   "head": "detritus",
+   "pos": "n",
+   "raw": "detritus (n)"
+  },
+  {
+   "head": "detriment",
+   "pos": "n",
+   "raw": "detriment (n)"
+  },
+  {
+   "head": "detrimental",
+   "pos": "adj",
+   "raw": "detrimental (adj)"
+  },
+  {
+   "head": "detrimentally",
+   "pos": "adv",
+   "raw": "detrimentally (adv)"
+  },
+  {
+   "head": "domestically",
+   "pos": "adv",
+   "raw": "domestically (adv)"
+  },
+  {
+   "head": "domesticate",
+   "pos": "v",
+   "raw": "domesticate (v)"
+  },
+  {
+   "head": "domestication",
+   "pos": "n",
+   "raw": "domestication (n)"
+  },
+  {
+   "head": "eccentrically",
+   "pos": "adv",
+   "raw": "eccentrically (adv)"
+  },
+  {
+   "head": "render",
+   "pos": "v",
+   "raw": "render (v)"
+  },
+  {
+   "head": "rendering",
+   "pos": "n",
+   "raw": "rendering (n)"
+  },
+  {
+   "head": "pathos",
+   "pos": "n",
+   "raw": "pathos (n)"
+  },
+  {
+   "head": "tailor",
+   "pos": "n",
+   "raw": "tailor (n)"
+  },
+  {
+   "head": "personalize/personalise",
+   "pos": "v",
+   "raw": "personalize/personalise (v)"
+  },
+  {
+   "head": "personalization/personalisation",
+   "pos": "n",
+   "raw": "personalization/personalisation (n)"
+  },
+  {
+   "head": "personification",
+   "pos": "n",
+   "raw": "personification (n)"
+  },
+  {
+   "head": "limitless",
+   "pos": "adj",
+   "raw": "limitless (adj)"
+  },
+  {
+   "head": "apprentice",
+   "pos": "n",
+   "raw": "apprentice (n)"
+  },
+  {
+   "head": "apprenticeship",
+   "pos": "n",
+   "raw": "apprenticeship (n)"
+  },
+  {
+   "head": "precision",
+   "pos": "n",
+   "raw": "precision (n)"
+  },
+  {
+   "head": "perfect",
+   "pos": "v",
+   "raw": "perfect (v)"
+  },
+  {
+   "head": "silhouette",
+   "pos": "n",
+   "raw": "silhouette (n)"
+  },
+  {
+   "head": "nondescript",
+   "pos": "adj",
+   "raw": "nondescript (adj)"
+  },
+  {
+   "head": "signal",
+   "pos": "v",
+   "raw": "signal (v)"
+  },
+  {
+   "head": "negligible",
+   "pos": "adj",
+   "raw": "negligible (adj)"
+  },
+  {
+   "head": "negligent",
+   "pos": "adj",
+   "raw": "negligent (adj)"
+  },
+  {
+   "head": "negligently",
+   "pos": "adv",
+   "raw": "negligently (adv)"
+  },
+  {
+   "head": "principally",
+   "pos": "adv",
+   "raw": "principally (adv)"
+  },
+  {
+   "head": "altruism",
+   "pos": "n",
+   "raw": "altruism (n)"
+  },
+  {
+   "head": "altruistic",
+   "pos": "adj",
+   "raw": "altruistic (adj)"
+  },
+  {
+   "head": "scenario",
+   "pos": "n",
+   "raw": "scenario (n)"
+  },
+  {
+   "head": "voluntary",
+   "pos": "adj",
+   "raw": "voluntary (adj)"
+  },
+  {
+   "head": "voluntarily",
+   "pos": "adv",
+   "raw": "voluntarily (adv)"
+  },
+  {
+   "head": "reap",
+   "pos": "v",
+   "raw": "reap (v)"
+  },
+  {
+   "head": "paternal",
+   "pos": "adj",
+   "raw": "paternal (adj)"
+  },
+  {
+   "head": "maternal",
+   "pos": "adj",
+   "raw": "maternal (adj)"
+  },
+  {
+   "head": "maternalistic",
+   "pos": "adj",
+   "raw": "maternalistic (adj)"
+  },
+  {
+   "head": "paternalistic",
+   "pos": "adj",
+   "raw": "paternalistic (adj)"
+  },
+  {
+   "head": "provisions",
+   "pos": "n",
+   "raw": "provisions (n)"
+  },
+  {
+   "head": "injustice",
+   "pos": "n",
+   "raw": "injustice (n)"
+  },
+  {
+   "head": "impoverished",
+   "pos": "adj",
+   "raw": "impoverished (adj)"
+  },
+  {
+   "head": "unsustainable",
+   "pos": "adj",
+   "raw": "unsustainable (adj)"
+  },
+  {
+   "head": "unsustainably",
+   "pos": "adv",
+   "raw": "unsustainably (adv)"
+  },
+  {
+   "head": "sustainable",
+   "pos": "adj",
+   "raw": "sustainable (adj)"
+  },
+  {
+   "head": "sustainably",
+   "pos": "adv",
+   "raw": "sustainably (adv)"
+  },
+  {
+   "head": "bypass",
+   "pos": "v",
+   "raw": "bypass (v)"
+  },
+  {
+   "head": "imperative",
+   "pos": "adj",
+   "raw": "imperative (adj)"
+  },
+  {
+   "head": "cynic",
+   "pos": "n",
+   "raw": "cynic (n)"
+  },
+  {
+   "head": "cynical",
+   "pos": "adj",
+   "raw": "cynical (adj)"
+  },
+  {
+   "head": "cynically",
+   "pos": "adv",
+   "raw": "cynically (adv)"
+  },
+  {
+   "head": "cynicism",
+   "pos": "n",
+   "raw": "cynicism (n)"
+  },
+  {
+   "head": "sarcasm",
+   "pos": "n",
+   "raw": "sarcasm (n)"
+  },
+  {
+   "head": "sarcastic",
+   "pos": "adj",
+   "raw": "sarcastic (adj)"
+  },
+  {
+   "head": "sarcastically",
+   "pos": "adv",
+   "raw": "sarcastically (adv)"
+  },
+  {
+   "head": "misplace",
+   "pos": "v",
+   "raw": "misplace (v)"
+  },
+  {
+   "head": "symptomatic",
+   "pos": "adj",
+   "raw": "symptomatic (adj)"
+  },
+  {
+   "head": "degrade",
+   "pos": "v",
+   "raw": "degrade (v)"
+  },
+  {
+   "head": "degrading",
+   "pos": "adj",
+   "raw": "degrading (adj)"
+  },
+  {
+   "head": "degradation",
+   "pos": "n",
+   "raw": "degradation (n)"
+  },
+  {
+   "head": "discourse",
+   "pos": "n",
+   "raw": "discourse (n)"
+  },
+  {
+   "head": "amid",
+   "pos": "prep",
+   "raw": "amid (prep)"
+  },
+  {
+   "head": "hedgehog",
+   "pos": "n",
+   "raw": "hedgehog (n)"
+  },
+  {
+   "head": "nocturnal",
+   "pos": "adj",
+   "raw": "nocturnal (adj)"
+  },
+  {
+   "head": "hibernate",
+   "pos": "v",
+   "raw": "hibernate (v)"
+  },
+  {
+   "head": "hibernation",
+   "pos": "n",
+   "raw": "hibernation (n)"
+  },
+  {
+   "head": "convict",
+   "pos": "v",
+   "raw": "convict (v)"
+  },
+  {
+   "head": "conviction",
+   "pos": "n",
+   "raw": "conviction (n)"
+  },
+  {
+   "head": "latent",
+   "pos": "adj",
+   "raw": "latent (adj)"
+  },
+  {
+   "head": "snooze",
+   "pos": "v",
+   "raw": "snooze (v)"
+  },
+  {
+   "head": "classy",
+   "pos": "adj",
+   "raw": "classy (adj)"
+  },
+  {
+   "head": "wrench",
+   "pos": "v",
+   "raw": "wrench (v)"
+  },
+  {
+   "head": "reminisce",
+   "pos": "v",
+   "raw": "reminisce (v)"
+  },
+  {
+   "head": "reminiscent",
+   "pos": "adj",
+   "raw": "reminiscent (adj)"
+  },
+  {
+   "head": "intuit",
+   "pos": "v",
+   "raw": "intuit (v)"
+  },
+  {
+   "head": "intuition",
+   "pos": "n",
+   "raw": "intuition (n)"
+  },
+  {
+   "head": "intuitive",
+   "pos": "adj",
+   "raw": "intuitive (adj)"
+  },
+  {
+   "head": "intuitively",
+   "pos": "adv",
+   "raw": "intuitively (adv)"
+  },
+  {
+   "head": "marginal",
+   "pos": "adj",
+   "raw": "marginal (adj)"
+  },
+  {
+   "head": "marginally",
+   "pos": "adv",
+   "raw": "marginally (adv)"
+  },
+  {
+   "head": "crude",
+   "pos": "adj",
+   "raw": "crude (adj)"
+  },
+  {
+   "head": "crudely",
+   "pos": "adv",
+   "raw": "crudely (adv)"
+  },
+  {
+   "head": "strap",
+   "pos": "n",
+   "raw": "strap (n)"
+  },
+  {
+   "head": "strapping",
+   "pos": "adj",
+   "raw": "strapping (adj)"
+  },
+  {
+   "head": "scoff",
+   "pos": "v",
+   "raw": "scoff (v)"
+  },
+  {
+   "head": "fiddly",
+   "pos": "adj",
+   "raw": "fiddly (adj)"
+  },
+  {
+   "head": "fiddler",
+   "pos": "n",
+   "raw": "fiddler (n)"
+  },
+  {
+   "head": "fiddle",
+   "pos": "v",
+   "raw": "fiddle (v)"
+  },
+  {
+   "head": "unmusical",
+   "pos": "adj",
+   "raw": "unmusical (adj)"
+  },
+  {
+   "head": "unmusically",
+   "pos": "adv",
+   "raw": "unmusically (adv)"
+  },
+  {
+   "head": "repertory",
+   "pos": "n",
+   "raw": "repertory (n)"
+  },
+  {
+   "head": "concerto",
+   "pos": "n",
+   "raw": "concerto (n)"
+  },
+  {
+   "head": "premier",
+   "pos": "adj",
+   "raw": "premier (adj)"
+  },
+  {
+   "head": "fanatic",
+   "pos": "n",
+   "raw": "fanatic (n)"
+  },
+  {
+   "head": "fanatically",
+   "pos": "adv",
+   "raw": "fanatically (adv)"
+  },
+  {
+   "head": "acoustically",
+   "pos": "adv",
+   "raw": "acoustically (adv)"
+  },
+  {
+   "head": "acoustic",
+   "pos": "adj",
+   "raw": "acoustic (adj)"
+  },
+  {
+   "head": "acoustics",
+   "pos": "n",
+   "raw": "acoustics (n)"
+  },
+  {
+   "head": "compromised",
+   "pos": "adj",
+   "raw": "compromised (adj)"
+  },
+  {
+   "head": "daunt",
+   "pos": "v",
+   "raw": "daunt (v)"
+  },
+  {
+   "head": "daunting",
+   "pos": "adj",
+   "raw": "daunting (adj)"
+  },
+  {
+   "head": "realist",
+   "pos": "n",
+   "raw": "realist (n)"
+  },
+  {
+   "head": "realism",
+   "pos": "n",
+   "raw": "realism (n)"
+  },
+  {
+   "head": "recess",
+   "pos": "n",
+   "raw": "recess (n)"
+  },
+  {
+   "head": "recessive",
+   "pos": "adj",
+   "raw": "recessive (adj)"
+  },
+  {
+   "head": "prolific",
+   "pos": "adj",
+   "raw": "prolific (adj)"
+  },
+  {
+   "head": "prolifically",
+   "pos": "adv",
+   "raw": "prolifically (adv)"
+  },
+  {
+   "head": "proliferate",
+   "pos": "v",
+   "raw": "proliferate (v)"
+  },
+  {
+   "head": "fragmentation",
+   "pos": "n",
+   "raw": "fragmentation (n)"
+  },
+  {
+   "head": "campaign",
+   "pos": "v",
+   "raw": "campaign (v)"
+  },
+  {
+   "head": "astray",
+   "pos": "adv",
+   "raw": "astray (adv)"
+  },
+  {
+   "head": "duration",
+   "pos": "n",
+   "raw": "duration (n)"
+  },
+  {
+   "head": "durable",
+   "pos": "adj",
+   "raw": "durable (adj)"
+  },
+  {
+   "head": "likelihood",
+   "pos": "n",
+   "raw": "likelihood (n)"
+  },
+  {
+   "head": "naive",
+   "pos": "adj",
+   "raw": "naive (adj)"
+  },
+  {
+   "head": "naively",
+   "pos": "adv",
+   "raw": "naively (adv)"
+  },
+  {
+   "head": "naivety",
+   "pos": "n",
+   "raw": "naivety (n)"
+  },
+  {
+   "head": "impervious",
+   "pos": "adj",
+   "raw": "impervious (adj)"
+  },
+  {
+   "head": "ludicrous",
+   "pos": "adj",
+   "raw": "ludicrous (adj)"
+  },
+  {
+   "head": "ludicrously",
+   "pos": "adv",
+   "raw": "ludicrously (adv)"
+  },
+  {
+   "head": "cost-effective",
+   "pos": "adj",
+   "raw": "cost-effective (adj)"
+  },
+  {
+   "head": "gruesome",
+   "pos": "adj",
+   "raw": "gruesome (adj)"
+  },
+  {
+   "head": "gruesomely",
+   "pos": "adv",
+   "raw": "gruesomely (adv)"
+  },
+  {
+   "head": "envisage",
+   "pos": "v",
+   "raw": "envisage (v)"
+  },
+  {
+   "head": "screenwriter",
+   "pos": "n",
+   "raw": "screenwriter (n)"
+  },
+  {
+   "head": "mingle",
+   "pos": "v",
+   "raw": "mingle (v)"
+  },
+  {
+   "head": "churn",
+   "pos": "v",
+   "raw": "churn (v)"
+  },
+  {
+   "head": "buffer",
+   "pos": "v",
+   "raw": "buffer (v)"
+  },
+  {
+   "head": "irate",
+   "pos": "adj",
+   "raw": "irate (adj)"
+  },
+  {
+   "head": "irately",
+   "pos": "adv",
+   "raw": "irately (adv)"
+  },
+  {
+   "head": "docile",
+   "pos": "adj",
+   "raw": "docile (adj)"
+  },
+  {
+   "head": "docilely",
+   "pos": "adv",
+   "raw": "docilely (adv)"
+  },
+  {
+   "head": "fiend",
+   "pos": "n",
+   "raw": "fiend (n)"
+  },
+  {
+   "head": "fiendish",
+   "pos": "adj",
+   "raw": "fiendish (adj)"
+  },
+  {
+   "head": "fiendishly",
+   "pos": "adv",
+   "raw": "fiendishly (adv)"
+  },
+  {
+   "head": "transfix",
+   "pos": "v",
+   "raw": "transfix (v)"
+  },
+  {
+   "head": "gypsy",
+   "pos": "n",
+   "raw": "gypsy (n)"
+  },
+  {
+   "head": "temperament",
+   "pos": "n",
+   "raw": "temperament (n)"
+  },
+  {
+   "head": "temperamental",
+   "pos": "adj",
+   "raw": "temperamental (adj)"
+  },
+  {
+   "head": "temperamentally",
+   "pos": "adv",
+   "raw": "temperamentally (adv)"
+  },
+  {
+   "head": "screenplay",
+   "pos": "n",
+   "raw": "screenplay (n)"
+  },
+  {
+   "head": "disillusionment",
+   "pos": "n",
+   "raw": "disillusionment (n)"
+  },
+  {
+   "head": "demise",
+   "pos": "n",
+   "raw": "demise (n)"
+  },
+  {
+   "head": "raunchy",
+   "pos": "adj",
+   "raw": "raunchy (adj)"
+  },
+  {
+   "head": "raunchily",
+   "pos": "adv",
+   "raw": "raunchily (adv)"
+  },
+  {
+   "head": "overdraft",
+   "pos": "v",
+   "raw": "overdraft (v)"
+  },
+  {
+   "head": "synopsis",
+   "pos": "n",
+   "raw": "synopsis (n)"
+  },
+  {
+   "head": "renown",
+   "pos": "n",
+   "raw": "renown (n)"
+  },
+  {
+   "head": "contest",
+   "pos": "v",
+   "raw": "contest (v)"
+  },
+  {
+   "head": "contested",
+   "pos": "adj",
+   "raw": "contested (adj)"
+  },
+  {
+   "head": "verandah",
+   "pos": "n",
+   "raw": "verandah (n)"
+  },
+  {
+   "head": "occupational",
+   "pos": "adj",
+   "raw": "occupational (adj)"
+  },
+  {
+   "head": "verdict",
+   "pos": "n",
+   "raw": "verdict (n)"
+  },
+  {
+   "head": "ventilate",
+   "pos": "v",
+   "raw": "ventilate (v)"
+  },
+  {
+   "head": "ventilation",
+   "pos": "n",
+   "raw": "ventilation (n)"
+  },
+  {
+   "head": "occupant",
+   "pos": "n",
+   "raw": "occupant (n)"
+  },
+  {
+   "head": "radiator",
+   "pos": "n",
+   "raw": "radiator (n)"
+  },
+  {
+   "head": "homely",
+   "pos": "adj",
+   "raw": "homely (adj)"
+  },
+  {
+   "head": "bureaucratic",
+   "pos": "adj",
+   "raw": "bureaucratic (adj)"
+  },
+  {
+   "head": "bureaucratically",
+   "pos": "adv",
+   "raw": "bureaucratically (adv)"
+  },
+  {
+   "head": "adjustable",
+   "pos": "adj",
+   "raw": "adjustable (adj)"
+  },
+  {
+   "head": "fatigue",
+   "pos": "n",
+   "raw": "fatigue (n)"
+  },
+  {
+   "head": "muscular",
+   "pos": "adj",
+   "raw": "muscular (adj)"
+  },
+  {
+   "head": "versatile",
+   "pos": "adj",
+   "raw": "versatile (adj)"
+  },
+  {
+   "head": "versatility",
+   "pos": "n",
+   "raw": "versatility (n)"
+  },
+  {
+   "head": "stimuli",
+   "pos": "n",
+   "raw": "stimuli (n)"
+  },
+  {
+   "head": "uninspiring",
+   "pos": "adj",
+   "raw": "uninspiring (adj)"
+  },
+  {
+   "head": "mutually",
+   "pos": "adv",
+   "raw": "mutually (adv)"
+  },
+  {
+   "head": "somber/sombre",
+   "pos": "adj",
+   "raw": "somber/sombre (adj)"
+  },
+  {
+   "head": "somberly/sombrely",
+   "pos": "adv",
+   "raw": "somberly/sombrely (adv)"
+  },
+  {
+   "head": "clutter",
+   "pos": "n",
+   "raw": "clutter (n)"
+  },
+  {
+   "head": "lodge",
+   "pos": "v",
+   "raw": "lodge (v)"
+  },
+  {
+   "head": "dislodge",
+   "pos": "v",
+   "raw": "dislodge (v)"
+  },
+  {
+   "head": "carpenter",
+   "pos": "n",
+   "raw": "carpenter (n)"
+  },
+  {
+   "head": "carpentry",
+   "pos": "n",
+   "raw": "carpentry (n)"
+  },
+  {
+   "head": "transit",
+   "pos": "n",
+   "raw": "transit (n)"
+  },
+  {
+   "head": "plummet",
+   "pos": "v",
+   "raw": "plummet (v)"
+  },
+  {
+   "head": "circulate",
+   "pos": "v",
+   "raw": "circulate (v)"
+  },
+  {
+   "head": "circulation",
+   "pos": "n",
+   "raw": "circulation (n)"
+  },
+  {
+   "head": "demography",
+   "pos": "n",
+   "raw": "demography (n)"
+  },
+  {
+   "head": "demographic",
+   "pos": "adj",
+   "raw": "demographic (adj)"
+  },
+  {
+   "head": "demographically",
+   "pos": "adv",
+   "raw": "demographically (adv)"
+  },
+  {
+   "head": "phenomenal",
+   "pos": "adj",
+   "raw": "phenomenal (adj)"
+  },
+  {
+   "head": "phenomenally",
+   "pos": "adv",
+   "raw": "phenomenally (adv)"
+  },
+  {
+   "head": "prophet",
+   "pos": "n",
+   "raw": "prophet (n)"
+  },
+  {
+   "head": "prophetic",
+   "pos": "adj",
+   "raw": "prophetic (adj)"
+  },
+  {
+   "head": "paywall",
+   "pos": "n",
+   "raw": "paywall (n)"
+  },
+  {
+   "head": "firewall",
+   "pos": "n",
+   "raw": "firewall (n)"
+  },
+  {
+   "head": "invoice",
+   "pos": "n",
+   "raw": "invoice (n)"
+  },
+  {
+   "head": "demolition",
+   "pos": "n",
+   "raw": "demolition (n)"
+  },
+  {
+   "head": "demo",
+   "pos": "n",
+   "raw": "demo (n)"
+  },
+  {
+   "head": "gig",
+   "pos": "n",
+   "raw": "gig (n)"
+  },
+  {
+   "head": "socialization",
+   "pos": "n",
+   "raw": "socialization (n)"
+  },
+  {
+   "head": "antiquity",
+   "pos": "n",
+   "raw": "antiquity (n)"
+  },
+  {
+   "head": "antiquated",
+   "pos": "adj",
+   "raw": "antiquated (adj)"
+  },
+  {
+   "head": "restoration",
+   "pos": "n",
+   "raw": "restoration (n)"
+  },
+  {
+   "head": "restorative",
+   "pos": "adj",
+   "raw": "restorative (adj)"
+  },
+  {
+   "head": "rotate",
+   "pos": "v",
+   "raw": "rotate (v)"
+  },
+  {
+   "head": "till",
+   "pos": "n",
+   "raw": "till (n)"
+  },
+  {
+   "head": "coupled",
+   "pos": "adj",
+   "raw": "coupled (adj)"
+  },
+  {
+   "head": "itinerary",
+   "pos": "n",
+   "raw": "itinerary (n)"
+  },
+  {
+   "head": "charter",
+   "pos": "v",
+   "raw": "charter (v)"
+  },
+  {
+   "head": "terrain",
+   "pos": "n",
+   "raw": "terrain (n)"
+  },
+  {
+   "head": "resilient",
+   "pos": "adj",
+   "raw": "resilient (adj)"
+  },
+  {
+   "head": "resilience",
+   "pos": "n",
+   "raw": "resilience (n)"
+  },
+  {
+   "head": "enterprising",
+   "pos": "adj",
+   "raw": "enterprising (adj)"
+  },
+  {
+   "head": "integral",
+   "pos": "adj",
+   "raw": "integral (adj)"
+  },
+  {
+   "head": "canoe",
+   "pos": "n",
+   "raw": "canoe (n)"
+  },
+  {
+   "head": "magnetic",
+   "pos": "adj",
+   "raw": "magnetic (adj)"
+  },
+  {
+   "head": "magnetism",
+   "pos": "n",
+   "raw": "magnetism (n)"
+  },
+  {
+   "head": "magnetically",
+   "pos": "adv",
+   "raw": "magnetically (adv)"
+  },
+  {
+   "head": "credible",
+   "pos": "adj",
+   "raw": "credible (adj)"
+  },
+  {
+   "head": "credibly",
+   "pos": "adv",
+   "raw": "credibly (adv)"
+  },
+  {
+   "head": "credibility",
+   "pos": "n",
+   "raw": "credibility (n)"
+  },
+  {
+   "head": "credential",
+   "pos": "n",
+   "raw": "credential (n)"
+  },
+  {
+   "head": "acutely",
+   "pos": "adv",
+   "raw": "acutely (adv)"
+  },
+  {
+   "head": "prohibitive",
+   "pos": "adj",
+   "raw": "prohibitive (adj)"
+  },
+  {
+   "head": "prohibitively",
+   "pos": "adv",
+   "raw": "prohibitively (adv)"
+  },
+  {
+   "head": "fissure",
+   "pos": "n",
+   "raw": "fissure (n)"
+  },
+  {
+   "head": "pendulous",
+   "pos": "adj",
+   "raw": "pendulous (adj)"
+  },
+  {
+   "head": "suspension",
+   "pos": "n",
+   "raw": "suspension (n)"
+  },
+  {
+   "head": "aboard",
+   "pos": "prep",
+   "raw": "aboard (prep)"
+  },
+  {
+   "head": "drill",
+   "pos": "v",
+   "raw": "drill (v)"
+  },
+  {
+   "head": "anthropology",
+   "pos": "n",
+   "raw": "anthropology (n)"
+  },
+  {
+   "head": "anthropologist",
+   "pos": "n",
+   "raw": "anthropologist (n)"
+  },
+  {
+   "head": "squander",
+   "pos": "v",
+   "raw": "squander (v)"
+  },
+  {
+   "head": "munch",
+   "pos": "v",
+   "raw": "munch (v)"
+  },
+  {
+   "head": "adjoin",
+   "pos": "v",
+   "raw": "adjoin (v)"
+  },
+  {
+   "head": "adjoining",
+   "pos": "adj",
+   "raw": "adjoining (adj)"
+  },
+  {
+   "head": "wizened",
+   "pos": "adj",
+   "raw": "wizened (adj)"
+  },
+  {
+   "head": "graft",
+   "pos": "v",
+   "raw": "graft (v)"
+  },
+  {
+   "head": "orchard",
+   "pos": "n",
+   "raw": "orchard (n)"
+  },
+  {
+   "head": "seedling",
+   "pos": "n",
+   "raw": "seedling (n)"
+  },
+  {
+   "head": "tract",
+   "pos": "n",
+   "raw": "tract (n)"
+  },
+  {
+   "head": "folktale",
+   "pos": "n",
+   "raw": "folktale (n)"
+  },
+  {
+   "head": "sprout",
+   "pos": "v",
+   "raw": "sprout (v)"
+  },
+  {
+   "head": "hypocrisy",
+   "pos": "n",
+   "raw": "hypocrisy (n)"
+  },
+  {
+   "head": "hypocrite",
+   "pos": "n",
+   "raw": "hypocrite (n)"
+  },
+  {
+   "head": "hypocritical",
+   "pos": "adj",
+   "raw": "hypocritical (adj)"
+  },
+  {
+   "head": "hypocritically",
+   "pos": "adv",
+   "raw": "hypocritically (adv)"
+  },
+  {
+   "head": "midwife",
+   "pos": "n",
+   "raw": "midwife (n)"
+  },
+  {
+   "head": "harvest",
+   "pos": "v",
+   "raw": "harvest (v)"
+  },
+  {
+   "head": "commercially",
+   "pos": "adv",
+   "raw": "commercially (adv)"
+  },
+  {
+   "head": "uniformity",
+   "pos": "n",
+   "raw": "uniformity (n)"
+  },
+  {
+   "head": "numb",
+   "pos": "adj",
+   "raw": "numb (adj)"
+  },
+  {
+   "head": "tastebud",
+   "pos": "n",
+   "raw": "tastebud (n)"
+  },
+  {
+   "head": "amateur",
+   "pos": "n",
+   "raw": "amateur (n)"
+  },
+  {
+   "head": "retrace",
+   "pos": "v",
+   "raw": "retrace (v)"
+  },
+  {
+   "head": "chart",
+   "pos": "v",
+   "raw": "chart (v)"
+  },
+  {
+   "head": "insubordinate",
+   "pos": "adj",
+   "raw": "insubordinate (adj)"
+  },
+  {
+   "head": "insubordination",
+   "pos": "n",
+   "raw": "insubordination (n)"
+  },
+  {
+   "head": "insubordinately",
+   "pos": "adv",
+   "raw": "insubordinately (adv)"
+  },
+  {
+   "head": "subordinate",
+   "pos": "n",
+   "raw": "subordinate (n)"
+  },
+  {
+   "head": "primitively",
+   "pos": "adv",
+   "raw": "primitively (adv)"
+  },
+  {
+   "head": "embark",
+   "pos": "v",
+   "raw": "embark (v)"
+  },
+  {
+   "head": "expedite",
+   "pos": "v",
+   "raw": "expedite (v)"
+  },
+  {
+   "head": "contextual",
+   "pos": "adj",
+   "raw": "contextual (adj)"
+  },
+  {
+   "head": "contextually",
+   "pos": "adv",
+   "raw": "contextually (adv)"
+  },
+  {
+   "head": "whilst",
+   "pos": "conj",
+   "raw": "whilst (conj)"
+  },
+  {
+   "head": "maneuver/manoeuvre",
+   "pos": "v",
+   "raw": "maneuver/manoeuvre (v)"
+  },
+  {
+   "head": "riveting",
+   "pos": "adj",
+   "raw": "riveting (adj)"
+  },
+  {
+   "head": "plunge",
+   "pos": "v",
+   "raw": "plunge (v)"
+  },
+  {
+   "head": "debut",
+   "pos": "n",
+   "raw": "debut (n)"
+  },
+  {
+   "head": "turmoil",
+   "pos": "n",
+   "raw": "turmoil (n)"
+  },
+  {
+   "head": "scathing",
+   "pos": "adj",
+   "raw": "scathing (adj)"
+  },
+  {
+   "head": "unscathing",
+   "pos": "adj",
+   "raw": "unscathing (adj)"
+  },
+  {
+   "head": "convoluted",
+   "pos": "adj",
+   "raw": "convoluted (adj)"
+  },
+  {
+   "head": "undaunted",
+   "pos": "adj",
+   "raw": "undaunted (adj)"
+  },
+  {
+   "head": "gutsy",
+   "pos": "adj",
+   "raw": "gutsy (adj)"
+  },
+  {
+   "head": "deprivation",
+   "pos": "n",
+   "raw": "deprivation (n)"
+  },
+  {
+   "head": "farce",
+   "pos": "n",
+   "raw": "farce (n)"
+  },
+  {
+   "head": "portray",
+   "pos": "v",
+   "raw": "portray (v)"
+  },
+  {
+   "head": "portrayal",
+   "pos": "n",
+   "raw": "portrayal (n)"
+  },
+  {
+   "head": "elusive",
+   "pos": "adj",
+   "raw": "elusive (adj)"
+  },
+  {
+   "head": "elude",
+   "pos": "v",
+   "raw": "elude (v)"
+  },
+  {
+   "head": "incisor",
+   "pos": "n",
+   "raw": "incisor (n)"
+  },
+  {
+   "head": "incision",
+   "pos": "n",
+   "raw": "incision (n)"
+  },
+  {
+   "head": "chisel",
+   "pos": "v",
+   "raw": "chisel (v)"
+  },
+  {
+   "head": "chiselled",
+   "pos": "adj",
+   "raw": "chiselled (adj)"
+  },
+  {
+   "head": "gnaw",
+   "pos": "v",
+   "raw": "gnaw (v)"
+  },
+  {
+   "head": "elongate",
+   "pos": "v",
+   "raw": "elongate (v)"
+  },
+  {
+   "head": "telltale",
+   "pos": "adj",
+   "raw": "telltale (adj)"
+  },
+  {
+   "head": "cavity",
+   "pos": "n",
+   "raw": "cavity (n)"
+  },
+  {
+   "head": "rustle",
+   "pos": "v",
+   "raw": "rustle (v)"
+  },
+  {
+   "head": "glean",
+   "pos": "v",
+   "raw": "glean (v)"
+  },
+  {
+   "head": "niche",
+   "pos": "n",
+   "raw": "niche (n)"
+  },
+  {
+   "head": "somersault",
+   "pos": "n",
+   "raw": "somersault (n)"
+  },
+  {
+   "head": "exhilarate",
+   "pos": "v",
+   "raw": "exhilarate (v)"
+  },
+  {
+   "head": "exhilarating",
+   "pos": "adj",
+   "raw": "exhilarating (adj)"
+  },
+  {
+   "head": "exhilaration",
+   "pos": "n",
+   "raw": "exhilaration (n)"
+  },
+  {
+   "head": "physicality",
+   "pos": "n",
+   "raw": "physicality (n)"
+  },
+  {
+   "head": "hack",
+   "pos": "v",
+   "raw": "hack (v)"
+  },
+  {
+   "head": "lust",
+   "pos": "n",
+   "raw": "lust (n)"
+  },
+  {
+   "head": "unsettling",
+   "pos": "adj",
+   "raw": "unsettling (adj)"
+  },
+  {
+   "head": "unsettle",
+   "pos": "v",
+   "raw": "unsettle (v)"
+  },
+  {
+   "head": "suburban",
+   "pos": "adj",
+   "raw": "suburban (adj)"
+  },
+  {
+   "head": "suburbia",
+   "pos": "n",
+   "raw": "suburbia (n)"
+  },
+  {
+   "head": "dramatist",
+   "pos": "n",
+   "raw": "dramatist (n)"
+  },
+  {
+   "head": "characterization/characterisation",
+   "pos": "n",
+   "raw": "characterization/characterisation (n)"
+  },
+  {
+   "head": "quirky",
+   "pos": "adj",
+   "raw": "quirky (adj)"
+  },
+  {
+   "head": "sprawl",
+   "pos": "n",
+   "raw": "sprawl (n)"
+  },
+  {
+   "head": "ingenuity",
+   "pos": "n",
+   "raw": "ingenuity (n)"
+  },
+  {
+   "head": "panorama",
+   "pos": "n",
+   "raw": "panorama (n)"
+  },
+  {
+   "head": "panoramic",
+   "pos": "adj",
+   "raw": "panoramic (adj)"
+  },
+  {
+   "head": "benign",
+   "pos": "adj",
+   "raw": "benign (adj)"
+  },
+  {
+   "head": "benignly",
+   "pos": "adv",
+   "raw": "benignly (adv)"
+  },
+  {
+   "head": "explosively",
+   "pos": "adv",
+   "raw": "explosively (adv)"
+  },
+  {
+   "head": "bequeath",
+   "pos": "v",
+   "raw": "bequeath (v)"
+  },
+  {
+   "head": "legacy",
+   "pos": "n",
+   "raw": "legacy (n)"
+  },
+  {
+   "head": "synthetic",
+   "pos": "adj",
+   "raw": "synthetic (adj)"
+  },
+  {
+   "head": "synthetically",
+   "pos": "adv",
+   "raw": "synthetically (adv)"
+  },
+  {
+   "head": "lackluster/lacklustre",
+   "pos": "adj",
+   "raw": "lackluster/lacklustre (adj)"
+  },
+  {
+   "head": "elastic",
+   "pos": "n",
+   "raw": "elastic (n)"
+  },
+  {
+   "head": "appall/appal",
+   "pos": "v",
+   "raw": "appall/appal (v)"
+  },
+  {
+   "head": "appalling",
+   "pos": "adj",
+   "raw": "appalling (adj)"
+  },
+  {
+   "head": "appallingly",
+   "pos": "adv",
+   "raw": "appallingly (adv)"
+  },
+  {
+   "head": "pounce",
+   "pos": "v",
+   "raw": "pounce (v)"
+  },
+  {
+   "head": "abound",
+   "pos": "v",
+   "raw": "abound (v)"
+  },
+  {
+   "head": "sap",
+   "pos": "n",
+   "raw": "sap (n)"
+  },
+  {
+   "head": "monotonous",
+   "pos": "adj",
+   "raw": "monotonous (adj)"
+  },
+  {
+   "head": "monotonously",
+   "pos": "adv",
+   "raw": "monotonously (adv)"
+  },
+  {
+   "head": "monotony",
+   "pos": "n",
+   "raw": "monotony (n)"
+  },
+  {
+   "head": "turn to",
+   "pos": "v",
+   "raw": "turn to (v)"
+  },
+  {
+   "head": "ingenious",
+   "pos": "adj",
+   "raw": "ingenious (adj)"
+  },
+  {
+   "head": "plaque",
+   "pos": "n",
+   "raw": "plaque (n)"
+  },
+  {
+   "head": "neutralize/neutralise",
+   "pos": "v",
+   "raw": "neutralize/neutralise (v)"
+  },
+  {
+   "head": "neutralization/neutralisation",
+   "pos": "n",
+   "raw": "neutralization/neutralisation (n)"
+  },
+  {
+   "head": "salivate",
+   "pos": "v",
+   "raw": "salivate (v)"
+  },
+  {
+   "head": "cessation",
+   "pos": "n",
+   "raw": "cessation (n)"
+  },
+  {
+   "head": "remorse",
+   "pos": "n",
+   "raw": "remorse (n)"
+  },
+  {
+   "head": "remorseless",
+   "pos": "adj",
+   "raw": "remorseless (adj)"
+  },
+  {
+   "head": "remorsefully",
+   "pos": "adv",
+   "raw": "remorsefully (adv)"
+  },
+  {
+   "head": "remorselessly",
+   "pos": "adv",
+   "raw": "remorselessly (adv)"
+  },
+  {
+   "head": "inexcusable",
+   "pos": "adj",
+   "raw": "inexcusable (adj)"
+  },
+  {
+   "head": "inexcusably",
+   "pos": "adv",
+   "raw": "inexcusably (adv)"
+  },
+  {
+   "head": "unassisted",
+   "pos": "adj",
+   "raw": "unassisted (adj)"
+  },
+  {
+   "head": "heighten",
+   "pos": "v",
+   "raw": "heighten (v)"
+  },
+  {
+   "head": "fixture",
+   "pos": "n",
+   "raw": "fixture (n)"
+  },
+  {
+   "head": "bulk",
+   "pos": "n",
+   "raw": "bulk (n)"
+  },
+  {
+   "head": "bulky",
+   "pos": "adj",
+   "raw": "bulky (adj)"
+  },
+  {
+   "head": "bulk up",
+   "pos": "v",
+   "raw": "bulk up (v)"
+  },
+  {
+   "head": "digitalize/digitalise",
+   "pos": "v",
+   "raw": "digitalize/digitalise (v)"
+  },
+  {
+   "head": "digitalization/digitalisation",
+   "pos": "n",
+   "raw": "digitalization/digitalisation (n)"
+  },
+  {
+   "head": "mark-up",
+   "pos": "n",
+   "raw": "mark-up (n)"
+  },
+  {
+   "head": "complementary",
+   "pos": "adj",
+   "raw": "complementary (adj)"
+  },
+  {
+   "head": "complimentary",
+   "pos": "adj",
+   "raw": "complimentary (adj)"
+  },
+  {
+   "head": "staple",
+   "pos": "n",
+   "raw": "staple (n)"
+  },
+  {
+   "head": "wares",
+   "pos": "n",
+   "raw": "wares (n)"
+  },
+  {
+   "head": "testament",
+   "pos": "n",
+   "raw": "testament (n)"
+  },
+  {
+   "head": "succulent",
+   "pos": "n",
+   "raw": "succulent (n)"
+  },
+  {
+   "head": "succulently",
+   "pos": "adv",
+   "raw": "succulently (adv)"
+  },
+  {
+   "head": "tranquil",
+   "pos": "adj",
+   "raw": "tranquil (adj)"
+  },
+  {
+   "head": "tranquility",
+   "pos": "n",
+   "raw": "tranquility (n)"
+  },
+  {
+   "head": "spartan",
+   "pos": "adj",
+   "raw": "spartan (adj)"
+  },
+  {
+   "head": "peninsula",
+   "pos": "n",
+   "raw": "peninsula (n)"
+  },
+  {
+   "head": "billiards",
+   "pos": "n",
+   "raw": "billiards (n)"
+  }
+ ],
+ "forms": []
+}

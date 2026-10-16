@@ -1,0 +1,111 @@
+# Unit 11 句级时间轴产出摘要
+
+## p102  阅读A · Dolphins to the rescue
+- 句数 20，首句 9.220s，末句 133.320s
+
+   0     9.220 -   13.760  Everyone knows that dolphins are very intelligent animals.
+   1    14.660 -   21.720  But did you know that many scientists believe there is a special connection between dolphins and humans?
+   2    22.620 -   27.852  There are lots of stories about dolphins helping humans who are in danger.
+   3    27.740 -   31.010  Here are two of our favourites.
+   4    33.440 -   43.514  14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water.
+   5    44.300 -   52.419  Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat.
+   6    53.100 -   56.181  He shouted, but his dad didn't hear him.
+   7    56.960 -   58.967  Davide got very worried.
+   8    59.780 -   63.971  Then, very quickly, a dolphin came to help him.
+   9    64.580 -   71.773  It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back.
+  10    72.520 -   75.105  The dolphin took him back to the boat.
+  11    75.980 -   81.000  When Davide's father saw his son, he pulled him from the water.
+  12    81.800 -   84.602  The dolphin saved Davide's life.
+  13    86.180 -   96.107  In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands.
+  14    96.920 -  101.506  He was swimming when he saw a large dark shape below him.
+  15   102.140 -  107.671  He knew that it was a great white shark and his life was in danger.
+  16   108.440 -  111.479  Adam knew he didn't have a lot of time.
+  17   111.360 -  121.260  A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark.
+  18   122.420 -  125.353  The circle of dolphins kept Adam safe.
+  19   126.020 -  133.320  After half an hour, the shark left, but the dolphins swam with him for another hour.
+
+## p105  听力 · Josh's holiday
+- 句数 31，首句 7.320s，末句 134.400s
+
+   0     7.320 -   11.020  Hey Josh, did you have a good holiday?
+   1    11.600 -   14.320  Hi Mandy, yes it was great.
+   2    14.960 -   15.860  Where did you go?
+   3    16.520 -   22.732  The Pantanal, it's in the east of Brazil. It's a really big wetland.
+   4    23.200 -   27.060  Oh right, so why did you go there?
+   5    27.060 -   31.324  Because there are amazing animals and birds there.
+   6    31.777 -   36.420  We all love animals in my family, especially my dad.
+   7    36.800 -   38.243  He's a bird watcher.
+   8    38.680 -   41.000  Really? I didn't know that.
+   9    41.540 -   43.760  Yes, he loves birds.
+  10    44.340 -   47.400  So are you a big bird watcher too?
+  11    48.040 -   57.440  Well I like them and we saw some really beautiful parrots and toucans, but I prefer the other animals.
+  12    58.200 -   60.200  Did you see anything special?
+  13    60.920 -   62.880  Yes, loads of stuff.
+  14    63.560 -   65.120  There were lots of Cayman.
+  15    65.540 -   67.720  Cayman? What are they?
+  16    68.260 -   70.320  They're like small crocodiles.
+  17    70.760 -   73.607  Cool, what else did you see?
+  18    74.020 -   85.368  We saw an anaconda, you know one of those really big snakes, and then one night we heard a jaguar but we didn't see it.
+  19    85.700 -   88.200  Wow, were you scared?
+  20    89.014 -   95.109  No, it was exciting, especially because it was so near our tent.
+  21    95.500 -   97.980  Tent? Did you go camping?
+  22    98.720 -  104.740  Yes, but just for a few nights. Most of the time we were in small hotels.
+  23   105.440 -  110.260  So how did you travel around? Did you have a guide?
+  24   110.840 -  112.140  Yes, we did.
+  25   112.800 -  113.980  His name was Sergio.
+  26   114.920 -  117.020  He knew where to find all the animals.
+  27   117.760 -  119.100  Did he speak English?
+  28   119.700 -  128.240  Yes, he did. His English was good which was lucky because no one in my family can speak Portuguese.
+  29   129.020 -  131.700  It sounds like you had a great time.
+  30   132.220 -  134.400  We did. It was fantastic.
+
+## p106  阅读B · Extinct animals
+- 句数 27，首句 8.280s，末句 136.660s
+
+   0     8.280 -    9.840  1.
+   1    10.844 -   12.020  The Great Auk
+   2    13.010 -   18.560  The Great Auk was a large seabird that lived in the North Atlantic.
+   3    19.520 -   22.400  It was a bird but it couldn't fly.
+   4    23.600 -   26.400  It could swim underwater really well.
+   5    27.400 -   31.300  It caught and ate fish when it dived under the water.
+   6    32.660 -   38.320  Its feathers were very soft and people used them to make pillows for their beds.
+   7    39.340 -   42.180  Because of this people killed the birds.
+   8    43.320 -   48.620  The last Great Auk died on the island of Eldey in 1835.
+   9    51.000 -   51.240  2.
+  10    52.349 -   53.660  The Tasmanian Tiger
+  11    55.040 -   61.460  The Tasmanian Tiger was only found in Australia, Tasmania and New Guinea.
+  12    62.280 -   69.380  It got its name because it had stripes like a tiger but it was not a member of the cat family.
+  13    70.460 -   77.322  Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them.
+  14    78.360 -   84.740  Many of the tigers died after getting ill from diseases they caught from other animals.
+  15    86.040 -   91.720  The last Tasmanian Tiger died in Hobart Zoo in 1936.
+  16    93.500 -   94.340  3.
+  17    95.600 -   96.860  Steller's Sea Cow
+  18    98.280 -  105.900  Steller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska.
+  19   106.700 -  109.923  It grew up to nine metres long.
+  20   110.740 -  114.800  Because it was so big it couldn't go under the water.
+  21   115.500 -  118.375  It ate the plants on top of the sea.
+  22   118.960 -  121.394  It wasn't a very dangerous animal.
+  23   121.780 -  123.100  It was quite friendly.
+  24   123.100 -  127.048  Because of this it was very easy to kill.
+  25   127.660 -  131.920  Europeans first found the sea cow in 1741.
+  26   132.992 -  136.660  27 years later they killed the last one.
+
+## p108  口语 · Sequencing a story
+- 句数 16，首句 7.400s，末句 90.860s
+
+   0     7.400 -   12.100  Hey Nathan, how are you? Did you have a good weekend?
+   1    12.900 -   16.700  Well, sort of. I mean, it was okay.
+   2    17.260 -   20.600  You don't sound very sure. What happened?
+   3    21.360 -   23.673  Yeah, come on, tell us.
+   4    23.580 -   33.530  Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone.
+   5    33.980 -   34.980  Where did you go?
+   6    35.560 -   41.320  I went to the forest, you know, outside town. It's really nice there.
+   7    41.740 -   45.580  And I started walking when suddenly...
+   8    46.280 -   48.440  Yes, suddenly what?
+   9    48.440 -   52.400  Well, in front of me there was a snake.
+  10    53.060 -   56.600  Are there snakes in the forest? Are you sure?
+  11    57.300 -   68.260  Yes, I'm sure. It was on the path. I stopped. I didn't do anything. Then it just went away. I was afraid.
+  12    69.060 -   72.500  Poor you. I hate snakes too.
+  13    72.500 -   78.704  Why were you afraid? It's just a snake. A snake can't kill you.
+  14    79.060 -   84.560  Some snakes can. Anyway, it's okay to be afraid sometimes.
+  15    85.340 -   90.860  Thanks Lena. Anyway, that's why my weekend was just okay.

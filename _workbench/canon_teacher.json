@@ -1,0 +1,706 @@
+{
+ "title": "教师教学工作台",
+ "page_type": "mixed",
+ "properties": {
+  "任务标题": {
+   "text": ""
+  },
+  "单元": {
+   "text": ""
+  },
+  "内容类型": {
+   "select": {
+    "options": [
+     {
+      "text": "词汇",
+      "id": "opt-内容类型-0"
+     },
+     {
+      "text": "阅读",
+      "id": "opt-内容类型-1"
+     },
+     {
+      "text": "听力",
+      "id": "opt-内容类型-2"
+     },
+     {
+      "text": "口语",
+      "id": "opt-内容类型-3"
+     },
+     {
+      "text": "语法",
+      "id": "opt-内容类型-4"
+     },
+     {
+      "text": "文化",
+      "id": "opt-内容类型-5"
+     }
+    ]
+   }
+  },
+  "推送班级": {
+   "select": {
+    "options": [
+     {
+      "text": "全班",
+      "id": "opt-推送班级-0"
+     },
+     {
+      "text": "A组",
+      "id": "opt-推送班级-1"
+     },
+     {
+      "text": "B组",
+      "id": "opt-推送班级-2"
+     }
+    ]
+   }
+  },
+  "推送方式": {
+   "select": {
+    "options": [
+     {
+      "text": "全班",
+      "id": "opt-推送方式-0"
+     },
+     {
+      "text": "按班级",
+      "id": "opt-推送方式-1"
+     },
+     {
+      "text": "按个人",
+      "id": "opt-推送方式-2"
+     }
+    ]
+   }
+  },
+  "推送对象": {
+   "text": ""
+  },
+  "任务状态": {
+   "select": {
+    "options": [
+     {
+      "text": "已推送",
+      "id": "opt-任务状态-0"
+     },
+     {
+      "text": "已撤回",
+      "id": "opt-任务状态-1"
+     }
+    ]
+   }
+  },
+  "预计用时": {
+   "number": {
+    "decimalPlaces": 0,
+    "useSeparate": false
+   }
+  },
+  "推送时间": {
+   "date": "yyyy-mm-dd"
+  },
+  "修改时间": {
+   "date": "yyyy-mm-dd"
+  },
+  "截止日期": {
+   "date": "yyyy-mm-dd"
+  },
+  "任务说明": {
+   "text": ""
+  },
+  "资源名称": {
+   "text": ""
+  },
+  "类型": {
+   "select": {
+    "options": [
+     {
+      "text": "音频",
+      "id": "opt-类型-0"
+     },
+     {
+      "text": "视频",
+      "id": "opt-类型-1"
+     },
+     {
+      "text": "PDF讲义",
+      "id": "opt-类型-2"
+     },
+     {
+      "text": "词汇表",
+      "id": "opt-类型-3"
+     },
+     {
+      "text": "练习题",
+      "id": "opt-类型-4"
+     },
+     {
+      "text": "图片",
+      "id": "opt-类型-5"
+     }
+    ]
+   }
+  },
+  "标签": {
+   "text": ""
+  },
+  "链接": {
+   "url": {
+    "text": "",
+    "link": ""
+   }
+  },
+  "上传时间": {
+   "date": "yyyy-mm-dd"
+  },
+  "班级名称": {
+   "text": ""
+  },
+  "学段": {
+   "text": ""
+  },
+  "授课教师": {
+   "text": ""
+  },
+  "计划人数": {
+   "number": {
+    "decimalPlaces": 0,
+    "useSeparate": false
+   }
+  },
+  "班级状态": {
+   "select": {
+    "options": [
+     {
+      "text": "进行中",
+      "id": "opt-班级状态-0"
+     },
+     {
+      "text": "筹备中",
+      "id": "opt-班级状态-1"
+     },
+     {
+      "text": "已结课",
+      "id": "opt-班级状态-2"
+     }
+    ]
+   }
+  },
+  "创建时间": {
+   "date": "yyyy-mm-dd"
+  },
+  "备注": {
+   "text": ""
+  },
+  "姓名": {
+   "text": ""
+  },
+  "学号": {
+   "text": ""
+  },
+  "所属班级": {
+   "text": ""
+  },
+  "账户状态": {
+   "select": {
+    "options": [
+     {
+      "text": "在读",
+      "id": "opt-账户状态-0"
+     },
+     {
+      "text": "停用",
+      "id": "opt-账户状态-1"
+     }
+    ]
+   }
+  },
+  "加入时间": {
+   "date": "yyyy-mm-dd"
+  },
+  "学生": {
+   "text": ""
+  },
+  "记录类型": {
+   "select": {
+    "options": [
+     {
+      "text": "预习",
+      "id": "opt-记录类型-0"
+     },
+     {
+      "text": "复习",
+      "id": "opt-记录类型-1"
+     },
+     {
+      "text": "跟读",
+      "id": "opt-记录类型-2"
+     },
+     {
+      "text": "听写",
+      "id": "opt-记录类型-3"
+     },
+     {
+      "text": "测验",
+      "id": "opt-记录类型-4"
+     }
+    ]
+   }
+  },
+  "学习内容": {
+   "text": ""
+  },
+  "用时分钟": {
+   "number": {
+    "decimalPlaces": 0,
+    "useSeparate": false
+   }
+  },
+  "正确率": {
+   "number": {
+    "decimalPlaces": 0,
+    "useSeparate": false
+   }
+  },
+  "掌握度": {
+   "select": {
+    "options": [
+     {
+      "text": "陌生",
+      "id": "opt-掌握度-0"
+     },
+     {
+      "text": "模糊",
+      "id": "opt-掌握度-1"
+     },
+     {
+      "text": "熟悉",
+      "id": "opt-掌握度-2"
+     },
+     {
+      "text": "掌握",
+      "id": "opt-掌握度-3"
+     }
+    ]
+   }
+  },
+  "复习次数": {
+   "number": {
+    "decimalPlaces": 0,
+    "useSeparate": false
+   }
+  },
+  "日期": {
+   "date": "yyyy-mm-dd"
+  },
+  "下次复习": {
+   "date": "yyyy-mm-dd"
+  }
+ },
+ "field_mapping": {
+  "任务标题": {
+   "value_type": "text",
+   "form_input": "[name=\"任务标题\"]",
+   "display_selector": "[data-field=\"任务标题\"]",
+   "render_signal": "label:contains('任务标题')"
+  },
+  "单元": {
+   "value_type": "text",
+   "form_input": "[name=\"单元\"]",
+   "display_selector": "[data-field=\"单元\"]",
+   "render_signal": "label:contains('单元')"
+  },
+  "内容类型": {
+   "value_type": "select",
+   "form_input": null,
+   "display_selector": "[data-field=\"内容类型\"]",
+   "render_signal": "label:contains('内容类型')",
+   "options_value_key": "value"
+  },
+  "推送班级": {
+   "value_type": "select",
+   "form_input": "[name=\"推送班级\"]",
+   "display_selector": "[data-field=\"推送班级\"]",
+   "render_signal": "label:contains('推送班级')",
+   "options_value_key": "value"
+  },
+  "推送方式": {
+   "value_type": "select",
+   "form_input": "[name=\"推送方式\"]",
+   "display_selector": "[data-field=\"推送方式\"]",
+   "render_signal": "label:contains('推送方式')",
+   "options_value_key": "value"
+  },
+  "推送对象": {
+   "value_type": "text",
+   "form_input": "[name=\"推送对象\"]",
+   "display_selector": "[data-field=\"推送对象\"]",
+   "render_signal": "label:contains('推送对象')"
+  },
+  "任务状态": {
+   "value_type": "select",
+   "form_input": "[name=\"任务状态\"]",
+   "display_selector": "[data-field=\"任务状态\"]",
+   "render_signal": "label:contains('任务状态')",
+   "options_value_key": "value"
+  },
+  "预计用时": {
+   "value_type": "number",
+   "form_input": "[name=\"预计用时\"]",
+   "display_selector": "[data-field=\"预计用时\"]",
+   "render_signal": "label:contains('预计用时')"
+  },
+  "推送时间": {
+   "value_type": "date",
+   "form_input": "[name=\"推送时间\"]",
+   "display_selector": "[data-field=\"推送时间\"]",
+   "render_signal": "label:contains('推送时间')"
+  },
+  "修改时间": {
+   "value_type": "date",
+   "form_input": "[name=\"修改时间\"]",
+   "display_selector": "[data-field=\"修改时间\"]",
+   "render_signal": "label:contains('修改时间')"
+  },
+  "截止日期": {
+   "value_type": "date",
+   "form_input": "[name=\"截止日期\"]",
+   "display_selector": "[data-field=\"截止日期\"]",
+   "render_signal": "label:contains('截止日期')"
+  },
+  "任务说明": {
+   "value_type": "text",
+   "form_input": "[name=\"任务说明\"]",
+   "display_selector": "[data-field=\"任务说明\"]",
+   "render_signal": "label:contains('任务说明')"
+  },
+  "资源名称": {
+   "value_type": "text",
+   "form_input": "[name=\"资源名称\"]",
+   "display_selector": "[data-field=\"资源名称\"]",
+   "render_signal": "label:contains('资源名称')"
+  },
+  "类型": {
+   "value_type": "select",
+   "form_input": "[name=\"类型\"]",
+   "display_selector": "[data-field=\"类型\"]",
+   "render_signal": "label:contains('类型')",
+   "options_value_key": "value"
+  },
+  "标签": {
+   "value_type": "text",
+   "form_input": "[name=\"标签\"]",
+   "display_selector": "[data-field=\"标签\"]",
+   "render_signal": "label:contains('标签')"
+  },
+  "链接": {
+   "value_type": "url",
+   "form_input": "[name=\"链接\"]",
+   "display_selector": "[data-field=\"链接\"]",
+   "render_signal": "label:contains('链接')"
+  },
+  "上传时间": {
+   "value_type": "date",
+   "form_input": "[name=\"上传时间\"]",
+   "display_selector": "[data-field=\"上传时间\"]",
+   "render_signal": "label:contains('上传时间')"
+  },
+  "班级名称": {
+   "value_type": "text",
+   "form_input": "[name=\"班级名称\"]",
+   "display_selector": "[data-field=\"班级名称\"]",
+   "render_signal": "label:contains('班级名称')"
+  },
+  "学段": {
+   "value_type": "text",
+   "form_input": "[name=\"学段\"]",
+   "display_selector": "[data-field=\"学段\"]",
+   "render_signal": "label:contains('学段')"
+  },
+  "授课教师": {
+   "value_type": "text",
+   "form_input": "[name=\"授课教师\"]",
+   "display_selector": "[data-field=\"授课教师\"]",
+   "render_signal": "label:contains('授课教师')"
+  },
+  "计划人数": {
+   "value_type": "number",
+   "form_input": "[name=\"计划人数\"]",
+   "display_selector": "[data-field=\"计划人数\"]",
+   "render_signal": "label:contains('计划人数')"
+  },
+  "班级状态": {
+   "value_type": "select",
+   "form_input": "[name=\"班级状态\"]",
+   "display_selector": "[data-field=\"班级状态\"]",
+   "render_signal": "label:contains('班级状态')",
+   "options_value_key": "value"
+  },
+  "创建时间": {
+   "value_type": "date",
+   "form_input": "[name=\"创建时间\"]",
+   "display_selector": "[data-field=\"创建时间\"]",
+   "render_signal": "label:contains('创建时间')"
+  },
+  "备注": {
+   "value_type": "text",
+   "form_input": null,
+   "display_selector": "[data-field=\"备注\"]",
+   "render_signal": "label:contains('备注')"
+  },
+  "姓名": {
+   "value_type": "text",
+   "form_input": "[name=\"姓名\"]",
+   "display_selector": "[data-field=\"姓名\"]",
+   "render_signal": "label:contains('姓名')"
+  },
+  "学号": {
+   "value_type": "text",
+   "form_input": "[name=\"学号\"]",
+   "display_selector": "[data-field=\"学号\"]",
+   "render_signal": "label:contains('学号')"
+  },
+  "所属班级": {
+   "value_type": "text",
+   "form_input": "[name=\"所属班级\"]",
+   "display_selector": "[data-field=\"所属班级\"]",
+   "render_signal": "label:contains('所属班级')"
+  },
+  "账户状态": {
+   "value_type": "select",
+   "form_input": "[name=\"账户状态\"]",
+   "display_selector": "[data-field=\"账户状态\"]",
+   "render_signal": "label:contains('账户状态')",
+   "options_value_key": "value"
+  },
+  "加入时间": {
+   "value_type": "date",
+   "form_input": "[name=\"加入时间\"]",
+   "display_selector": "[data-field=\"加入时间\"]",
+   "render_signal": "label:contains('加入时间')"
+  },
+  "学生": {
+   "value_type": "text",
+   "form_input": "[name=\"学生\"]",
+   "display_selector": "[data-field=\"学生\"]",
+   "render_signal": "label:contains('学生')"
+  },
+  "记录类型": {
+   "value_type": "select",
+   "form_input": "[name=\"记录类型\"]",
+   "display_selector": "[data-field=\"记录类型\"]",
+   "render_signal": "label:contains('记录类型')",
+   "options_value_key": "value"
+  },
+  "学习内容": {
+   "value_type": "text",
+   "form_input": "[name=\"学习内容\"]",
+   "display_selector": "[data-field=\"学习内容\"]",
+   "render_signal": "label:contains('学习内容')"
+  },
+  "用时分钟": {
+   "value_type": "number",
+   "form_input": "[name=\"用时分钟\"]",
+   "display_selector": "[data-field=\"用时分钟\"]",
+   "render_signal": "label:contains('用时分钟')"
+  },
+  "正确率": {
+   "value_type": "number",
+   "form_input": null,
+   "display_selector": "[data-field=\"正确率\"]",
+   "render_signal": "label:contains('正确率')"
+  },
+  "掌握度": {
+   "value_type": "select",
+   "form_input": "[name=\"掌握度\"]",
+   "display_selector": "[data-field=\"掌握度\"]",
+   "render_signal": "label:contains('掌握度')",
+   "options_value_key": "value"
+  },
+  "复习次数": {
+   "value_type": "number",
+   "form_input": "[name=\"复习次数\"]",
+   "display_selector": "[data-field=\"复习次数\"]",
+   "render_signal": "label:contains('复习次数')"
+  },
+  "日期": {
+   "value_type": "date",
+   "form_input": "[name=\"日期\"]",
+   "display_selector": "[data-field=\"日期\"]",
+   "render_signal": "label:contains('日期')"
+  },
+  "下次复习": {
+   "value_type": "date",
+   "form_input": "[name=\"下次复习\"]",
+   "display_selector": "[data-field=\"下次复习\"]",
+   "render_signal": "label:contains('下次复习')"
+  }
+ },
+ "options_map": {
+  "内容类型": {
+   "opt-内容类型-0": {
+    "text": "词汇",
+    "id": "opt-内容类型-0"
+   },
+   "opt-内容类型-1": {
+    "text": "阅读",
+    "id": "opt-内容类型-1"
+   },
+   "opt-内容类型-2": {
+    "text": "听力",
+    "id": "opt-内容类型-2"
+   },
+   "opt-内容类型-3": {
+    "text": "口语",
+    "id": "opt-内容类型-3"
+   },
+   "opt-内容类型-4": {
+    "text": "语法",
+    "id": "opt-内容类型-4"
+   },
+   "opt-内容类型-5": {
+    "text": "文化",
+    "id": "opt-内容类型-5"
+   }
+  },
+  "推送班级": {
+   "opt-推送班级-0": {
+    "text": "全班",
+    "id": "opt-推送班级-0"
+   },
+   "opt-推送班级-1": {
+    "text": "A组",
+    "id": "opt-推送班级-1"
+   },
+   "opt-推送班级-2": {
+    "text": "B组",
+    "id": "opt-推送班级-2"
+   }
+  },
+  "推送方式": {
+   "opt-推送方式-0": {
+    "text": "全班",
+    "id": "opt-推送方式-0"
+   },
+   "opt-推送方式-1": {
+    "text": "按班级",
+    "id": "opt-推送方式-1"
+   },
+   "opt-推送方式-2": {
+    "text": "按个人",
+    "id": "opt-推送方式-2"
+   }
+  },
+  "任务状态": {
+   "opt-任务状态-0": {
+    "text": "已推送",
+    "id": "opt-任务状态-0"
+   },
+   "opt-任务状态-1": {
+    "text": "已撤回",
+    "id": "opt-任务状态-1"
+   }
+  },
+  "类型": {
+   "opt-类型-0": {
+    "text": "音频",
+    "id": "opt-类型-0"
+   },
+   "opt-类型-1": {
+    "text": "视频",
+    "id": "opt-类型-1"
+   },
+   "opt-类型-2": {
+    "text": "PDF讲义",
+    "id": "opt-类型-2"
+   },
+   "opt-类型-3": {
+    "text": "词汇表",
+    "id": "opt-类型-3"
+   },
+   "opt-类型-4": {
+    "text": "练习题",
+    "id": "opt-类型-4"
+   },
+   "opt-类型-5": {
+    "text": "图片",
+    "id": "opt-类型-5"
+   }
+  },
+  "班级状态": {
+   "opt-班级状态-0": {
+    "text": "进行中",
+    "id": "opt-班级状态-0"
+   },
+   "opt-班级状态-1": {
+    "text": "筹备中",
+    "id": "opt-班级状态-1"
+   },
+   "opt-班级状态-2": {
+    "text": "已结课",
+    "id": "opt-班级状态-2"
+   }
+  },
+  "账户状态": {
+   "opt-账户状态-0": {
+    "text": "在读",
+    "id": "opt-账户状态-0"
+   },
+   "opt-账户状态-1": {
+    "text": "停用",
+    "id": "opt-账户状态-1"
+   }
+  },
+  "记录类型": {
+   "opt-记录类型-0": {
+    "text": "预习",
+    "id": "opt-记录类型-0"
+   },
+   "opt-记录类型-1": {
+    "text": "复习",
+    "id": "opt-记录类型-1"
+   },
+   "opt-记录类型-2": {
+    "text": "跟读",
+    "id": "opt-记录类型-2"
+   },
+   "opt-记录类型-3": {
+    "text": "听写",
+    "id": "opt-记录类型-3"
+   },
+   "opt-记录类型-4": {
+    "text": "测验",
+    "id": "opt-记录类型-4"
+   }
+  },
+  "掌握度": {
+   "opt-掌握度-0": {
+    "text": "陌生",
+    "id": "opt-掌握度-0"
+   },
+   "opt-掌握度-1": {
+    "text": "模糊",
+    "id": "opt-掌握度-1"
+   },
+   "opt-掌握度-2": {
+    "text": "熟悉",
+    "id": "opt-掌握度-2"
+   },
+   "opt-掌握度-3": {
+    "text": "掌握",
+    "id": "opt-掌握度-3"
+   }
+  }
+ },
+ "source": "agent_analysis",
+ "sdk_calls_found": true,
+ "existing_databases": [
+  "M2BiG1J9hhkYDOcdZFWi3s",
+  "iRti0RoXNhXFoekVY9y4Cf",
+  "PUQ5oUZJNDYWKBBMpIijgw",
+  "2OjdhXTwUccUa71i4R2wBx",
+  "qKJybtlu4NrEqJ7yUPTduo"
+ ],
+ "confidence": "high"
+}

@@ -250,7 +250,9 @@ node _regress.js --no-server   # 不自动拉起服务器
 
 ## 八、版权与合规（发布前务必确认）
 
-本原型内含**剑桥《Think》第二版教材**的课文文本与音频（`src/` 中的原始 PDF/MP3，以及由它派生的 `assets/p*.mp3`、`index.html` 内嵌课文、`词汇诊断/` 诊断页、`p067_p070_*.md` 译文与逐字稿）。这些内容**受版权保护**，仓库已通过 `.gitignore` 排除原始素材与含原文的产出物。
+本原型内含**剑桥《Think》第二版教材**的课文文本与音频（`src/` 中的原始 PDF/MP3，以及由它派生的 `assets/p*.mp3`、`index.html` 内嵌课文、`词汇诊断/` 诊断页、`p067_p070_*.md` 译文与逐字稿、`课程资产/课程资源汇总/` 词汇分析汇总）。这些内容**受版权保护**，仓库已通过 `.gitignore` 排除原始素材与含原文的产出物。
+
+**版权申明**：本仓库所含剑桥《Think》教材相关内容（含 `课程资产/课程资源汇总/` 中的词汇诊断页、篇章分析与备课本）仅用于**内部教学与研究**，不作商业用途；相关版权归 **Cambridge University Press & Assessment** 与 National Geographic Learning 所有。如需引用请联系权利方。`KET/PET/FCE/CAE` 考点词表分别来自剑桥官方词表、CEFR-J（Tono Lab, TUFS）与 Octanove（CC BY-SA 4.0），商用前请核对其使用条款。
 
 发布到 GitHub 前请确认：
 - **建议设为 Private 仓库**；若必须 Public，请进一步排除 `assets/*.mp3` 与 `index.html` 中的课文数据（会同时失去点读/跟读的可运行性）

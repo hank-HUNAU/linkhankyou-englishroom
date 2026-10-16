@@ -1,0 +1,762 @@
+{
+ "p102": [
+  {
+   "i": 0,
+   "start_s": 9.22,
+   "end_s": 13.76,
+   "dur_s": 4.54,
+   "text": "Everyone knows that dolphins are very intelligent animals.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 14.66,
+   "end_s": 21.72,
+   "dur_s": 7.06,
+   "text": "But did you know that many scientists believe there is a special connection between dolphins and humans?",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 22.62,
+   "end_s": 27.852,
+   "dur_s": 5.232,
+   "text": "There are lots of stories about dolphins helping humans who are in danger.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 27.74,
+   "end_s": 31.01,
+   "dur_s": 3.27,
+   "text": "Here are two of our favourites.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 33.44,
+   "end_s": 43.514,
+   "dur_s": 10.074,
+   "text": "14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 44.3,
+   "end_s": 52.419,
+   "dur_s": 8.119,
+   "text": "Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 53.1,
+   "end_s": 56.181,
+   "dur_s": 3.081,
+   "text": "He shouted, but his dad didn't hear him.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 56.96,
+   "end_s": 58.967,
+   "dur_s": 2.007,
+   "text": "Davide got very worried.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 59.78,
+   "end_s": 63.971,
+   "dur_s": 4.191,
+   "text": "Then, very quickly, a dolphin came to help him.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 64.58,
+   "end_s": 71.773,
+   "dur_s": 7.193,
+   "text": "It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 72.52,
+   "end_s": 75.105,
+   "dur_s": 2.585,
+   "text": "The dolphin took him back to the boat.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 75.98,
+   "end_s": 81.0,
+   "dur_s": 5.02,
+   "text": "When Davide's father saw his son, he pulled him from the water.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 81.8,
+   "end_s": 84.602,
+   "dur_s": 2.802,
+   "text": "The dolphin saved Davide's life.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 86.18,
+   "end_s": 96.107,
+   "dur_s": 9.927,
+   "text": "In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 96.92,
+   "end_s": 101.506,
+   "dur_s": 4.586,
+   "text": "He was swimming when he saw a large dark shape below him.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 102.14,
+   "end_s": 107.671,
+   "dur_s": 5.531,
+   "text": "He knew that it was a great white shark and his life was in danger.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 108.44,
+   "end_s": 111.479,
+   "dur_s": 3.039,
+   "text": "Adam knew he didn't have a lot of time.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 111.36,
+   "end_s": 121.26,
+   "dur_s": 9.9,
+   "text": "A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 122.42,
+   "end_s": 125.353,
+   "dur_s": 2.933,
+   "text": "The circle of dolphins kept Adam safe.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 126.02,
+   "end_s": 133.32,
+   "dur_s": 7.3,
+   "text": "After half an hour, the shark left, but the dolphins swam with him for another hour.",
+   "confidence": 1.0
+  }
+ ],
+ "p105": [
+  {
+   "i": 0,
+   "start_s": 7.32,
+   "end_s": 11.02,
+   "dur_s": 3.7,
+   "text": "Hey Josh, did you have a good holiday?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 11.6,
+   "end_s": 14.32,
+   "dur_s": 2.72,
+   "text": "Hi Mandy, yes it was great.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 14.96,
+   "end_s": 15.86,
+   "dur_s": 0.9,
+   "text": "Where did you go?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 16.52,
+   "end_s": 22.732,
+   "dur_s": 6.212,
+   "text": "The Pantanal, it's in the east of Brazil. It's a really big wetland.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 23.2,
+   "end_s": 27.06,
+   "dur_s": 3.86,
+   "text": "Oh right, so why did you go there?",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 27.06,
+   "end_s": 31.324,
+   "dur_s": 4.264,
+   "text": "Because there are amazing animals and birds there.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 31.777,
+   "end_s": 36.42,
+   "dur_s": 4.643,
+   "text": "We all love animals in my family, especially my dad.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 36.8,
+   "end_s": 38.243,
+   "dur_s": 1.443,
+   "text": "He's a bird watcher.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 38.68,
+   "end_s": 41.0,
+   "dur_s": 2.32,
+   "text": "Really? I didn't know that.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 41.54,
+   "end_s": 43.76,
+   "dur_s": 2.22,
+   "text": "Yes, he loves birds.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 44.34,
+   "end_s": 47.4,
+   "dur_s": 3.06,
+   "text": "So are you a big bird watcher too?",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 48.04,
+   "end_s": 57.44,
+   "dur_s": 9.4,
+   "text": "Well I like them and we saw some really beautiful parrots and toucans, but I prefer the other animals.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 58.2,
+   "end_s": 60.2,
+   "dur_s": 2.0,
+   "text": "Did you see anything special?",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 60.92,
+   "end_s": 62.88,
+   "dur_s": 1.96,
+   "text": "Yes, loads of stuff.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 63.56,
+   "end_s": 65.12,
+   "dur_s": 1.56,
+   "text": "There were lots of Cayman.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 65.54,
+   "end_s": 67.72,
+   "dur_s": 2.18,
+   "text": "Cayman? What are they?",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 68.26,
+   "end_s": 70.32,
+   "dur_s": 2.06,
+   "text": "They're like small crocodiles.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 70.76,
+   "end_s": 73.607,
+   "dur_s": 2.847,
+   "text": "Cool, what else did you see?",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 74.02,
+   "end_s": 85.368,
+   "dur_s": 11.348,
+   "text": "We saw an anaconda, you know one of those really big snakes, and then one night we heard a jaguar but we didn't see it.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 85.7,
+   "end_s": 88.2,
+   "dur_s": 2.5,
+   "text": "Wow, were you scared?",
+   "confidence": 1.0
+  },
+  {
+   "i": 20,
+   "start_s": 89.014,
+   "end_s": 95.109,
+   "dur_s": 6.095,
+   "text": "No, it was exciting, especially because it was so near our tent.",
+   "confidence": 1.0
+  },
+  {
+   "i": 21,
+   "start_s": 95.5,
+   "end_s": 97.98,
+   "dur_s": 2.48,
+   "text": "Tent? Did you go camping?",
+   "confidence": 1.0
+  },
+  {
+   "i": 22,
+   "start_s": 98.72,
+   "end_s": 104.74,
+   "dur_s": 6.02,
+   "text": "Yes, but just for a few nights. Most of the time we were in small hotels.",
+   "confidence": 1.0
+  },
+  {
+   "i": 23,
+   "start_s": 105.44,
+   "end_s": 110.26,
+   "dur_s": 4.82,
+   "text": "So how did you travel around? Did you have a guide?",
+   "confidence": 1.0
+  },
+  {
+   "i": 24,
+   "start_s": 110.84,
+   "end_s": 112.14,
+   "dur_s": 1.3,
+   "text": "Yes, we did.",
+   "confidence": 1.0
+  },
+  {
+   "i": 25,
+   "start_s": 112.8,
+   "end_s": 113.98,
+   "dur_s": 1.18,
+   "text": "His name was Sergio.",
+   "confidence": 1.0
+  },
+  {
+   "i": 26,
+   "start_s": 114.92,
+   "end_s": 117.02,
+   "dur_s": 2.1,
+   "text": "He knew where to find all the animals.",
+   "confidence": 1.0
+  },
+  {
+   "i": 27,
+   "start_s": 117.76,
+   "end_s": 119.1,
+   "dur_s": 1.34,
+   "text": "Did he speak English?",
+   "confidence": 1.0
+  },
+  {
+   "i": 28,
+   "start_s": 119.7,
+   "end_s": 128.24,
+   "dur_s": 8.54,
+   "text": "Yes, he did. His English was good which was lucky because no one in my family can speak Portuguese.",
+   "confidence": 1.0
+  },
+  {
+   "i": 29,
+   "start_s": 129.02,
+   "end_s": 131.7,
+   "dur_s": 2.68,
+   "text": "It sounds like you had a great time.",
+   "confidence": 1.0
+  },
+  {
+   "i": 30,
+   "start_s": 132.22,
+   "end_s": 134.4,
+   "dur_s": 2.18,
+   "text": "We did. It was fantastic.",
+   "confidence": 1.0
+  }
+ ],
+ "p106": [
+  {
+   "i": 0,
+   "start_s": 8.28,
+   "end_s": 9.84,
+   "dur_s": 1.56,
+   "text": "1.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 10.844,
+   "end_s": 12.02,
+   "dur_s": 1.176,
+   "text": "The Great Auk",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 13.01,
+   "end_s": 18.56,
+   "dur_s": 5.55,
+   "text": "The Great Auk was a large seabird that lived in the North Atlantic.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 19.52,
+   "end_s": 22.4,
+   "dur_s": 2.88,
+   "text": "It was a bird but it couldn't fly.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 23.6,
+   "end_s": 26.4,
+   "dur_s": 2.8,
+   "text": "It could swim underwater really well.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 27.4,
+   "end_s": 31.3,
+   "dur_s": 3.9,
+   "text": "It caught and ate fish when it dived under the water.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 32.66,
+   "end_s": 38.32,
+   "dur_s": 5.66,
+   "text": "Its feathers were very soft and people used them to make pillows for their beds.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 39.34,
+   "end_s": 42.18,
+   "dur_s": 2.84,
+   "text": "Because of this people killed the birds.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 43.32,
+   "end_s": 48.62,
+   "dur_s": 5.3,
+   "text": "The last Great Auk died on the island of Eldey in 1835.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 51.0,
+   "end_s": 51.24,
+   "dur_s": 0.24,
+   "text": "2.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 52.349,
+   "end_s": 53.66,
+   "dur_s": 1.311,
+   "text": "The Tasmanian Tiger",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 55.04,
+   "end_s": 61.46,
+   "dur_s": 6.42,
+   "text": "The Tasmanian Tiger was only found in Australia, Tasmania and New Guinea.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 62.28,
+   "end_s": 69.38,
+   "dur_s": 7.1,
+   "text": "It got its name because it had stripes like a tiger but it was not a member of the cat family.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 70.46,
+   "end_s": 77.322,
+   "dur_s": 6.862,
+   "text": "Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 78.36,
+   "end_s": 84.74,
+   "dur_s": 6.38,
+   "text": "Many of the tigers died after getting ill from diseases they caught from other animals.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 86.04,
+   "end_s": 91.72,
+   "dur_s": 5.68,
+   "text": "The last Tasmanian Tiger died in Hobart Zoo in 1936.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 93.5,
+   "end_s": 94.34,
+   "dur_s": 0.84,
+   "text": "3.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 95.6,
+   "end_s": 96.86,
+   "dur_s": 1.26,
+   "text": "Steller's Sea Cow",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 98.28,
+   "end_s": 105.9,
+   "dur_s": 7.62,
+   "text": "Steller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 106.7,
+   "end_s": 109.923,
+   "dur_s": 3.223,
+   "text": "It grew up to nine metres long.",
+   "confidence": 1.0
+  },
+  {
+   "i": 20,
+   "start_s": 110.74,
+   "end_s": 114.8,
+   "dur_s": 4.06,
+   "text": "Because it was so big it couldn't go under the water.",
+   "confidence": 1.0
+  },
+  {
+   "i": 21,
+   "start_s": 115.5,
+   "end_s": 118.375,
+   "dur_s": 2.875,
+   "text": "It ate the plants on top of the sea.",
+   "confidence": 1.0
+  },
+  {
+   "i": 22,
+   "start_s": 118.96,
+   "end_s": 121.394,
+   "dur_s": 2.434,
+   "text": "It wasn't a very dangerous animal.",
+   "confidence": 1.0
+  },
+  {
+   "i": 23,
+   "start_s": 121.78,
+   "end_s": 123.1,
+   "dur_s": 1.32,
+   "text": "It was quite friendly.",
+   "confidence": 1.0
+  },
+  {
+   "i": 24,
+   "start_s": 123.1,
+   "end_s": 127.048,
+   "dur_s": 3.948,
+   "text": "Because of this it was very easy to kill.",
+   "confidence": 1.0
+  },
+  {
+   "i": 25,
+   "start_s": 127.66,
+   "end_s": 131.92,
+   "dur_s": 4.26,
+   "text": "Europeans first found the sea cow in 1741.",
+   "confidence": 1.0
+  },
+  {
+   "i": 26,
+   "start_s": 132.992,
+   "end_s": 136.66,
+   "dur_s": 3.668,
+   "text": "27 years later they killed the last one.",
+   "confidence": 1.0
+  }
+ ],
+ "p108": [
+  {
+   "i": 0,
+   "start_s": 7.4,
+   "end_s": 12.1,
+   "dur_s": 4.7,
+   "text": "Hey Nathan, how are you? Did you have a good weekend?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 12.9,
+   "end_s": 16.7,
+   "dur_s": 3.8,
+   "text": "Well, sort of. I mean, it was okay.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 17.26,
+   "end_s": 20.6,
+   "dur_s": 3.34,
+   "text": "You don't sound very sure. What happened?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 21.36,
+   "end_s": 23.673,
+   "dur_s": 2.313,
+   "text": "Yeah, come on, tell us.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 23.58,
+   "end_s": 33.53,
+   "dur_s": 9.95,
+   "text": "Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 33.98,
+   "end_s": 34.98,
+   "dur_s": 1.0,
+   "text": "Where did you go?",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 35.56,
+   "end_s": 41.32,
+   "dur_s": 5.76,
+   "text": "I went to the forest, you know, outside town. It's really nice there.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 41.74,
+   "end_s": 45.58,
+   "dur_s": 3.84,
+   "text": "And I started walking when suddenly...",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 46.28,
+   "end_s": 48.44,
+   "dur_s": 2.16,
+   "text": "Yes, suddenly what?",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 48.44,
+   "end_s": 52.4,
+   "dur_s": 3.96,
+   "text": "Well, in front of me there was a snake.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 53.06,
+   "end_s": 56.6,
+   "dur_s": 3.54,
+   "text": "Are there snakes in the forest? Are you sure?",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 57.3,
+   "end_s": 68.26,
+   "dur_s": 10.96,
+   "text": "Yes, I'm sure. It was on the path. I stopped. I didn't do anything. Then it just went away. I was afraid.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 69.06,
+   "end_s": 72.5,
+   "dur_s": 3.44,
+   "text": "Poor you. I hate snakes too.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 72.5,
+   "end_s": 78.704,
+   "dur_s": 6.204,
+   "text": "Why were you afraid? It's just a snake. A snake can't kill you.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 79.06,
+   "end_s": 84.56,
+   "dur_s": 5.5,
+   "text": "Some snakes can. Anyway, it's okay to be afraid sometimes.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 85.34,
+   "end_s": 90.86,
+   "dur_s": 5.52,
+   "text": "Thanks Lena. Anyway, that's why my weekend was just okay.",
+   "confidence": 1.0
+  }
+ ]
+}

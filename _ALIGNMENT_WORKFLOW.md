@@ -37,7 +37,7 @@
 
 | page | 板块 | 篇名 | 音频源（第8单元 音频） | 句数 |
 |---|---|---|---|---|
-| p075 | 阅读A | #Musicintheforest | `第8单元 阅读1 Music in the Forest 课文音频.mp3`（非标准名） | 32 |
+| p075 | 阅读A | #Music in the forest | `第8单元 阅读1 Music in the Forest 课文音频.mp3`（非标准名） | 32 |
 | p077 | 听力 | Musicians around the world | `Thk2e_BE_L0_SB_Unit_8_p77_t02[公众号happyshare2023].mp3` | 27 |
 | p078 | 阅读B | A teenage DJ | `Thk2e_BE_L0_SB_Unit_8_p78_t03[公众号happyshare2023].mp3` | 25 |
 | p080 | 文化 | Dances around the world | `Thk2e_BE_L0_SB_Unit_8_p81_t07[公众号happyshare2023].mp3` | 22 |

@@ -1,0 +1,2378 @@
+{
+  "books": [
+    {
+      "key": "NCE1",
+      "title": "新概念第一册",
+      "bookPath": "./audio/NCE1"
+    },
+    {
+      "key": "THINK_0",
+      "title": "Think Level 0",
+      "bookPath": "./think-0"
+    }
+  ],
+  "units": {
+    "NCE1": [
+      {
+        "key": "u001",
+        "title": "Lesson 1-2",
+        "audio": "L001",
+        "lines": [
+          {
+            "time": 0.5,
+            "en": "Excuse me!",
+            "cn": "打扰一下！"
+          },
+          {
+            "time": 2,
+            "en": "Yes?",
+            "cn": "什么事？"
+          },
+          {
+            "time": 3.5,
+            "en": "Is this your handbag?",
+            "cn": "这是你的手提包吗？"
+          },
+          {
+            "time": 5.5,
+            "en": "Pardon?",
+            "cn": "对不起，请再说一遍。"
+          },
+          {
+            "time": 7,
+            "en": "Is this your handbag?",
+            "cn": "这是你的手提包吗？"
+          },
+          {
+            "time": 9,
+            "en": "Yes, it is.",
+            "cn": "是的，它是。"
+          },
+          {
+            "time": 10.5,
+            "en": "Thank you very much.",
+            "cn": "非常感谢。"
+          }
+        ]
+      },
+      {
+        "key": "u002",
+        "title": "Lesson 3-4",
+        " audio": "L002",
+        "lines": [
+          {
+            "time": 0.5,
+            "en": "My coat and my umbrella please.",
+            "cn": "我的外套和雨伞。"
+          },
+          {
+            "time": 3,
+            "en": "Here is my ticket.",
+            "cn": "这是我的票。"
+          },
+          {
+            "time": 5.5,
+            "en": "Thank you, sir.",
+            "cn": "谢谢您，先生。"
+          },
+          {
+            "time": 7.5,
+            "en": "Number five.",
+            "cn": "五号。"
+          },
+          {
+            "time": 9,
+            "en": "Here's your umbrella.",
+            "cn": "这是您的雨伞。"
+          },
+          {
+            "time": 11,
+            "en": "Thank you.",
+            "cn": "谢谢。"
+          },
+          {
+            "time": 12.5,
+            "en": "And here's your coat.",
+            "cn": "这是您的外套。"
+          }
+        ]
+      },
+      {
+        "key": "u003",
+        "title": "Lesson 5-6",
+        " audio": "L003",
+        "lines": [
+          {
+            "time": 0.5,
+            "en": "Good morning.",
+            "cn": "早上好。"
+          },
+          {
+            "time": 2,
+            "en": "Good morning, Mr Blake.",
+            "cn": "早上好，布莱克先生。"
+          },
+          {
+            "time": 4,
+            "en": "Sit down please.",
+            "cn": "请坐。"
+          },
+          {
+            "time": 6,
+            "en": "This is Miss Sophie Dupont.",
+            "cn": "这位是索菲娅·杜邦小姐。"
+          },
+          {
+            "time": 8.5,
+            "en": "Sophie is a new student.",
+            "cn": "索菲娅是个新学生。"
+          },
+          {
+            "time": 11,
+            "en": "She is French.",
+            "cn": "她是法国人。"
+          }
+        ]
+      },
+      {
+        "key": "u004",
+        "title": "Lesson 7-8",
+        "audio": "L004",
+        "lines": [
+          {
+            "time": 0.5,
+            "en": "Good morning.",
+            "cn": "Good morning."
+          },
+          {
+            "time": 2,
+            "en": "Good morning, Mr Blake.",
+            "cn": "Good morning, Mr Blake."
+          },
+          {
+            "time": 4,
+            "en": "Sit down please.",
+            "cn": "Sit down please."
+          },
+          {
+            "time": 6,
+            "en": "This is Miss Sophie Dupont.",
+            "cn": "This is Miss Sophie Dupont."
+          },
+          {
+            "time": 8.5,
+            "en": "Sophie is a new student.",
+            "cn": "Sophie is a new student."
+          },
+          {
+            "time": 11,
+            "en": "She is French.",
+            "cn": "She is French."
+          },
+          {
+            "time": 13.5,
+            "en": "I'm her teacher.",
+            "cn": "I'm her teacher."
+          },
+          {
+            "time": 16,
+            "en": "Nice to meet you.",
+            "cn": "Nice to meet you."
+          }
+        ]
+      }
+    ],
+    "THINK_0": [
+      {
+        "key": "u004",
+        "title": "Unit 4-4 Culture",
+        "audio": "Unit 04-4 Culture",
+        "lines": [
+          {
+            "time": 7.01,
+            "en": "Parks Around the World",
+            "cn": "世界各地的公园"
+          },
+          {
+            "time": 9.37,
+            "en": "A. Villa Borghese, Rome, Italy",
+            "cn": "A.意大利罗马 Borghese 别墅"
+          },
+          {
+            "time": 14.47,
+            "en": "Villa Borghese is a big public park.",
+            "cn": "博尔盖塞别墅（Villa Borghese）是一个大型公共公园"
+          },
+          {
+            "time": 19.19,
+            "en": "There are beautiful gardens, trees and some fountains too.",
+            "cn": "这里还有美丽的花园、树木和一些喷泉。"
+          },
+          {
+            "time": 25.5,
+            "en": "People also call it the Park of Museums because there are many interesting museums there.",
+            "cn": "人们也称之为博物馆公园，因为那里有许多有趣的博物馆。"
+          },
+          {
+            "time": 34.07,
+            "en": "B. Golden Gate Park, San Francisco, the US.",
+            "cn": "B. 美国旧金山金门公园。"
+          },
+          {
+            "time": 40.78,
+            "en": "Everyone knows the Golden Gate Bridge,",
+            "cn": "大家都知道金门大桥，"
+          },
+          {
+            "time": 43.59,
+            "en": "but did you know that there is the Golden Gate Park in San Francisco too?",
+            "cn": "但您知道旧金山也有金门公园吗？"
+          },
+          {
+            "time": 49.92,
+            "en": "It's very big, 4.8 kilometers long, almost 1 kilometer wide,",
+            "cn": "它非常大，长 4.8 公里，宽近 1 公里，"
+          },
+          {
+            "time": 56.84,
+            "en": "and at one end you can see the sea.",
+            "cn": "一端可以看到大海"
+          },
+          {
+            "time": 61.82,
+            "en": "C. Chapel Tepec Park, Mexico City, Mexico.",
+            "cn": "C.墨西哥墨西哥城 Chapel Tepec 公园。"
+          },
+          {
+            "time": 68.03,
+            "en": "Chapel Tepec Park is an important green space in this big city.",
+            "cn": "特佩克教堂公园（Chapel Tepec Park）是这座大城市的重要绿地。"
+          },
+          {
+            "time": 74.34,
+            "en": "It has a lake and a hill with a castle on it.",
+            "cn": "它有一个湖泊和一座山，上面有一座城堡。"
+          },
+          {
+            "time": 78.65,
+            "en": "People in Mexico City love going there.",
+            "cn": "墨西哥城的人们喜欢去那里。"
+          },
+          {
+            "time": 83.51,
+            "en": "D. El Parque del Buen Retiro, Madrid, Spain.",
+            "cn": "D. El Parque del Buen Retiro，西班牙马德里。"
+          },
+          {
+            "time": 89.9,
+            "en": "In Madrid there is a very big park called Buen Retiro.",
+            "cn": "马德里有一个非常大的公园，名为 Buen Retiro。"
+          },
+          {
+            "time": 95.59,
+            "en": "There are trees and paths and a lovely rose garden too.",
+            "cn": "这里有树木和小径，还有一个可爱的玫瑰花园。"
+          },
+          {
+            "time": 101.37,
+            "en": "There is also a beautiful glass palace.",
+            "cn": "还有一座美丽的玻璃宫殿。"
+          },
+          {
+            "time": 106.62,
+            "en": "E. The Iguana Park, Guayaquil, Ecuador.",
+            "cn": "E.鬣蜥公园，厄瓜多尔瓜亚基尔。"
+          },
+          {
+            "time": 112.51,
+            "en": "The park's real name is Parque Seminario,",
+            "cn": "公园的真名是 Parque Seminario，"
+          },
+          {
+            "time": 116.31,
+            "en": "but everyone calls it the Iguana Park because it is full of iguanas.",
+            "cn": "但每个人都称之为鬣蜥公园，因为它充满了鬣蜥。"
+          },
+          {
+            "time": 123.09,
+            "en": "The iguanas are very friendly.",
+            "cn": "鬣蜥非常友好。"
+          },
+          {
+            "time": 126.48,
+            "en": "People go there and feed them.",
+            "cn": "人们去那里喂它们。"
+          },
+          {
+            "time": 130.53,
+            "en": "F. Mount Faber Park, Singapore.",
+            "cn": "F.新加坡 Mount Faber 公园。"
+          },
+          {
+            "time": 135.68,
+            "en": "On a mountain near Singapore, there is a park called Mount Faber.",
+            "cn": "在新加坡附近的一座山上，有一个名为 Mount Faber 的公园。"
+          },
+          {
+            "time": 141.47,
+            "en": "You can get there by cable car.",
+            "cn": "您可以乘坐缆车前往。"
+          },
+          {
+            "time": 145.18,
+            "en": "In the park, you can walk on a long path or on an amazing bridge.",
+            "cn": "在公园里，您可以在长途跋涉或令人惊叹的桥梁上漫步。"
+          },
+          {
+            "time": 151.56,
+            "en": "You get a great view of the city.",
+            "cn": "您可以欣赏到城市的美景。"
+          }
+        ]
+      },
+      {
+        "key": "u010",
+        "title": "Unit 10-1 Reading",
+        "audio": "Unit 10-1 Reading",
+        "lines": [
+          {
+            "time": 6.24,
+            "en": "She was the first woman in space.",
+            "cn": "第一位进入太空的女性"
+          },
+          {
+            "time": 10.16,
+            "en": "Valentina Tereshkova was born in Russia on the 6th of March 1937.",
+            "cn": "瓦伦蒂娜·捷列什科娃于 1937 年 3 月 6 日出生在俄罗斯。"
+          },
+          {
+            "time": 18.16,
+            "en": "Her father was a driver, and her mother was a factory worker.",
+            "cn": "她的父亲是一名司机，母亲是一名工厂工人。"
+          },
+          {
+            "time": 24.21,
+            "en": "Valentina was a worker in a factory too.",
+            "cn": "瓦伦蒂娜也是一家工厂的工人。"
+          },
+          {
+            "time": 28.51,
+            "en": "Her hobby was skydiving,",
+            "cn": "她的爱好是跳伞，"
+          },
+          {
+            "time": 30.96,
+            "en": "and it was her dream to be an astronaut and to go into space.",
+            "cn": "她的梦想是成为一名宇航员并进入太空。"
+          },
+          {
+            "time": 37.7,
+            "en": "In 1962 there was a big competition to find new astronauts.",
+            "cn": "1962 年，有一场寻找新宇航员的大型竞赛。"
+          },
+          {
+            "time": 44.89,
+            "en": "There were 400 people interested in going to space.",
+            "cn": "有 400 人有兴趣去太空。"
+          },
+          {
+            "time": 50.74,
+            "en": "The training program wasn't very easy,",
+            "cn": "培训计划并不容易，"
+          },
+          {
+            "time": 53.71,
+            "en": "but Tereshkova was hard-working,",
+            "cn": "但捷列什科娃很勤奋，"
+          },
+          {
+            "time": 56.84,
+            "en": "and she was the lucky one.",
+            "cn": "她是个幸运的人。"
+          },
+          {
+            "time": 60.89,
+            "en": "Tereshkova's big day was the 16th of June 1963,",
+            "cn": "捷列什科娃的大日子是 1963 年 6 月 16 日，"
+          },
+          {
+            "time": 66.64,
+            "en": "and she was ready.",
+            "cn": "她已经准备好了。"
+          },
+          {
+            "time": 70.17,
+            "en": "The name of her spacecraft was Vostok-6,",
+            "cn": "她的宇宙飞船的名字是东方 6 号，"
+          },
+          {
+            "time": 74.08,
+            "en": "and Tereshkova was the first woman in space.",
+            "cn": "捷列什科娃是第一位进入太空的女性"
+          },
+          {
+            "time": 79.14,
+            "en": "The flight was very difficult because there were many technical problems,",
+            "cn": "这次飞行非常困难，因为有很多技术问题，"
+          },
+          {
+            "time": 84.51,
+            "en": "and Tereshkova wasn't very well for most of the flight.",
+            "cn": "捷列什科娃在大部分航班上表现不佳"
+          },
+          {
+            "time": 89.84,
+            "en": "She was in space for three days.",
+            "cn": "她在太空中待了三天。"
+          },
+          {
+            "time": 93.48,
+            "en": "She is the only woman to fly into space alone.",
+            "cn": "她是唯一一个独自飞入太空的女性。"
+          },
+          {
+            "time": 98.9,
+            "en": "After that she was very famous all over the world.",
+            "cn": "从那以后，她在世界各地都很出名。"
+          },
+          {
+            "time": 104.34,
+            "en": "Her face was on stamps in many countries.",
+            "cn": "她的脸出现在许多国家的邮票上。"
+          },
+          {
+            "time": 108.98,
+            "en": "In the year 2000 there was a big celebration in London,",
+            "cn": "2000 年，伦敦举办了一场盛大的庆祝活动，"
+          },
+          {
+            "time": 114.51,
+            "en": "and Valentina Tereshkova was named the woman of the century.",
+            "cn": "瓦伦蒂娜·捷列什科娃被评为世纪女性。"
+          },
+          {
+            "time": 121.76,
+            "en": "At the opening ceremony of the Winter Olympics in Russia in 2014,",
+            "cn": "在 2014 年俄罗斯冬奥会开幕式上，"
+          },
+          {
+            "time": 127.53,
+            "en": "Valentina Tereshkova was one of the carriers of the Olympic flag.",
+            "cn": "瓦伦蒂娜·捷列什科娃是奥林匹克旗手。"
+          },
+          {
+            "time": 134.05,
+            "en": "These were very important moments for her.",
+            "cn": "这些对她来说是非常重要的时刻。"
+          }
+        ]
+      },
+      {
+        "key": "u005",
+        "title": "Unit 5-1 Robotics Club",
+        "audio": "Unit 05-1 Reading A",
+        "lines": []
+      }
+    ]
+  },
+  "practice_questions": {
+    "NCE1_u001_0": {
+      "id": "NCE1_u001_0",
+      "sentence": "Excuse me!",
+      "translation": "打扰一下！",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "早上好。",
+            "correct": false
+          },
+          {
+            "text": "请坐。",
+            "correct": false
+          },
+          {
+            "text": "打扰一下！",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Excuse me!",
+        "options": [
+          "Excuse me!"
+        ],
+        "answer": "Excuse me!",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Excuse me!"
+        ],
+        "answer": [
+          "Excuse me!"
+        ]
+      },
+      "reference": "打扰一下！"
+    },
+    "NCE1_u001_2": {
+      "id": "NCE1_u001_2",
+      "sentence": "Is this your handbag?",
+      "translation": "这是你的手提包吗？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "这是你的手提包吗？",
+            "correct": true
+          },
+          {
+            "text": "谢谢。",
+            "correct": false
+          },
+          {
+            "text": "对不起，请再说一遍。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ this your handbag",
+        "options": [
+          "Make",
+          "Have",
+          "Is"
+        ],
+        "answer": "Is",
+        "hint": "be 动词"
+      },
+      "ordering": {
+        "words": [
+          "handbag?",
+          "your",
+          "this",
+          "Is"
+        ],
+        "answer": [
+          "Is",
+          "this",
+          "your",
+          "handbag?"
+        ]
+      },
+      "reference": "这是你的手提包吗？"
+    },
+    "NCE1_u001_5": {
+      "id": "NCE1_u001_5",
+      "sentence": "Yes, it is.",
+      "translation": "是的，它是。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "她是法国人。",
+            "correct": false
+          },
+          {
+            "text": "非常感谢。",
+            "correct": false
+          },
+          {
+            "text": "是的，它是。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Yes ______ is",
+        "options": [
+          "it",
+          "have",
+          "make"
+        ],
+        "answer": "it",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "it",
+          "Yes,",
+          "is."
+        ],
+        "answer": [
+          "Yes,",
+          "it",
+          "is."
+        ]
+      },
+      "reference": "是的，它是。"
+    },
+    "THINK_0_u001_0": {
+      "id": "THINK_0_u001_0",
+      "sentence": "Hello, I'm Anna.",
+      "translation": "你好，我是安娜。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "你多大了？",
+            "correct": false
+          },
+          {
+            "text": "你好！",
+            "correct": false
+          },
+          {
+            "text": "你好，我是安娜。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Hello ______ Anna",
+        "options": [
+          "I'm",
+          "Have",
+          "Make"
+        ],
+        "answer": "I'm",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Anna.",
+          "I'm",
+          "Hello,"
+        ],
+        "answer": [
+          "Hello,",
+          "I'm",
+          "Anna."
+        ]
+      },
+      "reference": "你好，我是安娜。"
+    },
+    "NCE1_u001_1": {
+      "id": "NCE1_u001_1",
+      "sentence": "Yes?",
+      "translation": "什么事？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "什么事？",
+            "correct": true
+          },
+          {
+            "text": "这是你的手提包吗？",
+            "correct": false
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Yes?",
+        "options": [
+          "Yes?"
+        ],
+        "answer": "Yes?",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Yes?"
+        ],
+        "answer": [
+          "Yes?"
+        ]
+      },
+      "reference": "什么事？"
+    },
+    "NCE1_u001_3": {
+      "id": "NCE1_u001_3",
+      "sentence": "Pardon?",
+      "translation": "对不起，请再说一遍。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "是的，它是。",
+            "correct": false
+          },
+          {
+            "text": "这是我的票。",
+            "correct": false
+          },
+          {
+            "text": "对不起，请再说一遍。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Pardon?",
+        "options": [
+          "Pardon?"
+        ],
+        "answer": "Pardon?",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Pardon?"
+        ],
+        "answer": [
+          "Pardon?"
+        ]
+      },
+      "reference": "对不起，请再说一遍。"
+    },
+    "NCE1_u001_4": {
+      "id": "NCE1_u001_4",
+      "sentence": "Is this your handbag?",
+      "translation": "这是你的手提包吗？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "这是你的手提包吗？",
+            "correct": true
+          },
+          {
+            "text": "索菲娅是个新学生。",
+            "correct": false
+          },
+          {
+            "text": "请坐。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Is this your ______",
+        "options": [
+          "make",
+          "have",
+          "handbag"
+        ],
+        "answer": "handbag",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "your",
+          "handbag?",
+          "Is",
+          "this"
+        ],
+        "answer": [
+          "Is",
+          "this",
+          "your",
+          "handbag?"
+        ]
+      },
+      "reference": "这是你的手提包吗？"
+    },
+    "NCE1_u001_6": {
+      "id": "NCE1_u001_6",
+      "sentence": "Thank you very much.",
+      "translation": "非常感谢。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "非常感谢。",
+            "correct": true
+          },
+          {
+            "text": "打扰一下！",
+            "correct": false
+          },
+          {
+            "text": "这是您的雨伞。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ you very much",
+        "options": [
+          "Have",
+          "Make",
+          "Thank"
+        ],
+        "answer": "Thank",
+        "hint": "礼貌用语"
+      },
+      "ordering": {
+        "words": [
+          "very",
+          "you",
+          "much.",
+          "Thank"
+        ],
+        "answer": [
+          "Thank",
+          "you",
+          "very",
+          "much."
+        ]
+      },
+      "reference": "非常感谢。"
+    },
+    "NCE1_u002_0": {
+      "id": "NCE1_u002_0",
+      "sentence": "My coat and my umbrella please.",
+      "translation": "我的外套和雨伞。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "我的外套和雨伞。",
+            "correct": true
+          },
+          {
+            "text": "你好！",
+            "correct": false
+          },
+          {
+            "text": "这是您的雨伞。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "My ______ and my umbrella please",
+        "options": [
+          "have",
+          "coat",
+          "make"
+        ],
+        "answer": "coat",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "My",
+          "coat",
+          "please.",
+          "and",
+          "my",
+          "umbrella"
+        ],
+        "answer": [
+          "My",
+          "coat",
+          "and",
+          "my",
+          "umbrella",
+          "please."
+        ]
+      },
+      "reference": "我的外套和雨伞。"
+    },
+    "NCE1_u002_1": {
+      "id": "NCE1_u002_1",
+      "sentence": "Here is my ticket.",
+      "translation": "这是我的票。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "早上好，布莱克先生。",
+            "correct": false
+          },
+          {
+            "text": "是的，它是。",
+            "correct": false
+          },
+          {
+            "text": "这是我的票。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ is my ticket",
+        "options": [
+          "Here",
+          "Have",
+          "Make"
+        ],
+        "answer": "Here",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "ticket.",
+          "Here",
+          "my",
+          "is"
+        ],
+        "answer": [
+          "Here",
+          "is",
+          "my",
+          "ticket."
+        ]
+      },
+      "reference": "这是我的票。"
+    },
+    "NCE1_u002_2": {
+      "id": "NCE1_u002_2",
+      "sentence": "Thank you, sir.",
+      "translation": "谢谢您，先生。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "嗨！",
+            "correct": false
+          },
+          {
+            "text": "对不起，请再说一遍。",
+            "correct": false
+          },
+          {
+            "text": "谢谢您，先生。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ you sir",
+        "options": [
+          "Make",
+          "Thank",
+          "Have"
+        ],
+        "answer": "Thank",
+        "hint": "礼貌用语"
+      },
+      "ordering": {
+        "words": [
+          "you,",
+          "sir.",
+          "Thank"
+        ],
+        "answer": [
+          "Thank",
+          "you,",
+          "sir."
+        ]
+      },
+      "reference": "谢谢您，先生。"
+    },
+    "NCE1_u002_3": {
+      "id": "NCE1_u002_3",
+      "sentence": "Number five.",
+      "translation": "五号。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "五号。",
+            "correct": true
+          },
+          {
+            "text": "请坐。",
+            "correct": false
+          },
+          {
+            "text": "打扰一下！",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Number five.",
+        "options": [
+          "Number five."
+        ],
+        "answer": "Number five.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Number five."
+        ],
+        "answer": [
+          "Number five."
+        ]
+      },
+      "reference": "五号。"
+    },
+    "NCE1_u002_4": {
+      "id": "NCE1_u002_4",
+      "sentence": "Here's your umbrella.",
+      "translation": "这是您的雨伞。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "这是您的外套。",
+            "correct": false
+          },
+          {
+            "text": "你好！",
+            "correct": false
+          },
+          {
+            "text": "这是您的雨伞。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ your umbrella",
+        "options": [
+          "Make",
+          "Have",
+          "Here's"
+        ],
+        "answer": "Here's",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "umbrella.",
+          "your",
+          "Here's"
+        ],
+        "answer": [
+          "Here's",
+          "your",
+          "umbrella."
+        ]
+      },
+      "reference": "这是您的雨伞。"
+    },
+    "NCE1_u002_5": {
+      "id": "NCE1_u002_5",
+      "sentence": "Thank you.",
+      "translation": "谢谢。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "早上好，布莱克先生。",
+            "correct": false
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          },
+          {
+            "text": "谢谢。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Thank you.",
+        "options": [
+          "Thank you."
+        ],
+        "answer": "Thank you.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Thank you."
+        ],
+        "answer": [
+          "Thank you."
+        ]
+      },
+      "reference": "谢谢。"
+    },
+    "NCE1_u002_6": {
+      "id": "NCE1_u002_6",
+      "sentence": "And here's your coat.",
+      "translation": "这是您的外套。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "这是你的手提包吗？",
+            "correct": false
+          },
+          {
+            "text": "非常感谢。",
+            "correct": false
+          },
+          {
+            "text": "这是您的外套。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "And here's your ______",
+        "options": [
+          "make",
+          "have",
+          "coat"
+        ],
+        "answer": "coat",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "coat.",
+          "And",
+          "your",
+          "here's"
+        ],
+        "answer": [
+          "And",
+          "here's",
+          "your",
+          "coat."
+        ]
+      },
+      "reference": "这是您的外套。"
+    },
+    "NCE1_u003_0": {
+      "id": "NCE1_u003_0",
+      "sentence": "Good morning.",
+      "translation": "早上好。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "早上好。",
+            "correct": true
+          },
+          {
+            "text": "索菲娅是个新学生。",
+            "correct": false
+          },
+          {
+            "text": "下午好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Good morning.",
+        "options": [
+          "Good morning."
+        ],
+        "answer": "Good morning.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Good morning."
+        ],
+        "answer": [
+          "Good morning."
+        ]
+      },
+      "reference": "早上好。"
+    },
+    "NCE1_u003_1": {
+      "id": "NCE1_u003_1",
+      "sentence": "Good morning, Mr Blake.",
+      "translation": "早上好，布莱克先生。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "早上好，布莱克先生。",
+            "correct": true
+          },
+          {
+            "text": "打扰一下！",
+            "correct": false
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Good ______ Mr Blake",
+        "options": [
+          "morning",
+          "have",
+          "make"
+        ],
+        "answer": "morning",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Good",
+          "Blake.",
+          "morning,",
+          "Mr"
+        ],
+        "answer": [
+          "Good",
+          "morning,",
+          "Mr",
+          "Blake."
+        ]
+      },
+      "reference": "早上好，布莱克先生。"
+    },
+    "NCE1_u003_2": {
+      "id": "NCE1_u003_2",
+      "sentence": "Sit down please.",
+      "translation": "请坐。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "请坐。",
+            "correct": true
+          },
+          {
+            "text": "非常感谢。",
+            "correct": false
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Sit ______ please",
+        "options": [
+          "make",
+          "down",
+          "have"
+        ],
+        "answer": "down",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Sit",
+          "down",
+          "please."
+        ],
+        "answer": [
+          "Sit",
+          "down",
+          "please."
+        ]
+      },
+      "reference": "请坐。"
+    },
+    "NCE1_u003_3": {
+      "id": "NCE1_u003_3",
+      "sentence": "This is Miss Sophie Dupont.",
+      "translation": "这位是索菲娅·杜邦小姐。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "不了，谢谢。",
+            "correct": false
+          },
+          {
+            "text": "这位是索菲娅·杜邦小姐。",
+            "correct": true
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "This is Miss Sophie ______",
+        "options": [
+          "Make",
+          "Dupont",
+          "Have"
+        ],
+        "answer": "Dupont",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Dupont.",
+          "Sophie",
+          "Miss",
+          "is",
+          "This"
+        ],
+        "answer": [
+          "This",
+          "is",
+          "Miss",
+          "Sophie",
+          "Dupont."
+        ]
+      },
+      "reference": "这位是索菲娅·杜邦小姐。"
+    },
+    "NCE1_u003_4": {
+      "id": "NCE1_u003_4",
+      "sentence": "Sophie is a new student.",
+      "translation": "索菲娅是个新学生。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "索菲娅是个新学生。",
+            "correct": true
+          },
+          {
+            "text": "非常感谢。",
+            "correct": false
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Sophie ______ a new student",
+        "options": [
+          "have",
+          "is",
+          "make"
+        ],
+        "answer": "is",
+        "hint": "be 动词"
+      },
+      "ordering": {
+        "words": [
+          "new",
+          "Sophie",
+          "is",
+          "a",
+          "student."
+        ],
+        "answer": [
+          "Sophie",
+          "is",
+          "a",
+          "new",
+          "student."
+        ]
+      },
+      "reference": "索菲娅是个新学生。"
+    },
+    "NCE1_u003_5": {
+      "id": "NCE1_u003_5",
+      "sentence": "She is French.",
+      "translation": "她是法国人。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "她是法国人。",
+            "correct": true
+          },
+          {
+            "text": "是的，它是。",
+            "correct": false
+          },
+          {
+            "text": "这位是索菲娅·杜邦小姐。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "She is ______",
+        "options": [
+          "French",
+          "Have",
+          "Make"
+        ],
+        "answer": "French",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "is",
+          "She",
+          "French."
+        ],
+        "answer": [
+          "She",
+          "is",
+          "French."
+        ]
+      },
+      "reference": "她是法国人。"
+    },
+    "THINK_0_u001_1": {
+      "id": "THINK_0_u001_1",
+      "sentence": "What's your name?",
+      "translation": "你叫什么名字？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "我十二岁。",
+            "correct": false
+          },
+          {
+            "text": "你叫什么名字？",
+            "correct": true
+          },
+          {
+            "text": "你的生日是什么时候？",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "What's your ______",
+        "options": [
+          "make",
+          "have",
+          "name"
+        ],
+        "answer": "name",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "name?",
+          "your",
+          "What's"
+        ],
+        "answer": [
+          "What's",
+          "your",
+          "name?"
+        ]
+      },
+      "reference": "你叫什么名字？"
+    },
+    "THINK_0_u001_2": {
+      "id": "THINK_0_u001_2",
+      "sentence": "I'm Ben.",
+      "translation": "我是本。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "你的生日是什么时候？",
+            "correct": false
+          },
+          {
+            "text": "我是本。",
+            "correct": true
+          },
+          {
+            "text": "嗨！",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "I'm Ben.",
+        "options": [
+          "I'm Ben."
+        ],
+        "answer": "I'm Ben.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "I'm Ben."
+        ],
+        "answer": [
+          "I'm Ben."
+        ]
+      },
+      "reference": "我是本。"
+    },
+    "THINK_0_u001_3": {
+      "id": "THINK_0_u001_3",
+      "sentence": "Nice to meet you.",
+      "translation": "很高兴见到你。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "不，它不是。",
+            "correct": false
+          },
+          {
+            "text": "好的，请。",
+            "correct": false
+          },
+          {
+            "text": "很高兴见到你。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Nice to ______ you",
+        "options": [
+          "meet",
+          "have",
+          "make"
+        ],
+        "answer": "meet",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Nice",
+          "to",
+          "you.",
+          "meet"
+        ],
+        "answer": [
+          "Nice",
+          "to",
+          "meet",
+          "you."
+        ]
+      },
+      "reference": "很高兴见到你。"
+    },
+    "THINK_0_u002_0": {
+      "id": "THINK_0_u002_0",
+      "sentence": "How old are you?",
+      "translation": "你多大了？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "你多大了？",
+            "correct": true
+          },
+          {
+            "text": "你的生日是什么时候？",
+            "correct": false
+          },
+          {
+            "text": "下午好。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "How ______ are you",
+        "options": [
+          "old",
+          "have",
+          "make"
+        ],
+        "answer": "old",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "you?",
+          "are",
+          "old",
+          "How"
+        ],
+        "answer": [
+          "How",
+          "old",
+          "are",
+          "you?"
+        ]
+      },
+      "reference": "你多大了？"
+    },
+    "THINK_0_u002_1": {
+      "id": "THINK_0_u002_1",
+      "sentence": "I'm twelve.",
+      "translation": "我十二岁。",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "嗨！",
+            "correct": false
+          },
+          {
+            "text": "你好！",
+            "correct": false
+          },
+          {
+            "text": "我十二岁。",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "I'm twelve.",
+        "options": [
+          "I'm twelve."
+        ],
+        "answer": "I'm twelve.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "I'm twelve."
+        ],
+        "answer": [
+          "I'm twelve."
+        ]
+      },
+      "reference": "我十二岁。"
+    },
+    "THINK_0_u002_2": {
+      "id": "THINK_0_u002_2",
+      "sentence": "When's your birthday?",
+      "translation": "你的生日是什么时候？",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/think0-audio/undefined.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "你的生日是什么时候？",
+            "correct": true
+          },
+          {
+            "text": "早上好。",
+            "correct": false
+          },
+          {
+            "text": "不了，谢谢。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ your birthday",
+        "options": [
+          "Make",
+          "Have",
+          "When's"
+        ],
+        "answer": "When's",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "When's",
+          "your",
+          "birthday?"
+        ],
+        "answer": [
+          "When's",
+          "your",
+          "birthday?"
+        ]
+      },
+      "reference": "你的生日是什么时候？"
+    },
+    "NCE1_u004_0": {
+      "id": "NCE1_u004_0",
+      "sentence": "Good morning.",
+      "translation": "Good morning.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "Good morning.",
+            "correct": true
+          },
+          {
+            "text": "She is French.",
+            "correct": false
+          },
+          {
+            "text": "这是我的票。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Good morning.",
+        "options": [
+          "Good morning."
+        ],
+        "answer": "Good morning.",
+        "hint": "完整句子"
+      },
+      "ordering": {
+        "words": [
+          "Good morning."
+        ],
+        "answer": [
+          "Good morning."
+        ]
+      },
+      "reference": "Good morning."
+    },
+    "NCE1_u004_1": {
+      "id": "NCE1_u004_1",
+      "sentence": "Good morning, Mr Blake.",
+      "translation": "Good morning, Mr Blake.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "索菲娅是个新学生。",
+            "correct": false
+          },
+          {
+            "text": "Good morning.",
+            "correct": false
+          },
+          {
+            "text": "Good morning, Mr Blake.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "______ morning Mr Blake",
+        "options": [
+          "Good",
+          "Have",
+          "Make"
+        ],
+        "answer": "Good",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Good",
+          "morning,",
+          "Mr",
+          "Blake."
+        ],
+        "answer": [
+          "Good",
+          "morning,",
+          "Mr",
+          "Blake."
+        ]
+      },
+      "reference": "Good morning, Mr Blake."
+    },
+    "NCE1_u004_2": {
+      "id": "NCE1_u004_2",
+      "sentence": "Sit down please.",
+      "translation": "Sit down please.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "Good morning, Mr Blake.",
+            "correct": false
+          },
+          {
+            "text": "好的，请。",
+            "correct": false
+          },
+          {
+            "text": "Sit down please.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Sit ______ please",
+        "options": [
+          "down",
+          "have",
+          "make"
+        ],
+        "answer": "down",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "please.",
+          "down",
+          "Sit"
+        ],
+        "answer": [
+          "Sit",
+          "down",
+          "please."
+        ]
+      },
+      "reference": "Sit down please."
+    },
+    "NCE1_u004_3": {
+      "id": "NCE1_u004_3",
+      "sentence": "This is Miss Sophie Dupont.",
+      "translation": "This is Miss Sophie Dupont.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "好的，请。",
+            "correct": false
+          },
+          {
+            "text": "对不起，请再说一遍。",
+            "correct": false
+          },
+          {
+            "text": "This is Miss Sophie Dupont.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "This ______ Miss Sophie Dupont",
+        "options": [
+          "is",
+          "have",
+          "make"
+        ],
+        "answer": "is",
+        "hint": "be 动词"
+      },
+      "ordering": {
+        "words": [
+          "Sophie",
+          "Miss",
+          "Dupont.",
+          "is",
+          "This"
+        ],
+        "answer": [
+          "This",
+          "is",
+          "Miss",
+          "Sophie",
+          "Dupont."
+        ]
+      },
+      "reference": "This is Miss Sophie Dupont."
+    },
+    "NCE1_u004_4": {
+      "id": "NCE1_u004_4",
+      "sentence": "Sophie is a new student.",
+      "translation": "Sophie is a new student.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "是的，它是。",
+            "correct": false
+          },
+          {
+            "text": "This is Miss Sophie Dupont.",
+            "correct": false
+          },
+          {
+            "text": "Sophie is a new student.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Sophie is a new ______",
+        "options": [
+          "student",
+          "have",
+          "make"
+        ],
+        "answer": "student",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "Sophie",
+          "is",
+          "new",
+          "a",
+          "student."
+        ],
+        "answer": [
+          "Sophie",
+          "is",
+          "a",
+          "new",
+          "student."
+        ]
+      },
+      "reference": "Sophie is a new student."
+    },
+    "NCE1_u004_5": {
+      "id": "NCE1_u004_5",
+      "sentence": "She is French.",
+      "translation": "She is French.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "对不起，请再说一遍。",
+            "correct": false
+          },
+          {
+            "text": "Sophie is a new student.",
+            "correct": false
+          },
+          {
+            "text": "She is French.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "She is ______",
+        "options": [
+          "French",
+          "Have",
+          "Make"
+        ],
+        "answer": "French",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "is",
+          "She",
+          "French."
+        ],
+        "answer": [
+          "She",
+          "is",
+          "French."
+        ]
+      },
+      "reference": "She is French."
+    },
+    "NCE1_u004_6": {
+      "id": "NCE1_u004_6",
+      "sentence": "I'm her teacher.",
+      "translation": "I'm her teacher.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "这是您的雨伞。",
+            "correct": false
+          },
+          {
+            "text": "Good morning.",
+            "correct": false
+          },
+          {
+            "text": "I'm her teacher.",
+            "correct": true
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "I'm ______ teacher",
+        "options": [
+          "my",
+          "her",
+          "your"
+        ],
+        "answer": "her",
+        "hint": "人称代词"
+      },
+      "ordering": {
+        "words": [
+          "teacher.",
+          "her",
+          "I'm"
+        ],
+        "answer": [
+          "I'm",
+          "her",
+          "teacher."
+        ]
+      },
+      "reference": "I'm her teacher."
+    },
+    "NCE1_u004_7": {
+      "id": "NCE1_u004_7",
+      "sentence": "Nice to meet you.",
+      "translation": "Nice to meet you.",
+      "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L004.mp3",
+      "listening": {
+        "options": [
+          {
+            "text": "Nice to meet you.",
+            "correct": true
+          },
+          {
+            "text": "非常感谢。",
+            "correct": false
+          },
+          {
+            "text": "这是我的票。",
+            "correct": false
+          }
+        ]
+      },
+      "fillBlank": {
+        "template": "Nice to meet ______",
+        "options": [
+          "you",
+          "have",
+          "make"
+        ],
+        "answer": "you",
+        "hint": "关键词"
+      },
+      "ordering": {
+        "words": [
+          "you.",
+          "meet",
+          "to",
+          "Nice"
+        ],
+        "answer": [
+          "Nice",
+          "to",
+          "meet",
+          "you."
+        ]
+      },
+      "reference": "Nice to meet you."
+    }
+  },
+  "course_practice": {
+    "NCE1_u001": {
+      "courseId": "NCE1_u001",
+      "bookKey": "NCE1",
+      "unitKey": "u001",
+      "title": "Lesson 1-2",
+      "audio": "L001",
+      "audioURL": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+      "sentences": [
+        {
+          "index": 0,
+          "sentence": "Excuse me!",
+          "translation": "打扰一下！",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "早上好。",
+                  "correct": false
+                },
+                {
+                  "text": "请坐。",
+                  "correct": false
+                },
+                {
+                  "text": "打扰一下！",
+                  "correct": true
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "Excuse me!",
+              "options": [
+                "Excuse me!"
+              ],
+              "answer": "Excuse me!",
+              "hint": "完整句子"
+            },
+            "ordering": {
+              "words": [
+                "Excuse me!"
+              ],
+              "answer": [
+                "Excuse me!"
+              ]
+            },
+            "reference": "打扰一下！"
+          }
+        },
+        {
+          "index": 1,
+          "sentence": "Yes?",
+          "translation": "什么事？",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "什么事？",
+                  "correct": true
+                },
+                {
+                  "text": "这是你的手提包吗？",
+                  "correct": false
+                },
+                {
+                  "text": "早上好。",
+                  "correct": false
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "Yes?",
+              "options": [
+                "Yes?"
+              ],
+              "answer": "Yes?",
+              "hint": "完整句子"
+            },
+            "ordering": {
+              "words": [
+                "Yes?"
+              ],
+              "answer": [
+                "Yes?"
+              ]
+            },
+            "reference": "什么事？"
+          }
+        },
+        {
+          "index": 2,
+          "sentence": "Is this your handbag?",
+          "translation": "这是你的手提包吗？",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "这是你的手提包吗？",
+                  "correct": true
+                },
+                {
+                  "text": "谢谢。",
+                  "correct": false
+                },
+                {
+                  "text": "对不起，请再说一遍。",
+                  "correct": false
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "______ this your handbag",
+              "options": [
+                "Make",
+                "Have",
+                "Is"
+              ],
+              "answer": "Is",
+              "hint": "be 动词"
+            },
+            "ordering": {
+              "words": [
+                "handbag?",
+                "your",
+                "this",
+                "Is"
+              ],
+              "answer": [
+                "Is",
+                "this",
+                "your",
+                "handbag?"
+              ]
+            },
+            "reference": "这是你的手提包吗？"
+          }
+        },
+        {
+          "index": 3,
+          "sentence": "Pardon?",
+          "translation": "对不起，请再说一遍。",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "是的，它是。",
+                  "correct": false
+                },
+                {
+                  "text": "这是我的票。",
+                  "correct": false
+                },
+                {
+                  "text": "对不起，请再说一遍。",
+                  "correct": true
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "Pardon?",
+              "options": [
+                "Pardon?"
+              ],
+              "answer": "Pardon?",
+              "hint": "完整句子"
+            },
+            "ordering": {
+              "words": [
+                "Pardon?"
+              ],
+              "answer": [
+                "Pardon?"
+              ]
+            },
+            "reference": "对不起，请再说一遍。"
+          }
+        },
+        {
+          "index": 4,
+          "sentence": "Is this your handbag?",
+          "translation": "这是你的手提包吗？",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "这是你的手提包吗？",
+                  "correct": true
+                },
+                {
+                  "text": "索菲娅是个新学生。",
+                  "correct": false
+                },
+                {
+                  "text": "请坐。",
+                  "correct": false
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "Is this your ______",
+              "options": [
+                "make",
+                "have",
+                "handbag"
+              ],
+              "answer": "handbag",
+              "hint": "关键词"
+            },
+            "ordering": {
+              "words": [
+                "your",
+                "handbag?",
+                "Is",
+                "this"
+              ],
+              "answer": [
+                "Is",
+                "this",
+                "your",
+                "handbag?"
+              ]
+            },
+            "reference": "这是你的手提包吗？"
+          }
+        },
+        {
+          "index": 5,
+          "sentence": "Yes, it is.",
+          "translation": "是的，它是。",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "她是法国人。",
+                  "correct": false
+                },
+                {
+                  "text": "非常感谢。",
+                  "correct": false
+                },
+                {
+                  "text": "是的，它是。",
+                  "correct": true
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "Yes ______ is",
+              "options": [
+                "it",
+                "have",
+                "make"
+              ],
+              "answer": "it",
+              "hint": "关键词"
+            },
+            "ordering": {
+              "words": [
+                "it",
+                "Yes,",
+                "is."
+              ],
+              "answer": [
+                "Yes,",
+                "it",
+                "is."
+              ]
+            },
+            "reference": "是的，它是。"
+          }
+        },
+        {
+          "index": 6,
+          "sentence": "Thank you very much.",
+          "translation": "非常感谢。",
+          "audio": "https://jikhdympaifsmubmwilp.supabase.co/storage/v1/object/public/nce1-audio/L001.mp3",
+          "questions": {
+            "listening": {
+              "options": [
+                {
+                  "text": "非常感谢。",
+                  "correct": true
+                },
+                {
+                  "text": "打扰一下！",
+                  "correct": false
+                },
+                {
+                  "text": "这是您的雨伞。",
+                  "correct": false
+                }
+              ]
+            },
+            "fillBlank": {
+              "template": "______ you very much",
+              "options": [
+                "Have",
+                "Make",
+                "Thank"
+              ],
+              "answer": "Thank",
+              "hint": "礼貌用语"
+            },
+            "ordering": {
+              "words": [
+                "very",
+                "you",
+                "much.",
+                "Thank"
+              ],
+              "answer": [
+                "Thank",
+                "you",
+                "very",
+                "much."
+              ]
+            },
+            "reference": "非常感谢。"
+          }
+        }
+      ],
+      "progress": {
+        "currentSentence": 0,
+        "completedSentences": [],
+        "accuracy": 0,
+        "lastPractice": null
+      }
+    }
+  }
+}
