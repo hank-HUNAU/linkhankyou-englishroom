@@ -1,0 +1,2374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- 本工作台通过 WorkBuddy 资料库能力（library skill）搭建、存储和部署 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#eef1f8">
+<title>TH!NK · 教师教学工作台</title>
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237C3AED'/><text x='50' y='72' font-size='58' font-family='sans-serif' font-weight='900' fill='white' text-anchor='middle'>T</text></svg>">
+<style>
+:root{
+  --p:#10B981; --p-d:#059669; --v:#7C3AED; --vk:#EC4899; --cy:#06B6D4; --or:#F97316; --ye:#FACC15;
+  --ink:#1d1d1f; --ink2:#1e1b4b; --mut:#64748b; --mut2:#94a3b8;
+  --line:rgba(0,0,0,.075); --line2:rgba(0,0,0,.12);
+  --bg:#eef1f8; --card:#ffffff;
+  --r-xs:8px; --r-sm:12px; --r-md:16px; --r-lg:20px; --r-xl:24px; --r-pill:999px;
+  --sh-card:0 18px 36px -26px rgba(31,41,55,.34);
+  --sh-pop:0 30px 60px -30px rgba(124,58,237,.42);
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --grad-p:linear-gradient(135deg,#059669,#10B981);
+  --grad-v:linear-gradient(135deg,#6D28D9,#7C3AED);
+}
+*,*::before,*::after{box-sizing:border-box;}
+html,body{margin:0;padding:0; height:100%; overflow:hidden; overscroll-behavior:none;}
+body{background:var(--bg); color:var(--ink); font-family:var(--font); -webkit-font-smoothing:antialiased; line-height:1.55;
+     height:100vh; height:100dvh;
+     padding:max(0px, env(safe-area-inset-top)) max(0px, env(safe-area-inset-right))
+             max(0px, env(safe-area-inset-bottom)) max(0px, env(safe-area-inset-left));}
+.bg-blobs{position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none;}
+.bg-blobs span{position:absolute; border-radius:50%; filter:blur(90px);}
+.bg-blobs .b1{width:420px;height:420px;left:-4%;top:-6%;background:#7C3AED;opacity:.26;}
+.bg-blobs .b2{width:400px;height:400px;right:-2%;top:2%;background:#10B981;opacity:.24;}
+.bg-blobs .b3{width:460px;height:460px;left:24%;bottom:-14%;background:#EC4899;opacity:.14;}
+
+.brandbox{display:flex; align-items:center; gap:10px;}
+.mark{width:36px;height:36px;border-radius:11px;background:var(--grad-v);display:grid;place-items:center;
+      box-shadow:0 10px 20px -10px rgba(124,58,237,.9); flex:0 0 auto;}
+.mark svg{width:20px;height:20px;display:block;}
+.btitle{font-weight:900; font-size:17px; letter-spacing:-.02em; color:var(--ink2); line-height:1.1;}
+.bsub{font-size:10.5px; font-weight:700; letter-spacing:.14em; color:var(--mut2); text-transform:uppercase;}
+.spacer{flex:1 1 auto;}
+.seg{display:flex; gap:4px; padding:4px; background:rgba(255,255,255,.72); border:1px solid var(--line);
+     border-radius:var(--r-pill); box-shadow:inset 0 1px 0 #fff;}
+.seg button{appearance:none; border:0; background:transparent; cursor:pointer; font-family:inherit;
+  font-weight:800; font-size:13px; color:var(--mut); padding:8px 14px; border-radius:var(--r-pill);
+  transition:all .2s; white-space:nowrap; min-height:36px;}
+.seg button.on{background:var(--grad-v); color:#fff; box-shadow:0 10px 18px -10px rgba(124,58,237,.9);}
+.sync{display:flex; align-items:center; gap:6px; padding:7px 12px; border-radius:var(--r-pill);
+      background:rgba(255,255,255,.8); border:1px solid var(--line); font-size:12px; font-weight:800; color:var(--mut);}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--mut2);}
+.sync.ok .dot{background:var(--p); box-shadow:0 0 0 3px rgba(16,185,129,.18);}
+.sync.busy .dot{background:var(--ye); animation:pulse 1s infinite;}
+.sync.off .dot{background:var(--or);}
+@keyframes pulse{50%{opacity:.3;}}
+
+.banner{display:none; align-items:center; gap:10px; margin:0 0 14px; padding:11px 14px; border-radius:var(--r-md);
+        background:#fff7ed; border:1px solid #fed7aa; color:#9a3412; font-size:13px; font-weight:700;}
+.banner.show{display:flex;}
+.banner svg{width:17px;height:17px;flex:0 0 auto;}
+
+.hero{background:var(--card); border:1px solid var(--line); border-radius:var(--r-xl); box-shadow:var(--sh-card);
+      overflow:hidden; margin-bottom:16px;}
+.hero-top{display:flex; align-items:center; gap:12px; padding:16px 18px 12px;}
+.hero-ico{width:38px;height:38px;border-radius:12px;background:var(--grad-v);display:grid;place-items:center;
+          box-shadow:0 12px 22px -12px rgba(124,58,237,.9); flex:0 0 auto;}
+.hero-ico svg{width:19px;height:19px;}
+.hero .hint{margin:1px 0 0; font-size:12px; color:var(--mut); font-weight:600;}
+.hero-count{margin-left:auto; text-align:right;}
+.hero-count b{display:block; font-size:26px; font-weight:900; letter-spacing:-.04em; line-height:1;
+              background:var(--grad-v); -webkit-background-clip:text; background-clip:text; color:transparent;}
+.hero-count span{font-size:11px; font-weight:700; color:var(--mut2);}
+.hero-list{padding:0 12px 12px;}
+
+.task{display:flex; align-items:center; gap:12px; padding:12px; border-radius:var(--r-md);
+      border:1px solid var(--line); background:#fcfdff; margin-bottom:8px;}
+.task:last-child{margin-bottom:0;}
+.task.warn{border-color:#fecaca; background:#fff5f5;}
+.task.soon{border-color:#fde68a; background:#fffdf5;}
+.task .bar{width:4px; align-self:stretch; border-radius:99px; background:var(--mut2); flex:0 0 auto;}
+.task.warn .bar{background:#ef4444;}
+.task.soon .bar{background:var(--or);}
+.task.ok .bar{background:var(--p);}
+.task .info{flex:1 1 auto; min-width:0;}
+.task .t1{font-size:14px; font-weight:800; color:var(--ink);}
+.task .t2{font-size:11.5px; font-weight:700; color:var(--mut); margin-top:2px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+.pill{display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:var(--r-pill);
+      font-size:11px; font-weight:800; background:rgba(124,58,237,.09); color:#6D28D9;}
+.pill.g{background:rgba(16,185,129,.12); color:var(--p-d);}
+.pill.o{background:rgba(249,115,22,.13); color:#c2410c;}
+.pill.r{background:rgba(239,68,68,.12); color:#b91c1c;}
+.pill.c{background:rgba(6,182,212,.13); color:#0e7490;}
+.empty{padding:22px 12px; text-align:center; color:var(--mut2); font-size:13px; font-weight:700;}
+
+.card{background:var(--card); border:1px solid var(--line); border-radius:var(--r-xl); box-shadow:var(--sh-card); padding:16px;}
+.card.full{grid-column:1 / -1;}
+.ch{display:flex; align-items:center; gap:10px; margin-bottom:12px;}
+.ch .ico{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;flex:0 0 auto;}
+.ch .ico.g{background:rgba(16,185,129,.12); color:var(--p-d);}
+.ch .ico.v{background:rgba(124,58,237,.12); color:#6D28D9;}
+.ch .ico.c{background:rgba(6,182,212,.14); color:#0e7490;}
+.ch svg{width:17px;height:17px;}
+.ch h3{margin:0; font-size:14.5px; font-weight:900; color:var(--ink2);}
+.ch .sub{font-size:11.5px; color:var(--mut2); font-weight:700; margin-top:1px;}
+.ch .cnt{margin-left:auto; font-size:12px; font-weight:800; color:var(--mut); background:rgba(0,0,0,.045);
+         padding:4px 10px; border-radius:var(--r-pill);}
+
+.field{margin-bottom:11px;}
+.field label{display:block; font-size:12px; font-weight:800; color:var(--ink2); margin-bottom:5px;}
+.field label i{color:#ef4444; font-style:normal;}
+.field input,.field select,.field textarea{
+  width:100%; font-family:inherit; font-size:16px; font-weight:600; color:var(--ink);
+  padding:11px 12px; border:1.5px solid var(--line2); border-radius:var(--r-sm); background:#fff;
+  -webkit-appearance:none; appearance:none; transition:border-color .18s, box-shadow .18s;
+}
+.field select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.4' stroke-linecap='round'><path d='M6 9l6 6 6-6'/></svg>");
+  background-repeat:no-repeat; background-position:right 11px center; background-size:16px; padding-right:34px;}
+.field textarea{min-height:74px; resize:vertical; line-height:1.5;}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none; border-color:rgba(124,58,237,.55); box-shadow:0 0 0 3px rgba(124,58,237,.14);}
+.f2{display:grid; grid-template-columns:1fr 1fr; gap:11px;}
+@media (max-width:520px){ .f2{grid-template-columns:1fr;} }
+.btn{appearance:none; border:0; cursor:pointer; font-family:inherit; font-weight:800; font-size:13px;
+  padding:0 16px; min-height:46px; border-radius:var(--r-sm); transition:all .2s; white-space:nowrap; width:100%;}
+.btn-p{background:var(--grad-p); color:#fff; box-shadow:0 12px 22px -11px rgba(16,185,129,.9);}
+.btn-v{background:var(--grad-v); color:#fff; box-shadow:0 12px 22px -11px rgba(124,58,237,.9);}
+.btn:hover{transform:translateY(-1px);}
+.btn:disabled{opacity:.55; cursor:default; transform:none; box-shadow:none;}
+
+.row{display:flex; gap:11px; align-items:flex-start; padding:11px; border-radius:var(--r-md);
+     border:1px solid var(--line); background:#fcfdff; margin-bottom:8px;}
+.row:last-child{margin-bottom:0;}
+.row .main{flex:1 1 auto; min-width:0;}
+.row .nm{font-size:13.5px; font-weight:800; color:var(--ink);}
+.row .meta{font-size:11.5px; font-weight:700; color:var(--mut); margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+.row .act{flex:0 0 auto;}
+.rlink{font-size:12px; font-weight:800; color:#6D28D9; text-decoration:none;}
+.rlink:hover{text-decoration:underline;}
+
+.kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:11px; margin-bottom:16px;}
+@media (max-width:620px){ .kpis{grid-template-columns:1fr 1fr;} }
+.kpi{border:1px solid var(--line); border-radius:var(--r-md); padding:12px 13px; background:#fcfdff;}
+.kpi .k{font-size:11px; font-weight:800; color:var(--mut2);}
+.kpi b{display:block; font-size:23px; font-weight:900; letter-spacing:-.03em; color:var(--ink2); line-height:1.25;}
+.kpi b em{font-style:normal; font-size:12px; font-weight:800; color:var(--mut); margin-left:2px;}
+.kpi.hl{background:linear-gradient(180deg,rgba(124,58,237,.09),rgba(124,58,237,.02)); border-color:rgba(124,58,237,.28);}
+.kpi.hl b{color:#6D28D9;}
+
+.mem{display:flex; gap:5px; flex-wrap:wrap; margin-top:9px;}
+.mtrack{width:74px; height:7px; border-radius:99px; background:rgba(0,0,0,.07); overflow:hidden; display:inline-block; vertical-align:middle;}
+.mfill{height:100%; border-radius:99px; display:block;}
+.tag{display:inline-flex; align-items:center; gap:4px; padding:3px 9px; border-radius:var(--r-pill);
+     background:rgba(16,185,129,.11); color:var(--p-d); font-size:11px; font-weight:800;}
+.tag.off{background:rgba(0,0,0,.06); color:var(--mut2);}
+.mini{appearance:none; border:0; cursor:pointer; font-family:inherit; font-weight:800; font-size:12px;
+      padding:0 12px; min-height:36px; border-radius:var(--r-sm); background:rgba(0,0,0,.055); color:var(--ink2); transition:all .18s;}
+.mini:hover{background:rgba(0,0,0,.1);}
+.mini.p{background:rgba(16,185,129,.14); color:var(--p-d);}
+.mini.d{background:rgba(239,68,68,.11); color:#b91c1c;}
+.arow{display:flex; align-items:center; gap:8px; padding:10px 11px; border-radius:var(--r-md); flex-wrap:wrap;
+      border:1px solid var(--line); background:#fcfdff; margin-bottom:8px;}
+.arow:last-child{margin-bottom:0;}
+.arow.off{opacity:.62;}
+.arow .who{flex:1 1 150px; min-width:0;}
+.picker{display:flex; gap:6px; flex-wrap:wrap; padding:8px; border:1.5px dashed var(--line2);
+        border-radius:var(--r-sm); background:#fbfcff; min-height:46px; align-items:center;}
+.picker .ph{font-size:12px; font-weight:700; color:var(--mut2);}
+.chipx{appearance:none; border:1.5px solid var(--line2); background:#fff; cursor:pointer; font-family:inherit;
+  font-size:12px; font-weight:800; color:var(--mut); padding:6px 12px; border-radius:var(--r-pill);
+  min-height:36px; transition:all .18s;}
+.chipx:hover{border-color:rgba(124,58,237,.42); color:#6D28D9;}
+.chipx.on{background:var(--grad-v); border-color:transparent; color:#fff;}
+.fhint{font-size:11px; font-weight:700; color:var(--mut2); margin-top:5px;}
+form.editing{background:rgba(249,115,22,.05); border-radius:var(--r-md); padding:10px; margin:0 -10px;}
+.arow .who b{font-size:13px; font-weight:900; color:var(--ink);}
+.arow .who .sid{font-size:11px; font-weight:800; color:var(--mut2); margin-left:6px;}
+.arow .who .m{font-size:11.5px; font-weight:700; color:var(--mut); margin-top:2px;}
+footer{flex:0 0 auto; text-align:center; color:var(--mut2); font-size:11px; font-weight:700;
+  padding:8px 4px calc(6px + env(safe-area-inset-bottom));}
+
+.toast{position:fixed; left:50%; bottom:calc(22px + env(safe-area-inset-bottom)); transform:translate(-50%,20px);
+  background:var(--ink2); color:#fff; font-size:13px; font-weight:800; padding:11px 18px; border-radius:var(--r-pill);
+  box-shadow:var(--sh-pop); opacity:0; pointer-events:none; transition:all .25s; z-index:50; max-width:88vw; text-align:center;}
+.toast.show{opacity:1; transform:translate(-50%,0);}
+.toast.err{background:#b91c1c;}
+@media (max-width:520px){ .side{padding:7px 10px;} .bsub{display:none;} }
+/* ---------- 外壳：左导航 + 右内容（视口锁定 App 外壳，页面零滚动） ---------- */
+.app{position:relative; z-index:1; display:grid; grid-template-columns:224px minmax(0,1fr); height:100%;}
+.side{position:relative; align-self:stretch; height:100%; display:flex; flex-direction:column; gap:14px;
+  padding:16px 13px; background:rgba(255,255,255,.74); border-right:1px solid var(--line);
+  backdrop-filter:saturate(1.5) blur(12px); -webkit-backdrop-filter:saturate(1.5) blur(12px);}
+.side-brand{display:flex; align-items:center; gap:9px; padding:0 3px;}
+.side-brand .btitle{font-size:15px;}
+.side-brand .bsub{font-size:9.5px;}
+.side-nav{display:flex; flex-direction:column; gap:4px; flex:1 1 auto; overflow-y:auto; min-height:0;}
+.side-nav button{appearance:none; border:0; background:transparent; cursor:pointer; font-family:inherit;
+  display:flex; align-items:center; gap:9px; width:100%; text-align:left; padding:10px 11px; min-height:44px;
+  border-radius:var(--r-sm); font-weight:800; font-size:13.5px; color:var(--mut); transition:all .18s; flex:0 0 auto;}
+.side-nav button:hover{background:rgba(0,0,0,.045); color:var(--ink2);}
+.side-nav button.on{background:var(--grad-v); color:#fff; box-shadow:0 10px 20px -12px rgba(124,58,237,.9);}
+.side-nav svg{width:17px; height:17px; flex:0 0 auto;}
+.side-foot{display:flex; flex-direction:column; gap:8px; flex:0 0 auto;}
+.side-foot .sync{justify-content:center;}
+.body{display:flex; flex-direction:column; min-width:0; height:100%; min-height:0; overflow:hidden;}
+.topbar{position:relative; z-index:20; flex:0 0 auto; display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  padding:11px 20px; background:rgba(238,241,248,.86); backdrop-filter:saturate(1.6) blur(14px);
+  -webkit-backdrop-filter:saturate(1.6) blur(14px); border-bottom:1px solid var(--line);}
+.tb-title{font-size:15.5px; font-weight:900; color:var(--ink2); letter-spacing:-.01em; line-height:1.2;}
+.tb-sub{font-size:11.5px; font-weight:700; color:var(--mut2);}
+/* main 不再滚动：它是视图容器，滚动发生在每个视图内部 */
+main{flex:1 1 auto; min-width:0; min-height:0; display:flex; flex-direction:column; overflow:hidden; padding:0 20px;}
+
+.view{display:none;}
+/* 普通视图：填满剩余高度，自己滚 */
+.view.on{display:block; flex:1 1 auto; min-height:0; width:100%; max-width:1280px; margin:0 auto;
+  padding:16px 0 20px; overflow-y:auto; -webkit-overflow-scrolling:touch;}
+.view.card{background:var(--card); border:1px solid var(--line); border-radius:var(--r-xl); box-shadow:var(--sh-card); padding:16px;}
+/* 分栏视图：填满不滚，滚动交给 pane 内部 */
+.view.split{grid-template-columns:minmax(260px,320px) minmax(0,1fr); gap:14px;}
+.view.split.on{display:grid; overflow:hidden; padding:14px 0; grid-template-rows:minmax(0,1fr);}
+.banner{width:100%; max-width:1280px; margin:14px auto 0; flex:0 0 auto;}
+/* 推送页双栏：左表单（低频）右管理（高频），窄屏折单列表单在上 */
+.push-grid{display:grid; grid-template-columns:5fr 7fr; gap:18px; align-items:start;}
+.push-col{min-width:0;}
+@media (max-width:1024px){ .push-grid{grid-template-columns:1fr;} }
+.m7bars{display:flex; gap:6px; align-items:flex-end; height:56px; padding:8px 10px;
+  border:1px solid var(--line); border-radius:var(--r-sm); background:#fcfdff;}
+.m7bars .m7col{flex:1 1 0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
+  gap:3px; height:100%;}
+.m7bars .m7col i{display:block; width:100%; max-width:20px; background:var(--grad-v); border-radius:3px; min-height:3px;}
+.m7bars .m7col em{font-style:normal; font-size:11px; font-weight:800; color:var(--mut2); line-height:1;}
+
+.pane{border:1px solid var(--line); border-radius:var(--r-lg); background:var(--card); box-shadow:var(--sh-card);
+  display:flex; flex-direction:column; overflow:hidden; min-height:0; height:100%;}
+.pane-hd{display:flex; align-items:center; gap:8px; padding:0 13px; height:44px; flex:0 0 auto;
+  border-bottom:1px solid var(--line); font-size:12.5px; font-weight:900; color:var(--ink2);}
+.pane-hd .cnt{margin-left:auto; font-size:11.5px; font-weight:800; color:var(--mut);
+  background:rgba(0,0,0,.045); padding:3px 10px; border-radius:var(--r-pill);}
+.pane-bd{padding:11px 12px; overflow-y:auto; flex:1 1 auto; min-height:0;}
+.pane-back{display:none; appearance:none; border:0; background:rgba(124,58,237,.10); color:#6D28D9; cursor:pointer;
+  font-family:inherit; font-weight:800; font-size:11.5px; padding:6px 10px; min-height:32px; border-radius:var(--r-sm); margin-right:2px; align-items:center;}
+
+.prow{appearance:none; border:1px solid var(--line); background:#fcfdff; cursor:pointer; font-family:inherit;
+  display:flex; align-items:center; gap:9px; width:100%; text-align:left; padding:10px 11px; min-height:52px;
+  border-radius:var(--r-md); margin-bottom:7px; transition:all .16s;}
+.prow:last-child{margin-bottom:0;}
+.prow:hover{border-color:rgba(124,58,237,.34);}
+.prow.on{border-color:rgba(124,58,237,.55); background:linear-gradient(180deg,rgba(124,58,237,.07),rgba(124,58,237,.01));}
+.prow-main{flex:1 1 auto; min-width:0;}
+.prow-main b{display:block; font-size:13px; font-weight:900; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.prow-main i{display:block; font-style:normal; font-size:11px; font-weight:700; color:var(--mut); margin-top:2px;}
+.prow.off{opacity:.62;}
+
+.dhead{display:flex; align-items:center; gap:8px; margin-bottom:11px;}
+.dhead b{font-size:16px; font-weight:900; color:var(--ink2);}
+.dgrid{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:12px;}
+.dgrid > div{border:1px solid var(--line); border-radius:var(--r-sm); padding:8px 10px; background:#fcfdff;}
+.dgrid span{display:block; font-size:10.5px; font-weight:800; color:var(--mut2);}
+.dgrid b{display:block; font-size:13px; font-weight:900; color:var(--ink); margin-top:2px;}
+.dh{font-size:11.5px; font-weight:900; color:var(--ink2); margin:0 0 7px;}
+.dnote{font-size:11.5px; font-weight:700; color:var(--mut); background:rgba(0,0,0,.035); border-radius:var(--r-sm);
+  padding:8px 10px; margin-bottom:12px;}
+.dactions{display:flex; gap:7px; flex-wrap:wrap; margin:12px 0 4px;}
+.xform{margin-top:14px; border-top:1px dashed var(--line); padding-top:10px;}
+.xform summary{cursor:pointer; font-size:12.5px; font-weight:800; color:#6D28D9; padding:4px 0;}
+.xform[open] summary{margin-bottom:8px;}
+/* 宽屏下表单不过度拉伸：推送/资源表单限宽，字段保持可扫读的长度 */
+.view.card form{max-width:760px;}
+.kpis.mini{grid-template-columns:1fr 1fr; gap:8px; margin-bottom:11px;}
+.kpis.mini .kpi{padding:9px 10px;}
+.kpis.mini .kpi b{font-size:18px;}
+@media (max-width:1400px){
+  .app{grid-template-columns:196px minmax(0,1fr);}
+  .view.split{grid-template-columns:minmax(240px,290px) minmax(0,1fr);}
+}
+@media (max-width:1100px){
+  .app{grid-template-columns:1fr; grid-template-rows:auto minmax(0,1fr);}
+  .side{position:relative; height:auto; flex-direction:row; align-items:center; gap:10px;
+    padding:8px 12px; border-right:0; border-bottom:1px solid var(--line);}
+  .side-brand > div:last-child{display:none;}
+  .side-nav{flex-direction:row; overflow-x:auto; overflow-y:hidden; gap:5px; padding-bottom:2px;}
+  .side-nav button{width:auto; white-space:nowrap; min-height:38px; padding:8px 12px; font-size:12.5px;}
+  .side-foot{display:none;}
+}
+@media (max-width:900px){
+  main{padding:0 14px;}
+  .view.on{padding:12px 0 18px;}
+  .view.split.on{padding:10px 0;}
+  .topbar{padding:10px 14px;}
+  .view.split{grid-template-columns:1fr;}
+  .pane-back{display:inline-flex;}
+  .view.split .detail-pane{display:none;}
+  .view.split.detail-open .list-pane{display:none;}
+  .view.split.detail-open .detail-pane{display:flex;}
+}
+@media (max-width:560px){
+  .dgrid{grid-template-columns:1fr;}
+  .view.card{padding:13px;}
+}
+</style>
+</head>
+<body>
+<div class="bg-blobs"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+
+<div class="app">
+  <aside class="side">
+    <div class="side-brand">
+      <div class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
+      </div>
+      <div>
+        <div class="btitle">TH!NK 教师工作台</div>
+        <div class="bsub">Foundation</div>
+      </div>
+    </div>
+    <nav class="side-nav" id="sideNav">
+      <button type="button" data-view="focus" class="on">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span>今日关注</span>
+      </button>
+      <button type="button" data-view="push">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>
+        <span>推送预习</span>
+      </button>
+      <button type="button" data-view="classes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span>班级管理</span>
+      </button>
+      <button type="button" data-view="accounts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></svg>
+        <span>账户管理</span>
+      </button>
+      <button type="button" data-view="resources">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V6a2 2 0 0 1 2-2h11a1 1 0 0 1 1 1v15"/><path d="M6 17h12"/></svg>
+        <span>教学资源</span>
+      </button>
+      <button type="button" data-view="insight">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+        <span>学情看板</span>
+      </button>
+    </nav>
+    <div class="side-foot">
+      <div class="sync" id="syncBadge"><i class="dot"></i><span id="syncText">连接中</span></div>
+    </div>
+  </aside>
+
+  <div class="body">
+    <header class="topbar">
+      <div>
+        <div class="tb-title" id="viewTitle">今日关注</div>
+        <div class="tb-sub" id="viewSub">逾期复习 · 今日截止 · 长时间未学习</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="seg" id="classSwitch"></div>
+    </header>
+
+    <main id="main">
+    <div class="banner" id="modeBanner">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="9"/></svg>
+      <span>当前为演示数据 · 未连接资料库。打开资料库页面链接即可读写真实数据。</span>
+    </div>
+
+    <section class="view hero on" data-view="focus" id="v-focus">
+      <div class="hero-top">
+        <div class="hero-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <div>
+          <p class="hint" id="focusHint">逾期复习 · 今日截止 · 长时间未学习</p>
+        </div>
+        <div class="hero-count">
+          <b id="focusCount" data-sp-bindable="database" data-sp-database-id="qKJybtlu4NrEqJ7yUPTduo">0</b>
+          <span>项</span>
+        </div>
+      </div>
+      <div class="hero-list" id="focusList"></div>
+    </section>
+
+      <section class="view card" data-view="push" id="v-push">
+        <div class="push-grid">
+          <div class="push-col">
+        <div id="pfEditBar" style="display:none; margin-bottom:10px; padding:8px 11px; border-radius:var(--r-sm); background:rgba(249,115,22,.09); border:1px solid rgba(249,115,22,.32); font-size:12px; font-weight:800; color:#c2410c;">
+          正在修改：<span id="pfEditName"></span>
+        </div>
+        <form id="pushForm" autocomplete="off">
+          <div class="field">
+            <label for="pf-title">任务标题 <i>*</i></label>
+            <input type="text" id="pf-title" name="任务标题" placeholder="例：Unit 8 · 阅读A 精读" required>
+          </div>
+          <div class="f2">
+            <div class="field">
+              <label for="pf-unit">单元</label>
+              <input type="text" id="pf-unit" name="单元" placeholder="例：Unit 8">
+            </div>
+            <div class="field">
+              <label for="pf-type">内容类型</label>
+              <select id="pf-type" name="内容类型"><option value="">请选择</option></select>
+            </div>
+          </div>
+          <div class="f2">
+            <div class="field">
+              <label for="pf-mode">推送方式</label>
+              <select id="pf-mode" name="推送方式"><option value="">请选择</option></select>
+            </div>
+            <div class="field">
+              <label for="pf-min">预计用时（分钟）</label>
+              <input type="number" id="pf-min" name="预计用时" min="0" step="1" placeholder="15">
+            </div>
+          </div>
+          <div class="field">
+            <label>推送对象</label>
+            <div class="picker" id="pf-picker"></div>
+            <div class="fhint" id="pf-pickHint"></div>
+          </div>
+          <div class="field">
+            <label for="pf-due">截止日期</label>
+            <input type="date" id="pf-due" name="截止日期">
+          </div>
+          <div class="field">
+            <label for="pf-note">任务说明</label>
+            <textarea id="pf-note" name="任务说明" placeholder="给学生的一句话提示"></textarea>
+          </div>
+            <div style="display:flex; gap:8px; align-items:center;">
+              <button type="submit" class="btn btn-v" id="pfSubmit" style="flex:1 1 auto;">推送预习</button>
+              <button type="button" class="mini" id="pfCancel" style="display:none; min-height:46px; padding:0 14px;">取消</button>
+            </div>
+        </form>
+          </div>
+          <div class="push-col">
+        <div class="ch" style="margin:0 0 10px;">
+          <div class="ico g">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
+          </div>
+          <div>
+            <h3>已推送预习</h3>
+          </div>
+          <div class="cnt"><span id="taskCount">0</span> 项</div>
+        </div>
+        <div id="taskList"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view card" data-view="resources" id="v-resources">
+        <div style="display:flex; justify-content:flex-end; margin-bottom:10px;">
+          <div class="cnt"><span id="resCount">0</span> 项</div>
+        </div>
+        <div id="resList"></div>
+        <div id="resEditBar" style="display:none; margin-bottom:10px; padding:8px 11px; border-radius:var(--r-sm); background:rgba(249,115,22,.09); border:1px solid rgba(249,115,22,.32); font-size:12px; font-weight:800; color:#c2410c;">
+          正在修改：<span id="resEditName"></span>
+        </div>
+        <details style="margin-top:12px;" id="resDetails">
+          <summary style="cursor:pointer; font-size:12.5px; font-weight:800; color:#6D28D9; padding:6px 0;">＋ 新增教学资源</summary>
+          <form id="resForm" autocomplete="off" style="margin-top:8px;">
+            <div class="field">
+              <label for="rf-name">资源名称 <i>*</i></label>
+              <input type="text" id="rf-name" name="资源名称" placeholder="例：Unit 8 阅读A 课文音频" required>
+            </div>
+            <div class="f2">
+              <div class="field">
+                <label for="rf-type">类型</label>
+                <select id="rf-type" name="类型"><option value="">请选择</option></select>
+              </div>
+              <div class="field">
+                <label for="rf-unit">单元</label>
+                <input type="text" id="rf-unit" name="单元" placeholder="例：Unit 8">
+              </div>
+            </div>
+            <div class="field">
+              <label for="rf-tag">标签</label>
+              <input type="text" id="rf-tag" name="标签" placeholder="例：阅读A · 精听">
+            </div>
+            <div class="field">
+              <label for="rf-link">链接</label>
+              <input type="url" id="rf-link" name="链接" placeholder="https://">
+            </div>
+            <div style="display:flex; gap:8px; align-items:center;">
+              <button type="submit" class="btn btn-p" id="rfSubmit" style="flex:1 1 auto;">保存资源</button>
+              <button type="button" class="mini" id="rfCancel" style="display:none; min-height:46px; padding:0 14px;">取消</button>
+            </div>
+          </form>
+        </details>
+      </section>
+
+      <section class="view split" data-view="classes" id="v-classes">
+        <div class="pane list-pane">
+          <div class="pane-hd">班级<span class="cnt"><span id="clsCount" data-sp-bindable="database" data-sp-database-id="PUQ5oUZJNDYWKBBMpIijgw">0</span> 个</span></div>
+          <div class="pane-bd" id="clsList"></div>
+        </div>
+        <div class="pane detail-pane">
+          <div class="pane-hd"><button type="button" class="pane-back" id="clsBack">返回列表</button>班级详情</div>
+          <div class="pane-bd">
+            <div id="clsDetail"></div>
+            <details class="xform" id="clsDetails">
+              <summary id="clsSummary">＋ 新建班级</summary>
+              <form id="clsForm" autocomplete="off">
+                <div class="field">
+                  <label for="cf-name">班级名称 <i>*</i></label>
+                  <input type="text" id="cf-name" name="班级名称" placeholder="例：TH!NK Starter C班" required>
+                </div>
+                <div class="f2">
+                  <div class="field">
+                    <label for="cf-level">学段</label>
+                    <input type="text" id="cf-level" name="学段" placeholder="例：Starter">
+                  </div>
+                  <div class="field">
+                    <label for="cf-teacher">授课教师</label>
+                    <input type="text" id="cf-teacher" name="授课教师" placeholder="例：Hank">
+                  </div>
+                </div>
+                <div class="f2">
+                  <div class="field">
+                    <label for="cf-cap">计划人数</label>
+                    <input type="number" id="cf-cap" name="计划人数" min="0" step="1" placeholder="12">
+                  </div>
+                  <div class="field">
+                    <label for="cf-status">班级状态</label>
+                    <select id="cf-status" name="班级状态"><option value="">请选择</option></select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="cf-note">备注</label>
+                  <input type="text" id="cf-note" name="备注" placeholder="例：周一 / 周三 19:00–20:30">
+                </div>
+                <div style="display:flex; gap:8px; align-items:center;">
+                  <button type="submit" class="btn btn-v" id="cfSubmit" style="flex:1 1 auto;">创建班级</button>
+                  <button type="button" class="mini" id="cfCancel" style="display:none; min-height:46px; padding:0 14px;">取消</button>
+                </div>
+              </form>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="view split" data-view="accounts" id="v-accounts">
+        <div class="pane list-pane">
+          <div class="pane-hd">学生<span class="cnt"><span id="accCount" data-sp-bindable="database" data-sp-database-id="2OjdhXTwUccUa71i4R2wBx">0</span> 人</span></div>
+          <div class="pane-bd" id="accList"></div>
+        </div>
+        <div class="pane detail-pane">
+          <div class="pane-hd"><button type="button" class="pane-back" id="accBack">返回列表</button>学生详情</div>
+          <div class="pane-bd">
+            <div id="accDetail"></div>
+            <details class="xform" id="accDetails">
+              <summary id="accSummary">＋ 新建学生账户</summary>
+              <form id="accForm" autocomplete="off">
+                <div class="f2">
+                  <div class="field">
+                    <label for="af-name">姓名 <i>*</i></label>
+                    <input type="text" id="af-name" name="姓名" placeholder="例：赵一诺" required>
+                  </div>
+                  <div class="field">
+                    <label for="af-sid">学号</label>
+                    <input type="text" id="af-sid" name="学号" placeholder="例：S2026005">
+                  </div>
+                </div>
+                <div class="f2">
+                  <div class="field">
+                    <label for="af-class">所属班级</label>
+                    <input type="text" id="af-class" name="所属班级" list="classOptions" placeholder="从已有班级选择">
+                    <datalist id="classOptions"></datalist>
+                  </div>
+                  <div class="field">
+                    <label for="af-status">账户状态</label>
+                    <select id="af-status" name="账户状态"><option value="">请选择</option></select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="af-note">备注</label>
+                  <input type="text" id="af-note" name="备注" placeholder="选填">
+                </div>
+                <div style="display:flex; gap:8px; align-items:center;">
+                  <button type="submit" class="btn btn-p" id="afSubmit" style="flex:1 1 auto;">创建账户</button>
+                  <button type="button" class="mini" id="afCancel" style="display:none; min-height:46px; padding:0 14px;">取消</button>
+                </div>
+              </form>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="view split" data-view="insight" id="v-insight">
+        <div class="pane list-pane">
+          <div class="pane-hd">学生<span class="cnt" id="scopeName">全部学生</span></div>
+          <div class="pane-bd">
+            <div class="kpis mini">
+              <div class="kpi hl"><div class="k">在学学生</div><b><span id="kpiStudents" data-sp-bindable="database" data-sp-database-id="qKJybtlu4NrEqJ7yUPTduo">0</span><em>人</em></b></div>
+              <div class="kpi"><div class="k">在推预习</div><b><span id="kpiTasks" data-sp-bindable="database" data-sp-database-id="M2BiG1J9hhkYDOcdZFWi3s">0</span><em>项</em></b></div>
+              <div class="kpi"><div class="k">逾期未复习</div><b><span id="kpiOverdue" data-sp-bindable="database" data-sp-database-id="qKJybtlu4NrEqJ7yUPTduo">0</span><em>项</em></b></div>
+              <div class="kpi"><div class="k">平均正确率</div><b><span id="kpiAcc" data-sp-bindable="database" data-sp-database-id="qKJybtlu4NrEqJ7yUPTduo">0</span><em>%</em></b></div>
+            </div>
+            <div id="stuList"></div>
+          </div>
+        </div>
+        <div class="pane detail-pane">
+          <div class="pane-hd"><button type="button" class="pane-back" id="stuBack">返回列表</button>学情详情</div>
+          <div class="pane-bd" id="stuDetail"></div>
+        </div>
+      </section>
+
+    </main>
+    <footer>TH!NK Foundation · 教师教学工作台 · 数据云端同步，多设备自动同步</footer>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script>
+(function(){
+  'use strict';
+
+  /* ============ 后端配置 ============
+     Supabase 建好后：enabled 改 true，填入 Project URL + anon public key。
+     CDN 加载失败或 enabled=false 时自动回落资料库 SDK；两者皆无则演示模式。 */
+  var SUPA_CONFIG = {
+    enabled: true,
+    url: 'https://zwatrfbqkrvxpqtypdgx.supabase.co',
+    anonKey: 'sb_publishable_mnkBBrHF70guvwfUNXuhBg_sIok8eBc'
+  };
+  var SUPA_TABLES = {
+    'M2BiG1J9hhkYDOcdZFWi3s': 'prep_tasks',
+    'qKJybtlu4NrEqJ7yUPTduo': 'learning_records',
+    'iRti0RoXNhXFoekVY9y4Cf': 'resources',
+    'PUQ5oUZJNDYWKBBMpIijgw': 'classes',
+    '2OjdhXTwUccUa71i4R2wBx': 'students'
+  };
+  function makeSupaAdapter(){
+    var client = window.supabase.createClient(SUPA_CONFIG.url, SUPA_CONFIG.anonKey);
+    function tableOf(databaseId){
+      var t = SUPA_TABLES[databaseId];
+      if(!t) throw new Error('未知数据库: ' + databaseId);
+      return t;
+    }
+    function outVal(v){
+      if(v === null || v === undefined) return null;
+      if(typeof v === 'object'){
+        if(v.url && v.url.link) return v.url.link;
+        if(v.text !== undefined) return v.text;
+        if(v.select !== undefined) return v.select;
+        if(v.number !== undefined) return v.number;
+        if(v.date !== undefined) return v.date;
+      }
+      return v;
+    }
+    function patchOf(properties){
+      var out = {}, k;
+      for(k in properties){ if(Object.prototype.hasOwnProperty.call(properties, k)) out[k] = outVal(properties[k]); }
+      return out;
+    }
+    function rowOf(r, databaseId){
+      var row = { _id: r.id }, k;
+      for(k in r){
+        if(k === 'id' || k === 'created_at') continue;
+        if(databaseId === 'iRti0RoXNhXFoekVY9y4Cf' && k === '链接'){
+          row['链接'] = r[k] ? [{ text: r['资源名称'] || '打开', link: r[k] }] : [];
+          continue;
+        }
+        row[k] = (r[k] === null) ? '' : r[k];
+      }
+      return row;
+    }
+    function query(opts){
+      var sorts = opts.sorts || [];
+      var page = parseInt(opts.startCursor, 10) || 0;
+      var size = Math.min(opts.pageSize || 200, 1000);
+      var q = client.from(tableOf(opts.databaseId)).select('*');
+      for(var i = 0; i < sorts.length; i++){
+        q = q.order(sorts[i].property, { ascending: sorts[i].direction !== 'descending' });
+      }
+      q = q.range(page * size, page * size + size - 1);
+      return q.then(function(res){
+        if(res.error) throw res.error;
+        var rows = [], i;
+        for(i = 0; i < (res.data || []).length; i++) rows.push(rowOf(res.data[i], opts.databaseId));
+        var more = rows.length === size;
+        return { results: rows, hasMore: more, nextCursor: more ? String(page + 1) : undefined };
+      });
+    }
+    return {
+      query: query,
+      getSchema: function(){ return Promise.resolve({ properties: [] }); },
+      addRecord: function(opts){
+        return client.from(tableOf(opts.databaseId)).insert(patchOf(opts.properties))
+          .then(function(res){ if(res.error) throw res.error; return res.data; });
+      },
+      updateRecord: function(opts){
+        return client.from(tableOf(opts.databaseId)).update(patchOf(opts.properties)).eq('id', opts.recordId)
+          .then(function(res){ if(res.error) throw res.error; return res.data; });
+      },
+      deleteRecord: function(opts){
+        return client.from(tableOf(opts.databaseId)).delete().eq('id', opts.recordId)
+          .then(function(res){ if(res.error) throw res.error; return res.data; });
+      }
+    };
+  }
+
+  /* 后端选择：Supabase（启用且库加载成功）→ 资料库 SDK → null（演示模式） */
+  var SDK = (function(){
+    var supa = null;
+    if(SUPA_CONFIG.enabled && typeof window.supabase !== 'undefined' && window.supabase.createClient){
+      try { supa = makeSupaAdapter(); }
+      catch(e){ console.error('[workbench] Supabase 初始化失败，回落资料库 SDK', e); }
+    }
+    var lib = (typeof window !== 'undefined' && window.__SMART_PAGE__ && window.__SMART_PAGE__.database) ? window.__SMART_PAGE__.database : null;
+    return supa || lib;
+  })();
+  var db = SDK;
+
+  var PREP_FIELDS = ['任务标题','单元','内容类型','推送方式','推送对象','预计用时','推送时间','截止日期','任务说明'];
+  var RES_FIELDS  = ['资源名称','类型','单元','标签','链接','上传时间'];
+  var REC_FIELDS  = ['学生','记录类型','学习内容','单元','用时分钟','正确率','掌握度','复习次数','日期','下次复习','备注'];
+
+  var GROUPS = ['全部'];
+  var VIEWS = {
+    focus:     { t: '今日关注', s: '逾期复习 · 今日截止 · 长时间未学习' },
+    push:      { t: '推送预习', s: '推送任务给学生端，并管理已推送的任务' },
+    classes:   { t: '班级管理', s: '建班、分班、查看班级学情' },
+    accounts:  { t: '账户管理', s: '学生账号、分班与启停' },
+    resources: { t: '教学资源', s: '音频 / 讲义 / 词汇表，学生端可调用' },
+    insight:   { t: '学情看板', s: '预习与复习数据、学习画像、任务完成度' }
+  };
+  var MASTERIES = ['陌生','模糊','熟悉','掌握'];
+  var MASTERY_COLOR = { '陌生':'#ef4444', '模糊':'#F97316', '熟悉':'#06B6D4', '掌握':'#10B981' };
+
+  var OPTION_FALLBACK = {
+    '内容类型': ['词汇','阅读','听力','口语','语法','文化'],
+    '推送方式': ['全班','按班级','按个人'],
+    '类型': ['音频','视频','PDF讲义','词汇表','练习题','图片'],
+    '班级状态': ['进行中','筹备中','已结课'],
+    '账户状态': ['在读','停用']
+  };
+
+  var LS_SCOPE = 'wb_think_teacher_scope';
+  var LS_VIEW = 'wb_think_teacher_view';
+  var LS_DRAFT_PUSH = 'wb_think_teacher_draft_push';
+  var LS_DRAFT_RES = 'wb_think_teacher_draft_res';
+  var LS_DRAFT_CLS = 'wb_think_teacher_draft_class';
+  var LS_DRAFT_ACC = 'wb_think_teacher_draft_account';
+  var LS_CACHE_PREP = 'wb_think_cache_prep';
+  var LS_CACHE_REC = 'wb_think_cache_records';
+  var LS_CACHE_RES = 'wb_think_cache_resources';
+  var LS_CACHE_CLS = 'wb_think_cache_classes';
+  var LS_CACHE_ACC = 'wb_think_cache_accounts';
+
+  var state = {
+    prep: [], records: [], resources: [], classes: [], accounts: [],
+    scope: '全部',
+    pushMode: '全班',
+    pushTargets: {},
+    editingClassId: '',
+    editingAccId: '',
+    editingTaskId: '',
+    editingResId: '',
+    view: 'focus',
+    selClass: '',
+    selAcc: '',
+    selStu: '',
+    schemaOptions: {},
+    busy: false,
+    offline: false
+  };
+
+  /* ---------------- storage ---------------- */
+  function cacheGet(key){
+    try { var raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : null; } catch(e){ return null; }
+  }
+  function cacheSet(key, val){
+    try { localStorage.setItem(key, JSON.stringify(val)); } catch(e){}
+  }
+  function cacheClear(key){
+    try { localStorage.removeItem(key); } catch(e){}
+  }
+
+  /* ---------------- dates ---------------- */
+  function pad2(n){ return (n < 10 ? '0' : '') + n; }
+  function toKey(d){ return d.getFullYear() + '-' + pad2(d.getMonth()+1) + '-' + pad2(d.getDate()); }
+  function parseDate(iso){ if(!iso) return null; var d = new Date(iso); return isNaN(d.getTime()) ? null : d; }
+  function fmtDate(iso){ var d = parseDate(iso); return d ? ((d.getMonth()+1) + '月' + d.getDate() + '日') : '—'; }
+  function dayDiff(iso){
+    var d = parseDate(iso);
+    if(!d) return 9999;
+    var t = new Date();
+    var a = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    var b = new Date(t.getFullYear(), t.getMonth(), t.getDate());
+    return Math.round((a - b) / 86400000);
+  }
+  function todayISO(){ return toKey(new Date()); }
+  function addDaysISO(n){ var d = new Date(); d.setDate(d.getDate() + n); return toKey(d); }
+
+  /* ---------------- derived data ---------------- */
+  function classNames(){
+    var out = [], i;
+    for(i = 0; i < state.classes.length; i++){
+      if(state.classes[i]['班级名称']) out.push(state.classes[i]['班级名称']);
+    }
+    return out;
+  }
+  function accountOf(name){
+    for(var i = 0; i < state.accounts.length; i++){
+      if(state.accounts[i]['姓名'] === name) return state.accounts[i];
+    }
+    return null;
+  }
+  function classOf(name){
+    var a = accountOf(name);
+    return (a && a['所属班级']) ? a['所属班级'] : '未分班';
+  }
+  function inScope(name){
+    if(state.scope === '全部') return true;
+    return classOf(name) === state.scope;
+  }
+  function allStudents(){
+    var seen = {}, out = [], i;
+    for(i = 0; i < state.accounts.length; i++){
+      var a = state.accounts[i];
+      if(a['姓名'] && !seen[a['姓名']]){ seen[a['姓名']] = true; out.push(a['姓名']); }
+    }
+    for(i = 0; i < state.records.length; i++){
+      var n = state.records[i]['学生'];
+      if(n && !seen[n]){ seen[n] = true; out.push(n); }
+    }
+    return out.sort();
+  }
+  function visibleStudents(){ return allStudents().filter(inScope); }
+  function studentRecords(name){
+    return state.records.filter(function(r){ return r['学生'] === name; });
+  }
+  function classMembers(className){
+    return state.accounts.filter(function(a){ return a['所属班级'] === className; });
+  }
+  function classActiveCount(className){
+    return classMembers(className).filter(function(a){ return a['账户状态'] !== '停用'; }).length;
+  }
+  function studentStats(name){
+    var recs = studentRecords(name);
+    var accSum = 0, accN = 0, overdue = 0, due = 0, minutes = 0, latest = null;
+    for(var i = 0; i < recs.length; i++){
+      var r = recs[i];
+      minutes += Number(r['用时分钟']) || 0;
+      if(r['正确率'] !== null && r['正确率'] !== undefined && r['正确率'] !== ''){
+        accSum += Number(r['正确率']) || 0; accN++;
+      }
+      var d = dayDiff(r['下次复习']);
+      if(d <= 0) due++;
+      if(d < 0) overdue++;
+      var rd = parseDate(r['日期']);
+      if(rd && (!latest || rd > latest)) latest = rd;
+    }
+    return { name: name, klass: classOf(name), count: recs.length,
+             acc: accN ? Math.round(accSum / accN) : 0, overdue: overdue, due: due,
+             minutes: minutes, latest: latest, idleDays: latest ? Math.round((new Date() - latest) / 86400000) : 99 };
+  }
+  function targetLabel(t){
+    var mode = t['推送方式'] || '全班';
+    if(mode === '全班') return '全班';
+    return mode + '：' + (t['推送对象'] || '未指定');
+  }
+  function activeTasks(){
+    return state.prep.filter(function(t){ return t['任务状态'] !== '已撤回'; });
+  }
+  function findTask(recId){
+    for(var i = 0; i < state.prep.length; i++){ if(state.prep[i]._id === recId) return state.prep[i]; }
+    return null;
+  }
+  function targetNamesOf(t){
+    var s = t['推送对象'] || '';
+    return s.split(/[、,，;；|]+/).filter(function(x){ return !!x; });
+  }
+  function isoDay(iso){
+    var d = parseDate(iso);
+    if(!d) return '';
+    return d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
+  }
+  function taskDoneCount(title){
+    var key = '预习：' + title, n = 0, seen = {};
+    for(var i = 0; i < state.records.length; i++){
+      var r = state.records[i];
+      if(r['记录类型'] === '预习' && r['学习内容'] === key && !seen[r['学生']]){
+        seen[r['学生']] = true; n++;
+      }
+    }
+    return n;
+  }
+
+  /* ---------------- rendering ---------------- */
+  function esc(s){
+    var v = String(s === null || s === undefined ? '' : s);
+    return v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\u0022/g, '&quot;');
+  }
+  /* 二次防线：所有动态文本均已用 esc() 转义，这里再剥离脚本/内联事件等危险片段 */
+  function sanitizeHtml(html){
+    var v = String(html === null || html === undefined ? '' : html);
+    return v.replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, '')
+            .replace(/\son[a-z]+\s*=\s*[^\s>]*/gi, '')
+            .replace(/javascript:/gi, '');
+  }
+  function pill(text, tone){ return '<span class="pill ' + (tone || '') + '">' + esc(text) + '</span>'; }
+  function setText(id, text){ var el = document.getElementById(id); if(el) el.textContent = text; }
+  function setHTML(id, html){ var el = document.getElementById(id); if(el) el.innerHTML = sanitizeHtml(html); }
+
+  function renderNav(){
+    var box = document.getElementById('sideNav');
+    if(box){
+      var btns = box.querySelectorAll('button[data-view]');
+      for(var i = 0; i < btns.length; i++){
+        var on = btns[i].getAttribute('data-view') === state.view;
+        if(on) btns[i].classList.add('on'); else btns[i].classList.remove('on');
+      }
+    }
+    var meta = VIEWS[state.view] || VIEWS.focus;
+    setText('viewTitle', meta.t);
+    setText('viewSub', meta.s);
+    var views = document.querySelectorAll('#main .view');
+    for(var j = 0; j < views.length; j++){
+      var vis = views[j].getAttribute('data-view') === state.view;
+      if(vis) views[j].classList.add('on'); else views[j].classList.remove('on');
+    }
+    /* 班级筛选只对消费它的模块显示（今日关注 / 账户管理 / 学情看板） */
+    var seg = document.getElementById('classSwitch');
+    if(seg) seg.style.display = (state.view === 'focus' || state.view === 'accounts' || state.view === 'insight') ? '' : 'none';
+  }
+  function setView(v){
+    if(!VIEWS[v]) v = 'focus';
+    state.view = v;
+    cacheSet(LS_VIEW, v);
+    renderNav();
+    closeDetail();
+    /* 视口锁定外壳：复位的是当前视图自己的滚动，不再是页面滚动 */
+    var av = document.querySelector('#main .view.on');
+    if(av) av.scrollTop = 0;
+  }
+  function openDetail(){
+    var el = document.getElementById('v-' + state.view);
+    if(el && el.classList) el.classList.add('detail-open');
+  }
+  function closeDetail(){
+    var all = document.querySelectorAll('.view.split');
+    for(var i = 0; i < all.length; i++) all[i].classList.remove('detail-open');
+  }
+
+  function renderScope(){
+    var box = document.getElementById('classSwitch');
+    var list = GROUPS.concat(classNames());
+    if(list.indexOf(state.scope) < 0) state.scope = '全部';
+    if(box){
+      var html = '';
+      for(var i = 0; i < list.length; i++){
+        html += '<button type="button" data-g="' + esc(list[i]) + '" class="' + (list[i] === state.scope ? 'on' : '') + '">' + esc(list[i]) + '</button>';
+      }
+      box.innerHTML = sanitizeHtml(html);
+    }
+    setText('scopeName', state.scope === '全部' ? '全部学生' : (state.scope + ' · ' + visibleStudents().length + ' 人'));
+  }
+
+  function renderSync(){
+    var badge = document.getElementById('syncBadge');
+    var text = document.getElementById('syncText');
+    if(!badge || !text) return;
+    if(state.offline){ badge.className = 'sync off'; text.textContent = '离线模式'; }
+    else if(state.busy){ badge.className = 'sync busy'; text.textContent = '同步中'; }
+    else { badge.className = 'sync ok'; text.textContent = '已同步'; }
+    var banner = document.getElementById('modeBanner');
+    if(banner){ if(SDK) banner.classList.remove('show'); else banner.classList.add('show'); }
+  }
+
+  function renderFocus(){
+    var items = [];
+    var names = visibleStudents();
+    var allCount = allStudents().length;
+    var i, j;
+
+    for(i = 0; i < names.length; i++){
+      var st = studentStats(names[i]);
+      if(st.overdue > 0){
+        items.push({ days: -1, cls: 'warn', act: 'goto-acc', name: st.name, title: st.name + ' · 有 ' + st.overdue + ' 项复习已逾期',
+          meta: '累计学习 ' + st.minutes + ' 分钟 · 平均正确率 ' + st.acc + '%' });
+      }
+      if(st.idleDays >= 2 && st.count > 0){
+        items.push({ days: 0, cls: 'soon', act: 'goto-acc', name: st.name, title: st.name + ' 已 ' + st.idleDays + ' 天没有学习记录',
+          meta: '最近学习：' + (st.latest ? fmtDate(st.latest) : '—') });
+      }
+    }
+    var tasks = activeTasks();
+    for(i = 0; i < tasks.length; i++){
+      var t = tasks[i];
+      var dd = dayDiff(t['截止日期']);
+      if(dd <= 1){
+        var done = taskDoneCount(t['任务标题']);
+        items.push({ days: dd, cls: dd <= 0 ? 'warn' : 'soon', act: 'goto-task', id: t._id,
+          title: t['任务标题'],
+          meta: (dd <= 0 ? '已截止 · ' : '明天截止 · ') + '完成 ' + done + '/' + (allCount || 0) + ' 人' });
+      }
+    }
+    items.sort(function(a, b){ return a.days - b.days; });
+
+    setText('focusCount', String(items.length));
+    if(!items.length){
+      setHTML('focusList', '<div class="empty">当前没有需要特别关注的学情事项</div>');
+      setText('focusHint', '逾期复习 · 今日截止 · 长时间未学习');
+      return;
+    }
+    var k = 0;
+    for(i = 0; i < items.length; i++){ if(items[i].cls === 'warn') k++; }
+    setText('focusHint', k ? ('有 ' + k + ' 项需要优先处理') : '共 ' + items.length + ' 项待关注');
+
+    var html = '';
+    for(i = 0; i < items.length; i++){
+      var it = items[i];
+      html += '<div class="task ' + it.cls + '">'
+        + '<span class="bar"></span>'
+        + '<div class="info"><div class="t1">' + esc(it.title) + '</div>'
+        + '<div class="t2">' + pill(it.cls === 'warn' ? '优先' : '关注', it.cls === 'warn' ? 'r' : 'o')
+        + '<span>' + esc(it.meta) + '</span></div></div>'
+        + '<button type="button" class="mini" data-act="' + it.act + '"'
+        + (it.act === 'goto-acc' ? ' data-name="' + esc(it.name) + '"' : ' data-id="' + esc(it.id || '') + '"')
+        + '>去处理</button>'
+        + '</div>';
+    }
+    setHTML('focusList', html);
+  }
+
+  function renderResources(){
+    var list = state.resources.slice().sort(function(a, b){
+      var da = parseDate(a['上传时间']), db2 = parseDate(b['上传时间']);
+      return (db2 ? db2.getTime() : 0) - (da ? da.getTime() : 0);
+    });
+    setText('resCount', String(list.length));
+    if(!list.length){
+      setHTML('resList', '<div class="empty">还没有教学资源</div>');
+      return;
+    }
+    var html = '';
+    for(var i = 0; i < list.length; i++){
+      var r = list[i];
+      var u = (r['链接'] && r['链接'].length) ? r['链接'][0] : null;
+      var link = u && u.link ? ('<a class="rlink" href="' + esc(u.link) + '" target="_blank" rel="noopener">打开</a>') : '';
+      html += '<div class="row">'
+        + '<div class="main">'
+        +   '<div class="nm">' + esc(r['资源名称'] || '') + '</div>'
+        +   '<div class="meta">' + pill(r['类型'] || '资源', 'c') + '<span>' + esc(r['单元'] || '') + '</span>'
+        +   (r['标签'] ? '<span>' + esc(r['标签']) + '</span>' : '') + '<span>' + fmtDate(r['上传时间']) + '</span></div>'
+        + '</div>'
+        + '<div class="act" style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">' + link
+        + '<button type="button" class="mini" data-act="edit-res" data-id="' + esc(r._id || '') + '">修改</button>'
+        + '<button type="button" class="mini d" data-act="del-res" data-id="' + esc(r._id || '') + '" data-name="' + esc(r['资源名称'] || '') + '">删除</button>'
+        + '</div>'
+        + '</div>';
+    }
+    setHTML('resList', html);
+  }
+
+  function updateClassDatalist(){
+    var dl = document.getElementById('classOptions');
+    if(!dl) return;
+    var list = classNames(), html = '';
+    for(var i = 0; i < list.length; i++){ html += '<option value="' + esc(list[i]) + '"></option>'; }
+    dl.innerHTML = sanitizeHtml(html);
+  }
+
+  function isPicked(name){ return Object.prototype.hasOwnProperty.call(state.pushTargets, name) && !!state.pushTargets[name]; }
+  function pickedTargets(){
+    var out = [], k;
+    for(k in state.pushTargets){
+      if(Object.prototype.hasOwnProperty.call(state.pushTargets, k) && state.pushTargets[k]) out.push(k);
+    }
+    return out;
+  }
+  function renderPushPicker(){
+    var wrap = document.getElementById('pf-picker');
+    var hint = document.getElementById('pf-pickHint');
+    if(!wrap) return;
+    var mode = state.pushMode || '全班';
+    var list = [], i;
+    if(mode === '按班级'){
+      list = classNames();
+    } else if(mode === '按个人'){
+      for(i = 0; i < state.accounts.length; i++){
+        var a = state.accounts[i];
+        if(a['账户状态'] === '停用') continue;
+        if(state.scope !== '全部' && a['所属班级'] !== state.scope) continue;
+        if(a['姓名']) list.push(a['姓名']);
+      }
+    }
+    if(mode === '全班'){
+      wrap.innerHTML = sanitizeHtml('<span class="ph">全班学生（无需指定对象）</span>');
+      if(hint) hint.textContent = '推送给所有学生';
+      return;
+    }
+    if(!list.length){
+      wrap.innerHTML = sanitizeHtml('<span class="ph">' + (mode === '按班级' ? '还没有班级，先去「班级管理」建班' : '该范围内还没有可推送的学生') + '</span>');
+      if(hint) hint.textContent = '';
+      return;
+    }
+    var html = '';
+    for(i = 0; i < list.length; i++){
+      html += '<button type="button" class="chipx' + (isPicked(list[i]) ? ' on' : '') + '" data-act="pick-target" data-name="' + esc(list[i]) + '">' + esc(list[i]) + '</button>';
+    }
+    wrap.innerHTML = sanitizeHtml(html);
+    var n = pickedTargets().length;
+    var unit = mode === '按班级' ? '班级' : '学生';
+    if(hint) hint.textContent = n ? ('已选 ' + n + ' 个' + unit) : ('点选' + unit + '，可多选');
+  }
+
+  function setTaskEditMode(recId){
+    state.editingTaskId = recId || '';
+    var cur = recId ? findTask(recId) : null;
+    var btn = document.getElementById('pfSubmit');
+    var cancel = document.getElementById('pfCancel');
+    var bar = document.getElementById('pfEditBar');
+    var nm = document.getElementById('pfEditName');
+    if(btn) btn.textContent = recId ? '保存修改' : '推送预习';
+    if(cancel) cancel.style.display = recId ? '' : 'none';
+    if(bar) bar.style.display = recId ? '' : 'none';
+    if(nm) nm.textContent = (cur && cur['任务标题']) || '';
+  }
+  function startEditTask(recId){
+    var t = findTask(recId);
+    if(!t) return;
+    fillForm(document.getElementById('pushForm'), {
+      '任务标题': t['任务标题'] || '', '单元': t['单元'] || '', '内容类型': t['内容类型'] || '',
+      '推送方式': t['推送方式'] || '全班', '预计用时': t['预计用时'],
+      '截止日期': isoDay(t['截止日期']), '任务说明': t['任务说明'] || ''
+    });
+    state.pushMode = t['推送方式'] || '全班';
+    state.pushTargets = {};
+    var names = targetNamesOf(t);
+    for(var i = 0; i < names.length; i++){ state.pushTargets[names[i]] = true; }
+    setTaskEditMode(recId);
+    refreshAll();
+    toast('正在修改预习任务');
+  }
+  function cancelEditTask(){
+    var form = document.getElementById('pushForm');
+    if(form) form.reset();
+    setTaskEditMode('');
+    resetPushForm();
+    refreshAll();
+  }
+  function retractTask(recId){
+    if(state.busy) return;
+    var t = findTask(recId);
+    if(!t) return;
+    var off = t['任务状态'] === '已撤回';
+    var next = off ? '已推送' : '已撤回';
+    if(SDK){
+      state.busy = true; renderSync();
+      var properties = {};
+      properties['任务状态'] = { select: next };
+      db.updateRecord({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s', recordId: recId, properties: properties })
+        .then(function(){ toast(off ? '任务已重新推送' : '任务已撤回，学生端不再显示'); loadAll(); })
+        .catch(function(err){
+          console.error('[workbench] 任务状态更新失败', err);
+          state.busy = false; renderSync();
+          toast('操作失败，请稍后重试', true);
+        });
+    } else {
+      t['任务状态'] = next;
+      toast(off ? '任务已重新推送（演示模式）' : '任务已撤回（演示模式）');
+      refreshAll();
+    }
+  }
+  function deleteTask(recId, title){
+    if(state.busy) return;
+    if(SDK){
+      state.busy = true; renderSync();
+      db.deleteRecord({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s', recordId: recId })
+        .then(function(){ toast('已删除任务「' + title + '」'); loadAll(); })
+        .catch(function(err){
+          console.error('[workbench] 删除任务失败', err);
+          state.busy = false; renderSync();
+          toast('删除失败，请稍后重试', true);
+        });
+    } else {
+      state.prep = state.prep.filter(function(t){ return t._id !== recId; });
+      toast('已删除任务（演示模式）');
+      refreshAll();
+    }
+  }
+  function renderTaskList(){
+    var list = state.prep.slice().sort(function(a, b){
+      var da = parseDate(a['推送时间']), db2 = parseDate(b['推送时间']);
+      return (db2 ? db2.getTime() : 0) - (da ? da.getTime() : 0);
+    });
+    setText('taskCount', String(list.length));
+    if(!list.length){ setHTML('taskList', '<div class="empty">还没有推送过预习</div>'); return; }
+    var total = allStudents().length || 0;
+    var html = '';
+    for(var i = 0; i < list.length; i++){
+      var t = list[i];
+      var off = t['任务状态'] === '已撤回';
+      var dd = dayDiff(t['截止日期']);
+      var done = taskDoneCount(t['任务标题']);
+      html += '<div class="arow' + (off ? ' off' : '') + (state.editingTaskId === t._id ? ' editing' : '') + '">'
+        + '<div class="who"><b>' + esc(t['任务标题'] || '') + '</b>'
+        +   '<div class="m">' + esc(targetLabel(t)) + ' · ' + esc(t['单元'] || '') + ' · 预计 ' + (Number(t['预计用时']) || 0) + ' 分钟'
+        +   ' · ' + (dd < 0 ? ('已截止 ' + Math.abs(dd) + ' 天') : (dd === 0 ? '今天截止' : ('截止 ' + fmtDate(t['截止日期']))))
+        +   ' · 完成 ' + done + '/' + total + ' 人'
+        +   (t['修改时间'] ? ' · 修改于 ' + fmtDate(t['修改时间']) : '') + '</div></div>'
+        + '<span class="pill ' + (off ? 'r' : 'g') + '">' + esc(t['任务状态'] || '已推送') + '</span>'
+        + '<button type="button" class="mini" data-act="edit-task" data-id="' + esc(t._id || '') + '">修改</button>'
+        + '<button type="button" class="mini ' + (off ? 'p' : '') + '" data-act="retract-task" data-id="' + esc(t._id || '') + '">' + (off ? '重新推送' : '撤回') + '</button>'
+        + '<button type="button" class="mini d" data-act="del-task" data-id="' + esc(t._id || '') + '" data-name="' + esc(t['任务标题'] || '') + '">删除</button>'
+        + '</div>';
+    }
+    setHTML('taskList', html);
+  }
+
+  function sortedClasses(){
+    return state.classes.slice().sort(function(a, b){
+      var da = parseDate(a['创建时间']), db2 = parseDate(b['创建时间']);
+      return (db2 ? db2.getTime() : 0) - (da ? da.getTime() : 0);
+    });
+  }
+  function renderClassList(){
+    var list = sortedClasses();
+    if(!findClass(state.selClass) && list.length) state.selClass = list[0]._id;
+    setText('clsCount', String(list.length));
+    updateClassDatalist();
+    if(!list.length){ setHTML('clsList', '<div class="empty">还没有班级，新建一个吧</div>'); return; }
+    var html = '';
+    for(var i = 0; i < list.length; i++){
+      var c = list[i];
+      var name = c['班级名称'] || '';
+      var on = state.selClass === c._id;
+      var st = c['班级状态'];
+      html += '<button type="button" class="prow' + (on ? ' on' : '') + '" data-pick="class" data-id="' + esc(c._id || '') + '">'
+        + '<span class="prow-main"><b>' + esc(name) + '</b>'
+        + '<i>' + esc(c['学段'] || '—') + ' · 成员 ' + classActiveCount(name) + '/' + (Number(c['计划人数']) || 0) + '</i></span>'
+        + '<span class="pill ' + (st === '进行中' ? 'g' : (st === '筹备中' ? 'o' : '')) + '">' + esc(st || '—') + '</span>'
+        + '</button>';
+    }
+    setHTML('clsList', html);
+  }
+  function renderClassDetail(){
+    var c = findClass(state.selClass);
+    if(!c){
+      setHTML('clsDetail', '<div class="empty">从左侧选一个班级，查看成员与学情</div>');
+      return;
+    }
+    var name = c['班级名称'] || '';
+    var members = classMembers(name);
+    var chips = '', i, j;
+    for(i = 0; i < members.length; i++){
+      chips += '<span class="tag' + (members[i]['账户状态'] === '停用' ? ' off' : '') + '">' + esc(members[i]['姓名'] || '') + '</span>';
+    }
+    if(!members.length) chips = '<span class="tag off">暂无成员</span>';
+    var accSum = 0, accN = 0, due = 0, over = 0, mins = 0;
+    for(i = 0; i < members.length; i++){
+      var stt = studentStats(members[i]['姓名']);
+      mins += stt.minutes; due += stt.due; over += stt.overdue;
+      var recs = studentRecords(members[i]['姓名']);
+      for(j = 0; j < recs.length; j++){
+        var v = recs[j]['正确率'];
+        if(v !== null && v !== undefined && v !== ''){ accSum += Number(v) || 0; accN++; }
+      }
+    }
+    var st = c['班级状态'];
+    var on = state.scope === name;
+    setHTML('clsDetail',
+      '<div class="dhead"><b>' + esc(name) + '</b>'
+      + '<span class="pill ' + (st === '进行中' ? 'g' : (st === '筹备中' ? 'o' : '')) + '">' + esc(st || '—') + '</span></div>'
+      + '<div class="dgrid">'
+      + '<div><span>学段</span><b>' + esc(c['学段'] || '—') + '</b></div>'
+      + '<div><span>授课教师</span><b>' + esc(c['授课教师'] || '—') + '</b></div>'
+      + '<div><span>计划人数</span><b>' + (Number(c['计划人数']) || 0) + ' 人</b></div>'
+      + '<div><span>当前成员</span><b>' + classActiveCount(name) + ' 人</b></div>'
+      + '<div><span>建班时间</span><b>' + fmtDate(c['创建时间']) + '</b></div>'
+      + '<div><span>累计学习</span><b>' + mins + ' 分钟</b></div>'
+      + '</div>'
+      + (c['备注'] ? '<div class="dnote">' + esc(c['备注']) + '</div>' : '')
+      + '<div class="dh">成员名单</div><div class="mem">' + chips + '</div>'
+      + '<div class="dh" style="margin-top:14px">本班学情</div>'
+      + '<div class="dgrid">'
+      + '<div><span>平均正确率</span><b>' + (accN ? Math.round(accSum / accN) : 0) + '%</b></div>'
+      + '<div><span>待复习</span><b>' + due + ' 项</b></div>'
+      + '<div><span>逾期未复习</span><b' + (over ? ' style="color:#b91c1c"' : '') + '>' + over + ' 项</b></div>'
+      + '<div><span>成员人数</span><b>' + members.length + ' 人</b></div>'
+      + '</div>'
+      + '<div class="dactions">'
+      + '<button type="button" class="mini ' + (on ? '' : 'p') + '" data-act="scope-class" data-name="' + esc(name) + '">' + (on ? '取消筛选' : '筛选学情') + '</button>'
+      + '<button type="button" class="mini" data-act="edit-class" data-id="' + esc(c._id || '') + '">修改</button>'
+      + '<button type="button" class="mini d" data-act="del-class" data-id="' + esc(c._id || '') + '" data-name="' + esc(name) + '">删除</button>'
+      + '</div>'
+    );
+  }
+
+  function sortedAccounts(){
+    var list = [], i;
+    for(i = 0; i < state.accounts.length; i++){
+      if(state.scope === '全部' || state.accounts[i]['所属班级'] === state.scope) list.push(state.accounts[i]);
+    }
+    list.sort(function(a, b){
+      var ka = String(a['所属班级'] || '') + String(a['学号'] || '');
+      var kb = String(b['所属班级'] || '') + String(b['学号'] || '');
+      return ka < kb ? -1 : (ka > kb ? 1 : 0);
+    });
+    return list;
+  }
+  function renderAccList(){
+    var list = sortedAccounts();
+    if(!findAccount(state.selAcc) && list.length) state.selAcc = list[0]._id;
+    setText('accCount', String(list.length));
+    if(!list.length){
+      setHTML('accList', '<div class="empty">' + (state.scope === '全部' ? '还没有学生账户，新建一个吧' : '该班级暂无学生') + '</div>');
+      return;
+    }
+    var html = '';
+    for(var i = 0; i < list.length; i++){
+      var a = list[i];
+      var off = a['账户状态'] === '停用';
+      var on = state.selAcc === a._id;
+      html += '<button type="button" class="prow' + (on ? ' on' : '') + (off ? ' off' : '') + '" data-pick="acc" data-id="' + esc(a._id || '') + '">'
+        + '<span class="prow-main"><b>' + esc(a['姓名'] || '') + '</b>'
+        + '<i>' + esc(a['学号'] || '—') + ' · ' + esc(a['所属班级'] || '未分班') + '</i></span>'
+        + '<span class="pill ' + (off ? 'r' : 'g') + '">' + esc(a['账户状态'] || '—') + '</span>'
+        + '</button>';
+    }
+    setHTML('accList', html);
+  }
+  function miniBars(name){
+    var recs = studentRecords(name);
+    var days = [], i, j;
+    for(i = 6; i >= 0; i--){
+      var d = new Date(); d.setDate(d.getDate() - i);
+      var key = toKey(d), n = 0;
+      for(j = 0; j < recs.length; j++){ if(isoDay(recs[j]['日期']) === key) n++; }
+      days.push(n);
+    }
+    var max = 1;
+    for(i = 0; i < 7; i++){ if(days[i] > max) max = days[i]; }
+    var html = '<div class="dh" style="margin-top:14px">近 7 天学习节奏</div><div class="m7bars">';
+    for(i = 0; i < 7; i++){
+      var h = Math.max(Math.round((days[i] / max) * 100), 4);
+      html += '<span class="m7col"><i style="height:' + h + '%"></i><em>' + (days[i] || '&nbsp;') + '</em></span>';
+    }
+    return html + '</div>';
+  }
+  function renderAccDetail(){
+    var a = findAccount(state.selAcc);
+    if(!a){
+      setHTML('accDetail', '<div class="empty">从左侧选一名学生，查看账号与学习画像</div>');
+      return;
+    }
+    var name = a['姓名'] || '';
+    var r = studentStats(name);
+    var recs = studentRecords(name);
+    var counts = { '陌生':0, '模糊':0, '熟悉':0, '掌握':0 };
+    for(var i = 0; i < recs.length; i++){
+      var m = recs[i]['掌握度'];
+      if(counts[m] !== undefined) counts[m]++;
+    }
+    var off = a['账户状态'] === '停用';
+    var idle = r.count ? (r.idleDays === 0 ? '今天' : r.idleDays + ' 天前') : '—';
+    setHTML('accDetail',
+      '<div class="dhead"><b>' + esc(name) + '</b>'
+      + '<span class="pill ' + (off ? 'r' : 'g') + '">' + esc(a['账户状态'] || '—') + '</span></div>'
+      + '<div class="dgrid">'
+      + '<div><span>学号</span><b>' + esc(a['学号'] || '—') + '</b></div>'
+      + '<div><span>所属班级</span><b>' + esc(a['所属班级'] || '未分班') + '</b></div>'
+      + '<div><span>加入时间</span><b>' + fmtDate(a['加入时间']) + '</b></div>'
+      + '<div><span>最近学习</span><b>' + idle + '</b></div>'
+      + '</div>'
+      + (a['备注'] ? '<div class="dnote">' + esc(a['备注']) + '</div>' : '')
+      + '<div class="dh">学习画像</div>'
+      + '<div class="dgrid">'
+      + '<div><span>学习记录</span><b>' + r.count + ' 条</b></div>'
+      + '<div><span>累计时长</span><b>' + r.minutes + ' 分钟</b></div>'
+      + '<div><span>平均正确率</span><b>' + r.acc + '%</b></div>'
+      + '<div><span>待复习 / 逾期</span><b>' + r.due + ' / ' + (r.overdue ? '<span style="color:#b91c1c">' + r.overdue + '</span>' : '0') + ' 项</b></div>'
+      + '</div>'
+      + '<div class="dh">掌握分布</div><div class="mem">'
+      + '<span class="tag off">陌生 ' + counts['陌生'] + '</span>'
+      + '<span class="tag off">模糊 ' + counts['模糊'] + '</span>'
+      + '<span class="tag">熟悉 ' + counts['熟悉'] + '</span>'
+      + '<span class="tag">掌握 ' + counts['掌握'] + '</span>'
+      + '</div>'
+      + miniBars(name)
+      + '<div class="dactions">'
+      + '<button type="button" class="mini ' + (off ? 'p' : 'd') + '" data-act="toggle-acc" data-id="' + esc(a._id || '') + '">' + (off ? '恢复账号' : '停用账号') + '</button>'
+      + '<button type="button" class="mini" data-act="edit-acc" data-id="' + esc(a._id || '') + '">修改</button>'
+      + '<button type="button" class="mini d" data-act="del-acc" data-id="' + esc(a._id || '') + '" data-name="' + esc(name) + '">删除</button>'
+      + '</div>'
+    );
+  }
+
+  function renderInsightList(){
+    var names = visibleStudents();
+    if(names.indexOf(state.selStu) < 0) state.selStu = names.length ? names[0] : '';
+    var i, j, overdueAll = 0, accSum = 0, accN = 0;
+    for(i = 0; i < names.length; i++){
+      var st = studentStats(names[i]);
+      overdueAll += st.overdue;
+      var recs = studentRecords(names[i]);
+      for(j = 0; j < recs.length; j++){
+        var v = recs[j]['正确率'];
+        if(v !== null && v !== undefined && v !== ''){ accSum += Number(v) || 0; accN++; }
+      }
+    }
+    setText('kpiStudents', String(names.length));
+    setText('kpiTasks', String(activeTasks().length));
+    setText('kpiOverdue', String(overdueAll));
+    setText('kpiAcc', accN ? String(Math.round(accSum / accN)) : '0');
+    setText('scopeName', state.scope === '全部' ? ('全部 · ' + names.length + ' 人') : (state.scope + ' · ' + names.length + ' 人'));
+
+    if(!names.length){ setHTML('stuList', '<div class="empty">暂无学生学习数据</div>'); return; }
+    var html = '';
+    for(i = 0; i < names.length; i++){
+      var s = studentStats(names[i]);
+      var on = state.selStu === s.name;
+      var idle = s.idleDays >= 3 ? ('<span class="pill r">' + s.idleDays + ' 天未学</span>')
+               : (s.idleDays >= 1 ? ('<span class="pill o">' + s.idleDays + ' 天前</span>') : '<span class="pill g">今天</span>');
+      html += '<button type="button" class="prow' + (on ? ' on' : '') + '" data-pick="stu" data-id="' + esc(s.name) + '">'
+        + '<span class="prow-main"><b>' + esc(s.name) + '</b>'
+        + '<i>' + esc(s.klass) + ' · ' + s.count + ' 条 · 正确率 ' + s.acc + '%</i></span>'
+        + idle
+        + '</button>';
+    }
+    setHTML('stuList', html);
+  }
+  function renderInsightDetail(){
+    var names = visibleStudents();
+    var total = names.length || 1;
+    var tasks = activeTasks();
+    var i;
+    if(state.selStu && names.indexOf(state.selStu) >= 0){
+      var s = studentStats(state.selStu);
+      var recs = studentRecords(s.name);
+      var counts = { '陌生':0, '模糊':0, '熟悉':0, '掌握':0 };
+      for(i = 0; i < recs.length; i++){
+        var m = recs[i]['掌握度'];
+        if(counts[m] !== undefined) counts[m]++;
+      }
+      var sorted = recs.slice().sort(function(a, b){
+        var da = parseDate(a['日期']), db2 = parseDate(b['日期']);
+        return (db2 ? db2.getTime() : 0) - (da ? da.getTime() : 0);
+      });
+      var recent = '', limit = Math.min(sorted.length, 6);
+      for(i = 0; i < limit; i++){
+        var rr = sorted[i];
+        recent += '<div style="display:flex;gap:9px;align-items:center;padding:8px 2px;border-bottom:1px dashed var(--line);font-size:12px;">'
+          + '<span style="font-weight:800;color:var(--mut2);flex:0 0 58px">' + fmtDate(rr['日期']) + '</span>'
+          + '<span style="flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700">' + esc(rr['学习内容'] || '') + '</span>'
+          + '<span style="font-weight:800;color:var(--p-d);flex:0 0 auto">' + esc(rr['记录类型'] || '') + ' · ' + (Number(rr['用时分钟']) || 0) + '′</span>'
+          + '</div>';
+      }
+      if(!recent) recent = '<div class="empty">还没有学习记录</div>';
+      setHTML('stuDetail',
+        '<div class="dhead"><b>' + esc(s.name) + '</b>'
+        + '<span class="pill g">' + esc(s.klass) + '</span>'
+        + '<span class="pill ' + (s.idleDays >= 3 ? 'r' : (s.idleDays >= 1 ? 'o' : 'g')) + '">'
+        + (s.count ? (s.idleDays === 0 ? '今天学过' : s.idleDays + ' 天前') : '未开始') + '</span></div>'
+        + '<div class="dgrid">'
+        + '<div><span>学习记录</span><b>' + s.count + ' 条</b></div>'
+        + '<div><span>累计时长</span><b>' + s.minutes + ' 分钟</b></div>'
+        + '<div><span>平均正确率</span><b>' + s.acc + '%</b></div>'
+        + '<div><span>待复习 / 逾期</span><b>' + s.due + ' / ' + (s.overdue ? '<span style="color:#b91c1c">' + s.overdue + '</span>' : '0') + ' 项</b></div>'
+        + '</div>'
+        + '<div class="dh">掌握分布</div><div class="mem">'
+        + '<span class="tag off">陌生 ' + counts['陌生'] + '</span>'
+        + '<span class="tag off">模糊 ' + counts['模糊'] + '</span>'
+        + '<span class="tag">熟悉 ' + counts['熟悉'] + '</span>'
+        + '<span class="tag">掌握 ' + counts['掌握'] + '</span>'
+        + '</div>'
+        + miniBars(s.name)
+        + '<div class="dh" style="margin-top:14px">最近学习记录</div>' + recent
+        + '<div class="dactions">'
+        + '<button type="button" class="mini" data-act="scope-class" data-name="' + esc(s.klass) + '">只看这个班</button>'
+        + '</div>'
+      );
+      return;
+    }
+    if(!tasks.length){ setHTML('stuDetail', '<div class="empty">左侧选一名学生，或先推送预习任务</div>'); return; }
+    var ph = '';
+    for(i = 0; i < tasks.length; i++){
+      var t = tasks[i];
+      var done = taskDoneCount(t['任务标题']);
+      var pct = Math.round((done / total) * 100);
+      var dd = dayDiff(t['截止日期']);
+      ph += '<div class="row">'
+        + '<div class="main">'
+        + '<div class="nm">' + esc(t['任务标题']) + '</div>'
+        + '<div class="meta">' + pill(t['内容类型'] || '任务', 'c') + '<span>' + esc(t['单元'] || '') + '</span>'
+        + pill(targetLabel(t), 'g')
+        + '<span>' + (dd < 0 ? ('已截止 ' + Math.abs(dd) + ' 天') : (dd === 0 ? '今天截止' : ('截止 ' + fmtDate(t['截止日期'])))) + '</span></div>'
+        + '<div style="margin-top:8px;"><span class="mtrack" style="width:100%"><span class="mfill" style="width:' + pct + '%;background:linear-gradient(90deg,#7C3AED,#6D28D9)"></span></span></div>'
+        + '</div>'
+        + '<div class="act"><b style="font-size:15px; font-weight:900; color:#6D28D9">' + done + '/' + total + '</b></div>'
+        + '</div>';
+    }
+    setHTML('stuDetail',
+      '<div class="dhead"><b>' + (state.scope === '全部' ? '全班概览' : state.scope) + '</b>'
+      + '<span class="pill g">' + total + ' 人</span></div>'
+      + '<div class="dnote">从左侧点一名学生，可查看他的完整学习画像。</div>'
+      + '<div class="dh">预习任务完成度</div>' + ph
+    );
+  }
+
+  function refreshAll(){
+    renderNav();
+    renderScope();
+    renderSync();
+    renderFocus();
+    renderTaskList();
+    renderClassList();
+    renderClassDetail();
+    renderAccList();
+    renderAccDetail();
+    renderResources();
+    renderInsightList();
+    renderInsightDetail();
+    renderPushPicker();
+  }
+
+  /* ---------------- toast ---------------- */
+  var toastTimer = null;
+  function toast(msg, isErr){
+    var el = document.getElementById('toast');
+    if(!el) return;
+    el.textContent = msg;
+    el.className = 'toast show' + (isErr ? ' err' : '');
+    if(toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ el.className = 'toast' + (isErr ? ' err' : ''); }, 2400);
+  }
+
+  /* ---------------- form cache ---------------- */
+  function formValues(form){
+    var out = {}, els = form.querySelectorAll('input,select,textarea');
+    for(var i = 0; i < els.length; i++){
+      var el = els[i];
+      if(!el.name || el.type === 'password' || el.hasAttribute('data-no-cache')) continue;
+      out[el.name] = el.value;
+    }
+    return out;
+  }
+  function restoreForm(form, key){
+    var saved = cacheGet(key);
+    if(!saved) return;
+    for(var k in saved){
+      if(!Object.prototype.hasOwnProperty.call(saved, k)) continue;
+      var el = form.querySelector('[name="' + k + '"]');
+      if(el && el.value === '') el.value = saved[k];
+    }
+  }
+  var draftTimers = {};
+  function bindFormCache(form, key){
+    var handler = function(){
+      if(draftTimers[key]) clearTimeout(draftTimers[key]);
+      draftTimers[key] = setTimeout(function(){ cacheSet(key, formValues(form)); }, 300);
+    };
+    form.addEventListener('input', handler);
+    form.addEventListener('change', handler);
+  }
+  function clearDraft(key){ cacheClear(key); }
+
+  /* ---------------- select options ---------------- */
+  function fillSelect(sel, options){
+    if(!sel) return;
+    var current = sel.value;
+    var html = '<option value="">请选择</option>';
+    for(var i = 0; i < options.length; i++){
+      var v = options[i].value, t = options[i].text;
+      html += '<option value="' + esc(v) + '">' + esc(t) + '</option>';
+    }
+    sel.innerHTML = sanitizeHtml(html);
+    if(current) sel.value = current;
+  }
+  function fillFromFallback(fieldName, elId){
+    var list = OPTION_FALLBACK[fieldName] || [], opts = [], i;
+    for(i = 0; i < list.length; i++) opts.push({ value: list[i], text: list[i] });
+    fillSelect(document.getElementById(elId), opts);
+  }
+  function applySelect(fieldName, elId){
+    var arr = state.schemaOptions[fieldName];
+    if(arr && arr.length) fillSelect(document.getElementById(elId), arr);
+    else fillFromFallback(fieldName, elId);
+  }
+  function loadSchemaOptions(){
+    if(!SDK){
+      fillFromFallback('内容类型', 'pf-type');
+      fillFromFallback('推送方式', 'pf-mode');
+      fillFromFallback('类型', 'rf-type');
+      fillFromFallback('班级状态', 'cf-status');
+      fillFromFallback('账户状态', 'af-status');
+      return;
+    }
+    db.getSchema({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s' }).then(function(schema){
+      var props = (schema && schema.properties) || [];
+      collect(props, '内容类型'); collect(props, '推送方式');
+      applySelect('内容类型', 'pf-type'); applySelect('推送方式', 'pf-mode');
+      var sel = document.getElementById('pf-mode');
+      if(sel && !sel.value) sel.value = state.pushMode || '全班';
+      restoreForm(document.getElementById('pushForm'), LS_DRAFT_PUSH);
+    }).catch(function(err){
+      console.error('[workbench] 预习任务表结构读取失败', err);
+      fillFromFallback('内容类型', 'pf-type'); fillFromFallback('推送方式', 'pf-mode');
+    });
+    db.getSchema({ databaseId: 'iRti0RoXNhXFoekVY9y4Cf' }).then(function(schema){
+      var props = (schema && schema.properties) || [];
+      collect(props, '类型');
+      applySelect('类型', 'rf-type');
+      restoreForm(document.getElementById('resForm'), LS_DRAFT_RES);
+    }).catch(function(err){
+      console.error('[workbench] 教学资源表结构读取失败', err);
+      fillFromFallback('类型', 'rf-type');
+    });
+    db.getSchema({ databaseId: 'PUQ5oUZJNDYWKBBMpIijgw' }).then(function(schema){
+      var props = (schema && schema.properties) || [];
+      collect(props, '班级状态');
+      applySelect('班级状态', 'cf-status');
+      restoreForm(document.getElementById('clsForm'), LS_DRAFT_CLS);
+    }).catch(function(err){
+      console.error('[workbench] 班级表结构读取失败', err);
+      fillFromFallback('班级状态', 'cf-status');
+    });
+    db.getSchema({ databaseId: '2OjdhXTwUccUa71i4R2wBx' }).then(function(schema){
+      var props = (schema && schema.properties) || [];
+      collect(props, '账户状态');
+      applySelect('账户状态', 'af-status');
+      restoreForm(document.getElementById('accForm'), LS_DRAFT_ACC);
+    }).catch(function(err){
+      console.error('[workbench] 学生账户表结构读取失败', err);
+      fillFromFallback('账户状态', 'af-status');
+    });
+  }
+  function collect(props, fieldName){
+    for(var i = 0; i < props.length; i++){
+      var f = props[i];
+      if(f.name === fieldName && f.config && f.config.options){
+        var arr = [], j;
+        for(j = 0; j < f.config.options.length; j++){
+          arr.push({ value: f.config.options[j].text, text: f.config.options[j].text });
+        }
+        state.schemaOptions[fieldName] = arr;
+      }
+    }
+  }
+
+  /* ---------------- data loading ---------------- */
+  function loadPrepTable(onDone){
+    var acc = [];
+    var sorts = [{ property: '推送时间', direction: 'descending' }];
+    (function step(cursor, guard){
+      if(guard > 20){ onDone(acc); return; }
+      db.query({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s', sorts: sorts, pageSize: 200, startCursor: cursor })
+        .then(function(r){
+          var rows = (r && r.results) || [];
+          acc = acc.concat(rows);
+          if(r && r.hasMore && r.nextCursor && r.nextCursor !== cursor && rows.length){ step(r.nextCursor, guard + 1); }
+          else { onDone(acc); }
+        })
+        .catch(function(err){ console.error('[workbench] 预习任务读取失败', err); onDone(null); });
+    })(undefined, 0);
+  }
+  function loadRecordTable(onDone){
+    var acc = [];
+    var sorts = [{ property: '日期', direction: 'descending' }];
+    (function step(cursor, guard){
+      if(guard > 20){ onDone(acc); return; }
+      db.query({ databaseId: 'qKJybtlu4NrEqJ7yUPTduo', sorts: sorts, pageSize: 200, startCursor: cursor })
+        .then(function(r){
+          var rows = (r && r.results) || [];
+          acc = acc.concat(rows);
+          if(r && r.hasMore && r.nextCursor && r.nextCursor !== cursor && rows.length){ step(r.nextCursor, guard + 1); }
+          else { onDone(acc); }
+        })
+        .catch(function(err){ console.error('[workbench] 学习记录读取失败', err); onDone(null); });
+    })(undefined, 0);
+  }
+  function loadResourceTable(onDone){
+    var acc = [];
+    var sorts = [{ property: '上传时间', direction: 'descending' }];
+    (function step(cursor, guard){
+      if(guard > 20){ onDone(acc); return; }
+      db.query({ databaseId: 'iRti0RoXNhXFoekVY9y4Cf', sorts: sorts, pageSize: 200, startCursor: cursor })
+        .then(function(r){
+          var rows = (r && r.results) || [];
+          acc = acc.concat(rows);
+          if(r && r.hasMore && r.nextCursor && r.nextCursor !== cursor && rows.length){ step(r.nextCursor, guard + 1); }
+          else { onDone(acc); }
+        })
+        .catch(function(err){ console.error('[workbench] 教学资源读取失败', err); onDone(null); });
+    })(undefined, 0);
+  }
+  function loadClassTable(onDone){
+    var acc = [];
+    var sorts = [{ property: '创建时间', direction: 'descending' }];
+    (function step(cursor, guard){
+      if(guard > 20){ onDone(acc); return; }
+      db.query({ databaseId: 'PUQ5oUZJNDYWKBBMpIijgw', sorts: sorts, pageSize: 200, startCursor: cursor })
+        .then(function(r){
+          var rows = (r && r.results) || [];
+          acc = acc.concat(rows);
+          if(r && r.hasMore && r.nextCursor && r.nextCursor !== cursor && rows.length){ step(r.nextCursor, guard + 1); }
+          else { onDone(acc); }
+        })
+        .catch(function(err){ console.error('[workbench] 班级读取失败', err); onDone(null); });
+    })(undefined, 0);
+  }
+  function loadAccountTable(onDone){
+    var acc = [];
+    var sorts = [{ property: '加入时间', direction: 'descending' }];
+    (function step(cursor, guard){
+      if(guard > 20){ onDone(acc); return; }
+      db.query({ databaseId: '2OjdhXTwUccUa71i4R2wBx', sorts: sorts, pageSize: 200, startCursor: cursor })
+        .then(function(r){
+          var rows = (r && r.results) || [];
+          acc = acc.concat(rows);
+          if(r && r.hasMore && r.nextCursor && r.nextCursor !== cursor && rows.length){ step(r.nextCursor, guard + 1); }
+          else { onDone(acc); }
+        })
+        .catch(function(err){ console.error('[workbench] 学生账户读取失败', err); onDone(null); });
+    })(undefined, 0);
+  }
+
+  var PART_MAP = {
+    prep: { key: LS_CACHE_PREP, target: 'prep' },
+    rec:  { key: LS_CACHE_REC,  target: 'records' },
+    res:  { key: LS_CACHE_RES,  target: 'resources' },
+    cls:  { key: LS_CACHE_CLS,  target: 'classes' },
+    acc:  { key: LS_CACHE_ACC,  target: 'accounts' }
+  };
+  var loaded = { prep:false, rec:false, res:false, cls:false, acc:false };
+  function onPartLoaded(which, rows){
+    var meta = PART_MAP[which];
+    if(rows){ state[meta.target] = rows; cacheSet(meta.key, rows); }
+    else {
+      state.offline = true;
+      var cached = cacheGet(meta.key);
+      if(cached) state[meta.target] = cached;
+    }
+    loaded[which] = true;
+    if(loaded.prep && loaded.rec && loaded.res && loaded.cls && loaded.acc){ state.busy = false; refreshAll(); }
+  }
+  function loadAll(){
+    if(!SDK) return;
+    state.busy = true;
+    renderSync();
+    loadPrepTable(function(rows){ onPartLoaded('prep', rows); });
+    loadRecordTable(function(rows){ onPartLoaded('rec', rows); });
+    loadResourceTable(function(rows){ onPartLoaded('res', rows); });
+    loadClassTable(function(rows){ onPartLoaded('cls', rows); });
+    loadAccountTable(function(rows){ onPartLoaded('acc', rows); });
+  }
+
+  /* ---------------- demo fallback ---------------- */
+  function demoRows(){
+    var t = todayISO(), y = addDaysISO(-1);
+    state.prep = [
+      { _id:'d-p1', '任务标题':'Unit 8 · 阅读A《Music in the Forest》精读', '单元':'Unit 8', '内容类型':'阅读', '推送方式':'全班', '推送对象':'', '任务状态':'已推送', '预计用时':20, '推送时间':t, '截止日期':addDaysISO(1), '任务说明':'点读课文，圈出 5 个生词，跟读 3 遍。' },
+      { _id:'d-p2', '任务标题':'Unit 8 · 听力 Musicians around the world', '单元':'Unit 8', '内容类型':'听力', '推送方式':'全班', '推送对象':'', '任务状态':'已推送', '预计用时':18, '推送时间':addDaysISO(-2), '截止日期':y, '任务说明':'精听两遍，写下 3 个听到的乐器名。' },
+      { _id:'d-p3', '任务标题':'Unit 8 · 文化 Dances around the world', '单元':'Unit 8', '内容类型':'文化', '推送方式':'按班级', '推送对象':'TH!NK Starter A班', '任务状态':'已推送', '预计用时':15, '推送时间':t, '截止日期':addDaysISO(3), '任务说明':'了解三种舞蹈，用英文说一句感受。' }
+    ];
+    state.records = [
+      { _id:'d-r1', '学生':'李思远', '记录类型':'复习', '学习内容':'Unit 7 · 阅读A 关键词', '单元':'Unit 7', '用时分钟':10, '正确率':80, '掌握度':'熟悉', '复习次数':2, '日期':addDaysISO(-3), '下次复习':t, '备注':'' },
+      { _id:'d-r2', '学生':'李思远', '记录类型':'复习', '学习内容':'Unit 7 · 听力高频词', '单元':'Unit 7', '用时分钟':8, '正确率':70, '掌握度':'模糊', '复习次数':1, '日期':addDaysISO(-2), '下次复习':y, '备注':'' },
+      { _id:'d-r3', '学生':'王雨桐', '记录类型':'复习', '学习内容':'Unit 8 · 阅读B 关键词', '单元':'Unit 8', '用时分钟':9, '正确率':60, '掌握度':'陌生', '复习次数':0, '日期':y, '下次复习':t, '备注':'' },
+      { _id:'d-r4', '学生':'陈嘉禾', '记录类型':'预习', '学习内容':'预习：Unit 8 · 阅读B《A teenage DJ》词汇预习', '单元':'Unit 8', '用时分钟':15, '正确率':90, '掌握度':'熟悉', '复习次数':1, '日期':y, '下次复习':addDaysISO(4), '备注':'' },
+      { _id:'d-r5', '学生':'陈嘉禾', '记录类型':'听写', '学习内容':'Unit 7 · 单词听写', '单元':'Unit 7', '用时分钟':7, '正确率':92, '掌握度':'掌握', '复习次数':3, '日期':addDaysISO(-6), '下次复习':addDaysISO(10), '备注':'' }
+    ];
+    state.resources = [
+      { _id:'d-s1', '资源名称':'Unit 8 阅读A Music in the Forest 课文音频', '类型':'音频', '单元':'Unit 8', '标签':'阅读A · 精听', '链接':[{ text:'课文音频', link:'https://hank-hunau.github.io/linkhankyou-englishroom/assets/p075.mp3' }], '上传时间':t },
+      { _id:'d-s2', '资源名称':'Unit 8 核心词汇表（12 词）', '类型':'词汇表', '单元':'Unit 8', '标签':'词汇 · 预习', '链接':[{ text:'学习平台', link:'https://hank-hunau.github.io/linkhankyou-englishroom/' }], '上传时间':addDaysISO(-1) }
+    ];
+    state.classes = [
+      { _id:'d-c1', '班级名称':'TH!NK Starter A班', '学段':'Starter', '授课教师':'Hank', '计划人数':12, '班级状态':'进行中', '创建时间':addDaysISO(-42), '备注':'周一 / 周三 19:00–20:30' },
+      { _id:'d-c2', '班级名称':'TH!NK Starter B班', '学段':'Starter', '授课教师':'Hank', '计划人数':12, '班级状态':'进行中', '创建时间':addDaysISO(-40), '备注':'周二 / 周四 19:00–20:30' },
+      { _id:'d-c3', '班级名称':'TH!NK 1 进阶班', '学段':'Level 1', '授课教师':'Hank', '计划人数':10, '班级状态':'筹备中', '创建时间':t, '备注':'待满 6 人开班' }
+    ];
+    state.accounts = [
+      { _id:'d-a1', '姓名':'李思远', '学号':'S2026001', '所属班级':'TH!NK Starter A班', '账户状态':'在读', '加入时间':addDaysISO(-42), '备注':'' },
+      { _id:'d-a2', '姓名':'王雨桐', '学号':'S2026002', '所属班级':'TH!NK Starter A班', '账户状态':'在读', '加入时间':addDaysISO(-42), '备注':'' },
+      { _id:'d-a3', '姓名':'陈嘉禾', '学号':'S2026003', '所属班级':'TH!NK Starter B班', '账户状态':'在读', '加入时间':addDaysISO(-40), '备注':'' },
+      { _id:'d-a4', '姓名':'林子墨', '学号':'S2026004', '所属班级':'TH!NK Starter B班', '账户状态':'停用', '加入时间':addDaysISO(-40), '备注':'已转线上班' }
+    ];
+    state.offline = true;
+  }
+
+  /* ---------------- actions ---------------- */
+  function currentPushMode(){
+    var sel = document.getElementById('pf-mode');
+    var v = sel ? sel.value : '';
+    return v || state.pushMode || '全班';
+  }
+  function resetPushForm(){
+    var form = document.getElementById('pushForm');
+    if(form) form.reset();
+    state.pushTargets = {};
+    state.pushMode = '全班';
+    var sel = document.getElementById('pf-mode');
+    if(sel) sel.value = '全班';
+    setTaskEditMode('');
+    renderPushPicker();
+  }
+  function submitPush(){
+    if(state.busy) return;
+    var form = document.getElementById('pushForm');
+    var title = form.querySelector('[name="任务标题"]').value.trim();
+    if(!title){ toast('请填写任务标题', true); return; }
+    var due = form.querySelector('[name="截止日期"]').value;
+    var unit = form.querySelector('[name="单元"]').value.trim();
+    var type = form.querySelector('[name="内容类型"]').value;
+    var mode = currentPushMode();
+    var mins = form.querySelector('[name="预计用时"]').value;
+    var note = form.querySelector('[name="任务说明"]').value.trim();
+    var targets = pickedTargets();
+    if(mode !== '全班' && !targets.length){
+      toast('请至少选择一个' + (mode === '按班级' ? '班级' : '学生'), true);
+      return;
+    }
+    var objectText = mode === '全班' ? '' : targets.join('、');
+    var btn = document.getElementById('pfSubmit');
+    var editing = state.editingTaskId;
+
+    if(SDK){
+      state.busy = true; renderSync();
+      if(btn){ btn.disabled = true; btn.textContent = editing ? '保存中…' : '推送中…'; }
+      var properties = {};
+      properties['任务标题'] = { text: title };
+      properties['单元'] = { text: unit };
+      properties['内容类型'] = { select: type || '阅读' };
+      properties['推送方式'] = { select: mode };
+      properties['推送对象'] = { text: objectText };
+      properties['预计用时'] = { number: Number(mins) || 0 };
+      properties['截止日期'] = { date: due || addDaysISO(1) };
+      properties['任务说明'] = { text: note };
+      if(editing) properties['修改时间'] = { date: todayISO() };
+      var job;
+      if(editing){
+        job = db.updateRecord({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s', recordId: editing, properties: properties });
+      } else {
+        properties['推送时间'] = { date: todayISO() };
+        properties['任务状态'] = { select: '已推送' };
+        job = db.addRecord({ databaseId: 'M2BiG1J9hhkYDOcdZFWi3s', properties: properties });
+      }
+      job.then(function(){
+        clearDraft(LS_DRAFT_PUSH);
+        resetPushForm();
+        toast(editing ? '任务已更新' : ('已推送 · ' + (mode === '全班' ? '全班' : (mode + ' ' + targets.length + ' 个'))));
+        loadAll();
+      }).catch(function(err){
+        console.error('[workbench] 推送失败', err);
+        state.busy = false; renderSync();
+        toast('保存失败，请稍后重试', true);
+      });
+      setTimeout(function(){ if(btn){ btn.disabled = false; btn.textContent = state.editingTaskId ? '保存修改' : '推送预习'; } }, 800);
+    } else {
+      if(editing){
+        var old = findTask(editing);
+        if(old){
+          old['任务标题'] = title; old['单元'] = unit; old['内容类型'] = type || '阅读';
+          old['推送方式'] = mode; old['推送对象'] = objectText; old['预计用时'] = Number(mins) || 0;
+          old['截止日期'] = due || addDaysISO(1); old['任务说明'] = note; old['修改时间'] = todayISO();
+        }
+        setTaskEditMode('');
+        toast('任务已更新（演示模式）');
+      } else {
+        state.prep.unshift({ _id:'local-' + Date.now(), '任务标题':title, '单元':unit, '内容类型':type || '阅读',
+          '推送方式':mode, '推送对象':objectText, '任务状态':'已推送', '预计用时':Number(mins) || 0,
+          '推送时间':todayISO(), '截止日期':due || addDaysISO(1), '任务说明':note });
+        toast('已推送（演示模式）');
+      }
+      resetPushForm();
+      refreshAll();
+    }
+  }
+
+  function submitResource(){
+    if(state.busy) return;
+    var form = document.getElementById('resForm');
+    var name = form.querySelector('[name="资源名称"]').value.trim();
+    if(!name){ toast('请填写资源名称', true); return; }
+    var type = form.querySelector('[name="类型"]').value;
+    var unit = form.querySelector('[name="单元"]').value.trim();
+    var tag = form.querySelector('[name="标签"]').value.trim();
+    var link = form.querySelector('[name="链接"]').value.trim();
+    var btn = document.getElementById('rfSubmit');
+    var editing = state.editingResId;
+
+    if(SDK){
+      state.busy = true; renderSync();
+      if(btn){ btn.disabled = true; btn.textContent = editing ? '保存中…' : '保存中…'; }
+      var properties = {};
+      properties['资源名称'] = { text: name };
+      properties['类型'] = { select: type || '音频' };
+      properties['单元'] = { text: unit };
+      properties['标签'] = { text: tag };
+      if(link){ properties['链接'] = { url: { text: name, link: link } }; }
+      var job;
+      if(editing){
+        job = db.updateRecord({ databaseId: 'iRti0RoXNhXFoekVY9y4Cf', recordId: editing, properties: properties });
+      } else {
+        properties['上传时间'] = { date: todayISO() };
+        job = db.addRecord({ databaseId: 'iRti0RoXNhXFoekVY9y4Cf', properties: properties });
+      }
+      job.then(function(){
+        clearDraft(LS_DRAFT_RES);
+        form.reset();
+        setResEditMode('');
+        toast(editing ? '资源已更新' : '资源已入库');
+        loadAll();
+      })
+      .catch(function(err){
+        console.error('[workbench] 资源保存失败', err);
+        state.busy = false; renderSync();
+        toast('保存失败，请稍后重试', true);
+      });
+      setTimeout(function(){ if(btn){ btn.disabled = false; btn.textContent = '保存资源'; } }, 800);
+    } else {
+      if(editing){
+        var old = findResource(editing);
+        if(old){
+          old['资源名称'] = name; old['类型'] = type || '音频'; old['单元'] = unit; old['标签'] = tag;
+          if(link) old['链接'] = [{ text:name, link:link }];
+        }
+        form.reset();
+        setResEditMode('');
+        toast('资源已更新（演示模式）');
+        refreshAll();
+      } else {
+        state.resources.unshift({ _id:'local-' + Date.now(), '资源名称':name, '类型':type || '音频', '单元':unit,
+          '标签':tag, '链接': link ? [{ text:name, link:link }] : [], '上传时间':todayISO() });
+        form.reset();
+        toast('资源已入库（演示模式）');
+        refreshAll();
+      }
+    }
+  }
+
+  function findResource(recId){
+    for(var i = 0; i < state.resources.length; i++){ if(state.resources[i]._id === recId) return state.resources[i]; }
+    return null;
+  }
+  function setResEditMode(recId){
+    state.editingResId = recId || '';
+    var cur = recId ? findResource(recId) : null;
+    var cancel = document.getElementById('rfCancel');
+    var bar = document.getElementById('resEditBar');
+    var nm = document.getElementById('resEditName');
+    if(cancel) cancel.style.display = recId ? '' : 'none';
+    if(bar) bar.style.display = recId ? '' : 'none';
+    if(nm) nm.textContent = (cur && cur['资源名称']) || '';
+    var d = document.getElementById('resDetails');
+    if(d && recId && d.open === false) d.open = true;
+  }
+  function startEditRes(recId){
+    var r = findResource(recId);
+    if(!r) return;
+    var linkVal = (r['链接'] && r['链接'].length && r['链接'][0].link) ? r['链接'][0].link : '';
+    fillForm(document.getElementById('resForm'), {
+      '资源名称': r['资源名称'] || '', '类型': r['类型'] || '', '单元': r['单元'] || '',
+      '标签': r['标签'] || '', '链接': linkVal
+    });
+    setResEditMode(recId);
+    toast('正在修改教学资源');
+  }
+  function cancelEditRes(){
+    var form = document.getElementById('resForm');
+    if(form) form.reset();
+    setResEditMode('');
+    refreshAll();
+  }
+  function deleteResource(recId, title){
+    if(state.busy) return;
+    if(SDK){
+      state.busy = true; renderSync();
+      db.deleteRecord({ databaseId: 'iRti0RoXNhXFoekVY9y4Cf', recordId: recId })
+        .then(function(){
+          if(state.editingResId === recId) setResEditMode('');
+          toast('已删除资源「' + title + '」'); loadAll();
+        })
+        .catch(function(err){
+          console.error('[workbench] 资源删除失败', err);
+          state.busy = false; renderSync();
+          toast('删除失败，请稍后重试', true);
+        });
+    } else {
+      state.resources = state.resources.filter(function(r){ return r._id !== recId; });
+      if(state.editingResId === recId) setResEditMode('');
+      toast('已删除资源（演示模式）');
+      refreshAll();
+    }
+  }
+
+  function findClass(recId){
+    for(var i = 0; i < state.classes.length; i++){ if(state.classes[i]._id === recId) return state.classes[i]; }
+    return null;
+  }
+  function findAccount(recId){
+    for(var i = 0; i < state.accounts.length; i++){ if(state.accounts[i]._id === recId) return state.accounts[i]; }
+    return null;
+  }
+  function fillForm(form, values){
+    if(!form) return;
+    for(var k in values){
+      if(!Object.prototype.hasOwnProperty.call(values, k)) continue;
+      var el = form.querySelector('[name="' + k + '"]');
+      if(el) el.value = (values[k] === null || values[k] === undefined) ? '' : String(values[k]);
+    }
+  }
+  function setClassEditMode(recId){
+    state.editingClassId = recId || '';
+    var cur = recId ? findClass(recId) : null;
+    var form = document.getElementById('clsForm');
+    var btn = document.getElementById('cfSubmit');
+    var cancel = document.getElementById('cfCancel');
+    var sum = document.getElementById('clsSummary');
+    if(form) form.className = recId ? 'editing' : '';
+    if(btn) btn.textContent = recId ? '保存修改' : '创建班级';
+    if(cancel) cancel.style.display = recId ? '' : 'none';
+    if(sum) sum.textContent = recId ? ('正在修改：' + ((cur && cur['班级名称']) || '')) : '＋ 新建班级';
+    var det = document.getElementById('clsDetails');
+    if(det && recId) det.open = true;
+  }
+  function startEditClass(recId){
+    var c = findClass(recId);
+    if(!c) return;
+    fillForm(document.getElementById('clsForm'), {
+      '班级名称': c['班级名称'] || '', '学段': c['学段'] || '', '授课教师': c['授课教师'] || '',
+      '计划人数': c['计划人数'], '班级状态': c['班级状态'] || '', '备注': c['备注'] || ''
+    });
+    setClassEditMode(recId);
+    refreshAll();
+    toast('正在修改班级信息');
+  }
+  function cancelEditClass(){
+    var form = document.getElementById('clsForm');
+    if(form) form.reset();
+    setClassEditMode('');
+    refreshAll();
+  }
+  function deleteClass(recId, name){
+    if(state.busy) return;
+    if(SDK){
+      state.busy = true; renderSync();
+      db.deleteRecord({ databaseId: 'PUQ5oUZJNDYWKBBMpIijgw', recordId: recId })
+        .then(function(){ toast('已删除班级「' + name + '」'); loadAll(); })
+        .catch(function(err){ console.error('[workbench] 删除班级失败', err); state.busy = false; renderSync(); toast('删除失败，请稍后重试', true); });
+    } else {
+      state.classes = state.classes.filter(function(c){ return c._id !== recId; });
+      toast('已删除班级（演示模式）');
+      refreshAll();
+    }
+  }
+  function submitClass(){
+    if(state.busy) return;
+    var form = document.getElementById('clsForm');
+    var name = form.querySelector('[name="班级名称"]').value.trim();
+    if(!name){ toast('请填写班级名称', true); return; }
+    var level = form.querySelector('[name="学段"]').value.trim();
+    var teacher = form.querySelector('[name="授课教师"]').value.trim();
+    var cap = form.querySelector('[name="计划人数"]').value;
+    var st = form.querySelector('[name="班级状态"]').value;
+    var note = form.querySelector('[name="备注"]').value.trim();
+    var btn = document.getElementById('cfSubmit');
+    var editing = state.editingClassId;
+
+    if(SDK){
+      state.busy = true; renderSync();
+      if(btn){ btn.disabled = true; btn.textContent = editing ? '保存中…' : '创建中…'; }
+      var properties = {};
+      properties['班级名称'] = { text: name };
+      properties['学段'] = { text: level };
+      properties['授课教师'] = { text: teacher };
+      properties['计划人数'] = { number: Number(cap) || 0 };
+      properties['班级状态'] = { select: st || '进行中' };
+      properties['备注'] = { text: note };
+      var job;
+      if(editing){
+        job = db.updateRecord({ databaseId: 'PUQ5oUZJNDYWKBBMpIijgw', recordId: editing, properties: properties });
+      } else {
+        properties['创建时间'] = { date: todayISO() };
+        job = db.addRecord({ databaseId: 'PUQ5oUZJNDYWKBBMpIijgw', properties: properties });
+      }
+      job.then(function(){
+        clearDraft(LS_DRAFT_CLS);
+        form.reset();
+        if(editing){ setClassEditMode(''); toast('班级信息已更新'); }
+        else { toast('班级已创建'); }
+        loadAll();
+      }).catch(function(err){
+        console.error('[workbench] 班级保存失败', err);
+        state.busy = false; renderSync();
+        toast('保存失败，请稍后重试', true);
+      });
+      setTimeout(function(){ if(btn){ btn.disabled = false; btn.textContent = state.editingClassId ? '保存修改' : '创建班级'; } }, 800);
+    } else {
+      if(editing){
+        var t = findClass(editing);
+        if(t){
+          t['班级名称'] = name; t['学段'] = level; t['授课教师'] = teacher;
+          t['计划人数'] = Number(cap) || 0; t['班级状态'] = st || '进行中'; t['备注'] = note;
+        }
+        setClassEditMode('');
+        toast('班级信息已更新（演示模式）');
+      } else {
+        state.classes.unshift({ _id:'local-' + Date.now(), '班级名称':name, '学段':level, '授课教师':teacher,
+          '计划人数':Number(cap) || 0, '班级状态':st || '进行中', '创建时间':todayISO(), '备注':note });
+        toast('班级已创建（演示模式）');
+      }
+      form.reset();
+      refreshAll();
+    }
+  }
+
+  function setAccEditMode(recId){
+    state.editingAccId = recId || '';
+    var cur = recId ? findAccount(recId) : null;
+    var form = document.getElementById('accForm');
+    var btn = document.getElementById('afSubmit');
+    var cancel = document.getElementById('afCancel');
+    var sum = document.getElementById('accSummary');
+    if(form) form.className = recId ? 'editing' : '';
+    if(btn) btn.textContent = recId ? '保存修改' : '创建账户';
+    if(cancel) cancel.style.display = recId ? '' : 'none';
+    if(sum) sum.textContent = recId ? ('正在修改：' + ((cur && cur['姓名']) || '')) : '＋ 新建学生账户';
+    var det = document.getElementById('accDetails');
+    if(det && recId) det.open = true;
+  }
+  function startEditAccount(recId){
+    var a = findAccount(recId);
+    if(!a) return;
+    fillForm(document.getElementById('accForm'), {
+      '姓名': a['姓名'] || '', '学号': a['学号'] || '', '所属班级': a['所属班级'] || '',
+      '账户状态': a['账户状态'] || '', '备注': a['备注'] || ''
+    });
+    setAccEditMode(recId);
+    refreshAll();
+    toast('正在修改账户信息');
+  }
+  function cancelEditAccount(){
+    var form = document.getElementById('accForm');
+    if(form) form.reset();
+    setAccEditMode('');
+    refreshAll();
+  }
+  function deleteAccount(recId, name){
+    if(state.busy) return;
+    if(SDK){
+      state.busy = true; renderSync();
+      db.deleteRecord({ databaseId: '2OjdhXTwUccUa71i4R2wBx', recordId: recId })
+        .then(function(){ toast('已删除账户「' + name + '」'); loadAll(); })
+        .catch(function(err){ console.error('[workbench] 删除账户失败', err); state.busy = false; renderSync(); toast('删除失败，请稍后重试', true); });
+    } else {
+      state.accounts = state.accounts.filter(function(a){ return a._id !== recId; });
+      toast('已删除账户（演示模式）');
+      refreshAll();
+    }
+  }
+  function submitAccount(){
+    if(state.busy) return;
+    var form = document.getElementById('accForm');
+    var name = form.querySelector('[name="姓名"]').value.trim();
+    if(!name){ toast('请填写姓名', true); return; }
+    var sid = form.querySelector('[name="学号"]').value.trim();
+    var klass = form.querySelector('[name="所属班级"]').value.trim();
+    var st = form.querySelector('[name="账户状态"]').value;
+    var note = form.querySelector('[name="备注"]').value.trim();
+    var btn = document.getElementById('afSubmit');
+    var editing = state.editingAccId;
+
+    if(SDK){
+      state.busy = true; renderSync();
+      if(btn){ btn.disabled = true; btn.textContent = editing ? '保存中…' : '创建中…'; }
+      var properties = {};
+      properties['姓名'] = { text: name };
+      properties['学号'] = { text: sid };
+      properties['所属班级'] = { text: klass };
+      properties['账户状态'] = { select: st || '在读' };
+      properties['备注'] = { text: note };
+      var job;
+      if(editing){
+        job = db.updateRecord({ databaseId: '2OjdhXTwUccUa71i4R2wBx', recordId: editing, properties: properties });
+      } else {
+        properties['加入时间'] = { date: todayISO() };
+        job = db.addRecord({ databaseId: '2OjdhXTwUccUa71i4R2wBx', properties: properties });
+      }
+      job.then(function(){
+        clearDraft(LS_DRAFT_ACC);
+        form.reset();
+        if(editing){ setAccEditMode(''); toast('账户信息已更新'); }
+        else { toast('账户已创建'); }
+        loadAll();
+      }).catch(function(err){
+        console.error('[workbench] 账户保存失败', err);
+        state.busy = false; renderSync();
+        toast('保存失败，请稍后重试', true);
+      });
+      setTimeout(function(){ if(btn){ btn.disabled = false; btn.textContent = state.editingAccId ? '保存修改' : '创建账户'; } }, 800);
+    } else {
+      if(editing){
+        var t = findAccount(editing);
+        if(t){
+          t['姓名'] = name; t['学号'] = sid; t['所属班级'] = klass;
+          t['账户状态'] = st || '在读'; t['备注'] = note;
+        }
+        setAccEditMode('');
+        toast('账户信息已更新（演示模式）');
+      } else {
+        state.accounts.unshift({ _id:'local-' + Date.now(), '姓名':name, '学号':sid, '所属班级':klass,
+          '账户状态':st || '在读', '加入时间':todayISO(), '备注':note });
+        toast('账户已创建（演示模式）');
+      }
+      form.reset();
+      refreshAll();
+    }
+  }
+
+  function toggleAccount(recordId){
+    if(state.busy) return;
+    var target = findAccount(recordId);
+    if(!target) return;
+    var next = target['账户状态'] === '停用' ? '在读' : '停用';
+    if(SDK){
+      state.busy = true; renderSync();
+      var properties = {};
+      properties['账户状态'] = { select: next };
+      db.updateRecord({ databaseId: '2OjdhXTwUccUa71i4R2wBx', recordId: recordId, properties: properties })
+        .then(function(){ toast(next === '在读' ? '账户已恢复' : '账户已停用'); loadAll(); })
+        .catch(function(err){ console.error('[workbench] 账户状态更新失败', err); state.busy = false; renderSync(); toast('操作失败，请稍后重试', true); });
+    } else {
+      target['账户状态'] = next;
+      toast(next === '在读' ? '账户已恢复（演示模式）' : '账户已停用（演示模式）');
+      refreshAll();
+    }
+  }
+
+  /* ---------------- events ---------------- */
+  function confirmThen(btn, fn){
+    if(btn.getAttribute('data-confirm') === '1'){ fn(); return; }
+    btn.setAttribute('data-confirm', '1');
+    btn.textContent = '确认删除？';
+    setTimeout(function(){
+      if(btn.getAttribute('data-confirm') === '1'){ btn.removeAttribute('data-confirm'); btn.textContent = '删除'; }
+    }, 4000);
+  }
+  function bindEvents(){
+    var nav = document.getElementById('sideNav');
+    if(nav){
+      nav.addEventListener('click', function(e){
+        var btn = e.target.closest ? e.target.closest('button[data-view]') : null;
+        if(!btn) return;
+        setView(btn.getAttribute('data-view'));
+      });
+    }
+    var cb = document.getElementById('clsBack');
+    if(cb) cb.addEventListener('click', closeDetail);
+    var ab = document.getElementById('accBack');
+    if(ab) ab.addEventListener('click', closeDetail);
+    var sb = document.getElementById('stuBack');
+    if(sb) sb.addEventListener('click', closeDetail);
+    var head = document.getElementById('classSwitch');
+    if(head){
+      head.addEventListener('click', function(e){
+        var btn = e.target.closest ? e.target.closest('button[data-g]') : null;
+        if(!btn) return;
+        state.scope = btn.getAttribute('data-g');
+        cacheSet(LS_SCOPE, state.scope);
+        refreshAll();
+      });
+    }
+    var pf = document.getElementById('pushForm');
+    if(pf){ pf.addEventListener('submit', function(e){ e.preventDefault(); submitPush(); }); bindFormCache(pf, LS_DRAFT_PUSH); }
+    var rf = document.getElementById('resForm');
+    if(rf){ rf.addEventListener('submit', function(e){ e.preventDefault(); submitResource(); }); bindFormCache(rf, LS_DRAFT_RES); }
+    var cf = document.getElementById('clsForm');
+    if(cf){ cf.addEventListener('submit', function(e){ e.preventDefault(); submitClass(); }); bindFormCache(cf, LS_DRAFT_CLS); }
+    var af = document.getElementById('accForm');
+    if(af){ af.addEventListener('submit', function(e){ e.preventDefault(); submitAccount(); }); bindFormCache(af, LS_DRAFT_ACC); }
+    var pm = document.getElementById('pf-mode');
+    if(pm){
+      pm.addEventListener('change', function(){
+        state.pushMode = pm.value || '全班';
+        state.pushTargets = {};
+        renderPushPicker();
+      });
+    }
+    var cfc = document.getElementById('cfCancel');
+    if(cfc) cfc.addEventListener('click', cancelEditClass);
+    var afc = document.getElementById('afCancel');
+    if(afc) afc.addEventListener('click', cancelEditAccount);
+    var pfc = document.getElementById('pfCancel');
+    if(pfc) pfc.addEventListener('click', cancelEditTask);
+    var rfc = document.getElementById('rfCancel');
+    if(rfc) rfc.addEventListener('click', cancelEditRes);
+    document.addEventListener('click', function(e){
+      var t = e.target;
+      var pick = t.closest ? t.closest('button[data-pick]') : null;
+      if(pick){
+        var kind = pick.getAttribute('data-pick');
+        var pid = pick.getAttribute('data-id');
+        if(kind === 'class'){ state.selClass = pid; renderClassList(); renderClassDetail(); }
+        else if(kind === 'acc'){ state.selAcc = pid; renderAccList(); renderAccDetail(); }
+        else if(kind === 'stu'){ state.selStu = pid; renderInsightList(); renderInsightDetail(); }
+        openDetail();
+        return;
+      }
+      var btn = t.closest ? t.closest('button[data-act]') : null;
+      if(!btn) return;
+      var act = btn.getAttribute('data-act');
+      var id = btn.getAttribute('data-id');
+      var nm = btn.getAttribute('data-name');
+      if(act === 'scope-class'){
+        state.scope = (state.scope === nm) ? '全部' : nm;
+        cacheSet(LS_SCOPE, state.scope);
+        refreshAll();
+      } else if(act === 'pick-target'){
+        if(isPicked(nm)) delete state.pushTargets[nm];
+        else state.pushTargets[nm] = true;
+        renderPushPicker();
+      } else if(act === 'toggle-acc'){
+        toggleAccount(id);
+      } else if(act === 'edit-class'){
+        startEditClass(id);
+      } else if(act === 'edit-acc'){
+        startEditAccount(id);
+      } else if(act === 'del-class'){
+        confirmThen(btn, function(){ deleteClass(id, nm); });
+      } else if(act === 'del-acc'){
+        confirmThen(btn, function(){ deleteAccount(id, nm); });
+      } else if(act === 'edit-task'){
+        startEditTask(id);
+      } else if(act === 'retract-task'){
+        retractTask(id);
+      } else if(act === 'del-task'){
+        confirmThen(btn, function(){ deleteTask(id, nm); });
+      } else if(act === 'edit-res'){
+        startEditRes(id);
+      } else if(act === 'del-res'){
+        confirmThen(btn, function(){ deleteResource(id, nm); });
+      } else if(act === 'goto-acc'){
+        var acc = accountOf(nm);
+        if(acc && acc._id) state.selAcc = acc._id;
+        /* 对齐班级筛选：否则该生可能被当前筛选排除，列表里没有高亮行 */
+        if(acc){
+          var kls = classOf(nm);
+          if(state.scope !== '全部' && kls !== state.scope){
+            state.scope = (kls === '未分班') ? '全部' : kls;
+            cacheSet(LS_SCOPE, state.scope);
+          }
+        }
+        setView('accounts');
+        refreshAll();
+        openDetail();
+        toast('已定位到「' + nm + '」的账户详情');
+      } else if(act === 'goto-task'){
+        setView('push');
+        startEditTask(id);
+      }
+    });
+  }
+
+  /* ---------------- boot ---------------- */
+  function boot(){
+    var savedScope = cacheGet(LS_SCOPE);
+    if(savedScope) state.scope = savedScope;
+    var savedView = cacheGet(LS_VIEW);
+    if(savedView && VIEWS[savedView]) state.view = savedView;
+    bindEvents();
+    renderNav();
+    loadSchemaOptions();
+    if(SDK){
+      refreshAll();
+      loadAll();
+    } else {
+      demoRows();
+      refreshAll();
+    }
+  }
+
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+  else boot();
+})();
+</script>
+</body>
+</html>
