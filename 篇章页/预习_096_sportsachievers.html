@@ -266,7 +266,7 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 .qz-q{font-size:15px;font-weight:600;line-height:1.6;margin:14px 0 8px}
 .qz-opts{display:flex;gap:8px;flex-wrap:wrap}
 .quiz-opt.dis{opacity:.45;pointer-events:none}
-.qz-canvas{position:absolute;inset:0;pointer-events:none}
+.qz-canvas{position:absolute;inset:0;pointer-events:none;z-index:5}
 .qz-canvas.on{pointer-events:auto;cursor:crosshair}
 .qz-submit{margin-top:16px;width:100%;border:none;border-radius:14px;padding:14px;font-size:16px;font-weight:800;background:#5a76d8;color:#fff;cursor:pointer}
 .qz-submit:disabled{opacity:.45;cursor:not-allowed}
@@ -796,8 +796,11 @@ function mkMode(m){
 }
 function mkClear(){ var c=$("qzCanvas"); c.getContext("2d").clearRect(0,0,c.width,c.height); }
 function resizeCanvas(){
-  var sec = $("qzSec"), c = $("qzCanvas");
-  c.width = sec.clientWidth; c.height = sec.scrollHeight;
+  requestAnimationFrame(function(){
+    var sec = $("qzSec"), c = $("qzCanvas");
+    if(!sec || !c) return;
+    c.width = sec.clientWidth; c.height = sec.scrollHeight;
+  });
 }
 function mkPos(e){
   var r = $("qzCanvas").getBoundingClientRect();

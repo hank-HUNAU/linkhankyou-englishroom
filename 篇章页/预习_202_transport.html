@@ -2,7 +2,7 @@
 <html lang="zh-CN"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>课文 p202 · 课文复习（跟读）</title>
+<title>课文 p202 · 课文预习（聆听）</title>
 <link rel="stylesheet" href="../ui.css">
 <script src="../ui.js"></script>
 <style>
@@ -266,7 +266,7 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 .qz-q{font-size:15px;font-weight:600;line-height:1.6;margin:14px 0 8px}
 .qz-opts{display:flex;gap:8px;flex-wrap:wrap}
 .quiz-opt.dis{opacity:.45;pointer-events:none}
-.qz-canvas{position:absolute;inset:0;pointer-events:none}
+.qz-canvas{position:absolute;inset:0;pointer-events:none;z-index:5}
 .qz-canvas.on{pointer-events:auto;cursor:crosshair}
 .qz-submit{margin-top:16px;width:100%;border:none;border-radius:14px;padding:14px;font-size:16px;font-weight:800;background:#5a76d8;color:#fff;cursor:pointer}
 .qz-submit:disabled{opacity:.45;cursor:not-allowed}
@@ -290,8 +290,9 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 .nb-tip{font-size:13px;line-height:1.75;color:var(--ink-2);background:var(--bg-soft);border-radius:10px;padding:10px 12px;margin:10px 0}
 .nb-audio{display:flex;gap:8px;margin:8px 0}
 
+.oit{position:relative}.oseq{position:absolute;top:-8px;right:-8px;background:#5a76d8;color:#fff;border-radius:999px;min-width:20px;height:20px;line-height:20px;font-size:12px;font-weight:800}
 </style></head>
-<body class="follow">
+<body class="listen">
 <div class="app">
 
   <header class="top">
@@ -312,7 +313,7 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
 
   <div class="flowbar">
     <nav class="steps" id="steps">
-      <div class="step on" data-s="follow"><b>2</b><span>跟读</span></div>
+      <div class="step on" data-s="listen"><b>1</b><span>预习（聆听）</span></div>
     </nav>
   </div>
 
@@ -324,19 +325,6 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
       <div class="body" id="body"></div>
     </div>
 
-    <div class="fstage" id="fstage">
-      <div class="fs-card" id="fsCard">
-        <div class="fs-txt" id="fsTxt"></div>
-        <div class="fs-hint" id="fsHint"></div>
-      </div>
-      <div class="fs-gap" id="fsGap">
-        <div class="fs-ring" id="fsRing"></div>
-        <div class="fs-gap-msg" id="fsGapMsg">该你开口 · 跟读这段</div>
-        <div id="fsGapWords" style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:8px"></div>
-        <div class="fs-gapbar"><div class="fs-gapbar-i" id="fsGapBar"></div></div>
-      </div>
-    </div>
-
   </main>
   <footer class="dock">
     <div class="dgroup">
@@ -345,17 +333,10 @@ body.follow #dkDots .lp-dot.on{background:var(--green)}
       <button class="tbtn" id="next" title="下一条"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 17 5-5-5-5M12 17l5-5-5-5"></path></svg></button>
     </div>
     <div class="dmid">
-      <span class="di" id="dkCntR"><span class="lbl">句</span><span class="num" id="dkS">1/1</span></span>
       <span class="di-dots" id="dkDots"></span>
       <button class="chip" id="cnToggle">译文</button>
-      <span class="dlp">
-        <span class="dlp-t">步骤</span>
-        <span class="fpass" id="fpass">
-        <span class="fpc on" data-s="1" title="逐句跟读：边听边读 → 播完一句看生词提示 → 开口跟读">跟读</span>
-        </span>
-      </span>
     </div>
-    <button class="cta" id="nextStage">进入 听写 →</button>
+    <button class="cta" id="nextStage">进入 复习 →</button>
   </footer>
 
 </div>
@@ -536,8 +517,8 @@ function initDB(){ TL=DB.TL; ZH=DB.ZH||{}; TITLE_START=DB.TITLE_START;
   ENTITY=DB.ENTITY||{}; ENTITYMULTI=DB.ENTITYMULTI||{}; LEVEL=DB.LEVEL||{}; TOPIC=DB.TOPIC||{}; BASE=DB.BASE||{}; TRAP=DB.TRAP||{}; }
 
 /* == 三页互链注入点（_gen_follow_v2.py 注入本篇 预习/复习/听写 文件名） == */
-var SIBLINGS={"listen": "预习_202_p202.html", "follow": "复习_202_p202.html", "dictate": "听写_202_p202.html"};
-var CUR="follow";
+var SIBLINGS={"listen": "预习_202_transport.html", "follow": "复习_202_transport.html", "dictate": "听写_202_transport.html"};
+var CUR="listen";
 var QUIZ = [];
 var TASKS = (function(){ var m=(location.search||"").match(/[?&]tasks=([\w,]+)/); return m ? m[1].split(",") : null; })();
 function tasksAllow(k){ return !TASKS || TASKS.indexOf(k) >= 0; }
@@ -640,7 +621,7 @@ function setPlayIc(on){
 }
 
 /* == 跟读间隙生词提示（方案A：unknown 优先，fuzzy 补位）+ 听写本错词入待复习（v1 全量保留） == */
-var VQKEY = "";
+var VQKEY = "u12_p202_transport";
 function vqRecords(){ try{ return JSON.parse(localStorage.getItem(VQKEY + "_records_v2")) || {}; }catch(e){ return {}; } }
 function vqMark(word, status){
   if(!VQKEY) return;
@@ -698,166 +679,184 @@ document.addEventListener("DOMContentLoaded", function(){
   };
 });
 
-/* ========== 复习（跟读）：听句 → 间隙生词提示（方案A） → 开口（v1 第1步全量保留，影子已下线） ========== */
-var FOL={ fstep:1, idx:0, ci:0, start:0, end:0, gap:false, next:null, timer:null, track:[], _cur:-1 };
-var FOL_HINT='第 1 步 · 跟句：听完整一句 → 暂停 → 开口跟读整句（注意停顿与语调）';
-function folTokens(s){
-  var parts=[], re=/([A-Za-z']+|\d+)|([^A-Za-z'0-9]+)/g, m;
-  while((m=re.exec(s))){ if(m[1]!==undefined) parts.push({word:m[1]}); else parts.push({p:m[2]}); }
-  return parts;
+/* ========== 预习（聆听）：整篇循环 + 盲听答题（v1 功能全量保留） ========== */
+var QZ = {done:false};
+function quizDone(){ return QZ.done || PROG.listen; }
+var LCOUNT={ n:0, p:0 };
+function setListenN(n){
+  var dots=$("dkDots"); if(dots){ dots.innerHTML=""; for(var i=0;i<3;i++){ var d=document.createElement("span"); d.className="lp-dot"+((i<n)?" on":""); dots.appendChild(d); } }
 }
-/* 按词长把句段时间分摊到每个词 → 词级时间轴（无词级标注时的近似） */
-function folWordTimes(s, st, en){
-  var toks=folTokens(s), total=0;
-  toks.forEach(function(t){ if(t.word!==undefined) total+=t.word.length; });
-  if(!total){ toks.forEach(function(t){ if(t.word!==undefined){ t.st=st; t.en=en; } }); return toks; }
-  var t=st;
-  toks.forEach(function(tok){
-    if(tok.word===undefined) return;
-    var d=(en-st)*tok.word.length/total;
-    tok.st=t; tok.en=t+d; t+=d;
-  });
-  return toks;
+function listenLoop(){
+  if(LCOUNT.p!==state.pg) return;
+  LCOUNT.n++;
+  PROG.listen=true; saveFollow();
+  if(LCOUNT.n>=3){ setListenN(0); toast("聆听 3 遍完成，进入复习跟读"); setTimeout(function(){ location.href=SIBLINGS.follow; }, 900); }
+  else { setListenN(LCOUNT.n); startFrom(); }
 }
-function renderTokenSpans(toks){
-  var box=$("fsTxt"); box.innerHTML="";
-  FOL.track.length=0; FOL._cur=-1;
-  toks.forEach(function(tok){
-    if(tok.p!==undefined){ box.appendChild(document.createTextNode(tok.p)); return; }
-    var sp=document.createElement("span"); sp.className="fol-w"; sp.textContent=tok.word;
-    box.appendChild(sp); FOL.track.push({el:sp, st:tok.st, en:tok.en});
-  });
-}
-function wordAt(ts){
-  var tr=FOL.track, res=-1;
-  for(var i=0;i<tr.length;i++){ if(ts>=tr[i].st-0.012){ res=i; } else break; }
-  return res;
-}
-function maybeScrollWord(el){
-  var card=$("fsCard"), cr=card.getBoundingClientRect(), er=el.getBoundingClientRect();
-  if(er.top<cr.top+8 || er.bottom>cr.bottom-8){ el.scrollIntoView({block:"center",behavior:"smooth"}); }
-}
-function updateShadowCursors(t){
-  var tr=FOL.track; if(!tr.length) return;
-  var c=wordAt(t);
-  if(c!==FOL._cur){ if(FOL._cur>=0&&FOL._cur<tr.length) tr[FOL._cur].el.classList.remove("cur"); FOL._cur=c; if(c>=0&&c<tr.length){ tr[c].el.classList.add("cur"); maybeScrollWord(tr[c].el); } }
-}
-function setFollowHint(){
-  $("fsHint").innerHTML='<div class="fol-legend"><i><span class="k k1"></span>音频正在这里</i></div>' + FOL_HINT;
-}
-function followPlaySentence(i){
-  cancelGap();
-  state.idx=i; FOL.ci=0; setActiveSentence(i);
-  var tl=TL[state.pg][i];
-  FOL.start=tl[0]; FOL.end=tl[1];
-  renderTokenSpans(folWordTimes(SEGS[i], tl[0], tl[1]));
-  $("fsCard").classList.remove("whole");
-  setFollowHint();
-  setFollowUI();
-  jump(tl[0], true);
-}
-/* ---------- 「该你开口」间隙：暂停 + 倒计时条，走完自动进入下一段 ---------- */
-function showGap(dur, msg, next){
-  FOL.gap=true; FOL.next=next;
-  audio.pause(); setPlayIc(false);
-  var g=$("fsGap"), bar=$("fsGapBar"), m=$("fsGapMsg");
-  if(m) m.textContent=msg;
-  if(g) g.classList.add("on");
-  if(bar) bar.style.width="0%";
-  var t0=Date.now(), ms=Math.max(700, dur*1000);
-  if(FOL.timer) clearInterval(FOL.timer);
-  FOL.timer=setInterval(function(){
-    var p=(Date.now()-t0)/ms; if(p>1) p=1;
-    if(bar) bar.style.width=(p*100).toFixed(1)+"%";
-    if(p>=1){
-      clearInterval(FOL.timer); FOL.timer=null;
-      var nx=FOL.next; FOL.next=null; hideGap();
-      if(nx) nx();
-    }
-  }, 40);
-}
-function hideGap(){ FOL.gap=false; var g=$("fsGap"); if(g) g.classList.remove("on"); }
-function resumeGap(){  /* 间隙里按播放：不等倒计时，立刻进入下一段 */
-  if(FOL.timer){ clearInterval(FOL.timer); FOL.timer=null; }
-  var nx=FOL.next; FOL.next=null; hideGap();
-  if(nx) nx();
-}
-function cancelGap(){
-  FOL.gap=false; FOL.next=null;
-  if(FOL.timer){ clearInterval(FOL.timer); clearTimeout(FOL.timer); FOL.timer=null; }
-  var g=$("fsGap"); if(g) g.classList.remove("on");
-}
-/* 第1步：一句播完 → 让出跟读时间 → 下一句；末句 → 跟读完成 */
-function followSentenceEnd(){
-  var si=state.idx, lastSent=si>=SEGS.length-1;
-  showGap(Math.min(5.5, Math.max(1.8, (FOL.end-FOL.start)*0.8)), '该你开口 · 跟读整句', function(){
-    if(!lastSent) return followPlaySentence(si+1);
-    finishFollow();
-  });
-  renderGapWords(si);
-}
-function finishFollow(){
-  PROG.follow=true; audio.pause(); setPlayIc(false); setFollowUI(); saveFollow();
-  toast("逐句跟读完成 ✓ 进入听写");
-  setTimeout(function(){ location.href=SIBLINGS.dictate; }, 900);
-}
-function enterFollow(){
-  cancelGap();
-  FOL.idx=0; FOL._cur=-1;
-  setFollowUI();
-  followPlaySentence(0);
-}
-function setFollowUI(){
-  var ct=$("dkS");
-  if(ct) ct.textContent=(state.idx+1)+"/"+SEGS.length;
-  var cnt=$("dkCntR"); if(cnt) cnt.style.display="";
-  var dots=$("dkDots"); if(dots) dots.innerHTML="";
-}
+audio.addEventListener("ended", function(){
+  if(!seeking){
+    if(QUIZ.length && !quizDone()){ showQuiz(); return; }
+    listenLoop();
+  }
+});
 
-/* ---------- 单环节状态机（复习） ---------- */
+/* 盲听：答题（≥75% 记完成）前隐去原文 */
+function applyBlind(){
+  var b = $("body");
+  if(!b) return;
+  if(QUIZ.length && !quizDone()){ b.classList.add("blind"); showQuizBanner(); }
+  else { b.classList.remove("blind"); var bn=$("quizBanner"); if(bn) bn.classList.add("hide"); }
+}
+function showQuizBanner(){
+  var bn = $("quizBanner");
+  if(!bn){
+    bn = document.createElement("div"); bn.id="quizBanner"; bn.className="quiz-banner";
+    bn.innerHTML = '<span>📖 预习（聆听）：全文整体听 · 阅读题目 —— 听后做题</span><button onclick="showQuiz()">答题</button>';
+    var reader = $("reader") || document.body;
+    reader.parentNode.insertBefore(bn, reader);
+  }
+  bn.classList.remove("hide");
+}
+var QZB = {answered:false, submitted:false};
+var MK = {mode:null, down:false, sx:0, sy:0, ctx:null};
+function showQuiz(){
+  audio.pause(); setPlayIc(false);
+  QZB.answered=false; QZB.submitted=false;
+  $("quizOv").classList.add("on");
+  $("qzSubmit").disabled = true; $("qzSubmit").textContent = "🔊 全文整体听 · 听后作答";
+  $("qzTip").textContent = "📖 阅读题目 · 听后做题（可用下划线/画圈标记）";
+  var html = QUIZ.map(function(q,i){
+    var inner = "";
+    if(q.t==="tf") inner = ["T","F","DS"].map(function(o){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+o+'">'+(o==="T"?"✓ T":(o==="F"?"✗ F":"? DS"))+'</button>'; }).join("");
+    else if(q.t==="order") inner = q.items.map(function(it,ii){ return '<button class="quiz-opt oit dis" data-qi="'+i+'" data-k="'+it.k+'">'+escQ(it.txt)+'</button>'; }).join("");
+    else inner = q.opts.map(function(o,oi){ return '<button class="quiz-opt dis" data-qi="'+i+'" data-ans="'+oi+'">'+escQ(o)+'</button>'; }).join("");
+    return '<div class="qz-q">'+(i+1)+'. '+escQ(q.q)+'</div><div class="quiz-opts">'+inner+'</div>';
+  }).join("");
+  $("qzBody").innerHTML = html;
+  $("qzBody").querySelectorAll(".quiz-opt").forEach(function(b){
+    b.addEventListener("click", function(){
+      var q = QUIZ[+b.dataset.qi];
+      if(q.t==="order"){
+        var box = b.parentNode;
+        var seq = (box.dataset.user||"").split(",").filter(Boolean);
+        if(b.dataset.seq){ b.dataset.seq=""; seq = seq.filter(function(k){return k!==b.dataset.k;}); }
+        else { seq.push(b.dataset.k); b.dataset.seq = String(seq.length); }
+        box.dataset.user = seq.join(",");
+        box.querySelectorAll(".oit").forEach(function(x){ x.dataset.seq = ""; });
+        seq.forEach(function(k, si){ var t = box.querySelector('.oit[data-k="'+k+'"]'); if(t) t.dataset.seq = String(si+1); });
+        box.querySelectorAll(".oit").forEach(function(x){ x.classList.remove("ok","no"); var n = x.querySelector(".oseq"); if(n) n.remove();
+          if(x.dataset.seq) { var tag = document.createElement("span"); tag.className="oseq"; tag.textContent = "①②③④⑤⑥"[+x.dataset.seq-1]||x.dataset.seq; x.appendChild(tag); } });
+        if(seq.length === q.items.length){
+          var okAll = seq.join("") === q.a;
+          box.querySelectorAll(".oit").forEach(function(x){
+            x.classList.add(okAll && x.dataset.seq ? "ok" : "no");
+          });
+          if(okAll){ box.querySelectorAll(".oit").forEach(function(x){ x.classList.add("ok"); }); }
+          box.dataset.user = seq.join(",");
+        }
+        checkAllAnswered();
+        return;
+      }
+      var ok = (q.t==="tf") ? (b.dataset.ans===q.a) : (+b.dataset.ans===q.a);
+      b.parentNode.querySelectorAll(".quiz-opt").forEach(function(x){ x.classList.remove("ok","no"); });
+      b.classList.add(ok ? "ok" : "no");
+      if(!ok){ b.parentNode.querySelectorAll(".quiz-opt")[q.t==="tf" ? ["T","F","DS"].indexOf(q.a) : q.a].classList.add("ok"); }
+      checkAllAnswered();
+    });
+  });
+  resizeCanvas(); mkMode(null);
+}
+function checkAllAnswered(){
+  var btns = $("qzBody").querySelectorAll(".quiz-opt.ok,.quiz-opt.no");
+  var need = 0; QUIZ.forEach(function(q){ need++; });
+  if(btns.length >= need && !QZB.submitted){ QZB.submitted = true; submitQuiz(); }
+}
+function submitQuiz(){
+  var score = 0;
+  QUIZ.forEach(function(q,i){
+    var sel = $("qzBody").querySelector('.quiz-opt.ok[data-qi="'+i+'"]');
+    var ans = sel ? sel.dataset.ans : null;
+    var ok = q.t==="tf" ? (ans===q.a) : (q.t==="order" ? (ans===q.a) : (+ans===q.a));
+    if(ok) score++;
+  });
+  var pass = score >= Math.ceil(QUIZ.length*0.75);
+  $("qzSubmit").textContent = "得分 " + score + " / " + QUIZ.length + (pass ? " · 🎉 预习完成，正文已解锁" : " · 再听一遍试试");
+  $("qzSubmit").disabled = false;
+  $("qzSubmit").onclick = function(){ closeQuiz(); };
+  if(pass){ QZ.done=true; PROG.listen=true; saveFollow(); applyBlind(); }
+}
+function closeQuiz(){ $("quizOv").classList.remove("on"); applyBlind(); }
+/* 标记：下划线/画圈（鼠标+触摸手势） */
+function mkMode(m){
+  MK.mode = (MK.mode===m) ? null : m;
+  $("mkU").classList.toggle("on", MK.mode==="u");
+  $("mkC").classList.toggle("on", MK.mode==="c");
+  var c = $("qzCanvas"); c.classList.toggle("on", !!MK.mode);
+  if(MK.mode) resizeCanvas();
+}
+function mkClear(){ var c=$("qzCanvas"); c.getContext("2d").clearRect(0,0,c.width,c.height); }
+function resizeCanvas(){
+  requestAnimationFrame(function(){
+    var sec = $("qzSec"), c = $("qzCanvas");
+    if(!sec || !c) return;
+    c.width = sec.clientWidth; c.height = sec.scrollHeight;
+  });
+}
+function mkPos(e){
+  var r = $("qzCanvas").getBoundingClientRect();
+  var t = e.touches ? e.touches[0] : e;
+  return {x:t.clientX-r.left, y:t.clientY-r.top};
+}
+function mkStart(e){
+  if(!MK.mode) return; e.preventDefault();
+  MK.down = true; var p = mkPos(e); MK.sx = p.x; MK.sy = p.y;
+  MK.ctx = $("qzCanvas").getContext("2d");
+  MK.ctx.strokeStyle = "#f2b706"; MK.ctx.lineWidth = MK.mode==="u" ? 2.5 : 3; MK.ctx.lineCap = "round";
+  if(MK.mode==="c") MK.ctx.beginPath(), MK.ctx.moveTo(p.x,p.y);
+}
+function mkMove(e){
+  if(!MK.down || !MK.mode) return; e.preventDefault();
+  var p = mkPos(e), ctx = MK.ctx;
+  if(MK.mode==="u"){ ctx.clearRect(MK.sx-1, MK.sy-9, p.x-MK.sx+2, 18); ctx.beginPath(); ctx.moveTo(MK.sx, MK.sy); ctx.lineTo(p.x, p.y); ctx.stroke(); }
+  else { ctx.lineTo(p.x, p.y); ctx.stroke(); }
+}
+function mkEnd(){ MK.down = false; }
+
+/* ---------- 单环节状态机（预习） ---------- */
 function setStage(s){
-  document.body.className = "follow" + (state.dialog?" dialog":"");
+  document.body.className = "listen" + (state.dialog?" dialog":"");
   syncCnUI();
-  enterFollow();
+  LCOUNT={ n:0, p:state.pg }; setListenN(0);
+  applyBlind();
 }
 function syncCnUI(){
   var t=$("cnToggle"); if(!t) return;
-  t.classList.remove("on");
-  t.classList.add("off");
-  t.disabled = true;
-  document.querySelectorAll(".sent .zh").forEach(function(z){ z.classList.add("hide"); });
+  t.classList.toggle("on", state.cn);
+  document.querySelectorAll(".sent .zh").forEach(function(z){ z.classList.toggle("hide",!state.cn); });
 }
 function bindSentClicks(){
   $("body").addEventListener("click",function(e){
     var sent=e.target.closest(".sent"); if(!sent) return;
-    playSentence(+sent.dataset.i);
+    state.idx=+sent.dataset.i;
+    jump(TL[state.pg][state.idx][0], false);
   });
 }
-function playSentence(i){
-  cancelGap();
-  state.idx=i; setActiveSentence(i);
-  followPlaySentence(i);
-}
 function togglePlay(){
-  if(audio.paused){ if(FOL.gap){ resumeGap(); } else followPlaySentence(state.idx); }
+  if(audio.paused){ if(audio.ended || audio.currentTime===0){ startFrom(); } else audio.play(); }
   else audio.pause();
 }
 function nxt(d){ var L=SEGS.length; var i=Math.max(0,Math.min(L-1,state.idx+d));
-  playSentence(i); }
+  state.idx=i; jump(TL[state.pg][i][0], false); }
 audio.addEventListener("timeupdate", function(){
   var t=audio.currentTime; if(!isFinite(t)) return;
-  updateShadowCursors(t);
-  if(seeking || FOL.gap) return;
-  if(t>=TL[state.pg][state.idx][1]){
-    if(state.loopLeft>0){ state.loopLeft--; jump(TL[state.pg][state.idx][0], true); return; }
-    followSentenceEnd();
+  var tls=TL[state.pg], lastI=tls.length-1, wholeEnd=tls[lastI][1];
+  if(!seeking && t>=wholeEnd){
+    if(state.loopLeft>0){ state.loopLeft--; jump(tls[0][0], true); toast("整篇循环 · 剩 "+state.loopLeft+" 遍"); return; }
+    audio.pause(); return;
   }
+  highlightAt(t);
 });
-$("fsCard").addEventListener("click",function(){
-  if(FOL.gap){ resumeGap(); return; }
-  followPlaySentence(state.idx);
-});
-$("nextStage").onclick=function(){ location.href=SIBLINGS.dictate; };
+$("nextStage").onclick=function(){ location.href=SIBLINGS.follow; };
 
 </script></script>
 <script>
@@ -932,7 +931,13 @@ document.addEventListener("DOMContentLoaded",function(){
   ID("loopBtn").onclick=function(){ var N=[1,2,3,5], I=N.indexOf(state.loopN); state.loopN=N[(I+1)%4]; state.loopLeft=state.loopN-1; ID("loopBtn").textContent="↻"+state.loopN; toast(state.loopN>1?("循环 "+state.loopN+" 次（跟读=每句，聆听=整篇）"):"循环关闭"); };
   var t0=Date.now(); setInterval(function(){ var s=Math.floor((Date.now()-t0)/1000); ID("timerChip").textContent=("0"+Math.floor(s/60)).slice(-2)+":"+("0"+s%60).slice(-2); },1000);
   build(); paint();
-    /* 本环节无答题板绑定 */
+    applyBlind();
+  var qc = ID("qzCanvas");
+  ["mousedown","touchstart"].forEach(function(ev){ qc.addEventListener(ev, mkStart, {passive:false}); });
+  ["mousemove","touchmove"].forEach(function(ev){ qc.addEventListener(ev, mkMove, {passive:false}); });
+  ["mouseup","mouseleave","touchend","touchcancel"].forEach(function(ev){ qc.addEventListener(ev, mkEnd); });
+  ID("qzSubmit").addEventListener("click", function(){ if(QZB.submitted) closeQuiz(); });
+  window.addEventListener("resize", function(){ if($("quizOv").classList.contains("on")) resizeCanvas(); });
   ID("openDir").addEventListener("click",function(e){ e.stopPropagation(); openDir(); });
   ID("curTab").addEventListener("click",openDir);
   ID("curTab").addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){e.preventDefault();openDir();} });
@@ -946,7 +951,7 @@ document.addEventListener("DOMContentLoaded",function(){
 })();
 </script>
 
-<!-- 分组目录面板（v2：只列本篇三环节互链，由 {"listen": "预习_202_p202.html", "follow": "复习_202_p202.html", "dictate": "听写_202_p202.html"} 注入） -->
+<!-- 分组目录面板（v2：只列本篇三环节互链，由 {"listen": "预习_202_transport.html", "follow": "复习_202_transport.html", "dictate": "听写_202_transport.html"} 注入） -->
 <div class="dir" id="dir">
   <div class="dir-panel">
     <div class="dir-head">
@@ -957,5 +962,18 @@ document.addEventListener("DOMContentLoaded",function(){
     <div class="dir-body" id="dirGroups"></div>
   </div>
 </div>
+
+<div class="qzboard" id="quizOv"><div class="qz-card">
+  <div class="qz-head">
+    <span class="qz-tip" id="qzTip">📖 阅读题目 · 听后做题</span>
+    <span class="qz-tools">
+      <button class="qz-tool" id="mkU" onclick="mkMode('u')">下划线</button>
+      <button class="qz-tool" id="mkC" onclick="mkMode('c')">画圈</button>
+      <button class="qz-tool" onclick="mkClear()">清除</button>
+    </span>
+  </div>
+  <div class="qz-sec" id="qzSec"><canvas class="qz-canvas" id="qzCanvas"></canvas><div id="qzBody"></div></div>
+  <button class="qz-submit" id="qzSubmit" disabled>🔊 听后作答（播放中…）</button>
+</div></div>
 
 </body></html>
