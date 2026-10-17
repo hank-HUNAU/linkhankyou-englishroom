@@ -964,7 +964,7 @@ function actBtn(action, label, cls){
    词汇 = 诊断页已生成的单元（U7–U12 均已产出 词汇诊断/词汇诊断_<key>.html）
    跟读 = 篇章页三页已生成（FOLLOW_FILES[pg]={listen,follow,dictate} 由 _gen_follow_v2.py 维护） */
 var LIVE_VOCAB_RE = /^u(7|8|9|10|11|12)_/;
-function vocabLive(key){ var k=String(key||''); if(k==='u12_p202_transport') return false; /* p202 文化视频无词汇诊断页，避免404 */ return LIVE_VOCAB_RE.test(k); }
+function vocabLive(key){ var k=String(key||''); return LIVE_VOCAB_RE.test(k); }
 function followLive(p){
   var pg = parseInt(String(p).replace(/^p/,''), 10);
   return !!(window.FOLLOW_FILES && FOLLOW_FILES[pg]);
