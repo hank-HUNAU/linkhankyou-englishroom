@@ -1046,13 +1046,7 @@ function renderFlow(){
 function openPassageAction(key, act){
   var found = findPassage(key); if(!found) return;
   currentUnit = found.u; currentPg = found.p;
-  var u = UNITS.find(function(x){return x.key===currentUnit;});
-  $('pgTitle').textContent = currentPg.title;
-  $('pgSub').textContent = 'Unit '+u.n+' · '+u.title+' · '+currentPg.kind+' · '+currentPg.p;
-  renderFlow();
-  showView('passage');
-  if(act==='vocab'){
-    if(act==='vocab'){ openVocabEngine(); return; }
+  if(act==='vocab'){ openVocabEngine(); return; }
   if(act==='follow'){ openFollowEngine('listen'); return; }
 }
 function el_query(sel){ return document.querySelector(sel); }
