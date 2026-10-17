@@ -1,0 +1,5495 @@
+{
+ "p066": {
+  "audio": "assets/p066.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 12.142,
+    "end_s": 174.733,
+    "text": "A slam dunk and the crowds cheer! A game of sports can be so exciting. All over the world, people love watching sports, talking about sports and playing sports. Can you guess why? Ball sports are very popular. For example, football. Half of the world loves football. That's almost four billion people. Volleyball is another popular ball sport. You probably know it. But here in Laos they don't play volleyball with their hands and arms. They play it with their feet, head and knees. This game is called Sepak takraw – kick volleyball. People love playing it in southeast Asia. Dodgeball is another great ball game. Do you play it at school? You have to be very good at throwing and catching the ball. Bowling uses a different kind of ball – a very hard ball. You can't kick it. You roll it and try to knock over the pins at the end of the lane. Young and old people can play this game. Do you know squash? Lots of people like playing it. Usually, it's a game between two players but you can also play in a team. Players hit the ball against four walls, and it's a very quick sport! But you have to be careful so you don't get hit. What's your favourite sport?",
+    "sent_count": 27,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 12.142,
+      "end_s": 17.185,
+      "dur_s": 5.043,
+      "text": "A slam dunk and the crowds cheer!"
+     },
+     {
+      "i": 1,
+      "start_s": 17.185,
+      "end_s": 23.083,
+      "dur_s": 5.898,
+      "text": "A game of sports can be so exciting."
+     },
+     {
+      "i": 2,
+      "start_s": 23.097,
+      "end_s": 34.582,
+      "dur_s": 11.485,
+      "text": "All over the world, people love watching sports, talking about sports and playing sports."
+     },
+     {
+      "i": 3,
+      "start_s": 35.32,
+      "end_s": 38.188,
+      "dur_s": 2.868,
+      "text": "Can you guess why?"
+     },
+     {
+      "i": 4,
+      "start_s": 38.188,
+      "end_s": 42.823,
+      "dur_s": 4.635,
+      "text": "Ball sports are very popular."
+     },
+     {
+      "i": 5,
+      "start_s": 43.765,
+      "end_s": 45.966,
+      "dur_s": 2.201,
+      "text": "For example, football."
+     },
+     {
+      "i": 6,
+      "start_s": 46.015,
+      "end_s": 50.206,
+      "dur_s": 4.191,
+      "text": "Half of the world loves football."
+     },
+     {
+      "i": 7,
+      "start_s": 50.206,
+      "end_s": 55.384,
+      "dur_s": 5.178,
+      "text": "That's almost four billion people."
+     },
+     {
+      "i": 8,
+      "start_s": 56.457,
+      "end_s": 60.852,
+      "dur_s": 4.395,
+      "text": "Volleyball is another popular ball sport."
+     },
+     {
+      "i": 9,
+      "start_s": 61.42,
+      "end_s": 63.975,
+      "dur_s": 2.555,
+      "text": "You probably know it."
+     },
+     {
+      "i": 10,
+      "start_s": 65.531,
+      "end_s": 71.438,
+      "dur_s": 5.907,
+      "text": "But here in Laos they don't play volleyball with their hands and arms."
+     },
+     {
+      "i": 11,
+      "start_s": 72.106,
+      "end_s": 78.582,
+      "dur_s": 6.476,
+      "text": "They play it with their feet, head and knees."
+     },
+     {
+      "i": 12,
+      "start_s": 79.195,
+      "end_s": 86.97,
+      "dur_s": 7.775,
+      "text": "This game is called Sepak takraw – kick volleyball."
+     },
+     {
+      "i": 13,
+      "start_s": 86.97,
+      "end_s": 91.173,
+      "dur_s": 4.203,
+      "text": "People love playing it in southeast Asia."
+     },
+     {
+      "i": 14,
+      "start_s": 91.986,
+      "end_s": 97.254,
+      "dur_s": 5.268,
+      "text": "Dodgeball is another great ball game."
+     },
+     {
+      "i": 15,
+      "start_s": 98.192,
+      "end_s": 101.29,
+      "dur_s": 3.098,
+      "text": "Do you play it at school?"
+     },
+     {
+      "i": 16,
+      "start_s": 102.312,
+      "end_s": 108.543,
+      "dur_s": 6.231,
+      "text": "You have to be very good at throwing and catching the ball."
+     },
+     {
+      "i": 17,
+      "start_s": 108.638,
+      "end_s": 118.197,
+      "dur_s": 9.559,
+      "text": "Bowling uses a different kind of ball – a very hard ball."
+     },
+     {
+      "i": 18,
+      "start_s": 118.321,
+      "end_s": 121.14,
+      "dur_s": 2.819,
+      "text": "You can't kick it."
+     },
+     {
+      "i": 19,
+      "start_s": 121.14,
+      "end_s": 129.87,
+      "dur_s": 8.73,
+      "text": "You roll it and try to knock over the pins at the end of the lane."
+     },
+     {
+      "i": 20,
+      "start_s": 129.97,
+      "end_s": 135.732,
+      "dur_s": 5.762,
+      "text": "Young and old people can play this game."
+     },
+     {
+      "i": 21,
+      "start_s": 135.746,
+      "end_s": 140.182,
+      "dur_s": 4.436,
+      "text": "Do you know squash?"
+     },
+     {
+      "i": 22,
+      "start_s": 140.196,
+      "end_s": 144.626,
+      "dur_s": 4.43,
+      "text": "Lots of people like playing it."
+     },
+     {
+      "i": 23,
+      "start_s": 144.626,
+      "end_s": 154.983,
+      "dur_s": 10.357,
+      "text": "Usually, it's a game between two players but you can also play in a team."
+     },
+     {
+      "i": 24,
+      "start_s": 154.998,
+      "end_s": 164.137,
+      "dur_s": 9.139,
+      "text": "Players hit the ball against four walls, and it's a very quick sport!"
+     },
+     {
+      "i": 25,
+      "start_s": 164.137,
+      "end_s": 170.258,
+      "dur_s": 6.121,
+      "text": "But you have to be careful so you don't get hit."
+     },
+     {
+      "i": 26,
+      "start_s": 170.867,
+      "end_s": 174.733,
+      "dur_s": 3.866,
+      "text": "What's your favourite sport?"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 27
+ },
+ "p067": {
+  "audio": "assets/p067.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 9.678,
+    "end_s": 146.452,
+    "text": "Nikolai Kutsenko, from Ukraine, can do amazing things with a football. He can kick a ball well ... but he can also keep the ball in the air with his feet, legs and head. Lots of footballers can do this. But can they do it for 24 hours and 30 minutes without stopping? Nikolai can and it's a world record! Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old! Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes! Sloan loves to be on the board. People are often surprised when they see her because she doesn't fall over! American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well. She is the winner of two climbing World Championships for disabled athletes, and five national championships. She has her own special way of climbing, but Maureen thinks she is just the same as any other climber. Goatee can't talk or write, but she can surf! Why is this special? Because Goatee is a goat! She surfs with her owner, Dana McGregor. Dana helps Goatee to stand on the board and together they ride the waves in California. Goatee wears a yellow life-jacket because she can't swim very well! And now there is a children's book about her, too – Dana is the author.",
+    "sent_count": 19,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 9.678,
+      "end_s": 16.124,
+      "dur_s": 6.446,
+      "text": "Nikolai Kutsenko, from Ukraine, can do amazing things with a football."
+     },
+     {
+      "i": 1,
+      "start_s": 16.258,
+      "end_s": 25.023,
+      "dur_s": 8.765,
+      "text": "He can kick a ball well ... but he can also keep the ball in the air with his feet, legs and head."
+     },
+     {
+      "i": 2,
+      "start_s": 25.47,
+      "end_s": 28.68,
+      "dur_s": 3.21,
+      "text": "Lots of footballers can do this."
+     },
+     {
+      "i": 3,
+      "start_s": 29.5,
+      "end_s": 36.921,
+      "dur_s": 7.421,
+      "text": "But can they do it for 24 hours and 30 minutes without stopping?"
+     },
+     {
+      "i": 4,
+      "start_s": 36.921,
+      "end_s": 40.383,
+      "dur_s": 3.462,
+      "text": "Nikolai can and it's a world record!"
+     },
+     {
+      "i": 5,
+      "start_s": 42.379,
+      "end_s": 52.621,
+      "dur_s": 10.242,
+      "text": "Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!"
+     },
+     {
+      "i": 6,
+      "start_s": 52.845,
+      "end_s": 61.086,
+      "dur_s": 8.241,
+      "text": "Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!"
+     },
+     {
+      "i": 7,
+      "start_s": 62.129,
+      "end_s": 65.466,
+      "dur_s": 3.337,
+      "text": "Sloan loves to be on the board."
+     },
+     {
+      "i": 8,
+      "start_s": 65.466,
+      "end_s": 70.575,
+      "dur_s": 5.109,
+      "text": "People are often surprised when they see her because she doesn't fall over!"
+     },
+     {
+      "i": 9,
+      "start_s": 72.01,
+      "end_s": 86.668,
+      "dur_s": 14.658,
+      "text": "American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well."
+     },
+     {
+      "i": 10,
+      "start_s": 87.995,
+      "end_s": 97.144,
+      "dur_s": 9.149,
+      "text": "She is the winner of two climbing World Championships for disabled athletes, and five national championships."
+     },
+     {
+      "i": 11,
+      "start_s": 97.89,
+      "end_s": 109.456,
+      "dur_s": 11.566,
+      "text": "She has her own special way of climbing, but Maureen thinks she is just the same as any other climber."
+     },
+     {
+      "i": 12,
+      "start_s": 109.456,
+      "end_s": 113.921,
+      "dur_s": 4.465,
+      "text": "Goatee can't talk or write, but she can surf!"
+     },
+     {
+      "i": 13,
+      "start_s": 115.019,
+      "end_s": 116.83,
+      "dur_s": 1.811,
+      "text": "Why is this special?"
+     },
+     {
+      "i": 14,
+      "start_s": 116.83,
+      "end_s": 119.873,
+      "dur_s": 3.043,
+      "text": "Because Goatee is a goat!"
+     },
+     {
+      "i": 15,
+      "start_s": 119.883,
+      "end_s": 123.764,
+      "dur_s": 3.881,
+      "text": "She surfs with her owner, Dana McGregor."
+     },
+     {
+      "i": 16,
+      "start_s": 124.622,
+      "end_s": 132.714,
+      "dur_s": 8.092,
+      "text": "Dana helps Goatee to stand on the board and together they ride the waves in California."
+     },
+     {
+      "i": 17,
+      "start_s": 133.756,
+      "end_s": 139.42,
+      "dur_s": 5.664,
+      "text": "Goatee wears a yellow life-jacket because she can't swim very well!"
+     },
+     {
+      "i": 18,
+      "start_s": 139.488,
+      "end_s": 146.452,
+      "dur_s": 6.964,
+      "text": "And now there is a children's book about her, too – Dana is the author."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 19
+ },
+ "p069": {
+  "audio": "assets/p069.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.121,
+    "end_s": 99.798,
+    "text": "Hi, Julia. It's me, Mike. Hi, Mike. How's it going? Do you want to go cycling later today? Go cycling? Good idea. What time? How about after lunch? Say, two o'clock? Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two. OK, how about three o'clock? No, the lesson only finishes at half past three. OK, so how about four o'clock? I can't. Mum wants to give me a tennis lesson at four. Until what time? I'm not sure. Maybe about quarter to five? Really? But we can't go cycling then. It gets dark at half past four. Well, yes, you're right. Sorry. So maybe we can go cycling before lunch? Um, I've got a school rugby match until about half past eleven. What time does it start? Ten o'clock. Julia, it's quarter to ten now. Really? I need to go. Let's go cycling tomorrow. OK. Call me in the morning. See you. Have a good match.",
+    "sent_count": 21,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.121,
+      "end_s": 10.696,
+      "dur_s": 2.575,
+      "text": "Hi, Julia. It's me, Mike."
+     },
+     {
+      "i": 1,
+      "start_s": 11.48,
+      "end_s": 14.053,
+      "dur_s": 2.573,
+      "text": "Hi, Mike. How's it going?"
+     },
+     {
+      "i": 2,
+      "start_s": 14.662,
+      "end_s": 17.485,
+      "dur_s": 2.823,
+      "text": "Do you want to go cycling later today?"
+     },
+     {
+      "i": 3,
+      "start_s": 18.388,
+      "end_s": 22.419,
+      "dur_s": 4.031,
+      "text": "Go cycling? Good idea. What time?"
+     },
+     {
+      "i": 4,
+      "start_s": 22.923,
+      "end_s": 26.4,
+      "dur_s": 3.477,
+      "text": "How about after lunch? Say, two o'clock?"
+     },
+     {
+      "i": 5,
+      "start_s": 26.7,
+      "end_s": 34.901,
+      "dur_s": 8.201,
+      "text": "Two o'clock? No, sorry, I can't. I've got a taekwondo lesson at two."
+     },
+     {
+      "i": 6,
+      "start_s": 35.404,
+      "end_s": 38.7,
+      "dur_s": 3.296,
+      "text": "OK, how about three o'clock?"
+     },
+     {
+      "i": 7,
+      "start_s": 39.2,
+      "end_s": 43.566,
+      "dur_s": 4.366,
+      "text": "No, the lesson only finishes at half past three."
+     },
+     {
+      "i": 8,
+      "start_s": 43.92,
+      "end_s": 47.8,
+      "dur_s": 3.88,
+      "text": "OK, so how about four o'clock?"
+     },
+     {
+      "i": 9,
+      "start_s": 48.32,
+      "end_s": 52.68,
+      "dur_s": 4.36,
+      "text": "I can't. Mum wants to give me a tennis lesson at four."
+     },
+     {
+      "i": 10,
+      "start_s": 53.24,
+      "end_s": 54.96,
+      "dur_s": 1.72,
+      "text": "Until what time?"
+     },
+     {
+      "i": 11,
+      "start_s": 55.464,
+      "end_s": 59.61,
+      "dur_s": 4.146,
+      "text": "I'm not sure. Maybe about quarter to five?"
+     },
+     {
+      "i": 12,
+      "start_s": 59.959,
+      "end_s": 66.798,
+      "dur_s": 6.839,
+      "text": "Really? But we can't go cycling then. It gets dark at half past four."
+     },
+     {
+      "i": 13,
+      "start_s": 67.282,
+      "end_s": 71.099,
+      "dur_s": 3.817,
+      "text": "Well, yes, you're right. Sorry."
+     },
+     {
+      "i": 14,
+      "start_s": 71.652,
+      "end_s": 75.119,
+      "dur_s": 3.467,
+      "text": "So maybe we can go cycling before lunch?"
+     },
+     {
+      "i": 15,
+      "start_s": 75.853,
+      "end_s": 81.545,
+      "dur_s": 5.692,
+      "text": "Um, I've got a school rugby match until about half past eleven."
+     },
+     {
+      "i": 16,
+      "start_s": 81.65,
+      "end_s": 83.88,
+      "dur_s": 2.23,
+      "text": "What time does it start?"
+     },
+     {
+      "i": 17,
+      "start_s": 84.373,
+      "end_s": 85.476,
+      "dur_s": 1.103,
+      "text": "Ten o'clock."
+     },
+     {
+      "i": 18,
+      "start_s": 85.945,
+      "end_s": 88.898,
+      "dur_s": 2.953,
+      "text": "Julia, it's quarter to ten now."
+     },
+     {
+      "i": 19,
+      "start_s": 89.487,
+      "end_s": 94.545,
+      "dur_s": 5.058,
+      "text": "Really? I need to go. Let's go cycling tomorrow."
+     },
+     {
+      "i": 20,
+      "start_s": 94.824,
+      "end_s": 99.798,
+      "dur_s": 4.974,
+      "text": "OK. Call me in the morning. See you. Have a good match."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 21
+ },
+ "p070": {
+  "audio": "assets/p070.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 10.197,
+    "end_s": 149.306,
+    "text": "It's 15th February at Greece Athena High School, New York. Jason McElwain is an 18-year-old student. Jason is autistic. He loves basketball and he helps with the school basketball team. Jason practises hard every day, but he never plays in the team. Tonight is the last game of the season. It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches. It's four minutes before the end. The team is winning, so the coach tells Jason to go out and play. The team and the crowd are very happy, because everyone knows Jason and likes him. Jason tries to score a basket, but he misses. But suddenly he hits a 3-point basket. The crowd goes crazy. Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether. The team wins, and Jason is a real hero. It's an amazing night for him! Soon Jason starts to become famous. People in his town know who he is. The US president comes to Jason's town to meet him. Jason writes a book and some people want to make a film about him. He becomes assistant coach to the high school basketball team. Now Jason works hard to help other autistic people. He travels across the US to help get money for autism research.",
+    "sent_count": 23,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 10.197,
+      "end_s": 15.665,
+      "dur_s": 5.468,
+      "text": "It's 15th February at Greece Athena High School, New York."
+     },
+     {
+      "i": 1,
+      "start_s": 16.732,
+      "end_s": 21.012,
+      "dur_s": 4.28,
+      "text": "Jason McElwain is an 18-year-old student."
+     },
+     {
+      "i": 2,
+      "start_s": 22.09,
+      "end_s": 23.801,
+      "dur_s": 1.711,
+      "text": "Jason is autistic."
+     },
+     {
+      "i": 3,
+      "start_s": 23.801,
+      "end_s": 29.937,
+      "dur_s": 6.136,
+      "text": "He loves basketball and he helps with the school basketball team."
+     },
+     {
+      "i": 4,
+      "start_s": 31.409,
+      "end_s": 37.595,
+      "dur_s": 6.186,
+      "text": "Jason practises hard every day, but he never plays in the team."
+     },
+     {
+      "i": 5,
+      "start_s": 39.131,
+      "end_s": 43.485,
+      "dur_s": 4.354,
+      "text": "Tonight is the last game of the season."
+     },
+     {
+      "i": 6,
+      "start_s": 43.485,
+      "end_s": 53.838,
+      "dur_s": 10.353,
+      "text": "It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches."
+     },
+     {
+      "i": 7,
+      "start_s": 55.05,
+      "end_s": 57.765,
+      "dur_s": 2.715,
+      "text": "It's four minutes before the end."
+     },
+     {
+      "i": 8,
+      "start_s": 57.765,
+      "end_s": 63.356,
+      "dur_s": 5.591,
+      "text": "The team is winning, so the coach tells Jason to go out and play."
+     },
+     {
+      "i": 9,
+      "start_s": 64.324,
+      "end_s": 72.55,
+      "dur_s": 8.226,
+      "text": "The team and the crowd are very happy, because everyone knows Jason and likes him."
+     },
+     {
+      "i": 10,
+      "start_s": 72.575,
+      "end_s": 76.661,
+      "dur_s": 4.086,
+      "text": "Jason tries to score a basket, but he misses."
+     },
+     {
+      "i": 11,
+      "start_s": 77.633,
+      "end_s": 81.385,
+      "dur_s": 3.752,
+      "text": "But suddenly he hits a 3-point basket."
+     },
+     {
+      "i": 12,
+      "start_s": 81.89,
+      "end_s": 84.997,
+      "dur_s": 3.107,
+      "text": "The crowd goes crazy."
+     },
+     {
+      "i": 13,
+      "start_s": 85.835,
+      "end_s": 102.033,
+      "dur_s": 16.198,
+      "text": "Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether."
+     },
+     {
+      "i": 14,
+      "start_s": 103.145,
+      "end_s": 108.175,
+      "dur_s": 5.03,
+      "text": "The team wins, and Jason is a real hero."
+     },
+     {
+      "i": 15,
+      "start_s": 108.175,
+      "end_s": 110.813,
+      "dur_s": 2.638,
+      "text": "It's an amazing night for him!"
+     },
+     {
+      "i": 16,
+      "start_s": 111.886,
+      "end_s": 115.925,
+      "dur_s": 4.039,
+      "text": "Soon Jason starts to become famous."
+     },
+     {
+      "i": 17,
+      "start_s": 115.925,
+      "end_s": 120.771,
+      "dur_s": 4.846,
+      "text": "People in his town know who he is."
+     },
+     {
+      "i": 18,
+      "start_s": 121.05,
+      "end_s": 126.13,
+      "dur_s": 5.08,
+      "text": "The US president comes to Jason's town to meet him."
+     },
+     {
+      "i": 19,
+      "start_s": 126.13,
+      "end_s": 132.1,
+      "dur_s": 5.97,
+      "text": "Jason writes a book and some people want to make a film about him."
+     },
+     {
+      "i": 20,
+      "start_s": 132.11,
+      "end_s": 136.774,
+      "dur_s": 4.664,
+      "text": "He becomes assistant coach to the high school basketball team."
+     },
+     {
+      "i": 21,
+      "start_s": 138.096,
+      "end_s": 142.34,
+      "dur_s": 4.244,
+      "text": "Now Jason works hard to help other autistic people."
+     },
+     {
+      "i": 22,
+      "start_s": 142.34,
+      "end_s": 149.306,
+      "dur_s": 6.966,
+      "text": "He travels across the US to help get money for autism research."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 23
+ },
+ "p072": {
+  "audio": "assets/p072.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.76,
+    "end_s": 89.956,
+    "text": "Right! Have we got everything? Tennis rackets, balls …? Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go. Just a minute! Oh, no! It's raining! Now what do we do? You're right. We can't play outside in the rain. Why don't we go to the sports centre in town? They've got an indoor court. No, it's always very busy. I'm sure we can't play there today. Maybe you're right. It's a bit expensive, too. OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps. Yes. But I'm a bit sad now. Me, too. But what can we do? It's raining, and that's that. I know! How about watching some old tennis games on the internet? Good idea. I like watching really good players. And we can eat our food. Let's go and switch the computer on.",
+    "sent_count": 15,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.76,
+      "end_s": 13.75,
+      "dur_s": 4.99,
+      "text": "Right! Have we got everything? Tennis rackets, balls …?"
+     },
+     {
+      "i": 1,
+      "start_s": 13.75,
+      "end_s": 24.265,
+      "dur_s": 10.515,
+      "text": "Yes, I think so. And we've got some food – sandwiches, fruit and stuff – and some water. So, let's go."
+     },
+     {
+      "i": 2,
+      "start_s": 24.84,
+      "end_s": 29.758,
+      "dur_s": 4.918,
+      "text": "Just a minute! Oh, no! It's raining!"
+     },
+     {
+      "i": 3,
+      "start_s": 29.802,
+      "end_s": 31.723,
+      "dur_s": 1.921,
+      "text": "Now what do we do?"
+     },
+     {
+      "i": 4,
+      "start_s": 31.872,
+      "end_s": 36.297,
+      "dur_s": 4.425,
+      "text": "You're right. We can't play outside in the rain."
+     },
+     {
+      "i": 5,
+      "start_s": 36.297,
+      "end_s": 42.863,
+      "dur_s": 6.566,
+      "text": "Why don't we go to the sports centre in town? They've got an indoor court."
+     },
+     {
+      "i": 6,
+      "start_s": 42.967,
+      "end_s": 49.383,
+      "dur_s": 6.416,
+      "text": "No, it's always very busy. I'm sure we can't play there today."
+     },
+     {
+      "i": 7,
+      "start_s": 49.383,
+      "end_s": 53.923,
+      "dur_s": 4.54,
+      "text": "Maybe you're right. It's a bit expensive, too."
+     },
+     {
+      "i": 8,
+      "start_s": 54.017,
+      "end_s": 61.54,
+      "dur_s": 7.523,
+      "text": "OK, so we can't play today. It's no big deal. We can play tomorrow, perhaps."
+     },
+     {
+      "i": 9,
+      "start_s": 62.36,
+      "end_s": 66.195,
+      "dur_s": 3.835,
+      "text": "Yes. But I'm a bit sad now."
+     },
+     {
+      "i": 10,
+      "start_s": 66.229,
+      "end_s": 72.485,
+      "dur_s": 6.256,
+      "text": "Me, too. But what can we do? It's raining, and that's that."
+     },
+     {
+      "i": 11,
+      "start_s": 72.67,
+      "end_s": 78.961,
+      "dur_s": 6.291,
+      "text": "I know! How about watching some old tennis games on the internet?"
+     },
+     {
+      "i": 12,
+      "start_s": 79.5,
+      "end_s": 83.954,
+      "dur_s": 4.454,
+      "text": "Good idea. I like watching really good players."
+     },
+     {
+      "i": 13,
+      "start_s": 84.36,
+      "end_s": 86.992,
+      "dur_s": 2.632,
+      "text": "And we can eat our food."
+     },
+     {
+      "i": 14,
+      "start_s": 87.297,
+      "end_s": 89.956,
+      "dur_s": 2.659,
+      "text": "Let's go and switch the computer on."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 15
+ },
+ "p073": {
+  "audio": "assets/p073.mp3",
+  "paragraph_count": 2,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 11.095,
+    "end_s": 139.383,
+    "text": "Oh, hello. It's you. Sorry, I'm not feeling great. Why? This is why. And I have a geography test tomorrow. I like geography, but there's just so much information to learn. How can I stay positive today? But that's not the only problem. Because I have a geography test tomorrow, I can't do all the things I really want to do today. I can't play tennis with Tyler. I can't go to see a movie with Tyler. I can't watch baseball with Tyler. I can't go for an ice cream with Tyler. How can I be positive? I can't do anything. Or can I? It's Tyler! Hi, Tyler! Really? Good idea! Of course! Now? Amazing! See you soon! Tyler has a geography test tomorrow too, and Tyler's great at geography. He's coming over to help me, and he's bringing popcorn. See, stay positive. That's what I always say, because if you stay positive, you can find an answer to any problem. Just relax.",
+    "sent_count": 26,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 11.095,
+      "end_s": 17.34,
+      "dur_s": 6.245,
+      "text": "Oh, hello. It's you. Sorry, I'm not feeling great."
+     },
+     {
+      "i": 1,
+      "start_s": 17.34,
+      "end_s": 28.426,
+      "dur_s": 11.086,
+      "text": "Why? This is why. And I have a geography test tomorrow."
+     },
+     {
+      "i": 2,
+      "start_s": 28.52,
+      "end_s": 33.718,
+      "dur_s": 5.198,
+      "text": "I like geography, but there's just so much information to learn."
+     },
+     {
+      "i": 3,
+      "start_s": 35.265,
+      "end_s": 37.904,
+      "dur_s": 2.639,
+      "text": "How can I stay positive today?"
+     },
+     {
+      "i": 4,
+      "start_s": 37.914,
+      "end_s": 40.997,
+      "dur_s": 3.083,
+      "text": "But that's not the only problem."
+     },
+     {
+      "i": 5,
+      "start_s": 42.663,
+      "end_s": 53.628,
+      "dur_s": 10.965,
+      "text": "Because I have a geography test tomorrow, I can't do all the things I really want to do today."
+     },
+     {
+      "i": 6,
+      "start_s": 53.628,
+      "end_s": 59.954,
+      "dur_s": 6.326,
+      "text": "I can't play tennis with Tyler."
+     },
+     {
+      "i": 7,
+      "start_s": 61.021,
+      "end_s": 63.715,
+      "dur_s": 2.694,
+      "text": "I can't go to see a movie with Tyler."
+     },
+     {
+      "i": 8,
+      "start_s": 65.157,
+      "end_s": 68.045,
+      "dur_s": 2.888,
+      "text": "I can't watch baseball with Tyler."
+     },
+     {
+      "i": 9,
+      "start_s": 68.045,
+      "end_s": 71.867,
+      "dur_s": 3.822,
+      "text": "I can't go for an ice cream with Tyler."
+     },
+     {
+      "i": 10,
+      "start_s": 72.89,
+      "end_s": 75.394,
+      "dur_s": 2.504,
+      "text": "How can I be positive?"
+     },
+     {
+      "i": 11,
+      "start_s": 75.543,
+      "end_s": 77.679,
+      "dur_s": 2.136,
+      "text": "I can't do anything."
+     },
+     {
+      "i": 12,
+      "start_s": 78.392,
+      "end_s": 81.804,
+      "dur_s": 3.412,
+      "text": "Or can I?"
+     },
+     {
+      "i": 13,
+      "start_s": 82.168,
+      "end_s": 88.595,
+      "dur_s": 6.427,
+      "text": "It's Tyler!"
+     },
+     {
+      "i": 14,
+      "start_s": 88.595,
+      "end_s": 89.92,
+      "dur_s": 1.325,
+      "text": "Hi, Tyler!"
+     },
+     {
+      "i": 15,
+      "start_s": 89.92,
+      "end_s": 91.971,
+      "dur_s": 2.051,
+      "text": "Really?"
+     },
+     {
+      "i": 16,
+      "start_s": 93.95,
+      "end_s": 95.525,
+      "dur_s": 1.575,
+      "text": "Good idea!"
+     },
+     {
+      "i": 17,
+      "start_s": 95.525,
+      "end_s": 98.182,
+      "dur_s": 2.657,
+      "text": "Of course!"
+     },
+     {
+      "i": 18,
+      "start_s": 99.673,
+      "end_s": 100.103,
+      "dur_s": 0.43,
+      "text": "Now?"
+     },
+     {
+      "i": 19,
+      "start_s": 101.095,
+      "end_s": 103.485,
+      "dur_s": 2.39,
+      "text": "Amazing!"
+     },
+     {
+      "i": 20,
+      "start_s": 105.036,
+      "end_s": 106.27,
+      "dur_s": 1.234,
+      "text": "See you soon!"
+     },
+     {
+      "i": 21,
+      "start_s": 106.27,
+      "end_s": 118.301,
+      "dur_s": 12.031,
+      "text": "Tyler has a geography test tomorrow too, and Tyler's great at geography."
+     },
+     {
+      "i": 22,
+      "start_s": 118.77,
+      "end_s": 123.195,
+      "dur_s": 4.425,
+      "text": "He's coming over to help me, and he's bringing popcorn."
+     },
+     {
+      "i": 23,
+      "start_s": 123.539,
+      "end_s": 127.54,
+      "dur_s": 4.001,
+      "text": "See, stay positive."
+     },
+     {
+      "i": 24,
+      "start_s": 127.54,
+      "end_s": 134.779,
+      "dur_s": 7.239,
+      "text": "That's what I always say, because if you stay positive, you can find an answer to any problem."
+     },
+     {
+      "i": 25,
+      "start_s": 134.988,
+      "end_s": 139.383,
+      "dur_s": 4.395,
+      "text": "Just relax."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 139.4,
+      "asr": "You can find your street help. Maybe Tyler is going to be like you all the time.",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 2,
+    "start_s": 155.5,
+    "end_s": 158.9,
+    "text": "See you next time!",
+    "sent_count": 1,
+    "sents": [
+     {
+      "i": 26,
+      "start_s": 155.5,
+      "end_s": 158.9,
+      "dur_s": 3.4,
+      "text": "See you next time!"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 27
+ },
+ "p075": {
+  "audio": "assets/p075.mp3",
+  "paragraph_count": 8,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 15.68,
+    "end_s": 22.44,
+    "text": "I'm leaving home. We're on our way to the station. I'm so excited!",
+    "sent_count": 3,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 15.68,
+      "end_s": 17.56,
+      "dur_s": 1.88,
+      "text": "I'm leaving home."
+     },
+     {
+      "i": 1,
+      "start_s": 18.37,
+      "end_s": 20.36,
+      "dur_s": 1.99,
+      "text": "We're on our way to the station."
+     },
+     {
+      "i": 2,
+      "start_s": 20.99,
+      "end_s": 22.44,
+      "dur_s": 1.45,
+      "text": "I'm so excited!"
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 22.4,
+      "asr": "Excited 1805",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 2,
+    "start_s": 26.82,
+    "end_s": 32.36,
+    "text": "We're standing on the platform waiting for the train to Delamere Forest.",
+    "sent_count": 1,
+    "sents": [
+     {
+      "i": 3,
+      "start_s": 26.82,
+      "end_s": 32.36,
+      "dur_s": 5.54,
+      "text": "We're standing on the platform waiting for the train to Delamere Forest."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 32.4,
+      "asr": "1830",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 3,
+    "start_s": 36.7,
+    "end_s": 48.715,
+    "text": "We're here! What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest.",
+    "sent_count": 2,
+    "sents": [
+     {
+      "i": 4,
+      "start_s": 36.7,
+      "end_s": 37.94,
+      "dur_s": 1.24,
+      "text": "We're here!"
+     },
+     {
+      "i": 5,
+      "start_s": 38.88,
+      "end_s": 48.715,
+      "dur_s": 9.835,
+      "text": "What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 48.7,
+      "asr": "1917",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 4,
+    "start_s": 53.16,
+    "end_s": 59.88,
+    "text": "I'm eating a hot dog. It's very expensive, but it's not very good!",
+    "sent_count": 2,
+    "sents": [
+     {
+      "i": 6,
+      "start_s": 53.16,
+      "end_s": 55.391,
+      "dur_s": 2.231,
+      "text": "I'm eating a hot dog."
+     },
+     {
+      "i": 7,
+      "start_s": 55.88,
+      "end_s": 59.88,
+      "dur_s": 4.0,
+      "text": "It's very expensive, but it's not very good!"
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 59.9,
+      "asr": "good 1957",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 5,
+    "start_s": 64.7,
+    "end_s": 84.04,
+    "text": "It's getting dark now. The stage is completely black. A few people are talking, but most people are quiet. We're waiting for Jess. And here she comes! Everyone is cheering! What a noise!",
+    "sent_count": 7,
+    "sents": [
+     {
+      "i": 8,
+      "start_s": 64.7,
+      "end_s": 67.082,
+      "dur_s": 2.382,
+      "text": "It's getting dark now."
+     },
+     {
+      "i": 9,
+      "start_s": 67.38,
+      "end_s": 69.96,
+      "dur_s": 2.58,
+      "text": "The stage is completely black."
+     },
+     {
+      "i": 10,
+      "start_s": 70.7,
+      "end_s": 75.14,
+      "dur_s": 4.44,
+      "text": "A few people are talking, but most people are quiet."
+     },
+     {
+      "i": 11,
+      "start_s": 75.98,
+      "end_s": 77.58,
+      "dur_s": 1.6,
+      "text": "We're waiting for Jess."
+     },
+     {
+      "i": 12,
+      "start_s": 78.4,
+      "end_s": 80.02,
+      "dur_s": 1.62,
+      "text": "And here she comes!"
+     },
+     {
+      "i": 13,
+      "start_s": 80.7,
+      "end_s": 82.12,
+      "dur_s": 1.42,
+      "text": "Everyone is cheering!"
+     },
+     {
+      "i": 14,
+      "start_s": 82.82,
+      "end_s": 84.04,
+      "dur_s": 1.22,
+      "text": "What a noise!"
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 84.0,
+      "asr": "2145",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 6,
+    "start_s": 89.0,
+    "end_s": 109.761,
+    "text": "Jess isn't on stage. Is the show over? No way! We're all shouting 'more'. Why are we shouting? Because we want MORE! But don't worry. She's walking back onto the stage.",
+    "sent_count": 8,
+    "sents": [
+     {
+      "i": 15,
+      "start_s": 89.0,
+      "end_s": 91.5,
+      "dur_s": 2.5,
+      "text": "Jess isn't on stage."
+     },
+     {
+      "i": 16,
+      "start_s": 92.44,
+      "end_s": 94.18,
+      "dur_s": 1.74,
+      "text": "Is the show over?"
+     },
+     {
+      "i": 17,
+      "start_s": 94.98,
+      "end_s": 96.36,
+      "dur_s": 1.38,
+      "text": "No way!"
+     },
+     {
+      "i": 18,
+      "start_s": 96.84,
+      "end_s": 99.34,
+      "dur_s": 2.5,
+      "text": "We're all shouting 'more'."
+     },
+     {
+      "i": 19,
+      "start_s": 100.08,
+      "end_s": 101.56,
+      "dur_s": 1.48,
+      "text": "Why are we shouting?"
+     },
+     {
+      "i": 20,
+      "start_s": 102.24,
+      "end_s": 104.6,
+      "dur_s": 2.36,
+      "text": "Because we want MORE!"
+     },
+     {
+      "i": 21,
+      "start_s": 105.28,
+      "end_s": 106.568,
+      "dur_s": 1.288,
+      "text": "But don't worry."
+     },
+     {
+      "i": 22,
+      "start_s": 106.92,
+      "end_s": 109.761,
+      "dur_s": 2.841,
+      "text": "She's walking back onto the stage."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 109.8,
+      "asr": "2256",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 7,
+    "start_s": 114.54,
+    "end_s": 134.142,
+    "text": "We're on the train home. We aren't sitting down. I don't care. There are so many people on the train and everybody's a Jess Glynne fan. We're all singing 'Hold my Hand'. It's my favourite song.",
+    "sent_count": 6,
+    "sents": [
+     {
+      "i": 23,
+      "start_s": 114.54,
+      "end_s": 116.76,
+      "dur_s": 2.22,
+      "text": "We're on the train home."
+     },
+     {
+      "i": 24,
+      "start_s": 117.51,
+      "end_s": 119.28,
+      "dur_s": 1.77,
+      "text": "We aren't sitting down."
+     },
+     {
+      "i": 25,
+      "start_s": 119.95,
+      "end_s": 121.12,
+      "dur_s": 1.17,
+      "text": "I don't care."
+     },
+     {
+      "i": 26,
+      "start_s": 121.71,
+      "end_s": 128.1,
+      "dur_s": 6.39,
+      "text": "There are so many people on the train and everybody's a Jess Glynne fan."
+     },
+     {
+      "i": 27,
+      "start_s": 128.71,
+      "end_s": 131.564,
+      "dur_s": 2.854,
+      "text": "We're all singing 'Hold my Hand'."
+     },
+     {
+      "i": 28,
+      "start_s": 132.13,
+      "end_s": 134.142,
+      "dur_s": 2.012,
+      "text": "It's my favourite song."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 134.1,
+      "asr": "Midnight",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 8,
+    "start_s": 137.84,
+    "end_s": 149.2,
+    "text": "It's exactly midnight and we're back home. I'm feeling tired but very happy. I'm going straight upstairs to bed.",
+    "sent_count": 3,
+    "sents": [
+     {
+      "i": 29,
+      "start_s": 137.84,
+      "end_s": 141.99,
+      "dur_s": 4.15,
+      "text": "It's exactly midnight and we're back home."
+     },
+     {
+      "i": 30,
+      "start_s": 142.71,
+      "end_s": 145.72,
+      "dur_s": 3.01,
+      "text": "I'm feeling tired but very happy."
+     },
+     {
+      "i": 31,
+      "start_s": 146.57,
+      "end_s": 149.2,
+      "dur_s": 2.63,
+      "text": "I'm going straight upstairs to bed."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 32
+ },
+ "p077": {
+  "audio": "assets/p077.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 6.82,
+    "end_s": 136.16,
+    "text": "Hello and welcome! Today we are talking about different music from around the world. Is there a type of music that you really like? Phone and tell us. Our first caller is Liliana. OK Liliana, what's your favourite music? Hello! My mother is Mexican and we often go to Mexico. I love the mariachi music I see there. There's a group of men and sometimes women and they all stand up playing instruments like guitars, trumpets and violins. They also wear traditional Mexican hats. I think they look fantastic. Yes, thanks Liliana. And now here's Lewis. Hi Lewis, tell us what you like. Hi there. Well in Indonesia there's this traditional musical performance called gamelan. They have these orchestras with some very unusual instruments. They make beautiful sounds and when they all play the musicians wear the same traditional clothes. Thanks Lewis. And now let's talk to Jen. I love African drumming. I go to a lot of musical festivals and there's always some African drumming. Is there any African country you like the drumming from most? Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes. They're the colours of the Burundi flag. Sometimes they also paint their drums in the same colours. Okay, thank you Jen.",
+    "sent_count": 27,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 6.82,
+      "end_s": 8.42,
+      "dur_s": 1.6,
+      "text": "Hello and welcome!"
+     },
+     {
+      "i": 1,
+      "start_s": 9.48,
+      "end_s": 14.559,
+      "dur_s": 5.079,
+      "text": "Today we are talking about different music from around the world."
+     },
+     {
+      "i": 2,
+      "start_s": 15.22,
+      "end_s": 19.064,
+      "dur_s": 3.844,
+      "text": "Is there a type of music that you really like?"
+     },
+     {
+      "i": 3,
+      "start_s": 19.7,
+      "end_s": 21.432,
+      "dur_s": 1.732,
+      "text": "Phone and tell us."
+     },
+     {
+      "i": 4,
+      "start_s": 22.16,
+      "end_s": 24.92,
+      "dur_s": 2.76,
+      "text": "Our first caller is Liliana."
+     },
+     {
+      "i": 5,
+      "start_s": 25.87,
+      "end_s": 30.08,
+      "dur_s": 4.21,
+      "text": "OK Liliana, what's your favourite music?"
+     },
+     {
+      "i": 6,
+      "start_s": 30.76,
+      "end_s": 37.18,
+      "dur_s": 6.42,
+      "text": "Hello! My mother is Mexican and we often go to Mexico."
+     },
+     {
+      "i": 7,
+      "start_s": 37.86,
+      "end_s": 41.378,
+      "dur_s": 3.518,
+      "text": "I love the mariachi music I see there."
+     },
+     {
+      "i": 8,
+      "start_s": 42.06,
+      "end_s": 52.94,
+      "dur_s": 10.88,
+      "text": "There's a group of men and sometimes women and they all stand up playing instruments like guitars, trumpets and violins."
+     },
+     {
+      "i": 9,
+      "start_s": 53.65,
+      "end_s": 56.98,
+      "dur_s": 3.33,
+      "text": "They also wear traditional Mexican hats."
+     },
+     {
+      "i": 10,
+      "start_s": 57.7,
+      "end_s": 59.64,
+      "dur_s": 1.94,
+      "text": "I think they look fantastic."
+     },
+     {
+      "i": 11,
+      "start_s": 60.42,
+      "end_s": 62.52,
+      "dur_s": 2.1,
+      "text": "Yes, thanks Liliana."
+     },
+     {
+      "i": 12,
+      "start_s": 63.4,
+      "end_s": 65.22,
+      "dur_s": 1.82,
+      "text": "And now here's Lewis."
+     },
+     {
+      "i": 13,
+      "start_s": 66.32,
+      "end_s": 69.358,
+      "dur_s": 3.038,
+      "text": "Hi Lewis, tell us what you like."
+     },
+     {
+      "i": 14,
+      "start_s": 69.78,
+      "end_s": 70.565,
+      "dur_s": 0.785,
+      "text": "Hi there."
+     },
+     {
+      "i": 15,
+      "start_s": 71.2,
+      "end_s": 77.973,
+      "dur_s": 6.773,
+      "text": "Well in Indonesia there's this traditional musical performance called gamelan."
+     },
+     {
+      "i": 16,
+      "start_s": 78.54,
+      "end_s": 83.5,
+      "dur_s": 4.96,
+      "text": "They have these orchestras with some very unusual instruments."
+     },
+     {
+      "i": 17,
+      "start_s": 84.24,
+      "end_s": 92.264,
+      "dur_s": 8.024,
+      "text": "They make beautiful sounds and when they all play the musicians wear the same traditional clothes."
+     },
+     {
+      "i": 18,
+      "start_s": 92.58,
+      "end_s": 93.3,
+      "dur_s": 0.72,
+      "text": "Thanks Lewis."
+     },
+     {
+      "i": 19,
+      "start_s": 94.22,
+      "end_s": 96.82,
+      "dur_s": 2.6,
+      "text": "And now let's talk to Jen."
+     },
+     {
+      "i": 20,
+      "start_s": 97.76,
+      "end_s": 100.09,
+      "dur_s": 2.33,
+      "text": "I love African drumming."
+     },
+     {
+      "i": 21,
+      "start_s": 100.38,
+      "end_s": 106.626,
+      "dur_s": 6.246,
+      "text": "I go to a lot of musical festivals and there's always some African drumming."
+     },
+     {
+      "i": 22,
+      "start_s": 107.08,
+      "end_s": 111.3,
+      "dur_s": 4.22,
+      "text": "Is there any African country you like the drumming from most?"
+     },
+     {
+      "i": 23,
+      "start_s": 111.96,
+      "end_s": 125.028,
+      "dur_s": 13.068,
+      "text": "Well I like all African drumming but the drummers from Burundi are fantastic and they wear these really cool green, red and white clothes."
+     },
+     {
+      "i": 24,
+      "start_s": 125.34,
+      "end_s": 127.88,
+      "dur_s": 2.54,
+      "text": "They're the colours of the Burundi flag."
+     },
+     {
+      "i": 25,
+      "start_s": 128.82,
+      "end_s": 133.4,
+      "dur_s": 4.58,
+      "text": "Sometimes they also paint their drums in the same colours."
+     },
+     {
+      "i": 26,
+      "start_s": 133.4,
+      "end_s": 136.16,
+      "dur_s": 2.76,
+      "text": "Okay, thank you Jen."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 27
+ },
+ "p078": {
+  "audio": "assets/p078.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 6.2,
+    "end_s": 98.76,
+    "text": "Who are you? I'm Danny Boyd. I'm 14 years old and I'm from Luton. What do you do? I'm a student at school and at the weekends I work as a DJ. Wow, that's interesting. Can you tell us more? I'm a DJ at a local youth club. I play every Saturday from 6pm to 10pm. There's usually about 100 people there. It's great fun. I also sometimes play for big crowds in the park and sometimes on the beach too. What do you like doing in your free time? I love listening to music and finding new songs to play. I like watching films and playing games on my VR headset but I hate dancing. I know that's a strange thing for a DJ to say. I love watching other people dance but I never dance myself. What do you like wearing? I like wearing jeans and a white T-shirt. I also wear a red cap. I don't like wearing shirts and trousers. I wear those every day at school. Thanks Danny and good luck. Thank you. Why don't you come to one of my shows one day?",
+    "sent_count": 25,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 6.2,
+      "end_s": 7.38,
+      "dur_s": 1.18,
+      "text": "Who are you?"
+     },
+     {
+      "i": 1,
+      "start_s": 7.92,
+      "end_s": 9.36,
+      "dur_s": 1.44,
+      "text": "I'm Danny Boyd."
+     },
+     {
+      "i": 2,
+      "start_s": 9.9,
+      "end_s": 12.887,
+      "dur_s": 2.987,
+      "text": "I'm 14 years old and I'm from Luton."
+     },
+     {
+      "i": 3,
+      "start_s": 13.52,
+      "end_s": 14.36,
+      "dur_s": 0.84,
+      "text": "What do you do?"
+     },
+     {
+      "i": 4,
+      "start_s": 14.98,
+      "end_s": 20.12,
+      "dur_s": 5.14,
+      "text": "I'm a student at school and at the weekends I work as a DJ."
+     },
+     {
+      "i": 5,
+      "start_s": 20.84,
+      "end_s": 22.98,
+      "dur_s": 2.14,
+      "text": "Wow, that's interesting."
+     },
+     {
+      "i": 6,
+      "start_s": 23.9,
+      "end_s": 25.287,
+      "dur_s": 1.387,
+      "text": "Can you tell us more?"
+     },
+     {
+      "i": 7,
+      "start_s": 25.76,
+      "end_s": 28.793,
+      "dur_s": 3.033,
+      "text": "I'm a DJ at a local youth club."
+     },
+     {
+      "i": 8,
+      "start_s": 29.02,
+      "end_s": 34.32,
+      "dur_s": 5.3,
+      "text": "I play every Saturday from 6pm to 10pm."
+     },
+     {
+      "i": 9,
+      "start_s": 35.04,
+      "end_s": 38.243,
+      "dur_s": 3.203,
+      "text": "There's usually about 100 people there."
+     },
+     {
+      "i": 10,
+      "start_s": 39.06,
+      "end_s": 40.101,
+      "dur_s": 1.041,
+      "text": "It's great fun."
+     },
+     {
+      "i": 11,
+      "start_s": 40.86,
+      "end_s": 47.404,
+      "dur_s": 6.544,
+      "text": "I also sometimes play for big crowds in the park and sometimes on the beach too."
+     },
+     {
+      "i": 12,
+      "start_s": 48.0,
+      "end_s": 50.38,
+      "dur_s": 2.38,
+      "text": "What do you like doing in your free time?"
+     },
+     {
+      "i": 13,
+      "start_s": 50.99,
+      "end_s": 55.658,
+      "dur_s": 4.668,
+      "text": "I love listening to music and finding new songs to play."
+     },
+     {
+      "i": 14,
+      "start_s": 56.32,
+      "end_s": 63.24,
+      "dur_s": 6.92,
+      "text": "I like watching films and playing games on my VR headset but I hate dancing."
+     },
+     {
+      "i": 15,
+      "start_s": 64.18,
+      "end_s": 67.44,
+      "dur_s": 3.26,
+      "text": "I know that's a strange thing for a DJ to say."
+     },
+     {
+      "i": 16,
+      "start_s": 68.24,
+      "end_s": 73.1,
+      "dur_s": 4.86,
+      "text": "I love watching other people dance but I never dance myself."
+     },
+     {
+      "i": 17,
+      "start_s": 74.42,
+      "end_s": 75.92,
+      "dur_s": 1.5,
+      "text": "What do you like wearing?"
+     },
+     {
+      "i": 18,
+      "start_s": 76.66,
+      "end_s": 81.2,
+      "dur_s": 4.54,
+      "text": "I like wearing jeans and a white T-shirt."
+     },
+     {
+      "i": 19,
+      "start_s": 82.14,
+      "end_s": 84.265,
+      "dur_s": 2.125,
+      "text": "I also wear a red cap."
+     },
+     {
+      "i": 20,
+      "start_s": 85.3,
+      "end_s": 87.76,
+      "dur_s": 2.46,
+      "text": "I don't like wearing shirts and trousers."
+     },
+     {
+      "i": 21,
+      "start_s": 88.5,
+      "end_s": 90.54,
+      "dur_s": 2.04,
+      "text": "I wear those every day at school."
+     },
+     {
+      "i": 22,
+      "start_s": 91.6,
+      "end_s": 93.84,
+      "dur_s": 2.24,
+      "text": "Thanks Danny and good luck."
+     },
+     {
+      "i": 23,
+      "start_s": 94.38,
+      "end_s": 95.086,
+      "dur_s": 0.706,
+      "text": "Thank you."
+     },
+     {
+      "i": 24,
+      "start_s": 95.74,
+      "end_s": 98.76,
+      "dur_s": 3.02,
+      "text": "Why don't you come to one of my shows one day?"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 25
+ },
+ "p080": {
+  "audio": "assets/p080.mp3",
+  "paragraph_count": 3,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 12.74,
+    "end_s": 51.9,
+    "text": "The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango. They do the tango in dance halls, parks and squares all over the city. The dance is usually performed by a man and a woman. The man often wears smart trousers and a shirt. The woman often wears a beautiful dress. The dance is often very interesting to watch.",
+    "sent_count": 6,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 12.74,
+      "end_s": 25.658,
+      "dur_s": 12.918,
+      "text": "The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango."
+     },
+     {
+      "i": 1,
+      "start_s": 26.52,
+      "end_s": 32.5,
+      "dur_s": 5.98,
+      "text": "They do the tango in dance halls, parks and squares all over the city."
+     },
+     {
+      "i": 2,
+      "start_s": 33.72,
+      "end_s": 37.86,
+      "dur_s": 4.14,
+      "text": "The dance is usually performed by a man and a woman."
+     },
+     {
+      "i": 3,
+      "start_s": 39.04,
+      "end_s": 42.86,
+      "dur_s": 3.82,
+      "text": "The man often wears smart trousers and a shirt."
+     },
+     {
+      "i": 4,
+      "start_s": 44.4,
+      "end_s": 47.32,
+      "dur_s": 2.92,
+      "text": "The woman often wears a beautiful dress."
+     },
+     {
+      "i": 5,
+      "start_s": 48.72,
+      "end_s": 51.9,
+      "dur_s": 3.18,
+      "text": "The dance is often very interesting to watch."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 51.9,
+      "asr": "watch. 2. The Whirling Dervish",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 2,
+    "start_s": 57.64,
+    "end_s": 99.48,
+    "text": "The Whirling Dervish is a dance from Turkey. There is a group of twelve men who dance. They wear traditional costumes with big skirts. They often all wear white, but sometimes the skirts are different colours. There is another group of twelve musicians. They play traditional Turkish instruments. As the music plays, the dancers spin around in circles, getting faster and faster. The dance is very popular with tourists.",
+    "sent_count": 8,
+    "sents": [
+     {
+      "i": 6,
+      "start_s": 57.64,
+      "end_s": 62.56,
+      "dur_s": 4.92,
+      "text": "The Whirling Dervish is a dance from Turkey."
+     },
+     {
+      "i": 7,
+      "start_s": 63.48,
+      "end_s": 66.52,
+      "dur_s": 3.04,
+      "text": "There is a group of twelve men who dance."
+     },
+     {
+      "i": 8,
+      "start_s": 67.8,
+      "end_s": 71.18,
+      "dur_s": 3.38,
+      "text": "They wear traditional costumes with big skirts."
+     },
+     {
+      "i": 9,
+      "start_s": 72.68,
+      "end_s": 78.82,
+      "dur_s": 6.14,
+      "text": "They often all wear white, but sometimes the skirts are different colours."
+     },
+     {
+      "i": 10,
+      "start_s": 79.82,
+      "end_s": 83.06,
+      "dur_s": 3.24,
+      "text": "There is another group of twelve musicians."
+     },
+     {
+      "i": 11,
+      "start_s": 84.26,
+      "end_s": 87.18,
+      "dur_s": 2.92,
+      "text": "They play traditional Turkish instruments."
+     },
+     {
+      "i": 12,
+      "start_s": 88.44,
+      "end_s": 95.76,
+      "dur_s": 7.32,
+      "text": "As the music plays, the dancers spin around in circles, getting faster and faster."
+     },
+     {
+      "i": 13,
+      "start_s": 97.04,
+      "end_s": 99.48,
+      "dur_s": 2.44,
+      "text": "The dance is very popular with tourists."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 99.5,
+      "asr": "3. Irish Dancing",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 3,
+    "start_s": 106.1,
+    "end_s": 144.76,
+    "text": "There are lots of Irish dances, but perhaps the most famous one is the step dance. One or more dancers perform the step dance. The dancers only move their legs. They move them very quickly. The top half of the body doesn't move. Dancers usually wear traditional Irish costumes. The music they dance to is played by an Irish folk band. They play instruments like the fiddle and the whistle.",
+    "sent_count": 8,
+    "sents": [
+     {
+      "i": 14,
+      "start_s": 106.1,
+      "end_s": 113.62,
+      "dur_s": 7.52,
+      "text": "There are lots of Irish dances, but perhaps the most famous one is the step dance."
+     },
+     {
+      "i": 15,
+      "start_s": 114.64,
+      "end_s": 118.22,
+      "dur_s": 3.58,
+      "text": "One or more dancers perform the step dance."
+     },
+     {
+      "i": 16,
+      "start_s": 119.52,
+      "end_s": 121.96,
+      "dur_s": 2.44,
+      "text": "The dancers only move their legs."
+     },
+     {
+      "i": 17,
+      "start_s": 122.92,
+      "end_s": 124.88,
+      "dur_s": 1.96,
+      "text": "They move them very quickly."
+     },
+     {
+      "i": 18,
+      "start_s": 126.4,
+      "end_s": 129.149,
+      "dur_s": 2.749,
+      "text": "The top half of the body doesn't move."
+     },
+     {
+      "i": 19,
+      "start_s": 130.42,
+      "end_s": 134.28,
+      "dur_s": 3.86,
+      "text": "Dancers usually wear traditional Irish costumes."
+     },
+     {
+      "i": 20,
+      "start_s": 135.62,
+      "end_s": 140.376,
+      "dur_s": 4.756,
+      "text": "The music they dance to is played by an Irish folk band."
+     },
+     {
+      "i": 21,
+      "start_s": 141.4,
+      "end_s": 144.76,
+      "dur_s": 3.36,
+      "text": "They play instruments like the fiddle and the whistle."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 22
+ },
+ "p085": {
+  "audio": "assets/p085.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.3,
+    "end_s": 134.92,
+    "text": "Harry doesn't want to be a star chef when he's 20. He wants to be one now. This is why he's on the TV programme Kitchen Kids. The ten-year-old New Yorker likes cooking. He can make fantastic soups and salads, excellent omelettes and the best cakes. But there are many other children on the show, too. And they are all very good. More and more young people are interested in cooking. Many of them learn it from their parents. Others watch special cooking videos for children on YouTube. In many cities, there are special cooking classes for young people. Some of them are for children from the age of three! But what must you do to become a star chef? Of course, it's important that you like cooking and are really good at it. But there are some rules. You must be nine years old or more to be on Kitchen Kids. 'We must wash our hands before we start cooking,' Harry says. 'And of course we mustn't put them in our mouths. A chef doesn't do that! And we must be very careful with hot plates.' The show starts. Harry is excited. He knows he's an excellent cook. This time he makes tomato soup, some salad, steak and carrot cake. The experts in the studio love Harry's food, and he stays on the show. It's 5 pm. The show is over. Harry is happy, and a little tired. He goes home. It's time to do his homework.",
+    "sent_count": 30,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.3,
+      "end_s": 12.34,
+      "dur_s": 4.04,
+      "text": "Harry doesn't want to be a star chef when he's 20."
+     },
+     {
+      "i": 1,
+      "start_s": 12.86,
+      "end_s": 15.1,
+      "dur_s": 2.24,
+      "text": "He wants to be one now."
+     },
+     {
+      "i": 2,
+      "start_s": 15.88,
+      "end_s": 20.6,
+      "dur_s": 4.72,
+      "text": "This is why he's on the TV programme Kitchen Kids."
+     },
+     {
+      "i": 3,
+      "start_s": 21.56,
+      "end_s": 24.86,
+      "dur_s": 3.3,
+      "text": "The ten-year-old New Yorker likes cooking."
+     },
+     {
+      "i": 4,
+      "start_s": 25.72,
+      "end_s": 32.96,
+      "dur_s": 7.24,
+      "text": "He can make fantastic soups and salads, excellent omelettes and the best cakes."
+     },
+     {
+      "i": 5,
+      "start_s": 33.96,
+      "end_s": 36.94,
+      "dur_s": 2.98,
+      "text": "But there are many other children on the show, too."
+     },
+     {
+      "i": 6,
+      "start_s": 36.94,
+      "end_s": 39.59,
+      "dur_s": 2.65,
+      "text": "And they are all very good."
+     },
+     {
+      "i": 7,
+      "start_s": 40.64,
+      "end_s": 44.858,
+      "dur_s": 4.218,
+      "text": "More and more young people are interested in cooking."
+     },
+     {
+      "i": 8,
+      "start_s": 45.08,
+      "end_s": 48.14,
+      "dur_s": 3.06,
+      "text": "Many of them learn it from their parents."
+     },
+     {
+      "i": 9,
+      "start_s": 49.18,
+      "end_s": 53.96,
+      "dur_s": 4.78,
+      "text": "Others watch special cooking videos for children on YouTube."
+     },
+     {
+      "i": 10,
+      "start_s": 54.86,
+      "end_s": 59.78,
+      "dur_s": 4.92,
+      "text": "In many cities, there are special cooking classes for young people."
+     },
+     {
+      "i": 11,
+      "start_s": 60.96,
+      "end_s": 64.84,
+      "dur_s": 3.88,
+      "text": "Some of them are for children from the age of three!"
+     },
+     {
+      "i": 12,
+      "start_s": 66.4,
+      "end_s": 69.82,
+      "dur_s": 3.42,
+      "text": "But what must you do to become a star chef?"
+     },
+     {
+      "i": 13,
+      "start_s": 71.08,
+      "end_s": 76.208,
+      "dur_s": 5.128,
+      "text": "Of course, it's important that you like cooking and are really good at it."
+     },
+     {
+      "i": 14,
+      "start_s": 77.04,
+      "end_s": 78.76,
+      "dur_s": 1.72,
+      "text": "But there are some rules."
+     },
+     {
+      "i": 15,
+      "start_s": 79.8,
+      "end_s": 84.14,
+      "dur_s": 4.34,
+      "text": "You must be nine years old or more to be on Kitchen Kids."
+     },
+     {
+      "i": 16,
+      "start_s": 85.0,
+      "end_s": 89.56,
+      "dur_s": 4.56,
+      "text": "'We must wash our hands before we start cooking,' Harry says."
+     },
+     {
+      "i": 17,
+      "start_s": 90.38,
+      "end_s": 93.42,
+      "dur_s": 3.04,
+      "text": "'And of course we mustn't put them in our mouths."
+     },
+     {
+      "i": 18,
+      "start_s": 94.42,
+      "end_s": 95.88,
+      "dur_s": 1.46,
+      "text": "A chef doesn't do that!"
+     },
+     {
+      "i": 19,
+      "start_s": 95.88,
+      "end_s": 99.64,
+      "dur_s": 3.76,
+      "text": "And we must be very careful with hot plates.'"
+     },
+     {
+      "i": 20,
+      "start_s": 100.9,
+      "end_s": 101.84,
+      "dur_s": 0.94,
+      "text": "The show starts."
+     },
+     {
+      "i": 21,
+      "start_s": 102.96,
+      "end_s": 104.26,
+      "dur_s": 1.3,
+      "text": "Harry is excited."
+     },
+     {
+      "i": 22,
+      "start_s": 105.34,
+      "end_s": 107.48,
+      "dur_s": 2.14,
+      "text": "He knows he's an excellent cook."
+     },
+     {
+      "i": 23,
+      "start_s": 108.72,
+      "end_s": 115.972,
+      "dur_s": 7.252,
+      "text": "This time he makes tomato soup, some salad, steak and carrot cake."
+     },
+     {
+      "i": 24,
+      "start_s": 116.92,
+      "end_s": 122.683,
+      "dur_s": 5.763,
+      "text": "The experts in the studio love Harry's food, and he stays on the show."
+     },
+     {
+      "i": 25,
+      "start_s": 123.84,
+      "end_s": 125.12,
+      "dur_s": 1.28,
+      "text": "It's 5 pm."
+     },
+     {
+      "i": 26,
+      "start_s": 125.98,
+      "end_s": 127.141,
+      "dur_s": 1.161,
+      "text": "The show is over."
+     },
+     {
+      "i": 27,
+      "start_s": 127.9,
+      "end_s": 130.6,
+      "dur_s": 2.7,
+      "text": "Harry is happy, and a little tired."
+     },
+     {
+      "i": 28,
+      "start_s": 131.68,
+      "end_s": 132.563,
+      "dur_s": 0.883,
+      "text": "He goes home."
+     },
+     {
+      "i": 29,
+      "start_s": 133.3,
+      "end_s": 134.92,
+      "dur_s": 1.62,
+      "text": "It's time to do his homework."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 30
+ },
+ "p087": {
+  "audio": "assets/p087.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 10.82,
+    "end_s": 90.76,
+    "text": "Can we make some sandwiches, Dad? Of course you can. No problem. Would you like some help? No, we're okay, thanks. Can we use this cheese, Dad? No, your mum wants that for the lasagna. Use this cheese. Okay. We need some salad in the sandwiches. Have we got any? There's no cucumber, but there are some tomatoes. Let's have cheese and tomato sandwiches then. Cool. What are you doing, Dad? I'm putting some peanut butter on the bread. It's tastier than butter. Don't do that. Too late. The thing is, Sally is allergic to nuts. Oh no. I'm sorry. Never mind. I can eat these. And you can make some more. We can't make any more. We haven't got any more bread. I know. Can we go for fish and chips, Dad? Hmm, okay. Yes, we can. Great. And can Sally and Max come too? Yes, of course they can. But first, we must clean up this mess. Oh, Dad. We're hungry now. Can we do that later? No, we can't.",
+    "sent_count": 28,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 10.82,
+      "end_s": 12.84,
+      "dur_s": 2.02,
+      "text": "Can we make some sandwiches, Dad?"
+     },
+     {
+      "i": 1,
+      "start_s": 13.52,
+      "end_s": 15.54,
+      "dur_s": 2.02,
+      "text": "Of course you can. No problem."
+     },
+     {
+      "i": 2,
+      "start_s": 16.26,
+      "end_s": 17.833,
+      "dur_s": 1.573,
+      "text": "Would you like some help?"
+     },
+     {
+      "i": 3,
+      "start_s": 18.24,
+      "end_s": 20.26,
+      "dur_s": 2.02,
+      "text": "No, we're okay, thanks."
+     },
+     {
+      "i": 4,
+      "start_s": 21.02,
+      "end_s": 23.046,
+      "dur_s": 2.026,
+      "text": "Can we use this cheese, Dad?"
+     },
+     {
+      "i": 5,
+      "start_s": 23.32,
+      "end_s": 27.42,
+      "dur_s": 4.1,
+      "text": "No, your mum wants that for the lasagna. Use this cheese."
+     },
+     {
+      "i": 6,
+      "start_s": 27.91,
+      "end_s": 28.26,
+      "dur_s": 0.35,
+      "text": "Okay."
+     },
+     {
+      "i": 7,
+      "start_s": 28.68,
+      "end_s": 32.66,
+      "dur_s": 3.98,
+      "text": "We need some salad in the sandwiches. Have we got any?"
+     },
+     {
+      "i": 8,
+      "start_s": 33.1,
+      "end_s": 36.98,
+      "dur_s": 3.88,
+      "text": "There's no cucumber, but there are some tomatoes."
+     },
+     {
+      "i": 9,
+      "start_s": 37.8,
+      "end_s": 41.12,
+      "dur_s": 3.32,
+      "text": "Let's have cheese and tomato sandwiches then."
+     },
+     {
+      "i": 10,
+      "start_s": 41.72,
+      "end_s": 42.284,
+      "dur_s": 0.564,
+      "text": "Cool."
+     },
+     {
+      "i": 11,
+      "start_s": 42.66,
+      "end_s": 44.08,
+      "dur_s": 1.42,
+      "text": "What are you doing, Dad?"
+     },
+     {
+      "i": 12,
+      "start_s": 44.62,
+      "end_s": 49.08,
+      "dur_s": 4.46,
+      "text": "I'm putting some peanut butter on the bread. It's tastier than butter."
+     },
+     {
+      "i": 13,
+      "start_s": 49.44,
+      "end_s": 50.32,
+      "dur_s": 0.88,
+      "text": "Don't do that."
+     },
+     {
+      "i": 14,
+      "start_s": 50.86,
+      "end_s": 51.4,
+      "dur_s": 0.54,
+      "text": "Too late."
+     },
+     {
+      "i": 15,
+      "start_s": 51.9,
+      "end_s": 55.36,
+      "dur_s": 3.46,
+      "text": "The thing is, Sally is allergic to nuts."
+     },
+     {
+      "i": 16,
+      "start_s": 56.0,
+      "end_s": 58.08,
+      "dur_s": 2.08,
+      "text": "Oh no. I'm sorry."
+     },
+     {
+      "i": 17,
+      "start_s": 58.723,
+      "end_s": 60.74,
+      "dur_s": 2.017,
+      "text": "Never mind. I can eat these."
+     },
+     {
+      "i": 18,
+      "start_s": 61.34,
+      "end_s": 63.054,
+      "dur_s": 1.714,
+      "text": "And you can make some more."
+     },
+     {
+      "i": 19,
+      "start_s": 63.28,
+      "end_s": 66.94,
+      "dur_s": 3.66,
+      "text": "We can't make any more. We haven't got any more bread."
+     },
+     {
+      "i": 20,
+      "start_s": 67.64,
+      "end_s": 70.74,
+      "dur_s": 3.1,
+      "text": "I know. Can we go for fish and chips, Dad?"
+     },
+     {
+      "i": 21,
+      "start_s": 71.32,
+      "end_s": 73.82,
+      "dur_s": 2.5,
+      "text": "Hmm, okay. Yes, we can."
+     },
+     {
+      "i": 22,
+      "start_s": 74.28,
+      "end_s": 74.82,
+      "dur_s": 0.54,
+      "text": "Great."
+     },
+     {
+      "i": 23,
+      "start_s": 75.5,
+      "end_s": 77.88,
+      "dur_s": 2.38,
+      "text": "And can Sally and Max come too?"
+     },
+     {
+      "i": 24,
+      "start_s": 78.4,
+      "end_s": 79.92,
+      "dur_s": 1.52,
+      "text": "Yes, of course they can."
+     },
+     {
+      "i": 25,
+      "start_s": 80.56,
+      "end_s": 83.28,
+      "dur_s": 2.72,
+      "text": "But first, we must clean up this mess."
+     },
+     {
+      "i": 26,
+      "start_s": 83.8,
+      "end_s": 88.6,
+      "dur_s": 4.8,
+      "text": "Oh, Dad. We're hungry now. Can we do that later?"
+     },
+     {
+      "i": 27,
+      "start_s": 89.32,
+      "end_s": 90.76,
+      "dur_s": 1.44,
+      "text": "No, we can't."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 28
+ },
+ "p088": {
+  "audio": "assets/p088.mp3",
+  "paragraph_count": 4,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 6.86,
+    "end_s": 25.72,
+    "text": "Hello. Can I help you? Hi, yes. We'd like a table for two, please. Here are the menus. Thanks. What would you like to drink? I'd like an orange juice. And I'd like water, please. Great.",
+    "sent_count": 8,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 6.86,
+      "end_s": 9.1,
+      "dur_s": 2.24,
+      "text": "Hello. Can I help you?"
+     },
+     {
+      "i": 1,
+      "start_s": 9.88,
+      "end_s": 13.66,
+      "dur_s": 3.78,
+      "text": "Hi, yes. We'd like a table for two, please."
+     },
+     {
+      "i": 2,
+      "start_s": 14.4,
+      "end_s": 15.42,
+      "dur_s": 1.02,
+      "text": "Here are the menus."
+     },
+     {
+      "i": 3,
+      "start_s": 16.486,
+      "end_s": 16.96,
+      "dur_s": 0.474,
+      "text": "Thanks."
+     },
+     {
+      "i": 4,
+      "start_s": 17.8,
+      "end_s": 19.8,
+      "dur_s": 2.0,
+      "text": "What would you like to drink?"
+     },
+     {
+      "i": 5,
+      "start_s": 20.28,
+      "end_s": 21.92,
+      "dur_s": 1.64,
+      "text": "I'd like an orange juice."
+     },
+     {
+      "i": 6,
+      "start_s": 22.64,
+      "end_s": 24.66,
+      "dur_s": 2.02,
+      "text": "And I'd like water, please."
+     },
+     {
+      "i": 7,
+      "start_s": 25.26,
+      "end_s": 25.72,
+      "dur_s": 0.46,
+      "text": "Great."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 25.7,
+      "asr": "Great. Two minutes later.",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 2,
+    "start_s": 30.62,
+    "end_s": 57.48,
+    "text": "Are you ready to order now? Yes. I'd like the pizza with salad. Any starters? No thanks. Would you like any extra toppings on the pizza? Onion, peppers, or tomatoes? Some peppers, please. And what would you like? I'd like the chicken and chips. Okay. Is that everything? Yes. Thank you.",
+    "sent_count": 10,
+    "sents": [
+     {
+      "i": 8,
+      "start_s": 30.62,
+      "end_s": 32.7,
+      "dur_s": 2.08,
+      "text": "Are you ready to order now?"
+     },
+     {
+      "i": 9,
+      "start_s": 33.12,
+      "end_s": 36.08,
+      "dur_s": 2.96,
+      "text": "Yes. I'd like the pizza with salad."
+     },
+     {
+      "i": 10,
+      "start_s": 36.6,
+      "end_s": 37.4,
+      "dur_s": 0.8,
+      "text": "Any starters?"
+     },
+     {
+      "i": 11,
+      "start_s": 38.26,
+      "end_s": 38.9,
+      "dur_s": 0.64,
+      "text": "No thanks."
+     },
+     {
+      "i": 12,
+      "start_s": 39.48,
+      "end_s": 45.8,
+      "dur_s": 6.32,
+      "text": "Would you like any extra toppings on the pizza? Onion, peppers, or tomatoes?"
+     },
+     {
+      "i": 13,
+      "start_s": 46.36,
+      "end_s": 47.68,
+      "dur_s": 1.32,
+      "text": "Some peppers, please."
+     },
+     {
+      "i": 14,
+      "start_s": 48.32,
+      "end_s": 49.7,
+      "dur_s": 1.38,
+      "text": "And what would you like?"
+     },
+     {
+      "i": 15,
+      "start_s": 50.24,
+      "end_s": 52.12,
+      "dur_s": 1.88,
+      "text": "I'd like the chicken and chips."
+     },
+     {
+      "i": 16,
+      "start_s": 52.88,
+      "end_s": 55.32,
+      "dur_s": 2.44,
+      "text": "Okay. Is that everything?"
+     },
+     {
+      "i": 17,
+      "start_s": 55.32,
+      "end_s": 57.48,
+      "dur_s": 2.16,
+      "text": "Yes. Thank you."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 57.5,
+      "asr": "Thank you. Half an hour later",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 3,
+    "start_s": 61.452,
+    "end_s": 70.16,
+    "text": "Would you like a dessert? Yes, please. I'd like the fruit salad with vanilla ice cream. Me, too.",
+    "sent_count": 3,
+    "sents": [
+     {
+      "i": 18,
+      "start_s": 61.452,
+      "end_s": 63.08,
+      "dur_s": 1.628,
+      "text": "Would you like a dessert?"
+     },
+     {
+      "i": 19,
+      "start_s": 64.06,
+      "end_s": 69.04,
+      "dur_s": 4.98,
+      "text": "Yes, please. I'd like the fruit salad with vanilla ice cream."
+     },
+     {
+      "i": 20,
+      "start_s": 69.5,
+      "end_s": 70.16,
+      "dur_s": 0.66,
+      "text": "Me, too."
+     }
+    ],
+    "extras": [
+     {
+      "start_s": 70.2,
+      "asr": "10 Minutes Later",
+      "kind": "被排除朗读"
+     }
+    ]
+   },
+   {
+    "pi": 4,
+    "start_s": 74.52,
+    "end_s": 84.04,
+    "text": "How are your desserts? Great. Would you like any more drinks? No, thanks. We'd like the bill, please. Of course. Thank you.",
+    "sent_count": 6,
+    "sents": [
+     {
+      "i": 21,
+      "start_s": 74.52,
+      "end_s": 76.06,
+      "dur_s": 1.54,
+      "text": "How are your desserts?"
+     },
+     {
+      "i": 22,
+      "start_s": 76.96,
+      "end_s": 77.36,
+      "dur_s": 0.4,
+      "text": "Great."
+     },
+     {
+      "i": 23,
+      "start_s": 77.96,
+      "end_s": 79.7,
+      "dur_s": 1.74,
+      "text": "Would you like any more drinks?"
+     },
+     {
+      "i": 24,
+      "start_s": 80.36,
+      "end_s": 83.02,
+      "dur_s": 2.66,
+      "text": "No, thanks. We'd like the bill, please."
+     },
+     {
+      "i": 25,
+      "start_s": 83.02,
+      "end_s": 83.685,
+      "dur_s": 0.665,
+      "text": "Of course."
+     },
+     {
+      "i": 26,
+      "start_s": 83.72,
+      "end_s": 84.04,
+      "dur_s": 0.32,
+      "text": "Thank you."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 27
+ },
+ "p090": {
+  "audio": "assets/p090.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.44,
+    "end_s": 113.78,
+    "text": "Wow! What a great smell! Thanks, Mum! It's lasagna. It's in the oven and it's almost ready. Lasagna from the shop? No, Mum. It's my lasagna. It's got meat, pepper, mushrooms, cheese, onion, everything. And we can eat it with a bit of salad. Oh, right! But we? Who's coming for lunch? Mark and Chloe. We want to study together this afternoon and have lunch together first. That's okay, right? Of course, Joe. But... But what, Mum? Well, the thing is, I'd like a nice quiet afternoon. Oh, don't worry, Mum. After lunch, we plan to study upstairs in my room. Oh! It's ready! Be careful, Joe. It's very hot. Can I help you? It's okay, Mum. I can just... Oh, no! My lasagna! It's all over the floor! Now what? Well, first, let's clean it all up. And then, do you and your friends want to go to the new sandwich shop? Not really. But I've got an idea, Mum. We can just have the salad. Okay. And you and I can make some chocolate-covered bananas so your friends can have some dessert, too. Thanks, Mum. You're the best!",
+    "sent_count": 21,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.44,
+      "end_s": 11.38,
+      "dur_s": 2.94,
+      "text": "Wow! What a great smell!"
+     },
+     {
+      "i": 1,
+      "start_s": 12.14,
+      "end_s": 18.24,
+      "dur_s": 6.1,
+      "text": "Thanks, Mum! It's lasagna. It's in the oven and it's almost ready."
+     },
+     {
+      "i": 2,
+      "start_s": 18.84,
+      "end_s": 20.44,
+      "dur_s": 1.6,
+      "text": "Lasagna from the shop?"
+     },
+     {
+      "i": 3,
+      "start_s": 20.94,
+      "end_s": 23.54,
+      "dur_s": 2.6,
+      "text": "No, Mum. It's my lasagna."
+     },
+     {
+      "i": 4,
+      "start_s": 23.54,
+      "end_s": 30.78,
+      "dur_s": 7.24,
+      "text": "It's got meat, pepper, mushrooms, cheese, onion, everything."
+     },
+     {
+      "i": 5,
+      "start_s": 31.74,
+      "end_s": 34.82,
+      "dur_s": 3.08,
+      "text": "And we can eat it with a bit of salad."
+     },
+     {
+      "i": 6,
+      "start_s": 35.68,
+      "end_s": 40.16,
+      "dur_s": 4.48,
+      "text": "Oh, right! But we? Who's coming for lunch?"
+     },
+     {
+      "i": 7,
+      "start_s": 41.04,
+      "end_s": 47.44,
+      "dur_s": 6.4,
+      "text": "Mark and Chloe. We want to study together this afternoon and have lunch together first."
+     },
+     {
+      "i": 8,
+      "start_s": 48.26,
+      "end_s": 49.8,
+      "dur_s": 1.54,
+      "text": "That's okay, right?"
+     },
+     {
+      "i": 9,
+      "start_s": 50.54,
+      "end_s": 53.52,
+      "dur_s": 2.98,
+      "text": "Of course, Joe. But..."
+     },
+     {
+      "i": 10,
+      "start_s": 53.52,
+      "end_s": 54.04,
+      "dur_s": 0.52,
+      "text": "But what, Mum?"
+     },
+     {
+      "i": 11,
+      "start_s": 54.54,
+      "end_s": 58.72,
+      "dur_s": 4.18,
+      "text": "Well, the thing is, I'd like a nice quiet afternoon."
+     },
+     {
+      "i": 12,
+      "start_s": 59.22,
+      "end_s": 65.271,
+      "dur_s": 6.051,
+      "text": "Oh, don't worry, Mum. After lunch, we plan to study upstairs in my room."
+     },
+     {
+      "i": 13,
+      "start_s": 66.36,
+      "end_s": 68.1,
+      "dur_s": 1.74,
+      "text": "Oh! It's ready!"
+     },
+     {
+      "i": 14,
+      "start_s": 68.7,
+      "end_s": 73.561,
+      "dur_s": 4.861,
+      "text": "Be careful, Joe. It's very hot. Can I help you?"
+     },
+     {
+      "i": 15,
+      "start_s": 73.8,
+      "end_s": 81.66,
+      "dur_s": 7.86,
+      "text": "It's okay, Mum. I can just... Oh, no! My lasagna! It's all over the floor!"
+     },
+     {
+      "i": 16,
+      "start_s": 82.733,
+      "end_s": 83.94,
+      "dur_s": 1.207,
+      "text": "Now what?"
+     },
+     {
+      "i": 17,
+      "start_s": 84.54,
+      "end_s": 94.06,
+      "dur_s": 9.52,
+      "text": "Well, first, let's clean it all up. And then, do you and your friends want to go to the new sandwich shop?"
+     },
+     {
+      "i": 18,
+      "start_s": 94.32,
+      "end_s": 100.64,
+      "dur_s": 6.32,
+      "text": "Not really. But I've got an idea, Mum. We can just have the salad."
+     },
+     {
+      "i": 19,
+      "start_s": 101.42,
+      "end_s": 110.52,
+      "dur_s": 9.1,
+      "text": "Okay. And you and I can make some chocolate-covered bananas so your friends can have some dessert, too."
+     },
+     {
+      "i": 20,
+      "start_s": 110.52,
+      "end_s": 113.78,
+      "dur_s": 3.26,
+      "text": "Thanks, Mum. You're the best!"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 21
+ },
+ "p092": {
+  "audio": "assets/p092.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 10.32,
+    "end_s": 136.88,
+    "text": "Valentina Tereshkova was born in Russia on 6th March 1937. Her father was a driver and her mother worked in a factory. Valentina was a worker in a factory, too. Her hobby was skydiving and it was her dream to be an astronaut and to go into space. In 1962, there was a big competition to find new astronauts. There were 400 people interested in going to space. The training programme wasn't very easy, but Tereshkova was hardworking. And she was the lucky one. Tereshkova's big day was on 16th June 1963, and she was just 26. The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space. The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight. She was in space for three days. She is the only woman to fly into space alone. After that, she was very famous all over the world. Her face was on stamps in many countries. In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'. At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag. These were very important moments for her.",
+    "sent_count": 18,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 10.32,
+      "end_s": 16.34,
+      "dur_s": 6.02,
+      "text": "Valentina Tereshkova was born in Russia on 6th March 1937."
+     },
+     {
+      "i": 1,
+      "start_s": 17.94,
+      "end_s": 22.1,
+      "dur_s": 4.16,
+      "text": "Her father was a driver and her mother worked in a factory."
+     },
+     {
+      "i": 2,
+      "start_s": 24.2,
+      "end_s": 27.156,
+      "dur_s": 2.956,
+      "text": "Valentina was a worker in a factory, too."
+     },
+     {
+      "i": 3,
+      "start_s": 28.02,
+      "end_s": 35.6,
+      "dur_s": 7.58,
+      "text": "Her hobby was skydiving and it was her dream to be an astronaut and to go into space."
+     },
+     {
+      "i": 4,
+      "start_s": 36.96,
+      "end_s": 43.56,
+      "dur_s": 6.6,
+      "text": "In 1962, there was a big competition to find new astronauts."
+     },
+     {
+      "i": 5,
+      "start_s": 44.52,
+      "end_s": 48.84,
+      "dur_s": 4.32,
+      "text": "There were 400 people interested in going to space."
+     },
+     {
+      "i": 6,
+      "start_s": 50.06,
+      "end_s": 55.72,
+      "dur_s": 5.66,
+      "text": "The training programme wasn't very easy, but Tereshkova was hardworking."
+     },
+     {
+      "i": 7,
+      "start_s": 56.14,
+      "end_s": 59.455,
+      "dur_s": 3.315,
+      "text": "And she was the lucky one."
+     },
+     {
+      "i": 8,
+      "start_s": 60.894,
+      "end_s": 68.185,
+      "dur_s": 7.291,
+      "text": "Tereshkova's big day was on 16th June 1963, and she was just 26."
+     },
+     {
+      "i": 9,
+      "start_s": 69.6,
+      "end_s": 77.48,
+      "dur_s": 7.88,
+      "text": "The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space."
+     },
+     {
+      "i": 10,
+      "start_s": 78.58,
+      "end_s": 88.38,
+      "dur_s": 9.8,
+      "text": "The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight."
+     },
+     {
+      "i": 11,
+      "start_s": 89.46,
+      "end_s": 92.311,
+      "dur_s": 2.851,
+      "text": "She was in space for three days."
+     },
+     {
+      "i": 12,
+      "start_s": 93.4,
+      "end_s": 97.18,
+      "dur_s": 3.78,
+      "text": "She is the only woman to fly into space alone."
+     },
+     {
+      "i": 13,
+      "start_s": 98.56,
+      "end_s": 103.027,
+      "dur_s": 4.467,
+      "text": "After that, she was very famous all over the world."
+     },
+     {
+      "i": 14,
+      "start_s": 104.22,
+      "end_s": 107.0,
+      "dur_s": 2.78,
+      "text": "Her face was on stamps in many countries."
+     },
+     {
+      "i": 15,
+      "start_s": 108.42,
+      "end_s": 119.76,
+      "dur_s": 11.34,
+      "text": "In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'."
+     },
+     {
+      "i": 16,
+      "start_s": 121.1,
+      "end_s": 132.7,
+      "dur_s": 11.6,
+      "text": "At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag."
+     },
+     {
+      "i": 17,
+      "start_s": 132.7,
+      "end_s": 136.88,
+      "dur_s": 4.18,
+      "text": "These were very important moments for her."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 18
+ },
+ "p095": {
+  "audio": "assets/p095.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 7.62,
+    "end_s": 126.24,
+    "text": "Hi Will, how are you? Are you better? Yes, thanks. I was ill yesterday and the day before but I'm okay now. Good, I'm pleased. So yesterday was the prize-giving at school, right? Was it good? No, it wasn't. Well, not really. There weren't many parents there. Oh really? There were lots last year. Were all the teachers there? Of course! The teachers can't choose, can they? No, and neither can the kids. Anyway, who were the big winners this year? Well, the best student of the year for the whole school was Sandra Hammond. Sandra? Was she the best student last year too? No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school. Oh, the Hammonds! They always win everything! Boring! I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you! You're joking of course. I'm never the best at anything. Well, anyway, guess who the best science student was? No idea. Andy Clarkson? No, me! You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice? Yes, it was. A book about science. I really want to read it. Good for you, Alice. Well done. Thanks, Will.",
+    "sent_count": 20,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 7.62,
+      "end_s": 11.36,
+      "dur_s": 3.74,
+      "text": "Hi Will, how are you? Are you better?"
+     },
+     {
+      "i": 1,
+      "start_s": 11.98,
+      "end_s": 18.17,
+      "dur_s": 6.19,
+      "text": "Yes, thanks. I was ill yesterday and the day before but I'm okay now."
+     },
+     {
+      "i": 2,
+      "start_s": 18.48,
+      "end_s": 20.1,
+      "dur_s": 1.62,
+      "text": "Good, I'm pleased."
+     },
+     {
+      "i": 3,
+      "start_s": 20.88,
+      "end_s": 26.02,
+      "dur_s": 5.14,
+      "text": "So yesterday was the prize-giving at school, right? Was it good?"
+     },
+     {
+      "i": 4,
+      "start_s": 26.02,
+      "end_s": 33.44,
+      "dur_s": 7.42,
+      "text": "No, it wasn't. Well, not really. There weren't many parents there."
+     },
+     {
+      "i": 5,
+      "start_s": 33.98,
+      "end_s": 39.578,
+      "dur_s": 5.598,
+      "text": "Oh really? There were lots last year. Were all the teachers there?"
+     },
+     {
+      "i": 6,
+      "start_s": 40.1,
+      "end_s": 44.2,
+      "dur_s": 4.1,
+      "text": "Of course! The teachers can't choose, can they?"
+     },
+     {
+      "i": 7,
+      "start_s": 45.28,
+      "end_s": 51.583,
+      "dur_s": 6.303,
+      "text": "No, and neither can the kids. Anyway, who were the big winners this year?"
+     },
+     {
+      "i": 8,
+      "start_s": 52.08,
+      "end_s": 58.77,
+      "dur_s": 6.69,
+      "text": "Well, the best student of the year for the whole school was Sandra Hammond."
+     },
+     {
+      "i": 9,
+      "start_s": 59.24,
+      "end_s": 63.32,
+      "dur_s": 4.08,
+      "text": "Sandra? Was she the best student last year too?"
+     },
+     {
+      "i": 10,
+      "start_s": 64.06,
+      "end_s": 72.853,
+      "dur_s": 8.793,
+      "text": "No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school."
+     },
+     {
+      "i": 11,
+      "start_s": 73.24,
+      "end_s": 78.66,
+      "dur_s": 5.42,
+      "text": "Oh, the Hammonds! They always win everything! Boring!"
+     },
+     {
+      "i": 12,
+      "start_s": 79.38,
+      "end_s": 88.58,
+      "dur_s": 9.2,
+      "text": "I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you!"
+     },
+     {
+      "i": 13,
+      "start_s": 89.1,
+      "end_s": 92.94,
+      "dur_s": 3.84,
+      "text": "You're joking of course. I'm never the best at anything."
+     },
+     {
+      "i": 14,
+      "start_s": 93.88,
+      "end_s": 98.74,
+      "dur_s": 4.86,
+      "text": "Well, anyway, guess who the best science student was?"
+     },
+     {
+      "i": 15,
+      "start_s": 99.44,
+      "end_s": 102.47,
+      "dur_s": 3.03,
+      "text": "No idea. Andy Clarkson?"
+     },
+     {
+      "i": 16,
+      "start_s": 102.82,
+      "end_s": 104.64,
+      "dur_s": 1.82,
+      "text": "No, me!"
+     },
+     {
+      "i": 17,
+      "start_s": 105.3,
+      "end_s": 114.96,
+      "dur_s": 9.66,
+      "text": "You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice?"
+     },
+     {
+      "i": 18,
+      "start_s": 115.48,
+      "end_s": 121.974,
+      "dur_s": 6.494,
+      "text": "Yes, it was. A book about science. I really want to read it."
+     },
+     {
+      "i": 19,
+      "start_s": 122.34,
+      "end_s": 126.24,
+      "dur_s": 3.9,
+      "text": "Good for you, Alice. Well done. Thanks, Will."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 20
+ },
+ "p096": {
+  "audio": "assets/p096.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.42,
+    "end_s": 149.14,
+    "text": "Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that? How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny. OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam. My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha. Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark.",
+    "sent_count": 5,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.42,
+      "end_s": 27.64,
+      "dur_s": 19.22,
+      "text": "Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that?"
+     },
+     {
+      "i": 1,
+      "start_s": 28.6,
+      "end_s": 44.06,
+      "dur_s": 15.46,
+      "text": "How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny."
+     },
+     {
+      "i": 2,
+      "start_s": 45.08,
+      "end_s": 66.328,
+      "dur_s": 21.248,
+      "text": "OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam."
+     },
+     {
+      "i": 3,
+      "start_s": 67.94,
+      "end_s": 112.74,
+      "dur_s": 44.8,
+      "text": "My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha."
+     },
+     {
+      "i": 4,
+      "start_s": 114.98,
+      "end_s": 149.14,
+      "dur_s": 34.16,
+      "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 5
+ },
+ "p099": {
+  "audio": "assets/p099.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 9.12,
+    "end_s": 177.02,
+    "text": "There are many wonderful statues all over the world. Many of them help us to remember the lives of great people. Rosa Parks One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black. She said no and the police decided to take her away. It was a very important moment in the history of black people's rights in the US. The statue shows Rosa sitting on a rock wearing the same clothes as that day in 1965. Franz Kafka Franz Kafka was a writer from Prague. He was born in 1883. His books were in German. In his life, he was not very famous, but now he is. Many of his stories were very strange. There's a very unusual statue of him in Prague. He's sitting on the shoulders of an empty suit. Os Candango The Candango were men who travelled from all over Brazil between 1956 and 1960 to build the new capital city of Brazil, Brasilia. In 1956, 256 men arrived, but before long there were 30,000 who worked hard to build the city. Brasilia opened in 1960 and this 8 meter high statue to remember the Candango is in the 3 powers square. The two figures are holding digging tools. Suzanne Lenglen At the Roland Garros tennis centre in Paris, there is a court called Suzanne Lenglen. Lenglen was a famous French tennis player who played from 1914 to 1926. She was the number one player for many years. In front of the court is this statue. Lenglen is jumping with a racket in her hand and she is wearing her famous white dress and headband.",
+    "sent_count": 26,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 9.12,
+      "end_s": 13.305,
+      "dur_s": 4.185,
+      "text": "There are many wonderful statues all over the world."
+     },
+     {
+      "i": 1,
+      "start_s": 14.12,
+      "end_s": 18.4,
+      "dur_s": 4.28,
+      "text": "Many of them help us to remember the lives of great people."
+     },
+     {
+      "i": 2,
+      "start_s": 19.86,
+      "end_s": 21.107,
+      "dur_s": 1.247,
+      "text": "Rosa Parks"
+     },
+     {
+      "i": 3,
+      "start_s": 22.0,
+      "end_s": 36.2,
+      "dur_s": 14.2,
+      "text": "One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black."
+     },
+     {
+      "i": 4,
+      "start_s": 37.2,
+      "end_s": 42.028,
+      "dur_s": 4.828,
+      "text": "She said no and the police decided to take her away."
+     },
+     {
+      "i": 5,
+      "start_s": 43.38,
+      "end_s": 49.54,
+      "dur_s": 6.16,
+      "text": "It was a very important moment in the history of black people's rights in the US."
+     },
+     {
+      "i": 6,
+      "start_s": 49.54,
+      "end_s": 58.86,
+      "dur_s": 9.32,
+      "text": "The statue shows Rosa sitting on a rock wearing the same clothes as that day in 1965."
+     },
+     {
+      "i": 7,
+      "start_s": 60.76,
+      "end_s": 62.18,
+      "dur_s": 1.42,
+      "text": "Franz Kafka"
+     },
+     {
+      "i": 8,
+      "start_s": 63.2,
+      "end_s": 66.8,
+      "dur_s": 3.6,
+      "text": "Franz Kafka was a writer from Prague."
+     },
+     {
+      "i": 9,
+      "start_s": 67.44,
+      "end_s": 70.34,
+      "dur_s": 2.9,
+      "text": "He was born in 1883."
+     },
+     {
+      "i": 10,
+      "start_s": 71.2,
+      "end_s": 73.32,
+      "dur_s": 2.12,
+      "text": "His books were in German."
+     },
+     {
+      "i": 11,
+      "start_s": 74.92,
+      "end_s": 81.096,
+      "dur_s": 6.176,
+      "text": "In his life, he was not very famous, but now he is."
+     },
+     {
+      "i": 12,
+      "start_s": 81.96,
+      "end_s": 84.56,
+      "dur_s": 2.6,
+      "text": "Many of his stories were very strange."
+     },
+     {
+      "i": 13,
+      "start_s": 85.8,
+      "end_s": 89.32,
+      "dur_s": 3.52,
+      "text": "There's a very unusual statue of him in Prague."
+     },
+     {
+      "i": 14,
+      "start_s": 90.26,
+      "end_s": 93.693,
+      "dur_s": 3.433,
+      "text": "He's sitting on the shoulders of an empty suit."
+     },
+     {
+      "i": 15,
+      "start_s": 95.66,
+      "end_s": 96.92,
+      "dur_s": 1.26,
+      "text": "Os Candango"
+     },
+     {
+      "i": 16,
+      "start_s": 97.78,
+      "end_s": 111.537,
+      "dur_s": 13.757,
+      "text": "The Candango were men who travelled from all over Brazil between 1956 and 1960 to build the new capital city of Brazil, Brasilia."
+     },
+     {
+      "i": 17,
+      "start_s": 112.22,
+      "end_s": 124.738,
+      "dur_s": 12.518,
+      "text": "In 1956, 256 men arrived, but before long there were 30,000 who worked hard to build the city."
+     },
+     {
+      "i": 18,
+      "start_s": 125.94,
+      "end_s": 136.84,
+      "dur_s": 10.9,
+      "text": "Brasilia opened in 1960 and this 8 meter high statue to remember the Candango is in the 3 powers square."
+     },
+     {
+      "i": 19,
+      "start_s": 138.06,
+      "end_s": 141.32,
+      "dur_s": 3.26,
+      "text": "The two figures are holding digging tools."
+     },
+     {
+      "i": 20,
+      "start_s": 143.04,
+      "end_s": 144.916,
+      "dur_s": 1.876,
+      "text": "Suzanne Lenglen"
+     },
+     {
+      "i": 21,
+      "start_s": 145.62,
+      "end_s": 152.613,
+      "dur_s": 6.993,
+      "text": "At the Roland Garros tennis centre in Paris, there is a court called Suzanne Lenglen."
+     },
+     {
+      "i": 22,
+      "start_s": 153.48,
+      "end_s": 160.5,
+      "dur_s": 7.02,
+      "text": "Lenglen was a famous French tennis player who played from 1914 to 1926."
+     },
+     {
+      "i": 23,
+      "start_s": 161.7,
+      "end_s": 164.5,
+      "dur_s": 2.8,
+      "text": "She was the number one player for many years."
+     },
+     {
+      "i": 24,
+      "start_s": 165.64,
+      "end_s": 168.12,
+      "dur_s": 2.48,
+      "text": "In front of the court is this statue."
+     },
+     {
+      "i": 25,
+      "start_s": 169.06,
+      "end_s": 177.02,
+      "dur_s": 7.96,
+      "text": "Lenglen is jumping with a racket in her hand and she is wearing her famous white dress and headband."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 26
+ },
+ "p102": {
+  "audio": "assets/p102.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 9.22,
+    "end_s": 133.32,
+    "text": "Everyone knows that dolphins are very intelligent animals. But did you know that many scientists believe there is a special connection between dolphins and humans? There are lots of stories about dolphins helping humans who are in danger. Here are two of our favourites. 14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water. Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat. He shouted, but his dad didn't hear him. Davide got very worried. Then, very quickly, a dolphin came to help him. It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back. The dolphin took him back to the boat. When Davide's father saw his son, he pulled him from the water. The dolphin saved Davide's life. In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands. He was swimming when he saw a large dark shape below him. He knew that it was a great white shark and his life was in danger. Adam knew he didn't have a lot of time. A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark. The circle of dolphins kept Adam safe. After half an hour, the shark left, but the dolphins swam with him for another hour.",
+    "sent_count": 20,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 9.22,
+      "end_s": 13.76,
+      "dur_s": 4.54,
+      "text": "Everyone knows that dolphins are very intelligent animals."
+     },
+     {
+      "i": 1,
+      "start_s": 14.66,
+      "end_s": 21.72,
+      "dur_s": 7.06,
+      "text": "But did you know that many scientists believe there is a special connection between dolphins and humans?"
+     },
+     {
+      "i": 2,
+      "start_s": 22.62,
+      "end_s": 27.74,
+      "dur_s": 5.12,
+      "text": "There are lots of stories about dolphins helping humans who are in danger."
+     },
+     {
+      "i": 3,
+      "start_s": 27.74,
+      "end_s": 31.01,
+      "dur_s": 3.27,
+      "text": "Here are two of our favourites."
+     },
+     {
+      "i": 4,
+      "start_s": 33.44,
+      "end_s": 43.514,
+      "dur_s": 10.074,
+      "text": "14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water."
+     },
+     {
+      "i": 5,
+      "start_s": 44.3,
+      "end_s": 52.419,
+      "dur_s": 8.119,
+      "text": "Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat."
+     },
+     {
+      "i": 6,
+      "start_s": 53.1,
+      "end_s": 56.181,
+      "dur_s": 3.081,
+      "text": "He shouted, but his dad didn't hear him."
+     },
+     {
+      "i": 7,
+      "start_s": 56.96,
+      "end_s": 58.967,
+      "dur_s": 2.007,
+      "text": "Davide got very worried."
+     },
+     {
+      "i": 8,
+      "start_s": 59.78,
+      "end_s": 63.971,
+      "dur_s": 4.191,
+      "text": "Then, very quickly, a dolphin came to help him."
+     },
+     {
+      "i": 9,
+      "start_s": 64.58,
+      "end_s": 71.773,
+      "dur_s": 7.193,
+      "text": "It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back."
+     },
+     {
+      "i": 10,
+      "start_s": 72.52,
+      "end_s": 75.105,
+      "dur_s": 2.585,
+      "text": "The dolphin took him back to the boat."
+     },
+     {
+      "i": 11,
+      "start_s": 75.98,
+      "end_s": 81.0,
+      "dur_s": 5.02,
+      "text": "When Davide's father saw his son, he pulled him from the water."
+     },
+     {
+      "i": 12,
+      "start_s": 81.8,
+      "end_s": 84.602,
+      "dur_s": 2.802,
+      "text": "The dolphin saved Davide's life."
+     },
+     {
+      "i": 13,
+      "start_s": 86.18,
+      "end_s": 96.107,
+      "dur_s": 9.927,
+      "text": "In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands."
+     },
+     {
+      "i": 14,
+      "start_s": 96.92,
+      "end_s": 101.506,
+      "dur_s": 4.586,
+      "text": "He was swimming when he saw a large dark shape below him."
+     },
+     {
+      "i": 15,
+      "start_s": 102.14,
+      "end_s": 107.671,
+      "dur_s": 5.531,
+      "text": "He knew that it was a great white shark and his life was in danger."
+     },
+     {
+      "i": 16,
+      "start_s": 108.44,
+      "end_s": 111.36,
+      "dur_s": 2.92,
+      "text": "Adam knew he didn't have a lot of time."
+     },
+     {
+      "i": 17,
+      "start_s": 111.36,
+      "end_s": 121.26,
+      "dur_s": 9.9,
+      "text": "A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark."
+     },
+     {
+      "i": 18,
+      "start_s": 122.42,
+      "end_s": 125.353,
+      "dur_s": 2.933,
+      "text": "The circle of dolphins kept Adam safe."
+     },
+     {
+      "i": 19,
+      "start_s": 126.02,
+      "end_s": 133.32,
+      "dur_s": 7.3,
+      "text": "After half an hour, the shark left, but the dolphins swam with him for another hour."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 20
+ },
+ "p105": {
+  "audio": "assets/p105.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 7.32,
+    "end_s": 134.4,
+    "text": "Hey Josh, did you have a good holiday? Hi Mandy, yes it was great. Where did you go? The Pantanal, it's in the east of Brazil. It's a really big wetland. Oh right, so why did you go there? Because there are amazing animals and birds there. We all love animals in my family, especially my dad. He's a bird watcher. Really? I didn't know that. Yes, he loves birds. So are you a big bird watcher too? Well I like them and we saw some really beautiful parrots and toucans, but I prefer the other animals. Did you see anything special? Yes, loads of stuff. There were lots of Cayman. Cayman? What are they? They're like small crocodiles. Cool, what else did you see? We saw an anaconda, you know one of those really big snakes, and then one night we heard a jaguar but we didn't see it. Wow, were you scared? No, it was exciting, especially because it was so near our tent. Tent? Did you go camping? Yes, but just for a few nights. Most of the time we were in small hotels. So how did you travel around? Did you have a guide? Yes, we did. His name was Sergio. He knew where to find all the animals. Did he speak English? Yes, he did. His English was good which was lucky because no one in my family can speak Portuguese. It sounds like you had a great time. We did. It was fantastic.",
+    "sent_count": 31,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 7.32,
+      "end_s": 11.02,
+      "dur_s": 3.7,
+      "text": "Hey Josh, did you have a good holiday?"
+     },
+     {
+      "i": 1,
+      "start_s": 11.6,
+      "end_s": 14.32,
+      "dur_s": 2.72,
+      "text": "Hi Mandy, yes it was great."
+     },
+     {
+      "i": 2,
+      "start_s": 14.96,
+      "end_s": 15.86,
+      "dur_s": 0.9,
+      "text": "Where did you go?"
+     },
+     {
+      "i": 3,
+      "start_s": 16.52,
+      "end_s": 22.732,
+      "dur_s": 6.212,
+      "text": "The Pantanal, it's in the east of Brazil. It's a really big wetland."
+     },
+     {
+      "i": 4,
+      "start_s": 23.2,
+      "end_s": 27.06,
+      "dur_s": 3.86,
+      "text": "Oh right, so why did you go there?"
+     },
+     {
+      "i": 5,
+      "start_s": 27.06,
+      "end_s": 31.324,
+      "dur_s": 4.264,
+      "text": "Because there are amazing animals and birds there."
+     },
+     {
+      "i": 6,
+      "start_s": 31.777,
+      "end_s": 36.42,
+      "dur_s": 4.643,
+      "text": "We all love animals in my family, especially my dad."
+     },
+     {
+      "i": 7,
+      "start_s": 36.8,
+      "end_s": 38.243,
+      "dur_s": 1.443,
+      "text": "He's a bird watcher."
+     },
+     {
+      "i": 8,
+      "start_s": 38.68,
+      "end_s": 41.0,
+      "dur_s": 2.32,
+      "text": "Really? I didn't know that."
+     },
+     {
+      "i": 9,
+      "start_s": 41.54,
+      "end_s": 43.76,
+      "dur_s": 2.22,
+      "text": "Yes, he loves birds."
+     },
+     {
+      "i": 10,
+      "start_s": 44.34,
+      "end_s": 47.4,
+      "dur_s": 3.06,
+      "text": "So are you a big bird watcher too?"
+     },
+     {
+      "i": 11,
+      "start_s": 48.04,
+      "end_s": 57.44,
+      "dur_s": 9.4,
+      "text": "Well I like them and we saw some really beautiful parrots and toucans, but I prefer the other animals."
+     },
+     {
+      "i": 12,
+      "start_s": 58.2,
+      "end_s": 60.2,
+      "dur_s": 2.0,
+      "text": "Did you see anything special?"
+     },
+     {
+      "i": 13,
+      "start_s": 60.92,
+      "end_s": 62.88,
+      "dur_s": 1.96,
+      "text": "Yes, loads of stuff."
+     },
+     {
+      "i": 14,
+      "start_s": 63.56,
+      "end_s": 65.12,
+      "dur_s": 1.56,
+      "text": "There were lots of Cayman."
+     },
+     {
+      "i": 15,
+      "start_s": 65.54,
+      "end_s": 67.72,
+      "dur_s": 2.18,
+      "text": "Cayman? What are they?"
+     },
+     {
+      "i": 16,
+      "start_s": 68.26,
+      "end_s": 70.32,
+      "dur_s": 2.06,
+      "text": "They're like small crocodiles."
+     },
+     {
+      "i": 17,
+      "start_s": 70.76,
+      "end_s": 73.607,
+      "dur_s": 2.847,
+      "text": "Cool, what else did you see?"
+     },
+     {
+      "i": 18,
+      "start_s": 74.02,
+      "end_s": 85.368,
+      "dur_s": 11.348,
+      "text": "We saw an anaconda, you know one of those really big snakes, and then one night we heard a jaguar but we didn't see it."
+     },
+     {
+      "i": 19,
+      "start_s": 85.7,
+      "end_s": 88.2,
+      "dur_s": 2.5,
+      "text": "Wow, were you scared?"
+     },
+     {
+      "i": 20,
+      "start_s": 89.014,
+      "end_s": 95.109,
+      "dur_s": 6.095,
+      "text": "No, it was exciting, especially because it was so near our tent."
+     },
+     {
+      "i": 21,
+      "start_s": 95.5,
+      "end_s": 97.98,
+      "dur_s": 2.48,
+      "text": "Tent? Did you go camping?"
+     },
+     {
+      "i": 22,
+      "start_s": 98.72,
+      "end_s": 104.74,
+      "dur_s": 6.02,
+      "text": "Yes, but just for a few nights. Most of the time we were in small hotels."
+     },
+     {
+      "i": 23,
+      "start_s": 105.44,
+      "end_s": 110.26,
+      "dur_s": 4.82,
+      "text": "So how did you travel around? Did you have a guide?"
+     },
+     {
+      "i": 24,
+      "start_s": 110.84,
+      "end_s": 112.14,
+      "dur_s": 1.3,
+      "text": "Yes, we did."
+     },
+     {
+      "i": 25,
+      "start_s": 112.8,
+      "end_s": 113.98,
+      "dur_s": 1.18,
+      "text": "His name was Sergio."
+     },
+     {
+      "i": 26,
+      "start_s": 114.92,
+      "end_s": 117.02,
+      "dur_s": 2.1,
+      "text": "He knew where to find all the animals."
+     },
+     {
+      "i": 27,
+      "start_s": 117.76,
+      "end_s": 119.1,
+      "dur_s": 1.34,
+      "text": "Did he speak English?"
+     },
+     {
+      "i": 28,
+      "start_s": 119.7,
+      "end_s": 128.24,
+      "dur_s": 8.54,
+      "text": "Yes, he did. His English was good which was lucky because no one in my family can speak Portuguese."
+     },
+     {
+      "i": 29,
+      "start_s": 129.02,
+      "end_s": 131.7,
+      "dur_s": 2.68,
+      "text": "It sounds like you had a great time."
+     },
+     {
+      "i": 30,
+      "start_s": 132.22,
+      "end_s": 134.4,
+      "dur_s": 2.18,
+      "text": "We did. It was fantastic."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 31
+ },
+ "p106": {
+  "audio": "assets/p106.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.28,
+    "end_s": 136.66,
+    "text": "1. The Great Auk The Great Auk was a large seabird that lived in the North Atlantic. It was a bird but it couldn't fly. It could swim underwater really well. It caught and ate fish when it dived under the water. Its feathers were very soft and people used them to make pillows for their beds. Because of this people killed the birds. The last Great Auk died on the island of Eldey in 1835. 2. The Tasmanian Tiger The Tasmanian Tiger was only found in Australia, Tasmania and New Guinea. It got its name because it had stripes like a tiger but it was not a member of the cat family. Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them. Many of the tigers died after getting ill from diseases they caught from other animals. The last Tasmanian Tiger died in Hobart Zoo in 1936. 3. Steller's Sea Cow Steller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska. It grew up to nine metres long. Because it was so big it couldn't go under the water. It ate the plants on top of the sea. It wasn't a very dangerous animal. It was quite friendly. Because of this it was very easy to kill. Europeans first found the sea cow in 1741. 27 years later they killed the last one.",
+    "sent_count": 27,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.28,
+      "end_s": 9.84,
+      "dur_s": 1.56,
+      "text": "1."
+     },
+     {
+      "i": 1,
+      "start_s": 10.844,
+      "end_s": 12.02,
+      "dur_s": 1.176,
+      "text": "The Great Auk"
+     },
+     {
+      "i": 2,
+      "start_s": 13.01,
+      "end_s": 18.56,
+      "dur_s": 5.55,
+      "text": "The Great Auk was a large seabird that lived in the North Atlantic."
+     },
+     {
+      "i": 3,
+      "start_s": 19.52,
+      "end_s": 22.4,
+      "dur_s": 2.88,
+      "text": "It was a bird but it couldn't fly."
+     },
+     {
+      "i": 4,
+      "start_s": 23.6,
+      "end_s": 26.4,
+      "dur_s": 2.8,
+      "text": "It could swim underwater really well."
+     },
+     {
+      "i": 5,
+      "start_s": 27.4,
+      "end_s": 31.3,
+      "dur_s": 3.9,
+      "text": "It caught and ate fish when it dived under the water."
+     },
+     {
+      "i": 6,
+      "start_s": 32.66,
+      "end_s": 38.32,
+      "dur_s": 5.66,
+      "text": "Its feathers were very soft and people used them to make pillows for their beds."
+     },
+     {
+      "i": 7,
+      "start_s": 39.34,
+      "end_s": 42.18,
+      "dur_s": 2.84,
+      "text": "Because of this people killed the birds."
+     },
+     {
+      "i": 8,
+      "start_s": 43.32,
+      "end_s": 48.62,
+      "dur_s": 5.3,
+      "text": "The last Great Auk died on the island of Eldey in 1835."
+     },
+     {
+      "i": 9,
+      "start_s": 51.0,
+      "end_s": 51.24,
+      "dur_s": 0.24,
+      "text": "2."
+     },
+     {
+      "i": 10,
+      "start_s": 52.349,
+      "end_s": 53.66,
+      "dur_s": 1.311,
+      "text": "The Tasmanian Tiger"
+     },
+     {
+      "i": 11,
+      "start_s": 55.04,
+      "end_s": 61.46,
+      "dur_s": 6.42,
+      "text": "The Tasmanian Tiger was only found in Australia, Tasmania and New Guinea."
+     },
+     {
+      "i": 12,
+      "start_s": 62.28,
+      "end_s": 69.38,
+      "dur_s": 7.1,
+      "text": "It got its name because it had stripes like a tiger but it was not a member of the cat family."
+     },
+     {
+      "i": 13,
+      "start_s": 70.46,
+      "end_s": 77.322,
+      "dur_s": 6.862,
+      "text": "Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them."
+     },
+     {
+      "i": 14,
+      "start_s": 78.36,
+      "end_s": 84.74,
+      "dur_s": 6.38,
+      "text": "Many of the tigers died after getting ill from diseases they caught from other animals."
+     },
+     {
+      "i": 15,
+      "start_s": 86.04,
+      "end_s": 91.72,
+      "dur_s": 5.68,
+      "text": "The last Tasmanian Tiger died in Hobart Zoo in 1936."
+     },
+     {
+      "i": 16,
+      "start_s": 93.5,
+      "end_s": 94.34,
+      "dur_s": 0.84,
+      "text": "3."
+     },
+     {
+      "i": 17,
+      "start_s": 95.6,
+      "end_s": 96.86,
+      "dur_s": 1.26,
+      "text": "Steller's Sea Cow"
+     },
+     {
+      "i": 18,
+      "start_s": 98.28,
+      "end_s": 105.9,
+      "dur_s": 7.62,
+      "text": "Steller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska."
+     },
+     {
+      "i": 19,
+      "start_s": 106.7,
+      "end_s": 109.923,
+      "dur_s": 3.223,
+      "text": "It grew up to nine metres long."
+     },
+     {
+      "i": 20,
+      "start_s": 110.74,
+      "end_s": 114.8,
+      "dur_s": 4.06,
+      "text": "Because it was so big it couldn't go under the water."
+     },
+     {
+      "i": 21,
+      "start_s": 115.5,
+      "end_s": 118.375,
+      "dur_s": 2.875,
+      "text": "It ate the plants on top of the sea."
+     },
+     {
+      "i": 22,
+      "start_s": 118.96,
+      "end_s": 121.394,
+      "dur_s": 2.434,
+      "text": "It wasn't a very dangerous animal."
+     },
+     {
+      "i": 23,
+      "start_s": 121.78,
+      "end_s": 123.1,
+      "dur_s": 1.32,
+      "text": "It was quite friendly."
+     },
+     {
+      "i": 24,
+      "start_s": 123.1,
+      "end_s": 127.048,
+      "dur_s": 3.948,
+      "text": "Because of this it was very easy to kill."
+     },
+     {
+      "i": 25,
+      "start_s": 127.66,
+      "end_s": 131.92,
+      "dur_s": 4.26,
+      "text": "Europeans first found the sea cow in 1741."
+     },
+     {
+      "i": 26,
+      "start_s": 132.992,
+      "end_s": 136.66,
+      "dur_s": 3.668,
+      "text": "27 years later they killed the last one."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 27
+ },
+ "p108": {
+  "audio": "assets/p108.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 7.4,
+    "end_s": 90.86,
+    "text": "Hey Nathan, how are you? Did you have a good weekend? Well, sort of. I mean, it was okay. You don't sound very sure. What happened? Yeah, come on, tell us. Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone. Where did you go? I went to the forest, you know, outside town. It's really nice there. And I started walking when suddenly... Yes, suddenly what? Well, in front of me there was a snake. Are there snakes in the forest? Are you sure? Yes, I'm sure. It was on the path. I stopped. I didn't do anything. Then it just went away. I was afraid. Poor you. I hate snakes too. Why were you afraid? It's just a snake. A snake can't kill you. Some snakes can. Anyway, it's okay to be afraid sometimes. Thanks Lena. Anyway, that's why my weekend was just okay.",
+    "sent_count": 16,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 7.4,
+      "end_s": 12.1,
+      "dur_s": 4.7,
+      "text": "Hey Nathan, how are you? Did you have a good weekend?"
+     },
+     {
+      "i": 1,
+      "start_s": 12.9,
+      "end_s": 16.7,
+      "dur_s": 3.8,
+      "text": "Well, sort of. I mean, it was okay."
+     },
+     {
+      "i": 2,
+      "start_s": 17.26,
+      "end_s": 20.6,
+      "dur_s": 3.34,
+      "text": "You don't sound very sure. What happened?"
+     },
+     {
+      "i": 3,
+      "start_s": 21.36,
+      "end_s": 23.58,
+      "dur_s": 2.22,
+      "text": "Yeah, come on, tell us."
+     },
+     {
+      "i": 4,
+      "start_s": 23.58,
+      "end_s": 33.53,
+      "dur_s": 9.95,
+      "text": "Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone."
+     },
+     {
+      "i": 5,
+      "start_s": 33.98,
+      "end_s": 34.98,
+      "dur_s": 1.0,
+      "text": "Where did you go?"
+     },
+     {
+      "i": 6,
+      "start_s": 35.56,
+      "end_s": 41.32,
+      "dur_s": 5.76,
+      "text": "I went to the forest, you know, outside town. It's really nice there."
+     },
+     {
+      "i": 7,
+      "start_s": 41.74,
+      "end_s": 45.58,
+      "dur_s": 3.84,
+      "text": "And I started walking when suddenly..."
+     },
+     {
+      "i": 8,
+      "start_s": 46.28,
+      "end_s": 48.44,
+      "dur_s": 2.16,
+      "text": "Yes, suddenly what?"
+     },
+     {
+      "i": 9,
+      "start_s": 48.44,
+      "end_s": 52.4,
+      "dur_s": 3.96,
+      "text": "Well, in front of me there was a snake."
+     },
+     {
+      "i": 10,
+      "start_s": 53.06,
+      "end_s": 56.6,
+      "dur_s": 3.54,
+      "text": "Are there snakes in the forest? Are you sure?"
+     },
+     {
+      "i": 11,
+      "start_s": 57.3,
+      "end_s": 68.26,
+      "dur_s": 10.96,
+      "text": "Yes, I'm sure. It was on the path. I stopped. I didn't do anything. Then it just went away. I was afraid."
+     },
+     {
+      "i": 12,
+      "start_s": 69.06,
+      "end_s": 72.5,
+      "dur_s": 3.44,
+      "text": "Poor you. I hate snakes too."
+     },
+     {
+      "i": 13,
+      "start_s": 72.5,
+      "end_s": 78.704,
+      "dur_s": 6.204,
+      "text": "Why were you afraid? It's just a snake. A snake can't kill you."
+     },
+     {
+      "i": 14,
+      "start_s": 79.06,
+      "end_s": 84.56,
+      "dur_s": 5.5,
+      "text": "Some snakes can. Anyway, it's okay to be afraid sometimes."
+     },
+     {
+      "i": 15,
+      "start_s": 85.34,
+      "end_s": 90.86,
+      "dur_s": 5.52,
+      "text": "Thanks Lena. Anyway, that's why my weekend was just okay."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 16
+ },
+ "p110": {
+  "audio": "assets/p110.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.835,
+    "end_s": 140.596,
+    "text": "Our lives move very fast today, especially in big cities. But many years ago, that was different. People couldn't jump on a bus or take the tube to work. They walked. For a long time, the fastest way of travelling was by horse or boat. That changed with the steam engine in the 18th century. Then came cars, motorcycles and, of course, airplanes. So what's new and popular today? E-scooters! Electric scooter sharing is the new way to get around. They are taking over the world's big cities. They are fun and easy to use. You don't have to buy one. You rent one. All you need is to log on to an app and then, off you go. They are cheaper than taxis. You can get around traffic jams. And you don't have to do any hard work, like on a bike. They aren't bad for the environment either. But is that true? Well, these e-scooters don't last very long. In Paris, some e-scooters break after one month. Many people are unhappy because there are too many e-scooters. They block the pavements and drive into people. Because people are angry about e-scooters, they throw them into rivers or break them. Is that the answer? What do you think of e-scooters? Do you like them?",
+    "sent_count": 28,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.835,
+      "end_s": 16.218,
+      "dur_s": 7.383,
+      "text": "Our lives move very fast today, especially in big cities."
+     },
+     {
+      "i": 1,
+      "start_s": 17.839,
+      "end_s": 21.277,
+      "dur_s": 3.438,
+      "text": "But many years ago, that was different."
+     },
+     {
+      "i": 2,
+      "start_s": 21.561,
+      "end_s": 27.014,
+      "dur_s": 5.453,
+      "text": "People couldn't jump on a bus or take the tube to work."
+     },
+     {
+      "i": 3,
+      "start_s": 27.133,
+      "end_s": 28.63,
+      "dur_s": 1.497,
+      "text": "They walked."
+     },
+     {
+      "i": 4,
+      "start_s": 29.019,
+      "end_s": 36.323,
+      "dur_s": 7.304,
+      "text": "For a long time, the fastest way of travelling was by horse or boat."
+     },
+     {
+      "i": 5,
+      "start_s": 36.567,
+      "end_s": 42.329,
+      "dur_s": 5.762,
+      "text": "That changed with the steam engine in the 18th century."
+     },
+     {
+      "i": 6,
+      "start_s": 42.354,
+      "end_s": 49.358,
+      "dur_s": 7.004,
+      "text": "Then came cars, motorcycles and, of course, airplanes."
+     },
+     {
+      "i": 7,
+      "start_s": 49.882,
+      "end_s": 52.93,
+      "dur_s": 3.048,
+      "text": "So what's new and popular today?"
+     },
+     {
+      "i": 8,
+      "start_s": 52.999,
+      "end_s": 55.08,
+      "dur_s": 2.081,
+      "text": "E-scooters!"
+     },
+     {
+      "i": 9,
+      "start_s": 55.703,
+      "end_s": 61.301,
+      "dur_s": 5.598,
+      "text": "Electric scooter sharing is the new way to get around."
+     },
+     {
+      "i": 10,
+      "start_s": 62.398,
+      "end_s": 65.426,
+      "dur_s": 3.028,
+      "text": "They are taking over the world's big cities."
+     },
+     {
+      "i": 11,
+      "start_s": 65.9,
+      "end_s": 69.437,
+      "dur_s": 3.537,
+      "text": "They are fun and easy to use."
+     },
+     {
+      "i": 12,
+      "start_s": 70.36,
+      "end_s": 72.67,
+      "dur_s": 2.31,
+      "text": "You don't have to buy one."
+     },
+     {
+      "i": 13,
+      "start_s": 73.079,
+      "end_s": 74.172,
+      "dur_s": 1.093,
+      "text": "You rent one."
+     },
+     {
+      "i": 14,
+      "start_s": 75.27,
+      "end_s": 81.171,
+      "dur_s": 5.901,
+      "text": "All you need is to log on to an app and then, off you go."
+     },
+     {
+      "i": 15,
+      "start_s": 83.36,
+      "end_s": 85.042,
+      "dur_s": 1.682,
+      "text": "They are cheaper than taxis."
+     },
+     {
+      "i": 16,
+      "start_s": 86.344,
+      "end_s": 88.474,
+      "dur_s": 2.13,
+      "text": "You can get around traffic jams."
+     },
+     {
+      "i": 17,
+      "start_s": 88.484,
+      "end_s": 94.52,
+      "dur_s": 6.036,
+      "text": "And you don't have to do any hard work, like on a bike."
+     },
+     {
+      "i": 18,
+      "start_s": 95.767,
+      "end_s": 98.167,
+      "dur_s": 2.4,
+      "text": "They aren't bad for the environment either."
+     },
+     {
+      "i": 19,
+      "start_s": 99.274,
+      "end_s": 100.302,
+      "dur_s": 1.028,
+      "text": "But is that true?"
+     },
+     {
+      "i": 20,
+      "start_s": 100.312,
+      "end_s": 105.63,
+      "dur_s": 5.318,
+      "text": "Well, these e-scooters don't last very long."
+     },
+     {
+      "i": 21,
+      "start_s": 105.63,
+      "end_s": 112.115,
+      "dur_s": 6.485,
+      "text": "In Paris, some e-scooters break after one month."
+     },
+     {
+      "i": 22,
+      "start_s": 112.115,
+      "end_s": 118.66,
+      "dur_s": 6.545,
+      "text": "Many people are unhappy because there are too many e-scooters."
+     },
+     {
+      "i": 23,
+      "start_s": 119.229,
+      "end_s": 123.938,
+      "dur_s": 4.709,
+      "text": "They block the pavements and drive into people."
+     },
+     {
+      "i": 24,
+      "start_s": 124.582,
+      "end_s": 132.714,
+      "dur_s": 8.132,
+      "text": "Because people are angry about e-scooters, they throw them into rivers or break them."
+     },
+     {
+      "i": 25,
+      "start_s": 133.092,
+      "end_s": 134.889,
+      "dur_s": 1.797,
+      "text": "Is that the answer?"
+     },
+     {
+      "i": 26,
+      "start_s": 135.163,
+      "end_s": 138.076,
+      "dur_s": 2.913,
+      "text": "What do you think of e-scooters?"
+     },
+     {
+      "i": 27,
+      "start_s": 139.428,
+      "end_s": 140.596,
+      "dur_s": 1.168,
+      "text": "Do you like them?"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 28
+ },
+ "p111": {
+  "audio": "assets/p111.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 5.313,
+    "end_s": 143.494,
+    "text": "A lot of big cities, like London, have got many traffic problems. Sometimes a journey of a few kilometres can take more than an hour. So what's the best way to get across London? For a very short journey, it's probably a good idea to walk. But what happens when you want to go further? The presenters of a popular TV show about cars decided to find out. Each of the presenters chose a different type of transport to make the same 27-kilometre journey. One presenter went by bike. One went by car. Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames. They all started at the same time and the same place in West London, but who got to City Airport in East London first? The results were a surprise. The bike came first. In second place was the speedboat. Public transport came third and the car was last. So the presenters had an answer. The bike was quicker than all the other types of transport and the car was slower. They weren't very happy with the result because they wanted the car to win. They made a joke and said the bike wasn't a real winner because it was more dangerous. But, of course, the bike is the real winner. It's the best way to get about. It's cheaper than public transport and it is healthier than going by car. It's also better for our cities because bikes don't make the air dirty. So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'",
+    "sent_count": 24,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 5.313,
+      "end_s": 12.751,
+      "dur_s": 7.438,
+      "text": "A lot of big cities, like London, have got many traffic problems."
+     },
+     {
+      "i": 1,
+      "start_s": 13.235,
+      "end_s": 18.862,
+      "dur_s": 5.627,
+      "text": "Sometimes a journey of a few kilometres can take more than an hour."
+     },
+     {
+      "i": 2,
+      "start_s": 19.59,
+      "end_s": 23.202,
+      "dur_s": 3.612,
+      "text": "So what's the best way to get across London?"
+     },
+     {
+      "i": 3,
+      "start_s": 23.212,
+      "end_s": 29.2,
+      "dur_s": 5.988,
+      "text": "For a very short journey, it's probably a good idea to walk."
+     },
+     {
+      "i": 4,
+      "start_s": 29.2,
+      "end_s": 32.85,
+      "dur_s": 3.65,
+      "text": "But what happens when you want to go further?"
+     },
+     {
+      "i": 5,
+      "start_s": 33.923,
+      "end_s": 39.925,
+      "dur_s": 6.002,
+      "text": "The presenters of a popular TV show about cars decided to find out."
+     },
+     {
+      "i": 6,
+      "start_s": 39.925,
+      "end_s": 48.046,
+      "dur_s": 8.121,
+      "text": "Each of the presenters chose a different type of transport to make the same 27-kilometre journey."
+     },
+     {
+      "i": 7,
+      "start_s": 48.056,
+      "end_s": 51.3,
+      "dur_s": 3.244,
+      "text": "One presenter went by bike."
+     },
+     {
+      "i": 8,
+      "start_s": 51.3,
+      "end_s": 54.152,
+      "dur_s": 2.852,
+      "text": "One went by car."
+     },
+     {
+      "i": 9,
+      "start_s": 54.74,
+      "end_s": 64.848,
+      "dur_s": 10.108,
+      "text": "Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames."
+     },
+     {
+      "i": 10,
+      "start_s": 65.83,
+      "end_s": 75.982,
+      "dur_s": 10.152,
+      "text": "They all started at the same time and the same place in West London, but who got to City Airport in East London first?"
+     },
+     {
+      "i": 11,
+      "start_s": 75.992,
+      "end_s": 79.046,
+      "dur_s": 3.054,
+      "text": "The results were a surprise."
+     },
+     {
+      "i": 12,
+      "start_s": 79.689,
+      "end_s": 81.849,
+      "dur_s": 2.16,
+      "text": "The bike came first."
+     },
+     {
+      "i": 13,
+      "start_s": 82.547,
+      "end_s": 85.202,
+      "dur_s": 2.655,
+      "text": "In second place was the speedboat."
+     },
+     {
+      "i": 14,
+      "start_s": 85.86,
+      "end_s": 90.574,
+      "dur_s": 4.714,
+      "text": "Public transport came third and the car was last."
+     },
+     {
+      "i": 15,
+      "start_s": 91.756,
+      "end_s": 94.111,
+      "dur_s": 2.355,
+      "text": "So the presenters had an answer."
+     },
+     {
+      "i": 16,
+      "start_s": 94.61,
+      "end_s": 101.45,
+      "dur_s": 6.84,
+      "text": "The bike was quicker than all the other types of transport and the car was slower."
+     },
+     {
+      "i": 17,
+      "start_s": 101.45,
+      "end_s": 106.872,
+      "dur_s": 5.422,
+      "text": "They weren't very happy with the result because they wanted the car to win."
+     },
+     {
+      "i": 18,
+      "start_s": 107.466,
+      "end_s": 113.865,
+      "dur_s": 6.399,
+      "text": "They made a joke and said the bike wasn't a real winner because it was more dangerous."
+     },
+     {
+      "i": 19,
+      "start_s": 113.865,
+      "end_s": 117.995,
+      "dur_s": 4.13,
+      "text": "But, of course, the bike is the real winner."
+     },
+     {
+      "i": 20,
+      "start_s": 117.995,
+      "end_s": 120.905,
+      "dur_s": 2.91,
+      "text": "It's the best way to get about."
+     },
+     {
+      "i": 21,
+      "start_s": 120.905,
+      "end_s": 127.071,
+      "dur_s": 6.166,
+      "text": "It's cheaper than public transport and it is healthier than going by car."
+     },
+     {
+      "i": 22,
+      "start_s": 127.41,
+      "end_s": 132.868,
+      "dur_s": 5.458,
+      "text": "It's also better for our cities because bikes don't make the air dirty."
+     },
+     {
+      "i": 23,
+      "start_s": 133.816,
+      "end_s": 143.494,
+      "dur_s": 9.678,
+      "text": "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 24
+ },
+ "p113": {
+  "audio": "assets/p113.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 8.41,
+    "end_s": 114.28,
+    "text": "Good morning. How can I help you? Hello. I want to go to Windsor. What time's the next train? There's one in five minutes. It's a fast train. It only stops at Clapham Junction and Windsor. You can catch that one. And the one after that? There's one at half past ten, but that's a slower train. It stops at every station. That's OK. I'm not in a hurry, and I don't want to run. What time does that one arrive in Windsor? At half past eleven. It takes an hour. And how often are the trains to Windsor? They're every half hour. Great! And how much is a ticket? Do you want a single or a return? A return, please. Are you returning today? Yes, I am. Then you can get an off-peak day return ticket for £12.70. It's cheaper than the anytime day return. That's £19.90. Right. I'd like the off-peak day return one then. OK. That's £12.70, please. What platform does the train leave from? It leaves from platform 15. And what platform does it arrive at in Windsor? My friend wants to meet me there. Platform 1. But Windsor is a very small station, a lot smaller than Waterloo. There are only two platforms at Windsor. OK, then that's not a problem. Thank you. Have a good journey.",
+    "sent_count": 42,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 8.41,
+      "end_s": 9.094,
+      "dur_s": 0.684,
+      "text": "Good morning."
+     },
+     {
+      "i": 1,
+      "start_s": 9.813,
+      "end_s": 11.005,
+      "dur_s": 1.192,
+      "text": "How can I help you?"
+     },
+     {
+      "i": 2,
+      "start_s": 11.574,
+      "end_s": 12.087,
+      "dur_s": 0.513,
+      "text": "Hello."
+     },
+     {
+      "i": 3,
+      "start_s": 12.087,
+      "end_s": 14.622,
+      "dur_s": 2.535,
+      "text": "I want to go to Windsor."
+     },
+     {
+      "i": 4,
+      "start_s": 14.697,
+      "end_s": 17.021,
+      "dur_s": 2.324,
+      "text": "What time's the next train?"
+     },
+     {
+      "i": 5,
+      "start_s": 17.041,
+      "end_s": 19.351,
+      "dur_s": 2.31,
+      "text": "There's one in five minutes."
+     },
+     {
+      "i": 6,
+      "start_s": 19.55,
+      "end_s": 20.139,
+      "dur_s": 0.589,
+      "text": "It's a fast train."
+     },
+     {
+      "i": 7,
+      "start_s": 20.942,
+      "end_s": 24.015,
+      "dur_s": 3.073,
+      "text": "It only stops at Clapham Junction and Windsor."
+     },
+     {
+      "i": 8,
+      "start_s": 24.864,
+      "end_s": 26.96,
+      "dur_s": 2.096,
+      "text": "You can catch that one."
+     },
+     {
+      "i": 9,
+      "start_s": 26.96,
+      "end_s": 28.675,
+      "dur_s": 1.715,
+      "text": "And the one after that?"
+     },
+     {
+      "i": 10,
+      "start_s": 28.685,
+      "end_s": 32.436,
+      "dur_s": 3.751,
+      "text": "There's one at half past ten, but that's a slower train."
+     },
+     {
+      "i": 11,
+      "start_s": 33.225,
+      "end_s": 35.59,
+      "dur_s": 2.365,
+      "text": "It stops at every station."
+     },
+     {
+      "i": 12,
+      "start_s": 35.59,
+      "end_s": 36.971,
+      "dur_s": 1.381,
+      "text": "That's OK."
+     },
+     {
+      "i": 13,
+      "start_s": 36.971,
+      "end_s": 40.912,
+      "dur_s": 3.941,
+      "text": "I'm not in a hurry, and I don't want to run."
+     },
+     {
+      "i": 14,
+      "start_s": 41.406,
+      "end_s": 45.18,
+      "dur_s": 3.774,
+      "text": "What time does that one arrive in Windsor?"
+     },
+     {
+      "i": 15,
+      "start_s": 45.18,
+      "end_s": 47.063,
+      "dur_s": 1.883,
+      "text": "At half past eleven."
+     },
+     {
+      "i": 16,
+      "start_s": 47.467,
+      "end_s": 48.79,
+      "dur_s": 1.323,
+      "text": "It takes an hour."
+     },
+     {
+      "i": 17,
+      "start_s": 48.79,
+      "end_s": 51.658,
+      "dur_s": 2.868,
+      "text": "And how often are the trains to Windsor?"
+     },
+     {
+      "i": 18,
+      "start_s": 52.166,
+      "end_s": 53.563,
+      "dur_s": 1.397,
+      "text": "They're every half hour."
+     },
+     {
+      "i": 19,
+      "start_s": 53.798,
+      "end_s": 54.257,
+      "dur_s": 0.459,
+      "text": "Great!"
+     },
+     {
+      "i": 20,
+      "start_s": 54.267,
+      "end_s": 57.729,
+      "dur_s": 3.462,
+      "text": "And how much is a ticket?"
+     },
+     {
+      "i": 21,
+      "start_s": 57.769,
+      "end_s": 61.21,
+      "dur_s": 3.441,
+      "text": "Do you want a single or a return?"
+     },
+     {
+      "i": 22,
+      "start_s": 61.21,
+      "end_s": 62.87,
+      "dur_s": 1.66,
+      "text": "A return, please."
+     },
+     {
+      "i": 23,
+      "start_s": 62.87,
+      "end_s": 64.85,
+      "dur_s": 1.98,
+      "text": "Are you returning today?"
+     },
+     {
+      "i": 24,
+      "start_s": 64.85,
+      "end_s": 66.339,
+      "dur_s": 1.489,
+      "text": "Yes, I am."
+     },
+     {
+      "i": 25,
+      "start_s": 66.998,
+      "end_s": 71.84,
+      "dur_s": 4.842,
+      "text": "Then you can get an off-peak day return ticket for £12.70."
+     },
+     {
+      "i": 26,
+      "start_s": 71.84,
+      "end_s": 75.219,
+      "dur_s": 3.379,
+      "text": "It's cheaper than the anytime day return."
+     },
+     {
+      "i": 27,
+      "start_s": 77.125,
+      "end_s": 77.18,
+      "dur_s": 0.055,
+      "text": "That's £19.90."
+     },
+     {
+      "i": 28,
+      "start_s": 77.359,
+      "end_s": 78.247,
+      "dur_s": 0.888,
+      "text": "Right."
+     },
+     {
+      "i": 29,
+      "start_s": 78.247,
+      "end_s": 82.213,
+      "dur_s": 3.966,
+      "text": "I'd like the off-peak day return one then."
+     },
+     {
+      "i": 30,
+      "start_s": 82.707,
+      "end_s": 83.251,
+      "dur_s": 0.544,
+      "text": "OK."
+     },
+     {
+      "i": 31,
+      "start_s": 83.45,
+      "end_s": 85.66,
+      "dur_s": 2.21,
+      "text": "That's £12.70, please."
+     },
+     {
+      "i": 32,
+      "start_s": 85.66,
+      "end_s": 89.322,
+      "dur_s": 3.662,
+      "text": "What platform does the train leave from?"
+     },
+     {
+      "i": 33,
+      "start_s": 89.661,
+      "end_s": 92.35,
+      "dur_s": 2.689,
+      "text": "It leaves from platform 15."
+     },
+     {
+      "i": 34,
+      "start_s": 92.35,
+      "end_s": 96.296,
+      "dur_s": 3.946,
+      "text": "And what platform does it arrive at in Windsor?"
+     },
+     {
+      "i": 35,
+      "start_s": 96.88,
+      "end_s": 98.865,
+      "dur_s": 1.985,
+      "text": "My friend wants to meet me there."
+     },
+     {
+      "i": 36,
+      "start_s": 99.269,
+      "end_s": 100.332,
+      "dur_s": 1.063,
+      "text": "Platform 1."
+     },
+     {
+      "i": 37,
+      "start_s": 100.332,
+      "end_s": 105.49,
+      "dur_s": 5.158,
+      "text": "But Windsor is a very small station, a lot smaller than Waterloo."
+     },
+     {
+      "i": 38,
+      "start_s": 105.789,
+      "end_s": 108.663,
+      "dur_s": 2.874,
+      "text": "There are only two platforms at Windsor."
+     },
+     {
+      "i": 39,
+      "start_s": 108.733,
+      "end_s": 110.499,
+      "dur_s": 1.766,
+      "text": "OK, then that's not a problem."
+     },
+     {
+      "i": 40,
+      "start_s": 111.342,
+      "end_s": 112.864,
+      "dur_s": 1.522,
+      "text": "Thank you."
+     },
+     {
+      "i": 41,
+      "start_s": 113.018,
+      "end_s": 114.28,
+      "dur_s": 1.262,
+      "text": "Have a good journey."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 42
+ },
+ "p114": {
+  "audio": "assets/p114.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 7.159,
+    "end_s": 171.326,
+    "text": "My favourite journey. We all love going on a journey. Here are some of your favourites. Thank you for sharing them! Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River. My grandma lives in Budapest. When I visit her, we often go on it together. It's not a long journey. It's only ten minutes. The ferry just takes you across the river to the other side of the city. We don't get off the boat. We just go there and back again. Rose! I really love steam trains. There's one in Scotland. It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train. It's the famous one you see in the Harry Potter films. The one that takes Harry and his classmates to Hogwarts. But that's not why I like it. I like the sound it makes and I like the view from the window. It travels past lakes and mountains and beautiful beaches. What's my favourite journey? My journey to school. We live in a village and my school is in the next village. Every morning, I walk across the fields and then along the river until I'm at school. It's a really beautiful walk. I love looking for birds. There are some lovely ones. And sometimes, if I'm lucky, I see a rabbit. I love my walk to school. But I love the walk home more! Max. My favourite journey is a very fast bike ride. My grandparents have a house in the mountains. There is a road down the mountain to the town. It goes down very fast, and it goes through a big forest. Every morning, we ride down to the town to get bread. It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!",
+    "sent_count": 33,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 7.159,
+      "end_s": 13.021,
+      "dur_s": 5.862,
+      "text": "My favourite journey. We all love going on a journey."
+     },
+     {
+      "i": 1,
+      "start_s": 13.888,
+      "end_s": 18.513,
+      "dur_s": 4.625,
+      "text": "Here are some of your favourites. Thank you for sharing them!"
+     },
+     {
+      "i": 2,
+      "start_s": 19.82,
+      "end_s": 29.154,
+      "dur_s": 9.334,
+      "text": "Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River."
+     },
+     {
+      "i": 3,
+      "start_s": 29.618,
+      "end_s": 32.325,
+      "dur_s": 2.707,
+      "text": "My grandma lives in Budapest."
+     },
+     {
+      "i": 4,
+      "start_s": 32.325,
+      "end_s": 36.215,
+      "dur_s": 3.89,
+      "text": "When I visit her, we often go on it together."
+     },
+     {
+      "i": 5,
+      "start_s": 36.215,
+      "end_s": 38.423,
+      "dur_s": 2.208,
+      "text": "It's not a long journey."
+     },
+     {
+      "i": 6,
+      "start_s": 38.782,
+      "end_s": 40.588,
+      "dur_s": 1.806,
+      "text": "It's only ten minutes."
+     },
+     {
+      "i": 7,
+      "start_s": 41.216,
+      "end_s": 45.691,
+      "dur_s": 4.475,
+      "text": "The ferry just takes you across the river to the other side of the city."
+     },
+     {
+      "i": 8,
+      "start_s": 45.691,
+      "end_s": 48.27,
+      "dur_s": 2.579,
+      "text": "We don't get off the boat."
+     },
+     {
+      "i": 9,
+      "start_s": 48.679,
+      "end_s": 50.855,
+      "dur_s": 2.176,
+      "text": "We just go there and back again."
+     },
+     {
+      "i": 10,
+      "start_s": 52.775,
+      "end_s": 53.633,
+      "dur_s": 0.858,
+      "text": "Rose!"
+     },
+     {
+      "i": 11,
+      "start_s": 54.45,
+      "end_s": 56.576,
+      "dur_s": 2.126,
+      "text": "I really love steam trains."
+     },
+     {
+      "i": 12,
+      "start_s": 57.335,
+      "end_s": 59.615,
+      "dur_s": 2.28,
+      "text": "There's one in Scotland."
+     },
+     {
+      "i": 13,
+      "start_s": 60.004,
+      "end_s": 67.981,
+      "dur_s": 7.977,
+      "text": "It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train."
+     },
+     {
+      "i": 14,
+      "start_s": 68.853,
+      "end_s": 72.765,
+      "dur_s": 3.912,
+      "text": "It's the famous one you see in the Harry Potter films."
+     },
+     {
+      "i": 15,
+      "start_s": 73.124,
+      "end_s": 79.968,
+      "dur_s": 6.844,
+      "text": "The one that takes Harry and his classmates to Hogwarts. But that's not why I like it."
+     },
+     {
+      "i": 16,
+      "start_s": 80.552,
+      "end_s": 85.616,
+      "dur_s": 5.064,
+      "text": "I like the sound it makes and I like the view from the window."
+     },
+     {
+      "i": 17,
+      "start_s": 86.404,
+      "end_s": 91.577,
+      "dur_s": 5.173,
+      "text": "It travels past lakes and mountains and beautiful beaches."
+     },
+     {
+      "i": 18,
+      "start_s": 93.497,
+      "end_s": 97.613,
+      "dur_s": 4.116,
+      "text": "What's my favourite journey?"
+     },
+     {
+      "i": 19,
+      "start_s": 98.421,
+      "end_s": 100.77,
+      "dur_s": 2.349,
+      "text": "My journey to school."
+     },
+     {
+      "i": 20,
+      "start_s": 100.77,
+      "end_s": 106.987,
+      "dur_s": 6.217,
+      "text": "We live in a village and my school is in the next village."
+     },
+     {
+      "i": 21,
+      "start_s": 106.997,
+      "end_s": 115.533,
+      "dur_s": 8.536,
+      "text": "Every morning, I walk across the fields and then along the river until I'm at school."
+     },
+     {
+      "i": 22,
+      "start_s": 115.97,
+      "end_s": 118.655,
+      "dur_s": 2.685,
+      "text": "It's a really beautiful walk."
+     },
+     {
+      "i": 23,
+      "start_s": 118.655,
+      "end_s": 121.688,
+      "dur_s": 3.033,
+      "text": "I love looking for birds."
+     },
+     {
+      "i": 24,
+      "start_s": 121.688,
+      "end_s": 124.328,
+      "dur_s": 2.64,
+      "text": "There are some lovely ones."
+     },
+     {
+      "i": 25,
+      "start_s": 125.001,
+      "end_s": 128.922,
+      "dur_s": 3.921,
+      "text": "And sometimes, if I'm lucky, I see a rabbit."
+     },
+     {
+      "i": 26,
+      "start_s": 128.922,
+      "end_s": 132.235,
+      "dur_s": 3.313,
+      "text": "I love my walk to school."
+     },
+     {
+      "i": 27,
+      "start_s": 132.688,
+      "end_s": 135.752,
+      "dur_s": 3.064,
+      "text": "But I love the walk home more!"
+     },
+     {
+      "i": 28,
+      "start_s": 137.692,
+      "end_s": 144.058,
+      "dur_s": 6.366,
+      "text": "Max. My favourite journey is a very fast bike ride."
+     },
+     {
+      "i": 29,
+      "start_s": 145.065,
+      "end_s": 152.605,
+      "dur_s": 7.54,
+      "text": "My grandparents have a house in the mountains. There is a road down the mountain to the town."
+     },
+     {
+      "i": 30,
+      "start_s": 152.605,
+      "end_s": 158.001,
+      "dur_s": 5.396,
+      "text": "It goes down very fast, and it goes through a big forest."
+     },
+     {
+      "i": 31,
+      "start_s": 159.123,
+      "end_s": 163.06,
+      "dur_s": 3.937,
+      "text": "Every morning, we ride down to the town to get bread."
+     },
+     {
+      "i": 32,
+      "start_s": 164.112,
+      "end_s": 171.326,
+      "dur_s": 7.214,
+      "text": "It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 33
+ },
+ "p117": {
+  "audio": "assets/p117.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 7.403,
+    "end_s": 172.598,
+    "text": "Transport around the world. The Amfibus, the Netherlands. The big, blue Amfibus certainly makes a big splash! It's in Rotterdam, and it takes people on tours of the city. It's cool. It can travel on land and in the water. It is more expensive than water taxis, but it is more exciting, too. It is slower in the water than on land. It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land. The tour lasts for an hour, and it costs 27.50 euros. Moving walkways and escalators, Hong Kong. The Central-Mid-Levels Escalator is 800 metres long. Escalators are usually inside a shopping centre or an airport, but not this one! It's outside. It's a great way to travel round this city of hills. And it's free! There are 14 places where you can get on and off. The escalators travel down the hill from 6am to 10am, so people can travel to work. They travel up the hill from 10am to midnight. The urban cable car, Turkey. Ankara's cable car is cheaper than other forms of public transport. It is healthier because it doesn't pollute the air. It is also easier and quicker than travelling by car, because there are no traffic jams in the sky! It travels 60 metres above the ground, and passengers can get great views of the city. Submarines, Lanzarote and Tenerife. Now you can travel in a submarine! This submarine carries tourists. It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas. The submarine can carry 48 people, and it has 11 large windows on each side. It travels down 60 metres under the sea.",
+    "sent_count": 30,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 7.403,
+      "end_s": 9.124,
+      "dur_s": 1.721,
+      "text": "Transport around the world."
+     },
+     {
+      "i": 1,
+      "start_s": 10.481,
+      "end_s": 13.021,
+      "dur_s": 2.54,
+      "text": "The Amfibus, the Netherlands."
+     },
+     {
+      "i": 2,
+      "start_s": 14.342,
+      "end_s": 19.221,
+      "dur_s": 4.879,
+      "text": "The big, blue Amfibus certainly makes a big splash!"
+     },
+     {
+      "i": 3,
+      "start_s": 20.324,
+      "end_s": 25.048,
+      "dur_s": 4.724,
+      "text": "It's in Rotterdam, and it takes people on tours of the city."
+     },
+     {
+      "i": 4,
+      "start_s": 25.058,
+      "end_s": 26.674,
+      "dur_s": 1.616,
+      "text": "It's cool."
+     },
+     {
+      "i": 5,
+      "start_s": 26.684,
+      "end_s": 31.015,
+      "dur_s": 4.331,
+      "text": "It can travel on land and in the water."
+     },
+     {
+      "i": 6,
+      "start_s": 31.025,
+      "end_s": 38.073,
+      "dur_s": 7.048,
+      "text": "It is more expensive than water taxis, but it is more exciting, too."
+     },
+     {
+      "i": 7,
+      "start_s": 38.083,
+      "end_s": 41.74,
+      "dur_s": 3.657,
+      "text": "It is slower in the water than on land."
+     },
+     {
+      "i": 8,
+      "start_s": 41.75,
+      "end_s": 50.116,
+      "dur_s": 8.366,
+      "text": "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land."
+     },
+     {
+      "i": 9,
+      "start_s": 50.126,
+      "end_s": 57.25,
+      "dur_s": 7.124,
+      "text": "The tour lasts for an hour, and it costs 27.50 euros."
+     },
+     {
+      "i": 10,
+      "start_s": 59.255,
+      "end_s": 62.987,
+      "dur_s": 3.732,
+      "text": "Moving walkways and escalators, Hong Kong."
+     },
+     {
+      "i": 11,
+      "start_s": 64.364,
+      "end_s": 69.602,
+      "dur_s": 5.238,
+      "text": "The Central-Mid-Levels Escalator is 800 metres long."
+     },
+     {
+      "i": 12,
+      "start_s": 71.033,
+      "end_s": 78.17,
+      "dur_s": 7.137,
+      "text": "Escalators are usually inside a shopping centre or an airport, but not this one!"
+     },
+     {
+      "i": 13,
+      "start_s": 78.17,
+      "end_s": 79.674,
+      "dur_s": 1.504,
+      "text": "It's outside."
+     },
+     {
+      "i": 14,
+      "start_s": 80.17,
+      "end_s": 84.383,
+      "dur_s": 4.213,
+      "text": "It's a great way to travel round this city of hills."
+     },
+     {
+      "i": 15,
+      "start_s": 85.286,
+      "end_s": 86.344,
+      "dur_s": 1.058,
+      "text": "And it's free!"
+     },
+     {
+      "i": 16,
+      "start_s": 87.616,
+      "end_s": 91.248,
+      "dur_s": 3.632,
+      "text": "There are 14 places where you can get on and off."
+     },
+     {
+      "i": 17,
+      "start_s": 92.225,
+      "end_s": 99.973,
+      "dur_s": 7.748,
+      "text": "The escalators travel down the hill from 6am to 10am, so people can travel to work."
+     },
+     {
+      "i": 18,
+      "start_s": 100.586,
+      "end_s": 105.116,
+      "dur_s": 4.53,
+      "text": "They travel up the hill from 10am to midnight."
+     },
+     {
+      "i": 19,
+      "start_s": 106.25,
+      "end_s": 108.698,
+      "dur_s": 2.448,
+      "text": "The urban cable car, Turkey."
+     },
+     {
+      "i": 20,
+      "start_s": 108.833,
+      "end_s": 115.812,
+      "dur_s": 6.979,
+      "text": "Ankara's cable car is cheaper than other forms of public transport."
+     },
+     {
+      "i": 21,
+      "start_s": 115.822,
+      "end_s": 119.873,
+      "dur_s": 4.051,
+      "text": "It is healthier because it doesn't pollute the air."
+     },
+     {
+      "i": 22,
+      "start_s": 119.883,
+      "end_s": 128.343,
+      "dur_s": 8.46,
+      "text": "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!"
+     },
+     {
+      "i": 23,
+      "start_s": 128.353,
+      "end_s": 136.55,
+      "dur_s": 8.197,
+      "text": "It travels 60 metres above the ground, and passengers can get great views of the city."
+     },
+     {
+      "i": 24,
+      "start_s": 138.52,
+      "end_s": 142.641,
+      "dur_s": 4.121,
+      "text": "Submarines, Lanzarote and Tenerife."
+     },
+     {
+      "i": 25,
+      "start_s": 144.087,
+      "end_s": 147.051,
+      "dur_s": 2.964,
+      "text": "Now you can travel in a submarine!"
+     },
+     {
+      "i": 26,
+      "start_s": 147.061,
+      "end_s": 150.897,
+      "dur_s": 3.836,
+      "text": "This submarine carries tourists."
+     },
+     {
+      "i": 27,
+      "start_s": 150.907,
+      "end_s": 159.787,
+      "dur_s": 8.88,
+      "text": "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas."
+     },
+     {
+      "i": 28,
+      "start_s": 159.797,
+      "end_s": 168.363,
+      "dur_s": 8.566,
+      "text": "The submarine can carry 48 people, and it has 11 large windows on each side."
+     },
+     {
+      "i": 29,
+      "start_s": 169.435,
+      "end_s": 172.598,
+      "dur_s": 3.163,
+      "text": "It travels down 60 metres under the sea."
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 30
+ },
+ "p202": {
+  "audio": "assets/p202.mp3",
+  "paragraph_count": 1,
+  "paragraphs": [
+   {
+    "pi": 1,
+    "start_s": 10.975,
+    "end_s": 189.9,
+    "text": "People use different types of transport to get from one place to the next. In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special. The first track opened in 1901. It is the oldest electric elevated railway with hanging cars in the world. More than 85,000 passengers use it every day. There are lots of special cars in Cuba, especially in Havana. Most of them are very old. But these yellow taxis are much newer. They are called cocotaxis because they look like coconuts. They are a great way of getting around. Tourists love them! Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan. Originally, people used these sledges to transport food and other things. Today, they transport people. Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street. They wear special shoes. When the ride gets too fast, the drivers can use their shoes to slow it down. This strange form of transportation is called zorbing or globe-riding. And yes, a person is inside! The first zorbing site was in New Zealand. But now you can go zorbing all over the world. Even on water. What's a popular way of getting around in your city?",
+    "sent_count": 23,
+    "sents": [
+     {
+      "i": 0,
+      "start_s": 10.975,
+      "end_s": 19.895,
+      "dur_s": 8.92,
+      "text": "People use different types of transport to get from one place to the next."
+     },
+     {
+      "i": 1,
+      "start_s": 19.895,
+      "end_s": 33.494,
+      "dur_s": 13.599,
+      "text": "In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special."
+     },
+     {
+      "i": 2,
+      "start_s": 34.791,
+      "end_s": 39.535,
+      "dur_s": 4.744,
+      "text": "The first track opened in 1901."
+     },
+     {
+      "i": 3,
+      "start_s": 40.283,
+      "end_s": 50.6,
+      "dur_s": 10.317,
+      "text": "It is the oldest electric elevated railway with hanging cars in the world."
+     },
+     {
+      "i": 4,
+      "start_s": 50.6,
+      "end_s": 57.898,
+      "dur_s": 7.298,
+      "text": "More than 85,000 passengers use it every day."
+     },
+     {
+      "i": 5,
+      "start_s": 58.727,
+      "end_s": 68.73,
+      "dur_s": 10.003,
+      "text": "There are lots of special cars in Cuba, especially in Havana."
+     },
+     {
+      "i": 6,
+      "start_s": 68.73,
+      "end_s": 74.15,
+      "dur_s": 5.42,
+      "text": "Most of them are very old."
+     },
+     {
+      "i": 7,
+      "start_s": 74.15,
+      "end_s": 79.564,
+      "dur_s": 5.414,
+      "text": "But these yellow taxis are much newer."
+     },
+     {
+      "i": 8,
+      "start_s": 79.664,
+      "end_s": 88.374,
+      "dur_s": 8.71,
+      "text": "They are called cocotaxis because they look like coconuts."
+     },
+     {
+      "i": 9,
+      "start_s": 88.484,
+      "end_s": 93.408,
+      "dur_s": 4.924,
+      "text": "They are a great way of getting around."
+     },
+     {
+      "i": 10,
+      "start_s": 94.051,
+      "end_s": 97.114,
+      "dur_s": 3.063,
+      "text": "Tourists love them!"
+     },
+     {
+      "i": 11,
+      "start_s": 98.102,
+      "end_s": 109.17,
+      "dur_s": 11.068,
+      "text": "Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan."
+     },
+     {
+      "i": 12,
+      "start_s": 109.17,
+      "end_s": 117.373,
+      "dur_s": 8.203,
+      "text": "Originally, people used these sledges to transport food and other things."
+     },
+     {
+      "i": 13,
+      "start_s": 117.518,
+      "end_s": 121.935,
+      "dur_s": 4.417,
+      "text": "Today, they transport people."
+     },
+     {
+      "i": 14,
+      "start_s": 121.935,
+      "end_s": 132.978,
+      "dur_s": 11.043,
+      "text": "Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street."
+     },
+     {
+      "i": 15,
+      "start_s": 133.901,
+      "end_s": 137.757,
+      "dur_s": 3.856,
+      "text": "They wear special shoes."
+     },
+     {
+      "i": 16,
+      "start_s": 137.767,
+      "end_s": 148.473,
+      "dur_s": 10.706,
+      "text": "When the ride gets too fast, the drivers can use their shoes to slow it down."
+     },
+     {
+      "i": 17,
+      "start_s": 148.682,
+      "end_s": 160.894,
+      "dur_s": 12.212,
+      "text": "This strange form of transportation is called zorbing or globe-riding."
+     },
+     {
+      "i": 18,
+      "start_s": 161.08,
+      "end_s": 166.6,
+      "dur_s": 5.52,
+      "text": "And yes, a person is inside!"
+     },
+     {
+      "i": 19,
+      "start_s": 167.5,
+      "end_s": 172.405,
+      "dur_s": 4.905,
+      "text": "The first zorbing site was in New Zealand."
+     },
+     {
+      "i": 20,
+      "start_s": 172.405,
+      "end_s": 180.2,
+      "dur_s": 7.795,
+      "text": "But now you can go zorbing all over the world."
+     },
+     {
+      "i": 21,
+      "start_s": 180.3,
+      "end_s": 182.7,
+      "dur_s": 2.4,
+      "text": "Even on water."
+     },
+     {
+      "i": 22,
+      "start_s": 184.7,
+      "end_s": 189.9,
+      "dur_s": 5.2,
+      "text": "What's a popular way of getting around in your city?"
+     }
+    ],
+    "extras": []
+   }
+  ],
+  "sentence_count": 23
+ }
+}

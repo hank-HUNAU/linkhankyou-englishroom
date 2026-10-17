@@ -925,7 +925,7 @@ function renderPassages(key){
       + '<div class="pps">'+p.p+' · '+esc(p.intro)+'</div>'
       + '<div class="acts">'
       + '<div class="act" data-act="vocab"><span class="a-name">'+ICON('book','sm')+' 篇章词汇</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
-      + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章跟读</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+      + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章文段</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
       + '</div>'
       + '</div>';
   }).join('');
@@ -984,7 +984,7 @@ function renderFlow(){
   var vocabBtn = vLive
     ? actBtn('open-vocab', '开始篇章词汇学习 '+ICON('right','sm'), '')
     : actBtn('soon-vocab', '词汇词卡建设中', 'ghost');
-  /* 篇章跟读三卡（2026-10-16 拆页）：预习（聆听）/ 复习（跟读）/ 听写，各自数据条 + 打开链接 */
+  /* 篇章文段三卡（2026-10-16 拆页）：预习（聆听）/ 复习（跟读）/ 听写，各自数据条 + 打开链接 */
   function fmMeta(bits){
     return '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
       + bits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
@@ -1052,13 +1052,8 @@ function openPassageAction(key, act){
   renderFlow();
   showView('passage');
   if(act==='vocab'){
-    var b = el_query('#flow [data-action]');
-    if(b && b.dataset.action==='open-vocab') b.click(); else toast('「'+currentPg.title+'」词汇词表正在生成');
-  }
-  if(act==='follow'){
-    var f = el_query('#flow [data-action="open-follow"]');
-    if(f) f.click(); else toast('「'+currentPg.title+'」跟读组件接入中');
-  }
+    if(act==='vocab'){ openVocabEngine(); return; }
+  if(act==='follow'){ openFollowEngine('listen'); return; }
 }
 function el_query(sel){ return document.querySelector(sel); }
 

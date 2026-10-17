@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\codex-handoff\_align_v3.py", line 7, in <module>
+    import fitz
+ModuleNotFoundError: No module named 'fitz'
