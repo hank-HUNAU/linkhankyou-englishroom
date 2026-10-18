@@ -526,5 +526,93 @@
     "src": "book T114"
    }
   ]
+ },
+ "u10_p096": {
+  "title": "Sports achievers",
+  "src": "书内答案 T96（Ex3 全 6 题精读补全；Ex5 排序按故事逻辑重建——学生书原编号在文字层丢失）",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "She sailed around the world four times.",
+    "a": "F",
+    "src": "book T96 Ex3.1 F(three times)"
+   },
+   {
+    "t": "tf",
+    "q": "Jordan Romero was 13 when he climbed Mount Everest.",
+    "a": "T",
+    "src": "book T96 Ex3.2 T"
+   },
+   {
+    "t": "tf",
+    "q": "Corey Armstrong finished his first marathon in 3 hours 50 minutes.",
+    "a": "F",
+    "src": "book T96 Ex3.3 F(just over four hours)"
+   },
+   {
+    "t": "tf",
+    "q": "He finished the Death Valley marathon in the same time.",
+    "a": "F",
+    "src": "book T96 Ex3.4 F(He was slower.)"
+   },
+   {
+    "t": "tf",
+    "q": "Gertrude Ederle was the first woman to try to swim the English Channel.",
+    "a": "F",
+    "src": "book T96 Ex3.5 F(Others tried but failed.)"
+   },
+   {
+    "t": "tf",
+    "q": "Gertrude’s cross-channel swim was from France to England.",
+    "a": "T",
+    "src": "book T96 Ex3.6 T"
+   },
+   {
+    "t": "tf",
+    "q": "Now people know why some sports achievers do what they do.",
+    "a": "T",
+    "src": "book T96（原条目保留）"
+   },
+   {
+    "t": "order",
+    "q": "把 Girl Hero 的故事按发生顺序排好（点卡片依次编号）",
+    "items": [
+     {
+      "k": "1",
+      "txt": "There was a very fast car on the road."
+     },
+     {
+      "k": "2",
+      "txt": "Everyone was very happy."
+     },
+     {
+      "k": "3",
+      "txt": "There were also two young boys in the road."
+     },
+     {
+      "k": "4",
+      "txt": "It was a hot day and Girl Hero wanted an ice cream."
+     },
+     {
+      "k": "5",
+      "txt": "She walked to an ice cream shop."
+     },
+     {
+      "k": "6",
+      "txt": "Girl Hero jumped in front of the car and stopped it with her hand."
+     },
+     {
+      "k": "7",
+      "txt": "She saved the boys."
+     },
+     {
+      "k": "8",
+      "txt": "She walked out of the shop with her ice cream."
+     }
+    ],
+    "a": "45813672",
+    "src": "book T96 Ex5 答案4,8,5,1,2,6,7,3（故事逻辑重建，学生书原编号映射丢失——待人工核对课本p96）"
+   }
+  ]
  }
 }

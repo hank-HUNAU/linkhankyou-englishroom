@@ -77,3 +77,4 @@ _ab_p*.html
 _ab_cand_*.html
 _ab_denoise_*.html
 assets/timeline.json.bak-*
+.env
