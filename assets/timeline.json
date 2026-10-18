@@ -929,6 +929,27 @@
   },
   {
    "i": 26,
+   "start_s": 142.24,
+   "end_s": 143.46,
+   "dur_s": 1.22,
+   "text": "Message from Tyler."
+  },
+  {
+   "i": 27,
+   "start_s": 145.58,
+   "end_s": 147.96,
+   "dur_s": 2.38,
+   "text": "Find your street. Help."
+  },
+  {
+   "i": 28,
+   "start_s": 150.82,
+   "end_s": 154.8,
+   "dur_s": 3.98,
+   "text": "Maybe Tyler's gonna give you a geography test."
+  },
+  {
+   "i": 29,
    "start_s": 155.5,
    "end_s": 158.9,
    "dur_s": 3.4,
@@ -2261,7 +2282,7 @@
    "i": 7,
    "start_s": 55.88,
    "end_s": 59.88,
-   "dur_s": 4.0,
+   "dur_s": 4,
    "text": "It's very expensive, but it's not very good!"
   },
   {
@@ -2315,7 +2336,7 @@
   },
   {
    "i": 15,
-   "start_s": 89.0,
+   "start_s": 89,
    "end_s": 91.5,
    "dur_s": 2.5,
    "text": "Jess isn't on stage."
@@ -2711,7 +2732,7 @@
   },
   {
    "i": 12,
-   "start_s": 48.0,
+   "start_s": 48,
    "end_s": 50.38,
    "dur_s": 2.38,
    "text": "What do you like doing in your free time?"
@@ -3072,7 +3093,7 @@
   },
   {
    "i": 16,
-   "start_s": 85.0,
+   "start_s": 85,
    "end_s": 89.56,
    "dur_s": 4.56,
    "text": "'We must wash our hands before we start cooking,' Harry says."
@@ -3284,7 +3305,7 @@
   },
   {
    "i": 16,
-   "start_s": 56.0,
+   "start_s": 56,
    "end_s": 58.08,
    "dur_s": 2.08,
    "text": "Oh no. I'm sorry."
@@ -3400,7 +3421,7 @@
    "i": 4,
    "start_s": 17.8,
    "end_s": 19.8,
-   "dur_s": 2.0,
+   "dur_s": 2,
    "text": "What would you like to drink?"
   },
   {
@@ -3809,7 +3830,7 @@
   {
    "i": 14,
    "start_s": 104.22,
-   "end_s": 107.0,
+   "end_s": 107,
    "dur_s": 2.78,
    "text": "Her face was on stamps in many countries."
   },
@@ -3981,37 +4002,170 @@
   {
    "i": 0,
    "start_s": 8.42,
-   "end_s": 27.64,
-   "dur_s": 19.22,
-   "text": "Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that?"
+   "end_s": 18.46,
+   "dur_s": 10.04,
+   "text": "Yesterday, I was online and I learned about a woman called Amy who walked all round the UK to get money for charity."
   },
   {
    "i": 1,
-   "start_s": 28.6,
-   "end_s": 44.06,
-   "dur_s": 15.46,
-   "text": "How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny."
+   "start_s": 18.46,
+   "end_s": 20.34,
+   "dur_s": 1.88,
+   "text": "And in winter!"
   },
   {
    "i": 2,
-   "start_s": 45.08,
-   "end_s": 66.328,
-   "dur_s": 21.248,
-   "text": "OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam."
+   "start_s": 20.34,
+   "end_s": 22.76,
+   "dur_s": 2.42,
+   "text": "When there was rain and snow!"
   },
   {
    "i": 3,
-   "start_s": 67.94,
-   "end_s": 112.74,
-   "dur_s": 44.8,
-   "text": "My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha."
+   "start_s": 23.8,
+   "end_s": 27.64,
+   "dur_s": 3.84,
+   "text": "Do you know any other amazing stories like that?"
   },
   {
    "i": 4,
+   "start_s": 28.6,
+   "end_s": 31.1,
+   "dur_s": 2.5,
+   "text": "How about Dee Caffari?"
+  },
+  {
+   "i": 5,
+   "start_s": 31.68,
+   "end_s": 35.56,
+   "dur_s": 3.88,
+   "text": "She sailed around the world, non-stop, three times!"
+  },
+  {
+   "i": 6,
+   "start_s": 36.3,
+   "end_s": 38.32,
+   "dur_s": 2.02,
+   "text": "That’s right, three times."
+  },
+  {
+   "i": 7,
+   "start_s": 38.998,
+   "end_s": 41.06,
+   "dur_s": 2.062,
+   "text": "Imagine the wind and the rain!"
+  },
+  {
+   "i": 8,
+   "start_s": 41.68,
+   "end_s": 43.119,
+   "dur_s": 1.439,
+   "text": "Fantastic, eh?"
+  },
+  {
+   "i": 9,
+   "start_s": 45.08,
+   "end_s": 55.635,
+   "dur_s": 10.555,
+   "text": "OK, well there’s a boy called Jordan Romero, from the US – he climbed Mount Everest when he was 13 years old."
+  },
+  {
+   "i": 10,
+   "start_s": 56.26,
+   "end_s": 60.52,
+   "dur_s": 4.26,
+   "text": "It’s really cold up there, but he managed to get to the top."
+  },
+  {
+   "i": 11,
+   "start_s": 61.1,
+   "end_s": 62.22,
+   "dur_s": 1.12,
+   "text": "Only 13!"
+  },
+  {
+   "i": 12,
+   "start_s": 63.04,
+   "end_s": 64.96,
+   "dur_s": 1.92,
+   "text": "Now that’s an achievement."
+  },
+  {
+   "i": 13,
+   "start_s": 67.94,
+   "end_s": 74.08,
+   "dur_s": 6.14,
+   "text": "My friend Corey Armstrong decided to run a marathon when he was 16."
+  },
+  {
+   "i": 14,
+   "start_s": 75,
+   "end_s": 78.507,
+   "dur_s": 3.507,
+   "text": "He finished in just over four hours."
+  },
+  {
+   "i": 15,
+   "start_s": 79.25,
+   "end_s": 87.34,
+   "dur_s": 8.09,
+   "text": "He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US."
+  },
+  {
+   "i": 16,
+   "start_s": 88.14,
+   "end_s": 93.92,
+   "dur_s": 5.78,
+   "text": "It’s so hot there – often more than 40 degrees Celsius."
+  },
+  {
+   "i": 17,
+   "start_s": 95.04,
+   "end_s": 102.9,
+   "dur_s": 7.86,
+   "text": "This time he was slower, almost five hours – but I still think it’s fantastic."
+  },
+  {
+   "i": 18,
+   "start_s": 104.24,
+   "end_s": 108.32,
+   "dur_s": 4.08,
+   "text": "42 kilometres when it’s over 40 degrees!"
+  },
+  {
+   "i": 19,
+   "start_s": 108.36,
+   "end_s": 111.38,
+   "dur_s": 3.02,
+   "text": "I think he almost died!"
+  },
+  {
+   "i": 20,
    "start_s": 114.98,
-   "end_s": 149.14,
-   "dur_s": 34.16,
-   "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark."
+   "end_s": 126.63,
+   "dur_s": 11.65,
+   "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France – but they all failed."
+  },
+  {
+   "i": 21,
+   "start_s": 127.44,
+   "end_s": 140.92,
+   "dur_s": 13.48,
+   "text": "But in 1926, Gertrude Ederle (an Olympic gold medal swimmer) arrived on an English beach after 14 hours and 31 minutes."
+  },
+  {
+   "i": 22,
+   "start_s": 141.68,
+   "end_s": 145.7,
+   "dur_s": 4.02,
+   "text": "She returned to her home in New York a hero!"
+  },
+  {
+   "i": 23,
+   "start_s": 146.82,
+   "end_s": 147.78,
+   "dur_s": 0.96,
+   "text": "How about that!?"
   }
  ],
  "p099": [
@@ -4038,7 +4192,7 @@
   },
   {
    "i": 3,
-   "start_s": 22.0,
+   "start_s": 22,
    "end_s": 36.2,
    "dur_s": 14.2,
    "text": "One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black."
@@ -4279,7 +4433,7 @@
   {
    "i": 11,
    "start_s": 75.98,
-   "end_s": 81.0,
+   "end_s": 81,
    "dur_s": 5.02,
    "text": "When Davide's father saw his son, he pulled him from the water."
   },
@@ -4400,7 +4554,7 @@
   {
    "i": 8,
    "start_s": 38.68,
-   "end_s": 41.0,
+   "end_s": 41,
    "dur_s": 2.32,
    "text": "Really? I didn't know that."
   },
@@ -4429,7 +4583,7 @@
    "i": 12,
    "start_s": 58.2,
    "end_s": 60.2,
-   "dur_s": 2.0,
+   "dur_s": 2,
    "text": "Did you see anything special?"
   },
   {
@@ -4625,7 +4779,7 @@
   },
   {
    "i": 9,
-   "start_s": 51.0,
+   "start_s": 51,
    "end_s": 51.24,
    "dur_s": 0.24,
    "text": "2."
@@ -4790,7 +4944,7 @@
    "i": 5,
    "start_s": 33.98,
    "end_s": 34.98,
-   "dur_s": 1.0,
+   "dur_s": 1,
    "text": "Where did you go?"
   },
   {

@@ -1,561 +1,195 @@
 {
- "p092": [
-  {
-   "i": 0,
-   "start_s": 10.32,
-   "end_s": 16.34,
-   "dur_s": 6.02,
-   "text": "Valentina Tereshkova was born in Russia on 6th March 1937.",
-   "confidence": 1.0
-  },
-  {
-   "i": 1,
-   "start_s": 17.94,
-   "end_s": 22.1,
-   "dur_s": 4.16,
-   "text": "Her father was a driver and her mother worked in a factory.",
-   "confidence": 1.0
-  },
-  {
-   "i": 2,
-   "start_s": 24.2,
-   "end_s": 27.156,
-   "dur_s": 2.956,
-   "text": "Valentina was a worker in a factory, too.",
-   "confidence": 1.0
-  },
-  {
-   "i": 3,
-   "start_s": 28.02,
-   "end_s": 35.6,
-   "dur_s": 7.58,
-   "text": "Her hobby was skydiving and it was her dream to be an astronaut and to go into space.",
-   "confidence": 1.0
-  },
-  {
-   "i": 4,
-   "start_s": 36.96,
-   "end_s": 43.56,
-   "dur_s": 6.6,
-   "text": "In 1962, there was a big competition to find new astronauts.",
-   "confidence": 1.0
-  },
-  {
-   "i": 5,
-   "start_s": 44.52,
-   "end_s": 48.84,
-   "dur_s": 4.32,
-   "text": "There were 400 people interested in going to space.",
-   "confidence": 1.0
-  },
-  {
-   "i": 6,
-   "start_s": 50.06,
-   "end_s": 55.72,
-   "dur_s": 5.66,
-   "text": "The training programme wasn't very easy, but Tereshkova was hardworking.",
-   "confidence": 1.0
-  },
-  {
-   "i": 7,
-   "start_s": 56.14,
-   "end_s": 59.455,
-   "dur_s": 3.315,
-   "text": "And she was the lucky one.",
-   "confidence": 1.0
-  },
-  {
-   "i": 8,
-   "start_s": 60.894,
-   "end_s": 68.185,
-   "dur_s": 7.291,
-   "text": "Tereshkova's big day was on 16th June 1963, and she was just 26.",
-   "confidence": 1.0
-  },
-  {
-   "i": 9,
-   "start_s": 69.6,
-   "end_s": 77.48,
-   "dur_s": 7.88,
-   "text": "The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space.",
-   "confidence": 1.0
-  },
-  {
-   "i": 10,
-   "start_s": 78.58,
-   "end_s": 88.38,
-   "dur_s": 9.8,
-   "text": "The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight.",
-   "confidence": 1.0
-  },
-  {
-   "i": 11,
-   "start_s": 89.46,
-   "end_s": 92.311,
-   "dur_s": 2.851,
-   "text": "She was in space for three days.",
-   "confidence": 1.0
-  },
-  {
-   "i": 12,
-   "start_s": 93.4,
-   "end_s": 97.18,
-   "dur_s": 3.78,
-   "text": "She is the only woman to fly into space alone.",
-   "confidence": 1.0
-  },
-  {
-   "i": 13,
-   "start_s": 98.56,
-   "end_s": 103.027,
-   "dur_s": 4.467,
-   "text": "After that, she was very famous all over the world.",
-   "confidence": 1.0
-  },
-  {
-   "i": 14,
-   "start_s": 104.22,
-   "end_s": 107.0,
-   "dur_s": 2.78,
-   "text": "Her face was on stamps in many countries.",
-   "confidence": 1.0
-  },
-  {
-   "i": 15,
-   "start_s": 108.42,
-   "end_s": 119.76,
-   "dur_s": 11.34,
-   "text": "In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'.",
-   "confidence": 1.0
-  },
-  {
-   "i": 16,
-   "start_s": 121.1,
-   "end_s": 132.83,
-   "dur_s": 11.73,
-   "text": "At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag.",
-   "confidence": 1.0
-  },
-  {
-   "i": 17,
-   "start_s": 132.7,
-   "end_s": 136.88,
-   "dur_s": 4.18,
-   "text": "These were very important moments for her.",
-   "confidence": 1.0
-  }
- ],
- "p095": [
-  {
-   "i": 0,
-   "start_s": 7.62,
-   "end_s": 11.36,
-   "dur_s": 3.74,
-   "text": "Hi Will, how are you? Are you better?",
-   "confidence": 1.0
-  },
-  {
-   "i": 1,
-   "start_s": 11.98,
-   "end_s": 18.17,
-   "dur_s": 6.19,
-   "text": "Yes, thanks. I was ill yesterday and the day before but I'm okay now.",
-   "confidence": 1.0
-  },
-  {
-   "i": 2,
-   "start_s": 18.48,
-   "end_s": 20.1,
-   "dur_s": 1.62,
-   "text": "Good, I'm pleased.",
-   "confidence": 1.0
-  },
-  {
-   "i": 3,
-   "start_s": 20.88,
-   "end_s": 26.157,
-   "dur_s": 5.277,
-   "text": "So yesterday was the prize-giving at school, right? Was it good?",
-   "confidence": 1.0
-  },
-  {
-   "i": 4,
-   "start_s": 26.02,
-   "end_s": 33.44,
-   "dur_s": 7.42,
-   "text": "No, it wasn't. Well, not really. There weren't many parents there.",
-   "confidence": 1.0
-  },
-  {
-   "i": 5,
-   "start_s": 33.98,
-   "end_s": 39.578,
-   "dur_s": 5.598,
-   "text": "Oh really? There were lots last year. Were all the teachers there?",
-   "confidence": 1.0
-  },
-  {
-   "i": 6,
-   "start_s": 40.1,
-   "end_s": 44.2,
-   "dur_s": 4.1,
-   "text": "Of course! The teachers can't choose, can they?",
-   "confidence": 1.0
-  },
-  {
-   "i": 7,
-   "start_s": 45.28,
-   "end_s": 51.583,
-   "dur_s": 6.303,
-   "text": "No, and neither can the kids. Anyway, who were the big winners this year?",
-   "confidence": 1.0
-  },
-  {
-   "i": 8,
-   "start_s": 52.08,
-   "end_s": 58.77,
-   "dur_s": 6.69,
-   "text": "Well, the best student of the year for the whole school was Sandra Hammond.",
-   "confidence": 1.0
-  },
-  {
-   "i": 9,
-   "start_s": 59.24,
-   "end_s": 63.32,
-   "dur_s": 4.08,
-   "text": "Sandra? Was she the best student last year too?",
-   "confidence": 1.0
-  },
-  {
-   "i": 10,
-   "start_s": 64.06,
-   "end_s": 72.853,
-   "dur_s": 8.793,
-   "text": "No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school.",
-   "confidence": 1.0
-  },
-  {
-   "i": 11,
-   "start_s": 73.24,
-   "end_s": 78.66,
-   "dur_s": 5.42,
-   "text": "Oh, the Hammonds! They always win everything! Boring!",
-   "confidence": 1.0
-  },
-  {
-   "i": 12,
-   "start_s": 79.38,
-   "end_s": 88.58,
-   "dur_s": 9.2,
-   "text": "I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you!",
-   "confidence": 1.0
-  },
-  {
-   "i": 13,
-   "start_s": 89.1,
-   "end_s": 92.94,
-   "dur_s": 3.84,
-   "text": "You're joking of course. I'm never the best at anything.",
-   "confidence": 1.0
-  },
-  {
-   "i": 14,
-   "start_s": 93.88,
-   "end_s": 98.74,
-   "dur_s": 4.86,
-   "text": "Well, anyway, guess who the best science student was?",
-   "confidence": 1.0
-  },
-  {
-   "i": 15,
-   "start_s": 99.44,
-   "end_s": 102.47,
-   "dur_s": 3.03,
-   "text": "No idea. Andy Clarkson?",
-   "confidence": 1.0
-  },
-  {
-   "i": 16,
-   "start_s": 102.82,
-   "end_s": 104.64,
-   "dur_s": 1.82,
-   "text": "No, me!",
-   "confidence": 1.0
-  },
-  {
-   "i": 17,
-   "start_s": 105.3,
-   "end_s": 114.96,
-   "dur_s": 9.66,
-   "text": "You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice?",
-   "confidence": 1.0
-  },
-  {
-   "i": 18,
-   "start_s": 115.48,
-   "end_s": 121.974,
-   "dur_s": 6.494,
-   "text": "Yes, it was. A book about science. I really want to read it.",
-   "confidence": 1.0
-  },
-  {
-   "i": 19,
-   "start_s": 122.34,
-   "end_s": 126.24,
-   "dur_s": 3.9,
-   "text": "Good for you, Alice. Well done. Thanks, Will.",
-   "confidence": 1.0
-  }
- ],
  "p096": [
   {
    "i": 0,
    "start_s": 8.42,
+   "end_s": 18.599,
+   "dur_s": 10.179,
+   "text": "Yesterday, I was online and I learned about a woman called Amy who walked all round the UK to get money for charity.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 18.46,
+   "end_s": 20.34,
+   "dur_s": 1.88,
+   "text": "And in winter!",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 20.34,
+   "end_s": 22.76,
+   "dur_s": 2.42,
+   "text": "When there was rain and snow!",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 23.8,
    "end_s": 27.64,
-   "dur_s": 19.22,
-   "text": "Yesterday, I was online and I learned about a woman called Amy who walked all around the UK to get money for charity and in winter when there was rain and snow. Do you know any other amazing stories like that?",
+   "dur_s": 3.84,
+   "text": "Do you know any other amazing stories like that?",
    "confidence": 1.0
   },
   {
-   "i": 1,
+   "i": 4,
    "start_s": 28.6,
-   "end_s": 44.06,
-   "dur_s": 15.46,
-   "text": "How about Dee Caffari? She sailed around the world non-stop three times. That's right, three times. Imagine the wind and the rain. Fantastic, eh? Jenny.",
-   "confidence": 1.0
-  },
-  {
-   "i": 2,
-   "start_s": 45.08,
-   "end_s": 66.328,
-   "dur_s": 21.248,
-   "text": "OK, well, there's a boy called Jordan Romero from the US. He climbed Mount Everest when he was 13 years old. It's really cold up there, but he managed to get to the top. Only 13. Now that's an achievement. Sam.",
-   "confidence": 1.0
-  },
-  {
-   "i": 3,
-   "start_s": 67.94,
-   "end_s": 112.74,
-   "dur_s": 44.8,
-   "text": "My friend Corey Armstrong decided to run a marathon when he was 16. He finished in just over four hours. He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US. It's so hot there, often more than 40 degrees Celsius. This time he was slower, almost five hours, but I still think it's fantastic. 42 kilometres when it's over 40 degrees. I think he almost died. Martha.",
-   "confidence": 1.0
-  },
-  {
-   "i": 4,
-   "start_s": 114.98,
-   "end_s": 149.14,
-   "dur_s": 34.16,
-   "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France, but they all failed. But in 1926, Gertrude Ederle, an Olympic gold medal swimmer, arrived on an English beach after 14 hours and 31 minutes. She returned to her home in New York a hero. How about that? Mark.",
-   "confidence": 1.0
-  }
- ],
- "p099": [
-  {
-   "i": 0,
-   "start_s": 9.12,
-   "end_s": 13.305,
-   "dur_s": 4.185,
-   "text": "There are many wonderful statues all over the world.",
-   "confidence": 1.0
-  },
-  {
-   "i": 1,
-   "start_s": 14.12,
-   "end_s": 18.4,
-   "dur_s": 4.28,
-   "text": "Many of them help us to remember the lives of great people.",
-   "confidence": 1.0
-  },
-  {
-   "i": 2,
-   "start_s": 19.86,
-   "end_s": 21.107,
-   "dur_s": 1.247,
-   "text": "Rosa Parks",
-   "confidence": 1.0
-  },
-  {
-   "i": 3,
-   "start_s": 22.0,
-   "end_s": 36.2,
-   "dur_s": 14.2,
-   "text": "One day in 1965, a bus driver in Alabama in the US asked Rosa Parks to give a man her seat because he was white and she was black.",
-   "confidence": 1.0
-  },
-  {
-   "i": 4,
-   "start_s": 37.2,
-   "end_s": 42.028,
-   "dur_s": 4.828,
-   "text": "She said no and the police decided to take her away.",
+   "end_s": 31.1,
+   "dur_s": 2.5,
+   "text": "How about Dee Caffari?",
    "confidence": 1.0
   },
   {
    "i": 5,
-   "start_s": 43.38,
-   "end_s": 49.656,
-   "dur_s": 6.276,
-   "text": "It was a very important moment in the history of black people's rights in the US.",
+   "start_s": 31.68,
+   "end_s": 35.56,
+   "dur_s": 3.88,
+   "text": "She sailed around the world, non-stop, three times!",
    "confidence": 1.0
   },
   {
    "i": 6,
-   "start_s": 49.54,
-   "end_s": 58.86,
-   "dur_s": 9.32,
-   "text": "The statue shows Rosa sitting on a rock wearing the same clothes as that day in 1965.",
+   "start_s": 36.3,
+   "end_s": 38.32,
+   "dur_s": 2.02,
+   "text": "That’s right, three times.",
    "confidence": 1.0
   },
   {
    "i": 7,
-   "start_s": 60.76,
-   "end_s": 62.18,
-   "dur_s": 1.42,
-   "text": "Franz Kafka",
+   "start_s": 38.998,
+   "end_s": 41.06,
+   "dur_s": 2.062,
+   "text": "Imagine the wind and the rain!",
    "confidence": 1.0
   },
   {
    "i": 8,
-   "start_s": 63.2,
-   "end_s": 66.8,
-   "dur_s": 3.6,
-   "text": "Franz Kafka was a writer from Prague.",
+   "start_s": 41.68,
+   "end_s": 43.119,
+   "dur_s": 1.439,
+   "text": "Fantastic, eh?",
    "confidence": 1.0
   },
   {
    "i": 9,
-   "start_s": 67.44,
-   "end_s": 70.34,
-   "dur_s": 2.9,
-   "text": "He was born in 1883.",
+   "start_s": 45.08,
+   "end_s": 55.635,
+   "dur_s": 10.555,
+   "text": "OK, well there’s a boy called Jordan Romero, from the US – he climbed Mount Everest when he was 13 years old.",
    "confidence": 1.0
   },
   {
    "i": 10,
-   "start_s": 71.2,
-   "end_s": 73.32,
-   "dur_s": 2.12,
-   "text": "His books were in German.",
+   "start_s": 56.26,
+   "end_s": 60.52,
+   "dur_s": 4.26,
+   "text": "It’s really cold up there, but he managed to get to the top.",
    "confidence": 1.0
   },
   {
    "i": 11,
-   "start_s": 74.92,
-   "end_s": 81.096,
-   "dur_s": 6.176,
-   "text": "In his life, he was not very famous, but now he is.",
+   "start_s": 61.1,
+   "end_s": 62.22,
+   "dur_s": 1.12,
+   "text": "Only 13!",
    "confidence": 1.0
   },
   {
    "i": 12,
-   "start_s": 81.96,
-   "end_s": 84.56,
-   "dur_s": 2.6,
-   "text": "Many of his stories were very strange.",
+   "start_s": 63.04,
+   "end_s": 64.96,
+   "dur_s": 1.92,
+   "text": "Now that’s an achievement.",
    "confidence": 1.0
   },
   {
    "i": 13,
-   "start_s": 85.8,
-   "end_s": 89.32,
-   "dur_s": 3.52,
-   "text": "There's a very unusual statue of him in Prague.",
+   "start_s": 67.94,
+   "end_s": 74.08,
+   "dur_s": 6.14,
+   "text": "My friend Corey Armstrong decided to run a marathon when he was 16.",
    "confidence": 1.0
   },
   {
    "i": 14,
-   "start_s": 90.26,
-   "end_s": 93.693,
-   "dur_s": 3.433,
-   "text": "He's sitting on the shoulders of an empty suit.",
+   "start_s": 75.0,
+   "end_s": 78.507,
+   "dur_s": 3.507,
+   "text": "He finished in just over four hours.",
    "confidence": 1.0
   },
   {
    "i": 15,
-   "start_s": 95.66,
-   "end_s": 96.92,
-   "dur_s": 1.26,
-   "text": "Os Candango",
+   "start_s": 79.25,
+   "end_s": 87.34,
+   "dur_s": 8.09,
+   "text": "He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US.",
    "confidence": 1.0
   },
   {
    "i": 16,
-   "start_s": 97.78,
-   "end_s": 111.537,
-   "dur_s": 13.757,
-   "text": "The Candango were men who travelled from all over Brazil between 1956 and 1960 to build the new capital city of Brazil, Brasilia.",
+   "start_s": 88.14,
+   "end_s": 93.92,
+   "dur_s": 5.78,
+   "text": "It’s so hot there – often more than 40 degrees Celsius.",
    "confidence": 1.0
   },
   {
    "i": 17,
-   "start_s": 112.22,
-   "end_s": 124.738,
-   "dur_s": 12.518,
-   "text": "In 1956, 256 men arrived, but before long there were 30,000 who worked hard to build the city.",
+   "start_s": 95.04,
+   "end_s": 102.9,
+   "dur_s": 7.86,
+   "text": "This time he was slower, almost five hours – but I still think it’s fantastic.",
    "confidence": 1.0
   },
   {
    "i": 18,
-   "start_s": 125.94,
-   "end_s": 136.84,
-   "dur_s": 10.9,
-   "text": "Brasilia opened in 1960 and this 8 meter high statue to remember the Candango is in the 3 powers square.",
+   "start_s": 104.24,
+   "end_s": 108.32,
+   "dur_s": 4.08,
+   "text": "42 kilometres when it’s over 40 degrees!",
    "confidence": 1.0
   },
   {
    "i": 19,
-   "start_s": 138.06,
-   "end_s": 141.32,
-   "dur_s": 3.26,
-   "text": "The two figures are holding digging tools.",
+   "start_s": 108.36,
+   "end_s": 111.38,
+   "dur_s": 3.02,
+   "text": "I think he almost died!",
    "confidence": 1.0
   },
   {
    "i": 20,
-   "start_s": 143.04,
-   "end_s": 144.916,
-   "dur_s": 1.876,
-   "text": "Suzanne Lenglen",
+   "start_s": 114.98,
+   "end_s": 126.63,
+   "dur_s": 11.65,
+   "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France – but they all failed.",
    "confidence": 1.0
   },
   {
    "i": 21,
-   "start_s": 145.62,
-   "end_s": 152.613,
-   "dur_s": 6.993,
-   "text": "At the Roland Garros tennis centre in Paris, there is a court called Suzanne Lenglen.",
+   "start_s": 127.44,
+   "end_s": 140.92,
+   "dur_s": 13.48,
+   "text": "But in 1926, Gertrude Ederle (an Olympic gold medal swimmer) arrived on an English beach after 14 hours and 31 minutes.",
    "confidence": 1.0
   },
   {
    "i": 22,
-   "start_s": 153.48,
-   "end_s": 160.5,
-   "dur_s": 7.02,
-   "text": "Lenglen was a famous French tennis player who played from 1914 to 1926.",
+   "start_s": 141.68,
+   "end_s": 145.7,
+   "dur_s": 4.02,
+   "text": "She returned to her home in New York a hero!",
    "confidence": 1.0
   },
   {
    "i": 23,
-   "start_s": 161.7,
-   "end_s": 164.5,
-   "dur_s": 2.8,
-   "text": "She was the number one player for many years.",
-   "confidence": 1.0
-  },
-  {
-   "i": 24,
-   "start_s": 165.64,
-   "end_s": 168.12,
-   "dur_s": 2.48,
-   "text": "In front of the court is this statue.",
-   "confidence": 1.0
-  },
-  {
-   "i": 25,
-   "start_s": 169.06,
-   "end_s": 177.02,
-   "dur_s": 7.96,
-   "text": "Lenglen is jumping with a racket in her hand and she is wearing her famous white dress and headband.",
+   "start_s": 146.82,
+   "end_s": 147.78,
+   "dur_s": 0.96,
+   "text": "How about that!?",
    "confidence": 1.0
   }
  ]
