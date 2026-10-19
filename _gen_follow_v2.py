@@ -53,7 +53,16 @@ for pg2 in pages:
     vq = 1 if (glob.glob(os.path.join(ROOT, "词汇诊断", "词汇诊断_u*_p%03d_*.html" % pg2))
                or glob.glob(os.path.join(ROOT, "词汇诊断", "词汇诊断_u*_p%d_*.html" % pg2))) else 0
     meta[str(pg2)] = {"s": len(TL.get("p" + p3b, [])), "q": 0, "v": vq}
-payload = ("window.FOLLOW_FILES=" + json.dumps(files, ensure_ascii=False, sort_keys=True) + ";"
+# ---- FOLLOW_VOCAB：篇号 → 词汇诊断页文件名（修 U8-U11 key 与文件名不匹配 404） ----
+vq_files = {}
+for pg2 in pages:
+    p3b = "%03d" % pg2
+    g = (glob.glob(os.path.join(ROOT, "词汇诊断", "词汇诊断_u*_p%03d_*.html" % pg2))
+         or glob.glob(os.path.join(ROOT, "词汇诊断", "词汇诊断_u*_p%d_*.html" % pg2)))
+    if g:
+        vq_files[str(pg2)] = os.path.basename(g[0])
+payload = ("window.FOLLOW_VOCAB=" + json.dumps(vq_files, ensure_ascii=False, sort_keys=True) + ";"
+           + "window.FOLLOW_FILES=" + json.dumps(files, ensure_ascii=False, sort_keys=True) + ";"
            + "window.FOLLOW_META=" + json.dumps(meta, ensure_ascii=False, sort_keys=True) + ";")
 m = re.search(r"<!-- ==FOLLOW-FILES==.*?</script>", site, re.S)
 assert m, "index.html 未找到 ==FOLLOW-FILES== 块"
