@@ -64,6 +64,14 @@ with sync_playwright() as p:
     pg.wait_for_timeout(200)
     chk("播完全篇出现完成标记", pg.eval_on_selector_all("#listenDone .done-pill", "es=>es.length") == 1)
     chk("tf_stage_67.listen 落盘", pg.evaluate("()=>JSON.parse(localStorage.getItem('tf_stage_67')).listen") == True)
+    chk('audio.src 已挂载本篇音频', pg.evaluate("()=>audio.src.indexOf('assets/p067.mp3')>=0"))
+    pg.evaluate("()=>playCur()")
+    pg.wait_for_timeout(1500)
+    chk('真实播放出声（currentTime 前进）', pg.evaluate("()=>audio.currentTime>0.2"), 'currentTime=' + str(pg.evaluate("()=>audio.currentTime.toFixed(2)")))
+    try:
+        pg.evaluate("()=>audio.pause()")
+    except Exception:
+        pass
     chk("流程①无 JS 异常", len(errs) == 0, str(errs[:3]))
     ctx.close()
 

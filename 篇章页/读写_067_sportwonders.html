@@ -621,6 +621,7 @@ $('finishBtn').onclick=function(){ $('dSummary').classList.add('hide'); $('dSetu
 /* ── 启动 ── */
 (function boot(){
   if(!B){ document.body.innerHTML='<div style="padding:40px;text-align:center;color:#8e8e93">本篇章数据缺失（pg='+PG+'）</div>'; return; }
+  audio.src = B.audio;
   $('tSub').textContent = B.u + ' · p' + PG + ' · ' + SEGS.length + ' 句 · ' + PARA.length + ' 段';
   renderSents(); setIdx(0); updatePos(); renderParaChips();
   if(STAGE.listen){ state.played={}; refreshDone(); }
