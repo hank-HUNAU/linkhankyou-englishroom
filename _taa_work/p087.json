@@ -1,0 +1,1427 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p087.mp3",
+  "language": "en",
+  "duration": 96.522,
+  "report": {
+    "script_tokens": 172,
+    "matched_tokens": 172,
+    "asr_words": 187,
+    "coverage": 1.0,
+    "unmatched": []
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 10.88,
+      "end": 12.82,
+      "duration": 1.94,
+      "text": "Can we make some sandwiches, Dad?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 10.88,
+          "end": 11.04,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 11.04,
+          "end": 11.22,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 11.22,
+          "end": 11.5,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 11.5,
+          "end": 11.78,
+          "matched": true
+        },
+        {
+          "text": "sandwiches",
+          "start": 11.78,
+          "end": 12.4,
+          "matched": true
+        },
+        {
+          "text": "Dad",
+          "start": 12.66,
+          "end": 12.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 13.568,
+      "end": 14.43,
+      "duration": 0.862,
+      "text": "Of course you can.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Of",
+          "start": 13.57,
+          "end": 13.75,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 13.75,
+          "end": 13.99,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 13.99,
+          "end": 14.17,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 14.17,
+          "end": 14.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 14.944,
+      "end": 15.53,
+      "duration": 0.586,
+      "text": "No problem.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 14.97,
+          "end": 15.17,
+          "matched": true
+        },
+        {
+          "text": "problem",
+          "start": 15.17,
+          "end": 15.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 16.28,
+      "end": 17.824,
+      "duration": 1.544,
+      "text": "Would you like some help?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Would",
+          "start": 16.28,
+          "end": 16.66,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 16.66,
+          "end": 16.9,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 16.9,
+          "end": 17.14,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 17.14,
+          "end": 17.4,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 17.4,
+          "end": 17.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 18.24,
+      "end": 20.24,
+      "duration": 2.0,
+      "text": "No, we're okay, thanks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 18.24,
+          "end": 18.66,
+          "matched": true
+        },
+        {
+          "text": "we're",
+          "start": 19.0,
+          "end": 19.36,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 19.36,
+          "end": 19.74,
+          "matched": true
+        },
+        {
+          "text": "thanks",
+          "start": 20.0,
+          "end": 20.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 21.12,
+      "end": 22.9,
+      "duration": 1.78,
+      "text": "Can we use this cheese, Dad?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 21.12,
+          "end": 21.36,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 21.36,
+          "end": 21.56,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 21.56,
+          "end": 21.78,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 21.78,
+          "end": 22.02,
+          "matched": true
+        },
+        {
+          "text": "cheese",
+          "start": 22.02,
+          "end": 22.44,
+          "matched": true
+        },
+        {
+          "text": "Dad",
+          "start": 22.68,
+          "end": 22.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 23.32,
+      "end": 25.64,
+      "duration": 2.32,
+      "text": "No, your mum wants that for the lasagna.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 23.32,
+          "end": 23.64,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 23.96,
+          "end": 24.08,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 24.08,
+          "end": 24.28,
+          "matched": true
+        },
+        {
+          "text": "wants",
+          "start": 24.28,
+          "end": 24.6,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 24.6,
+          "end": 24.82,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 24.82,
+          "end": 25.08,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 25.08,
+          "end": 25.2,
+          "matched": true
+        },
+        {
+          "text": "lasagna",
+          "start": 25.2,
+          "end": 25.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 26.26,
+      "end": 27.4,
+      "duration": 1.14,
+      "text": "Use this cheese.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Use",
+          "start": 26.26,
+          "end": 26.72,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 26.72,
+          "end": 27.04,
+          "matched": true
+        },
+        {
+          "text": "cheese",
+          "start": 27.04,
+          "end": 27.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 27.9,
+      "end": 28.26,
+      "duration": 0.36,
+      "text": "Okay.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Okay",
+          "start": 27.9,
+          "end": 28.26,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 28.8,
+      "end": 31.02,
+      "duration": 2.22,
+      "text": "We need some salad in the sandwiches.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 28.8,
+          "end": 29.08,
+          "matched": true
+        },
+        {
+          "text": "need",
+          "start": 29.08,
+          "end": 29.32,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 29.32,
+          "end": 29.66,
+          "matched": true
+        },
+        {
+          "text": "salad",
+          "start": 29.66,
+          "end": 30.16,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 30.16,
+          "end": 30.46,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 30.46,
+          "end": 30.6,
+          "matched": true
+        },
+        {
+          "text": "sandwiches",
+          "start": 30.6,
+          "end": 31.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 31.9,
+      "end": 32.768,
+      "duration": 0.868,
+      "text": "Have we got any?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Have",
+          "start": 31.9,
+          "end": 32.08,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 32.08,
+          "end": 32.22,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 32.22,
+          "end": 32.38,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 32.38,
+          "end": 32.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 32.768,
+      "end": 36.96,
+      "duration": 4.192,
+      "text": "There's no cucumber, but there are some tomatoes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There's",
+          "start": 32.64,
+          "end": 33.46,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 33.46,
+          "end": 33.74,
+          "matched": true
+        },
+        {
+          "text": "cucumber",
+          "start": 33.74,
+          "end": 34.44,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 35.02,
+          "end": 35.48,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 35.48,
+          "end": 35.76,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 35.76,
+          "end": 35.98,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 35.98,
+          "end": 36.32,
+          "matched": true
+        },
+        {
+          "text": "tomatoes",
+          "start": 36.32,
+          "end": 36.96,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 37.97,
+      "end": 41.13,
+      "duration": 3.16,
+      "text": "Let's have cheese and tomato sandwiches then.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 37.97,
+          "end": 38.47,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 38.47,
+          "end": 38.75,
+          "matched": true
+        },
+        {
+          "text": "cheese",
+          "start": 38.75,
+          "end": 39.23,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 39.23,
+          "end": 39.55,
+          "matched": true
+        },
+        {
+          "text": "tomato",
+          "start": 39.55,
+          "end": 40.05,
+          "matched": true
+        },
+        {
+          "text": "sandwiches",
+          "start": 40.05,
+          "end": 40.71,
+          "matched": true
+        },
+        {
+          "text": "then",
+          "start": 40.71,
+          "end": 41.13,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 41.76,
+      "end": 42.12,
+      "duration": 0.36,
+      "text": "Cool.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Cool",
+          "start": 41.76,
+          "end": 42.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 42.68,
+      "end": 44.08,
+      "duration": 1.4,
+      "text": "What are you doing, Dad?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 42.68,
+          "end": 43.1,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 43.1,
+          "end": 43.26,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 43.26,
+          "end": 43.42,
+          "matched": true
+        },
+        {
+          "text": "doing",
+          "start": 43.42,
+          "end": 43.82,
+          "matched": true
+        },
+        {
+          "text": "Dad",
+          "start": 43.86,
+          "end": 44.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 44.6,
+      "end": 46.98,
+      "duration": 2.38,
+      "text": "I'm putting some peanut butter on the bread.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 44.6,
+          "end": 45.0,
+          "matched": true
+        },
+        {
+          "text": "putting",
+          "start": 45.0,
+          "end": 45.24,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 45.24,
+          "end": 45.54,
+          "matched": true
+        },
+        {
+          "text": "peanut",
+          "start": 45.54,
+          "end": 45.88,
+          "matched": true
+        },
+        {
+          "text": "butter",
+          "start": 45.88,
+          "end": 46.36,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 46.36,
+          "end": 46.58,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 46.58,
+          "end": 46.72,
+          "matched": true
+        },
+        {
+          "text": "bread",
+          "start": 46.72,
+          "end": 46.98,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 47.62,
+      "end": 49.06,
+      "duration": 1.44,
+      "text": "It's tastier than butter.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 47.62,
+          "end": 48.0,
+          "matched": true
+        },
+        {
+          "text": "tastier",
+          "start": 48.0,
+          "end": 48.54,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 48.54,
+          "end": 48.72,
+          "matched": true
+        },
+        {
+          "text": "butter",
+          "start": 48.72,
+          "end": 49.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 49.44,
+      "end": 50.34,
+      "duration": 0.9,
+      "text": "Don't do that.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 49.44,
+          "end": 49.86,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 49.86,
+          "end": 50.04,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 50.04,
+          "end": 50.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 50.84,
+      "end": 51.4,
+      "duration": 0.56,
+      "text": "Too late.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Too",
+          "start": 50.84,
+          "end": 51.1,
+          "matched": true
+        },
+        {
+          "text": "late",
+          "start": 51.1,
+          "end": 51.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 51.9,
+      "end": 55.32,
+      "duration": 3.42,
+      "text": "The thing is, Sally is allergic to nuts.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 51.9,
+          "end": 52.06,
+          "matched": true
+        },
+        {
+          "text": "thing",
+          "start": 52.06,
+          "end": 52.4,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 52.4,
+          "end": 52.82,
+          "matched": true
+        },
+        {
+          "text": "Sally",
+          "start": 53.24,
+          "end": 53.5,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 53.5,
+          "end": 53.98,
+          "matched": true
+        },
+        {
+          "text": "allergic",
+          "start": 53.98,
+          "end": 54.52,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 54.52,
+          "end": 54.9,
+          "matched": true
+        },
+        {
+          "text": "nuts",
+          "start": 54.9,
+          "end": 55.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 55.96,
+      "end": 58.04,
+      "duration": 2.08,
+      "text": "Oh no. I'm sorry.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 55.96,
+          "end": 56.4,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 56.4,
+          "end": 56.86,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 57.44,
+          "end": 57.68,
+          "matched": true
+        },
+        {
+          "text": "sorry",
+          "start": 57.68,
+          "end": 58.04,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 58.85,
+      "end": 59.45,
+      "duration": 0.6,
+      "text": "Never mind.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Never",
+          "start": 58.85,
+          "end": 59.17,
+          "matched": true
+        },
+        {
+          "text": "mind",
+          "start": 59.17,
+          "end": 59.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 59.85,
+      "end": 60.75,
+      "duration": 0.9,
+      "text": "I can eat these.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 59.85,
+          "end": 60.09,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 60.09,
+          "end": 60.29,
+          "matched": true
+        },
+        {
+          "text": "eat",
+          "start": 60.29,
+          "end": 60.45,
+          "matched": true
+        },
+        {
+          "text": "these",
+          "start": 60.45,
+          "end": 60.75,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 61.44,
+      "end": 62.94,
+      "duration": 1.5,
+      "text": "And you can make some more.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 61.44,
+          "end": 61.78,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 61.78,
+          "end": 62.06,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 62.06,
+          "end": 62.26,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 62.26,
+          "end": 62.5,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 62.5,
+          "end": 62.7,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 62.7,
+          "end": 62.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 62.94,
+      "end": 64.96,
+      "duration": 2.02,
+      "text": "We can't make any more.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 62.94,
+          "end": 63.54,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 63.54,
+          "end": 64.06,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 64.06,
+          "end": 64.3,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 64.3,
+          "end": 64.58,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 64.58,
+          "end": 64.96,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 65.42,
+      "end": 66.94,
+      "duration": 1.52,
+      "text": "We haven't got any more bread.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 65.42,
+          "end": 65.6,
+          "matched": true
+        },
+        {
+          "text": "haven't",
+          "start": 65.6,
+          "end": 65.96,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 65.96,
+          "end": 66.1,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 66.1,
+          "end": 66.32,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 66.32,
+          "end": 66.52,
+          "matched": true
+        },
+        {
+          "text": "bread",
+          "start": 66.52,
+          "end": 66.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 67.62,
+      "end": 68.12,
+      "duration": 0.5,
+      "text": "I know.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 67.62,
+          "end": 67.9,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 67.9,
+          "end": 68.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 68.88,
+      "end": 70.76,
+      "duration": 1.88,
+      "text": "Can we go for fish and chips, Dad?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 68.88,
+          "end": 69.0,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 69.0,
+          "end": 69.16,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 69.16,
+          "end": 69.38,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 69.38,
+          "end": 69.64,
+          "matched": true
+        },
+        {
+          "text": "fish",
+          "start": 69.64,
+          "end": 69.94,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 69.94,
+          "end": 70.12,
+          "matched": true
+        },
+        {
+          "text": "chips",
+          "start": 70.12,
+          "end": 70.42,
+          "matched": true
+        },
+        {
+          "text": "Dad",
+          "start": 70.56,
+          "end": 70.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 71.34,
+      "end": 72.52,
+      "duration": 1.18,
+      "text": "Hmm, okay.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hmm",
+          "start": 71.34,
+          "end": 71.72,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 72.18,
+          "end": 72.52,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 72.92,
+      "end": 73.82,
+      "duration": 0.9,
+      "text": "Yes, we can.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 72.92,
+          "end": 73.24,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 73.42,
+          "end": 73.54,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 73.54,
+          "end": 73.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 74.32,
+      "end": 74.8,
+      "duration": 0.48,
+      "text": "Great.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Great",
+          "start": 74.32,
+          "end": 74.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 75.52,
+      "end": 77.88,
+      "duration": 2.36,
+      "text": "And can Sally and Max come too?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 75.54,
+          "end": 75.86,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 75.86,
+          "end": 76.2,
+          "matched": true
+        },
+        {
+          "text": "Sally",
+          "start": 76.2,
+          "end": 76.58,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 76.58,
+          "end": 76.82,
+          "matched": true
+        },
+        {
+          "text": "Max",
+          "start": 76.82,
+          "end": 77.06,
+          "matched": true
+        },
+        {
+          "text": "come",
+          "start": 77.06,
+          "end": 77.5,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 77.5,
+          "end": 77.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 78.46,
+      "end": 79.94,
+      "duration": 1.48,
+      "text": "Yes, of course they can.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 78.46,
+          "end": 78.82,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 78.94,
+          "end": 79.06,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 79.06,
+          "end": 79.38,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 79.38,
+          "end": 79.64,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 79.64,
+          "end": 79.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 80.76,
+      "end": 83.28,
+      "duration": 2.52,
+      "text": "But first, we must clean up this mess.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 80.76,
+          "end": 80.98,
+          "matched": true
+        },
+        {
+          "text": "first",
+          "start": 80.98,
+          "end": 81.32,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 81.7,
+          "end": 81.9,
+          "matched": true
+        },
+        {
+          "text": "must",
+          "start": 81.9,
+          "end": 82.08,
+          "matched": true
+        },
+        {
+          "text": "clean",
+          "start": 82.08,
+          "end": 82.42,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 82.42,
+          "end": 82.62,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 82.62,
+          "end": 82.9,
+          "matched": true
+        },
+        {
+          "text": "mess",
+          "start": 82.9,
+          "end": 83.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 83.9,
+      "end": 84.78,
+      "duration": 0.88,
+      "text": "Oh, Dad.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 83.9,
+          "end": 84.24,
+          "matched": true
+        },
+        {
+          "text": "Dad",
+          "start": 84.46,
+          "end": 84.78,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 85.38,
+      "end": 86.54,
+      "duration": 1.16,
+      "text": "We're hungry now.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 85.38,
+          "end": 85.76,
+          "matched": true
+        },
+        {
+          "text": "hungry",
+          "start": 85.76,
+          "end": 86.1,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 86.1,
+          "end": 86.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 87.3,
+      "end": 88.6,
+      "duration": 1.3,
+      "text": "Can we do that later?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 87.3,
+          "end": 87.6,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 87.6,
+          "end": 87.78,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 87.78,
+          "end": 88.0,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 88.0,
+          "end": 88.2,
+          "matched": true
+        },
+        {
+          "text": "later",
+          "start": 88.2,
+          "end": 88.6,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 89.3,
+      "end": 90.74,
+      "duration": 1.44,
+      "text": "No, we can't.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 89.3,
+          "end": 89.8,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 90.0,
+          "end": 90.1,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 90.1,
+          "end": 90.74,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

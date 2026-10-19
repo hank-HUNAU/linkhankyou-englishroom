@@ -1,0 +1,1935 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p111.mp3",
+  "language": "en",
+  "duration": 146.521,
+  "report": {
+    "script_tokens": 280,
+    "matched_tokens": 280,
+    "asr_words": 288,
+    "coverage": 1.0,
+    "unmatched": []
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 6.98,
+      "end": 12.42,
+      "duration": 5.44,
+      "text": "A lot of big cities, like London, have got many traffic problems.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 6.98,
+          "end": 7.14,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 7.14,
+          "end": 7.34,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 7.34,
+          "end": 7.6,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 7.6,
+          "end": 7.9,
+          "matched": true
+        },
+        {
+          "text": "cities",
+          "start": 7.9,
+          "end": 8.42,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 8.9,
+          "end": 9.36,
+          "matched": true
+        },
+        {
+          "text": "London",
+          "start": 9.36,
+          "end": 9.8,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 10.34,
+          "end": 10.52,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 10.52,
+          "end": 10.74,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 10.74,
+          "end": 11.14,
+          "matched": true
+        },
+        {
+          "text": "traffic",
+          "start": 11.14,
+          "end": 11.72,
+          "matched": true
+        },
+        {
+          "text": "problems",
+          "start": 11.72,
+          "end": 12.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 13.22,
+      "end": 18.784,
+      "duration": 5.564,
+      "text": "Sometimes a journey of a few kilometres can take more than an hour.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Sometimes",
+          "start": 13.22,
+          "end": 13.74,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 14.3,
+          "end": 14.54,
+          "matched": true
+        },
+        {
+          "text": "journey",
+          "start": 14.54,
+          "end": 14.86,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 14.86,
+          "end": 15.18,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 15.18,
+          "end": 15.36,
+          "matched": true
+        },
+        {
+          "text": "few",
+          "start": 15.36,
+          "end": 15.64,
+          "matched": true
+        },
+        {
+          "text": "kilometres",
+          "start": 15.64,
+          "end": 16.2,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 16.2,
+          "end": 17.26,
+          "matched": true
+        },
+        {
+          "text": "take",
+          "start": 17.26,
+          "end": 17.56,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 17.56,
+          "end": 17.98,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 17.98,
+          "end": 18.2,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 18.2,
+          "end": 18.38,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 18.38,
+          "end": 18.66,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 19.57,
+      "end": 23.168,
+      "duration": 3.598,
+      "text": "So what's the best way to get across London?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 19.57,
+          "end": 19.87,
+          "matched": true
+        },
+        {
+          "text": "what's",
+          "start": 20.19,
+          "end": 20.59,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 20.59,
+          "end": 20.71,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 20.71,
+          "end": 21.13,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 21.13,
+          "end": 21.51,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 21.51,
+          "end": 22.03,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 22.03,
+          "end": 22.19,
+          "matched": true
+        },
+        {
+          "text": "across",
+          "start": 22.19,
+          "end": 22.55,
+          "matched": true
+        },
+        {
+          "text": "London",
+          "start": 22.55,
+          "end": 23.05,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 24.35,
+      "end": 29.13,
+      "duration": 4.78,
+      "text": "For a very short journey, it's probably a good idea to walk.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "For",
+          "start": 24.35,
+          "end": 24.55,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 24.55,
+          "end": 24.73,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 24.73,
+          "end": 24.99,
+          "matched": true
+        },
+        {
+          "text": "short",
+          "start": 24.99,
+          "end": 25.47,
+          "matched": true
+        },
+        {
+          "text": "journey",
+          "start": 25.47,
+          "end": 26.01,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 26.67,
+          "end": 26.99,
+          "matched": true
+        },
+        {
+          "text": "probably",
+          "start": 26.99,
+          "end": 27.49,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 27.49,
+          "end": 27.93,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 27.93,
+          "end": 28.17,
+          "matched": true
+        },
+        {
+          "text": "idea",
+          "start": 28.17,
+          "end": 28.53,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 28.53,
+          "end": 28.75,
+          "matched": true
+        },
+        {
+          "text": "walk",
+          "start": 28.75,
+          "end": 29.13,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 30.1,
+      "end": 32.736,
+      "duration": 2.636,
+      "text": "But what happens when you want to go further?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 30.1,
+          "end": 30.28,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 30.28,
+          "end": 30.46,
+          "matched": true
+        },
+        {
+          "text": "happens",
+          "start": 30.46,
+          "end": 30.96,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 30.96,
+          "end": 31.24,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 31.24,
+          "end": 31.4,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 31.4,
+          "end": 31.62,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 31.62,
+          "end": 31.88,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 31.88,
+          "end": 32.1,
+          "matched": true
+        },
+        {
+          "text": "further",
+          "start": 32.1,
+          "end": 32.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 33.94,
+      "end": 39.24,
+      "duration": 5.3,
+      "text": "The presenters of a popular TV show about cars decided to find out.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 33.94,
+          "end": 34.04,
+          "matched": true
+        },
+        {
+          "text": "presenters",
+          "start": 34.04,
+          "end": 34.44,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 34.44,
+          "end": 34.78,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 34.78,
+          "end": 34.92,
+          "matched": true
+        },
+        {
+          "text": "popular",
+          "start": 34.92,
+          "end": 35.36,
+          "matched": true
+        },
+        {
+          "text": "TV",
+          "start": 35.36,
+          "end": 35.86,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 35.86,
+          "end": 36.4,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 36.4,
+          "end": 36.72,
+          "matched": true
+        },
+        {
+          "text": "cars",
+          "start": 36.72,
+          "end": 37.38,
+          "matched": true
+        },
+        {
+          "text": "decided",
+          "start": 37.38,
+          "end": 38.16,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 38.16,
+          "end": 38.46,
+          "matched": true
+        },
+        {
+          "text": "find",
+          "start": 38.46,
+          "end": 38.86,
+          "matched": true
+        },
+        {
+          "text": "out",
+          "start": 38.86,
+          "end": 39.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 40.416,
+      "end": 48.032,
+      "duration": 7.616,
+      "text": "Each of the presenters chose a different type of transport to make the same 27-kilometre journey.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Each",
+          "start": 40.45,
+          "end": 40.69,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 40.69,
+          "end": 40.85,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 40.85,
+          "end": 40.97,
+          "matched": true
+        },
+        {
+          "text": "presenters",
+          "start": 40.97,
+          "end": 41.47,
+          "matched": true
+        },
+        {
+          "text": "chose",
+          "start": 41.47,
+          "end": 42.23,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 42.23,
+          "end": 42.51,
+          "matched": true
+        },
+        {
+          "text": "different",
+          "start": 42.51,
+          "end": 42.87,
+          "matched": true
+        },
+        {
+          "text": "type",
+          "start": 42.87,
+          "end": 43.31,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 43.31,
+          "end": 43.49,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 43.49,
+          "end": 44.03,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 44.03,
+          "end": 44.79,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 44.79,
+          "end": 44.97,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 44.97,
+          "end": 45.19,
+          "matched": true
+        },
+        {
+          "text": "same",
+          "start": 45.19,
+          "end": 45.67,
+          "matched": true
+        },
+        {
+          "text": "27-kilometre",
+          "start": 46.41,
+          "end": 47.55,
+          "matched": true
+        },
+        {
+          "text": "journey",
+          "start": 47.55,
+          "end": 47.95,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 49.184,
+      "end": 51.23,
+      "duration": 2.046,
+      "text": "One presenter went by bike.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "One",
+          "start": 49.27,
+          "end": 49.51,
+          "matched": true
+        },
+        {
+          "text": "presenter",
+          "start": 49.51,
+          "end": 50.05,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 50.05,
+          "end": 50.47,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 50.47,
+          "end": 50.81,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 50.81,
+          "end": 51.23,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 52.2,
+      "end": 53.88,
+      "duration": 1.68,
+      "text": "One went by car.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "One",
+          "start": 52.2,
+          "end": 52.62,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 52.62,
+          "end": 53.04,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 53.04,
+          "end": 53.46,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 53.46,
+          "end": 53.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 54.71,
+      "end": 64.58,
+      "duration": 9.87,
+      "text": "Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Another",
+          "start": 54.71,
+          "end": 55.15,
+          "matched": true
+        },
+        {
+          "text": "chose",
+          "start": 55.15,
+          "end": 56.03,
+          "matched": true
+        },
+        {
+          "text": "public",
+          "start": 56.03,
+          "end": 56.57,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 56.57,
+          "end": 57.17,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 57.81,
+          "end": 57.93,
+          "matched": true
+        },
+        {
+          "text": "underground",
+          "start": 57.93,
+          "end": 58.35,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 58.35,
+          "end": 58.73,
+          "matched": true
+        },
+        {
+          "text": "bus",
+          "start": 58.73,
+          "end": 59.05,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 59.96,
+          "end": 60.22,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 60.22,
+          "end": 60.38,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 60.38,
+          "end": 60.74,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 60.74,
+          "end": 61.06,
+          "matched": true
+        },
+        {
+          "text": "travelled",
+          "start": 61.06,
+          "end": 61.82,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 61.82,
+          "end": 62.18,
+          "matched": true
+        },
+        {
+          "text": "speedboat",
+          "start": 62.18,
+          "end": 63.02,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 63.02,
+          "end": 63.64,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 63.64,
+          "end": 63.88,
+          "matched": true
+        },
+        {
+          "text": "River",
+          "start": 63.88,
+          "end": 64.1,
+          "matched": true
+        },
+        {
+          "text": "Thames",
+          "start": 64.1,
+          "end": 64.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 65.83,
+      "end": 75.69,
+      "duration": 9.86,
+      "text": "They all started at the same time and the same place in West London, but who got to City Airport in East London first?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 65.83,
+          "end": 65.99,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 65.99,
+          "end": 66.19,
+          "matched": true
+        },
+        {
+          "text": "started",
+          "start": 66.19,
+          "end": 66.67,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 66.67,
+          "end": 66.93,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 66.93,
+          "end": 67.05,
+          "matched": true
+        },
+        {
+          "text": "same",
+          "start": 67.05,
+          "end": 67.43,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 67.43,
+          "end": 67.83,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 67.83,
+          "end": 68.73,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 68.73,
+          "end": 68.89,
+          "matched": true
+        },
+        {
+          "text": "same",
+          "start": 68.89,
+          "end": 69.29,
+          "matched": true
+        },
+        {
+          "text": "place",
+          "start": 69.29,
+          "end": 69.69,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 69.69,
+          "end": 70.25,
+          "matched": true
+        },
+        {
+          "text": "West",
+          "start": 70.25,
+          "end": 70.61,
+          "matched": true
+        },
+        {
+          "text": "London",
+          "start": 70.61,
+          "end": 71.07,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 71.85,
+          "end": 72.11,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 72.11,
+          "end": 72.45,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 72.45,
+          "end": 72.77,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 72.77,
+          "end": 72.99,
+          "matched": true
+        },
+        {
+          "text": "City",
+          "start": 72.99,
+          "end": 73.31,
+          "matched": true
+        },
+        {
+          "text": "Airport",
+          "start": 73.31,
+          "end": 73.89,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 73.89,
+          "end": 74.27,
+          "matched": true
+        },
+        {
+          "text": "East",
+          "start": 74.27,
+          "end": 74.75,
+          "matched": true
+        },
+        {
+          "text": "London",
+          "start": 74.75,
+          "end": 75.17,
+          "matched": true
+        },
+        {
+          "text": "first",
+          "start": 75.17,
+          "end": 75.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 77.07,
+      "end": 78.57,
+      "duration": 1.5,
+      "text": "The results were a surprise.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 77.07,
+          "end": 77.25,
+          "matched": true
+        },
+        {
+          "text": "results",
+          "start": 77.25,
+          "end": 77.73,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 77.73,
+          "end": 78.05,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 78.05,
+          "end": 78.21,
+          "matched": true
+        },
+        {
+          "text": "surprise",
+          "start": 78.21,
+          "end": 78.57,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 79.96,
+      "end": 81.56,
+      "duration": 1.6,
+      "text": "The bike came first.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 79.96,
+          "end": 80.12,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 80.12,
+          "end": 80.48,
+          "matched": true
+        },
+        {
+          "text": "came",
+          "start": 80.48,
+          "end": 81.06,
+          "matched": true
+        },
+        {
+          "text": "first",
+          "start": 81.06,
+          "end": 81.56,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 82.54,
+      "end": 85.12,
+      "duration": 2.58,
+      "text": "In second place was the speedboat.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 82.54,
+          "end": 82.72,
+          "matched": true
+        },
+        {
+          "text": "second",
+          "start": 82.72,
+          "end": 83.04,
+          "matched": true
+        },
+        {
+          "text": "place",
+          "start": 83.04,
+          "end": 83.56,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 83.56,
+          "end": 84.16,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 84.16,
+          "end": 84.36,
+          "matched": true
+        },
+        {
+          "text": "speedboat",
+          "start": 84.36,
+          "end": 85.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 85.81,
+      "end": 90.496,
+      "duration": 4.686,
+      "text": "Public transport came third and the car was last.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Public",
+          "start": 85.81,
+          "end": 86.19,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 86.19,
+          "end": 86.73,
+          "matched": true
+        },
+        {
+          "text": "came",
+          "start": 86.73,
+          "end": 87.31,
+          "matched": true
+        },
+        {
+          "text": "third",
+          "start": 87.31,
+          "end": 87.79,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 87.79,
+          "end": 88.51,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 88.69,
+          "end": 88.83,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 88.83,
+          "end": 89.27,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 89.27,
+          "end": 89.87,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 89.87,
+          "end": 90.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 91.67,
+      "end": 94.016,
+      "duration": 2.346,
+      "text": "So the presenters had an answer.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 91.67,
+          "end": 91.95,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 91.95,
+          "end": 92.11,
+          "matched": true
+        },
+        {
+          "text": "presenters",
+          "start": 92.11,
+          "end": 92.57,
+          "matched": true
+        },
+        {
+          "text": "had",
+          "start": 92.57,
+          "end": 93.25,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 93.25,
+          "end": 93.45,
+          "matched": true
+        },
+        {
+          "text": "answer",
+          "start": 93.45,
+          "end": 93.91,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 94.61,
+      "end": 100.896,
+      "duration": 6.286,
+      "text": "The bike was quicker than all the other types of transport and the car was slower.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 94.61,
+          "end": 94.73,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 94.73,
+          "end": 95.09,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 95.09,
+          "end": 95.43,
+          "matched": true
+        },
+        {
+          "text": "quicker",
+          "start": 95.43,
+          "end": 95.85,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 95.85,
+          "end": 96.13,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 96.13,
+          "end": 96.69,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 96.69,
+          "end": 96.95,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 96.95,
+          "end": 97.15,
+          "matched": true
+        },
+        {
+          "text": "types",
+          "start": 97.15,
+          "end": 97.55,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 97.55,
+          "end": 97.77,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 97.77,
+          "end": 98.29,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 98.29,
+          "end": 99.13,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 99.28,
+          "end": 99.4,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 99.4,
+          "end": 99.84,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 99.84,
+          "end": 100.32,
+          "matched": true
+        },
+        {
+          "text": "slower",
+          "start": 100.32,
+          "end": 100.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 101.952,
+      "end": 106.784,
+      "duration": 4.832,
+      "text": "They weren't very happy with the result because they wanted the car to win.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 101.96,
+          "end": 102.1,
+          "matched": true
+        },
+        {
+          "text": "weren't",
+          "start": 102.1,
+          "end": 102.44,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 102.44,
+          "end": 102.7,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 102.7,
+          "end": 103.1,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 103.1,
+          "end": 103.34,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 103.34,
+          "end": 103.46,
+          "matched": true
+        },
+        {
+          "text": "result",
+          "start": 103.46,
+          "end": 103.9,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 103.9,
+          "end": 104.66,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 104.66,
+          "end": 104.96,
+          "matched": true
+        },
+        {
+          "text": "wanted",
+          "start": 104.96,
+          "end": 105.36,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 105.36,
+          "end": 105.62,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 105.62,
+          "end": 106.04,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 106.04,
+          "end": 106.3,
+          "matched": true
+        },
+        {
+          "text": "win",
+          "start": 106.3,
+          "end": 106.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 107.46,
+      "end": 113.1,
+      "duration": 5.64,
+      "text": "They made a joke and said the bike wasn't a real winner because it was more dangerous.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 107.46,
+          "end": 107.62,
+          "matched": true
+        },
+        {
+          "text": "made",
+          "start": 107.62,
+          "end": 107.84,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 107.84,
+          "end": 108.04,
+          "matched": true
+        },
+        {
+          "text": "joke",
+          "start": 108.04,
+          "end": 108.34,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 108.34,
+          "end": 109.14,
+          "matched": true
+        },
+        {
+          "text": "said",
+          "start": 109.14,
+          "end": 109.34,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 109.34,
+          "end": 109.52,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 109.52,
+          "end": 109.9,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 109.9,
+          "end": 110.44,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 110.44,
+          "end": 110.64,
+          "matched": true
+        },
+        {
+          "text": "real",
+          "start": 110.64,
+          "end": 110.94,
+          "matched": true
+        },
+        {
+          "text": "winner",
+          "start": 110.94,
+          "end": 111.32,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 111.32,
+          "end": 111.92,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 111.92,
+          "end": 112.12,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 112.12,
+          "end": 112.26,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 112.26,
+          "end": 112.54,
+          "matched": true
+        },
+        {
+          "text": "dangerous",
+          "start": 112.54,
+          "end": 113.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 114.18,
+      "end": 117.632,
+      "duration": 3.452,
+      "text": "But, of course, the bike is the real winner.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 114.18,
+          "end": 114.54,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 114.54,
+          "end": 114.96,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 114.96,
+          "end": 115.44,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 115.62,
+          "end": 115.74,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 115.74,
+          "end": 116.12,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 116.12,
+          "end": 116.58,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 116.58,
+          "end": 116.9,
+          "matched": true
+        },
+        {
+          "text": "real",
+          "start": 116.9,
+          "end": 117.2,
+          "matched": true
+        },
+        {
+          "text": "winner",
+          "start": 117.2,
+          "end": 117.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 118.26,
+      "end": 120.3,
+      "duration": 2.04,
+      "text": "It's the best way to get about.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 118.26,
+          "end": 118.58,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 118.58,
+          "end": 118.68,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 118.68,
+          "end": 119.06,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 119.06,
+          "end": 119.44,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 119.44,
+          "end": 119.66,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 119.66,
+          "end": 119.82,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 119.82,
+          "end": 120.3,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 121.15,
+      "end": 126.81,
+      "duration": 5.66,
+      "text": "It's cheaper than public transport and it is healthier than going by car.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 121.15,
+          "end": 121.61,
+          "matched": true
+        },
+        {
+          "text": "cheaper",
+          "start": 121.61,
+          "end": 122.05,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 122.05,
+          "end": 122.41,
+          "matched": true
+        },
+        {
+          "text": "public",
+          "start": 122.41,
+          "end": 122.85,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 122.85,
+          "end": 123.41,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 123.41,
+          "end": 124.37,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 124.37,
+          "end": 124.53,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 124.53,
+          "end": 124.71,
+          "matched": true
+        },
+        {
+          "text": "healthier",
+          "start": 124.71,
+          "end": 125.25,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 125.25,
+          "end": 125.77,
+          "matched": true
+        },
+        {
+          "text": "going",
+          "start": 125.77,
+          "end": 126.07,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 126.07,
+          "end": 126.35,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 126.35,
+          "end": 126.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 127.424,
+      "end": 132.768,
+      "duration": 5.344,
+      "text": "It's also better for our cities because bikes don't make the air dirty.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 127.49,
+          "end": 127.71,
+          "matched": true
+        },
+        {
+          "text": "also",
+          "start": 127.71,
+          "end": 128.13,
+          "matched": true
+        },
+        {
+          "text": "better",
+          "start": 128.13,
+          "end": 128.65,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 128.65,
+          "end": 128.91,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 128.91,
+          "end": 129.11,
+          "matched": true
+        },
+        {
+          "text": "cities",
+          "start": 129.11,
+          "end": 129.51,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 129.51,
+          "end": 130.27,
+          "matched": true
+        },
+        {
+          "text": "bikes",
+          "start": 130.27,
+          "end": 130.75,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 130.75,
+          "end": 131.35,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 131.35,
+          "end": 131.57,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 131.57,
+          "end": 131.87,
+          "matched": true
+        },
+        {
+          "text": "air",
+          "start": 131.87,
+          "end": 132.13,
+          "matched": true
+        },
+        {
+          "text": "dirty",
+          "start": 132.13,
+          "end": 132.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 134.112,
+      "end": 143.22,
+      "duration": 9.108,
+      "text": "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 134.17,
+          "end": 134.33,
+          "matched": true
+        },
+        {
+          "text": "next",
+          "start": 134.33,
+          "end": 134.57,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 134.57,
+          "end": 134.89,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 134.89,
+          "end": 135.13,
+          "matched": true
+        },
+        {
+          "text": "need",
+          "start": 135.13,
+          "end": 135.33,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 135.33,
+          "end": 135.59,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 135.59,
+          "end": 136.01,
+          "matched": true
+        },
+        {
+          "text": "around",
+          "start": 136.01,
+          "end": 136.57,
+          "matched": true
+        },
+        {
+          "text": "think",
+          "start": 137.42,
+          "end": 137.62,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 137.62,
+          "end": 138.28,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 138.28,
+          "end": 138.6,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 138.6,
+          "end": 138.8,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 138.8,
+          "end": 139.0,
+          "matched": true
+        },
+        {
+          "text": "parents",
+          "start": 139.0,
+          "end": 139.54,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 139.54,
+          "end": 139.84,
+          "matched": true
+        },
+        {
+          "text": "into",
+          "start": 139.84,
+          "end": 140.08,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 140.08,
+          "end": 140.24,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 140.24,
+          "end": 140.58,
+          "matched": true
+        },
+        {
+          "text": "Can",
+          "start": 141.08,
+          "end": 141.4,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 141.4,
+          "end": 141.56,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 141.56,
+          "end": 141.78,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 141.78,
+          "end": 142.02,
+          "matched": true
+        },
+        {
+          "text": "journey",
+          "start": 142.02,
+          "end": 142.44,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 142.44,
+          "end": 142.9,
+          "matched": true
+        },
+        {
+          "text": "bike",
+          "start": 142.9,
+          "end": 143.22,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

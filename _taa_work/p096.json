@@ -1,0 +1,1688 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p096.mp3",
+  "language": "en",
+  "duration": 152.451,
+  "report": {
+    "script_tokens": 238,
+    "matched_tokens": 234,
+    "asr_words": 251,
+    "coverage": 0.983,
+    "unmatched": [
+      "Dee",
+      "Caffari",
+      "non-stop",
+      "Ederle"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 8.52,
+      "end": 18.592,
+      "duration": 10.072,
+      "text": "Yesterday, I was online and I learned about a woman called Amy who walked all round the UK to get money for charity.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yesterday",
+          "start": 8.52,
+          "end": 8.91,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 8.91,
+          "end": 10.09,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 10.09,
+          "end": 10.29,
+          "matched": true
+        },
+        {
+          "text": "online",
+          "start": 10.29,
+          "end": 10.87,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 10.87,
+          "end": 11.53,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 11.53,
+          "end": 11.73,
+          "matched": true
+        },
+        {
+          "text": "learned",
+          "start": 11.73,
+          "end": 12.09,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 12.09,
+          "end": 12.45,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 12.45,
+          "end": 12.69,
+          "matched": true
+        },
+        {
+          "text": "woman",
+          "start": 12.69,
+          "end": 12.95,
+          "matched": true
+        },
+        {
+          "text": "called",
+          "start": 12.95,
+          "end": 13.27,
+          "matched": true
+        },
+        {
+          "text": "Amy",
+          "start": 13.27,
+          "end": 13.75,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 13.75,
+          "end": 14.51,
+          "matched": true
+        },
+        {
+          "text": "walked",
+          "start": 14.72,
+          "end": 15.1,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 15.1,
+          "end": 15.66,
+          "matched": true
+        },
+        {
+          "text": "round",
+          "start": 15.66,
+          "end": 16.02,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 16.02,
+          "end": 16.24,
+          "matched": true
+        },
+        {
+          "text": "UK",
+          "start": 16.24,
+          "end": 16.62,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 16.62,
+          "end": 17.2,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 17.2,
+          "end": 17.36,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 17.36,
+          "end": 17.7,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 17.7,
+          "end": 17.94,
+          "matched": true
+        },
+        {
+          "text": "charity",
+          "start": 17.94,
+          "end": 18.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 18.592,
+      "end": 20.32,
+      "duration": 1.728,
+      "text": "And in winter!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 18.46,
+          "end": 19.16,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 19.56,
+          "end": 19.8,
+          "matched": true
+        },
+        {
+          "text": "winter",
+          "start": 19.8,
+          "end": 20.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 20.32,
+      "end": 22.76,
+      "duration": 2.44,
+      "text": "When there was rain and snow!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "When",
+          "start": 20.32,
+          "end": 21.1,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 21.24,
+          "end": 21.44,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 21.44,
+          "end": 21.64,
+          "matched": true
+        },
+        {
+          "text": "rain",
+          "start": 21.64,
+          "end": 22.06,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 22.06,
+          "end": 22.4,
+          "matched": true
+        },
+        {
+          "text": "snow",
+          "start": 22.4,
+          "end": 22.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 24.1,
+      "end": 27.6,
+      "duration": 3.5,
+      "text": "Do you know any other amazing stories like that?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Do",
+          "start": 24.1,
+          "end": 24.46,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 24.46,
+          "end": 24.7,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 24.7,
+          "end": 24.88,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 24.88,
+          "end": 25.28,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 25.28,
+          "end": 25.58,
+          "matched": true
+        },
+        {
+          "text": "amazing",
+          "start": 25.58,
+          "end": 26.2,
+          "matched": true
+        },
+        {
+          "text": "stories",
+          "start": 26.2,
+          "end": 26.82,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 26.82,
+          "end": 27.28,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 27.28,
+          "end": 27.6,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 27.6,
+      "end": 31.12,
+      "duration": 3.52,
+      "text": "How about Dee Caffari?",
+      "confidence": 0.5,
+      "words": [
+        {
+          "text": "How",
+          "start": 27.6,
+          "end": 28.4,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 29.54,
+          "end": 29.98,
+          "matched": true
+        },
+        {
+          "text": "Dee",
+          "start": 29.98,
+          "end": 30.322,
+          "matched": false
+        },
+        {
+          "text": "Caffari",
+          "start": 30.322,
+          "end": 31.12,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 31.68,
+      "end": 35.58,
+      "duration": 3.9,
+      "text": "She sailed around the world, non-stop, three times!",
+      "confidence": 0.875,
+      "words": [
+        {
+          "text": "She",
+          "start": 31.68,
+          "end": 31.96,
+          "matched": true
+        },
+        {
+          "text": "sailed",
+          "start": 31.96,
+          "end": 32.44,
+          "matched": true
+        },
+        {
+          "text": "around",
+          "start": 32.44,
+          "end": 32.76,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 32.76,
+          "end": 32.98,
+          "matched": true
+        },
+        {
+          "text": "world",
+          "start": 32.98,
+          "end": 33.38,
+          "matched": true
+        },
+        {
+          "text": "non-stop",
+          "start": 33.38,
+          "end": 33.8,
+          "matched": false
+        },
+        {
+          "text": "three",
+          "start": 34.4,
+          "end": 34.86,
+          "matched": true
+        },
+        {
+          "text": "times",
+          "start": 34.86,
+          "end": 35.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 36.31,
+      "end": 38.496,
+      "duration": 2.186,
+      "text": "That’s right, three times.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "That’s",
+          "start": 36.31,
+          "end": 36.73,
+          "matched": true
+        },
+        {
+          "text": "right",
+          "start": 36.73,
+          "end": 36.95,
+          "matched": true
+        },
+        {
+          "text": "three",
+          "start": 37.35,
+          "end": 37.61,
+          "matched": true
+        },
+        {
+          "text": "times",
+          "start": 37.61,
+          "end": 38.35,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 38.976,
+      "end": 41.07,
+      "duration": 2.094,
+      "text": "Imagine the wind and the rain!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 39.03,
+          "end": 39.63,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 39.63,
+          "end": 39.97,
+          "matched": true
+        },
+        {
+          "text": "wind",
+          "start": 39.97,
+          "end": 40.33,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 40.33,
+          "end": 40.57,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 40.57,
+          "end": 40.75,
+          "matched": true
+        },
+        {
+          "text": "rain",
+          "start": 40.75,
+          "end": 41.07,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 41.69,
+      "end": 43.136,
+      "duration": 1.446,
+      "text": "Fantastic, eh?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Fantastic",
+          "start": 41.69,
+          "end": 42.37,
+          "matched": true
+        },
+        {
+          "text": "eh",
+          "start": 42.37,
+          "end": 43.05,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 45.45,
+      "end": 55.648,
+      "duration": 10.198,
+      "text": "OK, well there’s a boy called Jordan Romero, from the US – he climbed Mount Everest when he was 13 years old.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "OK",
+          "start": 45.45,
+          "end": 45.97,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 46.57,
+          "end": 46.89,
+          "matched": true
+        },
+        {
+          "text": "there’s",
+          "start": 46.89,
+          "end": 47.43,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 47.43,
+          "end": 47.55,
+          "matched": true
+        },
+        {
+          "text": "boy",
+          "start": 47.55,
+          "end": 47.87,
+          "matched": true
+        },
+        {
+          "text": "called",
+          "start": 47.87,
+          "end": 48.29,
+          "matched": true
+        },
+        {
+          "text": "Jordan",
+          "start": 48.29,
+          "end": 48.91,
+          "matched": true
+        },
+        {
+          "text": "Romero",
+          "start": 48.91,
+          "end": 49.57,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 49.57,
+          "end": 50.29,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 50.29,
+          "end": 50.47,
+          "matched": true
+        },
+        {
+          "text": "US",
+          "start": 50.47,
+          "end": 50.81,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 51.41,
+          "end": 51.67,
+          "matched": true
+        },
+        {
+          "text": "climbed",
+          "start": 51.67,
+          "end": 52.29,
+          "matched": true
+        },
+        {
+          "text": "Mount",
+          "start": 52.29,
+          "end": 52.65,
+          "matched": true
+        },
+        {
+          "text": "Everest",
+          "start": 52.65,
+          "end": 53.23,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 53.23,
+          "end": 53.63,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 53.63,
+          "end": 53.81,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 53.81,
+          "end": 53.99,
+          "matched": true
+        },
+        {
+          "text": "13",
+          "start": 53.99,
+          "end": 54.67,
+          "matched": true
+        },
+        {
+          "text": "years",
+          "start": 54.67,
+          "end": 55.09,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 55.09,
+          "end": 55.55,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 56.09,
+      "end": 60.672,
+      "duration": 4.582,
+      "text": "It’s really cold up there, but he managed to get to the top.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It’s",
+          "start": 56.09,
+          "end": 56.61,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 56.61,
+          "end": 57.03,
+          "matched": true
+        },
+        {
+          "text": "cold",
+          "start": 57.03,
+          "end": 57.45,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 57.45,
+          "end": 57.73,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 57.73,
+          "end": 58.07,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 58.07,
+          "end": 58.59,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 58.59,
+          "end": 58.87,
+          "matched": true
+        },
+        {
+          "text": "managed",
+          "start": 58.87,
+          "end": 59.33,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 59.33,
+          "end": 59.65,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 59.65,
+          "end": 59.81,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 59.81,
+          "end": 60.03,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 60.03,
+          "end": 60.15,
+          "matched": true
+        },
+        {
+          "text": "top",
+          "start": 60.15,
+          "end": 60.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 61.07,
+      "end": 62.21,
+      "duration": 1.14,
+      "text": "Only 13!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Only",
+          "start": 61.07,
+          "end": 61.45,
+          "matched": true
+        },
+        {
+          "text": "13",
+          "start": 61.45,
+          "end": 62.21,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 62.97,
+      "end": 64.93,
+      "duration": 1.96,
+      "text": "Now that’s an achievement.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "start": 62.97,
+          "end": 63.39,
+          "matched": true
+        },
+        {
+          "text": "that’s",
+          "start": 63.39,
+          "end": 64.11,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 64.11,
+          "end": 64.31,
+          "matched": true
+        },
+        {
+          "text": "achievement",
+          "start": 64.31,
+          "end": 64.93,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 68.24,
+      "end": 74.08,
+      "duration": 5.84,
+      "text": "My friend Corey Armstrong decided to run a marathon when he was 16.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 68.24,
+          "end": 68.66,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 68.66,
+          "end": 69.12,
+          "matched": true
+        },
+        {
+          "text": "Corey",
+          "start": 69.12,
+          "end": 69.68,
+          "matched": true
+        },
+        {
+          "text": "Armstrong",
+          "start": 69.68,
+          "end": 70.42,
+          "matched": true
+        },
+        {
+          "text": "decided",
+          "start": 70.42,
+          "end": 71.18,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 71.18,
+          "end": 71.72,
+          "matched": true
+        },
+        {
+          "text": "run",
+          "start": 71.72,
+          "end": 72.0,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 72.0,
+          "end": 72.16,
+          "matched": true
+        },
+        {
+          "text": "marathon",
+          "start": 72.16,
+          "end": 72.7,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 72.7,
+          "end": 73.18,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 73.18,
+          "end": 73.34,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 73.34,
+          "end": 73.5,
+          "matched": true
+        },
+        {
+          "text": "16",
+          "start": 73.5,
+          "end": 74.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 75.2,
+      "end": 78.32,
+      "duration": 3.12,
+      "text": "He finished in just over four hours.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 75.2,
+          "end": 75.38,
+          "matched": true
+        },
+        {
+          "text": "finished",
+          "start": 75.38,
+          "end": 75.8,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 75.8,
+          "end": 76.44,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 76.44,
+          "end": 76.74,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 76.74,
+          "end": 77.26,
+          "matched": true
+        },
+        {
+          "text": "four",
+          "start": 77.26,
+          "end": 77.7,
+          "matched": true
+        },
+        {
+          "text": "hours",
+          "start": 77.7,
+          "end": 78.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 79.55,
+      "end": 87.32,
+      "duration": 7.77,
+      "text": "He enjoyed it a lot, so then he decided to do the marathon in Death Valley in the US.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 79.55,
+          "end": 79.77,
+          "matched": true
+        },
+        {
+          "text": "enjoyed",
+          "start": 79.77,
+          "end": 80.23,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 80.23,
+          "end": 80.55,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 80.55,
+          "end": 80.87,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 80.87,
+          "end": 81.15,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 81.15,
+          "end": 81.75,
+          "matched": true
+        },
+        {
+          "text": "then",
+          "start": 82.02,
+          "end": 82.46,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 82.46,
+          "end": 83.0,
+          "matched": true
+        },
+        {
+          "text": "decided",
+          "start": 83.0,
+          "end": 83.64,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 83.64,
+          "end": 84.0,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 84.0,
+          "end": 84.2,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 84.2,
+          "end": 84.38,
+          "matched": true
+        },
+        {
+          "text": "marathon",
+          "start": 84.38,
+          "end": 85.02,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 85.02,
+          "end": 85.46,
+          "matched": true
+        },
+        {
+          "text": "Death",
+          "start": 85.46,
+          "end": 85.92,
+          "matched": true
+        },
+        {
+          "text": "Valley",
+          "start": 85.92,
+          "end": 86.44,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 86.44,
+          "end": 86.8,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 86.8,
+          "end": 86.94,
+          "matched": true
+        },
+        {
+          "text": "US",
+          "start": 86.94,
+          "end": 87.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 88.704,
+      "end": 93.9,
+      "duration": 5.196,
+      "text": "It’s so hot there – often more than 40 degrees Celsius.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It’s",
+          "start": 88.72,
+          "end": 89.1,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 89.1,
+          "end": 89.5,
+          "matched": true
+        },
+        {
+          "text": "hot",
+          "start": 89.5,
+          "end": 90.0,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 90.0,
+          "end": 90.42,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 91.14,
+          "end": 91.62,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 91.62,
+          "end": 92.1,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 92.1,
+          "end": 92.32,
+          "matched": true
+        },
+        {
+          "text": "40",
+          "start": 92.32,
+          "end": 92.82,
+          "matched": true
+        },
+        {
+          "text": "degrees",
+          "start": 92.82,
+          "end": 93.42,
+          "matched": true
+        },
+        {
+          "text": "Celsius",
+          "start": 93.42,
+          "end": 93.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 95.32,
+      "end": 102.9,
+      "duration": 7.58,
+      "text": "This time he was slower, almost five hours – but I still think it’s fantastic.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 95.32,
+          "end": 95.66,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 95.66,
+          "end": 96.14,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 96.14,
+          "end": 96.5,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 96.5,
+          "end": 96.78,
+          "matched": true
+        },
+        {
+          "text": "slower",
+          "start": 96.78,
+          "end": 97.26,
+          "matched": true
+        },
+        {
+          "text": "almost",
+          "start": 97.92,
+          "end": 98.44,
+          "matched": true
+        },
+        {
+          "text": "five",
+          "start": 98.44,
+          "end": 99.0,
+          "matched": true
+        },
+        {
+          "text": "hours",
+          "start": 99.0,
+          "end": 99.5,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 99.5,
+          "end": 100.34,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 100.34,
+          "end": 101.02,
+          "matched": true
+        },
+        {
+          "text": "still",
+          "start": 101.26,
+          "end": 101.56,
+          "matched": true
+        },
+        {
+          "text": "think",
+          "start": 101.56,
+          "end": 101.98,
+          "matched": true
+        },
+        {
+          "text": "it’s",
+          "start": 101.98,
+          "end": 102.28,
+          "matched": true
+        },
+        {
+          "text": "fantastic",
+          "start": 102.28,
+          "end": 102.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 104.352,
+      "end": 108.43,
+      "duration": 4.078,
+      "text": "42 kilometres when it’s over 40 degrees!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "42",
+          "start": 104.37,
+          "end": 105.05,
+          "matched": true
+        },
+        {
+          "text": "kilometres",
+          "start": 105.05,
+          "end": 105.81,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 105.81,
+          "end": 106.63,
+          "matched": true
+        },
+        {
+          "text": "it’s",
+          "start": 106.63,
+          "end": 106.93,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 106.93,
+          "end": 107.27,
+          "matched": true
+        },
+        {
+          "text": "40",
+          "start": 107.27,
+          "end": 107.89,
+          "matched": true
+        },
+        {
+          "text": "degrees",
+          "start": 107.89,
+          "end": 108.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 109.47,
+      "end": 111.37,
+      "duration": 1.9,
+      "text": "I think he almost died!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 109.47,
+          "end": 109.79,
+          "matched": true
+        },
+        {
+          "text": "think",
+          "start": 109.79,
+          "end": 110.11,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 110.11,
+          "end": 110.45,
+          "matched": true
+        },
+        {
+          "text": "almost",
+          "start": 110.45,
+          "end": 110.79,
+          "matched": true
+        },
+        {
+          "text": "died",
+          "start": 110.79,
+          "end": 111.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 112.76,
+      "end": 126.46,
+      "duration": 13.7,
+      "text": "Before 1926, a lot of women tried to swim the cold water of the English Channel from England to France – but they all failed.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Before",
+          "start": 112.76,
+          "end": 113.62,
+          "matched": true
+        },
+        {
+          "text": "1926",
+          "start": 115.26,
+          "end": 116.82,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 116.82,
+          "end": 117.76,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 117.76,
+          "end": 117.96,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 117.96,
+          "end": 118.16,
+          "matched": true
+        },
+        {
+          "text": "women",
+          "start": 118.16,
+          "end": 118.46,
+          "matched": true
+        },
+        {
+          "text": "tried",
+          "start": 118.46,
+          "end": 119.08,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 119.08,
+          "end": 119.46,
+          "matched": true
+        },
+        {
+          "text": "swim",
+          "start": 119.46,
+          "end": 119.8,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 119.8,
+          "end": 120.04,
+          "matched": true
+        },
+        {
+          "text": "cold",
+          "start": 120.04,
+          "end": 120.38,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 120.38,
+          "end": 120.86,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 120.86,
+          "end": 121.42,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 121.42,
+          "end": 121.58,
+          "matched": true
+        },
+        {
+          "text": "English",
+          "start": 121.58,
+          "end": 121.92,
+          "matched": true
+        },
+        {
+          "text": "Channel",
+          "start": 121.92,
+          "end": 122.4,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 122.4,
+          "end": 123.0,
+          "matched": true
+        },
+        {
+          "text": "England",
+          "start": 123.0,
+          "end": 123.42,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 123.42,
+          "end": 123.86,
+          "matched": true
+        },
+        {
+          "text": "France",
+          "start": 123.86,
+          "end": 124.32,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 124.32,
+          "end": 125.24,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 125.24,
+          "end": 125.42,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 125.42,
+          "end": 125.86,
+          "matched": true
+        },
+        {
+          "text": "failed",
+          "start": 125.86,
+          "end": 126.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 127.7,
+      "end": 140.94,
+      "duration": 13.24,
+      "text": "But in 1926, Gertrude Ederle (an Olympic gold medal swimmer) arrived on an English beach after 14 hours and 31 minutes.",
+      "confidence": 0.952,
+      "words": [
+        {
+          "text": "But",
+          "start": 127.7,
+          "end": 128.04,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 128.04,
+          "end": 128.44,
+          "matched": true
+        },
+        {
+          "text": "1926",
+          "start": 128.44,
+          "end": 129.94,
+          "matched": true
+        },
+        {
+          "text": "Gertrude",
+          "start": 129.94,
+          "end": 131.52,
+          "matched": true
+        },
+        {
+          "text": "Ederle",
+          "start": 131.52,
+          "end": 132.0,
+          "matched": false
+        },
+        {
+          "text": "an",
+          "start": 132.5,
+          "end": 132.78,
+          "matched": true
+        },
+        {
+          "text": "Olympic",
+          "start": 132.78,
+          "end": 133.2,
+          "matched": true
+        },
+        {
+          "text": "gold",
+          "start": 133.2,
+          "end": 133.64,
+          "matched": true
+        },
+        {
+          "text": "medal",
+          "start": 133.64,
+          "end": 134.0,
+          "matched": true
+        },
+        {
+          "text": "swimmer",
+          "start": 134.0,
+          "end": 134.7,
+          "matched": true
+        },
+        {
+          "text": "arrived",
+          "start": 135.06,
+          "end": 135.58,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 135.58,
+          "end": 136.04,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 136.04,
+          "end": 136.18,
+          "matched": true
+        },
+        {
+          "text": "English",
+          "start": 136.18,
+          "end": 136.58,
+          "matched": true
+        },
+        {
+          "text": "beach",
+          "start": 136.58,
+          "end": 137.02,
+          "matched": true
+        },
+        {
+          "text": "after",
+          "start": 137.02,
+          "end": 137.84,
+          "matched": true
+        },
+        {
+          "text": "14",
+          "start": 137.84,
+          "end": 138.46,
+          "matched": true
+        },
+        {
+          "text": "hours",
+          "start": 138.46,
+          "end": 138.92,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 138.92,
+          "end": 139.46,
+          "matched": true
+        },
+        {
+          "text": "31",
+          "start": 139.46,
+          "end": 140.12,
+          "matched": true
+        },
+        {
+          "text": "minutes",
+          "start": 140.12,
+          "end": 140.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 141.82,
+      "end": 145.7,
+      "duration": 3.88,
+      "text": "She returned to her home in New York a hero!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 141.82,
+          "end": 142.26,
+          "matched": true
+        },
+        {
+          "text": "returned",
+          "start": 142.26,
+          "end": 142.7,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 142.7,
+          "end": 143.02,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 143.02,
+          "end": 143.26,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 143.26,
+          "end": 143.64,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 143.64,
+          "end": 143.92,
+          "matched": true
+        },
+        {
+          "text": "New",
+          "start": 143.92,
+          "end": 144.2,
+          "matched": true
+        },
+        {
+          "text": "York",
+          "start": 144.2,
+          "end": 144.58,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 145.1,
+          "end": 145.22,
+          "matched": true
+        },
+        {
+          "text": "hero",
+          "start": 145.22,
+          "end": 145.7,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 146.96,
+      "end": 147.8,
+      "duration": 0.84,
+      "text": "How about that!?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "How",
+          "start": 146.96,
+          "end": 147.14,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 147.14,
+          "end": 147.38,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 147.38,
+          "end": 147.8,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

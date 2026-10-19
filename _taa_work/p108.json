@@ -1,0 +1,1255 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p108.mp3",
+  "language": "en",
+  "duration": 94.198,
+  "report": {
+    "script_tokens": 155,
+    "matched_tokens": 155,
+    "asr_words": 163,
+    "coverage": 1.0,
+    "unmatched": []
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 7.45,
+      "end": 10.05,
+      "duration": 2.6,
+      "text": "Hey Nathan, how are you?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hey",
+          "start": 7.45,
+          "end": 8.15,
+          "matched": true
+        },
+        {
+          "text": "Nathan",
+          "start": 8.15,
+          "end": 8.57,
+          "matched": true
+        },
+        {
+          "text": "how",
+          "start": 9.27,
+          "end": 9.61,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 9.61,
+          "end": 9.77,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 9.77,
+          "end": 10.05,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 10.69,
+      "end": 12.09,
+      "duration": 1.4,
+      "text": "Did you have a good weekend?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Did",
+          "start": 10.69,
+          "end": 10.95,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 10.95,
+          "end": 11.19,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 11.19,
+          "end": 11.39,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 11.39,
+          "end": 11.57,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 11.57,
+          "end": 11.75,
+          "matched": true
+        },
+        {
+          "text": "weekend",
+          "start": 11.75,
+          "end": 12.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 12.89,
+      "end": 14.56,
+      "duration": 1.67,
+      "text": "Well, sort of.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 12.89,
+          "end": 13.43,
+          "matched": true
+        },
+        {
+          "text": "sort",
+          "start": 13.71,
+          "end": 14.05,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 14.05,
+          "end": 14.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 15.03,
+      "end": 16.69,
+      "duration": 1.66,
+      "text": "I mean, it was okay.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 15.03,
+          "end": 15.23,
+          "matched": true
+        },
+        {
+          "text": "mean",
+          "start": 15.23,
+          "end": 15.45,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 15.95,
+          "end": 16.07,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 16.07,
+          "end": 16.25,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 16.25,
+          "end": 16.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 17.45,
+      "end": 19.15,
+      "duration": 1.7,
+      "text": "You don't sound very sure.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 17.45,
+          "end": 17.75,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 17.75,
+          "end": 18.13,
+          "matched": true
+        },
+        {
+          "text": "sound",
+          "start": 18.13,
+          "end": 18.43,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 18.43,
+          "end": 18.69,
+          "matched": true
+        },
+        {
+          "text": "sure",
+          "start": 18.69,
+          "end": 19.15,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 19.85,
+      "end": 20.61,
+      "duration": 0.76,
+      "text": "What happened?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 19.85,
+          "end": 20.33,
+          "matched": true
+        },
+        {
+          "text": "happened",
+          "start": 20.33,
+          "end": 20.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 21.37,
+      "end": 23.68,
+      "duration": 2.31,
+      "text": "Yeah, come on, tell us.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yeah",
+          "start": 21.37,
+          "end": 21.77,
+          "matched": true
+        },
+        {
+          "text": "come",
+          "start": 22.07,
+          "end": 22.39,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 22.39,
+          "end": 22.69,
+          "matched": true
+        },
+        {
+          "text": "tell",
+          "start": 22.97,
+          "end": 23.17,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 23.17,
+          "end": 23.57,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 23.99,
+      "end": 33.36,
+      "duration": 9.37,
+      "text": "Alright, well on Sundays we usually go for a walk, my family and I, but yesterday I went alone.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Alright",
+          "start": 23.99,
+          "end": 24.43,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 25.44,
+          "end": 25.78,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 26.08,
+          "end": 26.26,
+          "matched": true
+        },
+        {
+          "text": "Sundays",
+          "start": 26.26,
+          "end": 26.8,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 26.8,
+          "end": 27.38,
+          "matched": true
+        },
+        {
+          "text": "usually",
+          "start": 27.38,
+          "end": 27.94,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 27.94,
+          "end": 28.3,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 28.3,
+          "end": 28.6,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 28.6,
+          "end": 28.82,
+          "matched": true
+        },
+        {
+          "text": "walk",
+          "start": 28.82,
+          "end": 29.14,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 29.56,
+          "end": 29.74,
+          "matched": true
+        },
+        {
+          "text": "family",
+          "start": 29.74,
+          "end": 30.16,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 30.16,
+          "end": 30.48,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 30.48,
+          "end": 30.76,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 31.2,
+          "end": 31.6,
+          "matched": true
+        },
+        {
+          "text": "yesterday",
+          "start": 31.6,
+          "end": 32.14,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 32.14,
+          "end": 32.7,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 32.7,
+          "end": 32.9,
+          "matched": true
+        },
+        {
+          "text": "alone",
+          "start": 32.9,
+          "end": 33.36,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 34.016,
+      "end": 34.96,
+      "duration": 0.944,
+      "text": "Where did you go?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Where",
+          "start": 34.02,
+          "end": 34.32,
+          "matched": true
+        },
+        {
+          "text": "did",
+          "start": 34.32,
+          "end": 34.52,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 34.52,
+          "end": 34.66,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 34.66,
+          "end": 34.96,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 35.67,
+      "end": 39.2,
+      "duration": 3.53,
+      "text": "I went to the forest, you know, outside town.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 35.67,
+          "end": 35.91,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 35.91,
+          "end": 36.11,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 36.11,
+          "end": 36.35,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 36.35,
+          "end": 36.49,
+          "matched": true
+        },
+        {
+          "text": "forest",
+          "start": 36.49,
+          "end": 36.93,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 37.45,
+          "end": 37.63,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 37.63,
+          "end": 37.81,
+          "matched": true
+        },
+        {
+          "text": "outside",
+          "start": 38.19,
+          "end": 38.51,
+          "matched": true
+        },
+        {
+          "text": "town",
+          "start": 38.51,
+          "end": 39.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 39.75,
+      "end": 41.312,
+      "duration": 1.562,
+      "text": "It's really nice there.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 39.75,
+          "end": 40.05,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 40.05,
+          "end": 40.43,
+          "matched": true
+        },
+        {
+          "text": "nice",
+          "start": 40.43,
+          "end": 40.87,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 40.87,
+          "end": 41.27,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 41.85,
+      "end": 45.13,
+      "duration": 3.28,
+      "text": "And I started walking when suddenly...",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 41.85,
+          "end": 42.29,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 42.29,
+          "end": 42.49,
+          "matched": true
+        },
+        {
+          "text": "started",
+          "start": 42.49,
+          "end": 42.95,
+          "matched": true
+        },
+        {
+          "text": "walking",
+          "start": 42.95,
+          "end": 43.53,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 43.53,
+          "end": 44.31,
+          "matched": true
+        },
+        {
+          "text": "suddenly",
+          "start": 44.31,
+          "end": 45.13,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 46.42,
+      "end": 48.46,
+      "duration": 2.04,
+      "text": "Yes, suddenly what?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 46.42,
+          "end": 46.9,
+          "matched": true
+        },
+        {
+          "text": "suddenly",
+          "start": 47.46,
+          "end": 48.06,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 48.06,
+          "end": 48.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 49.26,
+      "end": 52.34,
+      "duration": 3.08,
+      "text": "Well, in front of me there was a snake.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 49.26,
+          "end": 49.62,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 50.0,
+          "end": 50.22,
+          "matched": true
+        },
+        {
+          "text": "front",
+          "start": 50.22,
+          "end": 50.5,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 50.5,
+          "end": 50.78,
+          "matched": true
+        },
+        {
+          "text": "me",
+          "start": 50.78,
+          "end": 51.06,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 51.06,
+          "end": 51.54,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 51.54,
+          "end": 51.74,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 51.74,
+          "end": 51.9,
+          "matched": true
+        },
+        {
+          "text": "snake",
+          "start": 51.9,
+          "end": 52.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 53.04,
+      "end": 54.9,
+      "duration": 1.86,
+      "text": "Are there snakes in the forest?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Are",
+          "start": 53.04,
+          "end": 53.3,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 53.3,
+          "end": 53.42,
+          "matched": true
+        },
+        {
+          "text": "snakes",
+          "start": 53.42,
+          "end": 53.9,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 53.9,
+          "end": 54.32,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 54.32,
+          "end": 54.44,
+          "matched": true
+        },
+        {
+          "text": "forest",
+          "start": 54.44,
+          "end": 54.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 55.81,
+      "end": 56.59,
+      "duration": 0.78,
+      "text": "Are you sure?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Are",
+          "start": 55.81,
+          "end": 55.97,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 55.97,
+          "end": 56.13,
+          "matched": true
+        },
+        {
+          "text": "sure",
+          "start": 56.13,
+          "end": 56.59,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 57.29,
+      "end": 58.57,
+      "duration": 1.28,
+      "text": "Yes, I'm sure.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 57.29,
+          "end": 57.69,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 57.99,
+          "end": 58.15,
+          "matched": true
+        },
+        {
+          "text": "sure",
+          "start": 58.15,
+          "end": 58.57,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 59.23,
+      "end": 60.48,
+      "duration": 1.25,
+      "text": "It was on the path.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 59.23,
+          "end": 59.45,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 59.45,
+          "end": 59.61,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 59.61,
+          "end": 59.81,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 59.81,
+          "end": 59.95,
+          "matched": true
+        },
+        {
+          "text": "path",
+          "start": 59.95,
+          "end": 60.39,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 61.18,
+      "end": 61.82,
+      "duration": 0.64,
+      "text": "I stopped.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 61.18,
+          "end": 61.44,
+          "matched": true
+        },
+        {
+          "text": "stopped",
+          "start": 61.44,
+          "end": 61.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 62.65,
+      "end": 64.16,
+      "duration": 1.51,
+      "text": "I didn't do anything.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 62.65,
+          "end": 62.87,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 62.87,
+          "end": 63.25,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 63.25,
+          "end": 63.47,
+          "matched": true
+        },
+        {
+          "text": "anything",
+          "start": 63.47,
+          "end": 64.01,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 64.78,
+      "end": 66.48,
+      "duration": 1.7,
+      "text": "Then it just went away.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Then",
+          "start": 64.78,
+          "end": 65.16,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 65.16,
+          "end": 65.48,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 65.48,
+          "end": 65.78,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 65.78,
+          "end": 66.04,
+          "matched": true
+        },
+        {
+          "text": "away",
+          "start": 66.04,
+          "end": 66.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 67.41,
+      "end": 68.23,
+      "duration": 0.82,
+      "text": "I was afraid.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 67.41,
+          "end": 67.63,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 67.63,
+          "end": 67.79,
+          "matched": true
+        },
+        {
+          "text": "afraid",
+          "start": 67.79,
+          "end": 68.23,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 69.12,
+      "end": 69.97,
+      "duration": 0.85,
+      "text": "Poor you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Poor",
+          "start": 69.15,
+          "end": 69.51,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 69.51,
+          "end": 69.97,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 70.71,
+      "end": 72.51,
+      "duration": 1.8,
+      "text": "I hate snakes too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 70.71,
+          "end": 71.07,
+          "matched": true
+        },
+        {
+          "text": "hate",
+          "start": 71.07,
+          "end": 71.49,
+          "matched": true
+        },
+        {
+          "text": "snakes",
+          "start": 71.49,
+          "end": 71.85,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 71.85,
+          "end": 72.51,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 73.07,
+      "end": 74.29,
+      "duration": 1.22,
+      "text": "Why were you afraid?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 73.07,
+          "end": 73.47,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 73.47,
+          "end": 73.65,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 73.65,
+          "end": 73.79,
+          "matched": true
+        },
+        {
+          "text": "afraid",
+          "start": 73.79,
+          "end": 74.29,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 75.05,
+      "end": 76.29,
+      "duration": 1.24,
+      "text": "It's just a snake.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 75.05,
+          "end": 75.33,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 75.33,
+          "end": 75.59,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 75.59,
+          "end": 75.89,
+          "matched": true
+        },
+        {
+          "text": "snake",
+          "start": 75.89,
+          "end": 76.29,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 77.05,
+      "end": 78.72,
+      "duration": 1.67,
+      "text": "A snake can't kill you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 77.05,
+          "end": 77.21,
+          "matched": true
+        },
+        {
+          "text": "snake",
+          "start": 77.21,
+          "end": 77.53,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 77.53,
+          "end": 78.03,
+          "matched": true
+        },
+        {
+          "text": "kill",
+          "start": 78.03,
+          "end": 78.29,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 78.29,
+          "end": 78.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 79.11,
+      "end": 80.37,
+      "duration": 1.26,
+      "text": "Some snakes can.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Some",
+          "start": 79.11,
+          "end": 79.51,
+          "matched": true
+        },
+        {
+          "text": "snakes",
+          "start": 79.51,
+          "end": 79.95,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 79.95,
+          "end": 80.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 81.35,
+      "end": 84.55,
+      "duration": 3.2,
+      "text": "Anyway, it's okay to be afraid sometimes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Anyway",
+          "start": 81.35,
+          "end": 81.73,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 82.27,
+          "end": 82.55,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 82.55,
+          "end": 83.01,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 83.01,
+          "end": 83.31,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 83.31,
+          "end": 83.49,
+          "matched": true
+        },
+        {
+          "text": "afraid",
+          "start": 83.49,
+          "end": 83.95,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 83.95,
+          "end": 84.55,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 85.35,
+      "end": 86.11,
+      "duration": 0.76,
+      "text": "Thanks Lena.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thanks",
+          "start": 85.35,
+          "end": 85.77,
+          "matched": true
+        },
+        {
+          "text": "Lena",
+          "start": 85.91,
+          "end": 86.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 87.04,
+      "end": 90.82,
+      "duration": 3.78,
+      "text": "Anyway, that's why my weekend was just okay.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Anyway",
+          "start": 87.04,
+          "end": 87.42,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 87.94,
+          "end": 88.44,
+          "matched": true
+        },
+        {
+          "text": "why",
+          "start": 88.44,
+          "end": 88.7,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 88.7,
+          "end": 88.96,
+          "matched": true
+        },
+        {
+          "text": "weekend",
+          "start": 88.96,
+          "end": 89.44,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 89.44,
+          "end": 89.94,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 89.94,
+          "end": 90.24,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 90.24,
+          "end": 90.82,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

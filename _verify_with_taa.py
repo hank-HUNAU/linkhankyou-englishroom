@@ -41,6 +41,8 @@ for folder, unit in FOLDERS.items():
     d1 = os.path.join(ARCH, folder, '01_正文篇章')
     for jf in sorted(glob.glob(os.path.join(d1, '句级数据_p*.json'))):
         pg = re.search(r'句级数据_(p\d+)\.json', jf).group(1)
+        if os.path.exists(os.path.join(WORK, pg + '.json')):
+            print(pg + ' · 已有缓存，跳过'); continue
         j = json.load(open(jf, encoding='utf-8'))
         sents = j['sentences']
         # 1) 逐句 txt

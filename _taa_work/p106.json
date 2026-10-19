@@ -1,0 +1,1671 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p106.mp3",
+  "language": "en",
+  "duration": 139.86,
+  "report": {
+    "script_tokens": 234,
+    "matched_tokens": 223,
+    "asr_words": 240,
+    "coverage": 0.953,
+    "unmatched": [
+      "Auk",
+      "Auk",
+      "Auk",
+      "Sea",
+      "Cow",
+      "Steller's",
+      "Sea",
+      "Cow",
+      "nine",
+      "sea",
+      "cow"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.47,
+      "end": 9.87,
+      "duration": 0.4,
+      "text": "1.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "1",
+          "start": 9.47,
+          "end": 9.87,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 10.816,
+      "end": 18.55,
+      "duration": 7.734,
+      "text": "The Great Auk\nThe Great Auk was a large seabird that lived in the North Atlantic.",
+      "confidence": 0.875,
+      "words": [
+        {
+          "text": "The",
+          "start": 10.87,
+          "end": 10.97,
+          "matched": true
+        },
+        {
+          "text": "Great",
+          "start": 10.97,
+          "end": 11.35,
+          "matched": true
+        },
+        {
+          "text": "Auk",
+          "start": 11.35,
+          "end": 11.99,
+          "matched": false
+        },
+        {
+          "text": "The",
+          "start": 13.03,
+          "end": 13.59,
+          "matched": true
+        },
+        {
+          "text": "Great",
+          "start": 13.59,
+          "end": 13.91,
+          "matched": true
+        },
+        {
+          "text": "Auk",
+          "start": 13.91,
+          "end": 14.57,
+          "matched": false
+        },
+        {
+          "text": "was",
+          "start": 14.57,
+          "end": 15.07,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 15.07,
+          "end": 15.37,
+          "matched": true
+        },
+        {
+          "text": "large",
+          "start": 15.37,
+          "end": 15.73,
+          "matched": true
+        },
+        {
+          "text": "seabird",
+          "start": 15.73,
+          "end": 16.37,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 16.37,
+          "end": 17.09,
+          "matched": true
+        },
+        {
+          "text": "lived",
+          "start": 17.09,
+          "end": 17.35,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 17.35,
+          "end": 17.63,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 17.63,
+          "end": 17.73,
+          "matched": true
+        },
+        {
+          "text": "North",
+          "start": 17.73,
+          "end": 17.99,
+          "matched": true
+        },
+        {
+          "text": "Atlantic",
+          "start": 17.99,
+          "end": 18.55,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 19.96,
+      "end": 22.4,
+      "duration": 2.44,
+      "text": "It was a bird but it couldn't fly.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 19.96,
+          "end": 20.12,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 20.12,
+          "end": 20.28,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 20.28,
+          "end": 20.48,
+          "matched": true
+        },
+        {
+          "text": "bird",
+          "start": 20.48,
+          "end": 20.78,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 21.2,
+          "end": 21.42,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 21.42,
+          "end": 21.58,
+          "matched": true
+        },
+        {
+          "text": "couldn't",
+          "start": 21.58,
+          "end": 22.0,
+          "matched": true
+        },
+        {
+          "text": "fly",
+          "start": 22.0,
+          "end": 22.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 23.68,
+      "end": 26.4,
+      "duration": 2.72,
+      "text": "It could swim underwater really well.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 23.68,
+          "end": 23.86,
+          "matched": true
+        },
+        {
+          "text": "could",
+          "start": 23.86,
+          "end": 24.06,
+          "matched": true
+        },
+        {
+          "text": "swim",
+          "start": 24.06,
+          "end": 24.44,
+          "matched": true
+        },
+        {
+          "text": "underwater",
+          "start": 24.44,
+          "end": 25.28,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 25.28,
+          "end": 25.98,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 25.98,
+          "end": 26.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 27.54,
+      "end": 31.28,
+      "duration": 3.74,
+      "text": "It caught and ate fish when it dived under the water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 27.54,
+          "end": 27.8,
+          "matched": true
+        },
+        {
+          "text": "caught",
+          "start": 27.8,
+          "end": 28.22,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 28.22,
+          "end": 28.62,
+          "matched": true
+        },
+        {
+          "text": "ate",
+          "start": 28.62,
+          "end": 28.9,
+          "matched": true
+        },
+        {
+          "text": "fish",
+          "start": 28.9,
+          "end": 29.38,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 29.38,
+          "end": 29.76,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 29.76,
+          "end": 29.92,
+          "matched": true
+        },
+        {
+          "text": "dived",
+          "start": 29.92,
+          "end": 30.4,
+          "matched": true
+        },
+        {
+          "text": "under",
+          "start": 30.4,
+          "end": 30.74,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 30.74,
+          "end": 30.94,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 30.94,
+          "end": 31.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 31.28,
+      "end": 38.32,
+      "duration": 7.04,
+      "text": "Its feathers were very soft and people used them to make pillows for their beds.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Its",
+          "start": 31.28,
+          "end": 32.06,
+          "matched": true
+        },
+        {
+          "text": "feathers",
+          "start": 32.84,
+          "end": 33.28,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 33.28,
+          "end": 33.64,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 33.64,
+          "end": 34.18,
+          "matched": true
+        },
+        {
+          "text": "soft",
+          "start": 34.18,
+          "end": 34.68,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 35.22,
+          "end": 35.48,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 35.48,
+          "end": 35.9,
+          "matched": true
+        },
+        {
+          "text": "used",
+          "start": 35.9,
+          "end": 36.36,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 36.36,
+          "end": 36.6,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 36.6,
+          "end": 36.8,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 36.8,
+          "end": 37.04,
+          "matched": true
+        },
+        {
+          "text": "pillows",
+          "start": 37.04,
+          "end": 37.42,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 37.42,
+          "end": 37.82,
+          "matched": true
+        },
+        {
+          "text": "their",
+          "start": 37.82,
+          "end": 37.98,
+          "matched": true
+        },
+        {
+          "text": "beds",
+          "start": 37.98,
+          "end": 38.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 39.47,
+      "end": 42.21,
+      "duration": 2.74,
+      "text": "Because of this people killed the birds.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Because",
+          "start": 39.47,
+          "end": 39.77,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 39.77,
+          "end": 40.01,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 40.01,
+          "end": 40.31,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 40.75,
+          "end": 41.11,
+          "matched": true
+        },
+        {
+          "text": "killed",
+          "start": 41.11,
+          "end": 41.59,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 41.59,
+          "end": 41.83,
+          "matched": true
+        },
+        {
+          "text": "birds",
+          "start": 41.83,
+          "end": 42.21,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 43.45,
+      "end": 48.61,
+      "duration": 5.16,
+      "text": "The last Great Auk died on the island of Eldey in 1835.",
+      "confidence": 0.917,
+      "words": [
+        {
+          "text": "The",
+          "start": 43.45,
+          "end": 43.59,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 43.59,
+          "end": 44.11,
+          "matched": true
+        },
+        {
+          "text": "Great",
+          "start": 44.11,
+          "end": 44.41,
+          "matched": true
+        },
+        {
+          "text": "Auk",
+          "start": 44.41,
+          "end": 44.95,
+          "matched": false
+        },
+        {
+          "text": "died",
+          "start": 44.95,
+          "end": 45.45,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 45.45,
+          "end": 45.79,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 45.79,
+          "end": 45.93,
+          "matched": true
+        },
+        {
+          "text": "island",
+          "start": 45.93,
+          "end": 46.25,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 46.25,
+          "end": 46.53,
+          "matched": true
+        },
+        {
+          "text": "Eldey",
+          "start": 46.53,
+          "end": 47.01,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 47.01,
+          "end": 47.47,
+          "matched": true
+        },
+        {
+          "text": "1835",
+          "start": 47.47,
+          "end": 48.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 51.008,
+      "end": 51.25,
+      "duration": 0.242,
+      "text": "2.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "2",
+          "start": 51.07,
+          "end": 51.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 52.32,
+      "end": 61.47,
+      "duration": 9.15,
+      "text": "The Tasmanian Tiger\nThe Tasmanian Tiger was only found in Australia, Tasmania and New Guinea.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 52.45,
+          "end": 52.47,
+          "matched": true
+        },
+        {
+          "text": "Tasmanian",
+          "start": 52.47,
+          "end": 53.27,
+          "matched": true
+        },
+        {
+          "text": "Tiger",
+          "start": 53.27,
+          "end": 53.67,
+          "matched": true
+        },
+        {
+          "text": "The",
+          "start": 55.08,
+          "end": 55.47,
+          "matched": true
+        },
+        {
+          "text": "Tasmanian",
+          "start": 55.47,
+          "end": 56.27,
+          "matched": true
+        },
+        {
+          "text": "Tiger",
+          "start": 56.27,
+          "end": 56.69,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 56.69,
+          "end": 57.29,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 57.29,
+          "end": 57.81,
+          "matched": true
+        },
+        {
+          "text": "found",
+          "start": 57.81,
+          "end": 58.11,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 58.11,
+          "end": 58.35,
+          "matched": true
+        },
+        {
+          "text": "Australia",
+          "start": 58.35,
+          "end": 58.83,
+          "matched": true
+        },
+        {
+          "text": "Tasmania",
+          "start": 59.49,
+          "end": 60.11,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 60.11,
+          "end": 60.87,
+          "matched": true
+        },
+        {
+          "text": "New",
+          "start": 60.87,
+          "end": 61.15,
+          "matched": true
+        },
+        {
+          "text": "Guinea",
+          "start": 61.15,
+          "end": 61.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 62.5,
+      "end": 69.568,
+      "duration": 7.068,
+      "text": "It got its name because it had stripes like a tiger but it was not a member of the cat family.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 62.5,
+          "end": 62.72,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 62.72,
+          "end": 62.94,
+          "matched": true
+        },
+        {
+          "text": "its",
+          "start": 62.94,
+          "end": 63.22,
+          "matched": true
+        },
+        {
+          "text": "name",
+          "start": 63.22,
+          "end": 63.68,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 63.68,
+          "end": 64.32,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 64.32,
+          "end": 64.54,
+          "matched": true
+        },
+        {
+          "text": "had",
+          "start": 64.54,
+          "end": 64.74,
+          "matched": true
+        },
+        {
+          "text": "stripes",
+          "start": 64.74,
+          "end": 65.24,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 65.24,
+          "end": 65.6,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 65.6,
+          "end": 65.74,
+          "matched": true
+        },
+        {
+          "text": "tiger",
+          "start": 65.74,
+          "end": 66.06,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 66.75,
+          "end": 67.14,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 67.14,
+          "end": 67.32,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 67.32,
+          "end": 67.54,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 67.54,
+          "end": 67.84,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 67.84,
+          "end": 68.1,
+          "matched": true
+        },
+        {
+          "text": "member",
+          "start": 68.1,
+          "end": 68.34,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 68.34,
+          "end": 68.62,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 68.62,
+          "end": 68.74,
+          "matched": true
+        },
+        {
+          "text": "cat",
+          "start": 68.74,
+          "end": 69.02,
+          "matched": true
+        },
+        {
+          "text": "family",
+          "start": 69.02,
+          "end": 69.44,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 70.784,
+      "end": 77.312,
+      "duration": 6.528,
+      "text": "Farmers believed Tasmanian Tigers killed their sheep so they paid people to kill them.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Farmers",
+          "start": 70.8,
+          "end": 71.24,
+          "matched": true
+        },
+        {
+          "text": "believed",
+          "start": 71.24,
+          "end": 71.58,
+          "matched": true
+        },
+        {
+          "text": "Tasmanian",
+          "start": 71.58,
+          "end": 72.62,
+          "matched": true
+        },
+        {
+          "text": "Tigers",
+          "start": 72.62,
+          "end": 73.0,
+          "matched": true
+        },
+        {
+          "text": "killed",
+          "start": 73.0,
+          "end": 73.76,
+          "matched": true
+        },
+        {
+          "text": "their",
+          "start": 73.76,
+          "end": 74.04,
+          "matched": true
+        },
+        {
+          "text": "sheep",
+          "start": 74.04,
+          "end": 74.44,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 75.12,
+          "end": 75.44,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 75.44,
+          "end": 75.62,
+          "matched": true
+        },
+        {
+          "text": "paid",
+          "start": 75.62,
+          "end": 76.08,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 76.08,
+          "end": 76.52,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 76.52,
+          "end": 76.72,
+          "matched": true
+        },
+        {
+          "text": "kill",
+          "start": 76.72,
+          "end": 77.0,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 77.0,
+          "end": 77.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 78.4,
+      "end": 84.76,
+      "duration": 6.36,
+      "text": "Many of the tigers died after getting ill from diseases they caught from other animals.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Many",
+          "start": 78.46,
+          "end": 78.78,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 78.78,
+          "end": 79.1,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 79.1,
+          "end": 79.24,
+          "matched": true
+        },
+        {
+          "text": "tigers",
+          "start": 79.24,
+          "end": 79.68,
+          "matched": true
+        },
+        {
+          "text": "died",
+          "start": 79.68,
+          "end": 80.2,
+          "matched": true
+        },
+        {
+          "text": "after",
+          "start": 80.2,
+          "end": 81.14,
+          "matched": true
+        },
+        {
+          "text": "getting",
+          "start": 81.14,
+          "end": 81.48,
+          "matched": true
+        },
+        {
+          "text": "ill",
+          "start": 81.48,
+          "end": 81.9,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 81.9,
+          "end": 82.16,
+          "matched": true
+        },
+        {
+          "text": "diseases",
+          "start": 82.16,
+          "end": 82.74,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 82.74,
+          "end": 83.16,
+          "matched": true
+        },
+        {
+          "text": "caught",
+          "start": 83.16,
+          "end": 83.48,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 83.48,
+          "end": 83.86,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 83.86,
+          "end": 84.22,
+          "matched": true
+        },
+        {
+          "text": "animals",
+          "start": 84.22,
+          "end": 84.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 86.048,
+      "end": 91.7,
+      "duration": 5.652,
+      "text": "The last Tasmanian Tiger died in Hobart Zoo in 1936.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 86.1,
+          "end": 86.2,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 86.2,
+          "end": 86.6,
+          "matched": true
+        },
+        {
+          "text": "Tasmanian",
+          "start": 86.6,
+          "end": 87.56,
+          "matched": true
+        },
+        {
+          "text": "Tiger",
+          "start": 87.56,
+          "end": 88.04,
+          "matched": true
+        },
+        {
+          "text": "died",
+          "start": 88.04,
+          "end": 88.88,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 88.88,
+          "end": 89.16,
+          "matched": true
+        },
+        {
+          "text": "Hobart",
+          "start": 89.16,
+          "end": 89.7,
+          "matched": true
+        },
+        {
+          "text": "Zoo",
+          "start": 89.7,
+          "end": 90.12,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 90.12,
+          "end": 90.58,
+          "matched": true
+        },
+        {
+          "text": "1936",
+          "start": 90.58,
+          "end": 91.7,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 94.048,
+      "end": 94.33,
+      "duration": 0.282,
+      "text": "3.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "3",
+          "start": 94.11,
+          "end": 94.33,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 98.26,
+      "end": 105.88,
+      "duration": 7.62,
+      "text": "Steller's Sea Cow\nSteller's Sea Cow was a large animal that lived in the cold Arctic waters around Alaska.",
+      "confidence": 0.737,
+      "words": [
+        {
+          "text": "Steller's",
+          "start": 98.26,
+          "end": 99.28,
+          "matched": true
+        },
+        {
+          "text": "Sea",
+          "start": 99.28,
+          "end": 99.36,
+          "matched": false
+        },
+        {
+          "text": "Cow",
+          "start": 99.36,
+          "end": 99.44,
+          "matched": false
+        },
+        {
+          "text": "Steller's",
+          "start": 99.44,
+          "end": 99.68,
+          "matched": false
+        },
+        {
+          "text": "Sea",
+          "start": 99.68,
+          "end": 99.76,
+          "matched": false
+        },
+        {
+          "text": "Cow",
+          "start": 99.76,
+          "end": 99.84,
+          "matched": false
+        },
+        {
+          "text": "was",
+          "start": 99.84,
+          "end": 100.5,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 100.5,
+          "end": 100.68,
+          "matched": true
+        },
+        {
+          "text": "large",
+          "start": 100.68,
+          "end": 101.14,
+          "matched": true
+        },
+        {
+          "text": "animal",
+          "start": 101.14,
+          "end": 101.68,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 101.68,
+          "end": 102.22,
+          "matched": true
+        },
+        {
+          "text": "lived",
+          "start": 102.22,
+          "end": 102.6,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 102.6,
+          "end": 102.92,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 102.92,
+          "end": 103.06,
+          "matched": true
+        },
+        {
+          "text": "cold",
+          "start": 103.06,
+          "end": 103.5,
+          "matched": true
+        },
+        {
+          "text": "Arctic",
+          "start": 103.5,
+          "end": 104.2,
+          "matched": true
+        },
+        {
+          "text": "waters",
+          "start": 104.2,
+          "end": 104.64,
+          "matched": true
+        },
+        {
+          "text": "around",
+          "start": 104.64,
+          "end": 105.36,
+          "matched": true
+        },
+        {
+          "text": "Alaska",
+          "start": 105.36,
+          "end": 105.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 107.2,
+      "end": 109.92,
+      "duration": 2.72,
+      "text": "It grew up to nine metres long.",
+      "confidence": 0.857,
+      "words": [
+        {
+          "text": "It",
+          "start": 107.25,
+          "end": 107.41,
+          "matched": true
+        },
+        {
+          "text": "grew",
+          "start": 107.41,
+          "end": 107.83,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 107.83,
+          "end": 108.29,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 108.29,
+          "end": 108.47,
+          "matched": true
+        },
+        {
+          "text": "nine",
+          "start": 108.47,
+          "end": 108.93,
+          "matched": false
+        },
+        {
+          "text": "metres",
+          "start": 108.93,
+          "end": 109.35,
+          "matched": true
+        },
+        {
+          "text": "long",
+          "start": 109.35,
+          "end": 109.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 110.86,
+      "end": 114.8,
+      "duration": 3.94,
+      "text": "Because it was so big it couldn't go under the water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Because",
+          "start": 110.86,
+          "end": 111.3,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 111.3,
+          "end": 111.52,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 111.52,
+          "end": 111.66,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 111.66,
+          "end": 111.92,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 111.92,
+          "end": 112.28,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 113.04,
+          "end": 113.22,
+          "matched": true
+        },
+        {
+          "text": "couldn't",
+          "start": 113.22,
+          "end": 113.72,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 113.72,
+          "end": 113.94,
+          "matched": true
+        },
+        {
+          "text": "under",
+          "start": 113.94,
+          "end": 114.28,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 114.28,
+          "end": 114.44,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 114.44,
+          "end": 114.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 115.74,
+      "end": 118.368,
+      "duration": 2.628,
+      "text": "It ate the plants on top of the sea.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 115.74,
+          "end": 116.02,
+          "matched": true
+        },
+        {
+          "text": "ate",
+          "start": 116.02,
+          "end": 116.36,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 116.36,
+          "end": 116.68,
+          "matched": true
+        },
+        {
+          "text": "plants",
+          "start": 116.68,
+          "end": 117.08,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 117.08,
+          "end": 117.32,
+          "matched": true
+        },
+        {
+          "text": "top",
+          "start": 117.32,
+          "end": 117.62,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 117.62,
+          "end": 117.84,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 117.84,
+          "end": 117.98,
+          "matched": true
+        },
+        {
+          "text": "sea",
+          "start": 117.98,
+          "end": 118.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 119.14,
+      "end": 121.408,
+      "duration": 2.268,
+      "text": "It wasn't a very dangerous animal.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 119.14,
+          "end": 119.34,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 119.34,
+          "end": 119.82,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 119.82,
+          "end": 119.94,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 119.94,
+          "end": 120.16,
+          "matched": true
+        },
+        {
+          "text": "dangerous",
+          "start": 120.16,
+          "end": 120.68,
+          "matched": true
+        },
+        {
+          "text": "animal",
+          "start": 120.68,
+          "end": 121.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 121.75,
+      "end": 123.09,
+      "duration": 1.34,
+      "text": "It was quite friendly.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 121.75,
+          "end": 122.15,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 122.15,
+          "end": 122.29,
+          "matched": true
+        },
+        {
+          "text": "quite",
+          "start": 122.29,
+          "end": 122.59,
+          "matched": true
+        },
+        {
+          "text": "friendly",
+          "start": 122.59,
+          "end": 123.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 123.98,
+      "end": 127.04,
+      "duration": 3.06,
+      "text": "Because of this it was very easy to kill.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Because",
+          "start": 123.98,
+          "end": 124.34,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 124.34,
+          "end": 124.62,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 124.62,
+          "end": 124.88,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 125.36,
+          "end": 125.52,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 125.52,
+          "end": 125.7,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 125.7,
+          "end": 126.02,
+          "matched": true
+        },
+        {
+          "text": "easy",
+          "start": 126.02,
+          "end": 126.4,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 126.4,
+          "end": 126.62,
+          "matched": true
+        },
+        {
+          "text": "kill",
+          "start": 126.62,
+          "end": 126.96,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 127.3,
+      "end": 131.94,
+      "duration": 4.64,
+      "text": "Europeans first found the sea cow in 1741.",
+      "confidence": 0.75,
+      "words": [
+        {
+          "text": "Europeans",
+          "start": 127.3,
+          "end": 128.24,
+          "matched": true
+        },
+        {
+          "text": "first",
+          "start": 128.24,
+          "end": 129.04,
+          "matched": true
+        },
+        {
+          "text": "found",
+          "start": 129.04,
+          "end": 129.52,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 129.52,
+          "end": 129.72,
+          "matched": true
+        },
+        {
+          "text": "sea",
+          "start": 129.72,
+          "end": 130.04,
+          "matched": false
+        },
+        {
+          "text": "cow",
+          "start": 130.04,
+          "end": 130.36,
+          "matched": false
+        },
+        {
+          "text": "in",
+          "start": 130.36,
+          "end": 130.66,
+          "matched": true
+        },
+        {
+          "text": "1741",
+          "start": 130.66,
+          "end": 131.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 132.96,
+      "end": 136.62,
+      "duration": 3.66,
+      "text": "27 years later they killed the last one.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "27",
+          "start": 133.02,
+          "end": 133.58,
+          "matched": true
+        },
+        {
+          "text": "years",
+          "start": 133.58,
+          "end": 134.08,
+          "matched": true
+        },
+        {
+          "text": "later",
+          "start": 134.08,
+          "end": 134.52,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 135.16,
+          "end": 135.32,
+          "matched": true
+        },
+        {
+          "text": "killed",
+          "start": 135.32,
+          "end": 135.74,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 135.74,
+          "end": 135.98,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 135.98,
+          "end": 136.34,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 136.34,
+          "end": 136.62,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

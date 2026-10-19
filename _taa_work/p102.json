@@ -1,0 +1,1749 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p102.mp3",
+  "language": "en",
+  "duration": 136.542,
+  "report": {
+    "script_tokens": 255,
+    "matched_tokens": 252,
+    "asr_words": 268,
+    "coverage": 0.988,
+    "unmatched": [
+      "14-year-old",
+      "Cecchi",
+      "ten"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.83,
+      "end": 13.92,
+      "duration": 4.09,
+      "text": "Everyone knows that dolphins are very intelligent animals.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Everyone",
+          "start": 9.83,
+          "end": 10.19,
+          "matched": true
+        },
+        {
+          "text": "knows",
+          "start": 10.19,
+          "end": 10.77,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 10.77,
+          "end": 11.05,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 11.05,
+          "end": 11.51,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 11.51,
+          "end": 12.07,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 12.07,
+          "end": 12.45,
+          "matched": true
+        },
+        {
+          "text": "intelligent",
+          "start": 12.45,
+          "end": 13.05,
+          "matched": true
+        },
+        {
+          "text": "animals",
+          "start": 13.05,
+          "end": 13.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 14.88,
+      "end": 21.72,
+      "duration": 6.84,
+      "text": "But did you know that many scientists believe there is a special connection between dolphins and humans?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 14.88,
+          "end": 15.06,
+          "matched": true
+        },
+        {
+          "text": "did",
+          "start": 15.06,
+          "end": 15.26,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 15.26,
+          "end": 15.46,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 15.46,
+          "end": 15.74,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 15.74,
+          "end": 16.06,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 16.06,
+          "end": 16.42,
+          "matched": true
+        },
+        {
+          "text": "scientists",
+          "start": 16.42,
+          "end": 17.0,
+          "matched": true
+        },
+        {
+          "text": "believe",
+          "start": 17.0,
+          "end": 17.66,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 17.66,
+          "end": 18.04,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 18.04,
+          "end": 18.24,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 18.24,
+          "end": 18.38,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 18.38,
+          "end": 18.84,
+          "matched": true
+        },
+        {
+          "text": "connection",
+          "start": 18.84,
+          "end": 19.62,
+          "matched": true
+        },
+        {
+          "text": "between",
+          "start": 19.62,
+          "end": 20.24,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 20.24,
+          "end": 20.84,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 20.84,
+          "end": 21.38,
+          "matched": true
+        },
+        {
+          "text": "humans",
+          "start": 21.38,
+          "end": 21.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 22.77,
+      "end": 27.872,
+      "duration": 5.102,
+      "text": "There are lots of stories about dolphins helping humans who are in danger.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 22.77,
+          "end": 23.01,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 23.01,
+          "end": 23.15,
+          "matched": true
+        },
+        {
+          "text": "lots",
+          "start": 23.15,
+          "end": 23.47,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 23.47,
+          "end": 23.67,
+          "matched": true
+        },
+        {
+          "text": "stories",
+          "start": 23.67,
+          "end": 24.23,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 24.23,
+          "end": 24.61,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 24.61,
+          "end": 25.25,
+          "matched": true
+        },
+        {
+          "text": "helping",
+          "start": 25.25,
+          "end": 25.95,
+          "matched": true
+        },
+        {
+          "text": "humans",
+          "start": 25.95,
+          "end": 26.63,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 26.63,
+          "end": 26.95,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 26.95,
+          "end": 27.13,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 27.13,
+          "end": 27.29,
+          "matched": true
+        },
+        {
+          "text": "danger",
+          "start": 27.29,
+          "end": 27.73,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 28.75,
+      "end": 30.73,
+      "duration": 1.98,
+      "text": "Here are two of our favourites.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Here",
+          "start": 28.75,
+          "end": 29.05,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 29.05,
+          "end": 29.37,
+          "matched": true
+        },
+        {
+          "text": "two",
+          "start": 29.37,
+          "end": 29.69,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 29.69,
+          "end": 30.07,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 30.07,
+          "end": 30.29,
+          "matched": true
+        },
+        {
+          "text": "favourites",
+          "start": 30.29,
+          "end": 30.73,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 33.056,
+      "end": 43.52,
+      "duration": 10.464,
+      "text": "14-year-old Davide Cecchi was in his father's boat off the southeast coast of Italy when he had an accident and fell into the water.",
+      "confidence": 0.917,
+      "words": [
+        {
+          "text": "14-year-old",
+          "start": 33.06,
+          "end": 33.42,
+          "matched": false
+        },
+        {
+          "text": "Davide",
+          "start": 34.14,
+          "end": 34.78,
+          "matched": true
+        },
+        {
+          "text": "Cecchi",
+          "start": 34.78,
+          "end": 35.42,
+          "matched": false
+        },
+        {
+          "text": "was",
+          "start": 35.42,
+          "end": 36.16,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 36.16,
+          "end": 36.32,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 36.32,
+          "end": 36.52,
+          "matched": true
+        },
+        {
+          "text": "father's",
+          "start": 36.52,
+          "end": 37.14,
+          "matched": true
+        },
+        {
+          "text": "boat",
+          "start": 37.14,
+          "end": 37.46,
+          "matched": true
+        },
+        {
+          "text": "off",
+          "start": 37.46,
+          "end": 37.98,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 37.98,
+          "end": 38.14,
+          "matched": true
+        },
+        {
+          "text": "southeast",
+          "start": 38.14,
+          "end": 38.58,
+          "matched": true
+        },
+        {
+          "text": "coast",
+          "start": 38.58,
+          "end": 39.14,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 39.14,
+          "end": 39.42,
+          "matched": true
+        },
+        {
+          "text": "Italy",
+          "start": 39.42,
+          "end": 39.76,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 40.22,
+          "end": 40.58,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 40.58,
+          "end": 40.72,
+          "matched": true
+        },
+        {
+          "text": "had",
+          "start": 40.72,
+          "end": 40.9,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 40.9,
+          "end": 41.06,
+          "matched": true
+        },
+        {
+          "text": "accident",
+          "start": 41.06,
+          "end": 41.42,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 41.42,
+          "end": 42.16,
+          "matched": true
+        },
+        {
+          "text": "fell",
+          "start": 42.16,
+          "end": 42.52,
+          "matched": true
+        },
+        {
+          "text": "into",
+          "start": 42.52,
+          "end": 42.88,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 42.88,
+          "end": 43.06,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 43.06,
+          "end": 43.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 44.512,
+      "end": 52.416,
+      "duration": 7.904,
+      "text": "Davide didn't know how to swim, and his father didn't see him fall, so he didn't stop the boat.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Davide",
+          "start": 44.61,
+          "end": 44.95,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 44.95,
+          "end": 45.59,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 45.59,
+          "end": 45.85,
+          "matched": true
+        },
+        {
+          "text": "how",
+          "start": 45.85,
+          "end": 46.13,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 46.13,
+          "end": 46.33,
+          "matched": true
+        },
+        {
+          "text": "swim",
+          "start": 46.33,
+          "end": 46.75,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 47.27,
+          "end": 47.71,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 47.71,
+          "end": 47.87,
+          "matched": true
+        },
+        {
+          "text": "father",
+          "start": 47.87,
+          "end": 48.29,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 48.29,
+          "end": 48.89,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 48.89,
+          "end": 49.17,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 49.17,
+          "end": 49.37,
+          "matched": true
+        },
+        {
+          "text": "fall",
+          "start": 49.37,
+          "end": 49.83,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 50.26,
+          "end": 50.72,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 50.72,
+          "end": 51.08,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 51.08,
+          "end": 51.44,
+          "matched": true
+        },
+        {
+          "text": "stop",
+          "start": 51.44,
+          "end": 51.8,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 51.8,
+          "end": 52.04,
+          "matched": true
+        },
+        {
+          "text": "boat",
+          "start": 52.04,
+          "end": 52.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 53.3,
+      "end": 56.192,
+      "duration": 2.892,
+      "text": "He shouted, but his dad didn't hear him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 53.3,
+          "end": 53.46,
+          "matched": true
+        },
+        {
+          "text": "shouted",
+          "start": 53.46,
+          "end": 53.86,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 54.32,
+          "end": 54.66,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 54.66,
+          "end": 54.86,
+          "matched": true
+        },
+        {
+          "text": "dad",
+          "start": 54.86,
+          "end": 55.14,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 55.14,
+          "end": 55.66,
+          "matched": true
+        },
+        {
+          "text": "hear",
+          "start": 55.66,
+          "end": 55.92,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 55.92,
+          "end": 56.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 57.15,
+      "end": 58.976,
+      "duration": 1.826,
+      "text": "Davide got very worried.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Davide",
+          "start": 57.15,
+          "end": 57.61,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 57.61,
+          "end": 58.01,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 58.01,
+          "end": 58.41,
+          "matched": true
+        },
+        {
+          "text": "worried",
+          "start": 58.41,
+          "end": 58.93,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 59.89,
+      "end": 63.968,
+      "duration": 4.078,
+      "text": "Then, very quickly, a dolphin came to help him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Then",
+          "start": 59.89,
+          "end": 60.25,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 60.47,
+          "end": 60.83,
+          "matched": true
+        },
+        {
+          "text": "quickly",
+          "start": 60.83,
+          "end": 61.35,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 62.07,
+          "end": 62.23,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 62.23,
+          "end": 62.61,
+          "matched": true
+        },
+        {
+          "text": "came",
+          "start": 62.61,
+          "end": 63.15,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 63.15,
+          "end": 63.39,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 63.39,
+          "end": 63.67,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 63.67,
+          "end": 63.91,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 63.968,
+      "end": 71.776,
+      "duration": 7.808,
+      "text": "It gave Davide a push back up to the top of the water, and the boy got on to the dolphin's back.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 63.91,
+          "end": 64.49,
+          "matched": true
+        },
+        {
+          "text": "gave",
+          "start": 64.82,
+          "end": 65.18,
+          "matched": true
+        },
+        {
+          "text": "Davide",
+          "start": 65.18,
+          "end": 65.68,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 65.68,
+          "end": 66.1,
+          "matched": true
+        },
+        {
+          "text": "push",
+          "start": 66.1,
+          "end": 66.44,
+          "matched": true
+        },
+        {
+          "text": "back",
+          "start": 66.44,
+          "end": 66.74,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 66.74,
+          "end": 67.04,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 67.04,
+          "end": 67.3,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 67.3,
+          "end": 67.44,
+          "matched": true
+        },
+        {
+          "text": "top",
+          "start": 67.44,
+          "end": 67.74,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 67.74,
+          "end": 67.88,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 67.88,
+          "end": 68.02,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 68.02,
+          "end": 68.36,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 68.83,
+          "end": 69.35,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 69.35,
+          "end": 69.51,
+          "matched": true
+        },
+        {
+          "text": "boy",
+          "start": 69.51,
+          "end": 69.81,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 69.81,
+          "end": 70.11,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 70.11,
+          "end": 70.37,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 70.37,
+          "end": 70.59,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 70.59,
+          "end": 70.71,
+          "matched": true
+        },
+        {
+          "text": "dolphin's",
+          "start": 70.71,
+          "end": 71.35,
+          "matched": true
+        },
+        {
+          "text": "back",
+          "start": 71.35,
+          "end": 71.65,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 72.672,
+      "end": 75.104,
+      "duration": 2.432,
+      "text": "The dolphin took him back to the boat.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 72.68,
+          "end": 72.82,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 72.82,
+          "end": 73.2,
+          "matched": true
+        },
+        {
+          "text": "took",
+          "start": 73.2,
+          "end": 73.7,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 73.7,
+          "end": 73.96,
+          "matched": true
+        },
+        {
+          "text": "back",
+          "start": 73.96,
+          "end": 74.3,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 74.3,
+          "end": 74.56,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 74.56,
+          "end": 74.7,
+          "matched": true
+        },
+        {
+          "text": "boat",
+          "start": 74.7,
+          "end": 75.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 76.128,
+      "end": 81.02,
+      "duration": 4.892,
+      "text": "When Davide's father saw his son, he pulled him from the water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "When",
+          "start": 76.15,
+          "end": 76.37,
+          "matched": true
+        },
+        {
+          "text": "Davide's",
+          "start": 76.37,
+          "end": 77.19,
+          "matched": true
+        },
+        {
+          "text": "father",
+          "start": 77.19,
+          "end": 77.51,
+          "matched": true
+        },
+        {
+          "text": "saw",
+          "start": 77.51,
+          "end": 78.07,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 78.07,
+          "end": 78.31,
+          "matched": true
+        },
+        {
+          "text": "son",
+          "start": 78.31,
+          "end": 78.73,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 79.48,
+          "end": 79.64,
+          "matched": true
+        },
+        {
+          "text": "pulled",
+          "start": 79.64,
+          "end": 79.94,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 79.94,
+          "end": 80.2,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 80.2,
+          "end": 80.48,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 80.48,
+          "end": 80.7,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 80.7,
+          "end": 81.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 81.92,
+      "end": 84.608,
+      "duration": 2.688,
+      "text": "The dolphin saved Davide's life.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 81.92,
+          "end": 82.06,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 82.06,
+          "end": 82.5,
+          "matched": true
+        },
+        {
+          "text": "saved",
+          "start": 82.5,
+          "end": 83.42,
+          "matched": true
+        },
+        {
+          "text": "Davide's",
+          "start": 83.42,
+          "end": 84.26,
+          "matched": true
+        },
+        {
+          "text": "life",
+          "start": 84.26,
+          "end": 84.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 86.68,
+      "end": 95.9,
+      "duration": 9.22,
+      "text": "In 2016, Adam Walker went to New Zealand to swim across the Cook Strait between the North and South Islands.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 86.68,
+          "end": 86.86,
+          "matched": true
+        },
+        {
+          "text": "2016",
+          "start": 86.86,
+          "end": 87.76,
+          "matched": true
+        },
+        {
+          "text": "Adam",
+          "start": 88.56,
+          "end": 88.94,
+          "matched": true
+        },
+        {
+          "text": "Walker",
+          "start": 88.94,
+          "end": 89.4,
+          "matched": true
+        },
+        {
+          "text": "went",
+          "start": 89.4,
+          "end": 89.92,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 89.92,
+          "end": 90.18,
+          "matched": true
+        },
+        {
+          "text": "New",
+          "start": 90.18,
+          "end": 90.34,
+          "matched": true
+        },
+        {
+          "text": "Zealand",
+          "start": 90.34,
+          "end": 90.82,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 91.16,
+          "end": 91.5,
+          "matched": true
+        },
+        {
+          "text": "swim",
+          "start": 91.5,
+          "end": 91.84,
+          "matched": true
+        },
+        {
+          "text": "across",
+          "start": 91.84,
+          "end": 92.24,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 92.24,
+          "end": 92.58,
+          "matched": true
+        },
+        {
+          "text": "Cook",
+          "start": 92.58,
+          "end": 92.8,
+          "matched": true
+        },
+        {
+          "text": "Strait",
+          "start": 92.8,
+          "end": 93.4,
+          "matched": true
+        },
+        {
+          "text": "between",
+          "start": 93.4,
+          "end": 94.02,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 94.02,
+          "end": 94.32,
+          "matched": true
+        },
+        {
+          "text": "North",
+          "start": 94.32,
+          "end": 94.64,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 94.64,
+          "end": 95.02,
+          "matched": true
+        },
+        {
+          "text": "South",
+          "start": 95.02,
+          "end": 95.44,
+          "matched": true
+        },
+        {
+          "text": "Islands",
+          "start": 95.44,
+          "end": 95.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 96.98,
+      "end": 101.504,
+      "duration": 4.524,
+      "text": "He was swimming when he saw a large dark shape below him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 96.98,
+          "end": 97.34,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 97.34,
+          "end": 97.52,
+          "matched": true
+        },
+        {
+          "text": "swimming",
+          "start": 97.52,
+          "end": 97.88,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 97.88,
+          "end": 98.66,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 98.66,
+          "end": 98.8,
+          "matched": true
+        },
+        {
+          "text": "saw",
+          "start": 98.8,
+          "end": 99.06,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 99.06,
+          "end": 99.34,
+          "matched": true
+        },
+        {
+          "text": "large",
+          "start": 99.34,
+          "end": 99.78,
+          "matched": true
+        },
+        {
+          "text": "dark",
+          "start": 99.86,
+          "end": 100.24,
+          "matched": true
+        },
+        {
+          "text": "shape",
+          "start": 100.24,
+          "end": 100.66,
+          "matched": true
+        },
+        {
+          "text": "below",
+          "start": 100.66,
+          "end": 101.12,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 101.12,
+          "end": 101.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 102.38,
+      "end": 107.68,
+      "duration": 5.3,
+      "text": "He knew that it was a great white shark and his life was in danger.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 102.38,
+          "end": 102.66,
+          "matched": true
+        },
+        {
+          "text": "knew",
+          "start": 102.66,
+          "end": 103.0,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 103.0,
+          "end": 103.36,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 103.36,
+          "end": 103.48,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 103.48,
+          "end": 103.64,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 103.64,
+          "end": 103.8,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 103.8,
+          "end": 104.16,
+          "matched": true
+        },
+        {
+          "text": "white",
+          "start": 104.16,
+          "end": 104.58,
+          "matched": true
+        },
+        {
+          "text": "shark",
+          "start": 104.58,
+          "end": 105.06,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 105.52,
+          "end": 105.88,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 105.88,
+          "end": 106.04,
+          "matched": true
+        },
+        {
+          "text": "life",
+          "start": 106.04,
+          "end": 106.5,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 106.5,
+          "end": 106.8,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 106.8,
+          "end": 107.04,
+          "matched": true
+        },
+        {
+          "text": "danger",
+          "start": 107.04,
+          "end": 107.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 108.88,
+      "end": 111.488,
+      "duration": 2.608,
+      "text": "Adam knew he didn't have a lot of time.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Adam",
+          "start": 108.88,
+          "end": 109.2,
+          "matched": true
+        },
+        {
+          "text": "knew",
+          "start": 109.2,
+          "end": 109.66,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 109.66,
+          "end": 109.92,
+          "matched": true
+        },
+        {
+          "text": "didn't",
+          "start": 109.92,
+          "end": 110.26,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 110.26,
+          "end": 110.46,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 110.46,
+          "end": 110.62,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 110.62,
+          "end": 110.8,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 110.8,
+          "end": 110.98,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 110.98,
+          "end": 111.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 112.58,
+      "end": 121.408,
+      "duration": 8.828,
+      "text": "A few seconds later, a group of ten dolphins joined him and swam in a circle between him and the shark.",
+      "confidence": 0.952,
+      "words": [
+        {
+          "text": "A",
+          "start": 112.58,
+          "end": 112.78,
+          "matched": true
+        },
+        {
+          "text": "few",
+          "start": 112.78,
+          "end": 113.02,
+          "matched": true
+        },
+        {
+          "text": "seconds",
+          "start": 113.02,
+          "end": 113.44,
+          "matched": true
+        },
+        {
+          "text": "later",
+          "start": 113.44,
+          "end": 113.96,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 114.6,
+          "end": 114.82,
+          "matched": true
+        },
+        {
+          "text": "group",
+          "start": 114.82,
+          "end": 115.02,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 115.02,
+          "end": 115.3,
+          "matched": true
+        },
+        {
+          "text": "ten",
+          "start": 115.3,
+          "end": 115.64,
+          "matched": false
+        },
+        {
+          "text": "dolphins",
+          "start": 115.64,
+          "end": 116.2,
+          "matched": true
+        },
+        {
+          "text": "joined",
+          "start": 116.2,
+          "end": 116.86,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 116.86,
+          "end": 117.2,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 117.5,
+          "end": 117.86,
+          "matched": true
+        },
+        {
+          "text": "swam",
+          "start": 117.86,
+          "end": 118.36,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 118.36,
+          "end": 118.64,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 118.64,
+          "end": 118.82,
+          "matched": true
+        },
+        {
+          "text": "circle",
+          "start": 118.82,
+          "end": 119.2,
+          "matched": true
+        },
+        {
+          "text": "between",
+          "start": 119.2,
+          "end": 119.72,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 119.72,
+          "end": 120.22,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 120.22,
+          "end": 120.76,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 120.76,
+          "end": 120.94,
+          "matched": true
+        },
+        {
+          "text": "shark",
+          "start": 120.94,
+          "end": 121.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 122.42,
+      "end": 125.344,
+      "duration": 2.924,
+      "text": "The circle of dolphins kept Adam safe.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 122.42,
+          "end": 122.66,
+          "matched": true
+        },
+        {
+          "text": "circle",
+          "start": 122.66,
+          "end": 123.0,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 123.0,
+          "end": 123.2,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 123.2,
+          "end": 123.7,
+          "matched": true
+        },
+        {
+          "text": "kept",
+          "start": 123.7,
+          "end": 124.2,
+          "matched": true
+        },
+        {
+          "text": "Adam",
+          "start": 124.2,
+          "end": 124.72,
+          "matched": true
+        },
+        {
+          "text": "safe",
+          "start": 124.72,
+          "end": 125.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 126.22,
+      "end": 133.3,
+      "duration": 7.08,
+      "text": "After half an hour, the shark left, but the dolphins swam with him for another hour.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "After",
+          "start": 126.22,
+          "end": 126.6,
+          "matched": true
+        },
+        {
+          "text": "half",
+          "start": 126.6,
+          "end": 126.94,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 126.94,
+          "end": 127.14,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 127.14,
+          "end": 127.46,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 127.8,
+          "end": 127.88,
+          "matched": true
+        },
+        {
+          "text": "shark",
+          "start": 127.88,
+          "end": 128.26,
+          "matched": true
+        },
+        {
+          "text": "left",
+          "start": 128.26,
+          "end": 128.8,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 128.8,
+          "end": 129.3,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 129.86,
+          "end": 130.06,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 130.06,
+          "end": 130.54,
+          "matched": true
+        },
+        {
+          "text": "swam",
+          "start": 130.54,
+          "end": 131.4,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 131.4,
+          "end": 131.56,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 131.56,
+          "end": 131.84,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 131.84,
+          "end": 132.34,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 132.34,
+          "end": 132.72,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 132.72,
+          "end": 133.3,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

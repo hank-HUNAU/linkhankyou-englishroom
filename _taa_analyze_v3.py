@@ -9,7 +9,8 @@ WORK = os.path.join(REPO, '_taa_work')
 def norm(t):
     return ' '.join(re.sub(r'[^a-z0-9\s]', ' ', t.lower()).split())
 
-FOLDERS = {'U5_FreeTime': 5, 'U6_BestFriends': 6, 'U7_LivingForSport': 7, 'U8_FeelTheRhythm': 8}
+FOLDERS = {'U5_FreeTime': 5, 'U6_BestFriends': 6, 'U7_LivingForSport': 7, 'U8_FeelTheRhythm': 8,
+           'U9_WhosHungry': 9, 'U10_BigSuccesses': 10, 'U11_TheAnimalWorld': 11, 'U12_MovingAbout': 12}
 TOL = 1.8
 
 rows = []

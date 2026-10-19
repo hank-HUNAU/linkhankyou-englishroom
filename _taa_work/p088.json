@@ -1,0 +1,1130 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p088.mp3",
+  "language": "en",
+  "duration": 90.149,
+  "report": {
+    "script_tokens": 127,
+    "matched_tokens": 125,
+    "asr_words": 142,
+    "coverage": 0.984,
+    "unmatched": [
+      "Thank",
+      "you"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 6.94,
+      "end": 7.26,
+      "duration": 0.32,
+      "text": "Hello.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hello",
+          "start": 6.94,
+          "end": 7.26,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 8.064,
+      "end": 9.1,
+      "duration": 1.036,
+      "text": "Can I help you?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 8.08,
+          "end": 8.36,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 8.36,
+          "end": 8.5,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 8.5,
+          "end": 8.78,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 8.78,
+          "end": 9.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 9.94,
+      "end": 10.94,
+      "duration": 1.0,
+      "text": "Hi, yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hi",
+          "start": 9.94,
+          "end": 10.36,
+          "matched": true
+        },
+        {
+          "text": "yes",
+          "start": 10.66,
+          "end": 10.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 11.48,
+      "end": 13.66,
+      "duration": 2.18,
+      "text": "We'd like a table for two, please.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We'd",
+          "start": 11.48,
+          "end": 11.8,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 11.8,
+          "end": 12.0,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 12.0,
+          "end": 12.24,
+          "matched": true
+        },
+        {
+          "text": "table",
+          "start": 12.24,
+          "end": 12.6,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 12.6,
+          "end": 12.86,
+          "matched": true
+        },
+        {
+          "text": "two",
+          "start": 12.86,
+          "end": 13.24,
+          "matched": true
+        },
+        {
+          "text": "please",
+          "start": 13.32,
+          "end": 13.66,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 14.4,
+      "end": 15.38,
+      "duration": 0.98,
+      "text": "Here are the menus.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Here",
+          "start": 14.4,
+          "end": 14.66,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 14.66,
+          "end": 14.86,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 14.86,
+          "end": 15.02,
+          "matched": true
+        },
+        {
+          "text": "menus",
+          "start": 15.02,
+          "end": 15.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 16.6,
+      "end": 16.94,
+      "duration": 0.34,
+      "text": "Thanks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thanks",
+          "start": 16.6,
+          "end": 16.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 18.21,
+      "end": 19.79,
+      "duration": 1.58,
+      "text": "What would you like to drink?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 18.21,
+          "end": 18.55,
+          "matched": true
+        },
+        {
+          "text": "would",
+          "start": 18.55,
+          "end": 18.73,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 18.73,
+          "end": 18.93,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 18.93,
+          "end": 19.19,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 19.19,
+          "end": 19.45,
+          "matched": true
+        },
+        {
+          "text": "drink",
+          "start": 19.45,
+          "end": 19.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 20.31,
+      "end": 21.91,
+      "duration": 1.6,
+      "text": "I'd like an orange juice.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'd",
+          "start": 20.31,
+          "end": 20.67,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 20.67,
+          "end": 20.85,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 20.85,
+          "end": 21.09,
+          "matched": true
+        },
+        {
+          "text": "orange",
+          "start": 21.09,
+          "end": 21.43,
+          "matched": true
+        },
+        {
+          "text": "juice",
+          "start": 21.43,
+          "end": 21.91,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 22.656,
+      "end": 24.65,
+      "duration": 1.994,
+      "text": "And I'd like water, please.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 22.67,
+          "end": 23.15,
+          "matched": true
+        },
+        {
+          "text": "I'd",
+          "start": 23.15,
+          "end": 23.59,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 23.59,
+          "end": 23.87,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 23.87,
+          "end": 24.29,
+          "matched": true
+        },
+        {
+          "text": "please",
+          "start": 24.33,
+          "end": 24.65,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 25.376,
+      "end": 25.72,
+      "duration": 0.344,
+      "text": "Great.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Great",
+          "start": 25.38,
+          "end": 25.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 31.04,
+      "end": 32.68,
+      "duration": 1.64,
+      "text": "Are you ready to order now?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Are",
+          "start": 31.08,
+          "end": 31.36,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 31.36,
+          "end": 31.52,
+          "matched": true
+        },
+        {
+          "text": "ready",
+          "start": 31.52,
+          "end": 31.82,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 31.82,
+          "end": 32.08,
+          "matched": true
+        },
+        {
+          "text": "order",
+          "start": 32.08,
+          "end": 32.34,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 32.34,
+          "end": 32.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 33.04,
+      "end": 33.48,
+      "duration": 0.44,
+      "text": "Yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 33.04,
+          "end": 33.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 33.72,
+      "end": 36.06,
+      "duration": 2.34,
+      "text": "I'd like the pizza with salad.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'd",
+          "start": 33.72,
+          "end": 34.02,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 34.02,
+          "end": 34.22,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 34.22,
+          "end": 34.48,
+          "matched": true
+        },
+        {
+          "text": "pizza",
+          "start": 34.48,
+          "end": 35.16,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 35.16,
+          "end": 35.6,
+          "matched": true
+        },
+        {
+          "text": "salad",
+          "start": 35.6,
+          "end": 36.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 36.06,
+      "end": 37.44,
+      "duration": 1.38,
+      "text": "Any starters?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Any",
+          "start": 36.06,
+          "end": 36.88,
+          "matched": true
+        },
+        {
+          "text": "starters",
+          "start": 36.88,
+          "end": 37.44,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 38.304,
+      "end": 38.92,
+      "duration": 0.616,
+      "text": "No thanks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 38.42,
+          "end": 38.62,
+          "matched": true
+        },
+        {
+          "text": "thanks",
+          "start": 38.62,
+          "end": 38.92,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 39.54,
+      "end": 42.18,
+      "duration": 2.64,
+      "text": "Would you like any extra toppings on the pizza?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Would",
+          "start": 39.54,
+          "end": 39.66,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 39.66,
+          "end": 39.84,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 39.84,
+          "end": 40.08,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 40.08,
+          "end": 40.38,
+          "matched": true
+        },
+        {
+          "text": "extra",
+          "start": 40.38,
+          "end": 40.88,
+          "matched": true
+        },
+        {
+          "text": "toppings",
+          "start": 40.88,
+          "end": 41.28,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 41.28,
+          "end": 41.68,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 41.68,
+          "end": 41.8,
+          "matched": true
+        },
+        {
+          "text": "pizza",
+          "start": 41.8,
+          "end": 42.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 43.32,
+      "end": 45.78,
+      "duration": 2.46,
+      "text": "Onion, peppers, or tomatoes?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Onion",
+          "start": 43.32,
+          "end": 43.72,
+          "matched": true
+        },
+        {
+          "text": "peppers",
+          "start": 44.2,
+          "end": 44.46,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 44.46,
+          "end": 45.24,
+          "matched": true
+        },
+        {
+          "text": "tomatoes",
+          "start": 45.24,
+          "end": 45.78,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 46.36,
+      "end": 47.66,
+      "duration": 1.3,
+      "text": "Some peppers, please.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Some",
+          "start": 46.36,
+          "end": 46.72,
+          "matched": true
+        },
+        {
+          "text": "peppers",
+          "start": 46.72,
+          "end": 47.08,
+          "matched": true
+        },
+        {
+          "text": "please",
+          "start": 47.42,
+          "end": 47.66,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 48.34,
+      "end": 49.72,
+      "duration": 1.38,
+      "text": "And what would you like?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 48.34,
+          "end": 48.72,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 48.72,
+          "end": 48.94,
+          "matched": true
+        },
+        {
+          "text": "would",
+          "start": 48.94,
+          "end": 49.2,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 49.2,
+          "end": 49.4,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 49.4,
+          "end": 49.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 50.26,
+      "end": 52.12,
+      "duration": 1.86,
+      "text": "I'd like the chicken and chips.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'd",
+          "start": 50.26,
+          "end": 50.62,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 50.62,
+          "end": 50.86,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 50.86,
+          "end": 51.12,
+          "matched": true
+        },
+        {
+          "text": "chicken",
+          "start": 51.12,
+          "end": 51.46,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 51.46,
+          "end": 51.76,
+          "matched": true
+        },
+        {
+          "text": "chips",
+          "start": 51.76,
+          "end": 52.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 53.16,
+      "end": 53.58,
+      "duration": 0.42,
+      "text": "Okay.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Okay",
+          "start": 53.16,
+          "end": 53.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 54.34,
+      "end": 55.26,
+      "duration": 0.92,
+      "text": "Is that everything?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Is",
+          "start": 54.34,
+          "end": 54.64,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 54.64,
+          "end": 54.86,
+          "matched": true
+        },
+        {
+          "text": "everything",
+          "start": 54.86,
+          "end": 55.26,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 56.17,
+      "end": 56.59,
+      "duration": 0.42,
+      "text": "Yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 56.17,
+          "end": 56.59,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 56.93,
+      "end": 57.44,
+      "duration": 0.51,
+      "text": "Thank you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thank",
+          "start": 56.93,
+          "end": 57.15,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 57.15,
+          "end": 57.39,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 61.88,
+      "end": 63.06,
+      "duration": 1.18,
+      "text": "Would you like a dessert?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Would",
+          "start": 61.88,
+          "end": 62.16,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 62.16,
+          "end": 62.38,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 62.38,
+          "end": 62.68,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 62.68,
+          "end": 62.8,
+          "matched": true
+        },
+        {
+          "text": "dessert",
+          "start": 62.8,
+          "end": 63.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 64.04,
+      "end": 64.72,
+      "duration": 0.68,
+      "text": "Yes, please.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 64.04,
+          "end": 64.4,
+          "matched": true
+        },
+        {
+          "text": "please",
+          "start": 64.46,
+          "end": 64.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 65.38,
+      "end": 69.04,
+      "duration": 3.66,
+      "text": "I'd like the fruit salad with vanilla ice cream.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'd",
+          "start": 65.38,
+          "end": 65.86,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 65.86,
+          "end": 66.06,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 66.06,
+          "end": 66.3,
+          "matched": true
+        },
+        {
+          "text": "fruit",
+          "start": 66.3,
+          "end": 66.58,
+          "matched": true
+        },
+        {
+          "text": "salad",
+          "start": 66.58,
+          "end": 67.04,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 67.04,
+          "end": 67.68,
+          "matched": true
+        },
+        {
+          "text": "vanilla",
+          "start": 67.68,
+          "end": 68.26,
+          "matched": true
+        },
+        {
+          "text": "ice",
+          "start": 68.26,
+          "end": 68.7,
+          "matched": true
+        },
+        {
+          "text": "cream",
+          "start": 68.7,
+          "end": 69.04,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 69.04,
+      "end": 70.24,
+      "duration": 1.2,
+      "text": "Me, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Me",
+          "start": 69.04,
+          "end": 69.74,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 69.74,
+          "end": 70.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 74.88,
+      "end": 76.0,
+      "duration": 1.12,
+      "text": "How are your desserts?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "How",
+          "start": 75.0,
+          "end": 75.22,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 75.22,
+          "end": 75.36,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 75.36,
+          "end": 75.54,
+          "matched": true
+        },
+        {
+          "text": "desserts",
+          "start": 75.54,
+          "end": 76.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 76.97,
+      "end": 77.33,
+      "duration": 0.36,
+      "text": "Great.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Great",
+          "start": 76.97,
+          "end": 77.33,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 77.89,
+      "end": 79.71,
+      "duration": 1.82,
+      "text": "Would you like any more drinks?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Would",
+          "start": 77.89,
+          "end": 78.23,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 78.23,
+          "end": 78.43,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 78.43,
+          "end": 78.69,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 78.69,
+          "end": 79.01,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 79.01,
+          "end": 79.29,
+          "matched": true
+        },
+        {
+          "text": "drinks",
+          "start": 79.29,
+          "end": 79.71,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 80.41,
+      "end": 80.99,
+      "duration": 0.58,
+      "text": "No, thanks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 80.41,
+          "end": 80.69,
+          "matched": true
+        },
+        {
+          "text": "thanks",
+          "start": 80.69,
+          "end": 80.99,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 81.55,
+      "end": 82.97,
+      "duration": 1.42,
+      "text": "We'd like the bill, please.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We'd",
+          "start": 81.55,
+          "end": 81.85,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 81.85,
+          "end": 82.03,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 82.03,
+          "end": 82.23,
+          "matched": true
+        },
+        {
+          "text": "bill",
+          "start": 82.23,
+          "end": 82.55,
+          "matched": true
+        },
+        {
+          "text": "please",
+          "start": 82.73,
+          "end": 82.97,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 83.552,
+      "end": 84.03,
+      "duration": 0.478,
+      "text": "Of course.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Of",
+          "start": 83.59,
+          "end": 83.73,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 83.73,
+          "end": 84.03,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 84.03,
+      "end": 90.149,
+      "duration": 6.119,
+      "text": "Thank you.",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "Thank",
+          "start": 84.03,
+          "end": 87.854,
+          "matched": false
+        },
+        {
+          "text": "you",
+          "start": 87.854,
+          "end": 90.149,
+          "matched": false
+        }
+      ]
+    }
+  ]
+}

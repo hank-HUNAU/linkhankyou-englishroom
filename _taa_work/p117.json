@@ -1,0 +1,2052 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p117.mp3",
+  "language": "en",
+  "duration": 175.621,
+  "report": {
+    "script_tokens": 288,
+    "matched_tokens": 280,
+    "asr_words": 297,
+    "coverage": 0.972,
+    "unmatched": [
+      "Amfibus",
+      "Amfibus",
+      "kilometres",
+      "kilometres",
+      "27",
+      "euros",
+      "Central-Mid-Levels",
+      "Ankara's"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 7.44,
+      "end": 9.024,
+      "duration": 1.584,
+      "text": "Transport around the world.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Transport",
+          "start": 7.44,
+          "end": 7.88,
+          "matched": true
+        },
+        {
+          "text": "around",
+          "start": 7.88,
+          "end": 8.3,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 8.3,
+          "end": 8.54,
+          "matched": true
+        },
+        {
+          "text": "world",
+          "start": 8.54,
+          "end": 8.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 10.528,
+      "end": 12.47,
+      "duration": 1.942,
+      "text": "The Amfibus, the Netherlands.",
+      "confidence": 0.75,
+      "words": [
+        {
+          "text": "The",
+          "start": 10.55,
+          "end": 10.65,
+          "matched": true
+        },
+        {
+          "text": "Amfibus",
+          "start": 10.65,
+          "end": 11.45,
+          "matched": false
+        },
+        {
+          "text": "the",
+          "start": 12.05,
+          "end": 12.17,
+          "matched": true
+        },
+        {
+          "text": "Netherlands",
+          "start": 12.17,
+          "end": 12.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 14.368,
+      "end": 18.79,
+      "duration": 4.422,
+      "text": "The big, blue Amfibus certainly makes a big splash!",
+      "confidence": 0.889,
+      "words": [
+        {
+          "text": "The",
+          "start": 14.37,
+          "end": 14.51,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 14.51,
+          "end": 14.85,
+          "matched": true
+        },
+        {
+          "text": "blue",
+          "start": 14.85,
+          "end": 15.31,
+          "matched": true
+        },
+        {
+          "text": "Amfibus",
+          "start": 15.31,
+          "end": 16.39,
+          "matched": false
+        },
+        {
+          "text": "certainly",
+          "start": 16.39,
+          "end": 17.27,
+          "matched": true
+        },
+        {
+          "text": "makes",
+          "start": 17.27,
+          "end": 17.79,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 17.79,
+          "end": 18.03,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 18.03,
+          "end": 18.35,
+          "matched": true
+        },
+        {
+          "text": "splash",
+          "start": 18.35,
+          "end": 18.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 20.32,
+      "end": 24.86,
+      "duration": 4.54,
+      "text": "It's in Rotterdam, and it takes people on tours of the city.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 20.34,
+          "end": 20.64,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 20.64,
+          "end": 20.76,
+          "matched": true
+        },
+        {
+          "text": "Rotterdam",
+          "start": 20.76,
+          "end": 21.42,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 21.42,
+          "end": 22.0,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 22.36,
+          "end": 22.56,
+          "matched": true
+        },
+        {
+          "text": "takes",
+          "start": 22.56,
+          "end": 22.88,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 22.88,
+          "end": 23.32,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 23.32,
+          "end": 23.74,
+          "matched": true
+        },
+        {
+          "text": "tours",
+          "start": 23.74,
+          "end": 24.14,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 24.14,
+          "end": 24.42,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 24.42,
+          "end": 24.54,
+          "matched": true
+        },
+        {
+          "text": "city",
+          "start": 24.54,
+          "end": 24.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 25.856,
+      "end": 26.48,
+      "duration": 0.624,
+      "text": "It's cool.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 25.9,
+          "end": 26.14,
+          "matched": true
+        },
+        {
+          "text": "cool",
+          "start": 26.14,
+          "end": 26.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 27.808,
+      "end": 30.8,
+      "duration": 2.992,
+      "text": "It can travel on land and in the water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 27.82,
+          "end": 27.96,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 27.96,
+          "end": 28.18,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 28.18,
+          "end": 28.54,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 28.54,
+          "end": 28.84,
+          "matched": true
+        },
+        {
+          "text": "land",
+          "start": 28.84,
+          "end": 29.24,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 29.24,
+          "end": 30.04,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 30.04,
+          "end": 30.3,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 30.3,
+          "end": 30.42,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 30.42,
+          "end": 30.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 32.3,
+      "end": 37.84,
+      "duration": 5.54,
+      "text": "It is more expensive than water taxis, but it is more exciting, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 32.3,
+          "end": 32.48,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 32.48,
+          "end": 32.64,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 32.64,
+          "end": 32.92,
+          "matched": true
+        },
+        {
+          "text": "expensive",
+          "start": 32.92,
+          "end": 33.66,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 33.66,
+          "end": 34.04,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 34.04,
+          "end": 34.4,
+          "matched": true
+        },
+        {
+          "text": "taxis",
+          "start": 34.4,
+          "end": 35.22,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 35.56,
+          "end": 36.1,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 36.1,
+          "end": 36.24,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 36.24,
+          "end": 36.38,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 36.38,
+          "end": 36.72,
+          "matched": true
+        },
+        {
+          "text": "exciting",
+          "start": 36.72,
+          "end": 37.42,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 37.42,
+          "end": 37.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 39.23,
+      "end": 41.728,
+      "duration": 2.498,
+      "text": "It is slower in the water than on land.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 39.23,
+          "end": 39.39,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 39.39,
+          "end": 39.53,
+          "matched": true
+        },
+        {
+          "text": "slower",
+          "start": 39.53,
+          "end": 39.95,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 39.95,
+          "end": 40.21,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 40.21,
+          "end": 40.33,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 40.33,
+          "end": 40.69,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 40.69,
+          "end": 40.93,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 40.93,
+          "end": 41.19,
+          "matched": true
+        },
+        {
+          "text": "land",
+          "start": 41.19,
+          "end": 41.63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 42.76,
+      "end": 50.112,
+      "duration": 7.352,
+      "text": "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land.",
+      "confidence": 0.882,
+      "words": [
+        {
+          "text": "It",
+          "start": 42.76,
+          "end": 42.98,
+          "matched": true
+        },
+        {
+          "text": "goes",
+          "start": 42.98,
+          "end": 43.3,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 43.3,
+          "end": 43.56,
+          "matched": true
+        },
+        {
+          "text": "8",
+          "start": 43.56,
+          "end": 43.96,
+          "matched": true
+        },
+        {
+          "text": "kilometres",
+          "start": 43.96,
+          "end": 44.24,
+          "matched": false
+        },
+        {
+          "text": "per",
+          "start": 44.24,
+          "end": 44.94,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 44.94,
+          "end": 45.34,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 45.34,
+          "end": 45.58,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 45.58,
+          "end": 45.72,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 45.72,
+          "end": 46.1,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 46.1,
+          "end": 47.02,
+          "matched": true
+        },
+        {
+          "text": "96",
+          "start": 47.02,
+          "end": 47.84,
+          "matched": true
+        },
+        {
+          "text": "kilometres",
+          "start": 47.84,
+          "end": 48.22,
+          "matched": false
+        },
+        {
+          "text": "per",
+          "start": 48.22,
+          "end": 48.84,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 48.84,
+          "end": 49.18,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 49.18,
+          "end": 49.52,
+          "matched": true
+        },
+        {
+          "text": "land",
+          "start": 49.52,
+          "end": 50.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 51.648,
+      "end": 59.28,
+      "duration": 7.632,
+      "text": "The tour lasts for an hour, and it costs 27.50 euros.",
+      "confidence": 0.833,
+      "words": [
+        {
+          "text": "The",
+          "start": 51.66,
+          "end": 51.8,
+          "matched": true
+        },
+        {
+          "text": "tour",
+          "start": 51.8,
+          "end": 52.16,
+          "matched": true
+        },
+        {
+          "text": "lasts",
+          "start": 52.16,
+          "end": 52.62,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 52.62,
+          "end": 52.92,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 52.92,
+          "end": 53.1,
+          "matched": true
+        },
+        {
+          "text": "hour",
+          "start": 53.1,
+          "end": 53.42,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 53.42,
+          "end": 54.2,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 54.47,
+          "end": 54.61,
+          "matched": true
+        },
+        {
+          "text": "costs",
+          "start": 54.61,
+          "end": 55.03,
+          "matched": true
+        },
+        {
+          "text": "27",
+          "start": 55.03,
+          "end": 56.01,
+          "matched": false
+        },
+        {
+          "text": "50",
+          "start": 56.01,
+          "end": 56.95,
+          "matched": true
+        },
+        {
+          "text": "euros",
+          "start": 56.95,
+          "end": 59.28,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 59.28,
+      "end": 62.912,
+      "duration": 3.632,
+      "text": "Moving walkways and escalators, Hong Kong.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Moving",
+          "start": 59.28,
+          "end": 59.7,
+          "matched": true
+        },
+        {
+          "text": "walkways",
+          "start": 59.7,
+          "end": 60.46,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 60.46,
+          "end": 60.72,
+          "matched": true
+        },
+        {
+          "text": "escalators",
+          "start": 60.72,
+          "end": 61.56,
+          "matched": true
+        },
+        {
+          "text": "Hong",
+          "start": 62.16,
+          "end": 62.4,
+          "matched": true
+        },
+        {
+          "text": "Kong",
+          "start": 62.4,
+          "end": 62.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 62.912,
+      "end": 69.536,
+      "duration": 6.624,
+      "text": "The Central-Mid-Levels Escalator is 800 metres long.",
+      "confidence": 0.857,
+      "words": [
+        {
+          "text": "The",
+          "start": 62.8,
+          "end": 63.42,
+          "matched": true
+        },
+        {
+          "text": "Central-Mid-Levels",
+          "start": 64.56,
+          "end": 65.06,
+          "matched": false
+        },
+        {
+          "text": "Escalator",
+          "start": 66.14,
+          "end": 66.82,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 66.82,
+          "end": 67.52,
+          "matched": true
+        },
+        {
+          "text": "800",
+          "start": 67.52,
+          "end": 68.08,
+          "matched": true
+        },
+        {
+          "text": "metres",
+          "start": 68.08,
+          "end": 68.8,
+          "matched": true
+        },
+        {
+          "text": "long",
+          "start": 68.8,
+          "end": 69.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 71.04,
+      "end": 77.792,
+      "duration": 6.752,
+      "text": "Escalators are usually inside a shopping centre or an airport, but not this one!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Escalators",
+          "start": 71.08,
+          "end": 71.76,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 71.76,
+          "end": 72.38,
+          "matched": true
+        },
+        {
+          "text": "usually",
+          "start": 72.38,
+          "end": 72.92,
+          "matched": true
+        },
+        {
+          "text": "inside",
+          "start": 72.92,
+          "end": 73.38,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 73.38,
+          "end": 73.68,
+          "matched": true
+        },
+        {
+          "text": "shopping",
+          "start": 73.68,
+          "end": 74.06,
+          "matched": true
+        },
+        {
+          "text": "centre",
+          "start": 74.06,
+          "end": 74.64,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 74.64,
+          "end": 75.08,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 75.08,
+          "end": 75.26,
+          "matched": true
+        },
+        {
+          "text": "airport",
+          "start": 75.26,
+          "end": 75.64,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 76.36,
+          "end": 76.8,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 76.8,
+          "end": 77.04,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 77.04,
+          "end": 77.4,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 77.4,
+          "end": 77.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 78.52,
+      "end": 79.38,
+      "duration": 0.86,
+      "text": "It's outside.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 78.52,
+          "end": 78.78,
+          "matched": true
+        },
+        {
+          "text": "outside",
+          "start": 78.78,
+          "end": 79.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 80.8,
+      "end": 84.1,
+      "duration": 3.3,
+      "text": "It's a great way to travel round this city of hills.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 80.8,
+          "end": 81.06,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 81.06,
+          "end": 81.14,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 81.14,
+          "end": 81.44,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 81.44,
+          "end": 81.7,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 81.7,
+          "end": 81.94,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 81.94,
+          "end": 82.4,
+          "matched": true
+        },
+        {
+          "text": "round",
+          "start": 82.4,
+          "end": 82.88,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 82.88,
+          "end": 83.14,
+          "matched": true
+        },
+        {
+          "text": "city",
+          "start": 83.14,
+          "end": 83.48,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 83.48,
+          "end": 83.72,
+          "matched": true
+        },
+        {
+          "text": "hills",
+          "start": 83.72,
+          "end": 84.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 85.24,
+      "end": 86.08,
+      "duration": 0.84,
+      "text": "And it's free!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 85.24,
+          "end": 85.5,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 85.5,
+          "end": 85.74,
+          "matched": true
+        },
+        {
+          "text": "free",
+          "start": 85.74,
+          "end": 86.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 87.6,
+      "end": 91.104,
+      "duration": 3.504,
+      "text": "There are 14 places where you can get on and off.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 87.6,
+          "end": 87.78,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 87.78,
+          "end": 87.92,
+          "matched": true
+        },
+        {
+          "text": "14",
+          "start": 87.92,
+          "end": 88.52,
+          "matched": true
+        },
+        {
+          "text": "places",
+          "start": 88.52,
+          "end": 89.2,
+          "matched": true
+        },
+        {
+          "text": "where",
+          "start": 89.2,
+          "end": 89.64,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 89.64,
+          "end": 89.84,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 89.84,
+          "end": 90.04,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 90.04,
+          "end": 90.26,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 90.26,
+          "end": 90.58,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 90.58,
+          "end": 90.7,
+          "matched": true
+        },
+        {
+          "text": "off",
+          "start": 90.7,
+          "end": 91.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 91.104,
+      "end": 99.7,
+      "duration": 8.596,
+      "text": "The escalators travel down the hill from 6am to 10am, so people can travel to work.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 91.08,
+          "end": 91.68,
+          "matched": true
+        },
+        {
+          "text": "escalators",
+          "start": 92.4,
+          "end": 93.18,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 93.18,
+          "end": 93.68,
+          "matched": true
+        },
+        {
+          "text": "down",
+          "start": 93.68,
+          "end": 94.12,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 94.12,
+          "end": 94.36,
+          "matched": true
+        },
+        {
+          "text": "hill",
+          "start": 94.36,
+          "end": 94.66,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 94.66,
+          "end": 95.24,
+          "matched": true
+        },
+        {
+          "text": "6am",
+          "start": 95.24,
+          "end": 96.08,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 96.08,
+          "end": 96.6,
+          "matched": true
+        },
+        {
+          "text": "10am",
+          "start": 96.6,
+          "end": 97.4,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 97.4,
+          "end": 98.1,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 98.1,
+          "end": 98.5,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 98.5,
+          "end": 98.78,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 98.78,
+          "end": 99.14,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 99.14,
+          "end": 99.36,
+          "matched": true
+        },
+        {
+          "text": "work",
+          "start": 99.36,
+          "end": 99.7,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 100.896,
+      "end": 104.76,
+      "duration": 3.864,
+      "text": "They travel up the hill from 10am to midnight.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 100.93,
+          "end": 101.03,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 101.03,
+          "end": 101.47,
+          "matched": true
+        },
+        {
+          "text": "up",
+          "start": 101.47,
+          "end": 101.93,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 101.93,
+          "end": 102.21,
+          "matched": true
+        },
+        {
+          "text": "hill",
+          "start": 102.21,
+          "end": 102.49,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 102.49,
+          "end": 103.03,
+          "matched": true
+        },
+        {
+          "text": "10am",
+          "start": 103.2,
+          "end": 104.0,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 104.0,
+          "end": 104.34,
+          "matched": true
+        },
+        {
+          "text": "midnight",
+          "start": 104.34,
+          "end": 104.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 107.104,
+      "end": 109.2,
+      "duration": 2.096,
+      "text": "The urban cable car, Turkey.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 107.16,
+          "end": 107.24,
+          "matched": true
+        },
+        {
+          "text": "urban",
+          "start": 107.24,
+          "end": 107.62,
+          "matched": true
+        },
+        {
+          "text": "cable",
+          "start": 107.62,
+          "end": 108.06,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 108.06,
+          "end": 108.5,
+          "matched": true
+        },
+        {
+          "text": "Turkey",
+          "start": 108.88,
+          "end": 109.2,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 110.848,
+      "end": 115.51,
+      "duration": 4.662,
+      "text": "Ankara's cable car is cheaper than other forms of public transport.",
+      "confidence": 0.909,
+      "words": [
+        {
+          "text": "Ankara's",
+          "start": 110.91,
+          "end": 111.41,
+          "matched": false
+        },
+        {
+          "text": "cable",
+          "start": 111.51,
+          "end": 111.77,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 111.77,
+          "end": 112.17,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 112.17,
+          "end": 112.83,
+          "matched": true
+        },
+        {
+          "text": "cheaper",
+          "start": 112.83,
+          "end": 113.33,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 113.33,
+          "end": 113.57,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 113.57,
+          "end": 113.97,
+          "matched": true
+        },
+        {
+          "text": "forms",
+          "start": 113.97,
+          "end": 114.47,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 114.47,
+          "end": 114.65,
+          "matched": true
+        },
+        {
+          "text": "public",
+          "start": 114.65,
+          "end": 114.99,
+          "matched": true
+        },
+        {
+          "text": "transport",
+          "start": 114.99,
+          "end": 115.51,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 116.61,
+      "end": 119.84,
+      "duration": 3.23,
+      "text": "It is healthier because it doesn't pollute the air.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 116.61,
+          "end": 116.77,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 116.77,
+          "end": 116.91,
+          "matched": true
+        },
+        {
+          "text": "healthier",
+          "start": 116.91,
+          "end": 117.43,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 117.43,
+          "end": 118.21,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 118.21,
+          "end": 118.43,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 118.43,
+          "end": 118.81,
+          "matched": true
+        },
+        {
+          "text": "pollute",
+          "start": 118.81,
+          "end": 119.23,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 119.23,
+          "end": 119.41,
+          "matched": true
+        },
+        {
+          "text": "air",
+          "start": 119.41,
+          "end": 119.73,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 120.96,
+      "end": 128.1,
+      "duration": 7.14,
+      "text": "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 120.96,
+          "end": 121.14,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 121.14,
+          "end": 121.28,
+          "matched": true
+        },
+        {
+          "text": "also",
+          "start": 121.28,
+          "end": 121.7,
+          "matched": true
+        },
+        {
+          "text": "easier",
+          "start": 121.7,
+          "end": 122.42,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 122.42,
+          "end": 122.92,
+          "matched": true
+        },
+        {
+          "text": "quicker",
+          "start": 122.92,
+          "end": 123.24,
+          "matched": true
+        },
+        {
+          "text": "than",
+          "start": 123.24,
+          "end": 123.6,
+          "matched": true
+        },
+        {
+          "text": "travelling",
+          "start": 123.6,
+          "end": 124.02,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 124.02,
+          "end": 124.32,
+          "matched": true
+        },
+        {
+          "text": "car",
+          "start": 124.32,
+          "end": 124.78,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 125.18,
+          "end": 125.84,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 125.84,
+          "end": 126.16,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 126.16,
+          "end": 126.28,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 126.28,
+          "end": 126.52,
+          "matched": true
+        },
+        {
+          "text": "traffic",
+          "start": 126.52,
+          "end": 126.96,
+          "matched": true
+        },
+        {
+          "text": "jams",
+          "start": 126.96,
+          "end": 127.42,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 127.42,
+          "end": 127.62,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 127.62,
+          "end": 127.76,
+          "matched": true
+        },
+        {
+          "text": "sky",
+          "start": 127.76,
+          "end": 128.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 129.92,
+      "end": 136.32,
+      "duration": 6.4,
+      "text": "It travels 60 metres above the ground, and passengers can get great views of the city.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 130.01,
+          "end": 130.09,
+          "matched": true
+        },
+        {
+          "text": "travels",
+          "start": 130.09,
+          "end": 130.51,
+          "matched": true
+        },
+        {
+          "text": "60",
+          "start": 130.51,
+          "end": 131.07,
+          "matched": true
+        },
+        {
+          "text": "metres",
+          "start": 131.07,
+          "end": 131.51,
+          "matched": true
+        },
+        {
+          "text": "above",
+          "start": 131.51,
+          "end": 131.87,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 131.87,
+          "end": 132.15,
+          "matched": true
+        },
+        {
+          "text": "ground",
+          "start": 132.15,
+          "end": 132.51,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 132.88,
+          "end": 133.5,
+          "matched": true
+        },
+        {
+          "text": "passengers",
+          "start": 133.5,
+          "end": 134.08,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 134.08,
+          "end": 134.52,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 134.52,
+          "end": 134.78,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 134.78,
+          "end": 135.22,
+          "matched": true
+        },
+        {
+          "text": "views",
+          "start": 135.22,
+          "end": 135.66,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 135.66,
+          "end": 135.9,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 135.9,
+          "end": 136.02,
+          "matched": true
+        },
+        {
+          "text": "city",
+          "start": 136.02,
+          "end": 136.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 138.528,
+      "end": 142.39,
+      "duration": 3.862,
+      "text": "Submarines, Lanzarote and Tenerife.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Submarines",
+          "start": 138.62,
+          "end": 139.36,
+          "matched": true
+        },
+        {
+          "text": "Lanzarote",
+          "start": 140.59,
+          "end": 141.35,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 141.35,
+          "end": 141.77,
+          "matched": true
+        },
+        {
+          "text": "Tenerife",
+          "start": 141.77,
+          "end": 142.39,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 144.096,
+      "end": 146.52,
+      "duration": 2.424,
+      "text": "Now you can travel in a submarine!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "start": 144.14,
+          "end": 144.46,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 144.46,
+          "end": 144.86,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 144.86,
+          "end": 145.1,
+          "matched": true
+        },
+        {
+          "text": "travel",
+          "start": 145.1,
+          "end": 145.54,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 145.54,
+          "end": 145.94,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 145.94,
+          "end": 146.06,
+          "matched": true
+        },
+        {
+          "text": "submarine",
+          "start": 146.06,
+          "end": 146.52,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 148.384,
+      "end": 150.44,
+      "duration": 2.056,
+      "text": "This submarine carries tourists.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 148.4,
+          "end": 148.62,
+          "matched": true
+        },
+        {
+          "text": "submarine",
+          "start": 148.62,
+          "end": 149.18,
+          "matched": true
+        },
+        {
+          "text": "carries",
+          "start": 149.18,
+          "end": 149.98,
+          "matched": true
+        },
+        {
+          "text": "tourists",
+          "start": 149.98,
+          "end": 150.44,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 152.28,
+      "end": 159.5,
+      "duration": 7.22,
+      "text": "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 152.28,
+          "end": 152.46,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 152.46,
+          "end": 152.64,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 152.64,
+          "end": 152.76,
+          "matched": true
+        },
+        {
+          "text": "safe",
+          "start": 152.76,
+          "end": 153.24,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 153.24,
+          "end": 153.4,
+          "matched": true
+        },
+        {
+          "text": "comfortable",
+          "start": 153.4,
+          "end": 153.9,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 153.9,
+          "end": 154.36,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 154.36,
+          "end": 154.96,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 154.96,
+          "end": 155.18,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 155.18,
+          "end": 155.36,
+          "matched": true
+        },
+        {
+          "text": "colourful",
+          "start": 155.36,
+          "end": 155.92,
+          "matched": true
+        },
+        {
+          "text": "fish",
+          "start": 155.92,
+          "end": 156.32,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 156.32,
+          "end": 157.02,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 157.02,
+          "end": 157.12,
+          "matched": true
+        },
+        {
+          "text": "plants",
+          "start": 157.12,
+          "end": 157.62,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 157.62,
+          "end": 157.88,
+          "matched": true
+        },
+        {
+          "text": "rocks",
+          "start": 157.88,
+          "end": 158.34,
+          "matched": true
+        },
+        {
+          "text": "under",
+          "start": 158.34,
+          "end": 158.82,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 158.82,
+          "end": 159.12,
+          "matched": true
+        },
+        {
+          "text": "seas",
+          "start": 159.12,
+          "end": 159.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 161.088,
+      "end": 168.288,
+      "duration": 7.2,
+      "text": "The submarine can carry 48 people, and it has 11 large windows on each side.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 161.13,
+          "end": 161.23,
+          "matched": true
+        },
+        {
+          "text": "submarine",
+          "start": 161.23,
+          "end": 161.75,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 161.75,
+          "end": 162.47,
+          "matched": true
+        },
+        {
+          "text": "carry",
+          "start": 162.47,
+          "end": 162.81,
+          "matched": true
+        },
+        {
+          "text": "48",
+          "start": 162.81,
+          "end": 163.35,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 163.35,
+          "end": 163.97,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 163.97,
+          "end": 164.69,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 165.12,
+          "end": 165.28,
+          "matched": true
+        },
+        {
+          "text": "has",
+          "start": 165.28,
+          "end": 165.48,
+          "matched": true
+        },
+        {
+          "text": "11",
+          "start": 165.48,
+          "end": 166.02,
+          "matched": true
+        },
+        {
+          "text": "large",
+          "start": 166.02,
+          "end": 166.54,
+          "matched": true
+        },
+        {
+          "text": "windows",
+          "start": 166.54,
+          "end": 167.14,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 167.14,
+          "end": 167.5,
+          "matched": true
+        },
+        {
+          "text": "each",
+          "start": 167.5,
+          "end": 167.74,
+          "matched": true
+        },
+        {
+          "text": "side",
+          "start": 167.74,
+          "end": 168.2,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 169.44,
+      "end": 172.36,
+      "duration": 2.92,
+      "text": "It travels down 60 metres under the sea.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 169.44,
+          "end": 169.58,
+          "matched": true
+        },
+        {
+          "text": "travels",
+          "start": 169.58,
+          "end": 170.02,
+          "matched": true
+        },
+        {
+          "text": "down",
+          "start": 170.02,
+          "end": 170.42,
+          "matched": true
+        },
+        {
+          "text": "60",
+          "start": 170.42,
+          "end": 170.94,
+          "matched": true
+        },
+        {
+          "text": "metres",
+          "start": 170.94,
+          "end": 171.38,
+          "matched": true
+        },
+        {
+          "text": "under",
+          "start": 171.38,
+          "end": 171.88,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 171.88,
+          "end": 172.08,
+          "matched": true
+        },
+        {
+          "text": "sea",
+          "start": 172.08,
+          "end": 172.36,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

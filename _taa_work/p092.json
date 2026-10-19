@@ -1,0 +1,1516 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p092.mp3",
+  "language": "en",
+  "duration": 140.016,
+  "report": {
+    "script_tokens": 218,
+    "matched_tokens": 206,
+    "asr_words": 237,
+    "coverage": 0.945,
+    "unmatched": [
+      "worked",
+      "in",
+      "hardworking",
+      "on",
+      "just",
+      "26",
+      "next",
+      "year",
+      "she",
+      "married",
+      "Andrian",
+      "Nikolayev"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 10.25,
+      "end": 16.31,
+      "duration": 6.06,
+      "text": "Valentina Tereshkova was born in Russia on 6th March 1937.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Valentina",
+          "start": 10.25,
+          "end": 10.93,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 10.93,
+          "end": 11.83,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 11.83,
+          "end": 12.41,
+          "matched": true
+        },
+        {
+          "text": "born",
+          "start": 12.41,
+          "end": 12.69,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 12.69,
+          "end": 12.95,
+          "matched": true
+        },
+        {
+          "text": "Russia",
+          "start": 12.95,
+          "end": 13.27,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 13.27,
+          "end": 14.03,
+          "matched": true
+        },
+        {
+          "text": "6th",
+          "start": 14.15,
+          "end": 14.61,
+          "matched": true
+        },
+        {
+          "text": "March",
+          "start": 14.67,
+          "end": 15.01,
+          "matched": true
+        },
+        {
+          "text": "1937",
+          "start": 15.29,
+          "end": 16.31,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 18.176,
+      "end": 22.09,
+      "duration": 3.914,
+      "text": "Her father was a driver and her mother worked in a factory.",
+      "confidence": 0.833,
+      "words": [
+        {
+          "text": "Her",
+          "start": 18.2,
+          "end": 18.32,
+          "matched": true
+        },
+        {
+          "text": "father",
+          "start": 18.32,
+          "end": 18.76,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 18.76,
+          "end": 19.12,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 19.12,
+          "end": 19.28,
+          "matched": true
+        },
+        {
+          "text": "driver",
+          "start": 19.28,
+          "end": 19.62,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 20.25,
+          "end": 20.59,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 20.59,
+          "end": 20.73,
+          "matched": true
+        },
+        {
+          "text": "mother",
+          "start": 20.73,
+          "end": 21.09,
+          "matched": true
+        },
+        {
+          "text": "worked",
+          "start": 21.09,
+          "end": 21.45,
+          "matched": false
+        },
+        {
+          "text": "in",
+          "start": 21.45,
+          "end": 21.57,
+          "matched": false
+        },
+        {
+          "text": "a",
+          "start": 21.57,
+          "end": 21.77,
+          "matched": true
+        },
+        {
+          "text": "factory",
+          "start": 21.77,
+          "end": 22.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 24.224,
+      "end": 27.0,
+      "duration": 2.776,
+      "text": "Valentina was a worker in a factory, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Valentina",
+          "start": 24.28,
+          "end": 24.96,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 24.96,
+          "end": 25.26,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 25.26,
+          "end": 25.44,
+          "matched": true
+        },
+        {
+          "text": "worker",
+          "start": 25.44,
+          "end": 25.72,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 25.72,
+          "end": 26.02,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 26.02,
+          "end": 26.18,
+          "matched": true
+        },
+        {
+          "text": "factory",
+          "start": 26.18,
+          "end": 26.5,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 26.5,
+          "end": 27.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 28.65,
+      "end": 35.58,
+      "duration": 6.93,
+      "text": "Her hobby was skydiving and it was her dream to be an astronaut and to go into space.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Her",
+          "start": 28.65,
+          "end": 28.87,
+          "matched": true
+        },
+        {
+          "text": "hobby",
+          "start": 28.87,
+          "end": 29.27,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 29.27,
+          "end": 29.63,
+          "matched": true
+        },
+        {
+          "text": "skydiving",
+          "start": 29.63,
+          "end": 30.41,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 30.88,
+          "end": 31.4,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 31.4,
+          "end": 31.52,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 31.52,
+          "end": 31.72,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 31.72,
+          "end": 32.02,
+          "matched": true
+        },
+        {
+          "text": "dream",
+          "start": 32.02,
+          "end": 32.54,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 32.54,
+          "end": 32.76,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 32.76,
+          "end": 32.92,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 32.92,
+          "end": 33.08,
+          "matched": true
+        },
+        {
+          "text": "astronaut",
+          "start": 33.08,
+          "end": 33.74,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 34.28,
+          "end": 34.42,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 34.42,
+          "end": 34.6,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 34.6,
+          "end": 34.78,
+          "matched": true
+        },
+        {
+          "text": "into",
+          "start": 34.78,
+          "end": 35.16,
+          "matched": true
+        },
+        {
+          "text": "space",
+          "start": 35.16,
+          "end": 35.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 37.728,
+      "end": 43.53,
+      "duration": 5.802,
+      "text": "In 1962, there was a big competition to find new astronauts.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 37.73,
+          "end": 37.87,
+          "matched": true
+        },
+        {
+          "text": "1962",
+          "start": 37.87,
+          "end": 38.89,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 39.59,
+          "end": 40.05,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 40.05,
+          "end": 40.19,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 40.19,
+          "end": 40.37,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 40.37,
+          "end": 40.63,
+          "matched": true
+        },
+        {
+          "text": "competition",
+          "start": 40.63,
+          "end": 41.51,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 41.51,
+          "end": 42.07,
+          "matched": true
+        },
+        {
+          "text": "find",
+          "start": 42.07,
+          "end": 42.39,
+          "matched": true
+        },
+        {
+          "text": "new",
+          "start": 42.39,
+          "end": 42.81,
+          "matched": true
+        },
+        {
+          "text": "astronauts",
+          "start": 42.81,
+          "end": 43.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 45.14,
+      "end": 48.88,
+      "duration": 3.74,
+      "text": "There were 400 people interested in going to space.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 45.14,
+          "end": 45.32,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 45.32,
+          "end": 45.48,
+          "matched": true
+        },
+        {
+          "text": "400",
+          "start": 45.48,
+          "end": 46.16,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 46.16,
+          "end": 46.74,
+          "matched": true
+        },
+        {
+          "text": "interested",
+          "start": 46.74,
+          "end": 47.44,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 47.44,
+          "end": 47.98,
+          "matched": true
+        },
+        {
+          "text": "going",
+          "start": 47.98,
+          "end": 48.26,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 48.26,
+          "end": 48.5,
+          "matched": true
+        },
+        {
+          "text": "space",
+          "start": 48.5,
+          "end": 48.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 50.81,
+      "end": 55.73,
+      "duration": 4.92,
+      "text": "The training programme wasn't very easy, but Tereshkova was hardworking.",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "The",
+          "start": 50.81,
+          "end": 50.97,
+          "matched": true
+        },
+        {
+          "text": "training",
+          "start": 50.97,
+          "end": 51.33,
+          "matched": true
+        },
+        {
+          "text": "programme",
+          "start": 51.33,
+          "end": 51.87,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 51.87,
+          "end": 52.39,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 52.39,
+          "end": 52.67,
+          "matched": true
+        },
+        {
+          "text": "easy",
+          "start": 52.67,
+          "end": 53.21,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 53.71,
+          "end": 54.11,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 54.11,
+          "end": 54.93,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 54.93,
+          "end": 55.33,
+          "matched": true
+        },
+        {
+          "text": "hardworking",
+          "start": 55.33,
+          "end": 55.73,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 57.21,
+      "end": 59.456,
+      "duration": 2.246,
+      "text": "And she was the lucky one.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 57.21,
+          "end": 57.61,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 57.61,
+          "end": 58.09,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 58.09,
+          "end": 58.47,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 58.47,
+          "end": 58.73,
+          "matched": true
+        },
+        {
+          "text": "lucky",
+          "start": 58.73,
+          "end": 59.03,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 59.03,
+          "end": 59.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 60.864,
+      "end": 68.192,
+      "duration": 7.328,
+      "text": "Tereshkova's big day was on 16th June 1963, and she was just 26.",
+      "confidence": 0.769,
+      "words": [
+        {
+          "text": "Tereshkova's",
+          "start": 60.94,
+          "end": 61.74,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 61.74,
+          "end": 62.0,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 62.0,
+          "end": 62.38,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 62.38,
+          "end": 63.1,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 63.1,
+          "end": 63.26,
+          "matched": false
+        },
+        {
+          "text": "16th",
+          "start": 63.26,
+          "end": 63.96,
+          "matched": true
+        },
+        {
+          "text": "June",
+          "start": 64.04,
+          "end": 64.46,
+          "matched": true
+        },
+        {
+          "text": "1963",
+          "start": 64.8,
+          "end": 65.68,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 66.76,
+          "end": 67.1,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 67.1,
+          "end": 67.38,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 67.38,
+          "end": 67.7,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 67.7,
+          "end": 67.953,
+          "matched": false
+        },
+        {
+          "text": "26",
+          "start": 67.953,
+          "end": 68.08,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 70.3,
+      "end": 77.43,
+      "duration": 7.13,
+      "text": "The next year, she married Andrian Nikolayev, and Tereshkova was the first woman in space.",
+      "confidence": 0.6,
+      "words": [
+        {
+          "text": "The",
+          "start": 70.3,
+          "end": 70.42,
+          "matched": true
+        },
+        {
+          "text": "next",
+          "start": 70.42,
+          "end": 70.66,
+          "matched": false
+        },
+        {
+          "text": "year",
+          "start": 70.66,
+          "end": 70.82,
+          "matched": false
+        },
+        {
+          "text": "she",
+          "start": 70.82,
+          "end": 71.0,
+          "matched": false
+        },
+        {
+          "text": "married",
+          "start": 71.54,
+          "end": 72.44,
+          "matched": false
+        },
+        {
+          "text": "Andrian",
+          "start": 72.44,
+          "end": 73.1,
+          "matched": false
+        },
+        {
+          "text": "Nikolayev",
+          "start": 73.1,
+          "end": 73.5,
+          "matched": false
+        },
+        {
+          "text": "and",
+          "start": 74.31,
+          "end": 74.55,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 74.55,
+          "end": 75.39,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 75.39,
+          "end": 75.75,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 75.75,
+          "end": 75.93,
+          "matched": true
+        },
+        {
+          "text": "first",
+          "start": 75.93,
+          "end": 76.29,
+          "matched": true
+        },
+        {
+          "text": "woman",
+          "start": 76.29,
+          "end": 76.69,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 76.69,
+          "end": 77.09,
+          "matched": true
+        },
+        {
+          "text": "space",
+          "start": 77.09,
+          "end": 77.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 79.26,
+      "end": 88.544,
+      "duration": 9.284,
+      "text": "The flight was very difficult because there were many technical problems and Tereshkova wasn't very well for most of the flight.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 79.26,
+          "end": 79.38,
+          "matched": true
+        },
+        {
+          "text": "flight",
+          "start": 79.38,
+          "end": 79.72,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 79.72,
+          "end": 80.0,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 80.0,
+          "end": 80.32,
+          "matched": true
+        },
+        {
+          "text": "difficult",
+          "start": 80.32,
+          "end": 80.86,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 81.4,
+          "end": 81.78,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 81.78,
+          "end": 82.04,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 82.04,
+          "end": 82.2,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 82.2,
+          "end": 82.54,
+          "matched": true
+        },
+        {
+          "text": "technical",
+          "start": 82.54,
+          "end": 83.14,
+          "matched": true
+        },
+        {
+          "text": "problems",
+          "start": 83.14,
+          "end": 83.84,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 84.85,
+          "end": 85.07,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 85.07,
+          "end": 85.89,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 85.89,
+          "end": 86.45,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 86.45,
+          "end": 86.77,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 86.77,
+          "end": 87.27,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 87.27,
+          "end": 87.53,
+          "matched": true
+        },
+        {
+          "text": "most",
+          "start": 87.53,
+          "end": 87.81,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 87.81,
+          "end": 88.01,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 88.01,
+          "end": 88.13,
+          "matched": true
+        },
+        {
+          "text": "flight",
+          "start": 88.13,
+          "end": 88.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 89.8,
+      "end": 92.32,
+      "duration": 2.52,
+      "text": "She was in space for three days.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 89.8,
+          "end": 90.08,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 90.08,
+          "end": 90.26,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 90.26,
+          "end": 90.44,
+          "matched": true
+        },
+        {
+          "text": "space",
+          "start": 90.44,
+          "end": 90.86,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 90.86,
+          "end": 91.34,
+          "matched": true
+        },
+        {
+          "text": "three",
+          "start": 91.34,
+          "end": 91.7,
+          "matched": true
+        },
+        {
+          "text": "days",
+          "start": 91.7,
+          "end": 92.2,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 93.58,
+      "end": 97.22,
+      "duration": 3.64,
+      "text": "She is the only woman to fly into space alone.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 93.58,
+          "end": 93.82,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 93.82,
+          "end": 94.08,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 94.08,
+          "end": 94.24,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 94.24,
+          "end": 94.66,
+          "matched": true
+        },
+        {
+          "text": "woman",
+          "start": 94.66,
+          "end": 95.04,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 95.04,
+          "end": 95.38,
+          "matched": true
+        },
+        {
+          "text": "fly",
+          "start": 95.38,
+          "end": 95.76,
+          "matched": true
+        },
+        {
+          "text": "into",
+          "start": 95.76,
+          "end": 96.18,
+          "matched": true
+        },
+        {
+          "text": "space",
+          "start": 96.18,
+          "end": 96.7,
+          "matched": true
+        },
+        {
+          "text": "alone",
+          "start": 96.7,
+          "end": 97.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 97.22,
+      "end": 103.04,
+      "duration": 5.82,
+      "text": "After that, she was very famous all over the world.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "After",
+          "start": 97.22,
+          "end": 98.08,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 99.22,
+          "end": 99.6,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 100.14,
+          "end": 100.32,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 100.32,
+          "end": 100.52,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 100.52,
+          "end": 100.88,
+          "matched": true
+        },
+        {
+          "text": "famous",
+          "start": 100.88,
+          "end": 101.42,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 101.42,
+          "end": 101.96,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 101.96,
+          "end": 102.34,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 102.34,
+          "end": 102.54,
+          "matched": true
+        },
+        {
+          "text": "world",
+          "start": 102.54,
+          "end": 102.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 104.352,
+      "end": 107.0,
+      "duration": 2.648,
+      "text": "Her face was on stamps in many countries.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Her",
+          "start": 104.36,
+          "end": 104.52,
+          "matched": true
+        },
+        {
+          "text": "face",
+          "start": 104.52,
+          "end": 104.88,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 104.88,
+          "end": 105.14,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 105.14,
+          "end": 105.34,
+          "matched": true
+        },
+        {
+          "text": "stamps",
+          "start": 105.34,
+          "end": 105.86,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 105.86,
+          "end": 106.24,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 106.24,
+          "end": 106.5,
+          "matched": true
+        },
+        {
+          "text": "countries",
+          "start": 106.5,
+          "end": 107.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 109.18,
+      "end": 119.72,
+      "duration": 10.54,
+      "text": "In the year 2000, there was a big celebration in London, and Valentina Tereshkova was named 'Woman of the Century'.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 109.18,
+          "end": 109.36,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 109.36,
+          "end": 109.5,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 109.5,
+          "end": 109.76,
+          "matched": true
+        },
+        {
+          "text": "2000",
+          "start": 109.76,
+          "end": 110.48,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 111.3,
+          "end": 111.52,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 111.52,
+          "end": 111.7,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 111.7,
+          "end": 111.9,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 111.9,
+          "end": 112.12,
+          "matched": true
+        },
+        {
+          "text": "celebration",
+          "start": 112.12,
+          "end": 112.78,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 112.78,
+          "end": 113.4,
+          "matched": true
+        },
+        {
+          "text": "London",
+          "start": 113.4,
+          "end": 113.82,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 114.74,
+          "end": 115.14,
+          "matched": true
+        },
+        {
+          "text": "Valentina",
+          "start": 115.14,
+          "end": 115.98,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 115.98,
+          "end": 116.9,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 116.9,
+          "end": 117.56,
+          "matched": true
+        },
+        {
+          "text": "named",
+          "start": 117.56,
+          "end": 117.94,
+          "matched": true
+        },
+        {
+          "text": "Woman",
+          "start": 118.42,
+          "end": 118.74,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 118.74,
+          "end": 119.16,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 119.16,
+          "end": 119.34,
+          "matched": true
+        },
+        {
+          "text": "Century",
+          "start": 119.34,
+          "end": 119.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 121.81,
+      "end": 132.832,
+      "duration": 11.022,
+      "text": "At the opening ceremony of the Winter Olympics in Russia in 2014, Valentina Tereshkova was one of the carriers of the Olympic flag.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "At",
+          "start": 121.81,
+          "end": 122.03,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 122.03,
+          "end": 122.17,
+          "matched": true
+        },
+        {
+          "text": "opening",
+          "start": 122.17,
+          "end": 122.45,
+          "matched": true
+        },
+        {
+          "text": "ceremony",
+          "start": 122.45,
+          "end": 123.03,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 123.03,
+          "end": 123.45,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 123.45,
+          "end": 123.59,
+          "matched": true
+        },
+        {
+          "text": "Winter",
+          "start": 123.59,
+          "end": 123.95,
+          "matched": true
+        },
+        {
+          "text": "Olympics",
+          "start": 123.95,
+          "end": 124.45,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 124.45,
+          "end": 124.95,
+          "matched": true
+        },
+        {
+          "text": "Russia",
+          "start": 124.95,
+          "end": 125.39,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 125.39,
+          "end": 125.85,
+          "matched": true
+        },
+        {
+          "text": "2014",
+          "start": 125.85,
+          "end": 126.69,
+          "matched": true
+        },
+        {
+          "text": "Valentina",
+          "start": 127.85,
+          "end": 128.69,
+          "matched": true
+        },
+        {
+          "text": "Tereshkova",
+          "start": 128.69,
+          "end": 129.61,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 129.61,
+          "end": 130.21,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 130.21,
+          "end": 130.45,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 130.45,
+          "end": 130.59,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 130.59,
+          "end": 130.73,
+          "matched": true
+        },
+        {
+          "text": "carriers",
+          "start": 130.73,
+          "end": 131.21,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 131.21,
+          "end": 131.69,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 131.69,
+          "end": 131.83,
+          "matched": true
+        },
+        {
+          "text": "Olympic",
+          "start": 131.83,
+          "end": 132.21,
+          "matched": true
+        },
+        {
+          "text": "flag",
+          "start": 132.21,
+          "end": 132.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 132.832,
+      "end": 136.85,
+      "duration": 4.018,
+      "text": "These were very important moments for her.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "These",
+          "start": 132.69,
+          "end": 133.45,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 134.33,
+          "end": 134.73,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 134.73,
+          "end": 135.09,
+          "matched": true
+        },
+        {
+          "text": "important",
+          "start": 135.09,
+          "end": 135.69,
+          "matched": true
+        },
+        {
+          "text": "moments",
+          "start": 135.69,
+          "end": 136.25,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 136.25,
+          "end": 136.67,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 136.67,
+          "end": 136.85,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1754 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p095.mp3",
+  "language": "en",
+  "duration": 129.541,
+  "report": {
+    "script_tokens": 211,
+    "matched_tokens": 209,
+    "asr_words": 220,
+    "coverage": 0.991,
+    "unmatched": [
+      "prize-giving",
+      "it's"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 7.64,
+      "end": 9.82,
+      "duration": 2.18,
+      "text": "Hi Will, how are you?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hi",
+          "start": 7.64,
+          "end": 8.04,
+          "matched": true
+        },
+        {
+          "text": "Will",
+          "start": 8.04,
+          "end": 8.42,
+          "matched": true
+        },
+        {
+          "text": "how",
+          "start": 9.16,
+          "end": 9.42,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 9.42,
+          "end": 9.54,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 9.54,
+          "end": 9.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 10.58,
+      "end": 11.32,
+      "duration": 0.74,
+      "text": "Are you better?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Are",
+          "start": 10.58,
+          "end": 10.84,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 10.84,
+          "end": 11.0,
+          "matched": true
+        },
+        {
+          "text": "better",
+          "start": 11.0,
+          "end": 11.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 11.94,
+      "end": 12.8,
+      "duration": 0.86,
+      "text": "Yes, thanks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 11.94,
+          "end": 12.34,
+          "matched": true
+        },
+        {
+          "text": "thanks",
+          "start": 12.54,
+          "end": 12.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 13.5,
+      "end": 18.176,
+      "duration": 4.676,
+      "text": "I was ill yesterday and the day before but I'm okay now.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 13.5,
+          "end": 13.94,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 13.94,
+          "end": 14.1,
+          "matched": true
+        },
+        {
+          "text": "ill",
+          "start": 14.1,
+          "end": 14.5,
+          "matched": true
+        },
+        {
+          "text": "yesterday",
+          "start": 14.5,
+          "end": 15.1,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 15.1,
+          "end": 15.54,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 15.54,
+          "end": 15.7,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 15.7,
+          "end": 15.94,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 15.94,
+          "end": 16.34,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 16.34,
+          "end": 16.84,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 16.84,
+          "end": 17.36,
+          "matched": true
+        },
+        {
+          "text": "okay",
+          "start": 17.36,
+          "end": 17.66,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 17.66,
+          "end": 18.04,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 18.5,
+      "end": 20.06,
+      "duration": 1.56,
+      "text": "Good, I'm pleased.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Good",
+          "start": 18.5,
+          "end": 18.9,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 19.46,
+          "end": 19.64,
+          "matched": true
+        },
+        {
+          "text": "pleased",
+          "start": 19.64,
+          "end": 20.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 20.96,
+      "end": 24.62,
+      "duration": 3.66,
+      "text": "So yesterday was the prize-giving at school, right?",
+      "confidence": 0.875,
+      "words": [
+        {
+          "text": "So",
+          "start": 20.96,
+          "end": 21.38,
+          "matched": true
+        },
+        {
+          "text": "yesterday",
+          "start": 21.38,
+          "end": 22.12,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 22.12,
+          "end": 22.64,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 22.64,
+          "end": 22.86,
+          "matched": true
+        },
+        {
+          "text": "prize-giving",
+          "start": 22.86,
+          "end": 23.28,
+          "matched": false
+        },
+        {
+          "text": "at",
+          "start": 23.62,
+          "end": 23.88,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 23.88,
+          "end": 24.28,
+          "matched": true
+        },
+        {
+          "text": "right",
+          "start": 24.34,
+          "end": 24.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 25.36,
+      "end": 26.02,
+      "duration": 0.66,
+      "text": "Was it good?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Was",
+          "start": 25.36,
+          "end": 25.58,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 25.58,
+          "end": 25.78,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 25.78,
+          "end": 26.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 26.6,
+      "end": 28.256,
+      "duration": 1.656,
+      "text": "No, it wasn't.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 26.6,
+          "end": 27.18,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 27.46,
+          "end": 27.54,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 27.54,
+          "end": 28.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 28.92,
+      "end": 30.38,
+      "duration": 1.46,
+      "text": "Well, not really.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 28.92,
+          "end": 29.28,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 29.64,
+          "end": 29.9,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 29.9,
+          "end": 30.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 31.26,
+      "end": 33.6,
+      "duration": 2.34,
+      "text": "There weren't many parents there.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 31.26,
+          "end": 31.65,
+          "matched": true
+        },
+        {
+          "text": "weren't",
+          "start": 31.65,
+          "end": 32.07,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 32.07,
+          "end": 32.35,
+          "matched": true
+        },
+        {
+          "text": "parents",
+          "start": 32.35,
+          "end": 32.99,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 32.99,
+          "end": 33.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 33.99,
+      "end": 34.65,
+      "duration": 0.66,
+      "text": "Oh really?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 33.99,
+          "end": 34.27,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 34.27,
+          "end": 34.65,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 35.584,
+      "end": 37.12,
+      "duration": 1.536,
+      "text": "There were lots last year.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 35.64,
+          "end": 35.74,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 35.74,
+          "end": 35.88,
+          "matched": true
+        },
+        {
+          "text": "lots",
+          "start": 35.88,
+          "end": 36.2,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 36.2,
+          "end": 36.58,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 36.58,
+          "end": 37.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 37.82,
+      "end": 39.584,
+      "duration": 1.764,
+      "text": "Were all the teachers there?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Were",
+          "start": 37.82,
+          "end": 38.2,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 38.2,
+          "end": 38.56,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 38.56,
+          "end": 38.7,
+          "matched": true
+        },
+        {
+          "text": "teachers",
+          "start": 38.7,
+          "end": 39.1,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 39.1,
+          "end": 39.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 40.096,
+      "end": 40.85,
+      "duration": 0.754,
+      "text": "Of course!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Of",
+          "start": 40.15,
+          "end": 40.31,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 40.31,
+          "end": 40.85,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 41.73,
+      "end": 44.21,
+      "duration": 2.48,
+      "text": "The teachers can't choose, can they?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 41.73,
+          "end": 41.91,
+          "matched": true
+        },
+        {
+          "text": "teachers",
+          "start": 41.91,
+          "end": 42.37,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 42.37,
+          "end": 42.93,
+          "matched": true
+        },
+        {
+          "text": "choose",
+          "start": 42.93,
+          "end": 43.33,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 43.57,
+          "end": 43.79,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 43.79,
+          "end": 44.21,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 45.33,
+      "end": 47.87,
+      "duration": 2.54,
+      "text": "No, and neither can the kids.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 45.33,
+          "end": 45.81,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 46.33,
+          "end": 46.55,
+          "matched": true
+        },
+        {
+          "text": "neither",
+          "start": 46.55,
+          "end": 46.99,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 46.99,
+          "end": 47.35,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 47.35,
+          "end": 47.51,
+          "matched": true
+        },
+        {
+          "text": "kids",
+          "start": 47.51,
+          "end": 47.87,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 48.82,
+      "end": 51.584,
+      "duration": 2.764,
+      "text": "Anyway, who were the big winners this year?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Anyway",
+          "start": 48.82,
+          "end": 49.18,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 49.7,
+          "end": 49.94,
+          "matched": true
+        },
+        {
+          "text": "were",
+          "start": 49.94,
+          "end": 50.1,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 50.1,
+          "end": 50.18,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 50.18,
+          "end": 50.48,
+          "matched": true
+        },
+        {
+          "text": "winners",
+          "start": 50.48,
+          "end": 50.78,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 50.78,
+          "end": 51.18,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 51.18,
+          "end": 51.52,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 52.15,
+      "end": 58.752,
+      "duration": 6.602,
+      "text": "Well, the best student of the year for the whole school was Sandra Hammond.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 52.15,
+          "end": 52.61,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 53.31,
+          "end": 53.47,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 53.47,
+          "end": 53.81,
+          "matched": true
+        },
+        {
+          "text": "student",
+          "start": 53.81,
+          "end": 54.47,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 54.47,
+          "end": 54.83,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 54.83,
+          "end": 54.97,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 54.97,
+          "end": 55.43,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 55.43,
+          "end": 55.79,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 55.79,
+          "end": 55.95,
+          "matched": true
+        },
+        {
+          "text": "whole",
+          "start": 55.95,
+          "end": 56.29,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 56.29,
+          "end": 56.95,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 56.95,
+          "end": 57.45,
+          "matched": true
+        },
+        {
+          "text": "Sandra",
+          "start": 57.45,
+          "end": 58.03,
+          "matched": true
+        },
+        {
+          "text": "Hammond",
+          "start": 58.03,
+          "end": 58.65,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 59.36,
+      "end": 60.03,
+      "duration": 0.67,
+      "text": "Sandra?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Sandra",
+          "start": 59.45,
+          "end": 60.03,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 60.75,
+      "end": 63.33,
+      "duration": 2.58,
+      "text": "Was she the best student last year too?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Was",
+          "start": 60.75,
+          "end": 61.11,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 61.11,
+          "end": 61.33,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 61.33,
+          "end": 61.47,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 61.47,
+          "end": 61.73,
+          "matched": true
+        },
+        {
+          "text": "student",
+          "start": 61.73,
+          "end": 62.25,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 62.25,
+          "end": 62.67,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 62.67,
+          "end": 63.03,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 63.03,
+          "end": 63.33,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 64.05,
+      "end": 65.45,
+      "duration": 1.4,
+      "text": "No, she wasn't.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 64.05,
+          "end": 64.49,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 64.73,
+          "end": 64.89,
+          "matched": true
+        },
+        {
+          "text": "wasn't",
+          "start": 64.89,
+          "end": 65.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 66.01,
+      "end": 67.59,
+      "duration": 1.58,
+      "text": "It was her brother Tom.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 66.01,
+          "end": 66.21,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 66.21,
+          "end": 66.39,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 66.39,
+          "end": 66.61,
+          "matched": true
+        },
+        {
+          "text": "brother",
+          "start": 66.61,
+          "end": 67.11,
+          "matched": true
+        },
+        {
+          "text": "Tom",
+          "start": 67.37,
+          "end": 67.59,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 68.56,
+      "end": 72.864,
+      "duration": 4.304,
+      "text": "This year, Tom was the best sports person in the school.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 68.56,
+          "end": 69.02,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 69.02,
+          "end": 69.38,
+          "matched": true
+        },
+        {
+          "text": "Tom",
+          "start": 69.72,
+          "end": 69.9,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 69.9,
+          "end": 70.22,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 70.22,
+          "end": 70.38,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 70.38,
+          "end": 70.72,
+          "matched": true
+        },
+        {
+          "text": "sports",
+          "start": 70.72,
+          "end": 71.28,
+          "matched": true
+        },
+        {
+          "text": "person",
+          "start": 71.28,
+          "end": 71.96,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 71.96,
+          "end": 72.22,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 72.22,
+          "end": 72.38,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 72.38,
+          "end": 72.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 73.24,
+      "end": 74.6,
+      "duration": 1.36,
+      "text": "Oh, the Hammonds!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 73.24,
+          "end": 73.68,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 73.8,
+          "end": 73.94,
+          "matched": true
+        },
+        {
+          "text": "Hammonds",
+          "start": 73.94,
+          "end": 74.6,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 75.28,
+      "end": 77.26,
+      "duration": 1.98,
+      "text": "They always win everything!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 75.28,
+          "end": 75.5,
+          "matched": true
+        },
+        {
+          "text": "always",
+          "start": 75.5,
+          "end": 76.04,
+          "matched": true
+        },
+        {
+          "text": "win",
+          "start": 76.04,
+          "end": 76.48,
+          "matched": true
+        },
+        {
+          "text": "everything",
+          "start": 76.48,
+          "end": 77.26,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 78.0,
+      "end": 78.68,
+      "duration": 0.68,
+      "text": "Boring!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Boring",
+          "start": 78.0,
+          "end": 78.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 79.42,
+      "end": 81.84,
+      "duration": 2.42,
+      "text": "I know, but it's okay.",
+      "confidence": 0.8,
+      "words": [
+        {
+          "text": "I",
+          "start": 79.42,
+          "end": 79.84,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 79.84,
+          "end": 80.24,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 80.82,
+          "end": 81.18,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 81.18,
+          "end": 81.18,
+          "matched": false
+        },
+        {
+          "text": "okay",
+          "start": 81.18,
+          "end": 81.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 82.68,
+      "end": 87.06,
+      "duration": 4.38,
+      "text": "They're leaving at the end of term, so next year, who knows?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They're",
+          "start": 82.68,
+          "end": 83.04,
+          "matched": true
+        },
+        {
+          "text": "leaving",
+          "start": 83.04,
+          "end": 83.38,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 83.38,
+          "end": 83.68,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 83.68,
+          "end": 83.8,
+          "matched": true
+        },
+        {
+          "text": "end",
+          "start": 83.8,
+          "end": 83.98,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 83.98,
+          "end": 84.14,
+          "matched": true
+        },
+        {
+          "text": "term",
+          "start": 84.14,
+          "end": 84.52,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 84.9,
+          "end": 85.22,
+          "matched": true
+        },
+        {
+          "text": "next",
+          "start": 85.22,
+          "end": 85.66,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 85.66,
+          "end": 86.06,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 86.5,
+          "end": 86.74,
+          "matched": true
+        },
+        {
+          "text": "knows",
+          "start": 86.74,
+          "end": 87.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 87.68,
+      "end": 88.58,
+      "duration": 0.9,
+      "text": "Maybe you!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Maybe",
+          "start": 87.8,
+          "end": 88.08,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 88.08,
+          "end": 88.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 89.06,
+      "end": 90.7,
+      "duration": 1.64,
+      "text": "You're joking of course.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You're",
+          "start": 89.06,
+          "end": 89.48,
+          "matched": true
+        },
+        {
+          "text": "joking",
+          "start": 89.48,
+          "end": 90.1,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 90.26,
+          "end": 90.44,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 90.44,
+          "end": 90.7,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 91.42,
+      "end": 92.98,
+      "duration": 1.56,
+      "text": "I'm never the best at anything.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 91.42,
+          "end": 91.68,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 91.68,
+          "end": 91.9,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 91.9,
+          "end": 92.06,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 92.06,
+          "end": 92.4,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 92.4,
+          "end": 92.6,
+          "matched": true
+        },
+        {
+          "text": "anything",
+          "start": 92.6,
+          "end": 92.98,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 93.9,
+      "end": 98.74,
+      "duration": 4.84,
+      "text": "Well, anyway, guess who the best science student was?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 93.9,
+          "end": 94.3,
+          "matched": true
+        },
+        {
+          "text": "anyway",
+          "start": 94.54,
+          "end": 94.94,
+          "matched": true
+        },
+        {
+          "text": "guess",
+          "start": 95.8,
+          "end": 96.06,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 96.06,
+          "end": 96.44,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 96.44,
+          "end": 96.58,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 96.58,
+          "end": 96.96,
+          "matched": true
+        },
+        {
+          "text": "science",
+          "start": 96.96,
+          "end": 97.74,
+          "matched": true
+        },
+        {
+          "text": "student",
+          "start": 97.74,
+          "end": 98.3,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 98.3,
+          "end": 98.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 99.424,
+      "end": 100.22,
+      "duration": 0.796,
+      "text": "No idea.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 99.48,
+          "end": 99.82,
+          "matched": true
+        },
+        {
+          "text": "idea",
+          "start": 99.82,
+          "end": 100.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 101.344,
+      "end": 102.496,
+      "duration": 1.152,
+      "text": "Andy Clarkson?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Andy",
+          "start": 101.35,
+          "end": 101.69,
+          "matched": true
+        },
+        {
+          "text": "Clarkson",
+          "start": 101.69,
+          "end": 102.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 102.79,
+      "end": 104.64,
+      "duration": 1.85,
+      "text": "No, me!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 102.79,
+          "end": 103.37,
+          "matched": true
+        },
+        {
+          "text": "me",
+          "start": 104.22,
+          "end": 104.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 105.28,
+      "end": 105.8,
+      "duration": 0.52,
+      "text": "You?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 105.3,
+          "end": 105.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 106.49,
+      "end": 107.11,
+      "duration": 0.62,
+      "text": "Really?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Really",
+          "start": 106.49,
+          "end": 107.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 107.95,
+      "end": 108.89,
+      "duration": 0.94,
+      "text": "Well done!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 107.95,
+          "end": 108.43,
+          "matched": true
+        },
+        {
+          "text": "done",
+          "start": 108.43,
+          "end": 108.89,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 109.33,
+      "end": 110.17,
+      "duration": 0.84,
+      "text": "That's fantastic!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "That's",
+          "start": 109.33,
+          "end": 109.57,
+          "matched": true
+        },
+        {
+          "text": "fantastic",
+          "start": 109.57,
+          "end": 110.17,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 111.01,
+      "end": 112.608,
+      "duration": 1.598,
+      "text": "I'm proud of you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 111.01,
+          "end": 111.49,
+          "matched": true
+        },
+        {
+          "text": "proud",
+          "start": 111.49,
+          "end": 111.87,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 111.87,
+          "end": 112.17,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 112.17,
+          "end": 112.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 113.19,
+      "end": 114.97,
+      "duration": 1.78,
+      "text": "Was the prize something nice?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Was",
+          "start": 113.19,
+          "end": 113.45,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 113.45,
+          "end": 113.65,
+          "matched": true
+        },
+        {
+          "text": "prize",
+          "start": 113.65,
+          "end": 114.09,
+          "matched": true
+        },
+        {
+          "text": "something",
+          "start": 114.09,
+          "end": 114.57,
+          "matched": true
+        },
+        {
+          "text": "nice",
+          "start": 114.57,
+          "end": 114.97,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 115.47,
+      "end": 116.96,
+      "duration": 1.49,
+      "text": "Yes, it was.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 115.47,
+          "end": 115.89,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 116.23,
+          "end": 116.39,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 116.39,
+          "end": 116.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 117.64,
+      "end": 119.28,
+      "duration": 1.64,
+      "text": "A book about science.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 117.64,
+          "end": 117.84,
+          "matched": true
+        },
+        {
+          "text": "book",
+          "start": 117.84,
+          "end": 118.14,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 118.14,
+          "end": 118.54,
+          "matched": true
+        },
+        {
+          "text": "science",
+          "start": 118.54,
+          "end": 119.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 119.83,
+      "end": 121.82,
+      "duration": 1.99,
+      "text": "I really want to read it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 119.83,
+          "end": 120.18,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 120.18,
+          "end": 120.7,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 120.7,
+          "end": 121.06,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 121.06,
+          "end": 121.34,
+          "matched": true
+        },
+        {
+          "text": "read",
+          "start": 121.34,
+          "end": 121.56,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 121.56,
+          "end": 121.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 122.26,
+      "end": 123.78,
+      "duration": 1.52,
+      "text": "Good for you, Alice.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Good",
+          "start": 122.26,
+          "end": 122.62,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 122.62,
+          "end": 122.92,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 122.92,
+          "end": 123.26,
+          "matched": true
+        },
+        {
+          "text": "Alice",
+          "start": 123.48,
+          "end": 123.78,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 124.22,
+      "end": 124.84,
+      "duration": 0.62,
+      "text": "Well done.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Well",
+          "start": 124.22,
+          "end": 124.42,
+          "matched": true
+        },
+        {
+          "text": "done",
+          "start": 124.42,
+          "end": 124.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "start": 125.38,
+      "end": 126.2,
+      "duration": 0.82,
+      "text": "Thanks, Will.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thanks",
+          "start": 125.38,
+          "end": 125.8,
+          "matched": true
+        },
+        {
+          "text": "Will",
+          "start": 125.94,
+          "end": 126.2,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}
