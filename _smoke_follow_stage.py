@@ -2,7 +2,7 @@
 """篇章三页拆分 v2 验证（预习/复习/听写 84 页）
 
 覆盖（2026-10-16 定案）：
-- 复习页 p066：逐句跟读 + 间隙生词提示 + 完成落盘 + 三页互链
+- 复习页 p067：逐句跟读 + 间隙生词提示 + 完成落盘 + 三页互链
 - 预习页 p085：盲听 + 常驻答题板（4 题）+ 下划线/画圈标记工具 + ≥75% 记完成
 - 复习页 p113：句级时间轴与原文句子数一致 + 间隙可用
 - 听写页 p088：抽句（3/5/段落）+ 三方式入口（键盘/稿纸/听写本）
@@ -44,11 +44,11 @@ with sync_playwright() as p:
     chk("深链页无 JS 异常", len(errs) == 0, str(errs[:3]))
     ctx.close()
 
-    # ── [B] 复习页 p066：逐句跟读 + 间隙生词提示 ──
-    print("[B] 复习页 p066（逐句跟读流程）")
+    # ── [B] 复习页 p067：逐句跟读 + 间隙生词提示 ──
+    print("[B] 复习页 p067（逐句跟读流程）")
     errs = []
     ctx, pg = new_page(b, errs)
-    pg.goto(BASE + "/篇章页/复习_066_livingforsport.html", wait_until="domcontentloaded")
+    pg.goto(BASE + "/篇章页/复习_067_sportwonders.html", wait_until="domcontentloaded")
     pg.wait_for_timeout(800)
     print("[B0] 直开复习页 URL:", pg.url)
     n = pg.eval_on_selector_all("#fpass .fpc", "es=>es.length")
@@ -56,10 +56,10 @@ with sync_playwright() as p:
     titles = pg.eval_on_selector_all("#fpass .fpc", "es=>es.map(e=>e.getAttribute('title')||'')")
     chk("芯片语义 = 逐句跟读", "逐句跟读" in (titles[0] if titles else ""), " | ".join(t[:18] for t in titles))
     tl = pg.evaluate("()=>{var a=TL[state.pg]; return {n:a.length, first:[+a[0][0].toFixed(3),+a[0][1].toFixed(3)]};}")
-    chk("pg66 有句级时间轴", tl["n"] > 0, "句数=%s" % tl["n"])
+    chk("pg67 有句级时间轴", tl["n"] > 0, "句数=%s" % tl["n"])
     chk("第 1 句区间有效", tl["first"][0] < tl["first"][1], str(tl["first"]))
     chk("句数与原文一致", pg.evaluate("()=>SEGS.length===TL[state.pg].length"))
-    chk("三页互链注入", pg.evaluate("()=>SIBLINGS.listen.indexOf('预习_066_')===0 && SIBLINGS.follow.indexOf('复习_066_')===0 && SIBLINGS.dictate.indexOf('听写_066_')===0"),
+    chk("三页互链注入", pg.evaluate("()=>SIBLINGS.listen.indexOf('预习_067_')===0 && SIBLINGS.follow.indexOf('复习_067_')===0 && SIBLINGS.dictate.indexOf('听写_067_')===0"),
         json.dumps(pg.evaluate("()=>SIBLINGS"), ensure_ascii=False))
 
     print("[B1] 间隙生词提示（方案A）")

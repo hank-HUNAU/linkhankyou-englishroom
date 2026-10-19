@@ -64,8 +64,8 @@ for pg in pages:
     files[str(pg)] = siblings
     print("p%s → %s" % (p3, " / ".join(siblings[x] for x in STAGES)))
 
-assert len(files) == 28, "篇目数应为 28，实际 %d" % len(files)
-assert len(os.listdir(OUT)) == 84, "篇章页 应为 84 个文件，实际 %d" % len(os.listdir(OUT))
+assert len(files) == 25, "篇目数应为 25，实际 %d" % len(files)
+assert len(os.listdir(OUT)) == 75, "篇章页 应为 75 个文件，实际 %d" % len(os.listdir(OUT))
 
 # ---- 回写主站 ==FOLLOW-FILES== 块（三页结构 + FOLLOW_META 同 v1） ----
 site = open(IDX, encoding="utf-8").read()
