@@ -1,0 +1,530 @@
+{
+ "p048": [
+  {
+   "i": 0,
+   "start_s": 10.21,
+   "end_s": 14.88,
+   "dur_s": 4.67,
+   "text": "Our school has a Robotics Club and it's brilliant.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 15.67,
+   "end_s": 19.307,
+   "dur_s": 3.637,
+   "text": "I know this because I go to it!",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 20.41,
+   "end_s": 23.417,
+   "dur_s": 3.007,
+   "text": "So, what is a Robotics Club?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 23.96,
+   "end_s": 31.02,
+   "dur_s": 7.06,
+   "text": "Easy – it's a club for building robots and I love robots.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 32.22,
+   "end_s": 35.36,
+   "dur_s": 3.14,
+   "text": "Mr Thomas is the club leader.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 36.12,
+   "end_s": 41.72,
+   "dur_s": 5.6,
+   "text": "He thinks of things for us to do and helps us build our robots.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 41.72,
+   "end_s": 46.02,
+   "dur_s": 4.3,
+   "text": "He's really cool and very kind.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 46.02,
+   "end_s": 49.168,
+   "dur_s": 3.148,
+   "text": "He never gets angry with us.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 50.12,
+   "end_s": 59.86,
+   "dur_s": 9.74,
+   "text": "He teaches Music (not Design and Technology!), but he just loves everything to do with computers.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 61.34,
+   "end_s": 70.28,
+   "dur_s": 8.94,
+   "text": "We often make our own robots, but we sometimes watch videos of other robots on the internet.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 70.84,
+   "end_s": 77.62,
+   "dur_s": 6.78,
+   "text": "When our robot is ready, we use computer programs to make it do things.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 77.62,
+   "end_s": 84.5,
+   "dur_s": 6.88,
+   "text": "Every year there is a competition for schools all over the country.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 85.62,
+   "end_s": 91.64,
+   "dur_s": 6.02,
+   "text": "I feel really excited when we show our robots to students from other schools.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 91.64,
+   "end_s": 96.12,
+   "dur_s": 4.48,
+   "text": "We never win, but that's not important.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 97.24,
+   "end_s": 101.6,
+   "dur_s": 4.36,
+   "text": "The other students like watching our robot move.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 101.6,
+   "end_s": 103.78,
+   "dur_s": 2.18,
+   "text": "It feels great.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 103.78,
+   "end_s": 107.62,
+   "dur_s": 3.84,
+   "text": "I love Robotics Club.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 107.62,
+   "end_s": 111.46,
+   "dur_s": 3.84,
+   "text": "It's a great place to meet new people.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 111.46,
+   "end_s": 117.76,
+   "dur_s": 6.3,
+   "text": "You make so many friends and not just with people from school.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 117.62,
+   "end_s": 121.18,
+   "dur_s": 3.56,
+   "text": "Robotics Club is for everyone.",
+   "confidence": 1.0
+  },
+  {
+   "i": 20,
+   "start_s": 121.78,
+   "end_s": 130.18,
+   "dur_s": 8.4,
+   "text": "We meet in the school hall every Monday at lunchtime and every Thursday after school.",
+   "confidence": 1.0
+  },
+  {
+   "i": 21,
+   "start_s": 130.18,
+   "end_s": 136.36,
+   "dur_s": 6.18,
+   "text": "Come and see us – we're always happy to see new people!",
+   "confidence": 1.0
+  }
+ ],
+ "p051": [
+  {
+   "i": 0,
+   "start_s": 8.96,
+   "end_s": 14.698,
+   "dur_s": 5.738,
+   "text": "My favourite piece of technology is my phone. I love it.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 15.38,
+   "end_s": 18.06,
+   "dur_s": 2.68,
+   "text": "I use it for so many things.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 18.58,
+   "end_s": 21.7,
+   "dur_s": 3.12,
+   "text": "I use it to text my friends.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 22.44,
+   "end_s": 24.8,
+   "dur_s": 2.36,
+   "text": "I use it to play games.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 25.56,
+   "end_s": 29.54,
+   "dur_s": 3.98,
+   "text": "I sometimes use it to help me with my homework.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 29.54,
+   "end_s": 36.86,
+   "dur_s": 7.32,
+   "text": "I use it for lots of things, but I don't use it in class.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 40.58,
+   "end_s": 46.74,
+   "dur_s": 6.16,
+   "text": "I love my virtual reality headset. It's so cool.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 47.38,
+   "end_s": 50.26,
+   "dur_s": 2.88,
+   "text": "I feel that I'm really in the game.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 50.94,
+   "end_s": 56.28,
+   "dur_s": 5.34,
+   "text": "I don't play games on my TV because they don't feel as real.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 57.551,
+   "end_s": 62.566,
+   "dur_s": 5.015,
+   "text": "The headset is very easy to wear, and it never hurts my head.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 63.38,
+   "end_s": 67.3,
+   "dur_s": 3.92,
+   "text": "The only problem is that the games are very expensive.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 72.48,
+   "end_s": 78.182,
+   "dur_s": 5.702,
+   "text": "My tablet is brilliant. It was my birthday present this year.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 78.7,
+   "end_s": 80.42,
+   "dur_s": 1.72,
+   "text": "What a great present.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 81.24,
+   "end_s": 91.417,
+   "dur_s": 10.177,
+   "text": "It's very thin and it doesn't feel heavy, but it's got a big screen, so it's great for watching films and playing games.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 92.2,
+   "end_s": 99.823,
+   "dur_s": 7.623,
+   "text": "My mum and dad always want to use it, so I have a special place to put it where they can't find it.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 104.14,
+   "end_s": 109.24,
+   "dur_s": 5.1,
+   "text": "My favourite things are my headphones. I love music.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 109.84,
+   "end_s": 112.106,
+   "dur_s": 2.266,
+   "text": "I listen to it all the time.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 112.92,
+   "end_s": 118.44,
+   "dur_s": 5.52,
+   "text": "My mum often wants the radio on, but we don't like the same kind of music.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 119.62,
+   "end_s": 122.48,
+   "dur_s": 2.86,
+   "text": "With my headphones, it's no problem.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 123.2,
+   "end_s": 128.9,
+   "dur_s": 5.7,
+   "text": "I listen to cool music, and she listens to the old music that she likes.",
+   "confidence": 1.0
+  }
+ ],
+ "p052": [
+  {
+   "i": 0,
+   "start_s": 10.08,
+   "end_s": 17.543,
+   "dur_s": 7.463,
+   "text": "How many hours do you look at a TV, phone, tablet or computer every day?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 30.7,
+   "end_s": 33.948,
+   "dur_s": 3.248,
+   "text": "Do you check your phone before school?",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 44.9,
+   "end_s": 49.424,
+   "dur_s": 4.524,
+   "text": "Do you worry when your phone or tablet has no power?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 60.04,
+   "end_s": 64.58,
+   "dur_s": 4.54,
+   "text": "Do you watch TV before you do your homework?",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 75.38,
+   "end_s": 80.55,
+   "dur_s": 5.17,
+   "text": "Does your family ever say that you use your phone too much?",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 81.86,
+   "end_s": 87.731,
+   "dur_s": 5.871,
+   "text": "5 to 9 – No, you don't need a break! You use it well.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 88.04,
+   "end_s": 88.319,
+   "dur_s": 0.279,
+   "text": "10 to 12 – You're not too bad, but be careful!",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 88.419,
+   "end_s": 88.92,
+   "dur_s": 0.501,
+   "text": "13 to 15 – Yes, you do. You need a break from tech! Do something different!",
+   "confidence": 1.0
+  }
+ ],
+ "p054": [
+  {
+   "i": 0,
+   "start_s": 7.26,
+   "end_s": 9.94,
+   "dur_s": 2.68,
+   "text": "Hey, Liz. What's wrong?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 10.58,
+   "end_s": 12.04,
+   "dur_s": 1.46,
+   "text": "I've got a cold.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 12.98,
+   "end_s": 18.34,
+   "dur_s": 5.36,
+   "text": "So? Everyone gets a cold sometimes. What's the problem?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 19.12,
+   "end_s": 26.08,
+   "dur_s": 6.96,
+   "text": "The problem? The problem is, there's the school concert tomorrow. And I'm the singer!",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 26.8,
+   "end_s": 29.14,
+   "dur_s": 2.34,
+   "text": "I'm sure you can still sing.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 29.68,
+   "end_s": 33.34,
+   "dur_s": 3.66,
+   "text": "No way, Claudio! Listen to my voice!",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 34.02,
+   "end_s": 40.36,
+   "dur_s": 6.34,
+   "text": "She's right. This really is a problem. Oh, Liz, I'm sorry.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 41.14,
+   "end_s": 44.88,
+   "dur_s": 3.74,
+   "text": "Don't worry, Liz. We're here to help you.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 45.34,
+   "end_s": 46.5,
+   "dur_s": 1.16,
+   "text": "How, Claudio?",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 47.14,
+   "end_s": 48.02,
+   "dur_s": 0.88,
+   "text": "I don't know!",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 48.78,
+   "end_s": 56.448,
+   "dur_s": 7.668,
+   "text": "Just a minute. I've got an idea. Lucy, you can sing, can't you?",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 56.92,
+   "end_s": 61.5,
+   "dur_s": 4.58,
+   "text": "A little, Liz. But I can't sing with a band.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 62.264,
+   "end_s": 67.86,
+   "dur_s": 5.596,
+   "text": "Oh, come on, Lucy. You can do it. You're a great singer.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 68.56,
+   "end_s": 78.56,
+   "dur_s": 10.0,
+   "text": "OK, I'll do it for you, Liz. But this is crazy! OK, what are the songs?",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 79.4,
+   "end_s": 83.08,
+   "dur_s": 3.68,
+   "text": "I'll tell you later. You're the best, Lucy!",
+   "confidence": 1.0
+  }
+ ]
+}

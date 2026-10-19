@@ -1,0 +1,82 @@
+# Unit 5 句级时间轴产出摘要
+
+## p048  阅读A · Robotics Club is cool!
+- 句数 22，首句 10.210s，末句 136.360s
+
+   0    10.210 -   14.880  Our school has a Robotics Club and it's brilliant.
+   1    15.670 -   19.307  I know this because I go to it!
+   2    20.410 -   23.417  So, what is a Robotics Club?
+   3    23.960 -   31.020  Easy – it's a club for building robots and I love robots.
+   4    32.220 -   35.360  Mr Thomas is the club leader.
+   5    36.120 -   41.720  He thinks of things for us to do and helps us build our robots.
+   6    41.720 -   46.020  He's really cool and very kind.
+   7    46.020 -   49.168  He never gets angry with us.
+   8    50.120 -   59.860  He teaches Music (not Design and Technology!), but he just loves everything to do with computers.
+   9    61.340 -   70.280  We often make our own robots, but we sometimes watch videos of other robots on the internet.
+  10    70.840 -   77.620  When our robot is ready, we use computer programs to make it do things.
+  11    77.620 -   84.500  Every year there is a competition for schools all over the country.
+  12    85.620 -   91.640  I feel really excited when we show our robots to students from other schools.
+  13    91.640 -   96.120  We never win, but that's not important.
+  14    97.240 -  101.600  The other students like watching our robot move.
+  15   101.600 -  103.780  It feels great.
+  16   103.780 -  107.620  I love Robotics Club.
+  17   107.620 -  111.460  It's a great place to meet new people.
+  18   111.460 -  117.760  You make so many friends and not just with people from school.
+  19   117.620 -  121.180  Robotics Club is for everyone.
+  20   121.780 -  130.180  We meet in the school hall every Monday at lunchtime and every Thursday after school.
+  21   130.180 -  136.360  Come and see us – we're always happy to see new people!
+
+## p051  听力 · Favourite technology
+- 句数 20，首句 8.960s，末句 128.900s
+
+   0     8.960 -   14.698  My favourite piece of technology is my phone. I love it.
+   1    15.380 -   18.060  I use it for so many things.
+   2    18.580 -   21.700  I use it to text my friends.
+   3    22.440 -   24.800  I use it to play games.
+   4    25.560 -   29.540  I sometimes use it to help me with my homework.
+   5    29.540 -   36.860  I use it for lots of things, but I don't use it in class.
+   6    40.580 -   46.740  I love my virtual reality headset. It's so cool.
+   7    47.380 -   50.260  I feel that I'm really in the game.
+   8    50.940 -   56.280  I don't play games on my TV because they don't feel as real.
+   9    57.551 -   62.566  The headset is very easy to wear, and it never hurts my head.
+  10    63.380 -   67.300  The only problem is that the games are very expensive.
+  11    72.480 -   78.182  My tablet is brilliant. It was my birthday present this year.
+  12    78.700 -   80.420  What a great present.
+  13    81.240 -   91.417  It's very thin and it doesn't feel heavy, but it's got a big screen, so it's great for watching films and playing games.
+  14    92.200 -   99.823  My mum and dad always want to use it, so I have a special place to put it where they can't find it.
+  15   104.140 -  109.240  My favourite things are my headphones. I love music.
+  16   109.840 -  112.106  I listen to it all the time.
+  17   112.920 -  118.440  My mum often wants the radio on, but we don't like the same kind of music.
+  18   119.620 -  122.480  With my headphones, it's no problem.
+  19   123.200 -  128.900  I listen to cool music, and she listens to the old music that she likes.
+
+## p052  阅读B · Do you need a tech break?
+- 句数 8，首句 10.080s，末句 88.920s
+
+   0    10.080 -   17.543  How many hours do you look at a TV, phone, tablet or computer every day?
+   1    30.700 -   33.948  Do you check your phone before school?
+   2    44.900 -   49.424  Do you worry when your phone or tablet has no power?
+   3    60.040 -   64.580  Do you watch TV before you do your homework?
+   4    75.380 -   80.550  Does your family ever say that you use your phone too much?
+   5    81.860 -   87.731  5 to 9 – No, you don't need a break! You use it well.
+   6    88.040 -   88.319  10 to 12 – You're not too bad, but be careful!
+   7    88.419 -   88.920  13 to 15 – Yes, you do. You need a break from tech! Do something different!
+
+## p054  口语 · The school concert
+- 句数 15，首句 7.260s，末句 83.080s
+
+   0     7.260 -    9.940  Hey, Liz. What's wrong?
+   1    10.580 -   12.040  I've got a cold.
+   2    12.980 -   18.340  So? Everyone gets a cold sometimes. What's the problem?
+   3    19.120 -   26.080  The problem? The problem is, there's the school concert tomorrow. And I'm the singer!
+   4    26.800 -   29.140  I'm sure you can still sing.
+   5    29.680 -   33.340  No way, Claudio! Listen to my voice!
+   6    34.020 -   40.360  She's right. This really is a problem. Oh, Liz, I'm sorry.
+   7    41.140 -   44.880  Don't worry, Liz. We're here to help you.
+   8    45.340 -   46.500  How, Claudio?
+   9    47.140 -   48.020  I don't know!
+  10    48.780 -   56.448  Just a minute. I've got an idea. Lucy, you can sing, can't you?
+  11    56.920 -   61.500  A little, Liz. But I can't sing with a band.
+  12    62.264 -   67.860  Oh, come on, Lucy. You can do it. You're a great singer.
+  13    68.560 -   78.560  OK, I'll do it for you, Liz. But this is crazy! OK, what are the songs?
+  14    79.400 -   83.080  I'll tell you later. You're the best, Lucy!

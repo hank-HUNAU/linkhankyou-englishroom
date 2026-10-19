@@ -1,0 +1,738 @@
+{
+ "p056": [
+  {
+   "i": 0,
+   "start_s": 9.1,
+   "end_s": 10.8,
+   "dur_s": 1.7,
+   "text": "Julia is 11.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 11.68,
+   "end_s": 17.8,
+   "dur_s": 6.12,
+   "text": "She has got curly, brown hair, brown eyes and a big smile.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 18.88,
+   "end_s": 21.28,
+   "dur_s": 2.4,
+   "text": "She's got a lot of friends at school.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 22.24,
+   "end_s": 24.4,
+   "dur_s": 2.16,
+   "text": "All her classmates like her.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 25.3,
+   "end_s": 32.125,
+   "dur_s": 6.825,
+   "text": "At lunchtime, Julia always goes to the school canteen and buys her lunch.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 33.12,
+   "end_s": 36.68,
+   "dur_s": 3.56,
+   "text": "Her friend, Jack, doesn't buy any food.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 37.46,
+   "end_s": 39.76,
+   "dur_s": 2.3,
+   "text": "He just drinks a glass of water.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 40.86,
+   "end_s": 45.14,
+   "dur_s": 4.28,
+   "text": "Jack does this every day, and Julia is worried.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 46.18,
+   "end_s": 50.34,
+   "dur_s": 4.16,
+   "text": "One day, she asks Jack, 'Are you hungry?'",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 51.12,
+   "end_s": 53.232,
+   "dur_s": 2.112,
+   "text": "'Yes,' says Jack.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 53.74,
+   "end_s": 57.783,
+   "dur_s": 4.043,
+   "text": "'But you don't eat at school,' says Julia.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 58.5,
+   "end_s": 62.485,
+   "dur_s": 3.985,
+   "text": "'I haven't got any money for lunch,' says Jack.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 63.06,
+   "end_s": 66.885,
+   "dur_s": 3.825,
+   "text": "'My dad hasn't got a job and my mum's ill.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 67.64,
+   "end_s": 69.34,
+   "dur_s": 1.7,
+   "text": "They've got lots of problems.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 69.62,
+   "end_s": 73.1,
+   "dur_s": 3.48,
+   "text": "But don't worry about me – I'm OK.'",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 74.88,
+   "end_s": 76.997,
+   "dur_s": 2.117,
+   "text": "Julia thinks about this.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 77.82,
+   "end_s": 80.76,
+   "dur_s": 2.94,
+   "text": "At home, she's got a big glass jar.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 81.5,
+   "end_s": 82.98,
+   "dur_s": 1.48,
+   "text": "It's full of coins.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 83.9,
+   "end_s": 87.249,
+   "dur_s": 3.349,
+   "text": "She wants to buy an electric scooter one day.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 88.6,
+   "end_s": 96.16,
+   "dur_s": 7.56,
+   "text": "That night, Julia opens the jar, takes the coins and puts them into a bag.",
+   "confidence": 1.0
+  },
+  {
+   "i": 20,
+   "start_s": 97.26,
+   "end_s": 98.569,
+   "dur_s": 1.309,
+   "text": "Her mum sees her.",
+   "confidence": 1.0
+  },
+  {
+   "i": 21,
+   "start_s": 99.26,
+   "end_s": 102.26,
+   "dur_s": 3.0,
+   "text": "'Why are you doing that?' she asks.",
+   "confidence": 1.0
+  },
+  {
+   "i": 22,
+   "start_s": 103.26,
+   "end_s": 109.296,
+   "dur_s": 6.036,
+   "text": "'My friend Jack hasn't got any lunch money and I've got some money here.",
+   "confidence": 1.0
+  },
+  {
+   "i": 23,
+   "start_s": 109.24,
+   "end_s": 110.7,
+   "dur_s": 1.46,
+   "text": "This is for him.'",
+   "confidence": 1.0
+  },
+  {
+   "i": 24,
+   "start_s": 111.54,
+   "end_s": 115.252,
+   "dur_s": 3.712,
+   "text": "'That's very kind of you,' says her mum.",
+   "confidence": 1.0
+  },
+  {
+   "i": 25,
+   "start_s": 116.08,
+   "end_s": 119.455,
+   "dur_s": 3.375,
+   "text": "She feels happy that her daughter wants to do this.",
+   "confidence": 1.0
+  },
+  {
+   "i": 26,
+   "start_s": 120.36,
+   "end_s": 125.22,
+   "dur_s": 4.86,
+   "text": "The next day, Julia and her mum go and see her teacher.",
+   "confidence": 1.0
+  },
+  {
+   "i": 27,
+   "start_s": 126.5,
+   "end_s": 130.84,
+   "dur_s": 4.34,
+   "text": "They tell her about Jack and Julia gives her the money.",
+   "confidence": 1.0
+  },
+  {
+   "i": 28,
+   "start_s": 131.94,
+   "end_s": 133.944,
+   "dur_s": 2.004,
+   "text": "'This is for Jack's lunch.",
+   "confidence": 1.0
+  },
+  {
+   "i": 29,
+   "start_s": 134.44,
+   "end_s": 138.182,
+   "dur_s": 3.742,
+   "text": "Now, he can have lunch every day,' she says.",
+   "confidence": 1.0
+  },
+  {
+   "i": 30,
+   "start_s": 139.7,
+   "end_s": 145.76,
+   "dur_s": 6.06,
+   "text": "Julia hasn't got an electric scooter, but she's got a happy friend – Jack!",
+   "confidence": 1.0
+  }
+ ],
+ "p059": [
+  {
+   "i": 0,
+   "start_s": 8.76,
+   "end_s": 10.5,
+   "dur_s": 1.74,
+   "text": "Hello, can I help?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 11.06,
+   "end_s": 17.52,
+   "dur_s": 6.46,
+   "text": "Yes. Have you got anything I can give to my best friend? It's a present.",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 18.36,
+   "end_s": 23.64,
+   "dur_s": 5.28,
+   "text": "Yes, we've got a lot of things. Is it for a girl or a boy?",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 24.22,
+   "end_s": 27.48,
+   "dur_s": 3.26,
+   "text": "It's for a girl, for my friend, Annie.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 27.48,
+   "end_s": 40.04,
+   "dur_s": 12.56,
+   "text": "OK. I've got this lovely little yellow rose. Yellow's a happy colour. It's a lovely present for a girl. It's got a necklace with it.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 40.58,
+   "end_s": 42.52,
+   "dur_s": 1.94,
+   "text": "Have you got any little animals?",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 43.32,
+   "end_s": 49.74,
+   "dur_s": 6.42,
+   "text": "Yes, we've got a little silver dolphin or a dog. They both show friendship.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 49.74,
+   "end_s": 62.68,
+   "dur_s": 12.94,
+   "text": "Oh, I love the dolphin, and Annie likes dolphins, too. They're her favourite animal. But she's got a dog. It's just like this one.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 63.32,
+   "end_s": 72.8,
+   "dur_s": 9.48,
+   "text": "Hmm. So maybe the dog or the dolphin. I've got one more to show you. It's really beautiful.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 72.8,
+   "end_s": 79.5,
+   "dur_s": 6.7,
+   "text": "Oh, it's a heart. And it's in two pieces. That's clever.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 80.2,
+   "end_s": 85.68,
+   "dur_s": 5.48,
+   "text": "Yes. You wear one piece and your friend, Annie, wears the other.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 86.26,
+   "end_s": 95.06,
+   "dur_s": 8.8,
+   "text": "Oh, that's so cool. I like that idea, but I still prefer the dolphin. How much is it?",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 95.78,
+   "end_s": 97.0,
+   "dur_s": 1.22,
+   "text": "It's £15.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 97.62,
+   "end_s": 101.68,
+   "dur_s": 4.06,
+   "text": "That's OK. Can I have the dolphin, then?",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 102.156,
+   "end_s": 105.68,
+   "dur_s": 3.524,
+   "text": "Of course. And do you want the necklace too?",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 106.46,
+   "end_s": 112.08,
+   "dur_s": 5.62,
+   "text": "No. Annie's got a nice silver necklace. She doesn't need another one.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 112.72,
+   "end_s": 119.176,
+   "dur_s": 6.456,
+   "text": "OK, then. That's £15. I've got a little bag you can put it in.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 119.6,
+   "end_s": 122.241,
+   "dur_s": 2.641,
+   "text": "Oh, that's great. Thank you.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 122.48,
+   "end_s": 123.84,
+   "dur_s": 1.36,
+   "text": "I hope she likes it.",
+   "confidence": 1.0
+  }
+ ],
+ "p060": [
+  {
+   "i": 0,
+   "start_s": 5.64,
+   "end_s": 8.754,
+   "dur_s": 3.114,
+   "text": "Hi, Oliver. Good to see you.",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 9.125,
+   "end_s": 15.08,
+   "dur_s": 5.955,
+   "text": "Hi, Ellie. You look happy. How's it going? How's your first day back at school?",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 15.98,
+   "end_s": 22.361,
+   "dur_s": 6.381,
+   "text": "Not too bad, thanks. We've got this great new teacher. You'd really like him.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 22.76,
+   "end_s": 26.34,
+   "dur_s": 3.58,
+   "text": "Really? Lucky you. What does he teach?",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 26.831,
+   "end_s": 27.32,
+   "dur_s": 0.489,
+   "text": "Science.",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 27.32,
+   "end_s": 29.86,
+   "dur_s": 2.54,
+   "text": "But you don't like Science.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 30.44,
+   "end_s": 42.14,
+   "dur_s": 11.7,
+   "text": "I do now. This new teacher's very funny. He makes us all laugh and he makes Science fun. And I understand everything. It's great.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 42.76,
+   "end_s": 46.37,
+   "dur_s": 3.61,
+   "text": "Really? What does this new teacher look like?",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 46.88,
+   "end_s": 59.74,
+   "dur_s": 12.86,
+   "text": "Well, he's quite tall and he's slim. He's got brown eyes and he wears glasses. He's got short curly hair. It's red like yours.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 60.4,
+   "end_s": 61.962,
+   "dur_s": 1.562,
+   "text": "He's got red hair?",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 62.5,
+   "end_s": 68.28,
+   "dur_s": 5.78,
+   "text": "Yes, like yours but your hair is straight and his is curly.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 69.18,
+   "end_s": 70.46,
+   "dur_s": 1.28,
+   "text": "Has he got a beard?",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 71.32,
+   "end_s": 73.68,
+   "dur_s": 2.36,
+   "text": "Yes, he's got a short beard.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 74.44,
+   "end_s": 76.42,
+   "dur_s": 1.98,
+   "text": "And has he got a moustache?",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 77.06,
+   "end_s": 91.72,
+   "dur_s": 14.66,
+   "text": "Yes … Oh, and he likes sport. He plays rugby and he likes football. He goes to football matches at the weekends with his son. His son's the same age as us.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 92.34,
+   "end_s": 96.78,
+   "dur_s": 4.44,
+   "text": "Really? And his favourite team is Manchester City.",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 97.292,
+   "end_s": 100.28,
+   "dur_s": 2.988,
+   "text": "Yes, it is. How do you know?",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 101.12,
+   "end_s": 104.42,
+   "dur_s": 3.3,
+   "text": "Is this him walking towards us now?",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 105.14,
+   "end_s": 106.68,
+   "dur_s": 1.54,
+   "text": "Yes, it is.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 107.4,
+   "end_s": 109.12,
+   "dur_s": 1.72,
+   "text": "That's my dad.",
+   "confidence": 1.0
+  },
+  {
+   "i": 20,
+   "start_s": 109.12,
+   "end_s": 112.84,
+   "dur_s": 3.72,
+   "text": "No way! You're kidding!",
+   "confidence": 1.0
+  }
+ ],
+ "p063": [
+  {
+   "i": 0,
+   "start_s": 10.98,
+   "end_s": 14.048,
+   "dur_s": 3.068,
+   "text": "How do you say hello to someone you know?",
+   "confidence": 1.0
+  },
+  {
+   "i": 1,
+   "start_s": 14.8,
+   "end_s": 18.36,
+   "dur_s": 3.56,
+   "text": "Do you smile? Do you touch the other person?",
+   "confidence": 1.0
+  },
+  {
+   "i": 2,
+   "start_s": 19.78,
+   "end_s": 22.18,
+   "dur_s": 2.4,
+   "text": "Here are some ideas for travellers.",
+   "confidence": 1.0
+  },
+  {
+   "i": 3,
+   "start_s": 23.92,
+   "end_s": 27.794,
+   "dur_s": 3.874,
+   "text": "This is how people in different countries welcome each other.",
+   "confidence": 1.0
+  },
+  {
+   "i": 4,
+   "start_s": 28.48,
+   "end_s": 31.811,
+   "dur_s": 3.331,
+   "text": "Do you do different things in your country?",
+   "confidence": 1.0
+  },
+  {
+   "i": 5,
+   "start_s": 32.82,
+   "end_s": 39.01,
+   "dur_s": 6.19,
+   "text": "In many countries in Asia, people bow their heads when they meet each other.",
+   "confidence": 1.0
+  },
+  {
+   "i": 6,
+   "start_s": 40.06,
+   "end_s": 41.38,
+   "dur_s": 1.32,
+   "text": "This shows respect.",
+   "confidence": 1.0
+  },
+  {
+   "i": 7,
+   "start_s": 42.36,
+   "end_s": 51.54,
+   "dur_s": 9.18,
+   "text": "In India, Nepal and Bangladesh, people bring their hands together in front of their heart and say 'Namaste'.",
+   "confidence": 1.0
+  },
+  {
+   "i": 8,
+   "start_s": 52.96,
+   "end_s": 64.36,
+   "dur_s": 11.4,
+   "text": "When you greet a grandmother or grandfather or another older person in Turkey, you kiss their right hand and then place it on your forehead.",
+   "confidence": 1.0
+  },
+  {
+   "i": 9,
+   "start_s": 65.46,
+   "end_s": 67.82,
+   "dur_s": 2.36,
+   "text": "They do this in the Philippines, too.",
+   "confidence": 1.0
+  },
+  {
+   "i": 10,
+   "start_s": 69.98,
+   "end_s": 74.84,
+   "dur_s": 4.86,
+   "text": "The Maori people in New Zealand rub noses together when they meet.",
+   "confidence": 1.0
+  },
+  {
+   "i": 11,
+   "start_s": 75.92,
+   "end_s": 78.12,
+   "dur_s": 2.2,
+   "text": "This is called the 'hongi'.",
+   "confidence": 1.0
+  },
+  {
+   "i": 12,
+   "start_s": 79.8,
+   "end_s": 84.962,
+   "dur_s": 5.162,
+   "text": "In Malaysia, you put your hand on your heart and nod your head.",
+   "confidence": 1.0
+  },
+  {
+   "i": 13,
+   "start_s": 85.76,
+   "end_s": 90.86,
+   "dur_s": 5.1,
+   "text": "Sometimes you also take the person's hands in your hands first.",
+   "confidence": 1.0
+  },
+  {
+   "i": 14,
+   "start_s": 92.32,
+   "end_s": 97.582,
+   "dur_s": 5.262,
+   "text": "In Western countries, many people shake hands when they meet.",
+   "confidence": 1.0
+  },
+  {
+   "i": 15,
+   "start_s": 98.52,
+   "end_s": 105.024,
+   "dur_s": 6.504,
+   "text": "Sometimes they just smile and say something like 'Hello!' or 'Hi!'",
+   "confidence": 1.0
+  },
+  {
+   "i": 16,
+   "start_s": 105.92,
+   "end_s": 113.78,
+   "dur_s": 7.86,
+   "text": "In the US and in other countries, some people like using a 'fist bump' to greet another person.",
+   "confidence": 1.0
+  },
+  {
+   "i": 17,
+   "start_s": 114.88,
+   "end_s": 121.64,
+   "dur_s": 6.76,
+   "text": "Both people make a fist, push their arm forward slowly and touch each other's fists.",
+   "confidence": 1.0
+  },
+  {
+   "i": 18,
+   "start_s": 123.12,
+   "end_s": 128.68,
+   "dur_s": 5.56,
+   "text": "In many countries around the world, friends kiss each other on the cheek.",
+   "confidence": 1.0
+  },
+  {
+   "i": 19,
+   "start_s": 129.84,
+   "end_s": 139.86,
+   "dur_s": 10.02,
+   "text": "In some countries they kiss one cheek, in others they kiss both cheeks and in some they kiss cheeks three times.",
+   "confidence": 1.0
+  }
+ ]
+}

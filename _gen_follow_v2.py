@@ -43,7 +43,7 @@ for pg in pages:
     files[str(pg)] = {"page": name}
     print("p%s → %s" % (p3, name))
 
-assert len(files) == 25, "篇目数应为 25，实际 %d" % len(files)
+assert len(files) == 33, "篇目数应为 33，实际 %d" % len(files)
 
 # ---- 回写 index.html ==FOLLOW-FILES== 块（读写单页 page） ----
 site = open(IDX, encoding="utf-8").read()

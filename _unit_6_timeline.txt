@@ -1,0 +1,108 @@
+# Unit 6 句级时间轴产出摘要
+
+## p056  阅读A · A real friend
+- 句数 31，首句 9.100s，末句 145.760s
+
+   0     9.100 -   10.800  Julia is 11.
+   1    11.680 -   17.800  She has got curly, brown hair, brown eyes and a big smile.
+   2    18.880 -   21.280  She's got a lot of friends at school.
+   3    22.240 -   24.400  All her classmates like her.
+   4    25.300 -   32.125  At lunchtime, Julia always goes to the school canteen and buys her lunch.
+   5    33.120 -   36.680  Her friend, Jack, doesn't buy any food.
+   6    37.460 -   39.760  He just drinks a glass of water.
+   7    40.860 -   45.140  Jack does this every day, and Julia is worried.
+   8    46.180 -   50.340  One day, she asks Jack, 'Are you hungry?'
+   9    51.120 -   53.232  'Yes,' says Jack.
+  10    53.740 -   57.783  'But you don't eat at school,' says Julia.
+  11    58.500 -   62.485  'I haven't got any money for lunch,' says Jack.
+  12    63.060 -   66.885  'My dad hasn't got a job and my mum's ill.
+  13    67.640 -   69.340  They've got lots of problems.
+  14    69.620 -   73.100  But don't worry about me – I'm OK.'
+  15    74.880 -   76.997  Julia thinks about this.
+  16    77.820 -   80.760  At home, she's got a big glass jar.
+  17    81.500 -   82.980  It's full of coins.
+  18    83.900 -   87.249  She wants to buy an electric scooter one day.
+  19    88.600 -   96.160  That night, Julia opens the jar, takes the coins and puts them into a bag.
+  20    97.260 -   98.569  Her mum sees her.
+  21    99.260 -  102.260  'Why are you doing that?' she asks.
+  22   103.260 -  109.296  'My friend Jack hasn't got any lunch money and I've got some money here.
+  23   109.240 -  110.700  This is for him.'
+  24   111.540 -  115.252  'That's very kind of you,' says her mum.
+  25   116.080 -  119.455  She feels happy that her daughter wants to do this.
+  26   120.360 -  125.220  The next day, Julia and her mum go and see her teacher.
+  27   126.500 -  130.840  They tell her about Jack and Julia gives her the money.
+  28   131.940 -  133.944  'This is for Jack's lunch.
+  29   134.440 -  138.182  Now, he can have lunch every day,' she says.
+  30   139.700 -  145.760  Julia hasn't got an electric scooter, but she's got a happy friend – Jack!
+
+## p059  听力 · A present for Annie
+- 句数 19，首句 8.760s，末句 123.840s
+
+   0     8.760 -   10.500  Hello, can I help?
+   1    11.060 -   17.520  Yes. Have you got anything I can give to my best friend? It's a present.
+   2    18.360 -   23.640  Yes, we've got a lot of things. Is it for a girl or a boy?
+   3    24.220 -   27.480  It's for a girl, for my friend, Annie.
+   4    27.480 -   40.040  OK. I've got this lovely little yellow rose. Yellow's a happy colour. It's a lovely present for a girl. It's got a necklace with it.
+   5    40.580 -   42.520  Have you got any little animals?
+   6    43.320 -   49.740  Yes, we've got a little silver dolphin or a dog. They both show friendship.
+   7    49.740 -   62.680  Oh, I love the dolphin, and Annie likes dolphins, too. They're her favourite animal. But she's got a dog. It's just like this one.
+   8    63.320 -   72.800  Hmm. So maybe the dog or the dolphin. I've got one more to show you. It's really beautiful.
+   9    72.800 -   79.500  Oh, it's a heart. And it's in two pieces. That's clever.
+  10    80.200 -   85.680  Yes. You wear one piece and your friend, Annie, wears the other.
+  11    86.260 -   95.060  Oh, that's so cool. I like that idea, but I still prefer the dolphin. How much is it?
+  12    95.780 -   97.000  It's £15.
+  13    97.620 -  101.680  That's OK. Can I have the dolphin, then?
+  14   102.156 -  105.680  Of course. And do you want the necklace too?
+  15   106.460 -  112.080  No. Annie's got a nice silver necklace. She doesn't need another one.
+  16   112.720 -  119.176  OK, then. That's £15. I've got a little bag you can put it in.
+  17   119.600 -  122.241  Oh, that's great. Thank you.
+  18   122.480 -  123.840  I hope she likes it.
+
+## p060  阅读B · The new teacher
+- 句数 21，首句 5.640s，末句 112.840s
+
+   0     5.640 -    8.754  Hi, Oliver. Good to see you.
+   1     9.125 -   15.080  Hi, Ellie. You look happy. How's it going? How's your first day back at school?
+   2    15.980 -   22.361  Not too bad, thanks. We've got this great new teacher. You'd really like him.
+   3    22.760 -   26.340  Really? Lucky you. What does he teach?
+   4    26.831 -   27.320  Science.
+   5    27.320 -   29.860  But you don't like Science.
+   6    30.440 -   42.140  I do now. This new teacher's very funny. He makes us all laugh and he makes Science fun. And I understand everything. It's great.
+   7    42.760 -   46.370  Really? What does this new teacher look like?
+   8    46.880 -   59.740  Well, he's quite tall and he's slim. He's got brown eyes and he wears glasses. He's got short curly hair. It's red like yours.
+   9    60.400 -   61.962  He's got red hair?
+  10    62.500 -   68.280  Yes, like yours but your hair is straight and his is curly.
+  11    69.180 -   70.460  Has he got a beard?
+  12    71.320 -   73.680  Yes, he's got a short beard.
+  13    74.440 -   76.420  And has he got a moustache?
+  14    77.060 -   91.720  Yes … Oh, and he likes sport. He plays rugby and he likes football. He goes to football matches at the weekends with his son. His son's the same age as us.
+  15    92.340 -   96.780  Really? And his favourite team is Manchester City.
+  16    97.292 -  100.280  Yes, it is. How do you know?
+  17   101.120 -  104.420  Is this him walking towards us now?
+  18   105.140 -  106.680  Yes, it is.
+  19   107.400 -  109.120  That's my dad.
+  20   109.120 -  112.840  No way! You're kidding!
+
+## p063  文化 · Welcoming people around the world
+- 句数 20，首句 10.980s，末句 139.860s
+
+   0    10.980 -   14.048  How do you say hello to someone you know?
+   1    14.800 -   18.360  Do you smile? Do you touch the other person?
+   2    19.780 -   22.180  Here are some ideas for travellers.
+   3    23.920 -   27.794  This is how people in different countries welcome each other.
+   4    28.480 -   31.811  Do you do different things in your country?
+   5    32.820 -   39.010  In many countries in Asia, people bow their heads when they meet each other.
+   6    40.060 -   41.380  This shows respect.
+   7    42.360 -   51.540  In India, Nepal and Bangladesh, people bring their hands together in front of their heart and say 'Namaste'.
+   8    52.960 -   64.360  When you greet a grandmother or grandfather or another older person in Turkey, you kiss their right hand and then place it on your forehead.
+   9    65.460 -   67.820  They do this in the Philippines, too.
+  10    69.980 -   74.840  The Maori people in New Zealand rub noses together when they meet.
+  11    75.920 -   78.120  This is called the 'hongi'.
+  12    79.800 -   84.962  In Malaysia, you put your hand on your heart and nod your head.
+  13    85.760 -   90.860  Sometimes you also take the person's hands in your hands first.
+  14    92.320 -   97.582  In Western countries, many people shake hands when they meet.
+  15    98.520 -  105.024  Sometimes they just smile and say something like 'Hello!' or 'Hi!'
+  16   105.920 -  113.780  In the US and in other countries, some people like using a 'fist bump' to greet another person.
+  17   114.880 -  121.640  Both people make a fist, push their arm forward slowly and touch each other's fists.
+  18   123.120 -  128.680  In many countries around the world, friends kiss each other on the cheek.
+  19   129.840 -  139.860  In some countries they kiss one cheek, in others they kiss both cheeks and in some they kiss cheeks three times.
