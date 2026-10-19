@@ -855,9 +855,12 @@ function renderTaskZone(unitKey){
   var P=(u&&u.preview)||{}, R=(u&&u.review)||{};
   var pI=(P.items)||[], rI=(R.items)||[];
   if(!pI.length && !rI.length){
-    zone.innerHTML = '<div class="tz-empty"><span class="ic">'+ICON('inbox')+'</span>本单元暂无任务<span>老师还没有为本单元发放预习 / 复习任务，你可以自由浏览下方材料。</span></div>';
+    /* 无任务时整块隐藏（2026-10-19 用户令：删除「本单元暂无任务」空态框） */
+    zone.innerHTML = '';
+    zone.style.display = 'none';
     return;
   }
+  zone.style.display = '';
   var groups = [
     { type:'preview', items:pI, dl:P.deadline||'' },
     { type:'review', items:rI, dl:R.deadline||'' }
