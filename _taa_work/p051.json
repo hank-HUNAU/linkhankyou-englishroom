@@ -1,0 +1,1587 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p051.mp3",
+  "language": "en",
+  "duration": 132.258,
+  "report": {
+    "script_tokens": 222,
+    "matched_tokens": 222,
+    "asr_words": 235,
+    "coverage": 1.0,
+    "unmatched": []
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.12,
+      "end": 12.86,
+      "duration": 3.74,
+      "text": "My favourite piece of technology is my phone.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 9.12,
+          "end": 9.44,
+          "matched": true
+        },
+        {
+          "text": "favourite",
+          "start": 9.44,
+          "end": 10.1,
+          "matched": true
+        },
+        {
+          "text": "piece",
+          "start": 10.1,
+          "end": 10.56,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 10.56,
+          "end": 10.88,
+          "matched": true
+        },
+        {
+          "text": "technology",
+          "start": 10.88,
+          "end": 11.66,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 11.66,
+          "end": 12.26,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 12.26,
+          "end": 12.48,
+          "matched": true
+        },
+        {
+          "text": "phone",
+          "start": 12.48,
+          "end": 12.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 13.69,
+      "end": 14.72,
+      "duration": 1.03,
+      "text": "I love it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 13.69,
+          "end": 13.89,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 13.89,
+          "end": 14.27,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 14.27,
+          "end": 14.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 15.53,
+      "end": 17.99,
+      "duration": 2.46,
+      "text": "I use it for so many things.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 15.53,
+          "end": 15.83,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 15.83,
+          "end": 16.21,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 16.21,
+          "end": 16.37,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 16.37,
+          "end": 16.65,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 16.65,
+          "end": 17.05,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 17.05,
+          "end": 17.41,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 17.41,
+          "end": 17.99,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 18.89,
+      "end": 21.69,
+      "duration": 2.8,
+      "text": "I use it to text my friends.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 18.89,
+          "end": 19.31,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 19.31,
+          "end": 19.69,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 19.69,
+          "end": 19.95,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 19.95,
+          "end": 20.29,
+          "matched": true
+        },
+        {
+          "text": "text",
+          "start": 20.29,
+          "end": 20.81,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 20.81,
+          "end": 21.15,
+          "matched": true
+        },
+        {
+          "text": "friends",
+          "start": 21.15,
+          "end": 21.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 22.37,
+      "end": 24.79,
+      "duration": 2.42,
+      "text": "I use it to play games.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 22.37,
+          "end": 22.91,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 22.91,
+          "end": 23.29,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 23.29,
+          "end": 23.59,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 23.59,
+          "end": 23.85,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 23.85,
+          "end": 24.11,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 24.11,
+          "end": 24.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 25.62,
+      "end": 29.52,
+      "duration": 3.9,
+      "text": "I sometimes use it to help me with my homework.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 25.62,
+          "end": 26.1,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 26.1,
+          "end": 26.64,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 26.64,
+          "end": 27.32,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 27.32,
+          "end": 27.66,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 27.66,
+          "end": 28.0,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 28.0,
+          "end": 28.26,
+          "matched": true
+        },
+        {
+          "text": "me",
+          "start": 28.26,
+          "end": 28.58,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 28.58,
+          "end": 28.92,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 28.92,
+          "end": 29.1,
+          "matched": true
+        },
+        {
+          "text": "homework",
+          "start": 29.1,
+          "end": 29.52,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 29.52,
+      "end": 36.84,
+      "duration": 7.32,
+      "text": "I use it for lots of things, but I don't use it in class.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 29.52,
+          "end": 30.66,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 31.16,
+          "end": 31.52,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 31.52,
+          "end": 31.72,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 31.72,
+          "end": 32.06,
+          "matched": true
+        },
+        {
+          "text": "lots",
+          "start": 32.06,
+          "end": 32.4,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 32.4,
+          "end": 32.74,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 32.74,
+          "end": 33.16,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 33.76,
+          "end": 34.22,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 34.22,
+          "end": 34.96,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 34.96,
+          "end": 35.5,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 35.5,
+          "end": 35.86,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 35.86,
+          "end": 36.14,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 36.14,
+          "end": 36.36,
+          "matched": true
+        },
+        {
+          "text": "class",
+          "start": 36.36,
+          "end": 36.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 42.016,
+      "end": 44.89,
+      "duration": 2.874,
+      "text": "I love my virtual reality headset.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 42.03,
+          "end": 42.23,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 42.23,
+          "end": 42.59,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 42.59,
+          "end": 42.95,
+          "matched": true
+        },
+        {
+          "text": "virtual",
+          "start": 42.95,
+          "end": 43.55,
+          "matched": true
+        },
+        {
+          "text": "reality",
+          "start": 43.55,
+          "end": 44.23,
+          "matched": true
+        },
+        {
+          "text": "headset",
+          "start": 44.23,
+          "end": 44.89,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 45.55,
+      "end": 46.73,
+      "duration": 1.18,
+      "text": "It's so cool.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 45.55,
+          "end": 45.93,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 45.93,
+          "end": 46.25,
+          "matched": true
+        },
+        {
+          "text": "cool",
+          "start": 46.25,
+          "end": 46.73,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 47.66,
+      "end": 50.12,
+      "duration": 2.46,
+      "text": "I feel that I'm really in the game.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 47.66,
+          "end": 47.92,
+          "matched": true
+        },
+        {
+          "text": "feel",
+          "start": 47.92,
+          "end": 48.26,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 48.26,
+          "end": 48.5,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 48.5,
+          "end": 48.76,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 48.76,
+          "end": 49.16,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 49.16,
+          "end": 49.52,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 49.52,
+          "end": 49.7,
+          "matched": true
+        },
+        {
+          "text": "game",
+          "start": 49.7,
+          "end": 50.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 51.16,
+      "end": 56.28,
+      "duration": 5.12,
+      "text": "I don't play games on my TV because they don't feel as real.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 51.16,
+          "end": 51.4,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 51.4,
+          "end": 51.82,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 51.82,
+          "end": 52.2,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 52.2,
+          "end": 52.68,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 52.68,
+          "end": 52.9,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 52.9,
+          "end": 53.12,
+          "matched": true
+        },
+        {
+          "text": "TV",
+          "start": 53.12,
+          "end": 53.6,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 53.6,
+          "end": 54.58,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 54.58,
+          "end": 54.98,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 54.98,
+          "end": 55.42,
+          "matched": true
+        },
+        {
+          "text": "feel",
+          "start": 55.42,
+          "end": 55.7,
+          "matched": true
+        },
+        {
+          "text": "as",
+          "start": 55.7,
+          "end": 55.94,
+          "matched": true
+        },
+        {
+          "text": "real",
+          "start": 55.94,
+          "end": 56.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 57.49,
+      "end": 62.592,
+      "duration": 5.102,
+      "text": "The headset is very easy to wear, and it never hurts my head.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 57.49,
+          "end": 57.71,
+          "matched": true
+        },
+        {
+          "text": "headset",
+          "start": 57.71,
+          "end": 58.17,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 58.17,
+          "end": 58.71,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 58.71,
+          "end": 59.03,
+          "matched": true
+        },
+        {
+          "text": "easy",
+          "start": 59.03,
+          "end": 59.55,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 59.55,
+          "end": 59.81,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 59.81,
+          "end": 60.17,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 60.17,
+          "end": 60.35,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 60.35,
+          "end": 61.01,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 61.01,
+          "end": 61.39,
+          "matched": true
+        },
+        {
+          "text": "hurts",
+          "start": 61.39,
+          "end": 61.83,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 61.83,
+          "end": 62.11,
+          "matched": true
+        },
+        {
+          "text": "head",
+          "start": 62.11,
+          "end": 62.49,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 63.488,
+      "end": 67.33,
+      "duration": 3.842,
+      "text": "The only problem is that the games are very expensive.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 63.51,
+          "end": 63.67,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 63.67,
+          "end": 63.95,
+          "matched": true
+        },
+        {
+          "text": "problem",
+          "start": 63.95,
+          "end": 64.49,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 64.49,
+          "end": 65.11,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 65.11,
+          "end": 65.33,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 65.33,
+          "end": 65.47,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 65.47,
+          "end": 65.93,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 65.93,
+          "end": 66.27,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 66.27,
+          "end": 66.59,
+          "matched": true
+        },
+        {
+          "text": "expensive",
+          "start": 66.59,
+          "end": 67.33,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 72.54,
+      "end": 74.84,
+      "duration": 2.3,
+      "text": "My tablet is brilliant.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 72.54,
+          "end": 72.92,
+          "matched": true
+        },
+        {
+          "text": "tablet",
+          "start": 72.92,
+          "end": 73.52,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 73.52,
+          "end": 74.16,
+          "matched": true
+        },
+        {
+          "text": "brilliant",
+          "start": 74.16,
+          "end": 74.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 75.66,
+      "end": 78.176,
+      "duration": 2.516,
+      "text": "It was my birthday present this year.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 75.66,
+          "end": 75.88,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 75.88,
+          "end": 76.12,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 76.12,
+          "end": 76.36,
+          "matched": true
+        },
+        {
+          "text": "birthday",
+          "start": 76.36,
+          "end": 76.8,
+          "matched": true
+        },
+        {
+          "text": "present",
+          "start": 76.8,
+          "end": 77.44,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 77.44,
+          "end": 77.76,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 77.76,
+          "end": 78.12,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 78.66,
+      "end": 80.38,
+      "duration": 1.72,
+      "text": "What a great present.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 78.66,
+          "end": 79.02,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 79.02,
+          "end": 79.18,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 79.18,
+          "end": 79.72,
+          "matched": true
+        },
+        {
+          "text": "present",
+          "start": 79.72,
+          "end": 80.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 81.26,
+      "end": 91.424,
+      "duration": 10.164,
+      "text": "It's very thin and it doesn't feel heavy, but it's got a big screen, so it's great for watching films and playing games.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 81.26,
+          "end": 81.72,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 81.72,
+          "end": 82.02,
+          "matched": true
+        },
+        {
+          "text": "thin",
+          "start": 82.02,
+          "end": 82.54,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 82.54,
+          "end": 83.12,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 83.12,
+          "end": 83.46,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 83.46,
+          "end": 83.88,
+          "matched": true
+        },
+        {
+          "text": "feel",
+          "start": 83.88,
+          "end": 84.18,
+          "matched": true
+        },
+        {
+          "text": "heavy",
+          "start": 84.18,
+          "end": 84.66,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 84.66,
+          "end": 85.2,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 85.2,
+          "end": 85.76,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 85.76,
+          "end": 85.98,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 85.98,
+          "end": 86.16,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 86.16,
+          "end": 86.44,
+          "matched": true
+        },
+        {
+          "text": "screen",
+          "start": 86.44,
+          "end": 86.96,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 86.96,
+          "end": 87.54,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 87.54,
+          "end": 88.08,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 88.08,
+          "end": 88.52,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 88.52,
+          "end": 88.86,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 88.86,
+          "end": 89.26,
+          "matched": true
+        },
+        {
+          "text": "films",
+          "start": 89.26,
+          "end": 89.76,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 89.76,
+          "end": 90.28,
+          "matched": true
+        },
+        {
+          "text": "playing",
+          "start": 90.28,
+          "end": 90.68,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 90.68,
+          "end": 91.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 92.2,
+      "end": 99.808,
+      "duration": 7.608,
+      "text": "My mum and dad always want to use it, so I have a special place to put it where they can't find it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 92.2,
+          "end": 92.54,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 92.54,
+          "end": 92.84,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 92.84,
+          "end": 93.0,
+          "matched": true
+        },
+        {
+          "text": "dad",
+          "start": 93.0,
+          "end": 93.32,
+          "matched": true
+        },
+        {
+          "text": "always",
+          "start": 93.32,
+          "end": 93.86,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 93.86,
+          "end": 94.26,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 94.26,
+          "end": 94.52,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 94.52,
+          "end": 94.86,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 94.86,
+          "end": 95.1,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 95.1,
+          "end": 95.56,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 95.56,
+          "end": 96.04,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 96.04,
+          "end": 96.22,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 96.22,
+          "end": 96.34,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 96.34,
+          "end": 96.82,
+          "matched": true
+        },
+        {
+          "text": "place",
+          "start": 96.82,
+          "end": 97.24,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 97.24,
+          "end": 97.5,
+          "matched": true
+        },
+        {
+          "text": "put",
+          "start": 97.5,
+          "end": 97.72,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 97.72,
+          "end": 97.98,
+          "matched": true
+        },
+        {
+          "text": "where",
+          "start": 97.98,
+          "end": 98.46,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 98.46,
+          "end": 98.66,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 98.66,
+          "end": 99.14,
+          "matched": true
+        },
+        {
+          "text": "find",
+          "start": 99.14,
+          "end": 99.44,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 99.44,
+          "end": 99.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 104.672,
+      "end": 107.1,
+      "duration": 2.428,
+      "text": "My favourite things are my headphones.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 104.68,
+          "end": 104.88,
+          "matched": true
+        },
+        {
+          "text": "favourite",
+          "start": 104.88,
+          "end": 105.38,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 105.38,
+          "end": 105.9,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 105.9,
+          "end": 106.38,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 106.38,
+          "end": 106.6,
+          "matched": true
+        },
+        {
+          "text": "headphones",
+          "start": 106.6,
+          "end": 107.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 108.1,
+      "end": 109.24,
+      "duration": 1.14,
+      "text": "I love music.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 108.1,
+          "end": 108.3,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 108.3,
+          "end": 108.7,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 108.7,
+          "end": 109.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 109.98,
+      "end": 111.92,
+      "duration": 1.94,
+      "text": "I listen to it all the time.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 109.98,
+          "end": 110.32,
+          "matched": true
+        },
+        {
+          "text": "listen",
+          "start": 110.32,
+          "end": 110.64,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 110.64,
+          "end": 110.92,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 110.92,
+          "end": 111.1,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 111.1,
+          "end": 111.38,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 111.38,
+          "end": 111.54,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 111.54,
+          "end": 111.92,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 112.96,
+      "end": 118.46,
+      "duration": 5.5,
+      "text": "My mum often wants the radio on, but we don't like the same kind of music.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 112.96,
+          "end": 113.18,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 113.18,
+          "end": 113.5,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 113.5,
+          "end": 113.96,
+          "matched": true
+        },
+        {
+          "text": "wants",
+          "start": 113.96,
+          "end": 114.28,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 114.28,
+          "end": 114.56,
+          "matched": true
+        },
+        {
+          "text": "radio",
+          "start": 114.56,
+          "end": 115.0,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 115.0,
+          "end": 115.32,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 115.32,
+          "end": 116.1,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 116.1,
+          "end": 116.46,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 116.46,
+          "end": 116.82,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 116.82,
+          "end": 117.02,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 117.02,
+          "end": 117.2,
+          "matched": true
+        },
+        {
+          "text": "same",
+          "start": 117.2,
+          "end": 117.5,
+          "matched": true
+        },
+        {
+          "text": "kind",
+          "start": 117.5,
+          "end": 117.76,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 117.76,
+          "end": 118.04,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 118.04,
+          "end": 118.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 119.66,
+      "end": 122.48,
+      "duration": 2.82,
+      "text": "With my headphones, it's no problem.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "With",
+          "start": 119.66,
+          "end": 120.0,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 120.0,
+          "end": 120.22,
+          "matched": true
+        },
+        {
+          "text": "headphones",
+          "start": 120.22,
+          "end": 120.66,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 120.66,
+          "end": 121.72,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 121.72,
+          "end": 121.98,
+          "matched": true
+        },
+        {
+          "text": "problem",
+          "start": 121.98,
+          "end": 122.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 123.22,
+      "end": 128.78,
+      "duration": 5.56,
+      "text": "I listen to cool music, and she listens to the old music that she likes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 123.22,
+          "end": 123.46,
+          "matched": true
+        },
+        {
+          "text": "listen",
+          "start": 123.46,
+          "end": 123.78,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 123.78,
+          "end": 124.0,
+          "matched": true
+        },
+        {
+          "text": "cool",
+          "start": 124.0,
+          "end": 124.46,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 124.46,
+          "end": 124.94,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 124.94,
+          "end": 125.74,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 125.74,
+          "end": 126.04,
+          "matched": true
+        },
+        {
+          "text": "listens",
+          "start": 126.04,
+          "end": 126.38,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 126.38,
+          "end": 126.72,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 126.72,
+          "end": 126.86,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 126.86,
+          "end": 127.26,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 127.26,
+          "end": 127.78,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 127.78,
+          "end": 128.18,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 128.18,
+          "end": 128.44,
+          "matched": true
+        },
+        {
+          "text": "likes",
+          "start": 128.44,
+          "end": 128.78,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

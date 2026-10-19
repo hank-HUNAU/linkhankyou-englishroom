@@ -1,0 +1,1510 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p080.mp3",
+  "language": "en",
+  "duration": 148.088,
+  "report": {
+    "script_tokens": 212,
+    "matched_tokens": 210,
+    "asr_words": 235,
+    "coverage": 0.991,
+    "unmatched": [
+      "twelve",
+      "twelve"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 12.03,
+      "end": 25.74,
+      "duration": 13.71,
+      "text": "The Tango is the national dance of Argentina, and every year on 11th December people in Buenos Aires celebrate the Day of the Tango.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 12.03,
+          "end": 12.53,
+          "matched": true
+        },
+        {
+          "text": "Tango",
+          "start": 13.22,
+          "end": 13.88,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 13.88,
+          "end": 14.46,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 14.46,
+          "end": 14.64,
+          "matched": true
+        },
+        {
+          "text": "national",
+          "start": 14.64,
+          "end": 15.1,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 15.1,
+          "end": 15.54,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 15.54,
+          "end": 15.78,
+          "matched": true
+        },
+        {
+          "text": "Argentina",
+          "start": 15.78,
+          "end": 16.4,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 17.31,
+          "end": 17.75,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 17.75,
+          "end": 18.11,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 18.11,
+          "end": 18.55,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 18.87,
+          "end": 19.15,
+          "matched": true
+        },
+        {
+          "text": "11th",
+          "start": 19.25,
+          "end": 19.85,
+          "matched": true
+        },
+        {
+          "text": "December",
+          "start": 19.93,
+          "end": 20.45,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 21.42,
+          "end": 21.8,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 21.8,
+          "end": 22.04,
+          "matched": true
+        },
+        {
+          "text": "Buenos",
+          "start": 22.04,
+          "end": 22.28,
+          "matched": true
+        },
+        {
+          "text": "Aires",
+          "start": 22.28,
+          "end": 22.82,
+          "matched": true
+        },
+        {
+          "text": "celebrate",
+          "start": 22.82,
+          "end": 23.92,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 23.92,
+          "end": 24.44,
+          "matched": true
+        },
+        {
+          "text": "Day",
+          "start": 24.44,
+          "end": 24.78,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 24.78,
+          "end": 24.94,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 24.94,
+          "end": 25.04,
+          "matched": true
+        },
+        {
+          "text": "Tango",
+          "start": 25.04,
+          "end": 25.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 26.69,
+      "end": 32.51,
+      "duration": 5.82,
+      "text": "They do the tango in dance halls, parks and squares all over the city.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 26.69,
+          "end": 26.95,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 26.95,
+          "end": 27.23,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 27.23,
+          "end": 27.41,
+          "matched": true
+        },
+        {
+          "text": "tango",
+          "start": 27.41,
+          "end": 28.03,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 28.03,
+          "end": 28.29,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 28.29,
+          "end": 28.63,
+          "matched": true
+        },
+        {
+          "text": "halls",
+          "start": 28.63,
+          "end": 29.05,
+          "matched": true
+        },
+        {
+          "text": "parks",
+          "start": 29.63,
+          "end": 30.15,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 30.15,
+          "end": 30.43,
+          "matched": true
+        },
+        {
+          "text": "squares",
+          "start": 30.43,
+          "end": 30.91,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 30.91,
+          "end": 31.69,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 31.69,
+          "end": 32.03,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 32.03,
+          "end": 32.19,
+          "matched": true
+        },
+        {
+          "text": "city",
+          "start": 32.19,
+          "end": 32.51,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 32.51,
+      "end": 37.86,
+      "duration": 5.35,
+      "text": "The dance is usually performed by a man and a woman.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 32.51,
+          "end": 33.19,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 34.32,
+          "end": 34.66,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 34.66,
+          "end": 34.9,
+          "matched": true
+        },
+        {
+          "text": "usually",
+          "start": 34.9,
+          "end": 35.38,
+          "matched": true
+        },
+        {
+          "text": "performed",
+          "start": 35.38,
+          "end": 36.0,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 36.0,
+          "end": 36.66,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 36.66,
+          "end": 36.82,
+          "matched": true
+        },
+        {
+          "text": "man",
+          "start": 36.82,
+          "end": 37.08,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 37.08,
+          "end": 37.48,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 37.48,
+          "end": 37.62,
+          "matched": true
+        },
+        {
+          "text": "woman",
+          "start": 37.62,
+          "end": 37.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 39.328,
+      "end": 42.86,
+      "duration": 3.532,
+      "text": "The man often wears smart trousers and a shirt.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 39.38,
+          "end": 39.46,
+          "matched": true
+        },
+        {
+          "text": "man",
+          "start": 39.46,
+          "end": 39.74,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 39.74,
+          "end": 40.28,
+          "matched": true
+        },
+        {
+          "text": "wears",
+          "start": 40.28,
+          "end": 40.68,
+          "matched": true
+        },
+        {
+          "text": "smart",
+          "start": 40.68,
+          "end": 41.3,
+          "matched": true
+        },
+        {
+          "text": "trousers",
+          "start": 41.3,
+          "end": 41.84,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 41.84,
+          "end": 42.4,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 42.4,
+          "end": 42.58,
+          "matched": true
+        },
+        {
+          "text": "shirt",
+          "start": 42.58,
+          "end": 42.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 44.64,
+      "end": 47.32,
+      "duration": 2.68,
+      "text": "The woman often wears a beautiful dress.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 44.66,
+          "end": 44.74,
+          "matched": true
+        },
+        {
+          "text": "woman",
+          "start": 44.74,
+          "end": 45.1,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 45.1,
+          "end": 45.72,
+          "matched": true
+        },
+        {
+          "text": "wears",
+          "start": 45.72,
+          "end": 46.14,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 46.14,
+          "end": 46.32,
+          "matched": true
+        },
+        {
+          "text": "beautiful",
+          "start": 46.32,
+          "end": 46.78,
+          "matched": true
+        },
+        {
+          "text": "dress",
+          "start": 46.78,
+          "end": 47.32,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 49.04,
+      "end": 51.88,
+      "duration": 2.84,
+      "text": "The dance is often very interesting to watch.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 49.04,
+          "end": 49.16,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 49.16,
+          "end": 49.58,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 49.58,
+          "end": 49.8,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 49.8,
+          "end": 50.12,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 50.12,
+          "end": 50.62,
+          "matched": true
+        },
+        {
+          "text": "interesting",
+          "start": 50.62,
+          "end": 51.28,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 51.28,
+          "end": 51.58,
+          "matched": true
+        },
+        {
+          "text": "watch",
+          "start": 51.58,
+          "end": 51.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 57.59,
+      "end": 62.56,
+      "duration": 4.97,
+      "text": "The Whirling Dervish is a dance from Turkey.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 57.59,
+          "end": 58.21,
+          "matched": true
+        },
+        {
+          "text": "Whirling",
+          "start": 59.28,
+          "end": 59.92,
+          "matched": true
+        },
+        {
+          "text": "Dervish",
+          "start": 59.92,
+          "end": 60.56,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 60.74,
+          "end": 61.32,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 61.32,
+          "end": 61.46,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 61.46,
+          "end": 61.84,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 61.84,
+          "end": 62.12,
+          "matched": true
+        },
+        {
+          "text": "Turkey",
+          "start": 62.12,
+          "end": 62.56,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 63.7,
+      "end": 66.44,
+      "duration": 2.74,
+      "text": "There is a group of twelve men who dance.",
+      "confidence": 0.889,
+      "words": [
+        {
+          "text": "There",
+          "start": 63.7,
+          "end": 63.96,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 63.96,
+          "end": 64.12,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 64.12,
+          "end": 64.36,
+          "matched": true
+        },
+        {
+          "text": "group",
+          "start": 64.36,
+          "end": 64.54,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 64.54,
+          "end": 64.86,
+          "matched": true
+        },
+        {
+          "text": "twelve",
+          "start": 64.86,
+          "end": 65.22,
+          "matched": false
+        },
+        {
+          "text": "men",
+          "start": 65.22,
+          "end": 65.7,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 65.7,
+          "end": 66.02,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 66.02,
+          "end": 66.44,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 67.81,
+      "end": 71.09,
+      "duration": 3.28,
+      "text": "They wear traditional costumes with big skirts.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 67.81,
+          "end": 68.05,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 68.05,
+          "end": 68.35,
+          "matched": true
+        },
+        {
+          "text": "traditional",
+          "start": 68.35,
+          "end": 68.97,
+          "matched": true
+        },
+        {
+          "text": "costumes",
+          "start": 68.97,
+          "end": 69.83,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 69.83,
+          "end": 70.41,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 70.41,
+          "end": 70.75,
+          "matched": true
+        },
+        {
+          "text": "skirts",
+          "start": 70.75,
+          "end": 71.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 71.09,
+      "end": 78.81,
+      "duration": 7.72,
+      "text": "They often all wear white, but sometimes the skirts are different colours.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 71.09,
+          "end": 72.15,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 73.29,
+          "end": 73.75,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 73.75,
+          "end": 74.27,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 74.27,
+          "end": 74.59,
+          "matched": true
+        },
+        {
+          "text": "white",
+          "start": 74.59,
+          "end": 75.01,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 75.81,
+          "end": 76.03,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 76.03,
+          "end": 76.65,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 76.65,
+          "end": 77.33,
+          "matched": true
+        },
+        {
+          "text": "skirts",
+          "start": 77.33,
+          "end": 77.63,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 77.63,
+          "end": 77.95,
+          "matched": true
+        },
+        {
+          "text": "different",
+          "start": 77.95,
+          "end": 78.33,
+          "matched": true
+        },
+        {
+          "text": "colours",
+          "start": 78.33,
+          "end": 78.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 80.576,
+      "end": 83.06,
+      "duration": 2.484,
+      "text": "There is another group of twelve musicians.",
+      "confidence": 0.857,
+      "words": [
+        {
+          "text": "There",
+          "start": 80.7,
+          "end": 80.74,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 80.74,
+          "end": 80.92,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 80.92,
+          "end": 81.34,
+          "matched": true
+        },
+        {
+          "text": "group",
+          "start": 81.34,
+          "end": 81.72,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 81.72,
+          "end": 81.94,
+          "matched": true
+        },
+        {
+          "text": "twelve",
+          "start": 81.94,
+          "end": 82.28,
+          "matched": false
+        },
+        {
+          "text": "musicians",
+          "start": 82.28,
+          "end": 83.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 84.576,
+      "end": 87.18,
+      "duration": 2.604,
+      "text": "They play traditional Turkish instruments.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 84.6,
+          "end": 84.84,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 84.84,
+          "end": 85.18,
+          "matched": true
+        },
+        {
+          "text": "traditional",
+          "start": 85.18,
+          "end": 85.92,
+          "matched": true
+        },
+        {
+          "text": "Turkish",
+          "start": 85.92,
+          "end": 86.48,
+          "matched": true
+        },
+        {
+          "text": "instruments",
+          "start": 86.48,
+          "end": 87.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 88.576,
+      "end": 95.72,
+      "duration": 7.144,
+      "text": "As the music plays, the dancers spin around in circles, getting faster and faster.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "As",
+          "start": 88.62,
+          "end": 88.82,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 88.82,
+          "end": 89.02,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 89.02,
+          "end": 89.36,
+          "matched": true
+        },
+        {
+          "text": "plays",
+          "start": 89.36,
+          "end": 89.92,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 90.9,
+          "end": 91.1,
+          "matched": true
+        },
+        {
+          "text": "dancers",
+          "start": 91.1,
+          "end": 91.6,
+          "matched": true
+        },
+        {
+          "text": "spin",
+          "start": 91.6,
+          "end": 92.14,
+          "matched": true
+        },
+        {
+          "text": "around",
+          "start": 92.14,
+          "end": 92.56,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 92.56,
+          "end": 92.86,
+          "matched": true
+        },
+        {
+          "text": "circles",
+          "start": 92.86,
+          "end": 93.38,
+          "matched": true
+        },
+        {
+          "text": "getting",
+          "start": 93.98,
+          "end": 94.28,
+          "matched": true
+        },
+        {
+          "text": "faster",
+          "start": 94.28,
+          "end": 94.86,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 94.86,
+          "end": 95.24,
+          "matched": true
+        },
+        {
+          "text": "faster",
+          "start": 95.24,
+          "end": 95.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 97.08,
+      "end": 99.46,
+      "duration": 2.38,
+      "text": "The dance is very popular with tourists.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 97.08,
+          "end": 97.22,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 97.22,
+          "end": 97.6,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 97.6,
+          "end": 97.84,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 97.84,
+          "end": 98.18,
+          "matched": true
+        },
+        {
+          "text": "popular",
+          "start": 98.18,
+          "end": 98.66,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 98.66,
+          "end": 99.06,
+          "matched": true
+        },
+        {
+          "text": "tourists",
+          "start": 99.06,
+          "end": 99.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 105.05,
+      "end": 113.65,
+      "duration": 8.6,
+      "text": "There are lots of Irish dances, but perhaps the most famous one is the step dance.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There",
+          "start": 105.05,
+          "end": 105.77,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 106.91,
+          "end": 107.11,
+          "matched": true
+        },
+        {
+          "text": "lots",
+          "start": 107.11,
+          "end": 107.47,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 107.47,
+          "end": 107.79,
+          "matched": true
+        },
+        {
+          "text": "Irish",
+          "start": 107.79,
+          "end": 108.01,
+          "matched": true
+        },
+        {
+          "text": "dances",
+          "start": 108.01,
+          "end": 108.55,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 109.55,
+          "end": 109.85,
+          "matched": true
+        },
+        {
+          "text": "perhaps",
+          "start": 109.85,
+          "end": 110.35,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 110.35,
+          "end": 110.65,
+          "matched": true
+        },
+        {
+          "text": "most",
+          "start": 110.65,
+          "end": 110.93,
+          "matched": true
+        },
+        {
+          "text": "famous",
+          "start": 110.93,
+          "end": 111.41,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 111.41,
+          "end": 111.79,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 111.79,
+          "end": 112.67,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 112.67,
+          "end": 112.87,
+          "matched": true
+        },
+        {
+          "text": "step",
+          "start": 112.87,
+          "end": 113.25,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 113.25,
+          "end": 113.65,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 115.136,
+      "end": 118.23,
+      "duration": 3.094,
+      "text": "One or more dancers perform the step dance.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "One",
+          "start": 115.17,
+          "end": 115.43,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 115.43,
+          "end": 115.67,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 115.67,
+          "end": 115.93,
+          "matched": true
+        },
+        {
+          "text": "dancers",
+          "start": 115.93,
+          "end": 116.55,
+          "matched": true
+        },
+        {
+          "text": "perform",
+          "start": 116.55,
+          "end": 117.17,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 117.17,
+          "end": 117.53,
+          "matched": true
+        },
+        {
+          "text": "step",
+          "start": 117.53,
+          "end": 117.77,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 117.77,
+          "end": 118.23,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 119.648,
+      "end": 121.99,
+      "duration": 2.342,
+      "text": "The dancers only move their legs.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 119.67,
+          "end": 119.75,
+          "matched": true
+        },
+        {
+          "text": "dancers",
+          "start": 119.75,
+          "end": 120.23,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 120.23,
+          "end": 120.91,
+          "matched": true
+        },
+        {
+          "text": "move",
+          "start": 120.91,
+          "end": 121.27,
+          "matched": true
+        },
+        {
+          "text": "their",
+          "start": 121.27,
+          "end": 121.53,
+          "matched": true
+        },
+        {
+          "text": "legs",
+          "start": 121.53,
+          "end": 121.99,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 122.98,
+      "end": 124.86,
+      "duration": 1.88,
+      "text": "They move them very quickly.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 122.98,
+          "end": 123.18,
+          "matched": true
+        },
+        {
+          "text": "move",
+          "start": 123.18,
+          "end": 123.58,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 123.58,
+          "end": 123.94,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 123.94,
+          "end": 124.36,
+          "matched": true
+        },
+        {
+          "text": "quickly",
+          "start": 124.36,
+          "end": 124.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 126.592,
+      "end": 128.97,
+      "duration": 2.378,
+      "text": "The top half of the body doesn't move.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 126.61,
+          "end": 126.69,
+          "matched": true
+        },
+        {
+          "text": "top",
+          "start": 126.69,
+          "end": 127.03,
+          "matched": true
+        },
+        {
+          "text": "half",
+          "start": 127.03,
+          "end": 127.37,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 127.37,
+          "end": 127.59,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 127.59,
+          "end": 127.71,
+          "matched": true
+        },
+        {
+          "text": "body",
+          "start": 127.71,
+          "end": 128.07,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 128.07,
+          "end": 128.61,
+          "matched": true
+        },
+        {
+          "text": "move",
+          "start": 128.61,
+          "end": 128.97,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 130.82,
+      "end": 134.22,
+      "duration": 3.4,
+      "text": "Dancers usually wear traditional Irish costumes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Dancers",
+          "start": 130.82,
+          "end": 131.32,
+          "matched": true
+        },
+        {
+          "text": "usually",
+          "start": 131.32,
+          "end": 131.96,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 131.96,
+          "end": 132.4,
+          "matched": true
+        },
+        {
+          "text": "traditional",
+          "start": 132.4,
+          "end": 133.1,
+          "matched": true
+        },
+        {
+          "text": "Irish",
+          "start": 133.1,
+          "end": 133.58,
+          "matched": true
+        },
+        {
+          "text": "costumes",
+          "start": 133.58,
+          "end": 134.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 136.01,
+      "end": 140.384,
+      "duration": 4.374,
+      "text": "The music they dance to is played by an Irish folk band.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 136.01,
+          "end": 136.23,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 136.23,
+          "end": 136.69,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 136.69,
+          "end": 136.97,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 136.97,
+          "end": 137.29,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 137.29,
+          "end": 137.61,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 137.61,
+          "end": 138.27,
+          "matched": true
+        },
+        {
+          "text": "played",
+          "start": 138.27,
+          "end": 138.57,
+          "matched": true
+        },
+        {
+          "text": "by",
+          "start": 138.57,
+          "end": 138.91,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 138.91,
+          "end": 139.07,
+          "matched": true
+        },
+        {
+          "text": "Irish",
+          "start": 139.07,
+          "end": 139.45,
+          "matched": true
+        },
+        {
+          "text": "folk",
+          "start": 139.45,
+          "end": 139.81,
+          "matched": true
+        },
+        {
+          "text": "band",
+          "start": 139.81,
+          "end": 140.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 140.384,
+      "end": 144.72,
+      "duration": 4.336,
+      "text": "They play instruments like the fiddle and the whistle.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 140.25,
+          "end": 140.91,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 141.82,
+          "end": 142.12,
+          "matched": true
+        },
+        {
+          "text": "instruments",
+          "start": 142.12,
+          "end": 142.66,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 142.66,
+          "end": 143.18,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 143.18,
+          "end": 143.46,
+          "matched": true
+        },
+        {
+          "text": "fiddle",
+          "start": 143.46,
+          "end": 143.94,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 143.94,
+          "end": 144.32,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 144.32,
+          "end": 144.44,
+          "matched": true
+        },
+        {
+          "text": "whistle",
+          "start": 144.44,
+          "end": 144.72,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

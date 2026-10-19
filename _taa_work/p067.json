@@ -1,0 +1,1649 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p067.mp3",
+  "language": "en",
+  "duration": 149.447,
+  "report": {
+    "script_tokens": 240,
+    "matched_tokens": 237,
+    "asr_words": 252,
+    "coverage": 0.988,
+    "unmatched": [
+      "rock-climber",
+      "Mo",
+      "life-jacket"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.84,
+      "end": 15.08,
+      "duration": 5.24,
+      "text": "Nikolai Kutsenko, from Ukraine, can do amazing things with a football.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Nikolai",
+          "start": 9.84,
+          "end": 10.34,
+          "matched": true
+        },
+        {
+          "text": "Kutsenko",
+          "start": 10.34,
+          "end": 10.94,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 10.94,
+          "end": 11.46,
+          "matched": true
+        },
+        {
+          "text": "Ukraine",
+          "start": 11.46,
+          "end": 11.96,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 11.96,
+          "end": 12.76,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 12.94,
+          "end": 13.14,
+          "matched": true
+        },
+        {
+          "text": "amazing",
+          "start": 13.14,
+          "end": 13.76,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 13.76,
+          "end": 14.36,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 14.36,
+          "end": 14.66,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 14.66,
+          "end": 14.78,
+          "matched": true
+        },
+        {
+          "text": "football",
+          "start": 14.78,
+          "end": 15.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 16.22,
+      "end": 24.96,
+      "duration": 8.74,
+      "text": "He can kick a ball well ... but he can also keep the ball in the air with his feet, legs and head.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 16.22,
+          "end": 16.44,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 16.44,
+          "end": 16.68,
+          "matched": true
+        },
+        {
+          "text": "kick",
+          "start": 16.68,
+          "end": 17.02,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 17.02,
+          "end": 17.28,
+          "matched": true
+        },
+        {
+          "text": "ball",
+          "start": 17.28,
+          "end": 17.64,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 17.64,
+          "end": 18.06,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 18.86,
+          "end": 19.26,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 19.26,
+          "end": 19.5,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 19.5,
+          "end": 19.66,
+          "matched": true
+        },
+        {
+          "text": "also",
+          "start": 19.66,
+          "end": 20.02,
+          "matched": true
+        },
+        {
+          "text": "keep",
+          "start": 20.02,
+          "end": 20.56,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 20.56,
+          "end": 20.78,
+          "matched": true
+        },
+        {
+          "text": "ball",
+          "start": 20.78,
+          "end": 21.16,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 21.16,
+          "end": 21.5,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 21.5,
+          "end": 21.66,
+          "matched": true
+        },
+        {
+          "text": "air",
+          "start": 21.66,
+          "end": 22.04,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 22.04,
+          "end": 22.32,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 22.32,
+          "end": 22.56,
+          "matched": true
+        },
+        {
+          "text": "feet",
+          "start": 22.56,
+          "end": 22.94,
+          "matched": true
+        },
+        {
+          "text": "legs",
+          "start": 23.52,
+          "end": 23.96,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 23.96,
+          "end": 24.46,
+          "matched": true
+        },
+        {
+          "text": "head",
+          "start": 24.46,
+          "end": 24.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 26.52,
+      "end": 28.768,
+      "duration": 2.248,
+      "text": "Lots of footballers can do this.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Lots",
+          "start": 26.52,
+          "end": 26.76,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 26.76,
+          "end": 27.08,
+          "matched": true
+        },
+        {
+          "text": "footballers",
+          "start": 27.08,
+          "end": 27.82,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 27.82,
+          "end": 28.06,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 28.06,
+          "end": 28.32,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 28.32,
+          "end": 28.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 29.6,
+      "end": 35.68,
+      "duration": 6.08,
+      "text": "But can they do it for 24 hours and 30 minutes without stopping?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 29.6,
+          "end": 29.94,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 29.94,
+          "end": 30.54,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 30.54,
+          "end": 30.82,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 30.82,
+          "end": 31.1,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 31.1,
+          "end": 31.32,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 31.32,
+          "end": 31.56,
+          "matched": true
+        },
+        {
+          "text": "24",
+          "start": 31.56,
+          "end": 32.38,
+          "matched": true
+        },
+        {
+          "text": "hours",
+          "start": 32.38,
+          "end": 32.98,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 32.98,
+          "end": 33.54,
+          "matched": true
+        },
+        {
+          "text": "30",
+          "start": 33.54,
+          "end": 34.14,
+          "matched": true
+        },
+        {
+          "text": "minutes",
+          "start": 34.14,
+          "end": 34.64,
+          "matched": true
+        },
+        {
+          "text": "without",
+          "start": 34.64,
+          "end": 35.06,
+          "matched": true
+        },
+        {
+          "text": "stopping",
+          "start": 35.06,
+          "end": 35.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 37.06,
+      "end": 40.16,
+      "duration": 3.1,
+      "text": "Nikolai can and it's a world record!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Nikolai",
+          "start": 37.06,
+          "end": 37.56,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 37.56,
+          "end": 37.88,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 37.88,
+          "end": 38.68,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 38.68,
+          "end": 38.96,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 38.96,
+          "end": 39.08,
+          "matched": true
+        },
+        {
+          "text": "world",
+          "start": 39.08,
+          "end": 39.58,
+          "matched": true
+        },
+        {
+          "text": "record",
+          "start": 39.58,
+          "end": 40.16,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 42.56,
+      "end": 51.67,
+      "duration": 9.11,
+      "text": "Sloan Henderson, from Utah, is a really good snowboarder – and she's only 14 months old!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Sloan",
+          "start": 42.56,
+          "end": 42.98,
+          "matched": true
+        },
+        {
+          "text": "Henderson",
+          "start": 42.98,
+          "end": 43.44,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 43.44,
+          "end": 44.14,
+          "matched": true
+        },
+        {
+          "text": "Utah",
+          "start": 44.14,
+          "end": 44.6,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 44.6,
+          "end": 45.46,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 45.6,
+          "end": 45.76,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 45.76,
+          "end": 46.3,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 46.3,
+          "end": 46.84,
+          "matched": true
+        },
+        {
+          "text": "snowboarder",
+          "start": 46.84,
+          "end": 47.82,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 48.19,
+          "end": 48.85,
+          "matched": true
+        },
+        {
+          "text": "she's",
+          "start": 48.85,
+          "end": 49.25,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 49.25,
+          "end": 49.73,
+          "matched": true
+        },
+        {
+          "text": "14",
+          "start": 49.73,
+          "end": 50.47,
+          "matched": true
+        },
+        {
+          "text": "months",
+          "start": 50.47,
+          "end": 50.97,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 50.97,
+          "end": 51.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 52.864,
+      "end": 60.71,
+      "duration": 7.846,
+      "text": "Her mother and father take her to the mountains, and they put her on a snowboard – and there she goes!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Her",
+          "start": 52.88,
+          "end": 53.06,
+          "matched": true
+        },
+        {
+          "text": "mother",
+          "start": 53.06,
+          "end": 53.4,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 53.4,
+          "end": 53.8,
+          "matched": true
+        },
+        {
+          "text": "father",
+          "start": 53.8,
+          "end": 54.3,
+          "matched": true
+        },
+        {
+          "text": "take",
+          "start": 54.3,
+          "end": 55.2,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 55.2,
+          "end": 55.44,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 55.44,
+          "end": 55.58,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 55.58,
+          "end": 55.74,
+          "matched": true
+        },
+        {
+          "text": "mountains",
+          "start": 55.74,
+          "end": 56.1,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 56.1,
+          "end": 57.04,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 57.31,
+          "end": 57.51,
+          "matched": true
+        },
+        {
+          "text": "put",
+          "start": 57.51,
+          "end": 57.79,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 57.79,
+          "end": 58.07,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 58.07,
+          "end": 58.25,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 58.25,
+          "end": 58.41,
+          "matched": true
+        },
+        {
+          "text": "snowboard",
+          "start": 58.41,
+          "end": 59.01,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 59.01,
+          "end": 59.71,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 59.85,
+          "end": 60.15,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 60.15,
+          "end": 60.35,
+          "matched": true
+        },
+        {
+          "text": "goes",
+          "start": 60.35,
+          "end": 60.71,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 62.12,
+      "end": 64.512,
+      "duration": 2.392,
+      "text": "Sloan loves to be on the board.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Sloan",
+          "start": 62.12,
+          "end": 62.76,
+          "matched": true
+        },
+        {
+          "text": "loves",
+          "start": 62.76,
+          "end": 63.22,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 63.22,
+          "end": 63.52,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 63.52,
+          "end": 63.74,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 63.74,
+          "end": 63.94,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 63.94,
+          "end": 64.06,
+          "matched": true
+        },
+        {
+          "text": "board",
+          "start": 64.06,
+          "end": 64.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 65.43,
+      "end": 70.496,
+      "duration": 5.066,
+      "text": "People are often surprised when they see her because she doesn't fall over!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "People",
+          "start": 65.43,
+          "end": 65.75,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 65.75,
+          "end": 66.01,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 66.01,
+          "end": 66.43,
+          "matched": true
+        },
+        {
+          "text": "surprised",
+          "start": 66.43,
+          "end": 67.15,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 67.15,
+          "end": 67.47,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 67.47,
+          "end": 67.63,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 67.63,
+          "end": 67.91,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 67.91,
+          "end": 68.27,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 68.27,
+          "end": 68.93,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 68.93,
+          "end": 69.25,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 69.25,
+          "end": 69.73,
+          "matched": true
+        },
+        {
+          "text": "fall",
+          "start": 69.73,
+          "end": 69.95,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 69.95,
+          "end": 70.35,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 72.608,
+      "end": 86.528,
+      "duration": 13.92,
+      "text": "American rock-climber Maureen 'Mo' Beck was born without her left hand and only part of her left arm, but she can climb really well.",
+      "confidence": 0.917,
+      "words": [
+        {
+          "text": "American",
+          "start": 72.62,
+          "end": 73.14,
+          "matched": true
+        },
+        {
+          "text": "rock-climber",
+          "start": 73.14,
+          "end": 73.68,
+          "matched": false
+        },
+        {
+          "text": "Maureen",
+          "start": 74.32,
+          "end": 75.58,
+          "matched": true
+        },
+        {
+          "text": "Mo",
+          "start": 75.58,
+          "end": 76.44,
+          "matched": false
+        },
+        {
+          "text": "Beck",
+          "start": 76.44,
+          "end": 76.76,
+          "matched": true
+        },
+        {
+          "text": "was",
+          "start": 76.76,
+          "end": 77.54,
+          "matched": true
+        },
+        {
+          "text": "born",
+          "start": 77.97,
+          "end": 78.43,
+          "matched": true
+        },
+        {
+          "text": "without",
+          "start": 78.43,
+          "end": 78.83,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 78.83,
+          "end": 79.19,
+          "matched": true
+        },
+        {
+          "text": "left",
+          "start": 79.19,
+          "end": 79.51,
+          "matched": true
+        },
+        {
+          "text": "hand",
+          "start": 79.51,
+          "end": 79.97,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 79.97,
+          "end": 80.75,
+          "matched": true
+        },
+        {
+          "text": "only",
+          "start": 80.89,
+          "end": 81.33,
+          "matched": true
+        },
+        {
+          "text": "part",
+          "start": 81.33,
+          "end": 81.79,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 81.79,
+          "end": 82.15,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 82.15,
+          "end": 82.29,
+          "matched": true
+        },
+        {
+          "text": "left",
+          "start": 82.29,
+          "end": 82.57,
+          "matched": true
+        },
+        {
+          "text": "arm",
+          "start": 82.57,
+          "end": 82.95,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 83.42,
+          "end": 84.02,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 84.02,
+          "end": 84.34,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 84.34,
+          "end": 84.7,
+          "matched": true
+        },
+        {
+          "text": "climb",
+          "start": 84.7,
+          "end": 85.18,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 85.18,
+          "end": 85.9,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 85.9,
+          "end": 86.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 87.92,
+      "end": 96.81,
+      "duration": 8.89,
+      "text": "She is the winner of two climbing World Championships for disabled athletes, and five national championships.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 87.92,
+          "end": 88.26,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 88.26,
+          "end": 88.48,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 88.48,
+          "end": 88.66,
+          "matched": true
+        },
+        {
+          "text": "winner",
+          "start": 88.66,
+          "end": 88.98,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 88.98,
+          "end": 89.6,
+          "matched": true
+        },
+        {
+          "text": "two",
+          "start": 89.6,
+          "end": 90.04,
+          "matched": true
+        },
+        {
+          "text": "climbing",
+          "start": 90.04,
+          "end": 90.7,
+          "matched": true
+        },
+        {
+          "text": "World",
+          "start": 90.7,
+          "end": 91.26,
+          "matched": true
+        },
+        {
+          "text": "Championships",
+          "start": 91.26,
+          "end": 92.14,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 92.14,
+          "end": 92.76,
+          "matched": true
+        },
+        {
+          "text": "disabled",
+          "start": 92.76,
+          "end": 93.3,
+          "matched": true
+        },
+        {
+          "text": "athletes",
+          "start": 93.3,
+          "end": 93.88,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 93.88,
+          "end": 94.74,
+          "matched": true
+        },
+        {
+          "text": "five",
+          "start": 94.95,
+          "end": 95.39,
+          "matched": true
+        },
+        {
+          "text": "national",
+          "start": 95.39,
+          "end": 95.99,
+          "matched": true
+        },
+        {
+          "text": "championships",
+          "start": 95.99,
+          "end": 96.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 98.61,
+      "end": 107.424,
+      "duration": 8.814,
+      "text": "She has her own special way of climbing, but Maureen thinks she is just the same as any other climber.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 98.61,
+          "end": 98.93,
+          "matched": true
+        },
+        {
+          "text": "has",
+          "start": 98.93,
+          "end": 99.25,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 99.25,
+          "end": 99.53,
+          "matched": true
+        },
+        {
+          "text": "own",
+          "start": 99.53,
+          "end": 99.89,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 99.89,
+          "end": 100.39,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 100.39,
+          "end": 100.85,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 100.85,
+          "end": 101.03,
+          "matched": true
+        },
+        {
+          "text": "climbing",
+          "start": 101.03,
+          "end": 101.47,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 101.47,
+          "end": 102.21,
+          "matched": true
+        },
+        {
+          "text": "Maureen",
+          "start": 102.87,
+          "end": 103.65,
+          "matched": true
+        },
+        {
+          "text": "thinks",
+          "start": 103.65,
+          "end": 104.23,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 104.23,
+          "end": 104.57,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 104.57,
+          "end": 104.73,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 104.73,
+          "end": 105.11,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 105.11,
+          "end": 105.47,
+          "matched": true
+        },
+        {
+          "text": "same",
+          "start": 105.47,
+          "end": 105.83,
+          "matched": true
+        },
+        {
+          "text": "as",
+          "start": 105.83,
+          "end": 105.99,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 105.99,
+          "end": 106.51,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 106.51,
+          "end": 106.79,
+          "matched": true
+        },
+        {
+          "text": "climber",
+          "start": 106.79,
+          "end": 107.41,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 109.44,
+      "end": 113.58,
+      "duration": 4.14,
+      "text": "Goatee can't talk or write, but she can surf!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Goatee",
+          "start": 109.48,
+          "end": 110.22,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 110.22,
+          "end": 110.74,
+          "matched": true
+        },
+        {
+          "text": "talk",
+          "start": 110.74,
+          "end": 111.1,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 111.1,
+          "end": 111.44,
+          "matched": true
+        },
+        {
+          "text": "write",
+          "start": 111.44,
+          "end": 111.88,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 111.88,
+          "end": 112.58,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 112.58,
+          "end": 112.86,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 112.86,
+          "end": 113.14,
+          "matched": true
+        },
+        {
+          "text": "surf",
+          "start": 113.14,
+          "end": 113.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 115.03,
+      "end": 116.29,
+      "duration": 1.26,
+      "text": "Why is this special?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 115.03,
+          "end": 115.27,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 115.27,
+          "end": 115.53,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 115.53,
+          "end": 115.79,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 115.79,
+          "end": 116.29,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 117.152,
+      "end": 119.42,
+      "duration": 2.268,
+      "text": "Because Goatee is a goat!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Because",
+          "start": 117.16,
+          "end": 117.52,
+          "matched": true
+        },
+        {
+          "text": "Goatee",
+          "start": 117.52,
+          "end": 118.56,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 118.56,
+          "end": 118.88,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 118.88,
+          "end": 119.02,
+          "matched": true
+        },
+        {
+          "text": "goat",
+          "start": 119.02,
+          "end": 119.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 120.4,
+      "end": 123.68,
+      "duration": 3.28,
+      "text": "She surfs with her owner, Dana McGregor.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 120.4,
+          "end": 120.76,
+          "matched": true
+        },
+        {
+          "text": "surfs",
+          "start": 120.76,
+          "end": 121.48,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 121.48,
+          "end": 121.64,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 121.64,
+          "end": 121.86,
+          "matched": true
+        },
+        {
+          "text": "owner",
+          "start": 121.86,
+          "end": 122.24,
+          "matched": true
+        },
+        {
+          "text": "Dana",
+          "start": 122.72,
+          "end": 123.0,
+          "matched": true
+        },
+        {
+          "text": "McGregor",
+          "start": 123.0,
+          "end": 123.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 124.52,
+      "end": 132.24,
+      "duration": 7.72,
+      "text": "Dana helps Goatee to stand on the board and together they ride the waves in California.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Dana",
+          "start": 124.52,
+          "end": 125.04,
+          "matched": true
+        },
+        {
+          "text": "helps",
+          "start": 125.04,
+          "end": 125.58,
+          "matched": true
+        },
+        {
+          "text": "Goatee",
+          "start": 125.58,
+          "end": 126.48,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 126.48,
+          "end": 126.66,
+          "matched": true
+        },
+        {
+          "text": "stand",
+          "start": 126.66,
+          "end": 127.0,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 127.0,
+          "end": 127.24,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 127.24,
+          "end": 127.36,
+          "matched": true
+        },
+        {
+          "text": "board",
+          "start": 127.36,
+          "end": 127.74,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 127.74,
+          "end": 128.48,
+          "matched": true
+        },
+        {
+          "text": "together",
+          "start": 128.88,
+          "end": 129.3,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 129.3,
+          "end": 130.16,
+          "matched": true
+        },
+        {
+          "text": "ride",
+          "start": 130.16,
+          "end": 130.64,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 130.64,
+          "end": 130.96,
+          "matched": true
+        },
+        {
+          "text": "waves",
+          "start": 130.96,
+          "end": 131.5,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 131.5,
+          "end": 131.74,
+          "matched": true
+        },
+        {
+          "text": "California",
+          "start": 131.74,
+          "end": 132.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 133.76,
+      "end": 139.36,
+      "duration": 5.6,
+      "text": "Goatee wears a yellow life-jacket because she can't swim very well!",
+      "confidence": 0.909,
+      "words": [
+        {
+          "text": "Goatee",
+          "start": 133.82,
+          "end": 134.56,
+          "matched": true
+        },
+        {
+          "text": "wears",
+          "start": 134.56,
+          "end": 134.96,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 134.96,
+          "end": 135.22,
+          "matched": true
+        },
+        {
+          "text": "yellow",
+          "start": 135.22,
+          "end": 135.56,
+          "matched": true
+        },
+        {
+          "text": "life-jacket",
+          "start": 135.56,
+          "end": 135.92,
+          "matched": false
+        },
+        {
+          "text": "because",
+          "start": 136.28,
+          "end": 137.34,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 137.34,
+          "end": 137.62,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 137.62,
+          "end": 138.04,
+          "matched": true
+        },
+        {
+          "text": "swim",
+          "start": 138.04,
+          "end": 138.4,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 138.4,
+          "end": 138.86,
+          "matched": true
+        },
+        {
+          "text": "well",
+          "start": 138.86,
+          "end": 139.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 139.36,
+      "end": 146.19,
+      "duration": 6.83,
+      "text": "And now there is a children's book about her, too – Dana is the author.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 139.24,
+          "end": 140.02,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 140.35,
+          "end": 140.87,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 140.87,
+          "end": 141.53,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 141.53,
+          "end": 141.71,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 141.71,
+          "end": 141.85,
+          "matched": true
+        },
+        {
+          "text": "children's",
+          "start": 141.85,
+          "end": 142.59,
+          "matched": true
+        },
+        {
+          "text": "book",
+          "start": 142.59,
+          "end": 142.83,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 142.83,
+          "end": 143.21,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 143.21,
+          "end": 143.53,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 143.53,
+          "end": 143.87,
+          "matched": true
+        },
+        {
+          "text": "Dana",
+          "start": 144.67,
+          "end": 145.13,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 145.13,
+          "end": 145.65,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 145.65,
+          "end": 145.85,
+          "matched": true
+        },
+        {
+          "text": "author",
+          "start": 145.85,
+          "end": 146.19,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

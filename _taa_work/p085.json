@@ -1,0 +1,1797 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p085.mp3",
+  "language": "en",
+  "duration": 138.24,
+  "report": {
+    "script_tokens": 248,
+    "matched_tokens": 245,
+    "asr_words": 260,
+    "coverage": 0.988,
+    "unmatched": [
+      "Kitchen",
+      "ten-year-old",
+      "pm"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 8.72,
+      "end": 12.48,
+      "duration": 3.76,
+      "text": "Harry doesn't want to be a star chef when he's 20.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Harry",
+          "start": 8.72,
+          "end": 9.12,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 9.12,
+          "end": 9.9,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 9.9,
+          "end": 10.14,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 10.14,
+          "end": 10.36,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 10.36,
+          "end": 10.54,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 10.54,
+          "end": 10.68,
+          "matched": true
+        },
+        {
+          "text": "star",
+          "start": 10.68,
+          "end": 11.04,
+          "matched": true
+        },
+        {
+          "text": "chef",
+          "start": 11.04,
+          "end": 11.44,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 11.44,
+          "end": 11.72,
+          "matched": true
+        },
+        {
+          "text": "he's",
+          "start": 11.72,
+          "end": 12.0,
+          "matched": true
+        },
+        {
+          "text": "20",
+          "start": 12.0,
+          "end": 12.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 13.2,
+      "end": 15.08,
+      "duration": 1.88,
+      "text": "He wants to be one now.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 13.2,
+          "end": 13.56,
+          "matched": true
+        },
+        {
+          "text": "wants",
+          "start": 13.56,
+          "end": 13.82,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 13.82,
+          "end": 14.08,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 14.08,
+          "end": 14.32,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 14.32,
+          "end": 14.62,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 14.62,
+          "end": 15.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 16.05,
+      "end": 20.49,
+      "duration": 4.44,
+      "text": "This is why he's on the TV programme Kitchen Kids.",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "This",
+          "start": 16.05,
+          "end": 16.49,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 16.49,
+          "end": 16.97,
+          "matched": true
+        },
+        {
+          "text": "why",
+          "start": 16.97,
+          "end": 17.31,
+          "matched": true
+        },
+        {
+          "text": "he's",
+          "start": 17.31,
+          "end": 17.65,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 17.65,
+          "end": 17.77,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 17.77,
+          "end": 17.95,
+          "matched": true
+        },
+        {
+          "text": "TV",
+          "start": 17.95,
+          "end": 18.33,
+          "matched": true
+        },
+        {
+          "text": "programme",
+          "start": 18.33,
+          "end": 19.01,
+          "matched": true
+        },
+        {
+          "text": "Kitchen",
+          "start": 19.65,
+          "end": 20.17,
+          "matched": false
+        },
+        {
+          "text": "Kids",
+          "start": 20.17,
+          "end": 20.49,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 21.95,
+      "end": 24.87,
+      "duration": 2.92,
+      "text": "The ten-year-old New Yorker likes cooking.",
+      "confidence": 0.833,
+      "words": [
+        {
+          "text": "The",
+          "start": 21.95,
+          "end": 22.23,
+          "matched": true
+        },
+        {
+          "text": "ten-year-old",
+          "start": 22.23,
+          "end": 22.61,
+          "matched": false
+        },
+        {
+          "text": "New",
+          "start": 23.03,
+          "end": 23.35,
+          "matched": true
+        },
+        {
+          "text": "Yorker",
+          "start": 23.35,
+          "end": 23.97,
+          "matched": true
+        },
+        {
+          "text": "likes",
+          "start": 23.97,
+          "end": 24.43,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 24.43,
+          "end": 24.87,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 25.75,
+      "end": 32.93,
+      "duration": 7.18,
+      "text": "He can make fantastic soups and salads, excellent omelettes and the best cakes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 25.75,
+          "end": 25.97,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 25.97,
+          "end": 26.27,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 26.27,
+          "end": 26.57,
+          "matched": true
+        },
+        {
+          "text": "fantastic",
+          "start": 26.57,
+          "end": 27.27,
+          "matched": true
+        },
+        {
+          "text": "soups",
+          "start": 27.27,
+          "end": 28.45,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 28.45,
+          "end": 28.57,
+          "matched": true
+        },
+        {
+          "text": "salads",
+          "start": 28.57,
+          "end": 29.03,
+          "matched": true
+        },
+        {
+          "text": "excellent",
+          "start": 29.81,
+          "end": 30.45,
+          "matched": true
+        },
+        {
+          "text": "omelettes",
+          "start": 30.45,
+          "end": 31.09,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 31.09,
+          "end": 31.81,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 31.81,
+          "end": 31.97,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 31.97,
+          "end": 32.45,
+          "matched": true
+        },
+        {
+          "text": "cakes",
+          "start": 32.45,
+          "end": 32.93,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 34.05,
+      "end": 36.95,
+      "duration": 2.9,
+      "text": "But there are many other children on the show, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 34.05,
+          "end": 34.31,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 34.31,
+          "end": 34.49,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 34.49,
+          "end": 34.65,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 34.65,
+          "end": 35.09,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 35.09,
+          "end": 35.43,
+          "matched": true
+        },
+        {
+          "text": "children",
+          "start": 35.43,
+          "end": 35.93,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 35.93,
+          "end": 36.21,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 36.21,
+          "end": 36.35,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 36.35,
+          "end": 36.63,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 36.63,
+          "end": 36.95,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 36.95,
+      "end": 39.584,
+      "duration": 2.634,
+      "text": "And they are all very good.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 36.95,
+          "end": 37.81,
+          "matched": true
+        },
+        {
+          "text": "they",
+          "start": 37.81,
+          "end": 37.99,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 37.99,
+          "end": 38.15,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 38.15,
+          "end": 38.61,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 38.61,
+          "end": 39.11,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 39.11,
+          "end": 39.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 40.928,
+      "end": 44.41,
+      "duration": 3.482,
+      "text": "More and more young people are interested in cooking.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "More",
+          "start": 41.05,
+          "end": 41.33,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 41.33,
+          "end": 41.67,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 41.67,
+          "end": 41.97,
+          "matched": true
+        },
+        {
+          "text": "young",
+          "start": 41.97,
+          "end": 42.39,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 42.39,
+          "end": 42.85,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 42.85,
+          "end": 43.31,
+          "matched": true
+        },
+        {
+          "text": "interested",
+          "start": 43.31,
+          "end": 43.83,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 43.83,
+          "end": 44.11,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 44.11,
+          "end": 44.41,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 45.65,
+      "end": 48.09,
+      "duration": 2.44,
+      "text": "Many of them learn it from their parents.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Many",
+          "start": 45.65,
+          "end": 46.05,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 46.05,
+          "end": 46.31,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 46.31,
+          "end": 46.55,
+          "matched": true
+        },
+        {
+          "text": "learn",
+          "start": 46.55,
+          "end": 46.87,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 46.87,
+          "end": 47.09,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 47.09,
+          "end": 47.31,
+          "matched": true
+        },
+        {
+          "text": "their",
+          "start": 47.31,
+          "end": 47.53,
+          "matched": true
+        },
+        {
+          "text": "parents",
+          "start": 47.53,
+          "end": 48.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 49.312,
+      "end": 53.9,
+      "duration": 4.588,
+      "text": "Others watch special cooking videos for children on YouTube.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Others",
+          "start": 49.36,
+          "end": 49.72,
+          "matched": true
+        },
+        {
+          "text": "watch",
+          "start": 49.72,
+          "end": 50.58,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 50.58,
+          "end": 51.22,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 51.22,
+          "end": 51.6,
+          "matched": true
+        },
+        {
+          "text": "videos",
+          "start": 51.6,
+          "end": 52.18,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 52.18,
+          "end": 52.52,
+          "matched": true
+        },
+        {
+          "text": "children",
+          "start": 52.52,
+          "end": 53.0,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 53.0,
+          "end": 53.44,
+          "matched": true
+        },
+        {
+          "text": "YouTube",
+          "start": 53.44,
+          "end": 53.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 55.13,
+      "end": 59.79,
+      "duration": 4.66,
+      "text": "In many cities, there are special cooking classes for young people.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 55.13,
+          "end": 55.31,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 55.31,
+          "end": 55.63,
+          "matched": true
+        },
+        {
+          "text": "cities",
+          "start": 55.63,
+          "end": 56.09,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 56.09,
+          "end": 56.89,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 56.89,
+          "end": 57.03,
+          "matched": true
+        },
+        {
+          "text": "special",
+          "start": 57.03,
+          "end": 57.51,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 57.51,
+          "end": 58.03,
+          "matched": true
+        },
+        {
+          "text": "classes",
+          "start": 58.03,
+          "end": 58.61,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 58.61,
+          "end": 59.13,
+          "matched": true
+        },
+        {
+          "text": "young",
+          "start": 59.13,
+          "end": 59.37,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 59.37,
+          "end": 59.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 61.16,
+      "end": 64.84,
+      "duration": 3.68,
+      "text": "Some of them are for children from the age of three!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Some",
+          "start": 61.16,
+          "end": 61.54,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 61.54,
+          "end": 61.7,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 61.7,
+          "end": 61.98,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 61.98,
+          "end": 62.54,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 62.54,
+          "end": 62.7,
+          "matched": true
+        },
+        {
+          "text": "children",
+          "start": 62.7,
+          "end": 63.16,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 63.16,
+          "end": 63.62,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 63.62,
+          "end": 63.84,
+          "matched": true
+        },
+        {
+          "text": "age",
+          "start": 63.84,
+          "end": 64.24,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 64.24,
+          "end": 64.4,
+          "matched": true
+        },
+        {
+          "text": "three",
+          "start": 64.4,
+          "end": 64.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 66.8,
+      "end": 69.8,
+      "duration": 3.0,
+      "text": "But what must you do to become a star chef?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 66.8,
+          "end": 67.04,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 67.04,
+          "end": 67.36,
+          "matched": true
+        },
+        {
+          "text": "must",
+          "start": 67.36,
+          "end": 67.7,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 67.7,
+          "end": 67.94,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 67.94,
+          "end": 68.22,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 68.22,
+          "end": 68.54,
+          "matched": true
+        },
+        {
+          "text": "become",
+          "start": 68.54,
+          "end": 68.84,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 68.84,
+          "end": 69.08,
+          "matched": true
+        },
+        {
+          "text": "star",
+          "start": 69.08,
+          "end": 69.42,
+          "matched": true
+        },
+        {
+          "text": "chef",
+          "start": 69.42,
+          "end": 69.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 71.2,
+      "end": 76.224,
+      "duration": 5.024,
+      "text": "Of course, it's important that you like cooking and are really good at it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Of",
+          "start": 71.24,
+          "end": 71.4,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 71.4,
+          "end": 71.72,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 71.72,
+          "end": 72.2,
+          "matched": true
+        },
+        {
+          "text": "important",
+          "start": 72.2,
+          "end": 72.78,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 72.78,
+          "end": 73.16,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 73.16,
+          "end": 73.3,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 73.3,
+          "end": 73.66,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 73.66,
+          "end": 74.04,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 74.04,
+          "end": 74.82,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 74.82,
+          "end": 74.98,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 74.98,
+          "end": 75.34,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 75.34,
+          "end": 75.68,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 75.68,
+          "end": 75.9,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 75.9,
+          "end": 76.16,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 77.11,
+      "end": 78.75,
+      "duration": 1.64,
+      "text": "But there are some rules.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 77.11,
+          "end": 77.41,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 77.41,
+          "end": 77.65,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 77.65,
+          "end": 77.91,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 77.91,
+          "end": 78.25,
+          "matched": true
+        },
+        {
+          "text": "rules",
+          "start": 78.25,
+          "end": 78.75,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 79.86,
+      "end": 84.1,
+      "duration": 4.24,
+      "text": "You must be nine years old or more to be on Kitchen Kids.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 79.86,
+          "end": 80.1,
+          "matched": true
+        },
+        {
+          "text": "must",
+          "start": 80.1,
+          "end": 80.42,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 80.42,
+          "end": 80.76,
+          "matched": true
+        },
+        {
+          "text": "nine",
+          "start": 80.76,
+          "end": 81.1,
+          "matched": true
+        },
+        {
+          "text": "years",
+          "start": 81.1,
+          "end": 81.52,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 81.52,
+          "end": 81.84,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 81.84,
+          "end": 82.08,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 82.08,
+          "end": 82.4,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 82.4,
+          "end": 82.88,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 82.88,
+          "end": 83.06,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 83.06,
+          "end": 83.26,
+          "matched": true
+        },
+        {
+          "text": "Kitchen",
+          "start": 83.26,
+          "end": 83.58,
+          "matched": true
+        },
+        {
+          "text": "Kids",
+          "start": 83.58,
+          "end": 84.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 85.0,
+      "end": 89.54,
+      "duration": 4.54,
+      "text": "'We must wash our hands before we start cooking,' Harry says.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 85.0,
+          "end": 85.28,
+          "matched": true
+        },
+        {
+          "text": "must",
+          "start": 85.28,
+          "end": 85.64,
+          "matched": true
+        },
+        {
+          "text": "wash",
+          "start": 85.64,
+          "end": 85.96,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 85.96,
+          "end": 86.22,
+          "matched": true
+        },
+        {
+          "text": "hands",
+          "start": 86.22,
+          "end": 86.68,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 86.68,
+          "end": 87.06,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 87.06,
+          "end": 87.34,
+          "matched": true
+        },
+        {
+          "text": "start",
+          "start": 87.34,
+          "end": 87.68,
+          "matched": true
+        },
+        {
+          "text": "cooking",
+          "start": 87.68,
+          "end": 88.18,
+          "matched": true
+        },
+        {
+          "text": "Harry",
+          "start": 88.82,
+          "end": 89.16,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 89.16,
+          "end": 89.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 90.46,
+      "end": 93.4,
+      "duration": 2.94,
+      "text": "'And of course we mustn't put them in our mouths.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 90.46,
+          "end": 90.74,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 90.74,
+          "end": 90.92,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 90.92,
+          "end": 91.3,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 91.3,
+          "end": 91.72,
+          "matched": true
+        },
+        {
+          "text": "mustn't",
+          "start": 91.72,
+          "end": 92.34,
+          "matched": true
+        },
+        {
+          "text": "put",
+          "start": 92.34,
+          "end": 92.5,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 92.5,
+          "end": 92.68,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 92.68,
+          "end": 92.84,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 92.84,
+          "end": 93.02,
+          "matched": true
+        },
+        {
+          "text": "mouths",
+          "start": 93.02,
+          "end": 93.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 94.44,
+      "end": 95.84,
+      "duration": 1.4,
+      "text": "A chef doesn't do that!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 94.44,
+          "end": 94.62,
+          "matched": true
+        },
+        {
+          "text": "chef",
+          "start": 94.62,
+          "end": 94.9,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 94.9,
+          "end": 95.36,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 95.36,
+          "end": 95.56,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 95.56,
+          "end": 95.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 95.84,
+      "end": 101.86,
+      "duration": 6.02,
+      "text": "And we must be very careful with hot plates.'\nThe show starts.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 95.84,
+          "end": 96.52,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 97.02,
+          "end": 97.26,
+          "matched": true
+        },
+        {
+          "text": "must",
+          "start": 97.26,
+          "end": 97.6,
+          "matched": true
+        },
+        {
+          "text": "be",
+          "start": 97.6,
+          "end": 97.88,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 97.88,
+          "end": 98.26,
+          "matched": true
+        },
+        {
+          "text": "careful",
+          "start": 98.26,
+          "end": 98.74,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 98.74,
+          "end": 99.04,
+          "matched": true
+        },
+        {
+          "text": "hot",
+          "start": 99.04,
+          "end": 99.28,
+          "matched": true
+        },
+        {
+          "text": "plates",
+          "start": 99.28,
+          "end": 99.78,
+          "matched": true
+        },
+        {
+          "text": "The",
+          "start": 100.98,
+          "end": 101.12,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 101.12,
+          "end": 101.44,
+          "matched": true
+        },
+        {
+          "text": "starts",
+          "start": 101.44,
+          "end": 101.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 103.008,
+      "end": 104.28,
+      "duration": 1.272,
+      "text": "Harry is excited.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Harry",
+          "start": 103.1,
+          "end": 103.32,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 103.32,
+          "end": 103.66,
+          "matched": true
+        },
+        {
+          "text": "excited",
+          "start": 103.66,
+          "end": 104.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 105.37,
+      "end": 107.49,
+      "duration": 2.12,
+      "text": "He knows he's an excellent cook.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 105.37,
+          "end": 105.57,
+          "matched": true
+        },
+        {
+          "text": "knows",
+          "start": 105.57,
+          "end": 106.03,
+          "matched": true
+        },
+        {
+          "text": "he's",
+          "start": 106.03,
+          "end": 106.37,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 106.37,
+          "end": 106.51,
+          "matched": true
+        },
+        {
+          "text": "excellent",
+          "start": 106.51,
+          "end": 107.07,
+          "matched": true
+        },
+        {
+          "text": "cook",
+          "start": 107.07,
+          "end": 107.49,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 108.93,
+      "end": 115.968,
+      "duration": 7.038,
+      "text": "This time he makes tomato soup, some salad, steak and carrot cake.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 108.93,
+          "end": 109.21,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 109.21,
+          "end": 109.63,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 109.63,
+          "end": 110.15,
+          "matched": true
+        },
+        {
+          "text": "makes",
+          "start": 110.15,
+          "end": 110.49,
+          "matched": true
+        },
+        {
+          "text": "tomato",
+          "start": 110.49,
+          "end": 111.03,
+          "matched": true
+        },
+        {
+          "text": "soup",
+          "start": 111.03,
+          "end": 111.55,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 112.48,
+          "end": 112.66,
+          "matched": true
+        },
+        {
+          "text": "salad",
+          "start": 112.66,
+          "end": 113.08,
+          "matched": true
+        },
+        {
+          "text": "steak",
+          "start": 114.0,
+          "end": 114.34,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 114.34,
+          "end": 115.1,
+          "matched": true
+        },
+        {
+          "text": "carrot",
+          "start": 115.1,
+          "end": 115.48,
+          "matched": true
+        },
+        {
+          "text": "cake",
+          "start": 115.48,
+          "end": 115.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 117.3,
+      "end": 122.688,
+      "duration": 5.388,
+      "text": "The experts in the studio love Harry's food, and he stays on the show.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 117.3,
+          "end": 117.48,
+          "matched": true
+        },
+        {
+          "text": "experts",
+          "start": 117.48,
+          "end": 118.0,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 118.0,
+          "end": 118.36,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 118.36,
+          "end": 118.5,
+          "matched": true
+        },
+        {
+          "text": "studio",
+          "start": 118.5,
+          "end": 119.02,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 119.02,
+          "end": 119.6,
+          "matched": true
+        },
+        {
+          "text": "Harry's",
+          "start": 119.6,
+          "end": 120.26,
+          "matched": true
+        },
+        {
+          "text": "food",
+          "start": 120.26,
+          "end": 120.54,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 120.54,
+          "end": 121.22,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 121.22,
+          "end": 121.42,
+          "matched": true
+        },
+        {
+          "text": "stays",
+          "start": 121.42,
+          "end": 121.82,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 121.82,
+          "end": 122.14,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 122.14,
+          "end": 122.26,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 122.26,
+          "end": 122.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 123.96,
+      "end": 124.98,
+      "duration": 1.02,
+      "text": "It's 5 pm.",
+      "confidence": 0.667,
+      "words": [
+        {
+          "text": "It's",
+          "start": 123.96,
+          "end": 124.4,
+          "matched": true
+        },
+        {
+          "text": "5",
+          "start": 124.4,
+          "end": 124.66,
+          "matched": true
+        },
+        {
+          "text": "pm",
+          "start": 124.66,
+          "end": 124.98,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 125.98,
+      "end": 127.136,
+      "duration": 1.156,
+      "text": "The show is over.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 125.98,
+          "end": 126.22,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 126.22,
+          "end": 126.52,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 126.52,
+          "end": 126.72,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 126.72,
+          "end": 127.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 127.136,
+      "end": 130.61,
+      "duration": 3.474,
+      "text": "Harry is happy, and a little tired.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Harry",
+          "start": 127.0,
+          "end": 127.88,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 128.21,
+          "end": 128.63,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 128.63,
+          "end": 129.01,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 129.01,
+          "end": 129.73,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 129.73,
+          "end": 129.87,
+          "matched": true
+        },
+        {
+          "text": "little",
+          "start": 129.87,
+          "end": 130.11,
+          "matched": true
+        },
+        {
+          "text": "tired",
+          "start": 130.11,
+          "end": 130.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 131.712,
+      "end": 132.42,
+      "duration": 0.708,
+      "text": "He goes home.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 131.72,
+          "end": 131.8,
+          "matched": true
+        },
+        {
+          "text": "goes",
+          "start": 131.8,
+          "end": 132.04,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 132.04,
+          "end": 132.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 133.312,
+      "end": 134.84,
+      "duration": 1.528,
+      "text": "It's time to do his homework.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 133.32,
+          "end": 133.56,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 133.56,
+          "end": 133.84,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 133.84,
+          "end": 134.14,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 134.14,
+          "end": 134.34,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 134.34,
+          "end": 134.52,
+          "matched": true
+        },
+        {
+          "text": "homework",
+          "start": 134.52,
+          "end": 134.84,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p052.mp3",
+  "language": "en",
+  "duration": 92.343,
+  "report": {
+    "script_tokens": 92,
+    "matched_tokens": 55,
+    "asr_words": 104,
+    "coverage": 0.598,
+    "unmatched": [
+      "5",
+      "to",
+      "9",
+      "No",
+      "you",
+      "don't",
+      "need",
+      "break",
+      "You",
+      "use",
+      "it",
+      "well",
+      "10",
+      "to",
+      "12",
+      "You're",
+      "not",
+      "too",
+      "bad",
+      "but"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 10.15,
+      "end": 17.536,
+      "duration": 7.386,
+      "text": "How many hours do you look at a TV, phone, tablet or computer every day?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "How",
+          "start": 10.15,
+          "end": 10.37,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 10.37,
+          "end": 10.61,
+          "matched": true
+        },
+        {
+          "text": "hours",
+          "start": 10.61,
+          "end": 11.11,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 11.11,
+          "end": 11.71,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 11.71,
+          "end": 11.91,
+          "matched": true
+        },
+        {
+          "text": "look",
+          "start": 11.91,
+          "end": 12.23,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 12.23,
+          "end": 12.49,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 12.49,
+          "end": 12.61,
+          "matched": true
+        },
+        {
+          "text": "TV",
+          "start": 12.61,
+          "end": 12.97,
+          "matched": true
+        },
+        {
+          "text": "phone",
+          "start": 13.59,
+          "end": 14.01,
+          "matched": true
+        },
+        {
+          "text": "tablet",
+          "start": 14.77,
+          "end": 15.13,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 15.13,
+          "end": 15.71,
+          "matched": true
+        },
+        {
+          "text": "computer",
+          "start": 15.71,
+          "end": 16.37,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 16.37,
+          "end": 17.09,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 17.09,
+          "end": 17.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 29.08,
+      "end": 33.952,
+      "duration": 4.872,
+      "text": "Do you check your phone before school?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Do",
+          "start": 29.08,
+          "end": 29.7,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 31.38,
+          "end": 31.56,
+          "matched": true
+        },
+        {
+          "text": "check",
+          "start": 31.56,
+          "end": 31.88,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 31.88,
+          "end": 32.12,
+          "matched": true
+        },
+        {
+          "text": "phone",
+          "start": 32.12,
+          "end": 32.66,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 32.66,
+          "end": 33.28,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 33.28,
+          "end": 33.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 45.66,
+      "end": 49.408,
+      "duration": 3.748,
+      "text": "Do you worry when your phone or tablet has no power?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Do",
+          "start": 45.66,
+          "end": 45.94,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 45.94,
+          "end": 46.14,
+          "matched": true
+        },
+        {
+          "text": "worry",
+          "start": 46.14,
+          "end": 46.46,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 46.46,
+          "end": 46.76,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 46.76,
+          "end": 46.94,
+          "matched": true
+        },
+        {
+          "text": "phone",
+          "start": 46.94,
+          "end": 47.42,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 47.42,
+          "end": 47.66,
+          "matched": true
+        },
+        {
+          "text": "tablet",
+          "start": 47.66,
+          "end": 48.1,
+          "matched": true
+        },
+        {
+          "text": "has",
+          "start": 48.1,
+          "end": 48.54,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 48.54,
+          "end": 48.88,
+          "matched": true
+        },
+        {
+          "text": "power",
+          "start": 48.88,
+          "end": 49.3,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 60.8,
+      "end": 64.54,
+      "duration": 3.74,
+      "text": "Do you watch TV before you do your homework?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Do",
+          "start": 60.8,
+          "end": 61.06,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 61.06,
+          "end": 61.28,
+          "matched": true
+        },
+        {
+          "text": "watch",
+          "start": 61.28,
+          "end": 61.58,
+          "matched": true
+        },
+        {
+          "text": "TV",
+          "start": 61.58,
+          "end": 62.08,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 62.08,
+          "end": 63.26,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 63.26,
+          "end": 63.64,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 63.64,
+          "end": 63.86,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 63.86,
+          "end": 64.14,
+          "matched": true
+        },
+        {
+          "text": "homework",
+          "start": 64.14,
+          "end": 64.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 76.0,
+      "end": 80.31,
+      "duration": 4.31,
+      "text": "Does your family ever say that you use your phone too much?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Does",
+          "start": 76.0,
+          "end": 76.39,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 76.39,
+          "end": 76.67,
+          "matched": true
+        },
+        {
+          "text": "family",
+          "start": 76.67,
+          "end": 77.19,
+          "matched": true
+        },
+        {
+          "text": "ever",
+          "start": 77.19,
+          "end": 77.77,
+          "matched": true
+        },
+        {
+          "text": "say",
+          "start": 77.77,
+          "end": 78.11,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 78.11,
+          "end": 78.35,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 78.35,
+          "end": 78.63,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 78.63,
+          "end": 78.99,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 78.99,
+          "end": 79.15,
+          "matched": true
+        },
+        {
+          "text": "phone",
+          "start": 79.15,
+          "end": 79.61,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 79.61,
+          "end": 79.97,
+          "matched": true
+        },
+        {
+          "text": "much",
+          "start": 79.97,
+          "end": 80.31,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 80.31,
+      "end": 82.769,
+      "duration": 2.459,
+      "text": "5 to 9 – No, you don't need a break!",
+      "confidence": 0.111,
+      "words": [
+        {
+          "text": "5",
+          "start": 80.31,
+          "end": 80.407,
+          "matched": false
+        },
+        {
+          "text": "to",
+          "start": 80.407,
+          "end": 80.6,
+          "matched": false
+        },
+        {
+          "text": "9",
+          "start": 80.6,
+          "end": 80.697,
+          "matched": false
+        },
+        {
+          "text": "No",
+          "start": 80.697,
+          "end": 80.89,
+          "matched": false
+        },
+        {
+          "text": "you",
+          "start": 80.89,
+          "end": 81.18,
+          "matched": false
+        },
+        {
+          "text": "don't",
+          "start": 81.18,
+          "end": 81.663,
+          "matched": false
+        },
+        {
+          "text": "need",
+          "start": 81.663,
+          "end": 82.05,
+          "matched": false
+        },
+        {
+          "text": "a",
+          "start": 82.05,
+          "end": 82.27,
+          "matched": true
+        },
+        {
+          "text": "break",
+          "start": 82.69,
+          "end": 82.769,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 82.769,
+      "end": 82.958,
+      "duration": 0.189,
+      "text": "You use it well.",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 82.769,
+          "end": 82.816,
+          "matched": false
+        },
+        {
+          "text": "use",
+          "start": 82.816,
+          "end": 82.864,
+          "matched": false
+        },
+        {
+          "text": "it",
+          "start": 82.864,
+          "end": 82.895,
+          "matched": false
+        },
+        {
+          "text": "well",
+          "start": 82.895,
+          "end": 82.958,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 82.958,
+      "end": 85.77,
+      "duration": 2.812,
+      "text": "10 to 12 – You're not too bad, but be careful!",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "10",
+          "start": 82.958,
+          "end": 82.99,
+          "matched": false
+        },
+        {
+          "text": "to",
+          "start": 84.33,
+          "end": 84.381,
+          "matched": false
+        },
+        {
+          "text": "12",
+          "start": 84.381,
+          "end": 84.431,
+          "matched": false
+        },
+        {
+          "text": "You're",
+          "start": 84.431,
+          "end": 84.583,
+          "matched": false
+        },
+        {
+          "text": "not",
+          "start": 84.583,
+          "end": 84.658,
+          "matched": false
+        },
+        {
+          "text": "too",
+          "start": 84.658,
+          "end": 84.734,
+          "matched": false
+        },
+        {
+          "text": "bad",
+          "start": 84.734,
+          "end": 84.81,
+          "matched": false
+        },
+        {
+          "text": "but",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        },
+        {
+          "text": "be",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        },
+        {
+          "text": "careful",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 85.77,
+      "end": 87.8,
+      "duration": 2.03,
+      "text": "13 to 15 – Yes, you do.",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "13",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        },
+        {
+          "text": "to",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        },
+        {
+          "text": "15",
+          "start": 85.77,
+          "end": 85.77,
+          "matched": false
+        },
+        {
+          "text": "Yes",
+          "start": 87.58,
+          "end": 87.662,
+          "matched": false
+        },
+        {
+          "text": "you",
+          "start": 87.662,
+          "end": 87.745,
+          "matched": false
+        },
+        {
+          "text": "do",
+          "start": 87.745,
+          "end": 87.8,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 87.8,
+      "end": 88.762,
+      "duration": 0.962,
+      "text": "You need a break from tech!",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 87.8,
+          "end": 87.882,
+          "matched": false
+        },
+        {
+          "text": "need",
+          "start": 87.882,
+          "end": 87.992,
+          "matched": false
+        },
+        {
+          "text": "a",
+          "start": 87.992,
+          "end": 88.02,
+          "matched": false
+        },
+        {
+          "text": "break",
+          "start": 88.66,
+          "end": 88.699,
+          "matched": false
+        },
+        {
+          "text": "from",
+          "start": 88.699,
+          "end": 88.731,
+          "matched": false
+        },
+        {
+          "text": "tech",
+          "start": 88.731,
+          "end": 88.762,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 88.762,
+      "end": 88.92,
+      "duration": 0.158,
+      "text": "Do something different!",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "Do",
+          "start": 88.762,
+          "end": 88.778,
+          "matched": false
+        },
+        {
+          "text": "something",
+          "start": 88.778,
+          "end": 88.849,
+          "matched": false
+        },
+        {
+          "text": "different",
+          "start": 88.849,
+          "end": 88.92,
+          "matched": false
+        }
+      ]
+    }
+  ]
+}

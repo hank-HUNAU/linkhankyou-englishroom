@@ -1,0 +1,1406 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p075.mp3",
+  "language": "en",
+  "duration": 152.451,
+  "report": {
+    "script_tokens": 178,
+    "matched_tokens": 176,
+    "asr_words": 201,
+    "coverage": 0.989,
+    "unmatched": [
+      "Glynne",
+      "Glynne"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 16.38,
+      "end": 17.54,
+      "duration": 1.16,
+      "text": "I'm leaving home.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 16.38,
+          "end": 16.62,
+          "matched": true
+        },
+        {
+          "text": "leaving",
+          "start": 16.62,
+          "end": 17.02,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 17.02,
+          "end": 17.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 18.43,
+      "end": 20.33,
+      "duration": 1.9,
+      "text": "We're on our way to the station.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 18.43,
+          "end": 18.81,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 18.81,
+          "end": 19.01,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 19.01,
+          "end": 19.27,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 19.27,
+          "end": 19.55,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 19.55,
+          "end": 19.73,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 19.73,
+          "end": 19.87,
+          "matched": true
+        },
+        {
+          "text": "station",
+          "start": 19.87,
+          "end": 20.33,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 21.184,
+      "end": 22.45,
+      "duration": 1.266,
+      "text": "I'm so excited!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 21.21,
+          "end": 21.47,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 21.47,
+          "end": 21.87,
+          "matched": true
+        },
+        {
+          "text": "excited",
+          "start": 21.87,
+          "end": 22.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 27.52,
+      "end": 32.41,
+      "duration": 4.89,
+      "text": "We're standing on the platform waiting for the train to Delamere Forest.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 27.63,
+          "end": 27.77,
+          "matched": true
+        },
+        {
+          "text": "standing",
+          "start": 27.77,
+          "end": 28.17,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 28.17,
+          "end": 28.47,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 28.47,
+          "end": 28.59,
+          "matched": true
+        },
+        {
+          "text": "platform",
+          "start": 28.59,
+          "end": 29.15,
+          "matched": true
+        },
+        {
+          "text": "waiting",
+          "start": 29.15,
+          "end": 29.95,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 29.95,
+          "end": 30.31,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 30.31,
+          "end": 30.45,
+          "matched": true
+        },
+        {
+          "text": "train",
+          "start": 30.45,
+          "end": 30.93,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 30.93,
+          "end": 31.25,
+          "matched": true
+        },
+        {
+          "text": "Delamere",
+          "start": 31.25,
+          "end": 31.91,
+          "matched": true
+        },
+        {
+          "text": "Forest",
+          "start": 31.91,
+          "end": 32.41,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 37.28,
+      "end": 37.94,
+      "duration": 0.66,
+      "text": "We're here!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 37.28,
+          "end": 37.66,
+          "matched": true
+        },
+        {
+          "text": "here",
+          "start": 37.66,
+          "end": 37.94,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 38.96,
+      "end": 48.44,
+      "duration": 9.48,
+      "text": "What a fantastic place to see my favourite singer Jess Glynne right in the middle of a beautiful forest.",
+      "confidence": 0.947,
+      "words": [
+        {
+          "text": "What",
+          "start": 38.96,
+          "end": 39.46,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 39.46,
+          "end": 39.74,
+          "matched": true
+        },
+        {
+          "text": "fantastic",
+          "start": 39.74,
+          "end": 40.42,
+          "matched": true
+        },
+        {
+          "text": "place",
+          "start": 40.42,
+          "end": 41.08,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 41.08,
+          "end": 41.58,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 41.58,
+          "end": 41.82,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 41.82,
+          "end": 42.06,
+          "matched": true
+        },
+        {
+          "text": "favourite",
+          "start": 42.06,
+          "end": 42.6,
+          "matched": true
+        },
+        {
+          "text": "singer",
+          "start": 42.6,
+          "end": 43.2,
+          "matched": true
+        },
+        {
+          "text": "Jess",
+          "start": 43.78,
+          "end": 44.1,
+          "matched": true
+        },
+        {
+          "text": "Glynne",
+          "start": 44.1,
+          "end": 44.5,
+          "matched": false
+        },
+        {
+          "text": "right",
+          "start": 45.34,
+          "end": 45.82,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 45.82,
+          "end": 46.32,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 46.32,
+          "end": 46.46,
+          "matched": true
+        },
+        {
+          "text": "middle",
+          "start": 46.46,
+          "end": 46.8,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 46.8,
+          "end": 47.12,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 47.12,
+          "end": 47.3,
+          "matched": true
+        },
+        {
+          "text": "beautiful",
+          "start": 47.3,
+          "end": 47.78,
+          "matched": true
+        },
+        {
+          "text": "forest",
+          "start": 47.78,
+          "end": 48.44,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 53.888,
+      "end": 55.392,
+      "duration": 1.504,
+      "text": "I'm eating a hot dog.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 53.91,
+          "end": 54.13,
+          "matched": true
+        },
+        {
+          "text": "eating",
+          "start": 54.13,
+          "end": 54.43,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 54.43,
+          "end": 54.69,
+          "matched": true
+        },
+        {
+          "text": "hot",
+          "start": 54.69,
+          "end": 54.93,
+          "matched": true
+        },
+        {
+          "text": "dog",
+          "start": 54.93,
+          "end": 55.27,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 55.95,
+      "end": 59.85,
+      "duration": 3.9,
+      "text": "It's very expensive, but it's not very good!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 55.95,
+          "end": 56.37,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 56.37,
+          "end": 56.73,
+          "matched": true
+        },
+        {
+          "text": "expensive",
+          "start": 56.73,
+          "end": 57.59,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 57.97,
+          "end": 58.55,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 58.55,
+          "end": 58.81,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 58.81,
+          "end": 59.01,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 59.01,
+          "end": 59.41,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 59.41,
+          "end": 59.85,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 65.34,
+      "end": 66.9,
+      "duration": 1.56,
+      "text": "It's getting dark now.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 65.34,
+          "end": 65.66,
+          "matched": true
+        },
+        {
+          "text": "getting",
+          "start": 65.66,
+          "end": 65.96,
+          "matched": true
+        },
+        {
+          "text": "dark",
+          "start": 65.96,
+          "end": 66.5,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 66.5,
+          "end": 66.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 67.7,
+      "end": 69.96,
+      "duration": 2.26,
+      "text": "The stage is completely black.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 67.7,
+          "end": 67.9,
+          "matched": true
+        },
+        {
+          "text": "stage",
+          "start": 67.9,
+          "end": 68.38,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 68.38,
+          "end": 68.68,
+          "matched": true
+        },
+        {
+          "text": "completely",
+          "start": 68.68,
+          "end": 69.32,
+          "matched": true
+        },
+        {
+          "text": "black",
+          "start": 69.32,
+          "end": 69.96,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 70.72,
+      "end": 75.1,
+      "duration": 4.38,
+      "text": "A few people are talking, but most people are quiet.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 70.72,
+          "end": 71.18,
+          "matched": true
+        },
+        {
+          "text": "few",
+          "start": 71.18,
+          "end": 71.58,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 71.58,
+          "end": 72.04,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 72.04,
+          "end": 72.26,
+          "matched": true
+        },
+        {
+          "text": "talking",
+          "start": 72.26,
+          "end": 72.74,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 73.28,
+          "end": 73.56,
+          "matched": true
+        },
+        {
+          "text": "most",
+          "start": 73.56,
+          "end": 74.0,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 74.0,
+          "end": 74.4,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 74.4,
+          "end": 74.62,
+          "matched": true
+        },
+        {
+          "text": "quiet",
+          "start": 74.62,
+          "end": 75.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 76.192,
+      "end": 77.55,
+      "duration": 1.358,
+      "text": "We're waiting for Jess.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 76.27,
+          "end": 76.45,
+          "matched": true
+        },
+        {
+          "text": "waiting",
+          "start": 76.45,
+          "end": 76.87,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 76.87,
+          "end": 77.27,
+          "matched": true
+        },
+        {
+          "text": "Jess",
+          "start": 77.27,
+          "end": 77.55,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 78.56,
+      "end": 79.99,
+      "duration": 1.43,
+      "text": "And here she comes!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 78.65,
+          "end": 78.91,
+          "matched": true
+        },
+        {
+          "text": "here",
+          "start": 78.91,
+          "end": 79.19,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 79.19,
+          "end": 79.41,
+          "matched": true
+        },
+        {
+          "text": "comes",
+          "start": 79.41,
+          "end": 79.99,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 80.74,
+      "end": 82.1,
+      "duration": 1.36,
+      "text": "Everyone is cheering!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Everyone",
+          "start": 80.74,
+          "end": 81.28,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 81.28,
+          "end": 81.56,
+          "matched": true
+        },
+        {
+          "text": "cheering",
+          "start": 81.56,
+          "end": 82.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 82.976,
+      "end": 84.05,
+      "duration": 1.074,
+      "text": "What a noise!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 82.99,
+          "end": 83.31,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 83.31,
+          "end": 83.53,
+          "matched": true
+        },
+        {
+          "text": "noise",
+          "start": 83.53,
+          "end": 84.05,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 89.58,
+      "end": 91.5,
+      "duration": 1.92,
+      "text": "Jess isn't on stage.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jess",
+          "start": 89.58,
+          "end": 90.12,
+          "matched": true
+        },
+        {
+          "text": "isn't",
+          "start": 90.12,
+          "end": 90.82,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 90.82,
+          "end": 91.0,
+          "matched": true
+        },
+        {
+          "text": "stage",
+          "start": 91.0,
+          "end": 91.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 92.66,
+      "end": 94.14,
+      "duration": 1.48,
+      "text": "Is the show over?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Is",
+          "start": 92.66,
+          "end": 92.94,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 92.94,
+          "end": 93.16,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 93.16,
+          "end": 93.52,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 93.52,
+          "end": 94.14,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 95.072,
+      "end": 96.38,
+      "duration": 1.308,
+      "text": "No way!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 95.16,
+          "end": 95.52,
+          "matched": true
+        },
+        {
+          "text": "way",
+          "start": 95.52,
+          "end": 96.38,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 96.88,
+      "end": 99.28,
+      "duration": 2.4,
+      "text": "We're all shouting 'more'.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 96.88,
+          "end": 97.34,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 97.34,
+          "end": 97.56,
+          "matched": true
+        },
+        {
+          "text": "shouting",
+          "start": 97.56,
+          "end": 98.26,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 98.26,
+          "end": 99.28,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 100.27,
+      "end": 101.53,
+      "duration": 1.26,
+      "text": "Why are we shouting?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 100.27,
+          "end": 100.83,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 100.83,
+          "end": 100.97,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 100.97,
+          "end": 101.09,
+          "matched": true
+        },
+        {
+          "text": "shouting",
+          "start": 101.09,
+          "end": 101.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 102.64,
+      "end": 104.832,
+      "duration": 2.192,
+      "text": "Because we want MORE!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Because",
+          "start": 102.64,
+          "end": 102.88,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 102.88,
+          "end": 103.2,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 103.2,
+          "end": 103.68,
+          "matched": true
+        },
+        {
+          "text": "MORE",
+          "start": 104.05,
+          "end": 104.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 105.27,
+      "end": 106.37,
+      "duration": 1.1,
+      "text": "But don't worry.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 105.27,
+          "end": 105.55,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 105.55,
+          "end": 105.95,
+          "matched": true
+        },
+        {
+          "text": "worry",
+          "start": 105.95,
+          "end": 106.37,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 107.03,
+      "end": 109.76,
+      "duration": 2.73,
+      "text": "She's walking back onto the stage.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She's",
+          "start": 107.03,
+          "end": 107.45,
+          "matched": true
+        },
+        {
+          "text": "walking",
+          "start": 107.45,
+          "end": 107.85,
+          "matched": true
+        },
+        {
+          "text": "back",
+          "start": 107.85,
+          "end": 108.39,
+          "matched": true
+        },
+        {
+          "text": "onto",
+          "start": 108.39,
+          "end": 108.79,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 108.79,
+          "end": 109.05,
+          "matched": true
+        },
+        {
+          "text": "stage",
+          "start": 109.05,
+          "end": 109.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 115.2,
+      "end": 116.77,
+      "duration": 1.57,
+      "text": "We're on the train home.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 115.21,
+          "end": 115.53,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 115.53,
+          "end": 115.73,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 115.73,
+          "end": 115.97,
+          "matched": true
+        },
+        {
+          "text": "train",
+          "start": 115.97,
+          "end": 116.33,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 116.33,
+          "end": 116.77,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 117.75,
+      "end": 119.23,
+      "duration": 1.48,
+      "text": "We aren't sitting down.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 117.75,
+          "end": 118.01,
+          "matched": true
+        },
+        {
+          "text": "aren't",
+          "start": 118.01,
+          "end": 118.37,
+          "matched": true
+        },
+        {
+          "text": "sitting",
+          "start": 118.37,
+          "end": 118.73,
+          "matched": true
+        },
+        {
+          "text": "down",
+          "start": 118.73,
+          "end": 119.23,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 120.24,
+      "end": 121.1,
+      "duration": 0.86,
+      "text": "I don't care.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 120.24,
+          "end": 120.44,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 120.44,
+          "end": 120.8,
+          "matched": true
+        },
+        {
+          "text": "care",
+          "start": 120.8,
+          "end": 121.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 121.96,
+      "end": 128.08,
+      "duration": 6.12,
+      "text": "There are so many people on the train and everybody's a Jess Glynne fan.",
+      "confidence": 0.929,
+      "words": [
+        {
+          "text": "There",
+          "start": 121.96,
+          "end": 122.18,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 122.18,
+          "end": 122.34,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 122.34,
+          "end": 122.8,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 122.8,
+          "end": 123.26,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 123.26,
+          "end": 123.8,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 123.8,
+          "end": 124.16,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 124.16,
+          "end": 124.32,
+          "matched": true
+        },
+        {
+          "text": "train",
+          "start": 124.32,
+          "end": 124.68,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 125.3,
+          "end": 125.58,
+          "matched": true
+        },
+        {
+          "text": "everybody's",
+          "start": 125.58,
+          "end": 126.82,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 126.82,
+          "end": 126.96,
+          "matched": true
+        },
+        {
+          "text": "Jess",
+          "start": 126.96,
+          "end": 127.26,
+          "matched": true
+        },
+        {
+          "text": "Glynne",
+          "start": 127.26,
+          "end": 127.62,
+          "matched": false
+        },
+        {
+          "text": "fan",
+          "start": 127.62,
+          "end": 128.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 128.87,
+      "end": 131.584,
+      "duration": 2.714,
+      "text": "We're all singing 'Hold my Hand'.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We're",
+          "start": 128.87,
+          "end": 129.17,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 129.17,
+          "end": 129.31,
+          "matched": true
+        },
+        {
+          "text": "singing",
+          "start": 129.31,
+          "end": 129.73,
+          "matched": true
+        },
+        {
+          "text": "Hold",
+          "start": 129.73,
+          "end": 130.51,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 130.51,
+          "end": 130.93,
+          "matched": true
+        },
+        {
+          "text": "Hand",
+          "start": 130.93,
+          "end": 131.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 132.2,
+      "end": 133.92,
+      "duration": 1.72,
+      "text": "It's my favourite song.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 132.2,
+          "end": 132.6,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 132.6,
+          "end": 132.76,
+          "matched": true
+        },
+        {
+          "text": "favourite",
+          "start": 132.76,
+          "end": 133.4,
+          "matched": true
+        },
+        {
+          "text": "song",
+          "start": 133.4,
+          "end": 133.92,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 138.4,
+      "end": 141.81,
+      "duration": 3.41,
+      "text": "It's exactly midnight and we're back home.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 138.45,
+          "end": 138.77,
+          "matched": true
+        },
+        {
+          "text": "exactly",
+          "start": 138.77,
+          "end": 139.33,
+          "matched": true
+        },
+        {
+          "text": "midnight",
+          "start": 139.33,
+          "end": 140.03,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 140.77,
+          "end": 141.01,
+          "matched": true
+        },
+        {
+          "text": "we're",
+          "start": 141.01,
+          "end": 141.25,
+          "matched": true
+        },
+        {
+          "text": "back",
+          "start": 141.25,
+          "end": 141.35,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 141.35,
+          "end": 141.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 143.008,
+      "end": 145.7,
+      "duration": 2.692,
+      "text": "I'm feeling tired but very happy.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 143.02,
+          "end": 143.2,
+          "matched": true
+        },
+        {
+          "text": "feeling",
+          "start": 143.2,
+          "end": 143.62,
+          "matched": true
+        },
+        {
+          "text": "tired",
+          "start": 143.62,
+          "end": 144.28,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 144.62,
+          "end": 144.7,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 144.7,
+          "end": 145.26,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 145.26,
+          "end": 145.7,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 146.816,
+      "end": 149.16,
+      "duration": 2.344,
+      "text": "I'm going straight upstairs to bed.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 146.88,
+          "end": 147.06,
+          "matched": true
+        },
+        {
+          "text": "going",
+          "start": 147.06,
+          "end": 147.34,
+          "matched": true
+        },
+        {
+          "text": "straight",
+          "start": 147.34,
+          "end": 147.92,
+          "matched": true
+        },
+        {
+          "text": "upstairs",
+          "start": 147.92,
+          "end": 148.54,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 148.54,
+          "end": 148.9,
+          "matched": true
+        },
+        {
+          "text": "bed",
+          "start": 148.9,
+          "end": 149.16,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

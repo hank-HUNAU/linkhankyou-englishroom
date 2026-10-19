@@ -1,0 +1,1803 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p056.mp3",
+  "language": "en",
+  "duration": 149.159,
+  "report": {
+    "script_tokens": 251,
+    "matched_tokens": 250,
+    "asr_words": 261,
+    "coverage": 0.996,
+    "unmatched": [
+      "OK"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.37,
+      "end": 10.81,
+      "duration": 1.44,
+      "text": "Julia is 11.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Julia",
+          "start": 9.37,
+          "end": 9.69,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 9.69,
+          "end": 10.37,
+          "matched": true
+        },
+        {
+          "text": "11",
+          "start": 10.37,
+          "end": 10.81,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 11.72,
+      "end": 17.74,
+      "duration": 6.02,
+      "text": "She has got curly, brown hair, brown eyes and a big smile.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 11.72,
+          "end": 12.0,
+          "matched": true
+        },
+        {
+          "text": "has",
+          "start": 12.0,
+          "end": 12.26,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 12.26,
+          "end": 12.54,
+          "matched": true
+        },
+        {
+          "text": "curly",
+          "start": 12.54,
+          "end": 13.12,
+          "matched": true
+        },
+        {
+          "text": "brown",
+          "start": 13.12,
+          "end": 13.64,
+          "matched": true
+        },
+        {
+          "text": "hair",
+          "start": 13.64,
+          "end": 14.22,
+          "matched": true
+        },
+        {
+          "text": "brown",
+          "start": 15.1,
+          "end": 15.38,
+          "matched": true
+        },
+        {
+          "text": "eyes",
+          "start": 15.38,
+          "end": 15.86,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 15.86,
+          "end": 16.78,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 16.78,
+          "end": 16.94,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 16.94,
+          "end": 17.3,
+          "matched": true
+        },
+        {
+          "text": "smile",
+          "start": 17.3,
+          "end": 17.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 18.97,
+      "end": 21.27,
+      "duration": 2.3,
+      "text": "She's got a lot of friends at school.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She's",
+          "start": 18.97,
+          "end": 19.29,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 19.29,
+          "end": 19.49,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 19.49,
+          "end": 19.67,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 19.67,
+          "end": 19.99,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 19.99,
+          "end": 20.21,
+          "matched": true
+        },
+        {
+          "text": "friends",
+          "start": 20.21,
+          "end": 20.63,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 20.63,
+          "end": 20.93,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 20.93,
+          "end": 21.27,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 22.32,
+      "end": 24.4,
+      "duration": 2.08,
+      "text": "All her classmates like her.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "All",
+          "start": 22.32,
+          "end": 22.7,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 22.7,
+          "end": 22.94,
+          "matched": true
+        },
+        {
+          "text": "classmates",
+          "start": 22.94,
+          "end": 23.58,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 23.58,
+          "end": 24.08,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 24.08,
+          "end": 24.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 25.83,
+      "end": 32.128,
+      "duration": 6.298,
+      "text": "At lunchtime, Julia always goes to the school canteen and buys her lunch.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "At",
+          "start": 25.83,
+          "end": 26.11,
+          "matched": true
+        },
+        {
+          "text": "lunchtime",
+          "start": 26.11,
+          "end": 26.75,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 27.31,
+          "end": 27.69,
+          "matched": true
+        },
+        {
+          "text": "always",
+          "start": 27.69,
+          "end": 28.29,
+          "matched": true
+        },
+        {
+          "text": "goes",
+          "start": 28.29,
+          "end": 28.81,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 28.81,
+          "end": 29.05,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 29.05,
+          "end": 29.19,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 29.19,
+          "end": 29.57,
+          "matched": true
+        },
+        {
+          "text": "canteen",
+          "start": 29.57,
+          "end": 30.23,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 30.23,
+          "end": 30.93,
+          "matched": true
+        },
+        {
+          "text": "buys",
+          "start": 30.93,
+          "end": 31.27,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 31.27,
+          "end": 31.57,
+          "matched": true
+        },
+        {
+          "text": "lunch",
+          "start": 31.57,
+          "end": 32.01,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 33.184,
+      "end": 36.68,
+      "duration": 3.496,
+      "text": "Her friend, Jack, doesn't buy any food.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Her",
+          "start": 33.22,
+          "end": 33.36,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 33.36,
+          "end": 33.88,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 33.88,
+          "end": 34.34,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 34.34,
+          "end": 35.7,
+          "matched": true
+        },
+        {
+          "text": "buy",
+          "start": 35.7,
+          "end": 36.02,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 36.02,
+          "end": 36.24,
+          "matched": true
+        },
+        {
+          "text": "food",
+          "start": 36.24,
+          "end": 36.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 37.73,
+      "end": 39.75,
+      "duration": 2.02,
+      "text": "He just drinks a glass of water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 37.73,
+          "end": 37.91,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 37.91,
+          "end": 38.19,
+          "matched": true
+        },
+        {
+          "text": "drinks",
+          "start": 38.19,
+          "end": 38.63,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 38.63,
+          "end": 38.89,
+          "matched": true
+        },
+        {
+          "text": "glass",
+          "start": 38.89,
+          "end": 39.07,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 39.07,
+          "end": 39.35,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 39.35,
+          "end": 39.75,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 40.96,
+      "end": 45.152,
+      "duration": 4.192,
+      "text": "Jack does this every day, and Julia is worried.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jack",
+          "start": 40.98,
+          "end": 41.26,
+          "matched": true
+        },
+        {
+          "text": "does",
+          "start": 41.26,
+          "end": 41.6,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 41.6,
+          "end": 41.9,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 41.9,
+          "end": 42.42,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 42.42,
+          "end": 42.78,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 42.78,
+          "end": 43.46,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 43.83,
+          "end": 44.23,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 44.23,
+          "end": 44.59,
+          "matched": true
+        },
+        {
+          "text": "worried",
+          "start": 44.59,
+          "end": 45.03,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 46.44,
+      "end": 53.248,
+      "duration": 6.808,
+      "text": "One day, she asks Jack, 'Are you hungry?'\n'Yes,' says Jack.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "One",
+          "start": 46.44,
+          "end": 46.8,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 46.8,
+          "end": 47.1,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 47.1,
+          "end": 47.72,
+          "matched": true
+        },
+        {
+          "text": "asks",
+          "start": 47.9,
+          "end": 48.32,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 48.32,
+          "end": 48.84,
+          "matched": true
+        },
+        {
+          "text": "Are",
+          "start": 49.26,
+          "end": 49.54,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 49.54,
+          "end": 49.78,
+          "matched": true
+        },
+        {
+          "text": "hungry",
+          "start": 49.78,
+          "end": 50.34,
+          "matched": true
+        },
+        {
+          "text": "Yes",
+          "start": 51.29,
+          "end": 51.75,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 52.46,
+          "end": 52.76,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 52.76,
+          "end": 53.2,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 53.792,
+      "end": 57.64,
+      "duration": 3.848,
+      "text": "'But you don't eat at school,' says Julia.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 53.8,
+          "end": 54.0,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 54.0,
+          "end": 54.64,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 54.64,
+          "end": 55.02,
+          "matched": true
+        },
+        {
+          "text": "eat",
+          "start": 55.02,
+          "end": 55.26,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 55.26,
+          "end": 55.46,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 55.46,
+          "end": 55.94,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 56.94,
+          "end": 57.24,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 57.24,
+          "end": 57.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 58.62,
+      "end": 62.496,
+      "duration": 3.876,
+      "text": "'I haven't got any money for lunch,' says Jack.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 58.62,
+          "end": 58.8,
+          "matched": true
+        },
+        {
+          "text": "haven't",
+          "start": 58.8,
+          "end": 59.18,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 59.18,
+          "end": 59.4,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 59.4,
+          "end": 59.66,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 59.66,
+          "end": 60.06,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 60.06,
+          "end": 60.4,
+          "matched": true
+        },
+        {
+          "text": "lunch",
+          "start": 60.4,
+          "end": 60.84,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 61.7,
+          "end": 62.02,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 62.02,
+          "end": 62.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 63.04,
+      "end": 66.88,
+      "duration": 3.84,
+      "text": "'My dad hasn't got a job and my mum's ill.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 63.04,
+          "end": 63.26,
+          "matched": true
+        },
+        {
+          "text": "dad",
+          "start": 63.26,
+          "end": 63.58,
+          "matched": true
+        },
+        {
+          "text": "hasn't",
+          "start": 63.58,
+          "end": 64.32,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 64.32,
+          "end": 64.48,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 64.48,
+          "end": 64.66,
+          "matched": true
+        },
+        {
+          "text": "job",
+          "start": 64.66,
+          "end": 64.94,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 64.94,
+          "end": 65.54,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 65.84,
+          "end": 66.08,
+          "matched": true
+        },
+        {
+          "text": "mum's",
+          "start": 66.08,
+          "end": 66.6,
+          "matched": true
+        },
+        {
+          "text": "ill",
+          "start": 66.6,
+          "end": 66.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 67.68,
+      "end": 69.3,
+      "duration": 1.62,
+      "text": "They've got lots of problems.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They've",
+          "start": 67.7,
+          "end": 67.96,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 67.96,
+          "end": 68.14,
+          "matched": true
+        },
+        {
+          "text": "lots",
+          "start": 68.14,
+          "end": 68.52,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 68.52,
+          "end": 68.82,
+          "matched": true
+        },
+        {
+          "text": "problems",
+          "start": 68.82,
+          "end": 69.3,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 70.13,
+      "end": 76.992,
+      "duration": 6.862,
+      "text": "But don't worry about me – I'm OK.'\nJulia thinks about this.",
+      "confidence": 0.909,
+      "words": [
+        {
+          "text": "But",
+          "start": 70.13,
+          "end": 70.37,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 70.37,
+          "end": 70.75,
+          "matched": true
+        },
+        {
+          "text": "worry",
+          "start": 70.75,
+          "end": 71.03,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 71.03,
+          "end": 71.29,
+          "matched": true
+        },
+        {
+          "text": "me",
+          "start": 71.29,
+          "end": 71.65,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 72.41,
+          "end": 72.77,
+          "matched": true
+        },
+        {
+          "text": "OK",
+          "start": 72.77,
+          "end": 73.07,
+          "matched": false
+        },
+        {
+          "text": "Julia",
+          "start": 75.34,
+          "end": 75.64,
+          "matched": true
+        },
+        {
+          "text": "thinks",
+          "start": 75.64,
+          "end": 76.16,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 76.16,
+          "end": 76.52,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 76.52,
+          "end": 76.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 77.84,
+      "end": 80.928,
+      "duration": 3.088,
+      "text": "At home, she's got a big glass jar.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "At",
+          "start": 77.84,
+          "end": 78.04,
+          "matched": true
+        },
+        {
+          "text": "home",
+          "start": 78.04,
+          "end": 78.46,
+          "matched": true
+        },
+        {
+          "text": "she's",
+          "start": 78.46,
+          "end": 79.12,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 79.12,
+          "end": 79.3,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 79.3,
+          "end": 79.46,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 79.46,
+          "end": 79.78,
+          "matched": true
+        },
+        {
+          "text": "glass",
+          "start": 79.78,
+          "end": 80.34,
+          "matched": true
+        },
+        {
+          "text": "jar",
+          "start": 80.34,
+          "end": 80.78,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 81.58,
+      "end": 83.02,
+      "duration": 1.44,
+      "text": "It's full of coins.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 81.58,
+          "end": 81.92,
+          "matched": true
+        },
+        {
+          "text": "full",
+          "start": 81.92,
+          "end": 82.28,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 82.28,
+          "end": 82.6,
+          "matched": true
+        },
+        {
+          "text": "coins",
+          "start": 82.6,
+          "end": 83.02,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 84.01,
+      "end": 87.232,
+      "duration": 3.222,
+      "text": "She wants to buy an electric scooter one day.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 84.01,
+          "end": 84.29,
+          "matched": true
+        },
+        {
+          "text": "wants",
+          "start": 84.29,
+          "end": 84.57,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 84.57,
+          "end": 84.83,
+          "matched": true
+        },
+        {
+          "text": "buy",
+          "start": 84.83,
+          "end": 85.09,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 85.09,
+          "end": 85.41,
+          "matched": true
+        },
+        {
+          "text": "electric",
+          "start": 85.41,
+          "end": 85.85,
+          "matched": true
+        },
+        {
+          "text": "scooter",
+          "start": 85.85,
+          "end": 86.43,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 86.43,
+          "end": 86.85,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 86.85,
+          "end": 87.15,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 88.768,
+      "end": 96.32,
+      "duration": 7.552,
+      "text": "That night, Julia opens the jar, takes the coins and puts them into a bag.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "That",
+          "start": 88.8,
+          "end": 89.02,
+          "matched": true
+        },
+        {
+          "text": "night",
+          "start": 89.02,
+          "end": 89.34,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 89.58,
+          "end": 90.5,
+          "matched": true
+        },
+        {
+          "text": "opens",
+          "start": 90.5,
+          "end": 91.22,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 91.22,
+          "end": 91.54,
+          "matched": true
+        },
+        {
+          "text": "jar",
+          "start": 91.54,
+          "end": 91.86,
+          "matched": true
+        },
+        {
+          "text": "takes",
+          "start": 92.88,
+          "end": 93.08,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 93.08,
+          "end": 93.4,
+          "matched": true
+        },
+        {
+          "text": "coins",
+          "start": 93.4,
+          "end": 93.78,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 93.78,
+          "end": 94.66,
+          "matched": true
+        },
+        {
+          "text": "puts",
+          "start": 94.66,
+          "end": 94.98,
+          "matched": true
+        },
+        {
+          "text": "them",
+          "start": 94.98,
+          "end": 95.34,
+          "matched": true
+        },
+        {
+          "text": "into",
+          "start": 95.34,
+          "end": 95.68,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 95.68,
+          "end": 95.86,
+          "matched": true
+        },
+        {
+          "text": "bag",
+          "start": 95.86,
+          "end": 96.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 97.29,
+      "end": 98.56,
+      "duration": 1.27,
+      "text": "Her mum sees her.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Her",
+          "start": 97.29,
+          "end": 97.49,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 97.49,
+          "end": 97.79,
+          "matched": true
+        },
+        {
+          "text": "sees",
+          "start": 97.79,
+          "end": 98.25,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 98.25,
+          "end": 98.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 99.54,
+      "end": 102.432,
+      "duration": 2.892,
+      "text": "'Why are you doing that?' she asks.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 99.54,
+          "end": 99.86,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 99.86,
+          "end": 100.02,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 100.02,
+          "end": 100.18,
+          "matched": true
+        },
+        {
+          "text": "doing",
+          "start": 100.18,
+          "end": 100.46,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 100.46,
+          "end": 100.9,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 101.63,
+          "end": 101.87,
+          "matched": true
+        },
+        {
+          "text": "asks",
+          "start": 101.87,
+          "end": 102.29,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 103.25,
+      "end": 109.28,
+      "duration": 6.03,
+      "text": "'My friend Jack hasn't got any lunch money and I've got some money here.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "My",
+          "start": 103.25,
+          "end": 103.51,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 103.51,
+          "end": 103.99,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 103.99,
+          "end": 104.41,
+          "matched": true
+        },
+        {
+          "text": "hasn't",
+          "start": 104.41,
+          "end": 105.37,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 105.37,
+          "end": 105.55,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 105.55,
+          "end": 105.95,
+          "matched": true
+        },
+        {
+          "text": "lunch",
+          "start": 105.95,
+          "end": 106.41,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 106.41,
+          "end": 106.73,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 106.73,
+          "end": 107.31,
+          "matched": true
+        },
+        {
+          "text": "I've",
+          "start": 107.74,
+          "end": 108.04,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 108.04,
+          "end": 108.24,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 108.24,
+          "end": 108.48,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 108.48,
+          "end": 108.8,
+          "matched": true
+        },
+        {
+          "text": "here",
+          "start": 108.8,
+          "end": 109.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 109.91,
+      "end": 115.264,
+      "duration": 5.354,
+      "text": "This is for him.'\n'That's very kind of you,' says her mum.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 109.91,
+          "end": 110.11,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 110.11,
+          "end": 110.23,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 110.23,
+          "end": 110.47,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 110.47,
+          "end": 110.71,
+          "matched": true
+        },
+        {
+          "text": "That's",
+          "start": 111.72,
+          "end": 112.12,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 112.12,
+          "end": 112.74,
+          "matched": true
+        },
+        {
+          "text": "kind",
+          "start": 112.74,
+          "end": 113.26,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 113.26,
+          "end": 113.58,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 113.58,
+          "end": 113.84,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 114.49,
+          "end": 114.75,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 114.75,
+          "end": 114.95,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 114.95,
+          "end": 115.13,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 116.31,
+      "end": 119.456,
+      "duration": 3.146,
+      "text": "She feels happy that her daughter wants to do this.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 116.31,
+          "end": 116.55,
+          "matched": true
+        },
+        {
+          "text": "feels",
+          "start": 116.55,
+          "end": 116.91,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 116.91,
+          "end": 117.37,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 117.37,
+          "end": 117.75,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 117.75,
+          "end": 117.95,
+          "matched": true
+        },
+        {
+          "text": "daughter",
+          "start": 117.95,
+          "end": 118.21,
+          "matched": true
+        },
+        {
+          "text": "wants",
+          "start": 118.21,
+          "end": 118.57,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 118.57,
+          "end": 118.81,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 118.81,
+          "end": 118.99,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 118.99,
+          "end": 119.39,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 120.49,
+      "end": 125.24,
+      "duration": 4.75,
+      "text": "The next day, Julia and her mum go and see her teacher.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 120.49,
+          "end": 120.71,
+          "matched": true
+        },
+        {
+          "text": "next",
+          "start": 120.71,
+          "end": 120.95,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 120.95,
+          "end": 121.37,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 121.74,
+          "end": 122.44,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 122.44,
+          "end": 123.08,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 123.08,
+          "end": 123.28,
+          "matched": true
+        },
+        {
+          "text": "mum",
+          "start": 123.28,
+          "end": 123.62,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 123.62,
+          "end": 124.1,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 124.1,
+          "end": 124.4,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 124.4,
+          "end": 124.64,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 124.64,
+          "end": 124.84,
+          "matched": true
+        },
+        {
+          "text": "teacher",
+          "start": 124.84,
+          "end": 125.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 126.69,
+      "end": 130.84,
+      "duration": 4.15,
+      "text": "They tell her about Jack and Julia gives her the money.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 126.69,
+          "end": 126.91,
+          "matched": true
+        },
+        {
+          "text": "tell",
+          "start": 126.91,
+          "end": 127.23,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 127.23,
+          "end": 127.45,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 127.45,
+          "end": 127.73,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 127.73,
+          "end": 128.23,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 128.56,
+          "end": 129.22,
+          "matched": true
+        },
+        {
+          "text": "Julia",
+          "start": 129.22,
+          "end": 129.78,
+          "matched": true
+        },
+        {
+          "text": "gives",
+          "start": 129.78,
+          "end": 130.24,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 130.24,
+          "end": 130.48,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 130.48,
+          "end": 130.6,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 130.6,
+          "end": 130.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 132.24,
+      "end": 133.8,
+      "duration": 1.56,
+      "text": "'This is for Jack's lunch.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "This",
+          "start": 132.24,
+          "end": 132.54,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 132.54,
+          "end": 132.7,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 132.7,
+          "end": 132.88,
+          "matched": true
+        },
+        {
+          "text": "Jack's",
+          "start": 132.88,
+          "end": 133.44,
+          "matched": true
+        },
+        {
+          "text": "lunch",
+          "start": 133.44,
+          "end": 133.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 134.64,
+      "end": 138.176,
+      "duration": 3.536,
+      "text": "Now, he can have lunch every day,' she says.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "start": 134.64,
+          "end": 134.9,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 134.9,
+          "end": 135.18,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 135.18,
+          "end": 135.42,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 135.42,
+          "end": 135.64,
+          "matched": true
+        },
+        {
+          "text": "lunch",
+          "start": 135.64,
+          "end": 135.94,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 135.94,
+          "end": 136.28,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 136.28,
+          "end": 136.64,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 137.58,
+          "end": 137.74,
+          "matched": true
+        },
+        {
+          "text": "says",
+          "start": 137.74,
+          "end": 138.1,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 139.24,
+      "end": 145.72,
+      "duration": 6.48,
+      "text": "Julia hasn't got an electric scooter, but she's got a happy friend – Jack!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Julia",
+          "start": 139.24,
+          "end": 139.98,
+          "matched": true
+        },
+        {
+          "text": "hasn't",
+          "start": 139.98,
+          "end": 140.84,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 140.84,
+          "end": 141.0,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 141.0,
+          "end": 141.22,
+          "matched": true
+        },
+        {
+          "text": "electric",
+          "start": 141.22,
+          "end": 141.54,
+          "matched": true
+        },
+        {
+          "text": "scooter",
+          "start": 141.54,
+          "end": 142.04,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 142.04,
+          "end": 142.76,
+          "matched": true
+        },
+        {
+          "text": "she's",
+          "start": 143.44,
+          "end": 143.76,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 143.76,
+          "end": 143.96,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 143.96,
+          "end": 144.18,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 144.18,
+          "end": 144.5,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 144.5,
+          "end": 145.06,
+          "matched": true
+        },
+        {
+          "text": "Jack",
+          "start": 145.4,
+          "end": 145.72,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

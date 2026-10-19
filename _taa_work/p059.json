@@ -1,0 +1,1811 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p059.mp3",
+  "language": "en",
+  "duration": 130.168,
+  "report": {
+    "script_tokens": 225,
+    "matched_tokens": 220,
+    "asr_words": 234,
+    "coverage": 0.978,
+    "unmatched": [
+      "OK",
+      "15",
+      "OK",
+      "OK",
+      "15"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 9.13,
+      "end": 10.49,
+      "duration": 1.36,
+      "text": "Hello, can I help?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hello",
+          "start": 9.13,
+          "end": 9.53,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 9.91,
+          "end": 10.01,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 10.01,
+          "end": 10.17,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 10.17,
+          "end": 10.49,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 11.05,
+      "end": 11.45,
+      "duration": 0.4,
+      "text": "Yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 11.05,
+          "end": 11.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 12.544,
+      "end": 15.9,
+      "duration": 3.356,
+      "text": "Have you got anything I can give to my best friend?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Have",
+          "start": 12.56,
+          "end": 12.9,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 12.9,
+          "end": 13.08,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 13.08,
+          "end": 13.36,
+          "matched": true
+        },
+        {
+          "text": "anything",
+          "start": 13.36,
+          "end": 13.82,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 13.82,
+          "end": 14.2,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 14.2,
+          "end": 14.42,
+          "matched": true
+        },
+        {
+          "text": "give",
+          "start": 14.42,
+          "end": 14.68,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 14.68,
+          "end": 14.86,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 14.86,
+          "end": 15.04,
+          "matched": true
+        },
+        {
+          "text": "best",
+          "start": 15.04,
+          "end": 15.4,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 15.4,
+          "end": 15.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 16.64,
+      "end": 17.51,
+      "duration": 0.87,
+      "text": "It's a present.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 16.77,
+          "end": 17.09,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 17.09,
+          "end": 17.19,
+          "matched": true
+        },
+        {
+          "text": "present",
+          "start": 17.19,
+          "end": 17.51,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 18.33,
+      "end": 20.91,
+      "duration": 2.58,
+      "text": "Yes, we've got a lot of things.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 18.33,
+          "end": 18.79,
+          "matched": true
+        },
+        {
+          "text": "we've",
+          "start": 19.27,
+          "end": 19.73,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 19.73,
+          "end": 20.01,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 20.01,
+          "end": 20.23,
+          "matched": true
+        },
+        {
+          "text": "lot",
+          "start": 20.23,
+          "end": 20.41,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 20.41,
+          "end": 20.61,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 20.61,
+          "end": 20.91,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 21.71,
+      "end": 23.63,
+      "duration": 1.92,
+      "text": "Is it for a girl or a boy?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Is",
+          "start": 21.71,
+          "end": 21.93,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 21.93,
+          "end": 22.13,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 22.13,
+          "end": 22.35,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 22.35,
+          "end": 22.57,
+          "matched": true
+        },
+        {
+          "text": "girl",
+          "start": 22.57,
+          "end": 22.79,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 22.79,
+          "end": 23.21,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 23.21,
+          "end": 23.41,
+          "matched": true
+        },
+        {
+          "text": "boy",
+          "start": 23.41,
+          "end": 23.63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 24.25,
+      "end": 27.47,
+      "duration": 3.22,
+      "text": "It's for a girl, for my friend, Annie.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 24.25,
+          "end": 24.69,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 24.69,
+          "end": 24.95,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 24.95,
+          "end": 25.11,
+          "matched": true
+        },
+        {
+          "text": "girl",
+          "start": 25.11,
+          "end": 25.59,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 26.21,
+          "end": 26.45,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 26.45,
+          "end": 26.61,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 26.61,
+          "end": 27.03,
+          "matched": true
+        },
+        {
+          "text": "Annie",
+          "start": 27.03,
+          "end": 27.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 28.09,
+      "end": 28.61,
+      "duration": 0.52,
+      "text": "OK.",
+      "confidence": 0.0,
+      "words": [
+        {
+          "text": "OK",
+          "start": 28.09,
+          "end": 28.61,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 29.29,
+      "end": 32.45,
+      "duration": 3.16,
+      "text": "I've got this lovely little yellow rose.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I've",
+          "start": 29.29,
+          "end": 29.81,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 29.81,
+          "end": 30.05,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 30.05,
+          "end": 30.43,
+          "matched": true
+        },
+        {
+          "text": "lovely",
+          "start": 30.43,
+          "end": 31.09,
+          "matched": true
+        },
+        {
+          "text": "little",
+          "start": 31.09,
+          "end": 31.55,
+          "matched": true
+        },
+        {
+          "text": "yellow",
+          "start": 31.55,
+          "end": 31.89,
+          "matched": true
+        },
+        {
+          "text": "rose",
+          "start": 31.89,
+          "end": 32.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 33.01,
+      "end": 34.61,
+      "duration": 1.6,
+      "text": "Yellow's a happy colour.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yellow's",
+          "start": 33.01,
+          "end": 33.55,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 33.55,
+          "end": 33.65,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 33.65,
+          "end": 34.05,
+          "matched": true
+        },
+        {
+          "text": "colour",
+          "start": 34.05,
+          "end": 34.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 35.51,
+      "end": 37.63,
+      "duration": 2.12,
+      "text": "It's a lovely present for a girl.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 35.51,
+          "end": 35.85,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 35.85,
+          "end": 35.97,
+          "matched": true
+        },
+        {
+          "text": "lovely",
+          "start": 35.97,
+          "end": 36.39,
+          "matched": true
+        },
+        {
+          "text": "present",
+          "start": 36.39,
+          "end": 36.95,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 36.95,
+          "end": 37.27,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 37.27,
+          "end": 37.43,
+          "matched": true
+        },
+        {
+          "text": "girl",
+          "start": 37.43,
+          "end": 37.63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 38.34,
+      "end": 40.096,
+      "duration": 1.756,
+      "text": "It's got a necklace with it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 38.34,
+          "end": 38.64,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 38.64,
+          "end": 38.82,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 38.82,
+          "end": 39.02,
+          "matched": true
+        },
+        {
+          "text": "necklace",
+          "start": 39.02,
+          "end": 39.36,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 39.36,
+          "end": 39.76,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 39.76,
+          "end": 40.0,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 40.6,
+      "end": 42.54,
+      "duration": 1.94,
+      "text": "Have you got any little animals?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Have",
+          "start": 40.6,
+          "end": 40.84,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 40.84,
+          "end": 41.0,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 41.0,
+          "end": 41.3,
+          "matched": true
+        },
+        {
+          "text": "any",
+          "start": 41.3,
+          "end": 41.58,
+          "matched": true
+        },
+        {
+          "text": "little",
+          "start": 41.58,
+          "end": 41.96,
+          "matched": true
+        },
+        {
+          "text": "animals",
+          "start": 41.96,
+          "end": 42.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 43.32,
+      "end": 47.488,
+      "duration": 4.168,
+      "text": "Yes, we've got a little silver dolphin or a dog.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 43.32,
+          "end": 43.68,
+          "matched": true
+        },
+        {
+          "text": "we've",
+          "start": 44.28,
+          "end": 44.58,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 44.58,
+          "end": 44.76,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 44.76,
+          "end": 44.98,
+          "matched": true
+        },
+        {
+          "text": "little",
+          "start": 44.98,
+          "end": 45.26,
+          "matched": true
+        },
+        {
+          "text": "silver",
+          "start": 45.26,
+          "end": 45.84,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 45.84,
+          "end": 46.36,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 46.36,
+          "end": 46.92,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 46.92,
+          "end": 47.1,
+          "matched": true
+        },
+        {
+          "text": "dog",
+          "start": 47.1,
+          "end": 47.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 48.128,
+      "end": 49.74,
+      "duration": 1.612,
+      "text": "They both show friendship.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They",
+          "start": 48.14,
+          "end": 48.3,
+          "matched": true
+        },
+        {
+          "text": "both",
+          "start": 48.3,
+          "end": 48.78,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 48.78,
+          "end": 49.2,
+          "matched": true
+        },
+        {
+          "text": "friendship",
+          "start": 49.2,
+          "end": 49.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 50.38,
+      "end": 55.42,
+      "duration": 5.04,
+      "text": "Oh, I love the dolphin, and Annie likes dolphins, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 50.38,
+          "end": 50.94,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 51.24,
+          "end": 51.48,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 51.48,
+          "end": 51.86,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 51.86,
+          "end": 52.1,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 52.1,
+          "end": 52.58,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 53.3,
+          "end": 53.52,
+          "matched": true
+        },
+        {
+          "text": "Annie",
+          "start": 53.52,
+          "end": 53.92,
+          "matched": true
+        },
+        {
+          "text": "likes",
+          "start": 53.92,
+          "end": 54.3,
+          "matched": true
+        },
+        {
+          "text": "dolphins",
+          "start": 54.3,
+          "end": 54.86,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 54.86,
+          "end": 55.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 56.08,
+      "end": 57.64,
+      "duration": 1.56,
+      "text": "They're her favourite animal.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They're",
+          "start": 56.08,
+          "end": 56.4,
+          "matched": true
+        },
+        {
+          "text": "her",
+          "start": 56.4,
+          "end": 56.58,
+          "matched": true
+        },
+        {
+          "text": "favourite",
+          "start": 56.58,
+          "end": 57.04,
+          "matched": true
+        },
+        {
+          "text": "animal",
+          "start": 57.04,
+          "end": 57.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 58.37,
+      "end": 60.35,
+      "duration": 1.98,
+      "text": "But she's got a dog.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 58.37,
+          "end": 58.85,
+          "matched": true
+        },
+        {
+          "text": "she's",
+          "start": 58.85,
+          "end": 59.37,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 59.37,
+          "end": 59.67,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 59.67,
+          "end": 59.87,
+          "matched": true
+        },
+        {
+          "text": "dog",
+          "start": 59.87,
+          "end": 60.35,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 61.11,
+      "end": 62.63,
+      "duration": 1.52,
+      "text": "It's just like this one.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 61.11,
+          "end": 61.45,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 61.45,
+          "end": 61.63,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 61.63,
+          "end": 61.95,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 61.95,
+          "end": 62.29,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 62.29,
+          "end": 62.63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 62.96,
+      "end": 63.88,
+      "duration": 0.92,
+      "text": "Hmm.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Hmm",
+          "start": 62.96,
+          "end": 63.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 64.3,
+      "end": 67.74,
+      "duration": 3.44,
+      "text": "So maybe the dog or the dolphin.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 64.3,
+          "end": 64.62,
+          "matched": true
+        },
+        {
+          "text": "maybe",
+          "start": 64.62,
+          "end": 65.16,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 65.16,
+          "end": 65.48,
+          "matched": true
+        },
+        {
+          "text": "dog",
+          "start": 65.48,
+          "end": 66.04,
+          "matched": true
+        },
+        {
+          "text": "or",
+          "start": 66.04,
+          "end": 66.88,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 66.88,
+          "end": 67.28,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 67.28,
+          "end": 67.74,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 68.736,
+      "end": 70.912,
+      "duration": 2.176,
+      "text": "I've got one more to show you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I've",
+          "start": 68.78,
+          "end": 69.12,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 69.12,
+          "end": 69.28,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 69.28,
+          "end": 69.72,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 69.72,
+          "end": 70.06,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 70.06,
+          "end": 70.28,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 70.28,
+          "end": 70.54,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 70.54,
+          "end": 70.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 71.264,
+      "end": 72.76,
+      "duration": 1.496,
+      "text": "It's really beautiful.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 71.28,
+          "end": 71.62,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 71.62,
+          "end": 72.16,
+          "matched": true
+        },
+        {
+          "text": "beautiful",
+          "start": 72.16,
+          "end": 72.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 73.98,
+      "end": 75.3,
+      "duration": 1.32,
+      "text": "Oh, it's a heart.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 73.98,
+          "end": 74.24,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 74.32,
+          "end": 74.6,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 74.6,
+          "end": 74.72,
+          "matched": true
+        },
+        {
+          "text": "heart",
+          "start": 74.72,
+          "end": 75.3,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 76.15,
+      "end": 77.77,
+      "duration": 1.62,
+      "text": "And it's in two pieces.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 76.15,
+          "end": 76.43,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 76.43,
+          "end": 76.69,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 76.69,
+          "end": 76.83,
+          "matched": true
+        },
+        {
+          "text": "two",
+          "start": 76.83,
+          "end": 77.17,
+          "matched": true
+        },
+        {
+          "text": "pieces",
+          "start": 77.17,
+          "end": 77.77,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 78.592,
+      "end": 79.47,
+      "duration": 0.878,
+      "text": "That's clever.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "That's",
+          "start": 78.63,
+          "end": 79.19,
+          "matched": true
+        },
+        {
+          "text": "clever",
+          "start": 79.19,
+          "end": 79.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 80.25,
+      "end": 80.67,
+      "duration": 0.42,
+      "text": "Yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 80.25,
+          "end": 80.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 81.31,
+      "end": 85.67,
+      "duration": 4.36,
+      "text": "You wear one piece and your friend, Annie, wears the other.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 81.31,
+          "end": 81.71,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 81.71,
+          "end": 82.01,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 82.01,
+          "end": 82.31,
+          "matched": true
+        },
+        {
+          "text": "piece",
+          "start": 82.31,
+          "end": 82.71,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 82.71,
+          "end": 83.41,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 83.41,
+          "end": 83.59,
+          "matched": true
+        },
+        {
+          "text": "friend",
+          "start": 83.59,
+          "end": 83.91,
+          "matched": true
+        },
+        {
+          "text": "Annie",
+          "start": 83.91,
+          "end": 84.41,
+          "matched": true
+        },
+        {
+          "text": "wears",
+          "start": 84.41,
+          "end": 85.15,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 85.15,
+          "end": 85.43,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 85.43,
+          "end": 85.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 86.29,
+      "end": 87.95,
+      "duration": 1.66,
+      "text": "Oh, that's so cool.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 86.29,
+          "end": 86.61,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 86.67,
+          "end": 87.11,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 87.11,
+          "end": 87.39,
+          "matched": true
+        },
+        {
+          "text": "cool",
+          "start": 87.39,
+          "end": 87.95,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 88.77,
+      "end": 92.85,
+      "duration": 4.08,
+      "text": "I like that idea, but I still prefer the dolphin.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 88.77,
+          "end": 89.03,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 89.03,
+          "end": 89.39,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 89.39,
+          "end": 89.65,
+          "matched": true
+        },
+        {
+          "text": "idea",
+          "start": 89.65,
+          "end": 90.21,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 90.23,
+          "end": 90.61,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 90.61,
+          "end": 91.11,
+          "matched": true
+        },
+        {
+          "text": "still",
+          "start": 91.11,
+          "end": 91.53,
+          "matched": true
+        },
+        {
+          "text": "prefer",
+          "start": 91.53,
+          "end": 92.03,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 92.03,
+          "end": 92.31,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 92.31,
+          "end": 92.85,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 93.76,
+      "end": 95.06,
+      "duration": 1.3,
+      "text": "How much is it?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "How",
+          "start": 93.76,
+          "end": 94.12,
+          "matched": true
+        },
+        {
+          "text": "much",
+          "start": 94.12,
+          "end": 94.62,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 94.62,
+          "end": 94.82,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 94.82,
+          "end": 95.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 95.84,
+      "end": 97.05,
+      "duration": 1.21,
+      "text": "It's £15.",
+      "confidence": 0.5,
+      "words": [
+        {
+          "text": "It's",
+          "start": 95.91,
+          "end": 96.27,
+          "matched": true
+        },
+        {
+          "text": "15",
+          "start": 96.27,
+          "end": 97.05,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 98.07,
+      "end": 98.95,
+      "duration": 0.88,
+      "text": "That's OK.",
+      "confidence": 0.5,
+      "words": [
+        {
+          "text": "That's",
+          "start": 98.07,
+          "end": 98.69,
+          "matched": true
+        },
+        {
+          "text": "OK",
+          "start": 98.69,
+          "end": 98.95,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 99.91,
+      "end": 101.664,
+      "duration": 1.754,
+      "text": "Can I have the dolphin, then?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 99.91,
+          "end": 100.15,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 100.15,
+          "end": 100.31,
+          "matched": true
+        },
+        {
+          "text": "have",
+          "start": 100.31,
+          "end": 100.51,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 100.51,
+          "end": 100.67,
+          "matched": true
+        },
+        {
+          "text": "dolphin",
+          "start": 100.67,
+          "end": 101.05,
+          "matched": true
+        },
+        {
+          "text": "then",
+          "start": 101.05,
+          "end": 101.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 102.112,
+      "end": 102.63,
+      "duration": 0.518,
+      "text": "Of course.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Of",
+          "start": 102.15,
+          "end": 102.29,
+          "matched": true
+        },
+        {
+          "text": "course",
+          "start": 102.29,
+          "end": 102.63,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 103.456,
+      "end": 105.67,
+      "duration": 2.214,
+      "text": "And do you want the necklace too?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 103.47,
+          "end": 103.83,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 103.83,
+          "end": 104.23,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 104.23,
+          "end": 104.37,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 104.37,
+          "end": 104.61,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 104.61,
+          "end": 104.75,
+          "matched": true
+        },
+        {
+          "text": "necklace",
+          "start": 104.75,
+          "end": 105.15,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 105.15,
+          "end": 105.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 106.47,
+      "end": 109.57,
+      "duration": 3.1,
+      "text": "No. Annie's got a nice silver necklace.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 106.47,
+          "end": 106.97,
+          "matched": true
+        },
+        {
+          "text": "Annie's",
+          "start": 107.59,
+          "end": 108.01,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 108.01,
+          "end": 108.19,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 108.19,
+          "end": 108.41,
+          "matched": true
+        },
+        {
+          "text": "nice",
+          "start": 108.41,
+          "end": 108.65,
+          "matched": true
+        },
+        {
+          "text": "silver",
+          "start": 108.65,
+          "end": 109.11,
+          "matched": true
+        },
+        {
+          "text": "necklace",
+          "start": 109.11,
+          "end": 109.57,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 110.59,
+      "end": 112.11,
+      "duration": 1.52,
+      "text": "She doesn't need another one.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "She",
+          "start": 110.59,
+          "end": 110.75,
+          "matched": true
+        },
+        {
+          "text": "doesn't",
+          "start": 110.75,
+          "end": 111.13,
+          "matched": true
+        },
+        {
+          "text": "need",
+          "start": 111.13,
+          "end": 111.41,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 111.41,
+          "end": 111.75,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 111.75,
+          "end": 112.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 112.85,
+      "end": 113.67,
+      "duration": 0.82,
+      "text": "OK, then.",
+      "confidence": 0.5,
+      "words": [
+        {
+          "text": "OK",
+          "start": 112.85,
+          "end": 113.31,
+          "matched": false
+        },
+        {
+          "text": "then",
+          "start": 113.31,
+          "end": 113.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 114.21,
+      "end": 115.37,
+      "duration": 1.16,
+      "text": "That's £15.",
+      "confidence": 0.5,
+      "words": [
+        {
+          "text": "That's",
+          "start": 114.21,
+          "end": 114.73,
+          "matched": true
+        },
+        {
+          "text": "15",
+          "start": 114.73,
+          "end": 115.37,
+          "matched": false
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 116.31,
+      "end": 119.168,
+      "duration": 2.858,
+      "text": "I've got a little bag you can put it in.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I've",
+          "start": 116.31,
+          "end": 116.89,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 116.89,
+          "end": 117.01,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 117.01,
+          "end": 117.25,
+          "matched": true
+        },
+        {
+          "text": "little",
+          "start": 117.25,
+          "end": 117.47,
+          "matched": true
+        },
+        {
+          "text": "bag",
+          "start": 117.47,
+          "end": 117.93,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 117.93,
+          "end": 118.25,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 118.25,
+          "end": 118.45,
+          "matched": true
+        },
+        {
+          "text": "put",
+          "start": 118.45,
+          "end": 118.65,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 118.65,
+          "end": 118.85,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 118.85,
+          "end": 119.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 119.59,
+      "end": 120.67,
+      "duration": 1.08,
+      "text": "Oh, that's great.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 119.59,
+          "end": 119.95,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 120.05,
+          "end": 120.33,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 120.33,
+          "end": 120.67,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 121.47,
+      "end": 122.24,
+      "duration": 0.77,
+      "text": "Thank you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thank",
+          "start": 121.47,
+          "end": 121.73,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 121.73,
+          "end": 122.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 122.49,
+      "end": 123.83,
+      "duration": 1.34,
+      "text": "I hope she likes it.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 122.49,
+          "end": 122.73,
+          "matched": true
+        },
+        {
+          "text": "hope",
+          "start": 122.73,
+          "end": 122.95,
+          "matched": true
+        },
+        {
+          "text": "she",
+          "start": 122.95,
+          "end": 123.15,
+          "matched": true
+        },
+        {
+          "text": "likes",
+          "start": 123.15,
+          "end": 123.43,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 123.43,
+          "end": 123.83,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

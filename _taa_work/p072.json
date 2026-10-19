@@ -1,0 +1,1227 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p072.mp3",
+  "language": "en",
+  "duration": 95.425,
+  "report": {
+    "script_tokens": 150,
+    "matched_tokens": 149,
+    "asr_words": 158,
+    "coverage": 0.993,
+    "unmatched": [
+      "OK"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 8.64,
+      "end": 9.06,
+      "duration": 0.42,
+      "text": "Right!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Right",
+          "start": 8.64,
+          "end": 9.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 9.48,
+      "end": 10.5,
+      "duration": 1.02,
+      "text": "Have we got everything?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Have",
+          "start": 9.48,
+          "end": 9.7,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 9.7,
+          "end": 9.82,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 9.82,
+          "end": 10.02,
+          "matched": true
+        },
+        {
+          "text": "everything",
+          "start": 10.02,
+          "end": 10.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 11.24,
+      "end": 13.472,
+      "duration": 2.232,
+      "text": "Tennis rackets, balls …?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Tennis",
+          "start": 11.24,
+          "end": 11.7,
+          "matched": true
+        },
+        {
+          "text": "rackets",
+          "start": 11.7,
+          "end": 12.38,
+          "matched": true
+        },
+        {
+          "text": "balls",
+          "start": 12.66,
+          "end": 13.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 13.72,
+      "end": 15.42,
+      "duration": 1.7,
+      "text": "Yes, I think so.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 13.72,
+          "end": 14.2,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 14.52,
+          "end": 14.66,
+          "matched": true
+        },
+        {
+          "text": "think",
+          "start": 14.66,
+          "end": 14.98,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 14.98,
+          "end": 15.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 16.06,
+      "end": 22.15,
+      "duration": 6.09,
+      "text": "And we've got some food – sandwiches, fruit and stuff – and some water.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 16.06,
+          "end": 16.48,
+          "matched": true
+        },
+        {
+          "text": "we've",
+          "start": 16.48,
+          "end": 16.74,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 16.74,
+          "end": 16.92,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 16.92,
+          "end": 17.22,
+          "matched": true
+        },
+        {
+          "text": "food",
+          "start": 17.22,
+          "end": 17.7,
+          "matched": true
+        },
+        {
+          "text": "sandwiches",
+          "start": 18.28,
+          "end": 19.04,
+          "matched": true
+        },
+        {
+          "text": "fruit",
+          "start": 19.54,
+          "end": 19.82,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 19.82,
+          "end": 20.12,
+          "matched": true
+        },
+        {
+          "text": "stuff",
+          "start": 20.12,
+          "end": 20.52,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 21.13,
+          "end": 21.43,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 21.43,
+          "end": 21.75,
+          "matched": true
+        },
+        {
+          "text": "water",
+          "start": 21.75,
+          "end": 22.15,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 22.93,
+      "end": 24.03,
+      "duration": 1.1,
+      "text": "So, let's go.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 22.93,
+          "end": 23.25,
+          "matched": true
+        },
+        {
+          "text": "let's",
+          "start": 23.25,
+          "end": 23.75,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 23.75,
+          "end": 24.03,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 25.19,
+      "end": 25.97,
+      "duration": 0.78,
+      "text": "Just a minute!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Just",
+          "start": 25.19,
+          "end": 25.51,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 25.51,
+          "end": 25.79,
+          "matched": true
+        },
+        {
+          "text": "minute",
+          "start": 25.79,
+          "end": 25.97,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 26.84,
+      "end": 29.08,
+      "duration": 2.24,
+      "text": "Oh, no! It's raining!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 26.84,
+          "end": 27.2,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 27.2,
+          "end": 27.58,
+          "matched": true
+        },
+        {
+          "text": "It's",
+          "start": 28.22,
+          "end": 28.66,
+          "matched": true
+        },
+        {
+          "text": "raining",
+          "start": 28.66,
+          "end": 29.08,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 29.9,
+      "end": 31.36,
+      "duration": 1.46,
+      "text": "Now what do we do?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "start": 29.9,
+          "end": 30.34,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 30.34,
+          "end": 30.62,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 30.62,
+          "end": 30.92,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 30.92,
+          "end": 31.04,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 31.04,
+          "end": 31.36,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 31.92,
+      "end": 32.72,
+      "duration": 0.8,
+      "text": "You're right.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You're",
+          "start": 31.92,
+          "end": 32.36,
+          "matched": true
+        },
+        {
+          "text": "right",
+          "start": 32.36,
+          "end": 32.72,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 33.6,
+      "end": 35.9,
+      "duration": 2.3,
+      "text": "We can't play outside in the rain.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 33.6,
+          "end": 33.78,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 33.78,
+          "end": 34.18,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 34.18,
+          "end": 34.44,
+          "matched": true
+        },
+        {
+          "text": "outside",
+          "start": 34.44,
+          "end": 35.02,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 35.02,
+          "end": 35.32,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 35.32,
+          "end": 35.44,
+          "matched": true
+        },
+        {
+          "text": "rain",
+          "start": 35.44,
+          "end": 35.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 37.06,
+      "end": 40.22,
+      "duration": 3.16,
+      "text": "Why don't we go to the sports centre in town?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 37.06,
+          "end": 37.4,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 37.4,
+          "end": 37.86,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 37.86,
+          "end": 38.02,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 38.02,
+          "end": 38.22,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 38.22,
+          "end": 38.4,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 38.4,
+          "end": 38.54,
+          "matched": true
+        },
+        {
+          "text": "sports",
+          "start": 38.54,
+          "end": 39.04,
+          "matched": true
+        },
+        {
+          "text": "centre",
+          "start": 39.04,
+          "end": 39.54,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 39.54,
+          "end": 39.82,
+          "matched": true
+        },
+        {
+          "text": "town",
+          "start": 39.82,
+          "end": 40.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 40.9,
+      "end": 42.46,
+      "duration": 1.56,
+      "text": "They've got an indoor court.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "They've",
+          "start": 40.9,
+          "end": 41.3,
+          "matched": true
+        },
+        {
+          "text": "got",
+          "start": 41.3,
+          "end": 41.48,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 41.48,
+          "end": 41.68,
+          "matched": true
+        },
+        {
+          "text": "indoor",
+          "start": 41.68,
+          "end": 42.1,
+          "matched": true
+        },
+        {
+          "text": "court",
+          "start": 42.1,
+          "end": 42.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 43.072,
+      "end": 45.8,
+      "duration": 2.728,
+      "text": "No, it's always very busy.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "No",
+          "start": 43.2,
+          "end": 43.66,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 44.04,
+          "end": 44.44,
+          "matched": true
+        },
+        {
+          "text": "always",
+          "start": 44.44,
+          "end": 44.82,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 44.82,
+          "end": 45.28,
+          "matched": true
+        },
+        {
+          "text": "busy",
+          "start": 45.28,
+          "end": 45.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 46.65,
+      "end": 48.87,
+      "duration": 2.22,
+      "text": "I'm sure we can't play there today.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 46.65,
+          "end": 46.89,
+          "matched": true
+        },
+        {
+          "text": "sure",
+          "start": 46.89,
+          "end": 47.27,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 47.27,
+          "end": 47.53,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 47.53,
+          "end": 47.97,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 47.97,
+          "end": 48.21,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 48.21,
+          "end": 48.47,
+          "matched": true
+        },
+        {
+          "text": "today",
+          "start": 48.47,
+          "end": 48.87,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 49.84,
+      "end": 50.88,
+      "duration": 1.04,
+      "text": "Maybe you're right.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Maybe",
+          "start": 49.84,
+          "end": 50.24,
+          "matched": true
+        },
+        {
+          "text": "you're",
+          "start": 50.24,
+          "end": 50.5,
+          "matched": true
+        },
+        {
+          "text": "right",
+          "start": 50.5,
+          "end": 50.88,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 51.7,
+      "end": 53.6,
+      "duration": 1.9,
+      "text": "It's a bit expensive, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 51.7,
+          "end": 52.08,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 52.08,
+          "end": 52.2,
+          "matched": true
+        },
+        {
+          "text": "bit",
+          "start": 52.2,
+          "end": 52.4,
+          "matched": true
+        },
+        {
+          "text": "expensive",
+          "start": 52.4,
+          "end": 53.12,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 53.12,
+          "end": 53.6,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 54.47,
+      "end": 57.25,
+      "duration": 2.78,
+      "text": "OK, so we can't play today.",
+      "confidence": 0.833,
+      "words": [
+        {
+          "text": "OK",
+          "start": 54.47,
+          "end": 54.91,
+          "matched": false
+        },
+        {
+          "text": "so",
+          "start": 55.27,
+          "end": 55.79,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 55.79,
+          "end": 56.19,
+          "matched": true
+        },
+        {
+          "text": "can't",
+          "start": 56.19,
+          "end": 56.61,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 56.61,
+          "end": 56.87,
+          "matched": true
+        },
+        {
+          "text": "today",
+          "start": 56.87,
+          "end": 57.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 57.92,
+      "end": 59.296,
+      "duration": 1.376,
+      "text": "It's no big deal.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 57.92,
+          "end": 58.3,
+          "matched": true
+        },
+        {
+          "text": "no",
+          "start": 58.3,
+          "end": 58.5,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 58.5,
+          "end": 58.8,
+          "matched": true
+        },
+        {
+          "text": "deal",
+          "start": 58.8,
+          "end": 59.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 59.76,
+      "end": 61.48,
+      "duration": 1.72,
+      "text": "We can play tomorrow, perhaps.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 59.76,
+          "end": 59.96,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 59.96,
+          "end": 60.18,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 60.18,
+          "end": 60.44,
+          "matched": true
+        },
+        {
+          "text": "tomorrow",
+          "start": 60.44,
+          "end": 60.88,
+          "matched": true
+        },
+        {
+          "text": "perhaps",
+          "start": 61.16,
+          "end": 61.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 62.42,
+      "end": 62.8,
+      "duration": 0.38,
+      "text": "Yes.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 62.42,
+          "end": 62.8,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 63.46,
+      "end": 65.79,
+      "duration": 2.33,
+      "text": "But I'm a bit sad now.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 63.46,
+          "end": 63.76,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 63.93,
+          "end": 64.65,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 64.65,
+          "end": 64.71,
+          "matched": true
+        },
+        {
+          "text": "bit",
+          "start": 64.71,
+          "end": 64.89,
+          "matched": true
+        },
+        {
+          "text": "sad",
+          "start": 64.89,
+          "end": 65.37,
+          "matched": true
+        },
+        {
+          "text": "now",
+          "start": 65.37,
+          "end": 65.79,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 66.45,
+      "end": 67.11,
+      "duration": 0.66,
+      "text": "Me, too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Me",
+          "start": 66.45,
+          "end": 66.75,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 66.75,
+          "end": 67.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 68.26,
+      "end": 69.48,
+      "duration": 1.22,
+      "text": "But what can we do?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 68.26,
+          "end": 68.5,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 68.5,
+          "end": 68.92,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 68.92,
+          "end": 69.1,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 69.1,
+          "end": 69.22,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 69.22,
+          "end": 69.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 70.34,
+      "end": 72.24,
+      "duration": 1.9,
+      "text": "It's raining, and that's that.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 70.34,
+          "end": 70.6,
+          "matched": true
+        },
+        {
+          "text": "raining",
+          "start": 70.6,
+          "end": 70.94,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 70.94,
+          "end": 71.64,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 71.64,
+          "end": 72.02,
+          "matched": true
+        },
+        {
+          "text": "that",
+          "start": 72.02,
+          "end": 72.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 72.992,
+      "end": 73.5,
+      "duration": 0.508,
+      "text": "I know!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 73.0,
+          "end": 73.24,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 73.24,
+          "end": 73.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 74.67,
+      "end": 78.77,
+      "duration": 4.1,
+      "text": "How about watching some old tennis games on the internet?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "How",
+          "start": 74.67,
+          "end": 75.05,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 75.05,
+          "end": 75.45,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 75.45,
+          "end": 76.11,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 76.11,
+          "end": 76.39,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 76.39,
+          "end": 76.87,
+          "matched": true
+        },
+        {
+          "text": "tennis",
+          "start": 76.87,
+          "end": 77.33,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 77.33,
+          "end": 77.91,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 77.91,
+          "end": 78.23,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 78.23,
+          "end": 78.39,
+          "matched": true
+        },
+        {
+          "text": "internet",
+          "start": 78.39,
+          "end": 78.77,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 79.55,
+      "end": 80.25,
+      "duration": 0.7,
+      "text": "Good idea.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Good",
+          "start": 79.55,
+          "end": 79.79,
+          "matched": true
+        },
+        {
+          "text": "idea",
+          "start": 79.79,
+          "end": 80.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 80.99,
+      "end": 83.73,
+      "duration": 2.74,
+      "text": "I like watching really good players.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 80.99,
+          "end": 81.27,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 81.27,
+          "end": 81.61,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 81.61,
+          "end": 82.15,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 82.15,
+          "end": 82.61,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 82.61,
+          "end": 83.11,
+          "matched": true
+        },
+        {
+          "text": "players",
+          "start": 83.11,
+          "end": 83.73,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 84.384,
+      "end": 86.51,
+      "duration": 2.126,
+      "text": "And we can eat our food.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 84.53,
+          "end": 84.99,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 84.99,
+          "end": 85.27,
+          "matched": true
+        },
+        {
+          "text": "can",
+          "start": 85.27,
+          "end": 85.49,
+          "matched": true
+        },
+        {
+          "text": "eat",
+          "start": 85.49,
+          "end": 85.75,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 85.75,
+          "end": 86.03,
+          "matched": true
+        },
+        {
+          "text": "food",
+          "start": 86.03,
+          "end": 86.51,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 87.28,
+      "end": 89.82,
+      "duration": 2.54,
+      "text": "Let's go and switch the computer on.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 87.28,
+          "end": 87.86,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 87.86,
+          "end": 88.08,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 88.08,
+          "end": 88.34,
+          "matched": true
+        },
+        {
+          "text": "switch",
+          "start": 88.34,
+          "end": 88.66,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 88.66,
+          "end": 88.98,
+          "matched": true
+        },
+        {
+          "text": "computer",
+          "start": 88.98,
+          "end": 89.48,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 89.48,
+          "end": 89.82,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

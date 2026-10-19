@@ -1,0 +1,1509 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p048.mp3",
+  "language": "en",
+  "duration": 139.677,
+  "report": {
+    "script_tokens": 212,
+    "matched_tokens": 211,
+    "asr_words": 222,
+    "coverage": 0.995,
+    "unmatched": [
+      "Our"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 14.86,
+      "duration": 14.86,
+      "text": "Our school has a Robotics Club and it's brilliant.",
+      "confidence": 0.889,
+      "words": [
+        {
+          "text": "Our",
+          "start": 0.0,
+          "end": 0.26,
+          "matched": false
+        },
+        {
+          "text": "school",
+          "start": 10.82,
+          "end": 11.28,
+          "matched": true
+        },
+        {
+          "text": "has",
+          "start": 11.28,
+          "end": 11.8,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 11.8,
+          "end": 12.02,
+          "matched": true
+        },
+        {
+          "text": "Robotics",
+          "start": 12.02,
+          "end": 12.56,
+          "matched": true
+        },
+        {
+          "text": "Club",
+          "start": 12.56,
+          "end": 13.12,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 13.12,
+          "end": 13.98,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 13.98,
+          "end": 14.32,
+          "matched": true
+        },
+        {
+          "text": "brilliant",
+          "start": 14.32,
+          "end": 14.86,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 15.98,
+      "end": 19.16,
+      "duration": 3.18,
+      "text": "I know this because I go to it!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 15.98,
+          "end": 16.24,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 16.24,
+          "end": 16.54,
+          "matched": true
+        },
+        {
+          "text": "this",
+          "start": 16.54,
+          "end": 17.0,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 17.0,
+          "end": 17.7,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 17.7,
+          "end": 18.32,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 18.32,
+          "end": 18.62,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 18.62,
+          "end": 18.86,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 18.86,
+          "end": 19.16,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 20.672,
+      "end": 23.424,
+      "duration": 2.752,
+      "text": "So, what is a Robotics Club?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "So",
+          "start": 20.68,
+          "end": 20.98,
+          "matched": true
+        },
+        {
+          "text": "what",
+          "start": 20.98,
+          "end": 21.32,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 21.32,
+          "end": 21.8,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 21.8,
+          "end": 22.14,
+          "matched": true
+        },
+        {
+          "text": "Robotics",
+          "start": 22.14,
+          "end": 22.68,
+          "matched": true
+        },
+        {
+          "text": "Club",
+          "start": 22.68,
+          "end": 23.3,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 24.08,
+      "end": 31.17,
+      "duration": 7.09,
+      "text": "Easy – it's a club for building robots and I love robots.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Easy",
+          "start": 24.08,
+          "end": 24.54,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 25.51,
+          "end": 25.87,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 25.87,
+          "end": 25.97,
+          "matched": true
+        },
+        {
+          "text": "club",
+          "start": 25.97,
+          "end": 26.43,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 26.43,
+          "end": 26.89,
+          "matched": true
+        },
+        {
+          "text": "building",
+          "start": 26.89,
+          "end": 27.35,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 27.35,
+          "end": 28.07,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 28.07,
+          "end": 29.01,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 29.01,
+          "end": 29.47,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 29.47,
+          "end": 30.09,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 30.09,
+          "end": 31.17,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 32.54,
+      "end": 35.36,
+      "duration": 2.82,
+      "text": "Mr Thomas is the club leader.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Mr",
+          "start": 32.54,
+          "end": 33.24,
+          "matched": true
+        },
+        {
+          "text": "Thomas",
+          "start": 33.24,
+          "end": 33.68,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 33.68,
+          "end": 34.34,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 34.34,
+          "end": 34.56,
+          "matched": true
+        },
+        {
+          "text": "club",
+          "start": 34.56,
+          "end": 34.8,
+          "matched": true
+        },
+        {
+          "text": "leader",
+          "start": 34.8,
+          "end": 35.36,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 36.82,
+      "end": 41.62,
+      "duration": 4.8,
+      "text": "He thinks of things for us to do and helps us build our robots.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 36.82,
+          "end": 36.98,
+          "matched": true
+        },
+        {
+          "text": "thinks",
+          "start": 36.98,
+          "end": 37.32,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 37.32,
+          "end": 37.64,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 37.64,
+          "end": 37.92,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 37.92,
+          "end": 38.3,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 38.3,
+          "end": 38.5,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 38.5,
+          "end": 38.72,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 38.72,
+          "end": 39.04,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 39.04,
+          "end": 39.78,
+          "matched": true
+        },
+        {
+          "text": "helps",
+          "start": 39.78,
+          "end": 40.16,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 40.16,
+          "end": 40.38,
+          "matched": true
+        },
+        {
+          "text": "build",
+          "start": 40.38,
+          "end": 40.74,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 40.74,
+          "end": 41.0,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 41.0,
+          "end": 41.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 43.13,
+      "end": 45.93,
+      "duration": 2.8,
+      "text": "He's really cool and very kind.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He's",
+          "start": 43.13,
+          "end": 43.51,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 43.51,
+          "end": 44.01,
+          "matched": true
+        },
+        {
+          "text": "cool",
+          "start": 44.01,
+          "end": 44.55,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 44.55,
+          "end": 45.11,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 45.11,
+          "end": 45.47,
+          "matched": true
+        },
+        {
+          "text": "kind",
+          "start": 45.47,
+          "end": 45.93,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 47.0,
+      "end": 49.152,
+      "duration": 2.152,
+      "text": "He never gets angry with us.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 47.0,
+          "end": 47.18,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 47.18,
+          "end": 47.6,
+          "matched": true
+        },
+        {
+          "text": "gets",
+          "start": 47.6,
+          "end": 47.98,
+          "matched": true
+        },
+        {
+          "text": "angry",
+          "start": 47.98,
+          "end": 48.48,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 48.48,
+          "end": 48.76,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 48.76,
+          "end": 49.06,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 50.53,
+      "end": 59.82,
+      "duration": 9.29,
+      "text": "He teaches Music (not Design and Technology!), but he just loves everything to do with computers.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 50.53,
+          "end": 50.71,
+          "matched": true
+        },
+        {
+          "text": "teaches",
+          "start": 50.71,
+          "end": 51.25,
+          "matched": true
+        },
+        {
+          "text": "Music",
+          "start": 51.25,
+          "end": 52.11,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 52.78,
+          "end": 53.3,
+          "matched": true
+        },
+        {
+          "text": "Design",
+          "start": 53.3,
+          "end": 53.88,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 53.88,
+          "end": 54.14,
+          "matched": true
+        },
+        {
+          "text": "Technology",
+          "start": 54.14,
+          "end": 54.8,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 55.92,
+          "end": 56.36,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 56.36,
+          "end": 56.6,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 56.6,
+          "end": 56.86,
+          "matched": true
+        },
+        {
+          "text": "loves",
+          "start": 56.86,
+          "end": 57.4,
+          "matched": true
+        },
+        {
+          "text": "everything",
+          "start": 57.4,
+          "end": 58.12,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 58.12,
+          "end": 58.6,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 58.6,
+          "end": 58.88,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 58.88,
+          "end": 59.16,
+          "matched": true
+        },
+        {
+          "text": "computers",
+          "start": 59.16,
+          "end": 59.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 62.0,
+      "end": 70.25,
+      "duration": 8.25,
+      "text": "We often make our own robots, but we sometimes watch videos of other robots on the internet.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 62.0,
+          "end": 62.36,
+          "matched": true
+        },
+        {
+          "text": "often",
+          "start": 62.36,
+          "end": 62.88,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 62.88,
+          "end": 63.28,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 63.28,
+          "end": 63.62,
+          "matched": true
+        },
+        {
+          "text": "own",
+          "start": 63.62,
+          "end": 63.92,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 63.92,
+          "end": 64.46,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 64.46,
+          "end": 65.28,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 65.71,
+          "end": 65.97,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 65.97,
+          "end": 66.49,
+          "matched": true
+        },
+        {
+          "text": "watch",
+          "start": 66.49,
+          "end": 67.03,
+          "matched": true
+        },
+        {
+          "text": "videos",
+          "start": 67.03,
+          "end": 67.61,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 67.61,
+          "end": 68.11,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 68.11,
+          "end": 68.53,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 68.53,
+          "end": 69.09,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 69.09,
+          "end": 69.57,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 69.57,
+          "end": 69.75,
+          "matched": true
+        },
+        {
+          "text": "internet",
+          "start": 69.75,
+          "end": 70.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 71.392,
+      "end": 77.58,
+      "duration": 6.188,
+      "text": "When our robot is ready, we use computer programs to make it do things.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "When",
+          "start": 71.4,
+          "end": 71.7,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 71.7,
+          "end": 72.04,
+          "matched": true
+        },
+        {
+          "text": "robot",
+          "start": 72.04,
+          "end": 72.52,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 72.52,
+          "end": 72.88,
+          "matched": true
+        },
+        {
+          "text": "ready",
+          "start": 72.88,
+          "end": 73.32,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 73.32,
+          "end": 74.1,
+          "matched": true
+        },
+        {
+          "text": "use",
+          "start": 74.1,
+          "end": 74.5,
+          "matched": true
+        },
+        {
+          "text": "computer",
+          "start": 74.5,
+          "end": 75.14,
+          "matched": true
+        },
+        {
+          "text": "programs",
+          "start": 75.14,
+          "end": 75.72,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 75.72,
+          "end": 76.3,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 76.3,
+          "end": 76.58,
+          "matched": true
+        },
+        {
+          "text": "it",
+          "start": 76.58,
+          "end": 76.8,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 76.8,
+          "end": 77.06,
+          "matched": true
+        },
+        {
+          "text": "things",
+          "start": 77.06,
+          "end": 77.58,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 79.296,
+      "end": 84.48,
+      "duration": 5.184,
+      "text": "Every year there is a competition for schools all over the country.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Every",
+          "start": 79.3,
+          "end": 79.68,
+          "matched": true
+        },
+        {
+          "text": "year",
+          "start": 79.68,
+          "end": 80.2,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 80.2,
+          "end": 80.72,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 80.72,
+          "end": 80.9,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 80.9,
+          "end": 81.04,
+          "matched": true
+        },
+        {
+          "text": "competition",
+          "start": 81.04,
+          "end": 81.58,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 81.58,
+          "end": 82.14,
+          "matched": true
+        },
+        {
+          "text": "schools",
+          "start": 82.14,
+          "end": 82.76,
+          "matched": true
+        },
+        {
+          "text": "all",
+          "start": 82.76,
+          "end": 83.44,
+          "matched": true
+        },
+        {
+          "text": "over",
+          "start": 83.44,
+          "end": 83.82,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 83.82,
+          "end": 83.98,
+          "matched": true
+        },
+        {
+          "text": "country",
+          "start": 83.98,
+          "end": 84.48,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 85.99,
+      "end": 91.61,
+      "duration": 5.62,
+      "text": "I feel really excited when we show our robots to students from other schools.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 85.99,
+          "end": 86.25,
+          "matched": true
+        },
+        {
+          "text": "feel",
+          "start": 86.25,
+          "end": 86.59,
+          "matched": true
+        },
+        {
+          "text": "really",
+          "start": 86.59,
+          "end": 87.05,
+          "matched": true
+        },
+        {
+          "text": "excited",
+          "start": 87.05,
+          "end": 87.77,
+          "matched": true
+        },
+        {
+          "text": "when",
+          "start": 87.77,
+          "end": 88.11,
+          "matched": true
+        },
+        {
+          "text": "we",
+          "start": 88.11,
+          "end": 88.29,
+          "matched": true
+        },
+        {
+          "text": "show",
+          "start": 88.29,
+          "end": 88.61,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 88.61,
+          "end": 88.91,
+          "matched": true
+        },
+        {
+          "text": "robots",
+          "start": 88.91,
+          "end": 89.41,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 89.41,
+          "end": 89.77,
+          "matched": true
+        },
+        {
+          "text": "students",
+          "start": 89.77,
+          "end": 90.29,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 90.29,
+          "end": 90.61,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 90.61,
+          "end": 91.05,
+          "matched": true
+        },
+        {
+          "text": "schools",
+          "start": 91.05,
+          "end": 91.61,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 92.79,
+      "end": 96.07,
+      "duration": 3.28,
+      "text": "We never win, but that's not important.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 92.79,
+          "end": 93.05,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 93.05,
+          "end": 93.43,
+          "matched": true
+        },
+        {
+          "text": "win",
+          "start": 93.43,
+          "end": 93.89,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 93.89,
+          "end": 94.61,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 94.61,
+          "end": 95.25,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 95.25,
+          "end": 95.39,
+          "matched": true
+        },
+        {
+          "text": "important",
+          "start": 95.39,
+          "end": 96.07,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 97.632,
+      "end": 101.54,
+      "duration": 3.908,
+      "text": "The other students like watching our robot move.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 97.64,
+          "end": 97.8,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 97.8,
+          "end": 98.04,
+          "matched": true
+        },
+        {
+          "text": "students",
+          "start": 98.04,
+          "end": 98.7,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 98.7,
+          "end": 99.36,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 99.36,
+          "end": 99.98,
+          "matched": true
+        },
+        {
+          "text": "our",
+          "start": 99.98,
+          "end": 100.28,
+          "matched": true
+        },
+        {
+          "text": "robot",
+          "start": 100.28,
+          "end": 100.8,
+          "matched": true
+        },
+        {
+          "text": "move",
+          "start": 100.8,
+          "end": 101.54,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 102.6,
+      "end": 103.76,
+      "duration": 1.16,
+      "text": "It feels great.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It",
+          "start": 102.6,
+          "end": 102.8,
+          "matched": true
+        },
+        {
+          "text": "feels",
+          "start": 102.8,
+          "end": 103.22,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 103.22,
+          "end": 103.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 105.504,
+      "end": 107.62,
+      "duration": 2.116,
+      "text": "I love Robotics Club.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 105.54,
+          "end": 105.82,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 105.82,
+          "end": 106.38,
+          "matched": true
+        },
+        {
+          "text": "Robotics",
+          "start": 106.38,
+          "end": 107.36,
+          "matched": true
+        },
+        {
+          "text": "Club",
+          "start": 107.36,
+          "end": 107.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 108.61,
+      "end": 111.43,
+      "duration": 2.82,
+      "text": "It's a great place to meet new people.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 108.61,
+          "end": 108.93,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 108.93,
+          "end": 109.03,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 109.03,
+          "end": 109.41,
+          "matched": true
+        },
+        {
+          "text": "place",
+          "start": 109.41,
+          "end": 110.05,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 110.05,
+          "end": 110.27,
+          "matched": true
+        },
+        {
+          "text": "meet",
+          "start": 110.27,
+          "end": 110.49,
+          "matched": true
+        },
+        {
+          "text": "new",
+          "start": 110.49,
+          "end": 110.91,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 110.91,
+          "end": 111.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 112.72,
+      "end": 117.5,
+      "duration": 4.78,
+      "text": "You make so many friends and not just with people from school.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "You",
+          "start": 112.72,
+          "end": 112.92,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 112.92,
+          "end": 113.18,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 113.18,
+          "end": 113.64,
+          "matched": true
+        },
+        {
+          "text": "many",
+          "start": 113.64,
+          "end": 113.94,
+          "matched": true
+        },
+        {
+          "text": "friends",
+          "start": 113.94,
+          "end": 114.56,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 114.56,
+          "end": 115.44,
+          "matched": true
+        },
+        {
+          "text": "not",
+          "start": 115.44,
+          "end": 115.7,
+          "matched": true
+        },
+        {
+          "text": "just",
+          "start": 115.7,
+          "end": 116.06,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 116.06,
+          "end": 116.42,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 116.42,
+          "end": 116.76,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 116.76,
+          "end": 117.06,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 117.06,
+          "end": 117.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 118.55,
+      "end": 121.15,
+      "duration": 2.6,
+      "text": "Robotics Club is for everyone.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Robotics",
+          "start": 118.55,
+          "end": 119.37,
+          "matched": true
+        },
+        {
+          "text": "Club",
+          "start": 119.37,
+          "end": 119.69,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 119.69,
+          "end": 120.31,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 120.31,
+          "end": 120.55,
+          "matched": true
+        },
+        {
+          "text": "everyone",
+          "start": 120.55,
+          "end": 121.15,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 122.65,
+      "end": 130.23,
+      "duration": 7.58,
+      "text": "We meet in the school hall every Monday at lunchtime and every Thursday after school.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "We",
+          "start": 122.65,
+          "end": 122.93,
+          "matched": true
+        },
+        {
+          "text": "meet",
+          "start": 122.93,
+          "end": 123.27,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 123.27,
+          "end": 123.49,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 123.49,
+          "end": 123.63,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 123.63,
+          "end": 123.97,
+          "matched": true
+        },
+        {
+          "text": "hall",
+          "start": 123.97,
+          "end": 124.51,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 124.51,
+          "end": 125.25,
+          "matched": true
+        },
+        {
+          "text": "Monday",
+          "start": 125.25,
+          "end": 125.79,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 125.79,
+          "end": 126.15,
+          "matched": true
+        },
+        {
+          "text": "lunchtime",
+          "start": 126.15,
+          "end": 127.01,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 127.01,
+          "end": 127.81,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 127.81,
+          "end": 128.29,
+          "matched": true
+        },
+        {
+          "text": "Thursday",
+          "start": 128.29,
+          "end": 128.69,
+          "matched": true
+        },
+        {
+          "text": "after",
+          "start": 128.69,
+          "end": 129.67,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 129.67,
+          "end": 130.23,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 131.63,
+      "end": 136.34,
+      "duration": 4.71,
+      "text": "Come and see us – we're always happy to see new people!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Come",
+          "start": 131.63,
+          "end": 131.93,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 131.93,
+          "end": 132.15,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 132.15,
+          "end": 132.41,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 132.41,
+          "end": 132.73,
+          "matched": true
+        },
+        {
+          "text": "we're",
+          "start": 133.48,
+          "end": 133.92,
+          "matched": true
+        },
+        {
+          "text": "always",
+          "start": 133.92,
+          "end": 134.4,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 134.4,
+          "end": 134.92,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 134.92,
+          "end": 135.2,
+          "matched": true
+        },
+        {
+          "text": "see",
+          "start": 135.2,
+          "end": 135.48,
+          "matched": true
+        },
+        {
+          "text": "new",
+          "start": 135.48,
+          "end": 135.86,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 135.86,
+          "end": 136.34,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

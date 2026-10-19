@@ -1,0 +1,1402 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p078.mp3",
+  "language": "en",
+  "duration": 102.034,
+  "report": {
+    "script_tokens": 189,
+    "matched_tokens": 187,
+    "asr_words": 199,
+    "coverage": 0.989,
+    "unmatched": [
+      "like",
+      "doing"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 6.64,
+      "end": 7.4,
+      "duration": 0.76,
+      "text": "Who are you?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Who",
+          "start": 6.64,
+          "end": 6.94,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 6.94,
+          "end": 7.12,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 7.12,
+          "end": 7.4,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 7.92,
+      "end": 9.36,
+      "duration": 1.44,
+      "text": "I'm Danny Boyd.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 7.92,
+          "end": 8.32,
+          "matched": true
+        },
+        {
+          "text": "Danny",
+          "start": 8.32,
+          "end": 8.66,
+          "matched": true
+        },
+        {
+          "text": "Boyd",
+          "start": 8.66,
+          "end": 9.36,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 9.82,
+      "end": 12.896,
+      "duration": 3.076,
+      "text": "I'm 14 years old and I'm from Luton.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 9.82,
+          "end": 10.18,
+          "matched": true
+        },
+        {
+          "text": "14",
+          "start": 10.18,
+          "end": 10.64,
+          "matched": true
+        },
+        {
+          "text": "years",
+          "start": 10.64,
+          "end": 11.04,
+          "matched": true
+        },
+        {
+          "text": "old",
+          "start": 11.04,
+          "end": 11.42,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 11.42,
+          "end": 11.96,
+          "matched": true
+        },
+        {
+          "text": "I'm",
+          "start": 11.96,
+          "end": 12.14,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 12.14,
+          "end": 12.3,
+          "matched": true
+        },
+        {
+          "text": "Luton",
+          "start": 12.3,
+          "end": 12.82,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 13.504,
+      "end": 14.34,
+      "duration": 0.836,
+      "text": "What do you do?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 13.54,
+          "end": 13.7,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 13.7,
+          "end": 13.94,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 13.94,
+          "end": 14.08,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 14.08,
+          "end": 14.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 14.99,
+      "end": 20.11,
+      "duration": 5.12,
+      "text": "I'm a student at school and at the weekends I work as a DJ.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 14.99,
+          "end": 15.33,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 15.33,
+          "end": 15.45,
+          "matched": true
+        },
+        {
+          "text": "student",
+          "start": 15.45,
+          "end": 15.87,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 15.87,
+          "end": 16.25,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 16.25,
+          "end": 16.61,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 16.61,
+          "end": 17.27,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 17.67,
+          "end": 17.81,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 17.81,
+          "end": 17.93,
+          "matched": true
+        },
+        {
+          "text": "weekends",
+          "start": 17.93,
+          "end": 18.43,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 18.43,
+          "end": 19.19,
+          "matched": true
+        },
+        {
+          "text": "work",
+          "start": 19.19,
+          "end": 19.45,
+          "matched": true
+        },
+        {
+          "text": "as",
+          "start": 19.45,
+          "end": 19.69,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 19.69,
+          "end": 19.85,
+          "matched": true
+        },
+        {
+          "text": "DJ",
+          "start": 19.85,
+          "end": 20.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 20.81,
+      "end": 22.91,
+      "duration": 2.1,
+      "text": "Wow, that's interesting.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Wow",
+          "start": 20.81,
+          "end": 21.25,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 21.83,
+          "end": 22.41,
+          "matched": true
+        },
+        {
+          "text": "interesting",
+          "start": 22.41,
+          "end": 22.91,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 23.99,
+      "end": 25.28,
+      "duration": 1.29,
+      "text": "Can you tell us more?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Can",
+          "start": 23.99,
+          "end": 24.25,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 24.25,
+          "end": 24.47,
+          "matched": true
+        },
+        {
+          "text": "tell",
+          "start": 24.47,
+          "end": 24.67,
+          "matched": true
+        },
+        {
+          "text": "us",
+          "start": 24.67,
+          "end": 24.89,
+          "matched": true
+        },
+        {
+          "text": "more",
+          "start": 24.89,
+          "end": 25.21,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 25.83,
+      "end": 28.768,
+      "duration": 2.938,
+      "text": "I'm a DJ at a local youth club.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 25.83,
+          "end": 26.23,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 26.23,
+          "end": 26.39,
+          "matched": true
+        },
+        {
+          "text": "DJ",
+          "start": 26.39,
+          "end": 26.81,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 26.81,
+          "end": 27.49,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 27.49,
+          "end": 27.65,
+          "matched": true
+        },
+        {
+          "text": "local",
+          "start": 27.65,
+          "end": 27.93,
+          "matched": true
+        },
+        {
+          "text": "youth",
+          "start": 27.93,
+          "end": 28.33,
+          "matched": true
+        },
+        {
+          "text": "club",
+          "start": 28.33,
+          "end": 28.69,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 29.21,
+      "end": 34.464,
+      "duration": 5.254,
+      "text": "I play every Saturday from 6pm to 10pm.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 29.21,
+          "end": 29.49,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 29.49,
+          "end": 29.79,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 29.79,
+          "end": 30.43,
+          "matched": true
+        },
+        {
+          "text": "Saturday",
+          "start": 30.43,
+          "end": 30.97,
+          "matched": true
+        },
+        {
+          "text": "from",
+          "start": 31.38,
+          "end": 31.77,
+          "matched": true
+        },
+        {
+          "text": "6pm",
+          "start": 31.77,
+          "end": 32.75,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 32.75,
+          "end": 33.37,
+          "matched": true
+        },
+        {
+          "text": "10pm",
+          "start": 33.52,
+          "end": 34.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 35.14,
+      "end": 38.24,
+      "duration": 3.1,
+      "text": "There's usually about 100 people there.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "There's",
+          "start": 35.14,
+          "end": 35.5,
+          "matched": true
+        },
+        {
+          "text": "usually",
+          "start": 35.5,
+          "end": 35.96,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 35.96,
+          "end": 36.62,
+          "matched": true
+        },
+        {
+          "text": "100",
+          "start": 36.62,
+          "end": 37.28,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 37.28,
+          "end": 37.78,
+          "matched": true
+        },
+        {
+          "text": "there",
+          "start": 37.78,
+          "end": 38.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 39.136,
+      "end": 40.096,
+      "duration": 0.96,
+      "text": "It's great fun.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 39.14,
+          "end": 39.4,
+          "matched": true
+        },
+        {
+          "text": "great",
+          "start": 39.4,
+          "end": 39.62,
+          "matched": true
+        },
+        {
+          "text": "fun",
+          "start": 39.62,
+          "end": 39.98,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 41.056,
+      "end": 47.392,
+      "duration": 6.336,
+      "text": "I also sometimes play for big crowds in the park and sometimes on the beach too.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 41.06,
+          "end": 41.24,
+          "matched": true
+        },
+        {
+          "text": "also",
+          "start": 41.24,
+          "end": 41.56,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 41.56,
+          "end": 42.26,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 42.26,
+          "end": 42.62,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 42.62,
+          "end": 42.86,
+          "matched": true
+        },
+        {
+          "text": "big",
+          "start": 42.86,
+          "end": 43.16,
+          "matched": true
+        },
+        {
+          "text": "crowds",
+          "start": 43.16,
+          "end": 43.76,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 43.76,
+          "end": 43.98,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 43.98,
+          "end": 44.08,
+          "matched": true
+        },
+        {
+          "text": "park",
+          "start": 44.08,
+          "end": 44.48,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 44.48,
+          "end": 45.18,
+          "matched": true
+        },
+        {
+          "text": "sometimes",
+          "start": 45.45,
+          "end": 45.97,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 45.97,
+          "end": 46.29,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 46.29,
+          "end": 46.43,
+          "matched": true
+        },
+        {
+          "text": "beach",
+          "start": 46.43,
+          "end": 46.81,
+          "matched": true
+        },
+        {
+          "text": "too",
+          "start": 46.81,
+          "end": 47.25,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 48.0,
+      "end": 50.35,
+      "duration": 2.35,
+      "text": "What do you like doing in your free time?",
+      "confidence": 0.778,
+      "words": [
+        {
+          "text": "What",
+          "start": 48.03,
+          "end": 48.25,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 48.25,
+          "end": 48.51,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 48.51,
+          "end": 48.65,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 48.65,
+          "end": 48.801,
+          "matched": false
+        },
+        {
+          "text": "doing",
+          "start": 48.801,
+          "end": 48.99,
+          "matched": false
+        },
+        {
+          "text": "in",
+          "start": 48.99,
+          "end": 49.37,
+          "matched": true
+        },
+        {
+          "text": "your",
+          "start": 49.37,
+          "end": 49.55,
+          "matched": true
+        },
+        {
+          "text": "free",
+          "start": 49.55,
+          "end": 49.93,
+          "matched": true
+        },
+        {
+          "text": "time",
+          "start": 49.93,
+          "end": 50.35,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 51.17,
+      "end": 55.648,
+      "duration": 4.478,
+      "text": "I love listening to music and finding new songs to play.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 51.17,
+          "end": 51.41,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 51.41,
+          "end": 51.87,
+          "matched": true
+        },
+        {
+          "text": "listening",
+          "start": 51.87,
+          "end": 52.45,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 52.45,
+          "end": 52.73,
+          "matched": true
+        },
+        {
+          "text": "music",
+          "start": 52.73,
+          "end": 53.11,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 53.11,
+          "end": 53.81,
+          "matched": true
+        },
+        {
+          "text": "finding",
+          "start": 53.81,
+          "end": 54.25,
+          "matched": true
+        },
+        {
+          "text": "new",
+          "start": 54.25,
+          "end": 54.65,
+          "matched": true
+        },
+        {
+          "text": "songs",
+          "start": 54.65,
+          "end": 55.01,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 55.01,
+          "end": 55.27,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 55.27,
+          "end": 55.53,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 56.28,
+      "end": 63.24,
+      "duration": 6.96,
+      "text": "I like watching films and playing games on my VR headset but I hate dancing.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 56.28,
+          "end": 56.54,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 56.54,
+          "end": 56.78,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 56.78,
+          "end": 57.22,
+          "matched": true
+        },
+        {
+          "text": "films",
+          "start": 57.22,
+          "end": 57.82,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 57.82,
+          "end": 58.62,
+          "matched": true
+        },
+        {
+          "text": "playing",
+          "start": 58.62,
+          "end": 58.94,
+          "matched": true
+        },
+        {
+          "text": "games",
+          "start": 58.94,
+          "end": 59.58,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 59.58,
+          "end": 59.8,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 59.8,
+          "end": 60.0,
+          "matched": true
+        },
+        {
+          "text": "VR",
+          "start": 60.0,
+          "end": 60.4,
+          "matched": true
+        },
+        {
+          "text": "headset",
+          "start": 60.4,
+          "end": 61.0,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 61.0,
+          "end": 61.76,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 62.06,
+          "end": 62.24,
+          "matched": true
+        },
+        {
+          "text": "hate",
+          "start": 62.24,
+          "end": 62.66,
+          "matched": true
+        },
+        {
+          "text": "dancing",
+          "start": 62.66,
+          "end": 63.24,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 63.24,
+      "end": 67.46,
+      "duration": 4.22,
+      "text": "I know that's a strange thing for a DJ to say.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 63.24,
+          "end": 64.0,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 64.44,
+          "end": 64.64,
+          "matched": true
+        },
+        {
+          "text": "that's",
+          "start": 64.64,
+          "end": 65.06,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 65.06,
+          "end": 65.18,
+          "matched": true
+        },
+        {
+          "text": "strange",
+          "start": 65.18,
+          "end": 65.66,
+          "matched": true
+        },
+        {
+          "text": "thing",
+          "start": 65.66,
+          "end": 66.0,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 66.0,
+          "end": 66.3,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 66.3,
+          "end": 66.48,
+          "matched": true
+        },
+        {
+          "text": "DJ",
+          "start": 66.48,
+          "end": 66.76,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 66.76,
+          "end": 67.12,
+          "matched": true
+        },
+        {
+          "text": "say",
+          "start": 67.12,
+          "end": 67.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 68.15,
+      "end": 73.152,
+      "duration": 5.002,
+      "text": "I love watching other people dance but I never dance myself.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 68.15,
+          "end": 68.57,
+          "matched": true
+        },
+        {
+          "text": "love",
+          "start": 68.57,
+          "end": 68.77,
+          "matched": true
+        },
+        {
+          "text": "watching",
+          "start": 68.77,
+          "end": 69.33,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 69.33,
+          "end": 69.87,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 69.87,
+          "end": 70.19,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 70.19,
+          "end": 70.73,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 70.73,
+          "end": 71.33,
+          "matched": true
+        },
+        {
+          "text": "I",
+          "start": 71.33,
+          "end": 71.49,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 71.49,
+          "end": 71.91,
+          "matched": true
+        },
+        {
+          "text": "dance",
+          "start": 71.91,
+          "end": 72.49,
+          "matched": true
+        },
+        {
+          "text": "myself",
+          "start": 72.49,
+          "end": 73.11,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 74.43,
+      "end": 75.93,
+      "duration": 1.5,
+      "text": "What do you like wearing?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "What",
+          "start": 74.43,
+          "end": 74.67,
+          "matched": true
+        },
+        {
+          "text": "do",
+          "start": 74.67,
+          "end": 74.95,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 74.95,
+          "end": 75.15,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 75.15,
+          "end": 75.41,
+          "matched": true
+        },
+        {
+          "text": "wearing",
+          "start": 75.41,
+          "end": 75.93,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 78.25,
+      "end": 81.49,
+      "duration": 3.24,
+      "text": "I like wearing jeans and a white T-shirt.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 78.25,
+          "end": 78.71,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 78.71,
+          "end": 78.97,
+          "matched": true
+        },
+        {
+          "text": "wearing",
+          "start": 78.97,
+          "end": 79.29,
+          "matched": true
+        },
+        {
+          "text": "jeans",
+          "start": 79.29,
+          "end": 79.79,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 79.79,
+          "end": 80.45,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 80.45,
+          "end": 80.63,
+          "matched": true
+        },
+        {
+          "text": "white",
+          "start": 80.63,
+          "end": 80.87,
+          "matched": true
+        },
+        {
+          "text": "T-shirt",
+          "start": 81.21,
+          "end": 81.49,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 82.36,
+      "end": 84.288,
+      "duration": 1.928,
+      "text": "I also wear a red cap.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 82.36,
+          "end": 82.54,
+          "matched": true
+        },
+        {
+          "text": "also",
+          "start": 82.54,
+          "end": 82.86,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 82.86,
+          "end": 83.28,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 83.28,
+          "end": 83.5,
+          "matched": true
+        },
+        {
+          "text": "red",
+          "start": 83.5,
+          "end": 83.78,
+          "matched": true
+        },
+        {
+          "text": "cap",
+          "start": 83.78,
+          "end": 84.18,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 85.3,
+      "end": 87.76,
+      "duration": 2.46,
+      "text": "I don't like wearing shirts and trousers.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 85.3,
+          "end": 85.46,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 85.46,
+          "end": 85.82,
+          "matched": true
+        },
+        {
+          "text": "like",
+          "start": 85.82,
+          "end": 86.08,
+          "matched": true
+        },
+        {
+          "text": "wearing",
+          "start": 86.08,
+          "end": 86.42,
+          "matched": true
+        },
+        {
+          "text": "shirts",
+          "start": 86.42,
+          "end": 86.96,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 86.96,
+          "end": 87.3,
+          "matched": true
+        },
+        {
+          "text": "trousers",
+          "start": 87.3,
+          "end": 87.76,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 88.42,
+      "end": 90.52,
+      "duration": 2.1,
+      "text": "I wear those every day at school.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 88.42,
+          "end": 88.74,
+          "matched": true
+        },
+        {
+          "text": "wear",
+          "start": 88.74,
+          "end": 88.98,
+          "matched": true
+        },
+        {
+          "text": "those",
+          "start": 88.98,
+          "end": 89.32,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 89.32,
+          "end": 89.72,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 89.72,
+          "end": 90.0,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 90.0,
+          "end": 90.14,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 90.14,
+          "end": 90.52,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 91.64,
+      "end": 93.84,
+      "duration": 2.2,
+      "text": "Thanks Danny and good luck.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thanks",
+          "start": 91.64,
+          "end": 92.08,
+          "matched": true
+        },
+        {
+          "text": "Danny",
+          "start": 92.08,
+          "end": 92.48,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 92.48,
+          "end": 93.18,
+          "matched": true
+        },
+        {
+          "text": "good",
+          "start": 93.18,
+          "end": 93.52,
+          "matched": true
+        },
+        {
+          "text": "luck",
+          "start": 93.52,
+          "end": 93.84,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 93.84,
+      "end": 95.072,
+      "duration": 1.232,
+      "text": "Thank you.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Thank",
+          "start": 93.84,
+          "end": 94.62,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 94.62,
+          "end": 94.98,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 95.9,
+      "end": 98.74,
+      "duration": 2.84,
+      "text": "Why don't you come to one of my shows one day?",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Why",
+          "start": 95.9,
+          "end": 96.14,
+          "matched": true
+        },
+        {
+          "text": "don't",
+          "start": 96.14,
+          "end": 96.5,
+          "matched": true
+        },
+        {
+          "text": "you",
+          "start": 96.5,
+          "end": 96.56,
+          "matched": true
+        },
+        {
+          "text": "come",
+          "start": 96.56,
+          "end": 96.84,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 96.84,
+          "end": 97.14,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 97.14,
+          "end": 97.32,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 97.32,
+          "end": 97.46,
+          "matched": true
+        },
+        {
+          "text": "my",
+          "start": 97.46,
+          "end": 97.66,
+          "matched": true
+        },
+        {
+          "text": "shows",
+          "start": 97.66,
+          "end": 98.08,
+          "matched": true
+        },
+        {
+          "text": "one",
+          "start": 98.08,
+          "end": 98.42,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 98.42,
+          "end": 98.74,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}

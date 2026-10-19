@@ -1,0 +1,1653 @@
+{
+  "tool": "Text-Audio Aligner",
+  "audio": "p070.mp3",
+  "language": "en",
+  "duration": 152.32,
+  "report": {
+    "script_tokens": 234,
+    "matched_tokens": 231,
+    "asr_words": 253,
+    "coverage": 0.987,
+    "unmatched": [
+      "Greece",
+      "18-year-old",
+      "twenty"
+    ]
+  },
+  "units": [
+    {
+      "index": 1,
+      "start": 10.2,
+      "end": 15.584,
+      "duration": 5.384,
+      "text": "It's 15th February at Greece Athena High School, New York.",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "It's",
+          "start": 10.2,
+          "end": 10.56,
+          "matched": true
+        },
+        {
+          "text": "15th",
+          "start": 10.68,
+          "end": 11.38,
+          "matched": true
+        },
+        {
+          "text": "February",
+          "start": 11.46,
+          "end": 11.98,
+          "matched": true
+        },
+        {
+          "text": "at",
+          "start": 11.98,
+          "end": 12.74,
+          "matched": true
+        },
+        {
+          "text": "Greece",
+          "start": 12.74,
+          "end": 13.22,
+          "matched": false
+        },
+        {
+          "text": "Athena",
+          "start": 13.22,
+          "end": 13.66,
+          "matched": true
+        },
+        {
+          "text": "High",
+          "start": 13.66,
+          "end": 14.06,
+          "matched": true
+        },
+        {
+          "text": "School",
+          "start": 14.06,
+          "end": 14.4,
+          "matched": true
+        },
+        {
+          "text": "New",
+          "start": 14.8,
+          "end": 15.02,
+          "matched": true
+        },
+        {
+          "text": "York",
+          "start": 15.02,
+          "end": 15.46,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 16.736,
+      "end": 20.62,
+      "duration": 3.884,
+      "text": "Jason McElwain is an 18-year-old student.",
+      "confidence": 0.833,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 16.76,
+          "end": 17.2,
+          "matched": true
+        },
+        {
+          "text": "McElwain",
+          "start": 17.2,
+          "end": 18.14,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 18.14,
+          "end": 18.92,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 18.92,
+          "end": 19.1,
+          "matched": true
+        },
+        {
+          "text": "18-year-old",
+          "start": 19.1,
+          "end": 19.52,
+          "matched": false
+        },
+        {
+          "text": "student",
+          "start": 20.12,
+          "end": 20.62,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 22.03,
+      "end": 23.55,
+      "duration": 1.52,
+      "text": "Jason is autistic.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 22.03,
+          "end": 22.45,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 22.45,
+          "end": 23.05,
+          "matched": true
+        },
+        {
+          "text": "autistic",
+          "start": 23.05,
+          "end": 23.55,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 24.672,
+      "end": 29.64,
+      "duration": 4.968,
+      "text": "He loves basketball and he helps with the school basketball team.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 24.7,
+          "end": 24.84,
+          "matched": true
+        },
+        {
+          "text": "loves",
+          "start": 24.84,
+          "end": 25.38,
+          "matched": true
+        },
+        {
+          "text": "basketball",
+          "start": 25.38,
+          "end": 26.0,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 26.0,
+          "end": 26.94,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 27.18,
+          "end": 27.38,
+          "matched": true
+        },
+        {
+          "text": "helps",
+          "start": 27.38,
+          "end": 27.74,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 27.74,
+          "end": 28.04,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 28.04,
+          "end": 28.22,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 28.22,
+          "end": 28.52,
+          "matched": true
+        },
+        {
+          "text": "basketball",
+          "start": 28.52,
+          "end": 29.14,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 29.14,
+          "end": 29.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 31.616,
+      "end": 37.504,
+      "duration": 5.888,
+      "text": "Jason practises hard every day, but he never plays in the team.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 31.63,
+          "end": 32.01,
+          "matched": true
+        },
+        {
+          "text": "practises",
+          "start": 32.01,
+          "end": 32.55,
+          "matched": true
+        },
+        {
+          "text": "hard",
+          "start": 32.55,
+          "end": 33.19,
+          "matched": true
+        },
+        {
+          "text": "every",
+          "start": 33.19,
+          "end": 33.87,
+          "matched": true
+        },
+        {
+          "text": "day",
+          "start": 33.87,
+          "end": 34.31,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 34.31,
+          "end": 34.91,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 35.47,
+          "end": 35.65,
+          "matched": true
+        },
+        {
+          "text": "never",
+          "start": 35.65,
+          "end": 36.11,
+          "matched": true
+        },
+        {
+          "text": "plays",
+          "start": 36.11,
+          "end": 36.65,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 36.65,
+          "end": 36.91,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 36.91,
+          "end": 37.03,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 37.03,
+          "end": 37.45,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 39.08,
+      "end": 42.464,
+      "duration": 3.384,
+      "text": "Tonight is the last game of the season.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Tonight",
+          "start": 39.08,
+          "end": 39.5,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 39.5,
+          "end": 40.32,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 40.5,
+          "end": 40.68,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 40.68,
+          "end": 41.16,
+          "matched": true
+        },
+        {
+          "text": "game",
+          "start": 41.16,
+          "end": 41.6,
+          "matched": true
+        },
+        {
+          "text": "of",
+          "start": 41.6,
+          "end": 41.76,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 41.76,
+          "end": 41.9,
+          "matched": true
+        },
+        {
+          "text": "season",
+          "start": 41.9,
+          "end": 42.34,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 43.54,
+      "end": 53.43,
+      "duration": 9.89,
+      "text": "It's Jason's last chance to play a game with the team, but for 44 minutes, he sits on the bench and watches.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 43.54,
+          "end": 43.82,
+          "matched": true
+        },
+        {
+          "text": "Jason's",
+          "start": 43.82,
+          "end": 44.44,
+          "matched": true
+        },
+        {
+          "text": "last",
+          "start": 44.44,
+          "end": 44.88,
+          "matched": true
+        },
+        {
+          "text": "chance",
+          "start": 44.88,
+          "end": 45.62,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 45.62,
+          "end": 46.22,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 46.22,
+          "end": 46.5,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 46.5,
+          "end": 46.7,
+          "matched": true
+        },
+        {
+          "text": "game",
+          "start": 46.7,
+          "end": 46.96,
+          "matched": true
+        },
+        {
+          "text": "with",
+          "start": 46.96,
+          "end": 47.12,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 47.12,
+          "end": 47.26,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 47.26,
+          "end": 47.66,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 48.53,
+          "end": 48.91,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 48.91,
+          "end": 49.27,
+          "matched": true
+        },
+        {
+          "text": "44",
+          "start": 49.27,
+          "end": 49.89,
+          "matched": true
+        },
+        {
+          "text": "minutes",
+          "start": 49.89,
+          "end": 50.59,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 50.59,
+          "end": 51.29,
+          "matched": true
+        },
+        {
+          "text": "sits",
+          "start": 51.29,
+          "end": 51.65,
+          "matched": true
+        },
+        {
+          "text": "on",
+          "start": 51.65,
+          "end": 51.93,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 51.93,
+          "end": 52.05,
+          "matched": true
+        },
+        {
+          "text": "bench",
+          "start": 52.05,
+          "end": 52.49,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 52.49,
+          "end": 53.01,
+          "matched": true
+        },
+        {
+          "text": "watches",
+          "start": 53.01,
+          "end": 53.43,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 55.02,
+      "end": 57.248,
+      "duration": 2.228,
+      "text": "It's four minutes before the end.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 55.02,
+          "end": 55.3,
+          "matched": true
+        },
+        {
+          "text": "four",
+          "start": 55.3,
+          "end": 55.66,
+          "matched": true
+        },
+        {
+          "text": "minutes",
+          "start": 55.66,
+          "end": 56.12,
+          "matched": true
+        },
+        {
+          "text": "before",
+          "start": 56.12,
+          "end": 56.54,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 56.54,
+          "end": 56.82,
+          "matched": true
+        },
+        {
+          "text": "end",
+          "start": 56.82,
+          "end": 57.14,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 58.208,
+      "end": 63.09,
+      "duration": 4.882,
+      "text": "The team is winning, so the coach tells Jason to go out and play.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 58.24,
+          "end": 58.36,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 58.36,
+          "end": 58.7,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 58.7,
+          "end": 58.94,
+          "matched": true
+        },
+        {
+          "text": "winning",
+          "start": 58.94,
+          "end": 59.24,
+          "matched": true
+        },
+        {
+          "text": "so",
+          "start": 59.24,
+          "end": 59.92,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 60.39,
+          "end": 60.57,
+          "matched": true
+        },
+        {
+          "text": "coach",
+          "start": 60.57,
+          "end": 60.93,
+          "matched": true
+        },
+        {
+          "text": "tells",
+          "start": 60.93,
+          "end": 61.33,
+          "matched": true
+        },
+        {
+          "text": "Jason",
+          "start": 61.33,
+          "end": 61.87,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 61.87,
+          "end": 62.13,
+          "matched": true
+        },
+        {
+          "text": "go",
+          "start": 62.13,
+          "end": 62.35,
+          "matched": true
+        },
+        {
+          "text": "out",
+          "start": 62.35,
+          "end": 62.63,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 62.63,
+          "end": 62.75,
+          "matched": true
+        },
+        {
+          "text": "play",
+          "start": 62.75,
+          "end": 63.09,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 63.09,
+      "end": 71.552,
+      "duration": 8.462,
+      "text": "The team and the crowd are very happy, because everyone knows Jason and likes him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 63.09,
+          "end": 63.81,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 64.5,
+          "end": 64.96,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 64.96,
+          "end": 65.42,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 65.42,
+          "end": 65.62,
+          "matched": true
+        },
+        {
+          "text": "crowd",
+          "start": 65.62,
+          "end": 66.02,
+          "matched": true
+        },
+        {
+          "text": "are",
+          "start": 66.02,
+          "end": 66.44,
+          "matched": true
+        },
+        {
+          "text": "very",
+          "start": 66.44,
+          "end": 66.9,
+          "matched": true
+        },
+        {
+          "text": "happy",
+          "start": 66.9,
+          "end": 67.3,
+          "matched": true
+        },
+        {
+          "text": "because",
+          "start": 67.57,
+          "end": 68.37,
+          "matched": true
+        },
+        {
+          "text": "everyone",
+          "start": 68.37,
+          "end": 68.97,
+          "matched": true
+        },
+        {
+          "text": "knows",
+          "start": 68.97,
+          "end": 69.59,
+          "matched": true
+        },
+        {
+          "text": "Jason",
+          "start": 69.59,
+          "end": 70.05,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 70.05,
+          "end": 70.77,
+          "matched": true
+        },
+        {
+          "text": "likes",
+          "start": 70.77,
+          "end": 71.15,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 71.15,
+          "end": 71.47,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 72.68,
+      "end": 76.22,
+      "duration": 3.54,
+      "text": "Jason tries to score a basket, but he misses.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 72.68,
+          "end": 72.98,
+          "matched": true
+        },
+        {
+          "text": "tries",
+          "start": 72.98,
+          "end": 73.52,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 73.52,
+          "end": 73.8,
+          "matched": true
+        },
+        {
+          "text": "score",
+          "start": 73.8,
+          "end": 74.14,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 74.14,
+          "end": 74.36,
+          "matched": true
+        },
+        {
+          "text": "basket",
+          "start": 74.36,
+          "end": 74.72,
+          "matched": true
+        },
+        {
+          "text": "but",
+          "start": 74.72,
+          "end": 75.46,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 75.7,
+          "end": 75.86,
+          "matched": true
+        },
+        {
+          "text": "misses",
+          "start": 75.86,
+          "end": 76.22,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 76.22,
+      "end": 81.04,
+      "duration": 4.82,
+      "text": "But suddenly he hits a 3-point basket.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "But",
+          "start": 76.22,
+          "end": 77.06,
+          "matched": true
+        },
+        {
+          "text": "suddenly",
+          "start": 77.78,
+          "end": 78.3,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 78.3,
+          "end": 79.06,
+          "matched": true
+        },
+        {
+          "text": "hits",
+          "start": 79.06,
+          "end": 79.32,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 79.32,
+          "end": 79.52,
+          "matched": true
+        },
+        {
+          "text": "3-point",
+          "start": 79.88,
+          "end": 80.36,
+          "matched": true
+        },
+        {
+          "text": "basket",
+          "start": 80.36,
+          "end": 81.04,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 82.4,
+      "end": 84.68,
+      "duration": 2.28,
+      "text": "The crowd goes crazy.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 82.4,
+          "end": 82.58,
+          "matched": true
+        },
+        {
+          "text": "crowd",
+          "start": 82.58,
+          "end": 83.1,
+          "matched": true
+        },
+        {
+          "text": "goes",
+          "start": 83.1,
+          "end": 83.68,
+          "matched": true
+        },
+        {
+          "text": "crazy",
+          "start": 83.68,
+          "end": 84.68,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 85.8,
+      "end": 101.57,
+      "duration": 15.77,
+      "text": "Jason hits another 3-pointer, then another and another – he hits six 3-pointers (it's a record for the team) and scores twenty points altogether.",
+      "confidence": 0.957,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 85.8,
+          "end": 86.3,
+          "matched": true
+        },
+        {
+          "text": "hits",
+          "start": 86.3,
+          "end": 86.7,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 86.7,
+          "end": 87.24,
+          "matched": true
+        },
+        {
+          "text": "3-pointer",
+          "start": 87.78,
+          "end": 88.28,
+          "matched": true
+        },
+        {
+          "text": "then",
+          "start": 88.97,
+          "end": 89.37,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 89.37,
+          "end": 89.83,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 89.83,
+          "end": 90.77,
+          "matched": true
+        },
+        {
+          "text": "another",
+          "start": 91.04,
+          "end": 91.54,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 92.61,
+          "end": 93.09,
+          "matched": true
+        },
+        {
+          "text": "hits",
+          "start": 93.09,
+          "end": 93.59,
+          "matched": true
+        },
+        {
+          "text": "six",
+          "start": 93.59,
+          "end": 94.37,
+          "matched": true
+        },
+        {
+          "text": "3-pointers",
+          "start": 94.87,
+          "end": 95.41,
+          "matched": true
+        },
+        {
+          "text": "it's",
+          "start": 96.44,
+          "end": 96.62,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 96.62,
+          "end": 96.72,
+          "matched": true
+        },
+        {
+          "text": "record",
+          "start": 96.72,
+          "end": 97.12,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 97.12,
+          "end": 97.54,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 97.54,
+          "end": 97.7,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 97.7,
+          "end": 98.14,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 98.14,
+          "end": 98.78,
+          "matched": true
+        },
+        {
+          "text": "scores",
+          "start": 99.15,
+          "end": 99.55,
+          "matched": true
+        },
+        {
+          "text": "twenty",
+          "start": 99.55,
+          "end": 100.25,
+          "matched": false
+        },
+        {
+          "text": "points",
+          "start": 100.25,
+          "end": 100.91,
+          "matched": true
+        },
+        {
+          "text": "altogether",
+          "start": 100.91,
+          "end": 101.57,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 103.03,
+      "end": 107.42,
+      "duration": 4.39,
+      "text": "The team wins, and Jason is a real hero.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 103.03,
+          "end": 103.33,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 103.33,
+          "end": 103.71,
+          "matched": true
+        },
+        {
+          "text": "wins",
+          "start": 103.71,
+          "end": 104.19,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 104.19,
+          "end": 105.11,
+          "matched": true
+        },
+        {
+          "text": "Jason",
+          "start": 105.28,
+          "end": 105.82,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 105.82,
+          "end": 106.32,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 106.32,
+          "end": 106.5,
+          "matched": true
+        },
+        {
+          "text": "real",
+          "start": 106.5,
+          "end": 106.94,
+          "matched": true
+        },
+        {
+          "text": "hero",
+          "start": 106.94,
+          "end": 107.42,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 108.52,
+      "end": 110.752,
+      "duration": 2.232,
+      "text": "It's an amazing night for him!",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "It's",
+          "start": 108.52,
+          "end": 108.88,
+          "matched": true
+        },
+        {
+          "text": "an",
+          "start": 108.88,
+          "end": 109.0,
+          "matched": true
+        },
+        {
+          "text": "amazing",
+          "start": 109.0,
+          "end": 109.56,
+          "matched": true
+        },
+        {
+          "text": "night",
+          "start": 109.56,
+          "end": 110.08,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 110.08,
+          "end": 110.42,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 110.42,
+          "end": 110.64,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 112.064,
+      "end": 115.14,
+      "duration": 3.076,
+      "text": "Soon Jason starts to become famous.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Soon",
+          "start": 112.16,
+          "end": 112.54,
+          "matched": true
+        },
+        {
+          "text": "Jason",
+          "start": 112.54,
+          "end": 113.4,
+          "matched": true
+        },
+        {
+          "text": "starts",
+          "start": 113.4,
+          "end": 113.92,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 113.92,
+          "end": 114.2,
+          "matched": true
+        },
+        {
+          "text": "become",
+          "start": 114.2,
+          "end": 114.48,
+          "matched": true
+        },
+        {
+          "text": "famous",
+          "start": 114.48,
+          "end": 115.14,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 116.3,
+      "end": 119.68,
+      "duration": 3.38,
+      "text": "People in his town know who he is.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "People",
+          "start": 116.3,
+          "end": 116.78,
+          "matched": true
+        },
+        {
+          "text": "in",
+          "start": 116.78,
+          "end": 117.2,
+          "matched": true
+        },
+        {
+          "text": "his",
+          "start": 117.2,
+          "end": 117.44,
+          "matched": true
+        },
+        {
+          "text": "town",
+          "start": 117.44,
+          "end": 117.92,
+          "matched": true
+        },
+        {
+          "text": "know",
+          "start": 117.92,
+          "end": 118.62,
+          "matched": true
+        },
+        {
+          "text": "who",
+          "start": 118.62,
+          "end": 118.98,
+          "matched": true
+        },
+        {
+          "text": "he",
+          "start": 118.98,
+          "end": 119.18,
+          "matched": true
+        },
+        {
+          "text": "is",
+          "start": 119.18,
+          "end": 119.56,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 121.056,
+      "end": 124.96,
+      "duration": 3.904,
+      "text": "The US president comes to Jason's town to meet him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 121.06,
+          "end": 121.22,
+          "matched": true
+        },
+        {
+          "text": "US",
+          "start": 121.22,
+          "end": 121.62,
+          "matched": true
+        },
+        {
+          "text": "president",
+          "start": 121.62,
+          "end": 122.2,
+          "matched": true
+        },
+        {
+          "text": "comes",
+          "start": 122.2,
+          "end": 122.84,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 122.84,
+          "end": 123.1,
+          "matched": true
+        },
+        {
+          "text": "Jason's",
+          "start": 123.1,
+          "end": 123.7,
+          "matched": true
+        },
+        {
+          "text": "town",
+          "start": 123.7,
+          "end": 124.02,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 124.02,
+          "end": 124.28,
+          "matched": true
+        },
+        {
+          "text": "meet",
+          "start": 124.28,
+          "end": 124.56,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 124.56,
+          "end": 124.9,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 126.208,
+      "end": 131.328,
+      "duration": 5.12,
+      "text": "Jason writes a book and some people want to make a film about him.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Jason",
+          "start": 126.24,
+          "end": 126.58,
+          "matched": true
+        },
+        {
+          "text": "writes",
+          "start": 126.58,
+          "end": 127.06,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 127.06,
+          "end": 127.28,
+          "matched": true
+        },
+        {
+          "text": "book",
+          "start": 127.28,
+          "end": 127.58,
+          "matched": true
+        },
+        {
+          "text": "and",
+          "start": 127.58,
+          "end": 128.22,
+          "matched": true
+        },
+        {
+          "text": "some",
+          "start": 128.49,
+          "end": 128.81,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 128.81,
+          "end": 129.21,
+          "matched": true
+        },
+        {
+          "text": "want",
+          "start": 129.21,
+          "end": 129.61,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 129.61,
+          "end": 129.89,
+          "matched": true
+        },
+        {
+          "text": "make",
+          "start": 129.89,
+          "end": 130.11,
+          "matched": true
+        },
+        {
+          "text": "a",
+          "start": 130.11,
+          "end": 130.29,
+          "matched": true
+        },
+        {
+          "text": "film",
+          "start": 130.29,
+          "end": 130.63,
+          "matched": true
+        },
+        {
+          "text": "about",
+          "start": 130.63,
+          "end": 130.91,
+          "matched": true
+        },
+        {
+          "text": "him",
+          "start": 130.91,
+          "end": 131.27,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 132.384,
+      "end": 136.5,
+      "duration": 4.116,
+      "text": "He becomes assistant coach to the high school basketball team.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 132.4,
+          "end": 132.52,
+          "matched": true
+        },
+        {
+          "text": "becomes",
+          "start": 132.52,
+          "end": 133.0,
+          "matched": true
+        },
+        {
+          "text": "assistant",
+          "start": 133.0,
+          "end": 133.66,
+          "matched": true
+        },
+        {
+          "text": "coach",
+          "start": 133.66,
+          "end": 134.16,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 134.16,
+          "end": 134.84,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 134.84,
+          "end": 134.96,
+          "matched": true
+        },
+        {
+          "text": "high",
+          "start": 134.96,
+          "end": 135.2,
+          "matched": true
+        },
+        {
+          "text": "school",
+          "start": 135.2,
+          "end": 135.48,
+          "matched": true
+        },
+        {
+          "text": "basketball",
+          "start": 135.48,
+          "end": 135.92,
+          "matched": true
+        },
+        {
+          "text": "team",
+          "start": 135.92,
+          "end": 136.5,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 138.112,
+      "end": 142.66,
+      "duration": 4.548,
+      "text": "Now Jason works hard to help other autistic people.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "start": 138.2,
+          "end": 138.5,
+          "matched": true
+        },
+        {
+          "text": "Jason",
+          "start": 138.5,
+          "end": 139.38,
+          "matched": true
+        },
+        {
+          "text": "works",
+          "start": 139.38,
+          "end": 139.76,
+          "matched": true
+        },
+        {
+          "text": "hard",
+          "start": 139.76,
+          "end": 140.24,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 140.24,
+          "end": 140.74,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 140.74,
+          "end": 140.96,
+          "matched": true
+        },
+        {
+          "text": "other",
+          "start": 140.96,
+          "end": 141.44,
+          "matched": true
+        },
+        {
+          "text": "autistic",
+          "start": 141.44,
+          "end": 142.04,
+          "matched": true
+        },
+        {
+          "text": "people",
+          "start": 142.04,
+          "end": 142.66,
+          "matched": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 143.8,
+      "end": 148.96,
+      "duration": 5.16,
+      "text": "He travels across the US to help get money for autism research.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "He",
+          "start": 143.8,
+          "end": 143.92,
+          "matched": true
+        },
+        {
+          "text": "travels",
+          "start": 143.92,
+          "end": 144.32,
+          "matched": true
+        },
+        {
+          "text": "across",
+          "start": 144.32,
+          "end": 144.78,
+          "matched": true
+        },
+        {
+          "text": "the",
+          "start": 144.78,
+          "end": 145.04,
+          "matched": true
+        },
+        {
+          "text": "US",
+          "start": 145.04,
+          "end": 145.4,
+          "matched": true
+        },
+        {
+          "text": "to",
+          "start": 145.4,
+          "end": 146.24,
+          "matched": true
+        },
+        {
+          "text": "help",
+          "start": 146.24,
+          "end": 146.46,
+          "matched": true
+        },
+        {
+          "text": "get",
+          "start": 146.46,
+          "end": 146.76,
+          "matched": true
+        },
+        {
+          "text": "money",
+          "start": 146.76,
+          "end": 147.14,
+          "matched": true
+        },
+        {
+          "text": "for",
+          "start": 147.14,
+          "end": 147.7,
+          "matched": true
+        },
+        {
+          "text": "autism",
+          "start": 147.7,
+          "end": 148.32,
+          "matched": true
+        },
+        {
+          "text": "research",
+          "start": 148.32,
+          "end": 148.96,
+          "matched": true
+        }
+      ]
+    }
+  ]
+}
