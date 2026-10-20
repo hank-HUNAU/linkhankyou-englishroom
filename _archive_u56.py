@@ -19,8 +19,8 @@ META = {
 }
 for pg, (u, folder, pkey, typ, title, txtname) in META.items():
     d1 = os.path.join(ARCH, folder, '01_正文篇章')
-    d2 = os.path.join(ARCH, folder, '02_词汇数据')
-    os.makedirs(d1, exist_ok=True); os.makedirs(d2, exist_ok=True)
+    d2 = os.path.join(ARCH, folder, '02_词汇数据'); d3 = os.path.join(ARCH, folder, '03_主题词汇')
+    os.makedirs(d1, exist_ok=True); os.makedirs(d2, exist_ok=True); os.makedirs(d3, exist_ok=True)
     p3 = '%03d' % pg
     # 1) mp3
     shutil.copy2(os.path.join(REPO, 'assets', 'p%s.mp3' % p3), os.path.join(d1, 'p%s.mp3' % p3))
@@ -37,9 +37,9 @@ for pg, (u, folder, pkey, typ, title, txtname) in META.items():
     json.dump(j, open(os.path.join(d1, '句级数据_p%s.json' % p3), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     # 3) txt 原文
     open(os.path.join(d1, txtname), 'w', encoding='utf-8').write(txt + '\n')
-    # 4) 02_词汇数据：主题词汇 json 副本
-    src = os.path.join(ARCH, '00_主题词汇', 'theme_u%s.json' % u[1])
+    # 4) 03_主题词汇：主题词汇 json（源=仓库 00_主题词汇，已含全部单元）
+    src = os.path.join(REPO, '00_主题词汇', 'theme_u%s.json' % u[1])
     if os.path.exists(src):
-        shutil.copy2(src, os.path.join(d2, 'theme_u%s.json' % u[1]))
+        shutil.copy2(src, os.path.join(d3, 'theme_u%s.json' % u[1]))
     print('p%s → %s 归档完成（%d 句）' % (p3, folder, len(sents)))
 print('U5/U6 归档三件套完成')

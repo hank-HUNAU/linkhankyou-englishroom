@@ -45,14 +45,14 @@ t3 = len(glob.glob(os.path.join(REPO, '词汇诊断', '篇章文本_U5_U6', '*.t
 R['课文文本'] = ('归档 txt %d 篇 + 网站侧文本 %d(U7-U12)+%d(U5-U6)' % (t1, t2, t3), [])
 
 # 4) 词表
-theme = len(glob.glob(os.path.join(ARCH, '00_主题词汇', 'theme_u*.json')))
+theme = len(glob.glob(os.path.join(ARCH, 'U*', '03_主题词汇', 'theme_u*.json'))) + len(glob.glob(os.path.join(ARCH, '00_主题词汇', 'theme_u*.json')))
 pvocab = sum(len(glob.glob(os.path.join(ARCH, f, '02_词汇数据', 'u*_p*.json'))) for f in UNITS)
 vq_pages = len(glob.glob(os.path.join(REPO, '词汇诊断', '词汇诊断_u*.html')))
 R['词表'] = ('主题词表 theme_u1-12 共 %d；篇章词表 %d 篇；词汇诊断页 %d 个' % (theme, pvocab, vq_pages), [])
 
 # 5) 词音频
 wa = len(glob.glob(os.path.join(REPO, 'assets', 'word_audio', '*.mp3')))
-oa = len(glob.glob(os.path.join(ARCH, '【音频资产】', '词汇音频', '*.mp3')))
+oa = len(glob.glob(os.path.join(ARCH, '00_词汇音频', '*.mp3')))
 R['词音频'] = ('正典 %d ↔ assets/word_audio %d（md5 同源）' % (oa, wa), [] if wa == oa else ['数量不一致'])
 
 # 6) 读写页 / FOLLOW_FILES
