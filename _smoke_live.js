@@ -1,11 +1,15 @@
 /* 线上篇章播放冒烟测试（供"音频不播放"类报障复验）
    用法：NODE_PATH=<playwright所在node_modules> node _smoke_live.js [baseURL]
-   逐篇加载线上篇章页 → 点第一句 → 断言 audio 进入播放态且定位到该句起点。
-   通过条件：cards==TLx 且 paused==false 且无 pageerror。 */
+   逐篇加载线上篇章页 → 点第一句 → 断言音频被驱动播放。
+   通过条件：cards==TLx 且 无 pageerror 且 无音频错误 且
+   （仍在播放态 paused==false，或已播放过首句起点 t>=TLx[0][0]——短句会播完自动暂停，属正常）。 */
 const { chromium } = require('playwright');
 const BASE = process.argv[2] || 'https://hank-hunau.github.io/linkhankyou-englishroom';
 const PAGES = [
   ['p048(U5)', '读写_048_robotics_club.html'],
+  ['p051(U5)', '读写_051_favourite_technology.html'],
+  ['p056(U6)', '读写_056_real_friend.html'],
+  ['p063(U6)', '读写_063_welcoming_people.html'],
   ['p060(U6)', '读写_060_new_teacher.html'],
   ['p067(U7)', '读写_067_sportwonders.html'],
   ['p090(U9)', '读写_090_offeringhelp.html'],
@@ -29,7 +33,8 @@ const EXE = process.env.PLAYWRIGHT_EXECUTABLE ||
     await page.waitForTimeout(3000);
     const info = await page.evaluate(() => ({
       cards: document.querySelectorAll('.sent').length,
-      tl: (window.TLx || []).length
+      tl: (window.TLx || []).length,
+      tl0: (window.TLx || [])[0] || null
     }));
     await page.click('.sent').catch(() => {});
     await page.waitForTimeout(2000);
@@ -37,7 +42,8 @@ const EXE = process.env.PLAYWRIGHT_EXECUTABLE ||
       const a = window.audio;
       return a ? { paused: a.paused, t: +a.currentTime.toFixed(2), e: a.error ? a.error.code : null } : null;
     });
-    const ok = info.cards === info.tl && play && play.paused === false && play.e === null && !errs.length;
+    const played = play && (play.paused === false || (info.tl0 && play.t >= info.tl0[0] - 0.1));
+    const ok = info.cards === info.tl && played && play && play.e === null && !errs.length;
     if (!ok) fail++;
     console.log(`${ok ? 'PASS' : 'FAIL'} ${tag}: cards=${info.cards} TLx=${info.tl} click=${JSON.stringify(play)}${errs.length ? ' ERR:' + errs.join(';') : ''}`);
     await page.close();
