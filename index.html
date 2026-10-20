@@ -151,10 +151,9 @@ body{font-family:var(--font);color:var(--ink);overflow:hidden;background:var(--b
 #shelfRoot .tv:hover .tv-go{transform:translateY(-1px);box-shadow:var(--sh-btn-v-hover)}
 #shelfRoot .tv.done .tv-go{background:linear-gradient(135deg,#22c55e,#16a34a);box-shadow:var(--sh-btn)}
 /* 篇章卡 */
-#shelfRoot .pg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:48px}
-@media(max-width:900px){#shelfRoot .pg-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+#shelfRoot .pg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-bottom:48px}
 @media(max-width:560px){#shelfRoot .pg-grid{grid-template-columns:1fr}}
-#shelfRoot .pg{background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(255,255,255,.8));border:1px solid rgba(0,0,0,.06);
+#shelfRoot .pg{background:#fff;border:1px solid rgba(0,0,0,.06);
   border-radius:var(--r-lg);padding:16px 16px 14px;cursor:pointer;transition:all .28s cubic-bezier(.19,1,.22,1);box-shadow:var(--sh-card)}
 #shelfRoot .pg:hover{transform:translateY(-3px);border-color:rgba(124,58,237,.4);box-shadow:var(--sh-card-hover)}
 #shelfRoot .pg .kind{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.03em;padding:3px 8px;border-radius:var(--r-pill);
@@ -169,6 +168,11 @@ body{font-family:var(--font);color:var(--ink);overflow:hidden;background:var(--b
 #shelfRoot .pg .act .a-more{color:#7c3aed;font-weight:900}
 #shelfRoot .pg .act.wip{color:#94a3b8;background:rgba(15,23,42,.04)}
 #shelfRoot .pg .act.wip .a-more{color:#cbd5e1}
+/* 篇章卡进度徽章：词汇掌握 x/N + 逐句听/听写完成态（2026-10-21 随 2×2 布局上线） */
+#shelfRoot .pg .pg-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+#shelfRoot .pg .pbad{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;letter-spacing:.02em;padding:3px 9px;border-radius:var(--r-pill);background:#f1f5f9;color:#94a3b8}
+#shelfRoot .pg .pbad.v{background:rgba(124,58,237,.1);color:#7C3AED}
+#shelfRoot .pg .pbad.ok{background:#eafaf1;color:#16a34a}
 /* 篇章页 */
 #shelfRoot .pg-page-head{padding:8px 0 14px}
 #shelfRoot .pg-page-title{font-weight:900;font-size:26px;letter-spacing:-.02em;color:#1e1b4b;line-height:1.25}
@@ -560,21 +564,42 @@ function getReport(name, unit, type, itemId){
   var R = loadJ(RKEY, {});
   return (R[name] && R[name][unit] && R[name][unit][type] && R[name][unit][type][itemId]) || {};
 }
-/* 词汇完成度：读 `<passageKey>_records_v2`，known/mastered 判掌握 */
+/* 词汇完成度：读 `<storeKey>_records_v2`（v1 兜底），known/mastered 判掌握。
+   存储键解析（2026-10-21 修）：篇章诊断页真实键是带 slug 的 `u5_p048_robotics_club`
+   （见各页 PASSAGE.key），而 PASSAGES 数据里的键是 `u5_48`——两者对不上导致
+   篇章词汇进度从来没显示过。这里按 FOLLOW_VOCAB 文件名反解出真实引擎键，
+   新旧两个候选都试（历史旧格式数据仍可读）。 */
+function vocabStoreCandidates(key){
+  var out=[String(key)];
+  var m=String(key).match(/^u(\d+)_(\d+)$/);
+  if(m && window.FOLLOW_VOCAB){
+    var f=FOLLOW_VOCAB[+m[2]]||'';
+    var mm=f.match(/^词汇诊断_(.+)\.html$/);
+    if(mm && mm[1]!==key) out.push(mm[1]);
+  }
+  return out;
+}
 function vocabProgress(key){
   var d={total:0,done:0,pct:0,has:false};
-  try{
-    var raw=localStorage.getItem(key+'_records_v2')||localStorage.getItem(key+'_records_v1');
-    if(!raw) return d;
-    var obj=JSON.parse(raw), karr=Object.keys(obj);
-    d.total=karr.length; d.has=karr.length>0;
-    var c=0; karr.forEach(function(k2){ var s=obj[k2]&&obj[k2].status; if(s==='known'||s==='mastered') c++; });
-    d.done=c; d.pct=d.total?Math.round(c/d.total*100):0;
-    return d;
-  }catch(e){ return d; }
+  var cands=vocabStoreCandidates(key);
+  for(var ci=0;ci<cands.length;ci++){
+    try{
+      var raw=localStorage.getItem(cands[ci]+'_records_v2')||localStorage.getItem(cands[ci]+'_records_v1');
+      if(!raw) continue;
+      var obj=JSON.parse(raw), karr=Object.keys(obj);
+      if(!karr.length) continue;
+      d.total=karr.length; d.has=true;
+      var c=0; karr.forEach(function(k2){ var s=obj[k2]&&obj[k2].status; if(s==='known'||s==='mastered') c++; });
+      d.done=c; d.pct=Math.round(c/karr.length*100);
+      return d;
+    }catch(e){}
+  }
+  return d;
 }
 function findPassageMeta(key){ for(var u in PASSAGES){ var f=PASSAGES[u].find(function(p){return p.key===key;}); if(f) return f; } return null; }
-function pgOfKey(pk){ var m=String(pk).match(/p(\d+)/); return m? +m[1] : 0; }
+/* 页码解析（2026-10-21 修）：旧正则 /p(\d+)/ 对 'u5_48' 失配返回 0，
+   导致任务区复习态与徽章读错进度键。现兼容 'u5_48' / 'u5_p048_slug' / 'p48' / '48' 四种格式 */
+function pgOfKey(pk){ var s=String(pk); var m=s.match(/_p?0*(\d+)/)||s.match(/(\d+)/); return m? +m[1] : 0; }
 function followProg(pg){ try{ var o=JSON.parse(localStorage.getItem('tf_follow_'+pg)); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
 /* 读写单页进度（tf_stage_<pg> = {listen:bool, dictate:bool}）；旧 tf_follow_<pg> 自动迁移 */
 function stageProg(pg){
@@ -661,7 +686,7 @@ function renderThemeVocab(key){
     + '<span class="tv-ic">'+ICON('book')+'</span>'
     + '<div class="tv-bd">'
     +   '<div class="tv-t">'+esc(THEME_TITLE[key]||'单元主题词汇')+'</div>'
-    +   '<div class="tv-s">'+N+' 词 · 预习 · 复习 · 测试'+(vp.has?' · 已掌握 <b>'+vp.done+' / '+N+'</b>':'')+'</div>'
+    +   '<div class="tv-s">预习 · 复习 · 测试'+(vp.has?' · 已掌握 <b>'+vp.done+' / '+N+'</b>':'')+'</div>'
     +   '<div class="tv-bar"><i style="width:'+pct+'%"></i></div>'
     + '</div>'
     + '<button class="tv-go" type="button">'+(done?'重新巩固':'开始学习')+' '+ICON('right','sm')+'</button>'
@@ -675,12 +700,25 @@ function renderThemeVocab(key){
 function renderPassages(key){
   var list = PASSAGES[key] || [];
   $('pgCount').textContent = list.length + ' 篇';
+  /* 进度徽章：词汇掌握 x/N（经 vocabStoreCandidates 解到诊断页真实存储键）
+     + 逐句听/听写完成态（tf_stage_<pg>，旧 tf_follow_<pg> 自动迁移） */
+  function pgBadges(p){
+    var vp = vocabProgress(p.key);
+    var sp = stageProg(pgOfKey(p.key));
+    var vb = vp.has
+      ? '<span class="pbad v">词汇 '+vp.done+'/'+vp.total+'</span>'
+      : '<span class="pbad">词汇 未学</span>';
+    var lb = sp.listen ? '<span class="pbad ok">'+ICON('check','sm')+'听</span>' : '<span class="pbad">听 —</span>';
+    var db = sp.dictate ? '<span class="pbad ok">'+ICON('check','sm')+'写</span>' : '<span class="pbad">写 —</span>';
+    return '<div class="pg-badges">'+vb+lb+db+'</div>';
+  }
   var grid = $('pgGrid');
   grid.innerHTML = list.map(function(p){
     return '<div class="pg" data-key="'+p.key+'">'
       + '<span class="kind">'+esc(p.kind)+'</span>'
       + '<div class="pt">'+esc(p.title)+'</div>'
       + '<div class="pps">'+p.p+' · '+esc(p.intro)+'</div>'
+      + pgBadges(p)
       + '<div class="acts">'
       + '<div class="act" data-act="vocab"><span class="a-name">'+ICON('book','sm')+' 篇章词汇</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
       + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章文段</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
