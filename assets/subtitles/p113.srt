@@ -1,0 +1,168 @@
+1
+00:00:08,410 --> 00:00:09,094
+Good morning.
+
+2
+00:00:09,813 --> 00:00:11,005
+How can I help you?
+
+3
+00:00:11,574 --> 00:00:12,087
+Hello.
+
+4
+00:00:12,087 --> 00:00:14,622
+I want to go to Windsor.
+
+5
+00:00:14,697 --> 00:00:17,021
+What time's the next train?
+
+6
+00:00:17,041 --> 00:00:19,351
+There's one in five minutes.
+
+7
+00:00:19,550 --> 00:00:20,139
+It's a fast train.
+
+8
+00:00:20,942 --> 00:00:24,015
+It only stops at Clapham Junction and Windsor.
+
+9
+00:00:24,864 --> 00:00:26,960
+You can catch that one.
+
+10
+00:00:26,960 --> 00:00:28,675
+And the one after that?
+
+11
+00:00:28,685 --> 00:00:32,436
+There's one at half past ten, but that's a slower train.
+
+12
+00:00:33,225 --> 00:00:35,590
+It stops at every station.
+
+13
+00:00:35,590 --> 00:00:36,971
+That's OK.
+
+14
+00:00:36,971 --> 00:00:40,912
+I'm not in a hurry, and I don't want to run.
+
+15
+00:00:41,406 --> 00:00:45,180
+What time does that one arrive in Windsor?
+
+16
+00:00:45,180 --> 00:00:47,063
+At half past eleven.
+
+17
+00:00:47,467 --> 00:00:48,790
+It takes an hour.
+
+18
+00:00:48,790 --> 00:00:51,658
+And how often are the trains to Windsor?
+
+19
+00:00:52,166 --> 00:00:53,563
+They're every half hour.
+
+20
+00:00:53,798 --> 00:00:54,257
+Great!
+
+21
+00:00:54,267 --> 00:00:57,729
+And how much is a ticket?
+
+22
+00:00:57,769 --> 00:01:01,210
+Do you want a single or a return?
+
+23
+00:01:01,210 --> 00:01:02,870
+A return, please.
+
+24
+00:01:02,870 --> 00:01:04,850
+Are you returning today?
+
+25
+00:01:04,850 --> 00:01:06,339
+Yes, I am.
+
+26
+00:01:06,998 --> 00:01:11,840
+Then you can get an off-peak day return ticket for £12.70.
+
+27
+00:01:11,840 --> 00:01:15,219
+It's cheaper than the anytime day return.
+
+28
+00:01:17,125 --> 00:01:17,180
+That's £19.90.
+
+29
+00:01:17,359 --> 00:01:18,247
+Right.
+
+30
+00:01:18,247 --> 00:01:22,213
+I'd like the off-peak day return one then.
+
+31
+00:01:22,707 --> 00:01:23,251
+OK.
+
+32
+00:01:23,450 --> 00:01:25,660
+That's £12.70, please.
+
+33
+00:01:25,660 --> 00:01:29,322
+What platform does the train leave from?
+
+34
+00:01:29,661 --> 00:01:32,350
+It leaves from platform 15.
+
+35
+00:01:32,350 --> 00:01:36,296
+And what platform does it arrive at in Windsor?
+
+36
+00:01:36,880 --> 00:01:38,865
+My friend wants to meet me there.
+
+37
+00:01:39,269 --> 00:01:40,332
+Platform 1.
+
+38
+00:01:40,332 --> 00:01:45,490
+But Windsor is a very small station, a lot smaller than Waterloo.
+
+39
+00:01:45,789 --> 00:01:48,663
+There are only two platforms at Windsor.
+
+40
+00:01:48,733 --> 00:01:50,499
+OK, then that's not a problem.
+
+41
+00:01:51,342 --> 00:01:52,864
+Thank you.
+
+42
+00:01:53,018 --> 00:01:54,280
+Have a good journey.
+

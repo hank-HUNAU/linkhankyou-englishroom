@@ -1,0 +1,32 @@
+1
+00:00:10,080 --> 00:00:17,543
+How many hours do you look at a TV, phone, tablet or computer every day?
+
+2
+00:00:30,700 --> 00:00:33,948
+Do you check your phone before school?
+
+3
+00:00:44,900 --> 00:00:49,424
+Do you worry when your phone or tablet has no power?
+
+4
+00:01:00,040 --> 00:01:04,580
+Do you watch TV before you do your homework?
+
+5
+00:01:15,380 --> 00:01:20,550
+Does your family ever say that you use your phone too much?
+
+6
+00:01:21,860 --> 00:01:27,731
+5 to 9 – No, you don't need a break! You use it well.
+
+7
+00:01:28,040 --> 00:01:28,319
+10 to 12 – You're not too bad, but be careful!
+
+8
+00:01:28,419 --> 00:01:28,920
+13 to 15 – Yes, you do. You need a break from tech! Do something different!
+

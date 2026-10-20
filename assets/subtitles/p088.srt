@@ -1,0 +1,108 @@
+1
+00:00:06,860 --> 00:00:09,100
+Hello. Can I help you?
+
+2
+00:00:09,880 --> 00:00:13,660
+Hi, yes. We'd like a table for two, please.
+
+3
+00:00:14,400 --> 00:00:15,420
+Here are the menus.
+
+4
+00:00:16,486 --> 00:00:16,960
+Thanks.
+
+5
+00:00:17,800 --> 00:00:19,800
+What would you like to drink?
+
+6
+00:00:20,280 --> 00:00:21,920
+I'd like an orange juice.
+
+7
+00:00:22,640 --> 00:00:24,660
+And I'd like water, please.
+
+8
+00:00:25,260 --> 00:00:25,720
+Great.
+
+9
+00:00:30,620 --> 00:00:32,700
+Are you ready to order now?
+
+10
+00:00:33,120 --> 00:00:36,080
+Yes. I'd like the pizza with salad.
+
+11
+00:00:36,600 --> 00:00:37,400
+Any starters?
+
+12
+00:00:38,260 --> 00:00:38,900
+No thanks.
+
+13
+00:00:39,480 --> 00:00:45,800
+Would you like any extra toppings on the pizza? Onion, peppers, or tomatoes?
+
+14
+00:00:46,360 --> 00:00:47,680
+Some peppers, please.
+
+15
+00:00:48,320 --> 00:00:49,700
+And what would you like?
+
+16
+00:00:50,240 --> 00:00:52,120
+I'd like the chicken and chips.
+
+17
+00:00:52,880 --> 00:00:55,320
+Okay. Is that everything?
+
+18
+00:00:55,320 --> 00:00:57,480
+Yes. Thank you.
+
+19
+00:01:01,452 --> 00:01:03,080
+Would you like a dessert?
+
+20
+00:01:04,060 --> 00:01:09,040
+Yes, please. I'd like the fruit salad with vanilla ice cream.
+
+21
+00:01:09,500 --> 00:01:10,160
+Me, too.
+
+22
+00:01:14,520 --> 00:01:16,060
+How are your desserts?
+
+23
+00:01:16,960 --> 00:01:17,360
+Great.
+
+24
+00:01:17,960 --> 00:01:19,700
+Would you like any more drinks?
+
+25
+00:01:20,360 --> 00:01:23,020
+No, thanks. We'd like the bill, please.
+
+26
+00:01:23,020 --> 00:01:23,685
+Of course.
+
+27
+00:01:23,720 --> 00:01:24,040
+Thank you.
+

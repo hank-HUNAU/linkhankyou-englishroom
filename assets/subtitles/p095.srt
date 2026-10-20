@@ -1,0 +1,80 @@
+1
+00:00:07,620 --> 00:00:11,360
+Hi Will, how are you? Are you better?
+
+2
+00:00:11,980 --> 00:00:18,170
+Yes, thanks. I was ill yesterday and the day before but I'm okay now.
+
+3
+00:00:18,480 --> 00:00:20,100
+Good, I'm pleased.
+
+4
+00:00:20,880 --> 00:00:26,020
+So yesterday was the prize-giving at school, right? Was it good?
+
+5
+00:00:26,020 --> 00:00:33,440
+No, it wasn't. Well, not really. There weren't many parents there.
+
+6
+00:00:33,980 --> 00:00:39,578
+Oh really? There were lots last year. Were all the teachers there?
+
+7
+00:00:40,100 --> 00:00:44,200
+Of course! The teachers can't choose, can they?
+
+8
+00:00:45,280 --> 00:00:51,583
+No, and neither can the kids. Anyway, who were the big winners this year?
+
+9
+00:00:52,080 --> 00:00:58,770
+Well, the best student of the year for the whole school was Sandra Hammond.
+
+10
+00:00:59,240 --> 00:01:03,320
+Sandra? Was she the best student last year too?
+
+11
+00:01:04,060 --> 00:01:12,853
+No, she wasn't. It was her brother Tom. This year, Tom was the best sports person in the school.
+
+12
+00:01:13,240 --> 00:01:18,660
+Oh, the Hammonds! They always win everything! Boring!
+
+13
+00:01:19,380 --> 00:01:28,580
+I know, but it's okay. They're leaving at the end of term, so next year, who knows? Maybe you!
+
+14
+00:01:29,100 --> 00:01:32,940
+You're joking of course. I'm never the best at anything.
+
+15
+00:01:33,880 --> 00:01:38,740
+Well, anyway, guess who the best science student was?
+
+16
+00:01:39,440 --> 00:01:42,470
+No idea. Andy Clarkson?
+
+17
+00:01:42,820 --> 00:01:44,640
+No, me!
+
+18
+00:01:45,300 --> 00:01:54,960
+You? Really? Well done! That's fantastic! I'm proud of you. Was the prize something nice?
+
+19
+00:01:55,480 --> 00:02:01,974
+Yes, it was. A book about science. I really want to read it.
+
+20
+00:02:02,340 --> 00:02:06,240
+Good for you, Alice. Well done. Thanks, Will.
+
