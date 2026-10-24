@@ -110,7 +110,7 @@ const CORRECT_OPT = { 'climb#unknown':'攀登，攀爬', 'board#unknown':'板，
   /* 篇章词汇页与单元主题词汇页共用同一套诊断模板，两处都要有覆盖表接线 */
   const pageChecks = [
     ['词汇诊断', '词汇诊断_u12_p111_greatrace.html'],
-    ['../Think F 教材资产/00_主题词汇', '词汇诊断_theme_u7.html']  /* 主题词汇页已归正典至教材资产目录 */
+    ['00_主题词汇', '词汇诊断_theme_u7.html']  /* 主题词汇页线上服务位置=库内 00_主题词汇/（2026-10-24 修：旧路径是仓库搬迁前的 ../Think F 教材资产/，已翻倍解析失败） */
   ];
   for (const [pd, pf] of pageChecks) {
     const page = fs.readFileSync(path.join(__dirname, pd, pf), 'utf8');
