@@ -32,22 +32,40 @@ UNITS = {
 
 # 正课文（每单元 4）：(板块, 篇名, 页码, 制作页 or None)
 ZWK = {
- 1: [("阅读A","Crazy about music","p13",None),("听力","One-Minute Challenge","p15",None),("阅读B","Favourite artists","p17",None),("口语","Getting to know someone","p18–19",None)],
- 2: [("阅读A","Hi there!","p21",None),("听力","Talking about feelings","p23",None),("阅读B","A birthday present","p25",None),("文化","Masks from around the world","p27",None)],
- 3: [("阅读A","Film stars and their families","p31",None),("听力","Describing family","p33",None),("阅读B","Anna's family","p35",None),("口语","Paying compliments","p36–37",None)],
- 4: [("阅读A","Great cities to visit","p39",None),("听力","Asking for directions","p41",None),("阅读B","In the shops","p43",None),("文化","Parks around the world","p45",None)],
- 5: [("阅读A","Robotics Club is cool!","p49",None),("听力","Describing gadgets","p51",None),("阅读B","Do you need a tech break?","p52–53",None),("口语","Encouraging someone","p54–55",None)],
- 6: [("阅读A","A real friend","p57",None),("听力","Friendship symbols","p59",None),("阅读B","A surprise for Ellie","p61",None),("文化","Welcoming people around the world","p63",None)],
- 7: [("阅读A","Sport wonders!","p67","p067"),("听力","Making arrangements","p69","p069"),("阅读B","An amazing last four minutes","p70","p070"),("口语","Making suggestions","p72","p072")],
- 8: [("阅读A","#Music in the forest","p75","p075"),("听力","Musicians around the world","p77","p077"),("阅读B","A teenage DJ","p78","p078"),("文化","Dances around the world","p80","p080")],
- 9: [("阅读A","Kitchen kids","p85",None),("听力","Cooking","p87",None),("阅读B","In a restaurant","p89",None),("口语","Offering and asking for help","p90–91",None)],
- 10:[("阅读A","She was the first woman in space","p93",None),("听力","A prize-giving at school","p95",None),("阅读B","Sports achievers","p97",None),("文化","Statues around the world","p99",None)],
- 11:[("阅读A","Dolphins to the rescue","p103",None),("听力","Josh's holiday","p105",None),("阅读B","Extinct animals","p107",None),("口语","Sequencing a story","p108–109",None)],
- 12:[("阅读A","The great race","p111","p111"),("听力","At the train station","p113","p113"),("阅读B","My favourite journey","p114","p114"),("文化","Transport around the world","p117","p117")],
+ 1:[("阅读A","All together (website)","p012","p012"), ("听力","One-Minute Challenge","p015","p015"), ("阅读B","Nice T-shirt","p016","p016"), ("口语","Where is Daniela from?","p018","p018")],
+ 2:[("阅读A","Text messages","p020","p020"), ("听力","Four dialogues","p023","p023"), ("阅读B","Ruby's birthday","p024","p024"), ("文化","Masks from around the world","p027","p027")],
+ 3:[("阅读A","Famous families","p030","p030"), ("听力","Three people talking","p033","p033"), ("阅读B","Ellie's photo","p034","p034"), ("口语","Paul and Carla","p036","p036")],
+ 4:[("阅读A","Great cities","p038","p038"), ("听力","Asking for directions","p041","p041"), ("阅读B","Buying in a shop","p042","p042"), ("文化","Parks around the world","p045","p045")],
+ 5:[("阅读A","Robotics Club is cool!","p048","p048"), ("听力","Favourite technology","p051","p051"), ("阅读B","Do you need a tech break?","p052","p052"), ("口语","The school concert","p054","p054")],
+ 6:[("阅读A","A real friend","p056","p056"), ("听力","A present for Annie","p059","p059"), ("口语对话","The new teacher","p060","p060"), ("文化","Welcoming people around the world","p063","p063")],
+ 7:[("阅读A","Sport wonders!","p067","p067"), ("听力","Making arrangements","p069","p069"), ("阅读B","An amazing last four minutes","p070","p070"), ("口语","Making suggestions","p072","p072")],
+ 8:[("阅读A","#Music in the forest","p075","p075"), ("听力","Musicians around the world","p077","p077"), ("阅读B","A teenage DJ","p078","p078"), ("文化","Dances around the world","p080","p080")],
+ 9:[("阅读A","Kitchen Kids","p085","p085"), ("听力","Cooking","p087","p087"), ("阅读B","In a restaurant","p088","p088"), ("口语","Offering and asking for help","p090","p090")],
+ 10:[("阅读A","She was the first woman in space","p092","p092"), ("听力","A prize-giving at school","p095","p095"), ("阅读B","Sports achievers","p096","p096"), ("文化","Statues around the world","p099","p099")],
+ 11:[("阅读A","Dolphins to the rescue","p102","p102"), ("听力","Josh's holiday","p105","p105"), ("阅读B","Extinct animals","p106","p106"), ("口语","Sequencing a story","p108","p108")],
+ 12:[("阅读A","The great race","p111","p111"), ("听力","At the train station","p113","p113"), ("阅读B","My favourite journey","p114","p114"), ("文化","Transport around the world","p117","p117")],
 }
 
 # 已制作页的源轨（素材库）+ 备注
 SRC = {
+ "p048":"Thk2e_BE_L0_SB_Unit_5_p54_t09","p051":"Thk2e_BE_L0_SB_Unit_5_p54_t10",
+ "p052":"Thk2e_BE_L0_SB_Unit_5_p55_t11","p054":"Thk2e_BE_L0_SB_Unit_5_p56_t12",
+ "p056":"Thk2e_BE_L0_SB_Unit_6_p57_t01","p059":"Thk2e_BE_L0_SB_Unit_6_p60_t02",
+ "p060":"Thk2e_BE_L0_SB_Unit_6_p61_t03","p063":"Thk2e_BE_L0_SB_Unit_6_p64_t04",
+ "p085":"Thk2e_BE_L0_SB_Unit_9_p84_t01","p087":"Thk2e_BE_L0_SB_Unit_9_p86_t02",
+ "p088":"Thk2e_BE_L0_SB_Unit_9_p88_t03","p090":"Thk2e_BE_L0_SB_Unit_9_p90_t04",
+ "p092":"Thk2e_BE_L0_SB_Unit_10_p92_t01","p095":"Thk2e_BE_L0_SB_Unit_10_p95_t02",
+ "p096":"Thk2e_BE_L0_SB_Unit_10_p96_t03","p099":"Thk2e_BE_L0_SB_Unit_10_p100_t04",
+ "p102":"Thk2e_BE_L0_SB_Unit_11_p102_t01","p105":"Thk2e_BE_L0_SB_Unit_11_p105_t02",
+ "p106":"Thk2e_BE_L0_SB_Unit_11_p106_t03","p108":"Thk2e_BE_L0_SB_Unit_11_p108_t04",
+ "p012":"Thk2e_BE_L0_SB_Unit_1_p12_t01","p015":"Thk2e_BE_L0_SB_Unit_1_p15_t05",
+ "p016":"Thk2e_BE_L0_SB_Unit_1_p16_t06","p018":"109.mp3",
+ "p020":"Thk2e_BE_L0_SB_Unit_2_p20_t01","p023":"Thk2e_BE_L0_SB_Unit_2_p23_t05",
+ "p024":"Thk2e_BE_L0_SB_Unit_2_p24_t06","p027":"Thk2e_BE_L0_SB_Unit_2_p27_t07",
+ "p030":"Unit 03-1 Reading.mp3","p033":"Thk2e_BE_L0_SB_Unit_3_p33_t03",
+ "p034":"Unit_3_p34_t04[reading].mp3","p036":"Thk2e_BE_L0_SB_Unit_3_p36_t09",
+ "p038":"Unit4-p38-reading.mp3","p041":"Unit4-p41-listening-ex9.ex10.mp3",
+ "p042":"4-p42-reading-ex1.mp3","p045":"4-p45-culture-ex3.mp3",
  "p067":"Thk2e_BE_L0_SB_Unit_7_p66_t01","p069":"Thk2e_BE_L0_SB_Unit_7_p69_t06",
  "p070":"Thk2e_BE_L0_SB_Unit_7_p70_t07","p072":"Thk2e_BE_L0_SB_Unit_7_p72_t11",
  "p075":"第8单元 阅读1 Music in the Forest 课文音频.mp3","p077":"Thk2e_BE_L0_SB_Unit_8_p77_t02",
@@ -128,7 +146,7 @@ def fname(url): return unquote(str(url).split("/")[-1])
 # ---- MD ----
 md = ["# 正课文清单 · TH!NK Starter 学习平板", "",
       "> **课文部分追踪唯一来源**（CSV 为 canonical 数据源，本 MD 由 CSV 渲染）。",
-      f"> 更新于 2026-10-13 · 正课文 {zwk_done}/{zwk_total} 已制作 · 非正文视频 {vid_done}/{vid_total} 已入 App · 时间轴 {len(tl)} 篇 / {tot_sent} 句", "",
+      f"> 更新于 2026-10-24 · 正课文 {zwk_done}/{zwk_total} 已制作 · 非正文视频 {vid_done}/{vid_total} 已入 App · 时间轴 {len(tl)} 篇 / {tot_sent} 句", "",
       "| " + " | ".join(head) + " |", "|" + "|".join(["---"]*len(head)) + "|"]
 for r in data:
     cells = []
@@ -193,7 +211,7 @@ a{{color:#1565c0;text-decoration:none;}} a:hover{{text-decoration:underline;}}
 .note{{background:#fff8ea;border:1px solid #f0dcb6;border-radius:10px;padding:12px 16px;margin-top:16px;font-size:12.5px;line-height:1.7;}}
 </style></head><body>
 <h1>正课文清单 · TH!NK Starter 学习平板</h1>
-<div class="sub">课文部分追踪<b>唯一来源</b> · CSV 为 canonical 数据源，本页由 CSV 渲染 · 更新于 2026-10-13</div>
+<div class="sub">课文部分追踪<b>唯一来源</b> · CSV 为 canonical 数据源，本页由 CSV 渲染 · 更新于 2026-10-24</div>
 <div class="lede">
   <span>正课文 <b>{zwk_done} / {zwk_total}</b> 已制作</span>
   <span>非正文视频 <b>{vid_done} / {vid_total}</b> 已入 App</span>

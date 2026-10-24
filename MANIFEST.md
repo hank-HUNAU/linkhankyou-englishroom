@@ -1,7 +1,7 @@
 # 文件清单（MANIFEST）· TH!NK 学习平板原型
 
 > 本清单把仓库文件按**职责**归类：核心运行时 / 依赖开发 / 内容生产 / 溯源参考 / 文档 / 弃用候选 / 运行时不入库。
-> 生成于 2026-10-13 · 基准：`git ls-files` 246 个已跟踪文件 + 未跟踪/忽略项。
+> 更新于 2026-10-24 · 基准：`git ls-files` 3696 个已跟踪文件 + 未跟踪/忽略项。
 > 维护：文件增删后更新本表。删除任何文件前先确认是否在上文引用。
 
 ---
@@ -23,8 +23,9 @@
 | `gen-cert.js` | 2 KB | 生成 HTTPS 自签证书到 `certs/` |
 | `package.json` | 0.6 KB | 脚本与 Node 版本要求 |
 | `.nojekyll` | 0 | 禁用 Jekyll，GitHub Pages 按原样伺服 |
-| `assets/p*.mp3` | 16 个 / ~28 MB | 课文音频，点读/跟读唯一音源 |
-| `assets/timeline.json` | 61 KB | **句级时间轴唯一权威源**（16 篇 / 418 句），`_timeline_check.js` 盯一致性 |
+| `assets/p*.mp3` | 49 个 / 62 MB | 课文音频（U1–U12 每单元 4 篇 + p202），点读/跟读唯一音源 |
+| `assets/word_audio/` | 1057 个 / 17 MB | 词汇音频（正典归档 `00_词汇音频/`），规约 `_VOCAB_WORKFLOW.md` §2.3 |
+| `assets/timeline.json` | 164 KB | **句级时间轴唯一权威源**（49 篇 / 1153 句），`_timeline_check.js` 盯一致性 |
 
 ## B. 依赖 / 开发（回归门禁 · 构建）
 
@@ -52,6 +53,9 @@
 | `_align_unit.py` | 8.9 KB | **正课文句级时间轴唯一生产入口**（`--unit N` 全自动） |
 | `_unit_8_source.json` | 6.5 KB | 源文本模板（新单元照此写 `_unit_N_source.json`） |
 | `_ALIGNMENT_WORKFLOW.md` | 6.9 KB | **句级对齐权威规约**（方法/清单/坑/门禁） |
+| `_VOCAB_WORKFLOW.md` | 新增 2026-10-24 | **词汇四链权威规约**（篇章词表/主题词表/词音频/诊断页 + 引擎规则 + 坑） |
+| `_RELEASE_WORKFLOW.md` | 新增 2026-10-24 | **落库与上线权威规约**（三条硬规约/发布检查单/基线记录/回滚/API 兜底） |
+| `_extract_u14_text.py` + `_align_u14.py` + `_merge_u14.py` | 新增 2026-10-24 | U1–U4 正课文三件套（TB 提取 → 对齐 → 校验/音频/timeline 合入）；中间产物 `_u14_source.json` / `_u14_words.json` / `_u14_report.json` |
 | `tools/audio-alignment/` | 16 文件 + `_tb_cache/`67 txt | 教师用书栏目标题 ↔ 官方 CD 198 轨对齐工具链（产 `_alignment.json` 与 `reports/` 对照表） |
 | `skills/global/` | 9 技能 | `local-mineru` `article-vocab-analyzer` `cet-cn2en-scholar` `british-phonetics` `student-vocab-cards` `exam-paper-bank` `teacher-vocab-prep` `sentence-alignment` `chunk-splitter` |
 | `skills/project/` | 1 技能 | `sentence-alignment`（项目版去向 `.trae/skills/`） |

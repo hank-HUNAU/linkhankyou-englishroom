@@ -38,8 +38,12 @@ npm run test:list    # 列出全部套件
 | `学生端.html` | 已并入 `index.html`，现为兼容旧链接的跳转壳（`学生端.html?unit=N` → `index.html?unit=N`） |
 | `教师端.html` | 班级、学生账号、任务下发、学情汇总、题库分析 |
 | `login.html` | 登录 / 注册入口 |
-| `assets/p*.mp3` | 课文音频，当前版本唯一的运行时音频依赖 |
-| `_align_unit.py` + `_unit_N_source.json` | 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
+| `assets/p*.mp3` | 课文音频 49 个 / 62 MB（U1–U12 每单元 4 篇 + p202），运行时唯一音频依赖 |
+| `assets/word_audio/` | 词汇音频 1057 个 / 17 MB（正典在归档 `00_词汇音频/`，规约 `_VOCAB_WORKFLOW.md`） |
+| `_align_unit.py` + `_unit_N_source.json` | U5–U12 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
+| `_extract_u14_text.py` + `_align_u14.py` + `_merge_u14.py` | U1–U4 正课文三件套（按课次教师用书提取 → 同管线对齐 → 校验/音频/timeline 合入）；每单元恰 4 篇与 U5–U12 同构 |
+| `_VOCAB_WORKFLOW.md` | **词汇四链权威规约**（篇章词表/主题词表/词音频/诊断页） |
+| `_RELEASE_WORKFLOW.md` | **落库与上线权威规约**（三条硬规约/发布检查单/基线/回滚） |
 | `_regress.js` | 回归入口，套件定义在文件顶部的 `SUITE` 数组 |
 | `_check.js` / `_align_check.js` / `_check_icons.js` / `_smoke.js` | 纯 Node 校验，无外部依赖 |
 | `_smoke_*.py` | Playwright 端到端，需要 Python 3 + Playwright |
@@ -69,7 +73,7 @@ npm run test:list    # 列出全部套件
 
 ### 时间轴是单一数据源（重要）
 
-`assets/timeline.json` 是 **16 篇 / 418 句**的唯一权威时间轴（U7 4 篇 + U8 4 篇 + U12 4 篇正课文 + p066/p073/p110/p202），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
+`assets/timeline.json` 是 **49 篇 / 1153 句**的唯一权威时间轴（U1–U12 每单元恰 4 篇正课文 + p202 深链篇；U1–U4 于 2026-10-24 统一标准补入），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
 
 **新增正课文时间轴的唯一入口是 `_align_unit.py --unit N`**（全自动，无人耳终审），权威规约见 `_ALIGNMENT_WORKFLOW.md`：写 `_unit_N_source.json`（正课文清单 + 源文本 + 音频映射）后一键跑完 ASR→对齐→合入→同步→门禁。
 
