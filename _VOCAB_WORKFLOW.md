@@ -79,7 +79,9 @@
 
 ## 6. 当前状态（2026-10-24）
 
-- 篇章词表：U5–U12 全部正课文已分析入库（`02_词汇数据/`）；U1–U4 篇章词表待随站点激活补跑；
-- 主题词表：`00_主题词汇/theme_u1–u4.json` + `U5–U12/03_主题词汇/` 齐全；theme 诊断页 U1–U11 已生成（归档副本）；
-- 词音频：`00_词汇音频/` 1057 mp3 + `audio_index.json`；仓库 `assets/word_audio/` 已推送；
-- 诊断页：11 篇章页 + theme 页为 gitignore 工作区，模板 `_模板_词汇诊断页.html` 在库。
+- **九层分析必须用用户级技能**：`C:\Users\Thinkpad\.workbuddy\skills\article-vocab-analyzer\`（完整版，含 A1_Starters/Movers/Flyers 三层）。仓库内 `skills/词汇教学技能包-20260928/` 是**旧副本**（缺 YLE 词表，只出 KET/PET/NGSL）——直接用它会丢 A1 三层，务必以用户级为准。
+- 篇章词表：**U1–U12 全部 48 篇正课文已分析入库**（各单元 `02_词汇数据/`）；U1–U4 十六篇于 2026-10-24 补入（词条 23–56/篇，A1_Starters 主导）；
+- 主题词表：`00_主题词汇/theme_u1–u4.json` + `U5–U12/03_主题词汇/` 齐全；theme 诊断页 U1–U11 已生成（归档副本与库内 `00_主题词汇/` 双处）；
+- 词音频：`00_词汇音频/` **1210 mp3** + `audio_index.json`；仓库 `assets/word_audio/` 同步（19MB）；
+- 诊断页：**48 个篇章页（U1–U12 全量）+ 12 个 theme 页**，全部在库并被 git 跟踪（`词汇诊断/` 目录，`!词汇诊断/*.html` 白名单放行）；模板 `_模板_词汇诊断页.html`;
+- 站点接线：`FOLLOW_VOCAB` / `FOLLOW_META` 各含 U1–U12 全部 48 页码 + p202；`LIVE_VOCAB_RE` = `u(1|2|…|12)`；UNITS 的 U1–U4 仍 `live:false`（篇章页生成与激活待令）。
