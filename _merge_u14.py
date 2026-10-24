@@ -11,23 +11,16 @@ AUDIO = {  # page -> (unit, filename)
     "p012": (1, "Thk2e_BE_L0_SB_Unit_1_p12_t01.mp3"), "p015": (1, "Thk2e_BE_L0_SB_Unit_1_p15_t05.mp3"),
     "p016": (1, "Thk2e_BE_L0_SB_Unit_1_p16_t06.mp3"), "p018": (1, "109.mp3"),
     "p020": (2, "Thk2e_BE_L0_SB_Unit_2_p20_t01.mp3"), "p023": (2, "Thk2e_BE_L0_SB_Unit_2_p23_t05.mp3"),
-    "p024": (2, "Thk2e_BE_L0_SB_Unit_2_p24_t06.mp3"), "p028": (2, "Thk2e_BE_L0_SB_Unit_2_p28_t08.mp3"),
+    "p024": (2, "Thk2e_BE_L0_SB_Unit_2_p24_t06.mp3"), "p027": (2, "Thk2e_BE_L0_SB_Unit_2_p27_t07.mp3"),
+    "p028": (2, "Thk2e_BE_L0_SB_Unit_2_p28_t08.mp3"),
     "p030": (3, "Unit 03-1 Reading.mp3"), "p033": (3, "Thk2e_BE_L0_SB_Unit_3_p33_t03.mp3"),
     "p034": (3, "Unit_3_p34_t04[reading].mp3"), "p036": (3, "Thk2e_BE_L0_SB_Unit_3_p36_t09.mp3"),
     "p038": (4, "Unit4-p38-reading.mp3"), "p041": (4, "Unit4-p41-listening-ex9.ex10.mp3"),
-    "p042": (4, "4-p42-reading-ex1.mp3"), "p045": (4, "4-p45-culture-ex3.mp3"),
+    "p042": (4, "4-p42-reading-ex1.mp3"), "p043": (4, "4-p43-functions-ex11.mp3"),
+    "p045": (4, "4-p45-culture-ex3.mp3"),
 }
 
-# 清理旧误映射产物（p043 = 4.11 误植）
-stale = os.path.join(BASE, "U4_CityLife", "01_正文篇章", "句级数据_p043.json")
-if os.path.exists(stale):
-    os.remove(stale)
-    print("已删除误映射归档 句级数据_p043.json")
-for f in ("assets/p043.mp3",):
-    p = os.path.join(REPO, f)
-    if os.path.exists(p):
-        os.remove(p)
-        print(f"已删除 {f}")
+# （旧误映射 p043 的一次性清理已于 2026-10-24 完成并移除；p043 现为 4.11 functions 篇）
 
 def resolve_audio(unit, fname):
     d = os.path.join(AUDIO_BASE, f"第{unit}单元", f"第{unit}单元 音频")
@@ -102,7 +95,7 @@ for f in files:
                      dur_s=round(s["end_s"] - s["start_s"], 3), text=s["text"])
                 for s in d["sentences"]]
     added += 1
-tl.pop("p043", None)  # 误映射残留
+tl.pop("p043", None) if False else None  # p043 现为 4.11 functions 篇，保留
 tl = {k: tl[k] for k in sorted(tl, key=lambda x: int(x[1:]))}
 json.dump(tl, open(tl_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"新增 {added} 键，timeline 总键数 {len(tl)}")

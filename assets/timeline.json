@@ -1273,6 +1273,155 @@
    "text": "It isn’t my birthday today. It’s next week."
   }
  ],
+ "p027": [
+  {
+   "i": 0,
+   "start_s": 11.18,
+   "end_s": 13.34,
+   "dur_s": 2.16,
+   "text": "This mask is from Mexico."
+  },
+  {
+   "i": 1,
+   "start_s": 14.34,
+   "end_s": 20.38,
+   "dur_s": 6.04,
+   "text": "People wear them for the Day of the Dead Festival on 1st and 2nd November."
+  },
+  {
+   "i": 2,
+   "start_s": 21.8,
+   "end_s": 26.38,
+   "dur_s": 4.58,
+   "text": "This festival is popular in many countries in Latin America."
+  },
+  {
+   "i": 3,
+   "start_s": 27.4,
+   "end_s": 32.38,
+   "dur_s": 4.98,
+   "text": "People remember family members and friends who are not alive."
+  },
+  {
+   "i": 4,
+   "start_s": 35.78,
+   "end_s": 38.76,
+   "dur_s": 2.98,
+   "text": "This is a lion mask from China."
+  },
+  {
+   "i": 5,
+   "start_s": 40.24,
+   "end_s": 44.04,
+   "dur_s": 3.8,
+   "text": "In many countries in Asia, there are lion dances."
+  },
+  {
+   "i": 6,
+   "start_s": 44.88,
+   "end_s": 51.52,
+   "dur_s": 6.64,
+   "text": "There are always two people in a lion – the mask is on the head of one dancer."
+  },
+  {
+   "i": 7,
+   "start_s": 52.42,
+   "end_s": 55.12,
+   "dur_s": 2.7,
+   "text": "The lion dances are very beautiful."
+  },
+  {
+   "i": 8,
+   "start_s": 56.0,
+   "end_s": 57.88,
+   "dur_s": 1.88,
+   "text": "Tourists love them."
+  },
+  {
+   "i": 9,
+   "start_s": 61.7,
+   "end_s": 66.88,
+   "dur_s": 5.18,
+   "text": "Masks are an important part of the carnival in Venice, Italy."
+  },
+  {
+   "i": 10,
+   "start_s": 67.96,
+   "end_s": 71.32,
+   "dur_s": 3.36,
+   "text": "There are many different types of carnival masks."
+  },
+  {
+   "i": 11,
+   "start_s": 72.26,
+   "end_s": 78.16,
+   "dur_s": 5.9,
+   "text": "For example, the mask in this picture is called the Colombina."
+  },
+  {
+   "i": 12,
+   "start_s": 79.12,
+   "end_s": 85.4,
+   "dur_s": 6.28,
+   "text": "Carnival masks are often very beautiful and some are very expensive."
+  },
+  {
+   "i": 13,
+   "start_s": 89.38,
+   "end_s": 91.98,
+   "dur_s": 2.6,
+   "text": "This mask is from North America."
+  },
+  {
+   "i": 14,
+   "start_s": 93.22,
+   "end_s": 97.28,
+   "dur_s": 4.06,
+   "text": "It’s a mask from the First Nations people in Canada."
+  },
+  {
+   "i": 15,
+   "start_s": 98.44,
+   "end_s": 101.14,
+   "dur_s": 2.7,
+   "text": "The mask is for the medicine man."
+  },
+  {
+   "i": 16,
+   "start_s": 105.24,
+   "end_s": 107.44,
+   "dur_s": 2.2,
+   "text": "These are Halloween masks."
+  },
+  {
+   "i": 17,
+   "start_s": 108.4,
+   "end_s": 111.74,
+   "dur_s": 3.34,
+   "text": "Halloween is on 31st October."
+  },
+  {
+   "i": 18,
+   "start_s": 113.04,
+   "end_s": 121.88,
+   "dur_s": 8.84,
+   "text": "Children in many countries around the world, for example the US and the UK, wear Halloween masks."
+  },
+  {
+   "i": 19,
+   "start_s": 122.78,
+   "end_s": 127.1,
+   "dur_s": 4.32,
+   "text": "They go from house to house and say ‘Trick or treat’."
+  },
+  {
+   "i": 20,
+   "start_s": 127.1,
+   "end_s": 130.74,
+   "dur_s": 3.64,
+   "text": "People give them sweets (‘treats’)."
+  }
+ ],
  "p028": [
   {
    "i": 0,
@@ -2456,6 +2605,78 @@
    "end_s": 141.28,
    "dur_s": 1.36,
    "text": "You, too. Bye!"
+  }
+ ],
+ "p043": [
+  {
+   "i": 0,
+   "start_s": 7.7,
+   "end_s": 9.892,
+   "dur_s": 2.192,
+   "text": "Morning. Can I help you?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.38,
+   "end_s": 14.64,
+   "dur_s": 4.26,
+   "text": "Hello. Yes, please. Have you got any sports magazines?"
+  },
+  {
+   "i": 2,
+   "start_s": 15.86,
+   "end_s": 25.24,
+   "dur_s": 9.38,
+   "text": "Sure. There’s this one here – football – and there’s also this one, all kinds of sports."
+  },
+  {
+   "i": 3,
+   "start_s": 25.84,
+   "end_s": 28.166,
+   "dur_s": 2.326,
+   "text": "Great. How much are they?"
+  },
+  {
+   "i": 4,
+   "start_s": 28.166,
+   "end_s": 35.12,
+   "dur_s": 6.954,
+   "text": "This one is £6.95 and the other one is £6.50."
+  },
+  {
+   "i": 5,
+   "start_s": 36.46,
+   "end_s": 38.58,
+   "dur_s": 2.12,
+   "text": "OK – I'll take them both."
+  },
+  {
+   "i": 6,
+   "start_s": 39.28,
+   "end_s": 42.84,
+   "dur_s": 3.56,
+   "text": "Great. That's £13.45,"
+  },
+  {
+   "i": 7,
+   "start_s": 44.84,
+   "end_s": 47.1,
+   "dur_s": 2.26,
+   "text": "OK, here’s £20.00."
+  },
+  {
+   "i": 8,
+   "start_s": 48.26,
+   "end_s": 51.7,
+   "dur_s": 3.44,
+   "text": "Thank you. Here's your change, £6.55."
+  },
+  {
+   "i": 9,
+   "start_s": 53.5,
+   "end_s": 54.68,
+   "dur_s": 1.18,
+   "text": "Thanks. Bye!"
   }
  ],
  "p045": [

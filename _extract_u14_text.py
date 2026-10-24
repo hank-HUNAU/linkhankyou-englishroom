@@ -100,7 +100,7 @@ P.append(dict(key="u1_p12_website", unit=1, page="p012", title="All together (we
 
 lines = load_lines("Unit 1 第3次课_教师用书.pdf")
 seg = span(lines, "Steve Nice T-shirt.", "Steve Oh, OK! Bye!")
-P.append(dict(key="u1_p16_tshirt", unit=1, page="p016", title="Nice T-shirt", type="口语",
+P.append(dict(key="u1_p16_tshirt", unit=1, page="p016", title="Nice T-shirt", type="阅读B",
               track="1.06", audio="Thk2e_BE_L0_SB_Unit_1_p16_t06.mp3", src="tb",
               lines=dialogue_turns(seg, ["Steve", "Camila"])))
 
@@ -130,9 +130,32 @@ P.append(dict(key="u2_p20_messages", unit=2, page="p020", title="Text messages",
 
 lines = load_lines("Unit 2 第3次课_教师用书.pdf")
 seg = span(lines, "Ruby Hi, Ben", "It’s next week.")
-P.append(dict(key="u2_p24_birthday", unit=2, page="p024", title="Ruby's birthday", type="口语",
+P.append(dict(key="u2_p24_birthday", unit=2, page="p024", title="Ruby's birthday", type="阅读B",
               track="2.06", audio="Thk2e_BE_L0_SB_Unit_2_p24_t06.mp3", src="tb",
               lines=dialogue_turns(seg, ["Ruby", "Ben"])))
+
+# 2.07 文化篇 Masks from around the world（第4次课 TB；音频顺序≠课本页序：墨西哥→中国→威尼斯→北美→万圣节，坑#4）
+lines = load_lines("Unit 2 第4次课_教师用书.pdf")
+
+def mask_block(start_kw, end_kw, keep_end=False):
+    seg = span(lines, start_kw, end_kw)
+    if not keep_end and end_kw in seg[-1]:
+        seg = seg[:-1]  # 终点行属于下一块，丢弃
+    out = []
+    for l in join_wrapped(seg, speaker_aware=False):
+        if l in ("Masks from around the world", "FROM AROUND THE WORLD", "sks.") or re.fullmatch(r"\d{1,2}", l):
+            continue
+        out.extend(split_sentences(l))
+    return out
+
+b_halloween = mask_block("These are Halloween masks.", "This mask is from Mexico.")
+b_mexico = mask_block("This mask is from Mexico.", "Masks are an")
+b_venice = mask_block("Masks are an", "This is a lion mask from China.")
+b_china = mask_block("This is a lion mask from China.", "This mask is from North")
+b_na = mask_block("This mask is from North", "for the medicine man.", keep_end=True)
+masks = b_mexico + b_china + b_venice + b_na + b_halloween  # 按音频播送序
+P.append(dict(key="u2_p027_masks", unit=2, page="p027", title="Masks from around the world", type="文化",
+              track="2.07", audio="Thk2e_BE_L0_SB_Unit_2_p27_t07.mp3", src="tb", lines=masks))
 
 # ============ U3 ============
 lines = load_lines("Unit 3 第1次课_教师用书.pdf")
@@ -144,7 +167,7 @@ P.append(dict(key="u3_p30_families", unit=3, page="p030", title="Famous families
 
 lines = load_lines("Unit 3 第3次课_教师用书.pdf")
 seg = span(lines, "Lottie So, is", "English teachers.")
-P.append(dict(key="u3_p34_photo", unit=3, page="p034", title="Ellie's photo", type="口语",
+P.append(dict(key="u3_p34_photo", unit=3, page="p034", title="Ellie's photo", type="阅读B",
               track="3.04", audio="Unit_3_p34_t04[reading].mp3", src="tb",
               lines=dialogue_turns(seg, ["Lottie", "Anna"])))
 
@@ -161,13 +184,46 @@ i0 = next(i for i, l in enumerate(lines) if "Morning. Can I" in l)
 seg = lines[i0 - 1:]  # 回退一行带上「Man」说话人标记
 ei = next(j for j in range(1, len(seg)) if "You, too. Bye!" in seg[j])
 seg = seg[:ei + 1]
-P.append(dict(key="u4_p42_shop", unit=4, page="p042", title="Buying in a shop", type="口语",
+P.append(dict(key="u4_p42_shop", unit=4, page="p042", title="Buying in a shop", type="阅读B",
               track="4.04", audio="4-p42-reading-ex1.mp3", src="tb",
               lines=dialogue_turns(seg, ["Man", "Girl", "Woman"])))
 
+# 4.11 FUNCTIONS 对话（体育杂志；TB 填空式，按空编号回填 Exercise 9 答案）
+fseg = span(lines, "A Morning. 0", "B Thanks. Bye!")
+fn_answers = {"0": "Can I help you?", "1": "Have you got", "2": "How much are they?",
+              "3": "I'll take them", "4": "That's", "5": "Here's your change"}
+fturns, cur = [], None
+for l in fseg:
+    m = re.match(r"^([AB])\b[ \t]*(.*)$", l)
+    if m:
+        if cur is not None:
+            fturns.append(cur)
+        cur = m.group(2)
+    elif l in ("A", "B"):
+        if cur is not None:
+            fturns.append(cur)
+        cur = ""
+    elif re.fullmatch(r"[a-f]", l):
+        continue  # 答案字母单独成行，跳过
+    elif cur is not None:
+        cur += " " + l
+if cur:
+    fturns.append(cur)
+
+def fill_gap(text):
+    """'Morning. 0 a' → 'Morning. Can I help you?'（空编号 → 答案短语）"""
+    m = re.search(r"\b([0-5])\b(?![.,\d])", text)
+    if not m:
+        return re.sub(r"\s+([,.?!])", r"\1", re.sub(r"\s{2,}", " ", text)).strip()
+    return fill_gap(text[:m.start()] + " " + fn_answers[m.group(1)] + " " + text[m.end():])
+
+P.append(dict(key="u4_p043_functions", unit=4, page="p043", title="Buying in a shop (functions)", type="口语",
+              track="4.11", audio="4-p43-functions-ex11.mp3", src="tb",
+              lines=[t for t in (fill_gap(x) for x in fturns) if t.strip()]))
+
 lines = load_lines("Unit 4 第4次课_教师用书.pdf")
 seg = span(lines, "Villa Borghese is a big public park", "view of the city.")
-P.append(dict(key="u4_p45_parks", unit=4, page="p045", title="Parks around the world", type="阅读B",
+P.append(dict(key="u4_p45_parks", unit=4, page="p045", title="Parks around the world", type="文化",
               track="4.12", audio="4-p45-culture-ex3.mp3", src="tb", lines=article_sents(seg)))
 
 json.dump(P, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
