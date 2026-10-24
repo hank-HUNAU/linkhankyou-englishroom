@@ -29,9 +29,18 @@ def sentences_of(text):
 def text_of(key):
     m = re.search(r"p\d+", key)                   # u7_p67_sportwonders -> p67
     num = m.group(0) if m else key.split("_")[-1]
-    for sub in ("篇章文本_U8", "篇章文本_U7_U12"):
-        for f in glob.glob(os.path.join(VD, sub, "*" + num + "*.txt")):
-            return open(f, encoding="utf-8").read()
+    # 命名兼容：p%03d 补零（U1-U4/U7-U12）与 p 后不补零（U5/U6）两种约定都试
+    digits = num.lstrip("p")
+    cands = [num] if num != digits else []
+    cands += ["p" + digits, "p%03d" % int(digits)] if digits.isdigit() else [digits]
+    seen, ordered = set(), []
+    for c in cands:
+        if c not in seen:
+            seen.add(c); ordered.append(c)
+    for sub in ("篇章文本_U1_U4", "篇章文本_U5_U6", "篇章文本_U8", "篇章文本_U7_U12"):
+        for c in ordered:
+            for f in glob.glob(os.path.join(VD, sub, "*" + c + "*.txt")):
+                return open(f, encoding="utf-8").read()
     return ""
 
 def body_of(key):
@@ -197,8 +206,10 @@ def main():
         wrong_unit = sorted({m for m in _re.findall(r"Unit \d+", html) if m != "Unit " + unit[1:]})
         if wrong_unit:
             raise SystemExit("[%s] 构建失败：页面残留他单元标题 %s" % (fk, wrong_unit))
-        if "共 50 词" in html or ">50 词" in html:
-            raise SystemExit("[%s] 构建失败：残留硬编码词数" % fk)
+        # 词数断言：占位符必须清零、且正确词数必须在场（2026-10-24 修：旧断言查字面
+        # "共 50 词"会误伤恰好 50 词的篇章——模板早先用 __NWORDS__ 占位，无硬编码可残留）
+        if "__NWORDS__" in html or ("共 %d 词" % len(rows)) not in html:
+            raise SystemExit("[%s] 构建失败：词数占位符异常（应有「共 %d 词」）" % (fk, len(rows)))
         out = os.path.join(VD, "词汇诊断_%s.html" % fk)
         audit_distractors(rows, fk)
         open(out, "w", encoding="utf-8").write(html)
