@@ -4,7 +4,7 @@ import json, glob, os
 
 BASE = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\Think F 教材资产"
 REPO = os.path.join(BASE, "github在线推送")
-OUT = os.path.join(REPO, "reports", "正文篇章清单_U5-U12.md")
+OUT = os.path.join(REPO, "reports", "正文篇章清单_U1-U12.md")
 
 files = sorted(glob.glob(os.path.join(BASE, "U*", "01_正文篇章", "句级数据_p*.json")))
 rows = []
@@ -33,10 +33,11 @@ L.append("## 总览")
 L.append("")
 tot_sent = sum(r["n_sent"] for r in rows)
 extra_sent = sum(len(tl[k]) for k in extra)
-L.append(f"- **正课文 {len(rows)} 篇 / {tot_sent} 句**，覆盖 U5–U12 共 8 个单元（每单元 4 篇：阅读A + 听力 + 阅读B + 口语/文化）")
+units_all = sorted({r["unit"] for r in rows})
+L.append(f"- **正课文 {len(rows)} 篇 / {tot_sent} 句**，覆盖 U1–U12 共 {len(units_all)} 个单元（每单元 4 篇）")
 L.append(f"- 另有时线段深链篇 **{'、'.join(extra)}**（{extra_sent} 句，transport 主题拓展阅读，无归档句级文件、直接在 timeline 维护）")
 L.append(f"- 合计 {len(rows) + len(extra)} 篇 / {tot_sent + extra_sent} 句")
-L.append(f"- U1–U4 无正课文句级数据（仅主题词表，live:false）")
+L.append(f"- U1–U4（2026-10-24 统一标准补入）：16 篇中 9 篇有官方文本（情况2，按课次教师用书文字层）+ 7 篇无稿听力/口语（情况1，ASR 转写）；音频已入 `assets/p0XX.mp3`")
 L.append("")
 L.append("## 按单元清单")
 L.append("")

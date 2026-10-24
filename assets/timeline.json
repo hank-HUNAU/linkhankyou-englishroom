@@ -1,4 +1,3699 @@
 {
+ "p012": [
+  {
+   "i": 0,
+   "start_s": 5.52,
+   "end_s": 6.94,
+   "dur_s": 1.42,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 1,
+   "start_s": 7.8,
+   "end_s": 8.51,
+   "dur_s": 0.71,
+   "text": "I’m Flavia."
+  },
+  {
+   "i": 2,
+   "start_s": 10.34,
+   "end_s": 11.54,
+   "dur_s": 1.2,
+   "text": "Where are you from?"
+  },
+  {
+   "i": 3,
+   "start_s": 12.36,
+   "end_s": 16.335,
+   "dur_s": 3.975,
+   "text": "I’m from Brazil. I live in Fortaleza."
+  },
+  {
+   "i": 4,
+   "start_s": 18.16,
+   "end_s": 19.679,
+   "dur_s": 1.519,
+   "text": "How old are you?"
+  },
+  {
+   "i": 5,
+   "start_s": 20.26,
+   "end_s": 20.697,
+   "dur_s": 0.437,
+   "text": "I’m 11."
+  },
+  {
+   "i": 6,
+   "start_s": 20.72,
+   "end_s": 25.2,
+   "dur_s": 4.48,
+   "text": "Who are your favourite musicians?"
+  },
+  {
+   "i": 7,
+   "start_s": 25.82,
+   "end_s": 30.685,
+   "dur_s": 4.865,
+   "text": "Blackpink. They’re a girl group from South Korea."
+  },
+  {
+   "i": 8,
+   "start_s": 32.52,
+   "end_s": 34.98,
+   "dur_s": 2.46,
+   "text": "Why are they your favourite musicians?"
+  },
+  {
+   "i": 9,
+   "start_s": 35.54,
+   "end_s": 36.96,
+   "dur_s": 1.42,
+   "text": "Because they’re great!"
+  },
+  {
+   "i": 10,
+   "start_s": 39.66,
+   "end_s": 41.273,
+   "dur_s": 1.613,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 11,
+   "start_s": 41.86,
+   "end_s": 43.5,
+   "dur_s": 1.64,
+   "text": "My name is Jess."
+  },
+  {
+   "i": 12,
+   "start_s": 45.62,
+   "end_s": 46.68,
+   "dur_s": 1.06,
+   "text": "Where are you from?"
+  },
+  {
+   "i": 13,
+   "start_s": 47.28,
+   "end_s": 51.06,
+   "dur_s": 3.78,
+   "text": "I’m British. I’m from Newcastle."
+  },
+  {
+   "i": 14,
+   "start_s": 52.9,
+   "end_s": 54.37,
+   "dur_s": 1.47,
+   "text": "How old are you?"
+  },
+  {
+   "i": 15,
+   "start_s": 54.37,
+   "end_s": 55.48,
+   "dur_s": 1.11,
+   "text": "I’m 12."
+  },
+  {
+   "i": 16,
+   "start_s": 57.32,
+   "end_s": 59.44,
+   "dur_s": 2.12,
+   "text": "Who’s your favourite musician?"
+  },
+  {
+   "i": 17,
+   "start_s": 60.244,
+   "end_s": 64.16,
+   "dur_s": 3.916,
+   "text": "Bruno Mars. He’s a singer from the US."
+  },
+  {
+   "i": 18,
+   "start_s": 66.26,
+   "end_s": 68.5,
+   "dur_s": 2.24,
+   "text": "Why is he your favourite musician?"
+  },
+  {
+   "i": 19,
+   "start_s": 69.08,
+   "end_s": 70.9,
+   "dur_s": 1.82,
+   "text": "Because he’s awesome!"
+  },
+  {
+   "i": 20,
+   "start_s": 73.7,
+   "end_s": 75.1,
+   "dur_s": 1.4,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 21,
+   "start_s": 108.6,
+   "end_s": 110.74,
+   "dur_s": 2.14,
+   "text": "My name is Li Jun."
+  },
+  {
+   "i": 22,
+   "start_s": 112.44,
+   "end_s": 113.8,
+   "dur_s": 1.36,
+   "text": "Where are you from?"
+  },
+  {
+   "i": 23,
+   "start_s": 114.48,
+   "end_s": 118.64,
+   "dur_s": 4.16,
+   "text": "I’m from Indonesia. I live in Jakarta."
+  },
+  {
+   "i": 24,
+   "start_s": 120.64,
+   "end_s": 122.067,
+   "dur_s": 1.427,
+   "text": "How old are you?"
+  },
+  {
+   "i": 25,
+   "start_s": 122.613,
+   "end_s": 123.64,
+   "dur_s": 1.027,
+   "text": "I’m 11."
+  },
+  {
+   "i": 26,
+   "start_s": 125.3,
+   "end_s": 127.52,
+   "dur_s": 2.22,
+   "text": "Who’s your favourite musician?"
+  },
+  {
+   "i": 27,
+   "start_s": 128.16,
+   "end_s": 132.14,
+   "dur_s": 3.98,
+   "text": "Yuja Wang. She’s a pianist from China."
+  },
+  {
+   "i": 28,
+   "start_s": 134.14,
+   "end_s": 136.28,
+   "dur_s": 2.14,
+   "text": "Why is she your favourite musician?"
+  },
+  {
+   "i": 29,
+   "start_s": 136.98,
+   "end_s": 137.797,
+   "dur_s": 0.817,
+   "text": "Because she’s cool!"
+  },
+  {
+   "i": 30,
+   "start_s": 137.84,
+   "end_s": 138.04,
+   "dur_s": 0.2,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 31,
+   "start_s": 138.14,
+   "end_s": 138.19,
+   "dur_s": 0.05,
+   "text": "Cenc."
+  },
+  {
+   "i": 32,
+   "start_s": 138.29,
+   "end_s": 138.59,
+   "dur_s": 0.3,
+   "text": "Where are you from?"
+  },
+  {
+   "i": 33,
+   "start_s": 138.59,
+   "end_s": 138.665,
+   "dur_s": 0.075,
+   "text": "I’m Turkish. I’m from a city called Izmir."
+  },
+  {
+   "i": 34,
+   "start_s": 138.665,
+   "end_s": 138.703,
+   "dur_s": 0.038,
+   "text": "How old are you?"
+  },
+  {
+   "i": 35,
+   "start_s": 138.703,
+   "end_s": 138.722,
+   "dur_s": 0.019,
+   "text": "I’m ten."
+  },
+  {
+   "i": 36,
+   "start_s": 138.722,
+   "end_s": 138.731,
+   "dur_s": 0.009,
+   "text": "Who’s your favourite musician?"
+  },
+  {
+   "i": 37,
+   "start_s": 138.731,
+   "end_s": 138.736,
+   "dur_s": 0.005,
+   "text": "Ed Sheeran. He’s a singer and a guitar player."
+  },
+  {
+   "i": 38,
+   "start_s": 138.736,
+   "end_s": 138.738,
+   "dur_s": 0.002,
+   "text": "Why is he your favourite musician?"
+  },
+  {
+   "i": 39,
+   "start_s": 138.738,
+   "end_s": 138.939,
+   "dur_s": 0.201,
+   "text": "Because he’s great!"
+  }
+ ],
+ "p015": [
+  {
+   "i": 0,
+   "start_s": 4.04,
+   "end_s": 5.16,
+   "dur_s": 1.12,
+   "text": "Exercise 8"
+  },
+  {
+   "i": 1,
+   "start_s": 6.08,
+   "end_s": 10.54,
+   "dur_s": 4.46,
+   "text": "Hello and welcome to the One Minute Challenge."
+  },
+  {
+   "i": 2,
+   "start_s": 13.2,
+   "end_s": 18.02,
+   "dur_s": 4.82,
+   "text": "On Line 1 we have Jason. Where are you from, Jason?"
+  },
+  {
+   "i": 3,
+   "start_s": 18.72,
+   "end_s": 20.92,
+   "dur_s": 2.2,
+   "text": "Hi, Megan. I'm from Birmingham."
+  },
+  {
+   "i": 4,
+   "start_s": 21.4,
+   "end_s": 26.6,
+   "dur_s": 5.2,
+   "text": "That's great. OK, Jason, you have one minute."
+  },
+  {
+   "i": 5,
+   "start_s": 27.36,
+   "end_s": 29.38,
+   "dur_s": 2.02,
+   "text": "How many questions can you answer?"
+  },
+  {
+   "i": 6,
+   "start_s": 30.0,
+   "end_s": 36.38,
+   "dur_s": 6.38,
+   "text": "Today's questions are all about nationalities. OK."
+  },
+  {
+   "i": 7,
+   "start_s": 37.46,
+   "end_s": 39.38,
+   "dur_s": 1.92,
+   "text": "Jason, are you ready?"
+  },
+  {
+   "i": 8,
+   "start_s": 40.0,
+   "end_s": 41.02,
+   "dur_s": 1.02,
+   "text": "Yes, I am."
+  },
+  {
+   "i": 9,
+   "start_s": 41.6,
+   "end_s": 44.92,
+   "dur_s": 3.32,
+   "text": "So let's play the One Minute Challenge."
+  },
+  {
+   "i": 10,
+   "start_s": 46.84,
+   "end_s": 47.76,
+   "dur_s": 0.92,
+   "text": "OK."
+  },
+  {
+   "i": 11,
+   "start_s": 49.1,
+   "end_s": 53.14,
+   "dur_s": 4.04,
+   "text": "Coco Goff, the tennis player, is from..."
+  },
+  {
+   "i": 12,
+   "start_s": 53.14,
+   "end_s": 56.6,
+   "dur_s": 3.46,
+   "text": "The US. She's American. Correct."
+  },
+  {
+   "i": 13,
+   "start_s": 57.48,
+   "end_s": 58.52,
+   "dur_s": 1.04,
+   "text": "Question 2."
+  },
+  {
+   "i": 14,
+   "start_s": 59.02,
+   "end_s": 61.26,
+   "dur_s": 2.24,
+   "text": "Pyea is from..."
+  },
+  {
+   "i": 15,
+   "start_s": 61.26,
+   "end_s": 65.94,
+   "dur_s": 4.68,
+   "text": "Pyea? That's a type of food. It's South African."
+  },
+  {
+   "i": 16,
+   "start_s": 66.54,
+   "end_s": 74.88,
+   "dur_s": 8.34,
+   "text": "No, I'm sorry. You're wrong. It's a Spanish dish. Of course. Three."
+  },
+  {
+   "i": 17,
+   "start_s": 76.0,
+   "end_s": 78.82,
+   "dur_s": 2.82,
+   "text": "Cape Town is a city in..."
+  },
+  {
+   "i": 18,
+   "start_s": 78.82,
+   "end_s": 82.02,
+   "dur_s": 3.2,
+   "text": "South Africa. It's a South African city."
+  },
+  {
+   "i": 19,
+   "start_s": 82.86,
+   "end_s": 85.42,
+   "dur_s": 2.56,
+   "text": "Correct. Next question."
+  },
+  {
+   "i": 20,
+   "start_s": 86.92,
+   "end_s": 90.16,
+   "dur_s": 3.24,
+   "text": "Cariocas are people from..."
+  },
+  {
+   "i": 21,
+   "start_s": 90.96,
+   "end_s": 92.3,
+   "dur_s": 1.34,
+   "text": "I have no idea."
+  },
+  {
+   "i": 22,
+   "start_s": 93.24,
+   "end_s": 97.58,
+   "dur_s": 4.34,
+   "text": "Cariocas. They're from Rio de Janeiro in Brazil."
+  },
+  {
+   "i": 23,
+   "start_s": 98.32,
+   "end_s": 99.5,
+   "dur_s": 1.18,
+   "text": "I didn't know that."
+  },
+  {
+   "i": 24,
+   "start_s": 100.7,
+   "end_s": 105.64,
+   "dur_s": 4.94,
+   "text": "The actor, Yalitza Aparicio, is from..."
+  },
+  {
+   "i": 25,
+   "start_s": 105.64,
+   "end_s": 107.0,
+   "dur_s": 1.36,
+   "text": "Spain, I think."
+  },
+  {
+   "i": 26,
+   "start_s": 107.72,
+   "end_s": 111.14,
+   "dur_s": 3.42,
+   "text": "Sorry, you're wrong. She's Mexican."
+  },
+  {
+   "i": 27,
+   "start_s": 112.16,
+   "end_s": 113.26,
+   "dur_s": 1.1,
+   "text": "Last question."
+  },
+  {
+   "i": 28,
+   "start_s": 114.22,
+   "end_s": 116.34,
+   "dur_s": 2.12,
+   "text": "Salsa music is..."
+  },
+  {
+   "i": 29,
+   "start_s": 118.62,
+   "end_s": 122.22,
+   "dur_s": 3.6,
+   "text": "I'm sorry, Jason. We're out of time."
+  },
+  {
+   "i": 30,
+   "start_s": 123.14,
+   "end_s": 125.4,
+   "dur_s": 2.26,
+   "text": "Your score is 2."
+  },
+  {
+   "i": 31,
+   "start_s": 125.96,
+   "end_s": 127.4,
+   "dur_s": 1.44,
+   "text": "Oh, terrible."
+  }
+ ],
+ "p016": [
+  {
+   "i": 0,
+   "start_s": 6.42,
+   "end_s": 7.2,
+   "dur_s": 0.78,
+   "text": "Nice T-shirt."
+  },
+  {
+   "i": 1,
+   "start_s": 8.1,
+   "end_s": 11.02,
+   "dur_s": 2.92,
+   "text": "Thank you. It’s Ariana Grande."
+  },
+  {
+   "i": 2,
+   "start_s": 11.64,
+   "end_s": 17.4,
+   "dur_s": 5.76,
+   "text": "I know. I’m an Ariana Grande fan, too. So, what’s your name?"
+  },
+  {
+   "i": 3,
+   "start_s": 18.24,
+   "end_s": 21.049,
+   "dur_s": 2.809,
+   "text": ". And what’s your name?"
+  },
+  {
+   "i": 4,
+   "start_s": 21.48,
+   "end_s": 22.26,
+   "dur_s": 0.78,
+   "text": "I’m Steve."
+  },
+  {
+   "i": 5,
+   "start_s": 22.98,
+   "end_s": 24.5,
+   "dur_s": 1.52,
+   "text": "Nice to meet you, Steve."
+  },
+  {
+   "i": 6,
+   "start_s": 25.12,
+   "end_s": 28.4,
+   "dur_s": 3.28,
+   "text": "Nice to meet you, too, Camila. Where are you from?"
+  },
+  {
+   "i": 7,
+   "start_s": 28.4,
+   "end_s": 33.44,
+   "dur_s": 5.04,
+   "text": "I’m from Spain. I’m from a small town called Teruel."
+  },
+  {
+   "i": 8,
+   "start_s": 34.06,
+   "end_s": 36.34,
+   "dur_s": 2.28,
+   "text": "Spain is a beautiful country."
+  },
+  {
+   "i": 9,
+   "start_s": 36.96,
+   "end_s": 40.76,
+   "dur_s": 3.8,
+   "text": "Yes, it is. Who’s your favourite singer?"
+  },
+  {
+   "i": 10,
+   "start_s": 43.36,
+   "end_s": 47.48,
+   "dur_s": 4.12,
+   "text": "Umm … er … well, it’s that British guy, Shawn Mendes."
+  },
+  {
+   "i": 11,
+   "start_s": 48.16,
+   "end_s": 49.38,
+   "dur_s": 1.22,
+   "text": "Shawn Mendes?"
+  },
+  {
+   "i": 12,
+   "start_s": 49.94,
+   "end_s": 51.6,
+   "dur_s": 1.66,
+   "text": "Yes, he’s great."
+  },
+  {
+   "i": 13,
+   "start_s": 52.14,
+   "end_s": 56.64,
+   "dur_s": 4.5,
+   "text": "Yes, he is. But he isn’t a British singer."
+  },
+  {
+   "i": 14,
+   "start_s": 57.18,
+   "end_s": 57.56,
+   "dur_s": 0.38,
+   "text": "No?"
+  },
+  {
+   "i": 15,
+   "start_s": 57.56,
+   "end_s": 60.56,
+   "dur_s": 3.0,
+   "text": "No! He’s from Canada!"
+  },
+  {
+   "i": 16,
+   "start_s": 61.32,
+   "end_s": 61.74,
+   "dur_s": 0.42,
+   "text": "Oh!"
+  },
+  {
+   "i": 17,
+   "start_s": 62.5,
+   "end_s": 65.36,
+   "dur_s": 2.86,
+   "text": "I need to go now. Bye, Steve."
+  },
+  {
+   "i": 18,
+   "start_s": 66.12,
+   "end_s": 67.78,
+   "dur_s": 1.66,
+   "text": "Oh, OK! Bye!"
+  }
+ ],
+ "p018": [
+  {
+   "i": 0,
+   "start_s": 9.44,
+   "end_s": 10.1,
+   "dur_s": 0.66,
+   "text": "Hi, Tom."
+  },
+  {
+   "i": 1,
+   "start_s": 10.54,
+   "end_s": 12.66,
+   "dur_s": 2.12,
+   "text": "Hi, Mark. How's it going?"
+  },
+  {
+   "i": 2,
+   "start_s": 13.34,
+   "end_s": 15.78,
+   "dur_s": 2.44,
+   "text": "Great, thanks. Nice skateboard."
+  },
+  {
+   "i": 3,
+   "start_s": 16.48,
+   "end_s": 18.1,
+   "dur_s": 1.62,
+   "text": "Oh, right. Thanks."
+  },
+  {
+   "i": 4,
+   "start_s": 19.96,
+   "end_s": 21.08,
+   "dur_s": 1.12,
+   "text": "Who's that?"
+  },
+  {
+   "i": 5,
+   "start_s": 21.74,
+   "end_s": 22.98,
+   "dur_s": 1.24,
+   "text": "That's Daniela."
+  },
+  {
+   "i": 6,
+   "start_s": 23.6,
+   "end_s": 24.44,
+   "dur_s": 0.84,
+   "text": "Who's she?"
+  },
+  {
+   "i": 7,
+   "start_s": 25.04,
+   "end_s": 27.7,
+   "dur_s": 2.66,
+   "text": "She's new. She's in another class."
+  },
+  {
+   "i": 8,
+   "start_s": 30.0,
+   "end_s": 31.1,
+   "dur_s": 1.1,
+   "text": "Where's she from?"
+  },
+  {
+   "i": 9,
+   "start_s": 31.88,
+   "end_s": 37.78,
+   "dur_s": 5.9,
+   "text": "I'm not sure, but I think she's Spanish. From Madrid, I think."
+  },
+  {
+   "i": 10,
+   "start_s": 38.34,
+   "end_s": 43.22,
+   "dur_s": 4.88,
+   "text": "Spanish? Wow. That's awesome. I know."
+  },
+  {
+   "i": 11,
+   "start_s": 45.02,
+   "end_s": 51.68,
+   "dur_s": 6.66,
+   "text": "Hi, you two. I'm Daniela. I'm new here. I'm from Manchester."
+  },
+  {
+   "i": 12,
+   "start_s": 52.62,
+   "end_s": 55.44,
+   "dur_s": 2.82,
+   "text": "Manchester? But Tom..."
+  },
+  {
+   "i": 13,
+   "start_s": 55.44,
+   "end_s": 58.88,
+   "dur_s": 3.44,
+   "text": "Okay. Time to go. See you later, Mark."
+  },
+  {
+   "i": 14,
+   "start_s": 59.6,
+   "end_s": 60.62,
+   "dur_s": 1.02,
+   "text": "Bye, Daniela."
+  },
+  {
+   "i": 15,
+   "start_s": 60.9,
+   "end_s": 63.16,
+   "dur_s": 2.26,
+   "text": "Bye. Is there a problem?"
+  }
+ ],
+ "p020": [
+  {
+   "i": 0,
+   "start_s": 10.68,
+   "end_s": 13.32,
+   "dur_s": 2.64,
+   "text": "Hi there, I’m at a party."
+  },
+  {
+   "i": 1,
+   "start_s": 14.16,
+   "end_s": 17.009,
+   "dur_s": 2.849,
+   "text": "There are lots of girls and boys here."
+  },
+  {
+   "i": 2,
+   "start_s": 17.76,
+   "end_s": 19.38,
+   "dur_s": 1.62,
+   "text": "The food is great."
+  },
+  {
+   "i": 3,
+   "start_s": 20.32,
+   "end_s": 21.36,
+   "dur_s": 1.04,
+   "text": "Lots of balloons."
+  },
+  {
+   "i": 4,
+   "start_s": 22.28,
+   "end_s": 24.04,
+   "dur_s": 1.76,
+   "text": "There is only one problem."
+  },
+  {
+   "i": 5,
+   "start_s": 24.84,
+   "end_s": 26.52,
+   "dur_s": 1.68,
+   "text": "My friends aren’t here!"
+  },
+  {
+   "i": 6,
+   "start_s": 27.24,
+   "end_s": 28.24,
+   "dur_s": 1.0,
+   "text": "I’m sad."
+  },
+  {
+   "i": 7,
+   "start_s": 34.22,
+   "end_s": 38.98,
+   "dur_s": 4.76,
+   "text": "I’m at the computer shop with Dad to get my new phone!"
+  },
+  {
+   "i": 8,
+   "start_s": 39.68,
+   "end_s": 41.14,
+   "dur_s": 1.46,
+   "text": "Dad is angry."
+  },
+  {
+   "i": 9,
+   "start_s": 42.04,
+   "end_s": 47.125,
+   "dur_s": 5.085,
+   "text": "The sales assistant isn’t here, but the wait isn’t a problem for me."
+  },
+  {
+   "i": 10,
+   "start_s": 47.68,
+   "end_s": 48.878,
+   "dur_s": 1.198,
+   "text": "I’m not bored."
+  },
+  {
+   "i": 11,
+   "start_s": 49.5,
+   "end_s": 51.955,
+   "dur_s": 2.455,
+   "text": "There are lots of cool things here!"
+  },
+  {
+   "i": 12,
+   "start_s": 57.66,
+   "end_s": 61.5,
+   "dur_s": 3.84,
+   "text": "I’m at the cinema and I’m so excited!"
+  },
+  {
+   "i": 13,
+   "start_s": 62.36,
+   "end_s": 66.02,
+   "dur_s": 3.66,
+   "text": "It’s the first day of the new Star Wars film."
+  },
+  {
+   "i": 14,
+   "start_s": 67.04,
+   "end_s": 68.72,
+   "dur_s": 1.68,
+   "text": "Lots of people are here."
+  },
+  {
+   "i": 15,
+   "start_s": 69.84,
+   "end_s": 72.423,
+   "dur_s": 2.583,
+   "text": "Kim and Olivia are with me."
+  },
+  {
+   "i": 16,
+   "start_s": 73.24,
+   "end_s": 75.64,
+   "dur_s": 2.4,
+   "text": "We’re hungry and thirsty."
+  },
+  {
+   "i": 17,
+   "start_s": 83.62,
+   "end_s": 85.4,
+   "dur_s": 1.78,
+   "text": "We’re at the station."
+  },
+  {
+   "i": 18,
+   "start_s": 86.42,
+   "end_s": 88.86,
+   "dur_s": 2.44,
+   "text": "The train to the airport isn’t here."
+  },
+  {
+   "i": 19,
+   "start_s": 89.58,
+   "end_s": 90.2,
+   "dur_s": 0.62,
+   "text": "It’s late."
+  },
+  {
+   "i": 20,
+   "start_s": 91.2,
+   "end_s": 95.88,
+   "dur_s": 4.68,
+   "text": "The plane is at nine tonight and Mum and Dad are a bit worried."
+  },
+  {
+   "i": 21,
+   "start_s": 96.74,
+   "end_s": 97.82,
+   "dur_s": 1.08,
+   "text": "I’m not worried."
+  },
+  {
+   "i": 22,
+   "start_s": 98.5,
+   "end_s": 99.54,
+   "dur_s": 1.04,
+   "text": "I’m on holiday."
+  },
+  {
+   "i": 23,
+   "start_s": 100.4,
+   "end_s": 102.56,
+   "dur_s": 2.16,
+   "text": "No school for six weeks!!!!!"
+  }
+ ],
+ "p023": [
+  {
+   "i": 0,
+   "start_s": 3.16,
+   "end_s": 3.56,
+   "dur_s": 0.4,
+   "text": "Listening"
+  },
+  {
+   "i": 1,
+   "start_s": 4.38,
+   "end_s": 6.5,
+   "dur_s": 2.12,
+   "text": "Exercises 9 and 10"
+  },
+  {
+   "i": 2,
+   "start_s": 7.4,
+   "end_s": 8.26,
+   "dur_s": 0.86,
+   "text": "Example"
+  },
+  {
+   "i": 3,
+   "start_s": 12.22,
+   "end_s": 15.42,
+   "dur_s": 3.2,
+   "text": "Why don't you go to bed, Liam?"
+  },
+  {
+   "i": 4,
+   "start_s": 16.06,
+   "end_s": 19.42,
+   "dur_s": 3.36,
+   "text": "I'm not tired. There's nothing to do here."
+  },
+  {
+   "i": 5,
+   "start_s": 19.86,
+   "end_s": 22.86,
+   "dur_s": 3.0,
+   "text": "Well, go somewhere. Go to the cinema."
+  },
+  {
+   "i": 6,
+   "start_s": 23.62,
+   "end_s": 25.46,
+   "dur_s": 1.84,
+   "text": "There's nothing good on."
+  },
+  {
+   "i": 7,
+   "start_s": 26.04,
+   "end_s": 27.1,
+   "dur_s": 1.06,
+   "text": "Read a book."
+  },
+  {
+   "i": 8,
+   "start_s": 27.1,
+   "end_s": 35.44,
+   "dur_s": 8.34,
+   "text": "Look. It's okay, Mum. Don't worry. 1."
+  },
+  {
+   "i": 9,
+   "start_s": 36.9,
+   "end_s": 38.08,
+   "dur_s": 1.18,
+   "text": "Sandwich, Lucy?"
+  },
+  {
+   "i": 10,
+   "start_s": 38.9,
+   "end_s": 41.66,
+   "dur_s": 2.76,
+   "text": "Yes, please. Can I have two?"
+  },
+  {
+   "i": 11,
+   "start_s": 42.44,
+   "end_s": 43.24,
+   "dur_s": 0.8,
+   "text": "Of course."
+  },
+  {
+   "i": 12,
+   "start_s": 43.78,
+   "end_s": 46.54,
+   "dur_s": 2.76,
+   "text": "And can I have that pizza, too?"
+  },
+  {
+   "i": 13,
+   "start_s": 47.36,
+   "end_s": 51.76,
+   "dur_s": 4.4,
+   "text": "Okay. Two sandwiches and a pizza, please."
+  },
+  {
+   "i": 14,
+   "start_s": 54.04,
+   "end_s": 54.84,
+   "dur_s": 0.8,
+   "text": "2."
+  },
+  {
+   "i": 15,
+   "start_s": 55.76,
+   "end_s": 57.84,
+   "dur_s": 2.08,
+   "text": "Be careful, Tim."
+  },
+  {
+   "i": 16,
+   "start_s": 59.38,
+   "end_s": 65.06,
+   "dur_s": 5.68,
+   "text": "Tim, look! That's Mum's favourite."
+  },
+  {
+   "i": 17,
+   "start_s": 65.96,
+   "end_s": 67.76,
+   "dur_s": 1.8,
+   "text": "Oh dear. I'm sorry."
+  },
+  {
+   "i": 18,
+   "start_s": 68.72,
+   "end_s": 71.44,
+   "dur_s": 2.72,
+   "text": "Oh, this is really serious."
+  },
+  {
+   "i": 19,
+   "start_s": 72.4,
+   "end_s": 79.48,
+   "dur_s": 7.08,
+   "text": "Really? Oh dear. What can I do? 3."
+  },
+  {
+   "i": 20,
+   "start_s": 80.82,
+   "end_s": 83.6,
+   "dur_s": 2.78,
+   "text": "Can I open the window, please, Eve?"
+  },
+  {
+   "i": 21,
+   "start_s": 83.6,
+   "end_s": 85.3,
+   "dur_s": 1.7,
+   "text": "That's a good idea."
+  },
+  {
+   "i": 22,
+   "start_s": 86.9,
+   "end_s": 90.62,
+   "dur_s": 3.72,
+   "text": "Ah, that's a lot better."
+  },
+  {
+   "i": 23,
+   "start_s": 91.4,
+   "end_s": 94.32,
+   "dur_s": 2.92,
+   "text": "Yes, it's a really nice day."
+  }
+ ],
+ "p024": [
+  {
+   "i": 0,
+   "start_s": 6.32,
+   "end_s": 8.46,
+   "dur_s": 2.14,
+   "text": "Hi, Ben, how’s it going?"
+  },
+  {
+   "i": 1,
+   "start_s": 9.0,
+   "end_s": 12.58,
+   "dur_s": 3.58,
+   "text": "Hey! I’m fine thanks. What about you?"
+  },
+  {
+   "i": 2,
+   "start_s": 13.36,
+   "end_s": 16.52,
+   "dur_s": 3.16,
+   "text": "I’m really excited. It’s my birthday."
+  },
+  {
+   "i": 3,
+   "start_s": 17.624,
+   "end_s": 22.02,
+   "dur_s": 4.396,
+   "text": "Your birthday? Today? Isn’t it next week?"
+  },
+  {
+   "i": 4,
+   "start_s": 22.64,
+   "end_s": 26.58,
+   "dur_s": 3.94,
+   "text": "No, it’s today. So where’s my present?"
+  },
+  {
+   "i": 5,
+   "start_s": 27.14,
+   "end_s": 34.3,
+   "dur_s": 7.16,
+   "text": "Umm, err. Yes, your present. What do you want?"
+  },
+  {
+   "i": 6,
+   "start_s": 35.18,
+   "end_s": 37.3,
+   "dur_s": 2.12,
+   "text": "I don’t know. A surprise?"
+  },
+  {
+   "i": 7,
+   "start_s": 38.52,
+   "end_s": 42.94,
+   "dur_s": 4.42,
+   "text": "How about tickets for the Camila Cabello concert in June?"
+  },
+  {
+   "i": 8,
+   "start_s": 43.82,
+   "end_s": 52.373,
+   "dur_s": 8.553,
+   "text": "Wow – that’s an expensive present. Camila Cabello? No, I don’t like her."
+  },
+  {
+   "i": 9,
+   "start_s": 53.74,
+   "end_s": 56.56,
+   "dur_s": 2.82,
+   "text": "What about a book about football?"
+  },
+  {
+   "i": 10,
+   "start_s": 57.5,
+   "end_s": 63.4,
+   "dur_s": 5.9,
+   "text": "Football? Sorry, I don’t like it. I only like tennis."
+  },
+  {
+   "i": 11,
+   "start_s": 64.32,
+   "end_s": 69.84,
+   "dur_s": 5.52,
+   "text": "OK, I know. A 5 Seconds of Summer T-shirt."
+  },
+  {
+   "i": 12,
+   "start_s": 71.0,
+   "end_s": 74.3,
+   "dur_s": 3.3,
+   "text": "No, thanks. I don’t like them any more."
+  },
+  {
+   "i": 13,
+   "start_s": 75.04,
+   "end_s": 82.86,
+   "dur_s": 7.82,
+   "text": "Oh. Can I take you for an ice cream in town? There’s a great new Italian ice cream shop."
+  },
+  {
+   "i": 14,
+   "start_s": 83.28,
+   "end_s": 86.68,
+   "dur_s": 3.4,
+   "text": "Sorry. I don’t like ice cream."
+  },
+  {
+   "i": 15,
+   "start_s": 87.28,
+   "end_s": 103.94,
+   "dur_s": 16.66,
+   "text": "This is difficult. No concert, no book, no T-shirt, no ice cream. How about a big bar of chocolate? No? You don’t like chocolate?"
+  },
+  {
+   "i": 16,
+   "start_s": 104.8,
+   "end_s": 107.26,
+   "dur_s": 2.46,
+   "text": "Of course I like chocolate."
+  },
+  {
+   "i": 17,
+   "start_s": 107.82,
+   "end_s": 108.94,
+   "dur_s": 1.12,
+   "text": "You do?"
+  },
+  {
+   "i": 18,
+   "start_s": 109.8,
+   "end_s": 114.78,
+   "dur_s": 4.98,
+   "text": "But not milk chocolate. I only like white chocolate."
+  },
+  {
+   "i": 19,
+   "start_s": 115.46,
+   "end_s": 118.78,
+   "dur_s": 3.32,
+   "text": "Only white chocolate. OK."
+  },
+  {
+   "i": 20,
+   "start_s": 120.12,
+   "end_s": 124.86,
+   "dur_s": 4.74,
+   "text": ". I’m only joking. I don’t need a present."
+  },
+  {
+   "i": 21,
+   "start_s": 125.82,
+   "end_s": 126.36,
+   "dur_s": 0.54,
+   "text": "Really?"
+  },
+  {
+   "i": 22,
+   "start_s": 127.14,
+   "end_s": 130.75,
+   "dur_s": 3.61,
+   "text": "Yes, and one more thing …"
+  },
+  {
+   "i": 23,
+   "start_s": 130.94,
+   "end_s": 131.94,
+   "dur_s": 1.0,
+   "text": "What’s that?"
+  },
+  {
+   "i": 24,
+   "start_s": 132.5,
+   "end_s": 136.94,
+   "dur_s": 4.44,
+   "text": "It isn’t my birthday today. It’s next week."
+  }
+ ],
+ "p028": [
+  {
+   "i": 0,
+   "start_s": 5.08,
+   "end_s": 8.48,
+   "dur_s": 3.4,
+   "text": "Page 28. Listening. Exercise 2."
+  },
+  {
+   "i": 1,
+   "start_s": 11.0,
+   "end_s": 16.28,
+   "dur_s": 5.28,
+   "text": "Hello everyone. Today there is a new girl in our class."
+  },
+  {
+   "i": 2,
+   "start_s": 17.22,
+   "end_s": 20.22,
+   "dur_s": 3.0,
+   "text": "Her name is Jade. Hi."
+  },
+  {
+   "i": 3,
+   "start_s": 21.06,
+   "end_s": 24.22,
+   "dur_s": 3.16,
+   "text": "Hi Jade. Tell us about yourself."
+  },
+  {
+   "i": 4,
+   "start_s": 24.22,
+   "end_s": 32.62,
+   "dur_s": 8.4,
+   "text": "Well, hi everyone. I'm Jade. Jade Griffin."
+  },
+  {
+   "i": 5,
+   "start_s": 35.0,
+   "end_s": 37.2,
+   "dur_s": 2.2,
+   "text": "I'm 11."
+  },
+  {
+   "i": 6,
+   "start_s": 38.72,
+   "end_s": 46.52,
+   "dur_s": 7.8,
+   "text": "11 years old and well, I'm from New York."
+  },
+  {
+   "i": 7,
+   "start_s": 46.52,
+   "end_s": 53.28,
+   "dur_s": 6.76,
+   "text": "And well, you know, I'm friendly."
+  },
+  {
+   "i": 8,
+   "start_s": 55.38,
+   "end_s": 61.0,
+   "dur_s": 5.62,
+   "text": "What things do you like, Jade? Sport? Music?"
+  },
+  {
+   "i": 9,
+   "start_s": 61.7,
+   "end_s": 69.4,
+   "dur_s": 7.7,
+   "text": "Oh, right. Well, I like basketball. I like basketball a lot."
+  },
+  {
+   "i": 10,
+   "start_s": 70.24,
+   "end_s": 74.74,
+   "dur_s": 4.5,
+   "text": "But I don't like computer games very much."
+  },
+  {
+   "i": 11,
+   "start_s": 74.74,
+   "end_s": 80.52,
+   "dur_s": 5.78,
+   "text": "Okay. So thank you Jade. We're happy that you're here."
+  },
+  {
+   "i": 12,
+   "start_s": 81.04,
+   "end_s": 88.0,
+   "dur_s": 6.96,
+   "text": "Thank you. Thanks a lot. I'm very excited to be here in the United Kingdom."
+  }
+ ],
+ "p030": [
+  {
+   "i": 0,
+   "start_s": 10.48,
+   "end_s": 15.44,
+   "dur_s": 4.96,
+   "text": "Emma Watson is a famous English actress."
+  },
+  {
+   "i": 1,
+   "start_s": 16.6,
+   "end_s": 20.5,
+   "dur_s": 3.9,
+   "text": "She is Hermione Granger in the Harry Potter films."
+  },
+  {
+   "i": 2,
+   "start_s": 22.18,
+   "end_s": 24.8,
+   "dur_s": 2.62,
+   "text": "Emma’s mother and father are lawyers."
+  },
+  {
+   "i": 3,
+   "start_s": 25.8,
+   "end_s": 32.56,
+   "dur_s": 6.76,
+   "text": "Her mother’s name is Jacqueline Luesby and her father’s name is Chris Watson."
+  },
+  {
+   "i": 4,
+   "start_s": 33.56,
+   "end_s": 36.2,
+   "dur_s": 2.64,
+   "text": "They live in Oxford, in England."
+  },
+  {
+   "i": 5,
+   "start_s": 37.7,
+   "end_s": 39.6,
+   "dur_s": 1.9,
+   "text": "She’s got two sisters."
+  },
+  {
+   "i": 6,
+   "start_s": 40.48,
+   "end_s": 41.5,
+   "dur_s": 1.02,
+   "text": "They’re twins."
+  },
+  {
+   "i": 7,
+   "start_s": 42.84,
+   "end_s": 45.26,
+   "dur_s": 2.42,
+   "text": "They’re called Lucy and Nina."
+  },
+  {
+   "i": 8,
+   "start_s": 46.44,
+   "end_s": 51.62,
+   "dur_s": 5.18,
+   "text": "She’s also got a brother called Toby and a brother called Alex."
+  },
+  {
+   "i": 9,
+   "start_s": 52.62,
+   "end_s": 54.68,
+   "dur_s": 2.06,
+   "text": "Emma is very busy."
+  },
+  {
+   "i": 10,
+   "start_s": 55.9,
+   "end_s": 61.9,
+   "dur_s": 6.0,
+   "text": "She’s in many films and she is also a UN Goodwill Ambassador."
+  },
+  {
+   "i": 11,
+   "start_s": 65.4,
+   "end_s": 73.166,
+   "dur_s": 7.766,
+   "text": "Chris Hemsworth is a famous Australian actor."
+  },
+  {
+   "i": 12,
+   "start_s": 73.88,
+   "end_s": 82.76,
+   "dur_s": 8.88,
+   "text": "He was born in Melbourne, in 1983, but his grandfather is Dutch and his grandmother is Irish."
+  },
+  {
+   "i": 13,
+   "start_s": 84.06,
+   "end_s": 86.831,
+   "dur_s": 2.771,
+   "text": "His wife’s name is Elsa Pataky."
+  },
+  {
+   "i": 14,
+   "start_s": 87.64,
+   "end_s": 89.92,
+   "dur_s": 2.28,
+   "text": "She is a famous Spanish actress."
+  },
+  {
+   "i": 15,
+   "start_s": 91.14,
+   "end_s": 96.08,
+   "dur_s": 4.94,
+   "text": "They have got three children – two sons and a daughter."
+  },
+  {
+   "i": 16,
+   "start_s": 97.24,
+   "end_s": 99.02,
+   "dur_s": 1.78,
+   "text": "The two boys are twins."
+  },
+  {
+   "i": 17,
+   "start_s": 100.54,
+   "end_s": 103.06,
+   "dur_s": 2.52,
+   "text": "Their names are Sasha and Tristan."
+  },
+  {
+   "i": 18,
+   "start_s": 103.06,
+   "end_s": 106.86,
+   "dur_s": 3.8,
+   "text": "Their daughter’s name is India Rose."
+  }
+ ],
+ "p033": [
+  {
+   "i": 0,
+   "start_s": 3.36,
+   "end_s": 7.6,
+   "dur_s": 4.24,
+   "text": "Listening exercises 8 and 9 1."
+  },
+  {
+   "i": 1,
+   "start_s": 8.64,
+   "end_s": 11.26,
+   "dur_s": 2.62,
+   "text": "Tell us about your family, Ina."
+  },
+  {
+   "i": 2,
+   "start_s": 11.86,
+   "end_s": 15.34,
+   "dur_s": 3.48,
+   "text": "Well, there's my mother and father."
+  },
+  {
+   "i": 3,
+   "start_s": 16.8,
+   "end_s": 19.4,
+   "dur_s": 2.6,
+   "text": "And have you got any brothers or sisters?"
+  },
+  {
+   "i": 4,
+   "start_s": 20.12,
+   "end_s": 28.3,
+   "dur_s": 8.18,
+   "text": "I've got two brothers and I've also got three cousins, two girls and a boy."
+  },
+  {
+   "i": 5,
+   "start_s": 29.06,
+   "end_s": 31.36,
+   "dur_s": 2.3,
+   "text": "My cousins are in the US."
+  },
+  {
+   "i": 6,
+   "start_s": 32.58,
+   "end_s": 34.28,
+   "dur_s": 1.7,
+   "text": "Do you like your brothers?"
+  },
+  {
+   "i": 7,
+   "start_s": 34.88,
+   "end_s": 37.28,
+   "dur_s": 2.4,
+   "text": "Yes, they're very good to me."
+  },
+  {
+   "i": 8,
+   "start_s": 41.54,
+   "end_s": 44.42,
+   "dur_s": 2.88,
+   "text": "Have you got a big family, Jake?"
+  },
+  {
+   "i": 9,
+   "start_s": 45.08,
+   "end_s": 48.52,
+   "dur_s": 3.44,
+   "text": "Yes, I have. I've got ten brothers."
+  },
+  {
+   "i": 10,
+   "start_s": 49.18,
+   "end_s": 54.02,
+   "dur_s": 4.84,
+   "text": "Ten brothers? Wow! That is a big family."
+  },
+  {
+   "i": 11,
+   "start_s": 54.48,
+   "end_s": 56.72,
+   "dur_s": 2.24,
+   "text": "I've got four cousins too."
+  },
+  {
+   "i": 12,
+   "start_s": 57.28,
+   "end_s": 60.02,
+   "dur_s": 2.74,
+   "text": "And are they all boys too?"
+  },
+  {
+   "i": 13,
+   "start_s": 60.64,
+   "end_s": 65.34,
+   "dur_s": 4.7,
+   "text": "No, there are three girls and one boy, George."
+  },
+  {
+   "i": 14,
+   "start_s": 66.32,
+   "end_s": 69.38,
+   "dur_s": 3.06,
+   "text": "My cousin George is my best friend."
+  },
+  {
+   "i": 15,
+   "start_s": 69.88,
+   "end_s": 73.86,
+   "dur_s": 3.98,
+   "text": "I love football and he's a football fan too."
+  },
+  {
+   "i": 16,
+   "start_s": 74.88,
+   "end_s": 77.24,
+   "dur_s": 2.36,
+   "text": "Do your brothers like football?"
+  },
+  {
+   "i": 17,
+   "start_s": 77.8,
+   "end_s": 81.6,
+   "dur_s": 3.8,
+   "text": "No, they don't. They all like basketball."
+  },
+  {
+   "i": 18,
+   "start_s": 84.02,
+   "end_s": 84.98,
+   "dur_s": 0.96,
+   "text": "3."
+  },
+  {
+   "i": 19,
+   "start_s": 86.1,
+   "end_s": 86.98,
+   "dur_s": 0.88,
+   "text": "Tell us about your family."
+  },
+  {
+   "i": 20,
+   "start_s": 86.98,
+   "end_s": 90.34,
+   "dur_s": 3.36,
+   "text": "So, Maria, tell us about your family."
+  },
+  {
+   "i": 21,
+   "start_s": 91.1,
+   "end_s": 95.3,
+   "dur_s": 4.2,
+   "text": "I've got a small family. I've got one sister."
+  },
+  {
+   "i": 22,
+   "start_s": 96.0,
+   "end_s": 99.62,
+   "dur_s": 3.62,
+   "text": "She's called Antonia and there's my grandmother."
+  },
+  {
+   "i": 23,
+   "start_s": 100.6,
+   "end_s": 102.52,
+   "dur_s": 1.92,
+   "text": "Is your grandmother nice?"
+  },
+  {
+   "i": 24,
+   "start_s": 103.46,
+   "end_s": 109.26,
+   "dur_s": 5.8,
+   "text": "Oh yes, she's great. She's very kind and very patient."
+  },
+  {
+   "i": 25,
+   "start_s": 109.8,
+   "end_s": 110.86,
+   "dur_s": 1.06,
+   "text": "We love her."
+  }
+ ],
+ "p034": [
+  {
+   "i": 0,
+   "start_s": 9.31,
+   "end_s": 11.8,
+   "dur_s": 2.49,
+   "text": "So, is this your bedroom?"
+  },
+  {
+   "i": 1,
+   "start_s": 12.72,
+   "end_s": 18.8,
+   "dur_s": 6.08,
+   "text": "No, it isn’t! It’s my sister Ellie’s bedroom. Do you like it?"
+  },
+  {
+   "i": 2,
+   "start_s": 19.52,
+   "end_s": 29.118,
+   "dur_s": 9.598,
+   "text": "I love armchair here. And cushions on the chair are great! But why are we in here?"
+  },
+  {
+   "i": 3,
+   "start_s": 29.733,
+   "end_s": 35.991,
+   "dur_s": 6.258,
+   "text": "My cat, Lucky. Look! She’s on the bed. She’s always there."
+  },
+  {
+   "i": 4,
+   "start_s": 36.5,
+   "end_s": 42.992,
+   "dur_s": 6.492,
+   "text": "Oh, yes. She’s very beautiful. Can we take her to your room?"
+  },
+  {
+   "i": 5,
+   "start_s": 43.46,
+   "end_s": 52.96,
+   "dur_s": 9.5,
+   "text": "No, let’s leave her here. She’s happy here. Come on. Let’s go to my room and watch a film."
+  },
+  {
+   "i": 6,
+   "start_s": 53.56,
+   "end_s": 61.161,
+   "dur_s": 7.601,
+   "text": "Oh, just a minute, Anna. ’s a nice photograph. Over there, next to the bed."
+  },
+  {
+   "i": 7,
+   "start_s": 61.88,
+   "end_s": 68.44,
+   "dur_s": 6.56,
+   "text": "Yes, it’s me and my family, on holiday in Turkey. We’re all very happy!"
+  },
+  {
+   "i": 8,
+   "start_s": 69.42,
+   "end_s": 74.3,
+   "dur_s": 4.88,
+   "text": "Cool. And is your sister Ellie, there?"
+  },
+  {
+   "i": 9,
+   "start_s": 74.88,
+   "end_s": 77.46,
+   "dur_s": 2.58,
+   "text": "Yes, it is. That’s Ellie."
+  },
+  {
+   "i": 10,
+   "start_s": 78.42,
+   "end_s": 84.12,
+   "dur_s": 5.7,
+   "text": "Oh, she’s beautiful. And are two people your parents?"
+  },
+  {
+   "i": 11,
+   "start_s": 84.96,
+   "end_s": 86.28,
+   "dur_s": 1.32,
+   "text": "Yes, they are."
+  },
+  {
+   "i": 12,
+   "start_s": 87.18,
+   "end_s": 92.18,
+   "dur_s": 5.0,
+   "text": "And who is tall boy next to you? Is it your brother?"
+  },
+  {
+   "i": 13,
+   "start_s": 92.88,
+   "end_s": 104.32,
+   "dur_s": 11.44,
+   "text": "No, it isn’t. That’s my cousin. His name’s Max. He lives in Turkey with his mother and father. They’re English teachers."
+  }
+ ],
+ "p036": [
+  {
+   "i": 0,
+   "start_s": 3.24,
+   "end_s": 4.3,
+   "dur_s": 1.06,
+   "text": "Developing Speaking"
+  },
+  {
+   "i": 1,
+   "start_s": 5.16,
+   "end_s": 6.18,
+   "dur_s": 1.02,
+   "text": "Exercise 2"
+  },
+  {
+   "i": 2,
+   "start_s": 7.66,
+   "end_s": 11.18,
+   "dur_s": 3.52,
+   "text": "Wow, what a cool photo! Thank you!"
+  },
+  {
+   "i": 3,
+   "start_s": 11.72,
+   "end_s": 13.28,
+   "dur_s": 1.56,
+   "text": "Who are all those people?"
+  },
+  {
+   "i": 4,
+   "start_s": 13.74,
+   "end_s": 18.14,
+   "dur_s": 4.4,
+   "text": "That's my family of course, on holiday in Spain."
+  },
+  {
+   "i": 5,
+   "start_s": 19.0,
+   "end_s": 20.18,
+   "dur_s": 1.18,
+   "text": "Ah, okay."
+  },
+  {
+   "i": 6,
+   "start_s": 20.98,
+   "end_s": 26.34,
+   "dur_s": 5.36,
+   "text": "So, those are your parents and that's your brother?"
+  },
+  {
+   "i": 7,
+   "start_s": 26.96,
+   "end_s": 29.06,
+   "dur_s": 2.1,
+   "text": "No, that's my cousin."
+  },
+  {
+   "i": 8,
+   "start_s": 29.8,
+   "end_s": 33.86,
+   "dur_s": 4.06,
+   "text": "My brother is this one here. Really?"
+  },
+  {
+   "i": 9,
+   "start_s": 34.76,
+   "end_s": 38.74,
+   "dur_s": 3.98,
+   "text": "Your cousin looks like your brother. I know."
+  },
+  {
+   "i": 10,
+   "start_s": 39.44,
+   "end_s": 40.46,
+   "dur_s": 1.02,
+   "text": "Excuse me?"
+  },
+  {
+   "i": 11,
+   "start_s": 41.26,
+   "end_s": 42.14,
+   "dur_s": 0.88,
+   "text": "Hello everyone."
+  },
+  {
+   "i": 12,
+   "start_s": 43.08,
+   "end_s": 43.98,
+   "dur_s": 0.9,
+   "text": "Oh, hello."
+  },
+  {
+   "i": 13,
+   "start_s": 44.66,
+   "end_s": 48.32,
+   "dur_s": 3.66,
+   "text": "Abby, it's almost dinner time. Oh, right."
+  },
+  {
+   "i": 14,
+   "start_s": 49.12,
+   "end_s": 50.1,
+   "dur_s": 0.98,
+   "text": "Just a minute, Mum."
+  },
+  {
+   "i": 15,
+   "start_s": 50.54,
+   "end_s": 53.54,
+   "dur_s": 3.0,
+   "text": "Come on, Paul. Let's go. Sorry."
+  },
+  {
+   "i": 16,
+   "start_s": 53.54,
+   "end_s": 57.86,
+   "dur_s": 4.32,
+   "text": "Let's look at more photos tomorrow. Sure."
+  },
+  {
+   "i": 17,
+   "start_s": 58.48,
+   "end_s": 61.02,
+   "dur_s": 2.54,
+   "text": "That sounds great. See you, Abby."
+  }
+ ],
+ "p038": [
+  {
+   "i": 0,
+   "start_s": 8.8,
+   "end_s": 16.16,
+   "dur_s": 7.36,
+   "text": "Istanbul, Turkey The wonderful city of Istanbul is a great place to visit."
+  },
+  {
+   "i": 1,
+   "start_s": 17.26,
+   "end_s": 22.5,
+   "dur_s": 5.24,
+   "text": "It is an old city, but there are some modern things to see, too."
+  },
+  {
+   "i": 2,
+   "start_s": 23.46,
+   "end_s": 31.12,
+   "dur_s": 7.66,
+   "text": "You can visit the beautiful Topkapi Palace and then go to Sultanahmet Square."
+  },
+  {
+   "i": 3,
+   "start_s": 32.22,
+   "end_s": 40.7,
+   "dur_s": 8.48,
+   "text": "On one side of the square is the Blue Mosque, and, on the other side, the museum of Hagia Sofia."
+  },
+  {
+   "i": 4,
+   "start_s": 42.24,
+   "end_s": 49.122,
+   "dur_s": 6.882,
+   "text": "Take a boat trip on the Bosphorus – the water between the two sides of the city."
+  },
+  {
+   "i": 5,
+   "start_s": 49.94,
+   "end_s": 55.7,
+   "dur_s": 5.76,
+   "text": "Then stop and have coffee – there are many cafés in the city."
+  },
+  {
+   "i": 6,
+   "start_s": 57.12,
+   "end_s": 59.48,
+   "dur_s": 2.36,
+   "text": "Are there any good places to eat?"
+  },
+  {
+   "i": 7,
+   "start_s": 60.52,
+   "end_s": 61.28,
+   "dur_s": 0.76,
+   "text": "Of course!"
+  },
+  {
+   "i": 8,
+   "start_s": 62.2,
+   "end_s": 70.04,
+   "dur_s": 7.84,
+   "text": "There are many restaurants, and you can eat great fish for lunch or dinner at Kumkapi Market."
+  },
+  {
+   "i": 9,
+   "start_s": 71.78,
+   "end_s": 82.12,
+   "dur_s": 10.34,
+   "text": "Nara, Japan Nara is an old city in Japan, about 400 km from Tokyo."
+  },
+  {
+   "i": 10,
+   "start_s": 83.46,
+   "end_s": 93.0,
+   "dur_s": 9.54,
+   "text": "It isn’t very big – about 400,000 people live there – but it is famous for many things."
+  },
+  {
+   "i": 11,
+   "start_s": 94.42,
+   "end_s": 101.46,
+   "dur_s": 7.04,
+   "text": "Many visitors go to see the Todai-ji Temple, a huge wooden building."
+  },
+  {
+   "i": 12,
+   "start_s": 102.52,
+   "end_s": 104.4,
+   "dur_s": 1.88,
+   "text": "There is a statue inside."
+  },
+  {
+   "i": 13,
+   "start_s": 105.22,
+   "end_s": 108.02,
+   "dur_s": 2.8,
+   "text": "It’s over 15 metres tall!"
+  },
+  {
+   "i": 14,
+   "start_s": 109.56,
+   "end_s": 113.801,
+   "dur_s": 4.241,
+   "text": "In the city there is a park with hundreds of deer."
+  },
+  {
+   "i": 15,
+   "start_s": 114.58,
+   "end_s": 120.361,
+   "dur_s": 5.781,
+   "text": "There aren’t any walls in the park, so the deer can walk anywhere in the city."
+  },
+  {
+   "i": 16,
+   "start_s": 121.22,
+   "end_s": 126.06,
+   "dur_s": 4.84,
+   "text": "Buy some special food and give it to them – they love it!"
+  }
+ ],
+ "p041": [
+  {
+   "i": 0,
+   "start_s": 2.8,
+   "end_s": 3.34,
+   "dur_s": 0.54,
+   "text": "Listening."
+  },
+  {
+   "i": 1,
+   "start_s": 4.08,
+   "end_s": 7.22,
+   "dur_s": 3.14,
+   "text": "Exercises 9 and 10. 1."
+  },
+  {
+   "i": 2,
+   "start_s": 9.16,
+   "end_s": 11.22,
+   "dur_s": 2.06,
+   "text": "Excuse me? Yes?"
+  },
+  {
+   "i": 3,
+   "start_s": 11.94,
+   "end_s": 15.98,
+   "dur_s": 4.04,
+   "text": "Where's the... Please? OK."
+  },
+  {
+   "i": 4,
+   "start_s": 16.6,
+   "end_s": 20.14,
+   "dur_s": 3.54,
+   "text": "Go down this street and turn right."
+  },
+  {
+   "i": 5,
+   "start_s": 20.72,
+   "end_s": 23.44,
+   "dur_s": 2.72,
+   "text": "That's East Street. OK."
+  },
+  {
+   "i": 6,
+   "start_s": 24.26,
+   "end_s": 28.74,
+   "dur_s": 4.48,
+   "text": "It's in East Street next to the park. Great."
+  },
+  {
+   "i": 7,
+   "start_s": 28.74,
+   "end_s": 30.28,
+   "dur_s": 1.54,
+   "text": "Thanks a lot."
+  },
+  {
+   "i": 8,
+   "start_s": 33.76,
+   "end_s": 34.6,
+   "dur_s": 0.84,
+   "text": "2."
+  },
+  {
+   "i": 9,
+   "start_s": 36.12,
+   "end_s": 37.64,
+   "dur_s": 1.52,
+   "text": "Excuse me?"
+  },
+  {
+   "i": 10,
+   "start_s": 38.3,
+   "end_s": 39.8,
+   "dur_s": 1.5,
+   "text": "Can you help me, please?"
+  },
+  {
+   "i": 11,
+   "start_s": 40.46,
+   "end_s": 42.74,
+   "dur_s": 2.28,
+   "text": "I want to go to the..."
+  },
+  {
+   "i": 12,
+   "start_s": 43.38,
+   "end_s": 44.22,
+   "dur_s": 0.84,
+   "text": "Of course!"
+  },
+  {
+   "i": 13,
+   "start_s": 45.02,
+   "end_s": 48.26,
+   "dur_s": 3.24,
+   "text": "Just walk down here, down High Street."
+  },
+  {
+   "i": 14,
+   "start_s": 48.92,
+   "end_s": 52.26,
+   "dur_s": 3.34,
+   "text": "Take the second left into Green Street."
+  },
+  {
+   "i": 15,
+   "start_s": 52.68,
+   "end_s": 54.02,
+   "dur_s": 1.34,
+   "text": "And it's on your right."
+  },
+  {
+   "i": 16,
+   "start_s": 54.76,
+   "end_s": 55.9,
+   "dur_s": 1.14,
+   "text": "Oh, right."
+  },
+  {
+   "i": 17,
+   "start_s": 55.9,
+   "end_s": 58.1,
+   "dur_s": 2.2,
+   "text": "But is it far?"
+  },
+  {
+   "i": 18,
+   "start_s": 58.84,
+   "end_s": 59.84,
+   "dur_s": 1.0,
+   "text": "Can I get a bus?"
+  },
+  {
+   "i": 19,
+   "start_s": 60.4,
+   "end_s": 62.52,
+   "dur_s": 2.12,
+   "text": "Oh, no. Don't take a bus."
+  },
+  {
+   "i": 20,
+   "start_s": 63.18,
+   "end_s": 66.74,
+   "dur_s": 3.56,
+   "text": "It's very easy to walk there. Three minutes."
+  },
+  {
+   "i": 21,
+   "start_s": 67.38,
+   "end_s": 75.62,
+   "dur_s": 8.24,
+   "text": "Oh, thank you very much. You're welcome. 3."
+  },
+  {
+   "i": 22,
+   "start_s": 77.54,
+   "end_s": 80.72,
+   "dur_s": 3.18,
+   "text": "Hello. Can you help me? Sure."
+  },
+  {
+   "i": 23,
+   "start_s": 81.26,
+   "end_s": 83.34,
+   "dur_s": 2.08,
+   "text": "Is there a good..."
+  },
+  {
+   "i": 24,
+   "start_s": 83.34,
+   "end_s": 84.38,
+   "dur_s": 1.04,
+   "text": "Near here?"
+  },
+  {
+   "i": 25,
+   "start_s": 84.38,
+   "end_s": 86.62,
+   "dur_s": 2.24,
+   "text": "Yes, there is."
+  },
+  {
+   "i": 26,
+   "start_s": 87.7,
+   "end_s": 92.18,
+   "dur_s": 4.48,
+   "text": "Go down here and turn left into Green Street."
+  },
+  {
+   "i": 27,
+   "start_s": 93.08,
+   "end_s": 95.52,
+   "dur_s": 2.44,
+   "text": "Go past the shopping centre,"
+  },
+  {
+   "i": 28,
+   "start_s": 95.94,
+   "end_s": 99.02,
+   "dur_s": 3.08,
+   "text": "and there's a nice place on the left."
+  },
+  {
+   "i": 29,
+   "start_s": 100.0,
+   "end_s": 102.94,
+   "dur_s": 2.94,
+   "text": "It's only four or five minutes from here."
+  },
+  {
+   "i": 30,
+   "start_s": 103.76,
+   "end_s": 106.34,
+   "dur_s": 2.58,
+   "text": "Brilliant. I'm really hungry."
+  },
+  {
+   "i": 31,
+   "start_s": 107.14,
+   "end_s": 114.6,
+   "dur_s": 7.46,
+   "text": "Thanks a lot. No problem. Thank you. Sure. Hello."
+  }
+ ],
+ "p042": [
+  {
+   "i": 0,
+   "start_s": 8.86,
+   "end_s": 10.88,
+   "dur_s": 2.02,
+   "text": "Morning. Can I help you?"
+  },
+  {
+   "i": 1,
+   "start_s": 11.52,
+   "end_s": 14.26,
+   "dur_s": 2.74,
+   "text": "Hello. is a ticket?"
+  },
+  {
+   "i": 2,
+   "start_s": 15.3,
+   "end_s": 16.86,
+   "dur_s": 1.56,
+   "text": "Are you over 16?"
+  },
+  {
+   "i": 3,
+   "start_s": 17.52,
+   "end_s": 18.66,
+   "dur_s": 1.14,
+   "text": "Yes, I am."
+  },
+  {
+   "i": 4,
+   "start_s": 19.38,
+   "end_s": 26.1,
+   "dur_s": 6.72,
+   "text": "OK, the adult ticket is £15.00. But are you a student?"
+  },
+  {
+   "i": 5,
+   "start_s": 26.66,
+   "end_s": 30.3,
+   "dur_s": 3.64,
+   "text": "Yes, I am. Here’s my student card."
+  },
+  {
+   "i": 6,
+   "start_s": 31.24,
+   "end_s": 36.08,
+   "dur_s": 4.84,
+   "text": "OK, that’s fine. So it’s £7.50, then."
+  },
+  {
+   "i": 7,
+   "start_s": 36.58,
+   "end_s": 38.98,
+   "dur_s": 2.4,
+   "text": "Great! Here’s ten pounds."
+  },
+  {
+   "i": 8,
+   "start_s": 40.22,
+   "end_s": 46.82,
+   "dur_s": 6.6,
+   "text": "OK. And, here’s your change – £2.50. Enjoy your visit!"
+  },
+  {
+   "i": 9,
+   "start_s": 47.28,
+   "end_s": 48.78,
+   "dur_s": 1.5,
+   "text": "Thanks – bye!"
+  },
+  {
+   "i": 10,
+   "start_s": 55.42,
+   "end_s": 58.63,
+   "dur_s": 3.21,
+   "text": "These are nice. I really like them."
+  },
+  {
+   "i": 11,
+   "start_s": 59.18,
+   "end_s": 63.646,
+   "dur_s": 4.466,
+   "text": "Yes, they’re very nice. Very good for all sports."
+  },
+  {
+   "i": 12,
+   "start_s": 64.04,
+   "end_s": 67.18,
+   "dur_s": 3.14,
+   "text": "And they’re comfortable, too. How much?"
+  },
+  {
+   "i": 13,
+   "start_s": 68.4,
+   "end_s": 69.92,
+   "dur_s": 1.52,
+   "text": "They’re £150."
+  },
+  {
+   "i": 14,
+   "start_s": 71.02,
+   "end_s": 74.1,
+   "dur_s": 3.08,
+   "text": "Really? Wow. They’re expensive."
+  },
+  {
+   "i": 15,
+   "start_s": 74.84,
+   "end_s": 83.34,
+   "dur_s": 8.5,
+   "text": "Perhaps, but they’re really very, very good trainers. Great for tennis, running … everything!"
+  },
+  {
+   "i": 16,
+   "start_s": 84.18,
+   "end_s": 87.992,
+   "dur_s": 3.812,
+   "text": "Yes, you’re right. OK, I’ll them."
+  },
+  {
+   "i": 17,
+   "start_s": 88.28,
+   "end_s": 91.928,
+   "dur_s": 3.648,
+   "text": "OK, great. Let’s go to the desk to pay."
+  },
+  {
+   "i": 18,
+   "start_s": 98.66,
+   "end_s": 101.24,
+   "dur_s": 2.58,
+   "text": "Hello. Do you need a bag?"
+  },
+  {
+   "i": 19,
+   "start_s": 101.854,
+   "end_s": 104.56,
+   "dur_s": 2.706,
+   "text": "Um, yes. have one, please?"
+  },
+  {
+   "i": 20,
+   "start_s": 105.28,
+   "end_s": 111.12,
+   "dur_s": 5.84,
+   "text": "Sure. They’re 5p each. Wow – that’s a lot of potatoes!"
+  },
+  {
+   "i": 21,
+   "start_s": 111.82,
+   "end_s": 115.22,
+   "dur_s": 3.4,
+   "text": "Yes. It’s potato salad for dinner tonight!"
+  },
+  {
+   "i": 22,
+   "start_s": 116.1,
+   "end_s": 119.74,
+   "dur_s": 3.64,
+   "text": "Oh, right! So, is that everything?"
+  },
+  {
+   "i": 23,
+   "start_s": 120.34,
+   "end_s": 121.02,
+   "dur_s": 0.68,
+   "text": "Yes, thanks."
+  },
+  {
+   "i": 24,
+   "start_s": 121.62,
+   "end_s": 128.464,
+   "dur_s": 6.844,
+   "text": "OK, that’s £6.95 then. How do you want to pay?"
+  },
+  {
+   "i": 25,
+   "start_s": 128.74,
+   "end_s": 129.92,
+   "dur_s": 1.18,
+   "text": "By card, please."
+  },
+  {
+   "i": 26,
+   "start_s": 130.6,
+   "end_s": 138.66,
+   "dur_s": 8.06,
+   "text": "Sure. Put it in the machine, please. Thank you. OK, bye – have."
+  },
+  {
+   "i": 27,
+   "start_s": 139.92,
+   "end_s": 141.28,
+   "dur_s": 1.36,
+   "text": "You, too. Bye!"
+  }
+ ],
+ "p045": [
+  {
+   "i": 0,
+   "start_s": 13.88,
+   "end_s": 18.53,
+   "dur_s": 4.65,
+   "text": "Villa Borghese is a big public park."
+  },
+  {
+   "i": 1,
+   "start_s": 19.26,
+   "end_s": 24.1,
+   "dur_s": 4.84,
+   "text": "There are beautiful gardens, trees and some fountains, too."
+  },
+  {
+   "i": 2,
+   "start_s": 25.12,
+   "end_s": 32.32,
+   "dur_s": 7.2,
+   "text": "People also call it ‘the park of museums’ because there are many interesting museums there."
+  },
+  {
+   "i": 3,
+   "start_s": 34.26,
+   "end_s": 48.78,
+   "dur_s": 14.52,
+   "text": "B Golden Gate Park, San Francisco, US Everyone knows the Golden Gate Bridge, but did you know that there is a Golden Gate Park in San Francisco, too?"
+  },
+  {
+   "i": 4,
+   "start_s": 49.86,
+   "end_s": 59.815,
+   "dur_s": 9.955,
+   "text": "It’s very big (4.8km long, almost 1km wide) and at one end you can see the sea."
+  },
+  {
+   "i": 5,
+   "start_s": 61.78,
+   "end_s": 73.387,
+   "dur_s": 11.607,
+   "text": "C Chapultepec Park, Mexico City, Mexico Chapultepec Park is an important green space in this big city."
+  },
+  {
+   "i": 6,
+   "start_s": 74.02,
+   "end_s": 77.58,
+   "dur_s": 3.56,
+   "text": "It has a lake and a hill with a castle on it."
+  },
+  {
+   "i": 7,
+   "start_s": 78.6,
+   "end_s": 81.49,
+   "dur_s": 2.89,
+   "text": "People in Mexico City love going there."
+  },
+  {
+   "i": 8,
+   "start_s": 83.48,
+   "end_s": 94.575,
+   "dur_s": 11.095,
+   "text": "D El Parque del Buen Retiro, Madrid, Spain In Madrid there is a very big park called Buen Retiro."
+  },
+  {
+   "i": 9,
+   "start_s": 95.36,
+   "end_s": 105.848,
+   "dur_s": 10.488,
+   "text": "There are trees and paths and a lovely rose garden, too."
+  },
+  {
+   "i": 10,
+   "start_s": 106.4,
+   "end_s": 107.342,
+   "dur_s": 0.942,
+   "text": "There is also a beautiful glass palace."
+  },
+  {
+   "i": 11,
+   "start_s": 107.442,
+   "end_s": 122.125,
+   "dur_s": 14.683,
+   "text": "E The Iguana Park, Guayaquil, Ecuador The park’s real name is Parque Seminario, but everyone calls it the Iguana Park because it is full of iguanas."
+  },
+  {
+   "i": 12,
+   "start_s": 122.76,
+   "end_s": 125.295,
+   "dur_s": 2.535,
+   "text": "The iguanas are very friendly."
+  },
+  {
+   "i": 13,
+   "start_s": 126.3,
+   "end_s": 128.522,
+   "dur_s": 2.222,
+   "text": "People go there and feed them."
+  },
+  {
+   "i": 14,
+   "start_s": 130.04,
+   "end_s": 140.56,
+   "dur_s": 10.52,
+   "text": "F Mount Faber Park, Singapore On a mountain near Singapore, there is a park called Mount Faber."
+  },
+  {
+   "i": 15,
+   "start_s": 141.2,
+   "end_s": 143.708,
+   "dur_s": 2.508,
+   "text": "You can get there by cable car."
+  },
+  {
+   "i": 16,
+   "start_s": 144.7,
+   "end_s": 150.54,
+   "dur_s": 5.84,
+   "text": "In the park you can walk on a long path, or on an amazing bridge."
+  },
+  {
+   "i": 17,
+   "start_s": 151.4,
+   "end_s": 153.52,
+   "dur_s": 2.12,
+   "text": "You get a great view of the city."
+  }
+ ],
+ "p048": [
+  {
+   "i": 0,
+   "start_s": 10.21,
+   "end_s": 14.88,
+   "dur_s": 4.67,
+   "text": "Our school has a Robotics Club and it's brilliant."
+  },
+  {
+   "i": 1,
+   "start_s": 15.67,
+   "end_s": 19.307,
+   "dur_s": 3.637,
+   "text": "I know this because I go to it!"
+  },
+  {
+   "i": 2,
+   "start_s": 20.41,
+   "end_s": 23.417,
+   "dur_s": 3.007,
+   "text": "So, what is a Robotics Club?"
+  },
+  {
+   "i": 3,
+   "start_s": 23.96,
+   "end_s": 31.02,
+   "dur_s": 7.06,
+   "text": "Easy – it's a club for building robots and I love robots."
+  },
+  {
+   "i": 4,
+   "start_s": 32.22,
+   "end_s": 35.36,
+   "dur_s": 3.14,
+   "text": "Mr Thomas is the club leader."
+  },
+  {
+   "i": 5,
+   "start_s": 36.12,
+   "end_s": 41.72,
+   "dur_s": 5.6,
+   "text": "He thinks of things for us to do and helps us build our robots."
+  },
+  {
+   "i": 6,
+   "start_s": 41.72,
+   "end_s": 46.02,
+   "dur_s": 4.3,
+   "text": "He's really cool and very kind."
+  },
+  {
+   "i": 7,
+   "start_s": 46.02,
+   "end_s": 49.168,
+   "dur_s": 3.148,
+   "text": "He never gets angry with us."
+  },
+  {
+   "i": 8,
+   "start_s": 50.12,
+   "end_s": 59.86,
+   "dur_s": 9.74,
+   "text": "He teaches Music (not Design and Technology!), but he just loves everything to do with computers."
+  },
+  {
+   "i": 9,
+   "start_s": 61.34,
+   "end_s": 70.28,
+   "dur_s": 8.94,
+   "text": "We often make our own robots, but we sometimes watch videos of other robots on the internet."
+  },
+  {
+   "i": 10,
+   "start_s": 70.84,
+   "end_s": 77.62,
+   "dur_s": 6.78,
+   "text": "When our robot is ready, we use computer programs to make it do things."
+  },
+  {
+   "i": 11,
+   "start_s": 77.62,
+   "end_s": 84.5,
+   "dur_s": 6.88,
+   "text": "Every year there is a competition for schools all over the country."
+  },
+  {
+   "i": 12,
+   "start_s": 85.62,
+   "end_s": 91.64,
+   "dur_s": 6.02,
+   "text": "I feel really excited when we show our robots to students from other schools."
+  },
+  {
+   "i": 13,
+   "start_s": 91.64,
+   "end_s": 96.12,
+   "dur_s": 4.48,
+   "text": "We never win, but that's not important."
+  },
+  {
+   "i": 14,
+   "start_s": 97.24,
+   "end_s": 101.6,
+   "dur_s": 4.36,
+   "text": "The other students like watching our robot move."
+  },
+  {
+   "i": 15,
+   "start_s": 101.6,
+   "end_s": 103.78,
+   "dur_s": 2.18,
+   "text": "It feels great."
+  },
+  {
+   "i": 16,
+   "start_s": 103.78,
+   "end_s": 107.62,
+   "dur_s": 3.84,
+   "text": "I love Robotics Club."
+  },
+  {
+   "i": 17,
+   "start_s": 107.62,
+   "end_s": 111.46,
+   "dur_s": 3.84,
+   "text": "It's a great place to meet new people."
+  },
+  {
+   "i": 18,
+   "start_s": 111.46,
+   "end_s": 117.62,
+   "dur_s": 6.16,
+   "text": "You make so many friends and not just with people from school."
+  },
+  {
+   "i": 19,
+   "start_s": 117.62,
+   "end_s": 121.18,
+   "dur_s": 3.56,
+   "text": "Robotics Club is for everyone."
+  },
+  {
+   "i": 20,
+   "start_s": 121.78,
+   "end_s": 130.18,
+   "dur_s": 8.4,
+   "text": "We meet in the school hall every Monday at lunchtime and every Thursday after school."
+  },
+  {
+   "i": 21,
+   "start_s": 130.18,
+   "end_s": 136.36,
+   "dur_s": 6.18,
+   "text": "Come and see us – we're always happy to see new people!"
+  }
+ ],
+ "p051": [
+  {
+   "i": 0,
+   "start_s": 8.96,
+   "end_s": 14.698,
+   "dur_s": 5.738,
+   "text": "My favourite piece of technology is my phone. I love it."
+  },
+  {
+   "i": 1,
+   "start_s": 15.38,
+   "end_s": 18.06,
+   "dur_s": 2.68,
+   "text": "I use it for so many things."
+  },
+  {
+   "i": 2,
+   "start_s": 18.58,
+   "end_s": 21.7,
+   "dur_s": 3.12,
+   "text": "I use it to text my friends."
+  },
+  {
+   "i": 3,
+   "start_s": 22.44,
+   "end_s": 24.8,
+   "dur_s": 2.36,
+   "text": "I use it to play games."
+  },
+  {
+   "i": 4,
+   "start_s": 25.56,
+   "end_s": 29.54,
+   "dur_s": 3.98,
+   "text": "I sometimes use it to help me with my homework."
+  },
+  {
+   "i": 5,
+   "start_s": 29.54,
+   "end_s": 36.86,
+   "dur_s": 7.32,
+   "text": "I use it for lots of things, but I don't use it in class."
+  },
+  {
+   "i": 6,
+   "start_s": 40.58,
+   "end_s": 46.74,
+   "dur_s": 6.16,
+   "text": "I love my virtual reality headset. It's so cool."
+  },
+  {
+   "i": 7,
+   "start_s": 47.38,
+   "end_s": 50.26,
+   "dur_s": 2.88,
+   "text": "I feel that I'm really in the game."
+  },
+  {
+   "i": 8,
+   "start_s": 50.94,
+   "end_s": 56.28,
+   "dur_s": 5.34,
+   "text": "I don't play games on my TV because they don't feel as real."
+  },
+  {
+   "i": 9,
+   "start_s": 57.551,
+   "end_s": 62.566,
+   "dur_s": 5.015,
+   "text": "The headset is very easy to wear, and it never hurts my head."
+  },
+  {
+   "i": 10,
+   "start_s": 63.38,
+   "end_s": 67.3,
+   "dur_s": 3.92,
+   "text": "The only problem is that the games are very expensive."
+  },
+  {
+   "i": 11,
+   "start_s": 72.48,
+   "end_s": 78.182,
+   "dur_s": 5.702,
+   "text": "My tablet is brilliant. It was my birthday present this year."
+  },
+  {
+   "i": 12,
+   "start_s": 78.7,
+   "end_s": 80.42,
+   "dur_s": 1.72,
+   "text": "What a great present."
+  },
+  {
+   "i": 13,
+   "start_s": 81.24,
+   "end_s": 91.417,
+   "dur_s": 10.177,
+   "text": "It's very thin and it doesn't feel heavy, but it's got a big screen, so it's great for watching films and playing games."
+  },
+  {
+   "i": 14,
+   "start_s": 92.2,
+   "end_s": 99.823,
+   "dur_s": 7.623,
+   "text": "My mum and dad always want to use it, so I have a special place to put it where they can't find it."
+  },
+  {
+   "i": 15,
+   "start_s": 104.14,
+   "end_s": 109.24,
+   "dur_s": 5.1,
+   "text": "My favourite things are my headphones. I love music."
+  },
+  {
+   "i": 16,
+   "start_s": 109.84,
+   "end_s": 112.106,
+   "dur_s": 2.266,
+   "text": "I listen to it all the time."
+  },
+  {
+   "i": 17,
+   "start_s": 112.92,
+   "end_s": 118.44,
+   "dur_s": 5.52,
+   "text": "My mum often wants the radio on, but we don't like the same kind of music."
+  },
+  {
+   "i": 18,
+   "start_s": 119.62,
+   "end_s": 122.48,
+   "dur_s": 2.86,
+   "text": "With my headphones, it's no problem."
+  },
+  {
+   "i": 19,
+   "start_s": 123.2,
+   "end_s": 128.9,
+   "dur_s": 5.7,
+   "text": "I listen to cool music, and she listens to the old music that she likes."
+  }
+ ],
+ "p052": [
+  {
+   "i": 0,
+   "start_s": 10.08,
+   "end_s": 17.543,
+   "dur_s": 7.463,
+   "text": "How many hours do you look at a TV, phone, tablet or computer every day?"
+  },
+  {
+   "i": 1,
+   "start_s": 30.7,
+   "end_s": 33.948,
+   "dur_s": 3.248,
+   "text": "Do you check your phone before school?"
+  },
+  {
+   "i": 2,
+   "start_s": 44.9,
+   "end_s": 49.424,
+   "dur_s": 4.524,
+   "text": "Do you worry when your phone or tablet has no power?"
+  },
+  {
+   "i": 3,
+   "start_s": 60.04,
+   "end_s": 64.58,
+   "dur_s": 4.54,
+   "text": "Do you watch TV before you do your homework?"
+  },
+  {
+   "i": 4,
+   "start_s": 75.38,
+   "end_s": 80.55,
+   "dur_s": 5.17,
+   "text": "Does your family ever say that you use your phone too much?"
+  },
+  {
+   "i": 5,
+   "start_s": 81.86,
+   "end_s": 87.731,
+   "dur_s": 5.871,
+   "text": "5 to 9 – No, you don't need a break! You use it well."
+  },
+  {
+   "i": 6,
+   "start_s": 88.04,
+   "end_s": 88.319,
+   "dur_s": 0.279,
+   "text": "10 to 12 – You're not too bad, but be careful!"
+  },
+  {
+   "i": 7,
+   "start_s": 88.419,
+   "end_s": 88.92,
+   "dur_s": 0.501,
+   "text": "13 to 15 – Yes, you do. You need a break from tech! Do something different!"
+  }
+ ],
+ "p054": [
+  {
+   "i": 0,
+   "start_s": 7.26,
+   "end_s": 9.94,
+   "dur_s": 2.68,
+   "text": "Hey, Liz. What's wrong?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.58,
+   "end_s": 12.04,
+   "dur_s": 1.46,
+   "text": "I've got a cold."
+  },
+  {
+   "i": 2,
+   "start_s": 12.98,
+   "end_s": 18.34,
+   "dur_s": 5.36,
+   "text": "So? Everyone gets a cold sometimes. What's the problem?"
+  },
+  {
+   "i": 3,
+   "start_s": 19.12,
+   "end_s": 26.08,
+   "dur_s": 6.96,
+   "text": "The problem? The problem is, there's the school concert tomorrow. And I'm the singer!"
+  },
+  {
+   "i": 4,
+   "start_s": 26.8,
+   "end_s": 29.14,
+   "dur_s": 2.34,
+   "text": "I'm sure you can still sing."
+  },
+  {
+   "i": 5,
+   "start_s": 29.68,
+   "end_s": 33.34,
+   "dur_s": 3.66,
+   "text": "No way, Claudio! Listen to my voice!"
+  },
+  {
+   "i": 6,
+   "start_s": 34.02,
+   "end_s": 40.36,
+   "dur_s": 6.34,
+   "text": "She's right. This really is a problem. Oh, Liz, I'm sorry."
+  },
+  {
+   "i": 7,
+   "start_s": 41.14,
+   "end_s": 44.88,
+   "dur_s": 3.74,
+   "text": "Don't worry, Liz. We're here to help you."
+  },
+  {
+   "i": 8,
+   "start_s": 45.34,
+   "end_s": 46.5,
+   "dur_s": 1.16,
+   "text": "How, Claudio?"
+  },
+  {
+   "i": 9,
+   "start_s": 47.14,
+   "end_s": 48.02,
+   "dur_s": 0.88,
+   "text": "I don't know!"
+  },
+  {
+   "i": 10,
+   "start_s": 48.78,
+   "end_s": 56.448,
+   "dur_s": 7.668,
+   "text": "Just a minute. I've got an idea. Lucy, you can sing, can't you?"
+  },
+  {
+   "i": 11,
+   "start_s": 56.92,
+   "end_s": 61.5,
+   "dur_s": 4.58,
+   "text": "A little, Liz. But I can't sing with a band."
+  },
+  {
+   "i": 12,
+   "start_s": 62.264,
+   "end_s": 67.86,
+   "dur_s": 5.596,
+   "text": "Oh, come on, Lucy. You can do it. You're a great singer."
+  },
+  {
+   "i": 13,
+   "start_s": 68.56,
+   "end_s": 78.56,
+   "dur_s": 10,
+   "text": "OK, I'll do it for you, Liz. But this is crazy! OK, what are the songs?"
+  },
+  {
+   "i": 14,
+   "start_s": 79.4,
+   "end_s": 83.08,
+   "dur_s": 3.68,
+   "text": "I'll tell you later. You're the best, Lucy!"
+  }
+ ],
+ "p056": [
+  {
+   "i": 0,
+   "start_s": 9.1,
+   "end_s": 10.8,
+   "dur_s": 1.7,
+   "text": "Julia is 11."
+  },
+  {
+   "i": 1,
+   "start_s": 11.68,
+   "end_s": 17.8,
+   "dur_s": 6.12,
+   "text": "She has got curly, brown hair, brown eyes and a big smile."
+  },
+  {
+   "i": 2,
+   "start_s": 18.88,
+   "end_s": 21.28,
+   "dur_s": 2.4,
+   "text": "She's got a lot of friends at school."
+  },
+  {
+   "i": 3,
+   "start_s": 22.24,
+   "end_s": 24.4,
+   "dur_s": 2.16,
+   "text": "All her classmates like her."
+  },
+  {
+   "i": 4,
+   "start_s": 25.3,
+   "end_s": 32.125,
+   "dur_s": 6.825,
+   "text": "At lunchtime, Julia always goes to the school canteen and buys her lunch."
+  },
+  {
+   "i": 5,
+   "start_s": 33.12,
+   "end_s": 36.68,
+   "dur_s": 3.56,
+   "text": "Her friend, Jack, doesn't buy any food."
+  },
+  {
+   "i": 6,
+   "start_s": 37.46,
+   "end_s": 39.76,
+   "dur_s": 2.3,
+   "text": "He just drinks a glass of water."
+  },
+  {
+   "i": 7,
+   "start_s": 40.86,
+   "end_s": 45.14,
+   "dur_s": 4.28,
+   "text": "Jack does this every day, and Julia is worried."
+  },
+  {
+   "i": 8,
+   "start_s": 46.18,
+   "end_s": 50.34,
+   "dur_s": 4.16,
+   "text": "One day, she asks Jack, 'Are you hungry?'"
+  },
+  {
+   "i": 9,
+   "start_s": 51.12,
+   "end_s": 53.232,
+   "dur_s": 2.112,
+   "text": "'Yes,' says Jack."
+  },
+  {
+   "i": 10,
+   "start_s": 53.74,
+   "end_s": 57.783,
+   "dur_s": 4.043,
+   "text": "'But you don't eat at school,' says Julia."
+  },
+  {
+   "i": 11,
+   "start_s": 58.5,
+   "end_s": 62.485,
+   "dur_s": 3.985,
+   "text": "'I haven't got any money for lunch,' says Jack."
+  },
+  {
+   "i": 12,
+   "start_s": 63.06,
+   "end_s": 66.885,
+   "dur_s": 3.825,
+   "text": "'My dad hasn't got a job and my mum's ill."
+  },
+  {
+   "i": 13,
+   "start_s": 67.64,
+   "end_s": 69.34,
+   "dur_s": 1.7,
+   "text": "They've got lots of problems."
+  },
+  {
+   "i": 14,
+   "start_s": 69.62,
+   "end_s": 73.1,
+   "dur_s": 3.48,
+   "text": "But don't worry about me – I'm OK.'"
+  },
+  {
+   "i": 15,
+   "start_s": 74.88,
+   "end_s": 76.997,
+   "dur_s": 2.117,
+   "text": "Julia thinks about this."
+  },
+  {
+   "i": 16,
+   "start_s": 77.82,
+   "end_s": 80.76,
+   "dur_s": 2.94,
+   "text": "At home, she's got a big glass jar."
+  },
+  {
+   "i": 17,
+   "start_s": 81.5,
+   "end_s": 82.98,
+   "dur_s": 1.48,
+   "text": "It's full of coins."
+  },
+  {
+   "i": 18,
+   "start_s": 83.9,
+   "end_s": 87.249,
+   "dur_s": 3.349,
+   "text": "She wants to buy an electric scooter one day."
+  },
+  {
+   "i": 19,
+   "start_s": 88.6,
+   "end_s": 96.16,
+   "dur_s": 7.56,
+   "text": "That night, Julia opens the jar, takes the coins and puts them into a bag."
+  },
+  {
+   "i": 20,
+   "start_s": 97.26,
+   "end_s": 98.569,
+   "dur_s": 1.309,
+   "text": "Her mum sees her."
+  },
+  {
+   "i": 21,
+   "start_s": 99.26,
+   "end_s": 103.26,
+   "dur_s": 4,
+   "text": "'Why are you doing that?' she asks."
+  },
+  {
+   "i": 22,
+   "start_s": 103.26,
+   "end_s": 109.24,
+   "dur_s": 5.98,
+   "text": "'My friend Jack hasn't got any lunch money and I've got some money here."
+  },
+  {
+   "i": 23,
+   "start_s": 109.24,
+   "end_s": 110.7,
+   "dur_s": 1.46,
+   "text": "This is for him.'"
+  },
+  {
+   "i": 24,
+   "start_s": 111.54,
+   "end_s": 115.252,
+   "dur_s": 3.712,
+   "text": "'That's very kind of you,' says her mum."
+  },
+  {
+   "i": 25,
+   "start_s": 116.08,
+   "end_s": 119.455,
+   "dur_s": 3.375,
+   "text": "She feels happy that her daughter wants to do this."
+  },
+  {
+   "i": 26,
+   "start_s": 120.36,
+   "end_s": 125.22,
+   "dur_s": 4.86,
+   "text": "The next day, Julia and her mum go and see her teacher."
+  },
+  {
+   "i": 27,
+   "start_s": 126.5,
+   "end_s": 130.84,
+   "dur_s": 4.34,
+   "text": "They tell her about Jack and Julia gives her the money."
+  },
+  {
+   "i": 28,
+   "start_s": 131.94,
+   "end_s": 133.944,
+   "dur_s": 2.004,
+   "text": "'This is for Jack's lunch."
+  },
+  {
+   "i": 29,
+   "start_s": 134.44,
+   "end_s": 138.182,
+   "dur_s": 3.742,
+   "text": "Now, he can have lunch every day,' she says."
+  },
+  {
+   "i": 30,
+   "start_s": 139.7,
+   "end_s": 145.76,
+   "dur_s": 6.06,
+   "text": "Julia hasn't got an electric scooter, but she's got a happy friend – Jack!"
+  }
+ ],
+ "p059": [
+  {
+   "i": 0,
+   "start_s": 8.76,
+   "end_s": 10.5,
+   "dur_s": 1.74,
+   "text": "Hello, can I help?"
+  },
+  {
+   "i": 1,
+   "start_s": 11.06,
+   "end_s": 17.52,
+   "dur_s": 6.46,
+   "text": "Yes. Have you got anything I can give to my best friend? It's a present."
+  },
+  {
+   "i": 2,
+   "start_s": 18.36,
+   "end_s": 23.64,
+   "dur_s": 5.28,
+   "text": "Yes, we've got a lot of things. Is it for a girl or a boy?"
+  },
+  {
+   "i": 3,
+   "start_s": 24.22,
+   "end_s": 27.48,
+   "dur_s": 3.26,
+   "text": "It's for a girl, for my friend, Annie."
+  },
+  {
+   "i": 4,
+   "start_s": 27.48,
+   "end_s": 40.04,
+   "dur_s": 12.56,
+   "text": "OK. I've got this lovely little yellow rose. Yellow's a happy colour. It's a lovely present for a girl. It's got a necklace with it."
+  },
+  {
+   "i": 5,
+   "start_s": 40.58,
+   "end_s": 42.52,
+   "dur_s": 1.94,
+   "text": "Have you got any little animals?"
+  },
+  {
+   "i": 6,
+   "start_s": 43.32,
+   "end_s": 49.74,
+   "dur_s": 6.42,
+   "text": "Yes, we've got a little silver dolphin or a dog. They both show friendship."
+  },
+  {
+   "i": 7,
+   "start_s": 49.74,
+   "end_s": 62.68,
+   "dur_s": 12.94,
+   "text": "Oh, I love the dolphin, and Annie likes dolphins, too. They're her favourite animal. But she's got a dog. It's just like this one."
+  },
+  {
+   "i": 8,
+   "start_s": 63.32,
+   "end_s": 72.8,
+   "dur_s": 9.48,
+   "text": "Hmm. So maybe the dog or the dolphin. I've got one more to show you. It's really beautiful."
+  },
+  {
+   "i": 9,
+   "start_s": 72.8,
+   "end_s": 79.5,
+   "dur_s": 6.7,
+   "text": "Oh, it's a heart. And it's in two pieces. That's clever."
+  },
+  {
+   "i": 10,
+   "start_s": 80.2,
+   "end_s": 85.68,
+   "dur_s": 5.48,
+   "text": "Yes. You wear one piece and your friend, Annie, wears the other."
+  },
+  {
+   "i": 11,
+   "start_s": 86.26,
+   "end_s": 95.06,
+   "dur_s": 8.8,
+   "text": "Oh, that's so cool. I like that idea, but I still prefer the dolphin. How much is it?"
+  },
+  {
+   "i": 12,
+   "start_s": 95.78,
+   "end_s": 97,
+   "dur_s": 1.22,
+   "text": "It's £15."
+  },
+  {
+   "i": 13,
+   "start_s": 97.62,
+   "end_s": 101.68,
+   "dur_s": 4.06,
+   "text": "That's OK. Can I have the dolphin, then?"
+  },
+  {
+   "i": 14,
+   "start_s": 102.156,
+   "end_s": 105.68,
+   "dur_s": 3.524,
+   "text": "Of course. And do you want the necklace too?"
+  },
+  {
+   "i": 15,
+   "start_s": 106.46,
+   "end_s": 112.08,
+   "dur_s": 5.62,
+   "text": "No. Annie's got a nice silver necklace. She doesn't need another one."
+  },
+  {
+   "i": 16,
+   "start_s": 112.72,
+   "end_s": 119.176,
+   "dur_s": 6.456,
+   "text": "OK, then. That's £15. I've got a little bag you can put it in."
+  },
+  {
+   "i": 17,
+   "start_s": 119.6,
+   "end_s": 122.241,
+   "dur_s": 2.641,
+   "text": "Oh, that's great. Thank you."
+  },
+  {
+   "i": 18,
+   "start_s": 122.48,
+   "end_s": 123.84,
+   "dur_s": 1.36,
+   "text": "I hope she likes it."
+  }
+ ],
+ "p060": [
+  {
+   "i": 0,
+   "start_s": 5.64,
+   "end_s": 8.754,
+   "dur_s": 3.114,
+   "text": "Hi, Oliver. Good to see you."
+  },
+  {
+   "i": 1,
+   "start_s": 9.125,
+   "end_s": 15.08,
+   "dur_s": 5.955,
+   "text": "Hi, Ellie. You look happy. How's it going? How's your first day back at school?"
+  },
+  {
+   "i": 2,
+   "start_s": 15.98,
+   "end_s": 22.361,
+   "dur_s": 6.381,
+   "text": "Not too bad, thanks. We've got this great new teacher. You'd really like him."
+  },
+  {
+   "i": 3,
+   "start_s": 22.76,
+   "end_s": 26.34,
+   "dur_s": 3.58,
+   "text": "Really? Lucky you. What does he teach?"
+  },
+  {
+   "i": 4,
+   "start_s": 26.831,
+   "end_s": 27.32,
+   "dur_s": 0.489,
+   "text": "Science."
+  },
+  {
+   "i": 5,
+   "start_s": 27.32,
+   "end_s": 29.86,
+   "dur_s": 2.54,
+   "text": "But you don't like Science."
+  },
+  {
+   "i": 6,
+   "start_s": 30.44,
+   "end_s": 42.14,
+   "dur_s": 11.7,
+   "text": "I do now. This new teacher's very funny. He makes us all laugh and he makes Science fun. And I understand everything. It's great."
+  },
+  {
+   "i": 7,
+   "start_s": 42.76,
+   "end_s": 46.37,
+   "dur_s": 3.61,
+   "text": "Really? What does this new teacher look like?"
+  },
+  {
+   "i": 8,
+   "start_s": 46.88,
+   "end_s": 59.74,
+   "dur_s": 12.86,
+   "text": "Well, he's quite tall and he's slim. He's got brown eyes and he wears glasses. He's got short curly hair. It's red like yours."
+  },
+  {
+   "i": 9,
+   "start_s": 60.4,
+   "end_s": 61.962,
+   "dur_s": 1.562,
+   "text": "He's got red hair?"
+  },
+  {
+   "i": 10,
+   "start_s": 62.5,
+   "end_s": 68.28,
+   "dur_s": 5.78,
+   "text": "Yes, like yours but your hair is straight and his is curly."
+  },
+  {
+   "i": 11,
+   "start_s": 69.18,
+   "end_s": 70.46,
+   "dur_s": 1.28,
+   "text": "Has he got a beard?"
+  },
+  {
+   "i": 12,
+   "start_s": 71.32,
+   "end_s": 73.68,
+   "dur_s": 2.36,
+   "text": "Yes, he's got a short beard."
+  },
+  {
+   "i": 13,
+   "start_s": 74.44,
+   "end_s": 76.42,
+   "dur_s": 1.98,
+   "text": "And has he got a moustache?"
+  },
+  {
+   "i": 14,
+   "start_s": 77.06,
+   "end_s": 91.72,
+   "dur_s": 14.66,
+   "text": "Yes … Oh, and he likes sport. He plays rugby and he likes football. He goes to football matches at the weekends with his son. His son's the same age as us."
+  },
+  {
+   "i": 15,
+   "start_s": 92.34,
+   "end_s": 96.78,
+   "dur_s": 4.44,
+   "text": "Really? And his favourite team is Manchester City."
+  },
+  {
+   "i": 16,
+   "start_s": 97.292,
+   "end_s": 100.28,
+   "dur_s": 2.988,
+   "text": "Yes, it is. How do you know?"
+  },
+  {
+   "i": 17,
+   "start_s": 101.12,
+   "end_s": 104.42,
+   "dur_s": 3.3,
+   "text": "Is this him walking towards us now?"
+  },
+  {
+   "i": 18,
+   "start_s": 105.14,
+   "end_s": 106.68,
+   "dur_s": 1.54,
+   "text": "Yes, it is."
+  },
+  {
+   "i": 19,
+   "start_s": 107.4,
+   "end_s": 109.12,
+   "dur_s": 1.72,
+   "text": "That's my dad."
+  },
+  {
+   "i": 20,
+   "start_s": 109.12,
+   "end_s": 112.84,
+   "dur_s": 3.72,
+   "text": "No way! You're kidding!"
+  }
+ ],
+ "p063": [
+  {
+   "i": 0,
+   "start_s": 10.98,
+   "end_s": 14.048,
+   "dur_s": 3.068,
+   "text": "How do you say hello to someone you know?"
+  },
+  {
+   "i": 1,
+   "start_s": 14.8,
+   "end_s": 18.36,
+   "dur_s": 3.56,
+   "text": "Do you smile? Do you touch the other person?"
+  },
+  {
+   "i": 2,
+   "start_s": 19.78,
+   "end_s": 22.18,
+   "dur_s": 2.4,
+   "text": "Here are some ideas for travellers."
+  },
+  {
+   "i": 3,
+   "start_s": 23.92,
+   "end_s": 27.794,
+   "dur_s": 3.874,
+   "text": "This is how people in different countries welcome each other."
+  },
+  {
+   "i": 4,
+   "start_s": 28.48,
+   "end_s": 31.811,
+   "dur_s": 3.331,
+   "text": "Do you do different things in your country?"
+  },
+  {
+   "i": 5,
+   "start_s": 32.82,
+   "end_s": 39.01,
+   "dur_s": 6.19,
+   "text": "In many countries in Asia, people bow their heads when they meet each other."
+  },
+  {
+   "i": 6,
+   "start_s": 40.06,
+   "end_s": 41.38,
+   "dur_s": 1.32,
+   "text": "This shows respect."
+  },
+  {
+   "i": 7,
+   "start_s": 42.36,
+   "end_s": 51.54,
+   "dur_s": 9.18,
+   "text": "In India, Nepal and Bangladesh, people bring their hands together in front of their heart and say 'Namaste'."
+  },
+  {
+   "i": 8,
+   "start_s": 52.96,
+   "end_s": 64.36,
+   "dur_s": 11.4,
+   "text": "When you greet a grandmother or grandfather or another older person in Turkey, you kiss their right hand and then place it on your forehead."
+  },
+  {
+   "i": 9,
+   "start_s": 65.46,
+   "end_s": 67.82,
+   "dur_s": 2.36,
+   "text": "They do this in the Philippines, too."
+  },
+  {
+   "i": 10,
+   "start_s": 69.98,
+   "end_s": 74.84,
+   "dur_s": 4.86,
+   "text": "The Maori people in New Zealand rub noses together when they meet."
+  },
+  {
+   "i": 11,
+   "start_s": 75.92,
+   "end_s": 78.12,
+   "dur_s": 2.2,
+   "text": "This is called the 'hongi'."
+  },
+  {
+   "i": 12,
+   "start_s": 79.8,
+   "end_s": 84.962,
+   "dur_s": 5.162,
+   "text": "In Malaysia, you put your hand on your heart and nod your head."
+  },
+  {
+   "i": 13,
+   "start_s": 85.76,
+   "end_s": 90.86,
+   "dur_s": 5.1,
+   "text": "Sometimes you also take the person's hands in your hands first."
+  },
+  {
+   "i": 14,
+   "start_s": 92.32,
+   "end_s": 97.582,
+   "dur_s": 5.262,
+   "text": "In Western countries, many people shake hands when they meet."
+  },
+  {
+   "i": 15,
+   "start_s": 98.52,
+   "end_s": 105.024,
+   "dur_s": 6.504,
+   "text": "Sometimes they just smile and say something like 'Hello!' or 'Hi!'"
+  },
+  {
+   "i": 16,
+   "start_s": 105.92,
+   "end_s": 113.78,
+   "dur_s": 7.86,
+   "text": "In the US and in other countries, some people like using a 'fist bump' to greet another person."
+  },
+  {
+   "i": 17,
+   "start_s": 114.88,
+   "end_s": 121.64,
+   "dur_s": 6.76,
+   "text": "Both people make a fist, push their arm forward slowly and touch each other's fists."
+  },
+  {
+   "i": 18,
+   "start_s": 123.12,
+   "end_s": 128.68,
+   "dur_s": 5.56,
+   "text": "In many countries around the world, friends kiss each other on the cheek."
+  },
+  {
+   "i": 19,
+   "start_s": 129.84,
+   "end_s": 139.86,
+   "dur_s": 10.02,
+   "text": "In some countries they kiss one cheek, in others they kiss both cheeks and in some they kiss cheeks three times."
+  }
+ ],
  "p067": [
   {
    "i": 0,
@@ -551,1080 +4246,6 @@
    "end_s": 89.956,
    "dur_s": 2.659,
    "text": "Let's go and switch the computer on."
-  }
- ],
- "p111": [
-  {
-   "i": 0,
-   "start_s": 5.313,
-   "end_s": 12.751,
-   "dur_s": 7.438,
-   "text": "A lot of big cities, like London, have got many traffic problems."
-  },
-  {
-   "i": 1,
-   "start_s": 13.235,
-   "end_s": 18.862,
-   "dur_s": 5.627,
-   "text": "Sometimes a journey of a few kilometres can take more than an hour."
-  },
-  {
-   "i": 2,
-   "start_s": 19.59,
-   "end_s": 23.202,
-   "dur_s": 3.612,
-   "text": "So what's the best way to get across London?"
-  },
-  {
-   "i": 3,
-   "start_s": 23.212,
-   "end_s": 29.2,
-   "dur_s": 5.988,
-   "text": "For a very short journey, it's probably a good idea to walk."
-  },
-  {
-   "i": 4,
-   "start_s": 29.2,
-   "end_s": 32.85,
-   "dur_s": 3.65,
-   "text": "But what happens when you want to go further?"
-  },
-  {
-   "i": 5,
-   "start_s": 33.923,
-   "end_s": 39.925,
-   "dur_s": 6.002,
-   "text": "The presenters of a popular TV show about cars decided to find out."
-  },
-  {
-   "i": 6,
-   "start_s": 39.925,
-   "end_s": 48.046,
-   "dur_s": 8.121,
-   "text": "Each of the presenters chose a different type of transport to make the same 27-kilometre journey."
-  },
-  {
-   "i": 7,
-   "start_s": 48.056,
-   "end_s": 51.3,
-   "dur_s": 3.244,
-   "text": "One presenter went by bike."
-  },
-  {
-   "i": 8,
-   "start_s": 51.3,
-   "end_s": 54.152,
-   "dur_s": 2.852,
-   "text": "One went by car."
-  },
-  {
-   "i": 9,
-   "start_s": 54.74,
-   "end_s": 64.848,
-   "dur_s": 10.108,
-   "text": "Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames."
-  },
-  {
-   "i": 10,
-   "start_s": 65.83,
-   "end_s": 75.982,
-   "dur_s": 10.152,
-   "text": "They all started at the same time and the same place in West London, but who got to City Airport in East London first?"
-  },
-  {
-   "i": 11,
-   "start_s": 75.992,
-   "end_s": 79.046,
-   "dur_s": 3.054,
-   "text": "The results were a surprise."
-  },
-  {
-   "i": 12,
-   "start_s": 79.689,
-   "end_s": 81.849,
-   "dur_s": 2.16,
-   "text": "The bike came first."
-  },
-  {
-   "i": 13,
-   "start_s": 82.547,
-   "end_s": 85.202,
-   "dur_s": 2.655,
-   "text": "In second place was the speedboat."
-  },
-  {
-   "i": 14,
-   "start_s": 85.86,
-   "end_s": 90.574,
-   "dur_s": 4.714,
-   "text": "Public transport came third and the car was last."
-  },
-  {
-   "i": 15,
-   "start_s": 91.756,
-   "end_s": 94.111,
-   "dur_s": 2.355,
-   "text": "So the presenters had an answer."
-  },
-  {
-   "i": 16,
-   "start_s": 94.61,
-   "end_s": 101.45,
-   "dur_s": 6.84,
-   "text": "The bike was quicker than all the other types of transport and the car was slower."
-  },
-  {
-   "i": 17,
-   "start_s": 101.45,
-   "end_s": 106.872,
-   "dur_s": 5.422,
-   "text": "They weren't very happy with the result because they wanted the car to win."
-  },
-  {
-   "i": 18,
-   "start_s": 107.466,
-   "end_s": 113.865,
-   "dur_s": 6.399,
-   "text": "They made a joke and said the bike wasn't a real winner because it was more dangerous."
-  },
-  {
-   "i": 19,
-   "start_s": 113.865,
-   "end_s": 117.995,
-   "dur_s": 4.13,
-   "text": "But, of course, the bike is the real winner."
-  },
-  {
-   "i": 20,
-   "start_s": 117.995,
-   "end_s": 120.905,
-   "dur_s": 2.91,
-   "text": "It's the best way to get about."
-  },
-  {
-   "i": 21,
-   "start_s": 120.905,
-   "end_s": 127.071,
-   "dur_s": 6.166,
-   "text": "It's cheaper than public transport and it is healthier than going by car."
-  },
-  {
-   "i": 22,
-   "start_s": 127.41,
-   "end_s": 132.868,
-   "dur_s": 5.458,
-   "text": "It's also better for our cities because bikes don't make the air dirty."
-  },
-  {
-   "i": 23,
-   "start_s": 133.816,
-   "end_s": 143.494,
-   "dur_s": 9.678,
-   "text": "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'"
-  }
- ],
- "p113": [
-  {
-   "i": 0,
-   "start_s": 8.41,
-   "end_s": 9.094,
-   "dur_s": 0.684,
-   "text": "Good morning."
-  },
-  {
-   "i": 1,
-   "start_s": 9.813,
-   "end_s": 11.005,
-   "dur_s": 1.192,
-   "text": "How can I help you?"
-  },
-  {
-   "i": 2,
-   "start_s": 11.574,
-   "end_s": 12.087,
-   "dur_s": 0.513,
-   "text": "Hello."
-  },
-  {
-   "i": 3,
-   "start_s": 12.087,
-   "end_s": 14.622,
-   "dur_s": 2.535,
-   "text": "I want to go to Windsor."
-  },
-  {
-   "i": 4,
-   "start_s": 14.697,
-   "end_s": 17.021,
-   "dur_s": 2.324,
-   "text": "What time's the next train?"
-  },
-  {
-   "i": 5,
-   "start_s": 17.041,
-   "end_s": 19.351,
-   "dur_s": 2.31,
-   "text": "There's one in five minutes."
-  },
-  {
-   "i": 6,
-   "start_s": 19.55,
-   "end_s": 20.139,
-   "dur_s": 0.589,
-   "text": "It's a fast train."
-  },
-  {
-   "i": 7,
-   "start_s": 20.942,
-   "end_s": 24.015,
-   "dur_s": 3.073,
-   "text": "It only stops at Clapham Junction and Windsor."
-  },
-  {
-   "i": 8,
-   "start_s": 24.864,
-   "end_s": 26.96,
-   "dur_s": 2.096,
-   "text": "You can catch that one."
-  },
-  {
-   "i": 9,
-   "start_s": 26.96,
-   "end_s": 28.675,
-   "dur_s": 1.715,
-   "text": "And the one after that?"
-  },
-  {
-   "i": 10,
-   "start_s": 28.685,
-   "end_s": 32.436,
-   "dur_s": 3.751,
-   "text": "There's one at half past ten, but that's a slower train."
-  },
-  {
-   "i": 11,
-   "start_s": 33.225,
-   "end_s": 35.59,
-   "dur_s": 2.365,
-   "text": "It stops at every station."
-  },
-  {
-   "i": 12,
-   "start_s": 35.59,
-   "end_s": 36.971,
-   "dur_s": 1.381,
-   "text": "That's OK."
-  },
-  {
-   "i": 13,
-   "start_s": 36.971,
-   "end_s": 40.912,
-   "dur_s": 3.941,
-   "text": "I'm not in a hurry, and I don't want to run."
-  },
-  {
-   "i": 14,
-   "start_s": 41.406,
-   "end_s": 45.18,
-   "dur_s": 3.774,
-   "text": "What time does that one arrive in Windsor?"
-  },
-  {
-   "i": 15,
-   "start_s": 45.18,
-   "end_s": 47.063,
-   "dur_s": 1.883,
-   "text": "At half past eleven."
-  },
-  {
-   "i": 16,
-   "start_s": 47.467,
-   "end_s": 48.79,
-   "dur_s": 1.323,
-   "text": "It takes an hour."
-  },
-  {
-   "i": 17,
-   "start_s": 48.79,
-   "end_s": 51.658,
-   "dur_s": 2.868,
-   "text": "And how often are the trains to Windsor?"
-  },
-  {
-   "i": 18,
-   "start_s": 52.166,
-   "end_s": 53.563,
-   "dur_s": 1.397,
-   "text": "They're every half hour."
-  },
-  {
-   "i": 19,
-   "start_s": 53.798,
-   "end_s": 54.257,
-   "dur_s": 0.459,
-   "text": "Great!"
-  },
-  {
-   "i": 20,
-   "start_s": 54.267,
-   "end_s": 57.729,
-   "dur_s": 3.462,
-   "text": "And how much is a ticket?"
-  },
-  {
-   "i": 21,
-   "start_s": 57.769,
-   "end_s": 61.21,
-   "dur_s": 3.441,
-   "text": "Do you want a single or a return?"
-  },
-  {
-   "i": 22,
-   "start_s": 61.21,
-   "end_s": 62.87,
-   "dur_s": 1.66,
-   "text": "A return, please."
-  },
-  {
-   "i": 23,
-   "start_s": 62.87,
-   "end_s": 64.85,
-   "dur_s": 1.98,
-   "text": "Are you returning today?"
-  },
-  {
-   "i": 24,
-   "start_s": 64.85,
-   "end_s": 66.339,
-   "dur_s": 1.489,
-   "text": "Yes, I am."
-  },
-  {
-   "i": 25,
-   "start_s": 66.998,
-   "end_s": 71.84,
-   "dur_s": 4.842,
-   "text": "Then you can get an off-peak day return ticket for £12.70."
-  },
-  {
-   "i": 26,
-   "start_s": 71.84,
-   "end_s": 75.219,
-   "dur_s": 3.379,
-   "text": "It's cheaper than the anytime day return."
-  },
-  {
-   "i": 27,
-   "start_s": 77.125,
-   "end_s": 77.18,
-   "dur_s": 0.055,
-   "text": "That's £19.90."
-  },
-  {
-   "i": 28,
-   "start_s": 77.359,
-   "end_s": 78.247,
-   "dur_s": 0.888,
-   "text": "Right."
-  },
-  {
-   "i": 29,
-   "start_s": 78.247,
-   "end_s": 82.213,
-   "dur_s": 3.966,
-   "text": "I'd like the off-peak day return one then."
-  },
-  {
-   "i": 30,
-   "start_s": 82.707,
-   "end_s": 83.251,
-   "dur_s": 0.544,
-   "text": "OK."
-  },
-  {
-   "i": 31,
-   "start_s": 83.45,
-   "end_s": 85.66,
-   "dur_s": 2.21,
-   "text": "That's £12.70, please."
-  },
-  {
-   "i": 32,
-   "start_s": 85.66,
-   "end_s": 89.322,
-   "dur_s": 3.662,
-   "text": "What platform does the train leave from?"
-  },
-  {
-   "i": 33,
-   "start_s": 89.661,
-   "end_s": 92.35,
-   "dur_s": 2.689,
-   "text": "It leaves from platform 15."
-  },
-  {
-   "i": 34,
-   "start_s": 92.35,
-   "end_s": 96.296,
-   "dur_s": 3.946,
-   "text": "And what platform does it arrive at in Windsor?"
-  },
-  {
-   "i": 35,
-   "start_s": 96.88,
-   "end_s": 98.865,
-   "dur_s": 1.985,
-   "text": "My friend wants to meet me there."
-  },
-  {
-   "i": 36,
-   "start_s": 99.269,
-   "end_s": 100.332,
-   "dur_s": 1.063,
-   "text": "Platform 1."
-  },
-  {
-   "i": 37,
-   "start_s": 100.332,
-   "end_s": 105.49,
-   "dur_s": 5.158,
-   "text": "But Windsor is a very small station, a lot smaller than Waterloo."
-  },
-  {
-   "i": 38,
-   "start_s": 105.789,
-   "end_s": 108.663,
-   "dur_s": 2.874,
-   "text": "There are only two platforms at Windsor."
-  },
-  {
-   "i": 39,
-   "start_s": 108.733,
-   "end_s": 110.499,
-   "dur_s": 1.766,
-   "text": "OK, then that's not a problem."
-  },
-  {
-   "i": 40,
-   "start_s": 111.342,
-   "end_s": 112.864,
-   "dur_s": 1.522,
-   "text": "Thank you."
-  },
-  {
-   "i": 41,
-   "start_s": 113.018,
-   "end_s": 114.28,
-   "dur_s": 1.262,
-   "text": "Have a good journey."
-  }
- ],
- "p114": [
-  {
-   "i": 0,
-   "start_s": 7.159,
-   "end_s": 13.021,
-   "dur_s": 5.862,
-   "text": "My favourite journey. We all love going on a journey."
-  },
-  {
-   "i": 1,
-   "start_s": 13.888,
-   "end_s": 18.513,
-   "dur_s": 4.625,
-   "text": "Here are some of your favourites. Thank you for sharing them!"
-  },
-  {
-   "i": 2,
-   "start_s": 19.82,
-   "end_s": 29.154,
-   "dur_s": 9.334,
-   "text": "Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River."
-  },
-  {
-   "i": 3,
-   "start_s": 29.618,
-   "end_s": 32.325,
-   "dur_s": 2.707,
-   "text": "My grandma lives in Budapest."
-  },
-  {
-   "i": 4,
-   "start_s": 32.325,
-   "end_s": 36.215,
-   "dur_s": 3.89,
-   "text": "When I visit her, we often go on it together."
-  },
-  {
-   "i": 5,
-   "start_s": 36.215,
-   "end_s": 38.423,
-   "dur_s": 2.208,
-   "text": "It's not a long journey."
-  },
-  {
-   "i": 6,
-   "start_s": 38.782,
-   "end_s": 40.588,
-   "dur_s": 1.806,
-   "text": "It's only ten minutes."
-  },
-  {
-   "i": 7,
-   "start_s": 41.216,
-   "end_s": 45.691,
-   "dur_s": 4.475,
-   "text": "The ferry just takes you across the river to the other side of the city."
-  },
-  {
-   "i": 8,
-   "start_s": 45.691,
-   "end_s": 48.27,
-   "dur_s": 2.579,
-   "text": "We don't get off the boat."
-  },
-  {
-   "i": 9,
-   "start_s": 48.679,
-   "end_s": 50.855,
-   "dur_s": 2.176,
-   "text": "We just go there and back again."
-  },
-  {
-   "i": 10,
-   "start_s": 52.775,
-   "end_s": 53.633,
-   "dur_s": 0.858,
-   "text": "Rose!"
-  },
-  {
-   "i": 11,
-   "start_s": 54.45,
-   "end_s": 56.576,
-   "dur_s": 2.126,
-   "text": "I really love steam trains."
-  },
-  {
-   "i": 12,
-   "start_s": 57.335,
-   "end_s": 59.615,
-   "dur_s": 2.28,
-   "text": "There's one in Scotland."
-  },
-  {
-   "i": 13,
-   "start_s": 60.004,
-   "end_s": 67.981,
-   "dur_s": 7.977,
-   "text": "It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train."
-  },
-  {
-   "i": 14,
-   "start_s": 68.853,
-   "end_s": 72.765,
-   "dur_s": 3.912,
-   "text": "It's the famous one you see in the Harry Potter films."
-  },
-  {
-   "i": 15,
-   "start_s": 73.124,
-   "end_s": 79.968,
-   "dur_s": 6.844,
-   "text": "The one that takes Harry and his classmates to Hogwarts. But that's not why I like it."
-  },
-  {
-   "i": 16,
-   "start_s": 80.552,
-   "end_s": 85.616,
-   "dur_s": 5.064,
-   "text": "I like the sound it makes and I like the view from the window."
-  },
-  {
-   "i": 17,
-   "start_s": 86.404,
-   "end_s": 91.577,
-   "dur_s": 5.173,
-   "text": "It travels past lakes and mountains and beautiful beaches."
-  },
-  {
-   "i": 18,
-   "start_s": 93.497,
-   "end_s": 97.613,
-   "dur_s": 4.116,
-   "text": "What's my favourite journey?"
-  },
-  {
-   "i": 19,
-   "start_s": 98.421,
-   "end_s": 100.77,
-   "dur_s": 2.349,
-   "text": "My journey to school."
-  },
-  {
-   "i": 20,
-   "start_s": 100.77,
-   "end_s": 106.987,
-   "dur_s": 6.217,
-   "text": "We live in a village and my school is in the next village."
-  },
-  {
-   "i": 21,
-   "start_s": 106.997,
-   "end_s": 115.533,
-   "dur_s": 8.536,
-   "text": "Every morning, I walk across the fields and then along the river until I'm at school."
-  },
-  {
-   "i": 22,
-   "start_s": 115.97,
-   "end_s": 118.655,
-   "dur_s": 2.685,
-   "text": "It's a really beautiful walk."
-  },
-  {
-   "i": 23,
-   "start_s": 118.655,
-   "end_s": 121.688,
-   "dur_s": 3.033,
-   "text": "I love looking for birds."
-  },
-  {
-   "i": 24,
-   "start_s": 121.688,
-   "end_s": 124.328,
-   "dur_s": 2.64,
-   "text": "There are some lovely ones."
-  },
-  {
-   "i": 25,
-   "start_s": 125.001,
-   "end_s": 128.922,
-   "dur_s": 3.921,
-   "text": "And sometimes, if I'm lucky, I see a rabbit."
-  },
-  {
-   "i": 26,
-   "start_s": 128.922,
-   "end_s": 132.235,
-   "dur_s": 3.313,
-   "text": "I love my walk to school."
-  },
-  {
-   "i": 27,
-   "start_s": 132.688,
-   "end_s": 135.752,
-   "dur_s": 3.064,
-   "text": "But I love the walk home more!"
-  },
-  {
-   "i": 28,
-   "start_s": 137.692,
-   "end_s": 144.058,
-   "dur_s": 6.366,
-   "text": "Max. My favourite journey is a very fast bike ride."
-  },
-  {
-   "i": 29,
-   "start_s": 145.065,
-   "end_s": 152.605,
-   "dur_s": 7.54,
-   "text": "My grandparents have a house in the mountains. There is a road down the mountain to the town."
-  },
-  {
-   "i": 30,
-   "start_s": 152.605,
-   "end_s": 158.001,
-   "dur_s": 5.396,
-   "text": "It goes down very fast, and it goes through a big forest."
-  },
-  {
-   "i": 31,
-   "start_s": 159.123,
-   "end_s": 163.06,
-   "dur_s": 3.937,
-   "text": "Every morning, we ride down to the town to get bread."
-  },
-  {
-   "i": 32,
-   "start_s": 164.112,
-   "end_s": 171.326,
-   "dur_s": 7.214,
-   "text": "It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!"
-  }
- ],
- "p117": [
-  {
-   "i": 0,
-   "start_s": 7.403,
-   "end_s": 9.124,
-   "dur_s": 1.721,
-   "text": "Transport around the world."
-  },
-  {
-   "i": 1,
-   "start_s": 10.481,
-   "end_s": 13.021,
-   "dur_s": 2.54,
-   "text": "The Amfibus, the Netherlands."
-  },
-  {
-   "i": 2,
-   "start_s": 14.342,
-   "end_s": 19.221,
-   "dur_s": 4.879,
-   "text": "The big, blue Amfibus certainly makes a big splash!"
-  },
-  {
-   "i": 3,
-   "start_s": 20.324,
-   "end_s": 25.048,
-   "dur_s": 4.724,
-   "text": "It's in Rotterdam, and it takes people on tours of the city."
-  },
-  {
-   "i": 4,
-   "start_s": 25.058,
-   "end_s": 26.674,
-   "dur_s": 1.616,
-   "text": "It's cool."
-  },
-  {
-   "i": 5,
-   "start_s": 26.684,
-   "end_s": 31.015,
-   "dur_s": 4.331,
-   "text": "It can travel on land and in the water."
-  },
-  {
-   "i": 6,
-   "start_s": 31.025,
-   "end_s": 38.073,
-   "dur_s": 7.048,
-   "text": "It is more expensive than water taxis, but it is more exciting, too."
-  },
-  {
-   "i": 7,
-   "start_s": 38.083,
-   "end_s": 41.74,
-   "dur_s": 3.657,
-   "text": "It is slower in the water than on land."
-  },
-  {
-   "i": 8,
-   "start_s": 41.75,
-   "end_s": 50.116,
-   "dur_s": 8.366,
-   "text": "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land."
-  },
-  {
-   "i": 9,
-   "start_s": 50.126,
-   "end_s": 57.25,
-   "dur_s": 7.124,
-   "text": "The tour lasts for an hour, and it costs 27.50 euros."
-  },
-  {
-   "i": 10,
-   "start_s": 59.255,
-   "end_s": 62.987,
-   "dur_s": 3.732,
-   "text": "Moving walkways and escalators, Hong Kong."
-  },
-  {
-   "i": 11,
-   "start_s": 64.364,
-   "end_s": 69.602,
-   "dur_s": 5.238,
-   "text": "The Central-Mid-Levels Escalator is 800 metres long."
-  },
-  {
-   "i": 12,
-   "start_s": 71.033,
-   "end_s": 78.17,
-   "dur_s": 7.137,
-   "text": "Escalators are usually inside a shopping centre or an airport, but not this one!"
-  },
-  {
-   "i": 13,
-   "start_s": 78.17,
-   "end_s": 79.674,
-   "dur_s": 1.504,
-   "text": "It's outside."
-  },
-  {
-   "i": 14,
-   "start_s": 80.17,
-   "end_s": 84.383,
-   "dur_s": 4.213,
-   "text": "It's a great way to travel round this city of hills."
-  },
-  {
-   "i": 15,
-   "start_s": 85.286,
-   "end_s": 86.344,
-   "dur_s": 1.058,
-   "text": "And it's free!"
-  },
-  {
-   "i": 16,
-   "start_s": 87.616,
-   "end_s": 91.248,
-   "dur_s": 3.632,
-   "text": "There are 14 places where you can get on and off."
-  },
-  {
-   "i": 17,
-   "start_s": 92.225,
-   "end_s": 99.973,
-   "dur_s": 7.748,
-   "text": "The escalators travel down the hill from 6am to 10am, so people can travel to work."
-  },
-  {
-   "i": 18,
-   "start_s": 100.586,
-   "end_s": 105.116,
-   "dur_s": 4.53,
-   "text": "They travel up the hill from 10am to midnight."
-  },
-  {
-   "i": 19,
-   "start_s": 106.25,
-   "end_s": 108.698,
-   "dur_s": 2.448,
-   "text": "The urban cable car, Turkey."
-  },
-  {
-   "i": 20,
-   "start_s": 108.833,
-   "end_s": 115.812,
-   "dur_s": 6.979,
-   "text": "Ankara's cable car is cheaper than other forms of public transport."
-  },
-  {
-   "i": 21,
-   "start_s": 115.822,
-   "end_s": 119.873,
-   "dur_s": 4.051,
-   "text": "It is healthier because it doesn't pollute the air."
-  },
-  {
-   "i": 22,
-   "start_s": 119.883,
-   "end_s": 128.343,
-   "dur_s": 8.46,
-   "text": "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!"
-  },
-  {
-   "i": 23,
-   "start_s": 128.353,
-   "end_s": 136.55,
-   "dur_s": 8.197,
-   "text": "It travels 60 metres above the ground, and passengers can get great views of the city."
-  },
-  {
-   "i": 24,
-   "start_s": 138.52,
-   "end_s": 142.641,
-   "dur_s": 4.121,
-   "text": "Submarines, Lanzarote and Tenerife."
-  },
-  {
-   "i": 25,
-   "start_s": 144.087,
-   "end_s": 147.051,
-   "dur_s": 2.964,
-   "text": "Now you can travel in a submarine!"
-  },
-  {
-   "i": 26,
-   "start_s": 147.061,
-   "end_s": 150.897,
-   "dur_s": 3.836,
-   "text": "This submarine carries tourists."
-  },
-  {
-   "i": 27,
-   "start_s": 150.907,
-   "end_s": 159.787,
-   "dur_s": 8.88,
-   "text": "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas."
-  },
-  {
-   "i": 28,
-   "start_s": 159.797,
-   "end_s": 168.363,
-   "dur_s": 8.566,
-   "text": "The submarine can carry 48 people, and it has 11 large windows on each side."
-  },
-  {
-   "i": 29,
-   "start_s": 169.435,
-   "end_s": 172.598,
-   "dur_s": 3.163,
-   "text": "It travels down 60 metres under the sea."
-  }
- ],
- "p202": [
-  {
-   "i": 0,
-   "start_s": 10.975,
-   "end_s": 19.895,
-   "dur_s": 8.92,
-   "text": "People use different types of transport to get from one place to the next."
-  },
-  {
-   "i": 1,
-   "start_s": 19.895,
-   "end_s": 33.494,
-   "dur_s": 13.599,
-   "text": "In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special."
-  },
-  {
-   "i": 2,
-   "start_s": 34.791,
-   "end_s": 39.535,
-   "dur_s": 4.744,
-   "text": "The first track opened in 1901."
-  },
-  {
-   "i": 3,
-   "start_s": 40.283,
-   "end_s": 50.6,
-   "dur_s": 10.317,
-   "text": "It is the oldest electric elevated railway with hanging cars in the world."
-  },
-  {
-   "i": 4,
-   "start_s": 50.6,
-   "end_s": 57.898,
-   "dur_s": 7.298,
-   "text": "More than 85,000 passengers use it every day."
-  },
-  {
-   "i": 5,
-   "start_s": 58.727,
-   "end_s": 68.73,
-   "dur_s": 10.003,
-   "text": "There are lots of special cars in Cuba, especially in Havana."
-  },
-  {
-   "i": 6,
-   "start_s": 68.73,
-   "end_s": 74.15,
-   "dur_s": 5.42,
-   "text": "Most of them are very old."
-  },
-  {
-   "i": 7,
-   "start_s": 74.15,
-   "end_s": 79.564,
-   "dur_s": 5.414,
-   "text": "But these yellow taxis are much newer."
-  },
-  {
-   "i": 8,
-   "start_s": 79.664,
-   "end_s": 88.374,
-   "dur_s": 8.71,
-   "text": "They are called cocotaxis because they look like coconuts."
-  },
-  {
-   "i": 9,
-   "start_s": 88.484,
-   "end_s": 93.408,
-   "dur_s": 4.924,
-   "text": "They are a great way of getting around."
-  },
-  {
-   "i": 10,
-   "start_s": 94.051,
-   "end_s": 97.114,
-   "dur_s": 3.063,
-   "text": "Tourists love them!"
-  },
-  {
-   "i": 11,
-   "start_s": 98.102,
-   "end_s": 109.17,
-   "dur_s": 11.068,
-   "text": "Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan."
-  },
-  {
-   "i": 12,
-   "start_s": 109.17,
-   "end_s": 117.373,
-   "dur_s": 8.203,
-   "text": "Originally, people used these sledges to transport food and other things."
-  },
-  {
-   "i": 13,
-   "start_s": 117.518,
-   "end_s": 121.935,
-   "dur_s": 4.417,
-   "text": "Today, they transport people."
-  },
-  {
-   "i": 14,
-   "start_s": 121.935,
-   "end_s": 132.978,
-   "dur_s": 11.043,
-   "text": "Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street."
-  },
-  {
-   "i": 15,
-   "start_s": 133.901,
-   "end_s": 137.757,
-   "dur_s": 3.856,
-   "text": "They wear special shoes."
-  },
-  {
-   "i": 16,
-   "start_s": 137.767,
-   "end_s": 148.473,
-   "dur_s": 10.706,
-   "text": "When the ride gets too fast, the drivers can use their shoes to slow it down."
-  },
-  {
-   "i": 17,
-   "start_s": 148.682,
-   "end_s": 160.894,
-   "dur_s": 12.212,
-   "text": "This strange form of transportation is called zorbing or globe-riding."
-  },
-  {
-   "i": 18,
-   "start_s": 161.08,
-   "end_s": 166.6,
-   "dur_s": 5.52,
-   "text": "And yes, a person is inside!"
-  },
-  {
-   "i": 19,
-   "start_s": 167.5,
-   "end_s": 172.405,
-   "dur_s": 4.905,
-   "text": "The first zorbing site was in New Zealand."
-  },
-  {
-   "i": 20,
-   "start_s": 172.405,
-   "end_s": 180.2,
-   "dur_s": 7.795,
-   "text": "But now you can go zorbing all over the world."
-  },
-  {
-   "i": 21,
-   "start_s": 180.3,
-   "end_s": 182.7,
-   "dur_s": 2.4,
-   "text": "Even on water."
-  },
-  {
-   "i": 22,
-   "start_s": 184.7,
-   "end_s": 189.9,
-   "dur_s": 5.2,
-   "text": "What's a popular way of getting around in your city?"
   }
  ],
  "p075": [
@@ -4417,1112 +7038,1078 @@
    "text": "Thanks Lena. Anyway, that's why my weekend was just okay."
   }
  ],
- "p048": [
+ "p111": [
   {
    "i": 0,
-   "start_s": 10.21,
-   "end_s": 14.88,
-   "dur_s": 4.67,
-   "text": "Our school has a Robotics Club and it's brilliant."
+   "start_s": 5.313,
+   "end_s": 12.751,
+   "dur_s": 7.438,
+   "text": "A lot of big cities, like London, have got many traffic problems."
   },
   {
    "i": 1,
-   "start_s": 15.67,
-   "end_s": 19.307,
-   "dur_s": 3.637,
-   "text": "I know this because I go to it!"
+   "start_s": 13.235,
+   "end_s": 18.862,
+   "dur_s": 5.627,
+   "text": "Sometimes a journey of a few kilometres can take more than an hour."
   },
   {
    "i": 2,
-   "start_s": 20.41,
-   "end_s": 23.417,
-   "dur_s": 3.007,
-   "text": "So, what is a Robotics Club?"
+   "start_s": 19.59,
+   "end_s": 23.202,
+   "dur_s": 3.612,
+   "text": "So what's the best way to get across London?"
   },
   {
    "i": 3,
-   "start_s": 23.96,
-   "end_s": 31.02,
-   "dur_s": 7.06,
-   "text": "Easy – it's a club for building robots and I love robots."
+   "start_s": 23.212,
+   "end_s": 29.2,
+   "dur_s": 5.988,
+   "text": "For a very short journey, it's probably a good idea to walk."
   },
   {
    "i": 4,
-   "start_s": 32.22,
-   "end_s": 35.36,
-   "dur_s": 3.14,
-   "text": "Mr Thomas is the club leader."
+   "start_s": 29.2,
+   "end_s": 32.85,
+   "dur_s": 3.65,
+   "text": "But what happens when you want to go further?"
   },
   {
    "i": 5,
-   "start_s": 36.12,
-   "end_s": 41.72,
-   "dur_s": 5.6,
-   "text": "He thinks of things for us to do and helps us build our robots."
+   "start_s": 33.923,
+   "end_s": 39.925,
+   "dur_s": 6.002,
+   "text": "The presenters of a popular TV show about cars decided to find out."
   },
   {
    "i": 6,
-   "start_s": 41.72,
-   "end_s": 46.02,
-   "dur_s": 4.3,
-   "text": "He's really cool and very kind."
+   "start_s": 39.925,
+   "end_s": 48.046,
+   "dur_s": 8.121,
+   "text": "Each of the presenters chose a different type of transport to make the same 27-kilometre journey."
   },
   {
    "i": 7,
-   "start_s": 46.02,
-   "end_s": 49.168,
-   "dur_s": 3.148,
-   "text": "He never gets angry with us."
+   "start_s": 48.056,
+   "end_s": 51.3,
+   "dur_s": 3.244,
+   "text": "One presenter went by bike."
   },
   {
    "i": 8,
-   "start_s": 50.12,
-   "end_s": 59.86,
-   "dur_s": 9.74,
-   "text": "He teaches Music (not Design and Technology!), but he just loves everything to do with computers."
+   "start_s": 51.3,
+   "end_s": 54.152,
+   "dur_s": 2.852,
+   "text": "One went by car."
   },
   {
    "i": 9,
-   "start_s": 61.34,
-   "end_s": 70.28,
-   "dur_s": 8.94,
-   "text": "We often make our own robots, but we sometimes watch videos of other robots on the internet."
+   "start_s": 54.74,
+   "end_s": 64.848,
+   "dur_s": 10.108,
+   "text": "Another chose public transport – the underground and bus – and the last one travelled by speedboat up the River Thames."
   },
   {
    "i": 10,
-   "start_s": 70.84,
-   "end_s": 77.62,
-   "dur_s": 6.78,
-   "text": "When our robot is ready, we use computer programs to make it do things."
+   "start_s": 65.83,
+   "end_s": 75.982,
+   "dur_s": 10.152,
+   "text": "They all started at the same time and the same place in West London, but who got to City Airport in East London first?"
   },
   {
    "i": 11,
-   "start_s": 77.62,
-   "end_s": 84.5,
-   "dur_s": 6.88,
-   "text": "Every year there is a competition for schools all over the country."
+   "start_s": 75.992,
+   "end_s": 79.046,
+   "dur_s": 3.054,
+   "text": "The results were a surprise."
   },
   {
    "i": 12,
-   "start_s": 85.62,
-   "end_s": 91.64,
-   "dur_s": 6.02,
-   "text": "I feel really excited when we show our robots to students from other schools."
-  },
-  {
-   "i": 13,
-   "start_s": 91.64,
-   "end_s": 96.12,
-   "dur_s": 4.48,
-   "text": "We never win, but that's not important."
-  },
-  {
-   "i": 14,
-   "start_s": 97.24,
-   "end_s": 101.6,
-   "dur_s": 4.36,
-   "text": "The other students like watching our robot move."
-  },
-  {
-   "i": 15,
-   "start_s": 101.6,
-   "end_s": 103.78,
-   "dur_s": 2.18,
-   "text": "It feels great."
-  },
-  {
-   "i": 16,
-   "start_s": 103.78,
-   "end_s": 107.62,
-   "dur_s": 3.84,
-   "text": "I love Robotics Club."
-  },
-  {
-   "i": 17,
-   "start_s": 107.62,
-   "end_s": 111.46,
-   "dur_s": 3.84,
-   "text": "It's a great place to meet new people."
-  },
-  {
-   "i": 18,
-   "start_s": 111.46,
-   "end_s": 117.62,
-   "dur_s": 6.16,
-   "text": "You make so many friends and not just with people from school."
-  },
-  {
-   "i": 19,
-   "start_s": 117.62,
-   "end_s": 121.18,
-   "dur_s": 3.56,
-   "text": "Robotics Club is for everyone."
-  },
-  {
-   "i": 20,
-   "start_s": 121.78,
-   "end_s": 130.18,
-   "dur_s": 8.4,
-   "text": "We meet in the school hall every Monday at lunchtime and every Thursday after school."
-  },
-  {
-   "i": 21,
-   "start_s": 130.18,
-   "end_s": 136.36,
-   "dur_s": 6.18,
-   "text": "Come and see us – we're always happy to see new people!"
-  }
- ],
- "p051": [
-  {
-   "i": 0,
-   "start_s": 8.96,
-   "end_s": 14.698,
-   "dur_s": 5.738,
-   "text": "My favourite piece of technology is my phone. I love it."
-  },
-  {
-   "i": 1,
-   "start_s": 15.38,
-   "end_s": 18.06,
-   "dur_s": 2.68,
-   "text": "I use it for so many things."
-  },
-  {
-   "i": 2,
-   "start_s": 18.58,
-   "end_s": 21.7,
-   "dur_s": 3.12,
-   "text": "I use it to text my friends."
-  },
-  {
-   "i": 3,
-   "start_s": 22.44,
-   "end_s": 24.8,
-   "dur_s": 2.36,
-   "text": "I use it to play games."
-  },
-  {
-   "i": 4,
-   "start_s": 25.56,
-   "end_s": 29.54,
-   "dur_s": 3.98,
-   "text": "I sometimes use it to help me with my homework."
-  },
-  {
-   "i": 5,
-   "start_s": 29.54,
-   "end_s": 36.86,
-   "dur_s": 7.32,
-   "text": "I use it for lots of things, but I don't use it in class."
-  },
-  {
-   "i": 6,
-   "start_s": 40.58,
-   "end_s": 46.74,
-   "dur_s": 6.16,
-   "text": "I love my virtual reality headset. It's so cool."
-  },
-  {
-   "i": 7,
-   "start_s": 47.38,
-   "end_s": 50.26,
-   "dur_s": 2.88,
-   "text": "I feel that I'm really in the game."
-  },
-  {
-   "i": 8,
-   "start_s": 50.94,
-   "end_s": 56.28,
-   "dur_s": 5.34,
-   "text": "I don't play games on my TV because they don't feel as real."
-  },
-  {
-   "i": 9,
-   "start_s": 57.551,
-   "end_s": 62.566,
-   "dur_s": 5.015,
-   "text": "The headset is very easy to wear, and it never hurts my head."
-  },
-  {
-   "i": 10,
-   "start_s": 63.38,
-   "end_s": 67.3,
-   "dur_s": 3.92,
-   "text": "The only problem is that the games are very expensive."
-  },
-  {
-   "i": 11,
-   "start_s": 72.48,
-   "end_s": 78.182,
-   "dur_s": 5.702,
-   "text": "My tablet is brilliant. It was my birthday present this year."
-  },
-  {
-   "i": 12,
-   "start_s": 78.7,
-   "end_s": 80.42,
-   "dur_s": 1.72,
-   "text": "What a great present."
-  },
-  {
-   "i": 13,
-   "start_s": 81.24,
-   "end_s": 91.417,
-   "dur_s": 10.177,
-   "text": "It's very thin and it doesn't feel heavy, but it's got a big screen, so it's great for watching films and playing games."
-  },
-  {
-   "i": 14,
-   "start_s": 92.2,
-   "end_s": 99.823,
-   "dur_s": 7.623,
-   "text": "My mum and dad always want to use it, so I have a special place to put it where they can't find it."
-  },
-  {
-   "i": 15,
-   "start_s": 104.14,
-   "end_s": 109.24,
-   "dur_s": 5.1,
-   "text": "My favourite things are my headphones. I love music."
-  },
-  {
-   "i": 16,
-   "start_s": 109.84,
-   "end_s": 112.106,
-   "dur_s": 2.266,
-   "text": "I listen to it all the time."
-  },
-  {
-   "i": 17,
-   "start_s": 112.92,
-   "end_s": 118.44,
-   "dur_s": 5.52,
-   "text": "My mum often wants the radio on, but we don't like the same kind of music."
-  },
-  {
-   "i": 18,
-   "start_s": 119.62,
-   "end_s": 122.48,
-   "dur_s": 2.86,
-   "text": "With my headphones, it's no problem."
-  },
-  {
-   "i": 19,
-   "start_s": 123.2,
-   "end_s": 128.9,
-   "dur_s": 5.7,
-   "text": "I listen to cool music, and she listens to the old music that she likes."
-  }
- ],
- "p052": [
-  {
-   "i": 0,
-   "start_s": 10.08,
-   "end_s": 17.543,
-   "dur_s": 7.463,
-   "text": "How many hours do you look at a TV, phone, tablet or computer every day?"
-  },
-  {
-   "i": 1,
-   "start_s": 30.7,
-   "end_s": 33.948,
-   "dur_s": 3.248,
-   "text": "Do you check your phone before school?"
-  },
-  {
-   "i": 2,
-   "start_s": 44.9,
-   "end_s": 49.424,
-   "dur_s": 4.524,
-   "text": "Do you worry when your phone or tablet has no power?"
-  },
-  {
-   "i": 3,
-   "start_s": 60.04,
-   "end_s": 64.58,
-   "dur_s": 4.54,
-   "text": "Do you watch TV before you do your homework?"
-  },
-  {
-   "i": 4,
-   "start_s": 75.38,
-   "end_s": 80.55,
-   "dur_s": 5.17,
-   "text": "Does your family ever say that you use your phone too much?"
-  },
-  {
-   "i": 5,
-   "start_s": 81.86,
-   "end_s": 87.731,
-   "dur_s": 5.871,
-   "text": "5 to 9 – No, you don't need a break! You use it well."
-  },
-  {
-   "i": 6,
-   "start_s": 88.04,
-   "end_s": 88.319,
-   "dur_s": 0.279,
-   "text": "10 to 12 – You're not too bad, but be careful!"
-  },
-  {
-   "i": 7,
-   "start_s": 88.419,
-   "end_s": 88.92,
-   "dur_s": 0.501,
-   "text": "13 to 15 – Yes, you do. You need a break from tech! Do something different!"
-  }
- ],
- "p054": [
-  {
-   "i": 0,
-   "start_s": 7.26,
-   "end_s": 9.94,
-   "dur_s": 2.68,
-   "text": "Hey, Liz. What's wrong?"
-  },
-  {
-   "i": 1,
-   "start_s": 10.58,
-   "end_s": 12.04,
-   "dur_s": 1.46,
-   "text": "I've got a cold."
-  },
-  {
-   "i": 2,
-   "start_s": 12.98,
-   "end_s": 18.34,
-   "dur_s": 5.36,
-   "text": "So? Everyone gets a cold sometimes. What's the problem?"
-  },
-  {
-   "i": 3,
-   "start_s": 19.12,
-   "end_s": 26.08,
-   "dur_s": 6.96,
-   "text": "The problem? The problem is, there's the school concert tomorrow. And I'm the singer!"
-  },
-  {
-   "i": 4,
-   "start_s": 26.8,
-   "end_s": 29.14,
-   "dur_s": 2.34,
-   "text": "I'm sure you can still sing."
-  },
-  {
-   "i": 5,
-   "start_s": 29.68,
-   "end_s": 33.34,
-   "dur_s": 3.66,
-   "text": "No way, Claudio! Listen to my voice!"
-  },
-  {
-   "i": 6,
-   "start_s": 34.02,
-   "end_s": 40.36,
-   "dur_s": 6.34,
-   "text": "She's right. This really is a problem. Oh, Liz, I'm sorry."
-  },
-  {
-   "i": 7,
-   "start_s": 41.14,
-   "end_s": 44.88,
-   "dur_s": 3.74,
-   "text": "Don't worry, Liz. We're here to help you."
-  },
-  {
-   "i": 8,
-   "start_s": 45.34,
-   "end_s": 46.5,
-   "dur_s": 1.16,
-   "text": "How, Claudio?"
-  },
-  {
-   "i": 9,
-   "start_s": 47.14,
-   "end_s": 48.02,
-   "dur_s": 0.88,
-   "text": "I don't know!"
-  },
-  {
-   "i": 10,
-   "start_s": 48.78,
-   "end_s": 56.448,
-   "dur_s": 7.668,
-   "text": "Just a minute. I've got an idea. Lucy, you can sing, can't you?"
-  },
-  {
-   "i": 11,
-   "start_s": 56.92,
-   "end_s": 61.5,
-   "dur_s": 4.58,
-   "text": "A little, Liz. But I can't sing with a band."
-  },
-  {
-   "i": 12,
-   "start_s": 62.264,
-   "end_s": 67.86,
-   "dur_s": 5.596,
-   "text": "Oh, come on, Lucy. You can do it. You're a great singer."
-  },
-  {
-   "i": 13,
-   "start_s": 68.56,
-   "end_s": 78.56,
-   "dur_s": 10,
-   "text": "OK, I'll do it for you, Liz. But this is crazy! OK, what are the songs?"
-  },
-  {
-   "i": 14,
-   "start_s": 79.4,
-   "end_s": 83.08,
-   "dur_s": 3.68,
-   "text": "I'll tell you later. You're the best, Lucy!"
-  }
- ],
- "p056": [
-  {
-   "i": 0,
-   "start_s": 9.1,
-   "end_s": 10.8,
-   "dur_s": 1.7,
-   "text": "Julia is 11."
-  },
-  {
-   "i": 1,
-   "start_s": 11.68,
-   "end_s": 17.8,
-   "dur_s": 6.12,
-   "text": "She has got curly, brown hair, brown eyes and a big smile."
-  },
-  {
-   "i": 2,
-   "start_s": 18.88,
-   "end_s": 21.28,
-   "dur_s": 2.4,
-   "text": "She's got a lot of friends at school."
-  },
-  {
-   "i": 3,
-   "start_s": 22.24,
-   "end_s": 24.4,
+   "start_s": 79.689,
+   "end_s": 81.849,
    "dur_s": 2.16,
-   "text": "All her classmates like her."
-  },
-  {
-   "i": 4,
-   "start_s": 25.3,
-   "end_s": 32.125,
-   "dur_s": 6.825,
-   "text": "At lunchtime, Julia always goes to the school canteen and buys her lunch."
-  },
-  {
-   "i": 5,
-   "start_s": 33.12,
-   "end_s": 36.68,
-   "dur_s": 3.56,
-   "text": "Her friend, Jack, doesn't buy any food."
-  },
-  {
-   "i": 6,
-   "start_s": 37.46,
-   "end_s": 39.76,
-   "dur_s": 2.3,
-   "text": "He just drinks a glass of water."
-  },
-  {
-   "i": 7,
-   "start_s": 40.86,
-   "end_s": 45.14,
-   "dur_s": 4.28,
-   "text": "Jack does this every day, and Julia is worried."
-  },
-  {
-   "i": 8,
-   "start_s": 46.18,
-   "end_s": 50.34,
-   "dur_s": 4.16,
-   "text": "One day, she asks Jack, 'Are you hungry?'"
-  },
-  {
-   "i": 9,
-   "start_s": 51.12,
-   "end_s": 53.232,
-   "dur_s": 2.112,
-   "text": "'Yes,' says Jack."
-  },
-  {
-   "i": 10,
-   "start_s": 53.74,
-   "end_s": 57.783,
-   "dur_s": 4.043,
-   "text": "'But you don't eat at school,' says Julia."
-  },
-  {
-   "i": 11,
-   "start_s": 58.5,
-   "end_s": 62.485,
-   "dur_s": 3.985,
-   "text": "'I haven't got any money for lunch,' says Jack."
-  },
-  {
-   "i": 12,
-   "start_s": 63.06,
-   "end_s": 66.885,
-   "dur_s": 3.825,
-   "text": "'My dad hasn't got a job and my mum's ill."
+   "text": "The bike came first."
   },
   {
    "i": 13,
-   "start_s": 67.64,
-   "end_s": 69.34,
-   "dur_s": 1.7,
-   "text": "They've got lots of problems."
+   "start_s": 82.547,
+   "end_s": 85.202,
+   "dur_s": 2.655,
+   "text": "In second place was the speedboat."
   },
   {
    "i": 14,
-   "start_s": 69.62,
-   "end_s": 73.1,
-   "dur_s": 3.48,
-   "text": "But don't worry about me – I'm OK.'"
+   "start_s": 85.86,
+   "end_s": 90.574,
+   "dur_s": 4.714,
+   "text": "Public transport came third and the car was last."
   },
   {
    "i": 15,
-   "start_s": 74.88,
-   "end_s": 76.997,
-   "dur_s": 2.117,
-   "text": "Julia thinks about this."
+   "start_s": 91.756,
+   "end_s": 94.111,
+   "dur_s": 2.355,
+   "text": "So the presenters had an answer."
   },
   {
    "i": 16,
-   "start_s": 77.82,
-   "end_s": 80.76,
-   "dur_s": 2.94,
-   "text": "At home, she's got a big glass jar."
+   "start_s": 94.61,
+   "end_s": 101.45,
+   "dur_s": 6.84,
+   "text": "The bike was quicker than all the other types of transport and the car was slower."
   },
   {
    "i": 17,
-   "start_s": 81.5,
-   "end_s": 82.98,
-   "dur_s": 1.48,
-   "text": "It's full of coins."
+   "start_s": 101.45,
+   "end_s": 106.872,
+   "dur_s": 5.422,
+   "text": "They weren't very happy with the result because they wanted the car to win."
   },
   {
    "i": 18,
-   "start_s": 83.9,
-   "end_s": 87.249,
-   "dur_s": 3.349,
-   "text": "She wants to buy an electric scooter one day."
+   "start_s": 107.466,
+   "end_s": 113.865,
+   "dur_s": 6.399,
+   "text": "They made a joke and said the bike wasn't a real winner because it was more dangerous."
   },
   {
    "i": 19,
-   "start_s": 88.6,
-   "end_s": 96.16,
-   "dur_s": 7.56,
-   "text": "That night, Julia opens the jar, takes the coins and puts them into a bag."
+   "start_s": 113.865,
+   "end_s": 117.995,
+   "dur_s": 4.13,
+   "text": "But, of course, the bike is the real winner."
   },
   {
    "i": 20,
-   "start_s": 97.26,
-   "end_s": 98.569,
-   "dur_s": 1.309,
-   "text": "Her mum sees her."
+   "start_s": 117.995,
+   "end_s": 120.905,
+   "dur_s": 2.91,
+   "text": "It's the best way to get about."
   },
   {
    "i": 21,
-   "start_s": 99.26,
-   "end_s": 103.26,
-   "dur_s": 4,
-   "text": "'Why are you doing that?' she asks."
+   "start_s": 120.905,
+   "end_s": 127.071,
+   "dur_s": 6.166,
+   "text": "It's cheaper than public transport and it is healthier than going by car."
   },
   {
    "i": 22,
-   "start_s": 103.26,
-   "end_s": 109.24,
-   "dur_s": 5.98,
-   "text": "'My friend Jack hasn't got any lunch money and I've got some money here."
+   "start_s": 127.41,
+   "end_s": 132.868,
+   "dur_s": 5.458,
+   "text": "It's also better for our cities because bikes don't make the air dirty."
   },
   {
    "i": 23,
-   "start_s": 109.24,
-   "end_s": 110.7,
-   "dur_s": 1.46,
-   "text": "This is for him.'"
-  },
-  {
-   "i": 24,
-   "start_s": 111.54,
-   "end_s": 115.252,
-   "dur_s": 3.712,
-   "text": "'That's very kind of you,' says her mum."
-  },
-  {
-   "i": 25,
-   "start_s": 116.08,
-   "end_s": 119.455,
-   "dur_s": 3.375,
-   "text": "She feels happy that her daughter wants to do this."
-  },
-  {
-   "i": 26,
-   "start_s": 120.36,
-   "end_s": 125.22,
-   "dur_s": 4.86,
-   "text": "The next day, Julia and her mum go and see her teacher."
-  },
-  {
-   "i": 27,
-   "start_s": 126.5,
-   "end_s": 130.84,
-   "dur_s": 4.34,
-   "text": "They tell her about Jack and Julia gives her the money."
-  },
-  {
-   "i": 28,
-   "start_s": 131.94,
-   "end_s": 133.944,
-   "dur_s": 2.004,
-   "text": "'This is for Jack's lunch."
-  },
-  {
-   "i": 29,
-   "start_s": 134.44,
-   "end_s": 138.182,
-   "dur_s": 3.742,
-   "text": "Now, he can have lunch every day,' she says."
-  },
-  {
-   "i": 30,
-   "start_s": 139.7,
-   "end_s": 145.76,
-   "dur_s": 6.06,
-   "text": "Julia hasn't got an electric scooter, but she's got a happy friend – Jack!"
+   "start_s": 133.816,
+   "end_s": 143.494,
+   "dur_s": 9.678,
+   "text": "So next time you need to travel around, think before you and your parents get into the car – 'Can we make this journey by bike?'"
   }
  ],
- "p059": [
+ "p113": [
   {
    "i": 0,
-   "start_s": 8.76,
-   "end_s": 10.5,
-   "dur_s": 1.74,
-   "text": "Hello, can I help?"
+   "start_s": 8.41,
+   "end_s": 9.094,
+   "dur_s": 0.684,
+   "text": "Good morning."
   },
   {
    "i": 1,
-   "start_s": 11.06,
-   "end_s": 17.52,
-   "dur_s": 6.46,
-   "text": "Yes. Have you got anything I can give to my best friend? It's a present."
+   "start_s": 9.813,
+   "end_s": 11.005,
+   "dur_s": 1.192,
+   "text": "How can I help you?"
   },
   {
    "i": 2,
-   "start_s": 18.36,
-   "end_s": 23.64,
-   "dur_s": 5.28,
-   "text": "Yes, we've got a lot of things. Is it for a girl or a boy?"
+   "start_s": 11.574,
+   "end_s": 12.087,
+   "dur_s": 0.513,
+   "text": "Hello."
   },
   {
    "i": 3,
-   "start_s": 24.22,
-   "end_s": 27.48,
-   "dur_s": 3.26,
-   "text": "It's for a girl, for my friend, Annie."
+   "start_s": 12.087,
+   "end_s": 14.622,
+   "dur_s": 2.535,
+   "text": "I want to go to Windsor."
   },
   {
    "i": 4,
-   "start_s": 27.48,
-   "end_s": 40.04,
-   "dur_s": 12.56,
-   "text": "OK. I've got this lovely little yellow rose. Yellow's a happy colour. It's a lovely present for a girl. It's got a necklace with it."
+   "start_s": 14.697,
+   "end_s": 17.021,
+   "dur_s": 2.324,
+   "text": "What time's the next train?"
   },
   {
    "i": 5,
-   "start_s": 40.58,
-   "end_s": 42.52,
-   "dur_s": 1.94,
-   "text": "Have you got any little animals?"
+   "start_s": 17.041,
+   "end_s": 19.351,
+   "dur_s": 2.31,
+   "text": "There's one in five minutes."
   },
   {
    "i": 6,
-   "start_s": 43.32,
-   "end_s": 49.74,
-   "dur_s": 6.42,
-   "text": "Yes, we've got a little silver dolphin or a dog. They both show friendship."
+   "start_s": 19.55,
+   "end_s": 20.139,
+   "dur_s": 0.589,
+   "text": "It's a fast train."
   },
   {
    "i": 7,
-   "start_s": 49.74,
-   "end_s": 62.68,
-   "dur_s": 12.94,
-   "text": "Oh, I love the dolphin, and Annie likes dolphins, too. They're her favourite animal. But she's got a dog. It's just like this one."
+   "start_s": 20.942,
+   "end_s": 24.015,
+   "dur_s": 3.073,
+   "text": "It only stops at Clapham Junction and Windsor."
   },
   {
    "i": 8,
-   "start_s": 63.32,
-   "end_s": 72.8,
-   "dur_s": 9.48,
-   "text": "Hmm. So maybe the dog or the dolphin. I've got one more to show you. It's really beautiful."
+   "start_s": 24.864,
+   "end_s": 26.96,
+   "dur_s": 2.096,
+   "text": "You can catch that one."
   },
   {
    "i": 9,
-   "start_s": 72.8,
-   "end_s": 79.5,
-   "dur_s": 6.7,
-   "text": "Oh, it's a heart. And it's in two pieces. That's clever."
+   "start_s": 26.96,
+   "end_s": 28.675,
+   "dur_s": 1.715,
+   "text": "And the one after that?"
   },
   {
    "i": 10,
-   "start_s": 80.2,
-   "end_s": 85.68,
-   "dur_s": 5.48,
-   "text": "Yes. You wear one piece and your friend, Annie, wears the other."
+   "start_s": 28.685,
+   "end_s": 32.436,
+   "dur_s": 3.751,
+   "text": "There's one at half past ten, but that's a slower train."
   },
   {
    "i": 11,
-   "start_s": 86.26,
-   "end_s": 95.06,
-   "dur_s": 8.8,
-   "text": "Oh, that's so cool. I like that idea, but I still prefer the dolphin. How much is it?"
+   "start_s": 33.225,
+   "end_s": 35.59,
+   "dur_s": 2.365,
+   "text": "It stops at every station."
   },
   {
    "i": 12,
-   "start_s": 95.78,
-   "end_s": 97,
-   "dur_s": 1.22,
-   "text": "It's £15."
+   "start_s": 35.59,
+   "end_s": 36.971,
+   "dur_s": 1.381,
+   "text": "That's OK."
   },
   {
    "i": 13,
-   "start_s": 97.62,
-   "end_s": 101.68,
-   "dur_s": 4.06,
-   "text": "That's OK. Can I have the dolphin, then?"
+   "start_s": 36.971,
+   "end_s": 40.912,
+   "dur_s": 3.941,
+   "text": "I'm not in a hurry, and I don't want to run."
   },
   {
    "i": 14,
-   "start_s": 102.156,
-   "end_s": 105.68,
-   "dur_s": 3.524,
-   "text": "Of course. And do you want the necklace too?"
+   "start_s": 41.406,
+   "end_s": 45.18,
+   "dur_s": 3.774,
+   "text": "What time does that one arrive in Windsor?"
   },
   {
    "i": 15,
-   "start_s": 106.46,
-   "end_s": 112.08,
-   "dur_s": 5.62,
-   "text": "No. Annie's got a nice silver necklace. She doesn't need another one."
+   "start_s": 45.18,
+   "end_s": 47.063,
+   "dur_s": 1.883,
+   "text": "At half past eleven."
   },
   {
    "i": 16,
-   "start_s": 112.72,
-   "end_s": 119.176,
-   "dur_s": 6.456,
-   "text": "OK, then. That's £15. I've got a little bag you can put it in."
+   "start_s": 47.467,
+   "end_s": 48.79,
+   "dur_s": 1.323,
+   "text": "It takes an hour."
   },
   {
    "i": 17,
-   "start_s": 119.6,
-   "end_s": 122.241,
-   "dur_s": 2.641,
-   "text": "Oh, that's great. Thank you."
+   "start_s": 48.79,
+   "end_s": 51.658,
+   "dur_s": 2.868,
+   "text": "And how often are the trains to Windsor?"
   },
   {
    "i": 18,
-   "start_s": 122.48,
-   "end_s": 123.84,
-   "dur_s": 1.36,
-   "text": "I hope she likes it."
-  }
- ],
- "p060": [
-  {
-   "i": 0,
-   "start_s": 5.64,
-   "end_s": 8.754,
-   "dur_s": 3.114,
-   "text": "Hi, Oliver. Good to see you."
-  },
-  {
-   "i": 1,
-   "start_s": 9.125,
-   "end_s": 15.08,
-   "dur_s": 5.955,
-   "text": "Hi, Ellie. You look happy. How's it going? How's your first day back at school?"
-  },
-  {
-   "i": 2,
-   "start_s": 15.98,
-   "end_s": 22.361,
-   "dur_s": 6.381,
-   "text": "Not too bad, thanks. We've got this great new teacher. You'd really like him."
-  },
-  {
-   "i": 3,
-   "start_s": 22.76,
-   "end_s": 26.34,
-   "dur_s": 3.58,
-   "text": "Really? Lucky you. What does he teach?"
-  },
-  {
-   "i": 4,
-   "start_s": 26.831,
-   "end_s": 27.32,
-   "dur_s": 0.489,
-   "text": "Science."
-  },
-  {
-   "i": 5,
-   "start_s": 27.32,
-   "end_s": 29.86,
-   "dur_s": 2.54,
-   "text": "But you don't like Science."
-  },
-  {
-   "i": 6,
-   "start_s": 30.44,
-   "end_s": 42.14,
-   "dur_s": 11.7,
-   "text": "I do now. This new teacher's very funny. He makes us all laugh and he makes Science fun. And I understand everything. It's great."
-  },
-  {
-   "i": 7,
-   "start_s": 42.76,
-   "end_s": 46.37,
-   "dur_s": 3.61,
-   "text": "Really? What does this new teacher look like?"
-  },
-  {
-   "i": 8,
-   "start_s": 46.88,
-   "end_s": 59.74,
-   "dur_s": 12.86,
-   "text": "Well, he's quite tall and he's slim. He's got brown eyes and he wears glasses. He's got short curly hair. It's red like yours."
-  },
-  {
-   "i": 9,
-   "start_s": 60.4,
-   "end_s": 61.962,
-   "dur_s": 1.562,
-   "text": "He's got red hair?"
-  },
-  {
-   "i": 10,
-   "start_s": 62.5,
-   "end_s": 68.28,
-   "dur_s": 5.78,
-   "text": "Yes, like yours but your hair is straight and his is curly."
-  },
-  {
-   "i": 11,
-   "start_s": 69.18,
-   "end_s": 70.46,
-   "dur_s": 1.28,
-   "text": "Has he got a beard?"
-  },
-  {
-   "i": 12,
-   "start_s": 71.32,
-   "end_s": 73.68,
-   "dur_s": 2.36,
-   "text": "Yes, he's got a short beard."
-  },
-  {
-   "i": 13,
-   "start_s": 74.44,
-   "end_s": 76.42,
-   "dur_s": 1.98,
-   "text": "And has he got a moustache?"
-  },
-  {
-   "i": 14,
-   "start_s": 77.06,
-   "end_s": 91.72,
-   "dur_s": 14.66,
-   "text": "Yes … Oh, and he likes sport. He plays rugby and he likes football. He goes to football matches at the weekends with his son. His son's the same age as us."
-  },
-  {
-   "i": 15,
-   "start_s": 92.34,
-   "end_s": 96.78,
-   "dur_s": 4.44,
-   "text": "Really? And his favourite team is Manchester City."
-  },
-  {
-   "i": 16,
-   "start_s": 97.292,
-   "end_s": 100.28,
-   "dur_s": 2.988,
-   "text": "Yes, it is. How do you know?"
-  },
-  {
-   "i": 17,
-   "start_s": 101.12,
-   "end_s": 104.42,
-   "dur_s": 3.3,
-   "text": "Is this him walking towards us now?"
-  },
-  {
-   "i": 18,
-   "start_s": 105.14,
-   "end_s": 106.68,
-   "dur_s": 1.54,
-   "text": "Yes, it is."
+   "start_s": 52.166,
+   "end_s": 53.563,
+   "dur_s": 1.397,
+   "text": "They're every half hour."
   },
   {
    "i": 19,
-   "start_s": 107.4,
-   "end_s": 109.12,
-   "dur_s": 1.72,
-   "text": "That's my dad."
+   "start_s": 53.798,
+   "end_s": 54.257,
+   "dur_s": 0.459,
+   "text": "Great!"
   },
   {
    "i": 20,
-   "start_s": 109.12,
-   "end_s": 112.84,
-   "dur_s": 3.72,
-   "text": "No way! You're kidding!"
+   "start_s": 54.267,
+   "end_s": 57.729,
+   "dur_s": 3.462,
+   "text": "And how much is a ticket?"
+  },
+  {
+   "i": 21,
+   "start_s": 57.769,
+   "end_s": 61.21,
+   "dur_s": 3.441,
+   "text": "Do you want a single or a return?"
+  },
+  {
+   "i": 22,
+   "start_s": 61.21,
+   "end_s": 62.87,
+   "dur_s": 1.66,
+   "text": "A return, please."
+  },
+  {
+   "i": 23,
+   "start_s": 62.87,
+   "end_s": 64.85,
+   "dur_s": 1.98,
+   "text": "Are you returning today?"
+  },
+  {
+   "i": 24,
+   "start_s": 64.85,
+   "end_s": 66.339,
+   "dur_s": 1.489,
+   "text": "Yes, I am."
+  },
+  {
+   "i": 25,
+   "start_s": 66.998,
+   "end_s": 71.84,
+   "dur_s": 4.842,
+   "text": "Then you can get an off-peak day return ticket for £12.70."
+  },
+  {
+   "i": 26,
+   "start_s": 71.84,
+   "end_s": 75.219,
+   "dur_s": 3.379,
+   "text": "It's cheaper than the anytime day return."
+  },
+  {
+   "i": 27,
+   "start_s": 77.125,
+   "end_s": 77.18,
+   "dur_s": 0.055,
+   "text": "That's £19.90."
+  },
+  {
+   "i": 28,
+   "start_s": 77.359,
+   "end_s": 78.247,
+   "dur_s": 0.888,
+   "text": "Right."
+  },
+  {
+   "i": 29,
+   "start_s": 78.247,
+   "end_s": 82.213,
+   "dur_s": 3.966,
+   "text": "I'd like the off-peak day return one then."
+  },
+  {
+   "i": 30,
+   "start_s": 82.707,
+   "end_s": 83.251,
+   "dur_s": 0.544,
+   "text": "OK."
+  },
+  {
+   "i": 31,
+   "start_s": 83.45,
+   "end_s": 85.66,
+   "dur_s": 2.21,
+   "text": "That's £12.70, please."
+  },
+  {
+   "i": 32,
+   "start_s": 85.66,
+   "end_s": 89.322,
+   "dur_s": 3.662,
+   "text": "What platform does the train leave from?"
+  },
+  {
+   "i": 33,
+   "start_s": 89.661,
+   "end_s": 92.35,
+   "dur_s": 2.689,
+   "text": "It leaves from platform 15."
+  },
+  {
+   "i": 34,
+   "start_s": 92.35,
+   "end_s": 96.296,
+   "dur_s": 3.946,
+   "text": "And what platform does it arrive at in Windsor?"
+  },
+  {
+   "i": 35,
+   "start_s": 96.88,
+   "end_s": 98.865,
+   "dur_s": 1.985,
+   "text": "My friend wants to meet me there."
+  },
+  {
+   "i": 36,
+   "start_s": 99.269,
+   "end_s": 100.332,
+   "dur_s": 1.063,
+   "text": "Platform 1."
+  },
+  {
+   "i": 37,
+   "start_s": 100.332,
+   "end_s": 105.49,
+   "dur_s": 5.158,
+   "text": "But Windsor is a very small station, a lot smaller than Waterloo."
+  },
+  {
+   "i": 38,
+   "start_s": 105.789,
+   "end_s": 108.663,
+   "dur_s": 2.874,
+   "text": "There are only two platforms at Windsor."
+  },
+  {
+   "i": 39,
+   "start_s": 108.733,
+   "end_s": 110.499,
+   "dur_s": 1.766,
+   "text": "OK, then that's not a problem."
+  },
+  {
+   "i": 40,
+   "start_s": 111.342,
+   "end_s": 112.864,
+   "dur_s": 1.522,
+   "text": "Thank you."
+  },
+  {
+   "i": 41,
+   "start_s": 113.018,
+   "end_s": 114.28,
+   "dur_s": 1.262,
+   "text": "Have a good journey."
   }
  ],
- "p063": [
+ "p114": [
   {
    "i": 0,
-   "start_s": 10.98,
-   "end_s": 14.048,
-   "dur_s": 3.068,
-   "text": "How do you say hello to someone you know?"
+   "start_s": 7.159,
+   "end_s": 13.021,
+   "dur_s": 5.862,
+   "text": "My favourite journey. We all love going on a journey."
   },
   {
    "i": 1,
-   "start_s": 14.8,
-   "end_s": 18.36,
-   "dur_s": 3.56,
-   "text": "Do you smile? Do you touch the other person?"
+   "start_s": 13.888,
+   "end_s": 18.513,
+   "dur_s": 4.625,
+   "text": "Here are some of your favourites. Thank you for sharing them!"
   },
   {
    "i": 2,
-   "start_s": 19.78,
-   "end_s": 22.18,
-   "dur_s": 2.4,
-   "text": "Here are some ideas for travellers."
+   "start_s": 19.82,
+   "end_s": 29.154,
+   "dur_s": 9.334,
+   "text": "Adam. I love boats and my favourite boat journey is the one by ferry across the Danube River."
   },
   {
    "i": 3,
-   "start_s": 23.92,
-   "end_s": 27.794,
-   "dur_s": 3.874,
-   "text": "This is how people in different countries welcome each other."
+   "start_s": 29.618,
+   "end_s": 32.325,
+   "dur_s": 2.707,
+   "text": "My grandma lives in Budapest."
   },
   {
    "i": 4,
-   "start_s": 28.48,
-   "end_s": 31.811,
-   "dur_s": 3.331,
-   "text": "Do you do different things in your country?"
+   "start_s": 32.325,
+   "end_s": 36.215,
+   "dur_s": 3.89,
+   "text": "When I visit her, we often go on it together."
   },
   {
    "i": 5,
-   "start_s": 32.82,
-   "end_s": 39.01,
-   "dur_s": 6.19,
-   "text": "In many countries in Asia, people bow their heads when they meet each other."
+   "start_s": 36.215,
+   "end_s": 38.423,
+   "dur_s": 2.208,
+   "text": "It's not a long journey."
   },
   {
    "i": 6,
-   "start_s": 40.06,
-   "end_s": 41.38,
-   "dur_s": 1.32,
-   "text": "This shows respect."
+   "start_s": 38.782,
+   "end_s": 40.588,
+   "dur_s": 1.806,
+   "text": "It's only ten minutes."
   },
   {
    "i": 7,
-   "start_s": 42.36,
-   "end_s": 51.54,
-   "dur_s": 9.18,
-   "text": "In India, Nepal and Bangladesh, people bring their hands together in front of their heart and say 'Namaste'."
+   "start_s": 41.216,
+   "end_s": 45.691,
+   "dur_s": 4.475,
+   "text": "The ferry just takes you across the river to the other side of the city."
   },
   {
    "i": 8,
-   "start_s": 52.96,
-   "end_s": 64.36,
-   "dur_s": 11.4,
-   "text": "When you greet a grandmother or grandfather or another older person in Turkey, you kiss their right hand and then place it on your forehead."
+   "start_s": 45.691,
+   "end_s": 48.27,
+   "dur_s": 2.579,
+   "text": "We don't get off the boat."
   },
   {
    "i": 9,
-   "start_s": 65.46,
-   "end_s": 67.82,
-   "dur_s": 2.36,
-   "text": "They do this in the Philippines, too."
+   "start_s": 48.679,
+   "end_s": 50.855,
+   "dur_s": 2.176,
+   "text": "We just go there and back again."
   },
   {
    "i": 10,
-   "start_s": 69.98,
-   "end_s": 74.84,
-   "dur_s": 4.86,
-   "text": "The Maori people in New Zealand rub noses together when they meet."
+   "start_s": 52.775,
+   "end_s": 53.633,
+   "dur_s": 0.858,
+   "text": "Rose!"
   },
   {
    "i": 11,
-   "start_s": 75.92,
-   "end_s": 78.12,
-   "dur_s": 2.2,
-   "text": "This is called the 'hongi'."
+   "start_s": 54.45,
+   "end_s": 56.576,
+   "dur_s": 2.126,
+   "text": "I really love steam trains."
   },
   {
    "i": 12,
-   "start_s": 79.8,
-   "end_s": 84.962,
-   "dur_s": 5.162,
-   "text": "In Malaysia, you put your hand on your heart and nod your head."
+   "start_s": 57.335,
+   "end_s": 59.615,
+   "dur_s": 2.28,
+   "text": "There's one in Scotland."
   },
   {
    "i": 13,
-   "start_s": 85.76,
-   "end_s": 90.86,
-   "dur_s": 5.1,
-   "text": "Sometimes you also take the person's hands in your hands first."
+   "start_s": 60.004,
+   "end_s": 67.981,
+   "dur_s": 7.977,
+   "text": "It goes from Fort William to Mallaig on the west coast, and it's called the Jacobite Steam Train."
   },
   {
    "i": 14,
-   "start_s": 92.32,
-   "end_s": 97.582,
-   "dur_s": 5.262,
-   "text": "In Western countries, many people shake hands when they meet."
+   "start_s": 68.853,
+   "end_s": 72.765,
+   "dur_s": 3.912,
+   "text": "It's the famous one you see in the Harry Potter films."
   },
   {
    "i": 15,
-   "start_s": 98.52,
-   "end_s": 105.024,
-   "dur_s": 6.504,
-   "text": "Sometimes they just smile and say something like 'Hello!' or 'Hi!'"
+   "start_s": 73.124,
+   "end_s": 79.968,
+   "dur_s": 6.844,
+   "text": "The one that takes Harry and his classmates to Hogwarts. But that's not why I like it."
   },
   {
    "i": 16,
-   "start_s": 105.92,
-   "end_s": 113.78,
-   "dur_s": 7.86,
-   "text": "In the US and in other countries, some people like using a 'fist bump' to greet another person."
+   "start_s": 80.552,
+   "end_s": 85.616,
+   "dur_s": 5.064,
+   "text": "I like the sound it makes and I like the view from the window."
   },
   {
    "i": 17,
-   "start_s": 114.88,
-   "end_s": 121.64,
-   "dur_s": 6.76,
-   "text": "Both people make a fist, push their arm forward slowly and touch each other's fists."
+   "start_s": 86.404,
+   "end_s": 91.577,
+   "dur_s": 5.173,
+   "text": "It travels past lakes and mountains and beautiful beaches."
   },
   {
    "i": 18,
-   "start_s": 123.12,
-   "end_s": 128.68,
-   "dur_s": 5.56,
-   "text": "In many countries around the world, friends kiss each other on the cheek."
+   "start_s": 93.497,
+   "end_s": 97.613,
+   "dur_s": 4.116,
+   "text": "What's my favourite journey?"
   },
   {
    "i": 19,
-   "start_s": 129.84,
-   "end_s": 139.86,
-   "dur_s": 10.02,
-   "text": "In some countries they kiss one cheek, in others they kiss both cheeks and in some they kiss cheeks three times."
+   "start_s": 98.421,
+   "end_s": 100.77,
+   "dur_s": 2.349,
+   "text": "My journey to school."
+  },
+  {
+   "i": 20,
+   "start_s": 100.77,
+   "end_s": 106.987,
+   "dur_s": 6.217,
+   "text": "We live in a village and my school is in the next village."
+  },
+  {
+   "i": 21,
+   "start_s": 106.997,
+   "end_s": 115.533,
+   "dur_s": 8.536,
+   "text": "Every morning, I walk across the fields and then along the river until I'm at school."
+  },
+  {
+   "i": 22,
+   "start_s": 115.97,
+   "end_s": 118.655,
+   "dur_s": 2.685,
+   "text": "It's a really beautiful walk."
+  },
+  {
+   "i": 23,
+   "start_s": 118.655,
+   "end_s": 121.688,
+   "dur_s": 3.033,
+   "text": "I love looking for birds."
+  },
+  {
+   "i": 24,
+   "start_s": 121.688,
+   "end_s": 124.328,
+   "dur_s": 2.64,
+   "text": "There are some lovely ones."
+  },
+  {
+   "i": 25,
+   "start_s": 125.001,
+   "end_s": 128.922,
+   "dur_s": 3.921,
+   "text": "And sometimes, if I'm lucky, I see a rabbit."
+  },
+  {
+   "i": 26,
+   "start_s": 128.922,
+   "end_s": 132.235,
+   "dur_s": 3.313,
+   "text": "I love my walk to school."
+  },
+  {
+   "i": 27,
+   "start_s": 132.688,
+   "end_s": 135.752,
+   "dur_s": 3.064,
+   "text": "But I love the walk home more!"
+  },
+  {
+   "i": 28,
+   "start_s": 137.692,
+   "end_s": 144.058,
+   "dur_s": 6.366,
+   "text": "Max. My favourite journey is a very fast bike ride."
+  },
+  {
+   "i": 29,
+   "start_s": 145.065,
+   "end_s": 152.605,
+   "dur_s": 7.54,
+   "text": "My grandparents have a house in the mountains. There is a road down the mountain to the town."
+  },
+  {
+   "i": 30,
+   "start_s": 152.605,
+   "end_s": 158.001,
+   "dur_s": 5.396,
+   "text": "It goes down very fast, and it goes through a big forest."
+  },
+  {
+   "i": 31,
+   "start_s": 159.123,
+   "end_s": 163.06,
+   "dur_s": 3.937,
+   "text": "Every morning, we ride down to the town to get bread."
+  },
+  {
+   "i": 32,
+   "start_s": 164.112,
+   "end_s": 171.326,
+   "dur_s": 7.214,
+   "text": "It only takes ten minutes to ride down, but it takes a lot longer to ride back up again!"
+  }
+ ],
+ "p117": [
+  {
+   "i": 0,
+   "start_s": 7.403,
+   "end_s": 9.124,
+   "dur_s": 1.721,
+   "text": "Transport around the world."
+  },
+  {
+   "i": 1,
+   "start_s": 10.481,
+   "end_s": 13.021,
+   "dur_s": 2.54,
+   "text": "The Amfibus, the Netherlands."
+  },
+  {
+   "i": 2,
+   "start_s": 14.342,
+   "end_s": 19.221,
+   "dur_s": 4.879,
+   "text": "The big, blue Amfibus certainly makes a big splash!"
+  },
+  {
+   "i": 3,
+   "start_s": 20.324,
+   "end_s": 25.048,
+   "dur_s": 4.724,
+   "text": "It's in Rotterdam, and it takes people on tours of the city."
+  },
+  {
+   "i": 4,
+   "start_s": 25.058,
+   "end_s": 26.674,
+   "dur_s": 1.616,
+   "text": "It's cool."
+  },
+  {
+   "i": 5,
+   "start_s": 26.684,
+   "end_s": 31.015,
+   "dur_s": 4.331,
+   "text": "It can travel on land and in the water."
+  },
+  {
+   "i": 6,
+   "start_s": 31.025,
+   "end_s": 38.073,
+   "dur_s": 7.048,
+   "text": "It is more expensive than water taxis, but it is more exciting, too."
+  },
+  {
+   "i": 7,
+   "start_s": 38.083,
+   "end_s": 41.74,
+   "dur_s": 3.657,
+   "text": "It is slower in the water than on land."
+  },
+  {
+   "i": 8,
+   "start_s": 41.75,
+   "end_s": 50.116,
+   "dur_s": 8.366,
+   "text": "It goes at 8 kilometres per hour in the water and 96 kilometres per hour on land."
+  },
+  {
+   "i": 9,
+   "start_s": 50.126,
+   "end_s": 57.25,
+   "dur_s": 7.124,
+   "text": "The tour lasts for an hour, and it costs 27.50 euros."
+  },
+  {
+   "i": 10,
+   "start_s": 59.255,
+   "end_s": 62.987,
+   "dur_s": 3.732,
+   "text": "Moving walkways and escalators, Hong Kong."
+  },
+  {
+   "i": 11,
+   "start_s": 64.364,
+   "end_s": 69.602,
+   "dur_s": 5.238,
+   "text": "The Central-Mid-Levels Escalator is 800 metres long."
+  },
+  {
+   "i": 12,
+   "start_s": 71.033,
+   "end_s": 78.17,
+   "dur_s": 7.137,
+   "text": "Escalators are usually inside a shopping centre or an airport, but not this one!"
+  },
+  {
+   "i": 13,
+   "start_s": 78.17,
+   "end_s": 79.674,
+   "dur_s": 1.504,
+   "text": "It's outside."
+  },
+  {
+   "i": 14,
+   "start_s": 80.17,
+   "end_s": 84.383,
+   "dur_s": 4.213,
+   "text": "It's a great way to travel round this city of hills."
+  },
+  {
+   "i": 15,
+   "start_s": 85.286,
+   "end_s": 86.344,
+   "dur_s": 1.058,
+   "text": "And it's free!"
+  },
+  {
+   "i": 16,
+   "start_s": 87.616,
+   "end_s": 91.248,
+   "dur_s": 3.632,
+   "text": "There are 14 places where you can get on and off."
+  },
+  {
+   "i": 17,
+   "start_s": 92.225,
+   "end_s": 99.973,
+   "dur_s": 7.748,
+   "text": "The escalators travel down the hill from 6am to 10am, so people can travel to work."
+  },
+  {
+   "i": 18,
+   "start_s": 100.586,
+   "end_s": 105.116,
+   "dur_s": 4.53,
+   "text": "They travel up the hill from 10am to midnight."
+  },
+  {
+   "i": 19,
+   "start_s": 106.25,
+   "end_s": 108.698,
+   "dur_s": 2.448,
+   "text": "The urban cable car, Turkey."
+  },
+  {
+   "i": 20,
+   "start_s": 108.833,
+   "end_s": 115.812,
+   "dur_s": 6.979,
+   "text": "Ankara's cable car is cheaper than other forms of public transport."
+  },
+  {
+   "i": 21,
+   "start_s": 115.822,
+   "end_s": 119.873,
+   "dur_s": 4.051,
+   "text": "It is healthier because it doesn't pollute the air."
+  },
+  {
+   "i": 22,
+   "start_s": 119.883,
+   "end_s": 128.343,
+   "dur_s": 8.46,
+   "text": "It is also easier and quicker than travelling by car, because there are no traffic jams in the sky!"
+  },
+  {
+   "i": 23,
+   "start_s": 128.353,
+   "end_s": 136.55,
+   "dur_s": 8.197,
+   "text": "It travels 60 metres above the ground, and passengers can get great views of the city."
+  },
+  {
+   "i": 24,
+   "start_s": 138.52,
+   "end_s": 142.641,
+   "dur_s": 4.121,
+   "text": "Submarines, Lanzarote and Tenerife."
+  },
+  {
+   "i": 25,
+   "start_s": 144.087,
+   "end_s": 147.051,
+   "dur_s": 2.964,
+   "text": "Now you can travel in a submarine!"
+  },
+  {
+   "i": 26,
+   "start_s": 147.061,
+   "end_s": 150.897,
+   "dur_s": 3.836,
+   "text": "This submarine carries tourists."
+  },
+  {
+   "i": 27,
+   "start_s": 150.907,
+   "end_s": 159.787,
+   "dur_s": 8.88,
+   "text": "It is a safe and comfortable way to see the colourful fish and the plants and rocks under our seas."
+  },
+  {
+   "i": 28,
+   "start_s": 159.797,
+   "end_s": 168.363,
+   "dur_s": 8.566,
+   "text": "The submarine can carry 48 people, and it has 11 large windows on each side."
+  },
+  {
+   "i": 29,
+   "start_s": 169.435,
+   "end_s": 172.598,
+   "dur_s": 3.163,
+   "text": "It travels down 60 metres under the sea."
+  }
+ ],
+ "p202": [
+  {
+   "i": 0,
+   "start_s": 10.975,
+   "end_s": 19.895,
+   "dur_s": 8.92,
+   "text": "People use different types of transport to get from one place to the next."
+  },
+  {
+   "i": 1,
+   "start_s": 19.895,
+   "end_s": 33.494,
+   "dur_s": 13.599,
+   "text": "In Wuppertal, a city in Germany, the 'Schwebebahn' or suspension railway is very special."
+  },
+  {
+   "i": 2,
+   "start_s": 34.791,
+   "end_s": 39.535,
+   "dur_s": 4.744,
+   "text": "The first track opened in 1901."
+  },
+  {
+   "i": 3,
+   "start_s": 40.283,
+   "end_s": 50.6,
+   "dur_s": 10.317,
+   "text": "It is the oldest electric elevated railway with hanging cars in the world."
+  },
+  {
+   "i": 4,
+   "start_s": 50.6,
+   "end_s": 57.898,
+   "dur_s": 7.298,
+   "text": "More than 85,000 passengers use it every day."
+  },
+  {
+   "i": 5,
+   "start_s": 58.727,
+   "end_s": 68.73,
+   "dur_s": 10.003,
+   "text": "There are lots of special cars in Cuba, especially in Havana."
+  },
+  {
+   "i": 6,
+   "start_s": 68.73,
+   "end_s": 74.15,
+   "dur_s": 5.42,
+   "text": "Most of them are very old."
+  },
+  {
+   "i": 7,
+   "start_s": 74.15,
+   "end_s": 79.564,
+   "dur_s": 5.414,
+   "text": "But these yellow taxis are much newer."
+  },
+  {
+   "i": 8,
+   "start_s": 79.664,
+   "end_s": 88.374,
+   "dur_s": 8.71,
+   "text": "They are called cocotaxis because they look like coconuts."
+  },
+  {
+   "i": 9,
+   "start_s": 88.484,
+   "end_s": 93.408,
+   "dur_s": 4.924,
+   "text": "They are a great way of getting around."
+  },
+  {
+   "i": 10,
+   "start_s": 94.051,
+   "end_s": 97.114,
+   "dur_s": 3.063,
+   "text": "Tourists love them!"
+  },
+  {
+   "i": 11,
+   "start_s": 98.102,
+   "end_s": 109.17,
+   "dur_s": 11.068,
+   "text": "Tourists also like riding down the hills in Madeira, Portugal, on the Monte Toboggan."
+  },
+  {
+   "i": 12,
+   "start_s": 109.17,
+   "end_s": 117.373,
+   "dur_s": 8.203,
+   "text": "Originally, people used these sledges to transport food and other things."
+  },
+  {
+   "i": 13,
+   "start_s": 117.518,
+   "end_s": 121.935,
+   "dur_s": 4.417,
+   "text": "Today, they transport people."
+  },
+  {
+   "i": 14,
+   "start_s": 121.935,
+   "end_s": 132.978,
+   "dur_s": 11.043,
+   "text": "Two 'carreiros', or sledge drivers, run next to the sledge and keep it on the street."
+  },
+  {
+   "i": 15,
+   "start_s": 133.901,
+   "end_s": 137.757,
+   "dur_s": 3.856,
+   "text": "They wear special shoes."
+  },
+  {
+   "i": 16,
+   "start_s": 137.767,
+   "end_s": 148.473,
+   "dur_s": 10.706,
+   "text": "When the ride gets too fast, the drivers can use their shoes to slow it down."
+  },
+  {
+   "i": 17,
+   "start_s": 148.682,
+   "end_s": 160.894,
+   "dur_s": 12.212,
+   "text": "This strange form of transportation is called zorbing or globe-riding."
+  },
+  {
+   "i": 18,
+   "start_s": 161.08,
+   "end_s": 166.6,
+   "dur_s": 5.52,
+   "text": "And yes, a person is inside!"
+  },
+  {
+   "i": 19,
+   "start_s": 167.5,
+   "end_s": 172.405,
+   "dur_s": 4.905,
+   "text": "The first zorbing site was in New Zealand."
+  },
+  {
+   "i": 20,
+   "start_s": 172.405,
+   "end_s": 180.2,
+   "dur_s": 7.795,
+   "text": "But now you can go zorbing all over the world."
+  },
+  {
+   "i": 21,
+   "start_s": 180.3,
+   "end_s": 182.7,
+   "dur_s": 2.4,
+   "text": "Even on water."
+  },
+  {
+   "i": 22,
+   "start_s": 184.7,
+   "end_s": 189.9,
+   "dur_s": 5.2,
+   "text": "What's a popular way of getting around in your city?"
   }
  ]
 }
