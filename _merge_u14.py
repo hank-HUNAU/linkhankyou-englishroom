@@ -12,15 +12,23 @@ AUDIO = {  # page -> (unit, filename)
     "p016": (1, "Thk2e_BE_L0_SB_Unit_1_p16_t06.mp3"), "p018": (1, "109.mp3"),
     "p020": (2, "Thk2e_BE_L0_SB_Unit_2_p20_t01.mp3"), "p023": (2, "Thk2e_BE_L0_SB_Unit_2_p23_t05.mp3"),
     "p024": (2, "Thk2e_BE_L0_SB_Unit_2_p24_t06.mp3"), "p027": (2, "Thk2e_BE_L0_SB_Unit_2_p27_t07.mp3"),
-    "p028": (2, "Thk2e_BE_L0_SB_Unit_2_p28_t08.mp3"),
     "p030": (3, "Unit 03-1 Reading.mp3"), "p033": (3, "Thk2e_BE_L0_SB_Unit_3_p33_t03.mp3"),
     "p034": (3, "Unit_3_p34_t04[reading].mp3"), "p036": (3, "Thk2e_BE_L0_SB_Unit_3_p36_t09.mp3"),
     "p038": (4, "Unit4-p38-reading.mp3"), "p041": (4, "Unit4-p41-listening-ex9.ex10.mp3"),
-    "p042": (4, "4-p42-reading-ex1.mp3"), "p043": (4, "4-p43-functions-ex11.mp3"),
+    "p042": (4, "4-p42-reading-ex1.mp3"),
     "p045": (4, "4-p45-culture-ex3.mp3"),
 }
 
-# （旧误映射 p043 的一次性清理已于 2026-10-24 完成并移除；p043 现为 4.11 functions 篇）
+# 每单元恰 4 篇（与 U5-U12 同构）：按用户令移除 2.08 备考听力(p028) 与 4.11 functions(p043)
+for _p, _u in (("p028", 2), ("p043", 4)):
+    _f = os.path.join(BASE, UNIT_DIR[_u], "01_正文篇章", f"句级数据_{_p}.json")
+    if os.path.exists(_f):
+        os.remove(_f)
+        print(f"已移除超篇归档 句级数据_{_p}.json")
+    _a = os.path.join(REPO, "assets", _p + ".mp3")
+    if os.path.exists(_a):
+        os.remove(_a)
+        print(f"已移除超篇音频 assets/{_p}.mp3")
 
 def resolve_audio(unit, fname):
     d = os.path.join(AUDIO_BASE, f"第{unit}单元", f"第{unit}单元 音频")
@@ -95,7 +103,8 @@ for f in files:
                      dur_s=round(s["end_s"] - s["start_s"], 3), text=s["text"])
                 for s in d["sentences"]]
     added += 1
-tl.pop("p043", None) if False else None  # p043 现为 4.11 functions 篇，保留
+for _p in ("p028", "p043"):  # 超篇键移除（每单元恰 4 篇）
+    tl.pop(_p, None)
 tl = {k: tl[k] for k in sorted(tl, key=lambda x: int(x[1:]))}
 json.dump(tl, open(tl_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"新增 {added} 键，timeline 总键数 {len(tl)}")

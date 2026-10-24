@@ -14,7 +14,7 @@ WORDS_CACHE = os.path.join(HERE, "_u14_words.json")
 
 UNIT_DIR = {1: "U1_AllTogether", 2: "U2_ImExcited", 3: "U3_FamilyTime", 4: "U4_CityLife"}
 
-# 情况1（无稿）7 篇规格
+# 情况1（无稿）6 篇规格（每单元恰 4 篇，与 U5-U12 同构；备考听力 2.08 按用户令移除）
 ASR_ONLY = [
     dict(key="u1_p15_quiz", unit=1, page="p015", title="One-Minute Challenge", type="听力",
          track="1.05", audio="Thk2e_BE_L0_SB_Unit_1_p15_t05.mp3"),
@@ -22,8 +22,6 @@ ASR_ONLY = [
          track="1.09", audio="109.mp3"),
     dict(key="u2_p23_dialogues", unit=2, page="p023", title="Four dialogues", type="听力",
          track="2.05", audio="Thk2e_BE_L0_SB_Unit_2_p23_t05.mp3"),
-    dict(key="u2_p28_newgirl", unit=2, page="p028", title="A new girl at school", type="听力",
-         track="2.08", audio="Thk2e_BE_L0_SB_Unit_2_p28_t08.mp3"),
     dict(key="u3_p33_family", unit=3, page="p033", title="Three people talking", type="听力",
          track="3.03", audio="Thk2e_BE_L0_SB_Unit_3_p33_t03.mp3"),
     dict(key="u3_p36_photos", unit=3, page="p036", title="Paul and Carla", type="口语",

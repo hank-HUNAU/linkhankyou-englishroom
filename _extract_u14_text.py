@@ -188,39 +188,6 @@ P.append(dict(key="u4_p42_shop", unit=4, page="p042", title="Buying in a shop", 
               track="4.04", audio="4-p42-reading-ex1.mp3", src="tb",
               lines=dialogue_turns(seg, ["Man", "Girl", "Woman"])))
 
-# 4.11 FUNCTIONS 对话（体育杂志；TB 填空式，按空编号回填 Exercise 9 答案）
-fseg = span(lines, "A Morning. 0", "B Thanks. Bye!")
-fn_answers = {"0": "Can I help you?", "1": "Have you got", "2": "How much are they?",
-              "3": "I'll take them", "4": "That's", "5": "Here's your change"}
-fturns, cur = [], None
-for l in fseg:
-    m = re.match(r"^([AB])\b[ \t]*(.*)$", l)
-    if m:
-        if cur is not None:
-            fturns.append(cur)
-        cur = m.group(2)
-    elif l in ("A", "B"):
-        if cur is not None:
-            fturns.append(cur)
-        cur = ""
-    elif re.fullmatch(r"[a-f]", l):
-        continue  # 答案字母单独成行，跳过
-    elif cur is not None:
-        cur += " " + l
-if cur:
-    fturns.append(cur)
-
-def fill_gap(text):
-    """'Morning. 0 a' → 'Morning. Can I help you?'（空编号 → 答案短语）"""
-    m = re.search(r"\b([0-5])\b(?![.,\d])", text)
-    if not m:
-        return re.sub(r"\s+([,.?!])", r"\1", re.sub(r"\s{2,}", " ", text)).strip()
-    return fill_gap(text[:m.start()] + " " + fn_answers[m.group(1)] + " " + text[m.end():])
-
-P.append(dict(key="u4_p043_functions", unit=4, page="p043", title="Buying in a shop (functions)", type="口语",
-              track="4.11", audio="4-p43-functions-ex11.mp3", src="tb",
-              lines=[t for t in (fill_gap(x) for x in fturns) if t.strip()]))
-
 lines = load_lines("Unit 4 第4次课_教师用书.pdf")
 seg = span(lines, "Villa Borghese is a big public park", "view of the city.")
 P.append(dict(key="u4_p45_parks", unit=4, page="p045", title="Parks around the world", type="文化",
