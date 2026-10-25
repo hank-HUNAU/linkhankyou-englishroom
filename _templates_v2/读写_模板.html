@@ -384,6 +384,7 @@ function initDB(){ TL=DB.TL; ZH=DB.ZH||{}; TITLE_START=DB.TITLE_START;
 Object.assign(BOOK, BOOKU12);
 __BOOK_EXTRA__
 </script>
+<script src="../assets/timeline-from-srt.js"></script>
 <script>
 'use strict';
 /* ============ 读写单页引擎：流程① 逐句听（纯听+看，中文默认关） · 流程② 逐句听写（随机N句/按段落） ============ */
@@ -413,7 +414,7 @@ function stageSave(){ try{ localStorage.setItem(SK, JSON.stringify(STAGE)); }cat
 
 /* ── 通用 ── */
 function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
-function aplay(){ try{ var pr=aplay(); if(pr&&pr.catch) pr.catch(function(){}); }catch(e){} }
+function aplay(){ try{ return audio.play(); }catch(e){ return Promise.reject(e); } }
 var tt=null; function toast(m){ var t=$('toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(function(){ t.classList.remove('show'); },1800); }
 function normTok(t){ return (t||'').toLowerCase().replace(/[^a-z0-9']/g,''); }
 function tokens(s){ return String(s).trim().split(/\s+/).filter(function(w){ return w; }); }
@@ -622,11 +623,18 @@ $('finishBtn').onclick=function(){ $('dSummary').classList.add('hide'); $('dSetu
 (function boot(){
   if(!B){ document.body.innerHTML='<div style="padding:40px;text-align:center;color:#8e8e93">本篇章数据缺失（pg='+PG+'）</div>'; return; }
   audio.src = B.audio;
+  run();
+  /* SRT 派生的时间轴优先（运行时载入；失败静默回退 DB.TL） */
+  if(window.TLF && window.TLF.load){
+    window.TLF.load(PG, TLx).then(function(t){ if(t&&t.length){ TLx=t; } }).catch(function(){});
+  }
+  function run(){
   $('tSub').textContent = B.u + ' · p' + PG + ' · ' + SEGS.length + ' 句 · ' + PARA.length + ' 段';
   renderSents(); setIdx(0); updatePos(); renderParaChips();
   if(STAGE.listen){ state.played={}; refreshDone(); }
   var m=(location.search||'').match(/[?&]flow=(listen|dictate)/);
   if(m&&m[1]==='dictate') setFlow('dictate'); else setFlow('listen');
+  }
 })();
 </script>
 </body></html>

@@ -174,10 +174,14 @@ P.append(dict(key="u3_p34_photo", unit=3, page="p034", title="Ellie's photo", ty
 # ============ U4 ============
 lines = load_lines("Unit 4 第1次课_教师用书.pdf")
 seg = span(lines, "Istanbul, Turkey", "they love it!")
+# 城市名头被朗读但不属正文句 —— 剥掉（Nara 的 "N" 在文字层丢失，一并修）
+_bro = [l.replace("ara, Japan", "Nara, Japan") for l in article_sents(seg)]
+for _i, _s in enumerate(_bro):
+    for _h in ("Istanbul, Turkey", "Nara, Japan"):
+        _s = re.sub(r"^" + re.escape(_h) + r"\s+", "", _s)
+    _bro[_i] = _s
 P.append(dict(key="u4_p38_brochure", unit=4, page="p038", title="Great cities", type="阅读A",
-              track="4.01", audio="Unit4-p38-reading.mp3", src="tb",
-              lines=[l.replace("ara, Japan", "Nara, Japan") for l in
-                     article_sents(seg, headers=("Istanbul, Turkey", "ara, Japan", "Nara, Japan"))]))
+              track="4.01", audio="Unit4-p38-reading.mp3", src="tb", lines=_bro))
 
 lines = load_lines("Unit 4 第3次课_教师用书.pdf")
 i0 = next(i for i, l in enumerate(lines) if "Morning. Can I" in l)
@@ -190,8 +194,17 @@ P.append(dict(key="u4_p42_shop", unit=4, page="p042", title="Buying in a shop", 
 
 lines = load_lines("Unit 4 第4次课_教师用书.pdf")
 seg = span(lines, "Villa Borghese is a big public park", "view of the city.")
+# 6 座公园：题图标签 A-F + 城市名头被朗读但不属正文句 —— 从句首剥掉（只留正文）
+PARK_HDR = ["Golden Gate Park, San Francisco, US", "Chapultepec Park, Mexico City, Mexico",
+            "El Parque del Buen Retiro, Madrid, Spain", "The Iguana Park, Guayaquil, Ecuador",
+            "Mount Faber Park, Singapore"]
+park_sents = article_sents(seg)
+for _i, _s in enumerate(park_sents):
+    for _h in PARK_HDR:
+        _s = re.sub(r"^[A-F]\s+" + re.escape(_h) + r"\s+", "", _s)
+    park_sents[_i] = _s
 P.append(dict(key="u4_p45_parks", unit=4, page="p045", title="Parks around the world", type="文化",
-              track="4.12", audio="4-p45-culture-ex3.mp3", src="tb", lines=article_sents(seg)))
+              track="4.12", audio="4-p45-culture-ex3.mp3", src="tb", lines=park_sents))
 
 json.dump(P, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in P:

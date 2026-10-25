@@ -284,223 +284,216 @@
  "p015": [
   {
    "i": 0,
-   "start_s": 4.04,
-   "end_s": 5.16,
-   "dur_s": 1.12,
-   "text": "Exercise 8"
-  },
-  {
-   "i": 1,
    "start_s": 6.08,
    "end_s": 10.54,
    "dur_s": 4.46,
    "text": "Hello and welcome to the One Minute Challenge."
   },
   {
-   "i": 2,
+   "i": 1,
    "start_s": 13.2,
    "end_s": 18.02,
    "dur_s": 4.82,
    "text": "On Line 1 we have Jason. Where are you from, Jason?"
   },
   {
-   "i": 3,
+   "i": 2,
    "start_s": 18.72,
    "end_s": 20.92,
    "dur_s": 2.2,
    "text": "Hi, Megan. I'm from Birmingham."
   },
   {
-   "i": 4,
+   "i": 3,
    "start_s": 21.4,
    "end_s": 26.6,
    "dur_s": 5.2,
    "text": "That's great. OK, Jason, you have one minute."
   },
   {
-   "i": 5,
+   "i": 4,
    "start_s": 27.36,
    "end_s": 29.38,
    "dur_s": 2.02,
    "text": "How many questions can you answer?"
   },
   {
-   "i": 6,
+   "i": 5,
    "start_s": 30.0,
    "end_s": 36.38,
    "dur_s": 6.38,
    "text": "Today's questions are all about nationalities. OK."
   },
   {
-   "i": 7,
+   "i": 6,
    "start_s": 37.46,
    "end_s": 39.38,
    "dur_s": 1.92,
    "text": "Jason, are you ready?"
   },
   {
-   "i": 8,
+   "i": 7,
    "start_s": 40.0,
    "end_s": 41.02,
    "dur_s": 1.02,
    "text": "Yes, I am."
   },
   {
-   "i": 9,
+   "i": 8,
    "start_s": 41.6,
    "end_s": 44.92,
    "dur_s": 3.32,
    "text": "So let's play the One Minute Challenge."
   },
   {
-   "i": 10,
+   "i": 9,
    "start_s": 46.84,
    "end_s": 47.76,
    "dur_s": 0.92,
    "text": "OK."
   },
   {
-   "i": 11,
+   "i": 10,
    "start_s": 49.1,
    "end_s": 53.14,
    "dur_s": 4.04,
    "text": "Coco Goff, the tennis player, is from..."
   },
   {
-   "i": 12,
+   "i": 11,
    "start_s": 53.14,
    "end_s": 56.6,
    "dur_s": 3.46,
    "text": "The US. She's American. Correct."
   },
   {
-   "i": 13,
+   "i": 12,
    "start_s": 57.48,
    "end_s": 58.52,
    "dur_s": 1.04,
    "text": "Question 2."
   },
   {
-   "i": 14,
+   "i": 13,
    "start_s": 59.02,
    "end_s": 61.26,
    "dur_s": 2.24,
    "text": "Pyea is from..."
   },
   {
-   "i": 15,
+   "i": 14,
    "start_s": 61.26,
    "end_s": 65.94,
    "dur_s": 4.68,
    "text": "Pyea? That's a type of food. It's South African."
   },
   {
-   "i": 16,
+   "i": 15,
    "start_s": 66.54,
    "end_s": 74.88,
    "dur_s": 8.34,
    "text": "No, I'm sorry. You're wrong. It's a Spanish dish. Of course. Three."
   },
   {
-   "i": 17,
+   "i": 16,
    "start_s": 76.0,
    "end_s": 78.82,
    "dur_s": 2.82,
    "text": "Cape Town is a city in..."
   },
   {
-   "i": 18,
+   "i": 17,
    "start_s": 78.82,
    "end_s": 82.02,
    "dur_s": 3.2,
    "text": "South Africa. It's a South African city."
   },
   {
-   "i": 19,
+   "i": 18,
    "start_s": 82.86,
    "end_s": 85.42,
    "dur_s": 2.56,
    "text": "Correct. Next question."
   },
   {
-   "i": 20,
+   "i": 19,
    "start_s": 86.92,
    "end_s": 90.16,
    "dur_s": 3.24,
    "text": "Cariocas are people from..."
   },
   {
-   "i": 21,
+   "i": 20,
    "start_s": 90.96,
    "end_s": 92.3,
    "dur_s": 1.34,
    "text": "I have no idea."
   },
   {
-   "i": 22,
+   "i": 21,
    "start_s": 93.24,
    "end_s": 97.58,
    "dur_s": 4.34,
    "text": "Cariocas. They're from Rio de Janeiro in Brazil."
   },
   {
-   "i": 23,
+   "i": 22,
    "start_s": 98.32,
    "end_s": 99.5,
    "dur_s": 1.18,
    "text": "I didn't know that."
   },
   {
-   "i": 24,
+   "i": 23,
    "start_s": 100.7,
    "end_s": 105.64,
    "dur_s": 4.94,
    "text": "The actor, Yalitza Aparicio, is from..."
   },
   {
-   "i": 25,
+   "i": 24,
    "start_s": 105.64,
    "end_s": 107.0,
    "dur_s": 1.36,
    "text": "Spain, I think."
   },
   {
-   "i": 26,
+   "i": 25,
    "start_s": 107.72,
    "end_s": 111.14,
    "dur_s": 3.42,
    "text": "Sorry, you're wrong. She's Mexican."
   },
   {
-   "i": 27,
+   "i": 26,
    "start_s": 112.16,
    "end_s": 113.26,
    "dur_s": 1.1,
    "text": "Last question."
   },
   {
-   "i": 28,
+   "i": 27,
    "start_s": 114.22,
    "end_s": 116.34,
    "dur_s": 2.12,
    "text": "Salsa music is..."
   },
   {
-   "i": 29,
+   "i": 28,
    "start_s": 118.62,
    "end_s": 122.22,
    "dur_s": 3.6,
    "text": "I'm sorry, Jason. We're out of time."
   },
   {
-   "i": 30,
+   "i": 29,
    "start_s": 123.14,
    "end_s": 125.4,
    "dur_s": 2.26,
    "text": "Your score is 2."
   },
   {
-   "i": 31,
+   "i": 30,
    "start_s": 125.96,
    "end_s": 127.4,
    "dur_s": 1.44,
@@ -929,167 +922,139 @@
  "p023": [
   {
    "i": 0,
-   "start_s": 3.16,
-   "end_s": 3.56,
-   "dur_s": 0.4,
-   "text": "Listening"
-  },
-  {
-   "i": 1,
-   "start_s": 4.38,
-   "end_s": 6.5,
-   "dur_s": 2.12,
-   "text": "Exercises 9 and 10"
-  },
-  {
-   "i": 2,
-   "start_s": 7.4,
-   "end_s": 8.26,
-   "dur_s": 0.86,
-   "text": "Example"
-  },
-  {
-   "i": 3,
    "start_s": 12.22,
    "end_s": 15.42,
    "dur_s": 3.2,
    "text": "Why don't you go to bed, Liam?"
   },
   {
-   "i": 4,
+   "i": 1,
    "start_s": 16.06,
    "end_s": 19.42,
    "dur_s": 3.36,
    "text": "I'm not tired. There's nothing to do here."
   },
   {
-   "i": 5,
+   "i": 2,
    "start_s": 19.86,
    "end_s": 22.86,
    "dur_s": 3.0,
    "text": "Well, go somewhere. Go to the cinema."
   },
   {
-   "i": 6,
+   "i": 3,
    "start_s": 23.62,
    "end_s": 25.46,
    "dur_s": 1.84,
    "text": "There's nothing good on."
   },
   {
-   "i": 7,
+   "i": 4,
    "start_s": 26.04,
    "end_s": 27.1,
    "dur_s": 1.06,
    "text": "Read a book."
   },
   {
-   "i": 8,
+   "i": 5,
    "start_s": 27.1,
-   "end_s": 35.44,
-   "dur_s": 8.34,
-   "text": "Look. It's okay, Mum. Don't worry. 1."
+   "end_s": 32.38,
+   "dur_s": 5.28,
+   "text": "Look. It's okay, Mum. Don't worry."
   },
   {
-   "i": 9,
+   "i": 6,
    "start_s": 36.9,
    "end_s": 38.08,
    "dur_s": 1.18,
    "text": "Sandwich, Lucy?"
   },
   {
-   "i": 10,
+   "i": 7,
    "start_s": 38.9,
    "end_s": 41.66,
    "dur_s": 2.76,
    "text": "Yes, please. Can I have two?"
   },
   {
-   "i": 11,
+   "i": 8,
    "start_s": 42.44,
    "end_s": 43.24,
    "dur_s": 0.8,
    "text": "Of course."
   },
   {
-   "i": 12,
+   "i": 9,
    "start_s": 43.78,
    "end_s": 46.54,
    "dur_s": 2.76,
    "text": "And can I have that pizza, too?"
   },
   {
-   "i": 13,
+   "i": 10,
    "start_s": 47.36,
    "end_s": 51.76,
    "dur_s": 4.4,
    "text": "Okay. Two sandwiches and a pizza, please."
   },
   {
-   "i": 14,
-   "start_s": 54.04,
-   "end_s": 54.84,
-   "dur_s": 0.8,
-   "text": "2."
-  },
-  {
-   "i": 15,
+   "i": 11,
    "start_s": 55.76,
    "end_s": 57.84,
    "dur_s": 2.08,
    "text": "Be careful, Tim."
   },
   {
-   "i": 16,
+   "i": 12,
    "start_s": 59.38,
    "end_s": 65.06,
    "dur_s": 5.68,
    "text": "Tim, look! That's Mum's favourite."
   },
   {
-   "i": 17,
+   "i": 13,
    "start_s": 65.96,
    "end_s": 67.76,
    "dur_s": 1.8,
    "text": "Oh dear. I'm sorry."
   },
   {
-   "i": 18,
+   "i": 14,
    "start_s": 68.72,
    "end_s": 71.44,
    "dur_s": 2.72,
    "text": "Oh, this is really serious."
   },
   {
-   "i": 19,
+   "i": 15,
    "start_s": 72.4,
-   "end_s": 79.48,
-   "dur_s": 7.08,
-   "text": "Really? Oh dear. What can I do? 3."
+   "end_s": 76.26,
+   "dur_s": 3.86,
+   "text": "Really? Oh dear. What can I do?"
   },
   {
-   "i": 20,
+   "i": 16,
    "start_s": 80.82,
    "end_s": 83.6,
    "dur_s": 2.78,
    "text": "Can I open the window, please, Eve?"
   },
   {
-   "i": 21,
+   "i": 17,
    "start_s": 83.6,
    "end_s": 85.3,
    "dur_s": 1.7,
    "text": "That's a good idea."
   },
   {
-   "i": 22,
+   "i": 18,
    "start_s": 86.9,
    "end_s": 90.62,
    "dur_s": 3.72,
    "text": "Ah, that's a lot better."
   },
   {
-   "i": 23,
+   "i": 19,
    "start_s": 91.4,
    "end_s": 94.32,
    "dur_s": 2.92,
@@ -1560,181 +1525,167 @@
  "p033": [
   {
    "i": 0,
-   "start_s": 3.36,
-   "end_s": 7.6,
-   "dur_s": 4.24,
-   "text": "Listening exercises 8 and 9 1."
-  },
-  {
-   "i": 1,
    "start_s": 8.64,
    "end_s": 11.26,
    "dur_s": 2.62,
    "text": "Tell us about your family, Ina."
   },
   {
-   "i": 2,
+   "i": 1,
    "start_s": 11.86,
    "end_s": 15.34,
    "dur_s": 3.48,
    "text": "Well, there's my mother and father."
   },
   {
-   "i": 3,
+   "i": 2,
    "start_s": 16.8,
    "end_s": 19.4,
    "dur_s": 2.6,
    "text": "And have you got any brothers or sisters?"
   },
   {
-   "i": 4,
+   "i": 3,
    "start_s": 20.12,
    "end_s": 28.3,
    "dur_s": 8.18,
    "text": "I've got two brothers and I've also got three cousins, two girls and a boy."
   },
   {
-   "i": 5,
+   "i": 4,
    "start_s": 29.06,
    "end_s": 31.36,
    "dur_s": 2.3,
    "text": "My cousins are in the US."
   },
   {
-   "i": 6,
+   "i": 5,
    "start_s": 32.58,
    "end_s": 34.28,
    "dur_s": 1.7,
    "text": "Do you like your brothers?"
   },
   {
-   "i": 7,
+   "i": 6,
    "start_s": 34.88,
    "end_s": 37.28,
    "dur_s": 2.4,
    "text": "Yes, they're very good to me."
   },
   {
-   "i": 8,
+   "i": 7,
    "start_s": 41.54,
    "end_s": 44.42,
    "dur_s": 2.88,
    "text": "Have you got a big family, Jake?"
   },
   {
-   "i": 9,
+   "i": 8,
    "start_s": 45.08,
    "end_s": 48.52,
    "dur_s": 3.44,
    "text": "Yes, I have. I've got ten brothers."
   },
   {
-   "i": 10,
+   "i": 9,
    "start_s": 49.18,
    "end_s": 54.02,
    "dur_s": 4.84,
    "text": "Ten brothers? Wow! That is a big family."
   },
   {
-   "i": 11,
+   "i": 10,
    "start_s": 54.48,
    "end_s": 56.72,
    "dur_s": 2.24,
    "text": "I've got four cousins too."
   },
   {
-   "i": 12,
+   "i": 11,
    "start_s": 57.28,
    "end_s": 60.02,
    "dur_s": 2.74,
    "text": "And are they all boys too?"
   },
   {
-   "i": 13,
+   "i": 12,
    "start_s": 60.64,
    "end_s": 65.34,
    "dur_s": 4.7,
    "text": "No, there are three girls and one boy, George."
   },
   {
-   "i": 14,
+   "i": 13,
    "start_s": 66.32,
    "end_s": 69.38,
    "dur_s": 3.06,
    "text": "My cousin George is my best friend."
   },
   {
-   "i": 15,
+   "i": 14,
    "start_s": 69.88,
    "end_s": 73.86,
    "dur_s": 3.98,
    "text": "I love football and he's a football fan too."
   },
   {
-   "i": 16,
+   "i": 15,
    "start_s": 74.88,
    "end_s": 77.24,
    "dur_s": 2.36,
    "text": "Do your brothers like football?"
   },
   {
-   "i": 17,
+   "i": 16,
    "start_s": 77.8,
    "end_s": 81.6,
    "dur_s": 3.8,
    "text": "No, they don't. They all like basketball."
   },
   {
-   "i": 18,
-   "start_s": 84.02,
-   "end_s": 84.98,
-   "dur_s": 0.96,
-   "text": "3."
-  },
-  {
-   "i": 19,
+   "i": 17,
    "start_s": 86.1,
    "end_s": 86.98,
    "dur_s": 0.88,
    "text": "Tell us about your family."
   },
   {
-   "i": 20,
+   "i": 18,
    "start_s": 86.98,
    "end_s": 90.34,
    "dur_s": 3.36,
    "text": "So, Maria, tell us about your family."
   },
   {
-   "i": 21,
+   "i": 19,
    "start_s": 91.1,
    "end_s": 95.3,
    "dur_s": 4.2,
    "text": "I've got a small family. I've got one sister."
   },
   {
-   "i": 22,
+   "i": 20,
    "start_s": 96.0,
    "end_s": 99.62,
    "dur_s": 3.62,
    "text": "She's called Antonia and there's my grandmother."
   },
   {
-   "i": 23,
+   "i": 21,
    "start_s": 100.6,
    "end_s": 102.52,
    "dur_s": 1.92,
    "text": "Is your grandmother nice?"
   },
   {
-   "i": 24,
+   "i": 22,
    "start_s": 103.46,
    "end_s": 109.26,
    "dur_s": 5.8,
    "text": "Oh yes, she's great. She's very kind and very patient."
   },
   {
-   "i": 25,
+   "i": 23,
    "start_s": 109.8,
    "end_s": 110.86,
    "dur_s": 1.06,
@@ -1851,118 +1802,111 @@
   },
   {
    "i": 1,
-   "start_s": 5.16,
-   "end_s": 6.18,
-   "dur_s": 1.02,
-   "text": "Exercise 2"
-  },
-  {
-   "i": 2,
    "start_s": 7.66,
    "end_s": 11.18,
    "dur_s": 3.52,
    "text": "Wow, what a cool photo! Thank you!"
   },
   {
-   "i": 3,
+   "i": 2,
    "start_s": 11.72,
    "end_s": 13.28,
    "dur_s": 1.56,
    "text": "Who are all those people?"
   },
   {
-   "i": 4,
+   "i": 3,
    "start_s": 13.74,
    "end_s": 18.14,
    "dur_s": 4.4,
    "text": "That's my family of course, on holiday in Spain."
   },
   {
-   "i": 5,
+   "i": 4,
    "start_s": 19.0,
    "end_s": 20.18,
    "dur_s": 1.18,
    "text": "Ah, okay."
   },
   {
-   "i": 6,
+   "i": 5,
    "start_s": 20.98,
    "end_s": 26.34,
    "dur_s": 5.36,
    "text": "So, those are your parents and that's your brother?"
   },
   {
-   "i": 7,
+   "i": 6,
    "start_s": 26.96,
    "end_s": 29.06,
    "dur_s": 2.1,
    "text": "No, that's my cousin."
   },
   {
-   "i": 8,
+   "i": 7,
    "start_s": 29.8,
    "end_s": 33.86,
    "dur_s": 4.06,
    "text": "My brother is this one here. Really?"
   },
   {
-   "i": 9,
+   "i": 8,
    "start_s": 34.76,
    "end_s": 38.74,
    "dur_s": 3.98,
    "text": "Your cousin looks like your brother. I know."
   },
   {
-   "i": 10,
+   "i": 9,
    "start_s": 39.44,
    "end_s": 40.46,
    "dur_s": 1.02,
    "text": "Excuse me?"
   },
   {
-   "i": 11,
+   "i": 10,
    "start_s": 41.26,
    "end_s": 42.14,
    "dur_s": 0.88,
    "text": "Hello everyone."
   },
   {
-   "i": 12,
+   "i": 11,
    "start_s": 43.08,
    "end_s": 43.98,
    "dur_s": 0.9,
    "text": "Oh, hello."
   },
   {
-   "i": 13,
+   "i": 12,
    "start_s": 44.66,
    "end_s": 48.32,
    "dur_s": 3.66,
    "text": "Abby, it's almost dinner time. Oh, right."
   },
   {
-   "i": 14,
+   "i": 13,
    "start_s": 49.12,
    "end_s": 50.1,
    "dur_s": 0.98,
    "text": "Just a minute, Mum."
   },
   {
-   "i": 15,
+   "i": 14,
    "start_s": 50.54,
    "end_s": 53.54,
    "dur_s": 3.0,
    "text": "Come on, Paul. Let's go. Sorry."
   },
   {
-   "i": 16,
+   "i": 15,
    "start_s": 53.54,
    "end_s": 57.86,
    "dur_s": 4.32,
    "text": "Let's look at more photos tomorrow. Sure."
   },
   {
-   "i": 17,
+   "i": 16,
    "start_s": 58.48,
    "end_s": 61.02,
    "dur_s": 2.54,
@@ -1972,10 +1916,10 @@
  "p038": [
   {
    "i": 0,
-   "start_s": 8.8,
+   "start_s": 11.6,
    "end_s": 16.16,
-   "dur_s": 7.36,
-   "text": "Istanbul, Turkey The wonderful city of Istanbul is a great place to visit."
+   "dur_s": 4.56,
+   "text": "The wonderful city of Istanbul is a great place to visit."
   },
   {
    "i": 1,
@@ -2035,10 +1979,10 @@
   },
   {
    "i": 9,
-   "start_s": 71.78,
+   "start_s": 73.0,
    "end_s": 82.12,
-   "dur_s": 10.34,
-   "text": "Nara, Japan Nara is an old city in Japan, about 400 km from Tokyo."
+   "dur_s": 9.12,
+   "text": "Nara is an old city in Japan, about 400 km from Tokyo."
   },
   {
    "i": 10,
@@ -2093,223 +2037,202 @@
  "p041": [
   {
    "i": 0,
-   "start_s": 2.8,
-   "end_s": 3.34,
-   "dur_s": 0.54,
-   "text": "Listening."
-  },
-  {
-   "i": 1,
-   "start_s": 4.08,
-   "end_s": 7.22,
-   "dur_s": 3.14,
-   "text": "Exercises 9 and 10. 1."
-  },
-  {
-   "i": 2,
    "start_s": 9.16,
    "end_s": 11.22,
    "dur_s": 2.06,
    "text": "Excuse me? Yes?"
   },
   {
-   "i": 3,
+   "i": 1,
    "start_s": 11.94,
    "end_s": 15.98,
    "dur_s": 4.04,
    "text": "Where's the... Please? OK."
   },
   {
-   "i": 4,
+   "i": 2,
    "start_s": 16.6,
    "end_s": 20.14,
    "dur_s": 3.54,
    "text": "Go down this street and turn right."
   },
   {
-   "i": 5,
+   "i": 3,
    "start_s": 20.72,
    "end_s": 23.44,
    "dur_s": 2.72,
    "text": "That's East Street. OK."
   },
   {
-   "i": 6,
+   "i": 4,
    "start_s": 24.26,
    "end_s": 28.74,
    "dur_s": 4.48,
    "text": "It's in East Street next to the park. Great."
   },
   {
-   "i": 7,
+   "i": 5,
    "start_s": 28.74,
    "end_s": 30.28,
    "dur_s": 1.54,
    "text": "Thanks a lot."
   },
   {
-   "i": 8,
-   "start_s": 33.76,
-   "end_s": 34.6,
-   "dur_s": 0.84,
-   "text": "2."
-  },
-  {
-   "i": 9,
+   "i": 6,
    "start_s": 36.12,
    "end_s": 37.64,
    "dur_s": 1.52,
    "text": "Excuse me?"
   },
   {
-   "i": 10,
+   "i": 7,
    "start_s": 38.3,
    "end_s": 39.8,
    "dur_s": 1.5,
    "text": "Can you help me, please?"
   },
   {
-   "i": 11,
+   "i": 8,
    "start_s": 40.46,
    "end_s": 42.74,
    "dur_s": 2.28,
    "text": "I want to go to the..."
   },
   {
-   "i": 12,
+   "i": 9,
    "start_s": 43.38,
    "end_s": 44.22,
    "dur_s": 0.84,
    "text": "Of course!"
   },
   {
-   "i": 13,
+   "i": 10,
    "start_s": 45.02,
    "end_s": 48.26,
    "dur_s": 3.24,
    "text": "Just walk down here, down High Street."
   },
   {
-   "i": 14,
+   "i": 11,
    "start_s": 48.92,
    "end_s": 52.26,
    "dur_s": 3.34,
    "text": "Take the second left into Green Street."
   },
   {
-   "i": 15,
+   "i": 12,
    "start_s": 52.68,
    "end_s": 54.02,
    "dur_s": 1.34,
    "text": "And it's on your right."
   },
   {
-   "i": 16,
+   "i": 13,
    "start_s": 54.76,
    "end_s": 55.9,
    "dur_s": 1.14,
    "text": "Oh, right."
   },
   {
-   "i": 17,
+   "i": 14,
    "start_s": 55.9,
    "end_s": 58.1,
    "dur_s": 2.2,
    "text": "But is it far?"
   },
   {
-   "i": 18,
+   "i": 15,
    "start_s": 58.84,
    "end_s": 59.84,
    "dur_s": 1.0,
    "text": "Can I get a bus?"
   },
   {
-   "i": 19,
+   "i": 16,
    "start_s": 60.4,
    "end_s": 62.52,
    "dur_s": 2.12,
    "text": "Oh, no. Don't take a bus."
   },
   {
-   "i": 20,
+   "i": 17,
    "start_s": 63.18,
    "end_s": 66.74,
    "dur_s": 3.56,
    "text": "It's very easy to walk there. Three minutes."
   },
   {
-   "i": 21,
+   "i": 18,
    "start_s": 67.38,
-   "end_s": 75.62,
-   "dur_s": 8.24,
-   "text": "Oh, thank you very much. You're welcome. 3."
+   "end_s": 71.04,
+   "dur_s": 3.66,
+   "text": "Oh, thank you very much. You're welcome."
   },
   {
-   "i": 22,
+   "i": 19,
    "start_s": 77.54,
    "end_s": 80.72,
    "dur_s": 3.18,
    "text": "Hello. Can you help me? Sure."
   },
   {
-   "i": 23,
+   "i": 20,
    "start_s": 81.26,
    "end_s": 83.34,
    "dur_s": 2.08,
    "text": "Is there a good..."
   },
   {
-   "i": 24,
+   "i": 21,
    "start_s": 83.34,
    "end_s": 84.38,
    "dur_s": 1.04,
    "text": "Near here?"
   },
   {
-   "i": 25,
+   "i": 22,
    "start_s": 84.38,
    "end_s": 86.62,
    "dur_s": 2.24,
    "text": "Yes, there is."
   },
   {
-   "i": 26,
+   "i": 23,
    "start_s": 87.7,
    "end_s": 92.18,
    "dur_s": 4.48,
    "text": "Go down here and turn left into Green Street."
   },
   {
-   "i": 27,
+   "i": 24,
    "start_s": 93.08,
    "end_s": 95.52,
    "dur_s": 2.44,
    "text": "Go past the shopping centre,"
   },
   {
-   "i": 28,
+   "i": 25,
    "start_s": 95.94,
    "end_s": 99.02,
    "dur_s": 3.08,
    "text": "and there's a nice place on the left."
   },
   {
-   "i": 29,
+   "i": 26,
    "start_s": 100.0,
    "end_s": 102.94,
    "dur_s": 2.94,
    "text": "It's only four or five minutes from here."
   },
   {
-   "i": 30,
+   "i": 27,
    "start_s": 103.76,
    "end_s": 106.34,
    "dur_s": 2.58,
    "text": "Brilliant. I'm really hungry."
   },
   {
-   "i": 31,
+   "i": 28,
    "start_s": 107.14,
    "end_s": 114.6,
    "dur_s": 7.46,
@@ -2538,10 +2461,10 @@
   },
   {
    "i": 3,
-   "start_s": 34.26,
+   "start_s": 40.24,
    "end_s": 48.78,
-   "dur_s": 14.52,
-   "text": "B Golden Gate Park, San Francisco, US Everyone knows the Golden Gate Bridge, but did you know that there is a Golden Gate Park in San Francisco, too?"
+   "dur_s": 8.54,
+   "text": "Everyone knows the Golden Gate Bridge, but did you know that there is a Golden Gate Park in San Francisco, too?"
   },
   {
    "i": 4,
@@ -2552,10 +2475,10 @@
   },
   {
    "i": 5,
-   "start_s": 61.78,
+   "start_s": 64.82,
    "end_s": 73.387,
-   "dur_s": 11.607,
-   "text": "C Chapultepec Park, Mexico City, Mexico Chapultepec Park is an important green space in this big city."
+   "dur_s": 8.567,
+   "text": "Chapultepec Park is an important green space in this big city."
   },
   {
    "i": 6,
@@ -2573,31 +2496,31 @@
   },
   {
    "i": 8,
-   "start_s": 83.48,
+   "start_s": 89.78,
    "end_s": 94.575,
-   "dur_s": 11.095,
-   "text": "D El Parque del Buen Retiro, Madrid, Spain In Madrid there is a very big park called Buen Retiro."
+   "dur_s": 4.795,
+   "text": "In Madrid there is a very big park called Buen Retiro."
   },
   {
    "i": 9,
    "start_s": 95.36,
-   "end_s": 105.848,
-   "dur_s": 10.488,
+   "end_s": 107.121,
+   "dur_s": 11.761,
    "text": "There are trees and paths and a lovely rose garden, too."
   },
   {
    "i": 10,
-   "start_s": 106.4,
-   "end_s": 107.342,
-   "dur_s": 0.942,
+   "start_s": 107.74,
+   "end_s": 110.92,
+   "dur_s": 3.18,
    "text": "There is also a beautiful glass palace."
   },
   {
    "i": 11,
-   "start_s": 107.442,
+   "start_s": 110.92,
    "end_s": 122.125,
-   "dur_s": 14.683,
-   "text": "E The Iguana Park, Guayaquil, Ecuador The park’s real name is Parque Seminario, but everyone calls it the Iguana Park because it is full of iguanas."
+   "dur_s": 11.205,
+   "text": "The park’s real name is Parque Seminario, but everyone calls it the Iguana Park because it is full of iguanas."
   },
   {
    "i": 12,
@@ -2615,10 +2538,10 @@
   },
   {
    "i": 14,
-   "start_s": 130.04,
+   "start_s": 135.0,
    "end_s": 140.56,
-   "dur_s": 10.52,
-   "text": "F Mount Faber Park, Singapore On a mountain near Singapore, there is a park called Mount Faber."
+   "dur_s": 5.56,
+   "text": "On a mountain near Singapore, there is a park called Mount Faber."
   },
   {
    "i": 15,

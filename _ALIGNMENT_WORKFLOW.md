@@ -99,8 +99,12 @@ npm test          # 全量回归（含时间轴单一数据源门禁）
 - 改 timeline 后必须 `node _sync_timeline.js` + `node _timeline_check.js`，`_timeline_check.js` 已进核心门禁。
 - **不要手改 index.html 里的时间轴。**
 
-## 7. 当前状态（2026-10-13）
+## 7. 当前状态（2026-10-25 更新）
 
-- `assets/timeline.json`：**16 篇 / 418 句**（12 旧篇 + U8 四篇 106 句）。
-- 全量回归 `npm test` 11/11 绿。
-- 下一步：生成静态 JSON 数据包 `data/u7.json / u8.json / u12.json`（三段式 ID `u8/p078/s03`）供 GitHub Pages 静态站。
+- `assets/timeline.json`：**49 篇 / 1153 句**（U1–U12 每单元恰 4 篇正课文 + p202 深链篇）。
+- **两套生产工具**（同一方法论，输入排版不同）：
+  - **U5–U12**：`_align_unit.py --unit N`（读 `_unit_N_source.json`，从整册教师用书抄文本）；
+  - **U1–U4**：`_extract_u14_text.py`（从**按课次**教师用书 `按单元与课次教师用书_文字层可提取/` 提取+拼行+说话轮次+填空回填）→ `_align_u14.py`（同一 ASR/校准管线）→ `_merge_u14.py`（校验+音频入库+timeline 合入）。
+- 情况分布：U1–U4 为 10 篇情况2（TB 官方文本）+ 6 篇情况1（ASR）；U5–U12 以情况2 为主。
+- 全量回归 `npm run test:core` 7/7 绿（2026-10-24/25 快照）。
+- 下一步：U1–U4 站点激活（UNITS `live:true` + 16 个篇章页生成），激活后按 `_RELEASE_WORKFLOW.md` §3 发布检查单执行。

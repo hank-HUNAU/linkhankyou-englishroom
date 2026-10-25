@@ -63,8 +63,15 @@ def run_asr(jobs):
     return out
 
 def segs_to_sentences(seglist, min_dur=0.8):
-    """情况1：ASR 段界即句界；过短段与后续合并；滤除轨头报幕（坑#3）"""
-    seglist = [s for s in seglist if not re.match(r"^Units? \d", s[2])]
+    """情况1：ASR 段界即句界；过短段与后续合并；滤除轨头报幕/栏目名/裸编号（坑#3）"""
+    BAD = re.compile(
+        r"^(Units? \d"                                                    # 报幕
+        r"|(Listening|Reading|Speaking)\s*[.,]?(\s+[Ee]xercises?.*)?$"    # 栏目名 / 栏目+练习
+        r"|Exercises?\b.*"                                                # Exercises 9 and 10
+        r"|Example\b.*"                                                   # Example
+        r"|\d{1,2}\.?\s*$"                                                # 裸编号
+        r")")
+    seglist = [s for s in seglist if not BAD.match(s[2].strip())]
     merged = []
     for st, en, tx in seglist:
         if merged and (en - st) < min_dur:
