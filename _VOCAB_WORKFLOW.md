@@ -19,7 +19,16 @@
 
 ### 2.1 篇章词表（analyzer 链）
 
-- **入口**：`skills/词汇教学技能包-20260928/article-vocab-analyzer/scripts/vocab_pipeline.py` 编排，串联 `teacher-vocab-prep` / `student-vocab-cards` / `british-phonetics` 三个软分支（技能定义见 `skills/README.md`）。
+- **交付口径 = 5 件套/篇**（与 U9–U12 同构）：`<key>.json`（九层分析）+ `<key>.xlsx`（分析报告）+ `<key>_学生卡.xlsx` + `<key>_备课本.xlsx` + `<key>_语音卡.xlsx`，全部落 `Ux_主题/02_词汇数据/`。
+- **一键全链（唯一正确入口）**：
+  ```bash
+  # 单篇
+  python skills/词汇教学技能包-20260928/article-vocab-analyzer/scripts/vocab_pipeline.py <课文.txt> --out <key>
+  # 批量（U1–U4 用）
+  python _vocab_pipeline_u14.py      # 产物落 _vocab_out_tmp/（gitignore），5 件套自动归档
+  ```
+  五步：主（assess_vocab 九层）+ 学生卡 + 备课 + 语音（british-phonetics）+ 整合。
+- **只跑 `assess_vocab.py` 是不够的**（2026-10-26 教训）：U1–U4 首版只跑了主分析，缺学生卡/备课本/语音卡，等于没走技能全链。
 - **九层标注**：`A1_Starters → A1_Movers → A2_Flyers → KET → PET → FCE → CAE → NGSL → NAWL`。
 - **schema**：`{source, total, numbers, proper, tokens:[{kind, form, lemma, hit}]}`；`kind ∈ {word, proper}`，`hit` 为出现句序号。
 - **CEFR 取值顺序**（硬规约，跨项目生效）：Oxford → CEFR-J v1.6 → Octanove C1/C2 → EFLLex（峰值）；主标注遇 Oxford 即定；冲突只在 {Oxford, CEFR-J, Octanove} 间判定，**冲突保留双标注 + 列出，禁止静默覆盖**；EFLLex 属频率分布构念，只补缺不参与冲突。
@@ -40,10 +49,13 @@
 
 ### 2.3 词音频
 
-- **工具**：`python _gen_vocab_audio.py`；三级音源 = 剑桥真人发音（主）→ 有道（兜底）→ edge_tts（最终兜底，需依赖）。
-- **词源** = 全部单元 `theme_uN.json` + 12 篇篇章词汇产出的 `tokens`（`kind=word` 的 lemma）。
-- **落盘**：正典 `Think F 教材资产/00_词汇音频/<word>.mp3` + 索引 `audio_index.json` `{word: {f, src}}`（归档内存一份）。
-- **硬规约**：音频**只增不改**（md5 一致才推送，见 `_RELEASE_WORKFLOW.md` §1）。
+- **工具**：`python _gen_vocab_audio.py [--upgrade-youdao]`；三级音源 = 剑桥真人（主）→ 有道英音（兜底）→ edge_tts（最终兜底）。
+- **实测结论（2026-10-26，重要）**：**剑桥媒体 URL 有防盗链，带浏览器头也 403**，程序抓不到；脚本内置熔断（首次 403 后本轮直接走有道）。
+  → **真人音频实际来源 = 有道英女（`youdao-uk`）**；**剑桥稳定提供的是音标**（`dictionary-api.eliaschen.dev`，语音卡里 `ˈɔː.səm` 这种带音节点的写法即剑桥风格）。
+  → `audio_index.json` 的 `src` 如实标注 `cambridge` / `youdao-uk` / `edge_tts`，不得谎报。
+- **词源** = 全部单元 `theme_uN.json` + 篇章词汇产出的 `tokens`（`kind=word` 的 lemma）。
+- **落盘**：正典 `Think F 教材资产/00_词汇音频/<word>.mp3` + 索引 `audio_index.json`（归档内存一份）。
+- **硬规约**：音频**只增不改**（md5 一致才推送，见 `_RELEASE_WORKFLOW.md` §1）；`--upgrade-youdao` 属有意的音源升级，须在日志注明。
 
 ### 2.4 词汇诊断页
 
@@ -77,11 +89,18 @@
 5. **联网依赖**——`_gen_theme.py` / `_gen_vqdis.py` 的有道查询走 `_dict_cache.json` 缓存，断网场景用 `--offline` 或接受缺释义；
 6. **双位置**——theme 诊断页在归档 `00_主题词汇/` 有副本、仓库 `词汇诊断/` 是 gitignore 工作区，改模板后两处都要重生。
 
-## 6. 当前状态（2026-10-24）
+## 6. 技能包环境（跑之前必看，2026-10-26 补齐）
 
-- **九层分析必须用用户级技能**：`C:\Users\Thinkpad\.workbuddy\skills\article-vocab-analyzer\`（完整版，含 A1_Starters/Movers/Flyers 三层）。仓库内 `skills/词汇教学技能包-20260928/` 是**旧副本**（缺 YLE 词表，只出 KET/PET/NGSL）——直接用它会丢 A1 三层，务必以用户级为准。
-- 篇章词表：**U1–U12 全部 48 篇正课文已分析入库**（各单元 `02_词汇数据/`）；U1–U4 十六篇于 2026-10-24 补入（词条 23–56/篇，A1_Starters 主导）；
-- 主题词表：`00_主题词汇/theme_u1–u4.json` + `U5–U12/03_主题词汇/` 齐全；theme 诊断页 U1–U11 已生成（归档副本与库内 `00_主题词汇/` 双处）；
-- 词音频：`00_词汇音频/` **1210 mp3** + `audio_index.json`；仓库 `assets/word_audio/` 同步（19MB）；
-- 诊断页：**48 个篇章页（U1–U12 全量）+ 12 个 theme 页**，全部在库并被 git 跟踪（`词汇诊断/` 目录，`!词汇诊断/*.html` 白名单放行）；模板 `_模板_词汇诊断页.html`;
-- 站点接线：`FOLLOW_VOCAB` / `FOLLOW_META` 各含 U1–U12 全部 48 页码 + p202；`LIVE_VOCAB_RE` = `u(1|2|…|12)`；UNITS 的 U1–U4 仍 `live:false`（篇章页生成与激活待令）。
+- **仓库内 `skills/词汇教学技能包-20260928/` 曾长期是旧副本**：缺 `A1_Starters/A1_Movers/A2_Flyers/CAE/FCE/lemma_supplement` 六个词表 + `cefr_layers.py`/`entity_classify.py`/`entity_lexicon.json` 三个依赖脚本 → 只能出 KET/PET/NGSL，A1 三层全丢。已从用户级技能 `C:\Users\Thinkpad\.workbuddy\skills\article-vocab-analyzer\` 同步补齐，**两处现已一致**。
+- **三个子分支的 `_main_dir()` 已兼容两种布局**（`<root>/skills/article-vocab-analyzer` 与包内 `<root>/article-vocab-analyzer`），此前包内布局解析失败会静默落到 CWD 相对路径 → 报 `article-vocab-analyzer/scripts/assess_vocab.py` 找不到。
+- **`--out` 只能是裸词干，不能带路径**（`student_cards.py` 会拼 `__sb_` 前缀，带盘符会非法）。
+- **批量请用 `_vocab_pipeline_u14.py`**：产物统一落 `_vocab_out_tmp/`（gitignore），最后一次性删目录——**不要逐文件删临时产物**，单轮 ≥50 个删除会触发环境批量删除保护（`SAFE_DELETE_BULK_CONFIRM_REQUIRED`）而中断。
+
+## 7. 当前状态（2026-10-26）
+
+- **九层分析必须用用户级技能**：`C:\Users\Thinkpad\.workbuddy\skills\article-vocab-analyzer\`（完整版，含 A1_Starters/Movers/Flyers 三层）。仓库内 `skills/词汇教学技能包-20260928/` 已于 2026-10-26 同步补齐（见 §6），两处一致。
+- 篇章词表：**U1–U12 全部 48 篇**已分析入库；**U1–U4 十六篇已补齐 5 件套**（分析 json/xlsx + 学生卡 + 备课本 + 语音卡，走 `vocab_pipeline.py` 全链）。
+- **诊断页音标 = 剑桥分音节记法**（有语音卡时优先，`_gen_vqdis.card_ipa()`）；与语音卡逐词比对 425/425 一致。
+- 词音频：`00_词汇音频/` 1210 mp3 + `audio_index.json`（src 如实标注；真人音频实为有道英女，剑桥媒体 403）。
+- 诊断页：48 篇章页 + 12 theme 页，全部在库并 git 跟踪。
+- 站点接线：`FOLLOW_VOCAB` / `FOLLOW_META` 各 49 篇；`LIVE_VOCAB_RE` 覆盖 U1–U12；全 12 单元 live。

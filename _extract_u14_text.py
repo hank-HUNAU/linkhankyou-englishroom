@@ -2,7 +2,7 @@
 import fitz, warnings, os, re, json
 warnings.filterwarnings("ignore")
 
-LESSON = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\按单元与课次教师用书_文字层可提取"
+LESSON = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\Think F 教材资产\00 按单元与课次教师用书_文字层可提取"
 OUT = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\Think F 教材资产\github在线推送\_u14_source.json"
 
 def load_lines(fn):
@@ -95,6 +95,25 @@ for l in join_wrapped(seg, speaker_aware=False):
     l = re.sub(r"^(CRAZY ABOUT|FAVOURITE MUSICIAN!)\s*", "", l).strip()
     if l and not l.startswith(("H O M E", "A B O U T", "N E W S", "C O N T A C T", "tell us")):
         qa.append(l)
+# 四段采访（每段 10 行，以 "What's your name?" 起）按**音频顺序**重排：
+# 音频实际播 Cenc(土耳其/Izmir) → Jess(英国/Newcastle) → Flavia(巴西) → Li Jun(印尼)；
+# TB 版面顺序是 Flavia 起头 —— 不对齐会把整段压进间隙（2026-10-26 回溯验证抓获）
+_blocks, _cur = [], []
+for _l in qa:
+    if _l.lower().startswith("what’s your name") and _cur:
+        _blocks.append(_cur); _cur = []
+    _cur.append(_l)
+if _cur:
+    _blocks.append(_cur)
+def _bid(b):
+    t = " ".join(b).lower()
+    if "izmir" in t: return 0      # 音频第 1 位
+    if "newcastle" in t: return 1
+    if "brazil" in t or "flavia" in t: return 2
+    return 3                       # Li Jun（印尼/雅加达）
+_blocks.sort(key=_bid)
+assert len(_blocks) == 4, "u1_p12 采访段数异常: %d" % len(_blocks)
+qa = [l for b in _blocks for l in b]
 P.append(dict(key="u1_p12_website", unit=1, page="p012", title="All together (website)", type="阅读A",
               track="1.01", audio="Thk2e_BE_L0_SB_Unit_1_p12_t01.mp3", src="tb", lines=qa))
 

@@ -78,3 +78,16 @@ _ab_cand_*.html
 _ab_denoise_*.html
 assets/timeline.json.bak-*
 .env
+
+# 词汇技能管线临时产物（批量跑时落在仓库根；成果归档在各单元 02_词汇数据/）
+/_uitest_*
+/*_报告.json
+/*_报告.xlsx
+/*_学生卡.xlsx
+/*_备课本.xlsx
+/*_语音卡.xlsx
+/*_教师版.xlsx
+/*_学生版.xlsx
+/*_语音卡_tts/
+/__sb_*
+/_vocab_out_tmp/

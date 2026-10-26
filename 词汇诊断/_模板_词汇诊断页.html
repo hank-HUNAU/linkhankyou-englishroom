@@ -3725,6 +3725,9 @@ document.getElementById('exportPdf').onclick = () => {
     }).join('')}
   </div>
   <div class="footer">__PAGETITLE__ · 词汇诊断报告</div>
+<script>
+if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('../sw.js').catch(function () {}); }); }
+</script>
 </body></html>`;
 
   const iframe = document.createElement('iframe');

@@ -101,6 +101,28 @@ CACHE_PATH = os.path.join(VD, "_dict_cache.json")
 def load_cache():
     return json.load(open(CACHE_PATH, encoding="utf-8")) if os.path.exists(CACHE_PATH) else {}
 
+_CARD_IPA = {}
+def card_ipa(key):
+    """语音卡（british-phonetics 产出）里的剑桥 UK 音标：分音节记法，教学更友好。
+    2026-10-26 加：诊断页原用有道音标（təˈɡeðə(r)），与语音卡剑桥音标（təˈɡeð.ər）不一致；
+    有语音卡时优先用剑桥，缺卡则回落有道。"""
+    if key in _CARD_IPA:
+        return _CARD_IPA[key]
+    m = {}
+    try:
+        import openpyxl, glob as _g
+        cand = _g.glob(os.path.join(VD, "..", "..", "U*", "02_词汇数据", key + "_语音卡.xlsx"))
+        if cand:
+            wb = openpyxl.load_workbook(cand[0], read_only=True)
+            ws = wb["单词英式音标"] if "单词英式音标" in wb.sheetnames else wb.worksheets[-1]
+            for r in list(ws.iter_rows(values_only=True))[1:]:
+                if r and r[0] and r[3]:
+                    m[str(r[0]).strip().lower()] = str(r[3]).strip()
+    except Exception:
+        m = {}
+    _CARD_IPA[key] = m
+    return m
+
 def cached_fetch(fetch, cache, w, ex):
     if w in cache: return cache[w]
     try: fd = fetch(w, context=ex)
@@ -112,6 +134,7 @@ def cached_fetch(fetch, cache, w, ex):
 def build_rows(key, fetch, cache, av):
     toks = json.load(open(os.path.join(VD, "篇章词汇_产出", key + ".json"), encoding="utf-8"))["tokens"]
     sents = [title_of(key)] + sentences_of(body_of(key))   # 标题单列，仅供标题词取例句
+    cipa = card_ipa(key)                                    # 剑桥音标（有语音卡时优先）
     picked, seen, miss = [], set(), []
     for t in toks:
         if t.get("kind") != "word": continue
@@ -123,7 +146,7 @@ def build_rows(key, fetch, cache, av):
         fd = cached_fetch(fetch, cache, w, ex)
         if not (fd.get("phonetic") or fd.get("zh_items")) and w != lm:
             fd = cached_fetch(fetch, cache, lm, ex)   # 词形查词失败 → 回落词原
-        ipa = fd.get("phonetic") or ""
+        ipa = cipa.get(w.lower()) or cipa.get(lm) or fd.get("phonetic") or ""
         items = fd.get("zh_items")
         if w != lm and items:
             pos_l = parse_zh(cached_fetch(fetch, cache, lm, ex).get("zh_items"))[0]   # 词原词性

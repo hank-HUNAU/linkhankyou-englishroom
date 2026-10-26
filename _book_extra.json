@@ -751,15 +751,15 @@
    "arts": [
     [
      "What’s your name?",
-     "I’m Flavia.",
+     "Cenc.",
      "Where are you from?",
-     "I’m from Brazil. I live in Fortaleza.",
+     "I’m Turkish. I’m from a city called Izmir.",
      "How old are you?",
-     "I’m 11.",
-     "Who are your favourite musicians?",
-     "Blackpink. They’re a girl group from South Korea.",
-     "Why are they your favourite musicians?",
-     "Because they’re great!"
+     "I’m ten.",
+     "Who’s your favourite musician?",
+     "Ed Sheeran. He’s a singer and a guitar player.",
+     "Why is he your favourite musician?",
+     "Because he’s great!"
     ],
     [
      "What’s your name?",
@@ -775,6 +775,18 @@
     ],
     [
      "What’s your name?",
+     "I’m Flavia.",
+     "Where are you from?",
+     "I’m from Brazil. I live in Fortaleza.",
+     "How old are you?",
+     "I’m 11.",
+     "Who are your favourite musicians?",
+     "Blackpink. They’re a girl group from South Korea.",
+     "Why are they your favourite musicians?",
+     "Because they’re great!"
+    ],
+    [
+     "What’s your name?",
      "My name is Li Jun.",
      "Where are you from?",
      "I’m from Indonesia. I live in Jakarta.",
@@ -784,18 +796,6 @@
      "Yuja Wang. She’s a pianist from China.",
      "Why is she your favourite musician?",
      "Because she’s cool!"
-    ],
-    [
-     "What’s your name?",
-     "Cenc.",
-     "Where are you from?",
-     "I’m Turkish. I’m from a city called Izmir.",
-     "How old are you?",
-     "I’m ten.",
-     "Who’s your favourite musician?",
-     "Ed Sheeran. He’s a singer and a guitar player.",
-     "Why is he your favourite musician?",
-     "Because he’s great!"
     ]
    ]
   },

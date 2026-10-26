@@ -16,9 +16,12 @@ def _main_dir():
     """向上查找真实主技能目录(article-vocab-analyzer)，部署处与工作区均通用。"""
     d = os.path.dirname(os.path.abspath(__file__))
     for _ in range(8):
-        cand = os.path.join(d, "skills", "article-vocab-analyzer")
-        if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
-            return os.path.abspath(cand)
+        # 两种布局都认：<root>/skills/article-vocab-analyzer 与 <root>/article-vocab-analyzer（词汇教学技能包-*）
+
+        for cand in (os.path.join(d, "skills", "article-vocab-analyzer"),
+                     os.path.join(d, "article-vocab-analyzer")):
+            if os.path.exists(os.path.join(cand, "scripts", "assess_vocab.py")):
+                return os.path.abspath(cand)
         d = os.path.dirname(d)
     return None
 MAIN = _main_dir() or os.path.abspath("article-vocab-analyzer")

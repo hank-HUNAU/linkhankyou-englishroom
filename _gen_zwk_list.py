@@ -17,7 +17,7 @@ CSV_PATH = os.path.join(REPORTS, "正课文清单.csv")
 MD_PATH = os.path.join(REPORTS, "正课文清单.md")
 HTML_PATH = os.path.join(REPORTS, "正课文清单.html")
 
-VIDEO_BASE = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\Student's Book Video 原版"
+VIDEO_BASE = r"E:\04 少儿原版课程\03 Think 0 课程制作\Codex 学习中心\Think F 教材资产\Student's Book Video 原版"
 
 # ---------------- 句子数（已制作页） ----------------
 tl = json.load(open(os.path.join(ROOT, "assets", "timeline.json"), encoding="utf-8"))

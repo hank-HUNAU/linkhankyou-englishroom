@@ -1,0 +1,2001 @@
+{
+ "source": "Cambridge English A1 Movers (2018)",
+ "entries": [
+  {
+   "head": "above",
+   "pos": "prep",
+   "raw": "above (prep)"
+  },
+  {
+   "head": "address",
+   "pos": "n",
+   "raw": "address (n)"
+  },
+  {
+   "head": "afraid",
+   "pos": "adj",
+   "raw": "afraid (adj)"
+  },
+  {
+   "head": "after",
+   "pos": "prep",
+   "raw": "after (prep)"
+  },
+  {
+   "head": "age",
+   "pos": "n",
+   "raw": "age (n)"
+  },
+  {
+   "head": "all",
+   "pos": "adj",
+   "raw": "all (adj + adv + det + pron)"
+  },
+  {
+   "head": "all right",
+   "pos": "adj",
+   "raw": "all right (adj + adv)"
+  },
+  {
+   "head": "along",
+   "pos": "prep",
+   "raw": "along (prep)"
+  },
+  {
+   "head": "always",
+   "pos": "adv",
+   "raw": "always (adv)"
+  },
+  {
+   "head": "another",
+   "pos": "det",
+   "raw": "another (det + pron)"
+  },
+  {
+   "head": "any",
+   "pos": "det",
+   "raw": "any (det + pron)"
+  },
+  {
+   "head": "app",
+   "pos": "n",
+   "raw": "app (n)"
+  },
+  {
+   "head": "around",
+   "pos": "prep",
+   "raw": "around (prep)"
+  },
+  {
+   "head": "asleep",
+   "pos": "adj",
+   "raw": "asleep (adj)"
+  },
+  {
+   "head": "at",
+   "pos": "prep",
+   "raw": "at (prep of time)"
+  },
+  {
+   "head": "aunt",
+   "pos": "n",
+   "raw": "aunt (n)"
+  },
+  {
+   "head": "awake",
+   "pos": "adj",
+   "raw": "awake (adj)"
+  },
+  {
+   "head": "back",
+   "pos": "adj",
+   "raw": "back (adj + adv + n)"
+  },
+  {
+   "head": "bad",
+   "pos": "adj",
+   "raw": "bad (adj)"
+  },
+  {
+   "head": "badly",
+   "pos": "adv",
+   "raw": "badly (adv)"
+  },
+  {
+   "head": "balcony",
+   "pos": "n",
+   "raw": "balcony (n)"
+  },
+  {
+   "head": "band (music)",
+   "pos": "n",
+   "raw": "band (music) (n)"
+  },
+  {
+   "head": "basement",
+   "pos": "n",
+   "raw": "basement (n)"
+  },
+  {
+   "head": "bat",
+   "pos": "n",
+   "raw": "bat (n)"
+  },
+  {
+   "head": "be called",
+   "pos": "v",
+   "raw": "be called (v)"
+  },
+  {
+   "head": "beard",
+   "pos": "n",
+   "raw": "beard (n)"
+  },
+  {
+   "head": "because",
+   "pos": "conj",
+   "raw": "because (conj)"
+  },
+  {
+   "head": "before",
+   "pos": "prep",
+   "raw": "before (prep)"
+  },
+  {
+   "head": "below",
+   "pos": "prep",
+   "raw": "below (prep)"
+  },
+  {
+   "head": "best",
+   "pos": "adj",
+   "raw": "best (adj + adv)"
+  },
+  {
+   "head": "better",
+   "pos": "adj",
+   "raw": "better (adj + adv)"
+  },
+  {
+   "head": "blanket",
+   "pos": "n",
+   "raw": "blanket (n)"
+  },
+  {
+   "head": "blond(e)",
+   "pos": "adj",
+   "raw": "blond(e) (adj)"
+  },
+  {
+   "head": "boring",
+   "pos": "adj",
+   "raw": "boring (adj)"
+  },
+  {
+   "head": "both",
+   "pos": "det",
+   "raw": "both (det + pron)"
+  },
+  {
+   "head": "bottle",
+   "pos": "n",
+   "raw": "bottle (n)"
+  },
+  {
+   "head": "bottom",
+   "pos": "adj",
+   "raw": "bottom (adj + n)"
+  },
+  {
+   "head": "bowl",
+   "pos": "n",
+   "raw": "bowl (n)"
+  },
+  {
+   "head": "brave",
+   "pos": "adj",
+   "raw": "brave (adj)"
+  },
+  {
+   "head": "break",
+   "pos": "n",
+   "raw": "break (n)"
+  },
+  {
+   "head": "brilliant",
+   "pos": "adj",
+   "raw": "brilliant (adj + excl)"
+  },
+  {
+   "head": "bring",
+   "pos": "v",
+   "raw": "bring (v)"
+  },
+  {
+   "head": "build",
+   "pos": "v",
+   "raw": "build (v)"
+  },
+  {
+   "head": "building",
+   "pos": "n",
+   "raw": "building (n)"
+  },
+  {
+   "head": "bus station",
+   "pos": "n",
+   "raw": "bus station (n)"
+  },
+  {
+   "head": "bus stop",
+   "pos": "n",
+   "raw": "bus stop (n)"
+  },
+  {
+   "head": "busy",
+   "pos": "adj",
+   "raw": "busy (adj)"
+  },
+  {
+   "head": "buy",
+   "pos": "v",
+   "raw": "buy (v)"
+  },
+  {
+   "head": "by",
+   "pos": "prep",
+   "raw": "by (prep)"
+  },
+  {
+   "head": "café",
+   "pos": "n",
+   "raw": "café (n)"
+  },
+  {
+   "head": "cage",
+   "pos": "n",
+   "raw": "cage (n)"
+  },
+  {
+   "head": "call",
+   "pos": "v",
+   "raw": "call (v)"
+  },
+  {
+   "head": "car park",
+   "pos": "n",
+   "raw": "car park (n)"
+  },
+  {
+   "head": "careful",
+   "pos": "adj",
+   "raw": "careful (adj)"
+  },
+  {
+   "head": "carefully",
+   "pos": "adv",
+   "raw": "carefully (adv)"
+  },
+  {
+   "head": "carry",
+   "pos": "v",
+   "raw": "carry (v)"
+  },
+  {
+   "head": "catch (e.g. a bus)",
+   "pos": "v",
+   "raw": "catch (e.g. a bus) (v)"
+  },
+  {
+   "head": "CD",
+   "pos": "n",
+   "raw": "CD (n)"
+  },
+  {
+   "head": "centre (US center)",
+   "pos": "n",
+   "raw": "centre (US center) (n)"
+  },
+  {
+   "head": "change",
+   "pos": "v",
+   "raw": "change (v)"
+  },
+  {
+   "head": "Charlie",
+   "pos": "n",
+   "raw": "Charlie (n)"
+  },
+  {
+   "head": "cheese",
+   "pos": "n",
+   "raw": "cheese (n)"
+  },
+  {
+   "head": "cinema",
+   "pos": "n",
+   "raw": "cinema (n)"
+  },
+  {
+   "head": "circle",
+   "pos": "n",
+   "raw": "circle (n)"
+  },
+  {
+   "head": "circus",
+   "pos": "n",
+   "raw": "circus (n)"
+  },
+  {
+   "head": "city",
+   "pos": "n",
+   "raw": "city (n)"
+  },
+  {
+   "head": "city/town centre (US center)",
+   "pos": "n",
+   "raw": "city/town centre (US center) (n)"
+  },
+  {
+   "head": "Clare",
+   "pos": "n",
+   "raw": "Clare (n)"
+  },
+  {
+   "head": "clever",
+   "pos": "adj",
+   "raw": "clever (adj)"
+  },
+  {
+   "head": "climb",
+   "pos": "v",
+   "raw": "climb (v)"
+  },
+  {
+   "head": "cloud",
+   "pos": "n",
+   "raw": "cloud (n)"
+  },
+  {
+   "head": "cloudy",
+   "pos": "adj",
+   "raw": "cloudy (adj)"
+  },
+  {
+   "head": "clown",
+   "pos": "n",
+   "raw": "clown (n)"
+  },
+  {
+   "head": "coat",
+   "pos": "n",
+   "raw": "coat (n)"
+  },
+  {
+   "head": "coffee",
+   "pos": "n",
+   "raw": "coffee (n)"
+  },
+  {
+   "head": "cold",
+   "pos": "adj",
+   "raw": "cold (adj + n)"
+  },
+  {
+   "head": "come on",
+   "pos": "excl",
+   "raw": "come on (excl)"
+  },
+  {
+   "head": "comic",
+   "pos": "n",
+   "raw": "comic (n)"
+  },
+  {
+   "head": "comic book",
+   "pos": "n",
+   "raw": "comic book (n)"
+  },
+  {
+   "head": "cook",
+   "pos": "n",
+   "raw": "cook (n + v)"
+  },
+  {
+   "head": "cough",
+   "pos": "n",
+   "raw": "cough (n)"
+  },
+  {
+   "head": "could (as in past of can for ability)",
+   "pos": "v",
+   "raw": "could (as in past of can for ability) (v)"
+  },
+  {
+   "head": "country",
+   "pos": "n",
+   "raw": "country (n)"
+  },
+  {
+   "head": "countryside",
+   "pos": "n",
+   "raw": "countryside (n)"
+  },
+  {
+   "head": "cry",
+   "pos": "v",
+   "raw": "cry (v)"
+  },
+  {
+   "head": "cup",
+   "pos": "n",
+   "raw": "cup (n)"
+  },
+  {
+   "head": "curly",
+   "pos": "adj",
+   "raw": "curly (adj)"
+  },
+  {
+   "head": "Daisy",
+   "pos": "n",
+   "raw": "Daisy (n)"
+  },
+  {
+   "head": "dance",
+   "pos": "n",
+   "raw": "dance (n + v)"
+  },
+  {
+   "head": "dangerous",
+   "pos": "adj",
+   "raw": "dangerous (adj)"
+  },
+  {
+   "head": "daughter",
+   "pos": "n",
+   "raw": "daughter (n)"
+  },
+  {
+   "head": "dentist",
+   "pos": "n",
+   "raw": "dentist (n)"
+  },
+  {
+   "head": "difference",
+   "pos": "n",
+   "raw": "difference (n)"
+  },
+  {
+   "head": "different",
+   "pos": "adj",
+   "raw": "different (adj)"
+  },
+  {
+   "head": "difficult",
+   "pos": "adj",
+   "raw": "difficult (adj)"
+  },
+  {
+   "head": "doctor",
+   "pos": "n",
+   "raw": "doctor (n)"
+  },
+  {
+   "head": "dolphin",
+   "pos": "n",
+   "raw": "dolphin (n)"
+  },
+  {
+   "head": "down",
+   "pos": "adv",
+   "raw": "down (adv + prep)"
+  },
+  {
+   "head": "downstairs",
+   "pos": "adv",
+   "raw": "downstairs (adv + n)"
+  },
+  {
+   "head": "dream",
+   "pos": "n",
+   "raw": "dream (n + v)"
+  },
+  {
+   "head": "dress up",
+   "pos": "v",
+   "raw": "dress up (v)"
+  },
+  {
+   "head": "drive",
+   "pos": "n",
+   "raw": "drive (n)"
+  },
+  {
+   "head": "driver",
+   "pos": "n",
+   "raw": "driver (n)"
+  },
+  {
+   "head": "drop",
+   "pos": "v",
+   "raw": "drop (v)"
+  },
+  {
+   "head": "dry",
+   "pos": "adj",
+   "raw": "dry (adj + v)"
+  },
+  {
+   "head": "DVD",
+   "pos": "n",
+   "raw": "DVD (n)"
+  },
+  {
+   "head": "Grammatical key earache",
+   "pos": "n",
+   "raw": "Grammatical key earache (n)"
+  },
+  {
+   "head": "easy",
+   "pos": "adj",
+   "raw": "easy (adj)"
+  },
+  {
+   "head": "e-book",
+   "pos": "n",
+   "raw": "e-book (n)"
+  },
+  {
+   "head": "elevator (UK lift)",
+   "pos": "n",
+   "raw": "elevator (UK lift) (n)"
+  },
+  {
+   "head": "email",
+   "pos": "n",
+   "raw": "email (n + v)"
+  },
+  {
+   "head": "every",
+   "pos": "det",
+   "raw": "every (det)"
+  },
+  {
+   "head": "everyone",
+   "pos": "pron",
+   "raw": "everyone (pron)"
+  },
+  {
+   "head": "everything",
+   "pos": "pron",
+   "raw": "everything (pron)"
+  },
+  {
+   "head": "exciting",
+   "pos": "adj",
+   "raw": "exciting (adj)"
+  },
+  {
+   "head": "excuse me",
+   "pos": "dis",
+   "raw": "excuse me (dis)"
+  },
+  {
+   "head": "fair",
+   "pos": "adj",
+   "raw": "fair (adj)"
+  },
+  {
+   "head": "fall",
+   "pos": "v",
+   "raw": "fall (v)"
+  },
+  {
+   "head": "famous",
+   "pos": "adj",
+   "raw": "famous (adj)"
+  },
+  {
+   "head": "farm",
+   "pos": "n",
+   "raw": "farm (n)"
+  },
+  {
+   "head": "farmer",
+   "pos": "n",
+   "raw": "farmer (n)"
+  },
+  {
+   "head": "fat",
+   "pos": "adj",
+   "raw": "fat (adj)"
+  },
+  {
+   "head": "feed",
+   "pos": "v",
+   "raw": "feed (v)"
+  },
+  {
+   "head": "field",
+   "pos": "n",
+   "raw": "field (n)"
+  },
+  {
+   "head": "film (US movie)",
+   "pos": "n",
+   "raw": "film (US movie) (n + v)"
+  },
+  {
+   "head": "film (US movie) star",
+   "pos": "n",
+   "raw": "film (US movie) star (n)"
+  },
+  {
+   "head": "fine",
+   "pos": "adj",
+   "raw": "fine (adj + excl)"
+  },
+  {
+   "head": "first",
+   "pos": "adj",
+   "raw": "first (adj + adv)"
+  },
+  {
+   "head": "fish",
+   "pos": "v",
+   "raw": "fish (v)"
+  },
+  {
+   "head": "fix",
+   "pos": "v",
+   "raw": "fix (v)"
+  },
+  {
+   "head": "floor (e.g. ground, 1st, etc.)",
+   "pos": "n",
+   "raw": "floor (e.g. ground, 1st, etc.) (n)"
+  },
+  {
+   "head": "fly",
+   "pos": "n",
+   "raw": "fly (n)"
+  },
+  {
+   "head": "forest",
+   "pos": "n",
+   "raw": "forest (n)"
+  },
+  {
+   "head": "Fred",
+   "pos": "n",
+   "raw": "Fred (n)"
+  },
+  {
+   "head": "Friday",
+   "pos": "n",
+   "raw": "Friday (n)"
+  },
+  {
+   "head": "frightened",
+   "pos": "adj",
+   "raw": "frightened (adj)"
+  },
+  {
+   "head": "funfair",
+   "pos": "n",
+   "raw": "funfair (n)"
+  },
+  {
+   "head": "get dressed",
+   "pos": "v",
+   "raw": "get dressed (v)"
+  },
+  {
+   "head": "get off",
+   "pos": "v",
+   "raw": "get off (v)"
+  },
+  {
+   "head": "get on",
+   "pos": "v",
+   "raw": "get on (v)"
+  },
+  {
+   "head": "get undressed",
+   "pos": "v",
+   "raw": "get undressed (v)"
+  },
+  {
+   "head": "get up",
+   "pos": "v",
+   "raw": "get up (v)"
+  },
+  {
+   "head": "glass",
+   "pos": "n",
+   "raw": "glass (n)"
+  },
+  {
+   "head": "go shopping",
+   "pos": "v",
+   "raw": "go shopping (v)"
+  },
+  {
+   "head": "goal",
+   "pos": "n",
+   "raw": "goal (n)"
+  },
+  {
+   "head": "granddaughter",
+   "pos": "n",
+   "raw": "granddaughter (n)"
+  },
+  {
+   "head": "grandparent",
+   "pos": "n",
+   "raw": "grandparent (n)"
+  },
+  {
+   "head": "grandson",
+   "pos": "n",
+   "raw": "grandson (n)"
+  },
+  {
+   "head": "grass",
+   "pos": "n",
+   "raw": "grass (n)"
+  },
+  {
+   "head": "ground",
+   "pos": "n",
+   "raw": "ground (n)"
+  },
+  {
+   "head": "grow",
+   "pos": "v",
+   "raw": "grow (v)"
+  },
+  {
+   "head": "grown-up",
+   "pos": "n",
+   "raw": "grown-up (n)"
+  },
+  {
+   "head": "have (got) to",
+   "pos": "v",
+   "raw": "have (got) to (v)"
+  },
+  {
+   "head": "headache",
+   "pos": "n",
+   "raw": "headache (n)"
+  },
+  {
+   "head": "helmet",
+   "pos": "n",
+   "raw": "helmet (n)"
+  },
+  {
+   "head": "help",
+   "pos": "v",
+   "raw": "help (v)"
+  },
+  {
+   "head": "hide",
+   "pos": "v",
+   "raw": "hide (v)"
+  },
+  {
+   "head": "holiday",
+   "pos": "n",
+   "raw": "holiday (n)"
+  },
+  {
+   "head": "homework",
+   "pos": "n",
+   "raw": "homework (n)"
+  },
+  {
+   "head": "hop",
+   "pos": "v",
+   "raw": "hop (v)"
+  },
+  {
+   "head": "hospital",
+   "pos": "n",
+   "raw": "hospital (n)"
+  },
+  {
+   "head": "hot",
+   "pos": "adj",
+   "raw": "hot (adj)"
+  },
+  {
+   "head": "how",
+   "pos": "adv",
+   "raw": "how (adv)"
+  },
+  {
+   "head": "how much",
+   "pos": "adv",
+   "raw": "how much (adv + int)"
+  },
+  {
+   "head": "how often",
+   "pos": "adv",
+   "raw": "how often (adv + int)"
+  },
+  {
+   "head": "huge",
+   "pos": "adj",
+   "raw": "huge (adj)"
+  },
+  {
+   "head": "hundred",
+   "pos": "n",
+   "raw": "hundred (n)"
+  },
+  {
+   "head": "hungry",
+   "pos": "adj",
+   "raw": "hungry (adj)"
+  },
+  {
+   "head": "hurt",
+   "pos": "v",
+   "raw": "hurt (v)"
+  },
+  {
+   "head": "ice",
+   "pos": "n",
+   "raw": "ice (n)"
+  },
+  {
+   "head": "ice skates",
+   "pos": "n",
+   "raw": "ice skates (n)"
+  },
+  {
+   "head": "ice skating",
+   "pos": "n",
+   "raw": "ice skating (n)"
+  },
+  {
+   "head": "idea",
+   "pos": "n",
+   "raw": "idea (n)"
+  },
+  {
+   "head": "ill",
+   "pos": "adj",
+   "raw": "ill (adj)"
+  },
+  {
+   "head": "inside",
+   "pos": "adv",
+   "raw": "inside (adv + n + prep)"
+  },
+  {
+   "head": "internet",
+   "pos": "n",
+   "raw": "internet (n)"
+  },
+  {
+   "head": "into",
+   "pos": "prep",
+   "raw": "into (prep)"
+  },
+  {
+   "head": "invite",
+   "pos": "v",
+   "raw": "invite (v)"
+  },
+  {
+   "head": "island",
+   "pos": "n",
+   "raw": "island (n)"
+  },
+  {
+   "head": "Jack",
+   "pos": "n",
+   "raw": "Jack (n)"
+  },
+  {
+   "head": "Jane",
+   "pos": "n",
+   "raw": "Jane (n)"
+  },
+  {
+   "head": "Jim",
+   "pos": "n",
+   "raw": "Jim (n)"
+  },
+  {
+   "head": "Julia",
+   "pos": "n",
+   "raw": "Julia (n)"
+  },
+  {
+   "head": "jungle",
+   "pos": "n",
+   "raw": "jungle (n)"
+  },
+  {
+   "head": "kangaroo",
+   "pos": "n",
+   "raw": "kangaroo (n)"
+  },
+  {
+   "head": "kick",
+   "pos": "n",
+   "raw": "kick (n)"
+  },
+  {
+   "head": "kind",
+   "pos": "n",
+   "raw": "kind (n)"
+  },
+  {
+   "head": "kitten",
+   "pos": "n",
+   "raw": "kitten (n)"
+  },
+  {
+   "head": "lake",
+   "pos": "n",
+   "raw": "lake (n)"
+  },
+  {
+   "head": "laptop",
+   "pos": "n",
+   "raw": "laptop (n)"
+  },
+  {
+   "head": "last",
+   "pos": "adj",
+   "raw": "last (adj + adv)"
+  },
+  {
+   "head": "laugh",
+   "pos": "n",
+   "raw": "laugh (n + v)"
+  },
+  {
+   "head": "leaf/leaves",
+   "pos": "n",
+   "raw": "leaf/leaves (n)"
+  },
+  {
+   "head": "library",
+   "pos": "n",
+   "raw": "library (n)"
+  },
+  {
+   "head": "lift (US elevator)",
+   "pos": "n",
+   "raw": "lift (US elevator) (n)"
+  },
+  {
+   "head": "Lily",
+   "pos": "n",
+   "raw": "Lily (n)"
+  },
+  {
+   "head": "lion",
+   "pos": "n",
+   "raw": "lion (n)"
+  },
+  {
+   "head": "little",
+   "pos": "adj",
+   "raw": "little (adj)"
+  },
+  {
+   "head": "look for",
+   "pos": "v",
+   "raw": "look for (v)"
+  },
+  {
+   "head": "lose",
+   "pos": "v",
+   "raw": "lose (v)"
+  },
+  {
+   "head": "loud",
+   "pos": "adj",
+   "raw": "loud (adj)"
+  },
+  {
+   "head": "loudly",
+   "pos": "adv",
+   "raw": "loudly (adv)"
+  },
+  {
+   "head": "machine",
+   "pos": "n",
+   "raw": "machine (n)"
+  },
+  {
+   "head": "map",
+   "pos": "n",
+   "raw": "map (n)"
+  },
+  {
+   "head": "market",
+   "pos": "n",
+   "raw": "market (n)"
+  },
+  {
+   "head": "Mary",
+   "pos": "n",
+   "raw": "Mary (n)"
+  },
+  {
+   "head": "matter",
+   "pos": "n",
+   "raw": "matter (n)"
+  },
+  {
+   "head": "mean",
+   "pos": "v",
+   "raw": "mean (v)"
+  },
+  {
+   "head": "message",
+   "pos": "n",
+   "raw": "message (n)"
+  },
+  {
+   "head": "milkshake",
+   "pos": "n",
+   "raw": "milkshake (n)"
+  },
+  {
+   "head": "mistake",
+   "pos": "n",
+   "raw": "mistake (n)"
+  },
+  {
+   "head": "model",
+   "pos": "n",
+   "raw": "model (n)"
+  },
+  {
+   "head": "Monday",
+   "pos": "n",
+   "raw": "Monday (n)"
+  },
+  {
+   "head": "moon",
+   "pos": "n",
+   "raw": "moon (n)"
+  },
+  {
+   "head": "more",
+   "pos": "adv",
+   "raw": "more (adv + det + pron)"
+  },
+  {
+   "head": "most",
+   "pos": "adv",
+   "raw": "most (adv + det + pron)"
+  },
+  {
+   "head": "mountain",
+   "pos": "n",
+   "raw": "mountain (n)"
+  },
+  {
+   "head": "moustache",
+   "pos": "n",
+   "raw": "moustache (n)"
+  },
+  {
+   "head": "move",
+   "pos": "v",
+   "raw": "move (v)"
+  },
+  {
+   "head": "movie (UK film)",
+   "pos": "n",
+   "raw": "movie (UK film) (n)"
+  },
+  {
+   "head": "must",
+   "pos": "v",
+   "raw": "must (v)"
+  },
+  {
+   "head": "naughty",
+   "pos": "adj",
+   "raw": "naughty (adj)"
+  },
+  {
+   "head": "near",
+   "pos": "adv",
+   "raw": "near (adv + prep)"
+  },
+  {
+   "head": "neck",
+   "pos": "n",
+   "raw": "neck (n)"
+  },
+  {
+   "head": "need",
+   "pos": "v",
+   "raw": "need (v)"
+  },
+  {
+   "head": "net",
+   "pos": "n",
+   "raw": "net (n)"
+  },
+  {
+   "head": "never",
+   "pos": "adv",
+   "raw": "never (adv)"
+  },
+  {
+   "head": "noise",
+   "pos": "n",
+   "raw": "noise (n)"
+  },
+  {
+   "head": "noodles",
+   "pos": "n",
+   "raw": "noodles (n)"
+  },
+  {
+   "head": "nothing",
+   "pos": "pron",
+   "raw": "nothing (pron)"
+  },
+  {
+   "head": "nurse",
+   "pos": "n",
+   "raw": "nurse (n)"
+  },
+  {
+   "head": "o’clock",
+   "pos": "adv",
+   "raw": "o’clock (adv)"
+  },
+  {
+   "head": "off",
+   "pos": "adv",
+   "raw": "off (adv + prep)"
+  },
+  {
+   "head": "often",
+   "pos": "adv",
+   "raw": "often (adv)"
+  },
+  {
+   "head": "on",
+   "pos": "adv",
+   "raw": "on (adv + prep of time)"
+  },
+  {
+   "head": "only",
+   "pos": "adv",
+   "raw": "only (adv)"
+  },
+  {
+   "head": "opposite",
+   "pos": "prep",
+   "raw": "opposite (prep)"
+  },
+  {
+   "head": "out",
+   "pos": "adv",
+   "raw": "out (adv)"
+  },
+  {
+   "head": "out of",
+   "pos": "prep",
+   "raw": "out of (prep)"
+  },
+  {
+   "head": "outside",
+   "pos": "adv",
+   "raw": "outside (adv + n + prep)"
+  },
+  {
+   "head": "pair",
+   "pos": "n",
+   "raw": "pair (n)"
+  },
+  {
+   "head": "pancake",
+   "pos": "n",
+   "raw": "pancake (n)"
+  },
+  {
+   "head": "panda",
+   "pos": "n",
+   "raw": "panda (n)"
+  },
+  {
+   "head": "parent",
+   "pos": "n",
+   "raw": "parent (n)"
+  },
+  {
+   "head": "parrot",
+   "pos": "n",
+   "raw": "parrot (n)"
+  },
+  {
+   "head": "party",
+   "pos": "n",
+   "raw": "party (n)"
+  },
+  {
+   "head": "pasta",
+   "pos": "n",
+   "raw": "pasta (n)"
+  },
+  {
+   "head": "Paul",
+   "pos": "n",
+   "raw": "Paul (n)"
+  },
+  {
+   "head": "penguin",
+   "pos": "n",
+   "raw": "penguin (n)"
+  },
+  {
+   "head": "Peter",
+   "pos": "n",
+   "raw": "Peter (n)"
+  },
+  {
+   "head": "picnic",
+   "pos": "n",
+   "raw": "picnic (n)"
+  },
+  {
+   "head": "pirate",
+   "pos": "n",
+   "raw": "pirate (n)"
+  },
+  {
+   "head": "place",
+   "pos": "n",
+   "raw": "place (n)"
+  },
+  {
+   "head": "plant",
+   "pos": "n",
+   "raw": "plant (n + v)"
+  },
+  {
+   "head": "plate",
+   "pos": "n",
+   "raw": "plate (n)"
+  },
+  {
+   "head": "player",
+   "pos": "n",
+   "raw": "player (n)"
+  },
+  {
+   "head": "pool",
+   "pos": "n",
+   "raw": "pool (n)"
+  },
+  {
+   "head": "pop star",
+   "pos": "n",
+   "raw": "pop star (n)"
+  },
+  {
+   "head": "practice",
+   "pos": "n",
+   "raw": "practice (n)"
+  },
+  {
+   "head": "practise",
+   "pos": "v",
+   "raw": "practise (v)"
+  },
+  {
+   "head": "present",
+   "pos": "n",
+   "raw": "present (n)"
+  },
+  {
+   "head": "pretty",
+   "pos": "adj",
+   "raw": "pretty (adj)"
+  },
+  {
+   "head": "puppy",
+   "pos": "n",
+   "raw": "puppy (n)"
+  },
+  {
+   "head": "put on",
+   "pos": "v",
+   "raw": "put on (v)"
+  },
+  {
+   "head": "quick",
+   "pos": "adj",
+   "raw": "quick (adj)"
+  },
+  {
+   "head": "quickly",
+   "pos": "adv",
+   "raw": "quickly (adv)"
+  },
+  {
+   "head": "quiet",
+   "pos": "adj",
+   "raw": "quiet (adj)"
+  },
+  {
+   "head": "quietly",
+   "pos": "adv",
+   "raw": "quietly (adv)"
+  },
+  {
+   "head": "rabbit",
+   "pos": "n",
+   "raw": "rabbit (n)"
+  },
+  {
+   "head": "rain",
+   "pos": "n",
+   "raw": "rain (n + v)"
+  },
+  {
+   "head": "rainbow",
+   "pos": "n",
+   "raw": "rainbow (n)"
+  },
+  {
+   "head": "ride",
+   "pos": "n",
+   "raw": "ride (n)"
+  },
+  {
+   "head": "river",
+   "pos": "n",
+   "raw": "river (n)"
+  },
+  {
+   "head": "road",
+   "pos": "n",
+   "raw": "road (n)"
+  },
+  {
+   "head": "rock",
+   "pos": "n",
+   "raw": "rock (n)"
+  },
+  {
+   "head": "roller skates",
+   "pos": "n",
+   "raw": "roller skates (n)"
+  },
+  {
+   "head": "roller skating",
+   "pos": "n",
+   "raw": "roller skating (n)"
+  },
+  {
+   "head": "roof",
+   "pos": "n",
+   "raw": "roof (n)"
+  },
+  {
+   "head": "round",
+   "pos": "adj",
+   "raw": "round (adj + adv + prep)"
+  },
+  {
+   "head": "safe",
+   "pos": "adj",
+   "raw": "safe (adj)"
+  },
+  {
+   "head": "sail",
+   "pos": "n",
+   "raw": "sail (n + v)"
+  },
+  {
+   "head": "salad",
+   "pos": "n",
+   "raw": "salad (n)"
+  },
+  {
+   "head": "Sally",
+   "pos": "n",
+   "raw": "Sally (n)"
+  },
+  {
+   "head": "sandwich",
+   "pos": "n",
+   "raw": "sandwich (n)"
+  },
+  {
+   "head": "Saturday",
+   "pos": "n",
+   "raw": "Saturday (n)"
+  },
+  {
+   "head": "sauce",
+   "pos": "n",
+   "raw": "sauce (n)"
+  },
+  {
+   "head": "scarf",
+   "pos": "n",
+   "raw": "scarf (n)"
+  },
+  {
+   "head": "score",
+   "pos": "v",
+   "raw": "score (v)"
+  },
+  {
+   "head": "seat",
+   "pos": "n",
+   "raw": "seat (n)"
+  },
+  {
+   "head": "second",
+   "pos": "adj",
+   "raw": "second (adj + adv)"
+  },
+  {
+   "head": "send",
+   "pos": "v",
+   "raw": "send (v)"
+  },
+  {
+   "head": "shall",
+   "pos": "v",
+   "raw": "shall (v)"
+  },
+  {
+   "head": "shape",
+   "pos": "n",
+   "raw": "shape (n)"
+  },
+  {
+   "head": "shark",
+   "pos": "n",
+   "raw": "shark (n)"
+  },
+  {
+   "head": "shop",
+   "pos": "v",
+   "raw": "shop (v)"
+  },
+  {
+   "head": "shopping",
+   "pos": "n",
+   "raw": "shopping (n)"
+  },
+  {
+   "head": "shopping centre (US center)",
+   "pos": "n",
+   "raw": "shopping centre (US center) (n)"
+  },
+  {
+   "head": "shoulder",
+   "pos": "n",
+   "raw": "shoulder (n)"
+  },
+  {
+   "head": "shout",
+   "pos": "v",
+   "raw": "shout (v)"
+  },
+  {
+   "head": "shower",
+   "pos": "n",
+   "raw": "shower (n)"
+  },
+  {
+   "head": "sick",
+   "pos": "adj",
+   "raw": "sick (adj)"
+  },
+  {
+   "head": "skate",
+   "pos": "n",
+   "raw": "skate (n + v)"
+  },
+  {
+   "head": "skip",
+   "pos": "v",
+   "raw": "skip (v)"
+  },
+  {
+   "head": "sky",
+   "pos": "n",
+   "raw": "sky (n)"
+  },
+  {
+   "head": "slow",
+   "pos": "adj",
+   "raw": "slow (adj)"
+  },
+  {
+   "head": "slowly",
+   "pos": "adv",
+   "raw": "slowly (adv)"
+  },
+  {
+   "head": "snail",
+   "pos": "n",
+   "raw": "snail (n)"
+  },
+  {
+   "head": "snow",
+   "pos": "n",
+   "raw": "snow (n + v)"
+  },
+  {
+   "head": "someone",
+   "pos": "pron",
+   "raw": "someone (pron)"
+  },
+  {
+   "head": "something",
+   "pos": "pron",
+   "raw": "something (pron)"
+  },
+  {
+   "head": "sometimes",
+   "pos": "adv",
+   "raw": "sometimes (adv)"
+  },
+  {
+   "head": "son",
+   "pos": "n",
+   "raw": "son (n)"
+  },
+  {
+   "head": "soup",
+   "pos": "n",
+   "raw": "soup (n)"
+  },
+  {
+   "head": "sports centre (US center)",
+   "pos": "n",
+   "raw": "sports centre (US center) (n)"
+  },
+  {
+   "head": "square",
+   "pos": "adj",
+   "raw": "square (adj + n)"
+  },
+  {
+   "head": "stair(s)",
+   "pos": "n",
+   "raw": "stair(s) (n)"
+  },
+  {
+   "head": "star",
+   "pos": "n",
+   "raw": "star (n)"
+  },
+  {
+   "head": "station",
+   "pos": "n",
+   "raw": "station (n)"
+  },
+  {
+   "head": "stomach",
+   "pos": "n",
+   "raw": "stomach (n)"
+  },
+  {
+   "head": "stomach-ache",
+   "pos": "n",
+   "raw": "stomach-ache (n)"
+  },
+  {
+   "head": "straight",
+   "pos": "adj",
+   "raw": "straight (adj)"
+  },
+  {
+   "head": "strong",
+   "pos": "adj",
+   "raw": "strong (adj)"
+  },
+  {
+   "head": "Sunday",
+   "pos": "n",
+   "raw": "Sunday (n)"
+  },
+  {
+   "head": "sunny",
+   "pos": "adj",
+   "raw": "sunny (adj)"
+  },
+  {
+   "head": "supermarket",
+   "pos": "n",
+   "raw": "supermarket (n)"
+  },
+  {
+   "head": "surprised",
+   "pos": "adj",
+   "raw": "surprised (adj)"
+  },
+  {
+   "head": "sweater",
+   "pos": "n",
+   "raw": "sweater (n)"
+  },
+  {
+   "head": "sweet",
+   "pos": "adj",
+   "raw": "sweet (adj)"
+  },
+  {
+   "head": "swim",
+   "pos": "n",
+   "raw": "swim (n)"
+  },
+  {
+   "head": "swimming pool",
+   "pos": "n",
+   "raw": "swimming pool (n)"
+  },
+  {
+   "head": "swimsuit",
+   "pos": "n",
+   "raw": "swimsuit (n)"
+  },
+  {
+   "head": "take",
+   "pos": "v",
+   "raw": "take (v)"
+  },
+  {
+   "head": "take off (i.e. get undressed)",
+   "pos": "v",
+   "raw": "take off (i.e. get undressed) (v)"
+  },
+  {
+   "head": "tall",
+   "pos": "adj",
+   "raw": "tall (adj)"
+  },
+  {
+   "head": "tea",
+   "pos": "n",
+   "raw": "tea (n)"
+  },
+  {
+   "head": "teach",
+   "pos": "v",
+   "raw": "teach (v)"
+  },
+  {
+   "head": "temperature",
+   "pos": "n",
+   "raw": "temperature (n)"
+  },
+  {
+   "head": "terrible",
+   "pos": "adj",
+   "raw": "terrible (adj)"
+  },
+  {
+   "head": "text",
+   "pos": "n",
+   "raw": "text (n + v)"
+  },
+  {
+   "head": "than",
+   "pos": "conj",
+   "raw": "than (conj + prep)"
+  },
+  {
+   "head": "then",
+   "pos": "adv",
+   "raw": "then (adv)"
+  },
+  {
+   "head": "thin",
+   "pos": "adj",
+   "raw": "thin (adj)"
+  },
+  {
+   "head": "think",
+   "pos": "v",
+   "raw": "think (v)"
+  },
+  {
+   "head": "third",
+   "pos": "adj",
+   "raw": "third (adj + adv)"
+  },
+  {
+   "head": "thirsty",
+   "pos": "adj",
+   "raw": "thirsty (adj)"
+  },
+  {
+   "head": "Thursday",
+   "pos": "n",
+   "raw": "Thursday (n)"
+  },
+  {
+   "head": "ticket",
+   "pos": "n",
+   "raw": "ticket (n)"
+  },
+  {
+   "head": "tired",
+   "pos": "adj",
+   "raw": "tired (adj)"
+  },
+  {
+   "head": "tooth/teeth",
+   "pos": "n",
+   "raw": "tooth/teeth (n)"
+  },
+  {
+   "head": "toothache",
+   "pos": "n",
+   "raw": "toothache (n)"
+  },
+  {
+   "head": "toothbrush",
+   "pos": "n",
+   "raw": "toothbrush (n)"
+  },
+  {
+   "head": "toothpaste",
+   "pos": "n",
+   "raw": "toothpaste (n)"
+  },
+  {
+   "head": "top",
+   "pos": "adj",
+   "raw": "top (adj + n)"
+  },
+  {
+   "head": "towel",
+   "pos": "n",
+   "raw": "towel (n)"
+  },
+  {
+   "head": "town",
+   "pos": "n",
+   "raw": "town (n)"
+  },
+  {
+   "head": "town/city centre (US center)",
+   "pos": "n",
+   "raw": "town/city centre (US center) (n)"
+  },
+  {
+   "head": "tractor",
+   "pos": "n",
+   "raw": "tractor (n)"
+  },
+  {
+   "head": "travel",
+   "pos": "v",
+   "raw": "travel (v)"
+  },
+  {
+   "head": "treasure",
+   "pos": "n",
+   "raw": "treasure (n)"
+  },
+  {
+   "head": "trip",
+   "pos": "n",
+   "raw": "trip (n)"
+  },
+  {
+   "head": "Tuesday",
+   "pos": "n",
+   "raw": "Tuesday (n)"
+  },
+  {
+   "head": "uncle",
+   "pos": "n",
+   "raw": "uncle (n)"
+  },
+  {
+   "head": "up",
+   "pos": "adv",
+   "raw": "up (adv + prep)"
+  },
+  {
+   "head": "upstairs",
+   "pos": "adv",
+   "raw": "upstairs (adv + n)"
+  },
+  {
+   "head": "vegetable",
+   "pos": "n",
+   "raw": "vegetable (n)"
+  },
+  {
+   "head": "Vicky",
+   "pos": "n",
+   "raw": "Vicky (n)"
+  },
+  {
+   "head": "video",
+   "pos": "n",
+   "raw": "video (n + v)"
+  },
+  {
+   "head": "village",
+   "pos": "n",
+   "raw": "village (n)"
+  },
+  {
+   "head": "wait",
+   "pos": "v",
+   "raw": "wait (v)"
+  },
+  {
+   "head": "wake (up)",
+   "pos": "v",
+   "raw": "wake (up) (v)"
+  },
+  {
+   "head": "walk",
+   "pos": "n",
+   "raw": "walk (n)"
+  },
+  {
+   "head": "wash",
+   "pos": "n",
+   "raw": "wash (n + v)"
+  },
+  {
+   "head": "water",
+   "pos": "v",
+   "raw": "water (v)"
+  },
+  {
+   "head": "waterfall",
+   "pos": "n",
+   "raw": "waterfall (n)"
+  },
+  {
+   "head": "wave",
+   "pos": "n",
+   "raw": "wave (n)"
+  },
+  {
+   "head": "weak",
+   "pos": "adj",
+   "raw": "weak (adj)"
+  },
+  {
+   "head": "weather",
+   "pos": "n",
+   "raw": "weather (n)"
+  },
+  {
+   "head": "website",
+   "pos": "n",
+   "raw": "website (n)"
+  },
+  {
+   "head": "Wednesday",
+   "pos": "n",
+   "raw": "Wednesday (n)"
+  },
+  {
+   "head": "week",
+   "pos": "n",
+   "raw": "week (n)"
+  },
+  {
+   "head": "weekend",
+   "pos": "n",
+   "raw": "weekend (n)"
+  },
+  {
+   "head": "well",
+   "pos": "adj",
+   "raw": "well (adj + adv)"
+  },
+  {
+   "head": "wet",
+   "pos": "adj",
+   "raw": "wet (adj)"
+  },
+  {
+   "head": "whale",
+   "pos": "n",
+   "raw": "whale (n)"
+  },
+  {
+   "head": "when",
+   "pos": "adv",
+   "raw": "when (adv + conj + int)"
+  },
+  {
+   "head": "where",
+   "pos": "pron",
+   "raw": "where (pron)"
+  },
+  {
+   "head": "which",
+   "pos": "pron",
+   "raw": "which (pron)"
+  },
+  {
+   "head": "who",
+   "pos": "pron",
+   "raw": "who (pron)"
+  },
+  {
+   "head": "why",
+   "pos": "int",
+   "raw": "why (int)"
+  },
+  {
+   "head": "wind",
+   "pos": "n",
+   "raw": "wind (n)"
+  },
+  {
+   "head": "windy",
+   "pos": "adj",
+   "raw": "windy (adj)"
+  },
+  {
+   "head": "work",
+   "pos": "n",
+   "raw": "work (n + v)"
+  },
+  {
+   "head": "world",
+   "pos": "n",
+   "raw": "world (n)"
+  },
+  {
+   "head": "worse",
+   "pos": "adj",
+   "raw": "worse (adj + adv)"
+  },
+  {
+   "head": "worst",
+   "pos": "adj",
+   "raw": "worst (adj + adv)"
+  },
+  {
+   "head": "would",
+   "pos": "v",
+   "raw": "would (v)"
+  },
+  {
+   "head": "wrong",
+   "pos": "adj",
+   "raw": "wrong (adj)"
+  },
+  {
+   "head": "yesterday",
+   "pos": "adv",
+   "raw": "yesterday (adv + n)"
+  },
+  {
+   "head": "Zoe",
+   "pos": "n",
+   "raw": "Zoe (n)"
+  }
+ ],
+ "forms": []
+}

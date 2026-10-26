@@ -75,6 +75,111 @@ NUMBERS = {
 }
 TOK_RE = re.compile(r"[A-Za-z']+|\d+")
 
+# ---- 可选开关（默认关闭：保持既有行为，历史数字不变）----
+# STRICT_LEMMA：修正 -ed/-ing 的双写剥离缺陷（passed→pas、carried→carri）。
+#   开启后 lemma 可能变化 → 覆盖率/词库主键都会变，**既有项目需重跑**。CLI: --strict-lemma
+STRICT_LEMMA = False
+# 不规则词形补表：wordlists/lemma_supplement.json（存在且开启 STRICT_LEMMA 时生效）
+SUPPLEMENT = {}
+
+# ---- CEFR 多源层（默认关闭；--cefr-multi 开启）----
+# 取值顺序 oxford → cefrj → octanove → efllex；冲突只在 {oxford,cefrj,octanove} 间判定。
+CEFR_MULTI = None      # cefr_layers.build() 结果；None = 未启用（行为与旧版一致）
+_CEFR_EXT_CACHE = {}
+_CL = None             # 惰性 import 的 cefr_layers 模块
+
+
+def _cefr_layers_mod():
+    global _CL
+    if _CL is None:
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import cefr_layers as _m
+            _CL = _m
+        except Exception as ex:
+            sys.stderr.write("cefr_layers 不可用，CEFR 多源层未启用: %s\n" % ex)
+            _CL = False
+    return _CL or None
+
+
+def load_cefr_multi(skill_dir, oxford_words=None, cache=None):
+    """装载第三方 CEFR 源（需先跑 scripts/fetch_cefr_sources.py）。
+    cache 可由 --cefr-sources 指定；默认 <skill>/wordlists/cefr_sources。"""
+    global CEFR_MULTI
+    CL = _cefr_layers_mod()
+    if CL is None:
+        return None
+    cache = cache or os.path.join(skill_dir, "wordlists", "cefr_sources")
+    if not os.path.isdir(cache):
+        sys.stderr.write("未找到 %s，CEFR 多源层未启用（先跑 scripts/fetch_cefr_sources.py）\n" % cache)
+        return None
+    srcs = CL.load_sources(cache, oxford_words)
+    if not srcs:
+        sys.stderr.write("%s 下无可识别源数据，CEFR 多源层未启用\n" % cache)
+        return None
+    CEFR_MULTI = CL.build(oxford_words, srcs)
+    sys.stderr.write("CEFR 多源层已启用：词条 %d · 来源 %s\n"
+                     % (len(CEFR_MULTI), " ".join("%s=%d" % kv for kv in sorted(CL.summary(CEFR_MULTI)["sources"].items()))))
+    return CEFR_MULTI
+
+
+def _cefr_repair(w):
+    """CEFR 查表专用的词形修复候选（**只用于查表，不改 lemma/分层**）：
+    补 stem_suffix 对 passed→pas、carried→carri、studied→studi 这类误切后的还原路径。
+    仅当 STRICT_LEMMA 开启时启用，与 lemma 归一修正同开关，避免改变默认口径。"""
+    if not STRICT_LEMMA:
+        return []
+    out = []
+    if w.endswith("ed") and len(w) > 4:
+        b = w[:-2]
+        out += [b, b + "e", b + b[-1], b[:-1] + "y", b[:-1]]
+    elif w.endswith("ing") and len(w) > 5:
+        b = w[:-3]
+        out += [b, b + "e", b + b[-1], b[:-1] + "y"]
+    elif w.endswith("ies") and len(w) > 3:
+        out.append(w[:-3] + "y")
+    elif w.endswith("s") and not w.endswith("ss") and len(w) > 2:
+        out += [w[:-1], w[:-1] + "e"]
+    return [c for c in out if c and re.fullmatch(r"[a-z]+", c)]
+
+
+def cefr_annotate(lemma, cefr=None):
+    """统一 CEFR 标注入口，返回 (level, src, alt, conflict)。
+    未启用多源层时等价于 cefr_level()（src 记为 oxford），输出与旧版完全一致。"""
+    ck = (lemma, id(cefr))
+    if ck in _CEFR_EXT_CACHE:
+        return _CEFR_EXT_CACHE[ck]
+    level = src = alt = ""
+    conflict = False
+    if CEFR_MULTI:
+        CL = _cefr_layers_mod()
+        cands = [lemma] + [c for c in lemma_candidates(lemma) if c != lemma]
+        fl = _CEFR_FOLD.get(lemma)
+        if fl:
+            cands.append(fl)
+        cands += _cefr_repair(lemma)
+        cands += _cefr_repair(SUPPLEMENT.get(lemma, ""))
+        level, src, altd, conflict = CL.lookup(CEFR_MULTI, lemma, extra_candidates=cands)
+        if conflict:
+            alt = " ".join("%s=%s" % (k, v) for k, v in altd.items())
+    if not level:
+        level = cefr_level(cefr, lemma)
+        if level:
+            src = src or "oxford"
+    r = (level, src, alt, bool(conflict))
+    _CEFR_EXT_CACHE[ck] = r
+    return r
+
+
+def load_supplement(path):
+    """lemma_supplement.json: {"map": {"began":"begin", ...}}；缺失返回 {}"""
+    if not path or not os.path.exists(path):
+        return {}
+    try:
+        return json.load(open(path, encoding="utf-8")).get("map", {}) or {}
+    except Exception:
+        return {}
+
 def tokenize(s):
     # 剔除纯引号 token（单独成词的撇号），避免 `'` 被当词计入超纲
     return [t for t in TOK_RE.findall(s) if t not in ("'", chr(0x2019), chr(0x2018))]
@@ -127,6 +232,10 @@ def stem_suffix(w):
         return b
     if w.endswith("ed"):
         b = w[:-2]
+        if STRICT_LEMMA:
+            # 不在词基层面盲目剥双写（会把 passed→pas、call→cal），
+            # 改由 lemma_candidates 产出多候选、让词表来裁决（stopped→stopp|stop）
+            return b
         if len(b) >= 2 and b[-1] == b[-2]: b = b[:-1]
         for c in (b, b + "e"):
             if re.fullmatch(r"[a-z]+", c): return c
@@ -140,15 +249,51 @@ def lemma_candidates(word):
     if not t: return []
     out = [t]
     if t in IRREG: out.append(IRREG[t])
+    if STRICT_LEMMA and t in SUPPLEMENT: out.append(SUPPLEMENT[t])   # 不规则补表
     s = stem_suffix(t)
-    if s != t: out.extend([s, IRREG.get(s, s)])
+    if s != t:
+        out.extend([s, IRREG.get(s, s)])
+        if STRICT_LEMMA and len(s) >= 2 and s[-1] == s[-2]:
+            out.append(s[:-1])      # stopped→stopp→stop（passed 则有 pass 优先命中）
     if t.endswith("ing"):
         b = t[:-3]
         if len(b) >= 2 and b[-1] == b[-2]: out.extend([b + "e", b[:-1]])
         out.append(b)
+    if STRICT_LEMMA and t.endswith("ied") and len(t) > 4:
+        # carried→carry / tried→try / studied→study（-ied→-y 通道；同样交词表裁决，不直接改写 lemma）
+        out.append(t[:-3] + "y")
     if t.endswith(("es", "s")) and len(t) > 2 and not t.endswith("ing"):
         out.append(t[:-1])
     return list(dict.fromkeys(c for c in out if re.fullmatch(r"[a-z]+", c)))
+
+def display_word(form, lemma):
+    """卡面显示口径（2026-10-13 定案）：常规屈折 → 词原；不规则词形 → 保留表层形式。
+    dancers→dancer、babies→baby、goes→go、taking→take；children/feet/went/got/came/
+    best/better/made/said/left 等保留原形式，不折叠成 child/foot。
+    判定：lemma 可由常规后缀规则还原 → 词原；只能经 IRREG 解释 → 保留原形式。
+    （层级/CEFR 仍按词族原形标注，调用方自行取 lemma 的层。）"""
+    base = base_word(form).lower()
+    lemma = (lemma or "").lower()
+    if base == lemma or stem_suffix(base) == lemma:
+        return lemma                                   # 本形即词原，或常规后缀可还原
+    regs = set()                                       # 常规屈折全备选（补 stem_suffix 拼写缺陷）
+    if base.endswith("ies") and len(base) > 3: regs.add(base[:-3] + "y")
+    if base.endswith("es"):
+        regs.add(base[:-2]); regs.add(base[:-1]); regs.add(base[:-2] + "e")
+    if base.endswith("s"): regs.add(base[:-1])
+    if base.endswith("ing"):
+        b = base[:-3]; regs |= {b, b + "e"}
+        if len(b) >= 2 and b[-1] == b[-2]: regs.add(b[:-1])
+    if base.endswith("ed"):
+        b = base[:-2]; regs |= {b, b + "e"}
+        if len(b) >= 2 and b[-1] == b[-2]: regs.add(b[:-1])
+    if base.endswith("er") and base not in AGENT_ER_NOUNS: regs.add(base[:-2])
+    if base.endswith("est"): regs.add(base[:-3])
+    if lemma in regs:
+        return lemma                                   # 规则屈折可还原 → 词原
+    if IRREG.get(base) == lemma or IRREG.get(stem_suffix(base)) == lemma:
+        return base                                    # 不规则词形：保留原形式
+    return lemma                                       # 兜底：非常规拼写仍用词原
 
 def split_head(head):
     parts = []
@@ -176,9 +321,11 @@ def discover_wordlists(skill_dir):
     reg = os.path.join(wd, "registry.json")
     order = json.load(open(reg, encoding="utf-8"))["wordlists"] if os.path.exists(reg) else []
     order = [w["key"] for w in order]
+    # 辅助文件（不参与分层）：registry 声明、cefr 标签、教学短语种子、lemma 不规则补表
+    AUX = ("registry.json", "cefr.json", "phrase_extra.json", "lemma_supplement.json")
     found = {os.path.splitext(os.path.basename(jf))[0]: jf
              for jf in glob.glob(os.path.join(wd, "*.json"))
-             if os.path.basename(jf) not in ("registry.json", "cefr.json", "phrase_extra.json")}
+             if os.path.basename(jf) not in AUX}
     keys = [k for k in order if k in found] + sorted(set(found) - set(order))
     wls = [(k, found[k], load_wordlist(found[k])) for k in keys]
     # 教学扩展短语种子库 phrase_extra.json: 官方未收录的固定结构(如 have got=have)。
@@ -418,7 +565,16 @@ def write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, c
     for i, w in enumerate((14, 11, 12, 10, 12), 1):
         ws.column_dimensions[get_column_letter(i)].width = w
 
-    COL = ["词/短语", "词性", "类型", "频次", "跨句", "CEFR", "原文例句"]; WID = (26, 16, 8, 8, 8, 8, 90)
+    # CEFR 多源层开启时，命中表追加「来源/冲突双标注/冲突」三列
+    multi = bool(CEFR_MULTI)
+    def _cefr_cols(lemma):
+        lv, s, al, cf = cefr_annotate(lemma, cefr)
+        if not multi:
+            return [lv]
+        return [lv, s, al, "是" if cf else ""]
+    COL = (["词/短语", "词性", "类型", "频次", "跨句", "CEFR"] +
+           (["CEFR来源", "冲突双标注", "冲突"] if multi else []) + ["原文例句"])
+    WID = ((26, 16, 8, 8, 8, 8) + ((10, 20, 6) if multi else ()) + (90,))
     # 专名词表：阅读即识常见地名/机构名/物名（kind=proper 的词，零联网，作认识清单）
     prop = collections.Counter(it["form"] for it in out_items if it["kind"] == "proper")
     if prop:
@@ -443,8 +599,8 @@ def write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, c
         sub.append(COL)
         for a in heads:
             sub.append([a["lemma"], a["pos"], "短语" if a["type"] == "phrase" else "单词",
-                        a["freq"], len(a["nsent"]), cefr_level(cefr, a["lemma"]),
-                        a["examples"][0] if a["examples"] else ""])
+                        a["freq"], len(a["nsent"])] + _cefr_cols(a["lemma"]) +
+                       [a["examples"][0] if a["examples"] else ""])
             for c in range(1, len(COL) + 1):
                 cell = sub.cell(sub.max_row, c); cell.border = border; cell.fill = hit_fill
         for i, w in enumerate(WID, 1):
@@ -463,8 +619,8 @@ def write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, c
                 if a["lemma"] in _ket_words:
                     continue
                 sub2.append([a["lemma"], a["pos"], "短语" if a["type"] == "phrase" else "单词",
-                             a["freq"], len(a["nsent"]), cefr_level(cefr, a["lemma"]),
-                             a["examples"][0] if a["examples"] else ""])
+                             a["freq"], len(a["nsent"])] + _cefr_cols(a["lemma"]) +
+                            [a["examples"][0] if a["examples"] else ""])
                 for c in range(1, len(COL) + 1):
                     cell = sub2.cell(sub2.max_row, c); cell.border = border; cell.fill = hit_fill
             for i, w in enumerate(WID, 1):
@@ -478,12 +634,12 @@ def write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, c
     for it in out_items:
         if it["kind"] == "out" and it.get("sent"):
             out_sent.setdefault(it["lemma"], it["sent"])
-    ws_o.append(["词", "频次", "CEFR", "原文例句"])
-    for c in range(1, 5):
+    ws_o.append(["词", "频次", "CEFR"] + (["CEFR来源", "冲突双标注", "冲突"] if multi else []) + ["原文例句"])
+    for c in range(1, 4 + (3 if multi else 0) + 1):
         cell = ws_o.cell(1, c); cell.fill = hdr_fill; cell.font = hdr_font
     for w, c in oc.most_common():
-        ws_o.append([w, c, cefr_level(cefr, w), out_sent.get(w, "")])
-    for i, w in enumerate((24, 8, 8, 60), 1):
+        ws_o.append([w, c] + _cefr_cols(w) + [out_sent.get(w, "")])
+    for i, w in enumerate((24, 8, 8) + ((10, 20, 6) if multi else ()) + (60,), 1):
         ws_o.column_dimensions[get_column_letter(i)].width = w
     # 候选待核短语: N-gram + MI 提取, 供教师核对后入 phrase_extra.json
     if mwe:
@@ -498,15 +654,105 @@ def write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, c
         for i, w in enumerate((28, 6, 8, 12, 40), 1):
             ws_m.column_dimensions[get_column_letter(i)].width = w
         ws_m.freeze_panes = "A2"
+    # ---- CEFR 多源层附加输出：冲突清单 / 来源分布 / 来源署名 ----
+    if multi:
+        CL = _cefr_layers_mod()
+        seen_c = set(); rows_c = []
+        def _collect(lemma, freq, pos, ex):
+            if not lemma or lemma in seen_c:
+                return
+            seen_c.add(lemma)
+            lv, s, al, cf = cefr_annotate(lemma, cefr)
+            if cf:
+                rows_c.append([lemma, pos, lv, s, al, freq, ex])
+        for ki, (key, path, wl) in enumerate(wls):
+            for a in sorted(per_key[ki].values(), key=lambda a: (-a["freq"], a["lemma"])):
+                _collect(a["lemma"], a["freq"], a.get("pos", ""),
+                         a["examples"][0] if a["examples"] else "")
+        for it in out_items:
+            if it["kind"] == "out" and it.get("lemma"):
+                _collect(it["lemma"], 1, "", it.get("sent", ""))
+        ws_c = wb.create_sheet("CEFR冲突清单")
+        ws_c.append(["冲突词条（主标注 = Oxford，不被后来者覆盖）",
+                     "共 %d 条 · 冲突仅在 {Oxford, CEFR-J, Octanove} 之间判定，EFLLex 只补缺不参与" % len(rows_c)])
+        for _cc in range(1, 3):
+            cell = ws_c.cell(1, _cc); cell.fill = hdr_fill; cell.font = hdr_font
+        ws_c.append(["词", "词性", "主标注CEFR", "主标注来源", "各源等级(冲突双标注)", "频次", "原文例句"])
+        for c in range(1, 8):
+            cell = ws_c.cell(ws_c.max_row, c); cell.fill = hdr_fill; cell.font = hdr_font
+        for r in sorted(rows_c, key=lambda r: (-r[5], r[0])):
+            ws_c.append(r)
+            for c in range(1, 8):
+                cell = ws_c.cell(ws_c.max_row, c); cell.border = border
+        for i, w in enumerate((24, 14, 12, 14, 30, 8, 70), 1):
+            ws_c.column_dimensions[get_column_letter(i)].width = w
+        ws_c.freeze_panes = "A4"
+
+        # 来源分布：本报告内标注来源 + 全库来源
+        src_cnt = collections.Counter()
+        lv_cnt = collections.Counter()
+        seen_s = set()
+        for ki, (key, path, wl) in enumerate(wls):
+            for a in per_key[ki].values():
+                if a["lemma"] in seen_s:
+                    continue
+                seen_s.add(a["lemma"])
+                lv, s, _al, _cf = cefr_annotate(a["lemma"], cefr)
+                if lv:
+                    src_cnt[s] += 1; lv_cnt[lv] += 1
+        for it in out_items:
+            if it["kind"] == "out" and it.get("lemma") and it["lemma"] not in seen_s:
+                seen_s.add(it["lemma"])
+                lv, s, _al, _cf = cefr_annotate(it["lemma"], cefr)
+                if lv:
+                    src_cnt[s] += 1; lv_cnt[lv] += 1
+        sm = CL.summary(CEFR_MULTI) if CL else {}
+        ws_s = wb.create_sheet("CEFR来源分布")
+        ws_s.append(["本报告标注来源分布（按词条去重计数）"])
+        cell = ws_s.cell(1, 1); cell.fill = hdr_fill; cell.font = hdr_font
+        ws_s.append(["来源", "本报告词条数", "全库词条数", "覆盖等级", "许可/获取"])
+        for c in range(1, 6):
+            cell = ws_s.cell(ws_s.max_row, c); cell.fill = hdr_fill; cell.font = hdr_font
+        for k in CL.ALL_SOURCES if CL else ():
+            meta = CL.SOURCES.get(k, {})
+            ws_s.append([k, src_cnt.get(k, 0), sm.get("sources", {}).get(k, 0),
+                         meta.get("levels", ""), meta.get("need", "")])
+            for c in range(1, 6):
+                cell = ws_s.cell(ws_s.max_row, c); cell.border = border
+        ws_s.append([])
+        ws_s.append(["等级", "本报告词条数"])
+        for c in range(1, 3):
+            cell = ws_s.cell(ws_s.max_row, c); cell.fill = hdr_fill; cell.font = hdr_font
+        for lv in CL.ORDER if CL else ():
+            ws_s.append([lv, lv_cnt.get(lv, 0)])
+        ws_s.append(["本报告未标注", sum(1 for x in seen_s if not cefr_annotate(x, cefr)[0])])
+        for i, w in enumerate((14, 16, 14, 12, 60), 1):
+            ws_s.column_dimensions[get_column_letter(i)].width = w
+
+        # 署名页脚：第三方源必须署名
+        ws_z = wb.create_sheet("来源与署名")
+        ws_z.append(["本报告 CEFR 标注来源与署名（第三方数据须署名）"])
+        cell = ws_z.cell(1, 1); cell.fill = hdr_fill; cell.font = hdr_font
+        for i, s in enumerate((CL.CITATIONS if CL else []), start=3):
+            ws_z.cell(i, 1).value = s
+        ws_z.column_dimensions["A"].width = 120
     wb.save(out_stem + ".xlsx")
 
     keys_ = [k for k, _, _ in wls]
     for it in out_items:
-        if it["kind"] == "word":
-            it["layer"] = keys_[min(it["hit"])] if it["hit"] else "out"
-            it["cefr"] = cefr_level(cefr, it["lemma"])
+        if it["kind"] in ("word", "out", "proper"):
+            it["layer"] = keys_[min(it["hit"])] if it.get("hit") else (
+                "out" if it["kind"] != "proper" else "proper")
+            lv, s, al, cf = cefr_annotate(it["lemma"], cefr)
+            it["cefr"] = lv
+            if multi:
+                it["cefrSrc"] = s
+                it["cefrAlt"] = al
+                it["cefrConflict"] = cf
     out = {"source": source, "total": total, "numbers": numbers_n, "proper": proper_n,
-           "tokens": out_items}
+           "cefrMulti": multi, "tokens": out_items}
+    if multi and _CL:
+        out["cefrCitations"] = _CL.CITATIONS
     with open(out_stem + ".json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     return out_stem + ".xlsx"
@@ -521,18 +767,31 @@ def main():
     ap.add_argument("--stdin", action="store_true")
     ap.add_argument("--out", default="vocab_report")
     ap.add_argument("--cefr", default=None, help="可选的 cefr.json 路径，用于附加难度标注")
+    ap.add_argument("--cefr-multi", action="store_true",
+                    help="启用 CEFR 多源层（Oxford→CEFR-J→Octanove→EFLLex）：补缺 + 冲突双标注；"
+                         "源数据需先用 scripts/fetch_cefr_sources.py 下载")
+    ap.add_argument("--cefr-sources", default=None,
+                    help="第三方 CEFR 源目录（默认 <skill>/wordlists/cefr_sources）")
+    ap.add_argument("--strict-lemma", action="store_true",
+                    help="启用 lemma 归一修正（-ed/-ing 双写缺陷 + 不规则补表）；"
+                         "会改变 lemma，历史报告需重跑，默认关闭以保持兼容")
     ap.add_argument("--db", default=None, help="词汇库SQLite路径，传则把本报告UPSERT入库")
     ap.add_argument("--doc", default=None, help="入库时的文章标识(默认用输入路径/时间戳)")
     ap.add_argument("--db-export", default=None, help="词汇库导出Excel视图的目标路径")
     ap.add_argument("--mwe", action="store_true",
                     help="N-gram+互信息提取候选短语, 输出'候选待核短语'sheet供教师核注入 phrase_extra.json")
     a = ap.parse_args()
+    global STRICT_LEMMA, SUPPLEMENT
+    STRICT_LEMMA = bool(a.strict_lemma)
     skill_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     # worktree 直接运行/部署均可用：优先脚本两级上级(部署位), 退化到本文件同级与当前工作目录
     for cand in (skill_dir, os.path.dirname(os.path.abspath(__file__)), os.getcwd()):
         if os.path.isdir(os.path.join(cand, "wordlists")):
             skill_dir = cand
             break
+    if STRICT_LEMMA:
+        SUPPLEMENT = load_supplement(os.path.join(skill_dir, "wordlists", "lemma_supplement.json"))
+        sys.stderr.write("strict-lemma 已开启：补表 %d 条\n" % len(SUPPLEMENT))
     wls = discover_wordlists(skill_dir)
     if not wls:
         sys.exit("未找到任何词表: %s/wordlists" % skill_dir)
@@ -543,6 +802,8 @@ def main():
     # cefr 来源: 显式 --cefr 优先; 否则自动加载 <skill>/wordlists/cefr.json(存在才用, 缺省留空不猜)
     cefr_path = a.cefr or os.path.join(skill_dir, "wordlists", "cefr.json")
     cefr = load_cefr(cefr_path if os.path.exists(cefr_path) else a.cefr)
+    if a.cefr_multi:
+        load_cefr_multi(skill_dir, cefr, a.cefr_sources)   # 无源数据时自动降级为牛津单层，不中断
     out_stem = os.path.join(os.getcwd(), a.out)
     mwe = extract_mwe_candidates(sents, wls) if a.mwe else None
     xlsx = write_report(wls, per_key, hit_tok, out_items, numbers_n, proper_n, total, cefr,
@@ -565,7 +826,7 @@ def main():
                            "lemma": _lm,
                            "pos": (_rec["pos"] if _rec else ""),
                            "layer": _keys[_ki] if _ki >= 0 else "out",
-                           "cefr": cefr_level(cefr, _lm),
+                           "cefr": cefr_annotate(_lm, cefr)[0],
                            "examples": (_rec["examples"][:2] if _rec and _rec.get("examples") else [])})
         if a.doc:
             doc_id = a.doc

@@ -133,7 +133,8 @@ const MIME = {
   '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8',
   '.json':'application/json', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg',
   '.gif':'image/gif', '.svg':'image/svg+xml', '.ico':'image/x-icon', '.mp3':'audio/mpeg',
-  '.woff2':'font/woff2', '.webp':'image/webp', '.pdf':'application/pdf'
+  '.woff2':'font/woff2', '.webp':'image/webp', '.pdf':'application/pdf',
+  '.webmanifest':'application/manifest+json'   /* PWA manifest（本地与 Pages 一致） */
 };
 function send(res, code, body, mime){ res.writeHead(code, { 'Content-Type': mime || 'application/json; charset=utf-8' }); res.end(typeof body==='string' ? body : JSON.stringify(body)); }
 function sendErr(res, code, msg){ send(res, code, { ok:false, error:msg }); }

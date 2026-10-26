@@ -12,6 +12,22 @@ sys.path.insert(0, PH)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 def dictvoice_url(word, t="2"):
     return "https://dict.youdao.com/dictvoice?audio=" + urllib.parse.quote(word) + "&type=" + t  # type=2 英音
+
+def cambridge_uk(word):
+    """剑桥英汉词典（第三方 API）→ UK 真人音频 URL；无词条返回 ""。
+    2026-10-26 修：本脚本此前**根本没有剑桥调用**（docstring 声称剑桥主源但代码直接走有道，
+    还留着引用未定义变量 au 的死代码），U1-U4 词音频因此全是 Youdao 兜底。现补回剑桥主源。"""
+    try:
+        url = "https://dictionary-api.eliaschen.dev/api/dictionary/en-cn/" + urllib.parse.quote(word)
+        req = urllib.request.Request(url, headers={**UA, "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            d = json.loads(r.read().decode("utf-8", "ignore"))
+        for p in (d.get("pronunciation") or []):
+            if p.get("lang") == "uk" and p.get("url"):
+                return p["url"]
+    except Exception:
+        return ""
+    return ""
 AUD = os.path.join(ROOT, "..", "00_词汇音频")  # ROOT=github在线推送; ROOT/.. 即 Think F 教材资产
 os.makedirs(AUD, exist_ok=True)
 
@@ -44,10 +60,10 @@ for f in glob.glob(os.path.join(VD, "u*.json")):
 print("词总数:", len(words), flush=True)
 
 # ── 拉取 ──
-def dl(url, word):
+def dl(url, word, force=False):
     bn = "".join(c for c in word if c.isalnum()) or "w"
     path = os.path.join(AUD, bn + ".mp3")
-    if os.path.exists(path) and os.path.getsize(path) > 200:
+    if not force and os.path.exists(path) and os.path.getsize(path) > 200:
         return os.path.basename(path)
     try:
         req = urllib.request.Request(url, headers={**UA, "Referer": "https://dictionary.cambridge.org/"})
@@ -67,24 +83,45 @@ async def tts(word):
     return os.path.basename(out)
 
 import asyncio
-idx = {}
+CAM_MEDIA_OK = True                            # 剑桥媒体防盗链熔断开关
+IDX_PATH = os.path.join(AUD, "audio_index.json")
+OLD = json.load(open(IDX_PATH, encoding="utf-8")) if os.path.exists(IDX_PATH) else {}
+idx = dict(OLD)                                    # 保留既有来源标注（cache 判定要读旧值）
+UPGRADE = "--upgrade-youdao" in sys.argv           # 把历史 youdao 兜底音频重新按剑桥主源取
 done = 0
 for w in sorted(words):
     bn = "".join(c for c in w if c.isalnum()) or "w"
     path = os.path.join(AUD, bn + ".mp3")
-    if os.path.exists(path) and os.path.getsize(path) > 200:
-        idx[w] = {"f": bn + ".mp3", "src": "cache"}
+    prev_src = (OLD.get(w) or {}).get("src", "")
+    need_upgrade = UPGRADE and prev_src in ("youdao-uk", "", "none")
+    if os.path.exists(path) and os.path.getsize(path) > 200 and not need_upgrade:
+        idx[w] = {"f": bn + ".mp3", "src": prev_src or "cache"}
         done += 1
         continue
-    f = dl(dictvoice_url(w), w)
-    src = "youdao-uk" if f else "none"""
+    # 主源：剑桥 UK 真人；兜底：有道英音；最终：edge_tts
+    # 实测：剑桥媒体 URL 有防盗链（带浏览器头也 403），故设熔断——首轮 403 后本轮回退有道，
+    #        不逐词空耗；音频真源因此为有道（真人英女），剑桥只稳定提供**音标**（见语音卡）。
+    f = ""
+    src = ""
+    global CAM_MEDIA_OK
+    cu = cambridge_uk(w) if CAM_MEDIA_OK else ""
+    if cu:
+        f = dl(cu, w, force=need_upgrade)
+        if f:
+            src = "cambridge"
+        else:
+            CAM_MEDIA_OK = False
+    if not f:
+        f = dl(dictvoice_url(w), w, force=need_upgrade)
+        if f:
+            src = "youdao-uk"
     if not f and HAVE_TTS:
         try:
             f = asyncio.run(tts(w)); src = "edge_tts"
         except Exception as e:
             print("  tts 失败", w, str(e)[:60], flush=True)
     if f:
-        idx[w] = {"f": f, "src": src or ("cambridge" if "cambridge" in (au or "") else "youdao")}
+        idx[w] = {"f": f, "src": src or "none"}
     else:
         idx[w] = {"f": "", "src": "none"}
     done += 1

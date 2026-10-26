@@ -1916,10 +1916,10 @@
  "p038": [
   {
    "i": 0,
-   "start_s": 8.8,
+   "start_s": 11.6,
    "end_s": 16.16,
-   "dur_s": 7.36,
-   "text": "Istanbul, Turkey The wonderful city of Istanbul is a great place to visit."
+   "dur_s": 4.56,
+   "text": "The wonderful city of Istanbul is a great place to visit."
   },
   {
    "i": 1,
@@ -1979,10 +1979,10 @@
   },
   {
    "i": 9,
-   "start_s": 71.78,
+   "start_s": 73.0,
    "end_s": 82.12,
-   "dur_s": 10.34,
-   "text": "Nara, Japan Nara is an old city in Japan, about 400 km from Tokyo."
+   "dur_s": 9.12,
+   "text": "Nara is an old city in Japan, about 400 km from Tokyo."
   },
   {
    "i": 10,
