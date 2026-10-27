@@ -11,6 +11,32 @@ def load_lines(fn):
     d.close()
     return [l.strip() for l in t.split("\n") if l.strip()]
 
+# ── 填空式对话的空号回填（2026-10-27 补）───────────────────────────────
+# Think Starter 的「完成对话」练习在 TB 正文里用**数字化替答案词**（1/2/3…），
+# 抽取时数字被剥离后原地留空（如 "Hello. is a ticket?"）。答案以**音频实际朗读**为准逐条 ASR 核对。
+BLANKS = {
+    "u3_p34_photo": {3: "There"},                                   # …Anna. 3 + ’s a nice photograph → There’s
+    "u4_p42_shop": {1: "How much", 3: "take", 4: "Can I", 5: "a nice day"},
+}
+
+
+def fill_blanks(seg, key):
+    """把空号 token 换成答案词（只对表内篇章生效；金额/数量等数字不受影响）。"""
+    m = BLANKS.get(key)
+    if not m:
+        return seg
+    def rep(txt):
+        # 单独的「题号行」（如第二题前的裸 "3"）不是空号，跳过以免把答案词塞错位置
+        if re.fullmatch(r"\s*\d{1,2}\s*", txt):
+            return txt
+        for n in m:
+            txt = re.sub(r"(?<![\d£$.,])\b%d\b(?![\d.,])" % n, m[n], txt)
+        # 回填后常出现 "There ’s" 这类空格断裂 → 撇号前不留空格
+        txt = re.sub(r"\s+(’(?:s|re|ve|ll|d|m|t)\b)", r"\1", txt)
+        return txt
+    return [rep(l) for l in seg]
+
+
 def span(lines, start_kw, end_kw):
     si = next((i for i, l in enumerate(lines) if start_kw in l), None)
     if si is None:
@@ -185,7 +211,7 @@ P.append(dict(key="u3_p30_families", unit=3, page="p030", title="Famous families
               track="3.01", audio="Unit 03-1 Reading.mp3", src="tb", lines=emma + chris))
 
 lines = load_lines("Unit 3 第3次课_教师用书.pdf")
-seg = span(lines, "Lottie So, is", "English teachers.")
+seg = fill_blanks(span(lines, "Lottie So, is", "English teachers."), "u3_p34_photo")
 P.append(dict(key="u3_p34_photo", unit=3, page="p034", title="Ellie's photo", type="阅读B",
               track="3.04", audio="Unit_3_p34_t04[reading].mp3", src="tb",
               lines=dialogue_turns(seg, ["Lottie", "Anna"])))
@@ -206,7 +232,7 @@ lines = load_lines("Unit 4 第3次课_教师用书.pdf")
 i0 = next(i for i, l in enumerate(lines) if "Morning. Can I" in l)
 seg = lines[i0 - 1:]  # 回退一行带上「Man」说话人标记
 ei = next(j for j in range(1, len(seg)) if "You, too. Bye!" in seg[j])
-seg = seg[:ei + 1]
+seg = fill_blanks(seg[:ei + 1], "u4_p42_shop")
 P.append(dict(key="u4_p42_shop", unit=4, page="p042", title="Buying in a shop", type="阅读B",
               track="4.04", audio="4-p42-reading-ex1.mp3", src="tb",
               lines=dialogue_turns(seg, ["Man", "Girl", "Woman"])))
@@ -224,6 +250,10 @@ for _i, _s in enumerate(park_sents):
     park_sents[_i] = _s
 P.append(dict(key="u4_p45_parks", unit=4, page="p045", title="Parks around the world", type="文化",
               track="4.12", audio="4-p45-culture-ex3.mp3", src="tb", lines=park_sents))
+
+# 全局收尾：折行拼接常产生 "There ’s" 这类撇号前空格 → 统一贴合（英文正文撇号前不留空格）
+for _p in P:
+    _p["lines"] = [re.sub(r"\s+(’(?:s|re|ve|ll|d|m|t)\b)", r"\1", l) for l in _p["lines"]]
 
 json.dump(P, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for p in P:

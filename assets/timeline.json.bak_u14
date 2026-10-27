@@ -12,7 +12,7 @@
    "start_s": 7.8,
    "end_s": 8.51,
    "dur_s": 0.71,
-   "text": "I’m Flavia."
+   "text": "Cenc."
   },
   {
    "i": 2,
@@ -26,7 +26,7 @@
    "start_s": 12.36,
    "end_s": 16.335,
    "dur_s": 3.975,
-   "text": "I’m from Brazil. I live in Fortaleza."
+   "text": "I’m Turkish. I’m from a city called Izmir."
   },
   {
    "i": 4,
@@ -38,37 +38,37 @@
   {
    "i": 5,
    "start_s": 20.26,
-   "end_s": 20.697,
-   "dur_s": 0.437,
-   "text": "I’m 11."
+   "end_s": 21.269,
+   "dur_s": 1.009,
+   "text": "I’m ten."
   },
   {
    "i": 6,
-   "start_s": 20.72,
+   "start_s": 22.84,
    "end_s": 25.2,
-   "dur_s": 4.48,
-   "text": "Who are your favourite musicians?"
+   "dur_s": 2.36,
+   "text": "Who’s your favourite musician?"
   },
   {
    "i": 7,
    "start_s": 25.82,
    "end_s": 30.685,
    "dur_s": 4.865,
-   "text": "Blackpink. They’re a girl group from South Korea."
+   "text": "Ed Sheeran. He’s a singer and a guitar player."
   },
   {
    "i": 8,
    "start_s": 32.52,
    "end_s": 34.98,
    "dur_s": 2.46,
-   "text": "Why are they your favourite musicians?"
+   "text": "Why is he your favourite musician?"
   },
   {
    "i": 9,
    "start_s": 35.54,
    "end_s": 36.96,
    "dur_s": 1.42,
-   "text": "Because they’re great!"
+   "text": "Because he’s great!"
   },
   {
    "i": 10,
@@ -149,136 +149,136 @@
   },
   {
    "i": 21,
+   "start_s": 75.84,
+   "end_s": 76.68,
+   "dur_s": 0.84,
+   "text": "I’m Flavia."
+  },
+  {
+   "i": 22,
+   "start_s": 78.68,
+   "end_s": 79.72,
+   "dur_s": 1.04,
+   "text": "Where are you from?"
+  },
+  {
+   "i": 23,
+   "start_s": 80.24,
+   "end_s": 84.0,
+   "dur_s": 3.76,
+   "text": "I’m from Brazil. I live in Fortaleza."
+  },
+  {
+   "i": 24,
+   "start_s": 85.74,
+   "end_s": 87.365,
+   "dur_s": 1.625,
+   "text": "How old are you?"
+  },
+  {
+   "i": 25,
+   "start_s": 87.8,
+   "end_s": 88.5,
+   "dur_s": 0.7,
+   "text": "I’m 11."
+  },
+  {
+   "i": 26,
+   "start_s": 90.22,
+   "end_s": 92.54,
+   "dur_s": 2.32,
+   "text": "Who are your favourite musicians?"
+  },
+  {
+   "i": 27,
+   "start_s": 93.38,
+   "end_s": 97.32,
+   "dur_s": 3.94,
+   "text": "Blackpink. They’re a girl group from South Korea."
+  },
+  {
+   "i": 28,
+   "start_s": 99.04,
+   "end_s": 101.48,
+   "dur_s": 2.44,
+   "text": "Why are they your favourite musicians?"
+  },
+  {
+   "i": 29,
+   "start_s": 102.3,
+   "end_s": 103.66,
+   "dur_s": 1.36,
+   "text": "Because they’re great!"
+  },
+  {
+   "i": 30,
+   "start_s": 106.54,
+   "end_s": 107.8,
+   "dur_s": 1.26,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 31,
    "start_s": 108.6,
    "end_s": 110.74,
    "dur_s": 2.14,
    "text": "My name is Li Jun."
   },
   {
-   "i": 22,
+   "i": 32,
    "start_s": 112.44,
    "end_s": 113.8,
    "dur_s": 1.36,
    "text": "Where are you from?"
   },
   {
-   "i": 23,
+   "i": 33,
    "start_s": 114.48,
    "end_s": 118.64,
    "dur_s": 4.16,
    "text": "I’m from Indonesia. I live in Jakarta."
   },
   {
-   "i": 24,
+   "i": 34,
    "start_s": 120.64,
    "end_s": 122.067,
    "dur_s": 1.427,
    "text": "How old are you?"
   },
   {
-   "i": 25,
+   "i": 35,
    "start_s": 122.613,
    "end_s": 123.64,
    "dur_s": 1.027,
    "text": "I’m 11."
   },
   {
-   "i": 26,
+   "i": 36,
    "start_s": 125.3,
    "end_s": 127.52,
    "dur_s": 2.22,
    "text": "Who’s your favourite musician?"
   },
   {
-   "i": 27,
+   "i": 37,
    "start_s": 128.16,
    "end_s": 132.14,
    "dur_s": 3.98,
    "text": "Yuja Wang. She’s a pianist from China."
   },
   {
-   "i": 28,
+   "i": 38,
    "start_s": 134.14,
    "end_s": 136.28,
    "dur_s": 2.14,
    "text": "Why is she your favourite musician?"
   },
   {
-   "i": 29,
-   "start_s": 136.98,
-   "end_s": 137.797,
-   "dur_s": 0.817,
-   "text": "Because she’s cool!"
-  },
-  {
-   "i": 30,
-   "start_s": 137.84,
-   "end_s": 138.04,
-   "dur_s": 0.2,
-   "text": "What’s your name?"
-  },
-  {
-   "i": 31,
-   "start_s": 138.14,
-   "end_s": 138.19,
-   "dur_s": 0.05,
-   "text": "Cenc."
-  },
-  {
-   "i": 32,
-   "start_s": 138.29,
-   "end_s": 138.59,
-   "dur_s": 0.3,
-   "text": "Where are you from?"
-  },
-  {
-   "i": 33,
-   "start_s": 138.59,
-   "end_s": 138.665,
-   "dur_s": 0.075,
-   "text": "I’m Turkish. I’m from a city called Izmir."
-  },
-  {
-   "i": 34,
-   "start_s": 138.665,
-   "end_s": 138.703,
-   "dur_s": 0.038,
-   "text": "How old are you?"
-  },
-  {
-   "i": 35,
-   "start_s": 138.703,
-   "end_s": 138.722,
-   "dur_s": 0.019,
-   "text": "I’m ten."
-  },
-  {
-   "i": 36,
-   "start_s": 138.722,
-   "end_s": 138.731,
-   "dur_s": 0.009,
-   "text": "Who’s your favourite musician?"
-  },
-  {
-   "i": 37,
-   "start_s": 138.731,
-   "end_s": 138.736,
-   "dur_s": 0.005,
-   "text": "Ed Sheeran. He’s a singer and a guitar player."
-  },
-  {
-   "i": 38,
-   "start_s": 138.736,
-   "end_s": 138.738,
-   "dur_s": 0.002,
-   "text": "Why is he your favourite musician?"
-  },
-  {
    "i": 39,
-   "start_s": 138.738,
-   "end_s": 138.939,
-   "dur_s": 0.201,
-   "text": "Because he’s great!"
+   "start_s": 136.98,
+   "end_s": 138.18,
+   "dur_s": 1.2,
+   "text": "Because she’s cool!"
   }
  ],
  "p015": [
@@ -1740,7 +1740,7 @@
    "start_s": 53.56,
    "end_s": 61.161,
    "dur_s": 7.601,
-   "text": "Oh, just a minute, Anna. ’s a nice photograph. Over there, next to the bed."
+   "text": "Oh, just a minute, Anna. There’s a nice photograph. Over there, next to the bed."
   },
   {
    "i": 7,
@@ -1795,118 +1795,111 @@
  "p036": [
   {
    "i": 0,
-   "start_s": 3.24,
-   "end_s": 4.3,
-   "dur_s": 1.06,
-   "text": "Developing Speaking"
-  },
-  {
-   "i": 1,
    "start_s": 7.66,
    "end_s": 11.18,
    "dur_s": 3.52,
    "text": "Wow, what a cool photo! Thank you!"
   },
   {
-   "i": 2,
+   "i": 1,
    "start_s": 11.72,
    "end_s": 13.28,
    "dur_s": 1.56,
    "text": "Who are all those people?"
   },
   {
-   "i": 3,
+   "i": 2,
    "start_s": 13.74,
    "end_s": 18.14,
    "dur_s": 4.4,
    "text": "That's my family of course, on holiday in Spain."
   },
   {
-   "i": 4,
+   "i": 3,
    "start_s": 19.0,
    "end_s": 20.18,
    "dur_s": 1.18,
    "text": "Ah, okay."
   },
   {
-   "i": 5,
+   "i": 4,
    "start_s": 20.98,
    "end_s": 26.34,
    "dur_s": 5.36,
    "text": "So, those are your parents and that's your brother?"
   },
   {
-   "i": 6,
+   "i": 5,
    "start_s": 26.96,
    "end_s": 29.06,
    "dur_s": 2.1,
    "text": "No, that's my cousin."
   },
   {
-   "i": 7,
+   "i": 6,
    "start_s": 29.8,
    "end_s": 33.86,
    "dur_s": 4.06,
    "text": "My brother is this one here. Really?"
   },
   {
-   "i": 8,
+   "i": 7,
    "start_s": 34.76,
    "end_s": 38.74,
    "dur_s": 3.98,
    "text": "Your cousin looks like your brother. I know."
   },
   {
-   "i": 9,
+   "i": 8,
    "start_s": 39.44,
    "end_s": 40.46,
    "dur_s": 1.02,
    "text": "Excuse me?"
   },
   {
-   "i": 10,
+   "i": 9,
    "start_s": 41.26,
    "end_s": 42.14,
    "dur_s": 0.88,
    "text": "Hello everyone."
   },
   {
-   "i": 11,
+   "i": 10,
    "start_s": 43.08,
    "end_s": 43.98,
    "dur_s": 0.9,
    "text": "Oh, hello."
   },
   {
-   "i": 12,
+   "i": 11,
    "start_s": 44.66,
    "end_s": 48.32,
    "dur_s": 3.66,
    "text": "Abby, it's almost dinner time. Oh, right."
   },
   {
-   "i": 13,
+   "i": 12,
    "start_s": 49.12,
    "end_s": 50.1,
    "dur_s": 0.98,
    "text": "Just a minute, Mum."
   },
   {
-   "i": 14,
+   "i": 13,
    "start_s": 50.54,
    "end_s": 53.54,
    "dur_s": 3.0,
    "text": "Come on, Paul. Let's go. Sorry."
   },
   {
-   "i": 15,
+   "i": 14,
    "start_s": 53.54,
    "end_s": 57.86,
    "dur_s": 4.32,
    "text": "Let's look at more photos tomorrow. Sure."
   },
   {
-   "i": 16,
+   "i": 15,
    "start_s": 58.48,
    "end_s": 61.02,
    "dur_s": 2.54,
@@ -2252,7 +2245,7 @@
    "start_s": 11.52,
    "end_s": 14.26,
    "dur_s": 2.74,
-   "text": "Hello. is a ticket?"
+   "text": "Hello. How much is a ticket?"
   },
   {
    "i": 2,
@@ -2357,14 +2350,14 @@
    "start_s": 84.18,
    "end_s": 87.992,
    "dur_s": 3.812,
-   "text": "Yes, you’re right. OK, I’ll them."
+   "text": "Yes, you’re right. OK, I’ll take them."
   },
   {
    "i": 17,
    "start_s": 88.28,
-   "end_s": 91.928,
-   "dur_s": 3.648,
-   "text": "OK, great. Let’s go to the desk to pay."
+   "end_s": 96.943,
+   "dur_s": 8.663,
+   "text": "OK, great. Let’s go to the desk to pay. take"
   },
   {
    "i": 18,
@@ -2378,7 +2371,7 @@
    "start_s": 101.854,
    "end_s": 104.56,
    "dur_s": 2.706,
-   "text": "Um, yes. have one, please?"
+   "text": "Um, yes. Can I have one, please?"
   },
   {
    "i": 20,
@@ -2425,9 +2418,9 @@
   {
    "i": 26,
    "start_s": 130.6,
-   "end_s": 138.66,
-   "dur_s": 8.06,
-   "text": "Sure. Put it in the machine, please. Thank you. OK, bye – have."
+   "end_s": 139.38,
+   "dur_s": 8.78,
+   "text": "Sure. Put it in the machine, please. Thank you. OK, bye – have a nice day."
   },
   {
    "i": 27,

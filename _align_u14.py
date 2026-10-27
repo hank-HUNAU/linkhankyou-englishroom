@@ -66,7 +66,8 @@ def segs_to_sentences(seglist, min_dur=0.8):
     """情况1：ASR 段界即句界；过短段与后续合并；滤除轨头报幕/栏目名/裸编号（坑#3）"""
     BAD = re.compile(
         r"^(Units? \d"                                                    # 报幕
-        r"|(Listening|Reading|Speaking)\s*[.,]?(\s+[Ee]xercises?.*)?$"    # 栏目名 / 栏目+练习
+        r"|(Listening|Reading|Speaking|Writing)\s*[.,]?(\s+[Ee]xercises?.*)?$"    # 栏目名 / 栏目+练习
+        r"|Developing\s+(Listening|Reading|Speaking|Writing)\b.*$"        # Developing Speaking（2026-10-27 补，p036 漏网）
         r"|Exercises?\b.*"                                                # Exercises 9 and 10
         r"|Example\b.*"                                                   # Example
         r"|\d{1,2}\.?\s*$"                                                # 裸编号
