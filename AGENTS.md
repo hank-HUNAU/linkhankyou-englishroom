@@ -43,6 +43,7 @@ npm run test:list    # 列出全部套件
 | `_align_unit.py` + `_unit_N_source.json` | U5–U12 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
 | `_extract_u14_text.py` + `_align_u14.py` + `_merge_u14.py` | U1–U4 正课文三件套（按课次教师用书提取 → 同管线对齐 → 校验/音频/timeline 合入）；每单元恰 4 篇与 U5–U12 同构 |
 | `_VOCAB_WORKFLOW.md` | **词汇四链权威规约**（篇章词表/主题词表/词音频/诊断页） |
+| `content_pipeline.py` | **篇章三段流水线编排器**（对齐→词汇→译文）：缺才跑、齐即跳，`--unit N [--page pXXX]` 按需执行，`--audit` 全站 48 篇体检；词汇段联网执行须 `--do-vocab`（跑完人工复核 lemma），译文 R1 在会话内完成后走批次表落库 |
 | `_RELEASE_WORKFLOW.md` | **落库与上线权威规约**（三条硬规约/发布检查单/基线/回滚） |
 | `_regress.js` | 回归入口，套件定义在文件顶部的 `SUITE` 数组 |
 | `_check.js` / `_align_check.js` / `_check_icons.js` / `_smoke.js` | 纯 Node 校验，无外部依赖 |
