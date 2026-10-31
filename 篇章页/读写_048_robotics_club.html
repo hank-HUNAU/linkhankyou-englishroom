@@ -50,25 +50,6 @@ body.zh-on .sent .zh{display:block}
 .listen-done{margin-top:14px;text-align:center}
 .done-pill{display:inline-flex;align-items:center;gap:8px;background:var(--green-bg);color:#1f6b2e;border-radius:999px;padding:10px 18px;font-weight:800;font-size:13.5px}
 
-/* ── 流程③ 语块（formulaic chunks） ── */
-.chkbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
-.chkbar .t{font-size:12.5px;color:var(--ink3);font-family:var(--fnum);margin-right:auto}
-.chk{background:var(--card);border:1px solid var(--line);border-radius:var(--rad);padding:12px 14px;margin-bottom:8px}
-.chk.played{border-left:4px solid var(--green)}
-.chk .top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
-.chk .en{font-size:17px;font-weight:800;line-height:1.5}
-.chk .badge{font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;background:#eef3ff;color:#1a4fa0}
-.chk .badge.f{background:var(--green-bg);color:#1f6b2e}
-.chk .zh{margin-top:6px;font-size:14.5px;color:var(--ink2)}
-body.chk-hide-zh .chk .zh{color:transparent;background:#ececf0;border-radius:6px;user-select:none}
-body.chk-hide-zh .chk .zh::selection{color:transparent}
-.chk .ex{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);font-size:13px;color:var(--ink3);line-height:1.6}
-.chk .ex b{color:var(--blue);font-weight:800;background:rgba(10,132,255,.1);border-radius:3px;padding:0 2px}
-.chk .ops{margin-top:8px;display:flex;gap:8px;align-items:center}
-.chk .ops .mini{border:none;border-radius:8px;padding:6px 12px;font-size:12px;font-weight:800;background:#e9e9ee;color:var(--ink2);cursor:pointer}
-.chk .ops .mini:hover{background:#dedee4}
-.chk .ops .num{font-size:11.5px;color:var(--ink3);font-family:var(--fnum)}
-
 /* ── 流程② 逐句听写 ── */
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--rad-lg);padding:18px;margin-bottom:12px}
 .card h3{font-size:15.5px;font-weight:800;margin-bottom:10px}
@@ -124,7 +105,6 @@ select.big{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(
     </div>
     <div class="tabs">
       <button class="tab on" id="tabListen" type="button">逐句听</button>
-      <button class="tab" id="tabChunk" type="button">语块</button>
       <button class="tab" id="tabDictate" type="button">逐句听写</button>
     </div>
   </header>
@@ -146,16 +126,6 @@ select.big{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(
       </div>
       <div class="sents" id="sentList"></div>
       <div class="listen-done" id="listenDone"></div>
-    </section>
-
-    <section id="viewChunk" class="hide">
-      <div class="chkbar">
-        <div class="t" id="chkTxt">语块 0 条</div>
-        <button class="tog" id="chkZhTog" type="button">遮中文 关</button>
-        <button class="tog" id="chkPlayAll" type="button">连读全部</button>
-      </div>
-      <div id="chunkList"></div>
-      <div class="hint" style="margin-top:10px">语块按「整体记忆」学：先听整块所在的句子 → 跟读整块（不要逐词拼）→ 遮住中文自测。每篇 3–6 条，宁少勿多。</div>
     </section>
 
     <section id="viewDictate" class="hide">
@@ -431,16 +401,6 @@ if(B){ B.arts.forEach(function(para,pi){ para.forEach(function(s){ SEGS.push({t:
   PARA=B.arts.map(function(p,i){ return {i:i+1,n:p.length}; }); }
 var ZHm=ZH||{};
 
-/* ═══════════ 流程③ 语块数据（正典：U5_FreeTime/02_词汇数据/语块_p048.json，双写校验见 _chunk_verify.py） ═══════════ */
-var CHUNKS={"page":"p048","key":"u5_p048_robotics_club","chunks":[
- {"id":"c1","text":"there is","zh":"有（存在句框架：There is / There are …）","type":"句型框架","func":"描述存在","sent":12,"ex":"Every year there is a competition for schools all over the country.","exZh":"每年都有一场全国学校的比赛。"},
- {"id":"c2","text":"I love","zh":"我超爱……（表达喜爱的框架）","type":"句型框架","func":"表达喜好","sent":4,"ex":"Easy – it's a club for building robots and I love robots.","exZh":"很简单——那是一个造机器人的社团，而我超爱机器人。"},
- {"id":"c3","text":"a great place to","zh":"一个……的好地方（a great place to + 动词）","type":"句型框架","func":"评价与推荐","sent":18,"ex":"It's a great place to meet new people.","exZh":"那是个认识新朋友的好地方。"},
- {"id":"c4","text":"on the internet","zh":"在网上","type":"固定搭配","func":"描述媒介","sent":10,"ex":"We often make our own robots, but we sometimes watch videos of other robots on the internet.","exZh":"我们常常自己做机器人，有时也在网上看别的机器人的视频。"},
- {"id":"c5","text":"at lunchtime","zh":"在午饭时间","type":"时间短语","func":"说明时间","sent":21,"ex":"We meet in the school hall every Monday at lunchtime and every Thursday after school.","exZh":"我们每周一午休和每周四放学后在学校礼堂活动。"},
- {"id":"c6","text":"come and see","zh":"来看看吧（邀请别人的说法）","type":"功能句","func":"发出邀请","sent":22,"ex":"Come and see us – we're always happy to see new people!","exZh":"来看看我们吧——我们总欢迎新朋友！"}
-]};
-
 /* ── 进度：tf_stage_<pg>（旧 tf_follow_<pg> 自动迁移） ── */
 var SK='tf_stage_'+PG;
 function stageLoad(){
@@ -466,80 +426,15 @@ var state={ flow:'listen', idx:0, auto:false, zh:false, played:{} };
 function setFlow(f){
   state.flow=f;
   $('tabListen').classList.toggle('on',f==='listen');
-  $('tabChunk').classList.toggle('on',f==='chunk');
   $('tabDictate').classList.toggle('on',f==='dictate');
   $('viewListen').classList.toggle('hide',f!=='listen');
-  $('viewChunk').classList.toggle('hide',f!=='chunk');
   $('viewDictate').classList.toggle('hide',f!=='dictate');
-  if(f!=='chunk'){ chunkStop=null; chkQueue=[]; }
   try{ audio.pause(); }catch(e){}
 }
 $('tabListen').onclick=function(){ setFlow('listen'); };
-$('tabChunk').onclick=function(){ setFlow('chunk'); };
 $('tabDictate').onclick=function(){ setFlow('dictate'); };
 $('backBtn').onclick=function(){ location.href='../index.html'; };
 
-/* ═══════════ 流程③ 语块 ═══════════ */
-var chunkStop=null, chkQueue=[], chkZhHide=false, chkPlayed={};
-function hlChunk(ex, text){
-  var i=ex.toLowerCase().indexOf(text.toLowerCase());
-  if(i<0) return esc(ex);
-  return esc(ex.slice(0,i))+'<b>'+esc(ex.slice(i,i+text.length))+'</b>'+esc(ex.slice(i+text.length));
-}
-function renderChunks(){
-  var box=$('chunkList'); if(!box) return;
-  var cs=CHUNKS.chunks||[];
-  $('chkTxt').textContent='语块 '+cs.length+' 条';
-  box.innerHTML=cs.map(function(c,k){
-    return '<div class="chk" data-k="'+k+'" data-sent="'+(c.sent-1)+'">'
-      +'<div class="top"><span class="en">'+esc(c.text)+'</span>'
-      +'<span class="badge'+(c.type==='功能句'?' f':'')+'">'+esc(c.type)+'</span>'
-      +'<span class="badge">'+esc(c.func||'')+'</span></div>'
-      +'<div class="zh">'+esc(c.zh)+'</div>'
-      +'<div class="ex">'+hlChunk(c.ex,c.text)+'<br><span style="color:var(--ink3)">'+esc(c.exZh||'')+'</span></div>'
-      +'<div class="ops"><button class="mini" data-play="1" type="button">▶ 听这句</button>'
-      +'<span class="num">第 '+c.sent+' 句</span></div></div>';
-  }).join('');
-  box.querySelectorAll('.chk').forEach(function(row){
-    row.querySelector('[data-play]').onclick=function(e){
-      e.stopPropagation();
-      playChunkSent(+row.dataset.sent, +row.dataset.k);
-    };
-  });
-}
-function seekPlayChunk(st, en){
-  chunkStop=en;
-  var doSeek=function(){
-    try{ audio.currentTime=st; }catch(e){}
-    aplay(); setPlayIc(true);
-  };
-  if(audio.readyState>=1){ doSeek(); }
-  else{
-    var once=function(){ audio.removeEventListener('loadedmetadata',once); doSeek(); };
-    audio.addEventListener('loadedmetadata',once);
-    try{ audio.load(); }catch(e){}
-  }
-}
-function playChunkSent(si, k){
-  var iv=TLx[si]; if(!iv){ toast('本句暂无时间轴'); return; }
-  seekPlayChunk(iv[0], iv[1]);
-  var row=$('chunkList').querySelector('.chk[data-k="'+k+'"]');
-  if(row){ row.classList.add('played'); chkPlayed[k]=1; }
-}
-$('chkZhTog').onclick=function(){
-  chkZhHide=!chkZhHide;
-  document.body.classList.toggle('chk-hide-zh',chkZhHide);
-  this.textContent='遮中文 '+(chkZhHide?'开':'关');
-  this.classList.toggle('on',chkZhHide);
-};
-$('chkPlayAll').onclick=function(){
-  chkQueue=(CHUNKS.chunks||[]).map(function(_,k){ return k; });
-  this.textContent='连读中…';
-  var self=this;
-  setTimeout(function(){ self.textContent='连读全部'; },2000);
-  var k=chkQueue.shift(); if(k!==undefined) playChunkSent(CHUNKS.chunks[k].sent-1, k);
-};
-renderChunks();
 
 /* ═══════════ 流程① 逐句听 ═══════════ */
 function renderSents(){
@@ -587,17 +482,7 @@ audio.addEventListener('timeupdate',function(){
     }
   }
 });
-/* 语块：播到本句末尾自动停；「连读全部」按队列续播 */
-audio.addEventListener('timeupdate',function(){
-  if(chunkStop===null || audio.paused) return;
-  if(audio.currentTime>=chunkStop-0.03){
-    audio.pause(); chunkStop=null; setPlayIc(false);
-    if(chkQueue.length){
-      var k=chkQueue.shift();
-      setTimeout(function(){ playChunkSent(CHUNKS.chunks[k].sent-1,k); },350);
-    }
-  }
-});
+
 function setPlayIc(on){ $('playBtn').textContent=on?'⏸':'▶'; }
 $('playBtn').onclick=function(){
   if(audio.paused){ var iv=TLx[state.idx];

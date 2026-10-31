@@ -43,9 +43,12 @@ npm run test:list    # 列出全部套件
 | `_align_unit.py` + `_unit_N_source.json` | U5–U12 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
 | `_extract_u14_text.py` + `_align_u14.py` + `_merge_u14.py` | U1–U4 正课文三件套（按课次教师用书提取 → 同管线对齐 → 校验/音频/timeline 合入）；每单元恰 4 篇与 U5–U12 同构 |
 | `_VOCAB_WORKFLOW.md` | **词汇四链权威规约**（篇章词表/主题词表/词音频/诊断页） |
-| `_CHUNK_WORKFLOW.md` | **语块权威规约**（两车道提取/人工审校定稿/三道校验/文献依据 DOI 清单，2026-10-28 p048 试点起） |
-| `_chunk_extract.py` / `_chunk_verify.py` / `_chunk_smoke.js` | 语块三件套：候选提取（频率×分布×MI + 功能白名单）→ 三道校验（verbatim/释义/双写）→ 真浏览器验收（CDP 零依赖） |
-| `content_pipeline.py` | **篇章三段流水线编排器**（对齐→词汇→译文）：缺才跑、齐即跳，`--unit N [--page pXXX]` 按需执行，`--audit` 全站 48 篇体检；词汇段联网执行须 `--do-vocab`（跑完人工复核 lemma），译文 R1 在会话内完成后走批次表落库 |
+| `_CHUNK_WORKFLOW.md` | **语块权威规约**（两车道提取/人工审校定稿/三道校验/文献依据 DOI 清单，2026-10-28 p048 试点起；2026-10-31 起语块不上线、改本地教师资源） |
+| `_chunk_extract.py` / `_chunk_verify.py` / `_chunk_smoke.js` | 语块三件套：候选提取（频率×分布×MI + 功能白名单）→ 校验（verbatim/释义；页面双写检查仅在页面有 CHUNKS 时生效）→ 真浏览器验收（CDP 零依赖；语块 tab 已撤，仅存档备用） |
+| `_YIQUN_WORKFLOW.md` | **意群权威规约**（句法教学单位、纯文本零音频、不上线；候选器规则/六道门禁/schema，2026-10-31 p048 试点起） |
+| `_yiqun_extract.py` / `_yiqun_verify.py` | 意群两件套：句法规则候选切分（标点/连词/从句/介词，括号保护）→ 六道门禁（G2 拼接逐字还原源句是核心） |
+| `_gen_teacher_pack.py` | **本地教师资源生成器**：一条命令出 教师讲解卡 + 学生发放页（HTML，A4 可打印，零联网零音频）；输入=意群+语块+译文+句级数据四归档 |
+| `content_pipeline.py` | **篇章流水线编排器**（对齐→词汇→译文→语块→意群 五段）：缺才跑、齐即跳，`--unit N [--page pXXX]` 按需执行，`--audit` 全站 48 篇体检；词汇段联网执行须 `--do-vocab`（跑完人工复核 lemma），译文 R1 在会话内完成后走批次表落库 |
 | `_RELEASE_WORKFLOW.md` | **落库与上线权威规约**（三条硬规约/发布检查单/基线/回滚） |
 | `_regress.js` | 回归入口，套件定义在文件顶部的 `SUITE` 数组 |
 | `_check.js` / `_align_check.js` / `_check_icons.js` / `_smoke.js` | 纯 Node 校验，无外部依赖 |

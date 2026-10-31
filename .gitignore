@@ -92,3 +92,8 @@ assets/timeline.json.bak-*
 /__sb_*
 /_vocab_out_tmp/
 /_zh_tables/
+
+# ── 工作件/截图：不入库 ──
+_shot/
+_chunk_cand_*.json
+_yiqun_cand_*.json

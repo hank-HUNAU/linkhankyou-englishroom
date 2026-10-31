@@ -21,6 +21,9 @@
   ④ 语块  ：归档 02_词汇数据/语块_pXXX.json（每篇 3–6 条，试点 2026-10-28 起）。
             执行 = 跑 _chunk_extract.py 出候选（车道A 频率×分布×MI + 车道B 功能白名单），
             **人工审校定稿后写归档**（脚本不代选），再 _chunk_verify.py 三道校验
+  ⑤ 意群  ：归档 04_意群数据/意群_pXXX.json（2026-10-31 起；句法教学单位，纯文本、零音频）。
+            执行 = 跑 _yiqun_extract.py 出候选 → 人工定稿写归档 → _yiqun_verify.py 六道门禁。
+            **意群与语块均不上线**：由 _gen_teacher_pack.py 生成教师讲解卡/学生发放页（本地资源）
             （verbatim 命中 / 释义完整 / 页面双写一致）。
 
 用法：
@@ -298,15 +301,45 @@ def run_chunk(c):
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     print((r.stdout or "")[-600:])
     if r.returncode == 0 and os.path.exists(out):
-        print("  ✓ 候选已写入 %s → 人工审校选 3–6 条写 语块_%s.json → _chunk_verify.py" % (os.path.basename(out), c["page"]))
+        print("  ✓ 候选已写入 %s → 人工审校选 3–6 条写 语块_%s.json（归档 02_词汇数据）→ _chunk_verify.py"
+              % (os.path.basename(out), c["page"]))
+        print("    提醒：语块不上线（2026-10-31 定案）——审校定稿后跑 _gen_teacher_pack.py --page %s 生成教师卡/学生页"
+              % c["page"])
+        return True
+    print("  ✗ 候选提取失败：%s" % (r.stderr or r.stdout)[-200:])
+    return False
+
+
+# ---------------------------------------------------------------- 阶段⑤ 意群
+def check_yiqun(c):
+    """归档意群 JSON 在库 + 六道门禁（源句/拼接/覆盖/段数/标注/教学点）"""
+    arc = os.path.join(unit_dir(c["unit"]), "04_意群数据", "意群_%s.json" % c["page"])
+    if not os.path.exists(arc):
+        return False, "无意群 JSON（先跑 _yiqun_extract.py + 人工定稿）"
+    r = subprocess.run([PY, os.path.join(HERE, "_yiqun_verify.py"), "--page", c["page"]],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode not in (0, 2):  # 2 = 仅段数告警，放行
+        return False, "意群门禁未过：%s" % ((r.stdout or r.stderr or "")[-120:].replace("\n", " "))
+    return True, "OK"
+
+
+def run_yiqun(c):
+    """产出意群候选供人工定稿（不代切、不落归档）"""
+    r = subprocess.run([PY, os.path.join(HERE, "_yiqun_extract.py"), "--page", c["page"]],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    print((r.stdout or "")[-600:])
+    if r.returncode == 0:
+        print("  ✓ 候选已打印 → 人工按句法定稿写 04_意群数据/意群_%s.json → _yiqun_verify.py" % c["page"])
+        print("    提醒：意群不上线（2026-10-31 定案）——定稿后跑 _gen_teacher_pack.py --page %s 生成教师卡/学生页"
+              % c["page"])
         return True
     print("  ✗ 候选提取失败：%s" % (r.stderr or r.stdout)[-200:])
     return False
 
 
 # ---------------------------------------------------------------- 主流程
-STAGES = ["align", "vocab", "zh", "chunk"]
-STAGE_CN = {"align": "对齐", "vocab": "词汇", "zh": "译文", "chunk": "语块"}
+STAGES = ["align", "vocab", "zh", "chunk", "yiqun"]
+STAGE_CN = {"align": "对齐", "vocab": "词汇", "zh": "译文", "chunk": "语块", "yiqun": "意群"}
 
 
 def process(c, args, results):
@@ -325,6 +358,8 @@ def process(c, args, results):
             row["five"] = five
         elif st == "chunk":
             done, detail = check_chunk(c)
+        elif st == "yiqun":
+            done, detail = check_yiqun(c)
         else:
             done, detail = check_zh(c)
         if done and not args["force"]:
@@ -347,7 +382,8 @@ def process(c, args, results):
             print("      联网执行须加 --do-vocab（跑完须人工复核 lemma）；确认后重跑")
             continue
         print("  [%s] 执行中…" % tag)
-        ok = {"align": run_align, "vocab": run_vocab, "zh": run_zh, "chunk": run_chunk}[st](c)
+        ok = {"align": run_align, "vocab": run_vocab, "zh": run_zh,
+              "chunk": run_chunk, "yiqun": run_yiqun}[st](c)
         row[st] = ("执行" + ("OK" if ok else "FAIL"))
         if not ok and not args["keep_going"]:
             row["_abort"] = True
@@ -359,13 +395,15 @@ def process(c, args, results):
 def audit(catalog, results):
     """全站体检：只检查不执行、不问网络。"""
     print("全站体检（%d 篇，只检查不执行）\n" % len(catalog))
-    print("%-4s %-6s %-22s %-8s %-8s %-14s %-6s %s" % ("单元", "页", "key/篇名", "对齐", "词汇", "译文", "语块", "备注"))
-    stats = {k: 0 for k in ("align_ok", "vocab_ok", "zh_ok", "chunk_ok", "zh_r1")}
+    print("%-4s %-6s %-22s %-8s %-8s %-14s %-6s %-6s %s" % (
+        "单元", "页", "key/篇名", "对齐", "词汇", "译文", "语块", "意群", "备注"))
+    stats = {k: 0 for k in ("align_ok", "vocab_ok", "zh_ok", "chunk_ok", "yiqun_ok", "zh_r1")}
     for c in catalog:
         a_ok, a_det = check_align(c)
         v_ok, five, v_det = check_vocab(c)
         z_ok, z_det = check_zh(c)
         k_ok, k_det = check_chunk(c)
+        y_ok, y_det = check_yiqun(c)
         key = vocab_key(c) or c["title"][:14]
         def m(x): return "✓" if x else ("—" if x is None else "✗")
         note = []
@@ -376,17 +414,20 @@ def audit(catalog, results):
         stats["vocab_ok"] += bool(v_ok)
         stats["zh_ok"] += bool(z_ok)
         stats["chunk_ok"] += bool(k_ok)
-        print("%-4d %-6s %-22s %-8s %-8s %-14s %-6s %s" % (
+        stats["yiqun_ok"] += bool(y_ok)
+        print("%-4d %-6s %-22s %-8s %-8s %-14s %-6s %-6s %s" % (
             c["unit"], c["page"], key[:22], m(a_ok),
             ("✓" if v_ok else "✗") + ("(%s/5)" % five if five is not None else ""),
-            m(z_ok), m(k_ok), "；".join(note)[:60]))
+            m(z_ok), m(k_ok), m(y_ok), "；".join(note)[:60]))
         results.append(dict(unit=c["unit"], page=c["page"], title=c["title"],
                             align="OK·跳" if a_ok else "缺", vocab="OK·跳" if v_ok else "缺",
                             zh=("OK·跳" if z_ok else ("R1待" if z_ok is None else "缺")),
-                            chunk="OK·跳" if k_ok else "缺"))
-    print("\n汇总：对齐 %d/%d · 词汇 %d/%d · 译文 %d/%d（另有 %d 篇 R1待）· 语块 %d/%d" % (
+                            chunk="OK·跳" if k_ok else "缺",
+                            yiqun="OK·跳" if y_ok else "缺"))
+    print("\n汇总：对齐 %d/%d · 词汇 %d/%d · 译文 %d/%d（另有 %d 篇 R1待）· 语块 %d/%d · 意群 %d/%d" % (
         stats["align_ok"], len(catalog), stats["vocab_ok"], len(catalog),
-        stats["zh_ok"], len(catalog), stats["zh_r1"], stats["chunk_ok"], len(catalog)))
+        stats["zh_ok"], len(catalog), stats["zh_r1"], stats["chunk_ok"], len(catalog),
+        stats["yiqun_ok"], len(catalog)))
 
 
 def main():

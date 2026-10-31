@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""_chunk_verify.py —— 语块数据三道校验
+"""_chunk_verify.py —— 语块数据校验
 
 1) **verbatim 命中**：每条语块必须在它标注的句子里按子串出现（归一化后）——防「模型臆造语块」
 2) **释义完整**：zh 必须含中文，且不能整条是英文
-3) **双写一致**：篇章页内嵌的 CHUNKS 必须与归档正典 JSON 一致（条数/文本/句号/中文），
-   防止「改了归档忘了改页面」的静默漂移（同 timeline 双写硬规约）
+3) **双写一致**（仅当页面内嵌 CHUNKS 时才检查）：2026-10-31 起语块**不上线**，
+   正典只存归档 `语块_pXXX.json`，由 `_gen_teacher_pack.py` 生成教师讲解卡/学生发放页；
+   页面无 CHUNKS 属**预期状态**，不是「未接线」。若未来恢复上线，本检查自动恢复效力。
 
 用法：
   python _chunk_verify.py                      # 校验全部已归档语块
@@ -101,10 +102,10 @@ def main():
             if not ok_v:
                 print("      源句：%s" % sents[si]["text"][:90] if 0 <= si < len(sents) else "      句号越界")
 
-        # 双写一致性
+        # 双写一致性（仅当页面内嵌 CHUNKS；2026-10-31 起不上线，页面无 CHUNKS 属预期）
         html, emb = page_chunks(page)
         if emb is None:
-            print("  页面未内嵌 CHUNKS（未接线，跳过双写校验）")
+            print("  语块不上线（本地资源模式），页面无 CHUNKS —— 符合预期")
             continue
         if "_error" in emb:
             print("  ✗ 页面 CHUNKS 解析失败：%s" % emb["_error"]); bad += 1; continue
