@@ -204,7 +204,7 @@ def teacher_html(page, yq, ck, zhm):
 
 <h2><span class="num">2</span>预制语块（整体记忆 · 高频复现）</h2>
 %(chunks)s
-<div class="warn"><b>诚实边界</b>：本项目语料仅 9,336 词，Biber 的「10 次/百万词」在本语料上折合 0.093 次、<b>不可达</b>。因此这些语块不是 Biber 式 lexical bundle，而是<b>「教材内相对高频 + 教学判断」</b>的 A1–A2 语块表；「每篇 3–6 条」是教学配额，无文献依据。</div>
+<div class="warn"><b>诚实边界</b>：本项目语料仅 9,336 词（48 篇正课文=12 单元×4 篇，平均 195 词/篇），Biber 的「10 次/百万词」在本语料上折合 0.093 次、<b>不可达</b>。因此这些语块不是 Biber 式 lexical bundle，而是<b>「教材内相对高频 + 教学判断」</b>的 A1–A2 语块表；「每篇 3–6 条」是教学配额，无文献依据。</div>
 
 <h2><span class="num">3</span>课堂流程建议（约 15 分钟）</h2>
 <ol>
