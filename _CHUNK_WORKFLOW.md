@@ -62,6 +62,7 @@ p048 曾上线的「语块」tab 已于同日撤除（页面 CHUNKS/JS/CSS 全�
 | 语块正典 | **人工审校定稿** | `Ux_*/02_词汇数据/语块_pXXX.json` | 本规约 §4 schema | 入库 |
 | 站点呈现 | 语块正典 | 篇章页第三 tab「语块」（内嵌 CHUNKS） | 手工接线（试点）；批量阶段再考虑生成器 | 入库 |
 | 校验 | 正典 + 页面 | 三道校验报告 | `_chunk_verify.py`；浏览器验收 `_chunk_smoke.js` | 入库 |
+| **总表（候选）** | 全语料 48 篇 | `00_语块总表/`（CSV/JSON/HTML，disp 优先排序，只收 disp≥2） | `_chunk_master.py` | 入库（工具）；产出在教材资产 |
 
 ### 两车道提取（_chunk_extract.py）
 
