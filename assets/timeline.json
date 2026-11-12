@@ -291,9 +291,9 @@
   },
   {
    "i": 1,
-   "start_s": 13.2,
+   "start_s": 13.02,
    "end_s": 18.02,
-   "dur_s": 4.82,
+   "dur_s": 5.0,
    "text": "On Line 1 we have Jason. Where are you from, Jason?"
   },
   {
@@ -334,8 +334,8 @@
   {
    "i": 7,
    "start_s": 40.0,
-   "end_s": 41.02,
-   "dur_s": 1.02,
+   "end_s": 41.099,
+   "dur_s": 1.099,
    "text": "Yes, I am."
   },
   {
@@ -368,9 +368,9 @@
   },
   {
    "i": 12,
-   "start_s": 57.48,
+   "start_s": 57.36,
    "end_s": 58.52,
-   "dur_s": 1.04,
+   "dur_s": 1.16,
    "text": "Question 2."
   },
   {
@@ -424,9 +424,9 @@
   },
   {
    "i": 20,
-   "start_s": 90.96,
+   "start_s": 90.68,
    "end_s": 92.3,
-   "dur_s": 1.34,
+   "dur_s": 1.62,
    "text": "I have no idea."
   },
   {
@@ -487,9 +487,9 @@
   },
   {
    "i": 29,
-   "start_s": 123.14,
+   "start_s": 123.112,
    "end_s": 125.4,
-   "dur_s": 2.26,
+   "dur_s": 2.288,
    "text": "Your score is 2."
   },
   {
@@ -638,9 +638,9 @@
  "p018": [
   {
    "i": 0,
-   "start_s": 9.44,
+   "start_s": 9.29,
    "end_s": 10.1,
-   "dur_s": 0.66,
+   "dur_s": 0.81,
    "text": "Hi, Tom."
   },
   {
@@ -673,9 +673,9 @@
   },
   {
    "i": 5,
-   "start_s": 21.74,
+   "start_s": 21.711,
    "end_s": 22.98,
-   "dur_s": 1.24,
+   "dur_s": 1.269,
    "text": "That's Daniela."
   },
   {
@@ -702,8 +702,8 @@
   {
    "i": 9,
    "start_s": 31.88,
-   "end_s": 37.78,
-   "dur_s": 5.9,
+   "end_s": 37.918,
+   "dur_s": 6.038,
    "text": "I'm not sure, but I think she's Spanish. From Madrid, I think."
   },
   {
@@ -736,9 +736,9 @@
   },
   {
    "i": 14,
-   "start_s": 59.6,
+   "start_s": 59.466,
    "end_s": 60.62,
-   "dur_s": 1.02,
+   "dur_s": 1.154,
    "text": "Bye, Daniela."
   },
   {
@@ -930,8 +930,8 @@
   {
    "i": 1,
    "start_s": 16.06,
-   "end_s": 19.42,
-   "dur_s": 3.36,
+   "end_s": 19.47,
+   "dur_s": 3.41,
    "text": "I'm not tired. There's nothing to do here."
   },
   {
@@ -943,23 +943,23 @@
   },
   {
    "i": 3,
-   "start_s": 23.62,
-   "end_s": 25.46,
-   "dur_s": 1.84,
+   "start_s": 23.499,
+   "end_s": 25.577,
+   "dur_s": 2.078,
    "text": "There's nothing good on."
   },
   {
    "i": 4,
    "start_s": 26.04,
-   "end_s": 27.1,
-   "dur_s": 1.06,
+   "end_s": 27.144,
+   "dur_s": 1.104,
    "text": "Read a book."
   },
   {
    "i": 5,
-   "start_s": 27.1,
-   "end_s": 32.38,
-   "dur_s": 5.28,
+   "start_s": 27.144,
+   "end_s": 32.496,
+   "dur_s": 5.352,
    "text": "Look. It's okay, Mum. Don't worry."
   },
   {
@@ -1055,9 +1055,9 @@
   },
   {
    "i": 19,
-   "start_s": 91.4,
+   "start_s": 91.336,
    "end_s": 94.32,
-   "dur_s": 2.92,
+   "dur_s": 2.984,
    "text": "Yes, it's a really nice day."
   }
  ],
@@ -1526,8 +1526,8 @@
   {
    "i": 0,
    "start_s": 8.64,
-   "end_s": 11.26,
-   "dur_s": 2.62,
+   "end_s": 11.308,
+   "dur_s": 2.668,
    "text": "Tell us about your family, Ina."
   },
   {
@@ -1539,16 +1539,16 @@
   },
   {
    "i": 2,
-   "start_s": 16.8,
+   "start_s": 16.36,
    "end_s": 19.4,
-   "dur_s": 2.6,
+   "dur_s": 3.04,
    "text": "And have you got any brothers or sisters?"
   },
   {
    "i": 3,
    "start_s": 20.12,
-   "end_s": 28.3,
-   "dur_s": 8.18,
+   "end_s": 28.444,
+   "dur_s": 8.324,
    "text": "I've got two brothers and I've also got three cousins, two girls and a boy."
   },
   {
@@ -1568,15 +1568,15 @@
   {
    "i": 6,
    "start_s": 34.88,
-   "end_s": 37.28,
-   "dur_s": 2.4,
+   "end_s": 37.314,
+   "dur_s": 2.434,
    "text": "Yes, they're very good to me."
   },
   {
    "i": 7,
-   "start_s": 41.54,
+   "start_s": 41.28,
    "end_s": 44.42,
-   "dur_s": 2.88,
+   "dur_s": 3.14,
    "text": "Have you got a big family, Jake?"
   },
   {
@@ -1609,9 +1609,9 @@
   },
   {
    "i": 12,
-   "start_s": 60.64,
+   "start_s": 60.639,
    "end_s": 65.34,
-   "dur_s": 4.7,
+   "dur_s": 4.701,
    "text": "No, there are three girls and one boy, George."
   },
   {
@@ -1795,9 +1795,9 @@
  "p036": [
   {
    "i": 0,
-   "start_s": 7.66,
+   "start_s": 7.56,
    "end_s": 11.18,
-   "dur_s": 3.52,
+   "dur_s": 3.62,
    "text": "Wow, what a cool photo! Thank you!"
   },
   {
@@ -1852,8 +1852,8 @@
   {
    "i": 8,
    "start_s": 39.44,
-   "end_s": 40.46,
-   "dur_s": 1.02,
+   "end_s": 40.554,
+   "dur_s": 1.114,
    "text": "Excuse me?"
   },
   {
@@ -1865,9 +1865,9 @@
   },
   {
    "i": 10,
-   "start_s": 43.08,
+   "start_s": 43.073,
    "end_s": 43.98,
-   "dur_s": 0.9,
+   "dur_s": 0.907,
    "text": "Oh, hello."
   },
   {
@@ -2030,9 +2030,9 @@
  "p041": [
   {
    "i": 0,
-   "start_s": 9.16,
+   "start_s": 8.98,
    "end_s": 11.22,
-   "dur_s": 2.06,
+   "dur_s": 2.24,
    "text": "Excuse me? Yes?"
   },
   {

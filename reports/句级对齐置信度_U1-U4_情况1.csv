@@ -1,0 +1,137 @@
+﻿单元,页,篇名,句序,起点s,终点s,时长s,英文句子,句词数,窗内ASR词数,词数配比,LCS置信度,起点残差s,终点残差s,分级
+U1,p015,One-Minute Challenge,1,6.08,10.54,4.46,Hello and welcome to the One Minute Challenge.,8,8,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,2,13.02,18.02,5.0,"On Line 1 we have Jason. Where are you from, Jason?",10,11,1.1,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,3,18.72,20.92,2.2,"Hi, Megan. I'm from Birmingham.",5,5,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,4,21.4,26.6,5.2,"That's great. OK, Jason, you have one minute.",8,8,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,5,27.36,29.38,2.02,How many questions can you answer?,6,6,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,6,30.0,36.38,6.38,Today's questions are all about nationalities. OK.,7,7,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,7,37.46,39.38,1.92,"Jason, are you ready?",4,4,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,8,40.0,41.099,1.099,"Yes, I am.",3,3,1.0,1.0,0.0,0.079,A
+U1,p015,One-Minute Challenge,9,41.6,44.92,3.32,So let's play the One Minute Challenge.,7,7,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,10,46.84,47.76,0.92,OK.,1,1,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,11,49.1,53.14,4.04,"Coco Goff, the tennis player, is from...",7,8,1.143,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,12,53.14,56.6,3.46,The US. She's American. Correct.,5,5,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,13,57.36,58.52,1.16,Question 2.,1,2,2.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,14,59.02,61.26,2.24,Pyea is from...,3,3,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,15,61.26,65.94,4.68,Pyea? That's a type of food. It's South African.,9,9,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,16,66.54,74.88,8.34,"No, I'm sorry. You're wrong. It's a Spanish dish. Of course. Three.",12,12,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,17,76.0,78.82,2.82,Cape Town is a city in...,6,7,1.167,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,18,78.82,82.02,3.2,South Africa. It's a South African city.,7,7,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,19,82.86,85.42,2.56,Correct. Next question.,3,3,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,20,86.92,90.16,3.24,Cariocas are people from...,4,4,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,21,90.68,92.3,1.62,I have no idea.,4,4,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,22,93.24,97.58,4.34,Cariocas. They're from Rio de Janeiro in Brazil.,8,8,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,23,98.32,99.5,1.18,I didn't know that.,4,4,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,24,100.7,105.64,4.94,"The actor, Yalitza Aparicio, is from...",6,6,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,25,105.64,107.0,1.36,"Spain, I think.",3,3,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,26,107.72,111.14,3.42,"Sorry, you're wrong. She's Mexican.",5,5,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,27,112.16,113.26,1.1,Last question.,2,2,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,28,114.22,116.34,2.12,Salsa music is...,3,3,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,29,118.62,122.22,3.6,"I'm sorry, Jason. We're out of time.",7,7,1.0,1.0,0.0,0.0,A
+U1,p015,One-Minute Challenge,30,123.112,125.4,2.288,Your score is 2.,3,4,1.333,1.0,0.028,0.0,A
+U1,p015,One-Minute Challenge,31,125.96,127.4,1.44,"Oh, terrible.",2,2,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,1,9.29,10.1,0.81,"Hi, Tom.",2,2,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,2,10.54,12.66,2.12,"Hi, Mark. How's it going?",5,5,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,3,13.34,15.78,2.44,"Great, thanks. Nice skateboard.",4,4,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,4,16.48,18.1,1.62,"Oh, right. Thanks.",3,3,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,5,19.96,21.08,1.12,Who's that?,2,2,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,6,21.711,22.98,1.269,That's Daniela.,2,2,1.0,1.0,0.029,0.0,A
+U1,p018,Where is Daniela from?,7,23.6,24.44,0.84,Who's she?,2,2,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,8,25.04,27.7,2.66,She's new. She's in another class.,6,6,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,9,30.0,31.1,1.1,Where's she from?,3,3,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,10,31.88,37.918,6.038,"I'm not sure, but I think she's Spanish. From Madrid, I think.",12,12,1.0,1.0,0.0,0.138,A
+U1,p018,Where is Daniela from?,11,38.34,43.22,4.88,Spanish? Wow. That's awesome. I know.,6,6,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,12,45.02,51.68,6.66,"Hi, you two. I'm Daniela. I'm new here. I'm from Manchester.",11,11,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,13,52.62,55.44,2.82,Manchester? But Tom...,3,4,1.333,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,14,55.44,58.88,3.44,"Okay. Time to go. See you later, Mark.",8,8,1.0,1.0,0.0,0.0,A
+U1,p018,Where is Daniela from?,15,59.466,60.62,1.154,"Bye, Daniela.",2,2,1.0,1.0,0.134,0.0,A
+U1,p018,Where is Daniela from?,16,60.9,63.16,2.26,Bye. Is there a problem?,5,5,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,1,12.22,15.42,3.2,"Why don't you go to bed, Liam?",7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,2,16.06,19.47,3.41,I'm not tired. There's nothing to do here.,8,8,1.0,1.0,0.0,0.05,A
+U2,p023,Four dialogues,3,19.86,22.86,3.0,"Well, go somewhere. Go to the cinema.",7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,4,23.499,25.577,2.078,There's nothing good on.,4,4,1.0,1.0,0.121,0.117,A
+U2,p023,Four dialogues,5,26.04,27.144,1.104,Read a book.,3,4,1.333,1.0,0.0,0.036,A
+U2,p023,Four dialogues,6,27.144,32.496,5.352,"Look. It's okay, Mum. Don't worry.",6,6,1.0,1.0,0.044,0.116,A
+U2,p023,Four dialogues,7,36.9,38.08,1.18,"Sandwich, Lucy?",2,2,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,8,38.9,41.66,2.76,"Yes, please. Can I have two?",6,6,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,9,42.44,43.24,0.8,Of course.,2,2,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,10,43.78,46.54,2.76,"And can I have that pizza, too?",7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,11,47.36,51.76,4.4,"Okay. Two sandwiches and a pizza, please.",7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,12,55.76,57.84,2.08,"Be careful, Tim.",3,3,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,13,59.38,65.06,5.68,"Tim, look! That's Mum's favourite.",5,5,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,14,65.96,67.76,1.8,Oh dear. I'm sorry.,4,4,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,15,68.72,71.44,2.72,"Oh, this is really serious.",5,5,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,16,72.4,76.26,3.86,Really? Oh dear. What can I do?,7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,17,80.82,83.6,2.78,"Can I open the window, please, Eve?",7,7,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,18,83.6,85.3,1.7,That's a good idea.,4,5,1.25,1.0,0.0,0.0,A
+U2,p023,Four dialogues,19,86.9,90.62,3.72,"Ah, that's a lot better.",5,5,1.0,1.0,0.0,0.0,A
+U2,p023,Four dialogues,20,91.336,94.32,2.984,"Yes, it's a really nice day.",6,6,1.0,1.0,0.064,0.0,A
+U3,p033,Three people talking,1,8.64,11.308,2.668,"Tell us about your family, Ina.",6,6,1.0,1.0,0.0,0.048,A
+U3,p033,Three people talking,2,11.86,15.34,3.48,"Well, there's my mother and father.",6,6,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,3,16.36,19.4,3.04,And have you got any brothers or sisters?,8,8,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,4,20.12,28.444,8.324,"I've got two brothers and I've also got three cousins, two girls and a boy.",15,15,1.0,1.0,0.0,0.144,A
+U3,p033,Three people talking,5,29.06,31.36,2.3,My cousins are in the US.,6,6,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,6,32.58,34.28,1.7,Do you like your brothers?,5,5,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,7,34.88,37.314,2.434,"Yes, they're very good to me.",6,6,1.0,1.0,0.0,0.034,A
+U3,p033,Three people talking,8,41.28,44.42,3.14,"Have you got a big family, Jake?",7,7,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,9,45.08,48.52,3.44,"Yes, I have. I've got ten brothers.",7,7,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,10,49.18,54.02,4.84,Ten brothers? Wow! That is a big family.,8,8,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,11,54.48,56.72,2.24,I've got four cousins too.,5,5,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,12,57.28,60.02,2.74,And are they all boys too?,6,6,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,13,60.639,65.34,4.701,"No, there are three girls and one boy, George.",9,9,1.0,1.0,0.001,0.0,A
+U3,p033,Three people talking,14,66.32,69.38,3.06,My cousin George is my best friend.,7,7,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,15,69.88,73.86,3.98,I love football and he's a football fan too.,9,9,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,16,74.88,77.24,2.36,Do your brothers like football?,5,5,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,17,77.8,81.6,3.8,"No, they don't. They all like basketball.",7,7,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,18,86.1,86.98,0.88,Tell us about your family.,5,6,1.2,1.0,0.0,0.0,A
+U3,p033,Three people talking,19,86.98,90.34,3.36,"So, Maria, tell us about your family.",7,11,1.571,1.0,0.0,0.0,A
+U3,p033,Three people talking,20,91.1,95.3,4.2,I've got a small family. I've got one sister.,9,9,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,21,96.0,99.62,3.62,She's called Antonia and there's my grandmother.,7,7,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,22,100.6,102.52,1.92,Is your grandmother nice?,4,4,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,23,103.46,109.26,5.8,"Oh yes, she's great. She's very kind and very patient.",10,10,1.0,1.0,0.0,0.0,A
+U3,p033,Three people talking,24,109.8,110.86,1.06,We love her.,3,3,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,1,7.56,11.18,3.62,"Wow, what a cool photo! Thank you!",7,7,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,2,11.72,13.28,1.56,Who are all those people?,5,5,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,3,13.74,18.14,4.4,"That's my family of course, on holiday in Spain.",9,9,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,4,19.0,20.18,1.18,"Ah, okay.",2,2,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,5,20.98,26.34,5.36,"So, those are your parents and that's your brother?",9,9,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,6,26.96,29.06,2.1,"No, that's my cousin.",4,4,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,7,29.8,33.86,4.06,My brother is this one here. Really?,7,7,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,8,34.76,38.74,3.98,Your cousin looks like your brother. I know.,8,8,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,9,39.44,40.554,1.114,Excuse me?,2,2,1.0,1.0,0.0,0.094,A
+U3,p036,Paul and Carla,10,41.26,42.14,0.88,Hello everyone.,2,2,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,11,43.073,43.98,0.907,"Oh, hello.",2,2,1.0,1.0,0.007,0.0,A
+U3,p036,Paul and Carla,12,44.66,48.32,3.66,"Abby, it's almost dinner time. Oh, right.",7,7,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,13,49.12,50.1,0.98,"Just a minute, Mum.",4,4,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,14,50.54,53.54,3.0,"Come on, Paul. Let's go. Sorry.",6,6,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,15,53.54,57.86,4.32,Let's look at more photos tomorrow. Sure.,7,7,1.0,1.0,0.0,0.0,A
+U3,p036,Paul and Carla,16,58.48,61.02,2.54,"That sounds great. See you, Abby.",6,6,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,1,8.98,11.22,2.24,Excuse me? Yes?,3,3,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,2,11.94,15.98,4.04,Where's the... Please? OK.,4,4,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,3,16.6,20.14,3.54,Go down this street and turn right.,7,7,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,4,20.72,23.44,2.72,That's East Street. OK.,4,4,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,5,24.26,28.74,4.48,It's in East Street next to the park. Great.,9,10,1.111,1.0,0.0,0.0,A
+U4,p041,Asking for directions,6,28.74,30.28,1.54,Thanks a lot.,3,4,1.333,1.0,0.0,0.0,A
+U4,p041,Asking for directions,7,36.12,37.64,1.52,Excuse me?,2,2,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,8,38.3,39.8,1.5,"Can you help me, please?",5,5,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,9,40.46,42.74,2.28,I want to go to the...,6,6,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,10,43.38,44.22,0.84,Of course!,2,2,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,11,45.02,48.26,3.24,"Just walk down here, down High Street.",7,7,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,12,48.92,52.26,3.34,Take the second left into Green Street.,7,7,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,13,52.68,54.02,1.34,And it's on your right.,5,5,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,14,54.76,55.9,1.14,"Oh, right.",2,3,1.5,1.0,0.0,0.0,A
+U4,p041,Asking for directions,15,55.9,58.1,2.2,But is it far?,4,4,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,16,58.84,59.84,1.0,Can I get a bus?,5,5,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,17,60.4,62.52,2.12,"Oh, no. Don't take a bus.",6,6,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,18,63.18,66.74,3.56,It's very easy to walk there. Three minutes.,8,8,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,19,67.38,71.04,3.66,"Oh, thank you very much. You're welcome.",7,7,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,20,77.54,80.72,3.18,Hello. Can you help me? Sure.,6,6,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,21,81.26,83.34,2.08,Is there a good...,4,4,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,22,83.34,84.38,1.04,Near here?,2,2,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,23,84.38,86.62,2.24,"Yes, there is.",3,4,1.333,1.0,0.0,0.0,A
+U4,p041,Asking for directions,24,87.7,92.18,4.48,Go down here and turn left into Green Street.,9,9,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,25,93.08,95.52,2.44,"Go past the shopping centre,",5,5,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,26,95.94,99.02,3.08,and there's a nice place on the left.,8,8,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,27,100.0,102.94,2.94,It's only four or five minutes from here.,8,8,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,28,103.76,106.34,2.58,Brilliant. I'm really hungry.,4,4,1.0,1.0,0.0,0.0,A
+U4,p041,Asking for directions,29,107.14,114.6,7.46,Thanks a lot. No problem. Thank you. Sure. Hello.,9,9,1.0,1.0,0.0,0.0,A

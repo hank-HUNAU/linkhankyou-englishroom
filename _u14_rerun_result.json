@@ -1,0 +1,1038 @@
+{
+ "p015": {
+  "key": "u1_p15_quiz",
+  "unit_dir": "U1_AllTogether",
+  "archive": "U1_AllTogether\\01_正文篇章\\句级数据_p015.json",
+  "duration_s": 130.87,
+  "n_sent": 31,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 6.08,
+    "end_s": 10.54,
+    "text": "Hello and welcome to the One Minute Challenge.",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 13.02,
+    "end_s": 18.02,
+    "text": "On Line 1 we have Jason. Where are you from, Jason?",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 18.72,
+    "end_s": 20.92,
+    "text": "Hi, Megan. I'm from Birmingham.",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 21.4,
+    "end_s": 26.6,
+    "text": "That's great. OK, Jason, you have one minute.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 27.36,
+    "end_s": 29.38,
+    "text": "How many questions can you answer?",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 30.0,
+    "end_s": 36.38,
+    "text": "Today's questions are all about nationalities. OK.",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 37.46,
+    "end_s": 39.38,
+    "text": "Jason, are you ready?",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 40.0,
+    "end_s": 41.099,
+    "text": "Yes, I am.",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 41.6,
+    "end_s": 44.92,
+    "text": "So let's play the One Minute Challenge.",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 46.84,
+    "end_s": 47.76,
+    "text": "OK.",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 49.1,
+    "end_s": 53.14,
+    "text": "Coco Goff, the tennis player, is from...",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 53.14,
+    "end_s": 56.6,
+    "text": "The US. She's American. Correct.",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 57.36,
+    "end_s": 58.52,
+    "text": "Question 2.",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 59.02,
+    "end_s": 61.26,
+    "text": "Pyea is from...",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 61.26,
+    "end_s": 65.94,
+    "text": "Pyea? That's a type of food. It's South African.",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 66.54,
+    "end_s": 74.88,
+    "text": "No, I'm sorry. You're wrong. It's a Spanish dish. Of course. Three.",
+    "confidence": 1.0
+   },
+   {
+    "i": 16,
+    "start_s": 76.0,
+    "end_s": 78.82,
+    "text": "Cape Town is a city in...",
+    "confidence": 1.0
+   },
+   {
+    "i": 17,
+    "start_s": 78.82,
+    "end_s": 82.02,
+    "text": "South Africa. It's a South African city.",
+    "confidence": 1.0
+   },
+   {
+    "i": 18,
+    "start_s": 82.86,
+    "end_s": 85.42,
+    "text": "Correct. Next question.",
+    "confidence": 1.0
+   },
+   {
+    "i": 19,
+    "start_s": 86.92,
+    "end_s": 90.16,
+    "text": "Cariocas are people from...",
+    "confidence": 1.0
+   },
+   {
+    "i": 20,
+    "start_s": 90.68,
+    "end_s": 92.3,
+    "text": "I have no idea.",
+    "confidence": 1.0
+   },
+   {
+    "i": 21,
+    "start_s": 93.24,
+    "end_s": 97.58,
+    "text": "Cariocas. They're from Rio de Janeiro in Brazil.",
+    "confidence": 1.0
+   },
+   {
+    "i": 22,
+    "start_s": 98.32,
+    "end_s": 99.5,
+    "text": "I didn't know that.",
+    "confidence": 1.0
+   },
+   {
+    "i": 23,
+    "start_s": 100.7,
+    "end_s": 105.64,
+    "text": "The actor, Yalitza Aparicio, is from...",
+    "confidence": 1.0
+   },
+   {
+    "i": 24,
+    "start_s": 105.64,
+    "end_s": 107.0,
+    "text": "Spain, I think.",
+    "confidence": 1.0
+   },
+   {
+    "i": 25,
+    "start_s": 107.72,
+    "end_s": 111.14,
+    "text": "Sorry, you're wrong. She's Mexican.",
+    "confidence": 1.0
+   },
+   {
+    "i": 26,
+    "start_s": 112.16,
+    "end_s": 113.26,
+    "text": "Last question.",
+    "confidence": 1.0
+   },
+   {
+    "i": 27,
+    "start_s": 114.22,
+    "end_s": 116.34,
+    "text": "Salsa music is...",
+    "confidence": 1.0
+   },
+   {
+    "i": 28,
+    "start_s": 118.62,
+    "end_s": 122.22,
+    "text": "I'm sorry, Jason. We're out of time.",
+    "confidence": 1.0
+   },
+   {
+    "i": 29,
+    "start_s": 123.112,
+    "end_s": 125.4,
+    "text": "Your score is 2.",
+    "confidence": 1.0
+   },
+   {
+    "i": 30,
+    "start_s": 125.96,
+    "end_s": 127.4,
+    "text": "Oh, terrible.",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 3.47,
+  "moved": 5
+ },
+ "p018": {
+  "key": "u1_p18_daniela",
+  "unit_dir": "U1_AllTogether",
+  "archive": "U1_AllTogether\\01_正文篇章\\句级数据_p018.json",
+  "duration_s": 69.62,
+  "n_sent": 16,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 9.29,
+    "end_s": 10.1,
+    "text": "Hi, Tom.",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 10.54,
+    "end_s": 12.66,
+    "text": "Hi, Mark. How's it going?",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 13.34,
+    "end_s": 15.78,
+    "text": "Great, thanks. Nice skateboard.",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 16.48,
+    "end_s": 18.1,
+    "text": "Oh, right. Thanks.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 19.96,
+    "end_s": 21.08,
+    "text": "Who's that?",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 21.711,
+    "end_s": 22.98,
+    "text": "That's Daniela.",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 23.6,
+    "end_s": 24.44,
+    "text": "Who's she?",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 25.04,
+    "end_s": 27.7,
+    "text": "She's new. She's in another class.",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 30.0,
+    "end_s": 31.1,
+    "text": "Where's she from?",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 31.88,
+    "end_s": 37.918,
+    "text": "I'm not sure, but I think she's Spanish. From Madrid, I think.",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 38.34,
+    "end_s": 43.22,
+    "text": "Spanish? Wow. That's awesome. I know.",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 45.02,
+    "end_s": 51.68,
+    "text": "Hi, you two. I'm Daniela. I'm new here. I'm from Manchester.",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 52.62,
+    "end_s": 55.44,
+    "text": "Manchester? But Tom...",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 55.44,
+    "end_s": 58.88,
+    "text": "Okay. Time to go. See you later, Mark.",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 59.466,
+    "end_s": 60.62,
+    "text": "Bye, Daniela.",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 60.9,
+    "end_s": 63.16,
+    "text": "Bye. Is there a problem?",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 6.46,
+  "moved": 4
+ },
+ "p023": {
+  "key": "u2_p23_dialogues",
+  "unit_dir": "U2_ImExcited",
+  "archive": "U2_ImExcited\\01_正文篇章\\句级数据_p023.json",
+  "duration_s": 99.92,
+  "n_sent": 20,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 12.22,
+    "end_s": 15.42,
+    "text": "Why don't you go to bed, Liam?",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 16.06,
+    "end_s": 19.47,
+    "text": "I'm not tired. There's nothing to do here.",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 19.86,
+    "end_s": 22.86,
+    "text": "Well, go somewhere. Go to the cinema.",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 23.499,
+    "end_s": 25.577,
+    "text": "There's nothing good on.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 26.04,
+    "end_s": 27.144,
+    "text": "Read a book.",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 27.144,
+    "end_s": 32.496,
+    "text": "Look. It's okay, Mum. Don't worry.",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 36.9,
+    "end_s": 38.08,
+    "text": "Sandwich, Lucy?",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 38.9,
+    "end_s": 41.66,
+    "text": "Yes, please. Can I have two?",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 42.44,
+    "end_s": 43.24,
+    "text": "Of course.",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 43.78,
+    "end_s": 46.54,
+    "text": "And can I have that pizza, too?",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 47.36,
+    "end_s": 51.76,
+    "text": "Okay. Two sandwiches and a pizza, please.",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 55.76,
+    "end_s": 57.84,
+    "text": "Be careful, Tim.",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 59.38,
+    "end_s": 65.06,
+    "text": "Tim, look! That's Mum's favourite.",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 65.96,
+    "end_s": 67.76,
+    "text": "Oh dear. I'm sorry.",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 68.72,
+    "end_s": 71.44,
+    "text": "Oh, this is really serious.",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 72.4,
+    "end_s": 76.26,
+    "text": "Really? Oh dear. What can I do?",
+    "confidence": 1.0
+   },
+   {
+    "i": 16,
+    "start_s": 80.82,
+    "end_s": 83.6,
+    "text": "Can I open the window, please, Eve?",
+    "confidence": 1.0
+   },
+   {
+    "i": 17,
+    "start_s": 83.6,
+    "end_s": 85.3,
+    "text": "That's a good idea.",
+    "confidence": 1.0
+   },
+   {
+    "i": 18,
+    "start_s": 86.9,
+    "end_s": 90.62,
+    "text": "Ah, that's a lot better.",
+    "confidence": 1.0
+   },
+   {
+    "i": 19,
+    "start_s": 91.336,
+    "end_s": 94.32,
+    "text": "Yes, it's a really nice day.",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 5.6,
+  "moved": 5
+ },
+ "p033": {
+  "key": "u3_p33_family",
+  "unit_dir": "U3_FamilyTime",
+  "archive": "U3_FamilyTime\\01_正文篇章\\句级数据_p033.json",
+  "duration_s": 114.0,
+  "n_sent": 24,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 8.64,
+    "end_s": 11.308,
+    "text": "Tell us about your family, Ina.",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 11.86,
+    "end_s": 15.34,
+    "text": "Well, there's my mother and father.",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 16.36,
+    "end_s": 19.4,
+    "text": "And have you got any brothers or sisters?",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 20.12,
+    "end_s": 28.444,
+    "text": "I've got two brothers and I've also got three cousins, two girls and a boy.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 29.06,
+    "end_s": 31.36,
+    "text": "My cousins are in the US.",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 32.58,
+    "end_s": 34.28,
+    "text": "Do you like your brothers?",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 34.88,
+    "end_s": 37.314,
+    "text": "Yes, they're very good to me.",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 41.28,
+    "end_s": 44.42,
+    "text": "Have you got a big family, Jake?",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 45.08,
+    "end_s": 48.52,
+    "text": "Yes, I have. I've got ten brothers.",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 49.18,
+    "end_s": 54.02,
+    "text": "Ten brothers? Wow! That is a big family.",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 54.48,
+    "end_s": 56.72,
+    "text": "I've got four cousins too.",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 57.28,
+    "end_s": 60.02,
+    "text": "And are they all boys too?",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 60.639,
+    "end_s": 65.34,
+    "text": "No, there are three girls and one boy, George.",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 66.32,
+    "end_s": 69.38,
+    "text": "My cousin George is my best friend.",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 69.88,
+    "end_s": 73.86,
+    "text": "I love football and he's a football fan too.",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 74.88,
+    "end_s": 77.24,
+    "text": "Do your brothers like football?",
+    "confidence": 1.0
+   },
+   {
+    "i": 16,
+    "start_s": 77.8,
+    "end_s": 81.6,
+    "text": "No, they don't. They all like basketball.",
+    "confidence": 1.0
+   },
+   {
+    "i": 17,
+    "start_s": 86.1,
+    "end_s": 86.98,
+    "text": "Tell us about your family.",
+    "confidence": 1.0
+   },
+   {
+    "i": 18,
+    "start_s": 86.98,
+    "end_s": 90.34,
+    "text": "So, Maria, tell us about your family.",
+    "confidence": 1.0
+   },
+   {
+    "i": 19,
+    "start_s": 91.1,
+    "end_s": 95.3,
+    "text": "I've got a small family. I've got one sister.",
+    "confidence": 1.0
+   },
+   {
+    "i": 20,
+    "start_s": 96.0,
+    "end_s": 99.62,
+    "text": "She's called Antonia and there's my grandmother.",
+    "confidence": 1.0
+   },
+   {
+    "i": 21,
+    "start_s": 100.6,
+    "end_s": 102.52,
+    "text": "Is your grandmother nice?",
+    "confidence": 1.0
+   },
+   {
+    "i": 22,
+    "start_s": 103.46,
+    "end_s": 109.26,
+    "text": "Oh yes, she's great. She's very kind and very patient.",
+    "confidence": 1.0
+   },
+   {
+    "i": 23,
+    "start_s": 109.8,
+    "end_s": 110.86,
+    "text": "We love her.",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 3.14,
+  "moved": 5
+ },
+ "p036": {
+  "key": "u3_p36_photos",
+  "unit_dir": "U3_FamilyTime",
+  "archive": "U3_FamilyTime\\01_正文篇章\\句级数据_p036.json",
+  "duration_s": 64.39,
+  "n_sent": 16,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 7.56,
+    "end_s": 11.18,
+    "text": "Wow, what a cool photo! Thank you!",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 11.72,
+    "end_s": 13.28,
+    "text": "Who are all those people?",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 13.74,
+    "end_s": 18.14,
+    "text": "That's my family of course, on holiday in Spain.",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 19.0,
+    "end_s": 20.18,
+    "text": "Ah, okay.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 20.98,
+    "end_s": 26.34,
+    "text": "So, those are your parents and that's your brother?",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 26.96,
+    "end_s": 29.06,
+    "text": "No, that's my cousin.",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 29.8,
+    "end_s": 33.86,
+    "text": "My brother is this one here. Really?",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 34.76,
+    "end_s": 38.74,
+    "text": "Your cousin looks like your brother. I know.",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 39.44,
+    "end_s": 40.554,
+    "text": "Excuse me?",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 41.26,
+    "end_s": 42.14,
+    "text": "Hello everyone.",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 43.073,
+    "end_s": 43.98,
+    "text": "Oh, hello.",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 44.66,
+    "end_s": 48.32,
+    "text": "Abby, it's almost dinner time. Oh, right.",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 49.12,
+    "end_s": 50.1,
+    "text": "Just a minute, Mum.",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 50.54,
+    "end_s": 53.54,
+    "text": "Come on, Paul. Let's go. Sorry.",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 53.54,
+    "end_s": 57.86,
+    "text": "Let's look at more photos tomorrow. Sure.",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 58.48,
+    "end_s": 61.02,
+    "text": "That sounds great. See you, Abby.",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 3.37,
+  "moved": 2
+ },
+ "p041": {
+  "key": "u4_p41_directions",
+  "unit_dir": "U4_CityLife",
+  "archive": "U4_CityLife\\01_正文篇章\\句级数据_p041.json",
+  "duration_s": 114.63,
+  "n_sent": 29,
+  "sentences": [
+   {
+    "i": 0,
+    "start_s": 8.98,
+    "end_s": 11.22,
+    "text": "Excuse me? Yes?",
+    "confidence": 1.0
+   },
+   {
+    "i": 1,
+    "start_s": 11.94,
+    "end_s": 15.98,
+    "text": "Where's the... Please? OK.",
+    "confidence": 1.0
+   },
+   {
+    "i": 2,
+    "start_s": 16.6,
+    "end_s": 20.14,
+    "text": "Go down this street and turn right.",
+    "confidence": 1.0
+   },
+   {
+    "i": 3,
+    "start_s": 20.72,
+    "end_s": 23.44,
+    "text": "That's East Street. OK.",
+    "confidence": 1.0
+   },
+   {
+    "i": 4,
+    "start_s": 24.26,
+    "end_s": 28.74,
+    "text": "It's in East Street next to the park. Great.",
+    "confidence": 1.0
+   },
+   {
+    "i": 5,
+    "start_s": 28.74,
+    "end_s": 30.28,
+    "text": "Thanks a lot.",
+    "confidence": 1.0
+   },
+   {
+    "i": 6,
+    "start_s": 36.12,
+    "end_s": 37.64,
+    "text": "Excuse me?",
+    "confidence": 1.0
+   },
+   {
+    "i": 7,
+    "start_s": 38.3,
+    "end_s": 39.8,
+    "text": "Can you help me, please?",
+    "confidence": 1.0
+   },
+   {
+    "i": 8,
+    "start_s": 40.46,
+    "end_s": 42.74,
+    "text": "I want to go to the...",
+    "confidence": 1.0
+   },
+   {
+    "i": 9,
+    "start_s": 43.38,
+    "end_s": 44.22,
+    "text": "Of course!",
+    "confidence": 1.0
+   },
+   {
+    "i": 10,
+    "start_s": 45.02,
+    "end_s": 48.26,
+    "text": "Just walk down here, down High Street.",
+    "confidence": 1.0
+   },
+   {
+    "i": 11,
+    "start_s": 48.92,
+    "end_s": 52.26,
+    "text": "Take the second left into Green Street.",
+    "confidence": 1.0
+   },
+   {
+    "i": 12,
+    "start_s": 52.68,
+    "end_s": 54.02,
+    "text": "And it's on your right.",
+    "confidence": 1.0
+   },
+   {
+    "i": 13,
+    "start_s": 54.76,
+    "end_s": 55.9,
+    "text": "Oh, right.",
+    "confidence": 1.0
+   },
+   {
+    "i": 14,
+    "start_s": 55.9,
+    "end_s": 58.1,
+    "text": "But is it far?",
+    "confidence": 1.0
+   },
+   {
+    "i": 15,
+    "start_s": 58.84,
+    "end_s": 59.84,
+    "text": "Can I get a bus?",
+    "confidence": 1.0
+   },
+   {
+    "i": 16,
+    "start_s": 60.4,
+    "end_s": 62.52,
+    "text": "Oh, no. Don't take a bus.",
+    "confidence": 1.0
+   },
+   {
+    "i": 17,
+    "start_s": 63.18,
+    "end_s": 66.74,
+    "text": "It's very easy to walk there. Three minutes.",
+    "confidence": 1.0
+   },
+   {
+    "i": 18,
+    "start_s": 67.38,
+    "end_s": 71.04,
+    "text": "Oh, thank you very much. You're welcome.",
+    "confidence": 1.0
+   },
+   {
+    "i": 19,
+    "start_s": 77.54,
+    "end_s": 80.72,
+    "text": "Hello. Can you help me? Sure.",
+    "confidence": 1.0
+   },
+   {
+    "i": 20,
+    "start_s": 81.26,
+    "end_s": 83.34,
+    "text": "Is there a good...",
+    "confidence": 1.0
+   },
+   {
+    "i": 21,
+    "start_s": 83.34,
+    "end_s": 84.38,
+    "text": "Near here?",
+    "confidence": 1.0
+   },
+   {
+    "i": 22,
+    "start_s": 84.38,
+    "end_s": 86.62,
+    "text": "Yes, there is.",
+    "confidence": 1.0
+   },
+   {
+    "i": 23,
+    "start_s": 87.7,
+    "end_s": 92.18,
+    "text": "Go down here and turn left into Green Street.",
+    "confidence": 1.0
+   },
+   {
+    "i": 24,
+    "start_s": 93.08,
+    "end_s": 95.52,
+    "text": "Go past the shopping centre,",
+    "confidence": 1.0
+   },
+   {
+    "i": 25,
+    "start_s": 95.94,
+    "end_s": 99.02,
+    "text": "and there's a nice place on the left.",
+    "confidence": 1.0
+   },
+   {
+    "i": 26,
+    "start_s": 100.0,
+    "end_s": 102.94,
+    "text": "It's only four or five minutes from here.",
+    "confidence": 1.0
+   },
+   {
+    "i": 27,
+    "start_s": 103.76,
+    "end_s": 106.34,
+    "text": "Brilliant. I'm really hungry.",
+    "confidence": 1.0
+   },
+   {
+    "i": 28,
+    "start_s": 107.14,
+    "end_s": 114.6,
+    "text": "Thanks a lot. No problem. Thank you. Sure. Hello.",
+    "confidence": 1.0
+   }
+  ],
+  "conf_mean": 1.0,
+  "conf_min": 1.0,
+  "conf_low": 0,
+  "tail_gap": 0.03,
+  "moved": 1
+ }
+}
