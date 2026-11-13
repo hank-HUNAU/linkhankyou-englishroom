@@ -39,10 +39,12 @@ npm run test:list    # 列出全部套件
 | `教师端.html` | 班级、学生账号、任务下发、学情汇总、题库分析 |
 | `login.html` | 登录 / 注册入口 |
 | `assets/p*.mp3` | 课文音频 49 个 / 62 MB（U1–U12 每单元 4 篇 + p202），运行时唯一音频依赖 |
-| `assets/word_audio/` | 词汇音频 1057 个 / 17 MB（正典在归档 `00_词汇音频/`，规约 `_VOCAB_WORKFLOW.md`） |
+| `assets/word_audio/` | 词汇音频 **1210 个 / 19 MB**（正典在归档 `00_词汇音频/`，两侧数量一致；规约 `_VOCAB_WORKFLOW.md`） |
 | `_align_unit.py` + `_unit_N_source.json` | U5–U12 正课文句级时间轴**唯一生产入口**（`--unit N` 全自动）；规约 `_ALIGNMENT_WORKFLOW.md` |
 | `_align_u14_rerun.py` / `_apply_u14_rerun.py` | **U1–U4 情况1 拉齐重跑**（2026-11-12）：复用 `_u14_words.json` 词级缓存，走 aligner 词级校准+静音吸附产出逐句 confidence；双写归档+timeline。须用 `.venv-align/Scripts/python.exe`；aligner 实际在 `D:\我的文档\audio-aligner-v4.0.0`（脚本旧路径 `D:\Trae Project\...` 已失效）；pydub 需显式指定 `ffmpeg/` 的 converter/ffprobe。正典不加 confidence 字段 |
 | `_gen_u14_confidence.py` | **逐句对齐置信度清单**：按篇章→句子罗列 LCS置信度/窗内词数配比/词边界残差/分级 A-B-C，产出 `reports/句级对齐置信度_U1-U4_情况1.{csv,json,html}`；口径注明 LCS 因同源恒 1.000、无鉴别力 |
+| `_gen_words_cache.py` | **补 ASR 词级证据（只读音频）**：U7/U8/U12 早期无 `_unit_N_words.json`，用它只跑 faster-whisper 词级转写，**绝不重跑对齐/不写 timeline/不碰音频**（前后 md5 断言）。产出 `_unit_N_words.json`（旧格式，供 `--skip-asr`）+ `_unit_N_asr.json`（富格式，含 segments/duration）。须用 `.venv-align/Scripts/python.exe`；本机无 HF 缓存 small 模型 → 直传本地目录 `D:\我的文档\audio-aligner-v4.0.0\dist\AudioAlignerVIP ver4.0.0\models\faster-whisper-small` |
+| `_verify_alignment_all.py` | **全站 48 篇可机检对齐核查**：自动适配三类词级证据（`_u14_words.json` / `_unit_N_words.json` / `_unit_N_asr.json`），做逐句词数配比·词边界残差·A/B/C 分级 + 覆盖率 + 双写一致性；**有词间隙只列线索，不自动判漏句**（须按 `_ALIGNMENT_WORKFLOW.md` §4 三方对账）。产出 `reports/全站对齐质量核查_48篇_2026-11-14.{_篇章.csv,_逐句.csv,json,md}`。只读 |
 | `_extract_u14_text.py` + `_align_u14.py` + `_merge_u14.py` | U1–U4 正课文三件套（按课次教师用书提取 → 同管线对齐 → 校验/音频/timeline 合入）；每单元恰 4 篇与 U5–U12 同构 |
 | `_VOCAB_WORKFLOW.md` | **词汇四链权威规约**（篇章词表/主题词表/词音频/诊断页） |
 | `_CHUNK_WORKFLOW.md` | **语块权威规约**（两车道提取/人工审校定稿/三道校验/文献依据 DOI 清单，2026-10-28 p048 试点起；2026-10-31 起语块不上线、改本地教师资源） |
@@ -82,7 +84,7 @@ npm run test:list    # 列出全部套件
 
 ### 时间轴是单一数据源（重要）
 
-`assets/timeline.json` 是 **49 篇 / 1153 句**的唯一权威时间轴（U1–U12 每单元恰 4 篇正课文 + p202 深链篇；U1–U4 于 2026-10-24 统一标准补入），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
+`assets/timeline.json` 是 **49 篇 / 1141 句**的唯一权威时间轴（2026-11-14 实测；旧值 1153 为报幕清理前历史快照）（U1–U12 每单元恰 4 篇正课文 + p202 深链篇；U1–U4 于 2026-10-24 统一标准补入），index.html 里那段带 `==TL-DATA-START==` / `==TL-DATA-END==` 标记的 `DB.TL` 是它的投影。`_timeline_check.js` 会逐条比对两者并已进核心门禁，**不要手改 index.html 里的时间轴**，改 `assets/timeline.json` 后同步内联块。
 
 **新增正课文时间轴的唯一入口是 `_align_unit.py --unit N`**（全自动，无人耳终审），权威规约见 `_ALIGNMENT_WORKFLOW.md`：写 `_unit_N_source.json`（正课文清单 + 源文本 + 音频映射）后一键跑完 ASR→对齐→合入→同步→门禁。
 

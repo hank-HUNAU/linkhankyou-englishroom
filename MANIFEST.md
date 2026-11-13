@@ -25,7 +25,7 @@
 | `.nojekyll` | 0 | 禁用 Jekyll，GitHub Pages 按原样伺服 |
 | `assets/p*.mp3` | 49 个 / 62 MB | 课文音频（U1–U12 每单元 4 篇 + p202），点读/跟读唯一音源 |
 | `assets/word_audio/` | 1057 个 / 17 MB | 词汇音频（正典归档 `00_词汇音频/`），规约 `_VOCAB_WORKFLOW.md` §2.3 |
-| `assets/timeline.json` | 164 KB | **句级时间轴唯一权威源**（49 篇 / 1153 句），`_timeline_check.js` 盯一致性 |
+| `assets/timeline.json` | 164 KB | **句级时间轴唯一权威源**（49 篇 / 1141 句，2026-11-14 订正；旧值 1153 为报幕清理前快照），`_timeline_check.js` 盯一致性 |
 
 ## B. 依赖 / 开发（回归门禁 · 构建）
 

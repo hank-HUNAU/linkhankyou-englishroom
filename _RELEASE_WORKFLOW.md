@@ -62,8 +62,10 @@
 | `nce2-echoloop` | hank-HUNAU/nce2-echoloop | 新概念2 听读站（Pages） |
 | `think1-echoloop` | hank-HUNAU/think1-echoloop | THiNK 1 听读站数据底座（Pages） |
 
-## 7. 当前状态（2026-10-24）
+## 7. 当前状态（2026-11-14 订正）
 
-- TH!NK 远端 main `0e1bece`：U1–U4 定型（每单元恰 4 篇）+ timeline 49 键 / 1153 句 + assets 49 mp3；
-- 规约三件套齐备：`_ALIGNMENT_WORKFLOW.md`（篇章）+ `_VOCAB_WORKFLOW.md`（词汇）+ 本文（落库上线）；
-- U1–U4 站点激活（UNITS live + 篇章页生成）待用户指令，激活后须按本文 §3 走发布检查单。
+- 历史基线 `0e1bece`（2026-10-24）：U1–U4 定型（每单元恰 4 篇）+ timeline 49 键 / **当时 1153 句** + assets 49 mp3。
+  **注意：1153 / 1130 是报幕清理前的历史快照**；现行 timeline 实测 **49 篇 / 1141 句**（48 篇 1118 + p202 23），
+  与译文 49 篇 / 1141 句一致。核对口径以 `node _timeline_check.js` 输出为准。
+- 规约五件套齐备：`_ALIGNMENT_`（篇章）+ `_VOCAB_`（词汇）+ 本文（落库上线）+ `_CHUNK_`（语块）+ `_YIQUN_WORKFLOW.md`（意群）。
+- U1–U4 站点已于 2026-10-25 按用户令激活（UNITS `live:true` + 16 篇章页），发布检查单已走完。

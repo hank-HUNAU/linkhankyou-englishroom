@@ -21,8 +21,8 @@
 | 资产 | 位置 | GitHub |
 |---|---|---|
 | **正课文清单三件套**（48 正课文 + 36 非正文视频） | [`../reports/正课文清单.csv`](../reports/正课文清单.csv) · [`.md`](../reports/正课文清单.md) · [`.html`](../reports/正课文清单.html) | ❌未推送 |
-| **正文篇章清单 U1-U12**（48 篇 / 1130 句 + p202，归档×timeline 对账） | [`../reports/正文篇章清单_U1-U12.md`](../reports/正文篇章清单_U1-U12.md) | ❌未推送 |
-| 句级时间轴（49 篇 / 1153 句，唯一权威） | [`../assets/timeline.json`](../assets/timeline.json) | ✅已推送 |
+| **正文篇章清单 U1-U12**（48 篇 / 1118 句 + p202 23 句，归档×timeline 对账） | [`../reports/正文篇章清单_U1-U12.md`](../reports/正文篇章清单_U1-U12.md) | ❌未推送 |
+| 句级时间轴（49 篇 / 1141 句，唯一权威；2026-11-14 订正，旧值 1153 为报幕清理前快照） | [`../assets/timeline.json`](../assets/timeline.json) | ✅已推送 |
 | 课文音频（49 篇 p*.mp3 / 62 MB） | [`../assets/`](../assets/) | ✅已推送 |
 | SB 原版视频（纪录片/语法Rap/播客/文化视频，36 mp4） | `../../Student's Book Video 原版/`（库外） | ❌未推送 |
 | 单元篇章清单（12 单元标题/页码） | [`../单元篇章清单_unit1-12.html`](../单元篇章清单_unit1-12.html) | ❌未推送 |

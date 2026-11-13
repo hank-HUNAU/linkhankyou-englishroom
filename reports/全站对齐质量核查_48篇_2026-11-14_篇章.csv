@@ -1,0 +1,49 @@
+﻿unit,page,key,title,type,n_sent,n_words,coverage,n_A,n_B,n_C,d_start_max,d_end_max,ratio_min,ratio_max,n_gaps_with_words,gap_words,tail_words,double_write,evidence,grade,duration
+U10,p092,,She was the first woman in space,阅读A,18,237,0.932,18,0,0,0.026,0.136,0.917,1.333,1,14,0,OK,_unit_10_words.json:p092,A,136.88
+U10,p095,,A prize-giving at school,听力,20,221,0.964,20,0,0,0.0,0.134,1.0,1.091,1,9,0,OK,_unit_10_words.json:p095,A,126.24
+U10,p096,,Sports achievers,阅读B,24,251,0.948,24,0,0,0.022,0.147,0.75,2.0,1,9,0,OK,_unit_10_words.json:p096,A,149.14
+U10,p099,,Statues around the world,文化,26,297,0.973,26,0,0,0.0,0.147,1.0,1.267,1,8,0,OK,_unit_10_words.json:p099,A,177.02
+U11,p102,,Dolphins to the rescue,阅读A,20,268,0.959,20,0,0,0.0,0.147,1.0,1.053,1,11,0,OK,_unit_11_words.json:p102,A,133.32
+U11,p105,,Josh's holiday,听力,31,258,0.969,31,0,0,0.08,0.149,1.0,1.125,1,9,0,OK,_unit_11_words.json:p105,A,134.4
+U11,p106,,Extinct animals,阅读B,27,243,0.963,27,0,0,0.111,0.123,1.0,1.143,1,9,0,OK,_unit_11_words.json:p106,A,136.66
+U11,p108,,Sequencing a story,口语,16,163,0.963,16,0,0,0.0,0.15,1.0,1.111,1,8,0,OK,_unit_11_words.json:p108,A,90.86
+U12,p111,u12_p111_greatrace,The great race,阅读A,24,288,0.983,12,12,0,0.652,0.685,0.833,1.083,1,7,0,OK,_unit_12_asr.json:p111,B,146.52
+U12,p113,u12_p113_trainstation,At the train station,听力,42,237,0.937,18,24,0,0.562,0.53,0.0,2.0,1,9,0,OK,_unit_12_asr.json:p113,B,119.72
+U12,p114,u12_p114_favjourney,My favourite journey,阅读B,33,322,0.969,14,19,0,0.683,0.73,0.8,1.25,1,7,0,OK,_unit_12_asr.json:p114,B,174.34
+U12,p117,u12_p117_transport,Transport around the world,文化,30,299,0.973,10,20,0,0.819,0.534,0.8,1.25,1,7,0,OK,_unit_12_asr.json:p117,B,175.62
+U1,p012,u1_p12_website,All together (website),阅读A,40,184,0.967,40,0,0,0.047,0.149,1.0,3.0,1,7,0,OK,_u14_words.json:u1_p12_website,A,141.45
+U1,p015,u1_p15_quiz,One-Minute Challenge,听力,31,173,0.971,31,0,0,0.028,0.079,1.0,2.0,1,7,0,OK,_u14_words.json:u1_p15_quiz,A,130.87
+U1,p016,u1_p16_tshirt,Nice T-shirt,阅读B,19,108,0.954,19,0,0,0.0,0.149,0.778,1.25,1,7,0,OK,_u14_words.json:u1_p16_tshirt,A,71.05
+U1,p018,u1_p18_daniela,Where is Daniela from?,口语,16,84,0.917,16,0,0,0.134,0.138,1.0,1.333,1,8,0,OK,_u14_words.json:u1_p18_daniela,A,69.62
+U2,p020,u2_p20_messages,Text messages,阅读A,24,158,0.892,24,0,0,0.0,0.138,1.0,1.0,2,13,0,OK,_u14_words.json:u2_p20_messages,A,105.95
+U2,p023,u2_p23_dialogues,Four dialogues,听力,20,118,0.907,20,0,0,0.121,0.117,1.0,1.333,1,10,0,OK,_u14_words.json:u2_p23_dialogues,A,99.92
+U2,p024,u2_p24_birthday,Ruby's birthday,阅读B,25,208,0.942,24,1,0,0.036,0.47,0.875,1.125,1,7,4,OK,_u14_words.json:u2_p24_birthday,B,147.04
+U2,p027,u2_p027_masks,Masks from around the world,文化,21,209,0.923,21,0,0,0.0,0.14,1.0,1.4,1,13,0,OK,_u14_words.json:u2_p027_masks,A,134.22
+U3,p030,u3_p30_families,Famous families,阅读A,19,162,0.92,19,0,0,0.0,0.146,1.0,1.714,1,14,0,OK,_u14_words.json:u3_p30_families,A,110.16
+U3,p033,u3_p33_family,Three people talking,听力,24,178,0.966,24,0,0,0.001,0.144,1.0,1.571,1,10,0,OK,_u14_words.json:u3_p33_family,A,114.0
+U3,p034,u3_p34_photo,Ellie's photo,阅读B,14,176,0.949,14,0,0,0.047,0.141,1.0,1.143,1,9,0,OK,_u14_words.json:u3_p34_photo,A,107.7
+U3,p036,u3_p36_photos,Paul and Carla,口语,16,95,0.916,16,0,0,0.007,0.094,1.0,1.0,1,8,0,OK,_u14_words.json:u3_p36_photos,A,64.39
+U4,p038,u4_p38_brochure,Great cities,阅读A,17,217,0.935,17,0,0,0.0,0.142,0.923,1.25,1,13,0,OK,_u14_words.json:u4_p38_brochure,A,129.23
+U4,p041,u4_p41_directions,Asking for directions,听力,29,166,0.952,29,0,0,0.0,0.0,1.0,1.5,1,10,0,OK,_u14_words.json:u4_p41_directions,A,114.63
+U4,p042,u4_p42_shop,Buying in a shop,阅读B,28,198,0.944,28,0,0,0.026,0.146,0.75,2.0,1,8,0,OK,_u14_words.json:u4_p42_shop,A,147.15
+U4,p045,u4_p45_parks,Parks around the world,文化,18,246,0.841,18,0,0,0.0,0.261,0.714,1.364,5,41,0,OK,_u14_words.json:u4_p45_parks,A,156.71
+U5,p048,u5_p048_robotics_club,Robotics Club is cool!,阅读A,22,223,0.951,22,0,0,0.0,0.088,1.0,1.0,1,11,0,OK,_unit_5_words.json:p048,A,136.36
+U5,p051,u5_p051_favourite_technology,Favourite technology,听力,20,235,0.945,20,0,0,0.009,0.146,1.0,1.0,1,10,0,OK,_unit_5_words.json:p051,A,128.9
+U5,p052,u5_p052_tech_break,Do you need a tech break?,阅读B,8,104,0.587,5,0,3,0.379,0.309,0.077,1.0,5,44,0,OK,_unit_5_words.json:p052,C,88.92
+U5,p054,u5_p054_school_concert,The school concert,口语,15,135,0.941,15,0,0,0.116,0.088,1.0,1.0,1,8,0,OK,_unit_5_words.json:p054,A,83.08
+U6,p056,u6_p056_real_friend,A real friend,阅读A,31,261,0.966,31,0,0,0.0,0.26,0.75,1.5,1,10,0,OK,_unit_6_words.json:p056,A,145.76
+U6,p059,u6_p059_present_annie,A present for Annie,听力,19,238,0.95,19,0,0,0.004,0.141,1.0,2.0,1,9,2,OK,_unit_6_words.json:p059,A,130.14
+U6,p060,u6_p060_new_teacher,The new teacher,口语对话,21,207,0.966,21,0,0,0.028,0.13,1.0,1.0,1,7,0,OK,_unit_6_words.json:p060,A,112.84
+U6,p063,u6_p063_welcoming_people,Welcoming people around the world,文化,20,252,0.944,20,0,0,0.0,0.148,0.846,1.0,1,12,2,OK,_unit_6_words.json:p063,A,144.12
+U7,p067,u7_p67_sportwonders,Sport wonders!,阅读A,19,252,0.968,7,12,0,0.59,0.684,1.0,1.143,1,9,0,OK,_unit_7_asr.json:p067,B,149.45
+U7,p069,u7_p69_listening,Making arrangements,听力,21,174,0.943,9,12,0,0.58,0.479,0.917,1.5,1,10,0,OK,_unit_7_asr.json:p069,B,102.82
+U7,p070,u7_p70_last4min,An amazing last four minutes,阅读B,23,253,0.968,4,19,0,0.529,0.765,1.0,1.2,1,12,0,OK,_unit_7_asr.json:p070,B,152.32
+U7,p072,u7_p72_rainyday,Making suggestions,口语,15,158,0.949,4,11,0,0.463,0.562,1.0,1.0,1,8,0,OK,_unit_7_asr.json:p072,B,95.42
+U8,p075,u8_p075_musicintheforest,#Music in the forest,阅读A,32,201,0.886,23,9,0,0.94,0.208,1.0,1.0,1,16,0,OK,_unit_8_asr.json:p075,B,152.45
+U8,p077,u8_p077_musicians,Musicians around the world,听力,27,231,0.961,25,2,0,0.52,0.168,1.0,1.0,1,9,0,OK,_unit_8_asr.json:p077,B,139.42
+U8,p078,u8_p078_ateenagedj,A teenage DJ,阅读B,25,200,0.965,24,1,0,0.48,0.144,0.889,1.4,1,7,0,OK,_unit_8_asr.json:p078,B,102.03
+U8,p080,u8_p080_dances,Dances around the world,文化,22,235,0.906,19,3,0,0.9,0.116,0.929,1.083,3,21,0,OK,_unit_8_asr.json:p080,B,148.09
+U9,p085,,Kitchen Kids,阅读A,30,257,0.977,29,1,0,0.0,0.738,0.889,1.2,1,9,0,OK,_unit_9_words.json:p085,B,134.92
+U9,p087,,Cooking,听力,28,187,0.92,28,0,0,0.037,0.146,1.0,1.0,1,15,0,OK,_unit_9_words.json:p087,A,90.76
+U9,p088,,In a restaurant,阅读B,27,142,0.894,27,0,0,0.028,0.035,0.5,1.5,4,17,0,OK,_unit_9_words.json:p088,A,84.04
+U9,p090,,Offering and asking for help,口语,21,199,0.97,21,0,0,0.007,0.111,0.667,1.25,1,8,0,OK,_unit_9_words.json:p090,A,113.78
