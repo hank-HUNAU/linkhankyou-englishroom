@@ -468,7 +468,59 @@ BOOK_EXTRA 声明                   98 个全可 JSON 解析，含 52 的 66 个
 """ % audio_md5_repo
     put_text("01_交付说明/本轮工作与结论_2026-11-14.md", conclusion)
 
-    # 4) 扫描 DEST 生成清单（排除 3 件自指产物）
+    # 4) 先写「校验记录」——必须在清单扫描之前完成，
+    #    否则它自身会漏进 MANIFEST.csv / SHA256SUMS.txt（2026-11-14 实测缺陷）。
+    chk = [u"# 校验记录 · Think 0_落地", u"",
+           u"> 生成时间：%s" % now, u"",
+           u"## 一、复制一致性（源文件 vs 落地副本）", u"",
+           u"- 纳入源文件：**%d** 个，逐文件比对「字节数 + md5」。" % len(verify_rows),
+           u"- 一致：**%d**；不一致：**%d** %s。" % (
+               len(verify_rows) - len(bad), len(bad), ("（" + ", ".join(bad) + "）") if bad else ""),
+           u"- 缺失跳过：**%d** %s。" % (len(missing), ("（见下）" if missing else "")), u""]
+    if missing:
+        chk += [u"| 目标路径 | 期望源文件 |", u"|---|---|"]
+        for d, s in missing:
+            chk.append(u"| `%s` | `%s` |" % (d, s))
+        chk.append(u"")
+    hist_md5 = "69fa7bf91deeb25ca25f7578fa53cb15"
+    size_repo = os.path.getsize(audio_repo) if os.path.isfile(audio_repo) else 0
+    size_arch = os.path.getsize(audio_arch) if os.path.isfile(audio_arch) else 0
+    chk += [u"## 二、音频只增不改（硬规约）", u"",
+            u"| 副本 | 字节 | md5 | 角色 |", u"|---|---:|---|---|",
+            u"| `04_仓库运行时与正典/assets/p052.mp3` | %s | `%s` | 站点部署副本（64k 单声道转码） |" % (format(size_repo, ","), audio_md5_repo),
+            u"| `05_归档教学资源/U5_FreeTime/01_正文篇章/p052.mp3` | %s | `%s` | 归档原始正本（未转码） |" % (format(size_arch, ","), audio_md5_arch),
+            u"| 方案 A 前后（历史记录，站点副本） | — | `%s` | 基线 |" % hist_md5, u"",
+            u"**口径**：两份 mp3 是**同一段录音的不同编码**（归档 1,476,553 B 原始 / 站点 739,694 B 转码），",
+            u"md5 必然不同，属预期而非缺陷。硬规约「音频只增不改」校验的是**同一副本前后不变**：", u"",
+            u"- 站点副本当前 md5 与历史基线：%s" % (
+                "**一致 ✓**（方案 A 与本打包过程均未改动音频）" if audio_md5_repo == hist_md5 else "**不一致 ✗ 需立即复核**"),
+            u"- 归档副本 md5 与站点副本：%s（本轮不重编码，保持原状）" % (
+                "相同" if audio_md5_repo == audio_md5_arch else "不同（预期）"), u"",
+            u"## 三、正典双写（硬规约）", u"",
+            u"由 `04_仓库运行时与正典/assets/timeline.json` 与 "
+            u"`05_归档教学资源/U5_FreeTime/01_正文篇章/句级数据_p052.json` 现场读取核对：", u""]
+    try:
+        tl = json.load(io.open(os.path.join(DEST, "04_仓库运行时与正典", "assets", "timeline.json"), "r", encoding="utf-8"))
+        arc = json.load(io.open(os.path.join(DEST, "05_归档教学资源", "U5_FreeTime", "01_正文篇章", "句级数据_p052.json"), "r", encoding="utf-8"))
+        tl52 = tl.get("p052", [])
+        arc52 = arc.get("sentences", arc if isinstance(arc, list) else [])
+        chk += [u"- timeline 篇章数 / 总句数：**%d / %d**" % (len(tl), sum(len(v) for v in tl.values())),
+                u"- timeline p052：**%d 句**；归档 p052：**%d 句** → %s" % (
+                    len(tl52), len(arc52), "一致 ✓" if len(tl52) == len(arc52) == 5 else "不一致，需复核！")]
+    except Exception as e:
+        chk.append(u"- 现场读取失败：%s（以 `reports/p052_方案A处置与复检_2026-11-14.md` 为准）" % e)
+    chk += [u"",
+            u"## 四、校验产物自指约定", u"",
+            u"`MANIFEST.csv` / `MANIFEST.md` / `SHA256SUMS.txt` 三件为派生清单，",
+            u"其自身不列入 SHA256SUMS（避免自指循环）；**其余全部文件**（含本校验记录、README、本轮工作与结论）",
+            u"均逐文件列入，明细见 `MANIFEST.csv` / `SHA256SUMS.txt`。", u"",
+            u"复核命令（在落地文件夹内，PowerShell）：", u"",
+            u"```powershell", u"Get-Content SHA256SUMS.txt | ForEach-Object {",
+            u"  $h,$p = $_ -split '  ',2; $a=(Get-FileHash $p -Algorithm SHA256).Hash.ToLower()",
+            u"  if ($a -ne $h) { Write-Host \"MISMATCH $p\" }", u"}", u"```", u""]
+    put_text("01_交付说明/校验记录.md", u"\n".join(chk) + u"\n")
+
+    # 5) 扫描 DEST 生成清单（此时所有交付说明均已定稿；排除 3 件自指产物）
     SELF = {"MANIFEST.csv", "MANIFEST.md", "SHA256SUMS.txt"}
     all_files = []
     for dirpath, _dirs, files in os.walk(DEST):
@@ -541,56 +593,6 @@ BOOK_EXTRA 声明                   98 个全可 JSON 解析，含 52 的 66 个
                u"- `Think F 教材资产/` = `%s`" % ARCH,
                u"- `.workbuddy/memory/` = `%s`" % MEM, u""]
     put_text("MANIFEST.md", u"\n".join(man_md) + u"\n")
-
-    # 5) 校验记录
-    chk = [u"# 校验记录 · Think 0_落地", u"",
-           u"> 生成时间：%s" % now, u"",
-           u"## 一、复制一致性（源文件 vs 落地副本）", u"",
-           u"- 纳入源文件：**%d** 个，逐文件比对「字节数 + md5」。" % len(verify_rows),
-           u"- 一致：**%d**；不一致：**%d** %s。" % (
-               len(verify_rows) - len(bad), len(bad), ("（" + ", ".join(bad) + "）") if bad else ""),
-           u"- 缺失跳过：**%d** %s。" % (len(missing), ("（见下）" if missing else "")), u""]
-    if missing:
-        chk += [u"| 目标路径 | 期望源文件 |", u"|---|---|"]
-        for d, s in missing:
-            chk.append(u"| `%s` | `%s` |" % (d, s))
-        chk.append(u"")
-    hist_md5 = "69fa7bf91deeb25ca25f7578fa53cb15"
-    size_repo = os.path.getsize(audio_repo) if os.path.isfile(audio_repo) else 0
-    size_arch = os.path.getsize(audio_arch) if os.path.isfile(audio_arch) else 0
-    chk += [u"## 二、音频只增不改（硬规约）", u"",
-            u"| 副本 | 字节 | md5 | 角色 |", u"|---|---:|---|---|",
-            u"| `04_仓库运行时与正典/assets/p052.mp3` | %s | `%s` | 站点部署副本（64k 单声道转码） |" % (format(size_repo, ","), audio_md5_repo),
-            u"| `05_归档教学资源/U5_FreeTime/01_正文篇章/p052.mp3` | %s | `%s` | 归档原始正本（未转码） |" % (format(size_arch, ","), audio_md5_arch),
-            u"| 方案 A 前后（历史记录，站点副本） | — | `%s` | 基线 |" % hist_md5, u"",
-            u"**口径**：两份 mp3 是**同一段录音的不同编码**（归档 1,476,553 B 原始 / 站点 739,694 B 转码），",
-            u"md5 必然不同，属预期而非缺陷。硬规约「音频只增不改」校验的是**同一副本前后不变**：", u"",
-            u"- 站点副本当前 md5 与历史基线：%s" % (
-                "**一致 ✓**（方案 A 与本打包过程均未改动音频）" if audio_md5_repo == hist_md5 else "**不一致 ✗ 需立即复核**"),
-            u"- 归档副本 md5 与站点副本：%s（本轮不重编码，保持原状）" % (
-                "相同" if audio_md5_repo == audio_md5_arch else "不同（预期）"), u"",
-            u"## 三、正典双写（硬规约）", u"",
-            u"由 `04_仓库运行时与正典/assets/timeline.json` 与 "
-            u"`05_归档教学资源/U5_FreeTime/01_正文篇章/句级数据_p052.json` 现场读取核对：", u""]
-    try:
-        tl = json.load(io.open(os.path.join(DEST, "04_仓库运行时与正典", "assets", "timeline.json"), "r", encoding="utf-8"))
-        arc = json.load(io.open(os.path.join(DEST, "05_归档教学资源", "U5_FreeTime", "01_正文篇章", "句级数据_p052.json"), "r", encoding="utf-8"))
-        tl52 = tl.get("p052", [])
-        arc52 = arc.get("sentences", arc if isinstance(arc, list) else [])
-        chk += [u"- timeline 篇章数 / 总句数：**%d / %d**" % (len(tl), sum(len(v) for v in tl.values())),
-                u"- timeline p052：**%d 句**；归档 p052：**%d 句** → %s" % (
-                    len(tl52), len(arc52), "一致 ✓" if len(tl52) == len(arc52) == 5 else "不一致，需复核！")]
-    except Exception as e:
-        chk.append(u"- 现场读取失败：%s（以 `reports/p052_方案A处置与复检_2026-11-14.md` 为准）" % e)
-    chk += [u"",
-            u"## 四、校验产物自指约定", u"",
-            u"`MANIFEST.csv` / `MANIFEST.md` / `SHA256SUMS.txt` 三件为派生清单，",
-            u"其自身不列入 SHA256SUMS（避免自指循环）；其余 **%d** 个文件全部列入。" % len(rows), u"",
-            u"复核命令（在落地文件夹内，PowerShell）：", u"",
-            u"```powershell", u"Get-Content SHA256SUMS.txt | ForEach-Object {",
-            u"  $h,$p = $_ -split '  ',2; $a=(Get-FileHash $p -Algorithm SHA256).Hash.ToLower()",
-            u"  if ($a -ne $h) { Write-Host \"MISMATCH $p\" }", u"}", u"```", u""]
-    put_text("01_交付说明/校验记录.md", u"\n".join(chk) + u"\n")
 
     # 6) ZIP
     zip_path = None
