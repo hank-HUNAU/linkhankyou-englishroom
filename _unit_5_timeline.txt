@@ -58,9 +58,6 @@
    2    44.900 -   49.424  Do you worry when your phone or tablet has no power?
    3    60.040 -   64.580  Do you watch TV before you do your homework?
    4    75.380 -   80.550  Does your family ever say that you use your phone too much?
-   5    81.860 -   87.731  5 to 9 – No, you don't need a break! You use it well.
-   6    88.040 -   88.319  10 to 12 – You're not too bad, but be careful!
-   7    88.419 -   88.920  13 to 15 – Yes, you do. You need a break from tech! Do something different!
 
 ## p054  口语 · The school concert
 - 句数 15，首句 7.260s，末句 83.080s

@@ -69,11 +69,17 @@
     "Do you check your phone before school?",
     "Do you worry when your phone or tablet has no power?",
     "Do you watch TV before you do your homework?",
-    "Does your family ever say that you use your phone too much?",
-    "5 to 9 – No, you don't need a break! You use it well.",
-    "10 to 12 – You're not too bad, but be careful!",
-    "13 to 15 – Yes, you do. You need a break from tech! Do something different!"
-   ]
+    "Does your family ever say that you use your phone too much?"
+   ],
+   "excluded_from_alignment": {
+    "reason": "课本印刷的评分结果段，音频未朗读（三方对账 2026-11-14）；按「源文本以音频为准」不进句级正典",
+    "lines": [
+     "5 to 9 – No, you don't need a break! You use it well.",
+     "10 to 12 – You're not too bad, but be careful!",
+     "13 to 15 – Yes, you do. You need a break from tech! Do something different!"
+    ],
+    "report": "reports/p052_评分段未朗读诊断_2026-11-14.md"
+   }
   },
   "p054": {
    "section": "口语",

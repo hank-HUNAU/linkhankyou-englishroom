@@ -29,7 +29,7 @@ U4,p042,u4_p42_shop,Buying in a shop,阅读B,28,198,0.944,28,0,0,0.026,0.146,0.7
 U4,p045,u4_p45_parks,Parks around the world,文化,18,246,0.841,18,0,0,0.0,0.261,0.714,1.364,5,41,0,OK,_u14_words.json:u4_p45_parks,A,156.71
 U5,p048,u5_p048_robotics_club,Robotics Club is cool!,阅读A,22,223,0.951,22,0,0,0.0,0.088,1.0,1.0,1,11,0,OK,_unit_5_words.json:p048,A,136.36
 U5,p051,u5_p051_favourite_technology,Favourite technology,听力,20,235,0.945,20,0,0,0.009,0.146,1.0,1.0,1,10,0,OK,_unit_5_words.json:p051,A,128.9
-U5,p052,u5_p052_tech_break,Do you need a tech break?,阅读B,8,104,0.587,5,0,3,0.379,0.309,0.077,1.0,5,44,0,OK,_unit_5_words.json:p052,C,88.92
+U5,p052,u5_p052_tech_break,Do you need a tech break?,阅读B,5,104,0.519,5,0,0,0.0,0.13,1.0,1.0,5,44,6,OK,_unit_5_words.json:p052,A,88.92
 U5,p054,u5_p054_school_concert,The school concert,口语,15,135,0.941,15,0,0,0.116,0.088,1.0,1.0,1,8,0,OK,_unit_5_words.json:p054,A,83.08
 U6,p056,u6_p056_real_friend,A real friend,阅读A,31,261,0.966,31,0,0,0.0,0.26,0.75,1.5,1,10,0,OK,_unit_6_words.json:p056,A,145.76
 U6,p059,u6_p059_present_annie,A present for Annie,听力,19,238,0.95,19,0,0,0.004,0.141,1.0,2.0,1,9,2,OK,_unit_6_words.json:p059,A,130.14
