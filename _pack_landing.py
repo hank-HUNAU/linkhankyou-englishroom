@@ -395,7 +395,7 @@ def main():
 
 ## 三条硬规约在本包中的体现
 
-1. **音频只增不改**：`assets/p052.mp3` 仓库副本 md5 `%s`；归档副本 md5 `%s`；方案 A 前后未变。
+1. **音频只增不改**：站点副本 `assets/p052.mp3` md5 `%s`（方案 A 前后未变）；`U5_FreeTime/01_正文篇章/p052.mp3` 是**归档原始编码**（1,476,553 B），站点副本是 **64k 单声道转码**（739,694 B），md5 `%s` —— 两者不同是预期，硬规约校验的是「同一副本前后不变」，不是「两副本彼此相同」。
 2. **句级双写**：`04_仓库运行时与正典/assets/timeline.json` 与
    `05_归档教学资源/U5_FreeTime/01_正文篇章/句级数据_p052.json` 的 p052 均为 5 句。
 3. **站点禁引库外路径**：本包为交付副本，不参与站点运行时；线上只认原仓库相对路径。
@@ -555,12 +555,20 @@ BOOK_EXTRA 声明                   98 个全可 JSON 解析，含 52 的 66 个
         for d, s in missing:
             chk.append(u"| `%s` | `%s` |" % (d, s))
         chk.append(u"")
+    hist_md5 = "69fa7bf91deeb25ca25f7578fa53cb15"
+    size_repo = os.path.getsize(audio_repo) if os.path.isfile(audio_repo) else 0
+    size_arch = os.path.getsize(audio_arch) if os.path.isfile(audio_arch) else 0
     chk += [u"## 二、音频只增不改（硬规约）", u"",
-            u"| 副本 | md5 |", u"|---|---|",
-            u"| `04_仓库运行时与正典/assets/p052.mp3` | `%s` |" % audio_md5_repo,
-            u"| `05_归档教学资源/U5_FreeTime/01_正文篇章/p052.mp3` | `%s` |" % audio_md5_arch,
-            u"| 方案 A 前后（历史记录） | `69fa7bf91deeb25ca25f7578fa53cb15` |", u"",
-            u"结论：%s" % ("一致，音频未被本打包过程改动。" if audio_md5_repo == audio_md5_arch else "两副本 md5 不同，需人工复核！"), u"",
+            u"| 副本 | 字节 | md5 | 角色 |", u"|---|---:|---|---|",
+            u"| `04_仓库运行时与正典/assets/p052.mp3` | %s | `%s` | 站点部署副本（64k 单声道转码） |" % (format(size_repo, ","), audio_md5_repo),
+            u"| `05_归档教学资源/U5_FreeTime/01_正文篇章/p052.mp3` | %s | `%s` | 归档原始正本（未转码） |" % (format(size_arch, ","), audio_md5_arch),
+            u"| 方案 A 前后（历史记录，站点副本） | — | `%s` | 基线 |" % hist_md5, u"",
+            u"**口径**：两份 mp3 是**同一段录音的不同编码**（归档 1,476,553 B 原始 / 站点 739,694 B 转码），",
+            u"md5 必然不同，属预期而非缺陷。硬规约「音频只增不改」校验的是**同一副本前后不变**：", u"",
+            u"- 站点副本当前 md5 与历史基线：%s" % (
+                "**一致 ✓**（方案 A 与本打包过程均未改动音频）" if audio_md5_repo == hist_md5 else "**不一致 ✗ 需立即复核**"),
+            u"- 归档副本 md5 与站点副本：%s（本轮不重编码，保持原状）" % (
+                "相同" if audio_md5_repo == audio_md5_arch else "不同（预期）"), u"",
             u"## 三、正典双写（硬规约）", u"",
             u"由 `04_仓库运行时与正典/assets/timeline.json` 与 "
             u"`05_归档教学资源/U5_FreeTime/01_正文篇章/句级数据_p052.json` 现场读取核对：", u""]
