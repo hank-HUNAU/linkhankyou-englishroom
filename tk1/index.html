@@ -1088,8 +1088,8 @@ function boot(){
       openUnit(um[1]);
     }
   }
-  /* 未填姓名时引导填写，保证预习/复习进度可记录 */
-  if(!getStudent()) setTimeout(showNameGate, 300);
+  /* 未填姓名时默认以访客进入，避免数据被姓名弹窗整屏遮住；右上角可随时改名 */
+  if(!getStudent()){ setStudent('访客'); refreshWho(); toast('已以访客身份进入，点击右上角可改姓名'); }
 }
 if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot);
 else boot();
