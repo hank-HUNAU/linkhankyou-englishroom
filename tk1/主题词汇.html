@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>单元主题词汇 · Think 1</title>
+<style>
+  :root{
+    --pur:#7C3AED; --pur-d:#5B21B6; --pur-l:#EDE9FE;
+    --ink:#1F2233; --ink2:#5B6070; --ink3:#8B90A0;
+    --card:#FFFFFF; --line:#E8E6F3;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:linear-gradient(160deg,#F7F4FF 0%,#FDF7FF 38%,#F4F8FF 100%);
+    min-height:100vh;
+    padding:0 0 48px;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* 顶部 */
+  header{
+    position:sticky;top:0;z-index:20;
+    background:rgba(255,255,255,.86);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .hd{max-width:1080px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:14px}
+  .back{
+    display:inline-flex;align-items:center;gap:6px;
+    border:1px solid var(--line);background:#fff;color:var(--ink2);
+    border-radius:999px;padding:7px 14px;font-size:13.5px;font-weight:600;
+    cursor:pointer;flex:0 0 auto;transition:.15s;
+  }
+  .back:hover{border-color:#D6CDF5;color:var(--pur-d);background:#FBFAFF}
+  .hd-t{min-width:0;flex:1}
+  .hd-t h1{margin:0;font-size:17px;font-weight:800;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hd-t p{margin:2px 0 0;font-size:12.5px;color:var(--ink3)}
+
+  /* 工具条 */
+  .tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 16px}
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--pur-l);color:var(--pur-d);
+    border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;
+  }
+  .tog{
+    margin-left:auto;display:inline-flex;align-items:center;gap:8px;
+    border:1px solid var(--line);background:#fff;border-radius:999px;
+    padding:7px 15px;font-size:13px;font-weight:700;color:var(--ink2);cursor:pointer;transition:.15s;
+  }
+  .tog:hover{border-color:#D6CDF5;color:var(--pur-d)}
+  .tog.on{background:var(--pur);border-color:var(--pur);color:#fff}
+
+  /* 词卡 */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(292px,1fr));gap:14px}
+  .w{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:16px 16px 14px;box-shadow:0 2px 10px rgba(124,58,237,.05);
+    display:flex;flex-direction:column;gap:8px;transition:.16s;
+  }
+  .w:hover{border-color:#D6CDF5;box-shadow:0 6px 20px rgba(124,58,237,.10);transform:translateY(-1px)}
+  .w-top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .w-en{font-size:19px;font-weight:800;letter-spacing:.1px;line-height:1.25}
+  .w-ipa{font-size:12.5px;color:var(--ink3);font-family:"Segoe UI",system-ui,sans-serif}
+  .w-pos{font-size:11px;font-weight:700;color:var(--pur-d);background:var(--pur-l);border-radius:6px;padding:1px 7px}
+  .w-zh{font-size:15px;font-weight:700;color:var(--pur-d);line-height:1.5;cursor:pointer;user-select:none}
+  .w-ex{font-size:13px;color:var(--ink2);line-height:1.6;padding-top:7px;border-top:1px dashed #EFECF9}
+  .w-ex i{color:var(--ink3);font-style:normal;font-size:11.5px;margin-right:5px}
+  /* 遮住中文（自测） */
+  body.hidezh .w-zh{color:transparent;background:#F3F1FA;border-radius:7px;box-shadow:inset 0 0 0 1px #EAE6F6}
+  body.hidezh .w-zh:hover{color:var(--pur-d);background:transparent;box-shadow:none}
+  body.hidezh .w-ex{filter:blur(4px)}
+  body.hidezh .w-ex:hover{filter:none}
+
+  .empty{padding:60px 20px;text-align:center;color:var(--ink3);font-size:14px}
+  .err{color:#C2410C;background:#FFF7ED;border:1px solid #FED7AA;border-radius:14px;padding:16px 18px;font-size:13.5px;line-height:1.7}
+  @media(max-width:520px){
+    .hd{padding:10px 14px}
+    .wrap{padding:0 14px}
+    .hd-t h1{font-size:15.5px}
+    .grid{grid-template-columns:1fr;gap:11px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <button class="back" id="backBtn" type="button">← 返回</button>
+    <div class="hd-t">
+      <h1 id="pageTitle">单元主题词汇</h1>
+      <p id="pageSub">加载中…</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="tools">
+    <span class="chip" id="cntChip">— 词</span>
+    <span class="chip" id="unitChip" style="background:#F1F5F9;color:#475569">Unit —</span>
+    <button class="tog" id="zhTog" type="button">遮住中文自测</button>
+  </div>
+  <div id="list" class="grid"></div>
+</div>
+
+<script>
+var UNITS = {
+  '1':{n:1,title:'Having a good time',sub:'日常活动与爱好'},
+  '2':{n:2,title:'Spending money',sub:'购物与钱'},
+  '3':{n:3,title:'We are what we eat',sub:'食物与健康'},
+  '4':{n:4,title:'All in the family',sub:'家庭与情感'},
+  '5':{n:5,title:'No place like home',sub:'居家与住所'},
+  '6':{n:6,title:'Friends forever',sub:'友谊与朋友'},
+  '7':{n:7,title:'Smart life',sub:'智能生活与发明'},
+  '8':{n:8,title:'A question of sport',sub:'运动与输赢'},
+  '9':{n:9,title:'Wild and wonderful',sub:'野生世界与自然奇观'},
+  '10':{n:10,title:'Out and about',sub:'出行与城镇生活'},
+  '11':{n:11,title:'Future bodies',sub:'身体与健康'},
+  '12':{n:12,title:'Travel the world',sub:'旅行与交通'}
+};
+
+function qs(k){
+  var m = new RegExp('[?&]'+k+'=([^&#]*)').exec(location.search);
+  return m ? decodeURIComponent(m[1].replace(/\+/g,' ')) : '';
+}
+function esc(s){
+  return String(s==null?'':s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+
+var unitKey = qs('unit') || '12';
+var u = UNITS[unitKey] || {n:unitKey,title:'',sub:''};
+
+document.title = 'Unit ' + u.n + ' 主题词汇 · Think 1';
+document.getElementById('pageTitle').textContent = 'Unit ' + u.n + (u.title ? ' · ' + u.title : '') + ' · 主题词汇';
+document.getElementById('pageSub').textContent = (u.sub ? u.sub + ' · ' : '') + '预习词表';
+document.getElementById('unitChip').textContent = 'Unit ' + u.n;
+
+/* 返回：能回退就回退（保留原书架/单元视图），否则回 Think 1 书架 */
+document.getElementById('backBtn').addEventListener('click', function(){
+  if(history.length > 1){ history.back(); }
+  else { location.href = 'index.html?course=think1'; }
+});
+
+/* 中文遮罩开关 */
+document.getElementById('zhTog').addEventListener('click', function(){
+  var on = document.body.classList.toggle('hidezh');
+  this.classList.toggle('on', on);
+  this.textContent = on ? '显示中文' : '遮住中文自测';
+});
+/* 单卡点击中文可临时揭示（遮罩态下 hover/点击都生效） */
+
+function render(words){
+  var list = document.getElementById('list');
+  document.getElementById('cntChip').textContent = words.length + ' 词';
+  if(!words.length){
+    list.outerHTML = '<div class="empty">该单元主题词汇尚未整理。</div>';
+    return;
+  }
+  list.innerHTML = words.map(function(x){
+    var ipa = x.ipa ? '<span class="w-ipa">/' + esc(x.ipa.replace(/^\/|\/$/g,'')) + '/</span>' : '';
+    var pos = x.pos ? '<span class="w-pos">' + esc(x.pos) + '</span>' : '';
+    var ex  = x.ex ? '<div class="w-ex"><i>例</i>' + esc(x.ex) + '</div>' : '';
+    return '<div class="w">'
+      + '<div class="w-top"><span class="w-en">' + esc(x.w) + '</span>' + ipa + pos + '</div>'
+      + '<div class="w-zh" title="点击可临时显示/隐藏">' + esc(x.zh || '—') + '</div>'
+      + ex
+      + '</div>';
+  }).join('');
+  /* 遮罩态下单卡点开中文 */
+  list.querySelectorAll('.w-zh').forEach(function(el){
+    el.addEventListener('click', function(){
+      if(!document.body.classList.contains('hidezh')) return;
+      el.style.color = el.style.color ? '' : '#5B21B6';
+    });
+  });
+}
+
+fetch('assets/theme_u' + unitKey + '.json', {cache:'no-cache'})
+  .then(function(r){ if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(render)
+  .catch(function(e){
+    document.getElementById('cntChip').textContent = '— 词';
+    document.getElementById('list').outerHTML =
+      '<div class="err">词表加载失败：' + esc(e.message) + '<br>请返回单元页重试；若持续失败，说明该单元词表文件未随站发布。</div>';
+  });
+</script>
+</body>
+</html>
