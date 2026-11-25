@@ -1,0 +1,545 @@
+{
+ "id": "SB_u04_p041_t02",
+ "no": 4.02,
+ "title": "Listening: Permission and family plans",
+ "titleZh": "",
+ "audio": "assets/tk1_p041.mp3",
+ "duration": 136.54,
+ "question": null,
+ "unit": 4,
+ "part": "听力",
+ "bookPage": "p041",
+ "srcKey": "SB_u04_p041_t02",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 10.06,
+   "t2": 11.78,
+   "en": "What are you doing, Lori?",
+   "zh": "你在干什么，洛丽？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 1,
+   "t": 12.42,
+   "t2": 14.26,
+   "en": "I’m looking for my T-shirt.",
+   "zh": "我在找我的 T 恤。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 2,
+   "t": 15.3,
+   "t2": 15.9,
+   "en": "Your T-shirt?",
+   "zh": "你的 T 恤？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 3,
+   "t": 16.78,
+   "t2": 17.7,
+   "en": "You’ve got lots!",
+   "zh": "你有好多件呢！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 4,
+   "t": 18.5,
+   "t2": 20.04,
+   "en": "Which one are you looking for?",
+   "zh": "你在找哪一件？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 5,
+   "t": 20.42,
+   "t2": 22.48,
+   "en": "The red one with the flower on it.",
+   "zh": "那件带花朵的红色 T 恤。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 6,
+   "t": 23.2,
+   "t2": 27.68,
+   "en": "I can’t find it anywhere and I’ve got to go out in five minutes.",
+   "zh": "我到处都找不到，而且再过五分钟我就得出门了。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 7,
+   "t": 28.24,
+   "t2": 29.42,
+   "en": "Where are you going?",
+   "zh": "你要去哪儿？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 8,
+   "t": 29.42,
+   "t2": 32.14,
+   "en": "To the cinema with Lucy and Darcy.",
+   "zh": "和露西、达西去电影院。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 9,
+   "t": 32.54,
+   "t2": 33.8,
+   "en": "I want to look nice.",
+   "zh": "我想穿得好看点。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 10,
+   "t": 34.26,
+   "t2": 36.96,
+   "en": "Oh, I can’t find it!",
+   "zh": "哦，我找不到！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 11,
+   "t": 37.36,
+   "t2": 39.741,
+   "en": "Do you want to borrow one of mine?",
+   "zh": "你想借我的一件吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 12,
+   "t": 40.12,
+   "t2": 40.84,
+   "en": "Can I?",
+   "zh": "可以吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 13,
+   "t": 41.88,
+   "t2": 44.22,
+   "en": "Thanks, Olivia, you’re the best.",
+   "zh": "谢谢，奥利维亚，你真好。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 14,
+   "t": 44.58,
+   "t2": 44.88,
+   "en": "Sure.",
+   "zh": "当然。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 15,
+   "t": 45.46,
+   "t2": 47.84,
+   "en": "Just get one from my room but don’t make a mess.",
+   "zh": "去我房间拿一件就行，但别弄得一团糟。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 16,
+   "t": 48.3,
+   "t2": 49.06,
+   "en": "Don’t worry.",
+   "zh": "别担心。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 17,
+   "t": 49.58,
+   "t2": 50.92,
+   "en": "No mess, I promise.",
+   "zh": "不会乱的，我保证。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 18,
+   "t": 52.7,
+   "t2": 54.84,
+   "en": "Can I borrow your red boots, too?",
+   "zh": "我也能借你的红色靴子吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 19,
+   "t": 55.44,
+   "t2": 57.18,
+   "en": "You mean my new ones?",
+   "zh": "你是说我那双新的？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 20,
+   "t": 57.18,
+   "t2": 59.58,
+   "en": "No, you can’t.",
+   "zh": "不行，你不能借。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 21,
+   "t": 59.72,
+   "t2": 60.82,
+   "en": "Oh no, really?",
+   "zh": "哦不，真的吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 22,
+   "t": 61.28,
+   "t2": 62.06,
+   "en": "Why not?",
+   "zh": "为什么不行？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 23,
+   "t": 62.48,
+   "t2": 63.36,
+   "en": "They’re really cool!",
+   "zh": "它们真的很酷！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Lori"
+  },
+  {
+   "i": 24,
+   "t": 63.88,
+   "t2": 74.34,
+   "en": "I know I am the world’s best sister, Lori, but there are some times when I have to say ‘no’!",
+   "zh": "我知道我是全世界最好的姐姐，洛丽，但有时候我也得说“不”！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Olivia"
+  },
+  {
+   "i": 25,
+   "t": 75.92,
+   "t2": 76.56,
+   "en": "Mum?",
+   "zh": "妈妈？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 26,
+   "t": 76.96,
+   "t2": 79.34,
+   "en": "Have we got any plans this weekend?",
+   "zh": "这个周末我们有什么安排吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 27,
+   "t": 80.06,
+   "t2": 81.48,
+   "en": "I don’t think so.",
+   "zh": "我想没有吧。怎么了？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 28,
+   "t": 81.92,
+   "t2": 82.26,
+   "en": "Why?",
+   "zh": "为什么这么问？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 29,
+   "t": 82.64,
+   "t2": 84.6,
+   "en": "There’s a party at Nathan’s place.",
+   "zh": "内森家有个派对。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 30,
+   "t": 85.14,
+   "t2": 85.76,
+   "en": "Can I go?",
+   "zh": "我能去吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 31,
+   "t": 85.76,
+   "t2": 88.363,
+   "en": "Well, that depends …",
+   "zh": "嗯，那要看情况……",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 32,
+   "t": 88.5,
+   "t2": 89.12,
+   "en": "When is it?",
+   "zh": "什么时候？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 33,
+   "t": 89.38,
+   "t2": 90.12,
+   "en": "Saturday night.",
+   "zh": "周六晚上。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 34,
+   "t": 90.52,
+   "t2": 90.94,
+   "en": "8 o’clock.",
+   "zh": "8 点钟。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 35,
+   "t": 91.86,
+   "t2": 92.32,
+   "en": "Sure.",
+   "zh": "当然。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 36,
+   "t": 92.64,
+   "t2": 93.16,
+   "en": "That’s fine.",
+   "zh": "那没问题。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 37,
+   "t": 93.86,
+   "t2": 95.2,
+   "en": "Where does Nathan live?",
+   "zh": "内森住在哪儿？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 38,
+   "t": 95.66,
+   "t2": 96.68,
+   "en": "He’s out in Foxton.",
+   "zh": "他住在福克斯顿。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 39,
+   "t": 97.361,
+   "t2": 99.76,
+   "en": "His family have got an amazing house.",
+   "zh": "他家有一栋很棒的房子。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 40,
+   "t": 100.3,
+   "t2": 101.06,
+   "en": "Foxton?",
+   "zh": "福克斯顿？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 41,
+   "t": 101.68,
+   "t2": 104.06,
+   "en": "That’s five kilometres from here.",
+   "zh": "那儿离这儿五公里。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 42,
+   "t": 104.78,
+   "t2": 108.78,
+   "en": "And I guess there are no buses at that time of night.",
+   "zh": "我猜那个时间晚上没有公交车。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 43,
+   "t": 109.34,
+   "t2": 112.408,
+   "en": "Umm, no, I don’t think so.",
+   "zh": "嗯，没有，我想没有。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 44,
+   "t": 112.756,
+   "t2": 116.04,
+   "en": "Well, no actually, there aren’t any buses, no.",
+   "zh": "嗯，其实没有，确实没有公交车。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 45,
+   "t": 116.52,
+   "t2": 116.982,
+   "en": "Right.",
+   "zh": "好吧。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 46,
+   "t": 117.7,
+   "t2": 118.68,
+   "en": "So come on.",
+   "zh": "行了，说吧。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 47,
+   "t": 119.351,
+   "t2": 121.1,
+   "en": "Let’s hear the next question, Tom.",
+   "zh": "汤姆，听听你的下一个问题。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 48,
+   "t": 122.0,
+   "t2": 123.26,
+   "en": "Any chance of a lift, Mum?",
+   "zh": "妈妈，能载我一程吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 49,
+   "t": 123.66,
+   "t2": 127.94,
+   "en": "Of course, but I need to pick you up by midnight at the latest.",
+   "zh": "当然可以，但我最晚午夜得去接你。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 50,
+   "t": 128.5,
+   "t2": 129.96,
+   "en": "I need my sleep, you know.",
+   "zh": "我需要睡觉，你知道的。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Mum"
+  },
+  {
+   "i": 51,
+   "t": 130.58,
+   "t2": 131.529,
+   "en": "No problem, Mum.",
+   "zh": "没问题，妈妈。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  },
+  {
+   "i": 52,
+   "t": 131.84,
+   "t2": 132.74,
+   "en": "Thanks so much!",
+   "zh": "太感谢了！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Tom"
+  }
+ ]
+}

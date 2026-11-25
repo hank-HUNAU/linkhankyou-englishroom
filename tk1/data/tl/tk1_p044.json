@@ -1,0 +1,166 @@
+{
+ "unit": "U4",
+ "passage_key": "u4_44",
+ "page": "p044",
+ "title": "Culture: Family traditions around the world",
+ "type": "文化",
+ "n_sent": 22,
+ "duration_s": 159.14,
+ "source": "Think 1 U4 增量：alignment/SB_u04_p044_t06 + 译文_tk1_p044.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 10.18,
+   "end_s": 18.18,
+   "dur_s": 8.0,
+   "text": "The idea of the family is important all over the world and many countries have special occasions to celebrate it."
+  },
+  {
+   "i": 1,
+   "start_s": 18.76,
+   "end_s": 20.108,
+   "dur_s": 1.348,
+   "text": "Let’s look at a few."
+  },
+  {
+   "i": 2,
+   "start_s": 24.78,
+   "end_s": 30.42,
+   "dur_s": 5.64,
+   "text": "In Germany, the first day at school is a very important time for all children."
+  },
+  {
+   "i": 3,
+   "start_s": 31.3,
+   "end_s": 34.226,
+   "dur_s": 2.926,
+   "text": "There is a special event called an Einschulung."
+  },
+  {
+   "i": 4,
+   "start_s": 35.06,
+   "end_s": 41.947,
+   "dur_s": 6.887,
+   "text": "Everyone in the family meets to give the child presents, like pens and books, for their new school life."
+  },
+  {
+   "i": 5,
+   "start_s": 42.84,
+   "end_s": 49.528,
+   "dur_s": 6.688,
+   "text": "For the first day of school, parents give their children a large paper cone called a Schultüte."
+  },
+  {
+   "i": 6,
+   "start_s": 50.2,
+   "end_s": 53.28,
+   "dur_s": 3.08,
+   "text": "Inside there are things for school and sweets."
+  },
+  {
+   "i": 7,
+   "start_s": 59.44,
+   "end_s": 63.98,
+   "dur_s": 4.54,
+   "text": "In traditional Japanese houses you often find a butsudan."
+  },
+  {
+   "i": 8,
+   "start_s": 64.9,
+   "end_s": 69.8,
+   "dur_s": 4.9,
+   "text": "A butsudan is a special place where you go to remember your dead relatives."
+  },
+  {
+   "i": 9,
+   "start_s": 70.92,
+   "end_s": 78.832,
+   "dur_s": 7.912,
+   "text": "People usually put things on the butsudan for their ancestors: a book, some flowers or a bowl of rice, for example."
+  },
+  {
+   "i": 10,
+   "start_s": 79.92,
+   "end_s": 85.438,
+   "dur_s": 5.518,
+   "text": "Adults also tell stories about these people to their children so they are not forgotten."
+  },
+  {
+   "i": 11,
+   "start_s": 90.6,
+   "end_s": 94.215,
+   "dur_s": 3.615,
+   "text": "Pets are popular in many cultures around the world."
+  },
+  {
+   "i": 12,
+   "start_s": 94.96,
+   "end_s": 98.7,
+   "dur_s": 3.74,
+   "text": "Looking after an animal helps a child learn how to be responsible."
+  },
+  {
+   "i": 13,
+   "start_s": 99.98,
+   "end_s": 105.337,
+   "dur_s": 5.357,
+   "text": "Every year in India there is a Hindu festival called Thai Pongal."
+  },
+  {
+   "i": 14,
+   "start_s": 106.14,
+   "end_s": 111.967,
+   "dur_s": 5.827,
+   "text": "During the festival families feed cows and birds to give thanks for these animals."
+  },
+  {
+   "i": 15,
+   "start_s": 112.94,
+   "end_s": 119.165,
+   "dur_s": 6.225,
+   "text": "Children also learn that all living things are connected and must share the world together."
+  },
+  {
+   "i": 16,
+   "start_s": 124.78,
+   "end_s": 130.043,
+   "dur_s": 5.263,
+   "text": "In the Netherlands people celebrate the winter holiday on the 5th December."
+  },
+  {
+   "i": 17,
+   "start_s": 130.7,
+   "end_s": 133.352,
+   "dur_s": 2.652,
+   "text": "This holiday is called Sinterklaas."
+  },
+  {
+   "i": 18,
+   "start_s": 134.1,
+   "end_s": 139.064,
+   "dur_s": 4.964,
+   "text": "People give each other presents, but they also have a very special tradition."
+  },
+  {
+   "i": 19,
+   "start_s": 140.32,
+   "end_s": 145.438,
+   "dur_s": 5.118,
+   "text": "Each member of the family writes their name on a piece of paper and puts it in a hat."
+  },
+  {
+   "i": 20,
+   "start_s": 146.46,
+   "end_s": 151.429,
+   "dur_s": 4.969,
+   "text": "Everyone then takes a name from the hat and writes a poem about this person."
+  },
+  {
+   "i": 21,
+   "start_s": 152.4,
+   "end_s": 155.82,
+   "dur_s": 3.42,
+   "text": "Everyone sits in a circle and reads out their poems."
+  }
+ ]
+}

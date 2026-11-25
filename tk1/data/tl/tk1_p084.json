@@ -1,0 +1,243 @@
+{
+ "unit": "U9",
+ "passage_key": "u9_84",
+ "page": "p084",
+ "title": "Magazine article: The wild side of life",
+ "type": "阅读A",
+ "n_sent": 33,
+ "duration_s": 203.39,
+ "source": "Think 1 U9 增量：alignment/SB_u09_p084_t01 + 译文_tk1_p084.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 8.92,
+   "end_s": 13.78,
+   "dur_s": 4.86,
+   "text": "More and more people think that life is better in the city than the countryside."
+  },
+  {
+   "i": 1,
+   "start_s": 14.7,
+   "end_s": 21.687,
+   "dur_s": 6.987,
+   "text": "For the first time in history more than 50% of the world’s population lives in urban areas."
+  },
+  {
+   "i": 2,
+   "start_s": 22.4,
+   "end_s": 28.48,
+   "dur_s": 6.08,
+   "text": "However, there are still many groups of people who live in some of the wildest places on the planet."
+  },
+  {
+   "i": 3,
+   "start_s": 29.94,
+   "end_s": 34.98,
+   "dur_s": 5.04,
+   "text": "The Kalahari is a large area of bush land in southern Africa."
+  },
+  {
+   "i": 4,
+   "start_s": 35.74,
+   "end_s": 37.036,
+   "dur_s": 1.296,
+   "text": "It has two parts."
+  },
+  {
+   "i": 5,
+   "start_s": 37.68,
+   "end_s": 43.027,
+   "dur_s": 5.347,
+   "text": "The south part is drier than the north and plants do not grow there very well."
+  },
+  {
+   "i": 6,
+   "start_s": 43.82,
+   "end_s": 50.736,
+   "dur_s": 6.916,
+   "text": "Every year at the end of summer it rains and the land becomes more beautiful than at other times of the year."
+  },
+  {
+   "i": 7,
+   "start_s": 51.74,
+   "end_s": 55.82,
+   "dur_s": 4.08,
+   "text": "But the grass and the bushes soon get dry and turn brown again."
+  },
+  {
+   "i": 8,
+   "start_s": 56.72,
+   "end_s": 58.1,
+   "dur_s": 1.38,
+   "text": "Life there is difficult."
+  },
+  {
+   "i": 9,
+   "start_s": 59.3,
+   "end_s": 62.984,
+   "dur_s": 3.684,
+   "text": "The San are a group of people who live in the Kalahari."
+  },
+  {
+   "i": 10,
+   "start_s": 63.64,
+   "end_s": 69.24,
+   "dur_s": 5.6,
+   "text": "They live in huts, eat wild animals – even lions – plants and berries."
+  },
+  {
+   "i": 11,
+   "start_s": 70.1,
+   "end_s": 73.82,
+   "dur_s": 3.72,
+   "text": "They are very good with bows and arrows, and use them for hunting."
+  },
+  {
+   "i": 12,
+   "start_s": 75.38,
+   "end_s": 80.06,
+   "dur_s": 4.68,
+   "text": "Up in the mountains of central Papua New Guinea is the Chimbu Province."
+  },
+  {
+   "i": 13,
+   "start_s": 81.08,
+   "end_s": 84.84,
+   "dur_s": 3.76,
+   "text": "This jungle area is one of the world’s most remote places."
+  },
+  {
+   "i": 14,
+   "start_s": 85.9,
+   "end_s": 90.186,
+   "dur_s": 4.286,
+   "text": "It is also home to Mt Wilhelm, the highest mountain on the island."
+  },
+  {
+   "i": 15,
+   "start_s": 91.28,
+   "end_s": 94.66,
+   "dur_s": 3.38,
+   "text": "Several different tribes live in the valleys between the mountains."
+  },
+  {
+   "i": 16,
+   "start_s": 95.72,
+   "end_s": 98.78,
+   "dur_s": 3.06,
+   "text": "One of these is the Chimbu skeleton dancers."
+  },
+  {
+   "i": 17,
+   "start_s": 99.7,
+   "end_s": 101.76,
+   "dur_s": 2.06,
+   "text": "They paint skeletons onto their bodies."
+  },
+  {
+   "i": 18,
+   "start_s": 102.52,
+   "end_s": 107.578,
+   "dur_s": 5.058,
+   "text": "This makes them look scarier and it frightens other people away from their land."
+  },
+  {
+   "i": 19,
+   "start_s": 109.1,
+   "end_s": 115.1,
+   "dur_s": 6.0,
+   "text": "The Yamal Peninsula in northern Siberia is one and a half times bigger than France."
+  },
+  {
+   "i": 20,
+   "start_s": 116.12,
+   "end_s": 122.3,
+   "dur_s": 6.18,
+   "text": "It is frozen for much of the year and temperatures can reach -50°C in the winter."
+  },
+  {
+   "i": 21,
+   "start_s": 123.28,
+   "end_s": 128.72,
+   "dur_s": 5.44,
+   "text": "But this area is home to a tribe of about 10,000 people called the Nenets."
+  },
+  {
+   "i": 22,
+   "start_s": 129.58,
+   "end_s": 135.047,
+   "dur_s": 5.467,
+   "text": "The Nenets are nomadic, meaning they frequently move from one place to another."
+  },
+  {
+   "i": 23,
+   "start_s": 135.92,
+   "end_s": 143.615,
+   "dur_s": 7.695,
+   "text": "Each year around 300,000 reindeer move around the land and the Nenets always go with them."
+  },
+  {
+   "i": 24,
+   "start_s": 144.74,
+   "end_s": 151.069,
+   "dur_s": 6.329,
+   "text": "The recent discovery of gas in the area means more people than before are visiting the Yamal."
+  },
+  {
+   "i": 25,
+   "start_s": 151.3,
+   "end_s": 155.249,
+   "dur_s": 3.949,
+   "text": "So the Nenets now have more contact with the outside world."
+  },
+  {
+   "i": 26,
+   "start_s": 156.86,
+   "end_s": 161.04,
+   "dur_s": 4.18,
+   "text": "The Bayan-Ölgii Province is the highest part of Mongolia."
+  },
+  {
+   "i": 27,
+   "start_s": 161.9,
+   "end_s": 166.58,
+   "dur_s": 4.68,
+   "text": "It is a wild area with many mountains, lakes, forests and rivers."
+  },
+  {
+   "i": 28,
+   "start_s": 167.42,
+   "end_s": 171.119,
+   "dur_s": 3.699,
+   "text": "It is also home to the Kazakh golden eagle hunters."
+  },
+  {
+   "i": 29,
+   "start_s": 172.02,
+   "end_s": 178.64,
+   "dur_s": 6.62,
+   "text": "These people travel around the mountains and use eagles to hunt for foxes and other small animals."
+  },
+  {
+   "i": 30,
+   "start_s": 179.48,
+   "end_s": 183.844,
+   "dur_s": 4.364,
+   "text": "When boys turn 13, they can become golden eagle hunters."
+  },
+  {
+   "i": 31,
+   "start_s": 184.52,
+   "end_s": 191.599,
+   "dur_s": 7.079,
+   "text": "However, they have to be stronger than most boys their age because they have to show that they can carry the weight of an eagle."
+  },
+  {
+   "i": 32,
+   "start_s": 192.66,
+   "end_s": 200.16,
+   "dur_s": 7.5,
+   "text": "There are about 100,000 Kazakh people, but only around 250 of them are golden eagle hunters."
+  }
+ ]
+}

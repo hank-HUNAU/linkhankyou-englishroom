@@ -1,0 +1,140 @@
+{
+ "passage_key": "u10_98",
+ "page": "p098",
+ "unit": 10,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 26,
+ "n_unique_keys": 26,
+ "entries": [
+  {
+   "i": 0,
+   "en": "There are very few places on Earth that are undiscovered and we have satellite photos of the most remote places on the planet.",
+   "zh": "地球上几乎没有还没被发现的地方了，我们连这颗星球上最偏远的地方都有卫星照片。"
+  },
+  {
+   "i": 1,
+   "en": "But people are always interested in mythical lands, places that people say exist but no one has ever found.",
+   "zh": "但人们一直对神话中的土地感兴趣，也就是人们说它存在、却从来没有人找到过的地方。"
+  },
+  {
+   "i": 2,
+   "en": "Perhaps the most famous mythical place of all is Atlantis.",
+   "zh": "也许所有神话之地里最有名的就是亚特兰蒂斯。"
+  },
+  {
+   "i": 3,
+   "en": "Some people say it is a city, others say it is an island and others call it a continent.",
+   "zh": "有人说它是一座城市，有人说它是一座岛，还有人说它是一块大陆。"
+  },
+  {
+   "i": 4,
+   "en": "But whatever it is exactly, there is one thing that everyone agrees on: it is underneath the sea.",
+   "zh": "不过不管它到底是什么，有一件事大家都同意：它在海底。"
+  },
+  {
+   "i": 5,
+   "en": "The Greek philosopher Plato was the first person to describe it and he suggested that one time, its people attacked Athens.",
+   "zh": "希腊哲学家柏拉图是第一个描述它的人，他说有一次，它的居民攻击了雅典。"
+  },
+  {
+   "i": 6,
+   "en": "No one is sure exactly where Atlantis is.",
+   "zh": "没有人确定亚特兰蒂斯到底在哪里。"
+  },
+  {
+   "i": 7,
+   "en": "Because of its name, some people think it is somewhere in the Atlantic Ocean.",
+   "zh": "因为它的名字，有些人认为它在大西洋里的某个地方。"
+  },
+  {
+   "i": 8,
+   "en": "Others say it’s in the Mediterranean Sea or in the Caribbean.",
+   "zh": "也有人说它在地中海或加勒比海。"
+  },
+  {
+   "i": 9,
+   "en": "Agartha is another mythical place that is not on the land.",
+   "zh": "阿加尔塔是另一个不在陆地上的神话之地。"
+  },
+  {
+   "i": 10,
+   "en": "The legend says that it’s at the centre of our planet.",
+   "zh": "传说它在地球的中心。"
+  },
+  {
+   "i": 11,
+   "en": "Like Atlantis, it is famous for its culture and educated society.",
+   "zh": "和亚特兰蒂斯一样，它以文化和有教养的社会著称。"
+  },
+  {
+   "i": 12,
+   "en": "It was the inspiration for Jules Verne’s novel Journey to the Centre of the Earth.",
+   "zh": "它是儒勒·凡尔纳的小说《地心游记》的灵感来源。"
+  },
+  {
+   "i": 13,
+   "en": "It tells the story of a group of travellers who go on an exciting adventure underground.",
+   "zh": "那本书讲的是一群旅行者在地下进行刺激冒险的故事。"
+  },
+  {
+   "i": 14,
+   "en": "Many people have tried to find the entrance to Agartha, which they think is somewhere in Antarctica.",
+   "zh": "很多人试图找到阿加尔塔的入口，他们认为入口在南极洲的某个地方。"
+  },
+  {
+   "i": 15,
+   "en": "Some people believe that somewhere in South America there is a famous city of gold: El Dorado.",
+   "zh": "有些人相信在南美洲的某个地方有一座著名的黄金之城：埃尔多拉多。"
+  },
+  {
+   "i": 16,
+   "en": "Many people tried to find it, but they weren’t successful.",
+   "zh": "很多人试图找到它，但没有成功。"
+  },
+  {
+   "i": 17,
+   "en": "El Dorado was originally the name of a person, a ruler of the ancient Colombian society called the Muisca.",
+   "zh": "埃尔多拉多最初是一个人的名字，他是古代哥伦比亚社会穆伊斯卡人的统治者。"
+  },
+  {
+   "i": 18,
+   "en": "He covered himself in gold powder every day.",
+   "zh": "他每天都会把金粉涂在身上。"
+  },
+  {
+   "i": 19,
+   "en": "There were legends in which people imagined that the whole city was made of gold.",
+   "zh": "在一些传说里，人们想象整座城市都是黄金做的。"
+  },
+  {
+   "i": 20,
+   "en": "Our final mythical land is an island called Thule.",
+   "zh": "我们要说的最后一个神话之地是一个叫图勒的岛。"
+  },
+  {
+   "i": 21,
+   "en": "The legend says that it is in the north of the Earth, somewhere between Norway and Iceland.",
+   "zh": "传说它在地球北部，位于挪威和冰岛之间的某个地方。"
+  },
+  {
+   "i": 22,
+   "en": "This is an area of the world that is completely dark for a lot of the year.",
+   "zh": "这是世界上一年中很多时间都完全黑暗的地区。"
+  },
+  {
+   "i": 23,
+   "en": "But the story goes that Thule is a place where a lot of delicious food grows and people are always happy.",
+   "zh": "但故事里说，图勒是一个能长出很多美味食物、人们总是很快乐的地方。"
+  },
+  {
+   "i": 24,
+   "en": "The Roman poet Silius Italicus wrote about Thule.",
+   "zh": "罗马诗人西利乌斯·伊塔利库斯写过图勒。"
+  },
+  {
+   "i": 25,
+   "en": "In his story, the people living there are painted blue.",
+   "zh": "在他的故事里，住在那里的人都被涂成蓝色。"
+  }
+ ]
+}

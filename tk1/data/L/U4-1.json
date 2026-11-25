@@ -1,0 +1,339 @@
+{
+ "id": "SB_u04_p038_t01",
+ "no": 4.01,
+ "title": "Blog: Old films, great families",
+ "titleZh": "",
+ "audio": "assets/tk1_p038.mp3",
+ "duration": 182.47,
+ "question": null,
+ "unit": 4,
+ "part": "阅读A",
+ "bookPage": "p038",
+ "srcKey": "SB_u04_p038_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.73,
+   "t2": 14.048,
+   "en": "I love old films and my family loves them, too.",
+   "zh": "我喜欢老电影，我们家人也喜欢。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 14.62,
+   "t2": 28.22,
+   "en": "My mum and dad always talk about a really old film called Swiss Family Robinson, also a book, about a Swiss family who find themselves on a desert island when their boat sinks.",
+   "zh": "我爸妈总会说起一部很老的电影，叫《瑞士家庭鲁滨逊》，它也是一本书，讲的是一家瑞士人在船沉后发现自己被困在荒岛上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 28.22,
+   "t2": 30.1,
+   "en": "And do you know what?",
+   "zh": "而且你知道怎么回事吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 30.56,
+   "t2": 31.66,
+   "en": "I like it, too.",
+   "zh": "我也喜欢它！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 32.38,
+   "t2": 34.78,
+   "en": "So guys – here’s today’s topic.",
+   "zh": "所以各位，今天就聊这个话题。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 35.5,
+   "t2": 37.32,
+   "en": "Old films about families.",
+   "zh": "关于家庭的老电影。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 38.12,
+   "t2": 41.2,
+   "en": "So you know my opinion, what about yours?",
+   "zh": "你们知道我的看法了，那你们呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 42.34,
+   "t2": 50.32,
+   "en": "How about the Home Alone films in the 1990s, all about 8-year-old Kevin McCallister?",
+   "zh": "1990 年代的《小鬼当家》系列电影怎么样？讲的是 8 岁的凯文·麦卡利斯特。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 50.88,
+   "t2": 53.48,
+   "en": "The first one is definitely the best.",
+   "zh": "第一部绝对是最好的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 54.64,
+   "t2": 59.16,
+   "en": "Kevin’s parents forget to take him on the family Christmas holiday.",
+   "zh": "凯文的父母忘了带他去参加家庭圣诞度假。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 59.88,
+   "t2": 68.708,
+   "en": "Kevin is happy at first because he’s got the whole house to himself and his brothers and sisters aren’t there to annoy him.",
+   "zh": "一开始凯文很高兴，因为整栋房子都属于他，兄弟姐妹也不在，没人烦他。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 69.58,
+   "t2": 75.198,
+   "en": "He has lots of fun stopping two silly criminals from robbing the family home.",
+   "zh": "他玩得很开心，阻止了两个愚蠢的窃贼抢劫自己家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 75.96,
+   "t2": 85.66,
+   "en": "But he starts to miss his family and on Christmas morning he gets the best present of all – everyone comes back home!",
+   "zh": "但他开始想念家人，圣诞节早晨，他收到了最棒的礼物——大家都回家了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 86.44,
+   "t2": 89.74,
+   "en": "It was funny then and it’s still funny now.",
+   "zh": "那时很好笑，现在依然很好笑。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 91.2,
+   "t2": 95.36,
+   "en": "Whose favourite family is the Parrs in The Incredibles?",
+   "zh": "谁最喜欢的家庭是《超人总动员》里的帕尔一家？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 96.12,
+   "t2": 96.9,
+   "en": "Remember them?",
+   "zh": "还记得他们吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 97.6,
+   "t2": 99.5,
+   "en": "The Parrs are like most families.",
+   "zh": "帕尔一家和大多数家庭一样。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 100.16,
+   "t2": 103.38,
+   "en": "You know, they fight and argue and have fun.",
+   "zh": "你知道的，他们会打闹、争吵，也玩得很开心。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 103.86,
+   "t2": 106.34,
+   "en": "But they’re also a family of superheroes.",
+   "zh": "不过他们也是一个超级英雄家庭。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 107.62,
+   "t2": 109.24,
+   "en": "Dad is super strong.",
+   "zh": "爸爸超级强壮。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 109.842,
+   "t2": 111.92,
+   "en": "Mum is super stretchy.",
+   "zh": "妈妈超级有弹性。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 112.72,
+   "t2": 118.82,
+   "en": "Violet, their eldest child, can turn invisible, and then nobody can see her.",
+   "zh": "他们的大女儿维奥莱特能隐身，那样谁也看不见她。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 119.54,
+   "t2": 127.106,
+   "en": "Her younger brother Dash is super fast and her baby brother Jack-Jack has laser eyes.",
+   "zh": "她弟弟达什快得像风，小弟弟杰克-杰克有激光眼。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 127.62,
+   "t2": 130.821,
+   "en": "I think those films are great, old or not.",
+   "zh": "我觉得那些电影很棒，不管老不老。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 131.86,
+   "t2": 134.62,
+   "en": "I like your comments, Max and Emma.",
+   "zh": "我喜欢马克斯和艾玛的评论。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 134.62,
+   "t2": 136.22,
+   "en": "And here is mine.",
+   "zh": "下面说说我的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 136.9,
+   "t2": 137.82,
+   "en": "The Addams Family!",
+   "zh": "《亚当斯一家》！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 138.56,
+   "t2": 142.629,
+   "en": "They’re a really strange family who live in a normal town.",
+   "zh": "他们是个非常古怪的家庭，住在一个普通小镇上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 142.629,
+   "t2": 144.2,
+   "en": "They all wear black.",
+   "zh": "他们全都穿黑衣服。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 144.84,
+   "t2": 146.76,
+   "en": "They live in a huge old house.",
+   "zh": "他们住在一栋巨大的老房子里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 147.22,
+   "t2": 152.34,
+   "en": "Other families think they’re a little bit scary, but the Addams family don’t care.",
+   "zh": "别的家庭觉得他们有点吓人，可亚当斯一家并不在意。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 153.159,
+   "t2": 160.46,
+   "en": "The parents, Gomez and Morticia, and their children, Wednesday and Pugsley, are happy being different.",
+   "zh": "父母戈麦斯和莫蒂西亚，还有孩子星期三和帕格斯利，都很高兴能与众不同。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 160.46,
+   "t2": 163.18,
+   "en": "And there’s Cousin It, too.",
+   "zh": "还有表亲伊特。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 163.86,
+   "t2": 168.34,
+   "en": "He (or she – no one is sure) is covered in fur.",
+   "zh": "他（或者她——没人确定）全身长毛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 168.34,
+   "t2": 173.12,
+   "en": "And finally there is Uncle Fester, Gomez’s brother.",
+   "zh": "最后是费斯特叔叔，戈麦斯的弟弟。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 173.66,
+   "t2": 179.08,
+   "en": "They’re one of the best loved screen families of all time – in my house, anyway!",
+   "zh": "他们是有史以来最受喜爱的荧幕家庭之一——至少在我家是这样！",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

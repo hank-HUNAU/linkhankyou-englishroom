@@ -1,0 +1,258 @@
+{
+ "id": "SB_u06_p056_t01",
+ "no": 6.01,
+ "title": "Web article: A special friendship",
+ "titleZh": "",
+ "audio": "assets/tk1_p056.mp3",
+ "duration": 185.26,
+ "question": null,
+ "unit": 6,
+ "part": "阅读A",
+ "bookPage": "p056",
+ "srcKey": "SB_u06_p056_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 8.78,
+   "t2": 12.167,
+   "en": "This is the story of Joe and Fonzie.",
+   "zh": "这是乔和方齐的故事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 12.94,
+   "t2": 18.03,
+   "en": "It’s a story about a friendship that started more than 20 years ago.",
+   "zh": "这是一个开始于 20 多年前的友谊故事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 18.76,
+   "t2": 27.06,
+   "en": "It’s also a story about a friendship that saved a life and started a new kind of help for people with problems.",
+   "zh": "这也是一个拯救了一条生命、并开创了一种帮助有困难的人的新方式的故事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 28.52,
+   "t2": 34.168,
+   "en": "‘Joe’ is Joe Hoagland, who was three years old when the story began.",
+   "zh": "“乔”是指乔·霍格兰，故事开始时他三岁。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 35.0,
+   "t2": 41.16,
+   "en": "And ‘Fonzie’ is a 3-metre-long, 275 kilogram dolphin.",
+   "zh": "而“方齐”是一头 3 米长、275 公斤的海豚。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 43.01,
+   "t2": 49.563,
+   "en": "When Joe was born, he had a problem with his heart and doctors had to operate on him.",
+   "zh": "乔出生时心脏有问题，医生不得不给他做手术。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 49.98,
+   "t2": 53.2,
+   "en": "When he was three, he had another operation.",
+   "zh": "他三岁时又做了一次手术。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 54.36,
+   "t2": 61.812,
+   "en": "This operation didn’t go well and he became paralysed – he couldn’t move the left side of his body.",
+   "zh": "那次手术不太顺利，他瘫痪了——身体左侧无法动弹。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 62.96,
+   "t2": 66.827,
+   "en": "The doctors at the hospital didn’t think he could get better.",
+   "zh": "医院里的医生都认为他好不了了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 68.02,
+   "t2": 74.78,
+   "en": "Deena, Joe’s mother, took him to different places for therapy, but it wasn’t very successful.",
+   "zh": "乔的妈妈迪娜带他去不同地方做康复治疗，但效果都不太好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 76.08,
+   "t2": 78.2,
+   "en": "Then the family moved to Florida.",
+   "zh": "后来一家人搬到了佛罗里达。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 79.34,
+   "t2": 84.544,
+   "en": "Joe liked being in the water and Deena thought swimming could help him.",
+   "zh": "乔喜欢待在水里，迪娜觉得游泳对他有帮助。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 85.44,
+   "t2": 92.903,
+   "en": "First, they went to swimming pools in hotels, but some hotel guests didn’t like them being there.",
+   "zh": "起初，他们去酒店的游泳池，但有些客人不喜欢他们在那里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 93.9,
+   "t2": 102.74,
+   "en": "Then one day she went with Joe to a place in Key Largo called Dolphin Plus, where people swam with dolphins.",
+   "zh": "后来有一天，她带乔去了基拉戈一个叫“海豚之家”的地方，那里的人可以和海豚一起游泳。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 104.16,
+   "t2": 108.32,
+   "en": "Joe met Fonzie there and the story really began.",
+   "zh": "乔在那里认识了方齐，故事才真正开始。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 109.52,
+   "t2": 113.66,
+   "en": "Soon, Joe wanted to see Fonzie every day.",
+   "zh": "很快，乔每天都想见到方齐。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 114.6,
+   "t2": 117.133,
+   "en": "He loved playing with him and feeding him.",
+   "zh": "他喜欢和方齐一起玩、喂它吃东西。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 117.94,
+   "t2": 122.067,
+   "en": "Every time that Joe arrived, Fonzie came to see him.",
+   "zh": "每次乔到来，方齐都会过来见他。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 123.0,
+   "t2": 132.865,
+   "en": "Joe’s mother told him always to feed Fonzie using his left hand, so Joe used his left side more and more.",
+   "zh": "乔的妈妈告诉他喂食时一定要用左手，于是乔越来越多地使用左侧身体。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 133.54,
+   "t2": 136.173,
+   "en": "Slowly, he got better and better.",
+   "zh": "慢慢地，他一天比一天好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 137.0,
+   "t2": 140.783,
+   "en": "He’s now over 30 years old and very well.",
+   "zh": "他现在 30 多岁了，身体很好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 142.48,
+   "t2": 150.92,
+   "en": "Deena saw that Joe’s friendship with Fonzie helped him a lot, and she knew it was a good idea for other people, too.",
+   "zh": "迪娜看到乔和方齐的友谊帮了他很大的忙，她知道这对其他人也是个好主意。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 152.02,
+   "t2": 157.88,
+   "en": "So, she and her family worked to open a place called Island Dolphin Care.",
+   "zh": "于是她和家人努力开设了一个叫“岛屿海豚关爱中心”的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 158.98,
+   "t2": 165.58,
+   "en": "It’s next to Dolphin Plus and many people with health problems come to spend time with the dolphins.",
+   "zh": "它就在海豚之家旁边，很多有健康问题的人会来这里和海豚相处。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 166.86,
+   "t2": 171.86,
+   "en": "Sadly, Fonzie died in 2004 when Joe was 17.",
+   "zh": "令人难过的是，方齐在 2004 年去世了，那时乔 17 岁。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 172.7,
+   "t2": 179.14,
+   "en": "He wrote: ‘Fonzie was a great friend to me; he and I shared a lot of good times.",
+   "zh": "他写道：“方齐是我很好的朋友；我们一起度过了很多美好时光。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 179.78,
+   "t2": 181.94,
+   "en": "He always put a smile on my face.’",
+   "zh": "它总是在我脸上带来笑容。”",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

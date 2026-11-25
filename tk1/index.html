@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>TH!NK One · Think 1 英语学习中心</title>
+<meta name="theme-color" content="#10B981">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="TH!NK">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="stylesheet" href="ui.css">
+<script src="ui.js"></script>
+<style>/* ============ AppleOS 扁平设计系统 ============ */
+:root{
+  --bg:#f2f2f7; --bg-soft:#f7f7fa; --bg-2:#e5e5ea;
+  --card:#ffffff;
+  --ink:#1c1c1e; --ink-2:#3c3c43; --ink-3:#8e8e93; --ink-4:#aeaeb2;
+  --blue:#0a84ff; --blue-bg:#e8f1ff; --blue-deep:#0b6ce0;
+  --green:#34c759; --green-bg:#e6f7ea; --green-deep:#1f9a45;
+  --orange:#ff9f0a; --orange-bg:#fff3e0;
+  --red:#ff453a; --red-bg:#ffe9e7;
+  --line:rgba(60,60,67,.14); --line-soft:rgba(60,60,67,.08);
+  --rad:16px; --rad-lg:22px; --rad-sm:10px;
+  --glass:rgba(255,255,255,.72);
+  --font:"-apple-system","SF Pro Text","SF Pro Display","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI",system-ui,sans-serif;
+  --font-num:"SF Mono",ui-monospace,"Menlo",Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{font-family:var(--font);color:var(--ink);overflow:hidden;background:var(--bg);user-select:none;-webkit-font-smoothing:antialiased;font-size:15px;line-height:1.5}
+/* ---------- 顶部玻璃栏 ---------- */
+/* ---------- 流程步骤条 ---------- */
+.steps{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line-soft);border-radius:30px;padding:6px 12px}
+.step{display:flex;align-items:center;gap:8px;padding:4px 8px;border-radius:20px;transition:.2s}
+.step b{width:22px;height:22px;border-radius:50%;background:var(--bg-2);color:var(--ink-3);font-size:11px;font-weight:700;display:grid;place-items:center;font-family:var(--font-num)}
+.step span{font-size:13px;font-weight:600;color:var(--ink-3)}
+.step.on{background:var(--blue-bg)}
+.step.on b{background:var(--blue);color:#fff}
+.step.on span{color:var(--blue-deep)}
+.step.done b{background:var(--green);color:#fff}
+.step.done span{color:var(--green-deep)}
+/* ---------- 主区 ---------- */
+/* —— 对话按人物排版（p69 听力对话） —— */
+/* ---------- 沉浸跟读 · 一屏一句字幕巨幕 ---------- */
+/* 第2步：整篇信纸式滚动字幕 */
+@keyframes fsring{0%{transform:rotate(0) scale(.96);opacity:.72}50%{transform:rotate(180deg) scale(1.05);opacity:1}100%{transform:rotate(360deg) scale(.96);opacity:.72}}
+/* ---------- 聆听全文循环遍次 ---------- */
+@keyframes gapfill{from{width:100%}to{width:0}}
+/* 跟读环节禁用译文开关 */
+.chip.off{opacity:.4;pointer-events:none}
+/* ---------- 底部 dock ---------- */
+.chip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 14px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--ink-2);font-size:12.5px;font-weight:600;cursor:pointer;font-family:var(--font);transition:.15s}
+.chip.on{background:var(--blue-bg);border-color:var(--blue);color:var(--blue-deep)}
+/* 播放条内嵌：译文 + 跟读遍数（三个流程常驻） */
+/* ---------- toast ---------- */
+.toast{position:fixed;left:50%;bottom:128px;transform:translateX(-50%) translateY(12px);background:rgba(28,28,30,.9);color:#fff;font-size:13px;padding:9px 16px;border-radius:11px;opacity:0;pointer-events:none;transition:.2s;z-index:60;max-width:86vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+/* ---------- 分组目录面板 ---------- */
+@keyframes dirIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+/* ============ 书架首页 / 单元页（迁自 学生端.html，作用域 #shelfRoot） ============ */
+#shelfRoot{position:fixed;inset:0;z-index:1300;display:block;overflow-y:auto;overflow-x:hidden;background:var(--bg);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+#shelfRoot.off{display:none}
+/* 书架内的提示浮层需盖过书架本身 */
+.toast{z-index:1400}
+#shelfRoot .bg{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+#shelfRoot .bg span{position:absolute;border-radius:50%;filter:blur(80px)}
+#shelfRoot .bg .b1{width:520px;height:520px;left:2%;top:4%;background:#7C3AED;opacity:.42}
+#shelfRoot .bg .b2{width:460px;height:460px;right:6%;top:6%;background:#EC4899;opacity:.38}
+#shelfRoot .bg .b3{width:540px;height:540px;left:12%;bottom:4%;background:#06B6D4;opacity:.34}
+#shelfRoot .bg .b4{width:480px;height:480px;right:10%;bottom:6%;background:#F97316;opacity:.32}
+#shelfRoot .bg .b5{width:380px;height:380px;left:44%;top:38%;background:#FACC15;opacity:.24}
+#shelfRoot .wrap{position:relative;z-index:1;max-width:1300px;width:100%;margin:0 auto;padding:0 28px}
+/* 顶栏 */
+#shelfRoot header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 0 18px;flex-wrap:wrap}
+#shelfRoot .logo{display:inline-flex;align-items:baseline;gap:14px;flex:none;flex-wrap:wrap}
+#shelfRoot .think{display:inline-block;font-weight:900;font-size:40px;letter-spacing:-.055em;line-height:1;
+  background:var(--noise),linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 18px rgba(124,58,237,.45))}
+#shelfRoot .bang{display:inline-block;position:relative;width:.22em;height:.78em;margin:0 .045em;vertical-align:-.04em}
+#shelfRoot .bang::before,#shelfRoot .bang::after{content:"";position:absolute;left:0;width:100%;background:linear-gradient(180deg,#A78BFA,#EC4899)}
+#shelfRoot .bang::before{top:0;height:.60em}
+#shelfRoot .bang::after{bottom:0;height:.15em}
+#shelfRoot .foundation{display:inline-block;font-weight:800;font-size:40px;letter-spacing:-.035em;line-height:1;
+  background:var(--noise),linear-gradient(135deg,#312e81 0%,#4c1d95 60%,#0e7490 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 3px 12px rgba(76,29,149,.4));padding-bottom:3px}
+#shelfRoot .edition{font-size:9px;font-weight:700;letter-spacing:.16em;color:rgba(30,27,75,.5);padding-bottom:8px;white-space:nowrap}
+#shelfRoot .nav-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#shelfRoot .chip{appearance:none;display:inline-flex;align-items:center;gap:6px;height:auto;line-height:1.2;
+  border:1.5px solid rgba(124,58,237,.28);background:linear-gradient(135deg,rgba(124,58,237,.10),rgba(236,72,153,.08));
+  color:#4c1d95;font-family:inherit;font-size:13.5px;font-weight:800;padding:9px 16px;border-radius:var(--r-pill);
+  cursor:pointer;transition:all .25s}
+#shelfRoot .chip:hover{transform:translateY(-1px);box-shadow:0 8px 18px -8px rgba(124,58,237,.5);border-color:rgba(124,58,237,.45)}
+/* 书架 */
+#shelfRoot .shelf{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));column-gap:14px;row-gap:26px;padding:8px 0 48px}
+#shelfRoot .book{--h:200;position:relative;display:flex;flex-direction:column;border-radius:var(--r-lg);overflow:hidden;isolation:isolate;
+  cursor:pointer;appearance:none;-webkit-appearance:none;margin:0;padding:0;width:100%;font:inherit;text-align:inherit;
+  border:1px solid rgba(0,0,0,.06);background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(255,255,255,.74) 55%,rgba(255,255,255,.92));
+  box-shadow:var(--sh-card);transition:transform .35s cubic-bezier(.19,1,.22,1),opacity .28s ease,border-color .28s ease,box-shadow .35s;
+  min-height:180px}
+#shelfRoot .cover{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;
+  padding:16px 14px;overflow:hidden;text-align:center;
+  background:radial-gradient(62% 52% at 28% 26%,hsl(var(--h) 92% 60%/.38) 0%,transparent 72%),
+            radial-gradient(52% 48% at 76% 70%,hsl(var(--h) 88% 58%/.26) 0%,transparent 72%),
+            linear-gradient(180deg,rgba(255,255,255,.6),rgba(255,255,255,.1))}
+#shelfRoot .num{position:relative;z-index:1;font-weight:900;line-height:1;letter-spacing:-.06em;
+  background:linear-gradient(180deg,hsl(var(--h) 84% 36%),hsl(var(--h) 90% 54%));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 6px 16px hsl(var(--h) 90% 60%/.38));font-size:clamp(38px,3.4vw,50px)}
+#shelfRoot .cover h3{position:relative;z-index:1;width:100%;margin:6px 0 0;font-size:clamp(12px,1.05vw,14px);font-weight:700;
+  line-height:1.25;color:rgba(0,0,0,.78);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#shelfRoot .tag{position:absolute;top:10px;left:10px;z-index:2;font-size:10.5px;font-weight:800;letter-spacing:.03em;
+  padding:3px 8px;border-radius:var(--r-pill);background:rgba(15,23,42,.06);color:rgba(15,23,42,.55)}
+#shelfRoot .book.live .tag{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff}
+#shelfRoot .done-mark{position:absolute;top:12px;right:12px;z-index:3;width:24px;height:24px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.55);
+  border:1.5px solid rgba(15,23,42,.1);color:transparent;font-size:12px;font-weight:900;transition:all .4s cubic-bezier(.34,1.56,.64,1)}
+#shelfRoot .book.live .done-mark{background:linear-gradient(135deg,#22c55e,#16a34a);border-color:#16a34a;color:#fff;
+  box-shadow:0 4px 14px -3px rgba(34,197,94,.7)}
+@media (hover:hover) and (pointer:fine){#shelfRoot .book:hover{transform:translateY(-5px);border-color:hsl(var(--h) 88% 55%/.42);box-shadow:0 30px 56px -22px rgba(31,41,55,.34)}}
+@media (max-width:1100px){#shelfRoot .shelf{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:720px){#shelfRoot .shelf{grid-template-columns:repeat(3,minmax(0,1fr))}
+#shelfRoot .wrap{padding:0 18px}}
+@media (max-width:520px){#shelfRoot .shelf{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* 单元页 */
+#shelfRoot .crumb{display:inline-flex;align-items:center;gap:8px;padding:12px 0 4px;font-size:13px;font-weight:700;color:#64748b}
+#shelfRoot .crumb button{appearance:none;border:none;background:none;cursor:pointer;color:#7C3AED;font-weight:800;font-family:inherit;font-size:13px;padding:4px 8px;border-radius:var(--r-xs)}
+#shelfRoot .crumb button:hover{background:rgba(124,58,237,.08)}
+#shelfRoot .unit-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:6px 0 18px}
+#shelfRoot .unit-title{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+#shelfRoot .unit-num{font-weight:900;font-size:30px;line-height:1;letter-spacing:-.04em;background:linear-gradient(135deg,#312e81,#7C3AED);-webkit-background-clip:text;background-clip:text;color:transparent}
+#shelfRoot .unit-name{font-weight:900;font-size:clamp(22px,3vw,30px);letter-spacing:-.02em;color:#1d1d1f}
+#shelfRoot .unit-sub{font-size:13px;font-weight:700;color:#64748b}
+#shelfRoot .sec{margin:20px 0 8px;display:flex;align-items:center;gap:10px}
+#shelfRoot .sec-h{font-size:16px;font-weight:900;letter-spacing:-.01em;color:#1e1b4b}
+#shelfRoot .sec-n{font-size:10.5px;font-weight:800;letter-spacing:.03em;color:#7C3AED;background:rgba(124,58,237,.1);padding:3px 8px;border-radius:var(--r-pill)}
+/* 主题词汇入口卡（点进独立词汇页，与篇章卡同构的跳转模式） */
+#shelfRoot .tv{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 20px;
+  background:linear-gradient(170deg,rgba(255,255,255,.97),rgba(255,255,255,.84));border:1px solid var(--line);
+  border-left:4px solid #7C3AED;border-radius:var(--r-lg);box-shadow:var(--sh-card);cursor:pointer;
+  transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,border-color .25s;margin-bottom:12px}
+#shelfRoot .tv:hover{transform:translateY(-3px);border-color:rgba(124,58,237,.4);box-shadow:var(--sh-card-hover)}
+#shelfRoot .tv .tv-ic{flex:none;width:52px;height:52px;border-radius:var(--r-md);display:grid;place-items:center;
+  font-size:24px;color:#fff;background:linear-gradient(135deg,#8b5cf6,#7c3aed)}
+#shelfRoot .tv .tv-bd{flex:1;min-width:200px}
+#shelfRoot .tv .tv-t{font-weight:900;font-size:16px;letter-spacing:-.01em;color:#1e1b4b}
+#shelfRoot .tv .tv-s{margin-top:3px;font-size:12.5px;font-weight:700;color:#64748b}
+#shelfRoot .tv .tv-s b{color:#16a34a}
+#shelfRoot .tv .tv-bar{height:7px;border-radius:var(--r-pill);background:#e7eaf0;overflow:hidden;margin-top:9px;max-width:340px}
+#shelfRoot .tv .tv-bar i{display:block;height:100%;border-radius:var(--r-pill);background:linear-gradient(90deg,#a78bfa,#7C3AED);transition:width .5s ease}
+#shelfRoot .tv .tv-go{flex:none;appearance:none;border:none;cursor:pointer;font-family:inherit;font-weight:900;font-size:13.5px;
+  color:#fff;background:var(--grad-v);box-shadow:var(--sh-btn-v);padding:11px 18px;border-radius:var(--r-sm);
+  display:inline-flex;align-items:center;gap:7px;transition:all .2s}
+#shelfRoot .tv:hover .tv-go{transform:translateY(-1px);box-shadow:var(--sh-btn-v-hover)}
+#shelfRoot .tv.done .tv-go{background:linear-gradient(135deg,#22c55e,#16a34a);box-shadow:var(--sh-btn)}
+/* 篇章卡 */
+#shelfRoot .pg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-bottom:48px}
+@media(max-width:560px){#shelfRoot .pg-grid{grid-template-columns:1fr}}
+#shelfRoot .pg{background:#fff;border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--r-lg);padding:16px 16px 14px;cursor:pointer;transition:all .28s cubic-bezier(.19,1,.22,1);box-shadow:var(--sh-card)}
+#shelfRoot .pg:hover{transform:translateY(-3px);border-color:rgba(124,58,237,.4);box-shadow:var(--sh-card-hover)}
+#shelfRoot .pg .kind{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.03em;padding:3px 8px;border-radius:var(--r-pill);
+  background:rgba(124,58,237,.1);color:#7C3AED}
+#shelfRoot .pg .pt{margin-top:10px;font-weight:900;font-size:16.5px;letter-spacing:-.01em;color:#1e1b4b;line-height:1.3}
+#shelfRoot .pg .pps{margin-top:3px;font-size:11.5px;font-weight:700;color:#94a3b8}
+#shelfRoot .pg .acts{margin-top:13px;display:flex;flex-direction:column;gap:7px}
+#shelfRoot .pg .act{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 11px;border-radius:var(--r-sm);
+  font-size:12.5px;font-weight:800;color:#4338ca;background:rgba(124,58,237,.07);border:1px solid transparent;transition:all .2s}
+#shelfRoot .pg .act:hover{background:rgba(124,58,237,.14)}
+#shelfRoot .pg .act .a-name{display:flex;align-items:center;gap:7px}
+#shelfRoot .pg .act .a-more{color:#7c3aed;font-weight:900}
+#shelfRoot .pg .act.wip{color:#94a3b8;background:rgba(15,23,42,.04)}
+#shelfRoot .pg .act.wip .a-more{color:#cbd5e1}
+/* 篇章卡进度徽章：词汇掌握 x/N + 逐句听完成态（2026-10-21 随 2×2 布局上线） */
+#shelfRoot .pg .pg-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+#shelfRoot .pg .pbad{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;letter-spacing:.02em;padding:3px 9px;border-radius:var(--r-pill);background:#f1f5f9;color:#94a3b8}
+#shelfRoot .pg .pbad.v{background:rgba(124,58,237,.1);color:#7C3AED}
+#shelfRoot .pg .pbad.ok{background:#eafaf1;color:#16a34a}
+/* 篇章页 */
+#shelfRoot .pg-page-head{padding:8px 0 14px}
+#shelfRoot .pg-page-title{font-weight:900;font-size:26px;letter-spacing:-.02em;color:#1e1b4b;line-height:1.25}
+#shelfRoot .pg-page-sub{font-size:13px;font-weight:700;color:#7C3AED;margin-top:4px}
+#shelfRoot .flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:8px 0 60px}
+@media(max-width:720px){#shelfRoot .flow{grid-template-columns:1fr}}
+#shelfRoot .flow-card{background:linear-gradient(170deg,rgba(255,255,255,.97),rgba(255,255,255,.84));border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--r-lg);padding:20px;box-shadow:var(--sh-card)}
+#shelfRoot .flow-card .fc-ico{font-size:26px}
+#shelfRoot .flow-card h4{margin:8px 0 4px;font-size:17px;font-weight:900;color:#1e1b4b}
+#shelfRoot .flow-card .fc-desc{font-size:12.5px;line-height:1.6;color:#64748b;font-weight:600;margin-bottom:14px}
+#shelfRoot .flow-card .steps{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+#shelfRoot .flow-card .step{display:flex;gap:10px;align-items:flex-start;font-size:13px;font-weight:700;color:#334155;line-height:1.5}
+#shelfRoot .flow-card .step .s-num{flex:none;width:20px;height:20px;border-radius:var(--r-xs);background:rgba(124,58,237,.12);color:#7C3AED;
+  font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center}
+#shelfRoot .btn{appearance:none;border:none;cursor:pointer;font-family:inherit;width:100%;padding:12px 16px;border-radius:var(--r-sm);
+  font-size:14px;font-weight:900;color:#fff;background:var(--grad-p);box-shadow:var(--sh-btn);transition:all .25s cubic-bezier(.19,1,.22,1)}
+#shelfRoot .btn:hover{transform:translateY(-1px);box-shadow:var(--sh-btn-hover)}
+/* 视图切换 */
+#shelfRoot .view{display:none}
+#shelfRoot .view.on{display:block;animation:shelfFade .4s ease}
+@keyframes shelfFade{from{opacity:0;transform:translateY(8px)}}
+/* 学生身份 */
+#shelfRoot .who{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:var(--r-pill);
+  background:linear-gradient(135deg,rgba(16,185,129,.14),rgba(16,185,129,.06));border:1.5px solid rgba(16,185,129,.35);
+  color:#047857;font-size:13px;font-weight:800;cursor:pointer;transition:all .22s;font-family:inherit}
+#shelfRoot .who:hover{transform:translateY(-1px);box-shadow:0 8px 16px -8px rgba(16,185,129,.5)}
+#shelfRoot .who.req{background:linear-gradient(135deg,rgba(124,58,237,.12),rgba(236,72,153,.08));border-color:rgba(124,58,237,.4);color:#6d28d9}
+/* 姓名弹窗 */
+#shelfRoot #nameGate{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:20px;
+  background:rgba(233,236,245,.72);backdrop-filter:blur(10px)}
+#shelfRoot #nameGate.hide{display:none}
+#shelfRoot .gate-card{width:100%;max-width:400px;background:#fff;border-radius:var(--r-xl);padding:34px 28px;text-align:center;
+  box-shadow:var(--sh-2);border:1px solid rgba(0,0,0,.08)}
+#shelfRoot .gate-card .gb{font-weight:900;font-size:25px;letter-spacing:-.03em;margin-bottom:6px;
+  background:var(--noise),linear-gradient(135deg,#1e1b4b,#7C3AED);-webkit-background-clip:text;background-clip:text;color:transparent}
+#shelfRoot .gate-card p{font-size:12.5px;color:#64748b;font-weight:600;margin:6px 0 16px;line-height:1.7}
+#shelfRoot .gate-card input[type=text]{width:100%;font-family:inherit;font-size:16px;font-weight:800;color:#1e1b4b;text-align:center;
+  padding:13px 14px;border-radius:var(--r-sm);border:1.5px solid rgba(0,0,0,.12);margin-bottom:14px;outline:none}
+#shelfRoot .gate-card input:focus{border-color:var(--p);box-shadow:var(--ring)}
+#shelfRoot .gate-card .btn{width:100%}
+#shelfRoot .err{color:#be185d;font-size:12px;font-weight:800;margin-top:10px;min-height:16px}
+/* 单元任务面板 */
+#shelfRoot .taskzone{margin:6px 0 22px;display:flex;flex-direction:column;gap:14px}
+/* 沉浸式任务流 */
+#shelfRoot .tz-hero{position:relative;overflow:hidden;border-radius:var(--r-lg);padding:20px 20px 16px;color:#fff;
+  background:linear-gradient(135deg,#312e81 0%,#4c1d95 46%,#0e7490 100%);border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 22px 44px -24px rgba(49,46,129,.75)}
+#shelfRoot .tz-hero::before{content:"";position:absolute;right:-70px;top:-70px;width:240px;height:240px;border-radius:50%;
+  background:radial-gradient(circle at 30% 30%, rgba(255,255,255,.22), transparent 70%)}
+#shelfRoot .tz-hero::after{content:"";position:absolute;left:-40px;bottom:-70px;width:200px;height:200px;border-radius:50%;
+  background:radial-gradient(circle at 60% 40%, rgba(124,58,237,.55), transparent 70%)}
+#shelfRoot .tz-hero-in{position:relative;z-index:1;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+#shelfRoot .tz-day{flex:1;min-width:190px}
+#shelfRoot .tz-kicker{font-size:11px;letter-spacing:.18em;font-weight:800;color:#c4b5fd}
+#shelfRoot .tz-title{font-size:22px;font-weight:900;margin:3px 0 2px;letter-spacing:-.02em;text-shadow:0 2px 8px rgba(0,0,0,.2)}
+#shelfRoot .tz-sub{font-size:12.5px;color:#d9d2f7;font-weight:600}
+#shelfRoot .tz-ring{flex:none;width:86px;height:86px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.25))}
+#shelfRoot .tz-ring .rp{fill:none;stroke-width:8;stroke-linecap:round}
+#shelfRoot .tz-msg{flex-basis:100%;display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:#fff;margin-top:4px}
+#shelfRoot .tz-stage{border-radius:var(--r-lg);border:1px solid rgba(0,0,0,.07);background:rgba(255,255,255,.84);
+  box-shadow:var(--sh-card);overflow:hidden}
+#shelfRoot .tz-sh{padding:14px 18px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#shelfRoot .tz-sh .ico-box{width:36px;height:36px;border-radius:var(--r-sm);display:grid;place-items:center;font-size:18px;color:#fff;flex:none}
+#shelfRoot .tz-sh-t{flex:1;min-width:150px}
+#shelfRoot .tz-sh-t b{display:block;font-size:15px;color:#1e1b4b;letter-spacing:-.01em}
+#shelfRoot .tz-sh-t span{font-size:11.5px;font-weight:700;color:#64748b}
+#shelfRoot .tz-bar{height:7px;border-radius:var(--r-pill);background:#e7eaf0;overflow:hidden;margin:0 18px 6px}
+#shelfRoot .tz-bar i{display:block;height:100%;border-radius:var(--r-pill);transition:width .5s ease}
+#shelfRoot .tz-rows{padding:8px 14px 14px;display:flex;flex-direction:column;gap:9px}
+#shelfRoot .tz-row{position:relative;width:100%;display:flex;align-items:center;gap:12px;padding:12px 13px;border-radius:var(--r-sm);
+  background:#fff;border:1.5px solid rgba(0,0,0,.07);cursor:pointer;text-align:left;font-family:inherit;
+  transition:transform .15s, box-shadow .2s, border-color .2s, opacity .2s}
+#shelfRoot .tz-row:hover{transform:translateY(-2px);border-color:rgba(124,58,237,.4);box-shadow:0 12px 24px -16px rgba(124,58,237,.55)}
+#shelfRoot .tz-row .i-ic{flex:none;width:40px;height:40px;border-radius:var(--r-sm);display:grid;place-items:center;font-size:19px;
+  background:#f1f5f9;border:1px solid rgba(0,0,0,.05)}
+#shelfRoot .tz-row .i-bd{flex:1;min-width:0}
+#shelfRoot .tz-row .i-tl{display:flex;align-items:center;gap:6px;font-weight:800;font-size:14px;color:#1e1b4b}
+#shelfRoot .tz-row .i-tl .m{font-size:9px;font-weight:900;letter-spacing:.14em;color:#7c3aed}
+#shelfRoot .tz-row .i-st{font-size:11.5px;font-weight:700;color:#94a3b8;margin-top:2px}
+#shelfRoot .tz-row .i-st b{color:#16a34a}
+#shelfRoot .tz-row .i-cta{flex:none;font-size:12px;font-weight:800;color:#7c3aed;background:rgba(124,58,237,.12);padding:7px 13px;border-radius:var(--r-pill)}
+#shelfRoot .tz-row.done{opacity:.5}
+#shelfRoot .tz-row.done:hover{opacity:.8}
+#shelfRoot .tz-row.done .i-cta{color:#16a34a;background:rgba(22,163,74,.12)}
+#shelfRoot .tz-mark{flex:none;width:30px;height:30px;border-radius:50%;border:2px solid #e2e8f0;background:#fff;cursor:pointer;
+  font-family:inherit;font-weight:900;font-size:15px;color:transparent;line-height:1;display:grid;place-items:center;transition:all .18s}
+#shelfRoot .tz-mark:hover{transform:scale(1.1)}
+#shelfRoot .tz-mark.done{background:linear-gradient(135deg,#10b981,#059669);border-color:transparent;color:#fff;box-shadow:0 4px 12px -3px rgba(16,185,129,.6)}
+#shelfRoot .tz-chip{font-size:10.5px;font-weight:800;letter-spacing:.03em;color:#b45309;background:#fef3c7;padding:3px 8px;border-radius:var(--r-pill);white-space:nowrap}
+#shelfRoot .tz-chip.late{color:#b91c1c;background:#fee2e2}
+#shelfRoot .tz-empty{border-radius:var(--r-lg);background:rgba(255,255,255,.6);border:1.5px dashed rgba(0,0,0,.12);
+  padding:26px 18px;text-align:center;color:#64748b;font-weight:700;font-size:13px}
+#shelfRoot .tz-empty .ic{font-size:30px;display:block;margin-bottom:8px}
+#shelfRoot .tz-empty span{color:#94a3b8;font-weight:600;font-size:12px;display:block;margin-top:4px;line-height:1.7}
+/* 预习→复习 衔接引导 */
+#shelfRoot .bridge{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:14px 0;padding:16px 18px;border-radius:var(--r-lg);
+  background:linear-gradient(135deg,#052e16,#065f46);color:#fff;border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 18px 36px -24px rgba(6,78,59,.7);position:relative;overflow:hidden}
+#shelfRoot .bridge::after{content:"";position:absolute;right:-50px;top:-50px;width:170px;height:170px;border-radius:50%;
+  background:radial-gradient(circle, rgba(255,255,255,.2), transparent 70%)}
+#shelfRoot .bridge .b-ic{font-size:28px;flex:none}
+#shelfRoot .bridge .b-t{flex:1;min-width:170px}
+#shelfRoot .bridge .b-t b{display:block;font-size:15.5px;letter-spacing:-.01em}
+#shelfRoot .bridge .b-t span{font-size:12px;font-weight:700;color:#a7f3d0;line-height:1.6;display:block;margin-top:2px}
+/* 预习完成 · 全屏引导 */
+#shelfRoot .guide{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;
+  background:rgba(15,23,42,.52);-webkit-backdrop-filter:blur(16px) saturate(1.15);backdrop-filter:blur(16px) saturate(1.15);
+  opacity:0;visibility:hidden;transition:opacity .3s ease, visibility .3s}
+#shelfRoot .guide.on{opacity:1;visibility:visible}
+#shelfRoot .guide-card{position:relative;overflow:hidden;width:min(560px,100%);max-height:92vh;overflow-y:auto;border-radius:var(--r-2xl);
+  padding:40px 34px 30px;text-align:center;color:#fff;background:linear-gradient(160deg,#052e16 0%,#065f46 46%,#0e7490 100%);
+  border:1px solid rgba(255,255,255,.16);box-shadow:0 40px 90px -32px rgba(2,44,34,.9);
+  transform:translateY(28px) scale(.94);transition:transform .42s cubic-bezier(.2,.9,.25,1.06)}
+#shelfRoot .guide.on .guide-card{transform:none}
+#shelfRoot .guide-card::before{content:"";position:absolute;right:-90px;top:-90px;width:300px;height:300px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.24), transparent 70%)}
+#shelfRoot .guide-card::after{content:"";position:absolute;left:-70px;bottom:-110px;width:280px;height:280px;border-radius:50%;
+  background:radial-gradient(circle at 60% 40%, rgba(52,211,153,.42), transparent 70%)}
+#shelfRoot .guide-in{position:relative;z-index:1}
+#shelfRoot .guide-badge{width:92px;height:92px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;font-size:44px;
+  background:radial-gradient(circle at 32% 28%,#a7f3d0,#34d399 58%,#059669);
+  box-shadow:0 18px 36px -14px rgba(52,211,153,.9), inset 0 -4px 12px rgba(0,0,0,.18);animation:gfloat 2.6s ease-in-out infinite}
+@keyframes gfloat{50%{transform:translateY(-7px)}}
+#shelfRoot .guide-kicker{font-size:11px;letter-spacing:.2em;font-weight:800;color:#a7f3d0}
+#shelfRoot .guide-title{font-size:28px;font-weight:900;letter-spacing:-.03em;margin:8px 0;text-shadow:0 3px 12px rgba(0,0,0,.3)}
+#shelfRoot .guide-sub{font-size:13.5px;font-weight:700;color:#d1fae5;line-height:1.75;max-width:410px;margin:0 auto}
+#shelfRoot .guide-steps{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px 0 0;flex-wrap:wrap}
+#shelfRoot .guide-step{font-size:12px;font-weight:800;padding:8px 15px;border-radius:var(--r-pill);color:#fff;
+  background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2)}
+#shelfRoot .guide-step.ok{background:linear-gradient(135deg,#6ee7b7,#34d399);color:#052e16;border-color:transparent;box-shadow:0 8px 18px -8px rgba(110,231,183,.7)}
+#shelfRoot .guide-arrow{color:#a7f3d0;font-weight:900}
+#shelfRoot .guide-btns{display:flex;gap:12px;justify-content:center;margin-top:26px;flex-wrap:wrap}
+#shelfRoot .guide-go{border:none;cursor:pointer;font-family:inherit;font-weight:900;font-size:15px;color:#052e16;
+  background:linear-gradient(135deg,#6ee7b7,#34d399);padding:14px 30px;border-radius:var(--r-pill);
+  box-shadow:0 16px 30px -12px rgba(110,231,183,.8);transition:transform .16s, box-shadow .22s}
+#shelfRoot .guide-go:hover{transform:translateY(-2px);box-shadow:0 20px 34px -12px rgba(110,231,183,.95)}
+#shelfRoot .guide-later{border:1.5px solid rgba(255,255,255,.3);background:transparent;cursor:pointer;font-family:inherit;
+  font-weight:800;font-size:13.5px;color:#e6fff5;padding:13px 22px;border-radius:var(--r-pill);transition:background .2s, border-color .2s}
+#shelfRoot .guide-later:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.45)}
+#shelfRoot .tz-stage.jump{animation:tzpulse 1.6s ease 2}
+@keyframes tzpulse{0%{box-shadow:0 0 0 0 rgba(124,58,237,.55)}60%{box-shadow:0 0 0 15px rgba(124,58,237,0)}100%{box-shadow:0 0 0 0 rgba(124,58,237,0)}}</style><script>
+(function(){
+  var COURSES={thinkf:{label:'Think F',color:'#10B981'},think1:{label:'Think 1',color:'#7C3AED'}};
+  var path=(location.pathname||'').toLowerCase();
+  var here=path.indexOf('/tk1/')>=0?'think1':'thinkf';
+  var q=(location.search||'').match(/[?&]course=(thinkf|think1)(?:[&#]|$)/);
+  var want=q?q[1]:null;
+  if(want&&want!==here){
+    var target=want==='think1'?'tk1/index.html':'index.html';
+    if(here==='think1'&&want==='thinkf') target='../index.html';
+    location.replace(target+'?course='+want);
+    return;
+  }
+  if(!want){ try{ history.replaceState(null,'',location.pathname+'?course='+here+location.hash); }catch(e){} }
+  function go(c){
+    if(c===here) return;
+    var base;
+    if(c==='think1') base=(here==='think1'?'index.html':'tk1/index.html');
+    else base=(here==='think1'?'../index.html':'index.html');
+    location.href=base+'?course='+c;
+  }
+  function mount(){
+    if(document.getElementById('tfCourseSwitcher')) return;
+    var bar=document.createElement('div');
+    bar.id='tfCourseSwitcher';
+    bar.setAttribute('aria-label','课程切换');
+    bar.style.cssText='position:fixed;top:8px;left:50%;transform:translateX(-50%);z-index:2147483000;display:flex;align-items:center;gap:6px;padding:4px;border-radius:999px;background:rgba(255,255,255,.94);border:.5px solid rgba(15,23,42,.16);box-shadow:0 6px 20px -10px rgba(15,23,42,.35);font-family:inherit;';
+    ['thinkf','think1'].forEach(function(c){
+      var b=document.createElement('button');
+      b.type='button';
+      b.textContent=COURSES[c].label;
+      b.setAttribute('data-course',c);
+      var on=(c===here);
+      b.style.cssText='appearance:none;border:0;cursor:pointer;padding:6px 13px;border-radius:999px;font-family:inherit;font-size:12px;font-weight:500;line-height:1.2;color:'+(on?'#ffffff':'#475569')+';background:'+(on?COURSES[c].color:'transparent')+';';
+      b.onclick=function(){ go(c); };
+      bar.appendChild(b);
+    });
+    (document.body||document.documentElement).appendChild(bar);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mount); else mount();
+})();
+</script></head><body>
+<div id="toast" class="toast"></div>
+<div id="shelfRoot" aria-hidden="false">
+  <div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span></div>
+
+  <!-- ═══ 书架 ═══ -->
+  <section class="view on" id="view-home">
+    <div class="wrap">
+      <header>
+        <div class="logo" aria-label="TH!NK One · Think 1">
+          <span class="think" aria-hidden="true">TH<span class="bang"></span>NK</span>
+          <span class="foundation" aria-hidden="true">One</span>
+          <span class="edition" aria-hidden="true">SECOND EDITION</span>
+        </div>
+        <div class="nav-right">
+          <button class="who" id="whoBtn" title="点击切换学生"><svg class="ico sm"><use href="#i-user"/></svg> <span id="whoName">填写姓名</span></button>
+          <button class="chip" id="welcomeBtn" style="display:none"><svg class="ico sm"><use href="#i-star"/></svg> Welcome 入门单元</button>
+        </div>
+      </header>
+      <div class="shelf" id="shelf"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 单元页 ═══ -->
+  <section class="view" id="view-unit">
+    <div class="wrap">
+      <div class="crumb"><button id="unitBack"><svg class="ico sm"><use href="#i-left"/></svg> 书架</button><span>/</span><span id="unitCrumb"></span></div>
+      <div class="unit-head">
+        <div class="unit-title">
+          <span class="unit-num" id="unitNum"></span>
+          <span class="unit-name" id="unitName"></span>
+        </div>
+        <span class="unit-sub" id="unitSub"></span>
+      </div>
+      <div class="taskzone" id="taskzone"></div>
+      <div class="sec"><span class="sec-h">单元主题词汇</span><span class="sec-n" id="vwCount"></span></div>
+      <div id="vwEntry"></div>
+      <div class="sec" style="margin-top:30px;"><span class="sec-h">篇章学习</span><span class="sec-n" id="pgCount"></span></div>
+      <div class="pg-grid" id="pgGrid"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 篇章页 ═══ -->
+  <section class="view" id="view-passage">
+    <div class="wrap">
+      <div class="crumb"><button id="pgBack"><svg class="ico sm"><use href="#i-left"/></svg> 返回单元</button></div>
+      <div class="pg-page-head">
+        <div class="pg-page-title" id="pgTitle"></div>
+        <div class="pg-page-sub" id="pgSub"></div>
+      </div>
+      <div class="flow" id="flow"></div>
+    </div>
+  </section>
+
+  <div id="nameGate" class="hide">
+    <div class="gate-card">
+      <div class="gb">开始学习</div>
+      <p id="gateHint">请输入你的姓名，用于在本机记录预习 / 复习进度。</p>
+      <input type="text" id="nameInput" placeholder="你的姓名" maxlength="12" autocomplete="off">
+      <button class="btn" id="nameOk">开始学习 <svg class="ico sm"><use href="#i-right"/></svg></button>
+      <div class="err" id="nameErr"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==FOLLOW-FILES== 由 _gen_follow_v2.py 维护（读写单页 page）；?pg= 深链路由用 -->
+<script>window.FOLLOW_VOCAB={};window.FOLLOW_FILES={"012":{"page":"读写_tk1_012_doenjoylife.html"},"015":{"page":"读写_tk1_015_hobbiesfamily.html"},"016":{"page":"读写_tk1_016_freetimeblog.html"},"020":{"page":"读写_tk1_020_messages.html"},"023":{"page":"读写_tk1_023_shoppingtalks.html"},"024":{"page":"读写_tk1_024_sundayforum.html"},"026":{"page":"读写_tk1_026_banknotes.html"},"030":{"page":"读写_tk1_030_superfoodinsects.html"},"033":{"page":"读写_tk1_033_cafefood.html"},"034":{"page":"读写_tk1_034_eatingworld.html"},"038":{"page":"读写_tk1_038_oldfilms.html"},"041":{"page":"读写_tk1_041_permission.html"},"042":{"page":"读写_tk1_042_suziesaves.html"},"044":{"page":"读写_tk1_044_familytraditions.html"},"048":{"page":"读写_tk1_048_caveman.html"},"051":{"page":"读写_tk1_051_rooms.html"},"052":{"page":"读写_tk1_052_holidaycastle.html"},"056":{"page":"读写_tk1_056_specialfriendship.html"},"059":{"page":"读写_tk1_059_friendshipadvice.html"},"060":{"page":"读写_tk1_060_penpals.html"},"062":{"page":"读写_tk1_062_friendsinliterature.html"},"066":{"page":"读写_tk1_066_drybath.html"},"069":{"page":"读写_tk1_069_younginventors.html"},"070":{"page":"读写_tk1_070_gadgetreviews.html"},"074":{"page":"读写_tk1_074_sportingmoments.html"},"077":{"page":"读写_tk1_077_teensandsport.html"},"078":{"page":"读写_tk1_078_sportingfails.html"},"080":{"page":"读写_tk1_080_unusualsports.html"},"084":{"page":"读写_tk1_084_wildsideoflife.html"},"087":{"page":"读写_tk1_087_kalaharibushman.html"},"088":{"page":"读写_tk1_088_extremenature.html"},"092":{"page":"读写_tk1_092_experiencesabroad.html"},"095":{"page":"读写_tk1_095_teensmakingplans.html"},"096":{"page":"读写_tk1_096_improveourtown.html"},"098":{"page":"读写_tk1_098_mythicalplaces.html"},"102":{"page":"读写_tk1_102_changingbodies.html"},"105":{"page":"读写_tk1_105_physicalproblems.html"},"106":{"page":"读写_tk1_106_oldwivestales.html"},"110":{"page":"读写_tk1_110_worldrecordbreaker.html"},"113":{"page":"读写_tk1_113_travellingwell.html"},"114":{"page":"读写_tk1_114_sofatravel.html"},"116":{"page":"读写_tk1_116_hardjourneys.html"}};window.FOLLOW_META={"p012":{"q":0,"s":42,"v":1},"p015":{"q":0,"s":31,"v":1},"p016":{"q":0,"s":24,"v":1},"p020":{"q":0,"s":41,"v":1},"p023":{"q":0,"s":36,"v":1},"p024":{"q":0,"s":26,"v":1},"p026":{"q":0,"s":21,"v":1},"p030":{"q":0,"s":25,"v":1},"p033":{"q":0,"s":43,"v":1},"p034":{"q":0,"s":21,"v":1},"p038":{"q":0,"s":36,"v":1},"p041":{"q":0,"s":53,"v":1},"p042":{"q":0,"s":24,"v":1},"p044":{"q":0,"s":22,"v":1},"p048":{"q":0,"s":21,"v":1},"p051":{"q":0,"s":45,"v":1},"p052":{"q":0,"s":21,"v":1},"p056":{"q":0,"s":27,"v":1},"p059":{"q":0,"s":45,"v":1},"p060":{"q":0,"s":33,"v":1},"p062":{"q":0,"s":22,"v":1},"p066":{"q":0,"s":30,"v":1},"p069":{"q":0,"s":43,"v":1},"p070":{"q":0,"s":25,"v":1},"p074":{"q":0,"s":32,"v":1},"p077":{"q":0,"s":36,"v":1},"p078":{"q":0,"s":25,"v":1},"p080":{"q":0,"s":25,"v":1},"p084":{"q":0,"s":33,"v":1},"p087":{"q":0,"s":51,"v":1},"p088":{"q":0,"s":20,"v":1},"p092":{"q":0,"s":44,"v":1},"p095":{"q":0,"s":53,"v":1},"p096":{"q":0,"s":22,"v":1},"p098":{"q":0,"s":26,"v":1},"p102":{"q":0,"s":27,"v":1},"p105":{"q":0,"s":65,"v":1},"p106":{"q":0,"s":27,"v":1},"p110":{"q":0,"s":27,"v":1},"p113":{"q":0,"s":47,"v":1},"p114":{"q":0,"s":16,"v":1},"p116":{"q":0,"s":29,"v":1}};</script>
+<!-- 深链路由：?pg=N → 篇章读写单页（FOLLOW_FILES 必须先于本 script 定义；默认流程①逐句听） -->
+<script>
+(function(){
+  var m=(location.search||"").match(/[?&]pg=(\d+)/);
+  if(m && window.FOLLOW_FILES && FOLLOW_FILES[m[1]] && FOLLOW_FILES[m[1]].page){
+    location.replace("篇章页/" + FOLLOW_FILES[m[1]].page + "?flow=listen");
+  }
+})();
+</script>
+<script>
+var DB={}; /* 主站仅保留时间轴投影（_timeline_check 门禁用）；引擎数据在 篇章页/ 三页内 */
+/* ==TL-DATA-START== 由 assets/timeline.json 生成（_sync_timeline.js）；请勿手改这一块 == */
+DB.TL={"12":[[6.22,7.84],[9.06,11.88],[12.8,15.46],[16.73,21.19],[22.06,27.67],[28.53,36.83],[36.83,42.17],[43.89,44.63],[45.43,50.37],[54.04,55.36],[57.17,59.11],[61.16,62.84],[65.06,68.26],[71.82,73.62],[75.32,76.76],[78.5,78.98],[81.23,82.53],[86.42,87.88],[89.84,92.56],[94.86,97.24],[99.43,101.05],[101.43,102.63],[106.27,108.72],[110.9,112.7],[115.32,116.18],[118.31,119.59],[123.42,124.88],[127.14,129.08],[131.6,134.7],[137.26,139.38],[143.11,145.75],[147.74,148.96],[151.25,155.47],[157.73,160.29],[163.99,166.65],[169.26,171.18],[173.25,175.72],[177.795,180.744],[182.28,183.66],[185.34,190.62],[191.9,200.11],[202.1,207.53]],"15":[[9.28,18.82],[19.52,20.42],[21.21,26.77],[27.47,32.37],[32.37,35.7],[36.34,41.0],[41.54,48.93],[49.55,55.54],[56.2,58.003],[63.54,66.88],[67.82,71.14],[71.74,77.2],[77.82,79.32],[79.82,82.75],[83.35,83.85],[84.47,92.43],[92.43,97.61],[98.38,101.06],[101.82,103.78],[104.3,108.402],[114.68,117.28],[119.18,122.02],[122.8,126.5],[126.5,131.62],[132.26,133.26],[136.02,139.34],[139.8,145.1],[145.62,150.68],[151.18,154.56],[154.56,160.51],[161.11,164.43]],"16":[[6.41,8.71],[10.04,20.68],[21.41,23.21],[24.65,25.2],[26.66,28.32],[28.32,33.1],[34.06,42.89],[43.95,50.63],[51.62,55.52],[57.63,58.07],[59.54,71.56],[72.75,82.26],[82.92,85.48],[87.77,88.25],[89.89,98.67],[99.62,103.26],[104.33,109.45],[110.7,116.16],[117.28,121.58],[123.83,124.31],[125.82,137.0],[137.59,146.99],[147.79,152.29],[152.81,158.31]],"20":[[6.52,9.35],[10.53,14.16],[14.96,18.16],[19.1,20.68],[21.63,22.45],[23.7,25.8],[26.59,34.3],[35.74,41.575],[42.36,43.62],[44.71,49.04],[49.68,51.88],[52.52,55.68],[56.48,58.48],[58.94,61.33],[62.01,67.42],[68.08,70.46],[71.48,75.26],[75.98,80.88],[81.52,82.72],[83.48,87.52],[88.41,89.99],[90.79,95.09],[96.09,101.13],[102.96,105.98],[106.84,110.38],[112.51,115.93],[117.74,118.54],[119.68,122.926],[123.38,128.38],[129.3,133.16],[134.24,136.2],[136.76,145.508],[146.34,149.92],[150.64,151.75],[152.41,154.51],[155.11,159.92],[160.67,163.67],[165.05,168.29],[169.09,174.05],[174.83,178.15],[178.15,182.76]],"23":[[9.14,10.46],[10.82,14.28],[15.32,17.22],[17.64,21.94],[22.68,23.36],[23.86,26.08],[26.56,29.38],[30.74,31.25],[31.25,35.33],[35.63,36.13],[41.8,43.06],[43.58,48.94],[49.5,51.16],[51.7,54.28],[54.28,58.06],[58.58,60.68],[61.08,64.3],[64.96,65.28],[66.2,70.26],[70.86,71.76],[77.94,79.3],[80.06,84.06],[84.72,86.74],[88.02,91.98],[92.54,96.48],[96.96,101.16],[101.16,107.99],[108.63,109.03],[115.52,116.44],[116.84,121.84],[122.3,126.3],[127.04,128.37],[128.67,131.23],[131.83,132.17],[132.89,136.7],[137.22,137.6]],"24":[[6.63,9.68],[10.82,13.05],[14.08,19.92],[20.54,27.1],[27.78,30.48],[30.48,34.26],[34.98,38.02],[39.84,43.131],[44.0,51.59],[52.29,60.59],[60.59,65.527],[68.02,72.191],[73.32,80.55],[81.58,83.56],[84.64,89.68],[90.7,96.59],[97.66,99.64],[103.0,106.928],[107.96,114.85],[115.81,123.41],[124.21,130.218],[131.68,135.663],[136.91,140.89],[142.18,152.19],[153.53,157.47],[157.47,163.42]],"26":[[9.04,14.96],[15.72,20.24],[21.04,29.14],[30.22,37.38],[38.61,42.32],[45.2,45.7],[46.12,49.06],[50.0,56.14],[57.24,66.16],[67.4,74.16],[77.34,77.949],[78.6,85.34],[86.02,93.18],[94.22,99.114],[102.56,103.06],[103.62,109.93],[110.78,121.26],[125.0,125.5],[126.0,130.52],[132.6,145.58],[146.66,152.86]],"30":[[14.44,23.66],[24.6,40.54],[41.94,49.44],[49.44,56.26],[56.96,68.6],[69.58,73.6],[73.6,83.5],[84.58,89.92],[90.82,98.36],[99.5,102.22],[103.12,105.32],[106.76,113.84],[114.8,119.2],[120.48,130.98],[130.98,135.0],[136.56,143.94],[144.84,151.42],[152.3,153.84],[154.74,156.78],[156.78,160.96],[162.04,165.06],[165.76,167.68],[168.62,169.46],[170.36,181.02],[181.02,184.0]],"33":[[7.14,9.8],[10.24,14.7],[14.7,17.08],[17.72,18.46],[18.84,20.64],[21.44,25.22],[25.22,30.78],[32.14,35.4],[36.22,39.68],[40.74,41.9],[41.9,49.86],[49.86,51.02],[51.02,54.86],[55.48,60.16],[60.16,62.56],[63.16,64.82],[64.82,68.696],[68.9,72.98],[72.98,74.1],[74.66,79.58],[79.58,81.66],[82.9,84.84],[85.3,87.12],[87.66,90.1],[91.4,92.2],[92.2,96.16],[96.16,98.7],[99.16,99.6],[99.6,105.86],[105.86,109.62],[111.2,114.44],[115.12,121.38],[121.84,124.38],[124.86,130.28],[130.48,135.28],[135.28,137.96],[138.6,140.74],[141.42,145.06],[145.06,148.96],[149.62,150.12],[150.76,156.0],[156.26,158.88],[158.88,164.84]],"34":[[13.0,21.177],[21.56,26.773],[26.773,36.72],[37.88,40.94],[40.94,49.911],[49.911,55.34],[56.48,60.314],[60.98,65.62],[66.7,69.86],[69.86,71.96],[71.96,77.68],[77.68,85.34],[86.52,91.51],[92.24,101.18],[101.18,108.06],[109.0,112.2],[113.02,114.7],[115.84,124.262],[124.262,135.233],[136.3,142.32],[143.4,146.06]],"38":[[9.73,14.048],[14.62,28.22],[28.22,30.1],[30.56,31.66],[32.38,34.78],[35.5,37.32],[38.12,41.2],[42.34,50.32],[50.88,53.48],[54.64,59.16],[59.88,68.708],[69.58,75.198],[75.96,85.66],[86.44,89.74],[91.2,95.36],[96.12,96.9],[97.6,99.5],[100.16,103.38],[103.86,106.34],[107.62,109.24],[109.842,111.92],[112.72,118.82],[119.54,127.106],[127.62,130.821],[131.86,134.62],[134.62,136.22],[136.9,137.82],[138.56,142.629],[142.629,144.2],[144.84,146.76],[147.22,152.34],[153.159,160.46],[160.46,163.18],[163.86,168.34],[168.34,173.12],[173.66,179.08]],"41":[[10.06,11.78],[12.42,14.26],[15.3,15.9],[16.78,17.7],[18.5,20.04],[20.42,22.48],[23.2,27.68],[28.24,29.42],[29.42,32.14],[32.54,33.8],[34.26,36.96],[37.36,39.741],[40.12,40.84],[41.88,44.22],[44.58,44.88],[45.46,47.84],[48.3,49.06],[49.58,50.92],[52.7,54.84],[55.44,57.18],[57.18,59.58],[59.72,60.82],[61.28,62.06],[62.48,63.36],[63.88,74.34],[75.92,76.56],[76.96,79.34],[80.06,81.48],[81.92,82.26],[82.64,84.6],[85.14,85.76],[85.76,88.363],[88.5,89.12],[89.38,90.12],[90.52,90.94],[91.86,92.32],[92.64,93.16],[93.86,95.2],[95.66,96.68],[97.361,99.76],[100.3,101.06],[101.68,104.06],[104.78,108.78],[109.34,112.408],[112.756,116.04],[116.52,116.982],[117.7,118.68],[119.351,121.1],[122.0,123.26],[123.66,127.94],[128.5,129.96],[130.58,131.529],[131.84,132.74]],"42":[[8.56,16.06],[16.76,19.215],[20.02,24.915],[25.56,29.72],[30.7,32.48],[33.66,37.5],[38.3,39.56],[40.24,42.14],[43.4,48.054],[48.65,54.962],[55.62,60.651],[61.52,63.86],[64.72,69.6],[70.54,72.12],[72.74,74.56],[74.56,76.56],[77.1,78.739],[79.48,80.94],[82.06,87.144],[87.9,91.8],[92.52,96.177],[96.72,100.357],[101.66,106.98],[107.6,120.38]],"44":[[10.18,18.18],[18.76,20.108],[24.78,30.42],[31.3,34.226],[35.06,41.947],[42.84,49.528],[50.2,53.28],[59.44,63.98],[64.9,69.8],[70.92,78.832],[79.92,85.438],[90.6,94.215],[94.96,98.7],[99.98,105.337],[106.14,111.967],[112.94,119.165],[124.78,130.043],[130.7,133.352],[134.1,139.064],[140.32,145.438],[146.46,151.429],[152.4,155.82]],"48":[[9.3,19.5],[20.32,25.52],[26.36,29.536],[30.32,39.94],[41.22,44.188],[44.84,47.276],[47.84,52.744],[53.58,60.04],[61.18,68.32],[69.34,83.04],[84.0,92.08],[93.22,104.722],[105.42,114.509],[115.56,119.339],[120.28,128.28],[129.46,135.5],[136.98,139.04],[139.96,148.34],[149.68,159.46],[160.54,166.243],[167.16,176.28]],"51":[[7.34,14.56],[15.14,17.94],[18.3,19.12],[19.62,21.76],[22.56,26.5],[27.06,29.582],[29.582,33.6],[34.18,34.62],[35.08,37.48],[38.14,42.18],[42.18,45.94],[45.94,48.76],[49.3,53.081],[53.081,60.04],[60.5,61.16],[61.81,63.58],[64.0,64.772],[65.45,70.147],[70.62,71.041],[71.54,76.138],[76.66,79.25],[79.58,88.503],[89.02,89.92],[90.08,91.1],[91.7,93.193],[94.02,96.862],[96.862,99.9],[100.92,102.7],[103.5,107.12],[107.86,114.5],[115.11,118.48],[119.66,122.82],[122.82,126.98],[127.86,129.962],[129.962,132.34],[133.3,134.82],[135.55,142.06],[142.06,146.22],[146.22,157.06],[157.06,163.38],[163.38,164.32],[165.06,166.22],[166.86,168.646],[168.74,171.153],[171.28,171.68]],"52":[[11.11,12.12],[13.06,15.302],[16.0,20.643],[21.38,33.66],[34.58,40.205],[40.64,44.44],[45.36,47.32],[47.96,50.22],[50.22,55.18],[56.16,59.6],[60.3,61.54],[62.58,66.804],[67.66,72.806],[73.36,77.322],[77.78,83.02],[84.28,88.54],[89.28,92.624],[93.42,97.98],[98.88,101.889],[102.74,107.195],[107.76,110.9]],"56":[[8.78,12.167],[12.94,18.03],[18.76,27.06],[28.52,34.168],[35.0,41.16],[43.01,49.563],[49.98,53.2],[54.36,61.812],[62.96,66.827],[68.02,74.78],[76.08,78.2],[79.34,84.544],[85.44,92.903],[93.9,102.74],[104.16,108.32],[109.52,113.66],[114.6,117.133],[117.94,122.067],[123.0,132.865],[133.54,136.173],[137.0,140.783],[142.48,150.92],[152.02,157.88],[158.98,165.58],[166.86,171.86],[172.7,179.14],[179.78,181.94]],"59":[[6.78,9.26],[9.88,10.48],[11.24,13.82],[14.7,15.18],[15.56,15.9],[16.44,20.2],[20.68,22.9],[23.54,24.44],[24.98,26.5],[27.02,29.4],[30.06,33.82],[34.3,35.34],[35.66,42.701],[43.22,44.582],[45.12,46.92],[47.589,48.98],[49.88,55.391],[55.391,56.82],[57.46,60.047],[60.44,64.24],[65.132,67.315],[67.66,76.057],[76.34,76.68],[77.06,78.12],[78.68,83.267],[83.267,89.32],[90.24,97.62],[98.3,98.68],[99.24,105.14],[105.7,107.94],[108.42,118.48],[119.16,123.76],[124.54,128.44],[129.0,132.28],[132.84,133.22],[133.98,135.16],[135.82,142.48],[143.0,143.58],[144.32,150.24],[150.64,151.26],[152.02,155.2],[155.92,159.94],[160.66,163.027],[163.28,165.16],[165.74,170.16]],"60":[[9.4,20.759],[21.7,24.46],[25.159,28.52],[29.0,38.02],[38.34,45.755],[46.34,48.44],[48.98,50.02],[50.7,55.08],[55.6,59.058],[59.24,61.82],[61.82,67.54],[68.68,84.56],[85.16,91.5],[92.22,94.58],[95.06,95.94],[96.52,99.06],[99.06,100.54],[101.38,110.399],[111.14,113.48],[114.46,117.98],[118.88,119.66],[119.66,121.14],[121.84,122.44],[122.92,127.88],[128.46,130.52],[131.34,135.14],[135.697,137.4],[138.275,139.52],[140.28,142.54],[143.02,144.42],[145.16,149.82],[150.44,152.42],[153.12,155.3]],"62":[[9.4,18.68],[19.78,29.5],[30.18,34.84],[35.62,37.326],[39.06,47.42],[47.96,60.024],[60.86,72.98],[73.84,81.68],[83.1,93.48],[94.1,97.21],[97.82,105.42],[105.42,112.013],[113.22,128.3],[129.76,145.8],[146.68,154.16],[155.14,165.5],[166.34,176.959],[178.14,187.22],[188.14,192.04],[193.167,197.66],[198.3,204.44],[204.44,215.6]],"66":[[11.02,23.522],[24.28,26.9],[26.9,33.518],[34.58,38.568],[39.32,44.6],[45.64,52.465],[53.22,59.72],[60.76,65.55],[65.84,67.36],[67.84,69.46],[70.44,73.747],[74.26,74.815],[76.38,77.76],[78.5,85.148],[85.96,90.22],[91.38,92.787],[93.96,99.26],[100.12,103.44],[103.44,109.34],[110.12,117.087],[117.98,120.9],[122.08,125.434],[126.003,127.78],[129.72,133.224],[133.97,137.799],[138.76,140.64],[141.8,144.463],[144.463,148.167],[148.78,154.111],[155.26,161.98]],"69":[[5.44,13.212],[13.58,14.96],[15.66,32.3],[33.12,34.46],[35.28,38.34],[39.06,41.4],[42.3,46.16],[46.92,49.36],[50.0,51.14],[51.72,52.44],[52.44,54.28],[54.822,58.64],[59.12,61.7],[62.3,65.1],[65.829,68.26],[68.801,72.609],[72.96,76.98],[77.52,79.86],[79.86,81.88],[82.88,86.02],[86.48,87.44],[87.96,89.22],[89.92,93.18],[94.22,98.82],[99.5,103.2],[103.8,108.205],[108.205,112.46],[112.94,114.86],[115.2,115.78],[116.06,117.12],[117.82,120.48],[121.74,123.38],[123.86,125.852],[126.26,129.78],[131.06,133.66],[133.66,140.72],[141.14,141.52],[141.98,144.8],[145.22,151.58],[152.3,158.14],[158.62,163.12],[163.445,165.872],[166.08,167.8]],"70":[[6.54,11.24],[12.06,14.22],[15.04,21.595],[22.24,29.32],[30.02,34.52],[35.46,41.78],[42.88,52.26],[53.62,59.68],[60.7,62.38],[63.16,71.82],[73.22,75.64],[76.24,78.44],[79.24,79.62],[80.36,82.18],[83.44,84.48],[85.4,88.1],[88.82,101.38],[102.62,108.02],[108.8,111.74],[112.42,114.6],[115.22,116.36],[117.2,119.86],[120.58,125.62],[125.62,128.8],[129.44,131.9]],"74":[[10.3,13.72],[14.54,16.347],[19.98,21.896],[22.66,28.92],[29.92,33.146],[34.26,43.02],[44.32,62.92],[63.9,66.64],[67.86,83.54],[84.98,87.84],[92.06,103.584],[104.04,105.32],[106.12,107.36],[108.44,112.083],[112.64,113.48],[114.56,117.34],[119.62,121.6],[122.62,124.68],[125.68,131.14],[131.8,135.1],[137.44,149.548],[150.14,160.67],[165.18,166.603],[167.56,175.1],[176.26,180.407],[181.46,188.6],[189.52,191.16],[192.84,200.667],[201.5,203.778],[204.66,212.428],[212.428,217.52],[218.46,221.84]],"77":[[7.56,10.7],[11.46,13.66],[14.12,15.78],[16.36,30.32],[31.3,34.145],[34.145,44.02],[45.68,49.0],[49.88,52.535],[53.04,66.792],[67.3,74.48],[75.16,82.942],[84.78,88.06],[88.7,92.68],[93.24,95.58],[96.18,101.18],[101.18,104.08],[104.62,109.1],[109.64,110.88],[111.6,113.52],[114.3,121.162],[121.56,124.436],[126.26,129.24],[129.24,133.8],[134.08,145.403],[145.98,149.8],[150.66,163.585],[165.34,168.26],[168.98,170.44],[171.28,173.267],[173.72,176.89],[177.34,183.52],[183.52,191.76],[192.62,194.32],[194.32,197.44],[198.48,200.818],[201.421,205.96]],"78":[[9.2,13.259],[13.84,16.927],[17.52,23.8],[24.26,30.209],[30.86,35.306],[35.82,46.38],[47.2,54.02],[56.4,60.151],[60.68,63.541],[64.1,69.602],[70.16,76.3],[77.0,82.001],[84.3,90.4],[91.32,94.1],[95.68,101.72],[102.6,108.96],[109.66,113.8],[116.3,121.74],[122.62,124.62],[125.6,129.521],[130.12,133.16],[134.2,137.08],[138.1,140.14],[141.12,143.34],[144.14,149.82]],"80":[[9.2,18.86],[20.07,24.6],[25.38,27.56],[31.02,41.7],[42.6,48.12],[48.98,54.76],[56.216,63.12],[64.18,71.007],[74.16,81.34],[82.34,95.19],[95.62,102.38],[103.5,112.02],[115.66,120.72],[121.9,127.64],[128.46,137.98],[139.0,142.431],[143.12,149.629],[150.54,157.06],[157.06,168.182],[171.54,175.763],[176.6,186.665],[187.42,188.6],[189.62,193.52],[194.94,205.2],[205.84,211.14]],"84":[[8.92,13.78],[14.7,21.687],[22.4,28.48],[29.94,34.98],[35.74,37.036],[37.68,43.027],[43.82,50.736],[51.74,55.82],[56.72,58.1],[59.3,62.984],[63.64,69.24],[70.1,73.82],[75.38,80.06],[81.08,84.84],[85.9,90.186],[91.28,94.66],[95.72,98.78],[99.7,101.76],[102.52,107.578],[109.1,115.1],[116.12,122.3],[123.28,128.72],[129.58,135.047],[135.92,143.615],[144.74,151.069],[151.3,155.249],[156.86,161.04],[161.9,166.58],[167.42,171.119],[172.02,178.64],[179.48,183.844],[184.52,191.599],[192.66,200.16]],"87":[[6.58,10.12],[10.76,11.52],[11.84,18.773],[19.28,21.258],[21.72,24.94],[24.94,29.34],[30.32,31.5],[32.22,36.072],[36.28,43.874],[44.3,44.88],[45.4,49.74],[50.44,57.06],[58.5,62.7],[63.24,68.48],[69.46,75.46],[76.22,78.797],[78.797,82.36],[83.16,86.42],[86.98,88.073],[88.28,91.9],[92.5,96.096],[96.52,101.2],[101.94,104.12],[104.86,105.86],[105.86,109.32],[109.86,112.96],[113.6,115.798],[116.2,117.22],[117.68,119.966],[119.966,123.82],[124.58,129.02],[129.28,129.68],[130.2,131.74],[131.74,138.28],[138.9,144.7],[145.12,149.467],[150.26,153.6],[153.7,156.9],[156.9,161.36],[161.68,166.54],[167.12,167.76],[168.32,171.862],[172.5,175.578],[176.08,178.96],[178.96,182.24],[182.24,186.44],[187.38,187.98],[188.66,190.78],[191.48,196.28],[197.16,205.775],[206.52,207.18]],"88":[[8.46,22.02],[29.98,35.84],[36.8,38.429],[39.06,44.06],[45.7,63.18],[64.3,69.54],[71.58,76.8],[77.5,79.48],[79.48,90.14],[91.14,94.06],[94.714,102.84],[103.66,106.0],[106.68,110.04],[111.56,114.04],[114.649,118.5],[119.664,130.96],[131.796,134.16],[134.931,139.587],[140.02,150.64],[151.44,159.08]],"92":[[7.22,8.14],[8.84,12.52],[13.28,13.98],[15.0,21.12],[21.9,25.88],[26.8,30.511],[31.22,33.9],[35.4,39.7],[40.54,44.08],[44.76,46.6],[47.38,51.676],[52.02,53.66],[54.7,60.6],[61.16,70.08],[71.6,74.06],[74.7,76.88],[77.42,80.18],[81.1,83.06],[83.72,90.546],[91.62,97.14],[97.72,98.6],[99.5,102.133],[102.76,103.96],[105.7,106.76],[107.48,114.909],[115.3,116.96],[117.84,123.0],[124.0,126.12],[127.14,130.36],[131.42,134.838],[135.44,143.14],[144.28,148.16],[149.06,155.22],[156.12,159.8],[160.36,164.664],[164.664,166.64],[167.36,169.72],[170.62,176.843],[177.46,181.28],[182.26,187.71],[188.1,191.02],[191.7,195.84],[196.66,197.78],[198.682,200.16]],"95":[[6.98,8.208],[8.92,10.06],[10.72,11.06],[11.54,12.88],[13.3,13.62],[14.22,17.82],[18.32,20.0],[20.5,21.4],[22.64,23.74],[25.08,27.0],[27.36,28.42],[28.88,31.26],[31.64,32.64],[33.32,35.8],[37.38,39.4],[39.52,39.88],[40.647,46.82],[47.36,49.12],[49.78,52.2],[52.779,53.26],[55.82,59.3],[60.395,64.78],[65.3,68.58],[68.98,71.02],[71.74,74.014],[74.26,78.14],[78.66,81.5],[82.26,83.86],[84.42,88.6],[89.28,91.08],[91.94,94.2],[94.7,95.98],[97.68,99.32],[100.2,100.72],[101.3,106.02],[106.6,109.42],[109.88,110.5],[111.02,113.1],[113.1,118.1],[118.44,121.14],[121.6,123.34],[123.5,124.772],[125.28,128.76],[129.18,135.593],[136.36,138.14],[138.74,140.0],[140.52,142.46],[142.46,143.8],[143.8,146.2],[146.7,147.423],[147.86,149.54],[150.12,151.12],[151.62,152.98]],"96":[[6.14,20.805],[21.14,27.655],[28.38,32.82],[33.52,35.991],[36.46,39.78],[40.62,44.56],[46.58,52.257],[52.257,57.22],[58.12,61.86],[62.58,66.26],[67.04,71.12],[72.92,78.64],[78.64,84.98],[85.78,96.374],[97.96,106.7],[106.7,113.16],[114.04,120.24],[120.86,127.013],[128.66,137.62],[139.44,146.36],[147.02,151.26],[151.88,154.5]],"98":[[9.0,20.32],[21.12,31.916],[32.68,37.92],[39.02,48.14],[49.0,58.712],[59.76,70.9],[71.98,76.057],[76.66,81.86],[82.94,88.0],[89.68,94.865],[95.66,99.5],[100.62,106.62],[107.96,114.02],[115.08,122.0],[123.42,131.14],[133.06,142.12],[143.3,148.04],[149.68,159.231],[160.3,164.16],[165.12,171.886],[173.54,179.0],[179.66,187.4],[188.6,194.885],[195.56,205.94],[207.26,212.34],[212.76,217.86]],"102":[[9.35,14.315],[15.02,23.84],[24.74,25.14],[25.94,29.36],[30.5,35.852],[36.74,40.28],[40.9,41.48],[42.38,48.62],[49.54,52.08],[52.88,57.76],[61.14,63.02],[64.32,69.242],[69.98,74.14],[75.3,81.2],[84.18,86.901],[87.7,95.062],[98.14,105.825],[105.825,115.4],[116.26,123.08],[126.08,127.82],[128.84,143.46],[146.38,152.96],[153.62,163.46],[166.84,175.56],[176.48,178.26],[178.8,180.1],[181.08,184.34]],"105":[[9.56,11.2],[11.92,13.54],[13.98,15.36],[15.7,16.94],[17.36,19.92],[20.5,22.4],[22.84,24.8],[25.2,26.16],[26.68,28.04],[28.607,30.34],[30.92,31.98],[32.78,34.38],[35.06,37.4],[38.04,41.8],[42.423,44.18],[44.687,45.44],[45.86,46.24],[46.82,48.24],[48.44,50.1],[50.968,52.96],[53.4,53.7],[54.2,54.54],[61.28,62.36],[62.84,63.74],[64.1,64.74],[65.22,67.22],[67.76,68.66],[69.18,70.1],[70.82,71.0],[71.5,76.18],[76.72,78.0],[78.52,81.04],[81.64,85.5],[85.5,90.8],[91.42,93.36],[94.04,96.2],[96.8,98.26],[98.62,101.64],[102.2,107.24],[107.66,109.48],[109.88,111.1],[111.58,114.42],[114.42,120.22],[120.56,121.28],[121.8,122.18],[128.8,129.82],[130.52,131.82],[132.1,133.06],[133.7,134.34],[135.059,137.1],[137.62,138.22],[138.7,139.58],[140.2,141.62],[141.62,142.38],[143.256,144.24],[144.8,145.64],[146.32,150.78],[153.06,155.52],[156.58,157.86],[158.48,161.1],[161.74,166.8],[167.474,170.74],[171.66,175.02],[175.56,177.86],[178.46,178.72]],"106":[[9.52,16.393],[17.02,32.009],[32.98,38.29],[38.88,41.157],[42.4,48.054],[48.7,50.86],[51.84,57.017],[57.7,60.44],[61.44,64.94],[66.1,74.92],[76.14,79.8],[79.8,85.2],[86.36,99.149],[99.7,100.995],[101.66,109.529],[111.02,115.682],[116.54,120.3],[121.28,123.344],[124.6,129.416],[130.3,143.82],[145.06,149.513],[150.32,153.38],[154.68,157.38],[157.38,160.485],[161.14,165.79],[167.24,171.909],[172.56,176.34]],"110":[[10.96,14.12],[14.72,28.84],[29.72,39.04],[39.88,54.346],[55.04,62.949],[63.68,70.38],[71.26,79.64],[80.62,93.983],[94.68,101.703],[102.36,106.266],[106.88,119.06],[120.16,129.498],[130.3,133.82],[134.36,136.16],[137.28,144.869],[145.76,155.086],[156.1,167.96],[168.86,176.6],[177.76,180.106],[180.58,184.26],[185.02,195.361],[196.26,200.5],[201.36,204.173],[204.72,207.064],[207.92,213.554],[213.554,215.96],[215.96,220.08]],"113":[[8.4,9.2],[9.82,10.14],[10.84,13.3],[13.96,18.6],[19.319,22.1],[22.7,27.52],[28.3,30.82],[31.28,32.334],[32.92,37.04],[37.58,38.208],[38.557,42.144],[42.62,44.02],[44.52,45.987],[46.48,53.29],[53.29,54.08],[54.52,57.945],[58.42,60.7],[61.22,62.22],[62.66,64.38],[64.8,65.42],[66.154,70.54],[71.181,76.8],[76.8,79.36],[80.18,82.26],[82.26,82.56],[82.56,83.32],[85.02,88.78],[89.48,93.936],[94.52,99.96],[100.36,108.402],[109.02,116.3],[117.28,120.697],[121.18,123.24],[124.0,126.489],[126.62,128.54],[128.76,130.84],[130.84,135.74],[136.64,138.48],[139.28,145.48],[146.1,150.56],[151.1,154.94],[155.84,156.26],[156.26,160.496],[160.96,165.674],[166.32,170.08],[170.92,173.6],[174.06,176.16]],"114":[[12.82,17.0],[18.24,21.142],[21.86,27.96],[28.64,35.46],[36.16,44.18],[45.22,48.56],[49.38,62.4],[63.3,70.113],[70.693,82.06],[82.9,91.54],[92.58,110.434],[112.04,117.6],[118.32,132.06],[132.9,139.34],[140.17,148.631],[149.16,157.46]],"116":[[11.02,12.56],[13.52,22.06],[22.8,34.18],[34.62,42.0],[42.64,61.44],[62.04,63.925],[64.44,68.18],[69.7,79.203],[79.203,84.62],[85.519,91.92],[94.14,103.143],[104.0,107.54],[108.24,111.224],[111.6,120.628],[121.34,129.138],[130.68,138.9],[138.9,142.06],[143.1,152.067],[152.067,157.5],[160.02,175.32],[176.4,178.64],[179.12,182.88],[183.84,189.24],[190.1,196.2],[197.36,202.94],[204.18,209.792],[210.56,212.962],[213.68,229.309],[229.86,236.96]]}
+/* ==TL-DATA-END== */
+</script>
+<script>
+/* ============ 书架首页 / 单元页 / 篇章页（原 学生端.html 逻辑并入 index.html） ============ */
+(function(){
+'use strict';
+var $=function(id){ return document.getElementById(id); };
+var shelfRoot=$('shelfRoot');
+
+/* ═══════════ 数据模型 ═══════════ */
+var UNITS = [{"key":"1","n":1,"title":"Having a good time","sub":"日常活动与爱好 · U1","h":217,"live":true},{"key":"2","n":2,"title":"Spending money","sub":"购物与钱 · U2","h":150,"live":true},{"key":"3","n":3,"title":"We are what we eat","sub":"食物与健康 · U3 · 待验收","h":30,"live":true},{"key":"4","n":4,"title":"All in the family","sub":"家庭与情感 · U4 · 待验收","h":0,"live":true},{"key":"5","n":5,"title":"No place like home","sub":"居家与住所 · U5 · 待验收","h":0,"live":true},{"key":"6","n":6,"title":"Friends forever","sub":"友谊与朋友 · U6 · 待验收","h":0,"live":true},{"key":"7","n":7,"title":"Smart life","sub":"智能生活与发明 · U7 · 待验收","h":0,"live":true},{"key":"8","n":8,"title":"A question of sport","sub":"运动与输赢 · U8 · 待验收","h":0,"live":true},{"key":"9","n":9,"title":"Wild and wonderful","sub":"野生世界与自然奇观 · U9 · 待验收","h":0,"live":true},{"key":"10","n":10,"title":"Out and about","sub":"出行与城镇生活 · U10 · 待验收","h":0,"live":true},{"key":"11","n":11,"title":"Future bodies","sub":"身体与健康 · U11 · 待验收","h":0,"live":true},{"key":"12","n":12,"title":"Travel the world","sub":"旅行与交通 · U12 · 待验收","h":0,"live":true}];
+
+/* 单元主题词汇（来源：Think Starter Wordlist.xlsx，按 UNIT NO 归类）
+   字段：w 词/短语, ipa 音标, pos 词性, zh 释义, ex 例句 */
+var THEME = {"1":[{"w":"play an instrument","ipa":"ˌpleɪ ən ˈɪn.strə.mənt","pos":"phrase","zh":"演奏乐器","ex":"Do you play an instrument?"},{"w":"write a blog","ipa":"ˌraɪt ə ˈblɒg","pos":"phrase","zh":"写博客","ex":"He writes a blog about skateboarding."},{"w":"keep a pet","ipa":"ˌkiːp ə ˈpet","pos":"phrase","zh":"养宠物","ex":"I'm not allowed to keep a pet at home."},{"w":"take photos","ipa":"ˌteɪk ˈfəʊ.təʊz","pos":"phrase","zh":"照相","ex":"She took some photos of the mountains."},{"w":"be in a club","ipa":"ˌbiː ɪn ə ˈklʌb","pos":"phrase","zh":"加入俱乐 部","ex":"Are you in a club?"},{"w":"collect things","ipa":"kəˈlekt ˌθɪŋz","pos":"phrase","zh":"收集东西","ex":"Do you collect anything?"},{"w":"have hobbies","ipa":"ˌhæv ˈhɒb.iz","pos":"phrase","zh":"有兴趣爱 好","ex":"How many hobbies do you have?"},{"w":"have time","ipa":"ˌhæv ˈtaɪm","pos":"phrase","zh":"有时间","ex":"I only listen to music when I have time."},{"w":"have a rest","ipa":"ˌhæv ə ˈrest","pos":"phrase","zh":"休息一下","ex":"You need to have a rest."},{"w":"have a good time","ipa":"ˌhæv ə gʊd ˈtaɪm","pos":"phrase","zh":"玩得愉快","ex":"They're having a good time."},{"w":"have fun","ipa":"ˌhæv ˈfʌn","pos":"phrase","zh":"玩得开心","ex":"You know how to have fun and enjoy life."},{"w":"have dinner","ipa":"ˌhæv ˈdɪn.ə","pos":"phrase","zh":"吃晚饭","ex":"I'm hungry. Let's have dinner."}],"2":[{"w":"bookshop","ipa":"ˈbʊkˌʃɒp","pos":"noun","zh":"书店","ex":"There are so many bookshops in town."},{"w":"chemist's clothes shop","ipa":"ˈke.mɪsts ˈkləʊðz ˌʃɒp","pos":"noun noun","zh":"药店 服装店","ex":"Could you call in at the chemist's and get some plasters? In my town there’s a very good clothes shop."},{"w":"coffee shop","ipa":"ˈkɒf.i ˌʃɒp","pos":"noun","zh":"咖啡厅","ex":"I met my friends at the coffee shop."},{"w":"department store","ipa":"dɪˈpɑːt.mənt ˌstɔː","pos":"noun","zh":"百货公司","ex":"First we'll go to May's department store, because things are so cheap there."},{"w":"mobile phone shop","ipa":"ˌməʊ.baɪl ˈfəʊn ˌʃɒp","pos":"noun","zh":"手机商店","ex":"She's looking for a new phone at the mobile phone shop."},{"w":"sports shop","ipa":"ˈspɔːts ˌʃɒp","pos":"noun","zh":"运动商店","ex":"I bought this basketball at the sports shop."},{"w":"supermarket","ipa":"ˈsuː.pəˌmɑː.kɪt","pos":"noun","zh":"超市","ex":"They’re out. At the supermarket, I think."},{"w":"belt","ipa":"belt","pos":"noun","zh":"皮带","ex":"She fastened her belt tightly around her waist."},{"w":"dress","ipa":"dres","pos":"noun","zh":"连衣裙","ex":"a long/short dress"},{"w":"jumper","ipa":"ˈdʒʌm.pə","pos":"noun","zh":"套头毛衣a","ex":"warm jumper"},{"w":"shoes","ipa":"ʃuːz","pos":"noun","zh":"鞋","ex":"I really like buying shoes but I don’t like buying trousers."},{"w":"trainers","ipa":"ˈtreɪ.nəz","pos":"noun","zh":"运动鞋","ex":"She is wearing a tracksuit and trainers."},{"w":"boots","ipa":"buːts","pos":"noun","zh":"靴子","ex":"He put on a pair of walking boots."},{"w":"jacket","ipa":"ˈdʒæk.ɪt","pos":"noun","zh":"夹克","ex":"a leather/denim jacket"},{"w":"shirt","ipa":"ʃɜːt","pos":"noun","zh":"衬衫","ex":"a striped/white shirt"},{"w":"shorts","ipa":"ʃɔːts","pos":"noun","zh":"短裤","ex":"I never wear shorts."},{"w":"trousers","ipa":"ˈtraʊ.zəz","pos":"noun","zh":"裤子","ex":"I really like buying shoes but I don’t like buying trousers."},{"w":"identical","ipa":"aɪˈden.tɪ.kəl","pos":"adjective","zh":"完全相同 的","ex":"Credit cards all look almost identical."},{"w":"represent","ipa":"ˌrep.rɪˈzent","pos":"verb","zh":"代表","ex":"The pictures represent different kinds of architecture from all over Europe."},{"w":"currency","ipa":"ˈkʌr.ən.si","pos":"noun","zh":"通货, 货 币","ex":"In Mexico the currency is the peso."},{"w":"various","ipa":"ˈveə.ri.əs","pos":"adjective","zh":"各种各样 的","ex":"The banknotes have various animals, birds and fish on the other side."},{"w":"founder","ipa":"ˈfaʊn.də","pos":"noun","zh":"创立者; 创始人","ex":"Kemal rk was the founder of the Turkish republic."},{"w":"history","ipa":"ˈhɪs.tə.ri","pos":"noun","zh":"历史","ex":"a famous person from Mexican history"},{"w":"well-known","ipa":"ˌwelˈnəʊn","pos":"adjective","zh":"众所周知 的","ex":"well-known places in the country"},{"w":"portrait","ipa":"ˈpɔː.trət","pos":"noun","zh":"肖像","ex":"a portrait of the famous Mexican artist Frida Kahlo"}],"3":[{"w":"carrots","ipa":"ˈkær.əts","pos":"noun","zh":"胡萝卜","ex":"raw carrots"},{"w":"cake","ipa":"keɪk","pos":"noun","zh":"蛋糕","ex":"chocolate cake"},{"w":"peppers","ipa":"ˈpep.əz","pos":"noun","zh":"辣椒","ex":"red peppers"},{"w":"yoghurt","ipa":"ˈjɒg.ət","pos":"noun","zh":"酸奶","ex":"I'd like a bowl of fruit with yoghurt."},{"w":"omelette","ipa":"ˈɒm.lət","pos":"noun","zh":"煎蛋","ex":"a cheese/mushroom omelette"},{"w":"chilli","ipa":"ˈtʃɪl.i","pos":"noun","zh":"辣椒","ex":"We had chilli with rice."},{"w":"coffee","ipa":"ˈkɒf.i","pos":"noun","zh":"咖啡","ex":"fresh/instant coffee"},{"w":"beans","ipa":"biːnz","pos":"noun","zh":"豆","ex":"green beans"},{"w":"salad","ipa":"ˈsæ..əd","pos":"noun","zh":"沙拉","ex":"a salad bowl"},{"w":"tacos","ipa":"ˈtæk.əʊz","pos":"noun","zh":"玉米饼","ex":"They had tacos for lunch."},{"w":"have got a problem","ipa":"hæv ˌɡɒt ə ˈprɒb.ləm","pos":"phrase","zh":"遇到问题 了","ex":"I've got a problem - my computer won't work."},{"w":"have got my reasons","ipa":"hæv ˌɡɒt maɪ ˈriː.zənz","pos":"phrase","zh":"有我的理 由","ex":"I've got my reasons, but I don't want to tell you."},{"w":"have got a headache","ipa":"hæv ˌɡɒt ə ˈhed.eɪk","pos":"phrase","zh":"头疼","ex":"Beth has got a headache."},{"w":"have got time","ipa":"hæv ˌɡɒt ˈtaɪm","pos":"phrase","zh":"有时间","ex":"Have you got time to look at this?"},{"w":"have got something to do","ipa":"hæv ɡɒt ˌsʌm.θɪŋ tə ˈduː","pos":"phrase","zh":"有事情要 做","ex":"Have you all got something to do?"},{"w":"roast","ipa":"rəʊst","pos":"adjective","zh":"烘烤的","ex":"roast chicken"},{"w":"boiled","ipa":"bɔɪld","pos":"adjective","zh":"沸腾的","ex":"boiled potatoes"},{"w":"grilled","ipa":"grɪld","pos":"adjective","zh":"烤的","ex":"grilled steak/fish"},{"w":"fried","ipa":"fraɪd","pos":"adjective","zh":"油炸的","ex":"He cooked fried chicken and sausages."},{"w":"nice","ipa":"naɪs","pos":"adjective","zh":"美好的","ex":"He's a really nice guy."},{"w":"horrible","ipa":"ˈhɒ.rə","pos":"adjective","zh":"极坏的","ex":"He's got a horrible cold."},{"w":"delicious","ipa":"dɪˈlɪʃ.əs","pos":"adjective","zh":"美味的","ex":"They’re really fresh. Delicious!"},{"w":"(a bit) boring","ipa":"ˈbɔː.rɪŋ","pos":"adjective","zh":"（有点） 无聊的","ex":"a boring job/lecture"},{"w":"sweet","ipa":"swiːt","pos":"adjective","zh":"甜的；含 糖的","ex":"The pineapple was sweet and juicy."},{"w":"spicy","ipa":"ˈspaɪ.si","pos":"adjective","zh":"辛辣的","ex":"Do you like spicy food?"},{"w":"savoury","ipa":"ˈseɪ.vər.i","pos":"adjective","zh":"咸味的","ex":"We made some savoury biscuits."},{"w":"fresh","ipa":"freʃ","pos":"adjective","zh":"新鲜的","ex":"They’re really fresh. Delicious!"},{"w":"tasty","ipa":"ˈteɪ.sti","pos":"adjective","zh":"美味的","ex":"They do a very tasty breakfast."},{"w":"yummy","ipa":"ˈjʌm.i","pos":"adjective","zh":"好吃的","ex":"This curry is really yummy."},{"w":"fatty","ipa":"ˈfæt.i","pos":"adjective","zh":"富含脂肪 的","ex":"Try to cut down on eating fatty foods."},{"w":"disgusting","ipa":"dɪsˈgʌs.tɪŋ","pos":"adjective","zh":"令人厌恶 的","ex":"This food is disgusting."},{"w":"salty","ipa":"ˈsɒlt.i","pos":"adjective","zh":"咸的","ex":"It’s a bit too salty."}],"4":[{"w":"grandparents","ipa":"ˈɡrænˌpeə.rənts","pos":"noun","zh":"祖父母","ex":"They are my grandparents."},{"w":"grandma","ipa":"ˈgræn.mɑː","pos":"noun","zh":"祖母","ex":"I call them Grandma Diana and Grandpa Roger."},{"w":"grandpa","ipa":"ˈgræn.pɑː","pos":"noun","zh":"祖父","ex":"I call them Grandma Diana and Grandpa Roger."},{"w":"big brother/sister","ipa":"ˌbɪg ˈbrʌð.ə / ˈsɪs.tə","pos":"phrase","zh":"哥哥/姐 姐","ex":"My dad’s got a big brother called Bob."},{"w":"uncle","ipa":"ˈʌŋ","pos":"noun","zh":"叔叔","ex":"He’s my uncle and he’s great."},{"w":"aunt","ipa":"ˈɑːn.t","pos":"noun","zh":"阿姨","ex":"His wife Jemma is my aunty."},{"w":"sister-in-law","ipa":"ˈsɪs.tə.rɪn.lɔː","pos":"noun","zh":"嫂子","ex":"She’s my dad’s sister-in-law."},{"w":"little brother/sister","ipa":"ˌlɪ ˈbrʌð.ə / ˈsɪs.tə","pos":"phrase","zh":"弟弟/妹 妹","ex":"They’ve got two sons – Jimmy and his little brother Robin."},{"w":"cousin","ipa":"ˈkʌz.ən","pos":"noun","zh":"同辈表亲","ex":"Jimmy and Robin are my cousins."},{"w":"granddaughter/gr andson","ipa":"ˈgræn.dɔː.tə","pos":"noun","zh":"孙女/孙 子","ex":"They’re really nice to me because I’m their only granddaughter."},{"w":"proud","ipa":"praʊd","pos":"adjective","zh":"自豪的","ex":"We are so proud of her."},{"w":"worried","ipa":"ˈwʌr.id","pos":"adjective","zh":"担心","ex":"I was a bit worried. Where was she?"},{"w":"upset","ipa":"ʌpˈset","pos":"adjective","zh":"沮丧的","ex":"She’s really upset now."},{"w":"confused","ipa":"kənˈfjuːzd","pos":"adjective","zh":"困惑的","ex":"I’m really confused now."},{"w":"surprised","ipa":"səˈpraɪzd","pos":"adjective","zh":"惊讶","ex":"I was very surprised to see so many people there."},{"w":"angry","ipa":"ˈæŋ.gri","pos":"adjective","zh":"发怒的","ex":"The teacher was angry."},{"w":"scared","ipa":"skeəd","pos":"adjective","zh":"害怕的","ex":"I was really scared when I saw the gun."},{"w":"relieved","ipa":"rɪˈliːvd","pos":"adjective","zh":"释然的","ex":"I was relieved when it was over."},{"w":"celebrate","ipa":"ˈsel.ɪ.breɪt","pos":"verb","zh":"庆祝","ex":"We always celebrate our wedding anniversary by going out to dinner."},{"w":"event","ipa":"ɪˈvent","pos":"noun","zh":"事件","ex":"There is a special event called an Einschulung."},{"w":"relatives","ipa":"ˈrel.ə.tɪvz","pos":"noun","zh":"亲戚","ex":"A butsudan is a special place where you go to remember your dead relatives."},{"w":"share","ipa":"ʃeə","pos":"verb","zh":"分享","ex":"The children also bring in their favourite food to share with their friends."},{"w":"feed","ipa":"fiːd","pos":"verb","zh":"喂养","ex":"During the festival families feed cows and birds."},{"w":"presents","ipa":"ˈprez.ənts","pos":"noun","zh":"礼物","ex":"I'll open my presents after breakfast."}],"5":[{"w":"armchair","ipa":"ˈɑːmˌtʃeə","pos":"noun","zh":"扶手椅","ex":"She sat in an armchair by the fire, reading a newspaper."},{"w":"carpet","ipa":"ˈkɑː.pɪt","pos":"noun","zh":"地毯","ex":"We've got fitted carpets in the bedrooms."},{"w":"cooker","ipa":"ˈkʊk.ə","pos":"noun","zh":"炊具， 锅，厨灶","ex":"a gas/electric cooker"},{"w":"curtains","ipa":"ˈkɜː.tənz","pos":"plural noun","zh":"窗帘","ex":"She closed the curtains."},{"w":"desk","ipa":"desk","pos":"noun","zh":"书桌","ex":"an office/school desk"},{"w":"lamp","ipa":"læmp","pos":"noun","zh":"灯","ex":"a table/bedside lamp"},{"w":"mirror","ipa":"ˈmɪr.ə","pos":"noun","zh":"镜子","ex":"the bathroom mirror"},{"w":"shelves","ipa":"ʃelf","pos":"noun","zh":"货架","ex":"a glass shelf"},{"w":"shower","ipa":"ʃaʊə","pos":"noun","zh":"淋浴","ex":"I got up, had a shower and got dressed."},{"w":"sofa","ipa":"ˈsəʊ.fə","pos":"noun","zh":"沙发","ex":"Take a seat on the sofa and I'll get us some coffee."},{"w":"toilet","ipa":"ˈtɔɪ.lət","pos":"noun","zh":"抽水马 桶，坐便 器","ex":"I was on the toilet when the phone rang."},{"w":"wardrobe","ipa":"ˈwɔː.drəʊb","pos":"noun","zh":"衣柜","ex":"She was showing me her new built- in/fitted wardrobes."},{"w":"look after","ipa":"ˌlʊk ˈɑːf.tər","pos":"phrasal verb","zh":"照看","ex":"I have to look after my little brother today."},{"w":"look up","ipa":"ˌlʊk ˈʌp","pos":"phrasal verb","zh":"查阅","ex":"We looked up the train times on their website."},{"w":"look for","ipa":"ˈlʊk fə","pos":"phrasal verb","zh":"寻找","ex":"I'm looking for my keys."},{"w":"look at","ipa":"ˈlʊk ət","pos":"phrasal verb","zh":"看看","ex":"Look at Tom's new car!"},{"w":"look into","ipa":"ˌlʊk ˈɪn.tuː","pos":"phrasal verb","zh":"调查","ex":"I don't know what happened. I'll look into it."},{"w":"annoyed","ipa":"əˈnɔɪd","pos":"adjective","zh":"感到恼 怒的","ex":"I was so annoyed with him for turning up late."},{"w":"relaxed","ipa":"rɪˈlækst","pos":"adjective","zh":"感到轻 松的","ex":"She looked relaxed and happy walking along with her two boys."},{"w":"bored","ipa":"bɔːd","pos":"adjective","zh":"感到无 聊的","ex":"It was a cold, wet day and the children were bored."},{"w":"interested","ipa":"ˈɪn.trəs.tɪd","pos":"adjective","zh":"感兴趣的","ex":"He didn't seem very interested in what I was saying."},{"w":"amazed","ipa":"əˈmeɪzd","pos":"adjective","zh":"感到惊 喜/惊 奇的","ex":"She was amazed at how calm she felt after the accident."}],"6":[{"w":"yesterday (morning / afternoon / evening)","ipa":"ˈjes.tə.deɪ","pos":"phrase","zh":"昨天（上 午/下午/ 晚上）","ex":"We went there yesterday afternoon."},{"w":"last (year / month / week / Monday, etc.)","ipa":"lɑːst","pos":"phrase","zh":"上⼀个（年 /月/周/星期 一等）","ex":"We moved here last year."},{"w":"(a year / three weeks / eight hours, etc.) ago","ipa":"əˌgəʊ","pos":"phrase","zh":"（一年/ 三周/八 小时等） 以前","ex":"We went to the museum two weeks ago."},{"w":"intelligent","ipa":"ɪnˈtel.ɪ.dʒənt","pos":"adjective","zh":"聪明的","ex":"a highly intelligent young man"},{"w":"cheerful","ipa":"ˈtʃɪə.fəl","pos":"adjective","zh":"乐观的， 开朗的","ex":"He's usually fairly cheerful."},{"w":"jealous","ipa":"ˈdʒel.əs","pos":"adjective","zh":"嫉妒的","ex":"They were jealous of her wealth."},{"w":"helpful","ipa":"ˈhelp.fəl","pos":"adjective","zh":"乐意帮 忙的","ex":"She's such a pleasant, helpful child!"},{"w":"confident","ipa":"ˈkɒn.fɪ.dənt","pos":"adjective","zh":"自信的","ex":"Be a bit more confident in yourself!"},{"w":"generous","ipa":"ˈdʒen.ər.əs","pos":"adjective","zh":"慷慨的","ex":"She's been very generous with her time."},{"w":"easy-going","ipa":"ˌiː.ziˈɡəʊ.ɪŋ","pos":"adjective","zh":"随和的","ex":"My brother is easy- going, but I'm the excitable type."},{"w":"funny","ipa":"ˈfʌn.i","pos":"adjective","zh":"有趣的","ex":"Do you know any funny stories?"},{"w":"success","ipa":"səkˈses","pos":"noun","zh":"成功","ex":"Part of the books' success is because of the friendship between those three characters."},{"w":"characters","ipa":"ˈkæ.rək.təz","pos":"noun","zh":"角色","ex":"Harry, Hermione and Ron are the main characters in the Harry Potter books."},{"w":"adventures","ipa":"ədˈven.tʃəz","pos":"noun","zh":"冒险","ex":"They have many adventures together."},{"w":"guardian","ipa":"ˈɡɑː.di.ən","pos":"noun","zh":"监护人； 守卫者","ex":"Mowgli’s great friend and guardian is a bear called Baloo."},{"w":"escape","ipa":"ɪˈskeɪp","pos":"verb","zh":"逃跑","ex":"Baloo and Bagheera help him to escape from the tiger."},{"w":"dangerous","ipa":"ˈdeɪn.dʒər.əs","pos":"adjective","zh":"危险的","ex":"Frodo faces many dangerous situations."},{"w":"series","ipa":"ˈsɪə.riːz","pos":"noun","zh":"系列","ex":"It is the first of a series of four novels."},{"w":"arguments","ipa":"ˈɑːɡ.jə.mənts","pos":"noun","zh":"争论","ex":"Elena and Lila are friends, but they have a lot of arguments, too."}],"7":[{"w":"satnav","ipa":"ˈsæt.næv","pos":"noun","zh":"卫星导航","ex":"I used the satnav to get home."},{"w":"MP3 player","ipa":"em.piːˈθriː ˌpleɪ.ə","pos":"noun","zh":"MP3播放 器","ex":"He gave me an MP3 player."},{"w":"torch","ipa":"","pos":"noun","zh":"手电筒","ex":"She shone the torch into the dark room."},{"w":"games console","ipa":"ˈgeɪmz ˌkɒn.səʊl","pos":"noun","zh":"游戏手柄","ex":"He bought a new game console."},{"w":"remote control","ipa":"rɪˌməʊt kənˈtrəʊl","pos":"noun","zh":"遥控器","ex":"Have you seen the remote control anywhere?"},{"w":"coffee machine","ipa":"tɔːtʃ","pos":"noun","zh":"咖啡机","ex":"There's a coffee machine in the kitchen."},{"w":"calculator","ipa":"ˈkæl.kjʊ.leɪ.tə","pos":"noun","zh":"计算器","ex":"a pocket calculator"},{"w":"docking station","ipa":"ˈdɒk.ɪŋ ˌsteɪ.ʃən","pos":"noun","zh":"扩充口； 插接站","ex":"He put his iPod in the docking station."},{"w":"hair dryer","ipa":"ˈheəˌdraɪ.ə","pos":"noun","zh":"吹风机","ex":"I used my hair dryer after my shower."},{"w":"headphones","ipa":"ˈhed.fəʊnz","pos":"noun","zh":"耳机","ex":"Use these headphones to listen to the music."},{"w":"like","ipa":"laɪk","pos":"preposition","zh":"像","ex":"She's very much like her mother."},{"w":"looks like","ipa":"ˈlʊks laɪk","pos":"phrase","zh":"看起来像It","ex":"looks like a star."},{"w":"sounds like","ipa":"ˈsaʊndz laɪk","pos":"phrase","zh":"听起来像","ex":"It sounds like a train."},{"w":"like what?","ipa":"laɪk ˈwɒt","pos":"phrase","zh":"比如什 么？","ex":"You think we should do something? Like what?"},{"w":"vacuum the floor","ipa":"ˌvæk.juːm ðə ˈflɔː","pos":"phrase","zh":"用吸尘器 吸地板","ex":"Could you vacuum the floor, please?"},{"w":"tidy up","ipa":"ˌtaɪ.di ˈʌp","pos":"phrasal verb","zh":"整理","ex":"Please tidy up when you have finished cooking."},{"w":"do the ironing","ipa":"ˌdu: ðiː ˈaɪə.nɪŋ","pos":"phrase","zh":"熨衣服","ex":"I need to do the ironing."},{"w":"do the shopping","ipa":"ˌdu: ðə ˈʃɒp.ɪŋ","pos":"phrase","zh":"买东西","ex":"I'll get some more butter when I do the shopping."},{"w":"set/ clear the table","ipa":"ˌset /ˌklɪə ðə ˈteɪ","pos":"phrase","zh":"整理/清 理桌子","ex":"She set the table ready for dinner."},{"w":"do the washing- up (wash up)","ipa":"ˌdu: ðə ˌwɒʃ.ɪŋ ˈʌ p","pos":"phrase","zh":"洗餐具","ex":"Mick did the washing up last night."},{"w":"make the beds","ipa":"ˌmeɪk ðə ˈbedz","pos":"phrase","zh":"整理床铺","ex":"I made the beds before breakfast."},{"w":"do the cooking","ipa":"ˌdu: ðə ˈkʊk.ɪŋ","pos":"phrase","zh":"做饭","ex":"Dad does the cooking in our house."},{"w":"do the washing","ipa":"ˌdu: ðə ˈwɒʃ.ɪŋ","pos":"phrase","zh":"洗衣服","ex":"I do the washing at the weekend."},{"w":"load/ empty the dishwasher","ipa":"ˌləʊd / ˌemp.ti ðə ˈdɪʃˌwɒʃ.ə","pos":"phrase","zh":"放..进洗 碗机/清 空洗碗机","ex":"Suzi loaded the dishwasher after dinner."}],"8":[{"w":"sailing","ipa":"ˈseɪ.lɪŋ","pos":"noun","zh":"航行","ex":"a sailing boat"},{"w":"diving","ipa":"ˈdaɪ.vɪŋ","pos":"noun","zh":"潜水","ex":"I want to go diving in Malta."},{"w":"golf","ipa":"gɒlf","pos":"noun","zh":"高尔夫球 运动","ex":"Do you play golf?"},{"w":"gymnastics","ipa":"dʒɪmˈnæs.tɪks","pos":"noun","zh":"体操","ex":"Let's watch the gymnastics on TV."},{"w":"rock climbing","ipa":"ˈrɒkˌklaɪ.mɪŋ","pos":"noun","zh":"攀岩","ex":"We go rock climbing in this area."},{"w":"rugby","ipa":"ˈrʌg.bi","pos":"noun","zh":"橄榄球","ex":"He's a keen rugby fan."},{"w":"snowboarding","ipa":"ˈsnəʊ.bɔː.dɪŋ","pos":"noun","zh":"滑雪板","ex":"I love snowboarding."},{"w":"skiing","ipa":"ˈskiː.ɪŋ","pos":"noun","zh":"滑雪","ex":"I'm going skiing at Easter."},{"w":"volleyball","ipa":"ˈvɒ.li.bɔːl","pos":"noun","zh":"排球","ex":"They played volleyball on the beach."},{"w":"windsurfing","ipa":"ˈwɪndˌsɜː.fɪŋ","pos":"noun","zh":"风帆冲浪","ex":"We had a great holiday by the beach with lots of windsurfing."},{"w":"at first","ipa":"ət ˈfɜːst","pos":"phrase","zh":"一开始","ex":"At first I thought she was unfriendly, but actually she's just shy."},{"w":"then","ipa":"ðen","pos":"adverb","zh":"然后","ex":"I've got two essays to write and then my science project to finish."},{"w":"after","ipa":"ˈɑːf.tə","pos":"preposition","zh":"之后","ex":"Shall we go for a walk after breakfast?"},{"w":"finally","ipa":"ˈfaɪ.nəl.i","pos":"adverb","zh":"最后","ex":"We finally got home at midnight."},{"w":"bun","ipa":"bʌn","pos":"noun","zh":"圆面包","ex":"a type of traditional Chinese bun"},{"w":"race","ipa":"reɪs","pos":"noun","zh":"比赛","ex":"a race to the top of a the mountain"},{"w":"spectators","ipa":"spekˈteɪ.təz","pos":"noun","zh":"观众；旁 观者","ex":"Spectators watch as three teams compete."},{"w":"take part","ipa":"ˌteɪk ˈpɑːt","pos":"verb","zh":"参与","ex":"People who want to take part must take a special training course."},{"w":"take place","ipa":"ˌteɪk ˈpleɪs","pos":"verb","zh":"发生","ex":"Many big races take place in countries such as the United Arab Emirates."},{"w":"cross","ipa":"krɒs","pos":"verb","zh":"横过；横 穿","ex":"They try to cross the finish line before the others."},{"w":"contestants","ipa":"kənˈtes.tənt","pos":"noun","zh":"参赛者","ex":"Two contestants compete against each other at chess and boxing."},{"w":"break","ipa":"breɪk","pos":"noun","zh":"休息","ex":"There is a break of a minute between each round."}],"9":[{"w":"beach","ipa":"biːtʃ","pos":"noun","zh":"海滩","ex":"We spent the day on the beach."},{"w":"desert","ipa":"ˈde.zət","pos":"noun","zh":"沙漠","ex":"the Sahara Desert"},{"w":"forest","ipa":"ˈfɒ.rɪst","pos":"noun","zh":"森林","ex":"the Black Forest"},{"w":"hill","ipa":"hɪl","pos":"noun","zh":"山丘","ex":"We walked up/down the hill to the village."},{"w":"island","ipa":"ˈaɪ.lənd","pos":"noun","zh":"岛","ex":"a desert island"},{"w":"jungle","ipa":"ˈdʒʌŋ","pos":"noun","zh":"丛林","ex":"The Yanomami people live in the South American jungle."},{"w":"lake","ipa":"leɪk","pos":"noun","zh":"湖","ex":"We used to go boating on that lake."},{"w":"mountain","ipa":"ˈmaʊn.tɪn","pos":"noun","zh":"山","ex":"The Matterhorn is one of the biggest mountains in Europe."},{"w":"ocean","ipa":"ˈəʊ.ʃən","pos":"noun","zh":"大海","ex":"to swim in the ocean"},{"w":"river","ipa":"ˈrɪv.ə","pos":"noun","zh":"河","ex":"the River Thames"},{"w":"beautiful","ipa":"ˈbjuː.tɪ.fəl","pos":"adjective","zh":"美丽的","ex":"a beautiful woman"},{"w":"big","ipa":"bɪg","pos":"adjective","zh":"大的","ex":"He's a big man."},{"w":"dangerous","ipa":"ˈdeɪn.dʒər.əs","pos":"adjective","zh":"危险的","ex":"There are dangerous spiders in the Kalahari."},{"w":"difficult","ipa":"ˈdɪf.ɪ.kəlt","pos":"adjective","zh":"困难的","ex":"Life in the Kalahari is difficult."},{"w":"exciting","ipa":"ɪkˈsaɪ.tɪŋ","pos":"adjective","zh":"令人兴奋 的","ex":"an exciting film/match"},{"w":"high","ipa":"haɪ","pos":"adjective","zh":"高的","ex":"a high mountain"},{"w":"hot","ipa":"hɒt","pos":"adjective","zh":"热的","ex":"a hot sunny day"},{"w":"nice","ipa":"naɪs","pos":"adjective","zh":"美好的","ex":"nice weather"},{"w":"come/go with","ipa":"ˈkʌm/ˈɡəʊ wɪð","pos":"phrase","zh":"和...来/去","ex":"My best friend came with me."},{"w":"be busy with something","ipa":"bi ˈbɪ.zi wɪð ˈsʌ m.θɪŋ","pos":"phrase","zh":"忙于某事","ex":"I'm very busy with my homework."},{"w":"be good with something","ipa":"bi ˈɡʊd wɪð ˈsʌm. θɪŋ","pos":"phrase","zh":"擅长某事","ex":"I'm not very good with computers."},{"w":"cloudy","ipa":"ˈklaʊ.di","pos":"adjective","zh":"多云的","ex":"This morning was lovely but it's quite cloudy out there now."},{"w":"cold","ipa":"kəʊld","pos":"adjective","zh":"寒冷的","ex":"cold weather"},{"w":"dry","ipa":"draɪ","pos":"adjective","zh":"干的","ex":"a dry summer"},{"w":"foggy","ipa":"ˈfɒg.i","pos":"adjective","zh":"有雾的","ex":"a foggy day"},{"w":"freezing","ipa":"ˈfriː.zɪŋ","pos":"adjective","zh":"极冷的","ex":"It's freezing in here!"},{"w":"hot","ipa":"hɒt","pos":"adjective","zh":"热的","ex":"a hot sunny day"},{"w":"humid","ipa":"ˈhjuː.mɪd","pos":"adjective","zh":"潮湿的","ex":"It's very humid today."},{"w":"rainy","ipa":"ˈreɪ.ni","pos":"adjective","zh":"阴雨的","ex":"a rainy afternoon"},{"w":"sunny","ipa":"ˈsʌn.i","pos":"adjective","zh":"晴朗的","ex":"It's a nice sunny morning."},{"w":"warm","ipa":"wɔːm","pos":"adjective","zh":"温暖的","ex":"warm water"},{"w":"wet","ipa":"wet","pos":"adjective","zh":"潮湿的","ex":"a wet floor"},{"w":"windy","ipa":"ˈwɪnd.i","pos":"adjective","zh":"多风的","ex":"It was a windy night."}],"10":[{"w":"concert hall","ipa":"ˈkɒn.sət hɔːl","pos":"noun","zh":"音乐厅","ex":"There's a lovely concert hall in the city centre."},{"w":"car park","ipa":"ˈkɑːˌpɑːk","pos":"noun","zh":"停车场","ex":"I parked in the car park."},{"w":"shopping mall","ipa":"ˈʃɒp.ɪŋ ˌmɔːl","pos":"noun","zh":"购物中心","ex":"It’s very easy to buy things if you go into a shopping mall."},{"w":"bus station","ipa":"ˈbʌs ˌsteɪ.ʃən","pos":"noun","zh":"公交汽车 站","ex":"The bus station is in the centre of town."},{"w":"police station","ipa":"pəˈliːs ˌsteɪ.ʃən","pos":"noun","zh":"警察局","ex":"We went to the police station to report the theft."},{"w":"post office","ipa":"ˈpəʊst ˌɒf.ɪs","pos":"noun","zh":"邮局","ex":"Where's the nearest post office?"},{"w":"football stadium","ipa":"ˈfʊt.bɔːl ˌsteɪ.di.ə m","pos":"noun","zh":"足球场","ex":"Have you seen the new football stadium?"},{"w":"sports centre","ipa":"ˈspɔːts ˌsen.tə","pos":"noun","zh":"体育中心","ex":"On Sunday, we played badminton at our local sports centre."},{"w":"zebra crossing","ipa":"ˌzeb.rə ˈkrɒs.ɪŋ","pos":"noun","zh":"斑马线","ex":"Make sure you cross the road at the zebra crossing."},{"w":"youth club","ipa":"ˈjuːθ ˌklʌb","pos":"noun","zh":"青年俱乐 部","ex":"I go to a youth club on Thursday evenings."},{"w":"speed camera","ipa":"ˈspiːd ˌkæm.rə","pos":"noun","zh":"高速摄影 机","ex":"Be careful - there's a speed camera here."},{"w":"graffiti wall","ipa":"grəˈfiː.ti ˌwɔːl","pos":"noun","zh":"涂鸦墙","ex":"He painted his name on the graffiti wall."},{"w":"cycle lane","ipa":"ˈsaɪ ˌleɪn","pos":"noun","zh":"自行车道","ex":"There are plenty of cycle lanes in this town."},{"w":"litter bin","ipa":"ˈlɪ.tə ˌbɪn","pos":"noun","zh":"垃圾箱","ex":"Throw it in the litter bin."},{"w":"billboard","ipa":"ˈbɪl.bɔːd","pos":"noun","zh":"广告牌","ex":"They put up billboards with his picture on them."},{"w":"high street","ipa":"ˈhaɪ ˌstriːt","pos":"noun","zh":"商业街","ex":"The bank is in the high street."},{"w":"mythical","ipa":"ˈmɪ.θɪ.kəl","pos":"adjective","zh":"神话的","ex":"People are always interested in mythical lands."},{"w":"remote","ipa":"rɪˈməʊt","pos":"adjective","zh":"遥远的","ex":"satellite photos of the most remote places on the planet"},{"w":"legend","ipa":"ˈledʒ.ənd","pos":"noun","zh":"传奇","ex":"The legend says that Agartha is at the centre of our planet."},{"w":"society","ipa":"səˈsaɪ.ə.ti","pos":"noun","zh":"社会","ex":"It is famous for its culture and educated society."},{"w":"ruler","ipa":"ˈruː.lə","pos":"noun","zh":"尺子","ex":"He was a ruler of the ancient Colombian society called the Muisca."},{"w":"dark","ipa":"dɑːk","pos":"adjective","zh":"暗的","ex":"This area is completely dark for a lot of the year."}],"11":[{"w":"ankle","ipa":"ˈæŋ","pos":"noun","zh":"踝关节","ex":"I fell over and sprained/twisted my ankle."},{"w":"back","ipa":"bæk","pos":"noun","zh":"背部","ex":"back injuries/pain"},{"w":"elbow","ipa":"ˈel.bəʊ","pos":"noun","zh":"肘部","ex":"Her arm was bandaged from the elbow to the fingers."},{"w":"knees","ipa":"niːz","pos":"noun","zh":"膝盖","ex":"a knee injury"},{"w":"lips","ipa":"lɪps","pos":"noun","zh":"嘴唇","ex":"She kissed me on the lips."},{"w":"neck","ipa":"nek","pos":"noun","zh":"脖子","ex":"He had the thickest neck I'd ever seen."},{"w":"shoulder","ipa":"ˈʃəʊl.də","pos":"noun","zh":"肩","ex":"I rested my head on her shoulder."},{"w":"stomach","ipa":"ˈstʌm.ək","pos":"noun","zh":"胃","ex":"He was punched in the stomach."},{"w":"throat","ipa":"θrəʊt","pos":"noun","zh":"咽喉","ex":"a sore throat"},{"w":"tongue","ipa":"tʌŋ","pos":"noun","zh":"舌头","ex":"I burnt my tongue on some soup last night."},{"w":"do homework","ipa":"ˌdu: ˈhəʊm.wɜːk","pos":"phrase","zh":"做家庭作 业","ex":"You need to do your homework."},{"w":"do the cooking/ cleaning","ipa":"ˌdu: ˈkʊk.ɪŋ / ˈkliː.nɪŋ","pos":"phrase","zh":"做饭/打 扫卫生","ex":"Who does the cleaning in your house?"},{"w":"do exercise","ipa":"ˌdu: ˈek.sə.saɪz","pos":"phrase","zh":"做运动","ex":"Do you do much exercise?"},{"w":"do well (in an exam)","ipa":"ˌdu: ˈwel","pos":"phrase","zh":"（考试） 考得好","ex":"He's learning the piano and he's doing well."}],"12":[{"w":"bicycle","ipa":"ˈbaɪ.sɪ","pos":"noun","zh":"自行车","ex":"I go to work by bicycle."},{"w":"boat","ipa":"bəʊt","pos":"noun","zh":"船","ex":"a rowing/sailing boat"},{"w":"bus","ipa":"bʌs","pos":"noun","zh":"公共汽车","ex":"You should take the bus if you want to see the sights."},{"w":"car","ipa":"kɑː","pos":"noun","zh":"汽车","ex":"They don't have a car."},{"w":"plane","ipa":"pleɪn","pos":"noun","zh":"飞机","ex":"a fighter/transport/pa ssenger plane"},{"w":"train","ipa":"treɪn","pos":"noun","zh":"火车","ex":"the train to/from Bristol"},{"w":"minibus","ipa":"ˈmɪ.ni.bʌs","pos":"noun","zh":"小型巴士","ex":"I went by minibus all the way to the north of Thailand."},{"w":"helicopter","ipa":"ˈhel.ɪˌkɒp.tə","pos":"noun","zh":"直升机","ex":"The injured were flown to hospital by helicopter."},{"w":"tram","ipa":"træm","pos":"noun","zh":"有轨电车","ex":"We took the tram to the city centre."},{"w":"motorbike","ipa":"ˈməʊ.tə.baɪk","pos":"noun","zh":"摩托车","ex":"My brother’s got a motorbike."},{"w":"scooter","ipa":"ˈskuː.tə","pos":"noun","zh":"小型摩托 车","ex":"I go to college on my scooter."},{"w":"underground train","ipa":"ˈʌn.də.graʊnd ˌtreɪn","pos":"noun","zh":"地铁","ex":"The city has underground trains."},{"w":"miss (a bus, train etc)","ipa":"mɪs","pos":"verb","zh":"错过（公 共汽车、 火车等）","ex":"You'll miss your train if you don't hurry up."},{"w":"fly","ipa":"flaɪ","pos":"verb","zh":"飞行，航 行","ex":"I'm flying to Mumbai tomorrow."},{"w":"catch (a bus, train etc)","ipa":"kætʃ","pos":"verb","zh":"赶上（公 共汽车、 火车等）","ex":"He catches the 8:30 train to London."},{"w":"take (a taxi)","ipa":"teɪk","pos":"verb","zh":"乘（出租 车）","ex":"Are you taking the train to Edinburgh?"},{"w":"ride (a motorbike, bike)","ipa":"raɪd","pos":"verb","zh":"骑（摩托 车、自行 车）","ex":"I learned to ride a bike when I was four."},{"w":"drive (to …)","ipa":"draɪv","pos":"verb","zh":"驾驶（到 …）","ex":"I'm learning to drive."},{"w":"journey","ipa":"ˈdʒɜː.ni","pos":"noun","zh":"旅行","ex":"The children have to go on a difficult journey."},{"w":"on time","ipa":"ˌɒn ˈtaɪm","pos":"phrase","zh":"准时","ex":"They have to cross a bridge 10 metres above a dangerous river to get to their class on time."},{"w":"village","ipa":"ˈvɪl.ɪdʒ","pos":"noun","zh":"村庄","ex":"Gulu is a mountain village in a national park."},{"w":"wide","ipa":"waɪd","pos":"adjective","zh":"宽的","ex":"The path is only 45 centimetres wide in some places."},{"w":"take a risk","ipa":"ˌteɪk ə ˈrɪsk","pos":"phrase","zh":"冒险","ex":"So these girls are happy to take a risk in order to get to school."},{"w":"tiny","ipa":"ˈtaɪ.ni","pos":"adjective","zh":"极小的","ex":"It’s a tiny village - only very few people live there."},{"w":"tracks","ipa":"træks","pos":"noun","zh":"小道，小 径","ex":"Every morning they walk along the tracks to get to their school, forty minutes away."},{"w":"neighbours","ipa":"ˈneɪ.bəz","pos":"noun","zh":"邻居","ex":"They hope to get a job and money, so they can help their families and their neighbours."}]}
+
+/* 篇章元数据 */
+var PASSAGES = {
+  "7": [
+    { key:'u7_p67_sportwonders',   p:'p67', kind:'阅读 A', title:'SPORT WONDERS!',  intro:'了不起的运动奇人', demo:false },
+    { key:'u7_p69_listening',      p:'p69', kind:'听力',   title:'Listening · A phone call', intro:'电话对话', demo:false },
+    { key:'u7_p70_last4min',       p:'p70', kind:'阅读 B', title:'An Amazing Last Four Minutes', intro:'惊心动魄的最后四分钟', demo:false },
+    { key:'u7_p72_rainyday',       p:'p72', kind:'口语对话',title:'Rainy Day · Nina & Dave', intro:'雨天对话', demo:false },
+  ],
+  "12": [
+    { key:'u12_p111_greatrace',    p:'p111', kind:'阅读 A', title:'The Great Race',  intro:'伟大的比赛', demo:true },
+    { key:'u12_p113_trainstation', p:'p113', kind:'听力',   title:'At the Train Station', intro:'车站对话', demo:false },
+    { key:'u12_p114_favjourney',   p:'p114', kind:'阅读 B', title:'My Favourite Journey', intro:'我最爱的旅程', demo:false },
+    { key:'u12_p117_transport',    p:'p117', kind:'文化',   title:'Transport Around the World', intro:'世界交通', demo:false }
+  ]
+};
+Object.assign(PASSAGES, {"1":[{"key":"u1_12","p":"12","kind":"阅读 A","title":"Quiz: Do you enjoy life?","intro":"七个问题测测你会不会享受生活","demo":false},{"key":"u1_15","p":"15","kind":"听力","title":"Hobbies and family","intro":"三段对话：吉他、柔道与拼图","demo":false},{"key":"u1_16","p":"16","kind":"阅读 B","title":"What do you do in your free time?","intro":"四位博主的业余生活","demo":false}]});
+Object.assign(PASSAGES, {"2":[{"key":"u2_20","p":"20","kind":"阅读 A","title":"Messages: Mike and Hannah","intro":"购物聊天记录：打折季的 Barker's","demo":false},{"key":"u2_23","p":"23","kind":"听力","title":"Shopping conversations","intro":"四段购物对话：药店·手机壳·试衣·袜子","demo":false},{"key":"u2_24","p":"24","kind":"阅读 B","title":"It's Sunday afternoon","intro":"论坛四帖：周日无事可做怎么办","demo":false},{"key":"u2_26","p":"26","kind":"文化","title":"Banknotes around the world","intro":"纸币上的国家名片","demo":false}]});
+Object.assign(PASSAGES, {"3":[{"key":"u3_30","p":"30","kind":"阅读 A","title":"Creepy crawlies: the superfood of the future?","intro":"【待验收 demo】昆虫为什么可能是未来的超级食物","demo":true},{"key":"u3_33","p":"33","kind":"听力","title":"In a café ordering food","intro":"【待验收 demo】咖啡馆点餐：Steve 与 Hannah","demo":true},{"key":"u3_34","p":"34","kind":"阅读 B","title":"Eating around the world","intro":"【待验收 demo】格陵兰 Kulusuk 的饮食与健康","demo":true}]});
+Object.assign(PASSAGES, {"4":[{"key":"u4_38","p":"38","kind":"阅读 A","title":"Old films, great families","intro":"【待验收 demo】老电影里的银幕家庭","demo":true},{"key":"u4_41","p":"41","kind":"听力","title":"Asking for permission","intro":"【待验收 demo】借T恤、借靴子与周末派对","demo":true},{"key":"u4_42","p":"42","kind":"阅读 B","title":"Suzie saves her mum","intro":"【待验收 demo】四岁女孩拨打 999 救妈妈","demo":true},{"key":"u4_44","p":"44","kind":"文化","title":"Family traditions around the world","intro":"【待验收 demo】四国家庭传统（按音频序）","demo":true}]});
+Object.assign(PASSAGES, {"5":[{"key":"u5_48","p":"48","kind":"阅读 A","title":"The 21st century caveman","intro":"【待验收 demo】把 800 岁洞穴屋改成现代家","demo":true},{"key":"u5_51","p":"51","kind":"听力","title":"Radio show: favourite rooms","intro":"【待验收 demo】电台节目：四人聊最爱房间","demo":true},{"key":"u5_52","p":"52","kind":"阅读 B","title":"Our holiday castle","intro":"【待验收 demo】住在 600 岁城堡里的假期","demo":true}]});
+Object.assign(PASSAGES, {"6":[{"key":"u6_56","p":"56","kind":"阅读 A","title":"A special friendship","intro":"【待验收 demo】Joe 与海豚 Fonzie 的友谊","demo":true},{"key":"u6_59","p":"59","kind":"听力","title":"Jack and his mum – friendship advice","intro":"【待验收 demo】Jack 与妈妈聊朋友间的争吵","demo":true},{"key":"u6_60","p":"60","kind":"阅读 B","title":"Pen pals for years","intro":"【待验收 demo】Paul 与 Annette 的跨国笔友友谊","demo":true},{"key":"u6_62","p":"62","kind":"文化","title":"Friends in literature","intro":"【待验收 demo】四部文学名著里的友谊","demo":true}]});
+Object.assign(PASSAGES, {"7":[{"key":"u7_66","p":"66","kind":"阅读A","title":"… just because I didn’t want to take a bath.","intro":"【待验收 demo】南非少年发明免洗凝胶 DryBath","demo":true},{"key":"u7_69","p":"69","kind":"听力","title":"Advice for young inventors","intro":"【待验收 demo】专家给年轻发明家的建议","demo":true},{"key":"u7_70","p":"70","kind":"阅读B","title":"Gadget reviews (year 2066)","intro":"【待验收 demo】2066 年的两款神奇发明","demo":true}]});
+Object.assign(PASSAGES, {"8":[{"key":"u8_74","p":"74","kind":"阅读A","title":"The world’s greatest sporting achievements","intro":"【待验收 demo】三项伟大的体育成就（按音频序）","demo":true},{"key":"u8_77","p":"77","kind":"听力","title":"Teens talking about sport","intro":"【待验收 demo】五名青少年谈自己对运动的感受","demo":true},{"key":"u8_78","p":"78","kind":"阅读B","title":"Sporting fails","intro":"【待验收 demo】三则运动中的尴尬事故","demo":true},{"key":"u8_80","p":"80","kind":"文化","title":"The wonderful world of sport","intro":"【待验收 demo】四种不寻常的运动","demo":true}]});
+Object.assign(PASSAGES, {"9":[{"key":"u9_84","p":"84","kind":"阅读A","title":"The wild side of life","intro":"【待验收 demo】四个荒野地区的人们如何生活","demo":true},{"key":"u9_87","p":"87","kind":"听力","title":"Interview with a Kalahari bushman","intro":"【待验收 demo】卡拉哈里桑人 PK 讲年轻人如何娶妻","demo":true},{"key":"u9_88","p":"88","kind":"阅读B","title":"Extreme nature!","intro":"【待验收 demo】三则极端天气纪录","demo":true}]});
+Object.assign(PASSAGES, {"10":[{"key":"u10_92","p":"92","kind":"阅读A","title":"Experiences in foreign countries","intro":"【待验收 demo】两封国外旅行邮件（纽约/北京）","demo":true},{"key":"u10_95","p":"95","kind":"听力","title":"Teens making plans","intro":"【待验收 demo】Olivia 与 Connor 约复习时间","demo":true},{"key":"u10_96","p":"96","kind":"阅读B","title":"How can we improve our town?","intro":"【待验收 demo】六条镇政改善建议","demo":true},{"key":"u10_98","p":"98","kind":"文化","title":"Mythical places around the world","intro":"【待验收 demo】四个神话之地","demo":true}]});
+Object.assign(PASSAGES, {"11":[{"key":"u11_102","p":"102","kind":"阅读A","title":"Changing bodies","intro":"【待验收 demo】人体未来变化预测","demo":true},{"key":"u11_105","p":"105","kind":"听力","title":"Conversations about physical problems","intro":"【待验收 demo】三段看医生对话","demo":true},{"key":"u11_106","p":"106","kind":"阅读B","title":"Old Wives’ Tales","intro":"【待验收 demo】四条健康俗语辨析","demo":true}]});
+Object.assign(PASSAGES, {"12":[{"key":"u12_110","p":"110","kind":"阅读A","title":"A world record breaker","intro":"【待验收 demo】卡西·德佩科尔环游世界纪录","demo":true},{"key":"u12_113","p":"113","kind":"听力","title":"Richard Ward on travelling well","intro":"【待验收 demo】旅行达人谈“如何好好旅行”","demo":true},{"key":"u12_114","p":"114","kind":"阅读B","title":"Travelling the world from your sofa!","intro":"【待验收 demo】汤姆用谷歌地图“云游世界”","demo":true},{"key":"u12_116","p":"116","kind":"文化","title":"Hard journeys for schoolchildren","intro":"【待验收 demo】世界各地孩子的艰难上学路","demo":true}]});
+
+
+
+
+var K = 'think-foundation-progress-v6';
+
+/* ── 存储 ── */
+function loadState(){ try { var p=JSON.parse(localStorage.getItem(K)); return (p && typeof p==='object')?p:{visited:[],done:[],welcome:false}; } catch(e){ return {visited:[],done:[],welcome:false}; } }
+function saveState(s){ try{ localStorage.setItem(K, JSON.stringify(s)); }catch(e){} }
+function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
+/* ═══════════ 教师任务 / 学生身份 / 上报 ═══════════ */
+var AKEY='tk1_assignments', RKEY='tk1_reports', STUKEY='tk1_current_student';
+function loadJ(k,d){ try { var p=JSON.parse(localStorage.getItem(k)); return (p&&typeof p==='object')?p:d; } catch(e){ return d; } }
+function nowTs(){ return Date.now(); }
+function pad(n){ return (n<10?'0':'')+n; }
+
+/* 学生端已砍掉登录：身份只认本机填写的姓名（STUKEY），不再读登录令牌里的 tf_user，
+   否则共用一台平板时会把上一位同学的学情算到新同学头上。 */
+function getStudent(){ return localStorage.getItem(STUKEY) || ''; }
+
+/* 上报：name / unit / type(preview|review) / itemId / 'start'|'done'
+   itemId 约定：主题词='theme'，篇章='<passageKey>'；词汇项自动读取词汇 records 判定 */
+function report(name, unit, type, itemId, action){
+  if(!name) return;
+  var R = loadJ(RKEY, {});
+  (R[name] = R[name] || {})[unit] = (R[name][unit] || {});
+  var su = R[name][unit];
+  (su[type] = su[type] || {})[itemId] = (su[type][itemId] || {});
+  var rec = su[type][itemId];
+  if(action==='start' && !rec.startedAt){ rec.startedAt = nowTs(); }
+  if(action==='done'){ rec.doneAt = nowTs(); }
+  if(action==='undone'){ delete rec.doneAt; }
+  try{ localStorage.setItem(RKEY, JSON.stringify(R)); }catch(e){}
+}
+function getReport(name, unit, type, itemId){
+  var R = loadJ(RKEY, {});
+  return (R[name] && R[name][unit] && R[name][unit][type] && R[name][unit][type][itemId]) || {};
+}
+/* 词汇完成度：读 `<storeKey>_records_v2`（v1 兜底），known/mastered 判掌握。
+   存储键解析（2026-10-21 修）：篇章诊断页真实键是带 slug 的 `u5_p048_robotics_club`
+   （见各页 PASSAGE.key），而 PASSAGES 数据里的键是 `u5_48`——两者对不上导致
+   篇章词汇进度从来没显示过。这里按 FOLLOW_VOCAB 文件名反解出真实引擎键，
+   新旧两个候选都试（历史旧格式数据仍可读）。 */
+function vocabStoreCandidates(key){
+  var out=[String(key)];
+  var m=String(key).match(/^u(\d+)_(\d+)$/);
+  if(m && window.FOLLOW_VOCAB){
+    var f=FOLLOW_VOCAB[+m[2]]||'';
+    var mm=f.match(/^词汇诊断_(.+)\.html$/);
+    if(mm && mm[1]!==key) out.push(mm[1]);
+  }
+  return out;
+}
+function vocabProgress(key){
+  var d={total:0,done:0,pct:0,has:false};
+  var cands=vocabStoreCandidates(key);
+  for(var ci=0;ci<cands.length;ci++){
+    try{
+      var raw=localStorage.getItem(cands[ci]+'_records_v2')||localStorage.getItem(cands[ci]+'_records_v1');
+      if(!raw) continue;
+      var obj=JSON.parse(raw), karr=Object.keys(obj);
+      if(!karr.length) continue;
+      d.total=karr.length; d.has=true;
+      var c=0; karr.forEach(function(k2){ var s=obj[k2]&&obj[k2].status; if(s==='known'||s==='mastered') c++; });
+      d.done=c; d.pct=Math.round(c/karr.length*100);
+      return d;
+    }catch(e){}
+  }
+  return d;
+}
+function findPassageMeta(key){ for(var u in PASSAGES){ var f=PASSAGES[u].find(function(p){return p.key===key;}); if(f) return f; } return null; }
+/* 页码解析（2026-10-21 修）：旧正则 /p(\d+)/ 对 'u5_48' 失配返回 0，
+   导致任务区复习态与徽章读错进度键。现兼容 'u5_48' / 'u5_p048_slug' / 'p48' / '48' 四种格式 */
+function pgOfKey(pk){ var s=String(pk); var m=s.match(/_p?0*(\d+)/)||s.match(/(\d+)/); return m? +m[1] : 0; }
+function followProg(pg){ try{ var o=JSON.parse(localStorage.getItem('tk1_follow_'+pg)); return (o&&typeof o==='object')?o:{}; }catch(e){ return {}; } }
+/* 读写单页进度（tf_stage_<pg> = {listen:bool}）；旧 tf_follow_<pg> 自动迁移 */
+function stageProg(pg){
+  try{ var o=JSON.parse(localStorage.getItem('tk1_stage_'+pg)); if(o&&typeof o==='object') return o; }catch(e){}
+  var lg = followProg(pg);
+  return { listen:!!lg.listen };
+}
+var THEME_TITLE = { '1':'单元主题词汇 · Unit 1 全书词表', '2':'单元主题词汇 · Unit 2 全书词表', '3':'单元主题词汇 · Unit 3 全书词表', '4':'单元主题词汇 · Unit 4 全书词表', '5':'单元主题词汇 · Unit 5 全书词表', '6':'单元主题词汇 · Unit 6 全书词表', '7':'单元主题词汇（运动·时间·月份·序数）', '8':'单元主题词汇 · Unit 8 全书词表', '9':'单元主题词汇 · Unit 9 全书词表', '10':'单元主题词汇 · Unit 10 全书词表', '11':'单元主题词汇 · Unit 11 全书词表', '12':'单元主题词汇（交通出行）' };
+
+/* ── Toast ── */
+var toastEl = $('toast'), toastT = null;
+function toast(msg, ms){ toastEl.textContent = msg; toastEl.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(function(){ toastEl.classList.remove('show'); }, ms||1800); }
+
+/* ── 视图切换 ── */
+var views = ['home','unit','passage'];
+function showView(v){
+  views.forEach(function(x){ $('view-'+x).classList.toggle('on', x===v); });
+  shelfRoot.scrollTop = 0;
+}
+
+/* ── 书架显隐 ── */
+function openShelf(){ shelfRoot.classList.remove('off'); stopAudio(); }
+function closeShelf(){ shelfRoot.classList.add('off'); }
+
+/* ── 回到书架时停住课文音频，避免后台继续播 ── */
+function stopAudio(){ try{ var a=$('audio'); if(a){ a.pause(); } }catch(e){} }
+
+/* ═══════════ 接入原有点读引擎（同页切换，不再开新标签） ═══════════ */
+
+/* ═══════════ 首页：书架 ═══════════ */
+var shelfEl = $('shelf');
+function renderShelf(){
+  var s = loadState();
+  shelfEl.innerHTML = UNITS.map(function(u){
+    var cls = 'book' + (u.live?' live':'');
+    var tag = u.live ? '可学习' : '筹备中';
+    var mark = (s.done.indexOf(u.key)!==-1 && u.live) ? '<span class="done-mark">'+ICON('check','sm')+'</span>' : '';
+    return '<button class="'+cls+'" type="button" data-k="'+u.key+'" style="--h:'+u.h+'">'
+      + '<span class="tag">'+tag+'</span>' + mark
+      + '<div class="cover"><span class="num">'+u.n+'</span><h3>'+esc(u.title)+'</h3></div>'
+      + '</button>';
+  }).join('');
+  shelfEl.querySelectorAll('.book').forEach(function(card){
+    card.addEventListener('click', function(){ openUnit(card.dataset.k); });
+  });
+}
+
+/* ═══════════ 单元页 ═══════════ */
+var currentUnitKey = null;
+function openUnit(key){
+  var u = UNITS.find(function(x){return x.key===key;});
+  if(!u) return;
+  if(!u.live){ toast('「'+u.n+' · '+u.title+'」正在筹备中，敬请期待'); return; }
+  var s = loadState();
+  if(s.visited.indexOf(key)===-1){ s.visited.push(key); saveState(s); }
+  currentUnitKey = key;
+  $('unitNum').textContent = 'Unit ' + u.n;
+  $('unitName').textContent = u.title;
+  $('unitSub').textContent = u.sub;
+  $('unitCrumb').textContent = 'Unit ' + u.n + ' · ' + u.title;
+  renderThemeVocab(key);
+  renderPassages(key);
+  renderTaskZone(key);
+  showView('unit');
+}
+
+/* 单元主题词汇：入口卡 → 跳转独立词汇诊断页（与篇章词汇同一套三步流程）
+   页面键 theme_u<单元号>，进度存 theme_u<单元号>_records_v2，任务区据此自动判定完成 */
+function themeKey(unitKey){ return 'theme_u' + unitKey; }
+function themeProgress(unitKey){ return vocabProgress(themeKey(unitKey)); }
+function openThemeVocabEngine(unitKey){
+  var words = THEME[unitKey] || [];
+  if(!words.length){ toast('该单元主题词汇尚未整理'); return; }
+  toast('主题词汇诊断页未建（Think 1 暂无），主题词表见下方词数统计');
+}
+
+function renderThemeVocab(key){
+  var N = (THEME[key] || []).length;
+  $('vwCount').textContent = N + ' 词';
+  var vp = themeProgress(key);
+  var pct = vp.pct;
+  var done = vp.has && pct >= 100;
+  $('vwEntry').innerHTML = '<div class="tv'+(done?' done':'')+'" id="tvCard" tabindex="0" role="button" aria-label="进入单元主题词汇学习">'
+    + '<span class="tv-ic">'+ICON('book')+'</span>'
+    + '<div class="tv-bd">'
+    +   '<div class="tv-t">'+esc(THEME_TITLE[key]||'单元主题词汇')+'</div>'
+    +   '<div class="tv-s">预习 · 复习 · 测试'+(vp.has?' · 已掌握 <b>'+vp.done+' / '+N+'</b>':'')+'</div>'
+    +   '<div class="tv-bar"><i style="width:'+pct+'%"></i></div>'
+    + '</div>'
+    + '<button class="tv-go" type="button">'+(done?'重新巩固':'开始学习')+' '+ICON('right','sm')+'</button>'
+    + '</div>';
+  var card = $('tvCard');
+  var go = function(){ openThemeVocabEngine(key); };
+  card.addEventListener('click', go);
+  card.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } });
+}
+
+function renderPassages(key){
+  var list = PASSAGES[key] || [];
+  $('pgCount').textContent = list.length + ' 篇';
+  /* 进度徽章：词汇掌握 x/N（经 vocabStoreCandidates 解到诊断页真实存储键）
+     + 逐句听完成态（tf_stage_<pg>，旧 tf_follow_<pg> 自动迁移） */
+  function pgBadges(p){
+    var vp = vocabProgress(p.key);
+    var sp = stageProg(pgOfKey(p.key));
+    var vb = vp.has
+      ? '<span class="pbad v">词汇 '+vp.done+'/'+vp.total+'</span>'
+      : '<span class="pbad">词汇 未学</span>';
+    var lb = sp.listen ? '<span class="pbad ok">'+ICON('check','sm')+'听</span>' : '<span class="pbad">听 —</span>';
+    return '<div class="pg-badges">'+vb+lb+'</div>';
+  }
+  var grid = $('pgGrid');
+  grid.innerHTML = list.map(function(p){
+    return '<div class="pg" data-key="'+p.key+'">'
+      + '<span class="kind">'+esc(p.kind)+'</span>'
+      + '<div class="pt">'+esc(p.title)+'</div>'
+      + '<div class="pps">'+p.p+' · '+esc(p.intro)+'</div>'
+      + pgBadges(p)
+      + '<div class="acts">'
+      + '<div class="act" data-act="vocab"><span class="a-name">'+ICON('book','sm')+' 篇章词汇</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+      + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章文段</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+      + '</div>'
+      + '</div>';
+  }).join('');
+  grid.querySelectorAll('.pg').forEach(function(card){
+    card.addEventListener('click', function(e){
+      var act = e.target.closest('[data-act]');
+      var key2 = card.dataset.key;
+      if(act){ openPassageAction(key2, act.dataset.act); return; }
+      openPassage(key2);
+    });
+  });
+}
+
+function findPassage(key){
+  for(var uk in PASSAGES){ var f = PASSAGES[uk].find(function(p){return p.key===key;}); if(f) return { u:uk, p:f }; }
+  return null;
+}
+
+/* ═══════════ 篇章页 ═══════════ */
+var currentUnit = null, currentPg = null;
+function openPassage(key){
+  var found = findPassage(key); if(!found) return;
+  currentUnit = found.u; currentPg = found.p;
+  var u = UNITS.find(function(x){return x.key===currentUnit;});
+  $('pgTitle').textContent = currentPg.title;
+  $('pgSub').textContent = 'Unit '+u.n+' · '+u.title+' · '+currentPg.kind+' · '+currentPg.p;
+  renderFlow();
+  showView('passage');
+}
+
+function actBtn(action, label, cls){
+  return '<button class="btn'+(cls?' '+cls:'')+'" data-action="'+action+'">'+label+'</button>';
+}
+
+/* 引擎可用性：词汇诊断页 / 逐句听独立页（FOLLOW_FILES[pg]={page}） */
+var LIVE_VOCAB_RE = /^u(99)__none__$/; /* tk1: 词汇诊断页未建 */
+function vocabLive(key){ var k=String(key||''); return LIVE_VOCAB_RE.test(k); }
+function followLive(p){
+  var pg = parseInt(String(p).replace(/^p/,''), 10);
+  return !!(window.FOLLOW_FILES && FOLLOW_FILES[pg]);
+}
+
+function renderFlow(){
+  var el = $('flow'); var p = currentPg;
+  var vLive = vocabLive(p.key), fLive = followLive(p.p);
+  var pgN = parseInt(String(p.p).replace(/^p/,''), 10);
+  var fm = (window.FOLLOW_META && FOLLOW_META[pgN]) || {};
+  var metaBits = [];
+  if(fm.s) metaBits.push(fm.s + ' 句 · 句级时间轴');
+  metaBits.push(fm.v ? '生词诊断 ✓' : '生词诊断未建');
+  var metaRow = '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
+    + metaBits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
+    + '</div>';
+  var vocabBtn = vLive
+    ? actBtn('open-vocab', '开始篇章词汇学习 '+ICON('right','sm'), '')
+    : actBtn('soon-vocab', '词汇词卡建设中', 'ghost');
+  /* 篇章文段学习入口：逐句听，数据条 + 打开链接 */
+  function fmMeta(bits){
+    return '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
+      + bits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
+      + '</div>';
+  }
+  function stageCard(action, ico, title, desc, bits, btnLabel){
+    return '<div class="flow-card">'
+      + '<div class="fc-ico">'+ICON(ico)+'</div><h4>'+title+'</h4>'
+      + '<div class="fc-desc">'+desc+'</div>'
+      + (fLive ? fmMeta(bits) : '')
+      + (fLive ? actBtn(action, btnLabel+' '+ICON('right','sm'), '')
+               : actBtn('soon-follow', '跟读组件建设中', 'ghost'))
+      + '</div>';
+  }
+  var listenBits = [];
+  if(fm.s) listenBits.push(fm.s + ' 句 · 句级时间轴');
+  listenBits.push(fm.v ? '生词诊断 ✓' : '生词诊断未建');
+  el.innerHTML = metaRow +
+    '<div class="flow-card">'
+    + '<div class="fc-ico">'+ICON('book')+'</div><h4>篇章词汇</h4>'
+    + '<div class="fc-desc">为这一篇的词汇做「预习 · 复习 · 测试」三步。不认识的一个个学起来，测试达标即完成本篇预习。</div>'
+    + '<div class="steps">'
+    +   '<div class="step"><span class="s-num">1</span>筛选：认出会/不会的词</div>'
+    +   '<div class="step"><span class="s-num">2</span>学习：先回忆再揭示，掌握发音与释义</div>'
+    +   '<div class="step"><span class="s-num">3</span>测试：按状态分层自测，答对连续两次才升级</div>'
+    + '</div>'
+    + vocabBtn
+    + '</div>'
+    + stageCard('open-stage-listen', 'ear', '逐句听',
+        '逐句播放整篇，文本随句显示；中文默认关闭，想看再开。播完全篇自动记完成。',
+        listenBits, '开始逐句听')
+
+  el.querySelectorAll('[data-action]').forEach(function(b){
+    b.addEventListener('click', function(){
+      switch(b.dataset.action){
+        case 'open-vocab': openVocabEngine(); break;
+        case 'open-stage-listen': openStageEngine('listen'); break;
+        case 'soon-vocab': toast('「'+ currentPg.title +'」篇章词汇词表正在生成'); break;
+        case 'soon-follow': toast('「'+ currentPg.title +'」读写组件正在接入'); break;
+      }
+    });
+  });
+}
+
+function openPassageAction(key, act){
+  var found = findPassage(key); if(!found) return;
+  currentUnit = found.u; currentPg = found.p;
+  if(act==='vocab'){ openVocabEngine(); return; }
+  if(act==='follow'){ openStageEngine('listen'); return; }
+}
+function el_query(sel){ return document.querySelector(sel); }
+
+/* 引擎接入：独立词汇诊断页（按篇章 key 隔离存储） / 本页点读引擎跟读 */
+function vocabPageOf(key, p){
+  var pg = parseInt(String(p).replace(/^p/,''), 10);
+  return (window.FOLLOW_VOCAB && FOLLOW_VOCAB[pg]) || ('词汇诊断_' + key + '.html');
+}
+function openVocabEngine(){
+  var key = currentPg.key;
+  if(!vocabLive(key)){ toast('「'+currentPg.title+'」词汇词表建设中'); return; }
+  window.open('词汇诊断/' + vocabPageOf(key, currentPg.p), '_blank');
+}
+function openStageEngine(){
+  var pg = parseInt(String(currentPg.p).replace(/^p/,''), 10);
+  var f = window.FOLLOW_FILES && FOLLOW_FILES[pg];
+  if(!f || !f.page){ toast('「'+currentPg.title+'」读写页生成中，稍后开放'); return; }
+  window.open('篇章页/' + f.page + '?flow=listen', '_blank');
+}
+
+/* ── 任务面板入口直接打开引擎 ── */
+function launchTaskMaterial(unit, type, it){
+  var name = getStudent();
+  if(it.id==='theme'){
+    report(name, unit, type, 'theme', 'start');
+    openThemeVocabEngine(unit);
+    toast('已开始：'+(type==='preview'?'预习':'复习')+' · 单元主题词汇');
+    return;
+  }
+  var meta = findPassageMeta(it.passageKey);
+  var pg = meta ? parseInt(String(meta.p).replace(/^p/,''), 10) : NaN;
+  if(it.mode==='vocab'){
+    if(!vocabLive(it.passageKey)){ toast('「'+ (meta?meta.title:it.passageKey) +'」词汇词表建设中'); return; }
+    report(name, unit, type, it.passageKey, 'start');
+    window.open('词汇诊断/' + vocabPageOf(it.passageKey, meta ? meta.p : ''), '_blank');
+  } else if(it.mode==='follow'){
+    var ff = (!isNaN(pg)) && window.FOLLOW_FILES && FOLLOW_FILES[pg];
+    if(!ff || !ff.page){ toast('「'+ (meta?meta.title:it.passageKey) +'」读写页生成中'); return; }
+    report(name, unit, type, it.passageKey, 'start');
+    window.open('篇章页/' + ff.page + '?flow=listen', '_blank');
+  }
+}
+
+/* ── 单元任务面板（教师工作台发放的预习/复习） ── */
+function renderTaskZone(unitKey){
+  var zone = $('taskzone');
+  var A = loadJ(AKEY, {});
+  var u = A[unitKey];
+  var name = getStudent();
+  function isDone(it, type){
+    var id = it.id || (it.kind==='theme' ? 'theme' : it.passageKey);
+    if(getReport(name, unitKey, type, id).doneAt) return true;
+    if(it.kind==='theme'){ var t=themeProgress(unitKey); if(t.has && t.pct>=100) return true; }
+    if(it.kind==='passage' && it.engines.indexOf('follow')!==-1){
+      var sp = stageProg(pgOfKey(it.passageKey));
+      if(type==='preview' && sp.listen) return true;
+      if(type==='review' && sp.listen) return true;
+    }
+    if(it.kind==='passage' && it.engines.indexOf('vocab')!==-1){ var v=vocabProgress(it.passageKey); if(v.has && v.pct>=100) return true; }
+    return false;
+  }
+  var P=(u&&u.preview)||{}, R=(u&&u.review)||{};
+  var pI=(P.items)||[], rI=(R.items)||[];
+  if(!pI.length && !rI.length){
+    /* 无任务时整块隐藏（2026-10-19 用户令：删除「本单元暂无任务」空态框） */
+    zone.innerHTML = '';
+    zone.style.display = 'none';
+    return;
+  }
+  zone.style.display = '';
+  var groups = [
+    { type:'preview', items:pI, dl:P.deadline||'' },
+    { type:'review', items:rI, dl:R.deadline||'' }
+  ];
+  var totItems=0, totDone=0;
+  groups.forEach(function(g){ totItems+=g.items.length; totDone+=g.items.filter(function(it){return isDone(it,g.type);}).length; });
+  var totPct = totItems ? Math.round(totDone/totItems*100) : 0;
+  var allDone = totItems>0 && totDone>=totItems;
+  var preDone = groups[0].items.length>0 && groups[0].items.every(function(it){return isDone(it,'preview');});
+  var revDone = groups[1].items.length>0 && groups[1].items.every(function(it){return isDone(it,'review');});
+  var today=new Date();
+  var dateTxt=(today.getMonth()+1)+'月'+today.getDate()+'日 · '+['周日','周一','周二','周三','周四','周五','周六'][today.getDay()];
+  var ringTxt = totPct>=100 ? '100%' : totPct+'%';
+
+  function stage(g){
+    if(!g.items.length) return '';
+    var dlTs = g.dl ? new Date(g.dl.replace('T',' ')).getTime() : 0;
+    var late = dlTs && nowTs()>dlTs;
+    var done = g.items.filter(function(it){ return isDone(it,g.type); }).length;
+    var pct = Math.round(done/g.items.length*100);
+    var chip = g.dl
+      ? (late ? '<span class="tz-chip late">'+ICON('calendar','sm')+' 已过 · '+esc(g.dl.replace('T',' '))+'</span>' : '<span class="tz-chip">'+ICON('calendar','sm')+' 截止 '+esc(g.dl.replace('T',' '))+'</span>')
+      : '';
+    var isPre = g.type==='preview';
+    var rows='';
+    g.items.forEach(function(it){
+      var doneThis = isDone(it,g.type);
+      var id = it.id || (it.kind==='theme' ? 'theme' : it.passageKey);
+      var mark = '<button class="tz-mark'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'" data-id="'+id+'" data-mark="1" title="标记完成">'+ICON('check','sm')+'</button>';
+      if(it.kind==='theme'){
+        var tw = (THEME[unitKey]||[]).length;
+        var tv = themeProgress(unitKey);
+        var tvx = (tv.has && tv.done) ? '<b> 已掌握 '+tv.done+'/'+tw+'</b>' : '';
+        rows += '<div class="tz-row'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'">'
+          + '<span class="i-ic">'+ICON('folder')+'</span>'
+          + '<span class="i-bd"><span class="i-tl">'+esc(THEME_TITLE[unitKey]||'单元主题词汇')+'<span class="m">主题</span></span><span class="i-st">'+tw+' 词 · 预习 → 复习 → 测试'+tvx+'</span></span>'
+          + '<span class="i-cta">'+(doneThis?'已完成':'开始 '+ICON('play','sm'))+'</span>'
+          + mark + '</div>';
+        return;
+      }
+      var meta = findPassageMeta(it.passageKey);
+      var title = meta ? (meta.kind+' · '+meta.title) : it.passageKey;
+      var wants=[];
+      if(it.engines.indexOf('vocab')!==-1)  wants.push({mode:'vocab',  ico:ICON('book','sm'), lab:'词汇 · 诊断学习'});
+      if(it.engines.indexOf('follow')!==-1) wants.push({mode:'follow', ico:ICON('sound','sm'), lab:'跟读 · 听读写'});
+      wants.forEach(function(w){
+        var vp = w.mode==='vocab' ? vocabProgress(it.passageKey) : null;
+        var fp = w.mode==='follow' ? followProg(pgOfKey(it.passageKey)) : null;
+        var extra='';
+        if(vp && vp.has) extra='<b> 词·已掌握 '+vp.done+'/'+vp.total+'</b>';
+        if(fp && fp.follow) extra='<b> 跟读·已完成</b>';
+        rows += '<div class="tz-row'+(doneThis?' done':'')+'" data-u="'+unitKey+'" data-t="'+g.type+'" data-id="'+id+'" data-mode="'+w.mode+'" data-kind="passage">'
+          + '<span class="i-ic">'+w.ico+'</span>'
+          + '<span class="i-bd"><span class="i-tl">'+esc(title)+'<span class="m">'+(w.mode==='vocab'?'词汇':'跟读')+'</span></span><span class="i-st">'+esc(w.lab)+extra+'</span></span>'
+          + '<span class="i-cta">'+(doneThis?'已完成':'开始 '+ICON('play','sm'))+'</span>'
+          + mark + '</div>';
+      });
+    });
+    return '<div class="tz-stage '+(isPre?'tre':'trev')+'"'+(isPre?'':' id="tzReview"')+'>'
+      + '<div class="tz-sh"><span class="ico-box">'+ICON(isPre?'book':'loop')+'</span>'
+      + '<span class="tz-sh-t"><b>'+(isPre?('预习任务'+(preDone?' · 已完成':'')):'复习任务')+'</b><span>'+(isPre?'上课前 · 认识生词、初听原文':'课后 · 测试掌握、练熟跟读')+'</span></span>'
+      + chip + '</div>'
+      + '<div class="tz-bar"><i style="width:'+pct+'%"></i></div>'
+      + '<div class="tz-rows">'+rows+'</div></div>';
+  }
+
+  /* 预习全部完成：有复习任务 → 全屏引导；无复习任务 → 轻提示条 */
+  var bridge='', guideOn=false;
+  if(preDone && !revDone){
+    if(groups[1].items.length){
+      var seen=false; try{ seen=!!sessionStorage.getItem('tk1_guide_'+unitKey); }catch(e){}
+      guideOn=!seen;
+    } else {
+      bridge='<div class="bridge"><span class="b-ic">'+ICON('star')+'</span><span class="b-t"><b>预习任务已完成！</b><span>本单元老师暂未布置复习任务，可以自由巩固下方材料。</span></span></div>';
+    }
+  }
+
+  zone.innerHTML =
+    '<div class="tz-hero"><div class="tz-hero-in">'
+    + '<div class="tz-day"><div class="tz-kicker">TH!NK · 今日学习</div>'
+    + '<div class="tz-title">'+(allDone?'全部完成 '+ICON('star','sm'):'预习 · 复习')+'</div>'
+    + '<div class="tz-sub">'+esc(dateTxt)+' · 本单元布置的任务</div></div>'
+    + '<div class="tz-ring"><svg width="86" height="86" viewBox="0 0 92 92">'
+    + '<circle cx="46" cy="46" r="34" class="rp" stroke="rgba(255,255,255,.18)"/>'
+    + '<circle cx="46" cy="46" r="34" class="rp" stroke="#34d399" stroke-width="8" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="'+(213.6*(1-totPct/100)).toFixed(1)+'" transform="rotate(-90 46 46)"/>'
+    + '<text x="46" y="51" text-anchor="middle" font-size="15" font-weight="900" fill="#fff" stroke="none">'+ringTxt+'</text>'
+    + '<text x="46" y="66" text-anchor="middle" font-size="10" font-weight="700" fill="rgba(255,255,255,.85)" stroke="none">'+totDone+'/'+totItems+'</text>'
+    + '</svg></div>'
+    + '<div class="tz-msg">'+(allDone?'所有预习与复习任务都完成了，很棒！':'完成预习与复习任务，跟着提示一步步学，打开材料即自动记录。')+'</div>'
+    + '</div></div>'
+    + bridge
+    + stage(groups[0])
+    + stage(groups[1]);
+
+  /* 全屏引导：挂在书架容器内（样式作用域与 z-index 都依赖 #shelfRoot） */
+  if(guideOn && !$('tzGuide')){
+    var gEl=document.createElement('div');
+    gEl.className='guide'; gEl.id='tzGuide';
+    gEl.innerHTML='<div class="guide-card"><div class="guide-in">'
+      + '<div class="guide-badge">'+ICON('star')+'</div>'
+      + '<div class="guide-kicker">PREVIEW COMPLETE · 预习通关</div>'
+      + '<div class="guide-title">预习任务已完成！</div>'
+      + '<div class="guide-sub">生词与初读都过关了。趁热打铁进入复习，测一测真正掌握了多少。</div>'
+      + '<div class="guide-steps"><span class="guide-step ok">'+ICON('book','sm')+' 预习 '+ICON('check','sm')+'</span><span class="guide-arrow">'+ICON('right','sm')+'</span><span class="guide-step">'+ICON('loop','sm')+' 复习</span></div>'
+      + '<div class="guide-btns"><button class="guide-go" id="tzGuideGo">进入复习任务 '+ICON('right','sm')+'</button><button class="guide-later" id="tzGuideLater">稍后再说</button></div>'
+      + '</div></div>';
+    shelfRoot.appendChild(gEl);
+    requestAnimationFrame(function(){ gEl.classList.add('on'); });
+    var onEsc=function(e){ if(e.key==='Escape') closeG(); };
+    var closeG=function(){
+      document.removeEventListener('keydown', onEsc);
+      try{ sessionStorage.setItem('tk1_guide_'+unitKey,'1'); }catch(e){}
+      gEl.classList.remove('on');
+      setTimeout(function(){ if(gEl.parentNode) gEl.parentNode.removeChild(gEl); }, 320);
+    };
+    var gGo=$('tzGuideGo'), gLater=$('tzGuideLater');
+    if(gGo) gGo.addEventListener('click', function(){
+      closeG();
+      var rv=zone.querySelector('#tzReview');
+      if(rv){ rv.scrollIntoView({behavior:'smooth', block:'center'}); rv.classList.add('jump'); setTimeout(function(){ rv.classList.remove('jump'); }, 3400); }
+    });
+    if(gLater) gLater.addEventListener('click', closeG);
+    gEl.addEventListener('click', function(e){ if(e.target===gEl) closeG(); });
+    document.addEventListener('keydown', onEsc);
+  }
+
+  zone.querySelectorAll('.tz-row[data-mode]').forEach(function(row){
+    row.addEventListener('click', function(e){
+      if(e.target.closest('.tz-mark')) return;
+      launchTaskMaterial(row.dataset.u, row.dataset.t, { id:row.dataset.id, passageKey:row.dataset.id, mode:row.dataset.mode, kind:row.dataset.kind||'passage' });
+    });
+  });
+  zone.querySelectorAll('.tz-row').forEach(function(row){
+    if(row.dataset.mode) return;
+    row.addEventListener('click', function(e){
+      if(e.target.closest('.tz-mark')) return;
+      launchTaskMaterial(unitKey, row.dataset.t, { id:'theme', passageKey:'theme', mode:'theme', kind:'theme' });
+    });
+  });
+  zone.querySelectorAll('.tz-mark').forEach(function(m){
+    m.addEventListener('click', function(e){
+      e.stopPropagation();
+      var name2 = getStudent(); if(!name2){ showNameGate(); return; }
+      var rec = getReport(name2, m.dataset.u, m.dataset.t, m.dataset.id);
+      if(rec.doneAt){ report(name2, m.dataset.u, m.dataset.t, m.dataset.id, 'undone'); toast('已取消完成标记'); }
+      else { report(name2, m.dataset.u, m.dataset.t, m.dataset.id, 'done'); toast('已标记完成'); }
+      renderTaskZone(m.dataset.u);
+    });
+  });
+}
+
+/* ═══════════ 身份 ═══════════ */
+var whoBtn=$('whoBtn'), whoName=$('whoName'), nameGate=$('nameGate');
+function refreshWho(){
+  var n = getStudent();
+  if(n){ whoName.textContent = n; whoBtn.classList.remove('req'); whoBtn.title='当前学生，点击切换'; }
+  else { whoName.textContent = '填写姓名'; whoBtn.classList.add('req'); whoBtn.title='请先填写姓名'; }
+}
+function showNameGate(){
+  nameGate.classList.remove('hide');
+  $('gateHint').textContent = getStudent()
+    ? '切换为另一位同学学习。输入新姓名后，进度将按新姓名记录。'
+    : '请输入你的姓名，用于在本机记录预习 / 复习进度。';
+  var inp = $('nameInput'); inp.value=''; $('nameErr').textContent='';
+  setTimeout(function(){ inp.focus(); }, 60);
+}
+function hideNameGate(){ nameGate.classList.add('hide'); }
+function setStudent(n){ try{ localStorage.setItem(STUKEY, n); }catch(e){} }
+function confirmName(){
+  var v = $('nameInput').value.trim();
+  if(!v){ $('nameErr').textContent='请输入姓名'; return; }
+  setStudent(v); hideNameGate(); refreshWho();
+  toast(v+' 同学，开始学习吧');
+}
+whoBtn.addEventListener('click', function(){ showNameGate(); });
+$('nameOk').addEventListener('click', confirmName);
+$('nameInput').addEventListener('keydown', function(e){ if(e.key==='Enter') confirmName(); });
+
+/* ═══════════ 返回 / 入口 ═══════════ */
+$('unitBack').addEventListener('click', function(){ showView('home'); });
+$('pgBack').addEventListener('click', function(){ if(currentUnit) openUnit(currentUnit); else showView('home'); });
+$('welcomeBtn').addEventListener('click', function(){
+  var s = loadState(); if(!s.welcome){ s.welcome=true; saveState(s); }
+  toast('Welcome 入门单元正在筹备中');
+});
+
+/* 点读引擎顶栏「书架」按钮：随时回到书架首页 */
+var mapBtn = $('mapBtn');
+if(mapBtn) mapBtn.addEventListener('click', function(){ openShelf(); showView('home'); });
+
+/* ═══════════ 启动 ═══════════ */
+/* 词汇页在另一标签页学习完回来时，刷新单元页的进度显示与任务完成度 */
+function refreshUnit(){
+  if(!currentUnitKey || shelfRoot.classList.contains('off')) return;
+  renderThemeVocab(currentUnitKey);
+  renderTaskZone(currentUnitKey);
+}
+window.addEventListener('focus', refreshUnit);
+window.addEventListener('storage', function(e){
+  if(!e.key || /_records_v2$/.test(e.key) || /^tk1_stage_/.test(e.key) || e.key==='tk1_reports' || e.key==='tk1_assignments') refreshUnit();
+});
+/* 教师任务：学生端无登录，直接匿名只读全局任务（全班共见的数据）；
+   服务器不可达（如纯静态托管）时静默降级，任务区显示空态。 */
+function applyAssignments(v){
+  v = v || '';
+  if(v === (localStorage.getItem(AKEY) || '')) return false;
+  try{ localStorage.setItem(AKEY, v); }catch(e){}
+  return true;
+}
+function pullAssignments(){
+  return fetch('/api/assignments', { cache:'no-store' })
+    .then(function(r){ return r.json(); })
+    .then(function(res){ if(res && res.ok && applyAssignments(res.value)) refreshUnit(); })
+    .catch(function(){ return false; });
+}
+
+function boot(){
+  refreshWho();
+  renderShelf();
+  pullAssignments();                                   /* 首次拉取全班任务 */
+  setInterval(function(){ if(!document.hidden) pullAssignments(); }, 30000);
+  /* ?pg= 深链已由页首路由 script 直跳逐句听单文件 */
+  var q = location.search || '';
+  var um = q.match(/[?&]unit=(\d+)/);
+  openShelf();
+  showView('home');
+  if(um){
+    var u = UNITS.find(function(x){ return x.key===um[1]; });
+    if(u && u.live){
+      openUnit(um[1]);
+    }
+  }
+  /* 未填姓名时引导填写，保证预习/复习进度可记录 */
+  if(!getStudent()) setTimeout(showNameGate, 300);
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot);
+else boot();
+})();
+</script>
+<script>
+/* PWA：注册 Service Worker（离线可用 + 音频本地缓存） */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('sw.js').catch(function () { /* 无 SW 环境静默降级 */ });
+  });
+}
+</script>
+</body></html>

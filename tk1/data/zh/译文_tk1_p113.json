@@ -1,0 +1,245 @@
+{
+ "passage_key": "u12_113",
+ "page": "p113",
+ "unit": 12,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 47,
+ "n_unique_keys": 46,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Hello again.",
+   "zh": "大家好，又见面了。"
+  },
+  {
+   "i": 1,
+   "en": "Right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 2,
+   "en": "He’s visited more than a hundred countries.",
+   "zh": "他走访了 100 多个国家。"
+  },
+  {
+   "i": 3,
+   "en": "He’s taken thousands of photos and published them in travel magazines.",
+   "zh": "他拍了数千张照片，并把它们发表在旅游杂志上。"
+  },
+  {
+   "i": 4,
+   "en": "He’s got a very popular travel blog.",
+   "zh": "他有一个很受欢迎的旅行博客。"
+  },
+  {
+   "i": 5,
+   "en": "But he’s taken a break today to talk about how to travel well.",
+   "zh": "但今天他抽出时间，谈谈如何把旅行安排得更好。"
+  },
+  {
+   "i": 6,
+   "en": "Richard Ward, thank you for coming today.",
+   "zh": "理查德·沃德，谢谢你今天来到这里。"
+  },
+  {
+   "i": 7,
+   "en": "Thanks for inviting me.",
+   "zh": "谢谢你们邀请我。"
+  },
+  {
+   "i": 8,
+   "en": "So you’ve just completed your tenth year of travelling.",
+   "zh": "这么说，你刚刚完成了第十年的旅行。"
+  },
+  {
+   "i": 9,
+   "en": "That’s right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 10,
+   "en": "Ten years without spending more than a week back home.",
+   "zh": "十年里，每次回家都没超过一周。"
+  },
+  {
+   "i": 11,
+   "en": "Well, my parents’ home.",
+   "zh": "嗯，是我父母的家。"
+  },
+  {
+   "i": 12,
+   "en": "I’ve never had my own home.",
+   "zh": "我从来没有自己的家。"
+  },
+  {
+   "i": 13,
+   "en": "And to celebrate your ten years, you’ve made a list of top things to do when you travel.",
+   "zh": "为了庆祝这十年，你列出了一份旅行时最该做的事情清单。"
+  },
+  {
+   "i": 14,
+   "en": "That’s right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 15,
+   "en": "And I’m hoping to publish them in a book later this year.",
+   "zh": "我希望今年晚些时候把它们出版成书。"
+  },
+  {
+   "i": 16,
+   "en": "Have you ever written a book before?",
+   "zh": "你以前写过书吗？"
+  },
+  {
+   "i": 17,
+   "en": "No, I haven’t.",
+   "zh": "不，我没有。"
+  },
+  {
+   "i": 18,
+   "en": "This will be my first.",
+   "zh": "这将是我的第一本书。"
+  },
+  {
+   "i": 19,
+   "en": "How exciting.",
+   "zh": "真令人兴奋。"
+  },
+  {
+   "i": 20,
+   "en": "Now, on your website, there are twenty tips for travelling.",
+   "zh": "现在，你的网站上有二十条旅行建议。"
+  },
+  {
+   "i": 21,
+   "en": "We can’t talk about all of them so can I ask you, what’s your number one tip?",
+   "zh": "我们没法全谈，所以我能问一下，你最重要的建议是什么？"
+  },
+  {
+   "i": 22,
+   "en": "Well, that’s difficult.",
+   "zh": "嗯，这很难说。"
+  },
+  {
+   "i": 23,
+   "en": "My number one?",
+   "zh": "我最重要的建议？"
+  },
+  {
+   "i": 24,
+   "en": "Hmm.",
+   "zh": "嗯……"
+  },
+  {
+   "i": 25,
+   "en": "OK.",
+   "zh": "好。"
+  },
+  {
+   "i": 26,
+   "en": "I’m going to say: ‘Get off the beaten track’.",
+   "zh": "我要说的是：“走别人少走的路”。"
+  },
+  {
+   "i": 27,
+   "en": "I mean, try and go to places that other people don’t go to.",
+   "zh": "我是说，试着去别人不去的地方。"
+  },
+  {
+   "i": 28,
+   "en": "Of course, it’s great to see all those famous places that everyone wants to see.",
+   "zh": "当然，去看看那些人人都想看的名胜很棒。"
+  },
+  {
+   "i": 29,
+   "en": "But if you explore a bit further, go to other places, you’ll discover much more interesting things, you know?",
+   "zh": "但如果你再多探索一点，去别的地方，你会发现更有趣的东西，你知道吗？"
+  },
+  {
+   "i": 30,
+   "en": "On my blog I talk about an important difference: the difference between travellers and tourists.",
+   "zh": "我在博客里谈到一个重要区别：旅行者和游客的区别。"
+  },
+  {
+   "i": 31,
+   "en": "A tourist always stays on the beaten track.",
+   "zh": "游客总是走常规路线。"
+  },
+  {
+   "i": 32,
+   "en": "A traveller likes to leave it.",
+   "zh": "旅行者则喜欢离开常规路线。"
+  },
+  {
+   "i": 33,
+   "en": "Of course, you might get lost …",
+   "zh": "当然，你可能会迷路……"
+  },
+  {
+   "i": 34,
+   "en": "And have you ever got lost?",
+   "zh": "那你迷过路吗？"
+  },
+  {
+   "i": 35,
+   "en": "Oh yes, hundreds of times.",
+   "zh": "哦，当然，有几百次。"
+  },
+  {
+   "i": 36,
+   "en": "In fact another of my tips is ‘try to get lost’!",
+   "zh": "事实上，我的另一条建议是“试着迷路”！"
+  },
+  {
+   "i": 37,
+   "en": "It’s part of the fun of travelling.",
+   "zh": "这是旅行的乐趣之一。"
+  },
+  {
+   "i": 38,
+   "en": "If you get lost sometimes, you can find amazing things, great people.",
+   "zh": "如果有时迷路，你可能会发现惊人的事物，遇到很棒的人。"
+  },
+  {
+   "i": 39,
+   "en": "OK, let’s talk about things to take with you.",
+   "zh": "好，我们谈谈要随身带的东西。"
+  },
+  {
+   "i": 40,
+   "en": "Another tip you have is: ‘always take a scarf’.",
+   "zh": "你的另一条建议是“总要带一条围巾”。"
+  },
+  {
+   "i": 41,
+   "en": "Why?",
+   "zh": "为什么？"
+  },
+  {
+   "i": 42,
+   "en": "Well, a scarf is a really useful thing.",
+   "zh": "嗯，围巾真的很有用。"
+  },
+  {
+   "i": 43,
+   "en": "You can wrap it around you to keep you warm or to keep the sun off.",
+   "zh": "你可以把它围在身上保暖，也可以遮阳。"
+  },
+  {
+   "i": 44,
+   "en": "You can carry things in it, too, or tie things together.",
+   "zh": "你还可以用它包东西，或者把东西系在一起。"
+  },
+  {
+   "i": 45,
+   "en": "Well, I want to talk some more, Richard.",
+   "zh": "嗯，我还想再聊一会儿，理查德。"
+  },
+  {
+   "i": 46,
+   "en": "But first it’s time for some music and …",
+   "zh": "但首先是音乐时间，而且……"
+  }
+ ]
+}

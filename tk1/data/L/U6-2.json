@@ -1,0 +1,420 @@
+{
+ "id": "SB_u06_p059_t02",
+ "no": 6.02,
+ "title": "Listening: Jack and his mum – friendship advice",
+ "titleZh": "",
+ "audio": "assets/tk1_p059.mp3",
+ "duration": 173.4,
+ "question": null,
+ "unit": 6,
+ "part": "听力",
+ "bookPage": "p059",
+ "srcKey": "SB_u06_p059_t02",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.78,
+   "t2": 9.26,
+   "en": "Hi, Jack. How was school?",
+   "zh": "嗨，杰克。学校怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 9.88,
+   "t2": 10.48,
+   "en": "Oh, fine.",
+   "zh": "哦，还行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 11.24,
+   "t2": 13.82,
+   "en": "Mum, can I bring some friends round tomorrow?",
+   "zh": "妈妈，我明天能带几个朋友来家里吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 14.7,
+   "t2": 15.18,
+   "en": "Sure.",
+   "zh": "当然可以。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 15.56,
+   "t2": 15.9,
+   "en": "Who?",
+   "zh": "都有谁？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 16.44,
+   "t2": 20.2,
+   "en": "Oh, probably Rachel and Steve, maybe Leo.",
+   "zh": "哦，可能是雷切尔和史蒂夫，也许还有里奥。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 20.68,
+   "t2": 22.9,
+   "en": "OK. Not Markus?",
+   "zh": "好的。马库斯不来吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 23.54,
+   "t2": 24.44,
+   "en": "Er, no.",
+   "zh": "呃，不。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 24.98,
+   "t2": 26.5,
+   "en": "Oh? Why not?",
+   "zh": "哦？为什么不来？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 27.02,
+   "t2": 29.4,
+   "en": "Well, we’re not really friends any more.",
+   "zh": "嗯，我们不再是朋友了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 30.06,
+   "t2": 33.82,
+   "en": "Seriously? I thought you two were best friends.",
+   "zh": "真的吗？我以为你们两个是最好的朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 34.3,
+   "t2": 35.34,
+   "en": "Yeah, we were.",
+   "zh": "是的，我们以前是。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 35.66,
+   "t2": 42.701,
+   "en": "But you know, we had an argument – he said something I didn’t like – so he’s not my friend any more.",
+   "zh": "但你知道，我们吵了一架——他说了些我不喜欢的话——所以他不算是我的朋友了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 43.22,
+   "t2": 44.582,
+   "en": "And what did he say?",
+   "zh": "他说了什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 45.12,
+   "t2": 46.92,
+   "en": "Well, he called me silly.",
+   "zh": "嗯，他叫我傻瓜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 47.589,
+   "t2": 48.98,
+   "en": "Friends don’t do that.",
+   "zh": "朋友不会那样做。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 49.88,
+   "t2": 55.391,
+   "en": "Jack, do you remember Mrs Gordon? Janice? She’s a friend of mine.",
+   "zh": "杰克，你还记得戈登夫人吗？贾妮丝？她是我的一个朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 55.391,
+   "t2": 56.82,
+   "en": "Yes, I remember.",
+   "zh": "记得，我记得。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 57.46,
+   "t2": 60.047,
+   "en": "She was your friend at school too, wasn’t she?",
+   "zh": "她以前上学时也是你的朋友，对吧？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 60.44,
+   "t2": 64.24,
+   "en": "Yes, and we’re still friends now, 20 years later.",
+   "zh": "对，而且我们现在还是朋友，20 年过去了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 65.132,
+   "t2": 67.315,
+   "en": "Her mother was a friend of my mother’s.",
+   "zh": "她妈妈是我妈妈的一个朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 67.66,
+   "t2": 76.057,
+   "en": "Anyway, one day at school, well, we had an argument and I said something really horrible to her.",
+   "zh": "总之，有一天在学校，我们吵了一架，我对她说了很糟糕的话。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 76.34,
+   "t2": 76.68,
+   "en": "What?",
+   "zh": "什么话？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 77.06,
+   "t2": 78.12,
+   "en": "It doesn’t matter.",
+   "zh": "没关系。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 78.68,
+   "t2": 83.267,
+   "en": "But she walked away and said, ‘I never want to see you again.’",
+   "zh": "但她走开了，说：“我再也不想见到你了。”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 83.267,
+   "t2": 89.32,
+   "en": "I was really upset about that and I shouted, ‘Same here!’ or something.",
+   "zh": "我当时特别难过，就喊了句“我也是！”之类的话。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 90.24,
+   "t2": 97.62,
+   "en": "Then the next day, at school, she came up to me with a big smile and said, ‘Hi, Jenny, you OK?’",
+   "zh": "然后第二天在学校，她带着灿烂的笑容走到我面前说：“嗨，珍妮，你还好吗？”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 98.3,
+   "t2": 98.68,
+   "en": "Really?",
+   "zh": "真的吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 99.24,
+   "t2": 105.14,
+   "en": "Yes, I was completely surprised and I asked her, I said, ‘Aren’t you angry with me?’",
+   "zh": "是啊，我完全没想到，就问她，我说：“你不生我的气吗？”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 105.7,
+   "t2": 107.94,
+   "en": "And she said something I still remember.",
+   "zh": "她说了句我至今都记得的话。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 108.42,
+   "t2": 118.48,
+   "en": "She said: ‘Well, yes, I was angry but last night I thought of all the nice things you always say to me and the nice things you do.",
+   "zh": "她说：“嗯，是的，我当时很生气，但昨晚我想到了你总是对我说的那些好话，还有你做过的那些好事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 119.16,
+   "t2": 123.76,
+   "en": "I want to think about that, not something you said because you were angry.’",
+   "zh": "我想的是那些，而不是你生气时说的话。”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 124.54,
+   "t2": 128.44,
+   "en": "And those words of hers, well, they almost made me cry.",
+   "zh": "她的那些话，嗯，差点让我哭出来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 129.0,
+   "t2": 132.28,
+   "en": "And here we are, twenty years later, still friends.",
+   "zh": "而现在我们，20 年过去了，仍然是朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 132.84,
+   "t2": 133.22,
+   "en": "Wow.",
+   "zh": "哇。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 133.98,
+   "t2": 135.16,
+   "en": "Cool story, Mum.",
+   "zh": "真酷的故事，妈妈。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 135.82,
+   "t2": 142.48,
+   "en": "So I think it’s a real shame that after such a long time, you can’t still be friends with Markus.",
+   "zh": "所以我觉得很遗憾，过了这么久，你却不能再和马库斯做朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 143.0,
+   "t2": 143.58,
+   "en": "You’re right.",
+   "zh": "你说得对。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 144.32,
+   "t2": 150.24,
+   "en": "Wow, so many times he helped me with my homework, listened to me when I had a problem.",
+   "zh": "哇，他有多少次帮我做作业，我遇到问题时听我倾诉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 150.64,
+   "t2": 151.26,
+   "en": "That’s right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 152.02,
+   "t2": 155.2,
+   "en": "So he called you silly one time? So what?",
+   "zh": "所以他有一次叫你傻瓜？那又怎样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 155.92,
+   "t2": 159.94,
+   "en": "And you know, sometimes you are stupid – just like everyone else.",
+   "zh": "而且你知道，有时候你确实傻——就像其他人一样。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 160.66,
+   "t2": 163.027,
+   "en": "Yes. Mum, I’m going out.",
+   "zh": "是的。妈妈，我要出去了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 163.28,
+   "t2": 165.16,
+   "en": "Round to Markus’ place, OK?",
+   "zh": "去马库斯家，好吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 44,
+   "t": 165.74,
+   "t2": 170.16,
+   "en": "Good idea, Jack, and why don’t you take him a present to say sorry?",
+   "zh": "好主意，杰克，你为什么不带件礼物去跟他道歉呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

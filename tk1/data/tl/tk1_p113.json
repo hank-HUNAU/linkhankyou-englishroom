@@ -1,0 +1,341 @@
+{
+ "unit": "U12",
+ "passage_key": "u12_113",
+ "page": "p113",
+ "title": "Listening: Richard Ward on travelling well",
+ "type": "听力",
+ "n_sent": 47,
+ "duration_s": 181.45,
+ "source": "Think 1 U12 增量：alignment/SB_u12_p113_t02 + 译文_tk1_p113.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 8.4,
+   "end_s": 9.2,
+   "dur_s": 0.8,
+   "text": "Hello again."
+  },
+  {
+   "i": 1,
+   "start_s": 9.82,
+   "end_s": 10.14,
+   "dur_s": 0.32,
+   "text": "Right."
+  },
+  {
+   "i": 2,
+   "start_s": 10.84,
+   "end_s": 13.3,
+   "dur_s": 2.46,
+   "text": "He’s visited more than a hundred countries."
+  },
+  {
+   "i": 3,
+   "start_s": 13.96,
+   "end_s": 18.6,
+   "dur_s": 4.64,
+   "text": "He’s taken thousands of photos and published them in travel magazines."
+  },
+  {
+   "i": 4,
+   "start_s": 19.319,
+   "end_s": 22.1,
+   "dur_s": 2.781,
+   "text": "He’s got a very popular travel blog."
+  },
+  {
+   "i": 5,
+   "start_s": 22.7,
+   "end_s": 27.52,
+   "dur_s": 4.82,
+   "text": "But he’s taken a break today to talk about how to travel well."
+  },
+  {
+   "i": 6,
+   "start_s": 28.3,
+   "end_s": 30.82,
+   "dur_s": 2.52,
+   "text": "Richard Ward, thank you for coming today."
+  },
+  {
+   "i": 7,
+   "start_s": 31.28,
+   "end_s": 32.334,
+   "dur_s": 1.054,
+   "text": "Thanks for inviting me."
+  },
+  {
+   "i": 8,
+   "start_s": 32.92,
+   "end_s": 37.04,
+   "dur_s": 4.12,
+   "text": "So you’ve just completed your tenth year of travelling."
+  },
+  {
+   "i": 9,
+   "start_s": 37.58,
+   "end_s": 38.208,
+   "dur_s": 0.628,
+   "text": "That’s right."
+  },
+  {
+   "i": 10,
+   "start_s": 38.557,
+   "end_s": 42.144,
+   "dur_s": 3.587,
+   "text": "Ten years without spending more than a week back home."
+  },
+  {
+   "i": 11,
+   "start_s": 42.62,
+   "end_s": 44.02,
+   "dur_s": 1.4,
+   "text": "Well, my parents’ home."
+  },
+  {
+   "i": 12,
+   "start_s": 44.52,
+   "end_s": 45.987,
+   "dur_s": 1.467,
+   "text": "I’ve never had my own home."
+  },
+  {
+   "i": 13,
+   "start_s": 46.48,
+   "end_s": 53.29,
+   "dur_s": 6.81,
+   "text": "And to celebrate your ten years, you’ve made a list of top things to do when you travel."
+  },
+  {
+   "i": 14,
+   "start_s": 53.29,
+   "end_s": 54.08,
+   "dur_s": 0.79,
+   "text": "That’s right."
+  },
+  {
+   "i": 15,
+   "start_s": 54.52,
+   "end_s": 57.945,
+   "dur_s": 3.425,
+   "text": "And I’m hoping to publish them in a book later this year."
+  },
+  {
+   "i": 16,
+   "start_s": 58.42,
+   "end_s": 60.7,
+   "dur_s": 2.28,
+   "text": "Have you ever written a book before?"
+  },
+  {
+   "i": 17,
+   "start_s": 61.22,
+   "end_s": 62.22,
+   "dur_s": 1.0,
+   "text": "No, I haven’t."
+  },
+  {
+   "i": 18,
+   "start_s": 62.66,
+   "end_s": 64.38,
+   "dur_s": 1.72,
+   "text": "This will be my first."
+  },
+  {
+   "i": 19,
+   "start_s": 64.8,
+   "end_s": 65.42,
+   "dur_s": 0.62,
+   "text": "How exciting."
+  },
+  {
+   "i": 20,
+   "start_s": 66.154,
+   "end_s": 70.54,
+   "dur_s": 4.386,
+   "text": "Now, on your website, there are twenty tips for travelling."
+  },
+  {
+   "i": 21,
+   "start_s": 71.181,
+   "end_s": 76.8,
+   "dur_s": 5.619,
+   "text": "We can’t talk about all of them so can I ask you, what’s your number one tip?"
+  },
+  {
+   "i": 22,
+   "start_s": 76.8,
+   "end_s": 79.36,
+   "dur_s": 2.56,
+   "text": "Well, that’s difficult."
+  },
+  {
+   "i": 23,
+   "start_s": 80.18,
+   "end_s": 82.26,
+   "dur_s": 2.08,
+   "text": "My number one?"
+  },
+  {
+   "i": 24,
+   "start_s": 82.26,
+   "end_s": 82.56,
+   "dur_s": 0.3,
+   "text": "Hmm."
+  },
+  {
+   "i": 25,
+   "start_s": 82.56,
+   "end_s": 83.32,
+   "dur_s": 0.76,
+   "text": "OK."
+  },
+  {
+   "i": 26,
+   "start_s": 85.02,
+   "end_s": 88.78,
+   "dur_s": 3.76,
+   "text": "I’m going to say: ‘Get off the beaten track’."
+  },
+  {
+   "i": 27,
+   "start_s": 89.48,
+   "end_s": 93.936,
+   "dur_s": 4.456,
+   "text": "I mean, try and go to places that other people don’t go to."
+  },
+  {
+   "i": 28,
+   "start_s": 94.52,
+   "end_s": 99.96,
+   "dur_s": 5.44,
+   "text": "Of course, it’s great to see all those famous places that everyone wants to see."
+  },
+  {
+   "i": 29,
+   "start_s": 100.36,
+   "end_s": 108.402,
+   "dur_s": 8.042,
+   "text": "But if you explore a bit further, go to other places, you’ll discover much more interesting things, you know?"
+  },
+  {
+   "i": 30,
+   "start_s": 109.02,
+   "end_s": 116.3,
+   "dur_s": 7.28,
+   "text": "On my blog I talk about an important difference: the difference between travellers and tourists."
+  },
+  {
+   "i": 31,
+   "start_s": 117.28,
+   "end_s": 120.697,
+   "dur_s": 3.417,
+   "text": "A tourist always stays on the beaten track."
+  },
+  {
+   "i": 32,
+   "start_s": 121.18,
+   "end_s": 123.24,
+   "dur_s": 2.06,
+   "text": "A traveller likes to leave it."
+  },
+  {
+   "i": 33,
+   "start_s": 124.0,
+   "end_s": 126.489,
+   "dur_s": 2.489,
+   "text": "Of course, you might get lost …"
+  },
+  {
+   "i": 34,
+   "start_s": 126.62,
+   "end_s": 128.54,
+   "dur_s": 1.92,
+   "text": "And have you ever got lost?"
+  },
+  {
+   "i": 35,
+   "start_s": 128.76,
+   "end_s": 130.84,
+   "dur_s": 2.08,
+   "text": "Oh yes, hundreds of times."
+  },
+  {
+   "i": 36,
+   "start_s": 130.84,
+   "end_s": 135.74,
+   "dur_s": 4.9,
+   "text": "In fact another of my tips is ‘try to get lost’!"
+  },
+  {
+   "i": 37,
+   "start_s": 136.64,
+   "end_s": 138.48,
+   "dur_s": 1.84,
+   "text": "It’s part of the fun of travelling."
+  },
+  {
+   "i": 38,
+   "start_s": 139.28,
+   "end_s": 145.48,
+   "dur_s": 6.2,
+   "text": "If you get lost sometimes, you can find amazing things, great people."
+  },
+  {
+   "i": 39,
+   "start_s": 146.1,
+   "end_s": 150.56,
+   "dur_s": 4.46,
+   "text": "OK, let’s talk about things to take with you."
+  },
+  {
+   "i": 40,
+   "start_s": 151.1,
+   "end_s": 154.94,
+   "dur_s": 3.84,
+   "text": "Another tip you have is: ‘always take a scarf’."
+  },
+  {
+   "i": 41,
+   "start_s": 155.84,
+   "end_s": 156.26,
+   "dur_s": 0.42,
+   "text": "Why?"
+  },
+  {
+   "i": 42,
+   "start_s": 156.26,
+   "end_s": 160.496,
+   "dur_s": 4.236,
+   "text": "Well, a scarf is a really useful thing."
+  },
+  {
+   "i": 43,
+   "start_s": 160.96,
+   "end_s": 165.674,
+   "dur_s": 4.714,
+   "text": "You can wrap it around you to keep you warm or to keep the sun off."
+  },
+  {
+   "i": 44,
+   "start_s": 166.32,
+   "end_s": 170.08,
+   "dur_s": 3.76,
+   "text": "You can carry things in it, too, or tie things together."
+  },
+  {
+   "i": 45,
+   "start_s": 170.92,
+   "end_s": 173.6,
+   "dur_s": 2.68,
+   "text": "Well, I want to talk some more, Richard."
+  },
+  {
+   "i": 46,
+   "start_s": 174.06,
+   "end_s": 176.16,
+   "dur_s": 2.1,
+   "text": "But first it’s time for some music and …"
+  }
+ ]
+}

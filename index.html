@@ -322,7 +322,48 @@ body{font-family:var(--font);color:var(--ink);overflow:hidden;background:var(--b
   font-weight:800;font-size:13.5px;color:#e6fff5;padding:13px 22px;border-radius:var(--r-pill);transition:background .2s, border-color .2s}
 #shelfRoot .guide-later:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.45)}
 #shelfRoot .tz-stage.jump{animation:tzpulse 1.6s ease 2}
-@keyframes tzpulse{0%{box-shadow:0 0 0 0 rgba(124,58,237,.55)}60%{box-shadow:0 0 0 15px rgba(124,58,237,0)}100%{box-shadow:0 0 0 0 rgba(124,58,237,0)}}</style></head><body>
+@keyframes tzpulse{0%{box-shadow:0 0 0 0 rgba(124,58,237,.55)}60%{box-shadow:0 0 0 15px rgba(124,58,237,0)}100%{box-shadow:0 0 0 0 rgba(124,58,237,0)}}</style><script>
+(function(){
+  var COURSES={thinkf:{label:'Think F',color:'#10B981'},think1:{label:'Think 1',color:'#7C3AED'}};
+  var path=(location.pathname||'').toLowerCase();
+  var here=path.indexOf('/tk1/')>=0?'think1':'thinkf';
+  var q=(location.search||'').match(/[?&]course=(thinkf|think1)(?:[&#]|$)/);
+  var want=q?q[1]:null;
+  if(want&&want!==here){
+    var target=want==='think1'?'tk1/index.html':'index.html';
+    if(here==='think1'&&want==='thinkf') target='../index.html';
+    location.replace(target+'?course='+want);
+    return;
+  }
+  if(!want){ try{ history.replaceState(null,'',location.pathname+'?course='+here+location.hash); }catch(e){} }
+  function go(c){
+    if(c===here) return;
+    var base;
+    if(c==='think1') base=(here==='think1'?'index.html':'tk1/index.html');
+    else base=(here==='think1'?'../index.html':'index.html');
+    location.href=base+'?course='+c;
+  }
+  function mount(){
+    if(document.getElementById('tfCourseSwitcher')) return;
+    var bar=document.createElement('div');
+    bar.id='tfCourseSwitcher';
+    bar.setAttribute('aria-label','课程切换');
+    bar.style.cssText='position:fixed;top:8px;left:50%;transform:translateX(-50%);z-index:2147483000;display:flex;align-items:center;gap:6px;padding:4px;border-radius:999px;background:rgba(255,255,255,.94);border:.5px solid rgba(15,23,42,.16);box-shadow:0 6px 20px -10px rgba(15,23,42,.35);font-family:inherit;';
+    ['thinkf','think1'].forEach(function(c){
+      var b=document.createElement('button');
+      b.type='button';
+      b.textContent=COURSES[c].label;
+      b.setAttribute('data-course',c);
+      var on=(c===here);
+      b.style.cssText='appearance:none;border:0;cursor:pointer;padding:6px 13px;border-radius:999px;font-family:inherit;font-size:12px;font-weight:500;line-height:1.2;color:'+(on?'#ffffff':'#475569')+';background:'+(on?COURSES[c].color:'transparent')+';';
+      b.onclick=function(){ go(c); };
+      bar.appendChild(b);
+    });
+    (document.body||document.documentElement).appendChild(bar);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mount); else mount();
+})();
+</script></head><body>
 <div id="toast" class="toast"></div>
 <div id="shelfRoot" aria-hidden="false">
   <div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span></div>

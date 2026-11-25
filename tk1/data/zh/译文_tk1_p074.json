@@ -1,0 +1,170 @@
+{
+ "passage_key": "u8_74",
+ "page": "p074",
+ "unit": 8,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 32,
+ "n_unique_keys": 32,
+ "entries": [
+  {
+   "i": 0,
+   "en": "The world of sport is full of wonderful moments.",
+   "zh": "体育世界充满了精彩瞬间。"
+  },
+  {
+   "i": 1,
+   "en": "Here are our top three.",
+   "zh": "这里是我们评选的三大时刻。"
+  },
+  {
+   "i": 2,
+   "en": "The starting gun went off.",
+   "zh": "发令枪响了。"
+  },
+  {
+   "i": 3,
+   "en": "Suddenly, eight athletes were flying down the track in Rio de Janeiro’s Olympic Stadium.",
+   "zh": "突然，八名运动员飞快地冲过里约热内卢奥林匹克体育场的跑道。"
+  },
+  {
+   "i": 4,
+   "en": "Less than 20 seconds later the race was over.",
+   "zh": "不到 20 秒，比赛就结束了。"
+  },
+  {
+   "i": 5,
+   "en": "Usain Bolt was walking around the stadium with the Jamaican flag over his shoulders – he was a double Olympic champion … again!",
+   "zh": "尤塞恩·博尔特披着牙买加国旗在体育场里走着——他又一次成为了奥运双料冠军！"
+  },
+  {
+   "i": 6,
+   "en": "Four years earlier, at the 2012 London Olympics, he became the first man to win a gold medal in both the 100m and 200m sprint at a second Olympic Games (he won them both at the 2008 Beijing Olympics, too).",
+   "zh": "四年前的 2012 年伦敦奥运会上，他成为第一位在连续两届奥运会上都赢得 100 米和 200 米短跑金牌的运动员（他在 2008 年北京奥运会上两项都赢了）。"
+  },
+  {
+   "i": 7,
+   "en": "In Rio, he did it for a third time.",
+   "zh": "在里约，他第三次做到了。"
+  },
+  {
+   "i": 8,
+   "en": "As well as his eight Olympic gold medals (he won the other two in relay races with other teammates), Bolt also won 11 world championships and currently holds the world record for the 100m and 200m.",
+   "zh": "除了八枚奥运金牌（另外两枚是和队友在接力赛中赢得的），博尔特还赢得了 11 次世界锦标赛冠军，目前保持着 100 米和 200 米的世界纪录。"
+  },
+  {
+   "i": 9,
+   "en": "He is one of the greatest sprinters in history.",
+   "zh": "他是历史上最伟大的短跑运动员之一。"
+  },
+  {
+   "i": 10,
+   "en": "Everyone was looking at 15-year-old Romanian gymnast Nadia Comaneci as she left the bars, flew through the air and landed perfectly on the ground.",
+   "zh": "所有人都看着十五岁的罗马尼亚体操运动员纳迪娅·科马内奇，她离开高低杠，飞向空中，然后完美地落在地面上。"
+  },
+  {
+   "i": 11,
+   "en": "She turned round.",
+   "zh": "她转过身来。"
+  },
+  {
+   "i": 12,
+   "en": "The crowd was cheering.",
+   "zh": "观众在欢呼。"
+  },
+  {
+   "i": 13,
+   "en": "Everyone was waiting nervously for the judges’ score.",
+   "zh": "大家都在紧张地等待裁判的打分。"
+  },
+  {
+   "i": 14,
+   "en": "Then it came.",
+   "zh": "然后分数出来了。"
+  },
+  {
+   "i": 15,
+   "en": "The scoreboard was showing ‘1.00’.",
+   "zh": "记分牌上显示“1.00”。"
+  },
+  {
+   "i": 16,
+   "en": "The crowd was confused.",
+   "zh": "观众都糊涂了。"
+  },
+  {
+   "i": 17,
+   "en": "But then the organisers explained.",
+   "zh": "但后来组织者作出了解释。"
+  },
+  {
+   "i": 18,
+   "en": "The makers of the scoreboards thought it was impossible to get a perfect score of 10.",
+   "zh": "记分牌的制造者认为不可能得到满分 10 分。"
+  },
+  {
+   "i": 19,
+   "en": "The boards were not able to show ‘10.00’.",
+   "zh": "记分牌无法显示“10.00”。"
+  },
+  {
+   "i": 20,
+   "en": "So, on 18 July 1976, at the Montreal Olympics, Nadia made history when she became the first gymnast ever to get a perfect ten.",
+   "zh": "于是，在 1976 年 7 月 18 日的蒙特利尔奥运会上，纳迪娅创造了历史，成为第一位获得满分的体操运动员。"
+  },
+  {
+   "i": 21,
+   "en": "She got six more ‘perfect scores’ at the games and won three gold medals, making her one of the best athletes in her sport of all time.",
+   "zh": "她在那届运动会上又拿了六个满分，并赢得三枚金牌，成为她那个项目历史上最优秀的运动员之一。"
+  },
+  {
+   "i": 22,
+   "en": "It was the final lap.",
+   "zh": "这是最后一圈。"
+  },
+  {
+   "i": 23,
+   "en": "Roger Bannister was running fast, but could he really become the first person to run a mile in under four minutes?",
+   "zh": "罗杰·班尼斯特跑得很快，但他真的能成为第一个在 4 分钟内跑完一英里的人吗？"
+  },
+  {
+   "i": 24,
+   "en": "A minute later, he was lying exhausted on the ground.",
+   "zh": "一分钟后，他精疲力尽地躺在地上。"
+  },
+  {
+   "i": 25,
+   "en": "Then, there was an announcement of his time: ‘3 minutes, 59.4 seconds.’",
+   "zh": "然后，播报员宣布了他的成绩：“3 分 59.4 秒。”"
+  },
+  {
+   "i": 26,
+   "en": "The crowd went crazy.",
+   "zh": "观众都疯狂了。"
+  },
+  {
+   "i": 27,
+   "en": "Before 6 May 1954, experts said that a four-minute mile was impossible to run.",
+   "zh": "在 1954 年 5 月 6 日之前，专家们说 4 分钟跑完一英里是不可能的。"
+  },
+  {
+   "i": 28,
+   "en": "Roger showed them that they were wrong.",
+   "zh": "罗杰向他们证明他们错了。"
+  },
+  {
+   "i": 29,
+   "en": "He planned to stop running after the 1952 Summer Olympics, but there he only came in fourth place.",
+   "zh": "他原计划在 1952 年夏季奥运会后停止跑步，但在那里他只获得了第四名。"
+  },
+  {
+   "i": 30,
+   "en": "Without a medal, Roger wanted to show how good he was.",
+   "zh": "没有奖牌，罗杰想证明自己有多厉害。"
+  },
+  {
+   "i": 31,
+   "en": "In 1954, he did exactly that.",
+   "zh": "1954 年，他做到了。"
+  }
+ ]
+}

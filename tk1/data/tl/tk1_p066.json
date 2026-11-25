@@ -1,0 +1,222 @@
+{
+ "unit": "U7",
+ "passage_key": "u7_66",
+ "page": "p066",
+ "title": "Web article: '… just because I didn’t want to take a bath.'",
+ "type": "阅读A",
+ "n_sent": 30,
+ "duration_s": 165.25,
+ "source": "Think 1 U7 增量：alignment/SB_u07_p066_t03 + 译文_tk1_p066.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 11.02,
+   "end_s": 23.522,
+   "dur_s": 12.502,
+   "text": "Ludwick Marishane, a young man from South Africa, was with his friends in Limpopo when they started talking about inventing something to put on your skin so you don’t have to take a bath."
+  },
+  {
+   "i": 1,
+   "start_s": 24.28,
+   "end_s": 26.9,
+   "dur_s": 2.62,
+   "text": "Ludwick thought that this was a great idea."
+  },
+  {
+   "i": 2,
+   "start_s": 26.9,
+   "end_s": 33.518,
+   "dur_s": 6.618,
+   "text": "He used his mobile to do some research on the internet, and he found some shocking facts."
+  },
+  {
+   "i": 3,
+   "start_s": 34.58,
+   "end_s": 38.568,
+   "dur_s": 3.988,
+   "text": "Millions of people around the world haven’t got clean water."
+  },
+  {
+   "i": 4,
+   "start_s": 39.32,
+   "end_s": 44.6,
+   "dur_s": 5.28,
+   "text": "This is a huge problem because dirty water can create terrible illnesses."
+  },
+  {
+   "i": 5,
+   "start_s": 45.64,
+   "end_s": 52.465,
+   "dur_s": 6.825,
+   "text": "One of them is trachoma: thousands of people all over the world get trachoma every year."
+  },
+  {
+   "i": 6,
+   "start_s": 53.22,
+   "end_s": 59.72,
+   "dur_s": 6.5,
+   "text": "They wash their faces with dirty water, get an infection and sometimes become blind."
+  },
+  {
+   "i": 7,
+   "start_s": 60.76,
+   "end_s": 65.55,
+   "dur_s": 4.79,
+   "text": "To stop trachoma, people don’t have to take expensive medication."
+  },
+  {
+   "i": 8,
+   "start_s": 65.84,
+   "end_s": 67.36,
+   "dur_s": 1.52,
+   "text": "They don’t have to take pills."
+  },
+  {
+   "i": 9,
+   "start_s": 67.84,
+   "end_s": 69.46,
+   "dur_s": 1.62,
+   "text": "They don’t have to have injections."
+  },
+  {
+   "i": 10,
+   "start_s": 70.44,
+   "end_s": 73.747,
+   "dur_s": 3.307,
+   "text": "They have to wash their faces with clean water."
+  },
+  {
+   "i": 11,
+   "start_s": 74.26,
+   "end_s": 74.815,
+   "dur_s": 0.555,
+   "text": "That’s it."
+  },
+  {
+   "i": 12,
+   "start_s": 76.38,
+   "end_s": 77.76,
+   "dur_s": 1.38,
+   "text": "Ludwick started thinking."
+  },
+  {
+   "i": 13,
+   "start_s": 78.5,
+   "end_s": 85.148,
+   "dur_s": 6.648,
+   "text": "He wanted to make something to help people in parts of the world where it’s difficult to find clean water."
+  },
+  {
+   "i": 14,
+   "start_s": 85.96,
+   "end_s": 90.22,
+   "dur_s": 4.26,
+   "text": "He did more research on his mobile, and he did more thinking."
+  },
+  {
+   "i": 15,
+   "start_s": 91.38,
+   "end_s": 92.787,
+   "dur_s": 1.407,
+   "text": "Ludwick had a plan."
+  },
+  {
+   "i": 16,
+   "start_s": 93.96,
+   "end_s": 99.26,
+   "dur_s": 5.3,
+   "text": "He wanted to make a gel for people to put on their skin so they don’t have to take a bath."
+  },
+  {
+   "i": 17,
+   "start_s": 100.12,
+   "end_s": 103.44,
+   "dur_s": 3.32,
+   "text": "He wrote the formula for the gel on his mobile phone."
+  },
+  {
+   "i": 18,
+   "start_s": 103.44,
+   "end_s": 109.34,
+   "dur_s": 5.9,
+   "text": "When he was at university, he never stopped thinking about his invention."
+  },
+  {
+   "i": 19,
+   "start_s": 110.12,
+   "end_s": 117.087,
+   "dur_s": 6.967,
+   "text": "He started to talk to other people about it, and three years later the dream came true."
+  },
+  {
+   "i": 20,
+   "start_s": 117.98,
+   "end_s": 120.9,
+   "dur_s": 2.92,
+   "text": "He made the gel and called it ‘DryBath’."
+  },
+  {
+   "i": 21,
+   "start_s": 122.08,
+   "end_s": 125.434,
+   "dur_s": 3.354,
+   "text": "It looks like any other gel, but it isn’t."
+  },
+  {
+   "i": 22,
+   "start_s": 126.003,
+   "end_s": 127.78,
+   "dur_s": 1.777,
+   "text": "This gel saves lives!"
+  },
+  {
+   "i": 23,
+   "start_s": 129.72,
+   "end_s": 133.224,
+   "dur_s": 3.504,
+   "text": "Ludwick Marishane is the winner of lots of prizes."
+  },
+  {
+   "i": 24,
+   "start_s": 133.97,
+   "end_s": 137.799,
+   "dur_s": 3.829,
+   "text": "People call him ‘one of the brightest young men in the world’."
+  },
+  {
+   "i": 25,
+   "start_s": 138.76,
+   "end_s": 140.64,
+   "dur_s": 1.88,
+   "text": "He is very happy about his success."
+  },
+  {
+   "i": 26,
+   "start_s": 141.8,
+   "end_s": 144.463,
+   "dur_s": 2.663,
+   "text": "DryBath is helping people to be healthy."
+  },
+  {
+   "i": 27,
+   "start_s": 144.463,
+   "end_s": 148.167,
+   "dur_s": 3.704,
+   "text": "And DryBath also helps to save water."
+  },
+  {
+   "i": 28,
+   "start_s": 148.78,
+   "end_s": 154.111,
+   "dur_s": 5.331,
+   "text": "That’s important in many parts of the world where it’s difficult to find clean water."
+  },
+  {
+   "i": 29,
+   "start_s": 155.26,
+   "end_s": 161.98,
+   "dur_s": 6.72,
+   "text": "Now he wants to invent other things, and he wants to help other young people to become inventors, too."
+  }
+ ]
+}

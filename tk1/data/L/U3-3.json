@@ -1,0 +1,204 @@
+{
+ "id": "SB_u03_p034_t08",
+ "no": 3.08,
+ "title": "Online blog: Eating around the world",
+ "titleZh": "",
+ "audio": "assets/tk1_p034.mp3",
+ "duration": 149.34,
+ "question": null,
+ "unit": 3,
+ "part": "阅读B",
+ "bookPage": "p034",
+ "srcKey": "SB_u03_p034_t08",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 13.0,
+   "t2": 21.177,
+   "en": "Hello, I'm Matt Silver, and this is an article from our new series 'Eating around the world'.",
+   "zh": "您好，我是马特·西尔弗，这是我们的新系列文章《吃遍世界》中的一篇。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 21.56,
+   "t2": 26.773,
+   "en": "I'm writing this from Kulusuk, an Inuit village in Greenland.",
+   "zh": "我在格陵兰岛的因纽特人村庄库鲁苏克给您写这篇文章。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 26.773,
+   "t2": 36.72,
+   "en": "It's a pleasant place in summer, with mild temperatures and fantastic views of the icebergs on the sea just in front of the village.",
+   "zh": "夏天这里很宜人，气候温和，村前的海面上冰山景色美极了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 37.88,
+   "t2": 40.94,
+   "en": "It's a popular place for tourists in those months.",
+   "zh": "那几个月里，这里是游客很爱来的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 40.94,
+   "t2": 49.911,
+   "en": "But winters are long and hard, and the life for the 250 people in the village isn't easy at all.",
+   "zh": "但冬天又长又艰难，村里 250 个人的生活一点也不轻松。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 49.911,
+   "t2": 55.34,
+   "en": "The roads are covered in ice, and the sea is frozen, too.",
+   "zh": "道路被冰覆盖，大海也结了冰。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 56.48,
+   "t2": 60.314,
+   "en": "The Inuits don't have a lot of choices for food.",
+   "zh": "因纽特人可选择的食物不多。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 60.98,
+   "t2": 65.62,
+   "en": "The summer is too short and not long enough for the Inuits to grow vegetables.",
+   "zh": "夏天太短，不够因纽特人种植蔬菜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 66.7,
+   "t2": 69.86,
+   "en": "They sometimes find berries during the warmer months.",
+   "zh": "他们在暖和的月份里有时能找到浆果。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 69.86,
+   "t2": 71.96,
+   "en": "And they eat seaweed.",
+   "zh": "还吃海藻。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 71.96,
+   "t2": 77.68,
+   "en": "But there are no other vegetables, so they don't eat enough greens.",
+   "zh": "但没有其他蔬菜，所以他们吃的绿色蔬菜不够。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 77.68,
+   "t2": 85.34,
+   "en": "There is a shop in the village, but during the winter it doesn't get any fresh vegetables.",
+   "zh": "村里有一家商店，但冬天运不到新鲜蔬菜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 86.52,
+   "t2": 91.51,
+   "en": "This is why the Inuits eat lots of raw and boiled meat.",
+   "zh": "这就是因纽特人吃很多生肉和煮熟的肉的原因。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 92.24,
+   "t2": 101.18,
+   "en": "They eat sea animals – seals, whales and fish – and they eat reindeer and other land animals.",
+   "zh": "他们吃海洋动物——海豹、鲸鱼和鱼——也吃驯鹿和其他陆地动物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 101.18,
+   "t2": 108.06,
+   "en": "These animals have a lot of fat on them because it keeps them warm in the freezing temperatures.",
+   "zh": "这些动物身上有很多脂肪，因为脂肪能在冰冻的气温下给它们保暖。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 109.0,
+   "t2": 112.2,
+   "en": "Do the Inuits eat too much fat?",
+   "zh": "因纽特人吃的脂肪太多吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 113.02,
+   "t2": 114.7,
+   "en": "Isn't that very dangerous?",
+   "zh": "那不是很危险吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 115.84,
+   "t2": 124.262,
+   "en": "Well, here's the surprise: in the western world, people say 'Don't eat too much fat!'",
+   "zh": "嗯，惊喜来了：在西方世界，人们说“不要吃太多脂肪！”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 124.262,
+   "t2": 135.233,
+   "en": "But the Inuits eat a lot of animal fat and they are healthy, perhaps because they eat boiled rather than fried meat.",
+   "zh": "但因纽特人吃很多动物脂肪，却很健康，也许是因为他们吃煮肉而不是炸肉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 136.3,
+   "t2": 142.32,
+   "en": "Life for the people from Kulusuk can be difficult but they are healthy.",
+   "zh": "库鲁苏克人的生活可能很艰难，但他们很健康。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 143.4,
+   "t2": 146.06,
+   "en": "Maybe we can learn a lot from them!",
+   "zh": "也许我们能从他们身上学到很多！",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

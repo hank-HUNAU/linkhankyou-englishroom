@@ -1,0 +1,327 @@
+{
+ "unit": "U6",
+ "passage_key": "u6_59",
+ "page": "p059",
+ "title": "Listening: Jack and his mum – friendship advice",
+ "type": "听力",
+ "n_sent": 45,
+ "duration_s": 173.4,
+ "source": "Think 1 U6 增量：alignment/SB_u06_p059_t02 + 译文_tk1_p059.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.78,
+   "end_s": 9.26,
+   "dur_s": 2.48,
+   "text": "Hi, Jack. How was school?"
+  },
+  {
+   "i": 1,
+   "start_s": 9.88,
+   "end_s": 10.48,
+   "dur_s": 0.6,
+   "text": "Oh, fine."
+  },
+  {
+   "i": 2,
+   "start_s": 11.24,
+   "end_s": 13.82,
+   "dur_s": 2.58,
+   "text": "Mum, can I bring some friends round tomorrow?"
+  },
+  {
+   "i": 3,
+   "start_s": 14.7,
+   "end_s": 15.18,
+   "dur_s": 0.48,
+   "text": "Sure."
+  },
+  {
+   "i": 4,
+   "start_s": 15.56,
+   "end_s": 15.9,
+   "dur_s": 0.34,
+   "text": "Who?"
+  },
+  {
+   "i": 5,
+   "start_s": 16.44,
+   "end_s": 20.2,
+   "dur_s": 3.76,
+   "text": "Oh, probably Rachel and Steve, maybe Leo."
+  },
+  {
+   "i": 6,
+   "start_s": 20.68,
+   "end_s": 22.9,
+   "dur_s": 2.22,
+   "text": "OK. Not Markus?"
+  },
+  {
+   "i": 7,
+   "start_s": 23.54,
+   "end_s": 24.44,
+   "dur_s": 0.9,
+   "text": "Er, no."
+  },
+  {
+   "i": 8,
+   "start_s": 24.98,
+   "end_s": 26.5,
+   "dur_s": 1.52,
+   "text": "Oh? Why not?"
+  },
+  {
+   "i": 9,
+   "start_s": 27.02,
+   "end_s": 29.4,
+   "dur_s": 2.38,
+   "text": "Well, we’re not really friends any more."
+  },
+  {
+   "i": 10,
+   "start_s": 30.06,
+   "end_s": 33.82,
+   "dur_s": 3.76,
+   "text": "Seriously? I thought you two were best friends."
+  },
+  {
+   "i": 11,
+   "start_s": 34.3,
+   "end_s": 35.34,
+   "dur_s": 1.04,
+   "text": "Yeah, we were."
+  },
+  {
+   "i": 12,
+   "start_s": 35.66,
+   "end_s": 42.701,
+   "dur_s": 7.041,
+   "text": "But you know, we had an argument – he said something I didn’t like – so he’s not my friend any more."
+  },
+  {
+   "i": 13,
+   "start_s": 43.22,
+   "end_s": 44.582,
+   "dur_s": 1.362,
+   "text": "And what did he say?"
+  },
+  {
+   "i": 14,
+   "start_s": 45.12,
+   "end_s": 46.92,
+   "dur_s": 1.8,
+   "text": "Well, he called me silly."
+  },
+  {
+   "i": 15,
+   "start_s": 47.589,
+   "end_s": 48.98,
+   "dur_s": 1.391,
+   "text": "Friends don’t do that."
+  },
+  {
+   "i": 16,
+   "start_s": 49.88,
+   "end_s": 55.391,
+   "dur_s": 5.511,
+   "text": "Jack, do you remember Mrs Gordon? Janice? She’s a friend of mine."
+  },
+  {
+   "i": 17,
+   "start_s": 55.391,
+   "end_s": 56.82,
+   "dur_s": 1.429,
+   "text": "Yes, I remember."
+  },
+  {
+   "i": 18,
+   "start_s": 57.46,
+   "end_s": 60.047,
+   "dur_s": 2.587,
+   "text": "She was your friend at school too, wasn’t she?"
+  },
+  {
+   "i": 19,
+   "start_s": 60.44,
+   "end_s": 64.24,
+   "dur_s": 3.8,
+   "text": "Yes, and we’re still friends now, 20 years later."
+  },
+  {
+   "i": 20,
+   "start_s": 65.132,
+   "end_s": 67.315,
+   "dur_s": 2.183,
+   "text": "Her mother was a friend of my mother’s."
+  },
+  {
+   "i": 21,
+   "start_s": 67.66,
+   "end_s": 76.057,
+   "dur_s": 8.397,
+   "text": "Anyway, one day at school, well, we had an argument and I said something really horrible to her."
+  },
+  {
+   "i": 22,
+   "start_s": 76.34,
+   "end_s": 76.68,
+   "dur_s": 0.34,
+   "text": "What?"
+  },
+  {
+   "i": 23,
+   "start_s": 77.06,
+   "end_s": 78.12,
+   "dur_s": 1.06,
+   "text": "It doesn’t matter."
+  },
+  {
+   "i": 24,
+   "start_s": 78.68,
+   "end_s": 83.267,
+   "dur_s": 4.587,
+   "text": "But she walked away and said, ‘I never want to see you again.’"
+  },
+  {
+   "i": 25,
+   "start_s": 83.267,
+   "end_s": 89.32,
+   "dur_s": 6.053,
+   "text": "I was really upset about that and I shouted, ‘Same here!’ or something."
+  },
+  {
+   "i": 26,
+   "start_s": 90.24,
+   "end_s": 97.62,
+   "dur_s": 7.38,
+   "text": "Then the next day, at school, she came up to me with a big smile and said, ‘Hi, Jenny, you OK?’"
+  },
+  {
+   "i": 27,
+   "start_s": 98.3,
+   "end_s": 98.68,
+   "dur_s": 0.38,
+   "text": "Really?"
+  },
+  {
+   "i": 28,
+   "start_s": 99.24,
+   "end_s": 105.14,
+   "dur_s": 5.9,
+   "text": "Yes, I was completely surprised and I asked her, I said, ‘Aren’t you angry with me?’"
+  },
+  {
+   "i": 29,
+   "start_s": 105.7,
+   "end_s": 107.94,
+   "dur_s": 2.24,
+   "text": "And she said something I still remember."
+  },
+  {
+   "i": 30,
+   "start_s": 108.42,
+   "end_s": 118.48,
+   "dur_s": 10.06,
+   "text": "She said: ‘Well, yes, I was angry but last night I thought of all the nice things you always say to me and the nice things you do."
+  },
+  {
+   "i": 31,
+   "start_s": 119.16,
+   "end_s": 123.76,
+   "dur_s": 4.6,
+   "text": "I want to think about that, not something you said because you were angry.’"
+  },
+  {
+   "i": 32,
+   "start_s": 124.54,
+   "end_s": 128.44,
+   "dur_s": 3.9,
+   "text": "And those words of hers, well, they almost made me cry."
+  },
+  {
+   "i": 33,
+   "start_s": 129.0,
+   "end_s": 132.28,
+   "dur_s": 3.28,
+   "text": "And here we are, twenty years later, still friends."
+  },
+  {
+   "i": 34,
+   "start_s": 132.84,
+   "end_s": 133.22,
+   "dur_s": 0.38,
+   "text": "Wow."
+  },
+  {
+   "i": 35,
+   "start_s": 133.98,
+   "end_s": 135.16,
+   "dur_s": 1.18,
+   "text": "Cool story, Mum."
+  },
+  {
+   "i": 36,
+   "start_s": 135.82,
+   "end_s": 142.48,
+   "dur_s": 6.66,
+   "text": "So I think it’s a real shame that after such a long time, you can’t still be friends with Markus."
+  },
+  {
+   "i": 37,
+   "start_s": 143.0,
+   "end_s": 143.58,
+   "dur_s": 0.58,
+   "text": "You’re right."
+  },
+  {
+   "i": 38,
+   "start_s": 144.32,
+   "end_s": 150.24,
+   "dur_s": 5.92,
+   "text": "Wow, so many times he helped me with my homework, listened to me when I had a problem."
+  },
+  {
+   "i": 39,
+   "start_s": 150.64,
+   "end_s": 151.26,
+   "dur_s": 0.62,
+   "text": "That’s right."
+  },
+  {
+   "i": 40,
+   "start_s": 152.02,
+   "end_s": 155.2,
+   "dur_s": 3.18,
+   "text": "So he called you silly one time? So what?"
+  },
+  {
+   "i": 41,
+   "start_s": 155.92,
+   "end_s": 159.94,
+   "dur_s": 4.02,
+   "text": "And you know, sometimes you are stupid – just like everyone else."
+  },
+  {
+   "i": 42,
+   "start_s": 160.66,
+   "end_s": 163.027,
+   "dur_s": 2.367,
+   "text": "Yes. Mum, I’m going out."
+  },
+  {
+   "i": 43,
+   "start_s": 163.28,
+   "end_s": 165.16,
+   "dur_s": 1.88,
+   "text": "Round to Markus’ place, OK?"
+  },
+  {
+   "i": 44,
+   "start_s": 165.74,
+   "end_s": 170.16,
+   "dur_s": 4.42,
+   "text": "Good idea, Jack, and why don’t you take him a present to say sorry?"
+  }
+ ]
+}

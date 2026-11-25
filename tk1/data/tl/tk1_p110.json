@@ -1,0 +1,201 @@
+{
+ "unit": "U12",
+ "passage_key": "u12_110",
+ "page": "p110",
+ "title": "Newspaper article: A world record breaker",
+ "type": "阅读A",
+ "n_sent": 27,
+ "duration_s": 223.48,
+ "source": "Think 1 U12 增量：alignment/SB_u12_p110_t01 + 译文_tk1_p110.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 10.96,
+   "end_s": 14.12,
+   "dur_s": 3.16,
+   "text": "She’s taken over 255 flights."
+  },
+  {
+   "i": 1,
+   "start_s": 14.72,
+   "end_s": 28.84,
+   "dur_s": 14.12,
+   "text": "She’s filled five passports, she’s planted trees, has spoken to students in over 40 different countries, and she’s funded all $110,000 through sponsors and investors."
+  },
+  {
+   "i": 2,
+   "start_s": 29.72,
+   "end_s": 39.04,
+   "dur_s": 9.32,
+   "text": "Now, her amazing adventure has finished and 29-year-old Cassie De Pecol has done it: she’s broken two Guinness World records."
+  },
+  {
+   "i": 3,
+   "start_s": 39.88,
+   "end_s": 54.346,
+   "dur_s": 14.466,
+   "text": "After 18 months and 10 days, Cassie has become the fastest person to visit every country in the world, and the first woman on record to do so, in half the old record time."
+  },
+  {
+   "i": 4,
+   "start_s": 55.04,
+   "end_s": 62.949,
+   "dur_s": 7.909,
+   "text": "Back in 2014, Cassie decided to leave her job because she wasn’t doing what she really wanted to do."
+  },
+  {
+   "i": 5,
+   "start_s": 63.68,
+   "end_s": 70.38,
+   "dur_s": 6.7,
+   "text": "What she really wanted to do was to see the world, and she started making plans for her great journey."
+  },
+  {
+   "i": 6,
+   "start_s": 71.26,
+   "end_s": 79.64,
+   "dur_s": 8.38,
+   "text": "She started saving all the money she could, and in July 2015, she left home to start her travels."
+  },
+  {
+   "i": 7,
+   "start_s": 80.62,
+   "end_s": 93.983,
+   "dur_s": 13.363,
+   "text": "Just over a year and a half later, on 2 February 2017, she arrived in Yemen, the 196th and last country on her (very!) long list."
+  },
+  {
+   "i": 8,
+   "start_s": 94.68,
+   "end_s": 101.703,
+   "dur_s": 7.023,
+   "text": "Of course, she didn’t have much time to see each country, but she made sure to use her time well."
+  },
+  {
+   "i": 9,
+   "start_s": 102.36,
+   "end_s": 106.266,
+   "dur_s": 3.906,
+   "text": "She spent an average of two to five days in each country."
+  },
+  {
+   "i": 10,
+   "start_s": 106.88,
+   "end_s": 119.06,
+   "dur_s": 12.18,
+   "text": "The best parts of her journey included: meeting local people, travelling to remote places on her own, planting trees and educating students on important world issues."
+  },
+  {
+   "i": 11,
+   "start_s": 120.16,
+   "end_s": 129.498,
+   "dur_s": 9.338,
+   "text": "Cassie is a keen runner and triathlete and so she also didn’t enjoy staying in places where she didn’t feel safe enough to go for a run."
+  },
+  {
+   "i": 12,
+   "start_s": 130.3,
+   "end_s": 133.82,
+   "dur_s": 3.52,
+   "text": "But Cassie’s journey was not just one long holiday."
+  },
+  {
+   "i": 13,
+   "start_s": 134.36,
+   "end_s": 136.16,
+   "dur_s": 1.8,
+   "text": "She also wanted to make a difference."
+  },
+  {
+   "i": 14,
+   "start_s": 137.28,
+   "end_s": 144.869,
+   "dur_s": 7.589,
+   "text": "She went as a Peace Ambassador (a special representative) for the International Institute for Peace Through Tourism."
+  },
+  {
+   "i": 15,
+   "start_s": 145.76,
+   "end_s": 155.086,
+   "dur_s": 9.326,
+   "text": "In many of the countries she went to, she met and talked to local students – they discussed how tourism can be used to help each country."
+  },
+  {
+   "i": 16,
+   "start_s": 156.1,
+   "end_s": 167.96,
+   "dur_s": 11.86,
+   "text": "Cassie is also very worried about the environment, so she agreed to help another organisation called Adventurers and Scientists for Conservation, funded by National Geographic."
+  },
+  {
+   "i": 17,
+   "start_s": 168.86,
+   "end_s": 176.6,
+   "dur_s": 7.74,
+   "text": "In many of the countries she went to, she collected samples of water for them to test for the presence of microplastics."
+  },
+  {
+   "i": 18,
+   "start_s": 177.76,
+   "end_s": 180.106,
+   "dur_s": 2.346,
+   "text": "Cassie has always wanted to travel."
+  },
+  {
+   "i": 19,
+   "start_s": 180.58,
+   "end_s": 184.26,
+   "dur_s": 3.68,
+   "text": "When she was at school, she had a strong interest in other cultures."
+  },
+  {
+   "i": 20,
+   "start_s": 185.02,
+   "end_s": 195.361,
+   "dur_s": 10.341,
+   "text": "She was curious about how Americans have their origins in countries all over the world, and she wanted to find out more about where their ancestors came from."
+  },
+  {
+   "i": 21,
+   "start_s": 196.26,
+   "end_s": 200.5,
+   "dur_s": 4.24,
+   "text": "This journey was a chance to start answering some of these questions."
+  },
+  {
+   "i": 22,
+   "start_s": 201.36,
+   "end_s": 204.173,
+   "dur_s": 2.813,
+   "text": "So, has she finished her travels now?"
+  },
+  {
+   "i": 23,
+   "start_s": 204.72,
+   "end_s": 207.064,
+   "dur_s": 2.344,
+   "text": "No, she hasn’t – not at all!"
+  },
+  {
+   "i": 24,
+   "start_s": 207.92,
+   "end_s": 213.554,
+   "dur_s": 5.634,
+   "text": "Cassie hasn’t become tired of travelling, and she is already making plans for her next journey."
+  },
+  {
+   "i": 25,
+   "start_s": 213.554,
+   "end_s": 215.96,
+   "dur_s": 2.406,
+   "text": "And she didn’t forget Antarctica!"
+  },
+  {
+   "i": 26,
+   "start_s": 215.96,
+   "end_s": 220.08,
+   "dur_s": 4.12,
+   "text": "She visited it on the last stop of her expedition."
+  }
+ ]
+}

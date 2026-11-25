@@ -1,0 +1,180 @@
+{
+ "unit": "U1",
+ "passage_key": "u1_016",
+ "page": "p016",
+ "title": "Blog: What do you do in your free time?",
+ "type": "阅读B",
+ "n_sent": 24,
+ "duration_s": 161.7,
+ "source": "Think 1 alignment/SB_u01_p016_t05（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.41,
+   "end_s": 8.71,
+   "dur_s": 2.3,
+   "text": "What do you do in your free time?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.04,
+   "end_s": 20.68,
+   "dur_s": 10.64,
+   "text": "OK, we know you all like watching TV and playing computer games, but we want to know some of the other things you do when you've got some free time."
+  },
+  {
+   "i": 2,
+   "start_s": 21.41,
+   "end_s": 23.21,
+   "dur_s": 1.8,
+   "text": "Right, and let us know."
+  },
+  {
+   "i": 3,
+   "start_s": 24.65,
+   "end_s": 25.2,
+   "dur_s": 0.55,
+   "text": "Hermione."
+  },
+  {
+   "i": 4,
+   "start_s": 26.66,
+   "end_s": 28.32,
+   "dur_s": 1.66,
+   "text": "I love cats!"
+  },
+  {
+   "i": 5,
+   "start_s": 28.32,
+   "end_s": 33.1,
+   "dur_s": 4.78,
+   "text": "I like watching cat videos on YouTube every day."
+  },
+  {
+   "i": 6,
+   "start_s": 34.06,
+   "end_s": 42.89,
+   "dur_s": 8.83,
+   "text": "I love taking photos of them, too, cats that I see when I'm outside - I try to get photos of lots of different kinds."
+  },
+  {
+   "i": 7,
+   "start_s": 43.95,
+   "end_s": 50.63,
+   "dur_s": 6.68,
+   "text": "And I collect things with cats on them - you know, cards or notebooks or T-shirts, things like that."
+  },
+  {
+   "i": 8,
+   "start_s": 51.62,
+   "end_s": 55.52,
+   "dur_s": 3.9,
+   "text": "But we can't have cats at home because my dad can't stand them!"
+  },
+  {
+   "i": 9,
+   "start_s": 57.63,
+   "end_s": 58.07,
+   "dur_s": 0.44,
+   "text": "Andy."
+  },
+  {
+   "i": 10,
+   "start_s": 59.54,
+   "end_s": 71.56,
+   "dur_s": 12.02,
+   "text": "I can't stand having nothing to do - for example, when I wait for the bus or in the queue at the fast food place - so I always have my puzzle app on my mobile."
+  },
+  {
+   "i": 11,
+   "start_s": 72.75,
+   "end_s": 82.26,
+   "dur_s": 9.51,
+   "text": "Sometimes it's Sudoku, sometimes a crossword or different word game, but it doesn't matter - I just love doing puzzles."
+  },
+  {
+   "i": 12,
+   "start_s": 82.92,
+   "end_s": 85.48,
+   "dur_s": 2.56,
+   "text": "And it's great because I never get bored."
+  },
+  {
+   "i": 13,
+   "start_s": 87.77,
+   "end_s": 88.25,
+   "dur_s": 0.48,
+   "text": "Natalie."
+  },
+  {
+   "i": 14,
+   "start_s": 89.89,
+   "end_s": 98.67,
+   "dur_s": 8.78,
+   "text": "I'm usually busy, but occasionally I've got a bit of free time, especially in the evening after I do my homework."
+  },
+  {
+   "i": 15,
+   "start_s": 99.62,
+   "end_s": 103.26,
+   "dur_s": 3.64,
+   "text": "My favourite thing is looking at maps online."
+  },
+  {
+   "i": 16,
+   "start_s": 104.33,
+   "end_s": 109.45,
+   "dur_s": 5.12,
+   "text": "I like using 'street view' and I imagine myself walking in a street somewhere."
+  },
+  {
+   "i": 17,
+   "start_s": 110.7,
+   "end_s": 116.16,
+   "dur_s": 5.46,
+   "text": "My dream is to go to New York, so I often 'walk' in the streets there."
+  },
+  {
+   "i": 18,
+   "start_s": 117.28,
+   "end_s": 121.58,
+   "dur_s": 4.3,
+   "text": "I try and visit a different place in the world at least once a week."
+  },
+  {
+   "i": 19,
+   "start_s": 123.83,
+   "end_s": 124.31,
+   "dur_s": 0.48,
+   "text": "Lucy."
+  },
+  {
+   "i": 20,
+   "start_s": 125.82,
+   "end_s": 137.0,
+   "dur_s": 11.18,
+   "text": "I don't really like sport - I hate running and doing exercise and all that - but I'm crazy about the New Zealand rugby team, the All Blacks."
+  },
+  {
+   "i": 21,
+   "start_s": 137.59,
+   "end_s": 146.99,
+   "dur_s": 9.4,
+   "text": "It's because my uncle and aunt live there and they love rugby, so I watch the games and collect anything I can about them!"
+  },
+  {
+   "i": 22,
+   "start_s": 147.79,
+   "end_s": 152.29,
+   "dur_s": 4.5,
+   "text": "I have a book that I put photos and newspaper articles in."
+  },
+  {
+   "i": 23,
+   "start_s": 152.81,
+   "end_s": 158.31,
+   "dur_s": 5.5,
+   "text": "Once a week my uncle and I talk on the internet about the All Blacks - I love that!"
+  }
+ ]
+}

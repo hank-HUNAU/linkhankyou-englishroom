@@ -1,0 +1,225 @@
+{
+ "passage_key": "u7_69",
+ "page": "p069",
+ "unit": 7,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 43,
+ "n_unique_keys": 43,
+ "entries": [
+  {
+   "i": 0,
+   "en": "… and some people think that only older people – like me – can be inventors.",
+   "zh": "……有些人认为只有年纪大的人——像我这样的——才能成为发明家。"
+  },
+  {
+   "i": 1,
+   "en": "But they’re wrong, you know?",
+   "zh": "但他们错了，你知道吗？"
+  },
+  {
+   "i": 2,
+   "en": "Here’s one example – a young man in South Africa, only 17 years old, saw a problem with water quality and he invented a gel that people can use to wash, to have a bath, even if there is no water.",
+   "zh": "这里有个例子——南非一个只有十七岁的年轻人发现水质问题，就发明了一种凝胶，让人们即使没有水也能清洗、洗澡。"
+  },
+  {
+   "i": 3,
+   "en": "He was only 17!",
+   "zh": "他才十七岁！"
+  },
+  {
+   "i": 4,
+   "en": "So, you guys out there, you shouldn’t wait.",
+   "zh": "所以，你们这些年轻人，不该再等了。"
+  },
+  {
+   "i": 5,
+   "en": "Just go ahead and do it, OK?",
+   "zh": "放手去做吧，好吗？"
+  },
+  {
+   "i": 6,
+   "en": "So now, we don’t have much time, any questions?",
+   "zh": "好了，我们时间不多了，有什么问题吗？"
+  },
+  {
+   "i": 7,
+   "en": "Did the boy in South Africa get rich?",
+   "zh": "那个南非的男孩发财了吗？"
+  },
+  {
+   "i": 8,
+   "en": "I really don’t know.",
+   "zh": "我真的不知道。"
+  },
+  {
+   "i": 9,
+   "en": "I hope so!",
+   "zh": "我希望他发了！"
+  },
+  {
+   "i": 10,
+   "en": "But that’s not the point.",
+   "zh": "但重点不在这里。"
+  },
+  {
+   "i": 11,
+   "en": "He invented something that made other people’s lives better.",
+   "zh": "他发明的东西让别人生活得更好。"
+  },
+  {
+   "i": 12,
+   "en": "He didn’t think: how can I get rich?",
+   "zh": "他没有想：我怎么能发财？"
+  },
+  {
+   "i": 13,
+   "en": "He thought: how can I help people?",
+   "zh": "他想的是：我怎么能帮助别人？"
+  },
+  {
+   "i": 14,
+   "en": "And that’s the place you should start.",
+   "zh": "这才是你们应该开始的地方。"
+  },
+  {
+   "i": 15,
+   "en": "You should start with an idea to help other people.",
+   "zh": "你们应该从一个帮助别人的想法开始。"
+  },
+  {
+   "i": 16,
+   "en": "To make lives easier and, hopefully, better.",
+   "zh": "让生活更轻松，也希望更美好。"
+  },
+  {
+   "i": 17,
+   "en": "I’ve got lots of ideas for inventions.",
+   "zh": "我有很多发明的想法。"
+  },
+  {
+   "i": 18,
+   "en": "Oh? Like what?",
+   "zh": "哦？比如什么？"
+  },
+  {
+   "i": 19,
+   "en": "Well, I don’t want to say.",
+   "zh": "嗯，我不想说。"
+  },
+  {
+   "i": 20,
+   "en": "Good for you!",
+   "zh": "好样的！"
+  },
+  {
+   "i": 21,
+   "en": "Be very careful.",
+   "zh": "要非常小心。"
+  },
+  {
+   "i": 22,
+   "en": "You should only talk to people that you trust, OK?",
+   "zh": "你只应该和信任的人谈，好吗？"
+  },
+  {
+   "i": 23,
+   "en": "But another thing: you say you’ve got lots of ideas, and that’s great.",
+   "zh": "不过还有一点：你说你有很多想法，这很棒。"
+  },
+  {
+   "i": 24,
+   "en": "But don’t try to work on all of them at the same time.",
+   "zh": "但不要试图同时做所有想法。"
+  },
+  {
+   "i": 25,
+   "en": "You should say to yourself: which idea is the best one?",
+   "zh": "你应该对自己说：哪个想法最好？"
+  },
+  {
+   "i": 26,
+   "en": "And then you should try to work more on that idea.",
+   "zh": "然后你应该多花心思在那个想法上。"
+  },
+  {
+   "i": 27,
+   "en": "And should I forget the other ones?",
+   "zh": "那我应该忘掉其他的吗？"
+  },
+  {
+   "i": 28,
+   "en": "No, no, no!",
+   "zh": "不不不！"
+  },
+  {
+   "i": 29,
+   "en": "Absolutely not.",
+   "zh": "绝对不要。"
+  },
+  {
+   "i": 30,
+   "en": "I mean, I’m sure you won’t forget them anyway.",
+   "zh": "我是说，反正你肯定也忘不掉。"
+  },
+  {
+   "i": 31,
+   "en": "Yes, another question?",
+   "zh": "好，还有一个问题？"
+  },
+  {
+   "i": 32,
+   "en": "Is being an inventor a job?",
+   "zh": "当发明家是一份工作吗？"
+  },
+  {
+   "i": 33,
+   "en": "I mean, should I leave school and just start inventing things?",
+   "zh": "我是说，我应该离开学校，直接开始发明东西吗？"
+  },
+  {
+   "i": 34,
+   "en": "Hahaha, it sounds like a good idea, right?",
+   "zh": "哈哈哈，听起来是个好主意，对吧？"
+  },
+  {
+   "i": 35,
+   "en": "But to start, when you leave school, I think you should get a job and invent things as a hobby.",
+   "zh": "但一开始，我觉得你毕业后应该先找份工作，把发明当作爱好。"
+  },
+  {
+   "i": 36,
+   "en": "Why?",
+   "zh": "为什么？"
+  },
+  {
+   "i": 37,
+   "en": "Well, you have to live, don’t you?",
+   "zh": "嗯，你总得生活，对吧？"
+  },
+  {
+   "i": 38,
+   "en": "And maybe your first invention isn’t successful, so where is the money for you to live?",
+   "zh": "而且也许你的第一个发明不成功，那你的生活费从哪来？"
+  },
+  {
+   "i": 39,
+   "en": "No, you should make sure that you’ve got a job and then see if the inventions work out.",
+   "zh": "所以，你应该先确保有份工作，再看看发明能不能成功。"
+  },
+  {
+   "i": 40,
+   "en": "And, look, I’m afraid we’re out of time, we have to stop now.",
+   "zh": "还有，恐怕我们时间到了，现在得停下来了。"
+  },
+  {
+   "i": 41,
+   "en": "I hope the talk was interesting for you all.",
+   "zh": "我希望这次讲座对你们大家都有意思。"
+  },
+  {
+   "i": 42,
+   "en": "Good luck and goodbye!",
+   "zh": "祝你们好运，再见！"
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "unit": "U5",
+ "passage_key": "u5_51",
+ "page": "p051",
+ "title": "Listening: Radio show – favourite rooms",
+ "type": "听力",
+ "n_sent": 45,
+ "duration_s": 176.67,
+ "source": "Think 1 U5 增量：alignment/SB_u05_p051_t06 + 译文_tk1_p051.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 7.34,
+   "end_s": 14.56,
+   "dur_s": 7.22,
+   "text": "So today we have a question for listeners, and it is: what’s your favourite room, and why?"
+  },
+  {
+   "i": 1,
+   "start_s": 15.14,
+   "end_s": 17.94,
+   "dur_s": 2.8,
+   "text": "Our first caller is … hello."
+  },
+  {
+   "i": 2,
+   "start_s": 18.3,
+   "end_s": 19.12,
+   "dur_s": 0.82,
+   "text": "What’s your name?"
+  },
+  {
+   "i": 3,
+   "start_s": 19.62,
+   "end_s": 21.76,
+   "dur_s": 2.14,
+   "text": "Hi there! My name’s Jo."
+  },
+  {
+   "i": 4,
+   "start_s": 22.56,
+   "end_s": 26.5,
+   "dur_s": 3.94,
+   "text": "OK Jo, so tell us, what’s your favourite room?"
+  },
+  {
+   "i": 5,
+   "start_s": 27.06,
+   "end_s": 29.582,
+   "dur_s": 2.522,
+   "text": "It’s my grandfather’s playroom."
+  },
+  {
+   "i": 6,
+   "start_s": 29.582,
+   "end_s": 33.6,
+   "dur_s": 4.018,
+   "text": "Your grandfather’s got a playroom? Really?"
+  },
+  {
+   "i": 7,
+   "start_s": 34.18,
+   "end_s": 34.62,
+   "dur_s": 0.44,
+   "text": "Yeah."
+  },
+  {
+   "i": 8,
+   "start_s": 35.08,
+   "end_s": 37.48,
+   "dur_s": 2.4,
+   "text": "It’s the room with his model trains."
+  },
+  {
+   "i": 9,
+   "start_s": 38.14,
+   "end_s": 42.18,
+   "dur_s": 4.04,
+   "text": "My grandad still lives in the house he lived in when he was a boy."
+  },
+  {
+   "i": 10,
+   "start_s": 42.18,
+   "end_s": 45.94,
+   "dur_s": 3.76,
+   "text": "And he has a little room with his trains."
+  },
+  {
+   "i": 11,
+   "start_s": 45.94,
+   "end_s": 48.76,
+   "dur_s": 2.82,
+   "text": "I love looking at his trains."
+  },
+  {
+   "i": 12,
+   "start_s": 49.3,
+   "end_s": 53.081,
+   "dur_s": 3.781,
+   "text": "OK. And why is it special for you?"
+  },
+  {
+   "i": 13,
+   "start_s": 53.081,
+   "end_s": 60.04,
+   "dur_s": 6.959,
+   "text": "Because he’s so happy there, and we sit and talk, and I feel very relaxed."
+  },
+  {
+   "i": 14,
+   "start_s": 60.5,
+   "end_s": 61.16,
+   "dur_s": 0.66,
+   "text": "It’s lovely."
+  },
+  {
+   "i": 15,
+   "start_s": 61.81,
+   "end_s": 63.58,
+   "dur_s": 1.77,
+   "text": "It sounds great, Jo."
+  },
+  {
+   "i": 16,
+   "start_s": 64.0,
+   "end_s": 64.772,
+   "dur_s": 0.772,
+   "text": "Thank you."
+  },
+  {
+   "i": 17,
+   "start_s": 65.45,
+   "end_s": 70.147,
+   "dur_s": 4.697,
+   "text": "Now who’s next? What’s your name and what’s your favourite room?"
+  },
+  {
+   "i": 18,
+   "start_s": 70.62,
+   "end_s": 71.041,
+   "dur_s": 0.421,
+   "text": "Hi."
+  },
+  {
+   "i": 19,
+   "start_s": 71.54,
+   "end_s": 76.138,
+   "dur_s": 4.598,
+   "text": "I’m Andrew and my favourite room is the music room at my school."
+  },
+  {
+   "i": 20,
+   "start_s": 76.66,
+   "end_s": 79.25,
+   "dur_s": 2.59,
+   "text": "OK, Andrew. And why’s that?"
+  },
+  {
+   "i": 21,
+   "start_s": 79.58,
+   "end_s": 88.503,
+   "dur_s": 8.923,
+   "text": "It’s because I love playing the drums, but I can’t have drums at home, so I go into the music room at school and practise there."
+  },
+  {
+   "i": 22,
+   "start_s": 89.02,
+   "end_s": 89.92,
+   "dur_s": 0.9,
+   "text": "After school."
+  },
+  {
+   "i": 23,
+   "start_s": 90.08,
+   "end_s": 91.1,
+   "dur_s": 1.02,
+   "text": "No one cares."
+  },
+  {
+   "i": 24,
+   "start_s": 91.7,
+   "end_s": 93.193,
+   "dur_s": 1.493,
+   "text": "I have a lot of fun!"
+  },
+  {
+   "i": 25,
+   "start_s": 94.02,
+   "end_s": 96.862,
+   "dur_s": 2.842,
+   "text": "Sounds good to me! Thanks, Andrew."
+  },
+  {
+   "i": 26,
+   "start_s": 96.862,
+   "end_s": 99.9,
+   "dur_s": 3.038,
+   "text": "Next caller please! Hello!"
+  },
+  {
+   "i": 27,
+   "start_s": 100.92,
+   "end_s": 102.7,
+   "dur_s": 1.78,
+   "text": "Hello, I’m Paula."
+  },
+  {
+   "i": 28,
+   "start_s": 103.5,
+   "end_s": 107.12,
+   "dur_s": 3.62,
+   "text": "My favourite room is our kitchen at home."
+  },
+  {
+   "i": 29,
+   "start_s": 107.86,
+   "end_s": 114.5,
+   "dur_s": 6.64,
+   "text": "I love it there because that’s where all of us sit and have our breakfast and dinner, and we’re a family together."
+  },
+  {
+   "i": 30,
+   "start_s": 115.11,
+   "end_s": 118.48,
+   "dur_s": 3.37,
+   "text": "It makes me feel really nice and warm."
+  },
+  {
+   "i": 31,
+   "start_s": 119.66,
+   "end_s": 122.82,
+   "dur_s": 3.16,
+   "text": "Nice and warm. That’s a good reason."
+  },
+  {
+   "i": 32,
+   "start_s": 122.82,
+   "end_s": 126.98,
+   "dur_s": 4.16,
+   "text": "Yeah, and kind of … I don’t know, safe."
+  },
+  {
+   "i": 33,
+   "start_s": 127.86,
+   "end_s": 129.962,
+   "dur_s": 2.102,
+   "text": "Excellent, Paula, thank you."
+  },
+  {
+   "i": 34,
+   "start_s": 129.962,
+   "end_s": 132.34,
+   "dur_s": 2.378,
+   "text": "And now we have … hello?"
+  },
+  {
+   "i": 35,
+   "start_s": 133.3,
+   "end_s": 134.82,
+   "dur_s": 1.52,
+   "text": "Hi. Tom here."
+  },
+  {
+   "i": 36,
+   "start_s": 135.55,
+   "end_s": 142.06,
+   "dur_s": 6.51,
+   "text": "I don’t know if it’s really my favourite room, but the best room in my whole life was in a hotel."
+  },
+  {
+   "i": 37,
+   "start_s": 142.06,
+   "end_s": 146.22,
+   "dur_s": 4.16,
+   "text": "Oh right. That’s interesting! Tell us more!"
+  },
+  {
+   "i": 38,
+   "start_s": 146.22,
+   "end_s": 157.06,
+   "dur_s": 10.84,
+   "text": "We all went to Brazil last year, and we got to the hotel in Rio de Janeiro very early in the morning and it was still quite dark."
+  },
+  {
+   "i": 39,
+   "start_s": 157.06,
+   "end_s": 163.38,
+   "dur_s": 6.32,
+   "text": "But then the day started and I opened the window to see Copacabana beach."
+  },
+  {
+   "i": 40,
+   "start_s": 163.38,
+   "end_s": 164.32,
+   "dur_s": 0.94,
+   "text": "Brilliant!"
+  },
+  {
+   "i": 41,
+   "start_s": 165.06,
+   "end_s": 166.22,
+   "dur_s": 1.16,
+   "text": "I loved that room."
+  },
+  {
+   "i": 42,
+   "start_s": 166.86,
+   "end_s": 168.646,
+   "dur_s": 1.786,
+   "text": "We were there for five days and …"
+  },
+  {
+   "i": 43,
+   "start_s": 168.74,
+   "end_s": 171.153,
+   "dur_s": 2.413,
+   "text": "Thanks, Tom. I’m sorry, there’s no more time."
+  },
+  {
+   "i": 44,
+   "start_s": 171.28,
+   "end_s": 171.68,
+   "dur_s": 0.4,
+   "text": "OK, now let’s … ."
+  }
+ ]
+}

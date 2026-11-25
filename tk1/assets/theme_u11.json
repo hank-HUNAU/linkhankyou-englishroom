@@ -1,0 +1,100 @@
+[
+ {
+  "w": "ankle",
+  "ipa": "ˈæŋ",
+  "pos": "noun",
+  "zh": "踝关节",
+  "ex": "I fell over and sprained/twisted my ankle."
+ },
+ {
+  "w": "back",
+  "ipa": "bæk",
+  "pos": "noun",
+  "zh": "背部",
+  "ex": "back injuries/pain"
+ },
+ {
+  "w": "elbow",
+  "ipa": "ˈel.bəʊ",
+  "pos": "noun",
+  "zh": "肘部",
+  "ex": "Her arm was bandaged from the elbow to the fingers."
+ },
+ {
+  "w": "knees",
+  "ipa": "niːz",
+  "pos": "noun",
+  "zh": "膝盖",
+  "ex": "a knee injury"
+ },
+ {
+  "w": "lips",
+  "ipa": "lɪps",
+  "pos": "noun",
+  "zh": "嘴唇",
+  "ex": "She kissed me on the lips."
+ },
+ {
+  "w": "neck",
+  "ipa": "nek",
+  "pos": "noun",
+  "zh": "脖子",
+  "ex": "He had the thickest neck I'd ever seen."
+ },
+ {
+  "w": "shoulder",
+  "ipa": "ˈʃəʊl.də",
+  "pos": "noun",
+  "zh": "肩",
+  "ex": "I rested my head on her shoulder."
+ },
+ {
+  "w": "stomach",
+  "ipa": "ˈstʌm.ək",
+  "pos": "noun",
+  "zh": "胃",
+  "ex": "He was punched in the stomach."
+ },
+ {
+  "w": "throat",
+  "ipa": "θrəʊt",
+  "pos": "noun",
+  "zh": "咽喉",
+  "ex": "a sore throat"
+ },
+ {
+  "w": "tongue",
+  "ipa": "tʌŋ",
+  "pos": "noun",
+  "zh": "舌头",
+  "ex": "I burnt my tongue on some soup last night."
+ },
+ {
+  "w": "do homework",
+  "ipa": "ˌdu: ˈhəʊm.wɜːk",
+  "pos": "phrase",
+  "zh": "做家庭作 业",
+  "ex": "You need to do your homework."
+ },
+ {
+  "w": "do the cooking/ cleaning",
+  "ipa": "ˌdu: ˈkʊk.ɪŋ / ˈkliː.nɪŋ",
+  "pos": "phrase",
+  "zh": "做饭/打 扫卫生",
+  "ex": "Who does the cleaning in your house?"
+ },
+ {
+  "w": "do exercise",
+  "ipa": "ˌdu: ˈek.sə.saɪz",
+  "pos": "phrase",
+  "zh": "做运动",
+  "ex": "Do you do much exercise?"
+ },
+ {
+  "w": "do well (in an exam)",
+  "ipa": "ˌdu: ˈwel",
+  "pos": "phrase",
+  "zh": "（考试） 考得好",
+  "ex": "He's learning the piano and he's doing well."
+ }
+]

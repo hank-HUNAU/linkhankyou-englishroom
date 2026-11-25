@@ -1,0 +1,213 @@
+{
+ "id": "SB_u04_p044_t06",
+ "no": 4.06,
+ "title": "Culture: Family traditions around the world",
+ "titleZh": "",
+ "audio": "assets/tk1_p044.mp3",
+ "duration": 159.14,
+ "question": null,
+ "unit": 4,
+ "part": "文化",
+ "bookPage": "p044",
+ "srcKey": "SB_u04_p044_t06",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 10.18,
+   "t2": 18.18,
+   "en": "The idea of the family is important all over the world and many countries have special occasions to celebrate it.",
+   "zh": "家庭这个理念在世界各地都很重要，许多国家都有特别的场合来庆祝它。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 18.76,
+   "t2": 20.108,
+   "en": "Let’s look at a few.",
+   "zh": "我们来看几个例子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 24.78,
+   "t2": 30.42,
+   "en": "In Germany, the first day at school is a very important time for all children.",
+   "zh": "在德国，开学第一天对所有孩子来说都是很重要的时刻。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 31.3,
+   "t2": 34.226,
+   "en": "There is a special event called an Einschulung.",
+   "zh": "有一个特别的活动叫入学典礼。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 35.06,
+   "t2": 41.947,
+   "en": "Everyone in the family meets to give the child presents, like pens and books, for their new school life.",
+   "zh": "全家人都会聚在一起，送给孩子钢笔、书本等礼物，祝福他们开启新的学校生活。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 42.84,
+   "t2": 49.528,
+   "en": "For the first day of school, parents give their children a large paper cone called a Schultüte.",
+   "zh": "开学第一天，父母会送给孩子一个大大的纸锥形入学彩袋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 50.2,
+   "t2": 53.28,
+   "en": "Inside there are things for school and sweets.",
+   "zh": "里面装着学习用品和糖果。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 59.44,
+   "t2": 63.98,
+   "en": "In traditional Japanese houses you often find a butsudan.",
+   "zh": "在日本传统的房子里，你常常会看到一个佛坛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 64.9,
+   "t2": 69.8,
+   "en": "A butsudan is a special place where you go to remember your dead relatives.",
+   "zh": "佛坛是一个专门用来纪念已故亲人的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 70.92,
+   "t2": 78.832,
+   "en": "People usually put things on the butsudan for their ancestors: a book, some flowers or a bowl of rice, for example.",
+   "zh": "人们通常会在佛坛上放些东西祭奠祖先，比如一本书、一些花或者一碗米饭。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 79.92,
+   "t2": 85.438,
+   "en": "Adults also tell stories about these people to their children so they are not forgotten.",
+   "zh": "大人也会把这些人的故事讲给孩子听，这样他们就不会被忘记。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 90.6,
+   "t2": 94.215,
+   "en": "Pets are popular in many cultures around the world.",
+   "zh": "在世界许多文化中，养宠物都很流行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 94.96,
+   "t2": 98.7,
+   "en": "Looking after an animal helps a child learn how to be responsible.",
+   "zh": "照顾动物能教会孩子如何承担责任。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 99.98,
+   "t2": 105.337,
+   "en": "Every year in India there is a Hindu festival called Thai Pongal.",
+   "zh": "每年印度都有一个印度教节日，叫蓬加尔节。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 106.14,
+   "t2": 111.967,
+   "en": "During the festival families feed cows and birds to give thanks for these animals.",
+   "zh": "节日期间，家家户户会喂牛和鸟，以此感谢这些动物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 112.94,
+   "t2": 119.165,
+   "en": "Children also learn that all living things are connected and must share the world together.",
+   "zh": "孩子们也会明白，所有生物都是相连的，必须共同分享这个世界。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 124.78,
+   "t2": 130.043,
+   "en": "In the Netherlands people celebrate the winter holiday on the 5th December.",
+   "zh": "在荷兰，人们在 12 月 5 日庆祝冬季节日。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 130.7,
+   "t2": 133.352,
+   "en": "This holiday is called Sinterklaas.",
+   "zh": "这个节日叫圣尼古拉斯节。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 134.1,
+   "t2": 139.064,
+   "en": "People give each other presents, but they also have a very special tradition.",
+   "zh": "人们互送礼物，但也有一个非常特别的传统。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 140.32,
+   "t2": 145.438,
+   "en": "Each member of the family writes their name on a piece of paper and puts it in a hat.",
+   "zh": "家里每个人把自己的名字写在纸上，放进一顶帽子里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 146.46,
+   "t2": 151.429,
+   "en": "Everyone then takes a name from the hat and writes a poem about this person.",
+   "zh": "然后每个人从帽子里抽一个名字，并为这个人写一首诗。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 152.4,
+   "t2": 155.82,
+   "en": "Everyone sits in a circle and reads out their poems.",
+   "zh": "大家围坐成一圈，朗读自己写的诗。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

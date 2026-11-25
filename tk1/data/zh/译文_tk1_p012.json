@@ -1,0 +1,220 @@
+{
+ "passage_key": "u1_012",
+ "page": "p012",
+ "unit": 1,
+ "standard": "音译专名统一 + 自然意译；一句一译；键取自对齐原串（Think 1 11-18/11-19 已验收译文）",
+ "n_sent": 42,
+ "n_unique_keys": 42,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Do you enjoy life?",
+   "zh": "你享受生活吗？"
+  },
+  {
+   "i": 1,
+   "en": "Do your parents always ask you to do housework?",
+   "zh": "你的父母总是让你做家务吗？"
+  },
+  {
+   "i": 2,
+   "en": "Does your teacher give you homework every day?",
+   "zh": "你的老师每天都留作业吗？"
+  },
+  {
+   "i": 3,
+   "en": "Life is sometimes difficult because there are lots of things to do.",
+   "zh": "生活有时很难，因为有很多事情要做。"
+  },
+  {
+   "i": 4,
+   "en": "It's great to be busy, but it's important to look after yourself and have fun, too.",
+   "zh": "忙碌很好，但照顾好自己、也玩得开心同样重要。"
+  },
+  {
+   "i": 5,
+   "en": "We all need to think about ourselves and do things we like, whether it is playing an instrument or taking photos.",
+   "zh": "我们都需要为自己想一想，做自己喜欢的事，不管是演奏乐器还是拍照。"
+  },
+  {
+   "i": 6,
+   "en": "But we also need to do things that keep us healthy and happy.",
+   "zh": "但我们也需要做一些让自己健康和快乐的事。"
+  },
+  {
+   "i": 7,
+   "en": "Here's our quiz.",
+   "zh": "下面是我们的小测验。"
+  },
+  {
+   "i": 8,
+   "en": "Try it and find out: do you have lots of fun?",
+   "zh": "试试看，找出答案：你是不是玩得很开心？"
+  },
+  {
+   "i": 9,
+   "en": "Do you laugh a lot?",
+   "zh": "你经常笑吗？"
+  },
+  {
+   "i": 10,
+   "en": "Yes, I laugh all the time.",
+   "zh": "是的，我总是笑。"
+  },
+  {
+   "i": 11,
+   "en": "I only laugh when I'm happy.",
+   "zh": "我只在开心的时候才笑。"
+  },
+  {
+   "i": 12,
+   "en": "My best friend says I don't laugh very often.",
+   "zh": "我最好的朋友说我不常笑。"
+  },
+  {
+   "i": 13,
+   "en": "How many hobbies do you have?",
+   "zh": "你有多少个爱好？"
+  },
+  {
+   "i": 14,
+   "en": "I have lots of hobbies.",
+   "zh": "我有很多爱好。"
+  },
+  {
+   "i": 15,
+   "en": "One.",
+   "zh": "一个。"
+  },
+  {
+   "i": 16,
+   "en": "I don't have any hobbies.",
+   "zh": "我没有任何爱好。"
+  },
+  {
+   "i": 17,
+   "en": "When do you listen to music?",
+   "zh": "你什么时候听音乐？"
+  },
+  {
+   "i": 18,
+   "en": "In the morning, afternoon and evening.",
+   "zh": "早上、下午和晚上。"
+  },
+  {
+   "i": 19,
+   "en": "I only listen to music when I have time.",
+   "zh": "我只有在有时间的时候才听音乐。"
+  },
+  {
+   "i": 20,
+   "en": "I never listen to music.",
+   "zh": "我从不听音乐。"
+  },
+  {
+   "i": 21,
+   "en": "I don't have time.",
+   "zh": "我没有时间。"
+  },
+  {
+   "i": 22,
+   "en": "How many hours do you sleep a night?",
+   "zh": "你每晚睡几个小时？"
+  },
+  {
+   "i": 23,
+   "en": "9-10 hours.",
+   "zh": "9—10 小时。"
+  },
+  {
+   "i": 24,
+   "en": "About 8 hours.",
+   "zh": "大约 8 小时。"
+  },
+  {
+   "i": 25,
+   "en": "Less than 8 hours.",
+   "zh": "少于 8 小时。"
+  },
+  {
+   "i": 26,
+   "en": "Do you like doing exercise?",
+   "zh": "你喜欢运动吗？"
+  },
+  {
+   "i": 27,
+   "en": "Yes, exercise is fun.",
+   "zh": "喜欢，运动很有趣。"
+  },
+  {
+   "i": 28,
+   "en": "Some exercise is OK, but not everything.",
+   "zh": "有些运动还可以，但不是所有运动都喜欢。"
+  },
+  {
+   "i": 29,
+   "en": "I don't like exercise at all.",
+   "zh": "我一点也不喜欢运动。"
+  },
+  {
+   "i": 30,
+   "en": "Do you like word and number puzzles?",
+   "zh": "你喜欢文字游戏和数字游戏吗？"
+  },
+  {
+   "i": 31,
+   "en": "I like puzzles a lot.",
+   "zh": "我非常喜欢智力游戏。"
+  },
+  {
+   "i": 32,
+   "en": "Word puzzles are OK, but number puzzles are boring.",
+   "zh": "文字游戏还可以，但数字游戏很无聊。"
+  },
+  {
+   "i": 33,
+   "en": "No, I don't like puzzles at all.",
+   "zh": "不，我一点也不喜欢智力游戏。"
+  },
+  {
+   "i": 34,
+   "en": "Which of these activities do you do most?",
+   "zh": "这些活动里你最常做哪一项？"
+  },
+  {
+   "i": 35,
+   "en": "Spend time with friends and family.",
+   "zh": "花时间和朋友、家人在一起。"
+  },
+  {
+   "i": 36,
+   "en": "Message friends online or on my phone.",
+   "zh": "在网上或用手机给朋友发消息。"
+  },
+  {
+   "i": 37,
+   "en": "Watch TV or play games on my phone.",
+   "zh": "看电视或用手机玩游戏。"
+  },
+  {
+   "i": 38,
+   "en": "Your score.",
+   "zh": "你的得分。"
+  },
+  {
+   "i": 39,
+   "en": "Mostly As: Wow! You know how to have fun and enjoy life.",
+   "zh": "大多数选 A：哇！你懂得怎样玩得开心、享受生活。"
+  },
+  {
+   "i": 40,
+   "en": "Mostly Bs: Hmm, OK, but can you do more? Try and find more time for yourself.",
+   "zh": "大多数选 B：嗯，好吧，不过你能做得更多吗？试着为自己多找点时间。"
+  },
+  {
+   "i": 41,
+   "en": "Mostly Cs: Try and find more ways to have more fun.",
+   "zh": "大多数选 C：试着找更多方法，让自己玩得更开心。"
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "unit": "U6",
+ "passage_key": "u6_62",
+ "page": "p062",
+ "title": "Culture: Friends in literature",
+ "type": "文化",
+ "n_sent": 22,
+ "duration_s": 218.83,
+ "source": "Think 1 U6 增量：alignment/SB_u06_p062_t06 + 译文_tk1_p062.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.4,
+   "end_s": 18.68,
+   "dur_s": 9.28,
+   "text": "Is there anyone who doesn’t know about those great friends Harry, Hermione and Ron in the Harry Potter books?"
+  },
+  {
+   "i": 1,
+   "start_s": 19.78,
+   "end_s": 29.5,
+   "dur_s": 9.72,
+   "text": "JK Rowling’s stories are world famous and part of their success is because of the friendship between those three main characters."
+  },
+  {
+   "i": 2,
+   "start_s": 30.18,
+   "end_s": 34.84,
+   "dur_s": 4.66,
+   "text": "But there are many examples of great friends in literature."
+  },
+  {
+   "i": 3,
+   "start_s": 35.62,
+   "end_s": 37.326,
+   "dur_s": 1.706,
+   "text": "Let’s look at some more."
+  },
+  {
+   "i": 4,
+   "start_s": 39.06,
+   "end_s": 47.42,
+   "dur_s": 8.36,
+   "text": "In 1844 French writer Alexandre Dumas wrote The Three Musketeers."
+  },
+  {
+   "i": 5,
+   "start_s": 47.96,
+   "end_s": 60.024,
+   "dur_s": 12.064,
+   "text": "The story is about a young man called D’Artagnan who goes to Paris to join the Musketeers, special soldiers who protect the king."
+  },
+  {
+   "i": 6,
+   "start_s": 60.86,
+   "end_s": 72.98,
+   "dur_s": 12.12,
+   "text": "He meets Athos, Aramis and Porthos, three friends who are the greatest Musketeers in France, and they have many adventures together."
+  },
+  {
+   "i": 7,
+   "start_s": 73.84,
+   "end_s": 81.68,
+   "dur_s": 7.84,
+   "text": "They often say ‘one for all and all for one’, which shows their strong friendship."
+  },
+  {
+   "i": 8,
+   "start_s": 83.1,
+   "end_s": 93.48,
+   "dur_s": 10.38,
+   "text": "The Jungle Book, 1894 by Rudyard Kipling is a story about animals who are very like people."
+  },
+  {
+   "i": 9,
+   "start_s": 94.1,
+   "end_s": 97.21,
+   "dur_s": 3.11,
+   "text": "Some good, some not so good."
+  },
+  {
+   "i": 10,
+   "start_s": 97.82,
+   "end_s": 105.42,
+   "dur_s": 7.6,
+   "text": "But there is also Mowgli, a small human boy who grows up in the Indian jungle."
+  },
+  {
+   "i": 11,
+   "start_s": 105.42,
+   "end_s": 112.013,
+   "dur_s": 6.593,
+   "text": "Many animals want to find him because he knows how to make fire."
+  },
+  {
+   "i": 12,
+   "start_s": 113.22,
+   "end_s": 128.3,
+   "dur_s": 15.08,
+   "text": "Mowgli’s great friend and guardian is a bear called Baloo and also a black panther called Bagheera, who help him to escape from the tiger, Shere Khan."
+  },
+  {
+   "i": 13,
+   "start_s": 129.76,
+   "end_s": 145.8,
+   "dur_s": 16.04,
+   "text": "The Lord of the Rings, 1937 to 1949 by JRR Tolkien is a fantasy story about Frodo who gets a ring from his uncle Bilbo Baggins."
+  },
+  {
+   "i": 14,
+   "start_s": 146.68,
+   "end_s": 154.16,
+   "dur_s": 7.48,
+   "text": "Frodo lives in a place called the Shire in Middle Earth and has a friend, Sam."
+  },
+  {
+   "i": 15,
+   "start_s": 155.14,
+   "end_s": 165.5,
+   "dur_s": 10.36,
+   "text": "When Frodo leaves the Shire on a long journey with the ring, Sam as well as some other friends goes with him."
+  },
+  {
+   "i": 16,
+   "start_s": 166.34,
+   "end_s": 176.959,
+   "dur_s": 10.619,
+   "text": "Sam’s friendship is very important for Frodo as he faces many dangerous situations; Sam is always there to help him."
+  },
+  {
+   "i": 17,
+   "start_s": 178.14,
+   "end_s": 187.22,
+   "dur_s": 9.08,
+   "text": "A more modern book is My Brilliant Friend, 2011 by Elena Ferrante."
+  },
+  {
+   "i": 18,
+   "start_s": 188.14,
+   "end_s": 192.04,
+   "dur_s": 3.9,
+   "text": "It is the first of a series of four novels."
+  },
+  {
+   "i": 19,
+   "start_s": 193.167,
+   "end_s": 197.66,
+   "dur_s": 4.493,
+   "text": "The story begins in Naples in the 1950s."
+  },
+  {
+   "i": 20,
+   "start_s": 198.3,
+   "end_s": 204.44,
+   "dur_s": 6.14,
+   "text": "Elena and Lila are friends at school but they have a lot of arguments, too."
+  },
+  {
+   "i": 21,
+   "start_s": 204.44,
+   "end_s": 215.6,
+   "dur_s": 11.16,
+   "text": "As they grow up life takes them away from each other, but when they are both old things happen that bring them together again."
+  }
+ ]
+}

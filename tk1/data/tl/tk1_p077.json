@@ -1,0 +1,264 @@
+{
+ "unit": "U8",
+ "passage_key": "u8_77",
+ "page": "p077",
+ "title": "Listening: Teens talking about sport",
+ "type": "听力",
+ "n_sent": 36,
+ "duration_s": 209.24,
+ "source": "Think 1 U8 增量：alignment/SB_u08_p077_t04 + 译文_tk1_p077.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 7.56,
+   "end_s": 10.7,
+   "dur_s": 3.14,
+   "text": "Gemma, how do you feel about sport?"
+  },
+  {
+   "i": 1,
+   "start_s": 11.46,
+   "end_s": 13.66,
+   "dur_s": 2.2,
+   "text": "I’m not interested in sport."
+  },
+  {
+   "i": 2,
+   "start_s": 14.12,
+   "end_s": 15.78,
+   "dur_s": 1.66,
+   "text": "I really don’t like it."
+  },
+  {
+   "i": 3,
+   "start_s": 16.36,
+   "end_s": 30.32,
+   "dur_s": 13.96,
+   "text": "I mean, I like exercise so I go for walks and I like swimming, oh I run a lot too, that’s great – but I just don’t like sport, you know, the idea where you try to win, to beat other people."
+  },
+  {
+   "i": 4,
+   "start_s": 31.3,
+   "end_s": 34.145,
+   "dur_s": 2.845,
+   "text": "And I hate sport on TV – I leave the room!"
+  },
+  {
+   "i": 5,
+   "start_s": 34.145,
+   "end_s": 44.02,
+   "dur_s": 9.875,
+   "text": "And I don’t go to sports events like football matches – why do people pay so much money to watch 22 men run after a ball?"
+  },
+  {
+   "i": 6,
+   "start_s": 45.68,
+   "end_s": 49.0,
+   "dur_s": 3.32,
+   "text": "Andy, how do you feel about sport?"
+  },
+  {
+   "i": 7,
+   "start_s": 49.88,
+   "end_s": 52.535,
+   "dur_s": 2.655,
+   "text": "Well, I like running a lot."
+  },
+  {
+   "i": 8,
+   "start_s": 53.04,
+   "end_s": 66.792,
+   "dur_s": 13.752,
+   "text": "At school I play football but that’s because I have to, all the boys play football, and it’s OK, I mean I don’t hate it, but I don’t really like team games and sports very much."
+  },
+  {
+   "i": 9,
+   "start_s": 67.3,
+   "end_s": 74.48,
+   "dur_s": 7.18,
+   "text": "I like doing things alone and I think that’s why I love running, it’s just me and not other people."
+  },
+  {
+   "i": 10,
+   "start_s": 75.16,
+   "end_s": 82.942,
+   "dur_s": 7.782,
+   "text": "I’m not a very good runner but I just love trying to run a little faster than the last time, do you know what I mean?"
+  },
+  {
+   "i": 11,
+   "start_s": 84.78,
+   "end_s": 88.06,
+   "dur_s": 3.28,
+   "text": "Tracey, how do you feel about sport?"
+  },
+  {
+   "i": 12,
+   "start_s": 88.7,
+   "end_s": 92.68,
+   "dur_s": 3.98,
+   "text": "Well, I absolutely love skateboarding, of course!"
+  },
+  {
+   "i": 13,
+   "start_s": 93.24,
+   "end_s": 95.58,
+   "dur_s": 2.34,
+   "text": "It’s just the best thing in the world."
+  },
+  {
+   "i": 14,
+   "start_s": 96.18,
+   "end_s": 101.18,
+   "dur_s": 5.0,
+   "text": "Some of my family say it isn’t really a sport but they don’t know anything."
+  },
+  {
+   "i": 15,
+   "start_s": 101.18,
+   "end_s": 104.08,
+   "dur_s": 2.9,
+   "text": "I spend hours practising moves."
+  },
+  {
+   "i": 16,
+   "start_s": 104.62,
+   "end_s": 109.1,
+   "dur_s": 4.48,
+   "text": "There’s a skate-park with a really good ramp, it’s not far from where I live."
+  },
+  {
+   "i": 17,
+   "start_s": 109.64,
+   "end_s": 110.88,
+   "dur_s": 1.24,
+   "text": "I’m there all the time."
+  },
+  {
+   "i": 18,
+   "start_s": 111.6,
+   "end_s": 113.52,
+   "dur_s": 1.92,
+   "text": "It’s the only sport I like really."
+  },
+  {
+   "i": 19,
+   "start_s": 114.3,
+   "end_s": 121.162,
+   "dur_s": 6.862,
+   "text": "I mean, I kind of like football but really that’s only because some of my friends are into it."
+  },
+  {
+   "i": 20,
+   "start_s": 121.56,
+   "end_s": 124.436,
+   "dur_s": 2.876,
+   "text": "But skateboarding, that’s my thing."
+  },
+  {
+   "i": 21,
+   "start_s": 126.26,
+   "end_s": 129.24,
+   "dur_s": 2.98,
+   "text": "Paul, how do you feel about sport?"
+  },
+  {
+   "i": 22,
+   "start_s": 129.24,
+   "end_s": 133.8,
+   "dur_s": 4.56,
+   "text": "When I was a kid I didn’t like any sports at all."
+  },
+  {
+   "i": 23,
+   "start_s": 134.08,
+   "end_s": 145.403,
+   "dur_s": 11.323,
+   "text": "I thought: ‘I’m just not good at things like running and jumping’ but about a year ago I saw some gymnastics on TV and now I love it."
+  },
+  {
+   "i": 24,
+   "start_s": 145.98,
+   "end_s": 149.8,
+   "dur_s": 3.82,
+   "text": "There’s a sports centre in my town where I can do gymnastics."
+  },
+  {
+   "i": 25,
+   "start_s": 150.66,
+   "end_s": 163.585,
+   "dur_s": 12.925,
+   "text": "I can’t do it at school because they haven’t got anywhere, but I go to the sports centre every weekend and some evenings too, to do as much gymnastics as I can."
+  },
+  {
+   "i": 26,
+   "start_s": 165.34,
+   "end_s": 168.26,
+   "dur_s": 2.92,
+   "text": "Ryan, how do you feel about sport?"
+  },
+  {
+   "i": 27,
+   "start_s": 168.98,
+   "end_s": 170.44,
+   "dur_s": 1.46,
+   "text": "Sport? Wonderful!"
+  },
+  {
+   "i": 28,
+   "start_s": 171.28,
+   "end_s": 173.267,
+   "dur_s": 1.987,
+   "text": "I’m a real sports fanatic."
+  },
+  {
+   "i": 29,
+   "start_s": 173.72,
+   "end_s": 176.89,
+   "dur_s": 3.17,
+   "text": "I mean, I think about sport all the time."
+  },
+  {
+   "i": 30,
+   "start_s": 177.34,
+   "end_s": 183.52,
+   "dur_s": 6.18,
+   "text": "I watch almost everything on TV – football, tennis, swimming, everything."
+  },
+  {
+   "i": 31,
+   "start_s": 183.52,
+   "end_s": 191.76,
+   "dur_s": 8.24,
+   "text": "And I do a lot of sport too – my favourite’s football, of course, and I’m really not bad at football."
+  },
+  {
+   "i": 32,
+   "start_s": 192.62,
+   "end_s": 194.32,
+   "dur_s": 1.7,
+   "text": "I’m in the school team too."
+  },
+  {
+   "i": 33,
+   "start_s": 194.32,
+   "end_s": 197.44,
+   "dur_s": 3.12,
+   "text": "And I’m also learning to ski."
+  },
+  {
+   "i": 34,
+   "start_s": 198.48,
+   "end_s": 200.818,
+   "dur_s": 2.338,
+   "text": "My family went to Italy last year."
+  },
+  {
+   "i": 35,
+   "start_s": 201.421,
+   "end_s": 205.96,
+   "dur_s": 4.539,
+   "text": "We went skiing – it was fantastic and I want to do more."
+  }
+ ]
+}

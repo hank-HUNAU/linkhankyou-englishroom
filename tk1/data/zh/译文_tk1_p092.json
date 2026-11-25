@@ -1,0 +1,230 @@
+{
+ "passage_key": "u10_92",
+ "page": "p092",
+ "unit": 10,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 44,
+ "n_unique_keys": 44,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Hi Mum,",
+   "zh": "妈妈你好，"
+  },
+  {
+   "i": 1,
+   "en": "It’s Day Two and I’m already in love with New York.",
+   "zh": "这是第二天，我已经爱上纽约了。"
+  },
+  {
+   "i": 2,
+   "en": "It’s amazing.",
+   "zh": "太棒了。"
+  },
+  {
+   "i": 3,
+   "en": "The first day, we were pretty tired from the flight, but we did a bit of sightseeing in the afternoon.",
+   "zh": "第一天，我们因为坐飞机很累，但下午还是去观光了一下。"
+  },
+  {
+   "i": 4,
+   "en": "We went to see the Statue of Liberty and I wasn’t disappointed.",
+   "zh": "我们去看了自由女神像，我一点也没有失望。"
+  },
+  {
+   "i": 5,
+   "en": "We had a guided tour and learned all about its history.",
+   "zh": "我们参加了有导游的讲解，了解了它的全部历史。"
+  },
+  {
+   "i": 6,
+   "en": "It really is a powerful symbol of peace.",
+   "zh": "它真的是和平的有力象征。"
+  },
+  {
+   "i": 7,
+   "en": "Today, we’re going to explore Central Park and Manhattan.",
+   "zh": "今天，我们要去探索中央公园和曼哈顿。"
+  },
+  {
+   "i": 8,
+   "en": "In the evening, we’re going to watch the New York Jets.",
+   "zh": "晚上，我们要去看纽约喷气机队的比赛。"
+  },
+  {
+   "i": 9,
+   "en": "They’re playing at MetLife Stadium.",
+   "zh": "他们会在 MetLife 体育场比赛。"
+  },
+  {
+   "i": 10,
+   "en": "It’s my first game of American football and I’m looking forward to it.",
+   "zh": "这是我第一次看美式橄榄球比赛，我很期待。"
+  },
+  {
+   "i": 11,
+   "en": "(I think – I’m quite nervous!)",
+   "zh": "（我觉得——我有点紧张！）"
+  },
+  {
+   "i": 12,
+   "en": "The big concert we’re playing in is tomorrow and we’re all getting quite excited.",
+   "zh": "我们参加的大型音乐会就在明天，大家都很兴奋。"
+  },
+  {
+   "i": 13,
+   "en": "Just imagine, I’m going to play my trombone in Carnegie Hall, probably the most famous concert hall in the US.",
+   "zh": "想象一下，我要在卡内基音乐厅吹长号，那可能是美国最有名的音乐厅。"
+  },
+  {
+   "i": 14,
+   "en": "Mr Davis is even more excited.",
+   "zh": "戴维斯老师更加兴奋。"
+  },
+  {
+   "i": 15,
+   "en": "He’s going to conduct us in the concert.",
+   "zh": "他将在这场音乐会上指挥我们。"
+  },
+  {
+   "i": 16,
+   "en": "He keeps telling us it’s his dream come true.",
+   "zh": "他一直告诉我们，这是他梦想成真。"
+  },
+  {
+   "i": 17,
+   "en": "His wife’s going to record the performance.",
+   "zh": "他妻子会把演出录下来。"
+  },
+  {
+   "i": 18,
+   "en": "She’s going to send us all the link so you can see the greatest moment of my musical career so far!",
+   "zh": "她会把链接发给我们所有人，这样你就能看到我音乐生涯至今最了不起的时刻！"
+  },
+  {
+   "i": 19,
+   "en": "There are going to be bands from all over the world, from about 20 different countries.",
+   "zh": "到时会有来自世界各地大约 20 个不同国家的乐队。"
+  },
+  {
+   "i": 20,
+   "en": "I can’t wait!",
+   "zh": "我已经等不及了！"
+  },
+  {
+   "i": 21,
+   "en": "Hope you’re well and not missing me too much!",
+   "zh": "希望你一切都好，不要太想我！"
+  },
+  {
+   "i": 22,
+   "en": "Love, Ryan",
+   "zh": "爱你的瑞安"
+  },
+  {
+   "i": 23,
+   "en": "Hi Abigail,",
+   "zh": "阿比盖尔你好，"
+  },
+  {
+   "i": 24,
+   "en": "Sorry I didn’t write yesterday, but it was such a busy day I just didn’t get the time.",
+   "zh": "对不起，我昨天没写信，因为那天实在太忙了，我一点时间都没有。"
+  },
+  {
+   "i": 25,
+   "en": "We played our second volleyball match of the trip.",
+   "zh": "我们进行了这次出行的第二场排球比赛。"
+  },
+  {
+   "i": 26,
+   "en": "It was against the under-15 Beijing champions and they won easily.",
+   "zh": "对手是北京 U15 冠军队，他们轻松获胜。"
+  },
+  {
+   "i": 27,
+   "en": "I also hurt my hand quite badly.",
+   "zh": "我的手也伤得比较厉害。"
+  },
+  {
+   "i": 28,
+   "en": "The sports centre where we played was fantastic.",
+   "zh": "我们比赛的那家体育中心很棒。"
+  },
+  {
+   "i": 29,
+   "en": "Really modern and much better than ours back home.",
+   "zh": "很现代，比我们国内的好多了。"
+  },
+  {
+   "i": 30,
+   "en": "Anyway, I’ve got ten minutes to write to you quickly, then I’m going to the bus station to catch a bus to Luanping.",
+   "zh": "总之，我只有十分钟可以快速给你写几句，然后我要去汽车站，坐车去滦平。"
+  },
+  {
+   "i": 31,
+   "en": "I’m so excited because we’re going to visit the Great Wall.",
+   "zh": "我很兴奋，因为我们要去看长城。"
+  },
+  {
+   "i": 32,
+   "en": "It was probably the one thing I wanted to do most on this trip, after playing volleyball, of course!",
+   "zh": "这可能是这次出行里我最想做的事，当然排球比赛之外。"
+  },
+  {
+   "i": 33,
+   "en": "We’re going to explore the Jinshanling section of the wall.",
+   "zh": "我们要去探索金山岭段的长城。"
+  },
+  {
+   "i": 34,
+   "en": "It’s in the mountains and it’s quite a walk to get up to it.",
+   "zh": "它在山里，要走上很长一段路才能到达。"
+  },
+  {
+   "i": 35,
+   "en": "But the views are spectacular.",
+   "zh": "但风景非常壮观。"
+  },
+  {
+   "i": 36,
+   "en": "I’m going to take loads of photos.",
+   "zh": "我会拍很多照片。"
+  },
+  {
+   "i": 37,
+   "en": "Luanping is about 130 km away, so we’re going to spend the night there.",
+   "zh": "滦平大约在 130 公里外，所以我们打算在那里过夜。"
+  },
+  {
+   "i": 38,
+   "en": "Then we’re going back to Beijing for our last day in the city.",
+   "zh": "然后我们回北京，度过在这座城市的最后一天。"
+  },
+  {
+   "i": 39,
+   "en": "Our last match is in the afternoon, but I’m not going to play because of my hand.",
+   "zh": "最后一场比赛在下午，但因为手受伤，我不会上场。"
+  },
+  {
+   "i": 40,
+   "en": "I can’t believe the trip is almost over.",
+   "zh": "我真不敢相信这次出行马上就要结束了。"
+  },
+  {
+   "i": 41,
+   "en": "China is amazing and the Chinese people are so friendly.",
+   "zh": "中国很棒，中国人也很友好。"
+  },
+  {
+   "i": 42,
+   "en": "I want to stay longer.",
+   "zh": "我想再多待一段时间。"
+  },
+  {
+   "i": 43,
+   "en": "Lots of love, Bettina",
+   "zh": "非常爱你的贝蒂娜"
+  }
+ ]
+}

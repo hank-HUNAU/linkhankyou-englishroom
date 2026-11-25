@@ -1,0 +1,201 @@
+{
+ "unit": "U6",
+ "passage_key": "u6_56",
+ "page": "p056",
+ "title": "Web article: A special friendship",
+ "type": "阅读A",
+ "n_sent": 27,
+ "duration_s": 185.26,
+ "source": "Think 1 U6 增量：alignment/SB_u06_p056_t01 + 译文_tk1_p056.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 8.78,
+   "end_s": 12.167,
+   "dur_s": 3.387,
+   "text": "This is the story of Joe and Fonzie."
+  },
+  {
+   "i": 1,
+   "start_s": 12.94,
+   "end_s": 18.03,
+   "dur_s": 5.09,
+   "text": "It’s a story about a friendship that started more than 20 years ago."
+  },
+  {
+   "i": 2,
+   "start_s": 18.76,
+   "end_s": 27.06,
+   "dur_s": 8.3,
+   "text": "It’s also a story about a friendship that saved a life and started a new kind of help for people with problems."
+  },
+  {
+   "i": 3,
+   "start_s": 28.52,
+   "end_s": 34.168,
+   "dur_s": 5.648,
+   "text": "‘Joe’ is Joe Hoagland, who was three years old when the story began."
+  },
+  {
+   "i": 4,
+   "start_s": 35.0,
+   "end_s": 41.16,
+   "dur_s": 6.16,
+   "text": "And ‘Fonzie’ is a 3-metre-long, 275 kilogram dolphin."
+  },
+  {
+   "i": 5,
+   "start_s": 43.01,
+   "end_s": 49.563,
+   "dur_s": 6.553,
+   "text": "When Joe was born, he had a problem with his heart and doctors had to operate on him."
+  },
+  {
+   "i": 6,
+   "start_s": 49.98,
+   "end_s": 53.2,
+   "dur_s": 3.22,
+   "text": "When he was three, he had another operation."
+  },
+  {
+   "i": 7,
+   "start_s": 54.36,
+   "end_s": 61.812,
+   "dur_s": 7.452,
+   "text": "This operation didn’t go well and he became paralysed – he couldn’t move the left side of his body."
+  },
+  {
+   "i": 8,
+   "start_s": 62.96,
+   "end_s": 66.827,
+   "dur_s": 3.867,
+   "text": "The doctors at the hospital didn’t think he could get better."
+  },
+  {
+   "i": 9,
+   "start_s": 68.02,
+   "end_s": 74.78,
+   "dur_s": 6.76,
+   "text": "Deena, Joe’s mother, took him to different places for therapy, but it wasn’t very successful."
+  },
+  {
+   "i": 10,
+   "start_s": 76.08,
+   "end_s": 78.2,
+   "dur_s": 2.12,
+   "text": "Then the family moved to Florida."
+  },
+  {
+   "i": 11,
+   "start_s": 79.34,
+   "end_s": 84.544,
+   "dur_s": 5.204,
+   "text": "Joe liked being in the water and Deena thought swimming could help him."
+  },
+  {
+   "i": 12,
+   "start_s": 85.44,
+   "end_s": 92.903,
+   "dur_s": 7.463,
+   "text": "First, they went to swimming pools in hotels, but some hotel guests didn’t like them being there."
+  },
+  {
+   "i": 13,
+   "start_s": 93.9,
+   "end_s": 102.74,
+   "dur_s": 8.84,
+   "text": "Then one day she went with Joe to a place in Key Largo called Dolphin Plus, where people swam with dolphins."
+  },
+  {
+   "i": 14,
+   "start_s": 104.16,
+   "end_s": 108.32,
+   "dur_s": 4.16,
+   "text": "Joe met Fonzie there and the story really began."
+  },
+  {
+   "i": 15,
+   "start_s": 109.52,
+   "end_s": 113.66,
+   "dur_s": 4.14,
+   "text": "Soon, Joe wanted to see Fonzie every day."
+  },
+  {
+   "i": 16,
+   "start_s": 114.6,
+   "end_s": 117.133,
+   "dur_s": 2.533,
+   "text": "He loved playing with him and feeding him."
+  },
+  {
+   "i": 17,
+   "start_s": 117.94,
+   "end_s": 122.067,
+   "dur_s": 4.127,
+   "text": "Every time that Joe arrived, Fonzie came to see him."
+  },
+  {
+   "i": 18,
+   "start_s": 123.0,
+   "end_s": 132.865,
+   "dur_s": 9.865,
+   "text": "Joe’s mother told him always to feed Fonzie using his left hand, so Joe used his left side more and more."
+  },
+  {
+   "i": 19,
+   "start_s": 133.54,
+   "end_s": 136.173,
+   "dur_s": 2.633,
+   "text": "Slowly, he got better and better."
+  },
+  {
+   "i": 20,
+   "start_s": 137.0,
+   "end_s": 140.783,
+   "dur_s": 3.783,
+   "text": "He’s now over 30 years old and very well."
+  },
+  {
+   "i": 21,
+   "start_s": 142.48,
+   "end_s": 150.92,
+   "dur_s": 8.44,
+   "text": "Deena saw that Joe’s friendship with Fonzie helped him a lot, and she knew it was a good idea for other people, too."
+  },
+  {
+   "i": 22,
+   "start_s": 152.02,
+   "end_s": 157.88,
+   "dur_s": 5.86,
+   "text": "So, she and her family worked to open a place called Island Dolphin Care."
+  },
+  {
+   "i": 23,
+   "start_s": 158.98,
+   "end_s": 165.58,
+   "dur_s": 6.6,
+   "text": "It’s next to Dolphin Plus and many people with health problems come to spend time with the dolphins."
+  },
+  {
+   "i": 24,
+   "start_s": 166.86,
+   "end_s": 171.86,
+   "dur_s": 5.0,
+   "text": "Sadly, Fonzie died in 2004 when Joe was 17."
+  },
+  {
+   "i": 25,
+   "start_s": 172.7,
+   "end_s": 179.14,
+   "dur_s": 6.44,
+   "text": "He wrote: ‘Fonzie was a great friend to me; he and I shared a lot of good times."
+  },
+  {
+   "i": 26,
+   "start_s": 179.78,
+   "end_s": 181.94,
+   "dur_s": 2.16,
+   "text": "He always put a smile on my face.’"
+  }
+ ]
+}

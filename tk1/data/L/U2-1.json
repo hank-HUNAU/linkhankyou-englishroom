@@ -1,0 +1,344 @@
+{
+ "id": "U2-1",
+ "no": 4,
+ "title": "Unit 2-Reading A",
+ "titleZh": "Messages: Mike and Hannah",
+ "audio": "assets/tk1_p020.mp3",
+ "duration": 186.28,
+ "question": null,
+ "unit": "Unit 2",
+ "part": "Reading A",
+ "partCn": "阅读A",
+ "bookPage": "p020",
+ "srcKey": "SB_u02_p020_t03",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.52,
+   "t2": 9.35,
+   "en": "Hi, Hannah. What are you up to?",
+   "zh": "嗨，汉娜。你在忙什么？",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 10.53,
+   "t2": 14.16,
+   "en": "Hey, Mike. Nothing much. I’m at home.",
+   "zh": "嘿，迈克。没什么。我在家呢。",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 14.96,
+   "t2": 18.16,
+   "en": "I’m watching some TV, but it’s not very good.",
+   "zh": "我在看会儿电视，不过节目不太好。",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 19.1,
+   "t2": 20.68,
+   "en": "I don’t want to do my homework!",
+   "zh": "我不想做作业！",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 21.63,
+   "t2": 22.45,
+   "en": "How about you?",
+   "zh": "你呢？",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 23.7,
+   "t2": 25.8,
+   "en": "I’m in town. Shopping.",
+   "zh": "我在城里。逛街呢。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 26.59,
+   "t2": 34.3,
+   "en": "I’m looking for a new jacket. Do you like this one? It’s £20.",
+   "zh": "我在找一件新夹克。你喜欢这件吗？20 英镑。",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 35.74,
+   "t2": 41.575,
+   "en": "Erm. It’s OK. It looks a bit old-fashioned though.",
+   "zh": "呃。还行吧。不过看起来有点过时。",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 42.36,
+   "t2": 43.62,
+   "en": "Which shop are you in?",
+   "zh": "你在哪家店？",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 44.71,
+   "t2": 49.04,
+   "en": "Tell me you’re not looking for clothes in that old place in Green Street.",
+   "zh": "别告诉我说你在格林街那个老地方买衣服。",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 49.68,
+   "t2": 51.88,
+   "en": "Hah! Of course I am!",
+   "zh": "哈！我还真就在那儿！",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 52.52,
+   "t2": 55.68,
+   "en": "You know I always like to buy my clothes here.",
+   "zh": "你知道我一直喜欢在这里买衣服。",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 56.48,
+   "t2": 58.48,
+   "en": "But their clothes are all second-hand.",
+   "zh": "可他们的衣服都是二手的。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 58.94,
+   "t2": 61.33,
+   "en": "And that means they’re old-fashioned.",
+   "zh": "那就意味着款式很旧。",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 62.01,
+   "t2": 67.42,
+   "en": "I like the clothes here – they’re really cool and they’re cheap.",
+   "zh": "我喜欢这里的衣服——真的很酷，而且很便宜。",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 68.08,
+   "t2": 70.46,
+   "en": "I’m not rich like you, you know!",
+   "zh": "你知道的，我可不像你那么有钱！",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 71.48,
+   "t2": 75.26,
+   "en": "Me? Rich? You’re joking of course. Hahaha.",
+   "zh": "我？有钱？你开玩笑吧。哈哈哈。",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 75.98,
+   "t2": 80.88,
+   "en": "Go to Barker’s next to the big chemist’s in Market Street.",
+   "zh": "去市场街那家大药房旁边的巴克店吧。",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 81.52,
+   "t2": 82.72,
+   "en": "They’ve got a sale on.",
+   "zh": "他们正在打折。",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 83.48,
+   "t2": 87.52,
+   "en": "They’re selling everything at 30% off the original price!",
+   "zh": "所有东西都比原价便宜 30%！",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 88.41,
+   "t2": 89.99,
+   "en": "And their stuff’s really nice.",
+   "zh": "而且他们的东西真的很好。",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 90.79,
+   "t2": 95.09,
+   "en": "I’m wearing one of their T-shirts now. Only £9.99!",
+   "zh": "我现在穿着他们的一件 T 恤。只要 9.99 英镑！",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 96.09,
+   "t2": 101.13,
+   "en": "Yeah, that’s cool. And 30% off? Brilliant.",
+   "zh": "是吗，那很酷。还能便宜 30%？太棒了。",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 102.96,
+   "t2": 105.98,
+   "en": "OK, I’m going there now. Oh no!",
+   "zh": "好，我现在就去。哎呀！",
+   "conf": 1.0
+  },
+  {
+   "i": 24,
+   "t": 106.84,
+   "t2": 110.38,
+   "en": "Now it’s raining and I haven’t got an umbrella.",
+   "zh": "现在下雨了，我还没带伞。",
+   "conf": 1.0
+  },
+  {
+   "i": 25,
+   "t": 112.51,
+   "t2": 115.93,
+   "en": "OK, it’s not far. Five minutes and I’m there.",
+   "zh": "没关系，不远。五分钟就到。",
+   "conf": 1.0
+  },
+  {
+   "i": 26,
+   "t": 117.74,
+   "t2": 118.54,
+   "en": "Moments later.",
+   "zh": "片刻之后。",
+   "conf": 1.0
+  },
+  {
+   "i": 27,
+   "t": 119.68,
+   "t2": 122.926,
+   "en": "OK, here I am in Barker’s.",
+   "zh": "好，我到巴克店了。",
+   "conf": 1.0
+  },
+  {
+   "i": 28,
+   "t": 123.38,
+   "t2": 128.38,
+   "en": "The shop’s really crowded. It’s because of the sale, I guess.",
+   "zh": "店里真挤。我想是因为打折吧。",
+   "conf": 1.0
+  },
+  {
+   "i": 29,
+   "t": 129.3,
+   "t2": 133.16,
+   "en": "Maybe my mum’s there. She’s doing some shopping at the moment.",
+   "zh": "也许我妈妈在那儿。她这会儿正在购物。",
+   "conf": 1.0
+  },
+  {
+   "i": 30,
+   "t": 134.24,
+   "t2": 136.2,
+   "en": "So … anything nice?",
+   "zh": "那么……有什么好看的吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 31,
+   "t": 136.76,
+   "t2": 145.508,
+   "en": "Yeah! Look at this shirt! Only £25! I want it!",
+   "zh": "是啊！你看这件衬衫！只要 25 英镑！我要买。",
+   "conf": 1.0
+  },
+  {
+   "i": 32,
+   "t": 146.34,
+   "t2": 149.92,
+   "en": "Mike, are you crazy? It’s awful.",
+   "zh": "迈克，你疯了吗？太难看了。",
+   "conf": 1.0
+  },
+  {
+   "i": 33,
+   "t": 150.64,
+   "t2": 151.75,
+   "en": "No, it’s not.",
+   "zh": "不，不难看。",
+   "conf": 1.0
+  },
+  {
+   "i": 34,
+   "t": 152.41,
+   "t2": 154.51,
+   "en": "I love wearing bright colours.",
+   "zh": "我就喜欢穿亮色的衣服。",
+   "conf": 1.0
+  },
+  {
+   "i": 35,
+   "t": 155.11,
+   "t2": 159.92,
+   "en": "They make me feel happy. It’s perfect for a rainy day.",
+   "zh": "它们让我开心。雨天穿正合适。",
+   "conf": 1.0
+  },
+  {
+   "i": 36,
+   "t": 160.67,
+   "t2": 163.67,
+   "en": "I think you’re wasting your money and my time.",
+   "zh": "我觉得你在浪费钱，也在浪费我的时间。",
+   "conf": 1.0
+  },
+  {
+   "i": 37,
+   "t": 165.05,
+   "t2": 168.29,
+   "en": "Anyway – are you looking for a jacket or a shirt?",
+   "zh": "话说回来——你到底是在找夹克还是衬衫？",
+   "conf": 1.0
+  },
+  {
+   "i": 38,
+   "t": 169.09,
+   "t2": 174.05,
+   "en": "Oh yes, you’re right. You’re better at clothes than me.",
+   "zh": "哦对，你说得对。你比我更懂衣服。",
+   "conf": 1.0
+  },
+  {
+   "i": 39,
+   "t": 174.83,
+   "t2": 178.15,
+   "en": "Come and help me. You’re not doing anything, are you?",
+   "zh": "来帮帮我吧。反正你现在也没事，对吧？",
+   "conf": 1.0
+  },
+  {
+   "i": 40,
+   "t": 178.15,
+   "t2": 182.76,
+   "en": "That sounds like a bad idea. It’s raining – remember?",
+   "zh": "那听起来可不是个好主意。还在下雨呢——记得吗？",
+   "conf": 1.0
+  }
+ ]
+}

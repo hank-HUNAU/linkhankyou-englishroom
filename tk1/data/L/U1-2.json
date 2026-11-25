@@ -1,0 +1,264 @@
+{
+ "id": "U1-2",
+ "no": 2,
+ "title": "Unit 1-Listening",
+ "titleZh": "Listening: Hobbies and family",
+ "audio": "assets/tk1_p015.mp3",
+ "duration": 170.11,
+ "question": null,
+ "unit": "Unit 1",
+ "part": "Listening",
+ "partCn": "听力",
+ "bookPage": "p015",
+ "srcKey": "SB_u01_p015_t04",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.28,
+   "t2": 18.82,
+   "en": "Ben! Why don’t you have a rest and stop playing for a while? I’ve got homework. Ben!",
+   "zh": "本！你为什么不休息一下，先停一会儿呢？我有作业要做。本！",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 19.52,
+   "t2": 20.42,
+   "en": "What’s up, Sally?",
+   "zh": "怎么了，萨莉？",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 21.21,
+   "t2": 26.77,
+   "en": "I’ve got English and Geography homework. And you’re playing the guitar – badly!",
+   "zh": "我有英语和地理作业。可你还在弹吉他——还弹得那么糟！",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 27.47,
+   "t2": 32.37,
+   "en": "Well, it’s my hobby and I have a good time when I practise. I love it.",
+   "zh": "嗯，这是我的爱好，我练习的时候很开心。我特别喜欢。",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 32.37,
+   "t2": 35.7,
+   "en": "Sure. But right now?",
+   "zh": "当然啦。可是现在呢？",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 36.34,
+   "t2": 41.0,
+   "en": "Well, yes! I’m practising now, then I can do my homework later.",
+   "zh": "嗯，是的！我现在在练习，然后晚点再做作业。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 41.54,
+   "t2": 48.93,
+   "en": "Well, can you do your homework now, please? The same time as me? And then practise the guitar later?",
+   "zh": "那你能现在就做作业吗？和我一起做？然后再去练吉他，好不好？",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 49.55,
+   "t2": 55.54,
+   "en": "Erm … well, yes, why not? But help me with my Maths homework, OK?",
+   "zh": "呃……嗯，好吧，为什么不呢？不过你得帮我做数学作业，行吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 56.2,
+   "t2": 58.003,
+   "en": "Oh, all right!",
+   "zh": "噢，好吧！",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 63.54,
+   "t2": 66.88,
+   "en": "Mum, can I take judo lessons?",
+   "zh": "妈妈，我可以上柔道课吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 67.82,
+   "t2": 71.14,
+   "en": "Judo? Really? What for?",
+   "zh": "柔道？真的吗？为什么？",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 71.74,
+   "t2": 77.2,
+   "en": "Well … it’s good exercise, and some of my friends are learning judo, too.",
+   "zh": "嗯……这是很好的锻炼，而且我的一些朋友也在学柔道。",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 77.82,
+   "t2": 79.32,
+   "en": "I think it’s a great idea.",
+   "zh": "我觉得这是个好主意。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 79.82,
+   "t2": 82.75,
+   "en": "Really? Judo for girls?",
+   "zh": "真的吗？女孩子学柔道？",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 83.35,
+   "t2": 83.85,
+   "en": "Mum!!",
+   "zh": "妈妈！！",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 84.47,
+   "t2": 92.43,
+   "en": "Yes, a friend of mine at work does judo. She loves it and she says it’s very good for making her strong and keeping her healthy.",
+   "zh": "对，我单位有个朋友练柔道。她很喜欢，说练柔道能让她变得强壮，还能保持健康。",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 92.43,
+   "t2": 97.61,
+   "en": "That’s right, Dad. And maybe I can make some new friends, too.",
+   "zh": "没错，爸爸。而且我也许还能交到一些新朋友。",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 98.38,
+   "t2": 101.06,
+   "en": "Oh. Well. OK.",
+   "zh": "哦。嗯。好吧。",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 101.82,
+   "t2": 103.78,
+   "en": "Thanks, Mum! Thanks, Dad!",
+   "zh": "谢谢妈妈！谢谢爸爸！",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 104.3,
+   "t2": 108.402,
+   "en": "Jade! I think that’s kung fu, not judo!",
+   "zh": "杰德！我觉得那是功夫，不是柔道！",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 114.68,
+   "t2": 117.28,
+   "en": "Harry! It’s time for dinner.",
+   "zh": "哈里！该吃晚饭了。",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 119.18,
+   "t2": 122.02,
+   "en": "Come on, Harry. Dinner’s ready.",
+   "zh": "快点，哈里。晚饭准备好了。",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 122.8,
+   "t2": 126.5,
+   "en": "Just a minute, Mum. I’m finishing something.",
+   "zh": "等一下，妈妈。我快做完一件事。",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 126.5,
+   "t2": 131.62,
+   "en": "Harry, it’s dinnertime. Come and eat, we’re having dinner!",
+   "zh": "哈里，到吃饭时间了。过来吃吧，我们正吃晚饭呢！",
+   "conf": 1.0
+  },
+  {
+   "i": 24,
+   "t": 132.26,
+   "t2": 133.26,
+   "en": "OK, Mum.",
+   "zh": "好的，妈妈。",
+   "conf": 1.0
+  },
+  {
+   "i": 25,
+   "t": 136.02,
+   "t2": 139.34,
+   "en": "You’re always on your phone. Playing games.",
+   "zh": "你总在玩手机。玩游戏。",
+   "conf": 1.0
+  },
+  {
+   "i": 26,
+   "t": 139.8,
+   "t2": 145.1,
+   "en": "No, not games, Mum. Puzzles. I’m doing a crossword.",
+   "zh": "不，不是游戏，妈妈。是智力游戏。我在填字谜。",
+   "conf": 1.0
+  },
+  {
+   "i": 27,
+   "t": 145.62,
+   "t2": 150.68,
+   "en": "A crossword? Oh, I hate crosswords. They’re too difficult.",
+   "zh": "填字谜？哦，我讨厌填字谜。太难了。",
+   "conf": 1.0
+  },
+  {
+   "i": 28,
+   "t": 151.18,
+   "t2": 154.56,
+   "en": "I love them. They’re great exercise for my brain.",
+   "zh": "我很喜欢。它们对我的大脑是很好的锻炼。",
+   "conf": 1.0
+  },
+  {
+   "i": 29,
+   "t": 154.56,
+   "t2": 160.51,
+   "en": "Are they? Well, OK. You know, you have to look after your brain, right?",
+   "zh": "是吗？嗯，好吧。你知道的，你得照顾好自己的大脑，对吧？",
+   "conf": 1.0
+  },
+  {
+   "i": 30,
+   "t": 161.11,
+   "t2": 164.43,
+   "en": "That’s right. Just like you look after me, Mum.",
+   "zh": "没错。就像你照顾我一样，妈妈。",
+   "conf": 1.0
+  }
+ ]
+}

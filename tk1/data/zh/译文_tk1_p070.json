@@ -1,0 +1,135 @@
+{
+ "passage_key": "u7_70",
+ "page": "p070",
+ "unit": 7,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 25,
+ "n_unique_keys": 25,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Are you tired of choosing a cool outfit to wear for special occasions?",
+   "zh": "你厌烦为特殊场合挑选一身酷酷的装扮吗？"
+  },
+  {
+   "i": 1,
+   "en": "Well, now you don’t have to!",
+   "zh": "嗯，现在你不用了！"
+  },
+  {
+   "i": 2,
+   "en": "The all-new Trendy-wise is easy to use and you don’t have to be trendy to use it.",
+   "zh": "全新的 Trendy-wise 很好用，你也不必很时髦才能用它。"
+  },
+  {
+   "i": 3,
+   "en": "However, before you can use it, you have to take photos of all the clothes in your wardrobe.",
+   "zh": "不过，在使用它之前，你得把衣柜里所有衣服都拍下来。"
+  },
+  {
+   "i": 4,
+   "en": "And you mustn’t forget to take photos of all your shoes and socks, too.",
+   "zh": "而且千万别忘记把鞋子和袜子也拍下来。"
+  },
+  {
+   "i": 5,
+   "en": "Then all you have to do is click on a photo of, for example, a blue T-shirt.",
+   "zh": "然后你只要点一下某件衣服的照片，比如一件蓝色 T 恤。"
+  },
+  {
+   "i": 6,
+   "en": "The Trendy-wise selects photos of trousers or skirts, shoes, socks, etc., from your wardrobe to go with this T-shirt.",
+   "zh": "Trendy-wise 就会从你的衣柜里挑出搭配这件 T 恤的裤子或裙子、鞋子、袜子等等的照片。"
+  },
+  {
+   "i": 7,
+   "en": "Each time it creates a different outfit for you and the outfits are all very trendy.",
+   "zh": "每次它都会给你搭配出不同的装扮，而且都很时髦。"
+  },
+  {
+   "i": 8,
+   "en": "Oh, I almost forgot!",
+   "zh": "哦，我差点忘了！"
+  },
+  {
+   "i": 9,
+   "en": "You also have to type in the kind of event/occasion, for example: a concert or a birthday party.",
+   "zh": "你还得输入活动的类型，比如：音乐会或生日派对。"
+  },
+  {
+   "i": 10,
+   "en": "Do you sometimes have bad dreams?",
+   "zh": "你有时会做噩梦吗？"
+  },
+  {
+   "i": 11,
+   "en": "Do you wake up scared or unhappy?",
+   "zh": "你醒来时会害怕或不开心吗？"
+  },
+  {
+   "i": 12,
+   "en": "Yes?",
+   "zh": "有吗？"
+  },
+  {
+   "i": 13,
+   "en": "Then you should buy the DreamCatcher.",
+   "zh": "那你应该买一台 DreamCatcher。"
+  },
+  {
+   "i": 14,
+   "en": "This is how it works:",
+   "zh": "它是这样工作的："
+  },
+  {
+   "i": 15,
+   "en": "Put the machine on your head before you go to bed.",
+   "zh": "睡觉前把机器戴在头上。"
+  },
+  {
+   "i": 16,
+   "en": "Tell it what you want or don’t want by speaking into the microphone – for example: ‘I want dreams where I win a singing competition’ or ‘I don’t want dreams about falling.’",
+   "zh": "对着麦克风告诉它你想做什么梦、不想做什么梦——比如：“我想梦见自己赢了歌唱比赛”，或者“我不想梦见往下掉”。"
+  },
+  {
+   "i": 17,
+   "en": "When you are asleep, DreamCatcher will follow your dreams and make sure you get what you want.",
+   "zh": "你睡着后，DreamCatcher 会跟随你的梦，确保你梦到想要的内容。"
+  },
+  {
+   "i": 18,
+   "en": "Imagine that in your dream you do something dangerous.",
+   "zh": "想象一下，你在梦里做了危险的事。"
+  },
+  {
+   "i": 19,
+   "en": "DreamCatcher will make sure you’re safe.",
+   "zh": "DreamCatcher 会确保你安全。"
+  },
+  {
+   "i": 20,
+   "en": "Here’s an example.",
+   "zh": "举个例子。"
+  },
+  {
+   "i": 21,
+   "en": "Let’s say you start to climb a high mountain.",
+   "zh": "假设你开始爬一座高山。"
+  },
+  {
+   "i": 22,
+   "en": "You don’t have to worry because the DreamCatcher will make you walk back down again.",
+   "zh": "你不用担心，因为 DreamCatcher 会让你往回走下山。"
+  },
+  {
+   "i": 23,
+   "en": "But you mustn’t use the machine every night.",
+   "zh": "但你不能每晚都用这台机器。"
+  },
+  {
+   "i": 24,
+   "en": "It will only work every three days.",
+   "zh": "它每三天才起作用一次。"
+  }
+ ]
+}

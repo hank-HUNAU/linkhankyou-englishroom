@@ -1,0 +1,177 @@
+[
+ {
+  "w": "bookshop",
+  "ipa": "ˈbʊkˌʃɒp",
+  "pos": "noun",
+  "zh": "书店",
+  "ex": "There are so many bookshops in town."
+ },
+ {
+  "w": "chemist's clothes shop",
+  "ipa": "ˈke.mɪsts ˈkləʊðz ˌʃɒp",
+  "pos": "noun noun",
+  "zh": "药店 服装店",
+  "ex": "Could you call in at the chemist's and get some plasters? In my town there’s a very good clothes shop."
+ },
+ {
+  "w": "coffee shop",
+  "ipa": "ˈkɒf.i ˌʃɒp",
+  "pos": "noun",
+  "zh": "咖啡厅",
+  "ex": "I met my friends at the coffee shop."
+ },
+ {
+  "w": "department store",
+  "ipa": "dɪˈpɑːt.mənt ˌstɔː",
+  "pos": "noun",
+  "zh": "百货公司",
+  "ex": "First we'll go to May's department store, because things are so cheap there."
+ },
+ {
+  "w": "mobile phone shop",
+  "ipa": "ˌməʊ.baɪl ˈfəʊn ˌʃɒp",
+  "pos": "noun",
+  "zh": "手机商店",
+  "ex": "She's looking for a new phone at the mobile phone shop."
+ },
+ {
+  "w": "sports shop",
+  "ipa": "ˈspɔːts ˌʃɒp",
+  "pos": "noun",
+  "zh": "运动商店",
+  "ex": "I bought this basketball at the sports shop."
+ },
+ {
+  "w": "supermarket",
+  "ipa": "ˈsuː.pəˌmɑː.kɪt",
+  "pos": "noun",
+  "zh": "超市",
+  "ex": "They’re out. At the supermarket, I think."
+ },
+ {
+  "w": "belt",
+  "ipa": "belt",
+  "pos": "noun",
+  "zh": "皮带",
+  "ex": "She fastened her belt tightly around her waist."
+ },
+ {
+  "w": "dress",
+  "ipa": "dres",
+  "pos": "noun",
+  "zh": "连衣裙",
+  "ex": "a long/short dress"
+ },
+ {
+  "w": "jumper",
+  "ipa": "ˈdʒʌm.pə",
+  "pos": "noun",
+  "zh": "套头毛衣a",
+  "ex": "warm jumper"
+ },
+ {
+  "w": "shoes",
+  "ipa": "ʃuːz",
+  "pos": "noun",
+  "zh": "鞋",
+  "ex": "I really like buying shoes but I don’t like buying trousers."
+ },
+ {
+  "w": "trainers",
+  "ipa": "ˈtreɪ.nəz",
+  "pos": "noun",
+  "zh": "运动鞋",
+  "ex": "She is wearing a tracksuit and trainers."
+ },
+ {
+  "w": "boots",
+  "ipa": "buːts",
+  "pos": "noun",
+  "zh": "靴子",
+  "ex": "He put on a pair of walking boots."
+ },
+ {
+  "w": "jacket",
+  "ipa": "ˈdʒæk.ɪt",
+  "pos": "noun",
+  "zh": "夹克",
+  "ex": "a leather/denim jacket"
+ },
+ {
+  "w": "shirt",
+  "ipa": "ʃɜːt",
+  "pos": "noun",
+  "zh": "衬衫",
+  "ex": "a striped/white shirt"
+ },
+ {
+  "w": "shorts",
+  "ipa": "ʃɔːts",
+  "pos": "noun",
+  "zh": "短裤",
+  "ex": "I never wear shorts."
+ },
+ {
+  "w": "trousers",
+  "ipa": "ˈtraʊ.zəz",
+  "pos": "noun",
+  "zh": "裤子",
+  "ex": "I really like buying shoes but I don’t like buying trousers."
+ },
+ {
+  "w": "identical",
+  "ipa": "aɪˈden.tɪ.kəl",
+  "pos": "adjective",
+  "zh": "完全相同 的",
+  "ex": "Credit cards all look almost identical."
+ },
+ {
+  "w": "represent",
+  "ipa": "ˌrep.rɪˈzent",
+  "pos": "verb",
+  "zh": "代表",
+  "ex": "The pictures represent different kinds of architecture from all over Europe."
+ },
+ {
+  "w": "currency",
+  "ipa": "ˈkʌr.ən.si",
+  "pos": "noun",
+  "zh": "通货, 货 币",
+  "ex": "In Mexico the currency is the peso."
+ },
+ {
+  "w": "various",
+  "ipa": "ˈveə.ri.əs",
+  "pos": "adjective",
+  "zh": "各种各样 的",
+  "ex": "The banknotes have various animals, birds and fish on the other side."
+ },
+ {
+  "w": "founder",
+  "ipa": "ˈfaʊn.də",
+  "pos": "noun",
+  "zh": "创立者; 创始人",
+  "ex": "Kemal rk was the founder of the Turkish republic."
+ },
+ {
+  "w": "history",
+  "ipa": "ˈhɪs.tə.ri",
+  "pos": "noun",
+  "zh": "历史",
+  "ex": "a famous person from Mexican history"
+ },
+ {
+  "w": "well-known",
+  "ipa": "ˌwelˈnəʊn",
+  "pos": "adjective",
+  "zh": "众所周知 的",
+  "ex": "well-known places in the country"
+ },
+ {
+  "w": "portrait",
+  "ipa": "ˈpɔː.trət",
+  "pos": "noun",
+  "zh": "肖像",
+  "ex": "a portrait of the famous Mexican artist Frida Kahlo"
+ }
+]

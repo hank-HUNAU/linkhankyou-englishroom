@@ -1,0 +1,124 @@
+{
+ "unit": "U12",
+ "passage_key": "u12_114",
+ "page": "p114",
+ "title": "Magazine article: Travelling the world from your sofa!",
+ "type": "阅读B",
+ "n_sent": 16,
+ "duration_s": 160.73,
+ "source": "Think 1 U12 增量：alignment/SB_u12_p114_t05 + 译文_tk1_p114.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 12.82,
+   "end_s": 17.0,
+   "dur_s": 4.18,
+   "text": "Seventeen-year-old Tom Davidson hasn’t left his home since he was 15."
+  },
+  {
+   "i": 1,
+   "start_s": 18.24,
+   "end_s": 21.142,
+   "dur_s": 2.902,
+   "text": "The last time he went out was two years ago."
+  },
+  {
+   "i": 2,
+   "start_s": 21.86,
+   "end_s": 27.96,
+   "dur_s": 6.1,
+   "text": "He was walking to catch a bus when he was hit on the head by a sign falling from a building."
+  },
+  {
+   "i": 3,
+   "start_s": 28.64,
+   "end_s": 35.46,
+   "dur_s": 6.82,
+   "text": "He spent more than two months in hospital and doctors told him he was lucky to be alive."
+  },
+  {
+   "i": 4,
+   "start_s": 36.16,
+   "end_s": 44.18,
+   "dur_s": 8.02,
+   "text": "The accident left Tom with agoraphobia: the idea of being outdoors makes him feel extremely anxious."
+  },
+  {
+   "i": 5,
+   "start_s": 45.22,
+   "end_s": 48.56,
+   "dur_s": 3.34,
+   "text": "The problem is that Tom loves travelling."
+  },
+  {
+   "i": 6,
+   "start_s": 49.38,
+   "end_s": 62.4,
+   "dur_s": 13.02,
+   "text": "Before his accident, Tom spent most weekends exploring his home city of London by bus, underground train and his scooter, and he looked forward to holidays abroad with his parents."
+  },
+  {
+   "i": 7,
+   "start_s": 63.3,
+   "end_s": 70.113,
+   "dur_s": 6.813,
+   "text": "Now the idea of driving in a car to France or taking a plane to Italy terrifies him."
+  },
+  {
+   "i": 8,
+   "start_s": 70.693,
+   "end_s": 82.06,
+   "dur_s": 11.367,
+   "text": "However, there is a way that Tom can still visit the most remote corners of the world without leaving the security of his home: Google Maps."
+  },
+  {
+   "i": 9,
+   "start_s": 82.9,
+   "end_s": 91.54,
+   "dur_s": 8.64,
+   "text": "In the last year and a half, Tom has visited every country in the world where Google Maps has been and taken photos."
+  },
+  {
+   "i": 10,
+   "start_s": 92.58,
+   "end_s": 110.434,
+   "dur_s": 17.854,
+   "text": "Using ‘street view’, he has walked down the streets of the world’s most famous cities, he has seen all the world’s most amazing geographical features and he has visited places in the world that he didn’t know existed: all of this from the comfort of his home."
+  },
+  {
+   "i": 11,
+   "start_s": 112.04,
+   "end_s": 117.6,
+   "dur_s": 5.56,
+   "text": "Tom’s virtual travel is more than just a hobby – it has become an art project."
+  },
+  {
+   "i": 12,
+   "start_s": 118.32,
+   "end_s": 132.06,
+   "dur_s": 13.74,
+   "text": "He has taken more than 5,000 screenshots of places he has visited and last week, there was an exhibition of his best photos at a school near his home (but of course, he didn’t go)."
+  },
+  {
+   "i": 13,
+   "start_s": 132.9,
+   "end_s": 139.34,
+   "dur_s": 6.44,
+   "text": "Tom also hopes that his online journeys will help him eventually to overcome his agoraphobia."
+  },
+  {
+   "i": 14,
+   "start_s": 140.17,
+   "end_s": 148.631,
+   "dur_s": 8.461,
+   "text": "As he discovers more places that he wants to visit one day, he is becoming more and more determined to leave his home."
+  },
+  {
+   "i": 15,
+   "start_s": 149.16,
+   "end_s": 157.46,
+   "dur_s": 8.3,
+   "text": "And his dream, if he can, is to work in the travel industry, for example as a flight attendant or a tour guide."
+  }
+ ]
+}

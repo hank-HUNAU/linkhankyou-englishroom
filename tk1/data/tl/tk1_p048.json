@@ -1,0 +1,159 @@
+{
+ "unit": "U5",
+ "passage_key": "u5_48",
+ "page": "p048",
+ "title": "Magazine article: The 21st century caveman",
+ "type": "阅读A",
+ "n_sent": 21,
+ "duration_s": 179.59,
+ "source": "Think 1 U5 增量：alignment/SB_u05_p048_t02 + 译文_tk1_p048.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.3,
+   "end_s": 19.5,
+   "dur_s": 10.2,
+   "text": "In 2007, Angelo Mastropietro was in the woods in Worcestershire, UK when it started to rain."
+  },
+  {
+   "i": 1,
+   "start_s": 20.32,
+   "end_s": 25.52,
+   "dur_s": 5.2,
+   "text": "He looked for a place to keep dry and he discovered a cave house!"
+  },
+  {
+   "i": 2,
+   "start_s": 26.36,
+   "end_s": 29.536,
+   "dur_s": 3.176,
+   "text": "The cave house was 800 years old."
+  },
+  {
+   "i": 3,
+   "start_s": 30.32,
+   "end_s": 39.94,
+   "dur_s": 9.62,
+   "text": "People lived in the rock-house for hundreds of years, but from about 1962, no one lived there and the house stayed empty."
+  },
+  {
+   "i": 4,
+   "start_s": 41.22,
+   "end_s": 44.188,
+   "dur_s": 2.968,
+   "text": "Angelo liked the rock-house very much."
+  },
+  {
+   "i": 5,
+   "start_s": 44.84,
+   "end_s": 47.276,
+   "dur_s": 2.436,
+   "text": "He looked into the possibility of buying it."
+  },
+  {
+   "i": 6,
+   "start_s": 47.84,
+   "end_s": 52.744,
+   "dur_s": 4.904,
+   "text": "It was for sale and in 2010 he decided to get it."
+  },
+  {
+   "i": 7,
+   "start_s": 53.58,
+   "end_s": 60.04,
+   "dur_s": 6.46,
+   "text": "After that, he started to cut into the rock and to rebuild and modernise the house."
+  },
+  {
+   "i": 8,
+   "start_s": 61.18,
+   "end_s": 68.32,
+   "dur_s": 7.14,
+   "text": "Angelo (who is English, even though his name is Italian) finished the house in nine months."
+  },
+  {
+   "i": 9,
+   "start_s": 69.34,
+   "end_s": 83.04,
+   "dur_s": 13.7,
+   "text": "He was a businessman before he started the house, and before 2007 he was quite ill, so he wanted a place where it was possible for him to live in a happy and healthy way."
+  },
+  {
+   "i": 10,
+   "start_s": 84.0,
+   "end_s": 92.08,
+   "dur_s": 8.08,
+   "text": "He realised that he didn’t need to live in a huge apartment and that being closer to nature could help him feel better."
+  },
+  {
+   "i": 11,
+   "start_s": 93.22,
+   "end_s": 104.722,
+   "dur_s": 11.502,
+   "text": "He worked for over a thousand hours from beginning to end, and he used £160,000 to buy the house and all the things that he needed."
+  },
+  {
+   "i": 12,
+   "start_s": 105.42,
+   "end_s": 114.509,
+   "dur_s": 9.089,
+   "text": "He planned everything himself, he moved about 80 tons of rock himself and he painted the house."
+  },
+  {
+   "i": 13,
+   "start_s": 115.56,
+   "end_s": 119.339,
+   "dur_s": 3.779,
+   "text": "Angelo tried to make a comfortable place to live."
+  },
+  {
+   "i": 14,
+   "start_s": 120.28,
+   "end_s": 128.28,
+   "dur_s": 8.0,
+   "text": "The house has electricity, hot water and wi-fi, and there is heating under the floors of the rooms."
+  },
+  {
+   "i": 15,
+   "start_s": 129.46,
+   "end_s": 135.5,
+   "dur_s": 6.04,
+   "text": "Angelo opened a deep hole 80 metres under the house to get natural water."
+  },
+  {
+   "i": 16,
+   "start_s": 136.98,
+   "end_s": 139.04,
+   "dur_s": 2.06,
+   "text": "The house is not huge."
+  },
+  {
+   "i": 17,
+   "start_s": 139.96,
+   "end_s": 148.34,
+   "dur_s": 8.38,
+   "text": "It is about 65 m2, with one bedroom, a living room, a kitchen and a bathroom with a shower."
+  },
+  {
+   "i": 18,
+   "start_s": 149.68,
+   "end_s": 159.46,
+   "dur_s": 9.78,
+   "text": "Angelo doesn’t live there all the time, but he uses the house as a place to go to sometimes, to get away from his busy city life."
+  },
+  {
+   "i": 19,
+   "start_s": 160.54,
+   "end_s": 166.243,
+   "dur_s": 5.703,
+   "text": "It’s also possible to rent the house and to stay there for a weekend or more."
+  },
+  {
+   "i": 20,
+   "start_s": 167.16,
+   "end_s": 176.28,
+   "dur_s": 9.12,
+   "text": "This means that other people are able to enjoy Angelo’s happy house and maybe escape from their busy lives for a few days, too."
+  }
+ ]
+}

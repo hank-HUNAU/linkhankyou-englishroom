@@ -1,0 +1,159 @@
+{
+ "unit": "U3",
+ "passage_key": "u3_34",
+ "page": "p034",
+ "title": "Online blog: Eating around the world",
+ "type": "阅读B",
+ "n_sent": 21,
+ "duration_s": 149.34,
+ "source": "Think 1 U3 增量：alignment/SB_u03_p034_t08 + 译文_tk1_p034.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 13.0,
+   "end_s": 21.177,
+   "dur_s": 8.177,
+   "text": "Hello, I'm Matt Silver, and this is an article from our new series 'Eating around the world'."
+  },
+  {
+   "i": 1,
+   "start_s": 21.56,
+   "end_s": 26.773,
+   "dur_s": 5.213,
+   "text": "I'm writing this from Kulusuk, an Inuit village in Greenland."
+  },
+  {
+   "i": 2,
+   "start_s": 26.773,
+   "end_s": 36.72,
+   "dur_s": 9.947,
+   "text": "It's a pleasant place in summer, with mild temperatures and fantastic views of the icebergs on the sea just in front of the village."
+  },
+  {
+   "i": 3,
+   "start_s": 37.88,
+   "end_s": 40.94,
+   "dur_s": 3.06,
+   "text": "It's a popular place for tourists in those months."
+  },
+  {
+   "i": 4,
+   "start_s": 40.94,
+   "end_s": 49.911,
+   "dur_s": 8.971,
+   "text": "But winters are long and hard, and the life for the 250 people in the village isn't easy at all."
+  },
+  {
+   "i": 5,
+   "start_s": 49.911,
+   "end_s": 55.34,
+   "dur_s": 5.429,
+   "text": "The roads are covered in ice, and the sea is frozen, too."
+  },
+  {
+   "i": 6,
+   "start_s": 56.48,
+   "end_s": 60.314,
+   "dur_s": 3.834,
+   "text": "The Inuits don't have a lot of choices for food."
+  },
+  {
+   "i": 7,
+   "start_s": 60.98,
+   "end_s": 65.62,
+   "dur_s": 4.64,
+   "text": "The summer is too short and not long enough for the Inuits to grow vegetables."
+  },
+  {
+   "i": 8,
+   "start_s": 66.7,
+   "end_s": 69.86,
+   "dur_s": 3.16,
+   "text": "They sometimes find berries during the warmer months."
+  },
+  {
+   "i": 9,
+   "start_s": 69.86,
+   "end_s": 71.96,
+   "dur_s": 2.1,
+   "text": "And they eat seaweed."
+  },
+  {
+   "i": 10,
+   "start_s": 71.96,
+   "end_s": 77.68,
+   "dur_s": 5.72,
+   "text": "But there are no other vegetables, so they don't eat enough greens."
+  },
+  {
+   "i": 11,
+   "start_s": 77.68,
+   "end_s": 85.34,
+   "dur_s": 7.66,
+   "text": "There is a shop in the village, but during the winter it doesn't get any fresh vegetables."
+  },
+  {
+   "i": 12,
+   "start_s": 86.52,
+   "end_s": 91.51,
+   "dur_s": 4.99,
+   "text": "This is why the Inuits eat lots of raw and boiled meat."
+  },
+  {
+   "i": 13,
+   "start_s": 92.24,
+   "end_s": 101.18,
+   "dur_s": 8.94,
+   "text": "They eat sea animals – seals, whales and fish – and they eat reindeer and other land animals."
+  },
+  {
+   "i": 14,
+   "start_s": 101.18,
+   "end_s": 108.06,
+   "dur_s": 6.88,
+   "text": "These animals have a lot of fat on them because it keeps them warm in the freezing temperatures."
+  },
+  {
+   "i": 15,
+   "start_s": 109.0,
+   "end_s": 112.2,
+   "dur_s": 3.2,
+   "text": "Do the Inuits eat too much fat?"
+  },
+  {
+   "i": 16,
+   "start_s": 113.02,
+   "end_s": 114.7,
+   "dur_s": 1.68,
+   "text": "Isn't that very dangerous?"
+  },
+  {
+   "i": 17,
+   "start_s": 115.84,
+   "end_s": 124.262,
+   "dur_s": 8.422,
+   "text": "Well, here's the surprise: in the western world, people say 'Don't eat too much fat!'"
+  },
+  {
+   "i": 18,
+   "start_s": 124.262,
+   "end_s": 135.233,
+   "dur_s": 10.971,
+   "text": "But the Inuits eat a lot of animal fat and they are healthy, perhaps because they eat boiled rather than fried meat."
+  },
+  {
+   "i": 19,
+   "start_s": 136.3,
+   "end_s": 142.32,
+   "dur_s": 6.02,
+   "text": "Life for the people from Kulusuk can be difficult but they are healthy."
+  },
+  {
+   "i": 20,
+   "start_s": 143.4,
+   "end_s": 146.06,
+   "dur_s": 2.66,
+   "text": "Maybe we can learn a lot from them!"
+  }
+ ]
+}

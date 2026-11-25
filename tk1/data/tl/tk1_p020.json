@@ -1,0 +1,299 @@
+{
+ "unit": "U2",
+ "passage_key": "u2_020",
+ "page": "p020",
+ "title": "Messages: Mike and Hannah",
+ "type": "阅读A",
+ "n_sent": 41,
+ "duration_s": 186.28,
+ "source": "Think 1 alignment/SB_u02_p020_t03（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.52,
+   "end_s": 9.35,
+   "dur_s": 2.83,
+   "text": "Hi, Hannah. What are you up to?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.53,
+   "end_s": 14.16,
+   "dur_s": 3.63,
+   "text": "Hey, Mike. Nothing much. I’m at home."
+  },
+  {
+   "i": 2,
+   "start_s": 14.96,
+   "end_s": 18.16,
+   "dur_s": 3.2,
+   "text": "I’m watching some TV, but it’s not very good."
+  },
+  {
+   "i": 3,
+   "start_s": 19.1,
+   "end_s": 20.68,
+   "dur_s": 1.58,
+   "text": "I don’t want to do my homework!"
+  },
+  {
+   "i": 4,
+   "start_s": 21.63,
+   "end_s": 22.45,
+   "dur_s": 0.82,
+   "text": "How about you?"
+  },
+  {
+   "i": 5,
+   "start_s": 23.7,
+   "end_s": 25.8,
+   "dur_s": 2.1,
+   "text": "I’m in town. Shopping."
+  },
+  {
+   "i": 6,
+   "start_s": 26.59,
+   "end_s": 34.3,
+   "dur_s": 7.71,
+   "text": "I’m looking for a new jacket. Do you like this one? It’s £20."
+  },
+  {
+   "i": 7,
+   "start_s": 35.74,
+   "end_s": 41.575,
+   "dur_s": 5.835,
+   "text": "Erm. It’s OK. It looks a bit old-fashioned though."
+  },
+  {
+   "i": 8,
+   "start_s": 42.36,
+   "end_s": 43.62,
+   "dur_s": 1.26,
+   "text": "Which shop are you in?"
+  },
+  {
+   "i": 9,
+   "start_s": 44.71,
+   "end_s": 49.04,
+   "dur_s": 4.33,
+   "text": "Tell me you’re not looking for clothes in that old place in Green Street."
+  },
+  {
+   "i": 10,
+   "start_s": 49.68,
+   "end_s": 51.88,
+   "dur_s": 2.2,
+   "text": "Hah! Of course I am!"
+  },
+  {
+   "i": 11,
+   "start_s": 52.52,
+   "end_s": 55.68,
+   "dur_s": 3.16,
+   "text": "You know I always like to buy my clothes here."
+  },
+  {
+   "i": 12,
+   "start_s": 56.48,
+   "end_s": 58.48,
+   "dur_s": 2.0,
+   "text": "But their clothes are all second-hand."
+  },
+  {
+   "i": 13,
+   "start_s": 58.94,
+   "end_s": 61.33,
+   "dur_s": 2.39,
+   "text": "And that means they’re old-fashioned."
+  },
+  {
+   "i": 14,
+   "start_s": 62.01,
+   "end_s": 67.42,
+   "dur_s": 5.41,
+   "text": "I like the clothes here – they’re really cool and they’re cheap."
+  },
+  {
+   "i": 15,
+   "start_s": 68.08,
+   "end_s": 70.46,
+   "dur_s": 2.38,
+   "text": "I’m not rich like you, you know!"
+  },
+  {
+   "i": 16,
+   "start_s": 71.48,
+   "end_s": 75.26,
+   "dur_s": 3.78,
+   "text": "Me? Rich? You’re joking of course. Hahaha."
+  },
+  {
+   "i": 17,
+   "start_s": 75.98,
+   "end_s": 80.88,
+   "dur_s": 4.9,
+   "text": "Go to Barker’s next to the big chemist’s in Market Street."
+  },
+  {
+   "i": 18,
+   "start_s": 81.52,
+   "end_s": 82.72,
+   "dur_s": 1.2,
+   "text": "They’ve got a sale on."
+  },
+  {
+   "i": 19,
+   "start_s": 83.48,
+   "end_s": 87.52,
+   "dur_s": 4.04,
+   "text": "They’re selling everything at 30% off the original price!"
+  },
+  {
+   "i": 20,
+   "start_s": 88.41,
+   "end_s": 89.99,
+   "dur_s": 1.58,
+   "text": "And their stuff’s really nice."
+  },
+  {
+   "i": 21,
+   "start_s": 90.79,
+   "end_s": 95.09,
+   "dur_s": 4.3,
+   "text": "I’m wearing one of their T-shirts now. Only £9.99!"
+  },
+  {
+   "i": 22,
+   "start_s": 96.09,
+   "end_s": 101.13,
+   "dur_s": 5.04,
+   "text": "Yeah, that’s cool. And 30% off? Brilliant."
+  },
+  {
+   "i": 23,
+   "start_s": 102.96,
+   "end_s": 105.98,
+   "dur_s": 3.02,
+   "text": "OK, I’m going there now. Oh no!"
+  },
+  {
+   "i": 24,
+   "start_s": 106.84,
+   "end_s": 110.38,
+   "dur_s": 3.54,
+   "text": "Now it’s raining and I haven’t got an umbrella."
+  },
+  {
+   "i": 25,
+   "start_s": 112.51,
+   "end_s": 115.93,
+   "dur_s": 3.42,
+   "text": "OK, it’s not far. Five minutes and I’m there."
+  },
+  {
+   "i": 26,
+   "start_s": 117.74,
+   "end_s": 118.54,
+   "dur_s": 0.8,
+   "text": "Moments later."
+  },
+  {
+   "i": 27,
+   "start_s": 119.68,
+   "end_s": 122.926,
+   "dur_s": 3.246,
+   "text": "OK, here I am in Barker’s."
+  },
+  {
+   "i": 28,
+   "start_s": 123.38,
+   "end_s": 128.38,
+   "dur_s": 5.0,
+   "text": "The shop’s really crowded. It’s because of the sale, I guess."
+  },
+  {
+   "i": 29,
+   "start_s": 129.3,
+   "end_s": 133.16,
+   "dur_s": 3.86,
+   "text": "Maybe my mum’s there. She’s doing some shopping at the moment."
+  },
+  {
+   "i": 30,
+   "start_s": 134.24,
+   "end_s": 136.2,
+   "dur_s": 1.96,
+   "text": "So … anything nice?"
+  },
+  {
+   "i": 31,
+   "start_s": 136.76,
+   "end_s": 145.508,
+   "dur_s": 8.748,
+   "text": "Yeah! Look at this shirt! Only £25! I want it!"
+  },
+  {
+   "i": 32,
+   "start_s": 146.34,
+   "end_s": 149.92,
+   "dur_s": 3.58,
+   "text": "Mike, are you crazy? It’s awful."
+  },
+  {
+   "i": 33,
+   "start_s": 150.64,
+   "end_s": 151.75,
+   "dur_s": 1.11,
+   "text": "No, it’s not."
+  },
+  {
+   "i": 34,
+   "start_s": 152.41,
+   "end_s": 154.51,
+   "dur_s": 2.1,
+   "text": "I love wearing bright colours."
+  },
+  {
+   "i": 35,
+   "start_s": 155.11,
+   "end_s": 159.92,
+   "dur_s": 4.81,
+   "text": "They make me feel happy. It’s perfect for a rainy day."
+  },
+  {
+   "i": 36,
+   "start_s": 160.67,
+   "end_s": 163.67,
+   "dur_s": 3.0,
+   "text": "I think you’re wasting your money and my time."
+  },
+  {
+   "i": 37,
+   "start_s": 165.05,
+   "end_s": 168.29,
+   "dur_s": 3.24,
+   "text": "Anyway – are you looking for a jacket or a shirt?"
+  },
+  {
+   "i": 38,
+   "start_s": 169.09,
+   "end_s": 174.05,
+   "dur_s": 4.96,
+   "text": "Oh yes, you’re right. You’re better at clothes than me."
+  },
+  {
+   "i": 39,
+   "start_s": 174.83,
+   "end_s": 178.15,
+   "dur_s": 3.32,
+   "text": "Come and help me. You’re not doing anything, are you?"
+  },
+  {
+   "i": 40,
+   "start_s": 178.15,
+   "end_s": 182.76,
+   "dur_s": 4.61,
+   "text": "That sounds like a bad idea. It’s raining – remember?"
+  }
+ ]
+}

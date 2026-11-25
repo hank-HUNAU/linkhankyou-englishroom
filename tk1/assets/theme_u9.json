@@ -1,0 +1,233 @@
+[
+ {
+  "w": "beach",
+  "ipa": "biːtʃ",
+  "pos": "noun",
+  "zh": "海滩",
+  "ex": "We spent the day on the beach."
+ },
+ {
+  "w": "desert",
+  "ipa": "ˈde.zət",
+  "pos": "noun",
+  "zh": "沙漠",
+  "ex": "the Sahara Desert"
+ },
+ {
+  "w": "forest",
+  "ipa": "ˈfɒ.rɪst",
+  "pos": "noun",
+  "zh": "森林",
+  "ex": "the Black Forest"
+ },
+ {
+  "w": "hill",
+  "ipa": "hɪl",
+  "pos": "noun",
+  "zh": "山丘",
+  "ex": "We walked up/down the hill to the village."
+ },
+ {
+  "w": "island",
+  "ipa": "ˈaɪ.lənd",
+  "pos": "noun",
+  "zh": "岛",
+  "ex": "a desert island"
+ },
+ {
+  "w": "jungle",
+  "ipa": "ˈdʒʌŋ",
+  "pos": "noun",
+  "zh": "丛林",
+  "ex": "The Yanomami people live in the South American jungle."
+ },
+ {
+  "w": "lake",
+  "ipa": "leɪk",
+  "pos": "noun",
+  "zh": "湖",
+  "ex": "We used to go boating on that lake."
+ },
+ {
+  "w": "mountain",
+  "ipa": "ˈmaʊn.tɪn",
+  "pos": "noun",
+  "zh": "山",
+  "ex": "The Matterhorn is one of the biggest mountains in Europe."
+ },
+ {
+  "w": "ocean",
+  "ipa": "ˈəʊ.ʃən",
+  "pos": "noun",
+  "zh": "大海",
+  "ex": "to swim in the ocean"
+ },
+ {
+  "w": "river",
+  "ipa": "ˈrɪv.ə",
+  "pos": "noun",
+  "zh": "河",
+  "ex": "the River Thames"
+ },
+ {
+  "w": "beautiful",
+  "ipa": "ˈbjuː.tɪ.fəl",
+  "pos": "adjective",
+  "zh": "美丽的",
+  "ex": "a beautiful woman"
+ },
+ {
+  "w": "big",
+  "ipa": "bɪg",
+  "pos": "adjective",
+  "zh": "大的",
+  "ex": "He's a big man."
+ },
+ {
+  "w": "dangerous",
+  "ipa": "ˈdeɪn.dʒər.əs",
+  "pos": "adjective",
+  "zh": "危险的",
+  "ex": "There are dangerous spiders in the Kalahari."
+ },
+ {
+  "w": "difficult",
+  "ipa": "ˈdɪf.ɪ.kəlt",
+  "pos": "adjective",
+  "zh": "困难的",
+  "ex": "Life in the Kalahari is difficult."
+ },
+ {
+  "w": "exciting",
+  "ipa": "ɪkˈsaɪ.tɪŋ",
+  "pos": "adjective",
+  "zh": "令人兴奋 的",
+  "ex": "an exciting film/match"
+ },
+ {
+  "w": "high",
+  "ipa": "haɪ",
+  "pos": "adjective",
+  "zh": "高的",
+  "ex": "a high mountain"
+ },
+ {
+  "w": "hot",
+  "ipa": "hɒt",
+  "pos": "adjective",
+  "zh": "热的",
+  "ex": "a hot sunny day"
+ },
+ {
+  "w": "nice",
+  "ipa": "naɪs",
+  "pos": "adjective",
+  "zh": "美好的",
+  "ex": "nice weather"
+ },
+ {
+  "w": "come/go with",
+  "ipa": "ˈkʌm/ˈɡəʊ wɪð",
+  "pos": "phrase",
+  "zh": "和...来/去",
+  "ex": "My best friend came with me."
+ },
+ {
+  "w": "be busy with something",
+  "ipa": "bi ˈbɪ.zi wɪð ˈsʌ m.θɪŋ",
+  "pos": "phrase",
+  "zh": "忙于某事",
+  "ex": "I'm very busy with my homework."
+ },
+ {
+  "w": "be good with something",
+  "ipa": "bi ˈɡʊd wɪð ˈsʌm. θɪŋ",
+  "pos": "phrase",
+  "zh": "擅长某事",
+  "ex": "I'm not very good with computers."
+ },
+ {
+  "w": "cloudy",
+  "ipa": "ˈklaʊ.di",
+  "pos": "adjective",
+  "zh": "多云的",
+  "ex": "This morning was lovely but it's quite cloudy out there now."
+ },
+ {
+  "w": "cold",
+  "ipa": "kəʊld",
+  "pos": "adjective",
+  "zh": "寒冷的",
+  "ex": "cold weather"
+ },
+ {
+  "w": "dry",
+  "ipa": "draɪ",
+  "pos": "adjective",
+  "zh": "干的",
+  "ex": "a dry summer"
+ },
+ {
+  "w": "foggy",
+  "ipa": "ˈfɒg.i",
+  "pos": "adjective",
+  "zh": "有雾的",
+  "ex": "a foggy day"
+ },
+ {
+  "w": "freezing",
+  "ipa": "ˈfriː.zɪŋ",
+  "pos": "adjective",
+  "zh": "极冷的",
+  "ex": "It's freezing in here!"
+ },
+ {
+  "w": "hot",
+  "ipa": "hɒt",
+  "pos": "adjective",
+  "zh": "热的",
+  "ex": "a hot sunny day"
+ },
+ {
+  "w": "humid",
+  "ipa": "ˈhjuː.mɪd",
+  "pos": "adjective",
+  "zh": "潮湿的",
+  "ex": "It's very humid today."
+ },
+ {
+  "w": "rainy",
+  "ipa": "ˈreɪ.ni",
+  "pos": "adjective",
+  "zh": "阴雨的",
+  "ex": "a rainy afternoon"
+ },
+ {
+  "w": "sunny",
+  "ipa": "ˈsʌn.i",
+  "pos": "adjective",
+  "zh": "晴朗的",
+  "ex": "It's a nice sunny morning."
+ },
+ {
+  "w": "warm",
+  "ipa": "wɔːm",
+  "pos": "adjective",
+  "zh": "温暖的",
+  "ex": "warm water"
+ },
+ {
+  "w": "wet",
+  "ipa": "wet",
+  "pos": "adjective",
+  "zh": "潮湿的",
+  "ex": "a wet floor"
+ },
+ {
+  "w": "windy",
+  "ipa": "ˈwɪnd.i",
+  "pos": "adjective",
+  "zh": "多风的",
+  "ex": "It was a windy night."
+ }
+]

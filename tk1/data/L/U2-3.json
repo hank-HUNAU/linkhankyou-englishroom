@@ -1,0 +1,224 @@
+{
+ "id": "U2-3",
+ "no": 6,
+ "title": "Unit 2-Reading B",
+ "titleZh": "Web forum: It’s Sunday afternoon",
+ "audio": "assets/tk1_p024.mp3",
+ "duration": 166.74,
+ "question": null,
+ "unit": "Unit 2",
+ "part": "Reading B",
+ "partCn": "阅读B",
+ "bookPage": "p024",
+ "srcKey": "SB_u02_p024_t08",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.63,
+   "t2": 9.68,
+   "en": "It’s Sunday afternoon. What can I do?",
+   "zh": "周日午后。我能做点什么呢？",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 10.82,
+   "t2": 13.05,
+   "en": "Annie 7 May",
+   "zh": "安妮 5 月 7 日",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 14.08,
+   "t2": 19.92,
+   "en": "It’s Sunday afternoon. The last hours of the weekend before school starts again.",
+   "zh": "今天是周日下午。周末的最后几个小时，马上又要上学了。",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 20.54,
+   "t2": 27.1,
+   "en": "This time is valuable, but I’m sitting here with nothing to do and no money to spend!",
+   "zh": "这段时间很宝贵，可我坐在这里，无事可做，也没钱可花！",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 27.78,
+   "t2": 30.48,
+   "en": "So I need ideas for things to do.",
+   "zh": "所以我需要一些点子，找点事做。",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 30.48,
+   "t2": 34.26,
+   "en": "Important: they need to be fun and free.",
+   "zh": "重要的是：要有意思，还不花钱。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 34.98,
+   "t2": 38.02,
+   "en": "I’m asking for help because time is running out!",
+   "zh": "我在求助，因为时间不多了！",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 39.84,
+   "t2": 43.131,
+   "en": "Austin08 (Five minutes ago)",
+   "zh": "Austin08（5 分钟前）",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 44.0,
+   "t2": 51.59,
+   "en": "Go for a walk. I always go for a walk on Sunday. I like going on my own.",
+   "zh": "去散散步吧。我每周日都去散步。我喜欢一个人走。",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 52.29,
+   "t2": 60.59,
+   "en": "It’s the perfect time to think about all the things I don’t normally have time to think about and I never think about things I need to do.",
+   "zh": "那是思考那些平时没时间想的事情的最佳时机，而我从不去想那些必须做的事。",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 60.59,
+   "t2": 65.527,
+   "en": "I like forgetting all about them just for a few hours every week.",
+   "zh": "我喜欢每周有那么几个小时，把这些全都忘掉。",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 68.02,
+   "t2": 72.191,
+   "en": "MonsterMunch4342 (20 minutes ago)",
+   "zh": "MonsterMunch4342（20 分钟前）",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 73.32,
+   "t2": 80.55,
+   "en": "I’m writing my weekly poetry blog post. Well, I was – now I’m writing to you.",
+   "zh": "我正在写我每周的诗歌博客。嗯，刚才在写——现在我在给你回信。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 81.58,
+   "t2": 83.56,
+   "en": "I upload a post every Sunday.",
+   "zh": "我每个周日都会发一篇博文。",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 84.64,
+   "t2": 89.68,
+   "en": "At the moment, I’m finishing poem number 15. Five more to go!",
+   "zh": "现在我正在写第 15 首诗。还有 5 首就写完了！",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 90.7,
+   "t2": 96.59,
+   "en": "Maybe you don’t want to write a poem or even a blog, so try a story.",
+   "zh": "也许你不想写诗，甚至不想写博客，那就试试写故事吧。",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 97.66,
+   "t2": 99.64,
+   "en": "Go on – use your imagination!",
+   "zh": "来吧——发挥你的想象力！",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 103.0,
+   "t2": 106.928,
+   "en": "Cool656Carl (25 minutes ago)",
+   "zh": "Cool656Carl（25 分钟前）",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 107.96,
+   "t2": 114.85,
+   "en": "I’m lucky. I live in Liverpool and we have the best museums and they’re all free.",
+   "zh": "我很幸运。我住在利物浦，这里有最棒的博物馆，而且都免费。",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 115.81,
+   "t2": 123.41,
+   "en": "They’re too big for just one visit, so one Sunday every month I go and check out a different room.",
+   "zh": "它们太大了，一次看不完，所以我每个月挑一个周日，去看看不同的展厅。",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 124.21,
+   "t2": 130.218,
+   "en": "Today it’s the insect room – I want to see what unusual bugs they have!",
+   "zh": "今天是昆虫展厅——我想看看那里有什么奇怪的虫子！",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 131.68,
+   "t2": 135.663,
+   "en": "SillyMilly (32 minutes ago)",
+   "zh": "SillyMilly（32 分钟前）",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 136.91,
+   "t2": 140.89,
+   "en": "Read something. Sunday is my reading day.",
+   "zh": "读点东西吧。周日是我的阅读日。",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 142.18,
+   "t2": 152.19,
+   "en": "I read for at least four hours on a Sunday – books, magazines, websites, newspapers – anything.",
+   "zh": "周日我至少读 4 个小时——书、杂志、网站、报纸——什么都读。",
+   "conf": 1.0
+  },
+  {
+   "i": 24,
+   "t": 153.53,
+   "t2": 157.47,
+   "en": "It’s free and best of all – you can do it anywhere.",
+   "zh": "这不用花钱，而且最重要的是——你在哪儿都能读。",
+   "conf": 1.0
+  },
+  {
+   "i": 25,
+   "t": 157.47,
+   "t2": 163.42,
+   "en": "And sometimes, when I’m really lucky, Dad brings me a drink, too.",
+   "zh": "有时候我特别走运，爸爸还会给我送一杯饮料来。",
+   "conf": 1.0
+  }
+ ]
+}

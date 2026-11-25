@@ -1,0 +1,204 @@
+{
+ "id": "SB_u05_p052_t07",
+ "no": 5.07,
+ "title": "Holiday blog: Our holiday castle",
+ "titleZh": "",
+ "audio": "assets/tk1_p052.mp3",
+ "duration": 114.1,
+ "question": null,
+ "unit": 5,
+ "part": "阅读B",
+ "bookPage": "p052",
+ "srcKey": "SB_u05_p052_t07",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 11.11,
+   "t2": 12.12,
+   "en": "We’re still in Ireland.",
+   "zh": "我们还在爱尔兰。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 13.06,
+   "t2": 15.302,
+   "en": "We arrived in Dublin four days ago.",
+   "zh": "我们四天前到了都柏林。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 16.0,
+   "t2": 20.643,
+   "en": "My sister and I liked it a lot – it was great – we weren’t bored at all!",
+   "zh": "我和妹妹都很喜欢那里——特别棒——我们一点儿都不无聊！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 21.38,
+   "t2": 33.66,
+   "en": "Then yesterday, after lunch, Dad hired a car and we travelled to the west of Ireland – it didn’t take very long, just about two and a half hours, but that was a bit boring.",
+   "zh": "然后昨天午饭后，爸爸租了一辆车，我们开车去了爱尔兰西部——路不太远，只开了大概两个半小时，不过那段路有点无聊。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 34.58,
+   "t2": 40.205,
+   "en": "But, after two hours, Dad turned round to us and said: ‘We’ve got a surprise for you.",
+   "zh": "但开了两小时后，爸爸转过头对我们说：“我们给你们准备了一个惊喜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 40.64,
+   "t2": 44.44,
+   "en": "Tonight our hotel is a castle! How exciting is that!’",
+   "zh": "今晚我们的酒店是一座城堡！多让人兴奋啊！”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 45.36,
+   "t2": 47.32,
+   "en": "A joke, right? Wrong!",
+   "zh": "开玩笑的吧？才不是！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 47.96,
+   "t2": 50.22,
+   "en": "We didn’t think he was serious, but he was!",
+   "zh": "我们原以为他不是认真的，结果他是认真的！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 50.22,
+   "t2": 55.18,
+   "en": "At the end of the journey, we stopped outside a real castle.",
+   "zh": "旅程结束的时候，我们把车停在了一座真正的城堡外面。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 56.16,
+   "t2": 59.6,
+   "en": "A nice lady welcomed us and started to show us around.",
+   "zh": "一位和蔼的女士迎接我们，开始带我们四处参观。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 60.3,
+   "t2": 61.54,
+   "en": "What an amazing place!",
+   "zh": "这地方太惊人了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 62.58,
+   "t2": 66.804,
+   "en": "Can you believe that we walked up fifty stone steps to get to the living room?",
+   "zh": "你能相信吗，我们爬了五十级石阶才到客厅？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 67.66,
+   "t2": 72.806,
+   "en": "The castle is over 600 years old, but it had everything we needed.",
+   "zh": "这座城堡有 600 多年历史，但我们需要的东西它全都有。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 73.36,
+   "t2": 77.322,
+   "en": "There was a bedroom for our parents and we each had a bedroom, too.",
+   "zh": "有给我们父母的一间卧室，我们每人也各有一间。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 77.78,
+   "t2": 83.02,
+   "en": "But I didn’t sleep very well last night – I was so excited to be in a real castle!",
+   "zh": "但我昨晚睡得不太好——能住在真正的城堡里，我太兴奋了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 84.28,
+   "t2": 88.54,
+   "en": "This morning we had breakfast and then we climbed up to the top of the castle.",
+   "zh": "今天早上我们吃了早饭，然后爬到了城堡顶上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 89.28,
+   "t2": 92.624,
+   "en": "We were amazed at the beautiful countryside around us.",
+   "zh": "周围美丽的乡村景色让我们惊叹不已。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 93.42,
+   "t2": 97.98,
+   "en": "Then it started to rain and there was a fantastic rainbow – I love rainbows!",
+   "zh": "后来下起了雨，还出现了一道绚丽的彩虹——我爱彩虹！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 98.88,
+   "t2": 101.889,
+   "en": "The place was so great, we didn’t want to leave.",
+   "zh": "这地方太棒了，我们都不想走。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 102.74,
+   "t2": 107.195,
+   "en": "This afternoon we want to go to Limerick, so we’re packing our bags again!",
+   "zh": "今天下午我们想去利默里克，所以我们又在收拾行李了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 107.76,
+   "t2": 110.9,
+   "en": "Can it be as good as a castle? Let’s see.",
+   "zh": "它能和城堡一样好吗？走着瞧吧。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

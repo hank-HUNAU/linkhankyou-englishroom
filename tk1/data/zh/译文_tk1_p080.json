@@ -1,0 +1,135 @@
+{
+ "passage_key": "u8_80",
+ "page": "p080",
+ "unit": 8,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 25,
+ "n_unique_keys": 25,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Sports such as football, tennis and golf are popular all over the world with millions of people playing them or watching them on TV.",
+   "zh": "足球、网球和高尔夫球等运动在世界各地都很受欢迎，有数百万人参与或在电视上观看。"
+  },
+  {
+   "i": 1,
+   "en": "But there are also many unusual sports that are not so well known.",
+   "zh": "但也有许多不寻常的运动不太为人所知。"
+  },
+  {
+   "i": 2,
+   "en": "Here are four interesting examples.",
+   "zh": "这里有四个有趣的例子。"
+  },
+  {
+   "i": 3,
+   "en": "Every year, on a small Chinese island, thousands of people arrive to celebrate a very special event: the Cheung Chau bun festival.",
+   "zh": "每年，在中国的一座小岛上，成千上万的人前来庆祝一个非常特别的活动：长洲包山节。"
+  },
+  {
+   "i": 4,
+   "en": "The highlight of the festival is a race to the top of a very strange mountain.",
+   "zh": "节日的亮点是攀登一座非常奇怪的“山”的比赛。"
+  },
+  {
+   "i": 5,
+   "en": "The mountain is made of metal and covered with a type of traditional Chinese bun.",
+   "zh": "这座“山”是金属做的，上面覆盖着一种中国传统包子。"
+  },
+  {
+   "i": 6,
+   "en": "Spectators watch as three teams compete to see how many buns they can take from the mountain.",
+   "zh": "观众看着三支队伍比赛，看谁能从“山”上拿下最多的包子。"
+  },
+  {
+   "i": 7,
+   "en": "The climb can be quite dangerous and people who want to take part must take a special training course.",
+   "zh": "攀爬可能相当危险，想参加的人必须上特别的培训课程。"
+  },
+  {
+   "i": 8,
+   "en": "Camel racing is a popular sport in many countries around the world, including Mongolia and Australia.",
+   "zh": "骆驼赛跑在世界上许多国家都很受欢迎，包括蒙古和澳大利亚。"
+  },
+  {
+   "i": 9,
+   "en": "But it is especially popular in the Middle East and each year, from late October to early April, many big races take place in countries such as the United Arab Emirates.",
+   "zh": "但它在中东尤其受欢迎，每年从 10 月下旬到次年 4 月初，阿联酋等国都会举办许多大型比赛。"
+  },
+  {
+   "i": 10,
+   "en": "As many as 70 camels race along sandy desert tracks for up to 16 km.",
+   "zh": "多达 70 头骆驼沿着沙漠跑道奔跑，最长可达 16 公里。"
+  },
+  {
+   "i": 11,
+   "en": "The owners of the camels drive by the side of the animals shouting at them to run faster and cross the finish line before the others.",
+   "zh": "骆驼的主人开车跟在旁边，大声喊它们跑快点，抢在别的骆驼之前冲过终点线。"
+  },
+  {
+   "i": 12,
+   "en": "Bossaball is a very modern sport that was first played in 2005.",
+   "zh": "Bossaball 是一项非常现代的运动，2005 年首次开展。"
+  },
+  {
+   "i": 13,
+   "en": "It started in Spain, but it was the idea of a Belgian man called Filip Eyckmans.",
+   "zh": "它始于西班牙，但是一位名叫菲利普·艾克曼斯的比利时人的创意。"
+  },
+  {
+   "i": 14,
+   "en": "He wanted to create a sport that mixed together football, gymnastics, volleyball and the Brazilian music of bossa nova.",
+   "zh": "他想创造一项融合足球、体操、排球和巴西波萨诺瓦音乐的运动。"
+  },
+  {
+   "i": 15,
+   "en": "There are two trampolines with a net between them.",
+   "zh": "场地上有两个蹦床，中间隔着一张网。"
+  },
+  {
+   "i": 16,
+   "en": "The idea is for one team to hit the ball over the net and the other team to try and hit it back.",
+   "zh": "规则是一队把球打过网，另一队设法把球打回去。"
+  },
+  {
+   "i": 17,
+   "en": "The trampolines let the players jump very high, making the sport very exciting to watch.",
+   "zh": "蹦床让运动员跳得很高，使这项运动看起来非常刺激。"
+  },
+  {
+   "i": 18,
+   "en": "The sport is already popular in many countries around the world, including Brazil, Mexico, Turkey, Singapore and Saudi Arabia.",
+   "zh": "这项运动已经在世界许多国家流行，包括巴西、墨西哥、土耳其、新加坡和沙特阿拉伯。"
+  },
+  {
+   "i": 19,
+   "en": "Chess boxing was the invention of Dutch artist Iepe Rubingh.",
+   "zh": "国际象棋拳击是荷兰艺术家伊佩·鲁宾发明的。"
+  },
+  {
+   "i": 20,
+   "en": "His original idea was to create a piece of performance art, but it was so popular that it soon became a sport played in countries all over the world.",
+   "zh": "他最初的想法是创作一件表演艺术作品，但它太受欢迎了，很快成为世界许多国家都开展的运动。"
+  },
+  {
+   "i": 21,
+   "en": "The game is quite simple.",
+   "zh": "这项比赛相当简单。"
+  },
+  {
+   "i": 22,
+   "en": "Two contestants compete against each other at chess and boxing.",
+   "zh": "两名选手在国际象棋和拳击两方面相互较量。"
+  },
+  {
+   "i": 23,
+   "en": "Each round of chess is followed by a round of boxing with a break of a minute between each round to give the players time to put on or take off their gloves.",
+   "zh": "每一轮象棋之后是一轮拳击，每轮之间休息一分钟，让选手有时间戴上或摘下手套。"
+  },
+  {
+   "i": 24,
+   "en": "The first person to win either the chess match or the boxing match wins the game.",
+   "zh": "先在象棋或拳击中获胜的一方赢得整场比赛。"
+  }
+ ]
+}

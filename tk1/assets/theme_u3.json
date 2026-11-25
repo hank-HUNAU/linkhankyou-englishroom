@@ -1,0 +1,226 @@
+[
+ {
+  "w": "carrots",
+  "ipa": "ˈkær.əts",
+  "pos": "noun",
+  "zh": "胡萝卜",
+  "ex": "raw carrots"
+ },
+ {
+  "w": "cake",
+  "ipa": "keɪk",
+  "pos": "noun",
+  "zh": "蛋糕",
+  "ex": "chocolate cake"
+ },
+ {
+  "w": "peppers",
+  "ipa": "ˈpep.əz",
+  "pos": "noun",
+  "zh": "辣椒",
+  "ex": "red peppers"
+ },
+ {
+  "w": "yoghurt",
+  "ipa": "ˈjɒg.ət",
+  "pos": "noun",
+  "zh": "酸奶",
+  "ex": "I'd like a bowl of fruit with yoghurt."
+ },
+ {
+  "w": "omelette",
+  "ipa": "ˈɒm.lət",
+  "pos": "noun",
+  "zh": "煎蛋",
+  "ex": "a cheese/mushroom omelette"
+ },
+ {
+  "w": "chilli",
+  "ipa": "ˈtʃɪl.i",
+  "pos": "noun",
+  "zh": "辣椒",
+  "ex": "We had chilli with rice."
+ },
+ {
+  "w": "coffee",
+  "ipa": "ˈkɒf.i",
+  "pos": "noun",
+  "zh": "咖啡",
+  "ex": "fresh/instant coffee"
+ },
+ {
+  "w": "beans",
+  "ipa": "biːnz",
+  "pos": "noun",
+  "zh": "豆",
+  "ex": "green beans"
+ },
+ {
+  "w": "salad",
+  "ipa": "ˈsæ..əd",
+  "pos": "noun",
+  "zh": "沙拉",
+  "ex": "a salad bowl"
+ },
+ {
+  "w": "tacos",
+  "ipa": "ˈtæk.əʊz",
+  "pos": "noun",
+  "zh": "玉米饼",
+  "ex": "They had tacos for lunch."
+ },
+ {
+  "w": "have got a problem",
+  "ipa": "hæv ˌɡɒt ə ˈprɒb.ləm",
+  "pos": "phrase",
+  "zh": "遇到问题 了",
+  "ex": "I've got a problem - my computer won't work."
+ },
+ {
+  "w": "have got my reasons",
+  "ipa": "hæv ˌɡɒt maɪ ˈriː.zənz",
+  "pos": "phrase",
+  "zh": "有我的理 由",
+  "ex": "I've got my reasons, but I don't want to tell you."
+ },
+ {
+  "w": "have got a headache",
+  "ipa": "hæv ˌɡɒt ə ˈhed.eɪk",
+  "pos": "phrase",
+  "zh": "头疼",
+  "ex": "Beth has got a headache."
+ },
+ {
+  "w": "have got time",
+  "ipa": "hæv ˌɡɒt ˈtaɪm",
+  "pos": "phrase",
+  "zh": "有时间",
+  "ex": "Have you got time to look at this?"
+ },
+ {
+  "w": "have got something to do",
+  "ipa": "hæv ɡɒt ˌsʌm.θɪŋ tə ˈduː",
+  "pos": "phrase",
+  "zh": "有事情要 做",
+  "ex": "Have you all got something to do?"
+ },
+ {
+  "w": "roast",
+  "ipa": "rəʊst",
+  "pos": "adjective",
+  "zh": "烘烤的",
+  "ex": "roast chicken"
+ },
+ {
+  "w": "boiled",
+  "ipa": "bɔɪld",
+  "pos": "adjective",
+  "zh": "沸腾的",
+  "ex": "boiled potatoes"
+ },
+ {
+  "w": "grilled",
+  "ipa": "grɪld",
+  "pos": "adjective",
+  "zh": "烤的",
+  "ex": "grilled steak/fish"
+ },
+ {
+  "w": "fried",
+  "ipa": "fraɪd",
+  "pos": "adjective",
+  "zh": "油炸的",
+  "ex": "He cooked fried chicken and sausages."
+ },
+ {
+  "w": "nice",
+  "ipa": "naɪs",
+  "pos": "adjective",
+  "zh": "美好的",
+  "ex": "He's a really nice guy."
+ },
+ {
+  "w": "horrible",
+  "ipa": "ˈhɒ.rə",
+  "pos": "adjective",
+  "zh": "极坏的",
+  "ex": "He's got a horrible cold."
+ },
+ {
+  "w": "delicious",
+  "ipa": "dɪˈlɪʃ.əs",
+  "pos": "adjective",
+  "zh": "美味的",
+  "ex": "They’re really fresh. Delicious!"
+ },
+ {
+  "w": "(a bit) boring",
+  "ipa": "ˈbɔː.rɪŋ",
+  "pos": "adjective",
+  "zh": "（有点） 无聊的",
+  "ex": "a boring job/lecture"
+ },
+ {
+  "w": "sweet",
+  "ipa": "swiːt",
+  "pos": "adjective",
+  "zh": "甜的；含 糖的",
+  "ex": "The pineapple was sweet and juicy."
+ },
+ {
+  "w": "spicy",
+  "ipa": "ˈspaɪ.si",
+  "pos": "adjective",
+  "zh": "辛辣的",
+  "ex": "Do you like spicy food?"
+ },
+ {
+  "w": "savoury",
+  "ipa": "ˈseɪ.vər.i",
+  "pos": "adjective",
+  "zh": "咸味的",
+  "ex": "We made some savoury biscuits."
+ },
+ {
+  "w": "fresh",
+  "ipa": "freʃ",
+  "pos": "adjective",
+  "zh": "新鲜的",
+  "ex": "They’re really fresh. Delicious!"
+ },
+ {
+  "w": "tasty",
+  "ipa": "ˈteɪ.sti",
+  "pos": "adjective",
+  "zh": "美味的",
+  "ex": "They do a very tasty breakfast."
+ },
+ {
+  "w": "yummy",
+  "ipa": "ˈjʌm.i",
+  "pos": "adjective",
+  "zh": "好吃的",
+  "ex": "This curry is really yummy."
+ },
+ {
+  "w": "fatty",
+  "ipa": "ˈfæt.i",
+  "pos": "adjective",
+  "zh": "富含脂肪 的",
+  "ex": "Try to cut down on eating fatty foods."
+ },
+ {
+  "w": "disgusting",
+  "ipa": "dɪsˈgʌs.tɪŋ",
+  "pos": "adjective",
+  "zh": "令人厌恶 的",
+  "ex": "This food is disgusting."
+ },
+ {
+  "w": "salty",
+  "ipa": "ˈsɒlt.i",
+  "pos": "adjective",
+  "zh": "咸的",
+  "ex": "It’s a bit too salty."
+ }
+]

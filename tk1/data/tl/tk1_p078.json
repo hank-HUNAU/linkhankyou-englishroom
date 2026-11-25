@@ -1,0 +1,187 @@
+{
+ "unit": "U8",
+ "passage_key": "u8_78",
+ "page": "p078",
+ "title": "Web forum: Sporting fails",
+ "type": "阅读B",
+ "n_sent": 25,
+ "duration_s": 153.42,
+ "source": "Think 1 U8 增量：alignment/SB_u08_p078_t05 + 译文_tk1_p078.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.2,
+   "end_s": 13.259,
+   "dur_s": 4.059,
+   "text": "Professional athletes need their bodies to be in excellent condition."
+  },
+  {
+   "i": 1,
+   "start_s": 13.84,
+   "end_s": 16.927,
+   "dur_s": 3.087,
+   "text": "They train hours every day to achieve this."
+  },
+  {
+   "i": 2,
+   "start_s": 17.52,
+   "end_s": 23.8,
+   "dur_s": 6.28,
+   "text": "Sometimes it only takes one small mistake to spoil all that hard work."
+  },
+  {
+   "i": 3,
+   "start_s": 24.26,
+   "end_s": 30.209,
+   "dur_s": 5.949,
+   "text": "In 2011, for example, French golfer Thomas Levet won the French Open."
+  },
+  {
+   "i": 4,
+   "start_s": 30.86,
+   "end_s": 35.306,
+   "dur_s": 4.446,
+   "text": "He was so happy that he jumped in a lake and broke his leg."
+  },
+  {
+   "i": 5,
+   "start_s": 35.82,
+   "end_s": 46.38,
+   "dur_s": 10.56,
+   "text": "And American skier Lindsey Vonn cut her hand badly while she was opening a glass bottle to celebrate winning at the 2009 World Championships."
+  },
+  {
+   "i": 6,
+   "start_s": 47.2,
+   "end_s": 54.02,
+   "dur_s": 6.82,
+   "text": "We know you’re not professionals, but we want you to tell us all about your silliest sporting accidents."
+  },
+  {
+   "i": 7,
+   "start_s": 56.4,
+   "end_s": 60.151,
+   "dur_s": 3.751,
+   "text": "Last year, I was playing volleyball for my school team."
+  },
+  {
+   "i": 8,
+   "start_s": 60.68,
+   "end_s": 63.541,
+   "dur_s": 2.861,
+   "text": "I jumped up high and hit the ball really hard."
+  },
+  {
+   "i": 9,
+   "start_s": 64.1,
+   "end_s": 69.602,
+   "dur_s": 5.502,
+   "text": "At first, I thought it was a really good shot, but I soon found out it wasn’t."
+  },
+  {
+   "i": 10,
+   "start_s": 70.16,
+   "end_s": 76.3,
+   "dur_s": 6.14,
+   "text": "The ball hit the post at the side of the net: then it hit me in the face and knocked me to the floor."
+  },
+  {
+   "i": 11,
+   "start_s": 77.0,
+   "end_s": 82.001,
+   "dur_s": 5.001,
+   "text": "I had a big purple bruise on my face and I couldn’t play the rest of the game."
+  },
+  {
+   "i": 12,
+   "start_s": 84.3,
+   "end_s": 90.4,
+   "dur_s": 6.1,
+   "text": "When I was 13, I played for the school rugby team and we won the schools championship."
+  },
+  {
+   "i": 13,
+   "start_s": 91.32,
+   "end_s": 94.1,
+   "dur_s": 2.78,
+   "text": "A few days later, there was a big celebration."
+  },
+  {
+   "i": 14,
+   "start_s": 95.68,
+   "end_s": 101.72,
+   "dur_s": 6.04,
+   "text": "All the students were there to watch as we walked on to the stage to get medals from the headmistress."
+  },
+  {
+   "i": 15,
+   "start_s": 102.6,
+   "end_s": 108.96,
+   "dur_s": 6.36,
+   "text": "I got my medal, but when I was leaving the stage, I tripped and fell down the steps."
+  },
+  {
+   "i": 16,
+   "start_s": 109.66,
+   "end_s": 113.8,
+   "dur_s": 4.14,
+   "text": "Luckily, I wasn’t hurt, but I was really, really embarrassed."
+  },
+  {
+   "i": 17,
+   "start_s": 116.3,
+   "end_s": 121.74,
+   "dur_s": 5.44,
+   "text": "A few days ago I was skateboarding down my road when I saw my best friend."
+  },
+  {
+   "i": 18,
+   "start_s": 122.62,
+   "end_s": 124.62,
+   "dur_s": 2.0,
+   "text": "I shouted to him and started waving."
+  },
+  {
+   "i": 19,
+   "start_s": 125.6,
+   "end_s": 129.521,
+   "dur_s": 3.921,
+   "text": "While I was waving, I rode into a lamppost and fell off."
+  },
+  {
+   "i": 20,
+   "start_s": 130.12,
+   "end_s": 133.16,
+   "dur_s": 3.04,
+   "text": "My leg was hurting really badly and I couldn’t move."
+  },
+  {
+   "i": 21,
+   "start_s": 134.2,
+   "end_s": 137.08,
+   "dur_s": 2.88,
+   "text": "After ten minutes, my friend called an ambulance."
+  },
+  {
+   "i": 22,
+   "start_s": 138.1,
+   "end_s": 140.14,
+   "dur_s": 2.04,
+   "text": "Finally, they took me to hospital."
+  },
+  {
+   "i": 23,
+   "start_s": 141.12,
+   "end_s": 143.34,
+   "dur_s": 2.22,
+   "text": "The doctor there told me my leg was broken."
+  },
+  {
+   "i": 24,
+   "start_s": 144.14,
+   "end_s": 149.82,
+   "dur_s": 5.68,
+   "text": "Now I can’t skateboard for at least six months, and I have to miss the local championships."
+  }
+ ]
+}

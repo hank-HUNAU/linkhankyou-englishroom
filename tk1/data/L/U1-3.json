@@ -1,0 +1,208 @@
+{
+ "id": "U1-3",
+ "no": 3,
+ "title": "Unit 1-Reading B",
+ "titleZh": "Blog: What do you do in your free time?",
+ "audio": "assets/tk1_p016.mp3",
+ "duration": 161.7,
+ "question": null,
+ "unit": "Unit 1",
+ "part": "Reading B",
+ "partCn": "阅读B",
+ "bookPage": "p016",
+ "srcKey": "SB_u01_p016_t05",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.41,
+   "t2": 8.71,
+   "en": "What do you do in your free time?",
+   "zh": "你空闲的时候做什么？",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 10.04,
+   "t2": 20.68,
+   "en": "OK, we know you all like watching TV and playing computer games, but we want to know some of the other things you do when you've got some free time.",
+   "zh": "好，我们知道你们都喜欢看电视和玩电脑游戏，但我们想知道你们有空时还会做些什么别的事。",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 21.41,
+   "t2": 23.21,
+   "en": "Right, and let us know.",
+   "zh": "那么，请告诉我们吧。",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 24.65,
+   "t2": 25.2,
+   "en": "Hermione.",
+   "zh": "赫敏。",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 26.66,
+   "t2": 28.32,
+   "en": "I love cats!",
+   "zh": "我超喜欢猫！",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 28.32,
+   "t2": 33.1,
+   "en": "I like watching cat videos on YouTube every day.",
+   "zh": "我喜欢每天在 YouTube 上看猫的视频。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 34.06,
+   "t2": 42.89,
+   "en": "I love taking photos of them, too, cats that I see when I'm outside - I try to get photos of lots of different kinds.",
+   "zh": "我也喜欢给它们拍照，也就是我在外面看到的猫——我尽量拍下很多不同品种的猫。",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 43.95,
+   "t2": 50.63,
+   "en": "And I collect things with cats on them - you know, cards or notebooks or T-shirts, things like that.",
+   "zh": "而且我收集上面有猫的东西——你知道的，卡片、笔记本或者 T 恤之类的。",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 51.62,
+   "t2": 55.52,
+   "en": "But we can't have cats at home because my dad can't stand them!",
+   "zh": "但我们家不能养猫，因为我爸爸受不了它们！",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 57.63,
+   "t2": 58.07,
+   "en": "Andy.",
+   "zh": "安迪。",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 59.54,
+   "t2": 71.56,
+   "en": "I can't stand having nothing to do - for example, when I wait for the bus or in the queue at the fast food place - so I always have my puzzle app on my mobile.",
+   "zh": "我受不了没事可做——比如等公交车或者在快餐店排队的时候——所以我的手机里总是装着智力游戏应用。",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 72.75,
+   "t2": 82.26,
+   "en": "Sometimes it's Sudoku, sometimes a crossword or different word game, but it doesn't matter - I just love doing puzzles.",
+   "zh": "有时是数独，有时是填字游戏或其他文字游戏，但都无所谓——我就是喜欢玩智力游戏。",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 82.92,
+   "t2": 85.48,
+   "en": "And it's great because I never get bored.",
+   "zh": "这很棒，因为我从不觉得无聊。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 87.77,
+   "t2": 88.25,
+   "en": "Natalie.",
+   "zh": "娜塔莉。",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 89.89,
+   "t2": 98.67,
+   "en": "I'm usually busy, but occasionally I've got a bit of free time, especially in the evening after I do my homework.",
+   "zh": "我通常很忙，但偶尔会有一点空闲时间，尤其是在晚上做完作业以后。",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 99.62,
+   "t2": 103.26,
+   "en": "My favourite thing is looking at maps online.",
+   "zh": "我最喜欢做的事是在网上看地图。",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 104.33,
+   "t2": 109.45,
+   "en": "I like using 'street view' and I imagine myself walking in a street somewhere.",
+   "zh": "我喜欢用“街景”，想象自己走在某条街上。",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 110.7,
+   "t2": 116.16,
+   "en": "My dream is to go to New York, so I often 'walk' in the streets there.",
+   "zh": "我的梦想是去纽约，所以我经常在那里的街上“走走”。",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 117.28,
+   "t2": 121.58,
+   "en": "I try and visit a different place in the world at least once a week.",
+   "zh": "我尽量每周至少游览世界上一个不同的地方。",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 123.83,
+   "t2": 124.31,
+   "en": "Lucy.",
+   "zh": "露西。",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 125.82,
+   "t2": 137.0,
+   "en": "I don't really like sport - I hate running and doing exercise and all that - but I'm crazy about the New Zealand rugby team, the All Blacks.",
+   "zh": "我不太喜欢运动——讨厌跑步、锻炼那一类的事——但我特别喜欢新西兰橄榄球队全黑队。",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 137.59,
+   "t2": 146.99,
+   "en": "It's because my uncle and aunt live there and they love rugby, so I watch the games and collect anything I can about them!",
+   "zh": "因为我叔叔和阿姨住在那里，他们热爱橄榄球，所以我看比赛，还尽我所能收集关于他们的一切！",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 147.79,
+   "t2": 152.29,
+   "en": "I have a book that I put photos and newspaper articles in.",
+   "zh": "我有一个本子，用来放照片和报纸上的文章。",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 152.81,
+   "t2": 158.31,
+   "en": "Once a week my uncle and I talk on the internet about the All Blacks - I love that!",
+   "zh": "每周我都会和叔叔在网上聊全黑队——我太喜欢这样了！",
+   "conf": 1.0
+  }
+ ]
+}

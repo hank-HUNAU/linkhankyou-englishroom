@@ -1,0 +1,194 @@
+{
+ "unit": "U10",
+ "passage_key": "u10_98",
+ "page": "p098",
+ "title": "Culture: Mythical places around the world",
+ "type": "文化",
+ "n_sent": 26,
+ "duration_s": 221.23,
+ "source": "Think 1 U10 增量：alignment/SB_u10_p098_t06 + 译文_tk1_p098.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.0,
+   "end_s": 20.32,
+   "dur_s": 11.32,
+   "text": "There are very few places on Earth that are undiscovered and we have satellite photos of the most remote places on the planet."
+  },
+  {
+   "i": 1,
+   "start_s": 21.12,
+   "end_s": 31.916,
+   "dur_s": 10.796,
+   "text": "But people are always interested in mythical lands, places that people say exist but no one has ever found."
+  },
+  {
+   "i": 2,
+   "start_s": 32.68,
+   "end_s": 37.92,
+   "dur_s": 5.24,
+   "text": "Perhaps the most famous mythical place of all is Atlantis."
+  },
+  {
+   "i": 3,
+   "start_s": 39.02,
+   "end_s": 48.14,
+   "dur_s": 9.12,
+   "text": "Some people say it is a city, others say it is an island and others call it a continent."
+  },
+  {
+   "i": 4,
+   "start_s": 49.0,
+   "end_s": 58.712,
+   "dur_s": 9.712,
+   "text": "But whatever it is exactly, there is one thing that everyone agrees on: it is underneath the sea."
+  },
+  {
+   "i": 5,
+   "start_s": 59.76,
+   "end_s": 70.9,
+   "dur_s": 11.14,
+   "text": "The Greek philosopher Plato was the first person to describe it and he suggested that one time, its people attacked Athens."
+  },
+  {
+   "i": 6,
+   "start_s": 71.98,
+   "end_s": 76.057,
+   "dur_s": 4.077,
+   "text": "No one is sure exactly where Atlantis is."
+  },
+  {
+   "i": 7,
+   "start_s": 76.66,
+   "end_s": 81.86,
+   "dur_s": 5.2,
+   "text": "Because of its name, some people think it is somewhere in the Atlantic Ocean."
+  },
+  {
+   "i": 8,
+   "start_s": 82.94,
+   "end_s": 88.0,
+   "dur_s": 5.06,
+   "text": "Others say it’s in the Mediterranean Sea or in the Caribbean."
+  },
+  {
+   "i": 9,
+   "start_s": 89.68,
+   "end_s": 94.865,
+   "dur_s": 5.185,
+   "text": "Agartha is another mythical place that is not on the land."
+  },
+  {
+   "i": 10,
+   "start_s": 95.66,
+   "end_s": 99.5,
+   "dur_s": 3.84,
+   "text": "The legend says that it’s at the centre of our planet."
+  },
+  {
+   "i": 11,
+   "start_s": 100.62,
+   "end_s": 106.62,
+   "dur_s": 6.0,
+   "text": "Like Atlantis, it is famous for its culture and educated society."
+  },
+  {
+   "i": 12,
+   "start_s": 107.96,
+   "end_s": 114.02,
+   "dur_s": 6.06,
+   "text": "It was the inspiration for Jules Verne’s novel Journey to the Centre of the Earth."
+  },
+  {
+   "i": 13,
+   "start_s": 115.08,
+   "end_s": 122.0,
+   "dur_s": 6.92,
+   "text": "It tells the story of a group of travellers who go on an exciting adventure underground."
+  },
+  {
+   "i": 14,
+   "start_s": 123.42,
+   "end_s": 131.14,
+   "dur_s": 7.72,
+   "text": "Many people have tried to find the entrance to Agartha, which they think is somewhere in Antarctica."
+  },
+  {
+   "i": 15,
+   "start_s": 133.06,
+   "end_s": 142.12,
+   "dur_s": 9.06,
+   "text": "Some people believe that somewhere in South America there is a famous city of gold: El Dorado."
+  },
+  {
+   "i": 16,
+   "start_s": 143.3,
+   "end_s": 148.04,
+   "dur_s": 4.74,
+   "text": "Many people tried to find it, but they weren’t successful."
+  },
+  {
+   "i": 17,
+   "start_s": 149.68,
+   "end_s": 159.231,
+   "dur_s": 9.551,
+   "text": "El Dorado was originally the name of a person, a ruler of the ancient Colombian society called the Muisca."
+  },
+  {
+   "i": 18,
+   "start_s": 160.3,
+   "end_s": 164.16,
+   "dur_s": 3.86,
+   "text": "He covered himself in gold powder every day."
+  },
+  {
+   "i": 19,
+   "start_s": 165.12,
+   "end_s": 171.886,
+   "dur_s": 6.766,
+   "text": "There were legends in which people imagined that the whole city was made of gold."
+  },
+  {
+   "i": 20,
+   "start_s": 173.54,
+   "end_s": 179.0,
+   "dur_s": 5.46,
+   "text": "Our final mythical land is an island called Thule."
+  },
+  {
+   "i": 21,
+   "start_s": 179.66,
+   "end_s": 187.4,
+   "dur_s": 7.74,
+   "text": "The legend says that it is in the north of the Earth, somewhere between Norway and Iceland."
+  },
+  {
+   "i": 22,
+   "start_s": 188.6,
+   "end_s": 194.885,
+   "dur_s": 6.285,
+   "text": "This is an area of the world that is completely dark for a lot of the year."
+  },
+  {
+   "i": 23,
+   "start_s": 195.56,
+   "end_s": 205.94,
+   "dur_s": 10.38,
+   "text": "But the story goes that Thule is a place where a lot of delicious food grows and people are always happy."
+  },
+  {
+   "i": 24,
+   "start_s": 207.26,
+   "end_s": 212.34,
+   "dur_s": 5.08,
+   "text": "The Roman poet Silius Italicus wrote about Thule."
+  },
+  {
+   "i": 25,
+   "start_s": 212.76,
+   "end_s": 217.86,
+   "dur_s": 5.1,
+   "text": "In his story, the people living there are painted blue."
+  }
+ ]
+}

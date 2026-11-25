@@ -1,0 +1,159 @@
+{
+ "unit": "U5",
+ "passage_key": "u5_52",
+ "page": "p052",
+ "title": "Holiday blog: Our holiday castle",
+ "type": "阅读B",
+ "n_sent": 21,
+ "duration_s": 114.1,
+ "source": "Think 1 U5 增量：alignment/SB_u05_p052_t07 + 译文_tk1_p052.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 11.11,
+   "end_s": 12.12,
+   "dur_s": 1.01,
+   "text": "We’re still in Ireland."
+  },
+  {
+   "i": 1,
+   "start_s": 13.06,
+   "end_s": 15.302,
+   "dur_s": 2.242,
+   "text": "We arrived in Dublin four days ago."
+  },
+  {
+   "i": 2,
+   "start_s": 16.0,
+   "end_s": 20.643,
+   "dur_s": 4.643,
+   "text": "My sister and I liked it a lot – it was great – we weren’t bored at all!"
+  },
+  {
+   "i": 3,
+   "start_s": 21.38,
+   "end_s": 33.66,
+   "dur_s": 12.28,
+   "text": "Then yesterday, after lunch, Dad hired a car and we travelled to the west of Ireland – it didn’t take very long, just about two and a half hours, but that was a bit boring."
+  },
+  {
+   "i": 4,
+   "start_s": 34.58,
+   "end_s": 40.205,
+   "dur_s": 5.625,
+   "text": "But, after two hours, Dad turned round to us and said: ‘We’ve got a surprise for you."
+  },
+  {
+   "i": 5,
+   "start_s": 40.64,
+   "end_s": 44.44,
+   "dur_s": 3.8,
+   "text": "Tonight our hotel is a castle! How exciting is that!’"
+  },
+  {
+   "i": 6,
+   "start_s": 45.36,
+   "end_s": 47.32,
+   "dur_s": 1.96,
+   "text": "A joke, right? Wrong!"
+  },
+  {
+   "i": 7,
+   "start_s": 47.96,
+   "end_s": 50.22,
+   "dur_s": 2.26,
+   "text": "We didn’t think he was serious, but he was!"
+  },
+  {
+   "i": 8,
+   "start_s": 50.22,
+   "end_s": 55.18,
+   "dur_s": 4.96,
+   "text": "At the end of the journey, we stopped outside a real castle."
+  },
+  {
+   "i": 9,
+   "start_s": 56.16,
+   "end_s": 59.6,
+   "dur_s": 3.44,
+   "text": "A nice lady welcomed us and started to show us around."
+  },
+  {
+   "i": 10,
+   "start_s": 60.3,
+   "end_s": 61.54,
+   "dur_s": 1.24,
+   "text": "What an amazing place!"
+  },
+  {
+   "i": 11,
+   "start_s": 62.58,
+   "end_s": 66.804,
+   "dur_s": 4.224,
+   "text": "Can you believe that we walked up fifty stone steps to get to the living room?"
+  },
+  {
+   "i": 12,
+   "start_s": 67.66,
+   "end_s": 72.806,
+   "dur_s": 5.146,
+   "text": "The castle is over 600 years old, but it had everything we needed."
+  },
+  {
+   "i": 13,
+   "start_s": 73.36,
+   "end_s": 77.322,
+   "dur_s": 3.962,
+   "text": "There was a bedroom for our parents and we each had a bedroom, too."
+  },
+  {
+   "i": 14,
+   "start_s": 77.78,
+   "end_s": 83.02,
+   "dur_s": 5.24,
+   "text": "But I didn’t sleep very well last night – I was so excited to be in a real castle!"
+  },
+  {
+   "i": 15,
+   "start_s": 84.28,
+   "end_s": 88.54,
+   "dur_s": 4.26,
+   "text": "This morning we had breakfast and then we climbed up to the top of the castle."
+  },
+  {
+   "i": 16,
+   "start_s": 89.28,
+   "end_s": 92.624,
+   "dur_s": 3.344,
+   "text": "We were amazed at the beautiful countryside around us."
+  },
+  {
+   "i": 17,
+   "start_s": 93.42,
+   "end_s": 97.98,
+   "dur_s": 4.56,
+   "text": "Then it started to rain and there was a fantastic rainbow – I love rainbows!"
+  },
+  {
+   "i": 18,
+   "start_s": 98.88,
+   "end_s": 101.889,
+   "dur_s": 3.009,
+   "text": "The place was so great, we didn’t want to leave."
+  },
+  {
+   "i": 19,
+   "start_s": 102.74,
+   "end_s": 107.195,
+   "dur_s": 4.455,
+   "text": "This afternoon we want to go to Limerick, so we’re packing our bags again!"
+  },
+  {
+   "i": 20,
+   "start_s": 107.76,
+   "end_s": 110.9,
+   "dur_s": 3.14,
+   "text": "Can it be as good as a castle? Let’s see."
+  }
+ ]
+}

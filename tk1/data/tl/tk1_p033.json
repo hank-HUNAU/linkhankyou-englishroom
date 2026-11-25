@@ -1,0 +1,313 @@
+{
+ "unit": "U3",
+ "passage_key": "u3_33",
+ "page": "p033",
+ "title": "Listening: In a café ordering food",
+ "type": "听力",
+ "n_sent": 43,
+ "duration_s": 169.33,
+ "source": "Think 1 U3 增量：alignment/SB_u03_p033_t04 + 译文_tk1_p033.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 7.14,
+   "end_s": 9.8,
+   "dur_s": 2.66,
+   "text": "Hello. Can I help you?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.24,
+   "end_s": 14.7,
+   "dur_s": 4.46,
+   "text": "Yes, I’d like a cheese and tomato roll, please."
+  },
+  {
+   "i": 2,
+   "start_s": 14.7,
+   "end_s": 17.08,
+   "dur_s": 2.38,
+   "text": "Do you want the roll hot?"
+  },
+  {
+   "i": 3,
+   "start_s": 17.72,
+   "end_s": 18.46,
+   "dur_s": 0.74,
+   "text": "Yes, please."
+  },
+  {
+   "i": 4,
+   "start_s": 18.84,
+   "end_s": 20.64,
+   "dur_s": 1.8,
+   "text": "Would you like something to drink?"
+  },
+  {
+   "i": 5,
+   "start_s": 21.44,
+   "end_s": 25.22,
+   "dur_s": 3.78,
+   "text": "Yes, I’d like an apple juice, please."
+  },
+  {
+   "i": 6,
+   "start_s": 25.22,
+   "end_s": 30.78,
+   "dur_s": 5.56,
+   "text": "So that’s a roll and an apple juice. Is that all?"
+  },
+  {
+   "i": 7,
+   "start_s": 32.14,
+   "end_s": 35.4,
+   "dur_s": 3.26,
+   "text": "Er, I’d like some carrot cake, too."
+  },
+  {
+   "i": 8,
+   "start_s": 36.22,
+   "end_s": 39.68,
+   "dur_s": 3.46,
+   "text": "OK, that’s £8 altogether."
+  },
+  {
+   "i": 9,
+   "start_s": 40.74,
+   "end_s": 41.9,
+   "dur_s": 1.16,
+   "text": "Here you are."
+  },
+  {
+   "i": 10,
+   "start_s": 41.9,
+   "end_s": 49.86,
+   "dur_s": 7.96,
+   "text": "And that’s £2 change. The roll will be a few minutes. We’ll bring it to your table."
+  },
+  {
+   "i": 11,
+   "start_s": 49.86,
+   "end_s": 51.02,
+   "dur_s": 1.16,
+   "text": "Thank you."
+  },
+  {
+   "i": 12,
+   "start_s": 51.02,
+   "end_s": 54.86,
+   "dur_s": 3.84,
+   "text": "Enjoy your meal. And what can I get for you?"
+  },
+  {
+   "i": 13,
+   "start_s": 55.48,
+   "end_s": 60.16,
+   "dur_s": 4.68,
+   "text": "I’d like the chicken and mushroom soup, please, and an apple juice."
+  },
+  {
+   "i": 14,
+   "start_s": 60.16,
+   "end_s": 62.56,
+   "dur_s": 2.4,
+   "text": "OK. Anything else?"
+  },
+  {
+   "i": 15,
+   "start_s": 63.16,
+   "end_s": 64.82,
+   "dur_s": 1.66,
+   "text": "No, I think that’s all."
+  },
+  {
+   "i": 16,
+   "start_s": 64.82,
+   "end_s": 68.696,
+   "dur_s": 3.876,
+   "text": "What! No cake? But you said …"
+  },
+  {
+   "i": 17,
+   "start_s": 68.9,
+   "end_s": 72.98,
+   "dur_s": 4.08,
+   "text": "I’m trying to be good. I only buy cake at the weekends."
+  },
+  {
+   "i": 18,
+   "start_s": 72.98,
+   "end_s": 74.1,
+   "dur_s": 1.12,
+   "text": "Really?"
+  },
+  {
+   "i": 19,
+   "start_s": 74.66,
+   "end_s": 79.58,
+   "dur_s": 4.92,
+   "text": "Yes, I’m being careful with what I eat. Have you got a problem with that?"
+  },
+  {
+   "i": 20,
+   "start_s": 79.58,
+   "end_s": 81.66,
+   "dur_s": 2.08,
+   "text": "No, not at all."
+  },
+  {
+   "i": 21,
+   "start_s": 82.9,
+   "end_s": 84.84,
+   "dur_s": 1.94,
+   "text": "OK, that’s £6.50."
+  },
+  {
+   "i": 22,
+   "start_s": 85.3,
+   "end_s": 87.12,
+   "dur_s": 1.82,
+   "text": "Can I pay by card?"
+  },
+  {
+   "i": 23,
+   "start_s": 87.66,
+   "end_s": 90.1,
+   "dur_s": 2.44,
+   "text": "Of course. Just put it in here."
+  },
+  {
+   "i": 24,
+   "start_s": 91.4,
+   "end_s": 92.2,
+   "dur_s": 0.8,
+   "text": "It’s done."
+  },
+  {
+   "i": 25,
+   "start_s": 92.2,
+   "end_s": 96.16,
+   "dur_s": 3.96,
+   "text": "Thanks. We’ll bring the soup over in a minute or two."
+  },
+  {
+   "i": 26,
+   "start_s": 96.16,
+   "end_s": 98.7,
+   "dur_s": 2.54,
+   "text": "Could you bring me a fork with it, too?"
+  },
+  {
+   "i": 27,
+   "start_s": 99.16,
+   "end_s": 99.6,
+   "dur_s": 0.44,
+   "text": "Sure."
+  },
+  {
+   "i": 28,
+   "start_s": 99.6,
+   "end_s": 105.86,
+   "dur_s": 6.26,
+   "text": "A fork? What do you need a fork for? You can’t eat soup with a fork."
+  },
+  {
+   "i": 29,
+   "start_s": 105.86,
+   "end_s": 109.62,
+   "dur_s": 3.76,
+   "text": "I’ve got my reasons. Don’t you worry about it."
+  },
+  {
+   "i": 30,
+   "start_s": 111.2,
+   "end_s": 114.44,
+   "dur_s": 3.24,
+   "text": "Moments later …"
+  },
+  {
+   "i": 31,
+   "start_s": 115.12,
+   "end_s": 121.38,
+   "dur_s": 6.26,
+   "text": "Well, you’re right. This is a good roll. How’s the soup?"
+  },
+  {
+   "i": 32,
+   "start_s": 121.84,
+   "end_s": 124.38,
+   "dur_s": 2.54,
+   "text": "Delicious. Would you like to try some?"
+  },
+  {
+   "i": 33,
+   "start_s": 124.86,
+   "end_s": 130.28,
+   "dur_s": 5.42,
+   "text": "No, I’m OK. My cake looks fantastic, doesn’t it?"
+  },
+  {
+   "i": 34,
+   "start_s": 130.48,
+   "end_s": 135.28,
+   "dur_s": 4.8,
+   "text": "Yes, it does. Mmmmm … it tastes fantastic, too!"
+  },
+  {
+   "i": 35,
+   "start_s": 135.28,
+   "end_s": 137.96,
+   "dur_s": 2.68,
+   "text": "Hey, what are you doing?"
+  },
+  {
+   "i": 36,
+   "start_s": 138.6,
+   "end_s": 140.74,
+   "dur_s": 2.14,
+   "text": "Mmmmm. That is a good cake!"
+  },
+  {
+   "i": 37,
+   "start_s": 141.42,
+   "end_s": 145.06,
+   "dur_s": 3.64,
+   "text": "But you said, cake only at the weekends."
+  },
+  {
+   "i": 38,
+   "start_s": 145.06,
+   "end_s": 148.96,
+   "dur_s": 3.9,
+   "text": "I said I only buy cake at the weekends."
+  },
+  {
+   "i": 39,
+   "start_s": 149.62,
+   "end_s": 150.12,
+   "dur_s": 0.5,
+   "text": "And?"
+  },
+  {
+   "i": 40,
+   "start_s": 150.76,
+   "end_s": 156.0,
+   "dur_s": 5.24,
+   "text": "Well, you bought this cake. I’ve got no problem eating your cake."
+  },
+  {
+   "i": 41,
+   "start_s": 156.26,
+   "end_s": 158.88,
+   "dur_s": 2.62,
+   "text": "And that explains the fork."
+  },
+  {
+   "i": 42,
+   "start_s": 158.88,
+   "end_s": 164.84,
+   "dur_s": 5.96,
+   "text": "Yes, it does. Now hurry up and finish your roll before I eat all your cake."
+  }
+ ]
+}

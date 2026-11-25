@@ -1,0 +1,145 @@
+{
+ "passage_key": "u11_102",
+ "page": "p102",
+ "unit": 11,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 27,
+ "n_unique_keys": 27,
+ "entries": [
+  {
+   "i": 0,
+   "en": "A long time ago, people were very different from the way we are now.",
+   "zh": "很久以前，人们和我们现在的样子很不一样。"
+  },
+  {
+   "i": 1,
+   "en": "For example, if you find a really old house somewhere, you’ll see that the doors are usually much lower than they are today.",
+   "zh": "比如，如果你在某个地方找到一座很老的房子，你会看到它的门通常比现在的门矮得多。"
+  },
+  {
+   "i": 2,
+   "en": "Why?",
+   "zh": "为什么？"
+  },
+  {
+   "i": 3,
+   "en": "Because hundreds of years ago, people were shorter.",
+   "zh": "因为几百年前，人们更矮。"
+  },
+  {
+   "i": 4,
+   "en": "Over time, the human body changes to adapt to a new way of life.",
+   "zh": "随着时间推移，人体会改变来适应新的生活方式。"
+  },
+  {
+   "i": 5,
+   "en": "Can we expect the human body to change in the future?",
+   "zh": "我们能预期人体在未来发生变化吗？"
+  },
+  {
+   "i": 6,
+   "en": "For sure.",
+   "zh": "当然能。"
+  },
+  {
+   "i": 7,
+   "en": "And the main reason is that we have more and more technology, and it is changing how we live.",
+   "zh": "主要原因是我们的科技越来越多，它正在改变我们的生活方式。"
+  },
+  {
+   "i": 8,
+   "en": "What kind of changes can we expect?",
+   "zh": "我们能预期哪些变化？"
+  },
+  {
+   "i": 9,
+   "en": "Well, no one can be 100 percent sure, but here are some possibilities.",
+   "zh": "嗯，没人能 100% 确定，但这里有一些可能的变化。"
+  },
+  {
+   "i": 10,
+   "en": "Let’s start with the example above.",
+   "zh": "我们先从上面的例子说起。"
+  },
+  {
+   "i": 11,
+   "en": "Humans are now ten centimetres taller than 150 years ago.",
+   "zh": "现在的人比 150 年前高十厘米。"
+  },
+  {
+   "i": 12,
+   "en": "So, in the future, people will probably be even taller.",
+   "zh": "所以在未来，人们可能会更高。"
+  },
+  {
+   "i": 13,
+   "en": "Most of us now have much better food than people in the past – and so we grow more.",
+   "zh": "我们现在大多数人的食物比过去的人好得多，所以我们也长得更高。"
+  },
+  {
+   "i": 14,
+   "en": "We’ll get weaker in more than one way.",
+   "zh": "我们会在不止一个方面变得更弱。"
+  },
+  {
+   "i": 15,
+   "en": "The most important way is that our muscles will not be as strong as now because we won’t do a lot of physical work.",
+   "zh": "最重要的一点是，我们的肌肉不会像现在这么强壮，因为我们不会做很多体力活。"
+  },
+  {
+   "i": 16,
+   "en": "We are already using our feet less, and our hands more (think about computers and tablets and so on).",
+   "zh": "我们已经较少用脚，更多用手（想想电脑、平板等等）。"
+  },
+  {
+   "i": 17,
+   "en": "So we can expect that our legs will get shorter and our feet smaller, and at the same time, our fingers will get longer.",
+   "zh": "所以我们可以预期，我们的腿会变短，脚会变小，同时手指会变长。"
+  },
+  {
+   "i": 18,
+   "en": "And our fingers and our eyes will both get better because they’ll have to do more work together.",
+   "zh": "而且我们的手指和眼睛都会变得更好，因为它们要一起做更多工作。"
+  },
+  {
+   "i": 19,
+   "en": "Now, what about the mouth?",
+   "zh": "那么，嘴呢？"
+  },
+  {
+   "i": 20,
+   "en": "It’ll get smaller, perhaps, because technological improvements will mean that we don’t need to talk so much – and also because our teeth will get smaller (so mouths don’t need to be so big to keep them in).",
+   "zh": "它可能会变小，因为技术进步意味着我们不需要说那么多话，也因为我们的牙齿会变小（所以嘴不需要那么大才能装下它们）。"
+  },
+  {
+   "i": 21,
+   "en": "Here’s a good one – it’s very possible that people will have four toes, not five.",
+   "zh": "这条很有意思——很可能人们会有四个脚趾，而不是五个。"
+  },
+  {
+   "i": 22,
+   "en": "The little toe really isn’t needed anymore (people who lose them don’t miss them), so it will probably disappear sometime in the future.",
+   "zh": "小脚趾真的不再需要了（失去小脚趾的人也不会想念它们），所以它可能会在未来某个时候消失。"
+  },
+  {
+   "i": 23,
+   "en": "And last but not least – people won’t have as much hair on their bodies as now, as we don’t need it to keep ourselves warm anymore.",
+   "zh": "最后一点——人们身上的毛发不会像现在这么多，因为我们不再需要它来保暖。"
+  },
+  {
+   "i": 24,
+   "en": "Will all these things happen?",
+   "zh": "这些事情都会发生吗？"
+  },
+  {
+   "i": 25,
+   "en": "And if so, when?",
+   "zh": "如果会，什么时候？"
+  },
+  {
+   "i": 26,
+   "en": "These are questions that no one can answer for sure.",
+   "zh": "这些是没有人能肯定回答的问题。"
+  }
+ ]
+}

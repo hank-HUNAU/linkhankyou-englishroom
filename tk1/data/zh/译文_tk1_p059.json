@@ -1,0 +1,235 @@
+{
+ "passage_key": "u6_59",
+ "page": "p059",
+ "unit": 6,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 45,
+ "n_unique_keys": 45,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Hi, Jack. How was school?",
+   "zh": "嗨，杰克。学校怎么样？"
+  },
+  {
+   "i": 1,
+   "en": "Oh, fine.",
+   "zh": "哦，还行。"
+  },
+  {
+   "i": 2,
+   "en": "Mum, can I bring some friends round tomorrow?",
+   "zh": "妈妈，我明天能带几个朋友来家里吗？"
+  },
+  {
+   "i": 3,
+   "en": "Sure.",
+   "zh": "当然可以。"
+  },
+  {
+   "i": 4,
+   "en": "Who?",
+   "zh": "都有谁？"
+  },
+  {
+   "i": 5,
+   "en": "Oh, probably Rachel and Steve, maybe Leo.",
+   "zh": "哦，可能是雷切尔和史蒂夫，也许还有里奥。"
+  },
+  {
+   "i": 6,
+   "en": "OK. Not Markus?",
+   "zh": "好的。马库斯不来吗？"
+  },
+  {
+   "i": 7,
+   "en": "Er, no.",
+   "zh": "呃，不。"
+  },
+  {
+   "i": 8,
+   "en": "Oh? Why not?",
+   "zh": "哦？为什么不来？"
+  },
+  {
+   "i": 9,
+   "en": "Well, we’re not really friends any more.",
+   "zh": "嗯，我们不再是朋友了。"
+  },
+  {
+   "i": 10,
+   "en": "Seriously? I thought you two were best friends.",
+   "zh": "真的吗？我以为你们两个是最好的朋友。"
+  },
+  {
+   "i": 11,
+   "en": "Yeah, we were.",
+   "zh": "是的，我们以前是。"
+  },
+  {
+   "i": 12,
+   "en": "But you know, we had an argument – he said something I didn’t like – so he’s not my friend any more.",
+   "zh": "但你知道，我们吵了一架——他说了些我不喜欢的话——所以他不算是我的朋友了。"
+  },
+  {
+   "i": 13,
+   "en": "And what did he say?",
+   "zh": "他说了什么？"
+  },
+  {
+   "i": 14,
+   "en": "Well, he called me silly.",
+   "zh": "嗯，他叫我傻瓜。"
+  },
+  {
+   "i": 15,
+   "en": "Friends don’t do that.",
+   "zh": "朋友不会那样做。"
+  },
+  {
+   "i": 16,
+   "en": "Jack, do you remember Mrs Gordon? Janice? She’s a friend of mine.",
+   "zh": "杰克，你还记得戈登夫人吗？贾妮丝？她是我的一个朋友。"
+  },
+  {
+   "i": 17,
+   "en": "Yes, I remember.",
+   "zh": "记得，我记得。"
+  },
+  {
+   "i": 18,
+   "en": "She was your friend at school too, wasn’t she?",
+   "zh": "她以前上学时也是你的朋友，对吧？"
+  },
+  {
+   "i": 19,
+   "en": "Yes, and we’re still friends now, 20 years later.",
+   "zh": "对，而且我们现在还是朋友，20 年过去了。"
+  },
+  {
+   "i": 20,
+   "en": "Her mother was a friend of my mother’s.",
+   "zh": "她妈妈是我妈妈的一个朋友。"
+  },
+  {
+   "i": 21,
+   "en": "Anyway, one day at school, well, we had an argument and I said something really horrible to her.",
+   "zh": "总之，有一天在学校，我们吵了一架，我对她说了很糟糕的话。"
+  },
+  {
+   "i": 22,
+   "en": "What?",
+   "zh": "什么话？"
+  },
+  {
+   "i": 23,
+   "en": "It doesn’t matter.",
+   "zh": "没关系。"
+  },
+  {
+   "i": 24,
+   "en": "But she walked away and said, ‘I never want to see you again.’",
+   "zh": "但她走开了，说：“我再也不想见到你了。”"
+  },
+  {
+   "i": 25,
+   "en": "I was really upset about that and I shouted, ‘Same here!’ or something.",
+   "zh": "我当时特别难过，就喊了句“我也是！”之类的话。"
+  },
+  {
+   "i": 26,
+   "en": "Then the next day, at school, she came up to me with a big smile and said, ‘Hi, Jenny, you OK?’",
+   "zh": "然后第二天在学校，她带着灿烂的笑容走到我面前说：“嗨，珍妮，你还好吗？”"
+  },
+  {
+   "i": 27,
+   "en": "Really?",
+   "zh": "真的吗？"
+  },
+  {
+   "i": 28,
+   "en": "Yes, I was completely surprised and I asked her, I said, ‘Aren’t you angry with me?’",
+   "zh": "是啊，我完全没想到，就问她，我说：“你不生我的气吗？”"
+  },
+  {
+   "i": 29,
+   "en": "And she said something I still remember.",
+   "zh": "她说了句我至今都记得的话。"
+  },
+  {
+   "i": 30,
+   "en": "She said: ‘Well, yes, I was angry but last night I thought of all the nice things you always say to me and the nice things you do.",
+   "zh": "她说：“嗯，是的，我当时很生气，但昨晚我想到了你总是对我说的那些好话，还有你做过的那些好事。"
+  },
+  {
+   "i": 31,
+   "en": "I want to think about that, not something you said because you were angry.’",
+   "zh": "我想的是那些，而不是你生气时说的话。”"
+  },
+  {
+   "i": 32,
+   "en": "And those words of hers, well, they almost made me cry.",
+   "zh": "她的那些话，嗯，差点让我哭出来。"
+  },
+  {
+   "i": 33,
+   "en": "And here we are, twenty years later, still friends.",
+   "zh": "而现在我们，20 年过去了，仍然是朋友。"
+  },
+  {
+   "i": 34,
+   "en": "Wow.",
+   "zh": "哇。"
+  },
+  {
+   "i": 35,
+   "en": "Cool story, Mum.",
+   "zh": "真酷的故事，妈妈。"
+  },
+  {
+   "i": 36,
+   "en": "So I think it’s a real shame that after such a long time, you can’t still be friends with Markus.",
+   "zh": "所以我觉得很遗憾，过了这么久，你却不能再和马库斯做朋友。"
+  },
+  {
+   "i": 37,
+   "en": "You’re right.",
+   "zh": "你说得对。"
+  },
+  {
+   "i": 38,
+   "en": "Wow, so many times he helped me with my homework, listened to me when I had a problem.",
+   "zh": "哇，他有多少次帮我做作业，我遇到问题时听我倾诉。"
+  },
+  {
+   "i": 39,
+   "en": "That’s right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 40,
+   "en": "So he called you silly one time? So what?",
+   "zh": "所以他有一次叫你傻瓜？那又怎样？"
+  },
+  {
+   "i": 41,
+   "en": "And you know, sometimes you are stupid – just like everyone else.",
+   "zh": "而且你知道，有时候你确实傻——就像其他人一样。"
+  },
+  {
+   "i": 42,
+   "en": "Yes. Mum, I’m going out.",
+   "zh": "是的。妈妈，我要出去了。"
+  },
+  {
+   "i": 43,
+   "en": "Round to Markus’ place, OK?",
+   "zh": "去马库斯家，好吗？"
+  },
+  {
+   "i": 44,
+   "en": "Good idea, Jack, and why don’t you take him a present to say sorry?",
+   "zh": "好主意，杰克，你为什么不带件礼物去跟他道歉呢？"
+  }
+ ]
+}

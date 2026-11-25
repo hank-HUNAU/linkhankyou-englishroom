@@ -1,0 +1,352 @@
+{
+ "id": "U1-1",
+ "no": 1,
+ "title": "Unit 1-Reading A",
+ "titleZh": "Quiz: Do you enjoy life?",
+ "audio": "assets/tk1_p012.mp3",
+ "duration": 210.81,
+ "question": null,
+ "unit": "Unit 1",
+ "part": "Reading A",
+ "partCn": "阅读A",
+ "bookPage": "p012",
+ "srcKey": "SB_u01_p012_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.22,
+   "t2": 7.84,
+   "en": "Do you enjoy life?",
+   "zh": "你享受生活吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 9.06,
+   "t2": 11.88,
+   "en": "Do your parents always ask you to do housework?",
+   "zh": "你的父母总是让你做家务吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 12.8,
+   "t2": 15.46,
+   "en": "Does your teacher give you homework every day?",
+   "zh": "你的老师每天都留作业吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 16.73,
+   "t2": 21.19,
+   "en": "Life is sometimes difficult because there are lots of things to do.",
+   "zh": "生活有时很难，因为有很多事情要做。",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 22.06,
+   "t2": 27.67,
+   "en": "It's great to be busy, but it's important to look after yourself and have fun, too.",
+   "zh": "忙碌很好，但照顾好自己、也玩得开心同样重要。",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 28.53,
+   "t2": 36.83,
+   "en": "We all need to think about ourselves and do things we like, whether it is playing an instrument or taking photos.",
+   "zh": "我们都需要为自己想一想，做自己喜欢的事，不管是演奏乐器还是拍照。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 36.83,
+   "t2": 42.17,
+   "en": "But we also need to do things that keep us healthy and happy.",
+   "zh": "但我们也需要做一些让自己健康和快乐的事。",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 43.89,
+   "t2": 44.63,
+   "en": "Here's our quiz.",
+   "zh": "下面是我们的小测验。",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 45.43,
+   "t2": 50.37,
+   "en": "Try it and find out: do you have lots of fun?",
+   "zh": "试试看，找出答案：你是不是玩得很开心？",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 54.04,
+   "t2": 55.36,
+   "en": "Do you laugh a lot?",
+   "zh": "你经常笑吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 57.17,
+   "t2": 59.11,
+   "en": "Yes, I laugh all the time.",
+   "zh": "是的，我总是笑。",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 61.16,
+   "t2": 62.84,
+   "en": "I only laugh when I'm happy.",
+   "zh": "我只在开心的时候才笑。",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 65.06,
+   "t2": 68.26,
+   "en": "My best friend says I don't laugh very often.",
+   "zh": "我最好的朋友说我不常笑。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 71.82,
+   "t2": 73.62,
+   "en": "How many hobbies do you have?",
+   "zh": "你有多少个爱好？",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 75.32,
+   "t2": 76.76,
+   "en": "I have lots of hobbies.",
+   "zh": "我有很多爱好。",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 78.5,
+   "t2": 78.98,
+   "en": "One.",
+   "zh": "一个。",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 81.23,
+   "t2": 82.53,
+   "en": "I don't have any hobbies.",
+   "zh": "我没有任何爱好。",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 86.42,
+   "t2": 87.88,
+   "en": "When do you listen to music?",
+   "zh": "你什么时候听音乐？",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 89.84,
+   "t2": 92.56,
+   "en": "In the morning, afternoon and evening.",
+   "zh": "早上、下午和晚上。",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 94.86,
+   "t2": 97.24,
+   "en": "I only listen to music when I have time.",
+   "zh": "我只有在有时间的时候才听音乐。",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 99.43,
+   "t2": 101.05,
+   "en": "I never listen to music.",
+   "zh": "我从不听音乐。",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 101.43,
+   "t2": 102.63,
+   "en": "I don't have time.",
+   "zh": "我没有时间。",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 106.27,
+   "t2": 108.72,
+   "en": "How many hours do you sleep a night?",
+   "zh": "你每晚睡几个小时？",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 110.9,
+   "t2": 112.7,
+   "en": "9-10 hours.",
+   "zh": "9—10 小时。",
+   "conf": 1.0
+  },
+  {
+   "i": 24,
+   "t": 115.32,
+   "t2": 116.18,
+   "en": "About 8 hours.",
+   "zh": "大约 8 小时。",
+   "conf": 1.0
+  },
+  {
+   "i": 25,
+   "t": 118.31,
+   "t2": 119.59,
+   "en": "Less than 8 hours.",
+   "zh": "少于 8 小时。",
+   "conf": 1.0
+  },
+  {
+   "i": 26,
+   "t": 123.42,
+   "t2": 124.88,
+   "en": "Do you like doing exercise?",
+   "zh": "你喜欢运动吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 27,
+   "t": 127.14,
+   "t2": 129.08,
+   "en": "Yes, exercise is fun.",
+   "zh": "喜欢，运动很有趣。",
+   "conf": 1.0
+  },
+  {
+   "i": 28,
+   "t": 131.6,
+   "t2": 134.7,
+   "en": "Some exercise is OK, but not everything.",
+   "zh": "有些运动还可以，但不是所有运动都喜欢。",
+   "conf": 1.0
+  },
+  {
+   "i": 29,
+   "t": 137.26,
+   "t2": 139.38,
+   "en": "I don't like exercise at all.",
+   "zh": "我一点也不喜欢运动。",
+   "conf": 1.0
+  },
+  {
+   "i": 30,
+   "t": 143.11,
+   "t2": 145.75,
+   "en": "Do you like word and number puzzles?",
+   "zh": "你喜欢文字游戏和数字游戏吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 31,
+   "t": 147.74,
+   "t2": 148.96,
+   "en": "I like puzzles a lot.",
+   "zh": "我非常喜欢智力游戏。",
+   "conf": 1.0
+  },
+  {
+   "i": 32,
+   "t": 151.25,
+   "t2": 155.47,
+   "en": "Word puzzles are OK, but number puzzles are boring.",
+   "zh": "文字游戏还可以，但数字游戏很无聊。",
+   "conf": 1.0
+  },
+  {
+   "i": 33,
+   "t": 157.73,
+   "t2": 160.29,
+   "en": "No, I don't like puzzles at all.",
+   "zh": "不，我一点也不喜欢智力游戏。",
+   "conf": 1.0
+  },
+  {
+   "i": 34,
+   "t": 163.99,
+   "t2": 166.65,
+   "en": "Which of these activities do you do most?",
+   "zh": "这些活动里你最常做哪一项？",
+   "conf": 1.0
+  },
+  {
+   "i": 35,
+   "t": 169.26,
+   "t2": 171.18,
+   "en": "Spend time with friends and family.",
+   "zh": "花时间和朋友、家人在一起。",
+   "conf": 1.0
+  },
+  {
+   "i": 36,
+   "t": 173.25,
+   "t2": 175.72,
+   "en": "Message friends online or on my phone.",
+   "zh": "在网上或用手机给朋友发消息。",
+   "conf": 1.0
+  },
+  {
+   "i": 37,
+   "t": 177.795,
+   "t2": 180.744,
+   "en": "Watch TV or play games on my phone.",
+   "zh": "看电视或用手机玩游戏。",
+   "conf": 1.0
+  },
+  {
+   "i": 38,
+   "t": 182.28,
+   "t2": 183.66,
+   "en": "Your score.",
+   "zh": "你的得分。",
+   "conf": 1.0
+  },
+  {
+   "i": 39,
+   "t": 185.34,
+   "t2": 190.62,
+   "en": "Mostly As: Wow! You know how to have fun and enjoy life.",
+   "zh": "大多数选 A：哇！你懂得怎样玩得开心、享受生活。",
+   "conf": 1.0
+  },
+  {
+   "i": 40,
+   "t": 191.9,
+   "t2": 200.11,
+   "en": "Mostly Bs: Hmm, OK, but can you do more? Try and find more time for yourself.",
+   "zh": "大多数选 B：嗯，好吧，不过你能做得更多吗？试着为自己多找点时间。",
+   "conf": 1.0
+  },
+  {
+   "i": 41,
+   "t": 202.1,
+   "t2": 207.53,
+   "en": "Mostly Cs: Try and find more ways to have more fun.",
+   "zh": "大多数选 C：试着找更多方法，让自己玩得更开心。",
+   "conf": 1.0
+  }
+ ]
+}

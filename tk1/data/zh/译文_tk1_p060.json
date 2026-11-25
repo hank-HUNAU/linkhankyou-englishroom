@@ -1,0 +1,175 @@
+{
+ "passage_key": "u6_60",
+ "page": "p060",
+ "unit": 6,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 33,
+ "n_unique_keys": 33,
+ "entries": [
+  {
+   "i": 0,
+   "en": "This week, Paul (from Brisbane, Australia) and Annette (from Toulouse, France) tell us about their friendship on different sides of the world.",
+   "zh": "本周，保罗（来自澳大利亚布里斯班）和安妮特（来自法国图卢兹）为我们讲述他们在地球两端的友谊。"
+  },
+  {
+   "i": 1,
+   "en": "When and how did your friendship start?",
+   "zh": "你们的友谊是什么时候、怎样开始的？"
+  },
+  {
+   "i": 2,
+   "en": "Fifteen years ago! We were both fourteen.",
+   "zh": "15 年前！我们那时都 14 岁。"
+  },
+  {
+   "i": 3,
+   "en": "My school in Australia and her school in France started a virtual exchange programme for people to write to each other over the internet.",
+   "zh": "我所在的澳大利亚学校和她的法国学校发起了一个虚拟交流项目，让人们通过互联网互相写信。"
+  },
+  {
+   "i": 4,
+   "en": "I wanted to improve my English and he wanted to improve his French, so we contacted each other.",
+   "zh": "我想提高英语，他想提高法语，所以我们联系上了。"
+  },
+  {
+   "i": 5,
+   "en": "Did you become friends immediately?",
+   "zh": "你们立刻就成了朋友吗？"
+  },
+  {
+   "i": 6,
+   "en": "Not really.",
+   "zh": "不算。"
+  },
+  {
+   "i": 7,
+   "en": "I thought he was OK but not special.",
+   "zh": "我觉得他还行，但并不特别。"
+  },
+  {
+   "i": 8,
+   "en": "He made lots of mistakes in his French! Haha.",
+   "zh": "他法语里犯了好多错误！哈哈。"
+  },
+  {
+   "i": 9,
+   "en": "We corrected each other’s mistakes.",
+   "zh": "我们互相纠正错误。"
+  },
+  {
+   "i": 10,
+   "en": "But I made more than her! She corrected everything, too!",
+   "zh": "但我犯得比她多！她什么都纠正！"
+  },
+  {
+   "i": 11,
+   "en": "Paul always helped me to improve my English, but you know, after a few months, we stopped worrying about writing in perfect English or French and just wrote to each other and talked about ourselves.",
+   "zh": "保罗总是帮我提高英语，但你知道，几个月后，我们不再纠结于写出完美的英语或法语，只是互相写信、聊聊自己。"
+  },
+  {
+   "i": 12,
+   "en": "I began to see that he was a very nice guy, easy-going and cheerful.",
+   "zh": "我开始发现他是个很好的人，随和又开朗。"
+  },
+  {
+   "i": 13,
+   "en": "Did you feel the same way, Paul?",
+   "zh": "你也有同样的感觉吗，保罗？"
+  },
+  {
+   "i": 14,
+   "en": "Yes, I did.",
+   "zh": "是的。"
+  },
+  {
+   "i": 15,
+   "en": "She often made jokes that made me laugh.",
+   "zh": "她经常讲笑话逗我笑。"
+  },
+  {
+   "i": 16,
+   "en": "She’s really funny.",
+   "zh": "她真的很有趣。"
+  },
+  {
+   "i": 17,
+   "en": "And we saw that we had a lot of things in common – books we liked, films we liked, things like that.",
+   "zh": "而且我们发现我们有很多共同点——喜欢的书、喜欢的电影之类的。"
+  },
+  {
+   "i": 18,
+   "en": "He’s also very intelligent.",
+   "zh": "他还很聪明。"
+  },
+  {
+   "i": 19,
+   "en": "So, when did you actually meet face-to-face?",
+   "zh": "那你们到底什么时候见面的？"
+  },
+  {
+   "i": 20,
+   "en": "Last year.",
+   "zh": "去年。"
+  },
+  {
+   "i": 21,
+   "en": "We met in Singapore.",
+   "zh": "我们在新加坡见的。"
+  },
+  {
+   "i": 22,
+   "en": "That’s right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 23,
+   "en": "We wanted to meet up, but it’s a long way and the plane tickets are expensive.",
+   "zh": "我们想见面，但路途遥远，机票又贵。"
+  },
+  {
+   "i": 24,
+   "en": "So we decided to meet halfway.",
+   "zh": "所以我们决定在中途见面。"
+  },
+  {
+   "i": 25,
+   "en": "We had a really great time together for about five days.",
+   "zh": "我们一起度过了大约五天的美好时光。"
+  },
+  {
+   "i": 26,
+   "en": "Which language did you speak?",
+   "zh": "你们说什么语言？"
+  },
+  {
+   "i": 27,
+   "en": "Haha! Good question.",
+   "zh": "哈哈！好问题。"
+  },
+  {
+   "i": 28,
+   "en": "English, almost all the time.",
+   "zh": "几乎全是英语。"
+  },
+  {
+   "i": 29,
+   "en": "Her English is really good!",
+   "zh": "她的英语特别好！"
+  },
+  {
+   "i": 30,
+   "en": "He’s just being kind! But yes, we had a great time.",
+   "zh": "他只是客气罢了！不过是的，我们玩得很开心。"
+  },
+  {
+   "i": 31,
+   "en": "I think we’re going to be friends for life.",
+   "zh": "我想我们会做一辈子的朋友。"
+  },
+  {
+   "i": 32,
+   "en": "I hope we can meet up again soon.",
+   "zh": "希望我们很快还能再见面。"
+  }
+ ]
+}

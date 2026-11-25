@@ -1,0 +1,204 @@
+{
+ "id": "SB_u05_p048_t02",
+ "no": 5.02,
+ "title": "Magazine article: The 21st century caveman",
+ "titleZh": "",
+ "audio": "assets/tk1_p048.mp3",
+ "duration": 179.59,
+ "question": null,
+ "unit": 5,
+ "part": "阅读A",
+ "bookPage": "p048",
+ "srcKey": "SB_u05_p048_t02",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.3,
+   "t2": 19.5,
+   "en": "In 2007, Angelo Mastropietro was in the woods in Worcestershire, UK when it started to rain.",
+   "zh": "2007 年，安杰洛·马斯特罗皮耶特罗在英国伍斯特郡的树林里，当时下起了雨。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 20.32,
+   "t2": 25.52,
+   "en": "He looked for a place to keep dry and he discovered a cave house!",
+   "zh": "他找地方躲雨，结果发现了一座洞穴屋！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 26.36,
+   "t2": 29.536,
+   "en": "The cave house was 800 years old.",
+   "zh": "这座洞穴屋有 800 年的历史。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 30.32,
+   "t2": 39.94,
+   "en": "People lived in the rock-house for hundreds of years, but from about 1962, no one lived there and the house stayed empty.",
+   "zh": "人们在这座岩屋里住了几百年，但从大约 1962 年起就没人住了，房子一直空着。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 41.22,
+   "t2": 44.188,
+   "en": "Angelo liked the rock-house very much.",
+   "zh": "安杰洛非常喜欢这座岩屋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 44.84,
+   "t2": 47.276,
+   "en": "He looked into the possibility of buying it.",
+   "zh": "他认真考虑了把它买下来的可能性。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 47.84,
+   "t2": 52.744,
+   "en": "It was for sale and in 2010 he decided to get it.",
+   "zh": "它正在出售，2010 年他决定把它买下。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 53.58,
+   "t2": 60.04,
+   "en": "After that, he started to cut into the rock and to rebuild and modernise the house.",
+   "zh": "之后，他开始凿岩石，重建并把房子现代化。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 61.18,
+   "t2": 68.32,
+   "en": "Angelo (who is English, even though his name is Italian) finished the house in nine months.",
+   "zh": "安杰洛（他是英国人，尽管名字是意大利式的）用九个月完成了这座房子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 69.34,
+   "t2": 83.04,
+   "en": "He was a businessman before he started the house, and before 2007 he was quite ill, so he wanted a place where it was possible for him to live in a happy and healthy way.",
+   "zh": "他在开始建房子之前是个商人，2007 年前他身体相当不好，所以他想要一个能让自己快乐健康生活的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 84.0,
+   "t2": 92.08,
+   "en": "He realised that he didn’t need to live in a huge apartment and that being closer to nature could help him feel better.",
+   "zh": "他意识到自己不必住在大公寓里，更亲近大自然能让他感觉更好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 93.22,
+   "t2": 104.722,
+   "en": "He worked for over a thousand hours from beginning to end, and he used £160,000 to buy the house and all the things that he needed.",
+   "zh": "他从开头到结尾干了一千多个小时，还花了 160,000 英镑买下房子和所需的一切东西。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 105.42,
+   "t2": 114.509,
+   "en": "He planned everything himself, he moved about 80 tons of rock himself and he painted the house.",
+   "zh": "他自己规划了一切，自己搬了大约 80 吨岩石，还亲手粉刷了房子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 115.56,
+   "t2": 119.339,
+   "en": "Angelo tried to make a comfortable place to live.",
+   "zh": "安杰洛努力打造一个舒适的住所。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 120.28,
+   "t2": 128.28,
+   "en": "The house has electricity, hot water and wi-fi, and there is heating under the floors of the rooms.",
+   "zh": "房子里有电、热水和无线网络，房间地板下还有暖气。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 129.46,
+   "t2": 135.5,
+   "en": "Angelo opened a deep hole 80 metres under the house to get natural water.",
+   "zh": "安杰洛在房子地下 80 米处打了一口深井来取天然水。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 136.98,
+   "t2": 139.04,
+   "en": "The house is not huge.",
+   "zh": "房子并不大。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 139.96,
+   "t2": 148.34,
+   "en": "It is about 65 m2, with one bedroom, a living room, a kitchen and a bathroom with a shower.",
+   "zh": "它大约 65 平方米，有一间卧室、一间客厅、一间厨房和一间带淋浴的浴室。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 149.68,
+   "t2": 159.46,
+   "en": "Angelo doesn’t live there all the time, but he uses the house as a place to go to sometimes, to get away from his busy city life.",
+   "zh": "安杰洛并不一直住在那里，而是把它当作一个偶尔去住的地方，逃离忙碌的城市生活。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 160.54,
+   "t2": 166.243,
+   "en": "It’s also possible to rent the house and to stay there for a weekend or more.",
+   "zh": "这座房子也可以出租，让人在那里住一个周末或更久。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 167.16,
+   "t2": 176.28,
+   "en": "This means that other people are able to enjoy Angelo’s happy house and maybe escape from their busy lives for a few days, too.",
+   "zh": "这意味着其他人也能享受安杰洛的快乐小屋，也许还能逃离他们忙碌的生活几天。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

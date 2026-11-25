@@ -1,0 +1,467 @@
+{
+ "unit": "U11",
+ "passage_key": "u11_105",
+ "page": "p105",
+ "title": "Listening: Conversations about physical problems",
+ "type": "听力",
+ "n_sent": 65,
+ "duration_s": 183.12,
+ "source": "Think 1 U11 增量：alignment/SB_u11_p105_t05 + 译文_tk1_p105.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.56,
+   "end_s": 11.2,
+   "dur_s": 1.64,
+   "text": "Are you all right, Lydia?"
+  },
+  {
+   "i": 1,
+   "start_s": 11.92,
+   "end_s": 13.54,
+   "dur_s": 1.62,
+   "text": "No, I’m not, Dad."
+  },
+  {
+   "i": 2,
+   "start_s": 13.98,
+   "end_s": 15.36,
+   "dur_s": 1.38,
+   "text": "I’m not well at all."
+  },
+  {
+   "i": 3,
+   "start_s": 15.7,
+   "end_s": 16.94,
+   "dur_s": 1.24,
+   "text": "What’s the matter with you?"
+  },
+  {
+   "i": 4,
+   "start_s": 17.36,
+   "end_s": 19.92,
+   "dur_s": 2.56,
+   "text": "I’ve got a really bad stomach ache."
+  },
+  {
+   "i": 5,
+   "start_s": 20.5,
+   "end_s": 22.4,
+   "dur_s": 1.9,
+   "text": "Do you think it was something you ate?"
+  },
+  {
+   "i": 6,
+   "start_s": 22.84,
+   "end_s": 24.8,
+   "dur_s": 1.96,
+   "text": "No, not just one thing."
+  },
+  {
+   "i": 7,
+   "start_s": 25.2,
+   "end_s": 26.16,
+   "dur_s": 0.96,
+   "text": "She ate loads."
+  },
+  {
+   "i": 8,
+   "start_s": 26.68,
+   "end_s": 28.04,
+   "dur_s": 1.36,
+   "text": "Don’t be mean, Liam."
+  },
+  {
+   "i": 9,
+   "start_s": 28.607,
+   "end_s": 30.34,
+   "dur_s": 1.733,
+   "text": "Your sister doesn’t feel great."
+  },
+  {
+   "i": 10,
+   "start_s": 30.92,
+   "end_s": 31.98,
+   "dur_s": 1.06,
+   "text": "He’s right, Dad."
+  },
+  {
+   "i": 11,
+   "start_s": 32.78,
+   "end_s": 34.38,
+   "dur_s": 1.6,
+   "text": "I think I was too hungry."
+  },
+  {
+   "i": 12,
+   "start_s": 35.06,
+   "end_s": 37.4,
+   "dur_s": 2.34,
+   "text": "I didn’t have any lunch at school today."
+  },
+  {
+   "i": 13,
+   "start_s": 38.04,
+   "end_s": 41.8,
+   "dur_s": 3.76,
+   "text": "I think you need to just go and lie down for a while."
+  },
+  {
+   "i": 14,
+   "start_s": 42.423,
+   "end_s": 44.18,
+   "dur_s": 1.757,
+   "text": "I’m sure you’ll feel better soon."
+  },
+  {
+   "i": 15,
+   "start_s": 44.687,
+   "end_s": 45.44,
+   "dur_s": 0.753,
+   "text": "OK, Dad."
+  },
+  {
+   "i": 16,
+   "start_s": 45.86,
+   "end_s": 46.24,
+   "dur_s": 0.38,
+   "text": "I will."
+  },
+  {
+   "i": 17,
+   "start_s": 46.82,
+   "end_s": 48.24,
+   "dur_s": 1.42,
+   "text": "I’ll just try and rest."
+  },
+  {
+   "i": 18,
+   "start_s": 48.44,
+   "end_s": 50.1,
+   "dur_s": 1.66,
+   "text": "And don’t worry about the washing-up."
+  },
+  {
+   "i": 19,
+   "start_s": 50.968,
+   "end_s": 52.96,
+   "dur_s": 1.992,
+   "text": "I’m sure your brother will do that."
+  },
+  {
+   "i": 20,
+   "start_s": 53.4,
+   "end_s": 53.7,
+   "dur_s": 0.3,
+   "text": "What?"
+  },
+  {
+   "i": 21,
+   "start_s": 54.2,
+   "end_s": 54.54,
+   "dur_s": 0.34,
+   "text": "Me??!!"
+  },
+  {
+   "i": 22,
+   "start_s": 61.28,
+   "end_s": 62.36,
+   "dur_s": 1.08,
+   "text": "Come in, Tim."
+  },
+  {
+   "i": 23,
+   "start_s": 62.84,
+   "end_s": 63.74,
+   "dur_s": 0.9,
+   "text": "Take a seat."
+  },
+  {
+   "i": 24,
+   "start_s": 64.1,
+   "end_s": 64.74,
+   "dur_s": 0.64,
+   "text": "Thank you, Doctor."
+  },
+  {
+   "i": 25,
+   "start_s": 65.22,
+   "end_s": 67.22,
+   "dur_s": 2.0,
+   "text": "So how can I help you today?"
+  },
+  {
+   "i": 26,
+   "start_s": 67.76,
+   "end_s": 68.66,
+   "dur_s": 0.9,
+   "text": "It’s my elbow."
+  },
+  {
+   "i": 27,
+   "start_s": 69.18,
+   "end_s": 70.1,
+   "dur_s": 0.92,
+   "text": "It’s really painful."
+  },
+  {
+   "i": 28,
+   "start_s": 70.82,
+   "end_s": 71.0,
+   "dur_s": 0.18,
+   "text": "Look."
+  },
+  {
+   "i": 29,
+   "start_s": 71.5,
+   "end_s": 76.18,
+   "dur_s": 4.68,
+   "text": "Hmm, yes, it does look a bit bruised."
+  },
+  {
+   "i": 30,
+   "start_s": 76.72,
+   "end_s": 78.0,
+   "dur_s": 1.28,
+   "text": "So what happened?"
+  },
+  {
+   "i": 31,
+   "start_s": 78.52,
+   "end_s": 81.04,
+   "dur_s": 2.52,
+   "text": "Well, it’s a bit of a silly story really."
+  },
+  {
+   "i": 32,
+   "start_s": 81.64,
+   "end_s": 85.5,
+   "dur_s": 3.86,
+   "text": "I got home from school yesterday and I didn’t have my key with me."
+  },
+  {
+   "i": 33,
+   "start_s": 85.5,
+   "end_s": 90.8,
+   "dur_s": 5.3,
+   "text": "I left it in my locker at school so I tried to open the door with my elbow."
+  },
+  {
+   "i": 34,
+   "start_s": 91.42,
+   "end_s": 93.36,
+   "dur_s": 1.94,
+   "text": "Oh, I see."
+  },
+  {
+   "i": 35,
+   "start_s": 94.04,
+   "end_s": 96.2,
+   "dur_s": 2.16,
+   "text": "And it didn’t open?"
+  },
+  {
+   "i": 36,
+   "start_s": 96.8,
+   "end_s": 98.26,
+   "dur_s": 1.46,
+   "text": "No, it didn’t."
+  },
+  {
+   "i": 37,
+   "start_s": 98.62,
+   "end_s": 101.64,
+   "dur_s": 3.02,
+   "text": "Well, I don’t think it’s anything too serious."
+  },
+  {
+   "i": 38,
+   "start_s": 102.2,
+   "end_s": 107.24,
+   "dur_s": 5.04,
+   "text": "You need to put some ice on it, and take some painkillers if it hurts too much."
+  },
+  {
+   "i": 39,
+   "start_s": 107.66,
+   "end_s": 109.48,
+   "dur_s": 1.82,
+   "text": "So, it’s not broken?"
+  },
+  {
+   "i": 40,
+   "start_s": 109.88,
+   "end_s": 111.1,
+   "dur_s": 1.22,
+   "text": "No, it isn’t."
+  },
+  {
+   "i": 41,
+   "start_s": 111.58,
+   "end_s": 114.42,
+   "dur_s": 2.84,
+   "text": "You’re able to move it so I’m not too worried."
+  },
+  {
+   "i": 42,
+   "start_s": 114.42,
+   "end_s": 120.22,
+   "dur_s": 5.8,
+   "text": "But next time you forget your key, just wait for your parents to get home."
+  },
+  {
+   "i": 43,
+   "start_s": 120.56,
+   "end_s": 121.28,
+   "dur_s": 0.72,
+   "text": "OK, Doctor."
+  },
+  {
+   "i": 44,
+   "start_s": 121.8,
+   "end_s": 122.18,
+   "dur_s": 0.38,
+   "text": "I will."
+  },
+  {
+   "i": 45,
+   "start_s": 128.8,
+   "end_s": 129.82,
+   "dur_s": 1.02,
+   "text": "Hello, John."
+  },
+  {
+   "i": 46,
+   "start_s": 130.52,
+   "end_s": 131.82,
+   "dur_s": 1.3,
+   "text": "What can I do for you?"
+  },
+  {
+   "i": 47,
+   "start_s": 132.1,
+   "end_s": 133.06,
+   "dur_s": 0.96,
+   "text": "It’s my neck."
+  },
+  {
+   "i": 48,
+   "start_s": 133.7,
+   "end_s": 134.34,
+   "dur_s": 0.64,
+   "text": "OK."
+  },
+  {
+   "i": 49,
+   "start_s": 135.059,
+   "end_s": 137.1,
+   "dur_s": 2.041,
+   "text": "And what’s the problem with it?"
+  },
+  {
+   "i": 50,
+   "start_s": 137.62,
+   "end_s": 138.22,
+   "dur_s": 0.6,
+   "text": "Does it hurt?"
+  },
+  {
+   "i": 51,
+   "start_s": 138.7,
+   "end_s": 139.58,
+   "dur_s": 0.88,
+   "text": "Yes, it does."
+  },
+  {
+   "i": 52,
+   "start_s": 140.2,
+   "end_s": 141.62,
+   "dur_s": 1.42,
+   "text": "I can hardly move it."
+  },
+  {
+   "i": 53,
+   "start_s": 141.62,
+   "end_s": 142.38,
+   "dur_s": 0.76,
+   "text": "Oh dear."
+  },
+  {
+   "i": 54,
+   "start_s": 143.256,
+   "end_s": 144.24,
+   "dur_s": 0.984,
+   "text": "What happened?"
+  },
+  {
+   "i": 55,
+   "start_s": 144.8,
+   "end_s": 145.64,
+   "dur_s": 0.84,
+   "text": "I’m not sure."
+  },
+  {
+   "i": 56,
+   "start_s": 146.32,
+   "end_s": 150.78,
+   "dur_s": 4.46,
+   "text": "I went to bed last night and when I woke up it was really hurting."
+  },
+  {
+   "i": 57,
+   "start_s": 153.06,
+   "end_s": 155.52,
+   "dur_s": 2.46,
+   "text": "Did you do any sport yesterday?"
+  },
+  {
+   "i": 58,
+   "start_s": 156.58,
+   "end_s": 157.86,
+   "dur_s": 1.28,
+   "text": "No, I didn’t."
+  },
+  {
+   "i": 59,
+   "start_s": 158.48,
+   "end_s": 161.1,
+   "dur_s": 2.62,
+   "text": "But I did sleep with the window open."
+  },
+  {
+   "i": 60,
+   "start_s": 161.74,
+   "end_s": 166.8,
+   "dur_s": 5.06,
+   "text": "My grandmother thinks the cold air made it hurt but I’m not so sure."
+  },
+  {
+   "i": 61,
+   "start_s": 167.474,
+   "end_s": 170.74,
+   "dur_s": 3.266,
+   "text": "No, I don’t think there’s any connection there."
+  },
+  {
+   "i": 62,
+   "start_s": 171.66,
+   "end_s": 175.02,
+   "dur_s": 3.36,
+   "text": "OK, well, let’s have a look at it."
+  },
+  {
+   "i": 63,
+   "start_s": 175.56,
+   "end_s": 177.86,
+   "dur_s": 2.3,
+   "text": "Can you take your shirt off for me, please?"
+  },
+  {
+   "i": 64,
+   "start_s": 178.46,
+   "end_s": 178.72,
+   "dur_s": 0.26,
+   "text": "Sure."
+  }
+ ]
+}

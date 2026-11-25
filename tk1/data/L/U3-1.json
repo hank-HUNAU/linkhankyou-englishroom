@@ -1,0 +1,240 @@
+{
+ "id": "SB_u03_p030_t01",
+ "no": 3.01,
+ "title": "Online article: Creepy crawlies",
+ "titleZh": "",
+ "audio": "assets/tk1_p030.mp3",
+ "duration": 184.32,
+ "question": null,
+ "unit": 3,
+ "part": "阅读A",
+ "bookPage": "p030",
+ "srcKey": "SB_u03_p030_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 14.44,
+   "t2": 23.66,
+   "en": "The number of people in the world is growing fast – every year there are about 70 million more people.",
+   "zh": "世界人口增长得很快——每年大约多出 7000 万人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 24.6,
+   "t2": 40.54,
+   "en": "So, we've got two questions that need answers: Have we got enough space on our planet for so many people? And how can we make sure they've all got enough food to live?",
+   "zh": "所以我们有两个问题需要回答：我们的星球有足够的空间容纳这么多人吗？我们怎样才能确保他们都有足够的食物生存？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 41.94,
+   "t2": 49.44,
+   "en": "Many people eat too much meat – steaks, beef burgers, sausages, etc.",
+   "zh": "很多人吃了太多的肉——牛排、牛肉汉堡、香肠等等。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 49.44,
+   "t2": 56.26,
+   "en": "That's not good for us and we need big farms to produce all that meat.",
+   "zh": "这对我们不好，而且我们需要大片农场来生产这么多肉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 56.96,
+   "t2": 68.6,
+   "en": "The farms already use 30% of all the world's land: they create greenhouse gases and use a lot of water and energy.",
+   "zh": "这些农场已经占用了全世界 30% 的土地：它们产生温室气体，还消耗大量的水和能源。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 69.58,
+   "t2": 73.6,
+   "en": "However, we can do something to help.",
+   "zh": "不过，我们可以做些事情来帮忙。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 73.6,
+   "t2": 83.5,
+   "en": "We can eat meat only one or two days a week, for example, and eat more vegetables – that's healthy.",
+   "zh": "比如，我们可以每周只吃一两天肉，多吃些蔬菜——这样很健康。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 84.58,
+   "t2": 89.92,
+   "en": "We can also eat some different types of meat – creepy-crawlies!",
+   "zh": "我们还可以吃一些不同种类的肉——让人起鸡皮疙瘩的小虫子！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 90.82,
+   "t2": 98.36,
+   "en": "That's right, grasshoppers, worms, flies and lots of other insects.",
+   "zh": "没错，蚱蜢、蠕虫、苍蝇还有很多其他昆虫。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 99.5,
+   "t2": 102.22,
+   "en": "They're the superfood of the future.",
+   "zh": "它们是未来的超级食物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 103.12,
+   "t2": 105.32,
+   "en": "They've got a lot of protein.",
+   "zh": "它们含有大量蛋白质。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 106.76,
+   "t2": 113.84,
+   "en": "Protein is very important for our health, and it's good for our hair and our skin.",
+   "zh": "蛋白质对我们的健康非常重要，对头发和皮肤也有好处。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 114.8,
+   "t2": 119.2,
+   "en": "Protein keeps our muscles and bones in good condition, too.",
+   "zh": "蛋白质还能让我们的肌肉和骨骼保持良好状态。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 120.48,
+   "t2": 130.98,
+   "en": "There are two more reasons why insects are good food options: insect farms don't need so much water and energy.",
+   "zh": "昆虫成为优质食物还有两个原因：昆虫农场不需要那么多水和能源。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 130.98,
+   "t2": 135.0,
+   "en": "Also, they don't use so much space.",
+   "zh": "而且，它们也不占那么多空间。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 136.56,
+   "t2": 143.94,
+   "en": "For some people in countries in Asia and Latin America, eating insects is not unusual.",
+   "zh": "对亚洲和拉丁美洲一些国家的人来说，吃昆虫并不稀奇。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 144.84,
+   "t2": 151.42,
+   "en": "But for people in Europe and many other countries, it seems very strange.",
+   "zh": "但在欧洲和许多其他国家，这看起来很奇怪。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 152.3,
+   "t2": 153.84,
+   "en": "What about you?",
+   "zh": "你呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 154.74,
+   "t2": 156.78,
+   "en": "Do you eat any healthy food?",
+   "zh": "你吃健康食品吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 156.78,
+   "t2": 160.96,
+   "en": "How much meat do you eat in a week?",
+   "zh": "你一周吃多少肉？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 162.04,
+   "t2": 165.06,
+   "en": "Perhaps you think you don't eat insects?",
+   "zh": "也许你觉得你不吃昆虫？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 165.76,
+   "t2": 167.68,
+   "en": "But maybe you're wrong!",
+   "zh": "但也许你错了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 168.62,
+   "t2": 169.46,
+   "en": "Why's that?",
+   "zh": "为什么呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 170.36,
+   "t2": 181.02,
+   "en": "Because the red food colouring that is in many things that we eat comes from … an insect called the 'cochineal beetle'!",
+   "zh": "因为我们吃的很多东西里的红色食用色素来自……一种叫“胭脂虫”的昆虫！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 181.02,
+   "t2": 184.0,
+   "en": "Thank you for watching.",
+   "zh": "感谢观看。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

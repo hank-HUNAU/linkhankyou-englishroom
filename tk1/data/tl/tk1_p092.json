@@ -1,0 +1,320 @@
+{
+ "unit": "U10",
+ "passage_key": "u10_92",
+ "page": "p092",
+ "title": "Emails: Experiences in foreign countries",
+ "type": "阅读A",
+ "n_sent": 44,
+ "duration_s": 203.39,
+ "source": "Think 1 U10 增量：alignment/SB_u10_p092_t01 + 译文_tk1_p092.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 7.22,
+   "end_s": 8.14,
+   "dur_s": 0.92,
+   "text": "Hi Mum,"
+  },
+  {
+   "i": 1,
+   "start_s": 8.84,
+   "end_s": 12.52,
+   "dur_s": 3.68,
+   "text": "It’s Day Two and I’m already in love with New York."
+  },
+  {
+   "i": 2,
+   "start_s": 13.28,
+   "end_s": 13.98,
+   "dur_s": 0.7,
+   "text": "It’s amazing."
+  },
+  {
+   "i": 3,
+   "start_s": 15.0,
+   "end_s": 21.12,
+   "dur_s": 6.12,
+   "text": "The first day, we were pretty tired from the flight, but we did a bit of sightseeing in the afternoon."
+  },
+  {
+   "i": 4,
+   "start_s": 21.9,
+   "end_s": 25.88,
+   "dur_s": 3.98,
+   "text": "We went to see the Statue of Liberty and I wasn’t disappointed."
+  },
+  {
+   "i": 5,
+   "start_s": 26.8,
+   "end_s": 30.511,
+   "dur_s": 3.711,
+   "text": "We had a guided tour and learned all about its history."
+  },
+  {
+   "i": 6,
+   "start_s": 31.22,
+   "end_s": 33.9,
+   "dur_s": 2.68,
+   "text": "It really is a powerful symbol of peace."
+  },
+  {
+   "i": 7,
+   "start_s": 35.4,
+   "end_s": 39.7,
+   "dur_s": 4.3,
+   "text": "Today, we’re going to explore Central Park and Manhattan."
+  },
+  {
+   "i": 8,
+   "start_s": 40.54,
+   "end_s": 44.08,
+   "dur_s": 3.54,
+   "text": "In the evening, we’re going to watch the New York Jets."
+  },
+  {
+   "i": 9,
+   "start_s": 44.76,
+   "end_s": 46.6,
+   "dur_s": 1.84,
+   "text": "They’re playing at MetLife Stadium."
+  },
+  {
+   "i": 10,
+   "start_s": 47.38,
+   "end_s": 51.676,
+   "dur_s": 4.296,
+   "text": "It’s my first game of American football and I’m looking forward to it."
+  },
+  {
+   "i": 11,
+   "start_s": 52.02,
+   "end_s": 53.66,
+   "dur_s": 1.64,
+   "text": "(I think – I’m quite nervous!)"
+  },
+  {
+   "i": 12,
+   "start_s": 54.7,
+   "end_s": 60.6,
+   "dur_s": 5.9,
+   "text": "The big concert we’re playing in is tomorrow and we’re all getting quite excited."
+  },
+  {
+   "i": 13,
+   "start_s": 61.16,
+   "end_s": 70.08,
+   "dur_s": 8.92,
+   "text": "Just imagine, I’m going to play my trombone in Carnegie Hall, probably the most famous concert hall in the US."
+  },
+  {
+   "i": 14,
+   "start_s": 71.6,
+   "end_s": 74.06,
+   "dur_s": 2.46,
+   "text": "Mr Davis is even more excited."
+  },
+  {
+   "i": 15,
+   "start_s": 74.7,
+   "end_s": 76.88,
+   "dur_s": 2.18,
+   "text": "He’s going to conduct us in the concert."
+  },
+  {
+   "i": 16,
+   "start_s": 77.42,
+   "end_s": 80.18,
+   "dur_s": 2.76,
+   "text": "He keeps telling us it’s his dream come true."
+  },
+  {
+   "i": 17,
+   "start_s": 81.1,
+   "end_s": 83.06,
+   "dur_s": 1.96,
+   "text": "His wife’s going to record the performance."
+  },
+  {
+   "i": 18,
+   "start_s": 83.72,
+   "end_s": 90.546,
+   "dur_s": 6.826,
+   "text": "She’s going to send us all the link so you can see the greatest moment of my musical career so far!"
+  },
+  {
+   "i": 19,
+   "start_s": 91.62,
+   "end_s": 97.14,
+   "dur_s": 5.52,
+   "text": "There are going to be bands from all over the world, from about 20 different countries."
+  },
+  {
+   "i": 20,
+   "start_s": 97.72,
+   "end_s": 98.6,
+   "dur_s": 0.88,
+   "text": "I can’t wait!"
+  },
+  {
+   "i": 21,
+   "start_s": 99.5,
+   "end_s": 102.133,
+   "dur_s": 2.633,
+   "text": "Hope you’re well and not missing me too much!"
+  },
+  {
+   "i": 22,
+   "start_s": 102.76,
+   "end_s": 103.96,
+   "dur_s": 1.2,
+   "text": "Love, Ryan"
+  },
+  {
+   "i": 23,
+   "start_s": 105.7,
+   "end_s": 106.76,
+   "dur_s": 1.06,
+   "text": "Hi Abigail,"
+  },
+  {
+   "i": 24,
+   "start_s": 107.48,
+   "end_s": 114.909,
+   "dur_s": 7.429,
+   "text": "Sorry I didn’t write yesterday, but it was such a busy day I just didn’t get the time."
+  },
+  {
+   "i": 25,
+   "start_s": 115.3,
+   "end_s": 116.96,
+   "dur_s": 1.66,
+   "text": "We played our second volleyball match of the trip."
+  },
+  {
+   "i": 26,
+   "start_s": 117.84,
+   "end_s": 123.0,
+   "dur_s": 5.16,
+   "text": "It was against the under-15 Beijing champions and they won easily."
+  },
+  {
+   "i": 27,
+   "start_s": 124.0,
+   "end_s": 126.12,
+   "dur_s": 2.12,
+   "text": "I also hurt my hand quite badly."
+  },
+  {
+   "i": 28,
+   "start_s": 127.14,
+   "end_s": 130.36,
+   "dur_s": 3.22,
+   "text": "The sports centre where we played was fantastic."
+  },
+  {
+   "i": 29,
+   "start_s": 131.42,
+   "end_s": 134.838,
+   "dur_s": 3.418,
+   "text": "Really modern and much better than ours back home."
+  },
+  {
+   "i": 30,
+   "start_s": 135.44,
+   "end_s": 143.14,
+   "dur_s": 7.7,
+   "text": "Anyway, I’ve got ten minutes to write to you quickly, then I’m going to the bus station to catch a bus to Luanping."
+  },
+  {
+   "i": 31,
+   "start_s": 144.28,
+   "end_s": 148.16,
+   "dur_s": 3.88,
+   "text": "I’m so excited because we’re going to visit the Great Wall."
+  },
+  {
+   "i": 32,
+   "start_s": 149.06,
+   "end_s": 155.22,
+   "dur_s": 6.16,
+   "text": "It was probably the one thing I wanted to do most on this trip, after playing volleyball, of course!"
+  },
+  {
+   "i": 33,
+   "start_s": 156.12,
+   "end_s": 159.8,
+   "dur_s": 3.68,
+   "text": "We’re going to explore the Jinshanling section of the wall."
+  },
+  {
+   "i": 34,
+   "start_s": 160.36,
+   "end_s": 164.664,
+   "dur_s": 4.304,
+   "text": "It’s in the mountains and it’s quite a walk to get up to it."
+  },
+  {
+   "i": 35,
+   "start_s": 164.664,
+   "end_s": 166.64,
+   "dur_s": 1.976,
+   "text": "But the views are spectacular."
+  },
+  {
+   "i": 36,
+   "start_s": 167.36,
+   "end_s": 169.72,
+   "dur_s": 2.36,
+   "text": "I’m going to take loads of photos."
+  },
+  {
+   "i": 37,
+   "start_s": 170.62,
+   "end_s": 176.843,
+   "dur_s": 6.223,
+   "text": "Luanping is about 130 km away, so we’re going to spend the night there."
+  },
+  {
+   "i": 38,
+   "start_s": 177.46,
+   "end_s": 181.28,
+   "dur_s": 3.82,
+   "text": "Then we’re going back to Beijing for our last day in the city."
+  },
+  {
+   "i": 39,
+   "start_s": 182.26,
+   "end_s": 187.71,
+   "dur_s": 5.45,
+   "text": "Our last match is in the afternoon, but I’m not going to play because of my hand."
+  },
+  {
+   "i": 40,
+   "start_s": 188.1,
+   "end_s": 191.02,
+   "dur_s": 2.92,
+   "text": "I can’t believe the trip is almost over."
+  },
+  {
+   "i": 41,
+   "start_s": 191.7,
+   "end_s": 195.84,
+   "dur_s": 4.14,
+   "text": "China is amazing and the Chinese people are so friendly."
+  },
+  {
+   "i": 42,
+   "start_s": 196.66,
+   "end_s": 197.78,
+   "dur_s": 1.12,
+   "text": "I want to stay longer."
+  },
+  {
+   "i": 43,
+   "start_s": 198.682,
+   "end_s": 200.16,
+   "dur_s": 1.478,
+   "text": "Lots of love, Bettina"
+  }
+ ]
+}

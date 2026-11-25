@@ -1,0 +1,259 @@
+1
+00:00:09,560 --> 00:00:11,200
+Are you all right, Lydia?
+
+2
+00:00:11,920 --> 00:00:13,540
+No, I’m not, Dad.
+
+3
+00:00:13,980 --> 00:00:15,360
+I’m not well at all.
+
+4
+00:00:15,700 --> 00:00:16,940
+What’s the matter with you?
+
+5
+00:00:17,360 --> 00:00:19,920
+I’ve got a really bad stomach ache.
+
+6
+00:00:20,500 --> 00:00:22,400
+Do you think it was something you ate?
+
+7
+00:00:22,840 --> 00:00:24,800
+No, not just one thing.
+
+8
+00:00:25,200 --> 00:00:26,160
+She ate loads.
+
+9
+00:00:26,680 --> 00:00:28,040
+Don’t be mean, Liam.
+
+10
+00:00:28,607 --> 00:00:30,340
+Your sister doesn’t feel great.
+
+11
+00:00:30,920 --> 00:00:31,980
+He’s right, Dad.
+
+12
+00:00:32,780 --> 00:00:34,380
+I think I was too hungry.
+
+13
+00:00:35,060 --> 00:00:37,400
+I didn’t have any lunch at school today.
+
+14
+00:00:38,040 --> 00:00:41,800
+I think you need to just go and lie down for a while.
+
+15
+00:00:42,423 --> 00:00:44,180
+I’m sure you’ll feel better soon.
+
+16
+00:00:44,687 --> 00:00:45,440
+OK, Dad.
+
+17
+00:00:45,860 --> 00:00:46,240
+I will.
+
+18
+00:00:46,820 --> 00:00:48,240
+I’ll just try and rest.
+
+19
+00:00:48,440 --> 00:00:50,100
+And don’t worry about the washing-up.
+
+20
+00:00:50,968 --> 00:00:52,960
+I’m sure your brother will do that.
+
+21
+00:00:53,400 --> 00:00:53,700
+What?
+
+22
+00:00:54,200 --> 00:00:54,540
+Me??!!
+
+23
+00:01:01,280 --> 00:01:02,360
+Come in, Tim.
+
+24
+00:01:02,840 --> 00:01:03,740
+Take a seat.
+
+25
+00:01:04,100 --> 00:01:04,740
+Thank you, Doctor.
+
+26
+00:01:05,220 --> 00:01:07,220
+So how can I help you today?
+
+27
+00:01:07,760 --> 00:01:08,660
+It’s my elbow.
+
+28
+00:01:09,180 --> 00:01:10,100
+It’s really painful.
+
+29
+00:01:10,820 --> 00:01:11,000
+Look.
+
+30
+00:01:11,500 --> 00:01:16,180
+Hmm, yes, it does look a bit bruised.
+
+31
+00:01:16,720 --> 00:01:18,000
+So what happened?
+
+32
+00:01:18,520 --> 00:01:21,040
+Well, it’s a bit of a silly story really.
+
+33
+00:01:21,640 --> 00:01:25,500
+I got home from school yesterday and I didn’t have my key with me.
+
+34
+00:01:25,500 --> 00:01:30,800
+I left it in my locker at school so I tried to open the door with my elbow.
+
+35
+00:01:31,420 --> 00:01:33,360
+Oh, I see.
+
+36
+00:01:34,040 --> 00:01:36,200
+And it didn’t open?
+
+37
+00:01:36,800 --> 00:01:38,260
+No, it didn’t.
+
+38
+00:01:38,620 --> 00:01:41,640
+Well, I don’t think it’s anything too serious.
+
+39
+00:01:42,200 --> 00:01:47,240
+You need to put some ice on it, and take some painkillers if it hurts too much.
+
+40
+00:01:47,660 --> 00:01:49,480
+So, it’s not broken?
+
+41
+00:01:49,880 --> 00:01:51,100
+No, it isn’t.
+
+42
+00:01:51,580 --> 00:01:54,420
+You’re able to move it so I’m not too worried.
+
+43
+00:01:54,420 --> 00:02:00,220
+But next time you forget your key, just wait for your parents to get home.
+
+44
+00:02:00,560 --> 00:02:01,280
+OK, Doctor.
+
+45
+00:02:01,800 --> 00:02:02,180
+I will.
+
+46
+00:02:08,800 --> 00:02:09,820
+Hello, John.
+
+47
+00:02:10,520 --> 00:02:11,820
+What can I do for you?
+
+48
+00:02:12,100 --> 00:02:13,060
+It’s my neck.
+
+49
+00:02:13,700 --> 00:02:14,340
+OK.
+
+50
+00:02:15,059 --> 00:02:17,100
+And what’s the problem with it?
+
+51
+00:02:17,620 --> 00:02:18,220
+Does it hurt?
+
+52
+00:02:18,700 --> 00:02:19,580
+Yes, it does.
+
+53
+00:02:20,200 --> 00:02:21,620
+I can hardly move it.
+
+54
+00:02:21,620 --> 00:02:22,380
+Oh dear.
+
+55
+00:02:23,256 --> 00:02:24,240
+What happened?
+
+56
+00:02:24,800 --> 00:02:25,640
+I’m not sure.
+
+57
+00:02:26,320 --> 00:02:30,780
+I went to bed last night and when I woke up it was really hurting.
+
+58
+00:02:33,060 --> 00:02:35,520
+Did you do any sport yesterday?
+
+59
+00:02:36,580 --> 00:02:37,860
+No, I didn’t.
+
+60
+00:02:38,480 --> 00:02:41,100
+But I did sleep with the window open.
+
+61
+00:02:41,740 --> 00:02:46,800
+My grandmother thinks the cold air made it hurt but I’m not so sure.
+
+62
+00:02:47,474 --> 00:02:50,740
+No, I don’t think there’s any connection there.
+
+63
+00:02:51,660 --> 00:02:55,020
+OK, well, let’s have a look at it.
+
+64
+00:02:55,560 --> 00:02:57,860
+Can you take your shirt off for me, please?
+
+65
+00:02:58,460 --> 00:02:58,720
+Sure.

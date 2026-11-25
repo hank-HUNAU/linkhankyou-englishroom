@@ -1,0 +1,258 @@
+{
+ "id": "SB_u12_p110_t01",
+ "no": 12.01,
+ "title": "Newspaper article: A world record breaker",
+ "titleZh": "",
+ "audio": "assets/tk1_p110.mp3",
+ "duration": 223.48,
+ "question": null,
+ "unit": 12,
+ "part": "阅读A",
+ "bookPage": "p110",
+ "srcKey": "SB_u12_p110_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 10.96,
+   "t2": 14.12,
+   "en": "She’s taken over 255 flights.",
+   "zh": "她已经乘坐了 255 次航班。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 14.72,
+   "t2": 28.84,
+   "en": "She’s filled five passports, she’s planted trees, has spoken to students in over 40 different countries, and she’s funded all $110,000 through sponsors and investors.",
+   "zh": "她用满了五本护照，种过树，在 40 多个不同国家与学生交流，并通过赞助商和投资人筹集了全部 110,000 美元。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 29.72,
+   "t2": 39.04,
+   "en": "Now, her amazing adventure has finished and 29-year-old Cassie De Pecol has done it: she’s broken two Guinness World records.",
+   "zh": "如今，她惊人的冒险已经结束，29 岁的卡西·德佩科尔做到了：她打破了两项吉尼斯世界纪录。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 39.88,
+   "t2": 54.346,
+   "en": "After 18 months and 10 days, Cassie has become the fastest person to visit every country in the world, and the first woman on record to do so, in half the old record time.",
+   "zh": "经过 18 个月零 10 天，卡西成为走访世界上每个国家最快的人，也是有记录以来第一位做到这一点的女性，所用时间只有旧纪录的一半。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 55.04,
+   "t2": 62.949,
+   "en": "Back in 2014, Cassie decided to leave her job because she wasn’t doing what she really wanted to do.",
+   "zh": "早在 2014 年，卡西决定辞职，因为她做的并不是自己真正想做的事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 63.68,
+   "t2": 70.38,
+   "en": "What she really wanted to do was to see the world, and she started making plans for her great journey.",
+   "zh": "她真正想做的是看看世界，于是开始为这趟伟大的旅程制定计划。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 71.26,
+   "t2": 79.64,
+   "en": "She started saving all the money she could, and in July 2015, she left home to start her travels.",
+   "zh": "她开始尽可能存钱，并在 2015 年 7 月离开家，踏上旅程。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 80.62,
+   "t2": 93.983,
+   "en": "Just over a year and a half later, on 2 February 2017, she arrived in Yemen, the 196th and last country on her (very!) long list.",
+   "zh": "一年半刚过，在 2017 年 2 月 2 日，她抵达也门，那是她（非常！）长长的名单上的第 196 个，也是最后一个国家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 94.68,
+   "t2": 101.703,
+   "en": "Of course, she didn’t have much time to see each country, but she made sure to use her time well.",
+   "zh": "当然，她在每个国家停留的时间不多，但确保把时间用得很好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 102.36,
+   "t2": 106.266,
+   "en": "She spent an average of two to five days in each country.",
+   "zh": "她平均在每个国家待两到五天。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 106.88,
+   "t2": 119.06,
+   "en": "The best parts of her journey included: meeting local people, travelling to remote places on her own, planting trees and educating students on important world issues.",
+   "zh": "这趟旅程最棒的部分包括：与当地人见面、独自前往偏远地区、种树，以及就重要的世界议题教育学生。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 120.16,
+   "t2": 129.498,
+   "en": "Cassie is a keen runner and triathlete and so she also didn’t enjoy staying in places where she didn’t feel safe enough to go for a run.",
+   "zh": "卡西是热心的跑步爱好者和铁人三项运动员，所以她也不喜欢待在觉得不够安全、不能去跑步的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 130.3,
+   "t2": 133.82,
+   "en": "But Cassie’s journey was not just one long holiday.",
+   "zh": "但卡西的旅程并不只是一场漫长的假期。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 134.36,
+   "t2": 136.16,
+   "en": "She also wanted to make a difference.",
+   "zh": "她还想带来改变。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 137.28,
+   "t2": 144.869,
+   "en": "She went as a Peace Ambassador (a special representative) for the International Institute for Peace Through Tourism.",
+   "zh": "她作为国际旅游和平研究所的和平大使（特别代表）前往各地。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 145.76,
+   "t2": 155.086,
+   "en": "In many of the countries she went to, she met and talked to local students – they discussed how tourism can be used to help each country.",
+   "zh": "在她到访的许多国家，她与当地学生见面交谈——他们讨论如何利用旅游业帮助各个国家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 156.1,
+   "t2": 167.96,
+   "en": "Cassie is also very worried about the environment, so she agreed to help another organisation called Adventurers and Scientists for Conservation, funded by National Geographic.",
+   "zh": "卡西也非常关心环境，因此同意帮助另一个名为“探险家与科学家保护协会”的组织，该组织由国家地理资助。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 168.86,
+   "t2": 176.6,
+   "en": "In many of the countries she went to, she collected samples of water for them to test for the presence of microplastics.",
+   "zh": "在她到访的许多国家，她采集水样，供他们检测微塑料的存在。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 177.76,
+   "t2": 180.106,
+   "en": "Cassie has always wanted to travel.",
+   "zh": "卡西一直想旅行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 180.58,
+   "t2": 184.26,
+   "en": "When she was at school, she had a strong interest in other cultures.",
+   "zh": "上学时，她就对其他文化有浓厚兴趣。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 185.02,
+   "t2": 195.361,
+   "en": "She was curious about how Americans have their origins in countries all over the world, and she wanted to find out more about where their ancestors came from.",
+   "zh": "她好奇美国人的祖先来自世界各地，也想更多了解他们的根源。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 196.26,
+   "t2": 200.5,
+   "en": "This journey was a chance to start answering some of these questions.",
+   "zh": "这趟旅程是开始回答其中一些问题的机会。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 201.36,
+   "t2": 204.173,
+   "en": "So, has she finished her travels now?",
+   "zh": "那么，她现在结束旅行了吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 204.72,
+   "t2": 207.064,
+   "en": "No, she hasn’t – not at all!",
+   "zh": "不，她没有——根本没有！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 207.92,
+   "t2": 213.554,
+   "en": "Cassie hasn’t become tired of travelling, and she is already making plans for her next journey.",
+   "zh": "卡西并没有厌倦旅行，已经在为下一次旅程制定计划。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 213.554,
+   "t2": 215.96,
+   "en": "And she didn’t forget Antarctica!",
+   "zh": "她也没有忘记南极洲！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 215.96,
+   "t2": 220.08,
+   "en": "She visited it on the last stop of her expedition.",
+   "zh": "她在探险的最后一站访问了那里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

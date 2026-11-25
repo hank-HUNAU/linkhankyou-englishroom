@@ -1,0 +1,229 @@
+{
+ "unit": "U1",
+ "passage_key": "u1_015",
+ "page": "p015",
+ "title": "1.04",
+ "type": "听力",
+ "n_sent": 31,
+ "duration_s": 170.11,
+ "source": "Think 1 alignment/SB_u01_p015_t04（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.28,
+   "end_s": 18.82,
+   "dur_s": 9.54,
+   "text": "Ben! Why don’t you have a rest and stop playing for a while? I’ve got homework. Ben!"
+  },
+  {
+   "i": 1,
+   "start_s": 19.52,
+   "end_s": 20.42,
+   "dur_s": 0.9,
+   "text": "What’s up, Sally?"
+  },
+  {
+   "i": 2,
+   "start_s": 21.21,
+   "end_s": 26.77,
+   "dur_s": 5.56,
+   "text": "I’ve got English and Geography homework. And you’re playing the guitar – badly!"
+  },
+  {
+   "i": 3,
+   "start_s": 27.47,
+   "end_s": 32.37,
+   "dur_s": 4.9,
+   "text": "Well, it’s my hobby and I have a good time when I practise. I love it."
+  },
+  {
+   "i": 4,
+   "start_s": 32.37,
+   "end_s": 35.7,
+   "dur_s": 3.33,
+   "text": "Sure. But right now?"
+  },
+  {
+   "i": 5,
+   "start_s": 36.34,
+   "end_s": 41.0,
+   "dur_s": 4.66,
+   "text": "Well, yes! I’m practising now, then I can do my homework later."
+  },
+  {
+   "i": 6,
+   "start_s": 41.54,
+   "end_s": 48.93,
+   "dur_s": 7.39,
+   "text": "Well, can you do your homework now, please? The same time as me? And then practise the guitar later?"
+  },
+  {
+   "i": 7,
+   "start_s": 49.55,
+   "end_s": 55.54,
+   "dur_s": 5.99,
+   "text": "Erm … well, yes, why not? But help me with my Maths homework, OK?"
+  },
+  {
+   "i": 8,
+   "start_s": 56.2,
+   "end_s": 58.003,
+   "dur_s": 1.803,
+   "text": "Oh, all right!"
+  },
+  {
+   "i": 9,
+   "start_s": 63.54,
+   "end_s": 66.88,
+   "dur_s": 3.34,
+   "text": "Mum, can I take judo lessons?"
+  },
+  {
+   "i": 10,
+   "start_s": 67.82,
+   "end_s": 71.14,
+   "dur_s": 3.32,
+   "text": "Judo? Really? What for?"
+  },
+  {
+   "i": 11,
+   "start_s": 71.74,
+   "end_s": 77.2,
+   "dur_s": 5.46,
+   "text": "Well … it’s good exercise, and some of my friends are learning judo, too."
+  },
+  {
+   "i": 12,
+   "start_s": 77.82,
+   "end_s": 79.32,
+   "dur_s": 1.5,
+   "text": "I think it’s a great idea."
+  },
+  {
+   "i": 13,
+   "start_s": 79.82,
+   "end_s": 82.75,
+   "dur_s": 2.93,
+   "text": "Really? Judo for girls?"
+  },
+  {
+   "i": 14,
+   "start_s": 83.35,
+   "end_s": 83.85,
+   "dur_s": 0.5,
+   "text": "Mum!!"
+  },
+  {
+   "i": 15,
+   "start_s": 84.47,
+   "end_s": 92.43,
+   "dur_s": 7.96,
+   "text": "Yes, a friend of mine at work does judo. She loves it and she says it’s very good for making her strong and keeping her healthy."
+  },
+  {
+   "i": 16,
+   "start_s": 92.43,
+   "end_s": 97.61,
+   "dur_s": 5.18,
+   "text": "That’s right, Dad. And maybe I can make some new friends, too."
+  },
+  {
+   "i": 17,
+   "start_s": 98.38,
+   "end_s": 101.06,
+   "dur_s": 2.68,
+   "text": "Oh. Well. OK."
+  },
+  {
+   "i": 18,
+   "start_s": 101.82,
+   "end_s": 103.78,
+   "dur_s": 1.96,
+   "text": "Thanks, Mum! Thanks, Dad!"
+  },
+  {
+   "i": 19,
+   "start_s": 104.3,
+   "end_s": 108.402,
+   "dur_s": 4.102,
+   "text": "Jade! I think that’s kung fu, not judo!"
+  },
+  {
+   "i": 20,
+   "start_s": 114.68,
+   "end_s": 117.28,
+   "dur_s": 2.6,
+   "text": "Harry! It’s time for dinner."
+  },
+  {
+   "i": 21,
+   "start_s": 119.18,
+   "end_s": 122.02,
+   "dur_s": 2.84,
+   "text": "Come on, Harry. Dinner’s ready."
+  },
+  {
+   "i": 22,
+   "start_s": 122.8,
+   "end_s": 126.5,
+   "dur_s": 3.7,
+   "text": "Just a minute, Mum. I’m finishing something."
+  },
+  {
+   "i": 23,
+   "start_s": 126.5,
+   "end_s": 131.62,
+   "dur_s": 5.12,
+   "text": "Harry, it’s dinnertime. Come and eat, we’re having dinner!"
+  },
+  {
+   "i": 24,
+   "start_s": 132.26,
+   "end_s": 133.26,
+   "dur_s": 1.0,
+   "text": "OK, Mum."
+  },
+  {
+   "i": 25,
+   "start_s": 136.02,
+   "end_s": 139.34,
+   "dur_s": 3.32,
+   "text": "You’re always on your phone. Playing games."
+  },
+  {
+   "i": 26,
+   "start_s": 139.8,
+   "end_s": 145.1,
+   "dur_s": 5.3,
+   "text": "No, not games, Mum. Puzzles. I’m doing a crossword."
+  },
+  {
+   "i": 27,
+   "start_s": 145.62,
+   "end_s": 150.68,
+   "dur_s": 5.06,
+   "text": "A crossword? Oh, I hate crosswords. They’re too difficult."
+  },
+  {
+   "i": 28,
+   "start_s": 151.18,
+   "end_s": 154.56,
+   "dur_s": 3.38,
+   "text": "I love them. They’re great exercise for my brain."
+  },
+  {
+   "i": 29,
+   "start_s": 154.56,
+   "end_s": 160.51,
+   "dur_s": 5.95,
+   "text": "Are they? Well, OK. You know, you have to look after your brain, right?"
+  },
+  {
+   "i": 30,
+   "start_s": 161.11,
+   "end_s": 164.43,
+   "dur_s": 3.32,
+   "text": "That’s right. Just like you look after me, Mum."
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "id": "U2-2",
+ "no": 5,
+ "title": "Unit 2-Listening",
+ "titleZh": "Listening: Shopping conversations",
+ "audio": "assets/tk1_p023.mp3",
+ "duration": 143.05,
+ "question": null,
+ "unit": "Unit 2",
+ "part": "Listening",
+ "partCn": "听力",
+ "bookPage": "p023",
+ "srcKey": "SB_u02_p023_t04",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.14,
+   "t2": 10.46,
+   "en": "Hello. Can I help you?",
+   "zh": "您好。需要帮忙吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 1,
+   "t": 10.82,
+   "t2": 14.28,
+   "en": "Hi. Yes, where can I find toothbrushes?",
+   "zh": "嗨，是的。请问牙刷在哪儿？",
+   "conf": 1.0
+  },
+  {
+   "i": 2,
+   "t": 15.32,
+   "t2": 17.22,
+   "en": "They’re just there on your right.",
+   "zh": "就在您右边那儿。",
+   "conf": 1.0
+  },
+  {
+   "i": 3,
+   "t": 17.64,
+   "t2": 21.94,
+   "en": "Oh yes. I didn’t see them. OK, I’ll take this one.",
+   "zh": "哦，对。我没看见。好，我拿这个。",
+   "conf": 1.0
+  },
+  {
+   "i": 4,
+   "t": 22.68,
+   "t2": 23.36,
+   "en": "Is that all?",
+   "zh": "就这些吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 5,
+   "t": 23.86,
+   "t2": 26.08,
+   "en": "No, there’s this toothpaste, too.",
+   "zh": "不，还有这个牙膏。",
+   "conf": 1.0
+  },
+  {
+   "i": 6,
+   "t": 26.56,
+   "t2": 29.38,
+   "en": "OK. So that’s £4.30.",
+   "zh": "好。那一共是 4.30 英镑。",
+   "conf": 1.0
+  },
+  {
+   "i": 7,
+   "t": 30.74,
+   "t2": 31.25,
+   "en": "Here you are.",
+   "zh": "给您。",
+   "conf": 1.0
+  },
+  {
+   "i": 8,
+   "t": 31.25,
+   "t2": 35.33,
+   "en": "And that’s 70p change. Have a nice day.",
+   "zh": "这是找您的 70 便士。祝您愉快。",
+   "conf": 1.0
+  },
+  {
+   "i": 9,
+   "t": 35.63,
+   "t2": 36.13,
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "conf": 1.0
+  },
+  {
+   "i": 10,
+   "t": 41.8,
+   "t2": 43.06,
+   "en": "Are you all right there?",
+   "zh": "您那边还好吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 11,
+   "t": 43.58,
+   "t2": 48.94,
+   "en": "Yes, thanks. I just want a cover for my new phone. Have you got this one in red?",
+   "zh": "是的，谢谢。我只想给新手机买个保护套。你们有红色的这种吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 12,
+   "t": 49.5,
+   "t2": 51.16,
+   "en": "Sorry, only black.",
+   "zh": "抱歉，只有黑色的。",
+   "conf": 1.0
+  },
+  {
+   "i": 13,
+   "t": 51.7,
+   "t2": 54.28,
+   "en": "OK, black’s fine. I’ll take it.",
+   "zh": "好，黑色的也行。我买了。",
+   "conf": 1.0
+  },
+  {
+   "i": 14,
+   "t": 54.28,
+   "t2": 58.06,
+   "en": "Right. That’s twelve ninety-nine please.",
+   "zh": "好的。一共 12.99 英镑。",
+   "conf": 1.0
+  },
+  {
+   "i": 15,
+   "t": 58.58,
+   "t2": 60.68,
+   "en": "Can I pay with my contactless card?",
+   "zh": "我可以用非接触式银行卡付款吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 16,
+   "t": 61.08,
+   "t2": 64.3,
+   "en": "Of course. Just place it over here.",
+   "zh": "当然。把它放在这儿就行。",
+   "conf": 1.0
+  },
+  {
+   "i": 17,
+   "t": 64.96,
+   "t2": 65.28,
+   "en": "OK.",
+   "zh": "好。",
+   "conf": 1.0
+  },
+  {
+   "i": 18,
+   "t": 66.2,
+   "t2": 70.26,
+   "en": "Great. That’s gone through. Would you like your receipt?",
+   "zh": "太好了，交易成功。您需要小票吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 19,
+   "t": 70.86,
+   "t2": 71.76,
+   "en": "No, it’s OK.",
+   "zh": "不用，谢谢。",
+   "conf": 1.0
+  },
+  {
+   "i": 20,
+   "t": 77.94,
+   "t2": 79.3,
+   "en": "Do you need any help?",
+   "zh": "需要帮忙吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 21,
+   "t": 80.06,
+   "t2": 84.06,
+   "en": "Hi. These trousers – can I try them on, please?",
+   "zh": "嗨。这条裤子——我可以试穿吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 22,
+   "t": 84.72,
+   "t2": 86.74,
+   "en": "Sure. What size do you take?",
+   "zh": "当然。您穿什么尺码？",
+   "conf": 1.0
+  },
+  {
+   "i": 23,
+   "t": 88.02,
+   "t2": 91.98,
+   "en": "Not sure. 28 or 30.",
+   "zh": "不确定。28 或 30。",
+   "conf": 1.0
+  },
+  {
+   "i": 24,
+   "t": 92.54,
+   "t2": 96.48,
+   "en": "And do you want them in red? We’ve got other colours, too.",
+   "zh": "您想要红色的吗？我们还有别的颜色。",
+   "conf": 1.0
+  },
+  {
+   "i": 25,
+   "t": 96.96,
+   "t2": 101.16,
+   "en": "Yes, I saw them but it’s the red ones I’m interested in.",
+   "zh": "是的，我看到了，不过我感兴趣的是红色的。",
+   "conf": 1.0
+  },
+  {
+   "i": 26,
+   "t": 101.16,
+   "t2": 107.99,
+   "en": "No problem. So why don’t you try both sizes? The changing rooms are in the corner.",
+   "zh": "没问题。那您两个尺码都试试怎么样？试衣间在角落。",
+   "conf": 1.0
+  },
+  {
+   "i": 27,
+   "t": 108.63,
+   "t2": 109.03,
+   "en": "Thanks!",
+   "zh": "谢谢！",
+   "conf": 1.0
+  },
+  {
+   "i": 28,
+   "t": 115.52,
+   "t2": 116.44,
+   "en": "Can I help you?",
+   "zh": "需要帮忙吗？",
+   "conf": 1.0
+  },
+  {
+   "i": 29,
+   "t": 116.84,
+   "t2": 121.84,
+   "en": "Yeah. These football socks. How much are they? I can’t find the price.",
+   "zh": "是的。这些足球袜多少钱？我找不到价格。",
+   "conf": 1.0
+  },
+  {
+   "i": 30,
+   "t": 122.3,
+   "t2": 126.3,
+   "en": "Just a moment. They’re eight ninety-nine.",
+   "zh": "稍等。它们是 8.99 英镑。",
+   "conf": 1.0
+  },
+  {
+   "i": 31,
+   "t": 127.04,
+   "t2": 128.37,
+   "en": "Fine. I’ll take them.",
+   "zh": "好，我买了。",
+   "conf": 1.0
+  },
+  {
+   "i": 32,
+   "t": 128.67,
+   "t2": 131.23,
+   "en": "OK, is that cash or card?",
+   "zh": "好的，现金还是刷卡？",
+   "conf": 1.0
+  },
+  {
+   "i": 33,
+   "t": 131.83,
+   "t2": 132.17,
+   "en": "Cash.",
+   "zh": "现金。",
+   "conf": 1.0
+  },
+  {
+   "i": 34,
+   "t": 132.89,
+   "t2": 136.7,
+   "en": "That’s great and here’s your change and receipt.",
+   "zh": "好的，这是找零和小票。",
+   "conf": 1.0
+  },
+  {
+   "i": 35,
+   "t": 137.22,
+   "t2": 137.6,
+   "en": "Thanks.",
+   "zh": "谢谢。",
+   "conf": 1.0
+  }
+ ]
+}

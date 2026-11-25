@@ -1,0 +1,258 @@
+{
+ "id": "SB_u11_p102_t01",
+ "no": 11.01,
+ "title": "Magazine article: Changing bodies",
+ "titleZh": "",
+ "audio": "assets/tk1_p102.mp3",
+ "duration": 187.59,
+ "question": null,
+ "unit": 11,
+ "part": "阅读A",
+ "bookPage": "p102",
+ "srcKey": "SB_u11_p102_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.35,
+   "t2": 14.315,
+   "en": "A long time ago, people were very different from the way we are now.",
+   "zh": "很久以前，人们和我们现在的样子很不一样。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 15.02,
+   "t2": 23.84,
+   "en": "For example, if you find a really old house somewhere, you’ll see that the doors are usually much lower than they are today.",
+   "zh": "比如，如果你在某个地方找到一座很老的房子，你会看到它的门通常比现在的门矮得多。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 24.74,
+   "t2": 25.14,
+   "en": "Why?",
+   "zh": "为什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 25.94,
+   "t2": 29.36,
+   "en": "Because hundreds of years ago, people were shorter.",
+   "zh": "因为几百年前，人们更矮。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 30.5,
+   "t2": 35.852,
+   "en": "Over time, the human body changes to adapt to a new way of life.",
+   "zh": "随着时间推移，人体会改变来适应新的生活方式。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 36.74,
+   "t2": 40.28,
+   "en": "Can we expect the human body to change in the future?",
+   "zh": "我们能预期人体在未来发生变化吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 40.9,
+   "t2": 41.48,
+   "en": "For sure.",
+   "zh": "当然能。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 42.38,
+   "t2": 48.62,
+   "en": "And the main reason is that we have more and more technology, and it is changing how we live.",
+   "zh": "主要原因是我们的科技越来越多，它正在改变我们的生活方式。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 49.54,
+   "t2": 52.08,
+   "en": "What kind of changes can we expect?",
+   "zh": "我们能预期哪些变化？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 52.88,
+   "t2": 57.76,
+   "en": "Well, no one can be 100 percent sure, but here are some possibilities.",
+   "zh": "嗯，没人能 100% 确定，但这里有一些可能的变化。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 61.14,
+   "t2": 63.02,
+   "en": "Let’s start with the example above.",
+   "zh": "我们先从上面的例子说起。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 64.32,
+   "t2": 69.242,
+   "en": "Humans are now ten centimetres taller than 150 years ago.",
+   "zh": "现在的人比 150 年前高十厘米。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 69.98,
+   "t2": 74.14,
+   "en": "So, in the future, people will probably be even taller.",
+   "zh": "所以在未来，人们可能会更高。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 75.3,
+   "t2": 81.2,
+   "en": "Most of us now have much better food than people in the past – and so we grow more.",
+   "zh": "我们现在大多数人的食物比过去的人好得多，所以我们也长得更高。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 84.18,
+   "t2": 86.901,
+   "en": "We’ll get weaker in more than one way.",
+   "zh": "我们会在不止一个方面变得更弱。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 87.7,
+   "t2": 95.062,
+   "en": "The most important way is that our muscles will not be as strong as now because we won’t do a lot of physical work.",
+   "zh": "最重要的一点是，我们的肌肉不会像现在这么强壮，因为我们不会做很多体力活。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 98.14,
+   "t2": 105.825,
+   "en": "We are already using our feet less, and our hands more (think about computers and tablets and so on).",
+   "zh": "我们已经较少用脚，更多用手（想想电脑、平板等等）。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 105.825,
+   "t2": 115.4,
+   "en": "So we can expect that our legs will get shorter and our feet smaller, and at the same time, our fingers will get longer.",
+   "zh": "所以我们可以预期，我们的腿会变短，脚会变小，同时手指会变长。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 116.26,
+   "t2": 123.08,
+   "en": "And our fingers and our eyes will both get better because they’ll have to do more work together.",
+   "zh": "而且我们的手指和眼睛都会变得更好，因为它们要一起做更多工作。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 126.08,
+   "t2": 127.82,
+   "en": "Now, what about the mouth?",
+   "zh": "那么，嘴呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 128.84,
+   "t2": 143.46,
+   "en": "It’ll get smaller, perhaps, because technological improvements will mean that we don’t need to talk so much – and also because our teeth will get smaller (so mouths don’t need to be so big to keep them in).",
+   "zh": "它可能会变小，因为技术进步意味着我们不需要说那么多话，也因为我们的牙齿会变小（所以嘴不需要那么大才能装下它们）。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 146.38,
+   "t2": 152.96,
+   "en": "Here’s a good one – it’s very possible that people will have four toes, not five.",
+   "zh": "这条很有意思——很可能人们会有四个脚趾，而不是五个。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 153.62,
+   "t2": 163.46,
+   "en": "The little toe really isn’t needed anymore (people who lose them don’t miss them), so it will probably disappear sometime in the future.",
+   "zh": "小脚趾真的不再需要了（失去小脚趾的人也不会想念它们），所以它可能会在未来某个时候消失。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 166.84,
+   "t2": 175.56,
+   "en": "And last but not least – people won’t have as much hair on their bodies as now, as we don’t need it to keep ourselves warm anymore.",
+   "zh": "最后一点——人们身上的毛发不会像现在这么多，因为我们不再需要它来保暖。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 176.48,
+   "t2": 178.26,
+   "en": "Will all these things happen?",
+   "zh": "这些事情都会发生吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 178.8,
+   "t2": 180.1,
+   "en": "And if so, when?",
+   "zh": "如果会，什么时候？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 181.08,
+   "t2": 184.34,
+   "en": "These are questions that no one can answer for sure.",
+   "zh": "这些是没有人能肯定回答的问题。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

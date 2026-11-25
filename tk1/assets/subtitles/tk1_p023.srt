@@ -1,0 +1,143 @@
+1
+00:00:09,140 --> 00:00:10,460
+Hello. Can I help you?
+
+2
+00:00:10,820 --> 00:00:14,280
+Hi. Yes, where can I find toothbrushes?
+
+3
+00:00:15,320 --> 00:00:17,220
+They’re just there on your right.
+
+4
+00:00:17,640 --> 00:00:21,940
+Oh yes. I didn’t see them. OK, I’ll take this one.
+
+5
+00:00:22,680 --> 00:00:23,360
+Is that all?
+
+6
+00:00:23,860 --> 00:00:26,080
+No, there’s this toothpaste, too.
+
+7
+00:00:26,560 --> 00:00:29,380
+OK. So that’s £4.30.
+
+8
+00:00:30,740 --> 00:00:31,250
+Here you are.
+
+9
+00:00:31,250 --> 00:00:35,330
+And that’s 70p change. Have a nice day.
+
+10
+00:00:35,630 --> 00:00:36,130
+Thank you.
+
+11
+00:00:41,800 --> 00:00:43,060
+Are you all right there?
+
+12
+00:00:43,580 --> 00:00:48,940
+Yes, thanks. I just want a cover for my new phone. Have you got this one in red?
+
+13
+00:00:49,500 --> 00:00:51,160
+Sorry, only black.
+
+14
+00:00:51,700 --> 00:00:54,280
+OK, black’s fine. I’ll take it.
+
+15
+00:00:54,280 --> 00:00:58,060
+Right. That’s twelve ninety-nine please.
+
+16
+00:00:58,580 --> 00:01:00,680
+Can I pay with my contactless card?
+
+17
+00:01:01,080 --> 00:01:04,300
+Of course. Just place it over here.
+
+18
+00:01:04,960 --> 00:01:05,280
+OK.
+
+19
+00:01:06,200 --> 00:01:10,260
+Great. That’s gone through. Would you like your receipt?
+
+20
+00:01:10,860 --> 00:01:11,760
+No, it’s OK.
+
+21
+00:01:17,940 --> 00:01:19,300
+Do you need any help?
+
+22
+00:01:20,060 --> 00:01:24,060
+Hi. These trousers – can I try them on, please?
+
+23
+00:01:24,720 --> 00:01:26,740
+Sure. What size do you take?
+
+24
+00:01:28,020 --> 00:01:31,980
+Not sure. 28 or 30.
+
+25
+00:01:32,540 --> 00:01:36,480
+And do you want them in red? We’ve got other colours, too.
+
+26
+00:01:36,960 --> 00:01:41,160
+Yes, I saw them but it’s the red ones I’m interested in.
+
+27
+00:01:41,160 --> 00:01:47,990
+No problem. So why don’t you try both sizes? The changing rooms are in the corner.
+
+28
+00:01:48,630 --> 00:01:49,030
+Thanks!
+
+29
+00:01:55,520 --> 00:01:56,440
+Can I help you?
+
+30
+00:01:56,840 --> 00:02:01,840
+Yeah. These football socks. How much are they? I can’t find the price.
+
+31
+00:02:02,300 --> 00:02:06,300
+Just a moment. They’re eight ninety-nine.
+
+32
+00:02:07,040 --> 00:02:08,370
+Fine. I’ll take them.
+
+33
+00:02:08,670 --> 00:02:11,230
+OK, is that cash or card?
+
+34
+00:02:11,830 --> 00:02:12,170
+Cash.
+
+35
+00:02:12,890 --> 00:02:16,700
+That’s great and here’s your change and receipt.
+
+36
+00:02:17,220 --> 00:02:17,600
+Thanks.

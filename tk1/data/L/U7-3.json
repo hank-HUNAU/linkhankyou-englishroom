@@ -1,0 +1,240 @@
+{
+ "id": "SB_u07_p070_t06",
+ "no": 7.06,
+ "title": "Website: Gadget reviews (year 2066)",
+ "titleZh": "",
+ "audio": "assets/tk1_p070.mp3",
+ "duration": 135.29,
+ "question": null,
+ "unit": 7,
+ "part": "阅读B",
+ "bookPage": "p070",
+ "srcKey": "SB_u07_p070_t06",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.54,
+   "t2": 11.24,
+   "en": "Are you tired of choosing a cool outfit to wear for special occasions?",
+   "zh": "你厌烦为特殊场合挑选一身酷酷的装扮吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 12.06,
+   "t2": 14.22,
+   "en": "Well, now you don’t have to!",
+   "zh": "嗯，现在你不用了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 15.04,
+   "t2": 21.595,
+   "en": "The all-new Trendy-wise is easy to use and you don’t have to be trendy to use it.",
+   "zh": "全新的 Trendy-wise 很好用，你也不必很时髦才能用它。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 22.24,
+   "t2": 29.32,
+   "en": "However, before you can use it, you have to take photos of all the clothes in your wardrobe.",
+   "zh": "不过，在使用它之前，你得把衣柜里所有衣服都拍下来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 30.02,
+   "t2": 34.52,
+   "en": "And you mustn’t forget to take photos of all your shoes and socks, too.",
+   "zh": "而且千万别忘记把鞋子和袜子也拍下来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 35.46,
+   "t2": 41.78,
+   "en": "Then all you have to do is click on a photo of, for example, a blue T-shirt.",
+   "zh": "然后你只要点一下某件衣服的照片，比如一件蓝色 T 恤。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 42.88,
+   "t2": 52.26,
+   "en": "The Trendy-wise selects photos of trousers or skirts, shoes, socks, etc., from your wardrobe to go with this T-shirt.",
+   "zh": "Trendy-wise 就会从你的衣柜里挑出搭配这件 T 恤的裤子或裙子、鞋子、袜子等等的照片。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 53.62,
+   "t2": 59.68,
+   "en": "Each time it creates a different outfit for you and the outfits are all very trendy.",
+   "zh": "每次它都会给你搭配出不同的装扮，而且都很时髦。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 60.7,
+   "t2": 62.38,
+   "en": "Oh, I almost forgot!",
+   "zh": "哦，我差点忘了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 63.16,
+   "t2": 71.82,
+   "en": "You also have to type in the kind of event/occasion, for example: a concert or a birthday party.",
+   "zh": "你还得输入活动的类型，比如：音乐会或生日派对。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 73.22,
+   "t2": 75.64,
+   "en": "Do you sometimes have bad dreams?",
+   "zh": "你有时会做噩梦吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 76.24,
+   "t2": 78.44,
+   "en": "Do you wake up scared or unhappy?",
+   "zh": "你醒来时会害怕或不开心吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 79.24,
+   "t2": 79.62,
+   "en": "Yes?",
+   "zh": "有吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 80.36,
+   "t2": 82.18,
+   "en": "Then you should buy the DreamCatcher.",
+   "zh": "那你应该买一台 DreamCatcher。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 83.44,
+   "t2": 84.48,
+   "en": "This is how it works:",
+   "zh": "它是这样工作的：",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 85.4,
+   "t2": 88.1,
+   "en": "Put the machine on your head before you go to bed.",
+   "zh": "睡觉前把机器戴在头上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 88.82,
+   "t2": 101.38,
+   "en": "Tell it what you want or don’t want by speaking into the microphone – for example: ‘I want dreams where I win a singing competition’ or ‘I don’t want dreams about falling.’",
+   "zh": "对着麦克风告诉它你想做什么梦、不想做什么梦——比如：“我想梦见自己赢了歌唱比赛”，或者“我不想梦见往下掉”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 102.62,
+   "t2": 108.02,
+   "en": "When you are asleep, DreamCatcher will follow your dreams and make sure you get what you want.",
+   "zh": "你睡着后，DreamCatcher 会跟随你的梦，确保你梦到想要的内容。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 108.8,
+   "t2": 111.74,
+   "en": "Imagine that in your dream you do something dangerous.",
+   "zh": "想象一下，你在梦里做了危险的事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 112.42,
+   "t2": 114.6,
+   "en": "DreamCatcher will make sure you’re safe.",
+   "zh": "DreamCatcher 会确保你安全。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 115.22,
+   "t2": 116.36,
+   "en": "Here’s an example.",
+   "zh": "举个例子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 117.2,
+   "t2": 119.86,
+   "en": "Let’s say you start to climb a high mountain.",
+   "zh": "假设你开始爬一座高山。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 120.58,
+   "t2": 125.62,
+   "en": "You don’t have to worry because the DreamCatcher will make you walk back down again.",
+   "zh": "你不用担心，因为 DreamCatcher 会让你往回走下山。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 125.62,
+   "t2": 128.8,
+   "en": "But you mustn’t use the machine every night.",
+   "zh": "但你不能每晚都用这台机器。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 129.44,
+   "t2": 131.9,
+   "en": "It will only work every three days.",
+   "zh": "它每三天才起作用一次。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

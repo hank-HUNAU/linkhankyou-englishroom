@@ -1,0 +1,170 @@
+[
+ {
+  "w": "satnav",
+  "ipa": "ˈsæt.næv",
+  "pos": "noun",
+  "zh": "卫星导航",
+  "ex": "I used the satnav to get home."
+ },
+ {
+  "w": "MP3 player",
+  "ipa": "em.piːˈθriː ˌpleɪ.ə",
+  "pos": "noun",
+  "zh": "MP3播放 器",
+  "ex": "He gave me an MP3 player."
+ },
+ {
+  "w": "torch",
+  "ipa": "",
+  "pos": "noun",
+  "zh": "手电筒",
+  "ex": "She shone the torch into the dark room."
+ },
+ {
+  "w": "games console",
+  "ipa": "ˈgeɪmz ˌkɒn.səʊl",
+  "pos": "noun",
+  "zh": "游戏手柄",
+  "ex": "He bought a new game console."
+ },
+ {
+  "w": "remote control",
+  "ipa": "rɪˌməʊt kənˈtrəʊl",
+  "pos": "noun",
+  "zh": "遥控器",
+  "ex": "Have you seen the remote control anywhere?"
+ },
+ {
+  "w": "coffee machine",
+  "ipa": "tɔːtʃ",
+  "pos": "noun",
+  "zh": "咖啡机",
+  "ex": "There's a coffee machine in the kitchen."
+ },
+ {
+  "w": "calculator",
+  "ipa": "ˈkæl.kjʊ.leɪ.tə",
+  "pos": "noun",
+  "zh": "计算器",
+  "ex": "a pocket calculator"
+ },
+ {
+  "w": "docking station",
+  "ipa": "ˈdɒk.ɪŋ ˌsteɪ.ʃən",
+  "pos": "noun",
+  "zh": "扩充口； 插接站",
+  "ex": "He put his iPod in the docking station."
+ },
+ {
+  "w": "hair dryer",
+  "ipa": "ˈheəˌdraɪ.ə",
+  "pos": "noun",
+  "zh": "吹风机",
+  "ex": "I used my hair dryer after my shower."
+ },
+ {
+  "w": "headphones",
+  "ipa": "ˈhed.fəʊnz",
+  "pos": "noun",
+  "zh": "耳机",
+  "ex": "Use these headphones to listen to the music."
+ },
+ {
+  "w": "like",
+  "ipa": "laɪk",
+  "pos": "preposition",
+  "zh": "像",
+  "ex": "She's very much like her mother."
+ },
+ {
+  "w": "looks like",
+  "ipa": "ˈlʊks laɪk",
+  "pos": "phrase",
+  "zh": "看起来像It",
+  "ex": "looks like a star."
+ },
+ {
+  "w": "sounds like",
+  "ipa": "ˈsaʊndz laɪk",
+  "pos": "phrase",
+  "zh": "听起来像",
+  "ex": "It sounds like a train."
+ },
+ {
+  "w": "like what?",
+  "ipa": "laɪk ˈwɒt",
+  "pos": "phrase",
+  "zh": "比如什 么？",
+  "ex": "You think we should do something? Like what?"
+ },
+ {
+  "w": "vacuum the floor",
+  "ipa": "ˌvæk.juːm ðə ˈflɔː",
+  "pos": "phrase",
+  "zh": "用吸尘器 吸地板",
+  "ex": "Could you vacuum the floor, please?"
+ },
+ {
+  "w": "tidy up",
+  "ipa": "ˌtaɪ.di ˈʌp",
+  "pos": "phrasal verb",
+  "zh": "整理",
+  "ex": "Please tidy up when you have finished cooking."
+ },
+ {
+  "w": "do the ironing",
+  "ipa": "ˌdu: ðiː ˈaɪə.nɪŋ",
+  "pos": "phrase",
+  "zh": "熨衣服",
+  "ex": "I need to do the ironing."
+ },
+ {
+  "w": "do the shopping",
+  "ipa": "ˌdu: ðə ˈʃɒp.ɪŋ",
+  "pos": "phrase",
+  "zh": "买东西",
+  "ex": "I'll get some more butter when I do the shopping."
+ },
+ {
+  "w": "set/ clear the table",
+  "ipa": "ˌset /ˌklɪə ðə ˈteɪ",
+  "pos": "phrase",
+  "zh": "整理/清 理桌子",
+  "ex": "She set the table ready for dinner."
+ },
+ {
+  "w": "do the washing- up (wash up)",
+  "ipa": "ˌdu: ðə ˌwɒʃ.ɪŋ ˈʌ p",
+  "pos": "phrase",
+  "zh": "洗餐具",
+  "ex": "Mick did the washing up last night."
+ },
+ {
+  "w": "make the beds",
+  "ipa": "ˌmeɪk ðə ˈbedz",
+  "pos": "phrase",
+  "zh": "整理床铺",
+  "ex": "I made the beds before breakfast."
+ },
+ {
+  "w": "do the cooking",
+  "ipa": "ˌdu: ðə ˈkʊk.ɪŋ",
+  "pos": "phrase",
+  "zh": "做饭",
+  "ex": "Dad does the cooking in our house."
+ },
+ {
+  "w": "do the washing",
+  "ipa": "ˌdu: ðə ˈwɒʃ.ɪŋ",
+  "pos": "phrase",
+  "zh": "洗衣服",
+  "ex": "I do the washing at the weekend."
+ },
+ {
+  "w": "load/ empty the dishwasher",
+  "ipa": "ˌləʊd / ˌemp.ti ðə ˈdɪʃˌwɒʃ.ə",
+  "pos": "phrase",
+  "zh": "放..进洗 碗机/清 空洗碗机",
+  "ex": "Suzi loaded the dishwasher after dinner."
+ }
+]

@@ -1,0 +1,335 @@
+{
+ "passage_key": "u11_105",
+ "page": "p105",
+ "unit": 11,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 65,
+ "n_unique_keys": 64,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Are you all right, Lydia?",
+   "zh": "你还好吗，莉迪娅？"
+  },
+  {
+   "i": 1,
+   "en": "No, I’m not, Dad.",
+   "zh": "不，爸爸，我不太好。"
+  },
+  {
+   "i": 2,
+   "en": "I’m not well at all.",
+   "zh": "我一点都不舒服。"
+  },
+  {
+   "i": 3,
+   "en": "What’s the matter with you?",
+   "zh": "你怎么了？"
+  },
+  {
+   "i": 4,
+   "en": "I’ve got a really bad stomach ache.",
+   "zh": "我肚子很疼。"
+  },
+  {
+   "i": 5,
+   "en": "Do you think it was something you ate?",
+   "zh": "你觉得是吃坏东西了吗？"
+  },
+  {
+   "i": 6,
+   "en": "No, not just one thing.",
+   "zh": "不，不只是一样东西。"
+  },
+  {
+   "i": 7,
+   "en": "She ate loads.",
+   "zh": "她吃了好多。"
+  },
+  {
+   "i": 8,
+   "en": "Don’t be mean, Liam.",
+   "zh": "别这么说，利亚姆。"
+  },
+  {
+   "i": 9,
+   "en": "Your sister doesn’t feel great.",
+   "zh": "你姐姐不舒服。"
+  },
+  {
+   "i": 10,
+   "en": "He’s right, Dad.",
+   "zh": "他说得对，爸爸。"
+  },
+  {
+   "i": 11,
+   "en": "I think I was too hungry.",
+   "zh": "我想我是太饿了。"
+  },
+  {
+   "i": 12,
+   "en": "I didn’t have any lunch at school today.",
+   "zh": "我今天在学校没吃午饭。"
+  },
+  {
+   "i": 13,
+   "en": "I think you need to just go and lie down for a while.",
+   "zh": "我觉得你需要去躺一会儿。"
+  },
+  {
+   "i": 14,
+   "en": "I’m sure you’ll feel better soon.",
+   "zh": "我相信你很快就会好起来。"
+  },
+  {
+   "i": 15,
+   "en": "OK, Dad.",
+   "zh": "好的，爸爸。"
+  },
+  {
+   "i": 16,
+   "en": "I will.",
+   "zh": "我会的。"
+  },
+  {
+   "i": 17,
+   "en": "I’ll just try and rest.",
+   "zh": "我会尽量休息。"
+  },
+  {
+   "i": 18,
+   "en": "And don’t worry about the washing-up.",
+   "zh": "别担心洗碗的事。"
+  },
+  {
+   "i": 19,
+   "en": "I’m sure your brother will do that.",
+   "zh": "我相信你哥哥会做的。"
+  },
+  {
+   "i": 20,
+   "en": "What?",
+   "zh": "什么？"
+  },
+  {
+   "i": 21,
+   "en": "Me??!!",
+   "zh": "我？！"
+  },
+  {
+   "i": 22,
+   "en": "Come in, Tim.",
+   "zh": "请进，蒂姆。"
+  },
+  {
+   "i": 23,
+   "en": "Take a seat.",
+   "zh": "请坐。"
+  },
+  {
+   "i": 24,
+   "en": "Thank you, Doctor.",
+   "zh": "谢谢你，医生。"
+  },
+  {
+   "i": 25,
+   "en": "So how can I help you today?",
+   "zh": "今天我能怎么帮你？"
+  },
+  {
+   "i": 26,
+   "en": "It’s my elbow.",
+   "zh": "是我的胳膊肘。"
+  },
+  {
+   "i": 27,
+   "en": "It’s really painful.",
+   "zh": "真的很疼。"
+  },
+  {
+   "i": 28,
+   "en": "Look.",
+   "zh": "你看。"
+  },
+  {
+   "i": 29,
+   "en": "Hmm, yes, it does look a bit bruised.",
+   "zh": "嗯，是的，确实有点淤青。"
+  },
+  {
+   "i": 30,
+   "en": "So what happened?",
+   "zh": "那是怎么回事？"
+  },
+  {
+   "i": 31,
+   "en": "Well, it’s a bit of a silly story really.",
+   "zh": "嗯，这其实有点傻。"
+  },
+  {
+   "i": 32,
+   "en": "I got home from school yesterday and I didn’t have my key with me.",
+   "zh": "我昨天放学回家时没带钥匙。"
+  },
+  {
+   "i": 33,
+   "en": "I left it in my locker at school so I tried to open the door with my elbow.",
+   "zh": "我把钥匙落在学校的储物柜里了，所以试着用胳膊肘开门。"
+  },
+  {
+   "i": 34,
+   "en": "Oh, I see.",
+   "zh": "哦，我明白了。"
+  },
+  {
+   "i": 35,
+   "en": "And it didn’t open?",
+   "zh": "门没打开？"
+  },
+  {
+   "i": 36,
+   "en": "No, it didn’t.",
+   "zh": "没有，没打开。"
+  },
+  {
+   "i": 37,
+   "en": "Well, I don’t think it’s anything too serious.",
+   "zh": "嗯，我觉得没什么太严重的问题。"
+  },
+  {
+   "i": 38,
+   "en": "You need to put some ice on it, and take some painkillers if it hurts too much.",
+   "zh": "你需要用冰敷一下，如果太疼就吃点止痛药。"
+  },
+  {
+   "i": 39,
+   "en": "So, it’s not broken?",
+   "zh": "那么，骨头没断吧？"
+  },
+  {
+   "i": 40,
+   "en": "No, it isn’t.",
+   "zh": "没有，没断。"
+  },
+  {
+   "i": 41,
+   "en": "You’re able to move it so I’m not too worried.",
+   "zh": "你还能活动它，所以我不太担心。"
+  },
+  {
+   "i": 42,
+   "en": "But next time you forget your key, just wait for your parents to get home.",
+   "zh": "不过下次忘了带钥匙，就等你父母回家。"
+  },
+  {
+   "i": 43,
+   "en": "OK, Doctor.",
+   "zh": "好的，医生。"
+  },
+  {
+   "i": 44,
+   "en": "I will.",
+   "zh": "我会的。"
+  },
+  {
+   "i": 45,
+   "en": "Hello, John.",
+   "zh": "你好，约翰。"
+  },
+  {
+   "i": 46,
+   "en": "What can I do for you?",
+   "zh": "我能帮你什么？"
+  },
+  {
+   "i": 47,
+   "en": "It’s my neck.",
+   "zh": "是我的脖子。"
+  },
+  {
+   "i": 48,
+   "en": "OK.",
+   "zh": "好。"
+  },
+  {
+   "i": 49,
+   "en": "And what’s the problem with it?",
+   "zh": "那它有什么问题？"
+  },
+  {
+   "i": 50,
+   "en": "Does it hurt?",
+   "zh": "疼吗？"
+  },
+  {
+   "i": 51,
+   "en": "Yes, it does.",
+   "zh": "疼。"
+  },
+  {
+   "i": 52,
+   "en": "I can hardly move it.",
+   "zh": "我几乎不能转动它。"
+  },
+  {
+   "i": 53,
+   "en": "Oh dear.",
+   "zh": "哎呀。"
+  },
+  {
+   "i": 54,
+   "en": "What happened?",
+   "zh": "发生了什么事？"
+  },
+  {
+   "i": 55,
+   "en": "I’m not sure.",
+   "zh": "我不确定。"
+  },
+  {
+   "i": 56,
+   "en": "I went to bed last night and when I woke up it was really hurting.",
+   "zh": "我昨晚睡觉，醒来时它疼得厉害。"
+  },
+  {
+   "i": 57,
+   "en": "Did you do any sport yesterday?",
+   "zh": "你昨天做运动了吗？"
+  },
+  {
+   "i": 58,
+   "en": "No, I didn’t.",
+   "zh": "没有。"
+  },
+  {
+   "i": 59,
+   "en": "But I did sleep with the window open.",
+   "zh": "但我确实开着窗户睡觉了。"
+  },
+  {
+   "i": 60,
+   "en": "My grandmother thinks the cold air made it hurt but I’m not so sure.",
+   "zh": "我奶奶觉得是冷空气让它疼，但我不太确定。"
+  },
+  {
+   "i": 61,
+   "en": "No, I don’t think there’s any connection there.",
+   "zh": "不，我觉得这没有关系。"
+  },
+  {
+   "i": 62,
+   "en": "OK, well, let’s have a look at it.",
+   "zh": "好，那我们来看看它。"
+  },
+  {
+   "i": 63,
+   "en": "Can you take your shirt off for me, please?",
+   "zh": "请把衬衫脱掉好吗？"
+  },
+  {
+   "i": 64,
+   "en": "Sure.",
+   "zh": "当然。"
+  }
+ ]
+}

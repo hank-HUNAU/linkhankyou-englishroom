@@ -1,0 +1,156 @@
+[
+ {
+  "w": "armchair",
+  "ipa": "ˈɑːmˌtʃeə",
+  "pos": "noun",
+  "zh": "扶手椅",
+  "ex": "She sat in an armchair by the fire, reading a newspaper."
+ },
+ {
+  "w": "carpet",
+  "ipa": "ˈkɑː.pɪt",
+  "pos": "noun",
+  "zh": "地毯",
+  "ex": "We've got fitted carpets in the bedrooms."
+ },
+ {
+  "w": "cooker",
+  "ipa": "ˈkʊk.ə",
+  "pos": "noun",
+  "zh": "炊具， 锅，厨灶",
+  "ex": "a gas/electric cooker"
+ },
+ {
+  "w": "curtains",
+  "ipa": "ˈkɜː.tənz",
+  "pos": "plural noun",
+  "zh": "窗帘",
+  "ex": "She closed the curtains."
+ },
+ {
+  "w": "desk",
+  "ipa": "desk",
+  "pos": "noun",
+  "zh": "书桌",
+  "ex": "an office/school desk"
+ },
+ {
+  "w": "lamp",
+  "ipa": "læmp",
+  "pos": "noun",
+  "zh": "灯",
+  "ex": "a table/bedside lamp"
+ },
+ {
+  "w": "mirror",
+  "ipa": "ˈmɪr.ə",
+  "pos": "noun",
+  "zh": "镜子",
+  "ex": "the bathroom mirror"
+ },
+ {
+  "w": "shelves",
+  "ipa": "ʃelf",
+  "pos": "noun",
+  "zh": "货架",
+  "ex": "a glass shelf"
+ },
+ {
+  "w": "shower",
+  "ipa": "ʃaʊə",
+  "pos": "noun",
+  "zh": "淋浴",
+  "ex": "I got up, had a shower and got dressed."
+ },
+ {
+  "w": "sofa",
+  "ipa": "ˈsəʊ.fə",
+  "pos": "noun",
+  "zh": "沙发",
+  "ex": "Take a seat on the sofa and I'll get us some coffee."
+ },
+ {
+  "w": "toilet",
+  "ipa": "ˈtɔɪ.lət",
+  "pos": "noun",
+  "zh": "抽水马 桶，坐便 器",
+  "ex": "I was on the toilet when the phone rang."
+ },
+ {
+  "w": "wardrobe",
+  "ipa": "ˈwɔː.drəʊb",
+  "pos": "noun",
+  "zh": "衣柜",
+  "ex": "She was showing me her new built- in/fitted wardrobes."
+ },
+ {
+  "w": "look after",
+  "ipa": "ˌlʊk ˈɑːf.tər",
+  "pos": "phrasal verb",
+  "zh": "照看",
+  "ex": "I have to look after my little brother today."
+ },
+ {
+  "w": "look up",
+  "ipa": "ˌlʊk ˈʌp",
+  "pos": "phrasal verb",
+  "zh": "查阅",
+  "ex": "We looked up the train times on their website."
+ },
+ {
+  "w": "look for",
+  "ipa": "ˈlʊk fə",
+  "pos": "phrasal verb",
+  "zh": "寻找",
+  "ex": "I'm looking for my keys."
+ },
+ {
+  "w": "look at",
+  "ipa": "ˈlʊk ət",
+  "pos": "phrasal verb",
+  "zh": "看看",
+  "ex": "Look at Tom's new car!"
+ },
+ {
+  "w": "look into",
+  "ipa": "ˌlʊk ˈɪn.tuː",
+  "pos": "phrasal verb",
+  "zh": "调查",
+  "ex": "I don't know what happened. I'll look into it."
+ },
+ {
+  "w": "annoyed",
+  "ipa": "əˈnɔɪd",
+  "pos": "adjective",
+  "zh": "感到恼 怒的",
+  "ex": "I was so annoyed with him for turning up late."
+ },
+ {
+  "w": "relaxed",
+  "ipa": "rɪˈlækst",
+  "pos": "adjective",
+  "zh": "感到轻 松的",
+  "ex": "She looked relaxed and happy walking along with her two boys."
+ },
+ {
+  "w": "bored",
+  "ipa": "bɔːd",
+  "pos": "adjective",
+  "zh": "感到无 聊的",
+  "ex": "It was a cold, wet day and the children were bored."
+ },
+ {
+  "w": "interested",
+  "ipa": "ˈɪn.trəs.tɪd",
+  "pos": "adjective",
+  "zh": "感兴趣的",
+  "ex": "He didn't seem very interested in what I was saying."
+ },
+ {
+  "w": "amazed",
+  "ipa": "əˈmeɪzd",
+  "pos": "adjective",
+  "zh": "感到惊 喜/惊 奇的",
+  "ex": "She was amazed at how calm she felt after the accident."
+ }
+]

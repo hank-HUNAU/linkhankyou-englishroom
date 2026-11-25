@@ -1,0 +1,383 @@
+{
+ "unit": "U10",
+ "passage_key": "u10_95",
+ "page": "p095",
+ "title": "Listening: Teens making plans",
+ "type": "听力",
+ "n_sent": 53,
+ "duration_s": 156.5,
+ "source": "Think 1 U10 增量：alignment/SB_u10_p095_t02 + 译文_tk1_p095.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.98,
+   "end_s": 8.208,
+   "dur_s": 1.228,
+   "text": "Hey Connor."
+  },
+  {
+   "i": 1,
+   "start_s": 8.92,
+   "end_s": 10.06,
+   "dur_s": 1.14,
+   "text": "What are you doing this weekend?"
+  },
+  {
+   "i": 2,
+   "start_s": 10.72,
+   "end_s": 11.06,
+   "dur_s": 0.34,
+   "text": "Hi!"
+  },
+  {
+   "i": 3,
+   "start_s": 11.54,
+   "end_s": 12.88,
+   "dur_s": 1.34,
+   "text": "I’m quite busy actually."
+  },
+  {
+   "i": 4,
+   "start_s": 13.3,
+   "end_s": 13.62,
+   "dur_s": 0.32,
+   "text": "Why?"
+  },
+  {
+   "i": 5,
+   "start_s": 14.22,
+   "end_s": 17.82,
+   "dur_s": 3.6,
+   "text": "Well, it’s just that we’ve got that History test coming up."
+  },
+  {
+   "i": 6,
+   "start_s": 18.32,
+   "end_s": 20.0,
+   "dur_s": 1.68,
+   "text": "Do you want to study together?"
+  },
+  {
+   "i": 7,
+   "start_s": 20.5,
+   "end_s": 21.4,
+   "dur_s": 0.9,
+   "text": "That would be great!"
+  },
+  {
+   "i": 8,
+   "start_s": 22.64,
+   "end_s": 23.74,
+   "dur_s": 1.1,
+   "text": "But, let me see."
+  },
+  {
+   "i": 9,
+   "start_s": 25.08,
+   "end_s": 27.0,
+   "dur_s": 1.92,
+   "text": "Saturday morning is no good."
+  },
+  {
+   "i": 10,
+   "start_s": 27.36,
+   "end_s": 28.42,
+   "dur_s": 1.06,
+   "text": "I’m playing football."
+  },
+  {
+   "i": 11,
+   "start_s": 28.88,
+   "end_s": 31.26,
+   "dur_s": 2.38,
+   "text": "It’s the cup final and I can’t miss that."
+  },
+  {
+   "i": 12,
+   "start_s": 31.64,
+   "end_s": 32.64,
+   "dur_s": 1.0,
+   "text": "Of course not."
+  },
+  {
+   "i": 13,
+   "start_s": 33.32,
+   "end_s": 35.8,
+   "dur_s": 2.48,
+   "text": "OK, so what about Friday night?"
+  },
+  {
+   "i": 14,
+   "start_s": 37.38,
+   "end_s": 39.4,
+   "dur_s": 2.02,
+   "text": "I’m sorry. I can’t."
+  },
+  {
+   "i": 15,
+   "start_s": 39.52,
+   "end_s": 39.88,
+   "dur_s": 0.36,
+   "text": "I’m busy."
+  },
+  {
+   "i": 16,
+   "start_s": 40.647,
+   "end_s": 46.82,
+   "dur_s": 6.173,
+   "text": "Dad’s taking me to the sports centre to watch the basketball game, but it doesn’t finish until 10 pm."
+  },
+  {
+   "i": 17,
+   "start_s": 47.36,
+   "end_s": 49.12,
+   "dur_s": 1.76,
+   "text": "Yeah, that’s a bit late."
+  },
+  {
+   "i": 18,
+   "start_s": 49.78,
+   "end_s": 52.2,
+   "dur_s": 2.42,
+   "text": "OK, how about Saturday afternoon."
+  },
+  {
+   "i": 19,
+   "start_s": 52.779,
+   "end_s": 53.26,
+   "dur_s": 0.481,
+   "text": "Any chance?"
+  },
+  {
+   "i": 20,
+   "start_s": 55.82,
+   "end_s": 59.3,
+   "dur_s": 3.48,
+   "text": "Saturday afternoon, Saturday afternoon."
+  },
+  {
+   "i": 21,
+   "start_s": 60.395,
+   "end_s": 64.78,
+   "dur_s": 4.385,
+   "text": "It’s my brother’s birthday, so we’re going to the restaurant to celebrate."
+  },
+  {
+   "i": 22,
+   "start_s": 65.3,
+   "end_s": 68.58,
+   "dur_s": 3.28,
+   "text": "You know, that new American diner on the high street."
+  },
+  {
+   "i": 23,
+   "start_s": 68.98,
+   "end_s": 71.02,
+   "dur_s": 2.04,
+   "text": "Oh, yeah, I’ve heard it’s very good."
+  },
+  {
+   "i": 24,
+   "start_s": 71.74,
+   "end_s": 74.014,
+   "dur_s": 2.274,
+   "text": "What time do you think you’ll finish there?"
+  },
+  {
+   "i": 25,
+   "start_s": 74.26,
+   "end_s": 78.14,
+   "dur_s": 3.88,
+   "text": "Probably about 5 pm, but then I’m meeting Nathan."
+  },
+  {
+   "i": 26,
+   "start_s": 78.66,
+   "end_s": 81.5,
+   "dur_s": 2.84,
+   "text": "We’re going to see the new Spider-Man film at the cinema."
+  },
+  {
+   "i": 27,
+   "start_s": 82.26,
+   "end_s": 83.86,
+   "dur_s": 1.6,
+   "text": "Hey, would you like to come?"
+  },
+  {
+   "i": 28,
+   "start_s": 84.42,
+   "end_s": 88.6,
+   "dur_s": 4.18,
+   "text": "Hmmm, Spider-Man – not really my thing."
+  },
+  {
+   "i": 29,
+   "start_s": 89.28,
+   "end_s": 91.08,
+   "dur_s": 1.8,
+   "text": "So thanks but no thanks."
+  },
+  {
+   "i": 30,
+   "start_s": 91.94,
+   "end_s": 94.2,
+   "dur_s": 2.26,
+   "text": "I guess that just leaves Sunday."
+  },
+  {
+   "i": 31,
+   "start_s": 94.7,
+   "end_s": 95.98,
+   "dur_s": 1.28,
+   "text": "Yeah, Sunday."
+  },
+  {
+   "i": 32,
+   "start_s": 97.68,
+   "end_s": 99.32,
+   "dur_s": 1.64,
+   "text": "Hmmmm, that’s a problem, too."
+  },
+  {
+   "i": 33,
+   "start_s": 100.2,
+   "end_s": 100.72,
+   "dur_s": 0.52,
+   "text": "Why?"
+  },
+  {
+   "i": 34,
+   "start_s": 101.3,
+   "end_s": 106.02,
+   "dur_s": 4.72,
+   "text": "Well, my grandparents are coming over and we’re taking them to that outdoor museum."
+  },
+  {
+   "i": 35,
+   "start_s": 106.6,
+   "end_s": 109.42,
+   "dur_s": 2.82,
+   "text": "Oh, the one with all the cool old buildings?"
+  },
+  {
+   "i": 36,
+   "start_s": 109.88,
+   "end_s": 110.5,
+   "dur_s": 0.62,
+   "text": "That’s right."
+  },
+  {
+   "i": 37,
+   "start_s": 111.02,
+   "end_s": 113.1,
+   "dur_s": 2.08,
+   "text": "My grandad loves that sort of stuff."
+  },
+  {
+   "i": 38,
+   "start_s": 113.1,
+   "end_s": 118.1,
+   "dur_s": 5.0,
+   "text": "I’d invite you, but I’m really sorry, we haven’t got any room in the car."
+  },
+  {
+   "i": 39,
+   "start_s": 118.44,
+   "end_s": 121.14,
+   "dur_s": 2.7,
+   "text": "I don’t want to see old buildings, Connor."
+  },
+  {
+   "i": 40,
+   "start_s": 121.6,
+   "end_s": 123.34,
+   "dur_s": 1.74,
+   "text": "I want to study for the test."
+  },
+  {
+   "i": 41,
+   "start_s": 123.5,
+   "end_s": 124.772,
+   "dur_s": 1.272,
+   "text": "Yeah, of course."
+  },
+  {
+   "i": 42,
+   "start_s": 125.28,
+   "end_s": 128.76,
+   "dur_s": 3.48,
+   "text": "Sunday evening maybe, but only after 8 pm."
+  },
+  {
+   "i": 43,
+   "start_s": 129.18,
+   "end_s": 135.593,
+   "dur_s": 6.413,
+   "text": "I’ve got a piano lesson from 7 to 8 and we won’t be back from the museum much before 6 pm."
+  },
+  {
+   "i": 44,
+   "start_s": 136.36,
+   "end_s": 138.14,
+   "dur_s": 1.78,
+   "text": "No, that’s too late."
+  },
+  {
+   "i": 45,
+   "start_s": 138.74,
+   "end_s": 140.0,
+   "dur_s": 1.26,
+   "text": "What about next weekend?"
+  },
+  {
+   "i": 46,
+   "start_s": 140.52,
+   "end_s": 142.46,
+   "dur_s": 1.94,
+   "text": "I’ve got loads of free time next weekend."
+  },
+  {
+   "i": 47,
+   "start_s": 142.46,
+   "end_s": 143.8,
+   "dur_s": 1.34,
+   "text": "I’d love to!"
+  },
+  {
+   "i": 48,
+   "start_s": 143.8,
+   "end_s": 146.2,
+   "dur_s": 2.4,
+   "text": "But there’s a problem."
+  },
+  {
+   "i": 49,
+   "start_s": 146.7,
+   "end_s": 147.423,
+   "dur_s": 0.723,
+   "text": "What’s that?"
+  },
+  {
+   "i": 50,
+   "start_s": 147.86,
+   "end_s": 149.54,
+   "dur_s": 1.68,
+   "text": "The test is on Monday."
+  },
+  {
+   "i": 51,
+   "start_s": 150.12,
+   "end_s": 151.12,
+   "dur_s": 1.0,
+   "text": "This Monday."
+  },
+  {
+   "i": 52,
+   "start_s": 151.62,
+   "end_s": 152.98,
+   "dur_s": 1.36,
+   "text": "First thing in the morning!"
+  }
+ ]
+}

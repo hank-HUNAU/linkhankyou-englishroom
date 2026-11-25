@@ -1,0 +1,285 @@
+{
+ "id": "SB_u07_p066_t03",
+ "no": 7.03,
+ "title": "Web article: '… just because I didn’t want to take a bath.'",
+ "titleZh": "",
+ "audio": "assets/tk1_p066.mp3",
+ "duration": 165.25,
+ "question": null,
+ "unit": 7,
+ "part": "阅读A",
+ "bookPage": "p066",
+ "srcKey": "SB_u07_p066_t03",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 11.02,
+   "t2": 23.522,
+   "en": "Ludwick Marishane, a young man from South Africa, was with his friends in Limpopo when they started talking about inventing something to put on your skin so you don’t have to take a bath.",
+   "zh": "来自南非的年轻人卢德维克·马里沙内和朋友们在林波波时，聊起了要发明一种涂在皮肤上的东西，让人不用洗澡。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 24.28,
+   "t2": 26.9,
+   "en": "Ludwick thought that this was a great idea.",
+   "zh": "卢德维克觉得这是个好主意。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 26.9,
+   "t2": 33.518,
+   "en": "He used his mobile to do some research on the internet, and he found some shocking facts.",
+   "zh": "他用手机在网上查资料，发现了一些令人震惊的事实。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 34.58,
+   "t2": 38.568,
+   "en": "Millions of people around the world haven’t got clean water.",
+   "zh": "全世界有数百万人没有干净的水。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 39.32,
+   "t2": 44.6,
+   "en": "This is a huge problem because dirty water can create terrible illnesses.",
+   "zh": "这是个大问题，因为脏水会引发可怕的疾病。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 45.64,
+   "t2": 52.465,
+   "en": "One of them is trachoma: thousands of people all over the world get trachoma every year.",
+   "zh": "其中一种是沙眼：全世界每年有成千上万人患上沙眼。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 53.22,
+   "t2": 59.72,
+   "en": "They wash their faces with dirty water, get an infection and sometimes become blind.",
+   "zh": "他们用脏水洗脸，受到感染，有时会失明。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 60.76,
+   "t2": 65.55,
+   "en": "To stop trachoma, people don’t have to take expensive medication.",
+   "zh": "要防止沙眼，人们不必吃昂贵的药。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 65.84,
+   "t2": 67.36,
+   "en": "They don’t have to take pills.",
+   "zh": "他们不必吃药片。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 67.84,
+   "t2": 69.46,
+   "en": "They don’t have to have injections.",
+   "zh": "他们不必打针。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 70.44,
+   "t2": 73.747,
+   "en": "They have to wash their faces with clean water.",
+   "zh": "他们必须用干净的水洗脸。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 74.26,
+   "t2": 74.815,
+   "en": "That’s it.",
+   "zh": "就这么简单。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 76.38,
+   "t2": 77.76,
+   "en": "Ludwick started thinking.",
+   "zh": "卢德维克开始思考。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 78.5,
+   "t2": 85.148,
+   "en": "He wanted to make something to help people in parts of the world where it’s difficult to find clean water.",
+   "zh": "他想做出一种东西，帮助世界上那些难以找到干净水源的地方的人们。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 85.96,
+   "t2": 90.22,
+   "en": "He did more research on his mobile, and he did more thinking.",
+   "zh": "他用手机做了更多研究，也想得更多。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 91.38,
+   "t2": 92.787,
+   "en": "Ludwick had a plan.",
+   "zh": "卢德维克有了一个计划。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 93.96,
+   "t2": 99.26,
+   "en": "He wanted to make a gel for people to put on their skin so they don’t have to take a bath.",
+   "zh": "他想做一种凝胶，让人们涂在皮肤上，就不用洗澡了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 100.12,
+   "t2": 103.44,
+   "en": "He wrote the formula for the gel on his mobile phone.",
+   "zh": "他把凝胶的配方写在手机上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 103.44,
+   "t2": 109.34,
+   "en": "When he was at university, he never stopped thinking about his invention.",
+   "zh": "上大学时，他一刻也没有停止思考自己的发明。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 110.12,
+   "t2": 117.087,
+   "en": "He started to talk to other people about it, and three years later the dream came true.",
+   "zh": "他开始和别人谈论这个想法，三年后，梦想成真了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 117.98,
+   "t2": 120.9,
+   "en": "He made the gel and called it ‘DryBath’.",
+   "zh": "他做出了这种凝胶，并把它命名为 DryBath。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 122.08,
+   "t2": 125.434,
+   "en": "It looks like any other gel, but it isn’t.",
+   "zh": "它看起来和普通凝胶没什么两样，但其实不一样。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 126.003,
+   "t2": 127.78,
+   "en": "This gel saves lives!",
+   "zh": "这种凝胶能救命！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 129.72,
+   "t2": 133.224,
+   "en": "Ludwick Marishane is the winner of lots of prizes.",
+   "zh": "卢德维克·马里沙内赢得了很多奖项。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 133.97,
+   "t2": 137.799,
+   "en": "People call him ‘one of the brightest young men in the world’.",
+   "zh": "人们称他为“世界上最聪明的年轻人之一”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 138.76,
+   "t2": 140.64,
+   "en": "He is very happy about his success.",
+   "zh": "他为自己的成功感到非常高兴。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 141.8,
+   "t2": 144.463,
+   "en": "DryBath is helping people to be healthy.",
+   "zh": "DryBath 正在帮助人们保持健康。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 144.463,
+   "t2": 148.167,
+   "en": "And DryBath also helps to save water.",
+   "zh": "而且 DryBath 还有助于节约用水。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 148.78,
+   "t2": 154.111,
+   "en": "That’s important in many parts of the world where it’s difficult to find clean water.",
+   "zh": "这在世界上很多难以找到干净水的地方非常重要。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 155.26,
+   "t2": 161.98,
+   "en": "Now he wants to invent other things, and he wants to help other young people to become inventors, too.",
+   "zh": "现在他想发明更多东西，也想帮助其他年轻人成为发明家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

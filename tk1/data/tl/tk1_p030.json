@@ -1,0 +1,187 @@
+{
+ "unit": "U3",
+ "passage_key": "u3_30",
+ "page": "p030",
+ "title": "Online article: Creepy crawlies – the superfood of the future?",
+ "type": "阅读A",
+ "n_sent": 25,
+ "duration_s": 184.32,
+ "source": "Think 1 U3 增量：alignment/SB_u03_p030_t01 + 译文_tk1_p030.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 14.44,
+   "end_s": 23.66,
+   "dur_s": 9.22,
+   "text": "The number of people in the world is growing fast – every year there are about 70 million more people."
+  },
+  {
+   "i": 1,
+   "start_s": 24.6,
+   "end_s": 40.54,
+   "dur_s": 15.94,
+   "text": "So, we've got two questions that need answers: Have we got enough space on our planet for so many people? And how can we make sure they've all got enough food to live?"
+  },
+  {
+   "i": 2,
+   "start_s": 41.94,
+   "end_s": 49.44,
+   "dur_s": 7.5,
+   "text": "Many people eat too much meat – steaks, beef burgers, sausages, etc."
+  },
+  {
+   "i": 3,
+   "start_s": 49.44,
+   "end_s": 56.26,
+   "dur_s": 6.82,
+   "text": "That's not good for us and we need big farms to produce all that meat."
+  },
+  {
+   "i": 4,
+   "start_s": 56.96,
+   "end_s": 68.6,
+   "dur_s": 11.64,
+   "text": "The farms already use 30% of all the world's land: they create greenhouse gases and use a lot of water and energy."
+  },
+  {
+   "i": 5,
+   "start_s": 69.58,
+   "end_s": 73.6,
+   "dur_s": 4.02,
+   "text": "However, we can do something to help."
+  },
+  {
+   "i": 6,
+   "start_s": 73.6,
+   "end_s": 83.5,
+   "dur_s": 9.9,
+   "text": "We can eat meat only one or two days a week, for example, and eat more vegetables – that's healthy."
+  },
+  {
+   "i": 7,
+   "start_s": 84.58,
+   "end_s": 89.92,
+   "dur_s": 5.34,
+   "text": "We can also eat some different types of meat – creepy-crawlies!"
+  },
+  {
+   "i": 8,
+   "start_s": 90.82,
+   "end_s": 98.36,
+   "dur_s": 7.54,
+   "text": "That's right, grasshoppers, worms, flies and lots of other insects."
+  },
+  {
+   "i": 9,
+   "start_s": 99.5,
+   "end_s": 102.22,
+   "dur_s": 2.72,
+   "text": "They're the superfood of the future."
+  },
+  {
+   "i": 10,
+   "start_s": 103.12,
+   "end_s": 105.32,
+   "dur_s": 2.2,
+   "text": "They've got a lot of protein."
+  },
+  {
+   "i": 11,
+   "start_s": 106.76,
+   "end_s": 113.84,
+   "dur_s": 7.08,
+   "text": "Protein is very important for our health, and it's good for our hair and our skin."
+  },
+  {
+   "i": 12,
+   "start_s": 114.8,
+   "end_s": 119.2,
+   "dur_s": 4.4,
+   "text": "Protein keeps our muscles and bones in good condition, too."
+  },
+  {
+   "i": 13,
+   "start_s": 120.48,
+   "end_s": 130.98,
+   "dur_s": 10.5,
+   "text": "There are two more reasons why insects are good food options: insect farms don't need so much water and energy."
+  },
+  {
+   "i": 14,
+   "start_s": 130.98,
+   "end_s": 135.0,
+   "dur_s": 4.02,
+   "text": "Also, they don't use so much space."
+  },
+  {
+   "i": 15,
+   "start_s": 136.56,
+   "end_s": 143.94,
+   "dur_s": 7.38,
+   "text": "For some people in countries in Asia and Latin America, eating insects is not unusual."
+  },
+  {
+   "i": 16,
+   "start_s": 144.84,
+   "end_s": 151.42,
+   "dur_s": 6.58,
+   "text": "But for people in Europe and many other countries, it seems very strange."
+  },
+  {
+   "i": 17,
+   "start_s": 152.3,
+   "end_s": 153.84,
+   "dur_s": 1.54,
+   "text": "What about you?"
+  },
+  {
+   "i": 18,
+   "start_s": 154.74,
+   "end_s": 156.78,
+   "dur_s": 2.04,
+   "text": "Do you eat any healthy food?"
+  },
+  {
+   "i": 19,
+   "start_s": 156.78,
+   "end_s": 160.96,
+   "dur_s": 4.18,
+   "text": "How much meat do you eat in a week?"
+  },
+  {
+   "i": 20,
+   "start_s": 162.04,
+   "end_s": 165.06,
+   "dur_s": 3.02,
+   "text": "Perhaps you think you don't eat insects?"
+  },
+  {
+   "i": 21,
+   "start_s": 165.76,
+   "end_s": 167.68,
+   "dur_s": 1.92,
+   "text": "But maybe you're wrong!"
+  },
+  {
+   "i": 22,
+   "start_s": 168.62,
+   "end_s": 169.46,
+   "dur_s": 0.84,
+   "text": "Why's that?"
+  },
+  {
+   "i": 23,
+   "start_s": 170.36,
+   "end_s": 181.02,
+   "dur_s": 10.66,
+   "text": "Because the red food colouring that is in many things that we eat comes from … an insect called the 'cochineal beetle'!"
+  },
+  {
+   "i": 24,
+   "start_s": 181.02,
+   "end_s": 184.0,
+   "dur_s": 2.98,
+   "text": "Thank you for watching."
+  }
+ ]
+}

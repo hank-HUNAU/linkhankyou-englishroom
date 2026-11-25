@@ -1,0 +1,411 @@
+{
+ "id": "SB_u10_p092_t01",
+ "no": 10.01,
+ "title": "Emails: Experiences in foreign countries",
+ "titleZh": "",
+ "audio": "assets/tk1_p092.mp3",
+ "duration": 203.39,
+ "question": null,
+ "unit": 10,
+ "part": "阅读A",
+ "bookPage": "p092",
+ "srcKey": "SB_u10_p092_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 7.22,
+   "t2": 8.14,
+   "en": "Hi Mum,",
+   "zh": "妈妈你好，",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 8.84,
+   "t2": 12.52,
+   "en": "It’s Day Two and I’m already in love with New York.",
+   "zh": "这是第二天，我已经爱上纽约了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 13.28,
+   "t2": 13.98,
+   "en": "It’s amazing.",
+   "zh": "太棒了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 15.0,
+   "t2": 21.12,
+   "en": "The first day, we were pretty tired from the flight, but we did a bit of sightseeing in the afternoon.",
+   "zh": "第一天，我们因为坐飞机很累，但下午还是去观光了一下。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 21.9,
+   "t2": 25.88,
+   "en": "We went to see the Statue of Liberty and I wasn’t disappointed.",
+   "zh": "我们去看了自由女神像，我一点也没有失望。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 26.8,
+   "t2": 30.511,
+   "en": "We had a guided tour and learned all about its history.",
+   "zh": "我们参加了有导游的讲解，了解了它的全部历史。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 31.22,
+   "t2": 33.9,
+   "en": "It really is a powerful symbol of peace.",
+   "zh": "它真的是和平的有力象征。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 35.4,
+   "t2": 39.7,
+   "en": "Today, we’re going to explore Central Park and Manhattan.",
+   "zh": "今天，我们要去探索中央公园和曼哈顿。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 40.54,
+   "t2": 44.08,
+   "en": "In the evening, we’re going to watch the New York Jets.",
+   "zh": "晚上，我们要去看纽约喷气机队的比赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 44.76,
+   "t2": 46.6,
+   "en": "They’re playing at MetLife Stadium.",
+   "zh": "他们会在 MetLife 体育场比赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 47.38,
+   "t2": 51.676,
+   "en": "It’s my first game of American football and I’m looking forward to it.",
+   "zh": "这是我第一次看美式橄榄球比赛，我很期待。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 52.02,
+   "t2": 53.66,
+   "en": "(I think – I’m quite nervous!)",
+   "zh": "（我觉得——我有点紧张！）",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 54.7,
+   "t2": 60.6,
+   "en": "The big concert we’re playing in is tomorrow and we’re all getting quite excited.",
+   "zh": "我们参加的大型音乐会就在明天，大家都很兴奋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 61.16,
+   "t2": 70.08,
+   "en": "Just imagine, I’m going to play my trombone in Carnegie Hall, probably the most famous concert hall in the US.",
+   "zh": "想象一下，我要在卡内基音乐厅吹长号，那可能是美国最有名的音乐厅。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 71.6,
+   "t2": 74.06,
+   "en": "Mr Davis is even more excited.",
+   "zh": "戴维斯老师更加兴奋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 74.7,
+   "t2": 76.88,
+   "en": "He’s going to conduct us in the concert.",
+   "zh": "他将在这场音乐会上指挥我们。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 77.42,
+   "t2": 80.18,
+   "en": "He keeps telling us it’s his dream come true.",
+   "zh": "他一直告诉我们，这是他梦想成真。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 81.1,
+   "t2": 83.06,
+   "en": "His wife’s going to record the performance.",
+   "zh": "他妻子会把演出录下来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 83.72,
+   "t2": 90.546,
+   "en": "She’s going to send us all the link so you can see the greatest moment of my musical career so far!",
+   "zh": "她会把链接发给我们所有人，这样你就能看到我音乐生涯至今最了不起的时刻！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 91.62,
+   "t2": 97.14,
+   "en": "There are going to be bands from all over the world, from about 20 different countries.",
+   "zh": "到时会有来自世界各地大约 20 个不同国家的乐队。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 97.72,
+   "t2": 98.6,
+   "en": "I can’t wait!",
+   "zh": "我已经等不及了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 99.5,
+   "t2": 102.133,
+   "en": "Hope you’re well and not missing me too much!",
+   "zh": "希望你一切都好，不要太想我！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 102.76,
+   "t2": 103.96,
+   "en": "Love, Ryan",
+   "zh": "爱你的瑞安",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 105.7,
+   "t2": 106.76,
+   "en": "Hi Abigail,",
+   "zh": "阿比盖尔你好，",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 107.48,
+   "t2": 114.909,
+   "en": "Sorry I didn’t write yesterday, but it was such a busy day I just didn’t get the time.",
+   "zh": "对不起，我昨天没写信，因为那天实在太忙了，我一点时间都没有。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 115.3,
+   "t2": 116.96,
+   "en": "We played our second volleyball match of the trip.",
+   "zh": "我们进行了这次出行的第二场排球比赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 117.84,
+   "t2": 123.0,
+   "en": "It was against the under-15 Beijing champions and they won easily.",
+   "zh": "对手是北京 U15 冠军队，他们轻松获胜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 124.0,
+   "t2": 126.12,
+   "en": "I also hurt my hand quite badly.",
+   "zh": "我的手也伤得比较厉害。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 127.14,
+   "t2": 130.36,
+   "en": "The sports centre where we played was fantastic.",
+   "zh": "我们比赛的那家体育中心很棒。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 131.42,
+   "t2": 134.838,
+   "en": "Really modern and much better than ours back home.",
+   "zh": "很现代，比我们国内的好多了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 135.44,
+   "t2": 143.14,
+   "en": "Anyway, I’ve got ten minutes to write to you quickly, then I’m going to the bus station to catch a bus to Luanping.",
+   "zh": "总之，我只有十分钟可以快速给你写几句，然后我要去汽车站，坐车去滦平。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 144.28,
+   "t2": 148.16,
+   "en": "I’m so excited because we’re going to visit the Great Wall.",
+   "zh": "我很兴奋，因为我们要去看长城。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 149.06,
+   "t2": 155.22,
+   "en": "It was probably the one thing I wanted to do most on this trip, after playing volleyball, of course!",
+   "zh": "这可能是这次出行里我最想做的事，当然排球比赛之外。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 156.12,
+   "t2": 159.8,
+   "en": "We’re going to explore the Jinshanling section of the wall.",
+   "zh": "我们要去探索金山岭段的长城。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 160.36,
+   "t2": 164.664,
+   "en": "It’s in the mountains and it’s quite a walk to get up to it.",
+   "zh": "它在山里，要走上很长一段路才能到达。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 164.664,
+   "t2": 166.64,
+   "en": "But the views are spectacular.",
+   "zh": "但风景非常壮观。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 167.36,
+   "t2": 169.72,
+   "en": "I’m going to take loads of photos.",
+   "zh": "我会拍很多照片。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 170.62,
+   "t2": 176.843,
+   "en": "Luanping is about 130 km away, so we’re going to spend the night there.",
+   "zh": "滦平大约在 130 公里外，所以我们打算在那里过夜。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 177.46,
+   "t2": 181.28,
+   "en": "Then we’re going back to Beijing for our last day in the city.",
+   "zh": "然后我们回北京，度过在这座城市的最后一天。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 182.26,
+   "t2": 187.71,
+   "en": "Our last match is in the afternoon, but I’m not going to play because of my hand.",
+   "zh": "最后一场比赛在下午，但因为手受伤，我不会上场。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 188.1,
+   "t2": 191.02,
+   "en": "I can’t believe the trip is almost over.",
+   "zh": "我真不敢相信这次出行马上就要结束了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 191.7,
+   "t2": 195.84,
+   "en": "China is amazing and the Chinese people are so friendly.",
+   "zh": "中国很棒，中国人也很友好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 196.66,
+   "t2": 197.78,
+   "en": "I want to stay longer.",
+   "zh": "我想再多待一段时间。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 198.682,
+   "t2": 200.16,
+   "en": "Lots of love, Bettina",
+   "zh": "非常爱你的贝蒂娜",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

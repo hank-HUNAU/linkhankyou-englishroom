@@ -1,0 +1,213 @@
+{
+ "id": "SB_u10_p096_t03",
+ "no": 10.03,
+ "title": "Letters to a local government website: How can we improve our town?",
+ "titleZh": "",
+ "audio": "assets/tk1_p096.mp3",
+ "duration": 158.12,
+ "question": null,
+ "unit": 10,
+ "part": "阅读B",
+ "bookPage": "p096",
+ "srcKey": "SB_u10_p096_t03",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.14,
+   "t2": 20.805,
+   "en": "As you probably know, the town council have got £1 million to spend on improving the town’s facilities for young people and we’re looking for great ideas on how to spend the money well.",
+   "zh": "你可能已经知道，镇议会有 100 万英镑要花在改善镇上年轻人的设施上，我们正在寻找把钱花好的好点子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 21.14,
+   "t2": 27.655,
+   "en": "Post your ideas in the forum below and let us know how we can make life better for you.",
+   "zh": "请在下面的论坛里发布你的想法，告诉我们怎样能让你们的生活更好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 28.38,
+   "t2": 32.82,
+   "en": "There’s nothing for teenagers to do in this town, especially at night.",
+   "zh": "这个镇上的青少年晚上没事可做。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 33.52,
+   "t2": 35.991,
+   "en": "Can we use the money to build a youth club?",
+   "zh": "我们能不能用这笔钱建一个青少年俱乐部？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 36.46,
+   "t2": 39.78,
+   "en": "Somewhere with a pool table and a table tennis table, perhaps.",
+   "zh": "也许里面可以放一张台球桌和一张乒乓球桌。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 40.62,
+   "t2": 44.56,
+   "en": "We need somewhere to play happily and hang out safely in the evenings.",
+   "zh": "我们需要一个晚上可以开心玩耍、安全聚在一起的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 46.58,
+   "t2": 52.257,
+   "en": "As I’m only 14, I can’t drive, so I go everywhere on my bike.",
+   "zh": "我只有 14 岁，不能开车，所以我去哪儿都骑自行车。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 52.257,
+   "t2": 57.22,
+   "en": "But the roads are dangerous and many motorists drive too fast.",
+   "zh": "但马路很危险，很多开车的人开得太快。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 58.12,
+   "t2": 61.86,
+   "en": "How about spending the money on building more cycle lanes?",
+   "zh": "把这些钱用来多建几条自行车道怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 62.58,
+   "t2": 66.26,
+   "en": "We could also put in more speed cameras and zebra crossings, too.",
+   "zh": "我们还可以多装一些测速摄像头和斑马线。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 67.04,
+   "t2": 71.12,
+   "en": "This will make life safer for all our citizens, not just the young people.",
+   "zh": "这会让我们所有市民的生活都更安全，不只是年轻人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 72.92,
+   "t2": 78.64,
+   "en": "I think the best use for the money is to build a playground in the town park.",
+   "zh": "我觉得这笔钱最好的用法是在镇公园里建一个游乐场。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 78.64,
+   "t2": 84.98,
+   "en": "It should have lots of rides for the young kids but also stuff for teenagers, too.",
+   "zh": "它应该有很多小孩子玩的游乐设施，但也要有给青少年的东西。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 85.78,
+   "t2": 96.374,
+   "en": "I’d like to see a graffiti wall and a skateboard park for a start and maybe if there is enough money, we can have a climbing wall, too.",
+   "zh": "首先我想看到一个涂鸦墙和一个滑板公园，也许钱够的话还可以有一个攀岩墙。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 97.96,
+   "t2": 106.7,
+   "en": "Our high street is full of empty shops because everyone just shops at the new shopping centre outside of town or online.",
+   "zh": "我们的主街上到处都是空店铺，因为大家都去镇外的新购物中心或者网上购物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 106.7,
+   "t2": 113.16,
+   "en": "Why don’t we use the money to turn some of these empty shops into an arts centre?",
+   "zh": "我们为什么不把这些空店铺改成艺术中心呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 114.04,
+   "t2": 120.24,
+   "en": "It can have studios where we can draw and paint or learn how to make films.",
+   "zh": "里面可以有工作室，我们可以在那里画画、涂色或者学习拍电影。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 120.86,
+   "t2": 127.013,
+   "en": "We could also have a music studio where local bands can record music cheaply.",
+   "zh": "我们还可以有一个音乐工作室，让本地乐队便宜地录音乐。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 128.66,
+   "t2": 137.62,
+   "en": "How about a big billboard at the entrance to the town that reads, ‘TEEN WARNING – there’s nothing to do here!’",
+   "zh": "在镇入口放一块大广告牌怎么样，上面写着：‘青少年警告——这里没事可做！’",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 139.44,
+   "t2": 146.36,
+   "en": "This probably sounds like a boring idea, but can’t we use some of the money to buy more litter bins?",
+   "zh": "这听起来可能是个无聊的主意，但我们能不能用一部分钱多买一些垃圾桶？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 147.02,
+   "t2": 151.26,
+   "en": "I feel ashamed of our town when I see all the litter on the ground.",
+   "zh": "看到地上到处都是垃圾，我为我们的镇感到羞愧。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 151.88,
+   "t2": 154.5,
+   "en": "We need to tidy up our town quickly!",
+   "zh": "我们需要赶快把我们的镇收拾干净！",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

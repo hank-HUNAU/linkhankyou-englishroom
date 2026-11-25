@@ -1,0 +1,265 @@
+{
+ "passage_key": "u9_87",
+ "page": "p087",
+ "unit": 9,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 51,
+ "n_unique_keys": 50,
+ "entries": [
+  {
+   "i": 0,
+   "en": "You know so much about the wildlife here, PK.",
+   "zh": "你对这里的野生动物了解这么多，PK，是怎么回事？"
+  },
+  {
+   "i": 1,
+   "en": "How come?",
+   "zh": "怎么知道的？"
+  },
+  {
+   "i": 2,
+   "en": "My family are San, bush people, and I learned about nature from the time when I was a child.",
+   "zh": "我的家人是桑人，也就是丛林地居民，我从小就了解大自然。"
+  },
+  {
+   "i": 3,
+   "en": "I was born in the Kalahari.",
+   "zh": "我出生在卡拉哈里。"
+  },
+  {
+   "i": 4,
+   "en": "And you grew up and found your wife here?",
+   "zh": "你长大后也是在这里找到妻子的？"
+  },
+  {
+   "i": 5,
+   "en": "Yes, finding a wife here was very interesting.",
+   "zh": "是的，在这里找妻子非常有意思。"
+  },
+  {
+   "i": 6,
+   "en": "Tell us more.",
+   "zh": "再给我们讲讲。"
+  },
+  {
+   "i": 7,
+   "en": "Yes, let’s say a young man wants to marry a girl.",
+   "zh": "好吧，假设一个年轻人想娶一个女孩。"
+  },
+  {
+   "i": 8,
+   "en": "So he has to ask her father and he says before you can marry my daughter, you have to do a task.",
+   "zh": "他得去问女孩的父亲，父亲会说，在娶我女儿之前，你必须完成一项任务。"
+  },
+  {
+   "i": 9,
+   "en": "OK.",
+   "zh": "好。"
+  },
+  {
+   "i": 10,
+   "en": "So what type of task does the young man have to do, PK?",
+   "zh": "那么年轻人要做哪种任务呢，PK？"
+  },
+  {
+   "i": 11,
+   "en": "Well, for example, he has to show that he can take a kill away from a lion.",
+   "zh": "嗯，比如，他得证明自己能从狮子嘴边夺走猎物。"
+  },
+  {
+   "i": 12,
+   "en": "What do you mean ‘take a kill away from a lion’?",
+   "zh": "你说‘从狮子嘴边夺走猎物’是什么意思？"
+  },
+  {
+   "i": 13,
+   "en": "Well, imagine a lion kills an antelope or another large animal.",
+   "zh": "嗯，想象一下，狮子杀死了一只羚羊或另一只大型动物。"
+  },
+  {
+   "i": 14,
+   "en": "The young man has to find that lion and get the meat, so he can show that he has courage.",
+   "zh": "年轻人必须找到那头狮子，把肉拿走，这样才能证明自己有勇气。"
+  },
+  {
+   "i": 15,
+   "en": "That’s important for his future family.",
+   "zh": "这对他的未来家庭很重要。"
+  },
+  {
+   "i": 16,
+   "en": "Wow, but how can you do that?",
+   "zh": "哇，可你怎么做得到呢？"
+  },
+  {
+   "i": 17,
+   "en": "How can you find a lion and its kill?",
+   "zh": "你怎么能找到狮子和它捕获的猎物？"
+  },
+  {
+   "i": 18,
+   "en": "You have to look.",
+   "zh": "你得观察。"
+  },
+  {
+   "i": 19,
+   "en": "You have to look for the big birds, the vultures.",
+   "zh": "你得寻找那些大鸟，也就是秃鹫。"
+  },
+  {
+   "i": 20,
+   "en": "They are watching the lion because they want some of the meat.",
+   "zh": "它们盯着狮子，因为它们也想分一点肉。"
+  },
+  {
+   "i": 21,
+   "en": "OK, so let’s say you find the lion and its kill.",
+   "zh": "好，假设你找到了狮子和它的猎物。"
+  },
+  {
+   "i": 22,
+   "en": "How can you then get the meat?",
+   "zh": "那你怎么把肉拿走？"
+  },
+  {
+   "i": 23,
+   "en": "Isn’t that dangerous?",
+   "zh": "那不是很危险吗？"
+  },
+  {
+   "i": 24,
+   "en": "Yes, of course the lion is dangerous.",
+   "zh": "是的，狮子当然很危险。"
+  },
+  {
+   "i": 25,
+   "en": "You mustn’t take the meat away from the lion at night.",
+   "zh": "你不能在晚上把肉从狮子那里拿走。"
+  },
+  {
+   "i": 26,
+   "en": "You have to do that during the day.",
+   "zh": "你必须在白天做这件事。"
+  },
+  {
+   "i": 27,
+   "en": "Why’s that?",
+   "zh": "为什么呢？"
+  },
+  {
+   "i": 28,
+   "en": "During the day it’s very hot.",
+   "zh": "白天天气很热。"
+  },
+  {
+   "i": 29,
+   "en": "And the big cats can’t run fast when it’s hot.",
+   "zh": "而大型猫科动物天热时跑不快。"
+  },
+  {
+   "i": 30,
+   "en": "A man can run even when it’s very hot, but lions can’t.",
+   "zh": "人在很热的时候还能跑，但狮子不行。"
+  },
+  {
+   "i": 31,
+   "en": "No?",
+   "zh": "不行吗？"
+  },
+  {
+   "i": 32,
+   "en": "No, they can’t.",
+   "zh": "不行，它们跑不动。"
+  },
+  {
+   "i": 33,
+   "en": "When they eat some meat, they feel very, very hot and get very tired.",
+   "zh": "它们吃了肉以后，会非常非常热，也非常累。"
+  },
+  {
+   "i": 34,
+   "en": "So they often just lie around and they sleep all the time during the day.",
+   "zh": "所以它们常常只是躺着，白天大部分时间都在睡觉。"
+  },
+  {
+   "i": 35,
+   "en": "At night they are more dangerous because they don’t sleep.",
+   "zh": "到了晚上，它们更危险，因为它们不睡觉。"
+  },
+  {
+   "i": 36,
+   "en": "And at night their eyes are better than your eyes.",
+   "zh": "而且晚上它们的眼睛比你的眼睛更好用。"
+  },
+  {
+   "i": 37,
+   "en": "So you can’t get the kill from the lion at night.",
+   "zh": "所以你不能在晚上从狮子那里夺走猎物。"
+  },
+  {
+   "i": 38,
+   "en": "OK, so you have to do that during the day.",
+   "zh": "好，所以你必须在白天做这件事。"
+  },
+  {
+   "i": 39,
+   "en": "But what do you do to get the kill from the lion?",
+   "zh": "可是你要怎么做才能从狮子那里拿到猎物呢？"
+  },
+  {
+   "i": 40,
+   "en": "OK.",
+   "zh": "好。"
+  },
+  {
+   "i": 41,
+   "en": "So let’s say the lion is sleeping.",
+   "zh": "假设狮子正在睡觉。"
+  },
+  {
+   "i": 42,
+   "en": "You hold your spear in your hand.",
+   "zh": "你手里握着长矛。"
+  },
+  {
+   "i": 43,
+   "en": "You have to be very quiet.",
+   "zh": "你必须非常安静。"
+  },
+  {
+   "i": 44,
+   "en": "And you go up to that lion.",
+   "zh": "然后你走到那头狮子跟前。"
+  },
+  {
+   "i": 45,
+   "en": "Do you attack him with your spear?",
+   "zh": "你要用长矛攻击它吗？"
+  },
+  {
+   "i": 46,
+   "en": "Kill him?",
+   "zh": "把它杀死？"
+  },
+  {
+   "i": 47,
+   "en": "No, no, no, no.",
+   "zh": "不，不，不，不。"
+  },
+  {
+   "i": 48,
+   "en": "You just go up to him and shout, ‘Arrrrggggghhhhh!’",
+   "zh": "你只要走到它跟前，大喊一声‘啊啊啊啊！’"
+  },
+  {
+   "i": 49,
+   "en": "You mustn’t hurt him or kill him, just surprise him, shock him, so he runs away.",
+   "zh": "你不能伤害它，也不能杀死它，只要吓它一跳、让它震惊，它就跑掉了。"
+  },
+  {
+   "i": 50,
+   "en": "Wow!",
+   "zh": "哇！"
+  }
+ ]
+}

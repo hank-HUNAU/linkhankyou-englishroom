@@ -1,0 +1,276 @@
+{
+ "id": "SB_u12_p116_t07",
+ "no": 12.07,
+ "title": "Culture: Hard journeys for schoolchildren",
+ "titleZh": "",
+ "audio": "assets/tk1_p116.mp3",
+ "duration": 240.27,
+ "question": null,
+ "unit": 12,
+ "part": "文化",
+ "bookPage": "p116",
+ "srcKey": "SB_u12_p116_t07",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 11.02,
+   "t2": 12.56,
+   "en": "‘How do you get to school?’",
+   "zh": "“你怎么去上学？”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 13.52,
+   "t2": 22.06,
+   "en": "This question often gets an answer like ‘By bus’ or ‘I walk’ or ‘My parents take me by car’.",
+   "zh": "这个问题常常会得到这样的回答：“坐公交车”“我走路”或者“我父母开车送我”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 22.8,
+   "t2": 34.18,
+   "en": "But not always – there are children in many different parts of the world who, every day, have to go on a difficult journey in order to get to their lessons.",
+   "zh": "但情况并不总是这样——世界许多地方的孩子每天都要走上一段艰难的路程才能去上课。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 34.62,
+   "t2": 42.0,
+   "en": "They travel for kilometres on foot, or by boat, bicycle, donkey or train.",
+   "zh": "他们要步行数公里，或者乘船、骑自行车、骑驴或坐火车。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 42.64,
+   "t2": 61.44,
+   "en": "They cross deserts, mountains, rivers, snow and ice: for example, the children of the Iñupiat community in Alaska go to school and then come back when it is dark, in extremely cold temperatures.",
+   "zh": "他们穿越沙漠、高山、河流、冰雪：例如，阿拉斯加伊努皮亚特社区的孩子们上学，天黑后才回来，气温极低。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 62.04,
+   "t2": 63.925,
+   "en": "And they are not the only ones.",
+   "zh": "他们并不是唯一这样的孩子。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 64.44,
+   "t2": 68.18,
+   "en": "Kids in many countries do this and more.",
+   "zh": "许多国家的孩子都是这样，甚至还要面对更多。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 69.7,
+   "t2": 79.203,
+   "en": "These children in Indonesia have to cross a bridge ten metres above a dangerous river to get to their class on time.",
+   "zh": "印度尼西亚的这些孩子要穿过一座高出危险河流十米的桥，才能准时上课。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 79.203,
+   "t2": 84.62,
+   "en": "(Some years ago the bridge fell down after very heavy rain.)",
+   "zh": "（几年前，这座桥在大雨过后塌了。）",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 85.519,
+   "t2": 91.92,
+   "en": "Then they walk many more kilometres through the forest to their school in Banten.",
+   "zh": "然后他们还要再走很多公里，穿过森林，去万丹的学校。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 94.14,
+   "t2": 103.143,
+   "en": "A pupil at Gulu Village Primary School, China, rides a donkey as his grandfather walks beside him.",
+   "zh": "中国古卢村小学的一名学生骑着驴，他的祖父走在旁边。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 104.0,
+   "t2": 107.54,
+   "en": "Gulu is a mountain village in a national park.",
+   "zh": "古卢是国家公园里的一个山村。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 108.24,
+   "t2": 111.224,
+   "en": "The school is far away from the village.",
+   "zh": "学校离村子很远。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 111.6,
+   "t2": 120.628,
+   "en": "It is halfway up a mountain, so it takes five hours to climb from the bottom of the mountain to the school.",
+   "zh": "学校在半山腰，所以从山脚爬到学校要花五个小时。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 121.34,
+   "t2": 129.138,
+   "en": "The children have a dangerous journey: the path is only 45 centimetres wide in some places.",
+   "zh": "孩子们的路程很危险：有些地方的小路只有 45 厘米宽。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 130.68,
+   "t2": 138.9,
+   "en": "In Sri Lanka, some children have to cross a piece of wood between two walls of an old castle every morning.",
+   "zh": "在斯里兰卡，有些孩子每天早上要走过一块架在古堡两墙之间的木板。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 138.9,
+   "t2": 142.06,
+   "en": "Their teacher watches them carefully.",
+   "zh": "他们的老师会仔细看着他们。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 143.1,
+   "t2": 152.067,
+   "en": "But in Galle, Sri Lanka, many girls don’t go to school – they have to go to work or get married young.",
+   "zh": "但在斯里兰卡的加勒，许多女孩不去上学——她们不得不早早工作或结婚。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 152.067,
+   "t2": 157.5,
+   "en": "So girls are happy to take a risk in order to get to school.",
+   "zh": "因此，为了上学，女孩们愿意冒险。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 160.02,
+   "t2": 175.32,
+   "en": "Six-year-old Fabricio Oliveira gets on his donkey every morning to ride with his friends for over an hour through a desert region in the very dry Sertão area of northeast Brazil.",
+   "zh": "六岁的法布里西奥·奥利韦拉每天早上骑上驴，和朋友们一起穿越巴西东北部干旱的塞尔陶地区，骑一个多小时。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 176.4,
+   "t2": 178.64,
+   "en": "Their school is in Extrema.",
+   "zh": "他们的学校在埃克斯特雷马。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 179.12,
+   "t2": 182.88,
+   "en": "It’s a tiny village – very few people live there.",
+   "zh": "那是一个很小的村庄——那里几乎没人居住。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 183.84,
+   "t2": 189.24,
+   "en": "These children live in houses on Chetla Road in Delhi, India.",
+   "zh": "这些孩子住在印度德里切特拉路的房子里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 190.1,
+   "t2": 196.2,
+   "en": "Their homes are near the busy and dangerous railway lines that go to Alipur station.",
+   "zh": "他们的家靠近通往阿利普尔车站的繁忙而危险的铁路线。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 197.36,
+   "t2": 202.94,
+   "en": "Every morning they walk along the tracks to get to their school, 40 minutes away.",
+   "zh": "每天早上，他们沿着铁轨走到 40 分钟路程外的学校。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 204.18,
+   "t2": 209.792,
+   "en": "So one question we can ask is: why do the children do this?",
+   "zh": "所以我们可以问一个问题：孩子们为什么要这样做？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 210.56,
+   "t2": 212.962,
+   "en": "Because their parents make them do it?",
+   "zh": "是因为父母逼他们这样做吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 213.68,
+   "t2": 229.309,
+   "en": "The answer, in many cases, is no – it’s because for them going to school means a better future: they hope to get a job and money so they can help their families and their neighbours.",
+   "zh": "在很多情况下，答案并不是这样——因为对他们来说，上学意味着更好的未来：他们希望找到工作、挣到钱，帮助家人和邻居。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 229.86,
+   "t2": 236.96,
+   "en": "And this is why rivers, deserts or danger won’t stop them on their way to school.",
+   "zh": "这就是为什么河流、沙漠或危险都挡不住他们上学的路。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

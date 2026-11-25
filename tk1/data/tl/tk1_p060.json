@@ -1,0 +1,243 @@
+{
+ "unit": "U6",
+ "passage_key": "u6_60",
+ "page": "p060",
+ "title": "Magazine article: Life stories – Pen pals for years",
+ "type": "阅读B",
+ "n_sent": 33,
+ "duration_s": 158.56,
+ "source": "Think 1 U6 增量：alignment/SB_u06_p060_t03 + 译文_tk1_p060.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.4,
+   "end_s": 20.759,
+   "dur_s": 11.359,
+   "text": "This week, Paul (from Brisbane, Australia) and Annette (from Toulouse, France) tell us about their friendship on different sides of the world."
+  },
+  {
+   "i": 1,
+   "start_s": 21.7,
+   "end_s": 24.46,
+   "dur_s": 2.76,
+   "text": "When and how did your friendship start?"
+  },
+  {
+   "i": 2,
+   "start_s": 25.159,
+   "end_s": 28.52,
+   "dur_s": 3.361,
+   "text": "Fifteen years ago! We were both fourteen."
+  },
+  {
+   "i": 3,
+   "start_s": 29.0,
+   "end_s": 38.02,
+   "dur_s": 9.02,
+   "text": "My school in Australia and her school in France started a virtual exchange programme for people to write to each other over the internet."
+  },
+  {
+   "i": 4,
+   "start_s": 38.34,
+   "end_s": 45.755,
+   "dur_s": 7.415,
+   "text": "I wanted to improve my English and he wanted to improve his French, so we contacted each other."
+  },
+  {
+   "i": 5,
+   "start_s": 46.34,
+   "end_s": 48.44,
+   "dur_s": 2.1,
+   "text": "Did you become friends immediately?"
+  },
+  {
+   "i": 6,
+   "start_s": 48.98,
+   "end_s": 50.02,
+   "dur_s": 1.04,
+   "text": "Not really."
+  },
+  {
+   "i": 7,
+   "start_s": 50.7,
+   "end_s": 55.08,
+   "dur_s": 4.38,
+   "text": "I thought he was OK but not special."
+  },
+  {
+   "i": 8,
+   "start_s": 55.6,
+   "end_s": 59.058,
+   "dur_s": 3.458,
+   "text": "He made lots of mistakes in his French! Haha."
+  },
+  {
+   "i": 9,
+   "start_s": 59.24,
+   "end_s": 61.82,
+   "dur_s": 2.58,
+   "text": "We corrected each other’s mistakes."
+  },
+  {
+   "i": 10,
+   "start_s": 61.82,
+   "end_s": 67.54,
+   "dur_s": 5.72,
+   "text": "But I made more than her! She corrected everything, too!"
+  },
+  {
+   "i": 11,
+   "start_s": 68.68,
+   "end_s": 84.56,
+   "dur_s": 15.88,
+   "text": "Paul always helped me to improve my English, but you know, after a few months, we stopped worrying about writing in perfect English or French and just wrote to each other and talked about ourselves."
+  },
+  {
+   "i": 12,
+   "start_s": 85.16,
+   "end_s": 91.5,
+   "dur_s": 6.34,
+   "text": "I began to see that he was a very nice guy, easy-going and cheerful."
+  },
+  {
+   "i": 13,
+   "start_s": 92.22,
+   "end_s": 94.58,
+   "dur_s": 2.36,
+   "text": "Did you feel the same way, Paul?"
+  },
+  {
+   "i": 14,
+   "start_s": 95.06,
+   "end_s": 95.94,
+   "dur_s": 0.88,
+   "text": "Yes, I did."
+  },
+  {
+   "i": 15,
+   "start_s": 96.52,
+   "end_s": 99.06,
+   "dur_s": 2.54,
+   "text": "She often made jokes that made me laugh."
+  },
+  {
+   "i": 16,
+   "start_s": 99.06,
+   "end_s": 100.54,
+   "dur_s": 1.48,
+   "text": "She’s really funny."
+  },
+  {
+   "i": 17,
+   "start_s": 101.38,
+   "end_s": 110.399,
+   "dur_s": 9.019,
+   "text": "And we saw that we had a lot of things in common – books we liked, films we liked, things like that."
+  },
+  {
+   "i": 18,
+   "start_s": 111.14,
+   "end_s": 113.48,
+   "dur_s": 2.34,
+   "text": "He’s also very intelligent."
+  },
+  {
+   "i": 19,
+   "start_s": 114.46,
+   "end_s": 117.98,
+   "dur_s": 3.52,
+   "text": "So, when did you actually meet face-to-face?"
+  },
+  {
+   "i": 20,
+   "start_s": 118.88,
+   "end_s": 119.66,
+   "dur_s": 0.78,
+   "text": "Last year."
+  },
+  {
+   "i": 21,
+   "start_s": 119.66,
+   "end_s": 121.14,
+   "dur_s": 1.48,
+   "text": "We met in Singapore."
+  },
+  {
+   "i": 22,
+   "start_s": 121.84,
+   "end_s": 122.44,
+   "dur_s": 0.6,
+   "text": "That’s right."
+  },
+  {
+   "i": 23,
+   "start_s": 122.92,
+   "end_s": 127.88,
+   "dur_s": 4.96,
+   "text": "We wanted to meet up, but it’s a long way and the plane tickets are expensive."
+  },
+  {
+   "i": 24,
+   "start_s": 128.46,
+   "end_s": 130.52,
+   "dur_s": 2.06,
+   "text": "So we decided to meet halfway."
+  },
+  {
+   "i": 25,
+   "start_s": 131.34,
+   "end_s": 135.14,
+   "dur_s": 3.8,
+   "text": "We had a really great time together for about five days."
+  },
+  {
+   "i": 26,
+   "start_s": 135.697,
+   "end_s": 137.4,
+   "dur_s": 1.703,
+   "text": "Which language did you speak?"
+  },
+  {
+   "i": 27,
+   "start_s": 138.275,
+   "end_s": 139.52,
+   "dur_s": 1.245,
+   "text": "Haha! Good question."
+  },
+  {
+   "i": 28,
+   "start_s": 140.28,
+   "end_s": 142.54,
+   "dur_s": 2.26,
+   "text": "English, almost all the time."
+  },
+  {
+   "i": 29,
+   "start_s": 143.02,
+   "end_s": 144.42,
+   "dur_s": 1.4,
+   "text": "Her English is really good!"
+  },
+  {
+   "i": 30,
+   "start_s": 145.16,
+   "end_s": 149.82,
+   "dur_s": 4.66,
+   "text": "He’s just being kind! But yes, we had a great time."
+  },
+  {
+   "i": 31,
+   "start_s": 150.44,
+   "end_s": 152.42,
+   "dur_s": 1.98,
+   "text": "I think we’re going to be friends for life."
+  },
+  {
+   "i": 32,
+   "start_s": 153.12,
+   "end_s": 155.3,
+   "dur_s": 2.18,
+   "text": "I hope we can meet up again soon."
+  }
+ ]
+}

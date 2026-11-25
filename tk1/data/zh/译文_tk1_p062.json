@@ -1,0 +1,120 @@
+{
+ "passage_key": "u6_62",
+ "page": "p062",
+ "unit": 6,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 22,
+ "n_unique_keys": 22,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Is there anyone who doesn’t know about those great friends Harry, Hermione and Ron in the Harry Potter books?",
+   "zh": "有谁不知道《哈利·波特》里哈利、赫敏和罗恩那几个好朋友吗？"
+  },
+  {
+   "i": 1,
+   "en": "JK Rowling’s stories are world famous and part of their success is because of the friendship between those three main characters.",
+   "zh": "JK·罗琳的故事举世闻名，成功的一部分原因就是这三位主角之间的友谊。"
+  },
+  {
+   "i": 2,
+   "en": "But there are many examples of great friends in literature.",
+   "zh": "但文学作品中还有很多好朋友的例子。"
+  },
+  {
+   "i": 3,
+   "en": "Let’s look at some more.",
+   "zh": "我们来看几个。"
+  },
+  {
+   "i": 4,
+   "en": "In 1844 French writer Alexandre Dumas wrote The Three Musketeers.",
+   "zh": "1844 年，法国作家大仲马写了《三个火枪手》。"
+  },
+  {
+   "i": 5,
+   "en": "The story is about a young man called D’Artagnan who goes to Paris to join the Musketeers, special soldiers who protect the king.",
+   "zh": "故事讲一个叫达达尼昂的年轻人去巴黎加入火枪手，那是保护国王的特别士兵。"
+  },
+  {
+   "i": 6,
+   "en": "He meets Athos, Aramis and Porthos, three friends who are the greatest Musketeers in France, and they have many adventures together.",
+   "zh": "他遇到了阿多斯、阿拉米斯和波尔多斯，这三位朋友是法国最厉害的火枪手，他们一起经历了很多冒险。"
+  },
+  {
+   "i": 7,
+   "en": "They often say ‘one for all and all for one’, which shows their strong friendship.",
+   "zh": "他们常说“人人为我，我为人人”，这体现了他们深厚的友谊。"
+  },
+  {
+   "i": 8,
+   "en": "The Jungle Book, 1894 by Rudyard Kipling is a story about animals who are very like people.",
+   "zh": "1894 年鲁德亚德·吉卜林的《丛林之书》讲的是一些很像人的动物的故事。"
+  },
+  {
+   "i": 9,
+   "en": "Some good, some not so good.",
+   "zh": "有些好，有些不那么好。"
+  },
+  {
+   "i": 10,
+   "en": "But there is also Mowgli, a small human boy who grows up in the Indian jungle.",
+   "zh": "但里面还有莫格利，一个在印度丛林里长大的小男孩。"
+  },
+  {
+   "i": 11,
+   "en": "Many animals want to find him because he knows how to make fire.",
+   "zh": "很多动物都想找到他，因为他会生火。"
+  },
+  {
+   "i": 12,
+   "en": "Mowgli’s great friend and guardian is a bear called Baloo and also a black panther called Bagheera, who help him to escape from the tiger, Shere Khan.",
+   "zh": "莫格利的好朋友和守护者是一只叫巴鲁的熊，还有一只叫巴吉拉的黑豹，它们帮他逃脱老虎谢尔·汗。"
+  },
+  {
+   "i": 13,
+   "en": "The Lord of the Rings, 1937 to 1949 by JRR Tolkien is a fantasy story about Frodo who gets a ring from his uncle Bilbo Baggins.",
+   "zh": "《指环王》（1937 至 1949 年）是 JRR·托尔金写的奇幻故事，讲弗罗多从叔叔比尔博·巴金斯那里得到一枚戒指。"
+  },
+  {
+   "i": 14,
+   "en": "Frodo lives in a place called the Shire in Middle Earth and has a friend, Sam.",
+   "zh": "弗罗多住在中土世界的夏尔，有一个朋友叫山姆。"
+  },
+  {
+   "i": 15,
+   "en": "When Frodo leaves the Shire on a long journey with the ring, Sam as well as some other friends goes with him.",
+   "zh": "当弗罗多带着戒指离开夏尔踏上漫长旅程时，山姆和其他几位朋友一起跟着他。"
+  },
+  {
+   "i": 16,
+   "en": "Sam’s friendship is very important for Frodo as he faces many dangerous situations; Sam is always there to help him.",
+   "zh": "山姆的友谊对弗罗多非常重要，因为他要面对许多危险处境；山姆总在他身边帮助他。"
+  },
+  {
+   "i": 17,
+   "en": "A more modern book is My Brilliant Friend, 2011 by Elena Ferrante.",
+   "zh": "更现代的一本书是 2011 年埃莱娜·费兰特的《我的天才女友》。"
+  },
+  {
+   "i": 18,
+   "en": "It is the first of a series of four novels.",
+   "zh": "它是四部曲系列的第一部。"
+  },
+  {
+   "i": 19,
+   "en": "The story begins in Naples in the 1950s.",
+   "zh": "故事发生在 20 世纪 50 年代的那不勒斯。"
+  },
+  {
+   "i": 20,
+   "en": "Elena and Lila are friends at school but they have a lot of arguments, too.",
+   "zh": "埃莱娜和莉拉是学校里的朋友，但也经常吵架。"
+  },
+  {
+   "i": 21,
+   "en": "As they grow up life takes them away from each other, but when they are both old things happen that bring them together again.",
+   "zh": "随着长大，生活让她们分开，但当她们都老了，事情又让她们重新走到一起。"
+  }
+ ]
+}

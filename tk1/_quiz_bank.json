@@ -1,0 +1,5142 @@
+{
+ "note": "Think 1 题库（U1/U2 7 课）· 100% 教师用书书内答案。完整版 L1 TB p25-40 + Unit 2 教师用书 PDF；答案行经版面坐标还原（_tk1_tb_u1u2_layout.txt）。题型：tf / choice / match。answer 行在文字层丢失的题不收（p016 Ex2-4 待精读补）。用户名保留原串。",
+ "p012": {
+  "title": "Quiz: Do you enjoy life?",
+  "src": "书内答案 TB p26（SB p13 Ex6）：a7 b5 c4 d3 e6 f1 g2",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which questions in the quiz tell us that these things are important for us? 把 a–g 与 quiz 题号 1–7 配对。",
+    "items": [
+     {
+      "k": "a",
+      "txt": "Being with people"
+     },
+     {
+      "k": "b",
+      "txt": "Enjoying exercise"
+     },
+     {
+      "k": "c",
+      "txt": "Sleep"
+     },
+     {
+      "k": "d",
+      "txt": "Enjoying music"
+     },
+     {
+      "k": "e",
+      "txt": "Giving your brain exercise"
+     },
+     {
+      "k": "f",
+      "txt": "Being positive"
+     },
+     {
+      "k": "g",
+      "txt": "Having interests"
+     }
+    ],
+    "a": {
+     "a": 7,
+     "b": 5,
+     "c": 4,
+     "d": 3,
+     "e": 6,
+     "f": 1,
+     "g": 2
+    },
+    "src": "book TB p26"
+   }
+  ]
+ },
+ "p015": {
+  "title": "Listening: Hobbies and family",
+  "src": "书内答案 TB p28（SB p15 Ex7）：1 Ben 2 Jade 3 Dad's friend 4 Harry 5 Harry's mum；Ex6 图片匹配 A2 B1 C3（图题不收）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "_____ loves his hobby.",
+    "opts": [
+     "Ben",
+     "Jade",
+     "Harry",
+     "Sally"
+    ],
+    "a": 0,
+    "src": "book TB p28 Ex7-1"
+   },
+   {
+    "t": "choice",
+    "q": "_____ wants to do judo lessons.",
+    "opts": [
+     "Harry's mum",
+     "Jade",
+     "Dad's friend",
+     "Sally"
+    ],
+    "a": 1,
+    "src": "book TB p28 Ex7-2"
+   },
+   {
+    "t": "choice",
+    "q": "_____ thinks judo is good for strength.",
+    "opts": [
+     "Dad's friend",
+     "Ben",
+     "Harry",
+     "Jade"
+    ],
+    "a": 0,
+    "src": "book TB p28 Ex7-3"
+   },
+   {
+    "t": "choice",
+    "q": "_____ thinks puzzles are good for the brain.",
+    "opts": [
+     "Harry",
+     "Sally",
+     "Ben",
+     "Harry's mum"
+    ],
+    "a": 0,
+    "src": "book TB p28 Ex7-4"
+   },
+   {
+    "t": "choice",
+    "q": "_____ doesn't like crosswords.",
+    "opts": [
+     "Harry's mum",
+     "Jade",
+     "Dad's friend",
+     "Ben"
+    ],
+    "a": 0,
+    "src": "book TB p28 Ex7-5"
+   }
+  ]
+ },
+ "p016": {
+  "title": "Blog: What do you do in your free time?",
+  "src": "书内答案 TB p29（SB p16 Ex2）：1 Lucy 2 Natalie 3 Natalie 5 Hermione；Ex2-4 答案行文字层丢失（据段落应为 Andy），不收，待精读补",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "My favourite player is called Beauden Barrett. — Who says it?",
+    "opts": [
+     "Hermione",
+     "Andy",
+     "Natalie",
+     "Lucy"
+    ],
+    "a": 3,
+    "src": "book TB p29 Ex2-1"
+   },
+   {
+    "t": "choice",
+    "q": "The Empire State Building is on Fifth Avenue. — Who says it?",
+    "opts": [
+     "Natalie",
+     "Lucy",
+     "Hermione",
+     "Andy"
+    ],
+    "a": 0,
+    "src": "book TB p29 Ex2-2"
+   },
+   {
+    "t": "choice",
+    "q": "I love walking around in Rome, too. — Who says it?",
+    "opts": [
+     "Lucy",
+     "Natalie",
+     "Andy",
+     "Hermione"
+    ],
+    "a": 1,
+    "src": "book TB p29 Ex2-3"
+   },
+   {
+    "t": "choice",
+    "q": "I love the ones with long hair – they're called Persian. — Who says it?",
+    "opts": [
+     "Hermione",
+     "Natalie",
+     "Lucy",
+     "Andy"
+    ],
+    "a": 0,
+    "src": "book TB p29 Ex2-5"
+   }
+  ]
+ },
+ "p020": {
+  "title": "Messages: Mike and Hannah",
+  "src": "书内答案 U2 TB T20（SB p21 Ex6）：1 True 2 F→next to the big chemist's 3 F→five minutes 4 True 5 F→because it's raining",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Mike is in a shop in Green Street.",
+    "a": "T",
+    "src": "book U2TB T20 Ex6-1"
+   },
+   {
+    "t": "tf",
+    "q": "Barker's is a big chemist's in Market Street.",
+    "a": "F",
+    "fix": "Barker's is a shop next to the big chemist's in Market Street.",
+    "src": "book U2TB T20 Ex6-2"
+   },
+   {
+    "t": "tf",
+    "q": "Mike needs ten minutes to arrive at Barker's.",
+    "a": "F",
+    "fix": "Mike needs five minutes to arrive at Barker's.",
+    "src": "book U2TB T20 Ex6-3"
+   },
+   {
+    "t": "tf",
+    "q": "There are lots of people in Barker's.",
+    "a": "T",
+    "src": "book U2TB T20 Ex6-4"
+   },
+   {
+    "t": "tf",
+    "q": "Hannah doesn't want to join Mike because she's busy.",
+    "a": "F",
+    "fix": "Hannah doesn't want to join Mike because it's raining.",
+    "src": "book U2TB T20 Ex6-5"
+   }
+  ]
+ },
+ "p023": {
+  "title": "Listening: Shopping conversations",
+  "src": "书内答案 U2 TB T23（SB p23 Ex11）：1C 2A 3C 4C 5A 6C 7C 8C 9A（C=customer A=assistant）；Ex6 指代：1 the new jacket 2 joining Mike at Barker's；Ex9 图片匹配 1D 2A 3C 4B（图题不收）",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Have you got …? — C (customer) or A (assistant)?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-1"
+   },
+   {
+    "t": "choice",
+    "q": "What size do you take? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 1,
+    "src": "book U2TB T23 Ex11-2"
+   },
+   {
+    "t": "choice",
+    "q": "Can I try it/them on, please? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-3"
+   },
+   {
+    "t": "choice",
+    "q": "How much is it/are they? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-4"
+   },
+   {
+    "t": "choice",
+    "q": "That's (twenty pounds), please. — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 1,
+    "src": "book U2TB T23 Ex11-5"
+   },
+   {
+    "t": "choice",
+    "q": "Have you got it/them in (blue)? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-6"
+   },
+   {
+    "t": "choice",
+    "q": "Can I pay with my contactless card? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-7"
+   },
+   {
+    "t": "choice",
+    "q": "I can't find the price. — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 0,
+    "src": "book U2TB T23 Ex11-8"
+   },
+   {
+    "t": "choice",
+    "q": "Would you like the receipt? — C or A?",
+    "opts": [
+     "C",
+     "A"
+    ],
+    "a": 1,
+    "src": "book U2TB T23 Ex11-9"
+   },
+   {
+    "t": "choice",
+    "q": "'It looks a bit old-fashioned though.' What is 'it'?",
+    "opts": [
+     "the new jacket",
+     "joining Mike at Barker's"
+    ],
+    "a": 0,
+    "src": "book U2TB T22 Ex6-1"
+   },
+   {
+    "t": "choice",
+    "q": "'That sounds like a bad idea.' What is 'that'?",
+    "opts": [
+     "the new jacket",
+     "joining Mike at Barker's"
+    ],
+    "a": 1,
+    "src": "book U2TB T22 Ex6-2"
+   }
+  ]
+ },
+ "p024": {
+  "title": "Web forum: It's Sunday afternoon",
+  "src": "书内答案 U2 TB T24（SB p24 Ex4）：1 reading→SillyMilly 2 museums→Cool656Carl 3 writing→MonsterMunch4342 4 walking→Austin08",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Who likes reading?",
+    "opts": [
+     "SillyMilly",
+     "Austin08",
+     "MonsterMunch4342",
+     "Cool656Carl"
+    ],
+    "a": 0,
+    "src": "book U2TB T24 Ex4-1"
+   },
+   {
+    "t": "choice",
+    "q": "Who likes visiting museums?",
+    "opts": [
+     "Cool656Carl",
+     "SillyMilly",
+     "Austin08",
+     "MonsterMunch4342"
+    ],
+    "a": 0,
+    "src": "book U2TB T24 Ex4-2"
+   },
+   {
+    "t": "choice",
+    "q": "Who likes writing?",
+    "opts": [
+     "MonsterMunch4342",
+     "Cool656Carl",
+     "SillyMilly",
+     "Austin08"
+    ],
+    "a": 0,
+    "src": "book U2TB T24 Ex4-3"
+   },
+   {
+    "t": "choice",
+    "q": "Who likes walking?",
+    "opts": [
+     "Austin08",
+     "MonsterMunch4342",
+     "Cool656Carl",
+     "SillyMilly"
+    ],
+    "a": 0,
+    "src": "book U2TB T24 Ex4-4"
+   }
+  ]
+ },
+ "p026": {
+  "title": "Culture: Banknotes",
+  "src": "书内答案 U2 TB T26（SB p26 Ex3）：1 represent 2 portrait 3 history 4 identical 5 well-known 6 various 7 founder（0 currency 示例）；Ex4 改错题题干文字层不全，不收",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "show — Which word from the article?",
+    "opts": [
+     "represent",
+     "portrait",
+     "identical",
+     "founder"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-1"
+   },
+   {
+    "t": "choice",
+    "q": "a picture of someone's head — Which word?",
+    "opts": [
+     "portrait",
+     "various",
+     "currency",
+     "history"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-2"
+   },
+   {
+    "t": "choice",
+    "q": "a period of time in the past — Which word?",
+    "opts": [
+     "history",
+     "well-known",
+     "represent",
+     "portrait"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-3"
+   },
+   {
+    "t": "choice",
+    "q": "exactly the same — Which word?",
+    "opts": [
+     "identical",
+     "various",
+     "founder",
+     "currency"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-4"
+   },
+   {
+    "t": "choice",
+    "q": "famous — Which word?",
+    "opts": [
+     "well-known",
+     "identical",
+     "portrait",
+     "history"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-5"
+   },
+   {
+    "t": "choice",
+    "q": "different types of — Which word?",
+    "opts": [
+     "various",
+     "currency",
+     "founder",
+     "well-known"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-6"
+   },
+   {
+    "t": "choice",
+    "q": "someone who starts a country — Which word?",
+    "opts": [
+     "founder",
+     "represent",
+     "identical",
+     "portrait"
+    ],
+    "a": 0,
+    "src": "book U2TB T26 Ex3-7"
+   }
+  ]
+ },
+ "p030": {
+  "title": "Online article: Creepy crawlies – the superfood of the future?",
+  "src": "book U3TB T30 Ex4 (3.01 matching answers 1e 2a 3f 4g 5b 6d)",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "A lot of people …",
+    "a": "eat unhealthy food",
+    "src": "book U3TB T30 Ex4-1 = e"
+   },
+   {
+    "t": "match",
+    "q": "Farms cover about …",
+    "a": "one third of land",
+    "src": "book U3TB T30 Ex4-2 = a"
+   },
+   {
+    "t": "match",
+    "q": "It takes a lot of water and energy …",
+    "a": "to produce the meat people eat",
+    "src": "book U3TB T30 Ex4-3 = f"
+   },
+   {
+    "t": "match",
+    "q": "Insects can help …",
+    "a": "with our problem",
+    "src": "book U3TB T30 Ex4-4 = g"
+   },
+   {
+    "t": "match",
+    "q": "They are healthy because …",
+    "a": "they've got protein in them",
+    "src": "book U3TB T30 Ex4-5 = b"
+   },
+   {
+    "t": "match",
+    "q": "Many people don't know that …",
+    "a": "some food colouring comes from a beetle",
+    "src": "book U3TB T30 Ex4-6 = d"
+   }
+  ]
+ },
+ "p033": {
+  "title": "Listening: In a café ordering food (3.04)",
+  "src": "book U3TB T33 Ex10-11 answers",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "What does Steve order?",
+    "a": "Cheese and tomato roll, apple juice and carrot cake",
+    "opts": [
+     "Cheese and tomato roll, apple juice and carrot cake",
+     "Chicken and mushroom soup, apple juice",
+     "Roll and tea"
+    ],
+    "src": "book U3TB T33 Ex10: Steve: cheese and tomato roll, apple juice, carrot cake"
+   },
+   {
+    "t": "choice",
+    "q": "What does Hannah order?",
+    "a": "Chicken and mushroom soup and apple juice",
+    "opts": [
+     "Chicken and mushroom soup and apple juice",
+     "Cheese and tomato roll",
+     "Carrot cake and coffee"
+    ],
+    "src": "book U3TB T33 Ex10: Hannah: chicken and mushroom soup, apple juice (and Steve's cake)"
+   },
+   {
+    "t": "choice",
+    "q": "How does Steve describe the roll in Ex11?",
+    "a": "It's good",
+    "opts": [
+     "It's good",
+     "It's delicious",
+     "It's awful"
+    ],
+    "src": "book U3TB T33 Ex11-1 = It's good"
+   },
+   {
+    "t": "choice",
+    "q": "How does Hannah describe the soup in Ex11?",
+    "a": "It's delicious",
+    "opts": [
+     "It's good",
+     "It's delicious",
+     "It's hot"
+    ],
+    "src": "book U3TB T33 Ex11-2 = It's delicious"
+   },
+   {
+    "t": "choice",
+    "q": "Why does Hannah want a fork?",
+    "a": "For Steve's cake",
+    "opts": [
+     "For the soup",
+     "For Steve's cake",
+     "For the roll"
+    ],
+    "src": "book U3TB T33 Ex11-3 = For Steve's cake"
+   }
+  ]
+ },
+ "p034": {
+  "title": "Online blog: Eating around the world (3.08)",
+  "src": "book U3TB T34 Ex2-3 answers",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Where is the writer?",
+    "a": "Kulusuk, Greenland",
+    "opts": [
+     "Kulusuk, Greenland",
+     "Greenland, Denmark",
+     "A village in Canada"
+    ],
+    "src": "book U3TB T34 Ex2-1 = Kulusuk; Greenland"
+   },
+   {
+    "t": "choice",
+    "q": "Why is it difficult to get vegetables there?",
+    "a": "The summer is too short",
+    "opts": [
+     "The summer is too short",
+     "The shops are closed",
+     "The sea is frozen"
+    ],
+    "src": "book U3TB T34 Ex1-2 answer key = short ...; SB p34: The summer is too short and not long enough for the Inuits to grow vegetables"
+   },
+   {
+    "t": "choice",
+    "q": "What do the Inuits eat a lot of?",
+    "a": "Raw and boiled meat",
+    "opts": [
+     "Raw and boiled meat",
+     "Fresh vegetables",
+     "Bread and rice"
+    ],
+    "src": "book U3TB T34 Ex2-3 = raw and boiled meat"
+   },
+   {
+    "t": "choice",
+    "q": "Why is Matt Silver staying in an Inuit village?",
+    "a": "To write a magazine article for a series called Eating around the World",
+    "opts": [
+     "To write a magazine article for a series called Eating around the World",
+     "To visit his family",
+     "To study the icebergs"
+    ],
+    "src": "book U3TB T34 Ex3-1"
+   },
+   {
+    "t": "choice",
+    "q": "What other food apart from meat can people find there?",
+    "a": "Berries and seaweed",
+    "opts": [
+     "Berries and seaweed",
+     "Rice and pasta",
+     "Apples and carrots"
+    ],
+    "src": "book U3TB T34 Ex3-2"
+   },
+   {
+    "t": "tf",
+    "q": "The summers in Kulusuk are long enough for vegetables to grow.",
+    "a": "F",
+    "src": "book U3TB T34 Ex3-3 = summers aren't long enough"
+   },
+   {
+    "t": "tf",
+    "q": "The Inuits are quite healthy despite eating lots of fat.",
+    "a": "T",
+    "src": "book U3TB T34 Ex3-4"
+   }
+  ]
+ },
+ "p038": {
+  "title": "Blog: Old films, great families (4.01)",
+  "src": "book U4TB T38 Ex1 + Ex6 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which word pairs with 'sister'?",
+    "a": "brother",
+    "opts": [
+     "brother",
+     "mother",
+     "daughter"
+    ],
+    "src": "book U4TB T38 Ex1: brother-sister"
+   },
+   {
+    "t": "match",
+    "q": "Which word pairs with 'son'?",
+    "a": "daughter",
+    "opts": [
+     "daughter",
+     "wife",
+     "father"
+    ],
+    "src": "book U4TB T38 Ex1: daughter-son"
+   },
+   {
+    "t": "match",
+    "q": "Which word pairs with 'mother'?",
+    "a": "father",
+    "opts": [
+     "father",
+     "husband",
+     "brother"
+    ],
+    "src": "book U4TB T38 Ex1: father-mother"
+   },
+   {
+    "t": "match",
+    "q": "Which word pairs with 'wife'?",
+    "a": "husband",
+    "opts": [
+     "husband",
+     "son",
+     "sister"
+    ],
+    "src": "book U4TB T38 Ex1: husband-wife"
+   },
+   {
+    "t": "choice",
+    "q": "Which Home Alone film does Emma think was the best?",
+    "a": "The first one",
+    "opts": [
+     "The first one",
+     "The second one",
+     "The last one"
+    ],
+    "src": "book U4TB T38 Ex6-1 = the first Home Alone film"
+   },
+   {
+    "t": "choice",
+    "q": "How does Kevin feel when his family return home on Christmas morning?",
+    "a": "Happy",
+    "opts": [
+     "Happy",
+     "Sad",
+     "Angry"
+    ],
+    "src": "book U4TB T38 Ex6-2 = Kevin is happy"
+   },
+   {
+    "t": "choice",
+    "q": "Who in the Parr family has superpowers?",
+    "a": "The parents and the children",
+    "opts": [
+     "The parents and the children",
+     "Only the parents",
+     "Only the children"
+    ],
+    "src": "book U4TB T38 Ex6-3"
+   },
+   {
+    "t": "choice",
+    "q": "How many members are there in the Parr family?",
+    "a": "Five",
+    "opts": [
+     "Five",
+     "Four",
+     "Six"
+    ],
+    "src": "book U4TB T38 Ex6-4 = five members"
+   },
+   {
+    "t": "choice",
+    "q": "How do the Addams children feel about being different?",
+    "a": "They are happy being different",
+    "opts": [
+     "They are happy being different",
+     "They want to be normal",
+     "They are scared"
+    ],
+    "src": "book U4TB T38 Ex6-5"
+   },
+   {
+    "t": "choice",
+    "q": "What relation is Fester to Pugsley?",
+    "a": "His uncle",
+    "opts": [
+     "His uncle",
+     "His father",
+     "His brother"
+    ],
+    "src": "book U4TB T38 Ex6-6 = Fester is Pugsley's uncle"
+   }
+  ]
+ },
+ "p041": {
+  "title": "Listening: Asking for permission (4.02)",
+  "src": "book U4TB T41 Ex7-10 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which sentence matches picture A?",
+    "a": "My brother loves helping me with my Maths homework.",
+    "opts": [
+     "My brother loves helping me with my Maths homework.",
+     "Mum always gives me lifts to parties.",
+     "My aunt takes us climbing on Saturdays."
+    ],
+    "src": "book U4TB T41 Ex7: A 4"
+   },
+   {
+    "t": "match",
+    "q": "Which sentence matches picture B?",
+    "a": "My aunt takes us climbing on Saturdays.",
+    "opts": [
+     "My aunt takes us climbing on Saturdays.",
+     "Dad makes the best cooked breakfast at the weekend.",
+     "My big sister Olivia lets me borrow her clothes."
+    ],
+    "src": "book U4TB T41 Ex7: B 3"
+   },
+   {
+    "t": "match",
+    "q": "Which sentence matches picture C?",
+    "a": "Mum always gives me lifts to parties.",
+    "opts": [
+     "Mum always gives me lifts to parties.",
+     "My grandad tells the best jokes.",
+     "My brother loves helping me with my Maths homework."
+    ],
+    "src": "book U4TB T41 Ex7: C 1"
+   },
+   {
+    "t": "choice",
+    "q": "Who are talking in Dialogue 1?",
+    "a": "Olivia and Lori (sisters)",
+    "opts": [
+     "Olivia and Lori (sisters)",
+     "Tom and his mum",
+     "Eddie and his dad"
+    ],
+    "src": "book U4TB T41 Ex8-1 = Olivia and Lori (sisters)"
+   },
+   {
+    "t": "choice",
+    "q": "Who are talking in Dialogue 2?",
+    "a": "Tom and his mum",
+    "opts": [
+     "Tom and his mum",
+     "Olivia and Lori",
+     "Becca and her brother"
+    ],
+    "src": "book U4TB T41 Ex8-2 = Tom and his mum (son and mother)"
+   },
+   {
+    "t": "choice",
+    "q": "What is Lori looking for?",
+    "a": "Her red T-shirt",
+    "opts": [
+     "Her red T-shirt",
+     "Her red boots",
+     "Her school bag"
+    ],
+    "src": "book U4TB T41 Ex9-1 = her red T-shirt"
+   },
+   {
+    "t": "choice",
+    "q": "Where is Lori going?",
+    "a": "To the cinema with her friends",
+    "opts": [
+     "To the cinema with her friends",
+     "To a party",
+     "To the shops"
+    ],
+    "src": "book U4TB T41 Ex9-2"
+   },
+   {
+    "t": "choice",
+    "q": "What does Olivia say 'no' to?",
+    "a": "Lending Lori her red boots",
+    "opts": [
+     "Lending Lori her red boots",
+     "Lending Lori her T-shirt",
+     "Going to the cinema"
+    ],
+    "src": "book U4TB T41 Ex9-3"
+   },
+   {
+    "t": "choice",
+    "q": "When is Nathan's party?",
+    "a": "Saturday from 8",
+    "opts": [
+     "Saturday from 8",
+     "Friday from 7",
+     "Sunday from 8"
+    ],
+    "src": "book U4TB T41 Ex9-4 = Saturday from 8"
+   },
+   {
+    "t": "choice",
+    "q": "How far away is Foxton?",
+    "a": "Five kilometres",
+    "opts": [
+     "Five kilometres",
+     "Fifteen kilometres",
+     "Five miles"
+    ],
+    "src": "book U4TB T41 Ex9-5 = five kilometres"
+   },
+   {
+    "t": "choice",
+    "q": "What time does Tom need to leave the party?",
+    "a": "At midnight",
+    "opts": [
+     "At midnight",
+     "At ten o'clock",
+     "At eleven o'clock"
+    ],
+    "src": "book U4TB T41 Ex9-6 = at midnight"
+   },
+   {
+    "t": "tf",
+    "q": "Complete: 'Can I borrow your red boots?' – 'Of course you can.' / 'No, you ___.'",
+    "a": "can't",
+    "src": "book U4TB T41 Ex10-2 = can't (Ex10-1 = Can)"
+   }
+  ]
+ },
+ "p042": {
+  "title": "News article: Suzie saves her mum (4.05)",
+  "src": "book U4TB T42 Ex2-3 answers",
+  "quiz": [
+   {
+    "t": "order",
+    "q": "Put events in order 1-5 (article order).",
+    "a": "c e a d b is NOT in the article — order: 1c 2e 3a 5b; d is not in the article",
+    "opts": [
+     "1c 2e 3a 5b (d not in article)",
+     "1a 2b 3c 4d 5e",
+     "1e 2c 3a 4b 5d"
+    ],
+    "src": "book U4TB T42 Ex2: 1 c, 2 e, 3 a, 4 d, 5 b (d is not in the article)"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'It's open.'?",
+    "a": "Suzie",
+    "opts": [
+     "Suzie",
+     "Police officer",
+     "Mum"
+    ],
+    "src": "book U4TB T42 Ex3-1 = S"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'Is she injured?'?",
+    "a": "Police officer",
+    "opts": [
+     "Police officer",
+     "Suzie",
+     "Mum"
+    ],
+    "src": "book U4TB T42 Ex3-2 = P"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'She's so amazing.'?",
+    "a": "Mum or police officer",
+    "opts": [
+     "Mum or police officer",
+     "Only Suzie",
+     "The ambulance driver"
+    ],
+    "src": "book U4TB T42 Ex3-3 = M or P"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'How can I help?'?",
+    "a": "Police officer",
+    "opts": [
+     "Police officer",
+     "Suzie",
+     "Mum"
+    ],
+    "src": "book U4TB T42 Ex3-4 = P"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'I can hear an ambulance.'?",
+    "a": "Suzie",
+    "opts": [
+     "Suzie",
+     "Police officer",
+     "Mum"
+    ],
+    "src": "book U4TB T42 Ex3-5 = S"
+   },
+   {
+    "t": "choice",
+    "q": "Who says 'How old are you?'?",
+    "a": "Police officer",
+    "opts": [
+     "Police officer",
+     "Suzie",
+     "Mum"
+    ],
+    "src": "book U4TB T42 Ex3-6 = P"
+   }
+  ]
+ },
+ "p044": {
+  "title": "Culture: Family traditions around the world (4.06)",
+  "src": "book U4TB T44 Ex2 + Ex6 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which country is photo A about?",
+    "a": "The Netherlands",
+    "opts": [
+     "The Netherlands",
+     "Germany",
+     "Japan"
+    ],
+    "src": "book U4TB T44 Ex2: A Netherlands"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo B about?",
+    "a": "Germany",
+    "opts": [
+     "Germany",
+     "India",
+     "The Netherlands"
+    ],
+    "src": "book U4TB T44 Ex2: B Germany"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo C about?",
+    "a": "Japan",
+    "opts": [
+     "Japan",
+     "India",
+     "Germany"
+    ],
+    "src": "book U4TB T44 Ex2: C Japan"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo D about?",
+    "a": "India",
+    "opts": [
+     "India",
+     "Japan",
+     "The Netherlands"
+    ],
+    "src": "book U4TB T44 Ex2: D India"
+   },
+   {
+    "t": "match",
+    "q": "Which highlighted word means 'something important or unusual that happens'?",
+    "a": "event",
+    "opts": [
+     "event",
+     "feed",
+     "share"
+    ],
+    "src": "book U4TB T44 Ex6-1 = event"
+   },
+   {
+    "t": "match",
+    "q": "Which highlighted word means 'to give food to'?",
+    "a": "feed",
+    "opts": [
+     "feed",
+     "celebrate",
+     "relatives"
+    ],
+    "src": "book U4TB T44 Ex6-2 = feed"
+   },
+   {
+    "t": "match",
+    "q": "Which highlighted word means 'to have something at the same time with other people'?",
+    "a": "share",
+    "opts": [
+     "share",
+     "present",
+     "event"
+    ],
+    "src": "book U4TB T44 Ex6-3 = share"
+   },
+   {
+    "t": "match",
+    "q": "Which highlighted word means 'the people in your family'?",
+    "a": "relatives",
+    "opts": [
+     "relatives",
+     "present",
+     "share"
+    ],
+    "src": "book U4TB T44 Ex6-4 = relatives"
+   },
+   {
+    "t": "match",
+    "q": "Which highlighted word means 'something you give to a person on a special day'?",
+    "a": "present",
+    "opts": [
+     "present",
+     "celebrate",
+     "feed"
+    ],
+    "src": "book U4TB T44 Ex6-5 = present"
+   }
+  ]
+ },
+ "p048": {
+  "title": "Magazine article: The 21st century caveman (5.02)",
+  "src": "book U5TB T49 Ex6 + T50 Grammar Ex1 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which sentence supports 'He needs a lot more money to get everything.'?",
+    "a": "…he used £160,000 to buy the house and all the things that he needed.",
+    "opts": [
+     "…he used £160,000 to buy the house and all the things that he needed.",
+     "…before 2007 he was quite ill.",
+     "…to get away from his busy city life."
+    ],
+    "src": "book U5TB T49 Ex6 answer key = he used £160,000…"
+   },
+   {
+    "t": "match",
+    "q": "Which sentence supports 'Angelo needs to look after his health.'?",
+    "a": "…before 2007 he was quite ill.",
+    "opts": [
+     "…before 2007 he was quite ill.",
+     "He worked for over a thousand hours.",
+     "…he moved about 80 tons of rock himself."
+    ],
+    "src": "book U5TB T49 Ex6 answer key = before 2007 he was quite ill…"
+   },
+   {
+    "t": "match",
+    "q": "Which sentence supports 'Sometimes it's good to escape from everyday life.'?",
+    "a": "…he uses the house as a place to go to sometimes, to get away from his busy city life.",
+    "opts": [
+     "…he uses the house as a place to go to sometimes, to get away from his busy city life.",
+     "…he used £160,000 to buy the house.",
+     "…finished the house in nine months."
+    ],
+    "src": "book U5TB T49 Ex6 answer key = he uses the house as a place to go to sometimes…"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'stay' (from the article)?",
+    "a": "stayed",
+    "opts": [
+     "stayed",
+     "staid",
+     "stayd"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-1 = stayed"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'decide' (from the article)?",
+    "a": "decided",
+    "opts": [
+     "decided",
+     "decideded",
+     "decid"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-2 = decided"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'finish' (from the article)?",
+    "a": "finished",
+    "opts": [
+     "finished",
+     "finishd",
+     "finishied"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-3 = finished"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'realise' (from the article)?",
+    "a": "realised",
+    "opts": [
+     "realised",
+     "realized",
+     "realisied"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-5 = realised"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'plan' (from the article)?",
+    "a": "planned",
+    "opts": [
+     "planned",
+     "planed",
+     "plannied"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-8 = planned"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'try' (from the article)?",
+    "a": "tried",
+    "opts": [
+     "tried",
+     "tryed",
+     "tryied"
+    ],
+    "src": "book U5TB T50 Grammar Ex1-9 = tried"
+   }
+  ]
+ },
+ "p051": {
+  "title": "Listening: Radio show – favourite rooms (5.06)",
+  "src": "book U5TB T51 Ex6 + Ex7 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which caller talks about a playroom with model trains?",
+    "a": "Jo",
+    "opts": [
+     "Jo",
+     "Andrew",
+     "Tom"
+    ],
+    "src": "book U5TB T51 Ex6/Ex7-1-2 = Jo, grandfather's trains"
+   },
+   {
+    "t": "match",
+    "q": "Which caller likes the music room at school?",
+    "a": "Andrew",
+    "opts": [
+     "Andrew",
+     "Paula",
+     "Jo"
+    ],
+    "src": "book U5TB T51 Ex6/Ex7-3-4 = Andrew, at Andrew's school, playing the drums"
+   },
+   {
+    "t": "match",
+    "q": "Which caller's favourite room is the kitchen?",
+    "a": "Paula",
+    "opts": [
+     "Paula",
+     "Tom",
+     "Andrew"
+    ],
+    "src": "book U5TB T51 Ex6/Ex7-5-6 = Paula, kitchen, nice and warm, safe"
+   },
+   {
+    "t": "match",
+    "q": "Which caller talks about a hotel room?",
+    "a": "Tom",
+    "opts": [
+     "Tom",
+     "Jo",
+     "Paula"
+    ],
+    "src": "book U5TB T51 Ex6/Ex7-7-8 = Tom, hotel in Rio de Janeiro, five days"
+   },
+   {
+    "t": "choice",
+    "q": "Who does Jo's favourite room belong to?",
+    "a": "Her grandfather",
+    "opts": [
+     "Her grandfather",
+     "Her father",
+     "Her brother"
+    ],
+    "src": "book U5TB T51 Ex7-1 = her grandfather/grandad"
+   },
+   {
+    "t": "choice",
+    "q": "What does Jo like doing there?",
+    "a": "Looking at her grandfather's trains",
+    "opts": [
+     "Looking at her grandfather's trains",
+     "Playing the drums",
+     "Sitting and reading"
+    ],
+    "src": "book U5TB T51 Ex7-2 = looking at her grandfather's trains"
+   },
+   {
+    "t": "choice",
+    "q": "Where is the music room?",
+    "a": "At Andrew's school",
+    "opts": [
+     "At Andrew's school",
+     "At Andrew's home",
+     "At a hotel"
+    ],
+    "src": "book U5TB T51 Ex7-3 = at Andrew's school"
+   },
+   {
+    "t": "choice",
+    "q": "What does Andrew like doing there?",
+    "a": "Playing the drums",
+    "opts": [
+     "Playing the drums",
+     "Playing the piano",
+     "Singing"
+    ],
+    "src": "book U5TB T51 Ex7-4 = playing the drums"
+   },
+   {
+    "t": "choice",
+    "q": "Why does Paula like her kitchen?",
+    "a": "It's where her family sit and have their meals together",
+    "opts": [
+     "It's where her family sit and have their meals together",
+     "It's the biggest room in the house",
+     "It has a great view"
+    ],
+    "src": "book U5TB T51 Ex7-5"
+   },
+   {
+    "t": "choice",
+    "q": "How does Paula feel there?",
+    "a": "Nice and warm, safe",
+    "opts": [
+     "Nice and warm, safe",
+     "Bored and tired",
+     "Nervous"
+    ],
+    "src": "book U5TB T51 Ex7-6 = nice and warm, safe"
+   },
+   {
+    "t": "choice",
+    "q": "Where is Tom's favourite room?",
+    "a": "In a hotel in Rio de Janeiro",
+    "opts": [
+     "In a hotel in Rio de Janeiro",
+     "In his home in Ireland",
+     "At his school"
+    ],
+    "src": "book U5TB T51 Ex7-7 = in a hotel in Rio de Janeiro"
+   },
+   {
+    "t": "choice",
+    "q": "How long did Tom stay in it?",
+    "a": "Five days",
+    "opts": [
+     "Five days",
+     "Two weeks",
+     "One weekend"
+    ],
+    "src": "book U5TB T51 Ex7-8 = five days"
+   }
+  ]
+ },
+ "p052": {
+  "title": "Holiday blog: Our holiday castle (5.07)",
+  "src": "book U5TB T52 Ex1 + Ex2 answers",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "Complete: There were ___ stone steps to climb up!",
+    "a": "fifty",
+    "opts": [
+     "fifty",
+     "fifteen",
+     "five"
+    ],
+    "src": "book U5TB T52 Ex1 = fifty stone steps"
+   },
+   {
+    "t": "choice",
+    "q": "Complete: The castle is more than ___ years old.",
+    "a": "600",
+    "opts": [
+     "600",
+     "800",
+     "100"
+    ],
+    "src": "book U5TB T52 Ex1 = more than 600 years old"
+   },
+   {
+    "t": "choice",
+    "q": "Complete: There was more than one ___.",
+    "a": "bedroom",
+    "opts": [
+     "bedroom",
+     "bathroom",
+     "kitchen"
+    ],
+    "src": "book U5TB T52 Ex1 = more than one bedroom"
+   },
+   {
+    "t": "choice",
+    "q": "Complete: In the morning there was a fantastic ___.",
+    "a": "rainbow",
+    "opts": [
+     "rainbow",
+     "sunset",
+     "view"
+    ],
+    "src": "book U5TB T52 Ex1 = a fantastic rainbow"
+   },
+   {
+    "t": "order",
+    "q": "Put events in order 1-7 (blog order).",
+    "a": "1 Tom's family leave Dublin, 2 Tom looks around the castle, 3 Tom finds out where they are staying the night, 4 Tom finds it difficult to sleep, 5 Tom visits the top of the castle, 6 Tom sees a rainbow, 7 The family get ready to go to Limerick",
+    "opts": [
+     "2, 4, 1, 5, 3, 6, 7 (as listed in TB)",
+     "1, 2, 3, 4, 5, 6, 7",
+     "7, 6, 5, 4, 3, 2, 1"
+    ],
+    "src": "book U5TB T52 Ex2 = 2, 4, 1, 5, 3, 6, 7"
+   }
+  ]
+ },
+ "p056": {
+  "title": "Web article: A special friendship",
+  "src": "book U6TB T57 Grammar Ex2/Ex4 + T57 Vocabulary Ex6/Ex7 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Past simple of 'swim' (from the article on p57)?",
+    "a": "swam",
+    "opts": [
+     "swam",
+     "swum",
+     "swimed"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-1 = swam"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'go' (from the article on p57)?",
+    "a": "went",
+    "opts": [
+     "went",
+     "goed",
+     "gone"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-2 = went"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'see' (from the article on p57)?",
+    "a": "saw",
+    "opts": [
+     "saw",
+     "seen",
+     "seed"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-3 = saw"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'think' (from the article on p57)?",
+    "a": "thought",
+    "opts": [
+     "thought",
+     "thinked",
+     "thoughed"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-4 = thought"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'come' (from the article on p57)?",
+    "a": "came",
+    "opts": [
+     "came",
+     "comed",
+     "comen"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-5 = came"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'write' (from the article on p57)?",
+    "a": "wrote",
+    "opts": [
+     "wrote",
+     "writed",
+     "written"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-6 = wrote"
+   },
+   {
+    "t": "match",
+    "q": "Past simple of 'begin' (from the article on p57)?",
+    "a": "began",
+    "opts": [
+     "began",
+     "beginned",
+     "begun"
+    ],
+    "src": "book U6TB T57 Grammar Ex2-7 = began"
+   },
+   {
+    "t": "match",
+    "q": "Make negative: 'Joe’s operation went well.'",
+    "a": "Joe’s operation didn’t go well.",
+    "opts": [
+     "Joe’s operation didn’t go well.",
+     "Joe’s operation doesn’t go well.",
+     "Joe’s operation went not well."
+    ],
+    "src": "book U6TB T57 Grammar Ex4-1 = Joe’s operation didn’t go well."
+   },
+   {
+    "t": "match",
+    "q": "Make negative: 'The doctors thought he could get better.'",
+    "a": "The doctors didn’t think he could get better.",
+    "opts": [
+     "The doctors didn’t think he could get better.",
+     "The doctors thought he couldn’t get better.",
+     "The doctors don’t think he could get better."
+    ],
+    "src": "book U6TB T57 Grammar Ex4-2 = The doctors didn’t think he could get better."
+   },
+   {
+    "t": "match",
+    "q": "Complete: yesterday, yesterday ___, yesterday afternoon.",
+    "a": "morning",
+    "opts": [
+     "morning",
+     "month",
+     "year"
+    ],
+    "src": "book U6TB T57 Vocabulary Ex6-1 = morning"
+   },
+   {
+    "t": "match",
+    "q": "Complete: last night, last week, last ___, last December.",
+    "a": "month",
+    "opts": [
+     "month",
+     "morning",
+     "afternoon"
+    ],
+    "src": "book U6TB T57 Vocabulary Ex6-2 = month"
+   },
+   {
+    "t": "match",
+    "q": "Complete: an hour ago, two weeks ago, a ___ ago.",
+    "a": "year",
+    "opts": [
+     "year",
+     "month",
+     "morning"
+    ],
+    "src": "book U6TB T57 Vocabulary Ex6-3 = a year"
+   },
+   {
+    "t": "match",
+    "q": "It’s 8 o’clock. I had breakfast at 7 o’clock.",
+    "a": "I had breakfast an hour ago.",
+    "opts": [
+     "I had breakfast an hour ago.",
+     "I had breakfast an hour before.",
+     "I have breakfast an hour ago."
+    ],
+    "src": "book U6TB T57 Vocabulary Ex7-1 = an hour ago"
+   },
+   {
+    "t": "match",
+    "q": "It’s 10.20. The film began at 10.00.",
+    "a": "The film began 20 minutes ago.",
+    "opts": [
+     "The film began 20 minutes ago.",
+     "The film began 20 minutes before.",
+     "The film begins 20 minutes ago."
+    ],
+    "src": "book U6TB T57 Vocabulary Ex7-2 = began 20 minutes ago"
+   },
+   {
+    "t": "match",
+    "q": "It’s December. Your holiday was in July.",
+    "a": "My holiday was five months ago.",
+    "opts": [
+     "My holiday was five months ago.",
+     "My holiday was five month ago.",
+     "My holiday is five months ago."
+    ],
+    "src": "book U6TB T57 Vocabulary Ex7-3 = was five months ago"
+   }
+  ]
+ },
+ "p059": {
+  "title": "Listening: Jack and his mum – friendship advice",
+  "src": "book U6TB T59 Listening Ex10/Ex11 + Grammar Ex13/Ex14 answers",
+  "quiz": [
+   {
+    "t": "choice",
+    "q": "What is the real message of the story?",
+    "a": "Don’t expect friends to always be perfect.",
+    "opts": [
+     "Don’t expect friends to always be perfect.",
+     "A best friend is for life.",
+     "Your parents were young once, too."
+    ],
+    "src": "book U6TB T59 Ex10 = Don’t expect friends to always be perfect."
+   },
+   {
+    "t": "choice",
+    "q": "Who doesn’t Jack want to invite to his house?",
+    "a": "C Markus",
+    "opts": [
+     "A Steve",
+     "B Leo",
+     "C Markus"
+    ],
+    "src": "book U6TB T59 Ex11-1 = C"
+   },
+   {
+    "t": "choice",
+    "q": "Why is Jack upset with Markus?",
+    "a": "A Markus said something mean to him.",
+    "opts": [
+     "A Markus said something mean to him.",
+     "B Markus doesn’t want to be his friend anymore.",
+     "C Markus didn’t invite him to his house."
+    ],
+    "src": "book U6TB T59 Ex11-2 = A"
+   },
+   {
+    "t": "choice",
+    "q": "Who is Janice?",
+    "a": "A a friend of Jack’s mum",
+    "opts": [
+     "A a friend of Jack’s mum",
+     "B a friend of Jack’s",
+     "C a friend of Jack’s grandmother"
+    ],
+    "src": "book U6TB T59 Ex11-3 = A"
+   },
+   {
+    "t": "choice",
+    "q": "How was Janice the next day?",
+    "a": "A really friendly",
+    "opts": [
+     "A really friendly",
+     "B a little bit upset",
+     "C really angry"
+    ],
+    "src": "book U6TB T59 Ex11-4 = A"
+   },
+   {
+    "t": "choice",
+    "q": "What did Jack’s mum feel like doing after she talked to Janice?",
+    "a": "C crying",
+    "opts": [
+     "A saying sorry",
+     "B laughing",
+     "C crying"
+    ],
+    "src": "book U6TB T59 Ex11-5 = C"
+   },
+   {
+    "t": "choice",
+    "q": "What does Jack decide to do at the end of the conversation?",
+    "a": "B go to Markus’ house and talk to him",
+    "opts": [
+     "A wait for Markus to apologise",
+     "B go to Markus’ house and talk to him",
+     "C phone Markus and apologise"
+    ],
+    "src": "book U6TB T59 Ex11-6 = B"
+   },
+   {
+    "t": "match",
+    "q": "Choose the correct word: 'Mr Smith is a teacher of my sister / my sister’s.'",
+    "a": "my sister’s",
+    "opts": [
+     "my sister’s",
+     "my sister",
+     "my sisters"
+    ],
+    "src": "book U6TB T59 Grammar Ex13-1 = my sister’s"
+   },
+   {
+    "t": "match",
+    "q": "Choose the correct word: 'She’s a cousin of John / John’s.'",
+    "a": "John’s",
+    "opts": [
+     "John’s",
+     "John",
+     "Johns"
+    ],
+    "src": "book U6TB T59 Grammar Ex13-2 = John’s"
+   },
+   {
+    "t": "match",
+    "q": "Choose the correct word: 'Mrs Jones is a neighbour of ours / us.'",
+    "a": "ours",
+    "opts": [
+     "ours",
+     "us",
+     "our"
+    ],
+    "src": "book U6TB T59 Grammar Ex13-3 = ours"
+   },
+   {
+    "t": "match",
+    "q": "Rewrite: 'Steve is our friend.' (double genitive)",
+    "a": "Steve is a friend of ours.",
+    "opts": [
+     "Steve is a friend of ours.",
+     "Steve is a friend of us.",
+     "Steve is our friend of ours."
+    ],
+    "src": "book U6TB T59 Grammar Ex14-1 = a friend of ours"
+   },
+   {
+    "t": "match",
+    "q": "Rewrite: 'Mike borrowed my shirt.' (double genitive)",
+    "a": "Mike borrowed a shirt of mine.",
+    "opts": [
+     "Mike borrowed a shirt of mine.",
+     "Mike borrowed a shirt of my.",
+     "Mike borrowed my shirt of mine."
+    ],
+    "src": "book U6TB T59 Grammar Ex14-2 = a shirt of mine"
+   },
+   {
+    "t": "match",
+    "q": "Rewrite: 'I lost my mum’s book.' (double genitive)",
+    "a": "I lost a book of my mum’s.",
+    "opts": [
+     "I lost a book of my mum’s.",
+     "I lost a book of my mum.",
+     "I lost my mum’s book of hers."
+    ],
+    "src": "book U6TB T59 Grammar Ex14-3 = a book of my mum’s"
+   }
+  ]
+ },
+ "p060": {
+  "title": "Magazine article: Life stories – Pen pals for years",
+  "src": "book U6TB T60 Reading Ex1/Ex2 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Paul and Annette met in person for the first time in ___.",
+    "a": "Singapore",
+    "opts": [
+     "Singapore",
+     "Brisbane",
+     "Toulouse"
+    ],
+    "src": "book U6TB T60 Reading Ex1 = Singapore"
+   },
+   {
+    "t": "order",
+    "q": "Put the events in order 1–6 (two things didn’t happen).",
+    "a": "1 f Annette decided to get better at English, 2 c they started writing over the internet, 3 b they stopped correcting the mistakes in their emails, 4 h they got to know each other better, 5 e they decided to meet, 6 a they met in Singapore",
+    "opts": [
+     "f, c, b, h, e, a",
+     "c, f, b, h, e, a",
+     "f, c, h, b, e, a"
+    ],
+    "src": "book U6TB T60 Reading Ex2 = 1 f 2 c 3 b 4 h 5 e 6 a"
+   },
+   {
+    "t": "choice",
+    "q": "Which two things did NOT happen?",
+    "a": "d Paul asked Annette to marry him; g Paul and Annette had an argument",
+    "opts": [
+     "d Paul asked Annette to marry him; g Paul and Annette had an argument",
+     "a they met in Singapore; e they decided to meet",
+     "b they stopped correcting mistakes; c they started writing over the internet"
+    ],
+    "src": "book U6TB T60 Reading Ex2 key lists 6 of 8 events (f,c,b,h,e,a); d and g absent"
+   },
+   {
+    "t": "choice",
+    "q": "Which event happened first?",
+    "a": "f Annette decided she wanted to get better at English",
+    "opts": [
+     "f Annette decided she wanted to get better at English",
+     "c they started writing to each other over the internet",
+     "a they met in Singapore"
+    ],
+    "src": "book U6TB T60 Reading Ex2 = event 1 is f"
+   }
+  ]
+ },
+ "p062": {
+  "title": "Culture: Friends in literature",
+  "src": "book U6TB T62 Culture Ex2/Ex3/Ex4 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Fill gap 1 (book title): Dumas",
+    "a": "The Three Musketeers",
+    "opts": [
+     "The Three Musketeers",
+     "The Jungle Book",
+     "My Brilliant Friend"
+    ],
+    "src": "book U6TB T62 Ex2 = The Three Musketeers"
+   },
+   {
+    "t": "match",
+    "q": "Fill gap 2 (book title): Kipling",
+    "a": "The Jungle Book",
+    "opts": [
+     "The Jungle Book",
+     "The Lord of the Rings",
+     "The Three Musketeers"
+    ],
+    "src": "book U6TB T62 Ex2 = The Jungle Book"
+   },
+   {
+    "t": "match",
+    "q": "Fill gap 3 (book title): Tolkien",
+    "a": "The Lord of the Rings",
+    "opts": [
+     "The Lord of the Rings",
+     "My Brilliant Friend",
+     "The Jungle Book"
+    ],
+    "src": "book U6TB T62 Ex2 = The Lord of the Rings"
+   },
+   {
+    "t": "match",
+    "q": "Fill gap 4 (book title): Ferrante",
+    "a": "My Brilliant Friend",
+    "opts": [
+     "My Brilliant Friend",
+     "The Three Musketeers",
+     "The Lord of the Rings"
+    ],
+    "src": "book U6TB T62 Ex2 = My Brilliant Friend"
+   },
+   {
+    "t": "match",
+    "q": "The Three Musketeers: names of friends and place?",
+    "a": "D’Artagnan, Athos, Aramis, Porthos; France",
+    "opts": [
+     "D’Artagnan, Athos, Aramis, Porthos; France",
+     "Mowgli, Baloo, Bagheera; Indian jungle",
+     "Frodo, Sam; Middle Earth"
+    ],
+    "src": "book U6TB T62 Ex3 = D’Artagnan, Athos, Aramis, Porthos; France"
+   },
+   {
+    "t": "match",
+    "q": "The Jungle Book: names of friends and place?",
+    "a": "Mowgli, Baloo, Bagheera; Indian jungle",
+    "opts": [
+     "Mowgli, Baloo, Bagheera; Indian jungle",
+     "Frodo, Sam; Middle Earth",
+     "Elena, Lila; Naples"
+    ],
+    "src": "book U6TB T62 Ex3 = Mowgli, Baloo, Bagheera; Indian jungle"
+   },
+   {
+    "t": "match",
+    "q": "The Lord of the Rings: names of friends and place?",
+    "a": "Frodo, Sam; Middle Earth",
+    "opts": [
+     "Frodo, Sam; Middle Earth",
+     "Elena, Lila; Naples",
+     "D’Artagnan, Athos, Aramis, Porthos; France"
+    ],
+    "src": "book U6TB T62 Ex3 = Frodo, Sam; (Middle Earth)"
+   },
+   {
+    "t": "match",
+    "q": "My Brilliant Friend: names of friends and place?",
+    "a": "Elena, Lila; Naples",
+    "opts": [
+     "Elena, Lila; Naples",
+     "Frodo, Sam; Middle Earth",
+     "Mowgli, Baloo, Bagheera; Indian jungle"
+    ],
+    "src": "book U6TB T62 Ex3 = Elena, Lila; Naples"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'someone who looks after someone else'",
+    "a": "guardian",
+    "opts": [
+     "guardian",
+     "character",
+     "series"
+    ],
+    "src": "book U6TB T62 Ex4-1 = guardian"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'not safe'",
+    "a": "dangerous",
+    "opts": [
+     "dangerous",
+     "escape",
+     "argument"
+    ],
+    "src": "book U6TB T62 Ex4-2 = dangerous"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'to get away from danger'",
+    "a": "escape",
+    "opts": [
+     "escape",
+     "guardian",
+     "success"
+    ],
+    "src": "book U6TB T62 Ex4-3 = escape"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'something that goes well'",
+    "a": "success",
+    "opts": [
+     "success",
+     "series",
+     "dangerous"
+    ],
+    "src": "book U6TB T62 Ex4-4 = success"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'more than one of something (films, books, etc.)'",
+    "a": "series",
+    "opts": [
+     "series",
+     "characters",
+     "adventures"
+    ],
+    "src": "book U6TB T62 Ex4-5 = series"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'when people don’t agree'",
+    "a": "arguments",
+    "opts": [
+     "arguments",
+     "adventures",
+     "guardian"
+    ],
+    "src": "book U6TB T62 Ex4-6 = arguments"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: 'the people in a book'",
+    "a": "characters",
+    "opts": [
+     "characters",
+     "series",
+     "success"
+    ],
+    "src": "book U6TB T62 Ex4-7 = characters"
+   }
+  ]
+ },
+ "p066": {
+  "title": "Web article: '… just because I didn’t want to take a bath.'",
+  "src": "book U7TB T68 Grammar Ex1/Ex2/Ex4 answers (article on SB p67)",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "To stop trachoma, people ___ take expensive medication.",
+    "a": "don’t have to",
+    "opts": [
+     "don’t have to",
+     "have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex1-1 = don’t have to"
+   },
+   {
+    "t": "match",
+    "q": "They ___ wash their faces with clean water.",
+    "a": "have to",
+    "opts": [
+     "have to",
+     "don’t have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex1-2 = have to"
+   },
+   {
+    "t": "match",
+    "q": "Rule: Use ___ to say 'this is necessary'.",
+    "a": "have to",
+    "opts": [
+     "have to",
+     "don’t have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 RULE-1 = have to"
+   },
+   {
+    "t": "match",
+    "q": "Rule: Use ___ to say 'this isn’t necessary'.",
+    "a": "don’t have to",
+    "opts": [
+     "don’t have to",
+     "have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 RULE-2 = don’t have to"
+   },
+   {
+    "t": "match",
+    "q": "He/she/it ___ help. (positive, have to)",
+    "a": "has to",
+    "opts": [
+     "has to",
+     "have to",
+     "haves to"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 table-1 = has to"
+   },
+   {
+    "t": "match",
+    "q": "He/she/it ___ help. (negative, have to)",
+    "a": "doesn’t have to",
+    "opts": [
+     "doesn’t have to",
+     "don’t have to",
+     "hasn’t to"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 table-2 = doesn’t have to"
+   },
+   {
+    "t": "match",
+    "q": "___ I/you/we/they have to help?",
+    "a": "Do",
+    "opts": [
+     "Do",
+     "Does",
+     "Have"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 table-3 = Do"
+   },
+   {
+    "t": "match",
+    "q": "___ he/she/it have to help?",
+    "a": "Does",
+    "opts": [
+     "Does",
+     "Do",
+     "Has"
+    ],
+    "src": "book U7TB T68 Grammar Ex2 table-4 = Does"
+   },
+   {
+    "t": "match",
+    "q": "Our teacher doesn’t like mobile phones. We ___ switch them off during lessons.",
+    "a": "have to",
+    "opts": [
+     "have to",
+     "don’t have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex4-1 = have to"
+   },
+   {
+    "t": "match",
+    "q": "Ann’s ill. She ___ stay home.",
+    "a": "has to",
+    "opts": [
+     "has to",
+     "have to",
+     "doesn’t have to"
+    ],
+    "src": "book U7TB T68 Grammar Ex4-3 = has to"
+   },
+   {
+    "t": "match",
+    "q": "His English is perfect. He ___ study for exams.",
+    "a": "doesn’t have to",
+    "opts": [
+     "doesn’t have to",
+     "has to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T68 Grammar Ex4-5 = doesn’t have to"
+   }
+  ]
+ },
+ "p069": {
+  "title": "Radio programme: advice for young inventors",
+  "src": "book U7TB T69 Listening Ex9/Ex10 + Grammar Ex12 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Many people think that you have to be older …",
+    "a": "b to become an inventor.",
+    "opts": [
+     "b to become an inventor.",
+     "a to make people’s lives easier.",
+     "d to work on more than one invention at a time."
+    ],
+    "src": "book U7TB T69 Ex9-1 = b"
+   },
+   {
+    "t": "match",
+    "q": "The point is that he invented something …",
+    "a": "a to make people’s lives easier.",
+    "opts": [
+     "a to make people’s lives easier.",
+     "b to become an inventor.",
+     "c get a job first before trying to become an inventor."
+    ],
+    "src": "book U7TB T69 Ex9-2 = a"
+   },
+   {
+    "t": "match",
+    "q": "It’s not a good idea …",
+    "a": "d to work on more than one invention at a time.",
+    "opts": [
+     "d to work on more than one invention at a time.",
+     "a to make people’s lives easier.",
+     "b to become an inventor."
+    ],
+    "src": "book U7TB T69 Ex9-3 = d"
+   },
+   {
+    "t": "match",
+    "q": "After leaving school, you should …",
+    "a": "c get a job first before trying to become an inventor.",
+    "opts": [
+     "c get a job first before trying to become an inventor.",
+     "b to become an inventor.",
+     "d to work on more than one invention at a time."
+    ],
+    "src": "book U7TB T69 Ex9-4 = c"
+   },
+   {
+    "t": "match",
+    "q": "You ___ start with an idea to help other people.",
+    "a": "should",
+    "opts": [
+     "should",
+     "shouldn’t"
+    ],
+    "src": "book U7TB T69 Ex10-1 = should"
+   },
+   {
+    "t": "match",
+    "q": "You ___ think ‘How can I get rich?’",
+    "a": "shouldn’t",
+    "opts": [
+     "shouldn’t",
+     "should"
+    ],
+    "src": "book U7TB T69 Ex10-2 = shouldn’t"
+   },
+   {
+    "t": "match",
+    "q": "You ___ only talk to people that you can trust about your ideas.",
+    "a": "should",
+    "opts": [
+     "should",
+     "shouldn’t"
+    ],
+    "src": "book U7TB T69 Ex10-3 = should"
+   },
+   {
+    "t": "match",
+    "q": "You ___ work on all the ideas at the same time.",
+    "a": "shouldn’t",
+    "opts": [
+     "shouldn’t",
+     "should"
+    ],
+    "src": "book U7TB T69 Ex10-4 = shouldn’t"
+   },
+   {
+    "t": "match",
+    "q": "You ___ get a job and invent things as a hobby.",
+    "a": "should",
+    "opts": [
+     "should",
+     "shouldn’t"
+    ],
+    "src": "book U7TB T69 Ex10-5 = should"
+   },
+   {
+    "t": "match",
+    "q": "You ___ make sure that you’ve got a job.",
+    "a": "should",
+    "opts": [
+     "should",
+     "shouldn’t"
+    ],
+    "src": "book U7TB T69 Ex10-6 = should"
+   },
+   {
+    "t": "match",
+    "q": "I’m really thirsty.",
+    "a": "You should drink some water.",
+    "opts": [
+     "You should drink some water.",
+     "You shouldn’t read your book any more.",
+     "You should go to bed."
+    ],
+    "src": "book U7TB T69 Grammar Ex12-1 = You should drink some water."
+   },
+   {
+    "t": "match",
+    "q": "My eyes are tired.",
+    "a": "You shouldn’t read your book any more.",
+    "opts": [
+     "You shouldn’t read your book any more.",
+     "You should go to bed.",
+     "You shouldn’t eat any more cake."
+    ],
+    "src": "book U7TB T69 Grammar Ex12-2 = You shouldn’t read your book any more."
+   },
+   {
+    "t": "match",
+    "q": "I’m tired.",
+    "a": "You should go to bed.",
+    "opts": [
+     "You should go to bed.",
+     "You should drink some water.",
+     "You shouldn’t eat any more cake."
+    ],
+    "src": "book U7TB T69 Grammar Ex12-3 = You should go to bed."
+   },
+   {
+    "t": "match",
+    "q": "I feel sick.",
+    "a": "You shouldn’t eat any more cake.",
+    "opts": [
+     "You shouldn’t eat any more cake.",
+     "You should drink some water.",
+     "You should go to bed."
+    ],
+    "src": "book U7TB T69 Grammar Ex12-4 = You shouldn’t eat any more cake."
+   }
+  ]
+ },
+ "p070": {
+  "title": "Website: Gadget reviews (year 2066)",
+  "src": "book U7TB T70 Reading Ex3 + Grammar Ex4/Ex7 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "What do you have to do before you can use the Trendy-wise?",
+    "a": "Take a photo of all the clothes in your wardrobe.",
+    "opts": [
+     "Take a photo of all the clothes in your wardrobe.",
+     "Click on a photo of an item of clothing.",
+     "Type in the kind of event or occasion."
+    ],
+    "src": "book U7TB T70 Reading Ex3-1 = take a photo of all the clothes"
+   },
+   {
+    "t": "match",
+    "q": "What mustn’t you forget to do?",
+    "a": "Take photos of all of your shoes and socks.",
+    "opts": [
+     "Take photos of all of your shoes and socks.",
+     "Take a photo of all the clothes in your wardrobe.",
+     "Use the machine every night."
+    ],
+    "src": "book U7TB T70 Reading Ex3-2 = take photos of all your shoes and socks"
+   },
+   {
+    "t": "match",
+    "q": "What other thing do you have to do?",
+    "a": "Click on a photo of an item of clothing.",
+    "opts": [
+     "Click on a photo of an item of clothing.",
+     "Tell it what you want to dream about.",
+     "Put the machine on your head."
+    ],
+    "src": "book U7TB T70 Reading Ex3-3 = click on a photo of an item of clothing"
+   },
+   {
+    "t": "match",
+    "q": "How does the DreamCatcher work?",
+    "a": "You tell it what you want or don’t want to dream about and it makes sure you get the dreams you want.",
+    "opts": [
+     "You tell it what you want or don’t want to dream about and it makes sure you get the dreams you want.",
+     "You take photos of your clothes and it creates an outfit.",
+     "You wear it only every three days."
+    ],
+    "src": "book U7TB T70 Reading Ex3-4"
+   },
+   {
+    "t": "match",
+    "q": "Let’s say you have a dangerous dream. How does the DreamCatcher help you?",
+    "a": "It protects you and keeps you safe.",
+    "opts": [
+     "It protects you and keeps you safe.",
+     "It makes you wake up at once.",
+     "It changes the dream into a comedy."
+    ],
+    "src": "book U7TB T70 Reading Ex3-5 = it protects you and keeps you safe"
+   },
+   {
+    "t": "match",
+    "q": "What mustn’t you do when you use the DreamCatcher?",
+    "a": "Use it every night.",
+    "opts": [
+     "Use it every night.",
+     "Use it every three days.",
+     "Speak into the microphone."
+    ],
+    "src": "book U7TB T70 Reading Ex3-6 = use it every night"
+   },
+   {
+    "t": "match",
+    "q": "You ___ be trendy to use the new Trendy-wise.",
+    "a": "don’t have to",
+    "opts": [
+     "don’t have to",
+     "mustn’t",
+     "have to"
+    ],
+    "src": "book U7TB T70 Grammar Ex4-1 = don’t have to"
+   },
+   {
+    "t": "match",
+    "q": "You ___ forget to take photos of all your shoes and socks, too.",
+    "a": "mustn’t",
+    "opts": [
+     "mustn’t",
+     "don’t have to",
+     "have to"
+    ],
+    "src": "book U7TB T70 Grammar Ex4-2 = mustn’t"
+   },
+   {
+    "t": "match",
+    "q": "The film starts soon. We ___ be late.",
+    "a": "mustn’t",
+    "opts": [
+     "mustn’t",
+     "don’t have to"
+    ],
+    "src": "book U7TB T70 Grammar Ex7-1 = mustn’t"
+   },
+   {
+    "t": "match",
+    "q": "Stop! You ___ drink that!",
+    "a": "mustn’t",
+    "opts": [
+     "mustn’t",
+     "don’t have to"
+    ],
+    "src": "book U7TB T70 Grammar Ex7-2 = mustn’t"
+   },
+   {
+    "t": "match",
+    "q": "I’m sorry I can’t join you. — That’s fine. You ___ come.",
+    "a": "don’t have to",
+    "opts": [
+     "don’t have to",
+     "mustn’t"
+    ],
+    "src": "book U7TB T70 Grammar Ex7-3 = don’t have to"
+   },
+   {
+    "t": "match",
+    "q": "I can’t swim very well. — Then you really ___ swim here. The water’s deep.",
+    "a": "mustn’t",
+    "opts": [
+     "mustn’t",
+     "don’t have to"
+    ],
+    "src": "book U7TB T70 Grammar Ex7-5 = mustn’t"
+   }
+  ]
+ },
+ "p074": {
+  "title": "Magazine article: The world’s greatest sporting achievements",
+  "src": "book U8TB T75–T76 Grammar Ex1/Ex2/Ex3/Ex4 answers (article on SB p75)",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Eight athletes ___ down the track.",
+    "a": "were flying",
+    "opts": [
+     "were flying",
+     "was flying",
+     "flew"
+    ],
+    "src": "book U8TB T76 Grammar Ex1-1 = were flying"
+   },
+   {
+    "t": "match",
+    "q": "The crowd ___.",
+    "a": "was cheering",
+    "opts": [
+     "was cheering",
+     "were cheering",
+     "cheered"
+    ],
+    "src": "book U8TB T76 Grammar Ex1-2 = was cheering"
+   },
+   {
+    "t": "match",
+    "q": "Roger Bannister ___ fast.",
+    "a": "was running",
+    "opts": [
+     "was running",
+     "were running",
+     "ran"
+    ],
+    "src": "book U8TB T76 Grammar Ex1-3 = was running"
+   },
+   {
+    "t": "match",
+    "q": "A minute later, he ___ exhausted on the ground.",
+    "a": "was lying",
+    "opts": [
+     "was lying",
+     "were lying",
+     "lay"
+    ],
+    "src": "book U8TB T76 Grammar Ex1-4 = was lying"
+   },
+   {
+    "t": "match",
+    "q": "RULE: Use the past continuous to talk about ___.",
+    "a": "actions in progress at a certain time in the past",
+    "opts": [
+     "actions in progress at a certain time in the past",
+     "completed actions",
+     "future plans"
+    ],
+    "src": "book U8TB T76 Grammar Ex1 RULE-5 = actions in progress"
+   },
+   {
+    "t": "match",
+    "q": "I/he/she/it ___ working. (positive)",
+    "a": "was",
+    "opts": [
+     "was",
+     "were",
+     "is"
+    ],
+    "src": "book U8TB T76 Grammar Ex2 table-1 = was"
+   },
+   {
+    "t": "match",
+    "q": "I/he/she/it ___ working. (negative)",
+    "a": "wasn’t",
+    "opts": [
+     "wasn’t",
+     "weren’t",
+     "isn’t"
+    ],
+    "src": "book U8TB T76 Grammar Ex2 table-3 = wasn’t"
+   },
+   {
+    "t": "match",
+    "q": "___ I/he/she/it working? (question)",
+    "a": "Was",
+    "opts": [
+     "Was",
+     "Were",
+     "Did"
+    ],
+    "src": "book U8TB T76 Grammar Ex2 table-4 = Was"
+   },
+   {
+    "t": "match",
+    "q": "Yes, you/we/they ___. (short answer)",
+    "a": "were",
+    "opts": [
+     "were",
+     "was",
+     "did"
+    ],
+    "src": "book U8TB T76 Grammar Ex2 table-8 = were"
+   },
+   {
+    "t": "match",
+    "q": "Daniel and Sophie ___ basketball when the teacher got there.",
+    "a": "were playing",
+    "opts": [
+     "were playing",
+     "was playing",
+     "played"
+    ],
+    "src": "book U8TB T76 Grammar Ex3-1 = were playing"
+   },
+   {
+    "t": "match",
+    "q": "Lisa ___ about sports. She ___ about a day on the beach.",
+    "a": "wasn’t thinking; was dreaming",
+    "opts": [
+     "wasn’t thinking; was dreaming",
+     "wasn’t thinking; dreamed",
+     "didn’t think; was dreaming"
+    ],
+    "src": "book U8TB T76 Grammar Ex3-4 = wasn’t thinking, was dreaming"
+   },
+   {
+    "t": "match",
+    "q": "What ___ you ___ yesterday when we phoned you?",
+    "a": "were; doing",
+    "opts": [
+     "were; doing",
+     "was; doing",
+     "did; do"
+    ],
+    "src": "book U8TB T76 Grammar Ex4-1 = were you doing"
+   },
+   {
+    "t": "match",
+    "q": "I ___ my lunch when you phoned.",
+    "a": "was cooking",
+    "opts": [
+     "was cooking",
+     "were cooking",
+     "cooked"
+    ],
+    "src": "book U8TB T76 Grammar Ex4-2 = was cooking"
+   },
+   {
+    "t": "match",
+    "q": "We ___ well and we ___. But then they scored four goals!",
+    "a": "were playing; were winning",
+    "opts": [
+     "were playing; were winning",
+     "played; won",
+     "were playing; won"
+    ],
+    "src": "book U8TB T76 Grammar Ex4-3 = were playing, were winning"
+   }
+  ]
+ },
+ "p077": {
+  "title": "Listening: Teens talking about sport",
+  "src": "book U8TB T77 Listening Ex8/Ex10 answers (audio 8.04)",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "‘I practise a lot.’ — Who expresses this idea?",
+    "a": "Tracey and Paul",
+    "opts": [
+     "Tracey and Paul",
+     "Gemma",
+     "Andy",
+     "Ryan"
+    ],
+    "src": "book U8TB T77 Ex8-1 = Tracey and Paul"
+   },
+   {
+    "t": "match",
+    "q": "‘I am not competitive.’ — Who expresses this idea?",
+    "a": "Gemma",
+    "opts": [
+     "Gemma",
+     "Andy",
+     "Tracey",
+     "Paul"
+    ],
+    "src": "book U8TB T77 Ex8-2 = Gemma"
+   },
+   {
+    "t": "match",
+    "q": "‘I like doing things alone.’ — Who expresses this idea?",
+    "a": "Andy",
+    "opts": [
+     "Andy",
+     "Gemma",
+     "Tracey",
+     "Paul"
+    ],
+    "src": "book U8TB T77 Ex8-3 = Andy"
+   },
+   {
+    "t": "match",
+    "q": "‘I’m learning another sport.’ — Who expresses this idea?",
+    "a": "Ryan",
+    "opts": [
+     "Ryan",
+     "Gemma",
+     "Andy",
+     "Tracey"
+    ],
+    "src": "book U8TB T77 Ex8-4 = Ryan"
+   },
+   {
+    "t": "match",
+    "q": "‘I can’t do my sport at school.’ — Who expresses this idea?",
+    "a": "Paul",
+    "opts": [
+     "Paul",
+     "Gemma",
+     "Andy",
+     "Ryan"
+    ],
+    "src": "book U8TB T77 Ex8-5 = Paul"
+   },
+   {
+    "t": "match",
+    "q": "Which sports does Gemma mention?",
+    "a": "swimming, running, football",
+    "opts": [
+     "swimming, running, football",
+     "running, football",
+     "skateboarding, football",
+     "gymnastics"
+    ],
+    "src": "book U8TB T77 Ex9 = Gemma: swimming, running, football"
+   },
+   {
+    "t": "match",
+    "q": "Which sports does Tracey mention?",
+    "a": "skateboarding, football",
+    "opts": [
+     "skateboarding, football",
+     "swimming, running, football",
+     "gymnastics",
+     "football, tennis, swimming, skiing"
+    ],
+    "src": "book U8TB T77 Ex9 = Tracey: skateboarding, football"
+   },
+   {
+    "t": "match",
+    "q": "Which sport does Paul mention?",
+    "a": "gymnastics",
+    "opts": [
+     "gymnastics",
+     "running, football",
+     "skateboarding, football",
+     "tennis, skiing"
+    ],
+    "src": "book U8TB T77 Ex9 = Paul: gymnastics"
+   },
+   {
+    "t": "match",
+    "q": "Which sports does Ryan mention?",
+    "a": "football, tennis, swimming, skiing",
+    "opts": [
+     "football, tennis, swimming, skiing",
+     "gymnastics",
+     "running, football",
+     "skateboarding, football"
+    ],
+    "src": "book U8TB T77 Ex9 = Ryan: football, tennis, swimming, skiing"
+   },
+   {
+    "t": "match",
+    "q": "Which two sports have players and a team? (Ex6)",
+    "a": "rugby, volleyball",
+    "opts": [
+     "rugby, volleyball",
+     "golf, gymnastics",
+     "sailing, diving",
+     "skiing, snowboarding"
+    ],
+    "src": "book U8TB T77 Ex6-1 = rugby, volleyball"
+   },
+   {
+    "t": "match",
+    "q": "What do we call someone who does gymnastics? (Ex6)",
+    "a": "a gymnast",
+    "opts": [
+     "a gymnast",
+     "a golfer",
+     "a sailor",
+     "a skier"
+    ],
+    "src": "book U8TB T77 Ex6-3 = a gymnast"
+   }
+  ]
+ },
+ "p078": {
+  "title": "Web forum: Sporting fails",
+  "src": "book U8TB T78–T79 Reading Ex2/Ex3 + Grammar Ex7/Ex9/Ex10 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Why did the golfer jump into a lake?",
+    "a": "Because he was happy about winning.",
+    "opts": [
+     "Because he was happy about winning.",
+     "Because he wanted to cool down.",
+     "Because he lost the competition."
+    ],
+    "src": "book U8TB T78 Ex3-1 = Because he was happy about winning"
+   },
+   {
+    "t": "match",
+    "q": "How did the skier cut her hand?",
+    "a": "While she was trying to open a glass bottle.",
+    "opts": [
+     "While she was trying to open a glass bottle.",
+     "While she was celebrating with her team.",
+     "While she was carrying a trophy."
+    ],
+    "src": "book U8TB T78 Ex3-2 = While she was trying to open a glass bottle"
+   },
+   {
+    "t": "match",
+    "q": "After Liam hit the ball, what did it do?",
+    "a": "It hit the post and then hit him in the face.",
+    "opts": [
+     "It hit the post and then hit him in the face.",
+     "It flew out of the stadium.",
+     "It went straight into the net."
+    ],
+    "src": "book U8TB T78 Ex3-3 = It hit the post and then hit him in the face"
+   },
+   {
+    "t": "match",
+    "q": "What was Connor doing when he fell?",
+    "a": "He was leaving the stage.",
+    "opts": [
+     "He was leaving the stage.",
+     "He was running on the track.",
+     "He was taking a photo."
+    ],
+    "src": "book U8TB T78 Ex3-4 = He was leaving the stage"
+   },
+   {
+    "t": "match",
+    "q": "Why can’t Eve skateboard for the next six months?",
+    "a": "Because she broke her leg.",
+    "opts": [
+     "Because she broke her leg.",
+     "Because she lost her skateboard.",
+     "Because she missed the championships."
+    ],
+    "src": "book U8TB T78 Ex3-5 = Because she broke her leg"
+   },
+   {
+    "t": "match",
+    "q": "Which verbs are past continuous in ‘Lindsey Vonn cut her hand badly while she was opening a glass bottle’?",
+    "a": "was opening",
+    "opts": [
+     "was opening",
+     "cut",
+     "opened"
+    ],
+    "src": "book U8TB T79 Ex7 = Past continuous: was opening"
+   },
+   {
+    "t": "match",
+    "q": "RULE: Use the ___ to talk about background actions in the past.",
+    "a": "past continuous",
+    "opts": [
+     "past continuous",
+     "past simple",
+     "present continuous"
+    ],
+    "src": "book U8TB T79 Ex8 RULE-1 = past continuous"
+   },
+   {
+    "t": "match",
+    "q": "RULE: We often use ___ before the past simple.",
+    "a": "when",
+    "opts": [
+     "when",
+     "while",
+     "then"
+    ],
+    "src": "book U8TB T79 Ex10-1 = simple (when)"
+   },
+   {
+    "t": "match",
+    "q": "The ball ___ me while I ___ a bird.",
+    "a": "hit; was watching",
+    "opts": [
+     "hit; was watching",
+     "was hitting; watched",
+     "hit; watched"
+    ],
+    "src": "book U8TB T79 Ex9-1 = hit, was watching"
+   },
+   {
+    "t": "match",
+    "q": "Jenny ___ with her father when she ___ some dolphins.",
+    "a": "was sailing; saw",
+    "opts": [
+     "was sailing; saw",
+     "sailed; was seeing",
+     "was sailing; was seeing"
+    ],
+    "src": "book U8TB T79 Ex9-2 = was sailing, saw"
+   },
+   {
+    "t": "match",
+    "q": "When I ___ out of the window, it ___.",
+    "a": "looked; was snowing",
+    "opts": [
+     "looked; was snowing",
+     "was looking; snowed",
+     "was looking; was snowing"
+    ],
+    "src": "book U8TB T79 Ex9-4 = looked, was snowing"
+   },
+   {
+    "t": "match",
+    "q": "___, I was very nervous. ___ the starter fired the gun.",
+    "a": "At first; Then",
+    "opts": [
+     "At first; Then",
+     "Finally; After",
+     "After; Finally"
+    ],
+    "src": "book U8TB T79 Ex14-1/2 = At first, Then"
+   }
+  ]
+ },
+ "p080": {
+  "title": "Culture: The wonderful world of sport",
+  "src": "book U8TB T80–T81 Culture Ex2/Ex4/Ex5 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Picture A shows ___.",
+    "a": "a net",
+    "opts": [
+     "a net",
+     "a chess board",
+     "people climbing",
+     "camels"
+    ],
+    "src": "book U8TB T80 Ex1 = A: a net"
+   },
+   {
+    "t": "match",
+    "q": "Picture B shows ___.",
+    "a": "a chess board",
+    "opts": [
+     "a chess board",
+     "a net",
+     "people climbing",
+     "camels"
+    ],
+    "src": "book U8TB T80 Ex1 = B: a chess board"
+   },
+   {
+    "t": "match",
+    "q": "Picture C matches which sport?",
+    "a": "the Cheung Chau bun festival",
+    "opts": [
+     "the Cheung Chau bun festival",
+     "camel racing",
+     "bossaball",
+     "chess boxing"
+    ],
+    "src": "book U8TB T80 Ex2 = C 1"
+   },
+   {
+    "t": "match",
+    "q": "Picture D matches which sport?",
+    "a": "camel racing",
+    "opts": [
+     "camel racing",
+     "bossaball",
+     "chess boxing",
+     "the Cheung Chau bun festival"
+    ],
+    "src": "book U8TB T80 Ex2 = D 2"
+   },
+   {
+    "t": "match",
+    "q": "Why do thousands of people go to a Chinese island every year?",
+    "a": "To celebrate the Cheung Chau bun festival.",
+    "opts": [
+     "To celebrate the Cheung Chau bun festival.",
+     "To watch camel racing.",
+     "To learn chess boxing."
+    ],
+    "src": "book U8TB T81 Ex4-1 = To celebrate the Cheung Chau bun festival"
+   },
+   {
+    "t": "match",
+    "q": "Why do people climb the metal mountain?",
+    "a": "To see how many buns they can take from the mountain.",
+    "opts": [
+     "To see how many buns they can take from the mountain.",
+     "To put flags on the top.",
+     "To train for bossaball."
+    ],
+    "src": "book U8TB T81 Ex4-2 = To see how many buns they can take"
+   },
+   {
+    "t": "match",
+    "q": "Why do camel owners drive beside the camels and shout?",
+    "a": "To make them run faster.",
+    "opts": [
+     "To make them run faster.",
+     "To count the camels.",
+     "To give them water."
+    ],
+    "src": "book U8TB T81 Ex4-3 = To make them run faster"
+   },
+   {
+    "t": "match",
+    "q": "Why did Filip Eyckmans create bossaball?",
+    "a": "He wanted to create a sport that mixed football, gymnastics, volleyball and bossa nova music.",
+    "opts": [
+     "He wanted to create a sport that mixed football, gymnastics, volleyball and bossa nova music.",
+     "He wanted to make a new Olympic race.",
+     "He wanted to teach children to swim."
+    ],
+    "src": "book U8TB T81 Ex4-4 = wanted to create a sport that mixed…"
+   },
+   {
+    "t": "match",
+    "q": "Why is bossaball exciting to watch?",
+    "a": "Because the players jump very high in the air.",
+    "opts": [
+     "Because the players jump very high in the air.",
+     "Because the camels run very fast.",
+     "Because there are no rules."
+    ],
+    "src": "book U8TB T81 Ex4-5 = Because the players jump very high"
+   },
+   {
+    "t": "match",
+    "q": "Why do people playing chess boxing stop for one minute?",
+    "a": "To give the players time to put on or take off their gloves.",
+    "opts": [
+     "To give the players time to put on or take off their gloves.",
+     "To listen to music.",
+     "To drink water."
+    ],
+    "src": "book U8TB T81 Ex4-6 = To give the players time to put on or take off their gloves"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: the people who try to win a race / game / quiz = ___",
+    "a": "contestants",
+    "opts": [
+     "contestants",
+     "spectators",
+     "buns"
+    ],
+    "src": "book U8TB T81 Ex5-1 = contestants"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: a short time between two things = ___",
+    "a": "break",
+    "opts": [
+     "break",
+     "race",
+     "cross"
+    ],
+    "src": "book U8TB T81 Ex5-2 = break"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: a small, sweet cake (usually round) = ___",
+    "a": "bun",
+    "opts": [
+     "bun",
+     "net",
+     "track"
+    ],
+    "src": "book U8TB T81 Ex5-7 = bun"
+   }
+  ]
+ },
+ "p084": {
+  "title": "Magazine article: The wild side of life",
+  "src": "book U9TB T84/T85 Ex5/Ex7 answers (article on SB p85)",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "More than half the people in the world live in cities.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-1 = T"
+   },
+   {
+    "t": "tf",
+    "q": "When it rains in the Kalahari, the grass and the bushes turn from brown to green.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-2 = T"
+   },
+   {
+    "t": "tf",
+    "q": "The Chimbu skeleton dancers are the only tribe living near Mt Wilhelm.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-3 = F"
+   },
+   {
+    "t": "match",
+    "q": "Correction: The Chimbu skeleton dancers are ___ living near Mt Wilhelm.",
+    "a": "one of several tribes",
+    "opts": [
+     "one of several tribes",
+     "the only tribe",
+     "the largest tribe"
+    ],
+    "src": "book U9TB T84 Ex5-3 correction = one of several tribes"
+   },
+   {
+    "t": "tf",
+    "q": "They paint skeletons on their bodies to scare away wild animals.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-4 = F"
+   },
+   {
+    "t": "match",
+    "q": "Correction: They paint skeletons on their bodies to scare away ___.",
+    "a": "other people",
+    "opts": [
+     "other people",
+     "wild animals",
+     "the Nenets"
+    ],
+    "src": "book U9TB T84 Ex5-4 correction = other people"
+   },
+   {
+    "t": "tf",
+    "q": "The Nenets always go where the reindeer are.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-5 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Young Kazakhs have to be strong to become golden eagle hunters.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U9TB T84 Ex5-6 = T"
+   },
+   {
+    "t": "match",
+    "q": "Which four parts of the world is the article about?",
+    "a": "southern Africa, Papua New Guinea, northern Siberia, Mongolia",
+    "opts": [
+     "southern Africa, Papua New Guinea, northern Siberia, Mongolia",
+     "the Kalahari, Mt Wilhelm, France, Italy",
+     "South Dakota, Italy, Iceland, Mongolia"
+    ],
+    "src": "book U9TB T84 Ex5 teaching note = southern Africa / Papua New Guinea / northern Siberia / Mongolia"
+   },
+   {
+    "t": "match",
+    "q": "Which statements show concern for the natural world? (T85 Ex7)",
+    "a": "Statements 3 and 5",
+    "opts": [
+     "Statements 3 and 5",
+     "Statements 1 and 2",
+     "Statements 2 and 4"
+    ],
+    "src": "book U9TB T85 Ex7 = Statements 3 and 5"
+   }
+  ]
+ },
+ "p087": {
+  "title": "Interview with a Kalahari bushman",
+  "src": "book U9TB T87 Listening Ex7/Ex8 + Grammar Ex9–Ex11 + WordWise Ex12/Ex13 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which title best summarises the interview?",
+    "a": "3 A young man’s difficult task",
+    "opts": [
+     "3 A young man’s difficult task",
+     "1 Life in the Kalahari",
+     "2 Lions, vultures and antelopes",
+     "4 Big cats can’t run fast"
+    ],
+    "src": "book U9TB T87 Ex7 = 3"
+   },
+   {
+    "t": "match",
+    "q": "Where was PK born?",
+    "a": "A in the Kalahari",
+    "opts": [
+     "A in the Kalahari",
+     "B in the Sahara",
+     "C in Kenya"
+    ],
+    "src": "book U9TB T87 Ex8-1 = A"
+   },
+   {
+    "t": "match",
+    "q": "Before a young man can get married, he has to ___.",
+    "a": "A do a task",
+    "opts": [
+     "A do a task",
+     "B find a lion",
+     "C kill an antelope"
+    ],
+    "src": "book U9TB T87 Ex8-2 = A"
+   },
+   {
+    "t": "match",
+    "q": "It’s important for the future family that the young man ___.",
+    "a": "C has courage",
+    "opts": [
+     "C has courage",
+     "A kills many lions",
+     "B likes the girl’s father"
+    ],
+    "src": "book U9TB T87 Ex8-3 = C"
+   },
+   {
+    "t": "match",
+    "q": "What can show the bushman where the lion is eating?",
+    "a": "B vultures",
+    "opts": [
+     "B vultures",
+     "A antelopes",
+     "C his future family"
+    ],
+    "src": "book U9TB T87 Ex8-4 = B"
+   },
+   {
+    "t": "match",
+    "q": "To take the kill away from the lion, you have to ___.",
+    "a": "C be very quiet and surprise the lion",
+    "opts": [
+     "C be very quiet and surprise the lion",
+     "A run faster than the lion can",
+     "B attack the lion with your spear"
+    ],
+    "src": "book U9TB T87 Ex8-5 = C"
+   },
+   {
+    "t": "match",
+    "q": "How ___ you find a lion and its kill?",
+    "a": "can",
+    "opts": [
+     "can",
+     "can’t",
+     "are"
+    ],
+    "src": "book U9TB T87 Grammar Ex9-1 = can"
+   },
+   {
+    "t": "match",
+    "q": "You ___ get the kill from the lion at night.",
+    "a": "can’t",
+    "opts": [
+     "can’t",
+     "can",
+     "aren’t"
+    ],
+    "src": "book U9TB T87 Grammar Ex9-2 = can’t"
+   },
+   {
+    "t": "match",
+    "q": "Negative form: I/you/we/they/he/she/it ___ (cannot) run fast.",
+    "a": "can’t",
+    "opts": [
+     "can’t",
+     "can",
+     "cannot’t"
+    ],
+    "src": "book U9TB T87 Grammar Ex10-1 = can’t"
+   },
+   {
+    "t": "match",
+    "q": "Question form: ___ I/you/we/they/he/she/it run fast?",
+    "a": "Can",
+    "opts": [
+     "Can",
+     "Do",
+     "Are"
+    ],
+    "src": "book U9TB T87 Grammar Ex10-2 = Can"
+   },
+   {
+    "t": "match",
+    "q": "Matt + drive a car / – fly a plane",
+    "a": "Matt can drive a car, but he can’t fly a plane.",
+    "opts": [
+     "Matt can drive a car, but he can’t fly a plane.",
+     "Matt can’t drive a car, but he can fly a plane.",
+     "Matt can drive a car and fly a plane."
+    ],
+    "src": "book U9TB T87 Grammar Ex11-1"
+   },
+   {
+    "t": "match",
+    "q": "They are very good ___. (WordWise Ex12-1)",
+    "a": "b with bows and arrows.",
+    "opts": [
+     "b with bows and arrows.",
+     "a with the reindeer.",
+     "c with many mountains."
+    ],
+    "src": "book U9TB T87 WordWise Ex12-1 = b"
+   },
+   {
+    "t": "match",
+    "q": "The Nenets now have more contact ___. (WordWise Ex12-3)",
+    "a": "d with the outside world.",
+    "opts": [
+     "d with the outside world.",
+     "a with the reindeer.",
+     "b with bows and arrows."
+    ],
+    "src": "book U9TB T87 WordWise Ex12-3 = d"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: friend / with / came / My / best / me",
+    "a": "My best friend came with me.",
+    "opts": [
+     "My best friend came with me.",
+     "My friend came best with me.",
+     "Best my friend came with me."
+    ],
+    "src": "book U9TB T87 WordWise Ex13-1"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: not / I’m / very / computers / with / good",
+    "a": "I’m not very good with computers.",
+    "opts": [
+     "I’m not very good with computers.",
+     "I’m very not good with computers.",
+     "I’m not very good computers with."
+    ],
+    "src": "book U9TB T87 WordWise Ex13-2"
+   }
+  ]
+ },
+ "p088": {
+  "title": "Web blog: Extreme nature!",
+  "src": "book U9TB T88 Reading Ex1/Ex2 + Grammar Ex6 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Where was the biggest snowfall ever in one day? How much snow fell?",
+    "a": "Capracotta, Italy. 256 cm",
+    "opts": [
+     "Capracotta, Italy. 256 cm",
+     "Spearfish, US. 27°C",
+     "Reykjavik, Iceland. 21 hours"
+    ],
+    "src": "book U9TB T88 Ex1 = Capracotta, Italy. 256 cm"
+   },
+   {
+    "t": "match",
+    "q": "How quickly did the temperature change from 12°C to -4°C in Spearfish?",
+    "a": "Just under 30 minutes.",
+    "opts": [
+     "Just under 30 minutes.",
+     "In 120 seconds.",
+     "In 18 hours."
+    ],
+    "src": "book U9TB T88 Ex2-1 = Just under 30 minutes"
+   },
+   {
+    "t": "match",
+    "q": "What happened in Capracotta on 5 March 2015?",
+    "a": "The biggest snowfall ever in a single day occurred.",
+    "opts": [
+     "The biggest snowfall ever in a single day occurred.",
+     "The temperature rose by 27°C in two minutes.",
+     "The Northern Lights appeared."
+    ],
+    "src": "book U9TB T88 Ex2-2"
+   },
+   {
+    "t": "match",
+    "q": "What makes the long winter nights in Reykjavik better?",
+    "a": "People can see the Northern Lights.",
+    "opts": [
+     "People can see the Northern Lights.",
+     "The sun hardly ever goes down.",
+     "There is 256 cm of snow."
+    ],
+    "src": "book U9TB T88 Ex2-3"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: temperature change / the / of / was / the / American weather / It / in / most dramatic / history",
+    "a": "It was the most dramatic temperature change in the history of American weather.",
+    "opts": [
+     "It was the most dramatic temperature change in the history of American weather.",
+     "It was the most dramatic American weather change in the temperature history.",
+     "It was the temperature change most dramatic in American weather history."
+    ],
+    "src": "book U9TB T88 Grammar Ex6-1"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: day / snowfall / the biggest / was / ever / It / a / in",
+    "a": "It was the biggest snowfall ever in a day.",
+    "opts": [
+     "It was the biggest snowfall ever in a day.",
+     "It was the biggest ever day snowfall in a.",
+     "It was a biggest snowfall ever in the day."
+    ],
+    "src": "book U9TB T88 Grammar Ex6-2"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: is / day of the year / 21 June / longest / the / in / hemisphere / the / northern",
+    "a": "21st June is the longest day of the year in the northern hemisphere.",
+    "opts": [
+     "21st June is the longest day of the year in the northern hemisphere.",
+     "21 June is the longest year day of the northern hemisphere.",
+     "The longest day of 21 June is the year in northern hemisphere."
+    ],
+    "src": "book U9TB T88 Grammar Ex6-3"
+   },
+   {
+    "t": "match",
+    "q": "Put in order: worst / be / Reykjavik / to / However / be / also / the / could / place",
+    "a": "However, Reykjavik could also be the worst place to be.",
+    "opts": [
+     "However, Reykjavik could also be the worst place to be.",
+     "However, the worst place could also be Reykjavik to be.",
+     "However, Reykjavik could be also the worst place to be."
+    ],
+    "src": "book U9TB T88 Grammar Ex6-4"
+   },
+   {
+    "t": "match",
+    "q": "What was the temperature in Spearfish at 7.30 am on 22 January 1943?",
+    "a": "-20°C",
+    "opts": [
+     "-20°C",
+     "7°C",
+     "12°C",
+     "-4°C"
+    ],
+    "src": "book U9TB T88 SB p88 blog text (Ex1/Ex2 answer context)"
+   },
+   {
+    "t": "match",
+    "q": "How many hours and minutes of daylight does Reykjavik get on 21 June?",
+    "a": "21 hours and 45 minutes",
+    "opts": [
+     "21 hours and 45 minutes",
+     "4 hours and 7 minutes",
+     "18 hours",
+     "120 minutes"
+    ],
+    "src": "book U9TB T88 SB p88 blog text (Ex1/Ex2 answer context)"
+   }
+  ]
+ },
+ "p092": {
+  "title": "Emails: Experiences in foreign countries",
+  "src": "book U10TB T92/T93 Reading Ex5/Ex6 + T94 Grammar Ex1/Ex2/Ex3 + Vocabulary Ex6 answers",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Ryan had problems with his flight.",
+    "a": "C",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-1 = C"
+   },
+   {
+    "t": "tf",
+    "q": "Ryan is in a band and they are going to play in a famous concert hall.",
+    "a": "A",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-2 = A"
+   },
+   {
+    "t": "tf",
+    "q": "Ryan’s band is the only one from Europe.",
+    "a": "C",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-3 = C"
+   },
+   {
+    "t": "tf",
+    "q": "Bettina and her team lost the match against the under-15 Beijing champions.",
+    "a": "A",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-4 = A"
+   },
+   {
+    "t": "tf",
+    "q": "Bettina would like to see the Great Wall, but she can’t because she has to go back to Beijing.",
+    "a": "B",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-5 = B"
+   },
+   {
+    "t": "tf",
+    "q": "She cannot play volleyball for six weeks.",
+    "a": "C",
+    "opts": [
+     "A",
+     "B",
+     "C"
+    ],
+    "src": "book U10TB T93 Ex6-6 = C"
+   },
+   {
+    "t": "match",
+    "q": "Where are the writers writing from? (Ex5)",
+    "a": "Ryan: from New York, Bettina: from Beijing",
+    "opts": [
+     "Ryan: from New York, Bettina: from Beijing",
+     "Ryan: from Beijing, Bettina: from New York",
+     "Both from New York"
+    ],
+    "src": "book U10TB T93 Ex5-1"
+   },
+   {
+    "t": "match",
+    "q": "Today, we ___ going to explore Central Park.",
+    "a": "’re",
+    "opts": [
+     "’re",
+     "is",
+     "am"
+    ],
+    "src": "book U10TB T94 Grammar Ex1-1 = ’re"
+   },
+   {
+    "t": "match",
+    "q": "His wife ___ going to record the performance.",
+    "a": "is",
+    "opts": [
+     "is",
+     "are",
+     "am"
+    ],
+    "src": "book U10TB T94 Grammar Ex1-2 = is"
+   },
+   {
+    "t": "match",
+    "q": "RULE: We use be going to to talk about our intentions for the ___.",
+    "a": "future",
+    "opts": [
+     "future",
+     "present",
+     "past"
+    ],
+    "src": "book U10TB T94 Grammar Ex1 RULE-5 = future"
+   },
+   {
+    "t": "match",
+    "q": "My parents ___ out more often.",
+    "a": "are going to eat",
+    "opts": [
+     "are going to eat",
+     "is going to eat",
+     "are not going to eat"
+    ],
+    "src": "book U10TB T94 Grammar Ex3-1 = are going to eat"
+   },
+   {
+    "t": "match",
+    "q": "I ___ the dog for a walk every day.",
+    "a": "’m going to take",
+    "opts": [
+     "’m going to take",
+     "’m not going to take",
+     "aren’t going to take"
+    ],
+    "src": "book U10TB T94 Grammar Ex3-3 = ’m going to take"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: You go here to buy clothes. (Ex6 clue)",
+    "a": "shopping mall",
+    "opts": [
+     "shopping mall",
+     "concert hall",
+     "police station",
+     "car park"
+    ],
+    "src": "book U10TB T94 Vocabulary Ex6 picture clue = shopping mall"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: Which place is for a football match?",
+    "a": "football stadium",
+    "opts": [
+     "football stadium",
+     "bus station",
+     "post office",
+     "sports centre"
+    ],
+    "src": "book U10TB T94 Vocabulary Ex6 list = football stadium"
+   }
+  ]
+ },
+ "p095": {
+  "title": "Listening: Teens making plans",
+  "src": "book U10TB T95 Listening Ex9 + Grammar Ex10–Ex13 + Functions Ex14/Ex15 answers",
+  "quiz": [
+   {
+    "t": "tf",
+    "q": "Connor has an important football match on Saturday.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-1 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Connor is celebrating his birthday at an American restaurant.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-2 = F (brother’s birthday)"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Connor is celebrating ___ birthday at an American restaurant.",
+    "a": "his brother’s",
+    "opts": [
+     "his brother’s",
+     "his own",
+     "Olivia’s"
+    ],
+    "src": "book U10TB T95 Ex9-2 correction = brother’s birthday"
+   },
+   {
+    "t": "tf",
+    "q": "Olivia is not a fan of superhero films.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-3 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Connor invites Olivia to the museum.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-4 = F"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Connor doesn’t invite Olivia to the museum because ___.",
+    "a": "they haven’t got room in the car.",
+    "opts": [
+     "they haven’t got room in the car.",
+     "Olivia doesn’t like museums.",
+     "the museum is closed."
+    ],
+    "src": "book U10TB T95 Ex9-4 correction = no room in the car"
+   },
+   {
+    "t": "tf",
+    "q": "Connor has about an hour between getting back from the museum and his piano lesson.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-5 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Connor isn’t very busy the following weekend.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T95 Ex9-6 = T"
+   },
+   {
+    "t": "match",
+    "q": "What are you ___ this weekend?",
+    "a": "doing",
+    "opts": [
+     "doing",
+     "do",
+     "does"
+    ],
+    "src": "book U10TB T95 Grammar Ex10-1 = are you doing"
+   },
+   {
+    "t": "match",
+    "q": "Dad’s ___ me to the sports centre.",
+    "a": "taking",
+    "opts": [
+     "taking",
+     "takes",
+     "take"
+    ],
+    "src": "book U10TB T95 Grammar Ex10-2 = ’s taking"
+   },
+   {
+    "t": "match",
+    "q": "RULE: We can use the ___ continuous to talk about arrangements for the future.",
+    "a": "present",
+    "opts": [
+     "present",
+     "past",
+     "future"
+    ],
+    "src": "book U10TB T95 Grammar Ex11 = present"
+   },
+   {
+    "t": "match",
+    "q": "Oliver ___ to my house this afternoon.",
+    "a": "isn’t coming",
+    "opts": [
+     "isn’t coming",
+     "is coming",
+     "doesn’t come"
+    ],
+    "src": "book U10TB T95 Grammar Ex12-1 = isn’t coming"
+   },
+   {
+    "t": "match",
+    "q": "___ your class ___ on a trip next week?",
+    "a": "Is; going",
+    "opts": [
+     "Is; going",
+     "Does; go",
+     "Are; going"
+    ],
+    "src": "book U10TB T95 Grammar Ex12-4 = Is … going"
+   },
+   {
+    "t": "match",
+    "q": "Would you like to come with us?",
+    "a": "I’d love to.",
+    "opts": [
+     "I’d love to.",
+     "I’m sorry, I can’t.",
+     "Do you want to study together?"
+    ],
+    "src": "book U10TB T95 Functions Ex14-2 = I’d love to."
+   },
+   {
+    "t": "match",
+    "q": "Which sentences are accepting an invitation?",
+    "a": "2 and 5",
+    "opts": [
+     "2 and 5",
+     "4 and 5",
+     "1 and 3"
+    ],
+    "src": "book U10TB T95 Functions Ex14 = 2 and 5 accepting"
+   }
+  ]
+ },
+ "p096": {
+  "title": "Letters to a local government website: How can we improve our town?",
+  "src": "book U10TB T96 Reading Ex2/Ex3 + T97 Adverbs Ex7/Ex8/Ex9 + Vocabulary Ex10/Ex11 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Why are these young people writing on the forum?",
+    "a": "They’re writing ideas on how to improve their town’s facilities.",
+    "opts": [
+     "They’re writing ideas on how to improve their town’s facilities.",
+     "They’re complaining about school.",
+     "They’re looking for jobs."
+    ],
+    "src": "book U10TB T96 Ex3-1"
+   },
+   {
+    "t": "match",
+    "q": "What does Daisy think young people need in the town?",
+    "a": "More things to do and more places to go, especially at night.",
+    "opts": [
+     "More things to do and more places to go, especially at night.",
+     "More cycle lanes.",
+     "More litter bins."
+    ],
+    "src": "book U10TB T96 Ex3-2"
+   },
+   {
+    "t": "match",
+    "q": "What does Liz think is missing?",
+    "a": "More cycle lanes.",
+    "opts": [
+     "More cycle lanes.",
+     "A youth club.",
+     "An arts centre."
+    ],
+    "src": "book U10TB T96 Ex3-3"
+   },
+   {
+    "t": "match",
+    "q": "Why are there so many empty buildings on the high street?",
+    "a": "Because everyone shops at the new shopping centre outside of town or online.",
+    "opts": [
+     "Because everyone shops at the new shopping centre outside of town or online.",
+     "Because the buildings are too old.",
+     "Because there are too many tourists."
+    ],
+    "src": "book U10TB T96 Ex3-4"
+   },
+   {
+    "t": "match",
+    "q": "What does Jack think is a big problem in the town?",
+    "a": "Litter.",
+    "opts": [
+     "Litter.",
+     "Traffic.",
+     "Noise."
+    ],
+    "src": "book U10TB T96 Ex3-5"
+   },
+   {
+    "t": "match",
+    "q": "Adverbs: We need somewhere to play ___ and hang out safely.",
+    "a": "happily",
+    "opts": [
+     "happily",
+     "happy",
+     "happiness"
+    ],
+    "src": "book U10TB T97 Grammar Ex7-1 = happily"
+   },
+   {
+    "t": "match",
+    "q": "RULE: To form adverbs from happy, delete the ‒y and add ___.",
+    "a": "-ily",
+    "opts": [
+     "-ily",
+     "-ly",
+     "-y"
+    ],
+    "src": "book U10TB T97 Grammar Ex8 RULE-2 = -ily"
+   },
+   {
+    "t": "match",
+    "q": "It’s not easy. You need to do it very ___.",
+    "a": "carefully",
+    "opts": [
+     "carefully",
+     "careful",
+     "care"
+    ],
+    "src": "book U10TB T97 Grammar Ex9-1 = carefully"
+   },
+   {
+    "t": "match",
+    "q": "We need to walk ___. I don’t want to be late.",
+    "a": "quickly",
+    "opts": [
+     "quickly",
+     "quick",
+     "quicker"
+    ],
+    "src": "book U10TB T97 Grammar Ex9-2 = quickly"
+   },
+   {
+    "t": "match",
+    "q": "He drives really ___.",
+    "a": "dangerously",
+    "opts": [
+     "dangerously",
+     "dangerous",
+     "danger"
+    ],
+    "src": "book U10TB T97 Grammar Ex9-4 = dangerously"
+   },
+   {
+    "t": "match",
+    "q": "Compound noun: you throw rubbish into a ___.",
+    "a": "litter bin",
+    "opts": [
+     "litter bin",
+     "zebra crossing",
+     "youth club"
+    ],
+    "src": "book U10TB T97 Vocabulary Ex10/Ex11 = litter bin"
+   },
+   {
+    "t": "match",
+    "q": "Compound noun: pedestrians cross the road at a ___.",
+    "a": "zebra crossing",
+    "opts": [
+     "zebra crossing",
+     "cycle lane",
+     "speed camera",
+     "billboard"
+    ],
+    "src": "book U10TB T97 Vocabulary Ex10/Ex11 = zebra crossing"
+   },
+   {
+    "t": "match",
+    "q": "Compound noun: teenagers meet at a ___.",
+    "a": "youth club",
+    "opts": [
+     "youth club",
+     "high street",
+     "graffiti wall"
+    ],
+    "src": "book U10TB T97 Vocabulary Ex10/Ex11 = youth club"
+   },
+   {
+    "t": "match",
+    "q": "Compound noun: cars should slow down before a ___.",
+    "a": "speed camera",
+    "opts": [
+     "speed camera",
+     "cycle lane",
+     "litter bin",
+     "youth club"
+    ],
+    "src": "book U10TB T97 Vocabulary Ex11-0 = speed camera"
+   }
+  ]
+ },
+ "p098": {
+  "title": "Culture: Mythical places around the world",
+  "src": "book U10TB T98 Culture Ex2/Ex3 + T99 Vocabulary Ex4 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Where is Atlantis thought to be?",
+    "a": "In the Atlantic Ocean, the Mediterranean Sea or the Caribbean Sea.",
+    "opts": [
+     "In the Atlantic Ocean, the Mediterranean Sea or the Caribbean Sea.",
+     "In Antarctica.",
+     "In South America."
+    ],
+    "src": "book U10TB T98 Ex2 = Atlantis"
+   },
+   {
+    "t": "match",
+    "q": "Where is Agartha thought to be?",
+    "a": "In Antarctica.",
+    "opts": [
+     "In Antarctica.",
+     "In South America.",
+     "Between Norway and Iceland."
+    ],
+    "src": "book U10TB T98 Ex2 = Agartha (Antarctica)"
+   },
+   {
+    "t": "match",
+    "q": "Where is El Dorado thought to be?",
+    "a": "In South America.",
+    "opts": [
+     "In South America.",
+     "In Antarctica.",
+     "In the Caribbean."
+    ],
+    "src": "book U10TB T98 Ex2 = El Dorado (South America)"
+   },
+   {
+    "t": "match",
+    "q": "Where is Thule thought to be?",
+    "a": "Between Norway and Iceland.",
+    "opts": [
+     "Between Norway and Iceland.",
+     "In South America.",
+     "In the Atlantic Ocean."
+    ],
+    "src": "book U10TB T98 Ex2 = Thule"
+   },
+   {
+    "t": "tf",
+    "q": "Many people have heard about Atlantis, but it is not very clear where and what it is.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-1 = T"
+   },
+   {
+    "t": "tf",
+    "q": "The legend says that the people of Atlantis were famous for their culture and education.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-2 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Jules Verne knew where to find Agartha.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-3 = F"
+   },
+   {
+    "t": "tf",
+    "q": "People believed that El Dorado was made of gold.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-4 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Plato was the first person to write about the island of Thule.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-5 = F"
+   },
+   {
+    "t": "tf",
+    "q": "There is a story that Thule is a dark place, but a lot of great food grows there.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U10TB T98 Ex3-6 = T"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: a large group of people who live together in an organised way = ___",
+    "a": "society",
+    "opts": [
+     "society",
+     "ruler",
+     "legend"
+    ],
+    "src": "book U10TB T99 Ex4-1 = society"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: leader of a country or kingdom = ___",
+    "a": "ruler",
+    "opts": [
+     "ruler",
+     "society",
+     "remote"
+    ],
+    "src": "book U10TB T99 Ex4-2 = ruler"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: far away from people and places = ___",
+    "a": "remote",
+    "opts": [
+     "remote",
+     "dark",
+     "mythical"
+    ],
+    "src": "book U10TB T99 Ex4-3 = remote"
+   },
+   {
+    "t": "match",
+    "q": "Vocabulary: without light = ___",
+    "a": "dark",
+    "opts": [
+     "dark",
+     "legend",
+     "ruler"
+    ],
+    "src": "book U10TB T99 Ex4-4 = dark"
+   }
+  ]
+ },
+ "p102": {
+  "title": "Magazine article: Changing bodies",
+  "src": "book U11TB T102 Ex4/Ex6 + T103 Grammar Ex1–Ex3 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "What will the article be about? (Ex4)",
+    "a": "What the human body will be like in the future.",
+    "opts": [
+     "What the human body will be like in the future.",
+     "What we want to look like in the future.",
+     "How we can change our bodies if we want."
+    ],
+    "src": "book U11TB T102 Ex4 = what the human body will be like in the future"
+   },
+   {
+    "t": "match",
+    "q": "Why will our bodies change in the future? (Ex6-1)",
+    "a": "Our bodies will adapt to a new way of life.",
+    "opts": [
+     "Our bodies will adapt to a new way of life.",
+     "We will use more technology at school.",
+     "We will do more physical work."
+    ],
+    "src": "book U11TB T102 Ex6-1"
+   },
+   {
+    "t": "match",
+    "q": "Why will people be taller? (Ex6-2)",
+    "a": "We’ll have better food.",
+    "opts": [
+     "We’ll have better food.",
+     "We’ll sleep longer.",
+     "We’ll do more exercise."
+    ],
+    "src": "book U11TB T102 Ex6-2"
+   },
+   {
+    "t": "match",
+    "q": "Why will people get weaker? (Ex6-3)",
+    "a": "We won’t do a lot of physical work.",
+    "opts": [
+     "We won’t do a lot of physical work.",
+     "We won’t eat enough fruit.",
+     "We won’t use our hands."
+    ],
+    "src": "book U11TB T102 Ex6-3"
+   },
+   {
+    "t": "match",
+    "q": "What will happen to eyes and fingers? (Ex6-4)",
+    "a": "Our eyes will get better and our fingers will get longer.",
+    "opts": [
+     "Our eyes will get better and our fingers will get longer.",
+     "Our eyes will get smaller and our fingers will get shorter.",
+     "Our eyes will get longer and our fingers will get better."
+    ],
+    "src": "book U11TB T102 Ex6-4"
+   },
+   {
+    "t": "match",
+    "q": "Why will we have one less toe? (Ex6-5)",
+    "a": "Our little toes will disappear because they are not needed.",
+    "opts": [
+     "Our little toes will disappear because they are not needed.",
+     "Our big toes will disappear because they hurt.",
+     "We will need all our toes more."
+    ],
+    "src": "book U11TB T102 Ex6-5"
+   },
+   {
+    "t": "match",
+    "q": "Why won’t people have so much hair on their bodies? (Ex6-6)",
+    "a": "Because we won’t need to keep ourselves warm any more.",
+    "opts": [
+     "Because we won’t need to keep ourselves warm any more.",
+     "Because everyone will shave their legs.",
+     "Because people will wear more clothes."
+    ],
+    "src": "book U11TB T102 Ex6-6"
+   },
+   {
+    "t": "match",
+    "q": "Our fingers ___ get longer.",
+    "a": "will",
+    "opts": [
+     "will",
+     "won’t",
+     "are"
+    ],
+    "src": "book U11TB T103 Grammar Ex1-1 = will"
+   },
+   {
+    "t": "match",
+    "q": "They ___ have to do more work together.",
+    "a": "’ll",
+    "opts": [
+     "’ll",
+     "won’t",
+     "will not"
+    ],
+    "src": "book U11TB T103 Grammar Ex1-2 = ’ll"
+   },
+   {
+    "t": "match",
+    "q": "Our muscles ___ be as strong as now because we ___ do a lot of physical work.",
+    "a": "will not; won’t",
+    "opts": [
+     "will not; won’t",
+     "will; will",
+     "’ll; won’t"
+    ],
+    "src": "book U11TB T103 Grammar Ex1-3 = will not, won’t"
+   },
+   {
+    "t": "match",
+    "q": "RULE: Use ___ (will) or ___ (will not) to make predictions about the future.",
+    "a": "’ll; won’t",
+    "opts": [
+     "’ll; won’t",
+     "will; won’t not",
+     "’re; aren’t"
+    ],
+    "src": "book U11TB T103 Grammar Ex1 RULE-4/5 = ’ll / won’t"
+   },
+   {
+    "t": "match",
+    "q": "I’m sure I ___ the answers right! (Ex3-0)",
+    "a": "won’t get",
+    "opts": [
+     "won’t get",
+     "’ll get",
+     "will got"
+    ],
+    "src": "book U11TB T103 Ex3-0 = won’t get"
+   },
+   {
+    "t": "match",
+    "q": "Maybe I ___ to school tomorrow. I ___ in bed all day. (Ex3-2/3)",
+    "a": "won’t go; ’ll stay",
+    "opts": [
+     "won’t go; ’ll stay",
+     "’ll go; won’t stay",
+     "will go; will stay"
+    ],
+    "src": "book U11TB T103 Ex3-2/3 = won’t go / ’ll stay"
+   },
+   {
+    "t": "match",
+    "q": "The teacher ___ you the test on Wednesday. (Ex3-5)",
+    "a": "will give",
+    "opts": [
+     "will give",
+     "won’t give",
+     "gave"
+    ],
+    "src": "book U11TB T103 Ex3-5 = will give"
+   }
+  ]
+ },
+ "p105": {
+  "title": "Listening: Conversations about physical problems",
+  "src": "book U11TB T104/T105 Listening Ex8–Ex10 + WordWise Ex11–Ex13 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which person has a stomach problem? (Ex8)",
+    "a": "Lydia",
+    "opts": [
+     "Lydia",
+     "Tim",
+     "John"
+    ],
+    "src": "book U11TB T104 Ex8 = B Lydia"
+   },
+   {
+    "t": "match",
+    "q": "Which person has an elbow problem? (Ex8)",
+    "a": "Tim",
+    "opts": [
+     "Tim",
+     "Lydia",
+     "John"
+    ],
+    "src": "book U11TB T104 Ex8 = C Tim"
+   },
+   {
+    "t": "match",
+    "q": "Which person has a throat/neck problem? (Ex8)",
+    "a": "John",
+    "opts": [
+     "John",
+     "Tim",
+     "Lydia"
+    ],
+    "src": "book U11TB T104 Ex8 = A John"
+   },
+   {
+    "t": "tf",
+    "q": "Lydia thinks she ate too much.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-1 = T"
+   },
+   {
+    "t": "tf",
+    "q": "Lydia’s dad wants her to do the washing-up.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-2 = F"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Lydia’s dad wants ___ to do the washing-up.",
+    "a": "Lydia’s brother",
+    "opts": [
+     "Lydia’s brother",
+     "Lydia",
+     "the doctor"
+    ],
+    "src": "book U11TB T104 Ex9-2 correction"
+   },
+   {
+    "t": "tf",
+    "q": "The doctor wants Tim to put some ice on his elbow.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-3 = T"
+   },
+   {
+    "t": "tf",
+    "q": "The doctor thinks the elbow isn’t broken.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-4 = T"
+   },
+   {
+    "t": "tf",
+    "q": "John can’t move his neck at all.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-5 = F"
+   },
+   {
+    "t": "match",
+    "q": "Correction: John can move his neck ___.",
+    "a": "a little bit",
+    "opts": [
+     "a little bit",
+     "perfectly",
+     "not at all"
+    ],
+    "src": "book U11TB T104 Ex9-5 correction"
+   },
+   {
+    "t": "tf",
+    "q": "The doctor agrees with John’s grandmother.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U11TB T104 Ex9-6 = F"
+   },
+   {
+    "t": "match",
+    "q": "Who says ‘Are you all right, Lydia?’ (Ex10-1)",
+    "a": "Lydia’s dad",
+    "opts": [
+     "Lydia’s dad",
+     "Lydia",
+     "Doctor"
+    ],
+    "src": "book U11TB T104 Ex10-1 = Lydia’s dad"
+   },
+   {
+    "t": "match",
+    "q": "Who says ‘I’m not well at all.’ (Ex10-2)",
+    "a": "Lydia",
+    "opts": [
+     "Lydia",
+     "Lydia’s dad",
+     "Tim"
+    ],
+    "src": "book U11TB T104 Ex10-2 = Lydia"
+   },
+   {
+    "t": "match",
+    "q": "Who says ‘It’s really painful.’ (Ex10-5)",
+    "a": "Tim",
+    "opts": [
+     "Tim",
+     "John",
+     "Lydia"
+    ],
+    "src": "book U11TB T104 Ex10-5 = Tim"
+   },
+   {
+    "t": "match",
+    "q": "Who says ‘Does it hurt?’ (Ex10-6)",
+    "a": "Doctor",
+    "opts": [
+     "Doctor",
+     "Lydia’s dad",
+     "John"
+    ],
+    "src": "book U11TB T104 Ex10-6 = Doctor"
+   },
+   {
+    "t": "match",
+    "q": "They’ll have to do more ___ together. (WordWise Ex11-1)",
+    "a": "work",
+    "opts": [
+     "work",
+     "exercise",
+     "sport"
+    ],
+    "src": "book U11TB T104 WordWise Ex11-1 = work"
+   },
+   {
+    "t": "match",
+    "q": "You should do regular ___ to make sure your muscles are strong. (Ex11-2)",
+    "a": "exercise",
+    "opts": [
+     "exercise",
+     "work",
+     "sport"
+    ],
+    "src": "book U11TB T104 WordWise Ex11-2 = exercise"
+   },
+   {
+    "t": "match",
+    "q": "You don’t have to do ___ to be healthy and keep fit. (Ex11-3)",
+    "a": "sport",
+    "opts": [
+     "sport",
+     "homework",
+     "cooking"
+    ],
+    "src": "book U11TB T104 WordWise Ex11-3 = sport"
+   },
+   {
+    "t": "match",
+    "q": "Joe’s upstairs – he’s doing his ___. (Ex12-1)",
+    "a": "homework",
+    "opts": [
+     "homework",
+     "well",
+     "ice cream"
+    ],
+    "src": "book U11TB T104 WordWise Ex12-1 = homework"
+   },
+   {
+    "t": "match",
+    "q": "Did you do ___ in your exam? (Ex12-2)",
+    "a": "well",
+    "opts": [
+     "well",
+     "cooking",
+     "homework"
+    ],
+    "src": "book U11TB T104 WordWise Ex12-2 = well"
+   }
+  ]
+ },
+ "p106": {
+  "title": "Blog: Old Wives’ Tales",
+  "src": "book U11TB T105/T106 Reading Ex1/Ex2 + Grammar Ex4/RULE + T107 Grammar Ex7–Ex10 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which saying is about watching too much TV? (Ex1)",
+    "a": "If you watch a lot of TV, you’ll get square eyes.",
+    "opts": [
+     "If you watch a lot of TV, you’ll get square eyes.",
+     "If you eat carrots, you’ll see well in the dark.",
+     "If you eat cheese at night, you’ll have bad dreams."
+    ],
+    "src": "book U11TB T105 Ex1 = If you watch a lot of TV…"
+   },
+   {
+    "t": "match",
+    "q": "Which saying is about eating cheese at night? (Ex1)",
+    "a": "If you eat cheese at night, you’ll have bad dreams.",
+    "opts": [
+     "If you eat cheese at night, you’ll have bad dreams.",
+     "An apple a day keeps the doctor away.",
+     "Gain a child, lose a tooth."
+    ],
+    "src": "book U11TB T105 Ex1 = If you eat cheese at night…"
+   },
+   {
+    "t": "match",
+    "q": "Which saying is about fish? (Ex1)",
+    "a": "Fish is brain food.",
+    "opts": [
+     "Fish is brain food.",
+     "Gain a child, lose a tooth.",
+     "Carrots improve night vision."
+    ],
+    "src": "book U11TB T105 Ex1 = Fish is brain food"
+   },
+   {
+    "t": "match",
+    "q": "What is an ‘Old Wives’ Tale’? (Ex2-1)",
+    "a": "Those things grandparents say that aren’t true.",
+    "opts": [
+     "Those things grandparents say that aren’t true.",
+     "Stories that only doctors tell children.",
+     "A science book about healthy food."
+    ],
+    "src": "book U11TB T105 Ex2-1"
+   },
+   {
+    "t": "match",
+    "q": "Why is it good to eat apples? (Ex2-2)",
+    "a": "Apples keep the doctor away.",
+    "opts": [
+     "Apples keep the doctor away.",
+     "Apples make your eyes square.",
+     "Apples help you sleep at night."
+    ],
+    "src": "book U11TB T105 Ex2-2"
+   },
+   {
+    "t": "match",
+    "q": "What did the New York researchers find out about mothers? (Ex2-3)",
+    "a": "They have more problems with their teeth than women without children.",
+    "opts": [
+     "They have more problems with their teeth than women without children.",
+     "They have fewer problems with their teeth.",
+     "They never lose any teeth."
+    ],
+    "src": "book U11TB T105 Ex2-3"
+   },
+   {
+    "t": "match",
+    "q": "What happened to children who ate omega-3 and omega-6? (Ex2-4)",
+    "a": "They did better in their school work.",
+    "opts": [
+     "They did better in their school work.",
+     "They got square eyes.",
+     "They slept more at night."
+    ],
+    "src": "book U11TB T105 Ex2-4"
+   },
+   {
+    "t": "match",
+    "q": "What does the writer think about carrots and night vision? (Ex2-5)",
+    "a": "He isn’t sure it’s true but can’t prove if it’s right or wrong.",
+    "opts": [
+     "He isn’t sure it’s true but can’t prove if it’s right or wrong.",
+     "He is sure carrots work.",
+     "He is sure carrots do not work."
+    ],
+    "src": "book U11TB T105 Ex2-5"
+   },
+   {
+    "t": "match",
+    "q": "If you watch a lot of TV, ___.",
+    "a": "you’ll get square eyes",
+    "opts": [
+     "you’ll get square eyes",
+     "you’ll have bad dreams",
+     "it will help to prevent heart problems"
+    ],
+    "src": "book U11TB T105 Grammar Ex4-1 = b"
+   },
+   {
+    "t": "match",
+    "q": "If you eat cheese at night, ___.",
+    "a": "you’ll have bad dreams",
+    "opts": [
+     "you’ll have bad dreams",
+     "you’ll get square eyes",
+     "it will help to prevent heart problems"
+    ],
+    "src": "book U11TB T105 Grammar Ex4-2 = a"
+   },
+   {
+    "t": "match",
+    "q": "If you eat fish oil, ___.",
+    "a": "it will help to prevent heart problems, too",
+    "opts": [
+     "it will help to prevent heart problems, too",
+     "you’ll have bad dreams",
+     "you’ll get square eyes"
+    ],
+    "src": "book U11TB T105 Grammar Ex4-3 = c"
+   },
+   {
+    "t": "match",
+    "q": "First conditional: talk about ___ events and their ___ results.",
+    "a": "possible; future",
+    "opts": [
+     "possible; future",
+     "certain; present",
+     "impossible; future"
+    ],
+    "src": "book U11TB T105 Grammar Ex4 RULE-4/5 = possible / future"
+   },
+   {
+    "t": "match",
+    "q": "If + present simple, ___ + base form.",
+    "a": "will",
+    "opts": [
+     "will",
+     "won’t",
+     "was"
+    ],
+    "src": "book U11TB T105 Grammar Ex4 RULE-6 = will"
+   },
+   {
+    "t": "match",
+    "q": "As soon as I ___ my exam results, I’ll phone you.",
+    "a": "get",
+    "opts": [
+     "get",
+     "will get",
+     "got"
+    ],
+    "src": "book U11TB T107 Grammar Ex8-1 = get"
+   },
+   {
+    "t": "match",
+    "q": "When I ___ home, I’ll check my messages.",
+    "a": "get",
+    "opts": [
+     "get",
+     "will get",
+     "got"
+    ],
+    "src": "book U11TB T107 Grammar Ex8-2 = get"
+   },
+   {
+    "t": "match",
+    "q": "The party will start as soon as my friend ___ with the music!",
+    "a": "arrives",
+    "opts": [
+     "arrives",
+     "will arrive",
+     "arrived"
+    ],
+    "src": "book U11TB T107 Grammar Ex8-3 = arrives"
+   },
+   {
+    "t": "match",
+    "q": "When the game ___, we’ll go and have a pizza.",
+    "a": "finishes",
+    "opts": [
+     "finishes",
+     "will finish",
+     "finished"
+    ],
+    "src": "book U11TB T107 Grammar Ex8-4 = finishes"
+   },
+   {
+    "t": "match",
+    "q": "I’ll lend you the book as soon as I ___ reading it.",
+    "a": "finish",
+    "opts": [
+     "finish",
+     "will finish",
+     "finished"
+    ],
+    "src": "book U11TB T107 Grammar Ex8-5 = finish"
+   },
+   {
+    "t": "match",
+    "q": "‘When I see Martin, I’ll give him your message.’ = ___",
+    "a": "I know that I will meet Martin.",
+    "opts": [
+     "I know that I will meet Martin.",
+     "It is possible that I will meet Martin."
+    ],
+    "src": "book U11TB T107 Vocabulary Ex9-1 = b"
+   },
+   {
+    "t": "match",
+    "q": "‘If I see Martin, I’ll give him your message.’ = ___",
+    "a": "It is possible that I will meet Martin.",
+    "opts": [
+     "It is possible that I will meet Martin.",
+     "I know that I will meet Martin."
+    ],
+    "src": "book U11TB T107 Vocabulary Ex9-2 = a"
+   }
+  ]
+ },
+ "p110": {
+  "title": "Newspaper article: A world record breaker",
+  "src": "book U12TB T110 Ex4/Ex6 + T111 Ex7 + T112/T113 Grammar answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "What does the title ‘A world record breaker’ mean? (Ex4)",
+    "a": "Someone who travels more than anyone else.",
+    "opts": [
+     "Someone who travels more than anyone else.",
+     "Someone who runs very quickly.",
+     "Someone who travels a lot for work."
+    ],
+    "src": "book U12TB T110 Ex4 = someone who travels more than anyone else"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Cassie used one passport to travel round the world.",
+    "a": "She used five passports.",
+    "opts": [
+     "She used five passports.",
+     "She used one passport.",
+     "She used no passports."
+    ],
+    "src": "book U12TB T110 Ex6-1 = five passports"
+   },
+   {
+    "t": "match",
+    "q": "Correction: She didn’t break the old record by very much.",
+    "a": "She broke it in half the old record time.",
+    "opts": [
+     "She broke it in half the old record time.",
+     "She broke it by one day.",
+     "She didn’t break it."
+    ],
+    "src": "book U12TB T110 Ex6-2 = in half the old record time"
+   },
+   {
+    "t": "match",
+    "q": "Why did Cassie leave her job? (Ex6-3 correction)",
+    "a": "Because she wasn’t doing what she really wanted to do.",
+    "opts": [
+     "Because she wasn’t doing what she really wanted to do.",
+     "Because she had enough money.",
+     "Because she wanted to study."
+    ],
+    "src": "book U12TB T110 Ex6-3"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Sometimes she didn’t go running because she was too tired.",
+    "a": "She didn’t feel safe enough to go for a run.",
+    "opts": [
+     "She didn’t feel safe enough to go for a run.",
+     "She was too tired.",
+     "She didn’t like running."
+    ],
+    "src": "book U12TB T110 Ex6-4"
+   },
+   {
+    "t": "match",
+    "q": "Correction: She talked to tourists about how tourism can help countries.",
+    "a": "She talked to local students.",
+    "opts": [
+     "She talked to local students.",
+     "She talked to tourists.",
+     "She talked to her parents."
+    ],
+    "src": "book U12TB T110 Ex6-5"
+   },
+   {
+    "t": "match",
+    "q": "Correction: She tried to find her American ancestors in different countries.",
+    "a": "She tried to find out about American ancestors in different countries.",
+    "opts": [
+     "She tried to find out about American ancestors in different countries.",
+     "She tried to find her own ancestors at home.",
+     "She didn’t try to find ancestors."
+    ],
+    "src": "book U12TB T110 Ex6-6"
+   },
+   {
+    "t": "tf",
+    "q": "She’s tired now and doesn’t want to travel anymore.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U12TB T110 Ex6-7 = F (she’s ready to travel more)"
+   },
+   {
+    "t": "tf",
+    "q": "She wants to travel to Antarctica for the first time.",
+    "a": "F",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U12TB T110 Ex6-8 = F (visited it on last expedition)"
+   },
+   {
+    "t": "match",
+    "q": "Comment 1: ‘She’s been to every country, so she understands all kinds of people.’ = ?",
+    "a": "Learning about other cultures",
+    "opts": [
+     "Learning about other cultures",
+     "Self-improvement",
+     "Helping to make the world a better place"
+    ],
+    "src": "book U12TB T111 Ex7-1 = d"
+   },
+   {
+    "t": "match",
+    "q": "Comment 2: ‘She’s probably a better person now because she’s learned so many things.’ = ?",
+    "a": "Self-improvement",
+    "opts": [
+     "Self-improvement",
+     "Learning about other cultures",
+     "Learning about history around the world"
+    ],
+    "src": "book U12TB T111 Ex7-2 = b"
+   },
+   {
+    "t": "match",
+    "q": "Comment 3: ‘She was an ambassador for Peace Through Tourism.’ = ?",
+    "a": "Helping to make the world a better place",
+    "opts": [
+     "Helping to make the world a better place",
+     "Self-improvement",
+     "Learning about history around the world"
+    ],
+    "src": "book U12TB T111 Ex7-3 = a"
+   },
+   {
+    "t": "match",
+    "q": "Comment 4: ‘She was interested in her past and other people’s.’ = ?",
+    "a": "Learning about history around the world",
+    "opts": [
+     "Learning about history around the world",
+     "Self-improvement",
+     "Helping to make the world a better place"
+    ],
+    "src": "book U12TB T111 Ex7-4 = c"
+   }
+  ]
+ },
+ "p113": {
+  "title": "Listening: Richard Ward on travelling well",
+  "src": "book U12TB T112/T113 Listening Ex8–Ex11 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "What is Richard talking about? (Ex8-1)",
+    "a": "Travelling well.",
+    "opts": [
+     "Travelling well.",
+     "The dangers of travelling."
+    ],
+    "src": "book U12TB T112 Ex8-1 = travelling well"
+   },
+   {
+    "t": "match",
+    "q": "Richard thinks it’s important to ___.",
+    "a": "go to places other people don’t go",
+    "opts": [
+     "go to places other people don’t go",
+     "go to famous places"
+    ],
+    "src": "book U12TB T112 Ex8-2"
+   },
+   {
+    "t": "match",
+    "q": "Why does Richard always take a scarf?",
+    "a": "Because he can use it in many different ways.",
+    "opts": [
+     "Because he can use it in many different ways.",
+     "Because he goes to cold places."
+    ],
+    "src": "book U12TB T112 Ex8-3"
+   },
+   {
+    "t": "tf",
+    "q": "When he came home from travelling, he stayed at his parents’ home.",
+    "a": "T",
+    "opts": [
+     "T",
+     "F"
+    ],
+    "src": "book U12TB T112 Ex9-1"
+   },
+   {
+    "t": "match",
+    "q": "How many books has Richard written?",
+    "a": "Zero; this book will be his first.",
+    "opts": [
+     "Zero; this book will be his first.",
+     "One.",
+     "Ten."
+    ],
+    "src": "book U12TB T112 Ex9-2 = zero (first book)"
+   },
+   {
+    "t": "match",
+    "q": "Difference between a tourist and a traveller: a tourist always ___.",
+    "a": "stays on the beaten track",
+    "opts": [
+     "stays on the beaten track",
+     "leaves the beaten track"
+    ],
+    "src": "book U12TB T112 Ex9-3"
+   },
+   {
+    "t": "match",
+    "q": "Why is it good to get lost?",
+    "a": "You can find amazing things and great people.",
+    "opts": [
+     "You can find amazing things and great people.",
+     "You can sleep longer.",
+     "You can save money."
+    ],
+    "src": "book U12TB T112 Ex9-4"
+   },
+   {
+    "t": "match",
+    "q": "What can you do with a scarf?",
+    "a": "Keep warm, keep the sun off, carry things, tie things together.",
+    "opts": [
+     "Keep warm, keep the sun off, carry things, tie things together.",
+     "Only keep warm.",
+     "Only carry things."
+    ],
+    "src": "book U12TB T112 Ex9-5"
+   },
+   {
+    "t": "match",
+    "q": "Have you ___ got lost? (Ex11-1)",
+    "a": "ever",
+    "opts": [
+     "ever",
+     "never"
+    ],
+    "src": "book U12TB T112 Ex11-1 = ever"
+   },
+   {
+    "t": "match",
+    "q": "I’ve ___ had my own home. (Ex11-2)",
+    "a": "never",
+    "opts": [
+     "never",
+     "ever"
+    ],
+    "src": "book U12TB T112 Ex11-2 = never"
+   },
+   {
+    "t": "match",
+    "q": "RULE: ‘at no time in my life’ = ___; ‘at any time in your life’ = ___.",
+    "a": "never; ever",
+    "opts": [
+     "never; ever",
+     "ever; never",
+     "no; ever"
+    ],
+    "src": "book U12TB T112 Ex11 RULE-3/4 = never / ever"
+   },
+   {
+    "t": "match",
+    "q": "A: Have you ever ___ a silent film? B: Yes, I ___. (Ex11-1)",
+    "a": "watched; have",
+    "opts": [
+     "watched; have",
+     "watch; have",
+     "watched; did"
+    ],
+    "src": "book U12TB T112 Ex11 mini-dialogue 1 = watched / have"
+   },
+   {
+    "t": "match",
+    "q": "A: Have you ever ___ to the Olympic Games? B: ___, I’ve never been.",
+    "a": "been; No",
+    "opts": [
+     "been; No",
+     "be; Yes",
+     "gone; No"
+    ],
+    "src": "book U12TB T112 Ex11 mini-dialogue 2 = been / No"
+   },
+   {
+    "t": "match",
+    "q": "A: Have you ever ___ tennis? B: ___, I have.",
+    "a": "played; Yes",
+    "opts": [
+     "played; Yes",
+     "playing; No",
+     "play; Yes"
+    ],
+    "src": "book U12TB T112 Ex11 mini-dialogue 3 = played / Yes"
+   },
+   {
+    "t": "match",
+    "q": "A: Have you ever ___ a really hot curry? B: No, I’ve ___ tried curry.",
+    "a": "eaten; never",
+    "opts": [
+     "eaten; never",
+     "eat; ever",
+     "ate; never"
+    ],
+    "src": "book U12TB T112 Ex11 mini-dialogue 4 = eaten / never"
+   }
+  ]
+ },
+ "p114": {
+  "title": "Magazine article: Travelling the world from your sofa!",
+  "src": "book U12TB T114 Ex1/Ex2 + T115 Grammar Ex6/RULE answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "What problem has Tom got?",
+    "a": "Agoraphobia (a fear of being outdoors).",
+    "opts": [
+     "Agoraphobia (a fear of being outdoors).",
+     "He can’t read.",
+     "He has no computer."
+    ],
+    "src": "book U12TB T114 Ex1 = agoraphobia"
+   },
+   {
+    "t": "match",
+    "q": "What does Tom use to ‘travel’?",
+    "a": "The ‘street view’ function of Google Maps.",
+    "opts": [
+     "The ‘street view’ function of Google Maps.",
+     "A bicycle.",
+     "A train."
+    ],
+    "src": "book U12TB T114 Ex1 = street view"
+   },
+   {
+    "t": "match",
+    "q": "What is Tom’s dream for the future?",
+    "a": "To work in the travel industry.",
+    "opts": [
+     "To work in the travel industry.",
+     "To become a doctor.",
+     "To live in London."
+    ],
+    "src": "book U12TB T114 Ex1 = travel industry"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Tom hasn’t left his home for three years.",
+    "a": "Two years.",
+    "opts": [
+     "Two years.",
+     "Three years.",
+     "One year."
+    ],
+    "src": "book U12TB T114 Ex2-1 = two years"
+   },
+   {
+    "t": "match",
+    "q": "Correction: His agoraphobia started when he was hit by a car.",
+    "a": "By a street sign.",
+    "opts": [
+     "By a street sign.",
+     "By a car.",
+     "By a bus."
+    ],
+    "src": "book U12TB T114 Ex2-2 = street sign"
+   },
+   {
+    "t": "match",
+    "q": "Before the accident, Tom often ___.",
+    "a": "spent most weekends exploring London",
+    "opts": [
+     "spent most weekends exploring London",
+     "went on holiday with parents in London",
+     "stayed at home"
+    ],
+    "src": "book U12TB T114 Ex2-3"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Tom has visited every country in the world.",
+    "a": "Every country where Google Maps has been.",
+    "opts": [
+     "Every country where Google Maps has been.",
+     "Every country in the world.",
+     "Five countries."
+    ],
+    "src": "book U12TB T114 Ex2-4"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Tom uses ‘street view’ to go to places that he knows about.",
+    "a": "Places he didn’t know existed.",
+    "opts": [
+     "Places he didn’t know existed.",
+     "Places he knows well.",
+     "Only famous cities."
+    ],
+    "src": "book U12TB T114 Ex2-5"
+   },
+   {
+    "t": "match",
+    "q": "Correction: Tom hopes to get a job with Google Maps.",
+    "a": "A job in the travel industry.",
+    "opts": [
+     "A job in the travel industry.",
+     "A job with Google Maps.",
+     "A job at home."
+    ],
+    "src": "book U12TB T114 Ex2-6"
+   },
+   {
+    "t": "match",
+    "q": "The last time he ___ out was two years ago.",
+    "a": "went",
+    "opts": [
+     "went",
+     "has gone",
+     "goes"
+    ],
+    "src": "book U12TB T115 Ex6-1 = went"
+   },
+   {
+    "t": "match",
+    "q": "He ___ down the streets of the world’s most famous cities.",
+    "a": "has walked",
+    "opts": [
+     "has walked",
+     "walked",
+     "walks"
+    ],
+    "src": "book U12TB T115 Ex6-2 = has walked"
+   },
+   {
+    "t": "match",
+    "q": "Before his accident, Tom ___ most weekends exploring London.",
+    "a": "spent",
+    "opts": [
+     "spent",
+     "has spent",
+     "spends"
+    ],
+    "src": "book U12TB T115 Ex6-3 = spent"
+   },
+   {
+    "t": "match",
+    "q": "He ___ more than 5,000 screenshots.",
+    "a": "has taken",
+    "opts": [
+     "has taken",
+     "took",
+     "takes"
+    ],
+    "src": "book U12TB T115 Ex6-4 = has taken"
+   },
+   {
+    "t": "match",
+    "q": "Tom’s virtual travel ___ more than just a hobby.",
+    "a": "has become",
+    "opts": [
+     "has become",
+     "became",
+     "becomes"
+    ],
+    "src": "book U12TB T115 Ex6-5 = has become"
+   },
+   {
+    "t": "match",
+    "q": "Last week, there ___ an exhibition of his best photos.",
+    "a": "was",
+    "opts": [
+     "was",
+     "has been",
+     "is"
+    ],
+    "src": "book U12TB T115 Ex6-6 = was"
+   },
+   {
+    "t": "match",
+    "q": "RULE: Use the ___ to talk about actions at a particular time in the past.",
+    "a": "past simple",
+    "opts": [
+     "past simple",
+     "present perfect"
+    ],
+    "src": "book U12TB T115 Ex6 RULE-7 = past simple"
+   },
+   {
+    "t": "match",
+    "q": "RULE: Use the ___ to talk about past actions when we don’t say when they happened.",
+    "a": "present perfect",
+    "opts": [
+     "present perfect",
+     "past simple"
+    ],
+    "src": "book U12TB T115 Ex6 RULE-8 = present perfect"
+   }
+  ]
+ },
+ "p116": {
+  "title": "Culture: Hard journeys for schoolchildren",
+  "src": "book U12TB T116 Culture Ex1/Ex2 answers",
+  "quiz": [
+   {
+    "t": "match",
+    "q": "Which photo shows a student riding to school on a donkey? (Ex1)",
+    "a": "B",
+    "opts": [
+     "A",
+     "B"
+    ],
+    "src": "book U12TB T116 Ex1 = student riding on a donkey, B"
+   },
+   {
+    "t": "match",
+    "q": "Which photo shows children walking along railway tracks? (Ex1)",
+    "a": "A",
+    "opts": [
+     "A",
+     "B"
+    ],
+    "src": "book U12TB T116 Ex1 = children on rail tracks, A"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo A from? (Ex2)",
+    "a": "India",
+    "opts": [
+     "India",
+     "China",
+     "Indonesia"
+    ],
+    "src": "book U12TB T116 Ex2 = A India"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo B from? (Ex2)",
+    "a": "China",
+    "opts": [
+     "China",
+     "India",
+     "Indonesia"
+    ],
+    "src": "book U12TB T116 Ex2 = B China"
+   },
+   {
+    "t": "match",
+    "q": "Which country is photo C from? (Ex2)",
+    "a": "Indonesia",
+    "opts": [
+     "Indonesia",
+     "India",
+     "China"
+    ],
+    "src": "book U12TB T116 Ex2 = C Indonesia"
+   }
+  ]
+ }
+}

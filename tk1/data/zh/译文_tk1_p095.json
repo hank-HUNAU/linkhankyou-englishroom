@@ -1,0 +1,275 @@
+{
+ "passage_key": "u10_95",
+ "page": "p095",
+ "unit": 10,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 53,
+ "n_unique_keys": 52,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Hey Connor.",
+   "zh": "嘿，康纳。"
+  },
+  {
+   "i": 1,
+   "en": "What are you doing this weekend?",
+   "zh": "你这个周末要做什么？"
+  },
+  {
+   "i": 2,
+   "en": "Hi!",
+   "zh": "嗨！"
+  },
+  {
+   "i": 3,
+   "en": "I’m quite busy actually.",
+   "zh": "我其实挺忙的。"
+  },
+  {
+   "i": 4,
+   "en": "Why?",
+   "zh": "为什么？"
+  },
+  {
+   "i": 5,
+   "en": "Well, it’s just that we’ve got that History test coming up.",
+   "zh": "嗯，就是我们马上要考历史了。"
+  },
+  {
+   "i": 6,
+   "en": "Do you want to study together?",
+   "zh": "你想不想一起复习？"
+  },
+  {
+   "i": 7,
+   "en": "That would be great!",
+   "zh": "那太好了！"
+  },
+  {
+   "i": 8,
+   "en": "But, let me see.",
+   "zh": "不过，让我想想。"
+  },
+  {
+   "i": 9,
+   "en": "Saturday morning is no good.",
+   "zh": "星期六早上不行。"
+  },
+  {
+   "i": 10,
+   "en": "I’m playing football.",
+   "zh": "我要踢足球。"
+  },
+  {
+   "i": 11,
+   "en": "It’s the cup final and I can’t miss that.",
+   "zh": "那是决赛，我不能错过。"
+  },
+  {
+   "i": 12,
+   "en": "Of course not.",
+   "zh": "当然不行。"
+  },
+  {
+   "i": 13,
+   "en": "OK, so what about Friday night?",
+   "zh": "好，那星期五晚上呢？"
+  },
+  {
+   "i": 14,
+   "en": "I’m sorry. I can’t.",
+   "zh": "对不起，我不行。"
+  },
+  {
+   "i": 15,
+   "en": "I’m busy.",
+   "zh": "我很忙。"
+  },
+  {
+   "i": 16,
+   "en": "Dad’s taking me to the sports centre to watch the basketball game, but it doesn’t finish until 10 pm.",
+   "zh": "爸爸要带我去体育中心看篮球赛，比赛要到晚上 10 点才结束。"
+  },
+  {
+   "i": 17,
+   "en": "Yeah, that’s a bit late.",
+   "zh": "是啊，那有点太晚了。"
+  },
+  {
+   "i": 18,
+   "en": "OK, how about Saturday afternoon.",
+   "zh": "好，那星期六下午怎么样。"
+  },
+  {
+   "i": 19,
+   "en": "Any chance?",
+   "zh": "有机会吗？"
+  },
+  {
+   "i": 20,
+   "en": "Saturday afternoon, Saturday afternoon.",
+   "zh": "星期六下午，星期六下午。"
+  },
+  {
+   "i": 21,
+   "en": "It’s my brother’s birthday, so we’re going to the restaurant to celebrate.",
+   "zh": "那是我弟弟的生日，所以我们要去餐厅庆祝。"
+  },
+  {
+   "i": 22,
+   "en": "You know, that new American diner on the high street.",
+   "zh": "你知道的，就是高街上那家新开的美式餐厅。"
+  },
+  {
+   "i": 23,
+   "en": "Oh, yeah, I’ve heard it’s very good.",
+   "zh": "哦，对，我听说过那家店很好。"
+  },
+  {
+   "i": 24,
+   "en": "What time do you think you’ll finish there?",
+   "zh": "你觉得你们大概什么时候能结束？"
+  },
+  {
+   "i": 25,
+   "en": "Probably about 5 pm, but then I’m meeting Nathan.",
+   "zh": "大概下午 5 点，不过之后我要和内森碰面。"
+  },
+  {
+   "i": 26,
+   "en": "We’re going to see the new Spider-Man film at the cinema.",
+   "zh": "我们要去电影院看新的《蜘蛛侠》电影。"
+  },
+  {
+   "i": 27,
+   "en": "Hey, would you like to come?",
+   "zh": "嘿，你想一起去吗？"
+  },
+  {
+   "i": 28,
+   "en": "Hmmm, Spider-Man – not really my thing.",
+   "zh": "嗯，《蜘蛛侠》——不太合我的口味。"
+  },
+  {
+   "i": 29,
+   "en": "So thanks but no thanks.",
+   "zh": "所以谢谢，但就不用了。"
+  },
+  {
+   "i": 30,
+   "en": "I guess that just leaves Sunday.",
+   "zh": "我想那只剩下星期天了。"
+  },
+  {
+   "i": 31,
+   "en": "Yeah, Sunday.",
+   "zh": "对，星期天。"
+  },
+  {
+   "i": 32,
+   "en": "Hmmmm, that’s a problem, too.",
+   "zh": "嗯，那也有问题。"
+  },
+  {
+   "i": 33,
+   "en": "Why?",
+   "zh": "为什么？"
+  },
+  {
+   "i": 34,
+   "en": "Well, my grandparents are coming over and we’re taking them to that outdoor museum.",
+   "zh": "嗯，我的祖父母要来，我们要带他们去那个露天博物馆。"
+  },
+  {
+   "i": 35,
+   "en": "Oh, the one with all the cool old buildings?",
+   "zh": "哦，就是那个有很多很酷老建筑的地方吗？"
+  },
+  {
+   "i": 36,
+   "en": "That’s right.",
+   "zh": "没错。"
+  },
+  {
+   "i": 37,
+   "en": "My grandad loves that sort of stuff.",
+   "zh": "我爷爷就喜欢那种东西。"
+  },
+  {
+   "i": 38,
+   "en": "I’d invite you, but I’m really sorry, we haven’t got any room in the car.",
+   "zh": "我本想邀请你，但真的很抱歉，车里没有空位了。"
+  },
+  {
+   "i": 39,
+   "en": "I don’t want to see old buildings, Connor.",
+   "zh": "我不想看老建筑，康纳。"
+  },
+  {
+   "i": 40,
+   "en": "I want to study for the test.",
+   "zh": "我想复习考试。"
+  },
+  {
+   "i": 41,
+   "en": "Yeah, of course.",
+   "zh": "对，当然。"
+  },
+  {
+   "i": 42,
+   "en": "Sunday evening maybe, but only after 8 pm.",
+   "zh": "也许星期天晚上，但只能在晚上 8 点以后。"
+  },
+  {
+   "i": 43,
+   "en": "I’ve got a piano lesson from 7 to 8 and we won’t be back from the museum much before 6 pm.",
+   "zh": "我从 7 点到 8 点有钢琴课，我们从博物馆回来最早也要快 6 点了。"
+  },
+  {
+   "i": 44,
+   "en": "No, that’s too late.",
+   "zh": "不，那太晚了。"
+  },
+  {
+   "i": 45,
+   "en": "What about next weekend?",
+   "zh": "那下个周末呢？"
+  },
+  {
+   "i": 46,
+   "en": "I’ve got loads of free time next weekend.",
+   "zh": "我下个周末有很多空闲时间。"
+  },
+  {
+   "i": 47,
+   "en": "I’d love to!",
+   "zh": "我很乐意！"
+  },
+  {
+   "i": 48,
+   "en": "But there’s a problem.",
+   "zh": "但有个问题。"
+  },
+  {
+   "i": 49,
+   "en": "What’s that?",
+   "zh": "什么问题？"
+  },
+  {
+   "i": 50,
+   "en": "The test is on Monday.",
+   "zh": "考试在星期一。"
+  },
+  {
+   "i": 51,
+   "en": "This Monday.",
+   "zh": "就是这周一。"
+  },
+  {
+   "i": 52,
+   "en": "First thing in the morning!",
+   "zh": "一大早第一件事！"
+  }
+ ]
+}

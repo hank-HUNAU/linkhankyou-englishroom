@@ -1,0 +1,275 @@
+{
+ "passage_key": "u4_41",
+ "page": "p041",
+ "unit": 4,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 53,
+ "n_unique_keys": 52,
+ "entries": [
+  {
+   "i": 0,
+   "en": "What are you doing, Lori?",
+   "zh": "你在干什么，洛丽？"
+  },
+  {
+   "i": 1,
+   "en": "I’m looking for my T-shirt.",
+   "zh": "我在找我的 T 恤。"
+  },
+  {
+   "i": 2,
+   "en": "Your T-shirt?",
+   "zh": "你的 T 恤？"
+  },
+  {
+   "i": 3,
+   "en": "You’ve got lots!",
+   "zh": "你有好多件呢！"
+  },
+  {
+   "i": 4,
+   "en": "Which one are you looking for?",
+   "zh": "你在找哪一件？"
+  },
+  {
+   "i": 5,
+   "en": "The red one with the flower on it.",
+   "zh": "那件带花朵的红色 T 恤。"
+  },
+  {
+   "i": 6,
+   "en": "I can’t find it anywhere and I’ve got to go out in five minutes.",
+   "zh": "我到处都找不到，而且再过五分钟我就得出门了。"
+  },
+  {
+   "i": 7,
+   "en": "Where are you going?",
+   "zh": "你要去哪儿？"
+  },
+  {
+   "i": 8,
+   "en": "To the cinema with Lucy and Darcy.",
+   "zh": "和露西、达西去电影院。"
+  },
+  {
+   "i": 9,
+   "en": "I want to look nice.",
+   "zh": "我想穿得好看点。"
+  },
+  {
+   "i": 10,
+   "en": "Oh, I can’t find it!",
+   "zh": "哦，我找不到！"
+  },
+  {
+   "i": 11,
+   "en": "Do you want to borrow one of mine?",
+   "zh": "你想借我的一件吗？"
+  },
+  {
+   "i": 12,
+   "en": "Can I?",
+   "zh": "可以吗？"
+  },
+  {
+   "i": 13,
+   "en": "Thanks, Olivia, you’re the best.",
+   "zh": "谢谢，奥利维亚，你真好。"
+  },
+  {
+   "i": 14,
+   "en": "Sure.",
+   "zh": "当然。"
+  },
+  {
+   "i": 15,
+   "en": "Just get one from my room but don’t make a mess.",
+   "zh": "去我房间拿一件就行，但别弄得一团糟。"
+  },
+  {
+   "i": 16,
+   "en": "Don’t worry.",
+   "zh": "别担心。"
+  },
+  {
+   "i": 17,
+   "en": "No mess, I promise.",
+   "zh": "不会乱的，我保证。"
+  },
+  {
+   "i": 18,
+   "en": "Can I borrow your red boots, too?",
+   "zh": "我也能借你的红色靴子吗？"
+  },
+  {
+   "i": 19,
+   "en": "You mean my new ones?",
+   "zh": "你是说我那双新的？"
+  },
+  {
+   "i": 20,
+   "en": "No, you can’t.",
+   "zh": "不行，你不能借。"
+  },
+  {
+   "i": 21,
+   "en": "Oh no, really?",
+   "zh": "哦不，真的吗？"
+  },
+  {
+   "i": 22,
+   "en": "Why not?",
+   "zh": "为什么不行？"
+  },
+  {
+   "i": 23,
+   "en": "They’re really cool!",
+   "zh": "它们真的很酷！"
+  },
+  {
+   "i": 24,
+   "en": "I know I am the world’s best sister, Lori, but there are some times when I have to say ‘no’!",
+   "zh": "我知道我是全世界最好的姐姐，洛丽，但有时候我也得说“不”！"
+  },
+  {
+   "i": 25,
+   "en": "Mum?",
+   "zh": "妈妈？"
+  },
+  {
+   "i": 26,
+   "en": "Have we got any plans this weekend?",
+   "zh": "这个周末我们有什么安排吗？"
+  },
+  {
+   "i": 27,
+   "en": "I don’t think so.",
+   "zh": "我想没有吧。怎么了？"
+  },
+  {
+   "i": 28,
+   "en": "Why?",
+   "zh": "为什么这么问？"
+  },
+  {
+   "i": 29,
+   "en": "There’s a party at Nathan’s place.",
+   "zh": "内森家有个派对。"
+  },
+  {
+   "i": 30,
+   "en": "Can I go?",
+   "zh": "我能去吗？"
+  },
+  {
+   "i": 31,
+   "en": "Well, that depends …",
+   "zh": "嗯，那要看情况……"
+  },
+  {
+   "i": 32,
+   "en": "When is it?",
+   "zh": "什么时候？"
+  },
+  {
+   "i": 33,
+   "en": "Saturday night.",
+   "zh": "周六晚上。"
+  },
+  {
+   "i": 34,
+   "en": "8 o’clock.",
+   "zh": "8 点钟。"
+  },
+  {
+   "i": 35,
+   "en": "Sure.",
+   "zh": "当然。"
+  },
+  {
+   "i": 36,
+   "en": "That’s fine.",
+   "zh": "那没问题。"
+  },
+  {
+   "i": 37,
+   "en": "Where does Nathan live?",
+   "zh": "内森住在哪儿？"
+  },
+  {
+   "i": 38,
+   "en": "He’s out in Foxton.",
+   "zh": "他住在福克斯顿。"
+  },
+  {
+   "i": 39,
+   "en": "His family have got an amazing house.",
+   "zh": "他家有一栋很棒的房子。"
+  },
+  {
+   "i": 40,
+   "en": "Foxton?",
+   "zh": "福克斯顿？"
+  },
+  {
+   "i": 41,
+   "en": "That’s five kilometres from here.",
+   "zh": "那儿离这儿五公里。"
+  },
+  {
+   "i": 42,
+   "en": "And I guess there are no buses at that time of night.",
+   "zh": "我猜那个时间晚上没有公交车。"
+  },
+  {
+   "i": 43,
+   "en": "Umm, no, I don’t think so.",
+   "zh": "嗯，没有，我想没有。"
+  },
+  {
+   "i": 44,
+   "en": "Well, no actually, there aren’t any buses, no.",
+   "zh": "嗯，其实没有，确实没有公交车。"
+  },
+  {
+   "i": 45,
+   "en": "Right.",
+   "zh": "好吧。"
+  },
+  {
+   "i": 46,
+   "en": "So come on.",
+   "zh": "行了，说吧。"
+  },
+  {
+   "i": 47,
+   "en": "Let’s hear the next question, Tom.",
+   "zh": "汤姆，听听你的下一个问题。"
+  },
+  {
+   "i": 48,
+   "en": "Any chance of a lift, Mum?",
+   "zh": "妈妈，能载我一程吗？"
+  },
+  {
+   "i": 49,
+   "en": "Of course, but I need to pick you up by midnight at the latest.",
+   "zh": "当然可以，但我最晚午夜得去接你。"
+  },
+  {
+   "i": 50,
+   "en": "I need my sleep, you know.",
+   "zh": "我需要睡觉，你知道的。"
+  },
+  {
+   "i": 51,
+   "en": "No problem, Mum.",
+   "zh": "没问题，妈妈。"
+  },
+  {
+   "i": 52,
+   "en": "Thanks so much!",
+   "zh": "太感谢了！"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "unit": "U4",
+ "passage_key": "u4_42",
+ "page": "p042",
+ "title": "News article: Suzie saves her mum",
+ "type": "阅读B",
+ "n_sent": 24,
+ "duration_s": 123.64,
+ "source": "Think 1 U4 增量：alignment/SB_u04_p042_t05 + 译文_tk1_p042.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 8.56,
+   "end_s": 16.06,
+   "dur_s": 7.5,
+   "text": "One day Suzie McCash went shopping with her mum in Tynemouth, England."
+  },
+  {
+   "i": 1,
+   "start_s": 16.76,
+   "end_s": 19.215,
+   "dur_s": 2.455,
+   "text": "Suzie was four years old."
+  },
+  {
+   "i": 2,
+   "start_s": 20.02,
+   "end_s": 24.915,
+   "dur_s": 4.895,
+   "text": "Her mum didn’t feel very well at the shops, so they went home."
+  },
+  {
+   "i": 3,
+   "start_s": 25.56,
+   "end_s": 29.72,
+   "dur_s": 4.16,
+   "text": "In the house, Suzie’s mum went to lie on the sofa."
+  },
+  {
+   "i": 4,
+   "start_s": 30.7,
+   "end_s": 32.48,
+   "dur_s": 1.78,
+   "text": "She was there for a long time."
+  },
+  {
+   "i": 5,
+   "start_s": 33.66,
+   "end_s": 37.5,
+   "dur_s": 3.84,
+   "text": "Her eyes were shut and it wasn’t easy for her to breathe."
+  },
+  {
+   "i": 6,
+   "start_s": 38.3,
+   "end_s": 39.56,
+   "dur_s": 1.26,
+   "text": "Suzie was worried."
+  },
+  {
+   "i": 7,
+   "start_s": 40.24,
+   "end_s": 42.14,
+   "dur_s": 1.9,
+   "text": "Was her mum really ill?"
+  },
+  {
+   "i": 8,
+   "start_s": 43.4,
+   "end_s": 48.054,
+   "dur_s": 4.654,
+   "text": "Suzie went to the house next door, but the neighbours weren’t there."
+  },
+  {
+   "i": 9,
+   "start_s": 48.65,
+   "end_s": 54.962,
+   "dur_s": 6.312,
+   "text": "So she phoned 999 – the emergency telephone number for the police."
+  },
+  {
+   "i": 10,
+   "start_s": 55.62,
+   "end_s": 60.651,
+   "dur_s": 5.031,
+   "text": "The police officer was very kind and Suzie was calm."
+  },
+  {
+   "i": 11,
+   "start_s": 61.52,
+   "end_s": 63.86,
+   "dur_s": 2.34,
+   "text": "‘What’s your mummy doing now?’"
+  },
+  {
+   "i": 12,
+   "start_s": 64.72,
+   "end_s": 69.6,
+   "dur_s": 4.88,
+   "text": "‘Um, she’s just sitting on the sofa and she’s doing nothing.’"
+  },
+  {
+   "i": 13,
+   "start_s": 70.54,
+   "end_s": 72.12,
+   "dur_s": 1.58,
+   "text": "‘Are her eyes open?’"
+  },
+  {
+   "i": 14,
+   "start_s": 72.74,
+   "end_s": 74.56,
+   "dur_s": 1.82,
+   "text": "‘No, they’re shut.’"
+  },
+  {
+   "i": 15,
+   "start_s": 74.56,
+   "end_s": 76.56,
+   "dur_s": 2.0,
+   "text": "And later…"
+  },
+  {
+   "i": 16,
+   "start_s": 77.1,
+   "end_s": 78.739,
+   "dur_s": 1.639,
+   "text": "‘Can you open the door?"
+  },
+  {
+   "i": 17,
+   "start_s": 79.48,
+   "end_s": 80.94,
+   "dur_s": 1.46,
+   "text": "Can you be a big girl?’"
+  },
+  {
+   "i": 18,
+   "start_s": 82.06,
+   "end_s": 87.144,
+   "dur_s": 5.084,
+   "text": "Soon the police were at their house and an ambulance was there, too."
+  },
+  {
+   "i": 19,
+   "start_s": 87.9,
+   "end_s": 91.8,
+   "dur_s": 3.9,
+   "text": "About an hour later, Suzie’s mum was OK again."
+  },
+  {
+   "i": 20,
+   "start_s": 92.52,
+   "end_s": 96.177,
+   "dur_s": 3.657,
+   "text": "A doctor said: ‘Her mummy was very sick."
+  },
+  {
+   "i": 21,
+   "start_s": 96.72,
+   "end_s": 100.357,
+   "dur_s": 3.637,
+   "text": "Without Suzie’s phone call, her mummy might be dead now.’"
+  },
+  {
+   "i": 22,
+   "start_s": 101.66,
+   "end_s": 106.98,
+   "dur_s": 5.32,
+   "text": "Suzie’s story was in the newspapers and people were surprised and happy about it."
+  },
+  {
+   "i": 23,
+   "start_s": 107.6,
+   "end_s": 120.38,
+   "dur_s": 12.78,
+   "text": "She was a very brave girl and, a year later, she was in the news again because she was named a Child of Courage at the Pride of Britain Awards for helping her mother."
+  }
+ ]
+}

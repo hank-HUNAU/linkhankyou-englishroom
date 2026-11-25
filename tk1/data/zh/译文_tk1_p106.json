@@ -1,0 +1,145 @@
+{
+ "passage_key": "u11_106",
+ "page": "p106",
+ "unit": 11,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 27,
+ "n_unique_keys": 27,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Old Wives’ Tales are those ‘helpful’ things that your grandparents say that are probably not true.",
+   "zh": "“老妇人故事”是祖父母们常说的那些“有用”的话，但它们可能并不是真的。"
+  },
+  {
+   "i": 1,
+   "en": "They are things like, ‘If you watch a lot of TV, you’ll get square eyes’, ‘If you eat carrots, you’ll see well in the dark’, or ‘If you eat cheese at night, you’ll have bad dreams’.",
+   "zh": "它们就像：“如果你看太多电视，眼睛会变成方的”“如果你吃胡萝卜，你在黑暗里也能看得很清楚”，或者“如果你晚上吃奶酪，会做噩梦”。"
+  },
+  {
+   "i": 2,
+   "en": "But are they nonsense or is there sometimes a little bit of truth in them?",
+   "zh": "但它们是胡说八道，还是有时候也有一点道理？"
+  },
+  {
+   "i": 3,
+   "en": "We decided to investigate more.",
+   "zh": "我们决定多调查一下。"
+  },
+  {
+   "i": 4,
+   "en": "Let’s start with a famous one: ‘An apple a day keeps the doctor away’.",
+   "zh": "先从一个很有名的说法说起：“一天一苹果，医生远离我”。"
+  },
+  {
+   "i": 5,
+   "en": "My grandma said this all the time.",
+   "zh": "我奶奶总是这么说。"
+  },
+  {
+   "i": 6,
+   "en": "Well, of course everyone knows that fruit is an important part of a healthy diet.",
+   "zh": "当然，大家都知道水果是健康饮食的重要部分。"
+  },
+  {
+   "i": 7,
+   "en": "But can one apple really make a difference?",
+   "zh": "但一个苹果真的能起作用吗？"
+  },
+  {
+   "i": 8,
+   "en": "A medical study from 2013 says ‘yes’.",
+   "zh": "2013 年的一项医学研究说是“有”。"
+  },
+  {
+   "i": 9,
+   "en": "It found that if people over 50 eat an apple a day, their chances of a heart attack are much smaller than people who don’t.",
+   "zh": "研究发现，如果 50 岁以上的人每天吃一个苹果，他们得心脏病的几率比不吃的人小得多。"
+  },
+  {
+   "i": 10,
+   "en": "What about ‘Gain a child, lose a tooth’?",
+   "zh": "那“生一个孩子，掉一颗牙”呢？"
+  },
+  {
+   "i": 11,
+   "en": "They say that when a woman has a child, a tooth will fall out.",
+   "zh": "他们说，女人生一个孩子，就会掉一颗牙。"
+  },
+  {
+   "i": 12,
+   "en": "Researchers at the New York University College of Dentistry studied more than 2,600 women between the ages of 18 and 64 with one or more children.",
+   "zh": "纽约大学牙科学院的研究人员研究了 2,600 多名 18 到 64 岁、有一个或多个孩子的女性。"
+  },
+  {
+   "i": 13,
+   "en": "And guess what?",
+   "zh": "你猜怎么着？"
+  },
+  {
+   "i": 14,
+   "en": "They found they had more problems with their teeth than women with no children, although they couldn’t say exactly why.",
+   "zh": "他们发现，这些女性的牙齿问题比没有孩子的女性更多，虽然他们说不出确切原因。"
+  },
+  {
+   "i": 15,
+   "en": "My great uncle was a big believer that ‘fish is brain food’.",
+   "zh": "我的曾叔叔非常相信“鱼是健脑食物”。"
+  },
+  {
+   "i": 16,
+   "en": "He ate it all the time and he was a clever man, too.",
+   "zh": "他经常吃鱼，而且他也很聪明。"
+  },
+  {
+   "i": 17,
+   "en": "It looks like he might be right.",
+   "zh": "看起来他可能是对的。"
+  },
+  {
+   "i": 18,
+   "en": "Fish have a lot of omega-3 and omega-6 fats in their oil.",
+   "zh": "鱼油里含有很多 omega-3 和 omega-6 脂肪。"
+  },
+  {
+   "i": 19,
+   "en": "Some scientists from Oxford studied 120 primary school children, and they discovered that the children who ate omega-3 and omega-6 made big improvements in their schoolwork.",
+   "zh": "牛津大学的一些科学家研究了 120 名小学生，发现吃 omega-3 和 omega-6 的孩子在学业上进步很大。"
+  },
+  {
+   "i": 20,
+   "en": "If you eat fish oil, it will help to prevent heart problems, too.",
+   "zh": "如果你吃鱼油，它也有助于预防心脏问题。"
+  },
+  {
+   "i": 21,
+   "en": "It seems like eating fish is a good idea.",
+   "zh": "看起来吃鱼是个好主意。"
+  },
+  {
+   "i": 22,
+   "en": "Finally, what about those carrots?",
+   "zh": "最后，那些胡萝卜呢？"
+  },
+  {
+   "i": 23,
+   "en": "Can they really help your night vision?",
+   "zh": "它们真的能改善夜间视力吗？"
+  },
+  {
+   "i": 24,
+   "en": "I’ve eaten them all my life, but I still walk into things when I get up in the night.",
+   "zh": "我一辈子都在吃胡萝卜，但夜里起床时还是会撞到东西。"
+  },
+  {
+   "i": 25,
+   "en": "Unfortunately, I can’t find anything to prove if this is right or wrong.",
+   "zh": "遗憾的是，我找不到任何证据证明它是对还是错。"
+  },
+  {
+   "i": 26,
+   "en": "I’ll keep looking and I’ll let you know as soon as I find out.",
+   "zh": "我会继续找，一有发现就告诉你。"
+  }
+ ]
+}

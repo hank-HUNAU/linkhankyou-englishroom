@@ -1,0 +1,306 @@
+{
+ "unit": "U1",
+ "passage_key": "u1_012",
+ "page": "p012",
+ "title": "Quiz: Do you enjoy life?",
+ "type": "阅读A",
+ "n_sent": 42,
+ "duration_s": 210.81,
+ "source": "Think 1 alignment/SB_u01_p012_t01（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.22,
+   "end_s": 7.84,
+   "dur_s": 1.62,
+   "text": "Do you enjoy life?"
+  },
+  {
+   "i": 1,
+   "start_s": 9.06,
+   "end_s": 11.88,
+   "dur_s": 2.82,
+   "text": "Do your parents always ask you to do housework?"
+  },
+  {
+   "i": 2,
+   "start_s": 12.8,
+   "end_s": 15.46,
+   "dur_s": 2.66,
+   "text": "Does your teacher give you homework every day?"
+  },
+  {
+   "i": 3,
+   "start_s": 16.73,
+   "end_s": 21.19,
+   "dur_s": 4.46,
+   "text": "Life is sometimes difficult because there are lots of things to do."
+  },
+  {
+   "i": 4,
+   "start_s": 22.06,
+   "end_s": 27.67,
+   "dur_s": 5.61,
+   "text": "It's great to be busy, but it's important to look after yourself and have fun, too."
+  },
+  {
+   "i": 5,
+   "start_s": 28.53,
+   "end_s": 36.83,
+   "dur_s": 8.3,
+   "text": "We all need to think about ourselves and do things we like, whether it is playing an instrument or taking photos."
+  },
+  {
+   "i": 6,
+   "start_s": 36.83,
+   "end_s": 42.17,
+   "dur_s": 5.34,
+   "text": "But we also need to do things that keep us healthy and happy."
+  },
+  {
+   "i": 7,
+   "start_s": 43.89,
+   "end_s": 44.63,
+   "dur_s": 0.74,
+   "text": "Here's our quiz."
+  },
+  {
+   "i": 8,
+   "start_s": 45.43,
+   "end_s": 50.37,
+   "dur_s": 4.94,
+   "text": "Try it and find out: do you have lots of fun?"
+  },
+  {
+   "i": 9,
+   "start_s": 54.04,
+   "end_s": 55.36,
+   "dur_s": 1.32,
+   "text": "Do you laugh a lot?"
+  },
+  {
+   "i": 10,
+   "start_s": 57.17,
+   "end_s": 59.11,
+   "dur_s": 1.94,
+   "text": "Yes, I laugh all the time."
+  },
+  {
+   "i": 11,
+   "start_s": 61.16,
+   "end_s": 62.84,
+   "dur_s": 1.68,
+   "text": "I only laugh when I'm happy."
+  },
+  {
+   "i": 12,
+   "start_s": 65.06,
+   "end_s": 68.26,
+   "dur_s": 3.2,
+   "text": "My best friend says I don't laugh very often."
+  },
+  {
+   "i": 13,
+   "start_s": 71.82,
+   "end_s": 73.62,
+   "dur_s": 1.8,
+   "text": "How many hobbies do you have?"
+  },
+  {
+   "i": 14,
+   "start_s": 75.32,
+   "end_s": 76.76,
+   "dur_s": 1.44,
+   "text": "I have lots of hobbies."
+  },
+  {
+   "i": 15,
+   "start_s": 78.5,
+   "end_s": 78.98,
+   "dur_s": 0.48,
+   "text": "One."
+  },
+  {
+   "i": 16,
+   "start_s": 81.23,
+   "end_s": 82.53,
+   "dur_s": 1.3,
+   "text": "I don't have any hobbies."
+  },
+  {
+   "i": 17,
+   "start_s": 86.42,
+   "end_s": 87.88,
+   "dur_s": 1.46,
+   "text": "When do you listen to music?"
+  },
+  {
+   "i": 18,
+   "start_s": 89.84,
+   "end_s": 92.56,
+   "dur_s": 2.72,
+   "text": "In the morning, afternoon and evening."
+  },
+  {
+   "i": 19,
+   "start_s": 94.86,
+   "end_s": 97.24,
+   "dur_s": 2.38,
+   "text": "I only listen to music when I have time."
+  },
+  {
+   "i": 20,
+   "start_s": 99.43,
+   "end_s": 101.05,
+   "dur_s": 1.62,
+   "text": "I never listen to music."
+  },
+  {
+   "i": 21,
+   "start_s": 101.43,
+   "end_s": 102.63,
+   "dur_s": 1.2,
+   "text": "I don't have time."
+  },
+  {
+   "i": 22,
+   "start_s": 106.27,
+   "end_s": 108.72,
+   "dur_s": 2.45,
+   "text": "How many hours do you sleep a night?"
+  },
+  {
+   "i": 23,
+   "start_s": 110.9,
+   "end_s": 112.7,
+   "dur_s": 1.8,
+   "text": "9-10 hours."
+  },
+  {
+   "i": 24,
+   "start_s": 115.32,
+   "end_s": 116.18,
+   "dur_s": 0.86,
+   "text": "About 8 hours."
+  },
+  {
+   "i": 25,
+   "start_s": 118.31,
+   "end_s": 119.59,
+   "dur_s": 1.28,
+   "text": "Less than 8 hours."
+  },
+  {
+   "i": 26,
+   "start_s": 123.42,
+   "end_s": 124.88,
+   "dur_s": 1.46,
+   "text": "Do you like doing exercise?"
+  },
+  {
+   "i": 27,
+   "start_s": 127.14,
+   "end_s": 129.08,
+   "dur_s": 1.94,
+   "text": "Yes, exercise is fun."
+  },
+  {
+   "i": 28,
+   "start_s": 131.6,
+   "end_s": 134.7,
+   "dur_s": 3.1,
+   "text": "Some exercise is OK, but not everything."
+  },
+  {
+   "i": 29,
+   "start_s": 137.26,
+   "end_s": 139.38,
+   "dur_s": 2.12,
+   "text": "I don't like exercise at all."
+  },
+  {
+   "i": 30,
+   "start_s": 143.11,
+   "end_s": 145.75,
+   "dur_s": 2.64,
+   "text": "Do you like word and number puzzles?"
+  },
+  {
+   "i": 31,
+   "start_s": 147.74,
+   "end_s": 148.96,
+   "dur_s": 1.22,
+   "text": "I like puzzles a lot."
+  },
+  {
+   "i": 32,
+   "start_s": 151.25,
+   "end_s": 155.47,
+   "dur_s": 4.22,
+   "text": "Word puzzles are OK, but number puzzles are boring."
+  },
+  {
+   "i": 33,
+   "start_s": 157.73,
+   "end_s": 160.29,
+   "dur_s": 2.56,
+   "text": "No, I don't like puzzles at all."
+  },
+  {
+   "i": 34,
+   "start_s": 163.99,
+   "end_s": 166.65,
+   "dur_s": 2.66,
+   "text": "Which of these activities do you do most?"
+  },
+  {
+   "i": 35,
+   "start_s": 169.26,
+   "end_s": 171.18,
+   "dur_s": 1.92,
+   "text": "Spend time with friends and family."
+  },
+  {
+   "i": 36,
+   "start_s": 173.25,
+   "end_s": 175.72,
+   "dur_s": 2.47,
+   "text": "Message friends online or on my phone."
+  },
+  {
+   "i": 37,
+   "start_s": 177.795,
+   "end_s": 180.744,
+   "dur_s": 2.949,
+   "text": "Watch TV or play games on my phone."
+  },
+  {
+   "i": 38,
+   "start_s": 182.28,
+   "end_s": 183.66,
+   "dur_s": 1.38,
+   "text": "Your score."
+  },
+  {
+   "i": 39,
+   "start_s": 185.34,
+   "end_s": 190.62,
+   "dur_s": 5.28,
+   "text": "Mostly As: Wow! You know how to have fun and enjoy life."
+  },
+  {
+   "i": 40,
+   "start_s": 191.9,
+   "end_s": 200.11,
+   "dur_s": 8.21,
+   "text": "Mostly Bs: Hmm, OK, but can you do more? Try and find more time for yourself."
+  },
+  {
+   "i": 41,
+   "start_s": 202.1,
+   "end_s": 207.53,
+   "dur_s": 5.43,
+   "text": "Mostly Cs: Try and find more ways to have more fun."
+  }
+ ]
+}

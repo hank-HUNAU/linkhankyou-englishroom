@@ -1,0 +1,187 @@
+{
+ "unit": "U7",
+ "passage_key": "u7_70",
+ "page": "p070",
+ "title": "Website: Gadget reviews (year 2066)",
+ "type": "阅读B",
+ "n_sent": 25,
+ "duration_s": 135.29,
+ "source": "Think 1 U7 增量：alignment/SB_u07_p070_t06 + 译文_tk1_p070.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.54,
+   "end_s": 11.24,
+   "dur_s": 4.7,
+   "text": "Are you tired of choosing a cool outfit to wear for special occasions?"
+  },
+  {
+   "i": 1,
+   "start_s": 12.06,
+   "end_s": 14.22,
+   "dur_s": 2.16,
+   "text": "Well, now you don’t have to!"
+  },
+  {
+   "i": 2,
+   "start_s": 15.04,
+   "end_s": 21.595,
+   "dur_s": 6.555,
+   "text": "The all-new Trendy-wise is easy to use and you don’t have to be trendy to use it."
+  },
+  {
+   "i": 3,
+   "start_s": 22.24,
+   "end_s": 29.32,
+   "dur_s": 7.08,
+   "text": "However, before you can use it, you have to take photos of all the clothes in your wardrobe."
+  },
+  {
+   "i": 4,
+   "start_s": 30.02,
+   "end_s": 34.52,
+   "dur_s": 4.5,
+   "text": "And you mustn’t forget to take photos of all your shoes and socks, too."
+  },
+  {
+   "i": 5,
+   "start_s": 35.46,
+   "end_s": 41.78,
+   "dur_s": 6.32,
+   "text": "Then all you have to do is click on a photo of, for example, a blue T-shirt."
+  },
+  {
+   "i": 6,
+   "start_s": 42.88,
+   "end_s": 52.26,
+   "dur_s": 9.38,
+   "text": "The Trendy-wise selects photos of trousers or skirts, shoes, socks, etc., from your wardrobe to go with this T-shirt."
+  },
+  {
+   "i": 7,
+   "start_s": 53.62,
+   "end_s": 59.68,
+   "dur_s": 6.06,
+   "text": "Each time it creates a different outfit for you and the outfits are all very trendy."
+  },
+  {
+   "i": 8,
+   "start_s": 60.7,
+   "end_s": 62.38,
+   "dur_s": 1.68,
+   "text": "Oh, I almost forgot!"
+  },
+  {
+   "i": 9,
+   "start_s": 63.16,
+   "end_s": 71.82,
+   "dur_s": 8.66,
+   "text": "You also have to type in the kind of event/occasion, for example: a concert or a birthday party."
+  },
+  {
+   "i": 10,
+   "start_s": 73.22,
+   "end_s": 75.64,
+   "dur_s": 2.42,
+   "text": "Do you sometimes have bad dreams?"
+  },
+  {
+   "i": 11,
+   "start_s": 76.24,
+   "end_s": 78.44,
+   "dur_s": 2.2,
+   "text": "Do you wake up scared or unhappy?"
+  },
+  {
+   "i": 12,
+   "start_s": 79.24,
+   "end_s": 79.62,
+   "dur_s": 0.38,
+   "text": "Yes?"
+  },
+  {
+   "i": 13,
+   "start_s": 80.36,
+   "end_s": 82.18,
+   "dur_s": 1.82,
+   "text": "Then you should buy the DreamCatcher."
+  },
+  {
+   "i": 14,
+   "start_s": 83.44,
+   "end_s": 84.48,
+   "dur_s": 1.04,
+   "text": "This is how it works:"
+  },
+  {
+   "i": 15,
+   "start_s": 85.4,
+   "end_s": 88.1,
+   "dur_s": 2.7,
+   "text": "Put the machine on your head before you go to bed."
+  },
+  {
+   "i": 16,
+   "start_s": 88.82,
+   "end_s": 101.38,
+   "dur_s": 12.56,
+   "text": "Tell it what you want or don’t want by speaking into the microphone – for example: ‘I want dreams where I win a singing competition’ or ‘I don’t want dreams about falling.’"
+  },
+  {
+   "i": 17,
+   "start_s": 102.62,
+   "end_s": 108.02,
+   "dur_s": 5.4,
+   "text": "When you are asleep, DreamCatcher will follow your dreams and make sure you get what you want."
+  },
+  {
+   "i": 18,
+   "start_s": 108.8,
+   "end_s": 111.74,
+   "dur_s": 2.94,
+   "text": "Imagine that in your dream you do something dangerous."
+  },
+  {
+   "i": 19,
+   "start_s": 112.42,
+   "end_s": 114.6,
+   "dur_s": 2.18,
+   "text": "DreamCatcher will make sure you’re safe."
+  },
+  {
+   "i": 20,
+   "start_s": 115.22,
+   "end_s": 116.36,
+   "dur_s": 1.14,
+   "text": "Here’s an example."
+  },
+  {
+   "i": 21,
+   "start_s": 117.2,
+   "end_s": 119.86,
+   "dur_s": 2.66,
+   "text": "Let’s say you start to climb a high mountain."
+  },
+  {
+   "i": 22,
+   "start_s": 120.58,
+   "end_s": 125.62,
+   "dur_s": 5.04,
+   "text": "You don’t have to worry because the DreamCatcher will make you walk back down again."
+  },
+  {
+   "i": 23,
+   "start_s": 125.62,
+   "end_s": 128.8,
+   "dur_s": 3.18,
+   "text": "But you mustn’t use the machine every night."
+  },
+  {
+   "i": 24,
+   "start_s": 129.44,
+   "end_s": 131.9,
+   "dur_s": 2.46,
+   "text": "It will only work every three days."
+  }
+ ]
+}

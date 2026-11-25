@@ -1,0 +1,312 @@
+{
+ "id": "SB_u09_p084_t01",
+ "no": 9.01,
+ "title": "Magazine article: The wild side of life",
+ "titleZh": "",
+ "audio": "assets/tk1_p084.mp3",
+ "duration": 203.39,
+ "question": null,
+ "unit": 9,
+ "part": "阅读A",
+ "bookPage": "p084",
+ "srcKey": "SB_u09_p084_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 8.92,
+   "t2": 13.78,
+   "en": "More and more people think that life is better in the city than the countryside.",
+   "zh": "越来越多的人认为城市生活比乡村生活更好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 14.7,
+   "t2": 21.687,
+   "en": "For the first time in history more than 50% of the world’s population lives in urban areas.",
+   "zh": "有史以来第一次，世界人口中有超过 50% 住在城市地区。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 22.4,
+   "t2": 28.48,
+   "en": "However, there are still many groups of people who live in some of the wildest places on the planet.",
+   "zh": "不过，仍有许多群体生活在地球上最荒凉的一些地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 29.94,
+   "t2": 34.98,
+   "en": "The Kalahari is a large area of bush land in southern Africa.",
+   "zh": "卡拉哈里是非洲南部一片广阔的低灌木丛地带。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 35.74,
+   "t2": 37.036,
+   "en": "It has two parts.",
+   "zh": "它分为两部分。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 37.68,
+   "t2": 43.027,
+   "en": "The south part is drier than the north and plants do not grow there very well.",
+   "zh": "南部比北部更干燥，那里的植物长得不太好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 43.82,
+   "t2": 50.736,
+   "en": "Every year at the end of summer it rains and the land becomes more beautiful than at other times of the year.",
+   "zh": "每年夏末下过雨后，这片土地会变得比一年中其他时候都更美丽。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 51.74,
+   "t2": 55.82,
+   "en": "But the grass and the bushes soon get dry and turn brown again.",
+   "zh": "但草和灌木很快又变干，重新变成褐色。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 56.72,
+   "t2": 58.1,
+   "en": "Life there is difficult.",
+   "zh": "那里的生活很艰难。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 59.3,
+   "t2": 62.984,
+   "en": "The San are a group of people who live in the Kalahari.",
+   "zh": "桑人是生活在卡拉哈里的一个族群。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 63.64,
+   "t2": 69.24,
+   "en": "They live in huts, eat wild animals – even lions – plants and berries.",
+   "zh": "他们住在小屋里，吃野生动物——甚至狮子——以及植物和浆果。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 70.1,
+   "t2": 73.82,
+   "en": "They are very good with bows and arrows, and use them for hunting.",
+   "zh": "他们非常擅长使用弓箭，并用弓箭打猎。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 75.38,
+   "t2": 80.06,
+   "en": "Up in the mountains of central Papua New Guinea is the Chimbu Province.",
+   "zh": "钦布省位于新几内亚岛中部的高山之中。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 81.08,
+   "t2": 84.84,
+   "en": "This jungle area is one of the world’s most remote places.",
+   "zh": "这片丛林地区是世界上最偏远的地方之一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 85.9,
+   "t2": 90.186,
+   "en": "It is also home to Mt Wilhelm, the highest mountain on the island.",
+   "zh": "这里也是威廉山的所在地，那是岛上最高的山。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 91.28,
+   "t2": 94.66,
+   "en": "Several different tribes live in the valleys between the mountains.",
+   "zh": "几个不同的部族生活在山间的峡谷里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 95.72,
+   "t2": 98.78,
+   "en": "One of these is the Chimbu skeleton dancers.",
+   "zh": "其中一个是钦布骷髅舞者部族。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 99.7,
+   "t2": 101.76,
+   "en": "They paint skeletons onto their bodies.",
+   "zh": "他们把骷髅图案画在身上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 102.52,
+   "t2": 107.578,
+   "en": "This makes them look scarier and it frightens other people away from their land.",
+   "zh": "这让他们看起来更吓人，并把其他人吓离他们的土地。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 109.1,
+   "t2": 115.1,
+   "en": "The Yamal Peninsula in northern Siberia is one and a half times bigger than France.",
+   "zh": "西伯利亚北部的亚马尔半岛比法国大一半。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 116.12,
+   "t2": 122.3,
+   "en": "It is frozen for much of the year and temperatures can reach -50°C in the winter.",
+   "zh": "这里一年中大部分时间都冰封着，冬天温度可达 -50°C。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 123.28,
+   "t2": 128.72,
+   "en": "But this area is home to a tribe of about 10,000 people called the Nenets.",
+   "zh": "但这里生活着一个约有 10,000 人的部族，叫涅涅茨人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 129.58,
+   "t2": 135.047,
+   "en": "The Nenets are nomadic, meaning they frequently move from one place to another.",
+   "zh": "涅涅茨人是游牧民族，也就是说他们经常从一个地方搬到另一个地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 135.92,
+   "t2": 143.615,
+   "en": "Each year around 300,000 reindeer move around the land and the Nenets always go with them.",
+   "zh": "每年约有 300,000 只驯鹿在这片土地上迁徙，涅涅茨人总是跟着它们走。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 144.74,
+   "t2": 151.069,
+   "en": "The recent discovery of gas in the area means more people than before are visiting the Yamal.",
+   "zh": "最近在这一地区发现天然气，意味着来亚马尔的人比以前更多了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 151.3,
+   "t2": 155.249,
+   "en": "So the Nenets now have more contact with the outside world.",
+   "zh": "所以涅涅茨人现在与外界的接触更多了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 156.86,
+   "t2": 161.04,
+   "en": "The Bayan-Ölgii Province is the highest part of Mongolia.",
+   "zh": "巴彦乌列盖省是蒙古海拔最高的地区。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 161.9,
+   "t2": 166.58,
+   "en": "It is a wild area with many mountains, lakes, forests and rivers.",
+   "zh": "这是一片荒凉之地，有许多山脉、湖泊、森林和河流。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 167.42,
+   "t2": 171.119,
+   "en": "It is also home to the Kazakh golden eagle hunters.",
+   "zh": "这里也是哈萨克金雕猎人的家园。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 172.02,
+   "t2": 178.64,
+   "en": "These people travel around the mountains and use eagles to hunt for foxes and other small animals.",
+   "zh": "这些人翻山越岭，用雕猎捕狐狸和其他小动物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 179.48,
+   "t2": 183.844,
+   "en": "When boys turn 13, they can become golden eagle hunters.",
+   "zh": "男孩满 13 岁时，就可以成为金雕猎人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 184.52,
+   "t2": 191.599,
+   "en": "However, they have to be stronger than most boys their age because they have to show that they can carry the weight of an eagle.",
+   "zh": "不过，他们必须比大多数同龄男孩更强壮，因为他们要证明自己能承受一只雕的重量。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 192.66,
+   "t2": 200.16,
+   "en": "There are about 100,000 Kazakh people, but only around 250 of them are golden eagle hunters.",
+   "zh": "哈萨克人大约有 100,000 人，但其中只有约 250 人是金雕猎人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

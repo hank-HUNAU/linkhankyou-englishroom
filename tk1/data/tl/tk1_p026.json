@@ -1,0 +1,159 @@
+{
+ "unit": "U2",
+ "passage_key": "u2_026",
+ "page": "p026",
+ "title": "Culture: Banknotes",
+ "type": "文化",
+ "n_sent": 21,
+ "duration_s": 156.16,
+ "source": "Think 1 alignment/SB_u02_p026_t09（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.04,
+   "end_s": 14.96,
+   "dur_s": 5.92,
+   "text": "These days, we use credit cards more and more and they all look almost identical."
+  },
+  {
+   "i": 1,
+   "start_s": 15.72,
+   "end_s": 20.24,
+   "dur_s": 4.52,
+   "text": "But money is still with us, in coins and banknotes."
+  },
+  {
+   "i": 2,
+   "start_s": 21.04,
+   "end_s": 29.14,
+   "dur_s": 8.1,
+   "text": "The designs are different and all over the world we can see examples of really interesting and beautiful banknotes."
+  },
+  {
+   "i": 3,
+   "start_s": 30.22,
+   "end_s": 37.38,
+   "dur_s": 7.16,
+   "text": "The designs usually celebrate the country – its history, its geography, its animals and birds."
+  },
+  {
+   "i": 4,
+   "start_s": 38.61,
+   "end_s": 42.32,
+   "dur_s": 3.71,
+   "text": "Here are some examples of banknotes from different parts of the world."
+  },
+  {
+   "i": 5,
+   "start_s": 45.2,
+   "end_s": 45.7,
+   "dur_s": 0.5,
+   "text": "Mexico"
+  },
+  {
+   "i": 6,
+   "start_s": 46.12,
+   "end_s": 49.06,
+   "dur_s": 2.94,
+   "text": "In Mexico the currency is the peso."
+  },
+  {
+   "i": 7,
+   "start_s": 50.0,
+   "end_s": 56.14,
+   "dur_s": 6.14,
+   "text": "The smallest banknote is 20 pesos, and the biggest is 1,000 pesos."
+  },
+  {
+   "i": 8,
+   "start_s": 57.24,
+   "end_s": 66.16,
+   "dur_s": 8.92,
+   "text": "One side always has the face of a famous person from Mexican history and the other side has well-known places in the country."
+  },
+  {
+   "i": 9,
+   "start_s": 67.4,
+   "end_s": 74.16,
+   "dur_s": 6.76,
+   "text": "On the $500 note there is a portrait of the famous Mexican artist Frida Kahlo."
+  },
+  {
+   "i": 10,
+   "start_s": 77.34,
+   "end_s": 77.949,
+   "dur_s": 0.609,
+   "text": "Europe"
+  },
+  {
+   "i": 11,
+   "start_s": 78.6,
+   "end_s": 85.34,
+   "dur_s": 6.74,
+   "text": "Many countries in Europe use the euro, but the banknotes are exactly the same for each country."
+  },
+  {
+   "i": 12,
+   "start_s": 86.02,
+   "end_s": 93.18,
+   "dur_s": 7.16,
+   "text": "On one side, there is a picture of a gate, window or entrance, and on the other side, a bridge."
+  },
+  {
+   "i": 13,
+   "start_s": 94.22,
+   "end_s": 99.114,
+   "dur_s": 4.894,
+   "text": "The pictures represent different kinds of architecture from all over Europe."
+  },
+  {
+   "i": 14,
+   "start_s": 102.56,
+   "end_s": 103.06,
+   "dur_s": 0.5,
+   "text": "Turkey"
+  },
+  {
+   "i": 15,
+   "start_s": 103.62,
+   "end_s": 109.93,
+   "dur_s": 6.31,
+   "text": "In Turkey the currency is the Turkish lira, and there are six different banknotes."
+  },
+  {
+   "i": 16,
+   "start_s": 110.78,
+   "end_s": 121.26,
+   "dur_s": 10.48,
+   "text": "Each one shows Kemal Atatürk, the founder of the Turkish republic, on the front side, and another famous figure from Turkish history on the other side."
+  },
+  {
+   "i": 17,
+   "start_s": 125.0,
+   "end_s": 125.5,
+   "dur_s": 0.5,
+   "text": "Brazil"
+  },
+  {
+   "i": 18,
+   "start_s": 126.0,
+   "end_s": 130.52,
+   "dur_s": 4.52,
+   "text": "The currency in Brazil is the real (plural, reais)."
+  },
+  {
+   "i": 19,
+   "start_s": 132.6,
+   "end_s": 145.58,
+   "dur_s": 12.98,
+   "text": "The notes are in different colours, but they all have a picture of the Effigy of the Republic (a national symbol of Brazil) on one side, and various animals, birds and fish on the other side."
+  },
+  {
+   "i": 20,
+   "start_s": 146.66,
+   "end_s": 152.86,
+   "dur_s": 6.2,
+   "text": "One of the most beautiful is perhaps the R$50 note, which has a picture of a jaguar."
+  }
+ ]
+}

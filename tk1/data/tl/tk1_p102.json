@@ -1,0 +1,201 @@
+{
+ "unit": "U11",
+ "passage_key": "u11_102",
+ "page": "p102",
+ "title": "Magazine article: Changing bodies",
+ "type": "阅读A",
+ "n_sent": 27,
+ "duration_s": 187.59,
+ "source": "Think 1 U11 增量：alignment/SB_u11_p102_t01 + 译文_tk1_p102.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.35,
+   "end_s": 14.315,
+   "dur_s": 4.965,
+   "text": "A long time ago, people were very different from the way we are now."
+  },
+  {
+   "i": 1,
+   "start_s": 15.02,
+   "end_s": 23.84,
+   "dur_s": 8.82,
+   "text": "For example, if you find a really old house somewhere, you’ll see that the doors are usually much lower than they are today."
+  },
+  {
+   "i": 2,
+   "start_s": 24.74,
+   "end_s": 25.14,
+   "dur_s": 0.4,
+   "text": "Why?"
+  },
+  {
+   "i": 3,
+   "start_s": 25.94,
+   "end_s": 29.36,
+   "dur_s": 3.42,
+   "text": "Because hundreds of years ago, people were shorter."
+  },
+  {
+   "i": 4,
+   "start_s": 30.5,
+   "end_s": 35.852,
+   "dur_s": 5.352,
+   "text": "Over time, the human body changes to adapt to a new way of life."
+  },
+  {
+   "i": 5,
+   "start_s": 36.74,
+   "end_s": 40.28,
+   "dur_s": 3.54,
+   "text": "Can we expect the human body to change in the future?"
+  },
+  {
+   "i": 6,
+   "start_s": 40.9,
+   "end_s": 41.48,
+   "dur_s": 0.58,
+   "text": "For sure."
+  },
+  {
+   "i": 7,
+   "start_s": 42.38,
+   "end_s": 48.62,
+   "dur_s": 6.24,
+   "text": "And the main reason is that we have more and more technology, and it is changing how we live."
+  },
+  {
+   "i": 8,
+   "start_s": 49.54,
+   "end_s": 52.08,
+   "dur_s": 2.54,
+   "text": "What kind of changes can we expect?"
+  },
+  {
+   "i": 9,
+   "start_s": 52.88,
+   "end_s": 57.76,
+   "dur_s": 4.88,
+   "text": "Well, no one can be 100 percent sure, but here are some possibilities."
+  },
+  {
+   "i": 10,
+   "start_s": 61.14,
+   "end_s": 63.02,
+   "dur_s": 1.88,
+   "text": "Let’s start with the example above."
+  },
+  {
+   "i": 11,
+   "start_s": 64.32,
+   "end_s": 69.242,
+   "dur_s": 4.922,
+   "text": "Humans are now ten centimetres taller than 150 years ago."
+  },
+  {
+   "i": 12,
+   "start_s": 69.98,
+   "end_s": 74.14,
+   "dur_s": 4.16,
+   "text": "So, in the future, people will probably be even taller."
+  },
+  {
+   "i": 13,
+   "start_s": 75.3,
+   "end_s": 81.2,
+   "dur_s": 5.9,
+   "text": "Most of us now have much better food than people in the past – and so we grow more."
+  },
+  {
+   "i": 14,
+   "start_s": 84.18,
+   "end_s": 86.901,
+   "dur_s": 2.721,
+   "text": "We’ll get weaker in more than one way."
+  },
+  {
+   "i": 15,
+   "start_s": 87.7,
+   "end_s": 95.062,
+   "dur_s": 7.362,
+   "text": "The most important way is that our muscles will not be as strong as now because we won’t do a lot of physical work."
+  },
+  {
+   "i": 16,
+   "start_s": 98.14,
+   "end_s": 105.825,
+   "dur_s": 7.685,
+   "text": "We are already using our feet less, and our hands more (think about computers and tablets and so on)."
+  },
+  {
+   "i": 17,
+   "start_s": 105.825,
+   "end_s": 115.4,
+   "dur_s": 9.575,
+   "text": "So we can expect that our legs will get shorter and our feet smaller, and at the same time, our fingers will get longer."
+  },
+  {
+   "i": 18,
+   "start_s": 116.26,
+   "end_s": 123.08,
+   "dur_s": 6.82,
+   "text": "And our fingers and our eyes will both get better because they’ll have to do more work together."
+  },
+  {
+   "i": 19,
+   "start_s": 126.08,
+   "end_s": 127.82,
+   "dur_s": 1.74,
+   "text": "Now, what about the mouth?"
+  },
+  {
+   "i": 20,
+   "start_s": 128.84,
+   "end_s": 143.46,
+   "dur_s": 14.62,
+   "text": "It’ll get smaller, perhaps, because technological improvements will mean that we don’t need to talk so much – and also because our teeth will get smaller (so mouths don’t need to be so big to keep them in)."
+  },
+  {
+   "i": 21,
+   "start_s": 146.38,
+   "end_s": 152.96,
+   "dur_s": 6.58,
+   "text": "Here’s a good one – it’s very possible that people will have four toes, not five."
+  },
+  {
+   "i": 22,
+   "start_s": 153.62,
+   "end_s": 163.46,
+   "dur_s": 9.84,
+   "text": "The little toe really isn’t needed anymore (people who lose them don’t miss them), so it will probably disappear sometime in the future."
+  },
+  {
+   "i": 23,
+   "start_s": 166.84,
+   "end_s": 175.56,
+   "dur_s": 8.72,
+   "text": "And last but not least – people won’t have as much hair on their bodies as now, as we don’t need it to keep ourselves warm anymore."
+  },
+  {
+   "i": 24,
+   "start_s": 176.48,
+   "end_s": 178.26,
+   "dur_s": 1.78,
+   "text": "Will all these things happen?"
+  },
+  {
+   "i": 25,
+   "start_s": 178.8,
+   "end_s": 180.1,
+   "dur_s": 1.3,
+   "text": "And if so, when?"
+  },
+  {
+   "i": 26,
+   "start_s": 181.08,
+   "end_s": 184.34,
+   "dur_s": 3.26,
+   "text": "These are questions that no one can answer for sure."
+  }
+ ]
+}

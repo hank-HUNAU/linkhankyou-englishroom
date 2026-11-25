@@ -1,0 +1,135 @@
+[
+ {
+  "w": "yesterday (morning / afternoon / evening)",
+  "ipa": "ˈjes.tə.deɪ",
+  "pos": "phrase",
+  "zh": "昨天（上 午/下午/ 晚上）",
+  "ex": "We went there yesterday afternoon."
+ },
+ {
+  "w": "last (year / month / week / Monday, etc.)",
+  "ipa": "lɑːst",
+  "pos": "phrase",
+  "zh": "上⼀个（年 /月/周/星期 一等）",
+  "ex": "We moved here last year."
+ },
+ {
+  "w": "(a year / three weeks / eight hours, etc.) ago",
+  "ipa": "əˌgəʊ",
+  "pos": "phrase",
+  "zh": "（一年/ 三周/八 小时等） 以前",
+  "ex": "We went to the museum two weeks ago."
+ },
+ {
+  "w": "intelligent",
+  "ipa": "ɪnˈtel.ɪ.dʒənt",
+  "pos": "adjective",
+  "zh": "聪明的",
+  "ex": "a highly intelligent young man"
+ },
+ {
+  "w": "cheerful",
+  "ipa": "ˈtʃɪə.fəl",
+  "pos": "adjective",
+  "zh": "乐观的， 开朗的",
+  "ex": "He's usually fairly cheerful."
+ },
+ {
+  "w": "jealous",
+  "ipa": "ˈdʒel.əs",
+  "pos": "adjective",
+  "zh": "嫉妒的",
+  "ex": "They were jealous of her wealth."
+ },
+ {
+  "w": "helpful",
+  "ipa": "ˈhelp.fəl",
+  "pos": "adjective",
+  "zh": "乐意帮 忙的",
+  "ex": "She's such a pleasant, helpful child!"
+ },
+ {
+  "w": "confident",
+  "ipa": "ˈkɒn.fɪ.dənt",
+  "pos": "adjective",
+  "zh": "自信的",
+  "ex": "Be a bit more confident in yourself!"
+ },
+ {
+  "w": "generous",
+  "ipa": "ˈdʒen.ər.əs",
+  "pos": "adjective",
+  "zh": "慷慨的",
+  "ex": "She's been very generous with her time."
+ },
+ {
+  "w": "easy-going",
+  "ipa": "ˌiː.ziˈɡəʊ.ɪŋ",
+  "pos": "adjective",
+  "zh": "随和的",
+  "ex": "My brother is easy- going, but I'm the excitable type."
+ },
+ {
+  "w": "funny",
+  "ipa": "ˈfʌn.i",
+  "pos": "adjective",
+  "zh": "有趣的",
+  "ex": "Do you know any funny stories?"
+ },
+ {
+  "w": "success",
+  "ipa": "səkˈses",
+  "pos": "noun",
+  "zh": "成功",
+  "ex": "Part of the books' success is because of the friendship between those three characters."
+ },
+ {
+  "w": "characters",
+  "ipa": "ˈkæ.rək.təz",
+  "pos": "noun",
+  "zh": "角色",
+  "ex": "Harry, Hermione and Ron are the main characters in the Harry Potter books."
+ },
+ {
+  "w": "adventures",
+  "ipa": "ədˈven.tʃəz",
+  "pos": "noun",
+  "zh": "冒险",
+  "ex": "They have many adventures together."
+ },
+ {
+  "w": "guardian",
+  "ipa": "ˈɡɑː.di.ən",
+  "pos": "noun",
+  "zh": "监护人； 守卫者",
+  "ex": "Mowgli’s great friend and guardian is a bear called Baloo."
+ },
+ {
+  "w": "escape",
+  "ipa": "ɪˈskeɪp",
+  "pos": "verb",
+  "zh": "逃跑",
+  "ex": "Baloo and Bagheera help him to escape from the tiger."
+ },
+ {
+  "w": "dangerous",
+  "ipa": "ˈdeɪn.dʒər.əs",
+  "pos": "adjective",
+  "zh": "危险的",
+  "ex": "Frodo faces many dangerous situations."
+ },
+ {
+  "w": "series",
+  "ipa": "ˈsɪə.riːz",
+  "pos": "noun",
+  "zh": "系列",
+  "ex": "It is the first of a series of four novels."
+ },
+ {
+  "w": "arguments",
+  "ipa": "ˈɑːɡ.jə.mənts",
+  "pos": "noun",
+  "zh": "争论",
+  "ex": "Elena and Lila are friends, but they have a lot of arguments, too."
+ }
+]

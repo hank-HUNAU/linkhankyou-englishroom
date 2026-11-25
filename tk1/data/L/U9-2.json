@@ -1,0 +1,474 @@
+{
+ "id": "SB_u09_p087_t03",
+ "no": 9.03,
+ "title": "Interview with a Kalahari bushman",
+ "titleZh": "",
+ "audio": "assets/tk1_p087.mp3",
+ "duration": 210.83,
+ "question": null,
+ "unit": 9,
+ "part": "听力",
+ "bookPage": "p087",
+ "srcKey": "SB_u09_p087_t03",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.58,
+   "t2": 10.12,
+   "en": "You know so much about the wildlife here, PK.",
+   "zh": "你对这里的野生动物了解这么多，PK，是怎么回事？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 10.76,
+   "t2": 11.52,
+   "en": "How come?",
+   "zh": "怎么知道的？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 11.84,
+   "t2": 18.773,
+   "en": "My family are San, bush people, and I learned about nature from the time when I was a child.",
+   "zh": "我的家人是桑人，也就是丛林地居民，我从小就了解大自然。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 19.28,
+   "t2": 21.258,
+   "en": "I was born in the Kalahari.",
+   "zh": "我出生在卡拉哈里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 21.72,
+   "t2": 24.94,
+   "en": "And you grew up and found your wife here?",
+   "zh": "你长大后也是在这里找到妻子的？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 24.94,
+   "t2": 29.34,
+   "en": "Yes, finding a wife here was very interesting.",
+   "zh": "是的，在这里找妻子非常有意思。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 30.32,
+   "t2": 31.5,
+   "en": "Tell us more.",
+   "zh": "再给我们讲讲。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 32.22,
+   "t2": 36.072,
+   "en": "Yes, let’s say a young man wants to marry a girl.",
+   "zh": "好吧，假设一个年轻人想娶一个女孩。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 36.28,
+   "t2": 43.874,
+   "en": "So he has to ask her father and he says before you can marry my daughter, you have to do a task.",
+   "zh": "他得去问女孩的父亲，父亲会说，在娶我女儿之前，你必须完成一项任务。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 44.3,
+   "t2": 44.88,
+   "en": "OK.",
+   "zh": "好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 45.4,
+   "t2": 49.74,
+   "en": "So what type of task does the young man have to do, PK?",
+   "zh": "那么年轻人要做哪种任务呢，PK？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 50.44,
+   "t2": 57.06,
+   "en": "Well, for example, he has to show that he can take a kill away from a lion.",
+   "zh": "嗯，比如，他得证明自己能从狮子嘴边夺走猎物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 58.5,
+   "t2": 62.7,
+   "en": "What do you mean ‘take a kill away from a lion’?",
+   "zh": "你说‘从狮子嘴边夺走猎物’是什么意思？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 63.24,
+   "t2": 68.48,
+   "en": "Well, imagine a lion kills an antelope or another large animal.",
+   "zh": "嗯，想象一下，狮子杀死了一只羚羊或另一只大型动物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 69.46,
+   "t2": 75.46,
+   "en": "The young man has to find that lion and get the meat, so he can show that he has courage.",
+   "zh": "年轻人必须找到那头狮子，把肉拿走，这样才能证明自己有勇气。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 76.22,
+   "t2": 78.797,
+   "en": "That’s important for his future family.",
+   "zh": "这对他的未来家庭很重要。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 78.797,
+   "t2": 82.36,
+   "en": "Wow, but how can you do that?",
+   "zh": "哇，可你怎么做得到呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 83.16,
+   "t2": 86.42,
+   "en": "How can you find a lion and its kill?",
+   "zh": "你怎么能找到狮子和它捕获的猎物？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 86.98,
+   "t2": 88.073,
+   "en": "You have to look.",
+   "zh": "你得观察。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 88.28,
+   "t2": 91.9,
+   "en": "You have to look for the big birds, the vultures.",
+   "zh": "你得寻找那些大鸟，也就是秃鹫。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 92.5,
+   "t2": 96.096,
+   "en": "They are watching the lion because they want some of the meat.",
+   "zh": "它们盯着狮子，因为它们也想分一点肉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 96.52,
+   "t2": 101.2,
+   "en": "OK, so let’s say you find the lion and its kill.",
+   "zh": "好，假设你找到了狮子和它的猎物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 101.94,
+   "t2": 104.12,
+   "en": "How can you then get the meat?",
+   "zh": "那你怎么把肉拿走？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 104.86,
+   "t2": 105.86,
+   "en": "Isn’t that dangerous?",
+   "zh": "那不是很危险吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 105.86,
+   "t2": 109.32,
+   "en": "Yes, of course the lion is dangerous.",
+   "zh": "是的，狮子当然很危险。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 109.86,
+   "t2": 112.96,
+   "en": "You mustn’t take the meat away from the lion at night.",
+   "zh": "你不能在晚上把肉从狮子那里拿走。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 113.6,
+   "t2": 115.798,
+   "en": "You have to do that during the day.",
+   "zh": "你必须在白天做这件事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 116.2,
+   "t2": 117.22,
+   "en": "Why’s that?",
+   "zh": "为什么呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 117.68,
+   "t2": 119.966,
+   "en": "During the day it’s very hot.",
+   "zh": "白天天气很热。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 119.966,
+   "t2": 123.82,
+   "en": "And the big cats can’t run fast when it’s hot.",
+   "zh": "而大型猫科动物天热时跑不快。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 124.58,
+   "t2": 129.02,
+   "en": "A man can run even when it’s very hot, but lions can’t.",
+   "zh": "人在很热的时候还能跑，但狮子不行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 129.28,
+   "t2": 129.68,
+   "en": "No?",
+   "zh": "不行吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 130.2,
+   "t2": 131.74,
+   "en": "No, they can’t.",
+   "zh": "不行，它们跑不动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 131.74,
+   "t2": 138.28,
+   "en": "When they eat some meat, they feel very, very hot and get very tired.",
+   "zh": "它们吃了肉以后，会非常非常热，也非常累。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 138.9,
+   "t2": 144.7,
+   "en": "So they often just lie around and they sleep all the time during the day.",
+   "zh": "所以它们常常只是躺着，白天大部分时间都在睡觉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 145.12,
+   "t2": 149.467,
+   "en": "At night they are more dangerous because they don’t sleep.",
+   "zh": "到了晚上，它们更危险，因为它们不睡觉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 150.26,
+   "t2": 153.6,
+   "en": "And at night their eyes are better than your eyes.",
+   "zh": "而且晚上它们的眼睛比你的眼睛更好用。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 153.7,
+   "t2": 156.9,
+   "en": "So you can’t get the kill from the lion at night.",
+   "zh": "所以你不能在晚上从狮子那里夺走猎物。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 156.9,
+   "t2": 161.36,
+   "en": "OK, so you have to do that during the day.",
+   "zh": "好，所以你必须在白天做这件事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 161.68,
+   "t2": 166.54,
+   "en": "But what do you do to get the kill from the lion?",
+   "zh": "可是你要怎么做才能从狮子那里拿到猎物呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 167.12,
+   "t2": 167.76,
+   "en": "OK.",
+   "zh": "好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 168.32,
+   "t2": 171.862,
+   "en": "So let’s say the lion is sleeping.",
+   "zh": "假设狮子正在睡觉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 172.5,
+   "t2": 175.578,
+   "en": "You hold your spear in your hand.",
+   "zh": "你手里握着长矛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 176.08,
+   "t2": 178.96,
+   "en": "You have to be very quiet.",
+   "zh": "你必须非常安静。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 44,
+   "t": 178.96,
+   "t2": 182.24,
+   "en": "And you go up to that lion.",
+   "zh": "然后你走到那头狮子跟前。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 45,
+   "t": 182.24,
+   "t2": 186.44,
+   "en": "Do you attack him with your spear?",
+   "zh": "你要用长矛攻击它吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 46,
+   "t": 187.38,
+   "t2": 187.98,
+   "en": "Kill him?",
+   "zh": "把它杀死？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 47,
+   "t": 188.66,
+   "t2": 190.78,
+   "en": "No, no, no, no.",
+   "zh": "不，不，不，不。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 48,
+   "t": 191.48,
+   "t2": 196.28,
+   "en": "You just go up to him and shout, ‘Arrrrggggghhhhh!’",
+   "zh": "你只要走到它跟前，大喊一声‘啊啊啊啊！’",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 49,
+   "t": 197.16,
+   "t2": 205.775,
+   "en": "You mustn’t hurt him or kill him, just surprise him, shock him, so he runs away.",
+   "zh": "你不能伤害它，也不能杀死它，只要吓它一跳、让它震惊，它就跑掉了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 50,
+   "t": 206.52,
+   "t2": 207.18,
+   "en": "Wow!",
+   "zh": "哇！",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

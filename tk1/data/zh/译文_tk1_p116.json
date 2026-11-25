@@ -1,0 +1,155 @@
+{
+ "passage_key": "u12_116",
+ "page": "p116",
+ "unit": 12,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 29,
+ "n_unique_keys": 29,
+ "entries": [
+  {
+   "i": 0,
+   "en": "‘How do you get to school?’",
+   "zh": "“你怎么去上学？”"
+  },
+  {
+   "i": 1,
+   "en": "This question often gets an answer like ‘By bus’ or ‘I walk’ or ‘My parents take me by car’.",
+   "zh": "这个问题常常会得到这样的回答：“坐公交车”“我走路”或者“我父母开车送我”。"
+  },
+  {
+   "i": 2,
+   "en": "But not always – there are children in many different parts of the world who, every day, have to go on a difficult journey in order to get to their lessons.",
+   "zh": "但情况并不总是这样——世界许多地方的孩子每天都要走上一段艰难的路程才能去上课。"
+  },
+  {
+   "i": 3,
+   "en": "They travel for kilometres on foot, or by boat, bicycle, donkey or train.",
+   "zh": "他们要步行数公里，或者乘船、骑自行车、骑驴或坐火车。"
+  },
+  {
+   "i": 4,
+   "en": "They cross deserts, mountains, rivers, snow and ice: for example, the children of the Iñupiat community in Alaska go to school and then come back when it is dark, in extremely cold temperatures.",
+   "zh": "他们穿越沙漠、高山、河流、冰雪：例如，阿拉斯加伊努皮亚特社区的孩子们上学，天黑后才回来，气温极低。"
+  },
+  {
+   "i": 5,
+   "en": "And they are not the only ones.",
+   "zh": "他们并不是唯一这样的孩子。"
+  },
+  {
+   "i": 6,
+   "en": "Kids in many countries do this and more.",
+   "zh": "许多国家的孩子都是这样，甚至还要面对更多。"
+  },
+  {
+   "i": 7,
+   "en": "These children in Indonesia have to cross a bridge ten metres above a dangerous river to get to their class on time.",
+   "zh": "印度尼西亚的这些孩子要穿过一座高出危险河流十米的桥，才能准时上课。"
+  },
+  {
+   "i": 8,
+   "en": "(Some years ago the bridge fell down after very heavy rain.)",
+   "zh": "（几年前，这座桥在大雨过后塌了。）"
+  },
+  {
+   "i": 9,
+   "en": "Then they walk many more kilometres through the forest to their school in Banten.",
+   "zh": "然后他们还要再走很多公里，穿过森林，去万丹的学校。"
+  },
+  {
+   "i": 10,
+   "en": "A pupil at Gulu Village Primary School, China, rides a donkey as his grandfather walks beside him.",
+   "zh": "中国古卢村小学的一名学生骑着驴，他的祖父走在旁边。"
+  },
+  {
+   "i": 11,
+   "en": "Gulu is a mountain village in a national park.",
+   "zh": "古卢是国家公园里的一个山村。"
+  },
+  {
+   "i": 12,
+   "en": "The school is far away from the village.",
+   "zh": "学校离村子很远。"
+  },
+  {
+   "i": 13,
+   "en": "It is halfway up a mountain, so it takes five hours to climb from the bottom of the mountain to the school.",
+   "zh": "学校在半山腰，所以从山脚爬到学校要花五个小时。"
+  },
+  {
+   "i": 14,
+   "en": "The children have a dangerous journey: the path is only 45 centimetres wide in some places.",
+   "zh": "孩子们的路程很危险：有些地方的小路只有 45 厘米宽。"
+  },
+  {
+   "i": 15,
+   "en": "In Sri Lanka, some children have to cross a piece of wood between two walls of an old castle every morning.",
+   "zh": "在斯里兰卡，有些孩子每天早上要走过一块架在古堡两墙之间的木板。"
+  },
+  {
+   "i": 16,
+   "en": "Their teacher watches them carefully.",
+   "zh": "他们的老师会仔细看着他们。"
+  },
+  {
+   "i": 17,
+   "en": "But in Galle, Sri Lanka, many girls don’t go to school – they have to go to work or get married young.",
+   "zh": "但在斯里兰卡的加勒，许多女孩不去上学——她们不得不早早工作或结婚。"
+  },
+  {
+   "i": 18,
+   "en": "So girls are happy to take a risk in order to get to school.",
+   "zh": "因此，为了上学，女孩们愿意冒险。"
+  },
+  {
+   "i": 19,
+   "en": "Six-year-old Fabricio Oliveira gets on his donkey every morning to ride with his friends for over an hour through a desert region in the very dry Sertão area of northeast Brazil.",
+   "zh": "六岁的法布里西奥·奥利韦拉每天早上骑上驴，和朋友们一起穿越巴西东北部干旱的塞尔陶地区，骑一个多小时。"
+  },
+  {
+   "i": 20,
+   "en": "Their school is in Extrema.",
+   "zh": "他们的学校在埃克斯特雷马。"
+  },
+  {
+   "i": 21,
+   "en": "It’s a tiny village – very few people live there.",
+   "zh": "那是一个很小的村庄——那里几乎没人居住。"
+  },
+  {
+   "i": 22,
+   "en": "These children live in houses on Chetla Road in Delhi, India.",
+   "zh": "这些孩子住在印度德里切特拉路的房子里。"
+  },
+  {
+   "i": 23,
+   "en": "Their homes are near the busy and dangerous railway lines that go to Alipur station.",
+   "zh": "他们的家靠近通往阿利普尔车站的繁忙而危险的铁路线。"
+  },
+  {
+   "i": 24,
+   "en": "Every morning they walk along the tracks to get to their school, 40 minutes away.",
+   "zh": "每天早上，他们沿着铁轨走到 40 分钟路程外的学校。"
+  },
+  {
+   "i": 25,
+   "en": "So one question we can ask is: why do the children do this?",
+   "zh": "所以我们可以问一个问题：孩子们为什么要这样做？"
+  },
+  {
+   "i": 26,
+   "en": "Because their parents make them do it?",
+   "zh": "是因为父母逼他们这样做吗？"
+  },
+  {
+   "i": 27,
+   "en": "The answer, in many cases, is no – it’s because for them going to school means a better future: they hope to get a job and money so they can help their families and their neighbours.",
+   "zh": "在很多情况下，答案并不是这样——因为对他们来说，上学意味着更好的未来：他们希望找到工作、挣到钱，帮助家人和邻居。"
+  },
+  {
+   "i": 28,
+   "en": "And this is why rivers, deserts or danger won’t stop them on their way to school.",
+   "zh": "这就是为什么河流、沙漠或危险都挡不住他们上学的路。"
+  }
+ ]
+}

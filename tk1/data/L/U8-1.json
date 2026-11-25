@@ -1,0 +1,303 @@
+{
+ "id": "SB_u08_p074_t01",
+ "no": 8.01,
+ "title": "Magazine article: The world’s greatest sporting achievements",
+ "titleZh": "",
+ "audio": "assets/tk1_p074.mp3",
+ "duration": 225.15,
+ "question": null,
+ "unit": 8,
+ "part": "阅读A",
+ "bookPage": "p074",
+ "srcKey": "SB_u08_p074_t01",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 10.3,
+   "t2": 13.72,
+   "en": "The world of sport is full of wonderful moments.",
+   "zh": "体育世界充满了精彩瞬间。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 14.54,
+   "t2": 16.347,
+   "en": "Here are our top three.",
+   "zh": "这里是我们评选的三大时刻。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 19.98,
+   "t2": 21.896,
+   "en": "The starting gun went off.",
+   "zh": "发令枪响了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 22.66,
+   "t2": 28.92,
+   "en": "Suddenly, eight athletes were flying down the track in Rio de Janeiro’s Olympic Stadium.",
+   "zh": "突然，八名运动员飞快地冲过里约热内卢奥林匹克体育场的跑道。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 29.92,
+   "t2": 33.146,
+   "en": "Less than 20 seconds later the race was over.",
+   "zh": "不到 20 秒，比赛就结束了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 34.26,
+   "t2": 43.02,
+   "en": "Usain Bolt was walking around the stadium with the Jamaican flag over his shoulders – he was a double Olympic champion … again!",
+   "zh": "尤塞恩·博尔特披着牙买加国旗在体育场里走着——他又一次成为了奥运双料冠军！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 44.32,
+   "t2": 62.92,
+   "en": "Four years earlier, at the 2012 London Olympics, he became the first man to win a gold medal in both the 100m and 200m sprint at a second Olympic Games (he won them both at the 2008 Beijing Olympics, too).",
+   "zh": "四年前的 2012 年伦敦奥运会上，他成为第一位在连续两届奥运会上都赢得 100 米和 200 米短跑金牌的运动员（他在 2008 年北京奥运会上两项都赢了）。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 63.9,
+   "t2": 66.64,
+   "en": "In Rio, he did it for a third time.",
+   "zh": "在里约，他第三次做到了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 67.86,
+   "t2": 83.54,
+   "en": "As well as his eight Olympic gold medals (he won the other two in relay races with other teammates), Bolt also won 11 world championships and currently holds the world record for the 100m and 200m.",
+   "zh": "除了八枚奥运金牌（另外两枚是和队友在接力赛中赢得的），博尔特还赢得了 11 次世界锦标赛冠军，目前保持着 100 米和 200 米的世界纪录。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 84.98,
+   "t2": 87.84,
+   "en": "He is one of the greatest sprinters in history.",
+   "zh": "他是历史上最伟大的短跑运动员之一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 92.06,
+   "t2": 103.584,
+   "en": "Everyone was looking at 15-year-old Romanian gymnast Nadia Comaneci as she left the bars, flew through the air and landed perfectly on the ground.",
+   "zh": "所有人都看着十五岁的罗马尼亚体操运动员纳迪娅·科马内奇，她离开高低杠，飞向空中，然后完美地落在地面上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 104.04,
+   "t2": 105.32,
+   "en": "She turned round.",
+   "zh": "她转过身来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 106.12,
+   "t2": 107.36,
+   "en": "The crowd was cheering.",
+   "zh": "观众在欢呼。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 108.44,
+   "t2": 112.083,
+   "en": "Everyone was waiting nervously for the judges’ score.",
+   "zh": "大家都在紧张地等待裁判的打分。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 112.64,
+   "t2": 113.48,
+   "en": "Then it came.",
+   "zh": "然后分数出来了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 114.56,
+   "t2": 117.34,
+   "en": "The scoreboard was showing ‘1.00’.",
+   "zh": "记分牌上显示“1.00”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 119.62,
+   "t2": 121.6,
+   "en": "The crowd was confused.",
+   "zh": "观众都糊涂了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 122.62,
+   "t2": 124.68,
+   "en": "But then the organisers explained.",
+   "zh": "但后来组织者作出了解释。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 125.68,
+   "t2": 131.14,
+   "en": "The makers of the scoreboards thought it was impossible to get a perfect score of 10.",
+   "zh": "记分牌的制造者认为不可能得到满分 10 分。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 131.8,
+   "t2": 135.1,
+   "en": "The boards were not able to show ‘10.00’.",
+   "zh": "记分牌无法显示“10.00”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 137.44,
+   "t2": 149.548,
+   "en": "So, on 18 July 1976, at the Montreal Olympics, Nadia made history when she became the first gymnast ever to get a perfect ten.",
+   "zh": "于是，在 1976 年 7 月 18 日的蒙特利尔奥运会上，纳迪娅创造了历史，成为第一位获得满分的体操运动员。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 150.14,
+   "t2": 160.67,
+   "en": "She got six more ‘perfect scores’ at the games and won three gold medals, making her one of the best athletes in her sport of all time.",
+   "zh": "她在那届运动会上又拿了六个满分，并赢得三枚金牌，成为她那个项目历史上最优秀的运动员之一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 165.18,
+   "t2": 166.603,
+   "en": "It was the final lap.",
+   "zh": "这是最后一圈。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 167.56,
+   "t2": 175.1,
+   "en": "Roger Bannister was running fast, but could he really become the first person to run a mile in under four minutes?",
+   "zh": "罗杰·班尼斯特跑得很快，但他真的能成为第一个在 4 分钟内跑完一英里的人吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 176.26,
+   "t2": 180.407,
+   "en": "A minute later, he was lying exhausted on the ground.",
+   "zh": "一分钟后，他精疲力尽地躺在地上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 181.46,
+   "t2": 188.6,
+   "en": "Then, there was an announcement of his time: ‘3 minutes, 59.4 seconds.’",
+   "zh": "然后，播报员宣布了他的成绩：“3 分 59.4 秒。”",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 189.52,
+   "t2": 191.16,
+   "en": "The crowd went crazy.",
+   "zh": "观众都疯狂了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 192.84,
+   "t2": 200.667,
+   "en": "Before 6 May 1954, experts said that a four-minute mile was impossible to run.",
+   "zh": "在 1954 年 5 月 6 日之前，专家们说 4 分钟跑完一英里是不可能的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 201.5,
+   "t2": 203.778,
+   "en": "Roger showed them that they were wrong.",
+   "zh": "罗杰向他们证明他们错了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 204.66,
+   "t2": 212.428,
+   "en": "He planned to stop running after the 1952 Summer Olympics, but there he only came in fourth place.",
+   "zh": "他原计划在 1952 年夏季奥运会后停止跑步，但在那里他只获得了第四名。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 212.428,
+   "t2": 217.52,
+   "en": "Without a medal, Roger wanted to show how good he was.",
+   "zh": "没有奖牌，罗杰想证明自己有多厉害。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 218.46,
+   "t2": 221.84,
+   "en": "In 1954, he did exactly that.",
+   "zh": "1954 年，他做到了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

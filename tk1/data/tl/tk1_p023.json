@@ -1,0 +1,264 @@
+{
+ "unit": "U2",
+ "passage_key": "u2_023",
+ "page": "p023",
+ "title": "Listening: Shopping conversations",
+ "type": "听力",
+ "n_sent": 36,
+ "duration_s": 143.05,
+ "source": "Think 1 alignment/SB_u02_p023_t04（句级对齐，双写 data/tl+alignment）；译文取自 data/zh 英中句对齐",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.14,
+   "end_s": 10.46,
+   "dur_s": 1.32,
+   "text": "Hello. Can I help you?"
+  },
+  {
+   "i": 1,
+   "start_s": 10.82,
+   "end_s": 14.28,
+   "dur_s": 3.46,
+   "text": "Hi. Yes, where can I find toothbrushes?"
+  },
+  {
+   "i": 2,
+   "start_s": 15.32,
+   "end_s": 17.22,
+   "dur_s": 1.9,
+   "text": "They’re just there on your right."
+  },
+  {
+   "i": 3,
+   "start_s": 17.64,
+   "end_s": 21.94,
+   "dur_s": 4.3,
+   "text": "Oh yes. I didn’t see them. OK, I’ll take this one."
+  },
+  {
+   "i": 4,
+   "start_s": 22.68,
+   "end_s": 23.36,
+   "dur_s": 0.68,
+   "text": "Is that all?"
+  },
+  {
+   "i": 5,
+   "start_s": 23.86,
+   "end_s": 26.08,
+   "dur_s": 2.22,
+   "text": "No, there’s this toothpaste, too."
+  },
+  {
+   "i": 6,
+   "start_s": 26.56,
+   "end_s": 29.38,
+   "dur_s": 2.82,
+   "text": "OK. So that’s £4.30."
+  },
+  {
+   "i": 7,
+   "start_s": 30.74,
+   "end_s": 31.25,
+   "dur_s": 0.51,
+   "text": "Here you are."
+  },
+  {
+   "i": 8,
+   "start_s": 31.25,
+   "end_s": 35.33,
+   "dur_s": 4.08,
+   "text": "And that’s 70p change. Have a nice day."
+  },
+  {
+   "i": 9,
+   "start_s": 35.63,
+   "end_s": 36.13,
+   "dur_s": 0.5,
+   "text": "Thank you."
+  },
+  {
+   "i": 10,
+   "start_s": 41.8,
+   "end_s": 43.06,
+   "dur_s": 1.26,
+   "text": "Are you all right there?"
+  },
+  {
+   "i": 11,
+   "start_s": 43.58,
+   "end_s": 48.94,
+   "dur_s": 5.36,
+   "text": "Yes, thanks. I just want a cover for my new phone. Have you got this one in red?"
+  },
+  {
+   "i": 12,
+   "start_s": 49.5,
+   "end_s": 51.16,
+   "dur_s": 1.66,
+   "text": "Sorry, only black."
+  },
+  {
+   "i": 13,
+   "start_s": 51.7,
+   "end_s": 54.28,
+   "dur_s": 2.58,
+   "text": "OK, black’s fine. I’ll take it."
+  },
+  {
+   "i": 14,
+   "start_s": 54.28,
+   "end_s": 58.06,
+   "dur_s": 3.78,
+   "text": "Right. That’s twelve ninety-nine please."
+  },
+  {
+   "i": 15,
+   "start_s": 58.58,
+   "end_s": 60.68,
+   "dur_s": 2.1,
+   "text": "Can I pay with my contactless card?"
+  },
+  {
+   "i": 16,
+   "start_s": 61.08,
+   "end_s": 64.3,
+   "dur_s": 3.22,
+   "text": "Of course. Just place it over here."
+  },
+  {
+   "i": 17,
+   "start_s": 64.96,
+   "end_s": 65.28,
+   "dur_s": 0.32,
+   "text": "OK."
+  },
+  {
+   "i": 18,
+   "start_s": 66.2,
+   "end_s": 70.26,
+   "dur_s": 4.06,
+   "text": "Great. That’s gone through. Would you like your receipt?"
+  },
+  {
+   "i": 19,
+   "start_s": 70.86,
+   "end_s": 71.76,
+   "dur_s": 0.9,
+   "text": "No, it’s OK."
+  },
+  {
+   "i": 20,
+   "start_s": 77.94,
+   "end_s": 79.3,
+   "dur_s": 1.36,
+   "text": "Do you need any help?"
+  },
+  {
+   "i": 21,
+   "start_s": 80.06,
+   "end_s": 84.06,
+   "dur_s": 4.0,
+   "text": "Hi. These trousers – can I try them on, please?"
+  },
+  {
+   "i": 22,
+   "start_s": 84.72,
+   "end_s": 86.74,
+   "dur_s": 2.02,
+   "text": "Sure. What size do you take?"
+  },
+  {
+   "i": 23,
+   "start_s": 88.02,
+   "end_s": 91.98,
+   "dur_s": 3.96,
+   "text": "Not sure. 28 or 30."
+  },
+  {
+   "i": 24,
+   "start_s": 92.54,
+   "end_s": 96.48,
+   "dur_s": 3.94,
+   "text": "And do you want them in red? We’ve got other colours, too."
+  },
+  {
+   "i": 25,
+   "start_s": 96.96,
+   "end_s": 101.16,
+   "dur_s": 4.2,
+   "text": "Yes, I saw them but it’s the red ones I’m interested in."
+  },
+  {
+   "i": 26,
+   "start_s": 101.16,
+   "end_s": 107.99,
+   "dur_s": 6.83,
+   "text": "No problem. So why don’t you try both sizes? The changing rooms are in the corner."
+  },
+  {
+   "i": 27,
+   "start_s": 108.63,
+   "end_s": 109.03,
+   "dur_s": 0.4,
+   "text": "Thanks!"
+  },
+  {
+   "i": 28,
+   "start_s": 115.52,
+   "end_s": 116.44,
+   "dur_s": 0.92,
+   "text": "Can I help you?"
+  },
+  {
+   "i": 29,
+   "start_s": 116.84,
+   "end_s": 121.84,
+   "dur_s": 5.0,
+   "text": "Yeah. These football socks. How much are they? I can’t find the price."
+  },
+  {
+   "i": 30,
+   "start_s": 122.3,
+   "end_s": 126.3,
+   "dur_s": 4.0,
+   "text": "Just a moment. They’re eight ninety-nine."
+  },
+  {
+   "i": 31,
+   "start_s": 127.04,
+   "end_s": 128.37,
+   "dur_s": 1.33,
+   "text": "Fine. I’ll take them."
+  },
+  {
+   "i": 32,
+   "start_s": 128.67,
+   "end_s": 131.23,
+   "dur_s": 2.56,
+   "text": "OK, is that cash or card?"
+  },
+  {
+   "i": 33,
+   "start_s": 131.83,
+   "end_s": 132.17,
+   "dur_s": 0.34,
+   "text": "Cash."
+  },
+  {
+   "i": 34,
+   "start_s": 132.89,
+   "end_s": 136.7,
+   "dur_s": 3.81,
+   "text": "That’s great and here’s your change and receipt."
+  },
+  {
+   "i": 35,
+   "start_s": 137.22,
+   "end_s": 137.6,
+   "dur_s": 0.38,
+   "text": "Thanks."
+  }
+ ]
+}

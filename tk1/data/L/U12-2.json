@@ -1,0 +1,438 @@
+{
+ "id": "SB_u12_p113_t02",
+ "no": 12.02,
+ "title": "Listening: Richard Ward on travelling well",
+ "titleZh": "",
+ "audio": "assets/tk1_p113.mp3",
+ "duration": 181.45,
+ "question": null,
+ "unit": 12,
+ "part": "听力",
+ "bookPage": "p113",
+ "srcKey": "SB_u12_p113_t02",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 8.4,
+   "t2": 9.2,
+   "en": "Hello again.",
+   "zh": "大家好，又见面了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 9.82,
+   "t2": 10.14,
+   "en": "Right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 10.84,
+   "t2": 13.3,
+   "en": "He’s visited more than a hundred countries.",
+   "zh": "他走访了 100 多个国家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 13.96,
+   "t2": 18.6,
+   "en": "He’s taken thousands of photos and published them in travel magazines.",
+   "zh": "他拍了数千张照片，并把它们发表在旅游杂志上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 19.319,
+   "t2": 22.1,
+   "en": "He’s got a very popular travel blog.",
+   "zh": "他有一个很受欢迎的旅行博客。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 22.7,
+   "t2": 27.52,
+   "en": "But he’s taken a break today to talk about how to travel well.",
+   "zh": "但今天他抽出时间，谈谈如何把旅行安排得更好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 28.3,
+   "t2": 30.82,
+   "en": "Richard Ward, thank you for coming today.",
+   "zh": "理查德·沃德，谢谢你今天来到这里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 31.28,
+   "t2": 32.334,
+   "en": "Thanks for inviting me.",
+   "zh": "谢谢你们邀请我。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 32.92,
+   "t2": 37.04,
+   "en": "So you’ve just completed your tenth year of travelling.",
+   "zh": "这么说，你刚刚完成了第十年的旅行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 37.58,
+   "t2": 38.208,
+   "en": "That’s right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 38.557,
+   "t2": 42.144,
+   "en": "Ten years without spending more than a week back home.",
+   "zh": "十年里，每次回家都没超过一周。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 42.62,
+   "t2": 44.02,
+   "en": "Well, my parents’ home.",
+   "zh": "嗯，是我父母的家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 44.52,
+   "t2": 45.987,
+   "en": "I’ve never had my own home.",
+   "zh": "我从来没有自己的家。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 46.48,
+   "t2": 53.29,
+   "en": "And to celebrate your ten years, you’ve made a list of top things to do when you travel.",
+   "zh": "为了庆祝这十年，你列出了一份旅行时最该做的事情清单。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 53.29,
+   "t2": 54.08,
+   "en": "That’s right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 54.52,
+   "t2": 57.945,
+   "en": "And I’m hoping to publish them in a book later this year.",
+   "zh": "我希望今年晚些时候把它们出版成书。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 58.42,
+   "t2": 60.7,
+   "en": "Have you ever written a book before?",
+   "zh": "你以前写过书吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 61.22,
+   "t2": 62.22,
+   "en": "No, I haven’t.",
+   "zh": "不，我没有。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 62.66,
+   "t2": 64.38,
+   "en": "This will be my first.",
+   "zh": "这将是我的第一本书。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 64.8,
+   "t2": 65.42,
+   "en": "How exciting.",
+   "zh": "真令人兴奋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 66.154,
+   "t2": 70.54,
+   "en": "Now, on your website, there are twenty tips for travelling.",
+   "zh": "现在，你的网站上有二十条旅行建议。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 71.181,
+   "t2": 76.8,
+   "en": "We can’t talk about all of them so can I ask you, what’s your number one tip?",
+   "zh": "我们没法全谈，所以我能问一下，你最重要的建议是什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 76.8,
+   "t2": 79.36,
+   "en": "Well, that’s difficult.",
+   "zh": "嗯，这很难说。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 80.18,
+   "t2": 82.26,
+   "en": "My number one?",
+   "zh": "我最重要的建议？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 82.26,
+   "t2": 82.56,
+   "en": "Hmm.",
+   "zh": "嗯……",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 82.56,
+   "t2": 83.32,
+   "en": "OK.",
+   "zh": "好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 85.02,
+   "t2": 88.78,
+   "en": "I’m going to say: ‘Get off the beaten track’.",
+   "zh": "我要说的是：“走别人少走的路”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 89.48,
+   "t2": 93.936,
+   "en": "I mean, try and go to places that other people don’t go to.",
+   "zh": "我是说，试着去别人不去的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 94.52,
+   "t2": 99.96,
+   "en": "Of course, it’s great to see all those famous places that everyone wants to see.",
+   "zh": "当然，去看看那些人人都想看的名胜很棒。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 100.36,
+   "t2": 108.402,
+   "en": "But if you explore a bit further, go to other places, you’ll discover much more interesting things, you know?",
+   "zh": "但如果你再多探索一点，去别的地方，你会发现更有趣的东西，你知道吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 109.02,
+   "t2": 116.3,
+   "en": "On my blog I talk about an important difference: the difference between travellers and tourists.",
+   "zh": "我在博客里谈到一个重要区别：旅行者和游客的区别。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 117.28,
+   "t2": 120.697,
+   "en": "A tourist always stays on the beaten track.",
+   "zh": "游客总是走常规路线。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 121.18,
+   "t2": 123.24,
+   "en": "A traveller likes to leave it.",
+   "zh": "旅行者则喜欢离开常规路线。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 124.0,
+   "t2": 126.489,
+   "en": "Of course, you might get lost …",
+   "zh": "当然，你可能会迷路……",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 126.62,
+   "t2": 128.54,
+   "en": "And have you ever got lost?",
+   "zh": "那你迷过路吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 128.76,
+   "t2": 130.84,
+   "en": "Oh yes, hundreds of times.",
+   "zh": "哦，当然，有几百次。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 130.84,
+   "t2": 135.74,
+   "en": "In fact another of my tips is ‘try to get lost’!",
+   "zh": "事实上，我的另一条建议是“试着迷路”！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 136.64,
+   "t2": 138.48,
+   "en": "It’s part of the fun of travelling.",
+   "zh": "这是旅行的乐趣之一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 139.28,
+   "t2": 145.48,
+   "en": "If you get lost sometimes, you can find amazing things, great people.",
+   "zh": "如果有时迷路，你可能会发现惊人的事物，遇到很棒的人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 146.1,
+   "t2": 150.56,
+   "en": "OK, let’s talk about things to take with you.",
+   "zh": "好，我们谈谈要随身带的东西。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 151.1,
+   "t2": 154.94,
+   "en": "Another tip you have is: ‘always take a scarf’.",
+   "zh": "你的另一条建议是“总要带一条围巾”。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 155.84,
+   "t2": 156.26,
+   "en": "Why?",
+   "zh": "为什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 156.26,
+   "t2": 160.496,
+   "en": "Well, a scarf is a really useful thing.",
+   "zh": "嗯，围巾真的很有用。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 160.96,
+   "t2": 165.674,
+   "en": "You can wrap it around you to keep you warm or to keep the sun off.",
+   "zh": "你可以把它围在身上保暖，也可以遮阳。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 44,
+   "t": 166.32,
+   "t2": 170.08,
+   "en": "You can carry things in it, too, or tie things together.",
+   "zh": "你还可以用它包东西，或者把东西系在一起。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 45,
+   "t": 170.92,
+   "t2": 173.6,
+   "en": "Well, I want to talk some more, Richard.",
+   "zh": "嗯，我还想再聊一会儿，理查德。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 46,
+   "t": 174.06,
+   "t2": 176.16,
+   "en": "But first it’s time for some music and …",
+   "zh": "但首先是音乐时间，而且……",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

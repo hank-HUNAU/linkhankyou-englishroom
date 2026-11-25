@@ -1,0 +1,190 @@
+{
+ "passage_key": "u2_023",
+ "page": "p023",
+ "unit": 2,
+ "standard": "音译专名统一 + 自然意译；一句一译；键取自对齐原串（Think 1 11-18/11-19 已验收译文）",
+ "n_sent": 36,
+ "n_unique_keys": 36,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Hello. Can I help you?",
+   "zh": "您好。需要帮忙吗？"
+  },
+  {
+   "i": 1,
+   "en": "Hi. Yes, where can I find toothbrushes?",
+   "zh": "嗨，是的。请问牙刷在哪儿？"
+  },
+  {
+   "i": 2,
+   "en": "They’re just there on your right.",
+   "zh": "就在您右边那儿。"
+  },
+  {
+   "i": 3,
+   "en": "Oh yes. I didn’t see them. OK, I’ll take this one.",
+   "zh": "哦，对。我没看见。好，我拿这个。"
+  },
+  {
+   "i": 4,
+   "en": "Is that all?",
+   "zh": "就这些吗？"
+  },
+  {
+   "i": 5,
+   "en": "No, there’s this toothpaste, too.",
+   "zh": "不，还有这个牙膏。"
+  },
+  {
+   "i": 6,
+   "en": "OK. So that’s £4.30.",
+   "zh": "好。那一共是 4.30 英镑。"
+  },
+  {
+   "i": 7,
+   "en": "Here you are.",
+   "zh": "给您。"
+  },
+  {
+   "i": 8,
+   "en": "And that’s 70p change. Have a nice day.",
+   "zh": "这是找您的 70 便士。祝您愉快。"
+  },
+  {
+   "i": 9,
+   "en": "Thank you.",
+   "zh": "谢谢。"
+  },
+  {
+   "i": 10,
+   "en": "Are you all right there?",
+   "zh": "您那边还好吗？"
+  },
+  {
+   "i": 11,
+   "en": "Yes, thanks. I just want a cover for my new phone. Have you got this one in red?",
+   "zh": "是的，谢谢。我只想给新手机买个保护套。你们有红色的这种吗？"
+  },
+  {
+   "i": 12,
+   "en": "Sorry, only black.",
+   "zh": "抱歉，只有黑色的。"
+  },
+  {
+   "i": 13,
+   "en": "OK, black’s fine. I’ll take it.",
+   "zh": "好，黑色的也行。我买了。"
+  },
+  {
+   "i": 14,
+   "en": "Right. That’s twelve ninety-nine please.",
+   "zh": "好的。一共 12.99 英镑。"
+  },
+  {
+   "i": 15,
+   "en": "Can I pay with my contactless card?",
+   "zh": "我可以用非接触式银行卡付款吗？"
+  },
+  {
+   "i": 16,
+   "en": "Of course. Just place it over here.",
+   "zh": "当然。把它放在这儿就行。"
+  },
+  {
+   "i": 17,
+   "en": "OK.",
+   "zh": "好。"
+  },
+  {
+   "i": 18,
+   "en": "Great. That’s gone through. Would you like your receipt?",
+   "zh": "太好了，交易成功。您需要小票吗？"
+  },
+  {
+   "i": 19,
+   "en": "No, it’s OK.",
+   "zh": "不用，谢谢。"
+  },
+  {
+   "i": 20,
+   "en": "Do you need any help?",
+   "zh": "需要帮忙吗？"
+  },
+  {
+   "i": 21,
+   "en": "Hi. These trousers – can I try them on, please?",
+   "zh": "嗨。这条裤子——我可以试穿吗？"
+  },
+  {
+   "i": 22,
+   "en": "Sure. What size do you take?",
+   "zh": "当然。您穿什么尺码？"
+  },
+  {
+   "i": 23,
+   "en": "Not sure. 28 or 30.",
+   "zh": "不确定。28 或 30。"
+  },
+  {
+   "i": 24,
+   "en": "And do you want them in red? We’ve got other colours, too.",
+   "zh": "您想要红色的吗？我们还有别的颜色。"
+  },
+  {
+   "i": 25,
+   "en": "Yes, I saw them but it’s the red ones I’m interested in.",
+   "zh": "是的，我看到了，不过我感兴趣的是红色的。"
+  },
+  {
+   "i": 26,
+   "en": "No problem. So why don’t you try both sizes? The changing rooms are in the corner.",
+   "zh": "没问题。那您两个尺码都试试怎么样？试衣间在角落。"
+  },
+  {
+   "i": 27,
+   "en": "Thanks!",
+   "zh": "谢谢！"
+  },
+  {
+   "i": 28,
+   "en": "Can I help you?",
+   "zh": "需要帮忙吗？"
+  },
+  {
+   "i": 29,
+   "en": "Yeah. These football socks. How much are they? I can’t find the price.",
+   "zh": "是的。这些足球袜多少钱？我找不到价格。"
+  },
+  {
+   "i": 30,
+   "en": "Just a moment. They’re eight ninety-nine.",
+   "zh": "稍等。它们是 8.99 英镑。"
+  },
+  {
+   "i": 31,
+   "en": "Fine. I’ll take them.",
+   "zh": "好，我买了。"
+  },
+  {
+   "i": 32,
+   "en": "OK, is that cash or card?",
+   "zh": "好的，现金还是刷卡？"
+  },
+  {
+   "i": 33,
+   "en": "Cash.",
+   "zh": "现金。"
+  },
+  {
+   "i": 34,
+   "en": "That’s great and here’s your change and receipt.",
+   "zh": "好的，这是找零和小票。"
+  },
+  {
+   "i": 35,
+   "en": "Thanks.",
+   "zh": "谢谢。"
+  }
+ ]
+}

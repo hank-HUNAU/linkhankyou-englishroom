@@ -1,0 +1,236 @@
+{
+ "unit": "U8",
+ "passage_key": "u8_74",
+ "page": "p074",
+ "title": "Magazine article: The world’s greatest sporting achievements",
+ "type": "阅读A",
+ "n_sent": 32,
+ "duration_s": 225.15,
+ "source": "Think 1 U8 增量：alignment/SB_u08_p074_t01 + 译文_tk1_p074.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 10.3,
+   "end_s": 13.72,
+   "dur_s": 3.42,
+   "text": "The world of sport is full of wonderful moments."
+  },
+  {
+   "i": 1,
+   "start_s": 14.54,
+   "end_s": 16.347,
+   "dur_s": 1.807,
+   "text": "Here are our top three."
+  },
+  {
+   "i": 2,
+   "start_s": 19.98,
+   "end_s": 21.896,
+   "dur_s": 1.916,
+   "text": "The starting gun went off."
+  },
+  {
+   "i": 3,
+   "start_s": 22.66,
+   "end_s": 28.92,
+   "dur_s": 6.26,
+   "text": "Suddenly, eight athletes were flying down the track in Rio de Janeiro’s Olympic Stadium."
+  },
+  {
+   "i": 4,
+   "start_s": 29.92,
+   "end_s": 33.146,
+   "dur_s": 3.226,
+   "text": "Less than 20 seconds later the race was over."
+  },
+  {
+   "i": 5,
+   "start_s": 34.26,
+   "end_s": 43.02,
+   "dur_s": 8.76,
+   "text": "Usain Bolt was walking around the stadium with the Jamaican flag over his shoulders – he was a double Olympic champion … again!"
+  },
+  {
+   "i": 6,
+   "start_s": 44.32,
+   "end_s": 62.92,
+   "dur_s": 18.6,
+   "text": "Four years earlier, at the 2012 London Olympics, he became the first man to win a gold medal in both the 100m and 200m sprint at a second Olympic Games (he won them both at the 2008 Beijing Olympics, too)."
+  },
+  {
+   "i": 7,
+   "start_s": 63.9,
+   "end_s": 66.64,
+   "dur_s": 2.74,
+   "text": "In Rio, he did it for a third time."
+  },
+  {
+   "i": 8,
+   "start_s": 67.86,
+   "end_s": 83.54,
+   "dur_s": 15.68,
+   "text": "As well as his eight Olympic gold medals (he won the other two in relay races with other teammates), Bolt also won 11 world championships and currently holds the world record for the 100m and 200m."
+  },
+  {
+   "i": 9,
+   "start_s": 84.98,
+   "end_s": 87.84,
+   "dur_s": 2.86,
+   "text": "He is one of the greatest sprinters in history."
+  },
+  {
+   "i": 10,
+   "start_s": 92.06,
+   "end_s": 103.584,
+   "dur_s": 11.524,
+   "text": "Everyone was looking at 15-year-old Romanian gymnast Nadia Comaneci as she left the bars, flew through the air and landed perfectly on the ground."
+  },
+  {
+   "i": 11,
+   "start_s": 104.04,
+   "end_s": 105.32,
+   "dur_s": 1.28,
+   "text": "She turned round."
+  },
+  {
+   "i": 12,
+   "start_s": 106.12,
+   "end_s": 107.36,
+   "dur_s": 1.24,
+   "text": "The crowd was cheering."
+  },
+  {
+   "i": 13,
+   "start_s": 108.44,
+   "end_s": 112.083,
+   "dur_s": 3.643,
+   "text": "Everyone was waiting nervously for the judges’ score."
+  },
+  {
+   "i": 14,
+   "start_s": 112.64,
+   "end_s": 113.48,
+   "dur_s": 0.84,
+   "text": "Then it came."
+  },
+  {
+   "i": 15,
+   "start_s": 114.56,
+   "end_s": 117.34,
+   "dur_s": 2.78,
+   "text": "The scoreboard was showing ‘1.00’."
+  },
+  {
+   "i": 16,
+   "start_s": 119.62,
+   "end_s": 121.6,
+   "dur_s": 1.98,
+   "text": "The crowd was confused."
+  },
+  {
+   "i": 17,
+   "start_s": 122.62,
+   "end_s": 124.68,
+   "dur_s": 2.06,
+   "text": "But then the organisers explained."
+  },
+  {
+   "i": 18,
+   "start_s": 125.68,
+   "end_s": 131.14,
+   "dur_s": 5.46,
+   "text": "The makers of the scoreboards thought it was impossible to get a perfect score of 10."
+  },
+  {
+   "i": 19,
+   "start_s": 131.8,
+   "end_s": 135.1,
+   "dur_s": 3.3,
+   "text": "The boards were not able to show ‘10.00’."
+  },
+  {
+   "i": 20,
+   "start_s": 137.44,
+   "end_s": 149.548,
+   "dur_s": 12.108,
+   "text": "So, on 18 July 1976, at the Montreal Olympics, Nadia made history when she became the first gymnast ever to get a perfect ten."
+  },
+  {
+   "i": 21,
+   "start_s": 150.14,
+   "end_s": 160.67,
+   "dur_s": 10.53,
+   "text": "She got six more ‘perfect scores’ at the games and won three gold medals, making her one of the best athletes in her sport of all time."
+  },
+  {
+   "i": 22,
+   "start_s": 165.18,
+   "end_s": 166.603,
+   "dur_s": 1.423,
+   "text": "It was the final lap."
+  },
+  {
+   "i": 23,
+   "start_s": 167.56,
+   "end_s": 175.1,
+   "dur_s": 7.54,
+   "text": "Roger Bannister was running fast, but could he really become the first person to run a mile in under four minutes?"
+  },
+  {
+   "i": 24,
+   "start_s": 176.26,
+   "end_s": 180.407,
+   "dur_s": 4.147,
+   "text": "A minute later, he was lying exhausted on the ground."
+  },
+  {
+   "i": 25,
+   "start_s": 181.46,
+   "end_s": 188.6,
+   "dur_s": 7.14,
+   "text": "Then, there was an announcement of his time: ‘3 minutes, 59.4 seconds.’"
+  },
+  {
+   "i": 26,
+   "start_s": 189.52,
+   "end_s": 191.16,
+   "dur_s": 1.64,
+   "text": "The crowd went crazy."
+  },
+  {
+   "i": 27,
+   "start_s": 192.84,
+   "end_s": 200.667,
+   "dur_s": 7.827,
+   "text": "Before 6 May 1954, experts said that a four-minute mile was impossible to run."
+  },
+  {
+   "i": 28,
+   "start_s": 201.5,
+   "end_s": 203.778,
+   "dur_s": 2.278,
+   "text": "Roger showed them that they were wrong."
+  },
+  {
+   "i": 29,
+   "start_s": 204.66,
+   "end_s": 212.428,
+   "dur_s": 7.768,
+   "text": "He planned to stop running after the 1952 Summer Olympics, but there he only came in fourth place."
+  },
+  {
+   "i": 30,
+   "start_s": 212.428,
+   "end_s": 217.52,
+   "dur_s": 5.092,
+   "text": "Without a medal, Roger wanted to show how good he was."
+  },
+  {
+   "i": 31,
+   "start_s": 218.46,
+   "end_s": 221.84,
+   "dur_s": 3.38,
+   "text": "In 1954, he did exactly that."
+  }
+ ]
+}

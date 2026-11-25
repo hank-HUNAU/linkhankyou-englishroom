@@ -1,0 +1,420 @@
+{
+ "id": "SB_u05_p051_t06",
+ "no": 5.06,
+ "title": "Listening: Radio show – favourite rooms",
+ "titleZh": "",
+ "audio": "assets/tk1_p051.mp3",
+ "duration": 176.67,
+ "question": null,
+ "unit": 5,
+ "part": "听力",
+ "bookPage": "p051",
+ "srcKey": "SB_u05_p051_t06",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 7.34,
+   "t2": 14.56,
+   "en": "So today we have a question for listeners, and it is: what’s your favourite room, and why?",
+   "zh": "所以今天我们有一个问题要问听众：你最喜欢的房间是哪个，为什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 15.14,
+   "t2": 17.94,
+   "en": "Our first caller is … hello.",
+   "zh": "我们的第一位来电者是……你好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 18.3,
+   "t2": 19.12,
+   "en": "What’s your name?",
+   "zh": "你叫什么名字？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 19.62,
+   "t2": 21.76,
+   "en": "Hi there! My name’s Jo.",
+   "zh": "你好！我叫乔。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 22.56,
+   "t2": 26.5,
+   "en": "OK Jo, so tell us, what’s your favourite room?",
+   "zh": "好的乔，跟大家说说，你最喜欢的房间是什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 27.06,
+   "t2": 29.582,
+   "en": "It’s my grandfather’s playroom.",
+   "zh": "是我祖父的游戏室。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 29.582,
+   "t2": 33.6,
+   "en": "Your grandfather’s got a playroom? Really?",
+   "zh": "你祖父有个游戏室？真的吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 34.18,
+   "t2": 34.62,
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 35.08,
+   "t2": 37.48,
+   "en": "It’s the room with his model trains.",
+   "zh": "就是放他的火车模型的那间屋。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 38.14,
+   "t2": 42.18,
+   "en": "My grandad still lives in the house he lived in when he was a boy.",
+   "zh": "我爷爷至今还住在他小时候住的那栋房子里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 42.18,
+   "t2": 45.94,
+   "en": "And he has a little room with his trains.",
+   "zh": "他有一间小屋子放他的火车。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 45.94,
+   "t2": 48.76,
+   "en": "I love looking at his trains.",
+   "zh": "我喜欢看他的火车。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 49.3,
+   "t2": 53.081,
+   "en": "OK. And why is it special for you?",
+   "zh": "好的。那这间房对你为什么特别呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 53.081,
+   "t2": 60.04,
+   "en": "Because he’s so happy there, and we sit and talk, and I feel very relaxed.",
+   "zh": "因为他在那儿特别开心，我们会坐着聊天，我感觉非常放松。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 60.5,
+   "t2": 61.16,
+   "en": "It’s lovely.",
+   "zh": "那种感觉真好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 61.81,
+   "t2": 63.58,
+   "en": "It sounds great, Jo.",
+   "zh": "听起来真不错，乔。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 64.0,
+   "t2": 64.772,
+   "en": "Thank you.",
+   "zh": "谢谢你。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 65.45,
+   "t2": 70.147,
+   "en": "Now who’s next? What’s your name and what’s your favourite room?",
+   "zh": "下一位是谁？你叫什么名字，最喜欢的房间是什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 70.62,
+   "t2": 71.041,
+   "en": "Hi.",
+   "zh": "你好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 71.54,
+   "t2": 76.138,
+   "en": "I’m Andrew and my favourite room is the music room at my school.",
+   "zh": "我是安德鲁，我最喜欢的房间是我们学校的音乐教室。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 76.66,
+   "t2": 79.25,
+   "en": "OK, Andrew. And why’s that?",
+   "zh": "好的，安德鲁。为什么是它呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 79.58,
+   "t2": 88.503,
+   "en": "It’s because I love playing the drums, but I can’t have drums at home, so I go into the music room at school and practise there.",
+   "zh": "因为我喜欢打架子鼓，但家里放不下鼓，所以我会去学校的音乐教室练习。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 89.02,
+   "t2": 89.92,
+   "en": "After school.",
+   "zh": "放学以后去。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 90.08,
+   "t2": 91.1,
+   "en": "No one cares.",
+   "zh": "没人在意。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 91.7,
+   "t2": 93.193,
+   "en": "I have a lot of fun!",
+   "zh": "我玩得特别开心！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 94.02,
+   "t2": 96.862,
+   "en": "Sounds good to me! Thanks, Andrew.",
+   "zh": "听起来不错！谢谢安德鲁。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 96.862,
+   "t2": 99.9,
+   "en": "Next caller please! Hello!",
+   "zh": "下一位来电者请讲话！你好！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 100.92,
+   "t2": 102.7,
+   "en": "Hello, I’m Paula.",
+   "zh": "你好，我是宝拉。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 103.5,
+   "t2": 107.12,
+   "en": "My favourite room is our kitchen at home.",
+   "zh": "我最喜欢的房间是我们家的厨房。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 107.86,
+   "t2": 114.5,
+   "en": "I love it there because that’s where all of us sit and have our breakfast and dinner, and we’re a family together.",
+   "zh": "我喜欢待在那里，因为我们全家都坐在那里吃早餐和晚餐，我们是一家人在一起。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 115.11,
+   "t2": 118.48,
+   "en": "It makes me feel really nice and warm.",
+   "zh": "它让我感觉特别温暖舒心。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 119.66,
+   "t2": 122.82,
+   "en": "Nice and warm. That’s a good reason.",
+   "zh": "温暖舒心。这是个好理由。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 122.82,
+   "t2": 126.98,
+   "en": "Yeah, and kind of … I don’t know, safe.",
+   "zh": "对，还有点……我说不好，很安心。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 127.86,
+   "t2": 129.962,
+   "en": "Excellent, Paula, thank you.",
+   "zh": "太好了，宝拉，谢谢你。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 129.962,
+   "t2": 132.34,
+   "en": "And now we have … hello?",
+   "zh": "现在我们有……你好？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 133.3,
+   "t2": 134.82,
+   "en": "Hi. Tom here.",
+   "zh": "你好，我是汤姆。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 135.55,
+   "t2": 142.06,
+   "en": "I don’t know if it’s really my favourite room, but the best room in my whole life was in a hotel.",
+   "zh": "我不知道它算不算我真正最喜欢的房间，但我这辈子住过最好的房间是在一家酒店里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 142.06,
+   "t2": 146.22,
+   "en": "Oh right. That’s interesting! Tell us more!",
+   "zh": "哦是嘛。有意思！多讲讲！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 146.22,
+   "t2": 157.06,
+   "en": "We all went to Brazil last year, and we got to the hotel in Rio de Janeiro very early in the morning and it was still quite dark.",
+   "zh": "去年我们全家去了巴西，一大早就到了里约热内卢的酒店，那时天还很黑。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 157.06,
+   "t2": 163.38,
+   "en": "But then the day started and I opened the window to see Copacabana beach.",
+   "zh": "但白天开始后，我打开窗户就看到了科帕卡巴纳海滩。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 163.38,
+   "t2": 164.32,
+   "en": "Brilliant!",
+   "zh": "太棒了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 165.06,
+   "t2": 166.22,
+   "en": "I loved that room.",
+   "zh": "我爱那间房。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 166.86,
+   "t2": 168.646,
+   "en": "We were there for five days and …",
+   "zh": "我们在那里住了五天，然后……",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 168.74,
+   "t2": 171.153,
+   "en": "Thanks, Tom. I’m sorry, there’s no more time.",
+   "zh": "谢谢汤姆。抱歉，没时间了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 44,
+   "t": 171.28,
+   "t2": 171.68,
+   "en": "OK, now let’s … .",
+   "zh": "好的，现在我们……。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

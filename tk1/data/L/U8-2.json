@@ -1,0 +1,339 @@
+{
+ "id": "SB_u08_p077_t04",
+ "no": 8.04,
+ "title": "Listening: Teens talking about sport",
+ "titleZh": "",
+ "audio": "assets/tk1_p077.mp3",
+ "duration": 209.24,
+ "question": null,
+ "unit": 8,
+ "part": "听力",
+ "bookPage": "p077",
+ "srcKey": "SB_u08_p077_t04",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 7.56,
+   "t2": 10.7,
+   "en": "Gemma, how do you feel about sport?",
+   "zh": "杰玛，你觉得运动怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 11.46,
+   "t2": 13.66,
+   "en": "I’m not interested in sport.",
+   "zh": "我对运动不感兴趣。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 14.12,
+   "t2": 15.78,
+   "en": "I really don’t like it.",
+   "zh": "我真的不喜欢。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 16.36,
+   "t2": 30.32,
+   "en": "I mean, I like exercise so I go for walks and I like swimming, oh I run a lot too, that’s great – but I just don’t like sport, you know, the idea where you try to win, to beat other people.",
+   "zh": "我是说，我喜欢锻炼，所以我去散步，也喜欢游泳，哦，我还经常跑步，那很棒——但我就是不喜欢运动，你知道的，那种要赢、要打败别人的运动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 31.3,
+   "t2": 34.145,
+   "en": "And I hate sport on TV – I leave the room!",
+   "zh": "而且我讨厌电视上的体育节目——我会离开房间！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 34.145,
+   "t2": 44.02,
+   "en": "And I don’t go to sports events like football matches – why do people pay so much money to watch 22 men run after a ball?",
+   "zh": "我也不去看足球比赛那样的体育赛事——为什么人们要花那么多钱看 22 个人追着一个球跑？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 45.68,
+   "t2": 49.0,
+   "en": "Andy, how do you feel about sport?",
+   "zh": "安迪，你觉得运动怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 49.88,
+   "t2": 52.535,
+   "en": "Well, I like running a lot.",
+   "zh": "嗯，我非常喜欢跑步。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 53.04,
+   "t2": 66.792,
+   "en": "At school I play football but that’s because I have to, all the boys play football, and it’s OK, I mean I don’t hate it, but I don’t really like team games and sports very much.",
+   "zh": "在学校我踢足球，但那是因为我不得不踢，所有男孩都踢足球，还行吧，我是说我不讨厌它，但我不太喜欢团队运动和体育。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 67.3,
+   "t2": 74.48,
+   "en": "I like doing things alone and I think that’s why I love running, it’s just me and not other people.",
+   "zh": "我喜欢一个人做事，我想这就是我喜欢跑步的原因，只有我自己，没有别人。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 75.16,
+   "t2": 82.942,
+   "en": "I’m not a very good runner but I just love trying to run a little faster than the last time, do you know what I mean?",
+   "zh": "我跑得不是很好，但我就是喜欢试着比上一次跑快一点点，你明白我的意思吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 84.78,
+   "t2": 88.06,
+   "en": "Tracey, how do you feel about sport?",
+   "zh": "特蕾西，你觉得运动怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 88.7,
+   "t2": 92.68,
+   "en": "Well, I absolutely love skateboarding, of course!",
+   "zh": "嗯，我当然非常喜欢滑板！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 93.24,
+   "t2": 95.58,
+   "en": "It’s just the best thing in the world.",
+   "zh": "那是世界上最好的事情。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 96.18,
+   "t2": 101.18,
+   "en": "Some of my family say it isn’t really a sport but they don’t know anything.",
+   "zh": "我家里有些人说滑板不算真正的运动，但他们什么都不懂。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 101.18,
+   "t2": 104.08,
+   "en": "I spend hours practising moves.",
+   "zh": "我花好几个小时练习动作。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 104.62,
+   "t2": 109.1,
+   "en": "There’s a skate-park with a really good ramp, it’s not far from where I live.",
+   "zh": "有一个滑板公园，坡道特别好，离我家不远。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 109.64,
+   "t2": 110.88,
+   "en": "I’m there all the time.",
+   "zh": "我一直待在那里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 111.6,
+   "t2": 113.52,
+   "en": "It’s the only sport I like really.",
+   "zh": "这真的是我唯一喜欢的运动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 114.3,
+   "t2": 121.162,
+   "en": "I mean, I kind of like football but really that’s only because some of my friends are into it.",
+   "zh": "我是说，我有点喜欢足球，但那只是因为我的一些朋友喜欢。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 121.56,
+   "t2": 124.436,
+   "en": "But skateboarding, that’s my thing.",
+   "zh": "但滑板才是我的热爱。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 126.26,
+   "t2": 129.24,
+   "en": "Paul, how do you feel about sport?",
+   "zh": "保罗，你觉得运动怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 129.24,
+   "t2": 133.8,
+   "en": "When I was a kid I didn’t like any sports at all.",
+   "zh": "我小时候一点也不喜欢运动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 134.08,
+   "t2": 145.403,
+   "en": "I thought: ‘I’m just not good at things like running and jumping’ but about a year ago I saw some gymnastics on TV and now I love it.",
+   "zh": "我以前想：“我就是不擅长跑步和跳跃之类的事”，但大约一年前我在电视上看到体操，现在我爱上了它。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 145.98,
+   "t2": 149.8,
+   "en": "There’s a sports centre in my town where I can do gymnastics.",
+   "zh": "我住的镇上有个体育中心，我可以在那里练体操。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 150.66,
+   "t2": 163.585,
+   "en": "I can’t do it at school because they haven’t got anywhere, but I go to the sports centre every weekend and some evenings too, to do as much gymnastics as I can.",
+   "zh": "学校里没有地方练，但我每个周末和一些晚上都会去体育中心，尽可能多地练体操。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 165.34,
+   "t2": 168.26,
+   "en": "Ryan, how do you feel about sport?",
+   "zh": "瑞安，你觉得运动怎么样？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 168.98,
+   "t2": 170.44,
+   "en": "Sport? Wonderful!",
+   "zh": "运动？太棒了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 171.28,
+   "t2": 173.267,
+   "en": "I’m a real sports fanatic.",
+   "zh": "我是个真正的体育迷。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 173.72,
+   "t2": 176.89,
+   "en": "I mean, I think about sport all the time.",
+   "zh": "我是说，我一直在想运动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 177.34,
+   "t2": 183.52,
+   "en": "I watch almost everything on TV – football, tennis, swimming, everything.",
+   "zh": "电视上的体育节目我几乎都看——足球、网球、游泳，什么都看。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 183.52,
+   "t2": 191.76,
+   "en": "And I do a lot of sport too – my favourite’s football, of course, and I’m really not bad at football.",
+   "zh": "我也做很多运动——当然，我最喜欢足球，而且我踢得真不错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 192.62,
+   "t2": 194.32,
+   "en": "I’m in the school team too.",
+   "zh": "我也是校队成员。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 194.32,
+   "t2": 197.44,
+   "en": "And I’m also learning to ski.",
+   "zh": "而且我还在学滑雪。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 198.48,
+   "t2": 200.818,
+   "en": "My family went to Italy last year.",
+   "zh": "去年我们全家去了意大利。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 201.421,
+   "t2": 205.96,
+   "en": "We went skiing – it was fantastic and I want to do more.",
+   "zh": "我们去滑雪了——太棒了，我还想再去。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

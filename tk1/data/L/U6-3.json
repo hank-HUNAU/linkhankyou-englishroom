@@ -1,0 +1,312 @@
+{
+ "id": "SB_u06_p060_t03",
+ "no": 6.03,
+ "title": "Magazine article: Life stories – Pen pals for years",
+ "titleZh": "",
+ "audio": "assets/tk1_p060.mp3",
+ "duration": 158.56,
+ "question": null,
+ "unit": 6,
+ "part": "阅读B",
+ "bookPage": "p060",
+ "srcKey": "SB_u06_p060_t03",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.4,
+   "t2": 20.759,
+   "en": "This week, Paul (from Brisbane, Australia) and Annette (from Toulouse, France) tell us about their friendship on different sides of the world.",
+   "zh": "本周，保罗（来自澳大利亚布里斯班）和安妮特（来自法国图卢兹）为我们讲述他们在地球两端的友谊。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 21.7,
+   "t2": 24.46,
+   "en": "When and how did your friendship start?",
+   "zh": "你们的友谊是什么时候、怎样开始的？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 25.159,
+   "t2": 28.52,
+   "en": "Fifteen years ago! We were both fourteen.",
+   "zh": "15 年前！我们那时都 14 岁。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 29.0,
+   "t2": 38.02,
+   "en": "My school in Australia and her school in France started a virtual exchange programme for people to write to each other over the internet.",
+   "zh": "我所在的澳大利亚学校和她的法国学校发起了一个虚拟交流项目，让人们通过互联网互相写信。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 38.34,
+   "t2": 45.755,
+   "en": "I wanted to improve my English and he wanted to improve his French, so we contacted each other.",
+   "zh": "我想提高英语，他想提高法语，所以我们联系上了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 46.34,
+   "t2": 48.44,
+   "en": "Did you become friends immediately?",
+   "zh": "你们立刻就成了朋友吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 48.98,
+   "t2": 50.02,
+   "en": "Not really.",
+   "zh": "不算。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 50.7,
+   "t2": 55.08,
+   "en": "I thought he was OK but not special.",
+   "zh": "我觉得他还行，但并不特别。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 55.6,
+   "t2": 59.058,
+   "en": "He made lots of mistakes in his French! Haha.",
+   "zh": "他法语里犯了好多错误！哈哈。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 59.24,
+   "t2": 61.82,
+   "en": "We corrected each other’s mistakes.",
+   "zh": "我们互相纠正错误。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 61.82,
+   "t2": 67.54,
+   "en": "But I made more than her! She corrected everything, too!",
+   "zh": "但我犯得比她多！她什么都纠正！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 68.68,
+   "t2": 84.56,
+   "en": "Paul always helped me to improve my English, but you know, after a few months, we stopped worrying about writing in perfect English or French and just wrote to each other and talked about ourselves.",
+   "zh": "保罗总是帮我提高英语，但你知道，几个月后，我们不再纠结于写出完美的英语或法语，只是互相写信、聊聊自己。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 85.16,
+   "t2": 91.5,
+   "en": "I began to see that he was a very nice guy, easy-going and cheerful.",
+   "zh": "我开始发现他是个很好的人，随和又开朗。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 92.22,
+   "t2": 94.58,
+   "en": "Did you feel the same way, Paul?",
+   "zh": "你也有同样的感觉吗，保罗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 95.06,
+   "t2": 95.94,
+   "en": "Yes, I did.",
+   "zh": "是的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 96.52,
+   "t2": 99.06,
+   "en": "She often made jokes that made me laugh.",
+   "zh": "她经常讲笑话逗我笑。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 99.06,
+   "t2": 100.54,
+   "en": "She’s really funny.",
+   "zh": "她真的很有趣。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 101.38,
+   "t2": 110.399,
+   "en": "And we saw that we had a lot of things in common – books we liked, films we liked, things like that.",
+   "zh": "而且我们发现我们有很多共同点——喜欢的书、喜欢的电影之类的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 111.14,
+   "t2": 113.48,
+   "en": "He’s also very intelligent.",
+   "zh": "他还很聪明。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 114.46,
+   "t2": 117.98,
+   "en": "So, when did you actually meet face-to-face?",
+   "zh": "那你们到底什么时候见面的？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 118.88,
+   "t2": 119.66,
+   "en": "Last year.",
+   "zh": "去年。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 119.66,
+   "t2": 121.14,
+   "en": "We met in Singapore.",
+   "zh": "我们在新加坡见的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 121.84,
+   "t2": 122.44,
+   "en": "That’s right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 122.92,
+   "t2": 127.88,
+   "en": "We wanted to meet up, but it’s a long way and the plane tickets are expensive.",
+   "zh": "我们想见面，但路途遥远，机票又贵。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 128.46,
+   "t2": 130.52,
+   "en": "So we decided to meet halfway.",
+   "zh": "所以我们决定在中途见面。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 131.34,
+   "t2": 135.14,
+   "en": "We had a really great time together for about five days.",
+   "zh": "我们一起度过了大约五天的美好时光。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 135.697,
+   "t2": 137.4,
+   "en": "Which language did you speak?",
+   "zh": "你们说什么语言？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 138.275,
+   "t2": 139.52,
+   "en": "Haha! Good question.",
+   "zh": "哈哈！好问题。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 140.28,
+   "t2": 142.54,
+   "en": "English, almost all the time.",
+   "zh": "几乎全是英语。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 143.02,
+   "t2": 144.42,
+   "en": "Her English is really good!",
+   "zh": "她的英语特别好！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 145.16,
+   "t2": 149.82,
+   "en": "He’s just being kind! But yes, we had a great time.",
+   "zh": "他只是客气罢了！不过是的，我们玩得很开心。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 150.44,
+   "t2": 152.42,
+   "en": "I think we’re going to be friends for life.",
+   "zh": "我想我们会做一辈子的朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 153.12,
+   "t2": 155.3,
+   "en": "I hope we can meet up again soon.",
+   "zh": "希望我们很快还能再见面。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

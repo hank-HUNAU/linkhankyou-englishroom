@@ -1,0 +1,171 @@
+1
+00:00:07,140 --> 00:00:09,800
+Hello. Can I help you?
+
+2
+00:00:10,240 --> 00:00:14,700
+Yes, I’d like a cheese and tomato roll, please.
+
+3
+00:00:14,700 --> 00:00:17,080
+Do you want the roll hot?
+
+4
+00:00:17,720 --> 00:00:18,460
+Yes, please.
+
+5
+00:00:18,840 --> 00:00:20,640
+Would you like something to drink?
+
+6
+00:00:21,440 --> 00:00:25,220
+Yes, I’d like an apple juice, please.
+
+7
+00:00:25,220 --> 00:00:30,780
+So that’s a roll and an apple juice. Is that all?
+
+8
+00:00:32,140 --> 00:00:35,400
+Er, I’d like some carrot cake, too.
+
+9
+00:00:36,220 --> 00:00:39,680
+OK, that’s £8 altogether.
+
+10
+00:00:40,740 --> 00:00:41,900
+Here you are.
+
+11
+00:00:41,900 --> 00:00:49,860
+And that’s £2 change. The roll will be a few minutes. We’ll bring it to your table.
+
+12
+00:00:49,860 --> 00:00:51,020
+Thank you.
+
+13
+00:00:51,020 --> 00:00:54,860
+Enjoy your meal. And what can I get for you?
+
+14
+00:00:55,480 --> 00:01:00,160
+I’d like the chicken and mushroom soup, please, and an apple juice.
+
+15
+00:01:00,160 --> 00:01:02,560
+OK. Anything else?
+
+16
+00:01:03,160 --> 00:01:04,820
+No, I think that’s all.
+
+17
+00:01:04,820 --> 00:01:08,696
+What! No cake? But you said …
+
+18
+00:01:08,900 --> 00:01:12,980
+I’m trying to be good. I only buy cake at the weekends.
+
+19
+00:01:12,980 --> 00:01:14,100
+Really?
+
+20
+00:01:14,660 --> 00:01:19,580
+Yes, I’m being careful with what I eat. Have you got a problem with that?
+
+21
+00:01:19,580 --> 00:01:21,660
+No, not at all.
+
+22
+00:01:22,900 --> 00:01:24,840
+OK, that’s £6.50.
+
+23
+00:01:25,300 --> 00:01:27,120
+Can I pay by card?
+
+24
+00:01:27,660 --> 00:01:30,100
+Of course. Just put it in here.
+
+25
+00:01:31,400 --> 00:01:32,200
+It’s done.
+
+26
+00:01:32,200 --> 00:01:36,160
+Thanks. We’ll bring the soup over in a minute or two.
+
+27
+00:01:36,160 --> 00:01:38,700
+Could you bring me a fork with it, too?
+
+28
+00:01:39,160 --> 00:01:39,600
+Sure.
+
+29
+00:01:39,600 --> 00:01:45,860
+A fork? What do you need a fork for? You can’t eat soup with a fork.
+
+30
+00:01:45,860 --> 00:01:49,620
+I’ve got my reasons. Don’t you worry about it.
+
+31
+00:01:51,200 --> 00:01:54,440
+Moments later …
+
+32
+00:01:55,120 --> 00:02:01,380
+Well, you’re right. This is a good roll. How’s the soup?
+
+33
+00:02:01,840 --> 00:02:04,380
+Delicious. Would you like to try some?
+
+34
+00:02:04,860 --> 00:02:10,280
+No, I’m OK. My cake looks fantastic, doesn’t it?
+
+35
+00:02:10,480 --> 00:02:15,280
+Yes, it does. Mmmmm … it tastes fantastic, too!
+
+36
+00:02:15,280 --> 00:02:17,960
+Hey, what are you doing?
+
+37
+00:02:18,600 --> 00:02:20,740
+Mmmmm. That is a good cake!
+
+38
+00:02:21,420 --> 00:02:25,060
+But you said, cake only at the weekends.
+
+39
+00:02:25,060 --> 00:02:28,960
+I said I only buy cake at the weekends.
+
+40
+00:02:29,620 --> 00:02:30,120
+And?
+
+41
+00:02:30,760 --> 00:02:36,000
+Well, you bought this cake. I’ve got no problem eating your cake.
+
+42
+00:02:36,260 --> 00:02:38,880
+And that explains the fork.
+
+43
+00:02:38,880 --> 00:02:44,840
+Yes, it does. Now hurry up and finish your roll before I eat all your cake.

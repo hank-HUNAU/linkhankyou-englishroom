@@ -1,0 +1,30 @@
+{
+  "v": 1,
+  "updatedAt": "2026-11-21",
+  "note": "Think 1 按 Think F 站点数据契约重制的自洽子树（tk1/）；引擎沿用四阶段，数据层为 Think F 4 层格式。与根站独立命名空间，页码/音频全带 tk1_ 前缀。",
+  "codes": [
+    {
+      "code": "TK1F",
+      "add": ["tk1f"],
+      "note": "Think 1（Think F 数据格式版）课程码"
+    }
+  ],
+  "courses": [
+    {
+      "id": "tk1f",
+      "name": "Think 1 · Think F 数据版",
+      "short": "TK1F",
+      "tag": "Cambridge TH!NK",
+      "cover": "../covers/tk1_s.jpg",
+      "lessons": 42,
+      "ready": true,
+      "default": true,
+      "sizeMB": 0,
+      "desc": "7 课 ready（U1 三篇 + U2 四篇）· 按 Think F 4 层数据契约重制 · 盲听/跟读/精听/复述",
+      "dataPat": "data/L/{ID}.json",
+      "audioPat": "assets/tk1_{ID}.mp3",
+      "pad": 2,
+      "note": "{ID}=课号 U1-1..U2-4；本课数据仍用原 data/L（含 zh），归档层/timeline/字幕/音频为 tk1_ 前缀 Think F 格式"
+    }
+  ]
+}

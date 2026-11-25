@@ -1,0 +1,145 @@
+{
+ "passage_key": "u6_56",
+ "page": "p056",
+ "unit": 6,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 27,
+ "n_unique_keys": 27,
+ "entries": [
+  {
+   "i": 0,
+   "en": "This is the story of Joe and Fonzie.",
+   "zh": "这是乔和方齐的故事。"
+  },
+  {
+   "i": 1,
+   "en": "It’s a story about a friendship that started more than 20 years ago.",
+   "zh": "这是一个开始于 20 多年前的友谊故事。"
+  },
+  {
+   "i": 2,
+   "en": "It’s also a story about a friendship that saved a life and started a new kind of help for people with problems.",
+   "zh": "这也是一个拯救了一条生命、并开创了一种帮助有困难的人的新方式的故事。"
+  },
+  {
+   "i": 3,
+   "en": "‘Joe’ is Joe Hoagland, who was three years old when the story began.",
+   "zh": "“乔”是指乔·霍格兰，故事开始时他三岁。"
+  },
+  {
+   "i": 4,
+   "en": "And ‘Fonzie’ is a 3-metre-long, 275 kilogram dolphin.",
+   "zh": "而“方齐”是一头 3 米长、275 公斤的海豚。"
+  },
+  {
+   "i": 5,
+   "en": "When Joe was born, he had a problem with his heart and doctors had to operate on him.",
+   "zh": "乔出生时心脏有问题，医生不得不给他做手术。"
+  },
+  {
+   "i": 6,
+   "en": "When he was three, he had another operation.",
+   "zh": "他三岁时又做了一次手术。"
+  },
+  {
+   "i": 7,
+   "en": "This operation didn’t go well and he became paralysed – he couldn’t move the left side of his body.",
+   "zh": "那次手术不太顺利，他瘫痪了——身体左侧无法动弹。"
+  },
+  {
+   "i": 8,
+   "en": "The doctors at the hospital didn’t think he could get better.",
+   "zh": "医院里的医生都认为他好不了了。"
+  },
+  {
+   "i": 9,
+   "en": "Deena, Joe’s mother, took him to different places for therapy, but it wasn’t very successful.",
+   "zh": "乔的妈妈迪娜带他去不同地方做康复治疗，但效果都不太好。"
+  },
+  {
+   "i": 10,
+   "en": "Then the family moved to Florida.",
+   "zh": "后来一家人搬到了佛罗里达。"
+  },
+  {
+   "i": 11,
+   "en": "Joe liked being in the water and Deena thought swimming could help him.",
+   "zh": "乔喜欢待在水里，迪娜觉得游泳对他有帮助。"
+  },
+  {
+   "i": 12,
+   "en": "First, they went to swimming pools in hotels, but some hotel guests didn’t like them being there.",
+   "zh": "起初，他们去酒店的游泳池，但有些客人不喜欢他们在那里。"
+  },
+  {
+   "i": 13,
+   "en": "Then one day she went with Joe to a place in Key Largo called Dolphin Plus, where people swam with dolphins.",
+   "zh": "后来有一天，她带乔去了基拉戈一个叫“海豚之家”的地方，那里的人可以和海豚一起游泳。"
+  },
+  {
+   "i": 14,
+   "en": "Joe met Fonzie there and the story really began.",
+   "zh": "乔在那里认识了方齐，故事才真正开始。"
+  },
+  {
+   "i": 15,
+   "en": "Soon, Joe wanted to see Fonzie every day.",
+   "zh": "很快，乔每天都想见到方齐。"
+  },
+  {
+   "i": 16,
+   "en": "He loved playing with him and feeding him.",
+   "zh": "他喜欢和方齐一起玩、喂它吃东西。"
+  },
+  {
+   "i": 17,
+   "en": "Every time that Joe arrived, Fonzie came to see him.",
+   "zh": "每次乔到来，方齐都会过来见他。"
+  },
+  {
+   "i": 18,
+   "en": "Joe’s mother told him always to feed Fonzie using his left hand, so Joe used his left side more and more.",
+   "zh": "乔的妈妈告诉他喂食时一定要用左手，于是乔越来越多地使用左侧身体。"
+  },
+  {
+   "i": 19,
+   "en": "Slowly, he got better and better.",
+   "zh": "慢慢地，他一天比一天好。"
+  },
+  {
+   "i": 20,
+   "en": "He’s now over 30 years old and very well.",
+   "zh": "他现在 30 多岁了，身体很好。"
+  },
+  {
+   "i": 21,
+   "en": "Deena saw that Joe’s friendship with Fonzie helped him a lot, and she knew it was a good idea for other people, too.",
+   "zh": "迪娜看到乔和方齐的友谊帮了他很大的忙，她知道这对其他人也是个好主意。"
+  },
+  {
+   "i": 22,
+   "en": "So, she and her family worked to open a place called Island Dolphin Care.",
+   "zh": "于是她和家人努力开设了一个叫“岛屿海豚关爱中心”的地方。"
+  },
+  {
+   "i": 23,
+   "en": "It’s next to Dolphin Plus and many people with health problems come to spend time with the dolphins.",
+   "zh": "它就在海豚之家旁边，很多有健康问题的人会来这里和海豚相处。"
+  },
+  {
+   "i": 24,
+   "en": "Sadly, Fonzie died in 2004 when Joe was 17.",
+   "zh": "令人难过的是，方齐在 2004 年去世了，那时乔 17 岁。"
+  },
+  {
+   "i": 25,
+   "en": "He wrote: ‘Fonzie was a great friend to me; he and I shared a lot of good times.",
+   "zh": "他写道：“方齐是我很好的朋友；我们一起度过了很多美好时光。"
+  },
+  {
+   "i": 26,
+   "en": "He always put a smile on my face.’",
+   "zh": "它总是在我脸上带来笑容。”"
+  }
+ ]
+}

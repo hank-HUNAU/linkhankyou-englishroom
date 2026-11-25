@@ -1,0 +1,249 @@
+{
+ "id": "SB_u10_p098_t06",
+ "no": 10.06,
+ "title": "Culture: Mythical places around the world",
+ "titleZh": "",
+ "audio": "assets/tk1_p098.mp3",
+ "duration": 221.23,
+ "question": null,
+ "unit": 10,
+ "part": "文化",
+ "bookPage": "p098",
+ "srcKey": "SB_u10_p098_t06",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.0,
+   "t2": 20.32,
+   "en": "There are very few places on Earth that are undiscovered and we have satellite photos of the most remote places on the planet.",
+   "zh": "地球上几乎没有还没被发现的地方了，我们连这颗星球上最偏远的地方都有卫星照片。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 21.12,
+   "t2": 31.916,
+   "en": "But people are always interested in mythical lands, places that people say exist but no one has ever found.",
+   "zh": "但人们一直对神话中的土地感兴趣，也就是人们说它存在、却从来没有人找到过的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 32.68,
+   "t2": 37.92,
+   "en": "Perhaps the most famous mythical place of all is Atlantis.",
+   "zh": "也许所有神话之地里最有名的就是亚特兰蒂斯。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 39.02,
+   "t2": 48.14,
+   "en": "Some people say it is a city, others say it is an island and others call it a continent.",
+   "zh": "有人说它是一座城市，有人说它是一座岛，还有人说它是一块大陆。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 49.0,
+   "t2": 58.712,
+   "en": "But whatever it is exactly, there is one thing that everyone agrees on: it is underneath the sea.",
+   "zh": "不过不管它到底是什么，有一件事大家都同意：它在海底。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 59.76,
+   "t2": 70.9,
+   "en": "The Greek philosopher Plato was the first person to describe it and he suggested that one time, its people attacked Athens.",
+   "zh": "希腊哲学家柏拉图是第一个描述它的人，他说有一次，它的居民攻击了雅典。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 71.98,
+   "t2": 76.057,
+   "en": "No one is sure exactly where Atlantis is.",
+   "zh": "没有人确定亚特兰蒂斯到底在哪里。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 76.66,
+   "t2": 81.86,
+   "en": "Because of its name, some people think it is somewhere in the Atlantic Ocean.",
+   "zh": "因为它的名字，有些人认为它在大西洋里的某个地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 82.94,
+   "t2": 88.0,
+   "en": "Others say it’s in the Mediterranean Sea or in the Caribbean.",
+   "zh": "也有人说它在地中海或加勒比海。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 89.68,
+   "t2": 94.865,
+   "en": "Agartha is another mythical place that is not on the land.",
+   "zh": "阿加尔塔是另一个不在陆地上的神话之地。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 95.66,
+   "t2": 99.5,
+   "en": "The legend says that it’s at the centre of our planet.",
+   "zh": "传说它在地球的中心。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 100.62,
+   "t2": 106.62,
+   "en": "Like Atlantis, it is famous for its culture and educated society.",
+   "zh": "和亚特兰蒂斯一样，它以文化和有教养的社会著称。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 107.96,
+   "t2": 114.02,
+   "en": "It was the inspiration for Jules Verne’s novel Journey to the Centre of the Earth.",
+   "zh": "它是儒勒·凡尔纳的小说《地心游记》的灵感来源。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 115.08,
+   "t2": 122.0,
+   "en": "It tells the story of a group of travellers who go on an exciting adventure underground.",
+   "zh": "那本书讲的是一群旅行者在地下进行刺激冒险的故事。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 123.42,
+   "t2": 131.14,
+   "en": "Many people have tried to find the entrance to Agartha, which they think is somewhere in Antarctica.",
+   "zh": "很多人试图找到阿加尔塔的入口，他们认为入口在南极洲的某个地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 133.06,
+   "t2": 142.12,
+   "en": "Some people believe that somewhere in South America there is a famous city of gold: El Dorado.",
+   "zh": "有些人相信在南美洲的某个地方有一座著名的黄金之城：埃尔多拉多。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 143.3,
+   "t2": 148.04,
+   "en": "Many people tried to find it, but they weren’t successful.",
+   "zh": "很多人试图找到它，但没有成功。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 149.68,
+   "t2": 159.231,
+   "en": "El Dorado was originally the name of a person, a ruler of the ancient Colombian society called the Muisca.",
+   "zh": "埃尔多拉多最初是一个人的名字，他是古代哥伦比亚社会穆伊斯卡人的统治者。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 160.3,
+   "t2": 164.16,
+   "en": "He covered himself in gold powder every day.",
+   "zh": "他每天都会把金粉涂在身上。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 165.12,
+   "t2": 171.886,
+   "en": "There were legends in which people imagined that the whole city was made of gold.",
+   "zh": "在一些传说里，人们想象整座城市都是黄金做的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 173.54,
+   "t2": 179.0,
+   "en": "Our final mythical land is an island called Thule.",
+   "zh": "我们要说的最后一个神话之地是一个叫图勒的岛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 179.66,
+   "t2": 187.4,
+   "en": "The legend says that it is in the north of the Earth, somewhere between Norway and Iceland.",
+   "zh": "传说它在地球北部，位于挪威和冰岛之间的某个地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 188.6,
+   "t2": 194.885,
+   "en": "This is an area of the world that is completely dark for a lot of the year.",
+   "zh": "这是世界上一年中很多时间都完全黑暗的地区。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 195.56,
+   "t2": 205.94,
+   "en": "But the story goes that Thule is a place where a lot of delicious food grows and people are always happy.",
+   "zh": "但故事里说，图勒是一个能长出很多美味食物、人们总是很快乐的地方。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 207.26,
+   "t2": 212.34,
+   "en": "The Roman poet Silius Italicus wrote about Thule.",
+   "zh": "罗马诗人西利乌斯·伊塔利库斯写过图勒。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 212.76,
+   "t2": 217.86,
+   "en": "In his story, the people living there are painted blue.",
+   "zh": "在他的故事里，住在那里的人都被涂成蓝色。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

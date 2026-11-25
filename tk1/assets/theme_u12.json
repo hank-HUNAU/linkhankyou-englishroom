@@ -1,0 +1,184 @@
+[
+ {
+  "w": "bicycle",
+  "ipa": "ˈbaɪ.sɪ",
+  "pos": "noun",
+  "zh": "自行车",
+  "ex": "I go to work by bicycle."
+ },
+ {
+  "w": "boat",
+  "ipa": "bəʊt",
+  "pos": "noun",
+  "zh": "船",
+  "ex": "a rowing/sailing boat"
+ },
+ {
+  "w": "bus",
+  "ipa": "bʌs",
+  "pos": "noun",
+  "zh": "公共汽车",
+  "ex": "You should take the bus if you want to see the sights."
+ },
+ {
+  "w": "car",
+  "ipa": "kɑː",
+  "pos": "noun",
+  "zh": "汽车",
+  "ex": "They don't have a car."
+ },
+ {
+  "w": "plane",
+  "ipa": "pleɪn",
+  "pos": "noun",
+  "zh": "飞机",
+  "ex": "a fighter/transport/pa ssenger plane"
+ },
+ {
+  "w": "train",
+  "ipa": "treɪn",
+  "pos": "noun",
+  "zh": "火车",
+  "ex": "the train to/from Bristol"
+ },
+ {
+  "w": "minibus",
+  "ipa": "ˈmɪ.ni.bʌs",
+  "pos": "noun",
+  "zh": "小型巴士",
+  "ex": "I went by minibus all the way to the north of Thailand."
+ },
+ {
+  "w": "helicopter",
+  "ipa": "ˈhel.ɪˌkɒp.tə",
+  "pos": "noun",
+  "zh": "直升机",
+  "ex": "The injured were flown to hospital by helicopter."
+ },
+ {
+  "w": "tram",
+  "ipa": "træm",
+  "pos": "noun",
+  "zh": "有轨电车",
+  "ex": "We took the tram to the city centre."
+ },
+ {
+  "w": "motorbike",
+  "ipa": "ˈməʊ.tə.baɪk",
+  "pos": "noun",
+  "zh": "摩托车",
+  "ex": "My brother’s got a motorbike."
+ },
+ {
+  "w": "scooter",
+  "ipa": "ˈskuː.tə",
+  "pos": "noun",
+  "zh": "小型摩托 车",
+  "ex": "I go to college on my scooter."
+ },
+ {
+  "w": "underground train",
+  "ipa": "ˈʌn.də.graʊnd ˌtreɪn",
+  "pos": "noun",
+  "zh": "地铁",
+  "ex": "The city has underground trains."
+ },
+ {
+  "w": "miss (a bus, train etc)",
+  "ipa": "mɪs",
+  "pos": "verb",
+  "zh": "错过（公 共汽车、 火车等）",
+  "ex": "You'll miss your train if you don't hurry up."
+ },
+ {
+  "w": "fly",
+  "ipa": "flaɪ",
+  "pos": "verb",
+  "zh": "飞行，航 行",
+  "ex": "I'm flying to Mumbai tomorrow."
+ },
+ {
+  "w": "catch (a bus, train etc)",
+  "ipa": "kætʃ",
+  "pos": "verb",
+  "zh": "赶上（公 共汽车、 火车等）",
+  "ex": "He catches the 8:30 train to London."
+ },
+ {
+  "w": "take (a taxi)",
+  "ipa": "teɪk",
+  "pos": "verb",
+  "zh": "乘（出租 车）",
+  "ex": "Are you taking the train to Edinburgh?"
+ },
+ {
+  "w": "ride (a motorbike, bike)",
+  "ipa": "raɪd",
+  "pos": "verb",
+  "zh": "骑（摩托 车、自行 车）",
+  "ex": "I learned to ride a bike when I was four."
+ },
+ {
+  "w": "drive (to …)",
+  "ipa": "draɪv",
+  "pos": "verb",
+  "zh": "驾驶（到 …）",
+  "ex": "I'm learning to drive."
+ },
+ {
+  "w": "journey",
+  "ipa": "ˈdʒɜː.ni",
+  "pos": "noun",
+  "zh": "旅行",
+  "ex": "The children have to go on a difficult journey."
+ },
+ {
+  "w": "on time",
+  "ipa": "ˌɒn ˈtaɪm",
+  "pos": "phrase",
+  "zh": "准时",
+  "ex": "They have to cross a bridge 10 metres above a dangerous river to get to their class on time."
+ },
+ {
+  "w": "village",
+  "ipa": "ˈvɪl.ɪdʒ",
+  "pos": "noun",
+  "zh": "村庄",
+  "ex": "Gulu is a mountain village in a national park."
+ },
+ {
+  "w": "wide",
+  "ipa": "waɪd",
+  "pos": "adjective",
+  "zh": "宽的",
+  "ex": "The path is only 45 centimetres wide in some places."
+ },
+ {
+  "w": "take a risk",
+  "ipa": "ˌteɪk ə ˈrɪsk",
+  "pos": "phrase",
+  "zh": "冒险",
+  "ex": "So these girls are happy to take a risk in order to get to school."
+ },
+ {
+  "w": "tiny",
+  "ipa": "ˈtaɪ.ni",
+  "pos": "adjective",
+  "zh": "极小的",
+  "ex": "It’s a tiny village - only very few people live there."
+ },
+ {
+  "w": "tracks",
+  "ipa": "træks",
+  "pos": "noun",
+  "zh": "小道，小 径",
+  "ex": "Every morning they walk along the tracks to get to their school, forty minutes away."
+ },
+ {
+  "w": "neighbours",
+  "ipa": "ˈneɪ.bəz",
+  "pos": "noun",
+  "zh": "邻居",
+  "ex": "They hope to get a job and money, so they can help their families and their neighbours."
+ }
+]

@@ -1,0 +1,215 @@
+{
+ "unit": "U12",
+ "passage_key": "u12_116",
+ "page": "p116",
+ "title": "Culture: Hard journeys for schoolchildren",
+ "type": "文化",
+ "n_sent": 29,
+ "duration_s": 240.27,
+ "source": "Think 1 U12 增量：alignment/SB_u12_p116_t07 + 译文_tk1_p116.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 11.02,
+   "end_s": 12.56,
+   "dur_s": 1.54,
+   "text": "‘How do you get to school?’"
+  },
+  {
+   "i": 1,
+   "start_s": 13.52,
+   "end_s": 22.06,
+   "dur_s": 8.54,
+   "text": "This question often gets an answer like ‘By bus’ or ‘I walk’ or ‘My parents take me by car’."
+  },
+  {
+   "i": 2,
+   "start_s": 22.8,
+   "end_s": 34.18,
+   "dur_s": 11.38,
+   "text": "But not always – there are children in many different parts of the world who, every day, have to go on a difficult journey in order to get to their lessons."
+  },
+  {
+   "i": 3,
+   "start_s": 34.62,
+   "end_s": 42.0,
+   "dur_s": 7.38,
+   "text": "They travel for kilometres on foot, or by boat, bicycle, donkey or train."
+  },
+  {
+   "i": 4,
+   "start_s": 42.64,
+   "end_s": 61.44,
+   "dur_s": 18.8,
+   "text": "They cross deserts, mountains, rivers, snow and ice: for example, the children of the Iñupiat community in Alaska go to school and then come back when it is dark, in extremely cold temperatures."
+  },
+  {
+   "i": 5,
+   "start_s": 62.04,
+   "end_s": 63.925,
+   "dur_s": 1.885,
+   "text": "And they are not the only ones."
+  },
+  {
+   "i": 6,
+   "start_s": 64.44,
+   "end_s": 68.18,
+   "dur_s": 3.74,
+   "text": "Kids in many countries do this and more."
+  },
+  {
+   "i": 7,
+   "start_s": 69.7,
+   "end_s": 79.203,
+   "dur_s": 9.503,
+   "text": "These children in Indonesia have to cross a bridge ten metres above a dangerous river to get to their class on time."
+  },
+  {
+   "i": 8,
+   "start_s": 79.203,
+   "end_s": 84.62,
+   "dur_s": 5.417,
+   "text": "(Some years ago the bridge fell down after very heavy rain.)"
+  },
+  {
+   "i": 9,
+   "start_s": 85.519,
+   "end_s": 91.92,
+   "dur_s": 6.401,
+   "text": "Then they walk many more kilometres through the forest to their school in Banten."
+  },
+  {
+   "i": 10,
+   "start_s": 94.14,
+   "end_s": 103.143,
+   "dur_s": 9.003,
+   "text": "A pupil at Gulu Village Primary School, China, rides a donkey as his grandfather walks beside him."
+  },
+  {
+   "i": 11,
+   "start_s": 104.0,
+   "end_s": 107.54,
+   "dur_s": 3.54,
+   "text": "Gulu is a mountain village in a national park."
+  },
+  {
+   "i": 12,
+   "start_s": 108.24,
+   "end_s": 111.224,
+   "dur_s": 2.984,
+   "text": "The school is far away from the village."
+  },
+  {
+   "i": 13,
+   "start_s": 111.6,
+   "end_s": 120.628,
+   "dur_s": 9.028,
+   "text": "It is halfway up a mountain, so it takes five hours to climb from the bottom of the mountain to the school."
+  },
+  {
+   "i": 14,
+   "start_s": 121.34,
+   "end_s": 129.138,
+   "dur_s": 7.798,
+   "text": "The children have a dangerous journey: the path is only 45 centimetres wide in some places."
+  },
+  {
+   "i": 15,
+   "start_s": 130.68,
+   "end_s": 138.9,
+   "dur_s": 8.22,
+   "text": "In Sri Lanka, some children have to cross a piece of wood between two walls of an old castle every morning."
+  },
+  {
+   "i": 16,
+   "start_s": 138.9,
+   "end_s": 142.06,
+   "dur_s": 3.16,
+   "text": "Their teacher watches them carefully."
+  },
+  {
+   "i": 17,
+   "start_s": 143.1,
+   "end_s": 152.067,
+   "dur_s": 8.967,
+   "text": "But in Galle, Sri Lanka, many girls don’t go to school – they have to go to work or get married young."
+  },
+  {
+   "i": 18,
+   "start_s": 152.067,
+   "end_s": 157.5,
+   "dur_s": 5.433,
+   "text": "So girls are happy to take a risk in order to get to school."
+  },
+  {
+   "i": 19,
+   "start_s": 160.02,
+   "end_s": 175.32,
+   "dur_s": 15.3,
+   "text": "Six-year-old Fabricio Oliveira gets on his donkey every morning to ride with his friends for over an hour through a desert region in the very dry Sertão area of northeast Brazil."
+  },
+  {
+   "i": 20,
+   "start_s": 176.4,
+   "end_s": 178.64,
+   "dur_s": 2.24,
+   "text": "Their school is in Extrema."
+  },
+  {
+   "i": 21,
+   "start_s": 179.12,
+   "end_s": 182.88,
+   "dur_s": 3.76,
+   "text": "It’s a tiny village – very few people live there."
+  },
+  {
+   "i": 22,
+   "start_s": 183.84,
+   "end_s": 189.24,
+   "dur_s": 5.4,
+   "text": "These children live in houses on Chetla Road in Delhi, India."
+  },
+  {
+   "i": 23,
+   "start_s": 190.1,
+   "end_s": 196.2,
+   "dur_s": 6.1,
+   "text": "Their homes are near the busy and dangerous railway lines that go to Alipur station."
+  },
+  {
+   "i": 24,
+   "start_s": 197.36,
+   "end_s": 202.94,
+   "dur_s": 5.58,
+   "text": "Every morning they walk along the tracks to get to their school, 40 minutes away."
+  },
+  {
+   "i": 25,
+   "start_s": 204.18,
+   "end_s": 209.792,
+   "dur_s": 5.612,
+   "text": "So one question we can ask is: why do the children do this?"
+  },
+  {
+   "i": 26,
+   "start_s": 210.56,
+   "end_s": 212.962,
+   "dur_s": 2.402,
+   "text": "Because their parents make them do it?"
+  },
+  {
+   "i": 27,
+   "start_s": 213.68,
+   "end_s": 229.309,
+   "dur_s": 15.629,
+   "text": "The answer, in many cases, is no – it’s because for them going to school means a better future: they hope to get a job and money so they can help their families and their neighbours."
+  },
+  {
+   "i": 28,
+   "start_s": 229.86,
+   "end_s": 236.96,
+   "dur_s": 7.1,
+   "text": "And this is why rivers, deserts or danger won’t stop them on their way to school."
+  }
+ ]
+}

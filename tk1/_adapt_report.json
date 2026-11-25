@@ -1,0 +1,767 @@
+{
+ "schema": "tk1_tfdata_adapt_v1",
+ "source": "think1-echoloop 7 ready + U3 3 + U4 4 + U5 3 + U6 4 + U7 3 + U8 4 + U9 3 + U10 4 + U11 3 + U12 4 增量课",
+ "authority": {
+  "timeline_text": "alignment/<srcKey>.json",
+  "zh": "data/zh/英中句对齐_pXXX_*.json（按 en 原串 join）",
+  "audio": "audio/<课号>.mp3（只复制）"
+ },
+ "lessons": [
+  {
+   "lid": "U1-1",
+   "srcKey": "SB_u01_p012_t01",
+   "page": "p012",
+   "key": "u1_012",
+   "board": "阅读A",
+   "n_sent": 42,
+   "n_zh": 42,
+   "audio_md5": "13277b83a1dcb2165e38f7397ef4d434",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U1-2",
+   "srcKey": "SB_u01_p015_t04",
+   "page": "p015",
+   "key": "u1_015",
+   "board": "听力",
+   "n_sent": 31,
+   "n_zh": 31,
+   "audio_md5": "3ea0d7d319a2c15dcafe0ff945c8ed17",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U1-3",
+   "srcKey": "SB_u01_p016_t05",
+   "page": "p016",
+   "key": "u1_016",
+   "board": "阅读B",
+   "n_sent": 24,
+   "n_zh": 24,
+   "audio_md5": "4b2d8560d7419a959c9ec19b56cb486b",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U2-1",
+   "srcKey": "SB_u02_p020_t03",
+   "page": "p020",
+   "key": "u2_020",
+   "board": "阅读A",
+   "n_sent": 41,
+   "n_zh": 41,
+   "audio_md5": "d19d00220d6f44c8057fa04c2167eb0b",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U2-2",
+   "srcKey": "SB_u02_p023_t04",
+   "page": "p023",
+   "key": "u2_023",
+   "board": "听力",
+   "n_sent": 36,
+   "n_zh": 36,
+   "audio_md5": "cec94c02ba9e87912dcbf9c5fd88d227",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U2-3",
+   "srcKey": "SB_u02_p024_t08",
+   "page": "p024",
+   "key": "u2_024",
+   "board": "阅读B",
+   "n_sent": 26,
+   "n_zh": 26,
+   "audio_md5": "3ead9dfad54b459d09eaa32aab04325b",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U2-4",
+   "srcKey": "SB_u02_p026_t09",
+   "page": "p026",
+   "key": "u2_026",
+   "board": "文化",
+   "n_sent": 21,
+   "n_zh": 21,
+   "audio_md5": "d66730ffa34efa1a5d6abddbe1e7e9f1",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U3-1",
+   "srcKey": "SB_u03_p030_t01",
+   "page": "p030",
+   "key": "u3_30",
+   "board": "阅读A",
+   "n_sent": 25,
+   "n_zh": 25,
+   "audio_md5": "a48aff73dc9b2c8d0ccc5ab963465f27",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U3-2",
+   "srcKey": "SB_u03_p033_t04",
+   "page": "p033",
+   "key": "u3_33",
+   "board": "听力",
+   "n_sent": 43,
+   "n_zh": 43,
+   "audio_md5": "bf04365642bad57bebdc370bd30c02ae",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U3-3",
+   "srcKey": "SB_u03_p034_t08",
+   "page": "p034",
+   "key": "u3_34",
+   "board": "阅读B",
+   "n_sent": 21,
+   "n_zh": 21,
+   "audio_md5": "d438612f7aeb27529b581b9f79cc9cb9",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U4-1",
+   "srcKey": "SB_u04_p038_t01",
+   "page": "p038",
+   "key": "u4_38",
+   "board": "阅读A",
+   "n_sent": 36,
+   "n_zh": 36,
+   "audio_md5": "d36d42bbd654eeaa6d2a915dd149e826",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U4-2",
+   "srcKey": "SB_u04_p041_t02",
+   "page": "p041",
+   "key": "u4_41",
+   "board": "听力",
+   "n_sent": 53,
+   "n_zh": 53,
+   "audio_md5": "02c489c13b4672d195a6228c6d3e7950",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U4-3",
+   "srcKey": "SB_u04_p042_t05",
+   "page": "p042",
+   "key": "u4_42",
+   "board": "阅读B",
+   "n_sent": 24,
+   "n_zh": 24,
+   "audio_md5": "b9185c9bf474443019b07f950533729c",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U4-4",
+   "srcKey": "SB_u04_p044_t06",
+   "page": "p044",
+   "key": "u4_44",
+   "board": "文化",
+   "n_sent": 22,
+   "n_zh": 22,
+   "audio_md5": "f55de1d35677cd11ecc08d13235b703b",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U5-1",
+   "srcKey": "SB_u05_p048_t02",
+   "page": "p048",
+   "key": "u5_048",
+   "board": "阅读A",
+   "n_sent": 21,
+   "n_zh": 21,
+   "audio_md5": "0bcf50188d952da4719446ef52ff3b5f",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U5-2",
+   "srcKey": "SB_u05_p051_t06",
+   "page": "p051",
+   "key": "u5_051",
+   "board": "听力",
+   "n_sent": 45,
+   "n_zh": 45,
+   "audio_md5": "7e03cbe4632e2fce33976e68dabc7721",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U5-3",
+   "srcKey": "SB_u05_p052_t07",
+   "page": "p052",
+   "key": "u5_052",
+   "board": "阅读B",
+   "n_sent": 21,
+   "n_zh": 21,
+   "audio_md5": "444dd79508cc30b46dcb5946fa6e22d9",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U6-1",
+   "srcKey": "SB_u06_p056_t01",
+   "page": "p056",
+   "key": "u6_056",
+   "board": "阅读A",
+   "n_sent": 27,
+   "n_zh": 27,
+   "audio_md5": "c2a917355281267b98abee00747690a3",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U6-2",
+   "srcKey": "SB_u06_p059_t02",
+   "page": "p059",
+   "key": "u6_059",
+   "board": "听力",
+   "n_sent": 45,
+   "n_zh": 45,
+   "audio_md5": "f088bba2086f4127190f42f49a378f66",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U6-3",
+   "srcKey": "SB_u06_p060_t03",
+   "page": "p060",
+   "key": "u6_060",
+   "board": "阅读B",
+   "n_sent": 33,
+   "n_zh": 33,
+   "audio_md5": "a718e036b03c9b46b2ebefe9517a975c",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U6-4",
+   "srcKey": "SB_u06_p062_t06",
+   "page": "p062",
+   "key": "u6_062",
+   "board": "文化",
+   "n_sent": 22,
+   "n_zh": 22,
+   "audio_md5": "53bfa92ae75b8014d835bf2a9dd67a7c",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U7-1",
+   "srcKey": "SB_u07_p066_t03",
+   "page": "p066",
+   "key": "u7_066",
+   "board": "阅读A",
+   "n_sent": 30,
+   "n_zh": 30,
+   "audio_md5": "0d3b4193cd58ed97325671a0242cfb73",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U7-2",
+   "srcKey": "SB_u07_p069_t05",
+   "page": "p069",
+   "key": "u7_069",
+   "board": "听力",
+   "n_sent": 43,
+   "n_zh": 43,
+   "audio_md5": "2095b8fbaddeb49d34925e6fc1df665f",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U7-3",
+   "srcKey": "SB_u07_p070_t06",
+   "page": "p070",
+   "key": "u7_070",
+   "board": "阅读B",
+   "n_sent": 25,
+   "n_zh": 25,
+   "audio_md5": "9a8b2ba1667c98597a272ed19f4fcd6c",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U8-1",
+   "srcKey": "SB_u08_p074_t01",
+   "page": "p074",
+   "key": "u8_074",
+   "board": "阅读A",
+   "n_sent": 32,
+   "n_zh": 32,
+   "audio_md5": "5932ca87f87883248803236917765c39",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U8-2",
+   "srcKey": "SB_u08_p077_t04",
+   "page": "p077",
+   "key": "u8_077",
+   "board": "听力",
+   "n_sent": 36,
+   "n_zh": 36,
+   "audio_md5": "1b8f3d1cd6c0ca0281bb685d5584a3f8",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U8-3",
+   "srcKey": "SB_u08_p078_t05",
+   "page": "p078",
+   "key": "u8_078",
+   "board": "阅读B",
+   "n_sent": 25,
+   "n_zh": 25,
+   "audio_md5": "90f127cfc180f26defb189aac999eaa8",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U8-4",
+   "srcKey": "SB_u08_p080_t06",
+   "page": "p080",
+   "key": "u8_080",
+   "board": "文化",
+   "n_sent": 25,
+   "n_zh": 25,
+   "audio_md5": "88fb1a2884a466d47330b6b30266f7b2",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U9-1",
+   "srcKey": "SB_u09_p084_t01",
+   "page": "p084",
+   "key": "u9_084",
+   "board": "阅读A",
+   "n_sent": 33,
+   "n_zh": 33,
+   "audio_md5": "425731b81ce1715b8a51481896155d09",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U9-2",
+   "srcKey": "SB_u09_p087_t03",
+   "page": "p087",
+   "key": "u9_087",
+   "board": "听力",
+   "n_sent": 51,
+   "n_zh": 51,
+   "audio_md5": "c52a545b77072d17b99bf1f64ecbeb59",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U9-3",
+   "srcKey": "SB_u09_p088_t04",
+   "page": "p088",
+   "key": "u9_088",
+   "board": "阅读B",
+   "n_sent": 20,
+   "n_zh": 20,
+   "audio_md5": "2a3c874386fb5a4e158156559927b465",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U10-1",
+   "srcKey": "SB_u10_p092_t01",
+   "page": "p092",
+   "key": "u10_092",
+   "board": "阅读A",
+   "n_sent": 44,
+   "n_zh": 44,
+   "audio_md5": "8d5bb62ee2a54d78ecf8550e952cd557",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U10-2",
+   "srcKey": "SB_u10_p095_t02",
+   "page": "p095",
+   "key": "u10_095",
+   "board": "听力",
+   "n_sent": 53,
+   "n_zh": 53,
+   "audio_md5": "681efbcbe04039a34df5d1b35f505a18",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U10-3",
+   "srcKey": "SB_u10_p096_t03",
+   "page": "p096",
+   "key": "u10_096",
+   "board": "阅读B",
+   "n_sent": 22,
+   "n_zh": 22,
+   "audio_md5": "f8a034ead1a653f9be58b0a1e4a21d61",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U10-4",
+   "srcKey": "SB_u10_p098_t06",
+   "page": "p098",
+   "key": "u10_098",
+   "board": "文化",
+   "n_sent": 26,
+   "n_zh": 26,
+   "audio_md5": "c16bc3d70fedab2b02efa114d1695be3",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U11-1",
+   "srcKey": "SB_u11_p102_t01",
+   "page": "p102",
+   "key": "u11_102",
+   "board": "阅读A",
+   "n_sent": 27,
+   "n_zh": 27,
+   "audio_md5": "14a3fc08b632969507383ae791d7f487",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U11-2",
+   "srcKey": "SB_u11_p105_t05",
+   "page": "p105",
+   "key": "u11_105",
+   "board": "听力",
+   "n_sent": 65,
+   "n_zh": 65,
+   "audio_md5": "ebaf58b1076d2e2d7769d35c9724c275",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U11-3",
+   "srcKey": "SB_u11_p106_t06",
+   "page": "p106",
+   "key": "u11_106",
+   "board": "阅读B",
+   "n_sent": 27,
+   "n_zh": 27,
+   "audio_md5": "3956c7152692126ba2a7167b88311832",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U12-1",
+   "srcKey": "SB_u12_p110_t01",
+   "page": "p110",
+   "key": "u12_110",
+   "board": "阅读A",
+   "n_sent": 27,
+   "n_zh": 27,
+   "audio_md5": "80741e1ccd4d7796478f0a7e799e0725",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U12-2",
+   "srcKey": "SB_u12_p113_t02",
+   "page": "p113",
+   "key": "u12_113",
+   "board": "听力",
+   "n_sent": 47,
+   "n_zh": 47,
+   "audio_md5": "f4188cd8a53de1755648ebdc649fa131",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U12-3",
+   "srcKey": "SB_u12_p114_t05",
+   "page": "p114",
+   "key": "u12_114",
+   "board": "阅读B",
+   "n_sent": 16,
+   "n_zh": 16,
+   "audio_md5": "d2b9681e37141b6d5e22503a67e116ff",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  },
+  {
+   "lid": "U12-4",
+   "srcKey": "SB_u12_p116_t07",
+   "page": "p116",
+   "key": "u12_116",
+   "board": "文化",
+   "n_sent": 29,
+   "n_zh": 29,
+   "audio_md5": "3839b5daa381509bfa3600e44ecd4f0d",
+   "gates": {
+    "G1_sent_count": true,
+    "G2_timeline_exact": true,
+    "G3_text_exact": true,
+    "G3_zh_complete": true,
+    "G4_audio_md5": true,
+    "G5_namespace": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "passage_key": "u8_77",
+ "page": "p077",
+ "unit": 8,
+ "standard": "course-sentence-translation 技能 R1–R4；键取自对齐原串",
+ "n_sent": 36,
+ "n_unique_keys": 36,
+ "entries": [
+  {
+   "i": 0,
+   "en": "Gemma, how do you feel about sport?",
+   "zh": "杰玛，你觉得运动怎么样？"
+  },
+  {
+   "i": 1,
+   "en": "I’m not interested in sport.",
+   "zh": "我对运动不感兴趣。"
+  },
+  {
+   "i": 2,
+   "en": "I really don’t like it.",
+   "zh": "我真的不喜欢。"
+  },
+  {
+   "i": 3,
+   "en": "I mean, I like exercise so I go for walks and I like swimming, oh I run a lot too, that’s great – but I just don’t like sport, you know, the idea where you try to win, to beat other people.",
+   "zh": "我是说，我喜欢锻炼，所以我去散步，也喜欢游泳，哦，我还经常跑步，那很棒——但我就是不喜欢运动，你知道的，那种要赢、要打败别人的运动。"
+  },
+  {
+   "i": 4,
+   "en": "And I hate sport on TV – I leave the room!",
+   "zh": "而且我讨厌电视上的体育节目——我会离开房间！"
+  },
+  {
+   "i": 5,
+   "en": "And I don’t go to sports events like football matches – why do people pay so much money to watch 22 men run after a ball?",
+   "zh": "我也不去看足球比赛那样的体育赛事——为什么人们要花那么多钱看 22 个人追着一个球跑？"
+  },
+  {
+   "i": 6,
+   "en": "Andy, how do you feel about sport?",
+   "zh": "安迪，你觉得运动怎么样？"
+  },
+  {
+   "i": 7,
+   "en": "Well, I like running a lot.",
+   "zh": "嗯，我非常喜欢跑步。"
+  },
+  {
+   "i": 8,
+   "en": "At school I play football but that’s because I have to, all the boys play football, and it’s OK, I mean I don’t hate it, but I don’t really like team games and sports very much.",
+   "zh": "在学校我踢足球，但那是因为我不得不踢，所有男孩都踢足球，还行吧，我是说我不讨厌它，但我不太喜欢团队运动和体育。"
+  },
+  {
+   "i": 9,
+   "en": "I like doing things alone and I think that’s why I love running, it’s just me and not other people.",
+   "zh": "我喜欢一个人做事，我想这就是我喜欢跑步的原因，只有我自己，没有别人。"
+  },
+  {
+   "i": 10,
+   "en": "I’m not a very good runner but I just love trying to run a little faster than the last time, do you know what I mean?",
+   "zh": "我跑得不是很好，但我就是喜欢试着比上一次跑快一点点，你明白我的意思吗？"
+  },
+  {
+   "i": 11,
+   "en": "Tracey, how do you feel about sport?",
+   "zh": "特蕾西，你觉得运动怎么样？"
+  },
+  {
+   "i": 12,
+   "en": "Well, I absolutely love skateboarding, of course!",
+   "zh": "嗯，我当然非常喜欢滑板！"
+  },
+  {
+   "i": 13,
+   "en": "It’s just the best thing in the world.",
+   "zh": "那是世界上最好的事情。"
+  },
+  {
+   "i": 14,
+   "en": "Some of my family say it isn’t really a sport but they don’t know anything.",
+   "zh": "我家里有些人说滑板不算真正的运动，但他们什么都不懂。"
+  },
+  {
+   "i": 15,
+   "en": "I spend hours practising moves.",
+   "zh": "我花好几个小时练习动作。"
+  },
+  {
+   "i": 16,
+   "en": "There’s a skate-park with a really good ramp, it’s not far from where I live.",
+   "zh": "有一个滑板公园，坡道特别好，离我家不远。"
+  },
+  {
+   "i": 17,
+   "en": "I’m there all the time.",
+   "zh": "我一直待在那里。"
+  },
+  {
+   "i": 18,
+   "en": "It’s the only sport I like really.",
+   "zh": "这真的是我唯一喜欢的运动。"
+  },
+  {
+   "i": 19,
+   "en": "I mean, I kind of like football but really that’s only because some of my friends are into it.",
+   "zh": "我是说，我有点喜欢足球，但那只是因为我的一些朋友喜欢。"
+  },
+  {
+   "i": 20,
+   "en": "But skateboarding, that’s my thing.",
+   "zh": "但滑板才是我的热爱。"
+  },
+  {
+   "i": 21,
+   "en": "Paul, how do you feel about sport?",
+   "zh": "保罗，你觉得运动怎么样？"
+  },
+  {
+   "i": 22,
+   "en": "When I was a kid I didn’t like any sports at all.",
+   "zh": "我小时候一点也不喜欢运动。"
+  },
+  {
+   "i": 23,
+   "en": "I thought: ‘I’m just not good at things like running and jumping’ but about a year ago I saw some gymnastics on TV and now I love it.",
+   "zh": "我以前想：“我就是不擅长跑步和跳跃之类的事”，但大约一年前我在电视上看到体操，现在我爱上了它。"
+  },
+  {
+   "i": 24,
+   "en": "There’s a sports centre in my town where I can do gymnastics.",
+   "zh": "我住的镇上有个体育中心，我可以在那里练体操。"
+  },
+  {
+   "i": 25,
+   "en": "I can’t do it at school because they haven’t got anywhere, but I go to the sports centre every weekend and some evenings too, to do as much gymnastics as I can.",
+   "zh": "学校里没有地方练，但我每个周末和一些晚上都会去体育中心，尽可能多地练体操。"
+  },
+  {
+   "i": 26,
+   "en": "Ryan, how do you feel about sport?",
+   "zh": "瑞安，你觉得运动怎么样？"
+  },
+  {
+   "i": 27,
+   "en": "Sport? Wonderful!",
+   "zh": "运动？太棒了！"
+  },
+  {
+   "i": 28,
+   "en": "I’m a real sports fanatic.",
+   "zh": "我是个真正的体育迷。"
+  },
+  {
+   "i": 29,
+   "en": "I mean, I think about sport all the time.",
+   "zh": "我是说，我一直在想运动。"
+  },
+  {
+   "i": 30,
+   "en": "I watch almost everything on TV – football, tennis, swimming, everything.",
+   "zh": "电视上的体育节目我几乎都看——足球、网球、游泳，什么都看。"
+  },
+  {
+   "i": 31,
+   "en": "And I do a lot of sport too – my favourite’s football, of course, and I’m really not bad at football.",
+   "zh": "我也做很多运动——当然，我最喜欢足球，而且我踢得真不错。"
+  },
+  {
+   "i": 32,
+   "en": "I’m in the school team too.",
+   "zh": "我也是校队成员。"
+  },
+  {
+   "i": 33,
+   "en": "And I’m also learning to ski.",
+   "zh": "而且我还在学滑雪。"
+  },
+  {
+   "i": 34,
+   "en": "My family went to Italy last year.",
+   "zh": "去年我们全家去了意大利。"
+  },
+  {
+   "i": 35,
+   "en": "We went skiing – it was fantastic and I want to do more.",
+   "zh": "我们去滑雪了——太棒了，我还想再去。"
+  }
+ ]
+}

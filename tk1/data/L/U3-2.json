@@ -1,0 +1,445 @@
+{
+ "id": "SB_u03_p033_t04",
+ "no": 3.04,
+ "title": "Listening: In a café ordering food",
+ "titleZh": "",
+ "audio": "assets/tk1_p033.mp3",
+ "duration": 169.33,
+ "question": null,
+ "unit": 3,
+ "part": "听力",
+ "bookPage": "p033",
+ "srcKey": "SB_u03_p033_t04",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 7.14,
+   "t2": 9.8,
+   "en": "Hello. Can I help you?",
+   "zh": "您好。需要帮忙吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 1,
+   "t": 10.24,
+   "t2": 14.7,
+   "en": "Yes, I’d like a cheese and tomato roll, please.",
+   "zh": "是的，我想要一个奶酪番茄卷，谢谢。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 2,
+   "t": 14.7,
+   "t2": 17.08,
+   "en": "Do you want the roll hot?",
+   "zh": "卷饼要加热吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 3,
+   "t": 17.72,
+   "t2": 18.46,
+   "en": "Yes, please.",
+   "zh": "好的，谢谢。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 4,
+   "t": 18.84,
+   "t2": 20.64,
+   "en": "Would you like something to drink?",
+   "zh": "您想喝点什么吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 5,
+   "t": 21.44,
+   "t2": 25.22,
+   "en": "Yes, I’d like an apple juice, please.",
+   "zh": "是的，我想要一杯苹果汁，谢谢。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 6,
+   "t": 25.22,
+   "t2": 30.78,
+   "en": "So that’s a roll and an apple juice. Is that all?",
+   "zh": "那么就是一个卷饼和一杯苹果汁。就这些吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 7,
+   "t": 32.14,
+   "t2": 35.4,
+   "en": "Er, I’d like some carrot cake, too.",
+   "zh": "呃，我还想要一些胡萝卜蛋糕。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 8,
+   "t": 36.22,
+   "t2": 39.68,
+   "en": "OK, that’s £8 altogether.",
+   "zh": "好的，一共 8 英镑。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 9,
+   "t": 40.74,
+   "t2": 41.9,
+   "en": "Here you are.",
+   "zh": "给您。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 10,
+   "t": 41.9,
+   "t2": 49.86,
+   "en": "And that’s £2 change. The roll will be a few minutes. We’ll bring it to your table.",
+   "zh": "这是找您的 2 英镑零钱。卷饼还要几分钟，我们会送到您桌上。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 11,
+   "t": 49.86,
+   "t2": 51.02,
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 12,
+   "t": 51.02,
+   "t2": 54.86,
+   "en": "Enjoy your meal. And what can I get for you?",
+   "zh": "祝您用餐愉快。您需要点什么？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 13,
+   "t": 55.48,
+   "t2": 60.16,
+   "en": "I’d like the chicken and mushroom soup, please, and an apple juice.",
+   "zh": "我想要鸡肉蘑菇汤，还有一杯苹果汁。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 14,
+   "t": 60.16,
+   "t2": 62.56,
+   "en": "OK. Anything else?",
+   "zh": "好的。还要别的吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 15,
+   "t": 63.16,
+   "t2": 64.82,
+   "en": "No, I think that’s all.",
+   "zh": "不用了，我想就这些。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 16,
+   "t": 64.82,
+   "t2": 68.696,
+   "en": "What! No cake? But you said …",
+   "zh": "什么！不吃蛋糕？可你说过……",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 17,
+   "t": 68.9,
+   "t2": 72.98,
+   "en": "I’m trying to be good. I only buy cake at the weekends.",
+   "zh": "我在努力克制自己。我只在周末买蛋糕。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 18,
+   "t": 72.98,
+   "t2": 74.1,
+   "en": "Really?",
+   "zh": "真的吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 19,
+   "t": 74.66,
+   "t2": 79.58,
+   "en": "Yes, I’m being careful with what I eat. Have you got a problem with that?",
+   "zh": "是的，我在注意饮食。你对此有意见吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 20,
+   "t": 79.58,
+   "t2": 81.66,
+   "en": "No, not at all.",
+   "zh": "没有，完全没有。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 21,
+   "t": 82.9,
+   "t2": 84.84,
+   "en": "OK, that’s £6.50.",
+   "zh": "好的，一共 6.50 英镑。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 22,
+   "t": 85.3,
+   "t2": 87.12,
+   "en": "Can I pay by card?",
+   "zh": "我可以刷卡吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 23,
+   "t": 87.66,
+   "t2": 90.1,
+   "en": "Of course. Just put it in here.",
+   "zh": "当然。把它放在这里就行。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 24,
+   "t": 91.4,
+   "t2": 92.2,
+   "en": "It’s done.",
+   "zh": "好了。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 25,
+   "t": 92.2,
+   "t2": 96.16,
+   "en": "Thanks. We’ll bring the soup over in a minute or two.",
+   "zh": "谢谢。我们一两分钟就把汤端过来。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 26,
+   "t": 96.16,
+   "t2": 98.7,
+   "en": "Could you bring me a fork with it, too?",
+   "zh": "能帮我拿一把叉子吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 27,
+   "t": 99.16,
+   "t2": 99.6,
+   "en": "Sure.",
+   "zh": "当然。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Assistant"
+  },
+  {
+   "i": 28,
+   "t": 99.6,
+   "t2": 105.86,
+   "en": "A fork? What do you need a fork for? You can’t eat soup with a fork.",
+   "zh": "叉子？你要叉子做什么？汤是不能用叉子喝的。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 29,
+   "t": 105.86,
+   "t2": 109.62,
+   "en": "I’ve got my reasons. Don’t you worry about it.",
+   "zh": "我有我的理由。你别担心。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 30,
+   "t": 111.2,
+   "t2": 114.44,
+   "en": "Moments later …",
+   "zh": "片刻之后……",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Narrator"
+  },
+  {
+   "i": 31,
+   "t": 115.12,
+   "t2": 121.38,
+   "en": "Well, you’re right. This is a good roll. How’s the soup?",
+   "zh": "嗯，你说得对。这个卷饼真不错。汤怎么样？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 32,
+   "t": 121.84,
+   "t2": 124.38,
+   "en": "Delicious. Would you like to try some?",
+   "zh": "很好喝。你想尝尝吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 33,
+   "t": 124.86,
+   "t2": 130.28,
+   "en": "No, I’m OK. My cake looks fantastic, doesn’t it?",
+   "zh": "不用，我没事。我的蛋糕看起来很棒，不是吗？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 34,
+   "t": 130.48,
+   "t2": 135.28,
+   "en": "Yes, it does. Mmmmm … it tastes fantastic, too!",
+   "zh": "是啊，确实。唔……尝起来也很棒！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 35,
+   "t": 135.28,
+   "t2": 137.96,
+   "en": "Hey, what are you doing?",
+   "zh": "嘿，你在干什么？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 36,
+   "t": 138.6,
+   "t2": 140.74,
+   "en": "Mmmmm. That is a good cake!",
+   "zh": "唔。这蛋糕真好吃！",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 37,
+   "t": 141.42,
+   "t2": 145.06,
+   "en": "But you said, cake only at the weekends.",
+   "zh": "可你说过，只在周末吃蛋糕。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 38,
+   "t": 145.06,
+   "t2": 148.96,
+   "en": "I said I only buy cake at the weekends.",
+   "zh": "我说的是我只在周末买蛋糕。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 39,
+   "t": 149.62,
+   "t2": 150.12,
+   "en": "And?",
+   "zh": "然后呢？",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 40,
+   "t": 150.76,
+   "t2": 156.0,
+   "en": "Well, you bought this cake. I’ve got no problem eating your cake.",
+   "zh": "嗯，这蛋糕是你买的。吃你的蛋糕我可没问题。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  },
+  {
+   "i": 41,
+   "t": 156.26,
+   "t2": 158.88,
+   "en": "And that explains the fork.",
+   "zh": "这就解释了叉子的用处。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Steve"
+  },
+  {
+   "i": 42,
+   "t": 158.88,
+   "t2": 164.84,
+   "en": "Yes, it does. Now hurry up and finish your roll before I eat all your cake.",
+   "zh": "是的。快点把你的卷饼吃完，不然我要把你所有的蛋糕都吃光了。",
+   "conf": 1.0,
+   "src": "audioscript",
+   "sp": "Hannah"
+  }
+ ]
+}

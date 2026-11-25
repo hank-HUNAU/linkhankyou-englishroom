@@ -1,0 +1,369 @@
+{
+ "unit": "U9",
+ "passage_key": "u9_87",
+ "page": "p087",
+ "title": "Listening: Interview with a Kalahari bushman",
+ "type": "听力",
+ "n_sent": 51,
+ "duration_s": 210.83,
+ "source": "Think 1 U9 增量：alignment/SB_u09_p087_t03 + 译文_tk1_p087.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 6.58,
+   "end_s": 10.12,
+   "dur_s": 3.54,
+   "text": "You know so much about the wildlife here, PK."
+  },
+  {
+   "i": 1,
+   "start_s": 10.76,
+   "end_s": 11.52,
+   "dur_s": 0.76,
+   "text": "How come?"
+  },
+  {
+   "i": 2,
+   "start_s": 11.84,
+   "end_s": 18.773,
+   "dur_s": 6.933,
+   "text": "My family are San, bush people, and I learned about nature from the time when I was a child."
+  },
+  {
+   "i": 3,
+   "start_s": 19.28,
+   "end_s": 21.258,
+   "dur_s": 1.978,
+   "text": "I was born in the Kalahari."
+  },
+  {
+   "i": 4,
+   "start_s": 21.72,
+   "end_s": 24.94,
+   "dur_s": 3.22,
+   "text": "And you grew up and found your wife here?"
+  },
+  {
+   "i": 5,
+   "start_s": 24.94,
+   "end_s": 29.34,
+   "dur_s": 4.4,
+   "text": "Yes, finding a wife here was very interesting."
+  },
+  {
+   "i": 6,
+   "start_s": 30.32,
+   "end_s": 31.5,
+   "dur_s": 1.18,
+   "text": "Tell us more."
+  },
+  {
+   "i": 7,
+   "start_s": 32.22,
+   "end_s": 36.072,
+   "dur_s": 3.852,
+   "text": "Yes, let’s say a young man wants to marry a girl."
+  },
+  {
+   "i": 8,
+   "start_s": 36.28,
+   "end_s": 43.874,
+   "dur_s": 7.594,
+   "text": "So he has to ask her father and he says before you can marry my daughter, you have to do a task."
+  },
+  {
+   "i": 9,
+   "start_s": 44.3,
+   "end_s": 44.88,
+   "dur_s": 0.58,
+   "text": "OK."
+  },
+  {
+   "i": 10,
+   "start_s": 45.4,
+   "end_s": 49.74,
+   "dur_s": 4.34,
+   "text": "So what type of task does the young man have to do, PK?"
+  },
+  {
+   "i": 11,
+   "start_s": 50.44,
+   "end_s": 57.06,
+   "dur_s": 6.62,
+   "text": "Well, for example, he has to show that he can take a kill away from a lion."
+  },
+  {
+   "i": 12,
+   "start_s": 58.5,
+   "end_s": 62.7,
+   "dur_s": 4.2,
+   "text": "What do you mean ‘take a kill away from a lion’?"
+  },
+  {
+   "i": 13,
+   "start_s": 63.24,
+   "end_s": 68.48,
+   "dur_s": 5.24,
+   "text": "Well, imagine a lion kills an antelope or another large animal."
+  },
+  {
+   "i": 14,
+   "start_s": 69.46,
+   "end_s": 75.46,
+   "dur_s": 6.0,
+   "text": "The young man has to find that lion and get the meat, so he can show that he has courage."
+  },
+  {
+   "i": 15,
+   "start_s": 76.22,
+   "end_s": 78.797,
+   "dur_s": 2.577,
+   "text": "That’s important for his future family."
+  },
+  {
+   "i": 16,
+   "start_s": 78.797,
+   "end_s": 82.36,
+   "dur_s": 3.563,
+   "text": "Wow, but how can you do that?"
+  },
+  {
+   "i": 17,
+   "start_s": 83.16,
+   "end_s": 86.42,
+   "dur_s": 3.26,
+   "text": "How can you find a lion and its kill?"
+  },
+  {
+   "i": 18,
+   "start_s": 86.98,
+   "end_s": 88.073,
+   "dur_s": 1.093,
+   "text": "You have to look."
+  },
+  {
+   "i": 19,
+   "start_s": 88.28,
+   "end_s": 91.9,
+   "dur_s": 3.62,
+   "text": "You have to look for the big birds, the vultures."
+  },
+  {
+   "i": 20,
+   "start_s": 92.5,
+   "end_s": 96.096,
+   "dur_s": 3.596,
+   "text": "They are watching the lion because they want some of the meat."
+  },
+  {
+   "i": 21,
+   "start_s": 96.52,
+   "end_s": 101.2,
+   "dur_s": 4.68,
+   "text": "OK, so let’s say you find the lion and its kill."
+  },
+  {
+   "i": 22,
+   "start_s": 101.94,
+   "end_s": 104.12,
+   "dur_s": 2.18,
+   "text": "How can you then get the meat?"
+  },
+  {
+   "i": 23,
+   "start_s": 104.86,
+   "end_s": 105.86,
+   "dur_s": 1.0,
+   "text": "Isn’t that dangerous?"
+  },
+  {
+   "i": 24,
+   "start_s": 105.86,
+   "end_s": 109.32,
+   "dur_s": 3.46,
+   "text": "Yes, of course the lion is dangerous."
+  },
+  {
+   "i": 25,
+   "start_s": 109.86,
+   "end_s": 112.96,
+   "dur_s": 3.1,
+   "text": "You mustn’t take the meat away from the lion at night."
+  },
+  {
+   "i": 26,
+   "start_s": 113.6,
+   "end_s": 115.798,
+   "dur_s": 2.198,
+   "text": "You have to do that during the day."
+  },
+  {
+   "i": 27,
+   "start_s": 116.2,
+   "end_s": 117.22,
+   "dur_s": 1.02,
+   "text": "Why’s that?"
+  },
+  {
+   "i": 28,
+   "start_s": 117.68,
+   "end_s": 119.966,
+   "dur_s": 2.286,
+   "text": "During the day it’s very hot."
+  },
+  {
+   "i": 29,
+   "start_s": 119.966,
+   "end_s": 123.82,
+   "dur_s": 3.854,
+   "text": "And the big cats can’t run fast when it’s hot."
+  },
+  {
+   "i": 30,
+   "start_s": 124.58,
+   "end_s": 129.02,
+   "dur_s": 4.44,
+   "text": "A man can run even when it’s very hot, but lions can’t."
+  },
+  {
+   "i": 31,
+   "start_s": 129.28,
+   "end_s": 129.68,
+   "dur_s": 0.4,
+   "text": "No?"
+  },
+  {
+   "i": 32,
+   "start_s": 130.2,
+   "end_s": 131.74,
+   "dur_s": 1.54,
+   "text": "No, they can’t."
+  },
+  {
+   "i": 33,
+   "start_s": 131.74,
+   "end_s": 138.28,
+   "dur_s": 6.54,
+   "text": "When they eat some meat, they feel very, very hot and get very tired."
+  },
+  {
+   "i": 34,
+   "start_s": 138.9,
+   "end_s": 144.7,
+   "dur_s": 5.8,
+   "text": "So they often just lie around and they sleep all the time during the day."
+  },
+  {
+   "i": 35,
+   "start_s": 145.12,
+   "end_s": 149.467,
+   "dur_s": 4.347,
+   "text": "At night they are more dangerous because they don’t sleep."
+  },
+  {
+   "i": 36,
+   "start_s": 150.26,
+   "end_s": 153.6,
+   "dur_s": 3.34,
+   "text": "And at night their eyes are better than your eyes."
+  },
+  {
+   "i": 37,
+   "start_s": 153.7,
+   "end_s": 156.9,
+   "dur_s": 3.2,
+   "text": "So you can’t get the kill from the lion at night."
+  },
+  {
+   "i": 38,
+   "start_s": 156.9,
+   "end_s": 161.36,
+   "dur_s": 4.46,
+   "text": "OK, so you have to do that during the day."
+  },
+  {
+   "i": 39,
+   "start_s": 161.68,
+   "end_s": 166.54,
+   "dur_s": 4.86,
+   "text": "But what do you do to get the kill from the lion?"
+  },
+  {
+   "i": 40,
+   "start_s": 167.12,
+   "end_s": 167.76,
+   "dur_s": 0.64,
+   "text": "OK."
+  },
+  {
+   "i": 41,
+   "start_s": 168.32,
+   "end_s": 171.862,
+   "dur_s": 3.542,
+   "text": "So let’s say the lion is sleeping."
+  },
+  {
+   "i": 42,
+   "start_s": 172.5,
+   "end_s": 175.578,
+   "dur_s": 3.078,
+   "text": "You hold your spear in your hand."
+  },
+  {
+   "i": 43,
+   "start_s": 176.08,
+   "end_s": 178.96,
+   "dur_s": 2.88,
+   "text": "You have to be very quiet."
+  },
+  {
+   "i": 44,
+   "start_s": 178.96,
+   "end_s": 182.24,
+   "dur_s": 3.28,
+   "text": "And you go up to that lion."
+  },
+  {
+   "i": 45,
+   "start_s": 182.24,
+   "end_s": 186.44,
+   "dur_s": 4.2,
+   "text": "Do you attack him with your spear?"
+  },
+  {
+   "i": 46,
+   "start_s": 187.38,
+   "end_s": 187.98,
+   "dur_s": 0.6,
+   "text": "Kill him?"
+  },
+  {
+   "i": 47,
+   "start_s": 188.66,
+   "end_s": 190.78,
+   "dur_s": 2.12,
+   "text": "No, no, no, no."
+  },
+  {
+   "i": 48,
+   "start_s": 191.48,
+   "end_s": 196.28,
+   "dur_s": 4.8,
+   "text": "You just go up to him and shout, ‘Arrrrggggghhhhh!’"
+  },
+  {
+   "i": 49,
+   "start_s": 197.16,
+   "end_s": 205.775,
+   "dur_s": 8.615,
+   "text": "You mustn’t hurt him or kill him, just surprise him, shock him, so he runs away."
+  },
+  {
+   "i": 50,
+   "start_s": 206.52,
+   "end_s": 207.18,
+   "dur_s": 0.66,
+   "text": "Wow!"
+  }
+ ]
+}

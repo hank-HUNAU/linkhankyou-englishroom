@@ -1,0 +1,167 @@
+1
+00:00:06,220 --> 00:00:07,840
+Do you enjoy life?
+
+2
+00:00:09,060 --> 00:00:11,880
+Do your parents always ask you to do housework?
+
+3
+00:00:12,800 --> 00:00:15,460
+Does your teacher give you homework every day?
+
+4
+00:00:16,730 --> 00:00:21,190
+Life is sometimes difficult because there are lots of things to do.
+
+5
+00:00:22,060 --> 00:00:27,670
+It's great to be busy, but it's important to look after yourself and have fun, too.
+
+6
+00:00:28,530 --> 00:00:36,830
+We all need to think about ourselves and do things we like, whether it is playing an instrument or taking photos.
+
+7
+00:00:36,830 --> 00:00:42,170
+But we also need to do things that keep us healthy and happy.
+
+8
+00:00:43,890 --> 00:00:44,630
+Here's our quiz.
+
+9
+00:00:45,430 --> 00:00:50,370
+Try it and find out: do you have lots of fun?
+
+10
+00:00:54,040 --> 00:00:55,360
+Do you laugh a lot?
+
+11
+00:00:57,170 --> 00:00:59,110
+Yes, I laugh all the time.
+
+12
+00:01:01,160 --> 00:01:02,840
+I only laugh when I'm happy.
+
+13
+00:01:05,060 --> 00:01:08,260
+My best friend says I don't laugh very often.
+
+14
+00:01:11,820 --> 00:01:13,620
+How many hobbies do you have?
+
+15
+00:01:15,320 --> 00:01:16,760
+I have lots of hobbies.
+
+16
+00:01:18,500 --> 00:01:18,980
+One.
+
+17
+00:01:21,230 --> 00:01:22,530
+I don't have any hobbies.
+
+18
+00:01:26,420 --> 00:01:27,880
+When do you listen to music?
+
+19
+00:01:29,840 --> 00:01:32,560
+In the morning, afternoon and evening.
+
+20
+00:01:34,860 --> 00:01:37,240
+I only listen to music when I have time.
+
+21
+00:01:39,430 --> 00:01:41,050
+I never listen to music.
+
+22
+00:01:41,430 --> 00:01:42,630
+I don't have time.
+
+23
+00:01:46,270 --> 00:01:48,720
+How many hours do you sleep a night?
+
+24
+00:01:50,900 --> 00:01:52,700
+9-10 hours.
+
+25
+00:01:55,320 --> 00:01:56,180
+About 8 hours.
+
+26
+00:01:58,310 --> 00:01:59,590
+Less than 8 hours.
+
+27
+00:02:03,420 --> 00:02:04,880
+Do you like doing exercise?
+
+28
+00:02:07,140 --> 00:02:09,080
+Yes, exercise is fun.
+
+29
+00:02:11,600 --> 00:02:14,700
+Some exercise is OK, but not everything.
+
+30
+00:02:17,260 --> 00:02:19,380
+I don't like exercise at all.
+
+31
+00:02:23,110 --> 00:02:25,750
+Do you like word and number puzzles?
+
+32
+00:02:27,740 --> 00:02:28,960
+I like puzzles a lot.
+
+33
+00:02:31,250 --> 00:02:35,470
+Word puzzles are OK, but number puzzles are boring.
+
+34
+00:02:37,730 --> 00:02:40,290
+No, I don't like puzzles at all.
+
+35
+00:02:43,990 --> 00:02:46,650
+Which of these activities do you do most?
+
+36
+00:02:49,260 --> 00:02:51,180
+Spend time with friends and family.
+
+37
+00:02:53,250 --> 00:02:55,720
+Message friends online or on my phone.
+
+38
+00:02:57,795 --> 00:03:00,744
+Watch TV or play games on my phone.
+
+39
+00:03:02,280 --> 00:03:03,660
+Your score.
+
+40
+00:03:05,340 --> 00:03:10,620
+Mostly As: Wow! You know how to have fun and enjoy life.
+
+41
+00:03:11,900 --> 00:03:20,110
+Mostly Bs: Hmm, OK, but can you do more? Try and find more time for yourself.
+
+42
+00:03:22,100 --> 00:03:27,530
+Mostly Cs: Try and find more ways to have more fun.

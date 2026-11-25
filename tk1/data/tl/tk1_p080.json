@@ -1,0 +1,187 @@
+{
+ "unit": "U8",
+ "passage_key": "u8_80",
+ "page": "p080",
+ "title": "Culture: The wonderful world of sport",
+ "type": "文化",
+ "n_sent": 25,
+ "duration_s": 214.41,
+ "source": "Think 1 U8 增量：alignment/SB_u08_p080_t06 + 译文_tk1_p080.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.2,
+   "end_s": 18.86,
+   "dur_s": 9.66,
+   "text": "Sports such as football, tennis and golf are popular all over the world with millions of people playing them or watching them on TV."
+  },
+  {
+   "i": 1,
+   "start_s": 20.07,
+   "end_s": 24.6,
+   "dur_s": 4.53,
+   "text": "But there are also many unusual sports that are not so well known."
+  },
+  {
+   "i": 2,
+   "start_s": 25.38,
+   "end_s": 27.56,
+   "dur_s": 2.18,
+   "text": "Here are four interesting examples."
+  },
+  {
+   "i": 3,
+   "start_s": 31.02,
+   "end_s": 41.7,
+   "dur_s": 10.68,
+   "text": "Every year, on a small Chinese island, thousands of people arrive to celebrate a very special event: the Cheung Chau bun festival."
+  },
+  {
+   "i": 4,
+   "start_s": 42.6,
+   "end_s": 48.12,
+   "dur_s": 5.52,
+   "text": "The highlight of the festival is a race to the top of a very strange mountain."
+  },
+  {
+   "i": 5,
+   "start_s": 48.98,
+   "end_s": 54.76,
+   "dur_s": 5.78,
+   "text": "The mountain is made of metal and covered with a type of traditional Chinese bun."
+  },
+  {
+   "i": 6,
+   "start_s": 56.216,
+   "end_s": 63.12,
+   "dur_s": 6.904,
+   "text": "Spectators watch as three teams compete to see how many buns they can take from the mountain."
+  },
+  {
+   "i": 7,
+   "start_s": 64.18,
+   "end_s": 71.007,
+   "dur_s": 6.827,
+   "text": "The climb can be quite dangerous and people who want to take part must take a special training course."
+  },
+  {
+   "i": 8,
+   "start_s": 74.16,
+   "end_s": 81.34,
+   "dur_s": 7.18,
+   "text": "Camel racing is a popular sport in many countries around the world, including Mongolia and Australia."
+  },
+  {
+   "i": 9,
+   "start_s": 82.34,
+   "end_s": 95.19,
+   "dur_s": 12.85,
+   "text": "But it is especially popular in the Middle East and each year, from late October to early April, many big races take place in countries such as the United Arab Emirates."
+  },
+  {
+   "i": 10,
+   "start_s": 95.62,
+   "end_s": 102.38,
+   "dur_s": 6.76,
+   "text": "As many as 70 camels race along sandy desert tracks for up to 16 km."
+  },
+  {
+   "i": 11,
+   "start_s": 103.5,
+   "end_s": 112.02,
+   "dur_s": 8.52,
+   "text": "The owners of the camels drive by the side of the animals shouting at them to run faster and cross the finish line before the others."
+  },
+  {
+   "i": 12,
+   "start_s": 115.66,
+   "end_s": 120.72,
+   "dur_s": 5.06,
+   "text": "Bossaball is a very modern sport that was first played in 2005."
+  },
+  {
+   "i": 13,
+   "start_s": 121.9,
+   "end_s": 127.64,
+   "dur_s": 5.74,
+   "text": "It started in Spain, but it was the idea of a Belgian man called Filip Eyckmans."
+  },
+  {
+   "i": 14,
+   "start_s": 128.46,
+   "end_s": 137.98,
+   "dur_s": 9.52,
+   "text": "He wanted to create a sport that mixed together football, gymnastics, volleyball and the Brazilian music of bossa nova."
+  },
+  {
+   "i": 15,
+   "start_s": 139.0,
+   "end_s": 142.431,
+   "dur_s": 3.431,
+   "text": "There are two trampolines with a net between them."
+  },
+  {
+   "i": 16,
+   "start_s": 143.12,
+   "end_s": 149.629,
+   "dur_s": 6.509,
+   "text": "The idea is for one team to hit the ball over the net and the other team to try and hit it back."
+  },
+  {
+   "i": 17,
+   "start_s": 150.54,
+   "end_s": 157.06,
+   "dur_s": 6.52,
+   "text": "The trampolines let the players jump very high, making the sport very exciting to watch."
+  },
+  {
+   "i": 18,
+   "start_s": 157.06,
+   "end_s": 168.182,
+   "dur_s": 11.122,
+   "text": "The sport is already popular in many countries around the world, including Brazil, Mexico, Turkey, Singapore and Saudi Arabia."
+  },
+  {
+   "i": 19,
+   "start_s": 171.54,
+   "end_s": 175.763,
+   "dur_s": 4.223,
+   "text": "Chess boxing was the invention of Dutch artist Iepe Rubingh."
+  },
+  {
+   "i": 20,
+   "start_s": 176.6,
+   "end_s": 186.665,
+   "dur_s": 10.065,
+   "text": "His original idea was to create a piece of performance art, but it was so popular that it soon became a sport played in countries all over the world."
+  },
+  {
+   "i": 21,
+   "start_s": 187.42,
+   "end_s": 188.6,
+   "dur_s": 1.18,
+   "text": "The game is quite simple."
+  },
+  {
+   "i": 22,
+   "start_s": 189.62,
+   "end_s": 193.52,
+   "dur_s": 3.9,
+   "text": "Two contestants compete against each other at chess and boxing."
+  },
+  {
+   "i": 23,
+   "start_s": 194.94,
+   "end_s": 205.2,
+   "dur_s": 10.26,
+   "text": "Each round of chess is followed by a round of boxing with a break of a minute between each round to give the players time to put on or take off their gloves."
+  },
+  {
+   "i": 24,
+   "start_s": 205.84,
+   "end_s": 211.14,
+   "dur_s": 5.3,
+   "text": "The first person to win either the chess match or the boxing match wins the game."
+  }
+ ]
+}

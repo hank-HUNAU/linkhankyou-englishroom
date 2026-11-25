@@ -1,0 +1,240 @@
+{
+ "id": "SB_u08_p078_t05",
+ "no": 8.05,
+ "title": "Web forum: Sporting fails",
+ "titleZh": "",
+ "audio": "assets/tk1_p078.mp3",
+ "duration": 153.42,
+ "question": null,
+ "unit": 8,
+ "part": "阅读B",
+ "bookPage": "p078",
+ "srcKey": "SB_u08_p078_t05",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 9.2,
+   "t2": 13.259,
+   "en": "Professional athletes need their bodies to be in excellent condition.",
+   "zh": "职业运动员需要让身体保持最佳状态。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 13.84,
+   "t2": 16.927,
+   "en": "They train hours every day to achieve this.",
+   "zh": "他们每天训练几个小时才能达到这个目标。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 17.52,
+   "t2": 23.8,
+   "en": "Sometimes it only takes one small mistake to spoil all that hard work.",
+   "zh": "有时候，一个小错误就会毁掉所有的努力。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 24.26,
+   "t2": 30.209,
+   "en": "In 2011, for example, French golfer Thomas Levet won the French Open.",
+   "zh": "例如，2011 年，法国高尔夫球手托马斯·勒韦赢得了法国公开赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 30.86,
+   "t2": 35.306,
+   "en": "He was so happy that he jumped in a lake and broke his leg.",
+   "zh": "他太高兴了，跳进湖里，结果摔断了腿。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 35.82,
+   "t2": 46.38,
+   "en": "And American skier Lindsey Vonn cut her hand badly while she was opening a glass bottle to celebrate winning at the 2009 World Championships.",
+   "zh": "美国滑雪运动员林赛·沃恩在庆祝赢得 2009 年世界锦标赛时，打开玻璃瓶严重割伤了手。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 47.2,
+   "t2": 54.02,
+   "en": "We know you’re not professionals, but we want you to tell us all about your silliest sporting accidents.",
+   "zh": "我们知道你们不是职业运动员，但我们想让你们讲讲自己最傻的运动事故。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 56.4,
+   "t2": 60.151,
+   "en": "Last year, I was playing volleyball for my school team.",
+   "zh": "去年，我在校队打排球。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 60.68,
+   "t2": 63.541,
+   "en": "I jumped up high and hit the ball really hard.",
+   "zh": "我高高跳起，用力击球。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 64.1,
+   "t2": 69.602,
+   "en": "At first, I thought it was a really good shot, but I soon found out it wasn’t.",
+   "zh": "起初我以为那球打得很漂亮，但很快就发现不是。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 70.16,
+   "t2": 76.3,
+   "en": "The ball hit the post at the side of the net: then it hit me in the face and knocked me to the floor.",
+   "zh": "球打在网边的柱子上：然后打在我脸上，把我击倒在地。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 77.0,
+   "t2": 82.001,
+   "en": "I had a big purple bruise on my face and I couldn’t play the rest of the game.",
+   "zh": "我脸上有一大块紫色淤青，剩下的比赛没法打了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 84.3,
+   "t2": 90.4,
+   "en": "When I was 13, I played for the school rugby team and we won the schools championship.",
+   "zh": "我十三岁时在校橄榄球队打球，我们赢得了学校锦标赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 91.32,
+   "t2": 94.1,
+   "en": "A few days later, there was a big celebration.",
+   "zh": "几天后，有一个盛大的庆祝活动。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 95.68,
+   "t2": 101.72,
+   "en": "All the students were there to watch as we walked on to the stage to get medals from the headmistress.",
+   "zh": "所有学生都在那里看着我们走上舞台，从女校长手中接过奖牌。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 102.6,
+   "t2": 108.96,
+   "en": "I got my medal, but when I was leaving the stage, I tripped and fell down the steps.",
+   "zh": "我拿到了奖牌，但下台时绊了一下，从台阶上摔了下去。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 109.66,
+   "t2": 113.8,
+   "en": "Luckily, I wasn’t hurt, but I was really, really embarrassed.",
+   "zh": "幸运的是我没受伤，但我真的非常尴尬。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 116.3,
+   "t2": 121.74,
+   "en": "A few days ago I was skateboarding down my road when I saw my best friend.",
+   "zh": "几天前，我正在路上玩滑板，看到了我最好的朋友。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 122.62,
+   "t2": 124.62,
+   "en": "I shouted to him and started waving.",
+   "zh": "我朝他大喊，并开始挥手。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 125.6,
+   "t2": 129.521,
+   "en": "While I was waving, I rode into a lamppost and fell off.",
+   "zh": "挥手的时候，我撞上了路灯柱，摔了下来。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 130.12,
+   "t2": 133.16,
+   "en": "My leg was hurting really badly and I couldn’t move.",
+   "zh": "我的腿疼得厉害，动不了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 134.2,
+   "t2": 137.08,
+   "en": "After ten minutes, my friend called an ambulance.",
+   "zh": "十分钟后，我的朋友叫了救护车。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 138.1,
+   "t2": 140.14,
+   "en": "Finally, they took me to hospital.",
+   "zh": "最后，他们把我送到了医院。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 141.12,
+   "t2": 143.34,
+   "en": "The doctor there told me my leg was broken.",
+   "zh": "那里的医生告诉我我的腿骨折了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 144.14,
+   "t2": 149.82,
+   "en": "Now I can’t skateboard for at least six months, and I have to miss the local championships.",
+   "zh": "现在我至少六个月不能玩滑板，还得错过当地的锦标赛。",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}

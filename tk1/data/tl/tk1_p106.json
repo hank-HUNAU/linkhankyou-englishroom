@@ -1,0 +1,201 @@
+{
+ "unit": "U11",
+ "passage_key": "u11_106",
+ "page": "p106",
+ "title": "Blog: Old Wives’ Tales",
+ "type": "阅读B",
+ "n_sent": 27,
+ "duration_s": 179.49,
+ "source": "Think 1 U11 增量：alignment/SB_u11_p106_t06 + 译文_tk1_p106.json（R2/R3 已过）",
+ "sentences": [
+  {
+   "i": 0,
+   "start_s": 9.52,
+   "end_s": 16.393,
+   "dur_s": 6.873,
+   "text": "Old Wives’ Tales are those ‘helpful’ things that your grandparents say that are probably not true."
+  },
+  {
+   "i": 1,
+   "start_s": 17.02,
+   "end_s": 32.009,
+   "dur_s": 14.989,
+   "text": "They are things like, ‘If you watch a lot of TV, you’ll get square eyes’, ‘If you eat carrots, you’ll see well in the dark’, or ‘If you eat cheese at night, you’ll have bad dreams’."
+  },
+  {
+   "i": 2,
+   "start_s": 32.98,
+   "end_s": 38.29,
+   "dur_s": 5.31,
+   "text": "But are they nonsense or is there sometimes a little bit of truth in them?"
+  },
+  {
+   "i": 3,
+   "start_s": 38.88,
+   "end_s": 41.157,
+   "dur_s": 2.277,
+   "text": "We decided to investigate more."
+  },
+  {
+   "i": 4,
+   "start_s": 42.4,
+   "end_s": 48.054,
+   "dur_s": 5.654,
+   "text": "Let’s start with a famous one: ‘An apple a day keeps the doctor away’."
+  },
+  {
+   "i": 5,
+   "start_s": 48.7,
+   "end_s": 50.86,
+   "dur_s": 2.16,
+   "text": "My grandma said this all the time."
+  },
+  {
+   "i": 6,
+   "start_s": 51.84,
+   "end_s": 57.017,
+   "dur_s": 5.177,
+   "text": "Well, of course everyone knows that fruit is an important part of a healthy diet."
+  },
+  {
+   "i": 7,
+   "start_s": 57.7,
+   "end_s": 60.44,
+   "dur_s": 2.74,
+   "text": "But can one apple really make a difference?"
+  },
+  {
+   "i": 8,
+   "start_s": 61.44,
+   "end_s": 64.94,
+   "dur_s": 3.5,
+   "text": "A medical study from 2013 says ‘yes’."
+  },
+  {
+   "i": 9,
+   "start_s": 66.1,
+   "end_s": 74.92,
+   "dur_s": 8.82,
+   "text": "It found that if people over 50 eat an apple a day, their chances of a heart attack are much smaller than people who don’t."
+  },
+  {
+   "i": 10,
+   "start_s": 76.14,
+   "end_s": 79.8,
+   "dur_s": 3.66,
+   "text": "What about ‘Gain a child, lose a tooth’?"
+  },
+  {
+   "i": 11,
+   "start_s": 79.8,
+   "end_s": 85.2,
+   "dur_s": 5.4,
+   "text": "They say that when a woman has a child, a tooth will fall out."
+  },
+  {
+   "i": 12,
+   "start_s": 86.36,
+   "end_s": 99.149,
+   "dur_s": 12.789,
+   "text": "Researchers at the New York University College of Dentistry studied more than 2,600 women between the ages of 18 and 64 with one or more children."
+  },
+  {
+   "i": 13,
+   "start_s": 99.7,
+   "end_s": 100.995,
+   "dur_s": 1.295,
+   "text": "And guess what?"
+  },
+  {
+   "i": 14,
+   "start_s": 101.66,
+   "end_s": 109.529,
+   "dur_s": 7.869,
+   "text": "They found they had more problems with their teeth than women with no children, although they couldn’t say exactly why."
+  },
+  {
+   "i": 15,
+   "start_s": 111.02,
+   "end_s": 115.682,
+   "dur_s": 4.662,
+   "text": "My great uncle was a big believer that ‘fish is brain food’."
+  },
+  {
+   "i": 16,
+   "start_s": 116.54,
+   "end_s": 120.3,
+   "dur_s": 3.76,
+   "text": "He ate it all the time and he was a clever man, too."
+  },
+  {
+   "i": 17,
+   "start_s": 121.28,
+   "end_s": 123.344,
+   "dur_s": 2.064,
+   "text": "It looks like he might be right."
+  },
+  {
+   "i": 18,
+   "start_s": 124.6,
+   "end_s": 129.416,
+   "dur_s": 4.816,
+   "text": "Fish have a lot of omega-3 and omega-6 fats in their oil."
+  },
+  {
+   "i": 19,
+   "start_s": 130.3,
+   "end_s": 143.82,
+   "dur_s": 13.52,
+   "text": "Some scientists from Oxford studied 120 primary school children, and they discovered that the children who ate omega-3 and omega-6 made big improvements in their schoolwork."
+  },
+  {
+   "i": 20,
+   "start_s": 145.06,
+   "end_s": 149.513,
+   "dur_s": 4.453,
+   "text": "If you eat fish oil, it will help to prevent heart problems, too."
+  },
+  {
+   "i": 21,
+   "start_s": 150.32,
+   "end_s": 153.38,
+   "dur_s": 3.06,
+   "text": "It seems like eating fish is a good idea."
+  },
+  {
+   "i": 22,
+   "start_s": 154.68,
+   "end_s": 157.38,
+   "dur_s": 2.7,
+   "text": "Finally, what about those carrots?"
+  },
+  {
+   "i": 23,
+   "start_s": 157.38,
+   "end_s": 160.485,
+   "dur_s": 3.105,
+   "text": "Can they really help your night vision?"
+  },
+  {
+   "i": 24,
+   "start_s": 161.14,
+   "end_s": 165.79,
+   "dur_s": 4.65,
+   "text": "I’ve eaten them all my life, but I still walk into things when I get up in the night."
+  },
+  {
+   "i": 25,
+   "start_s": 167.24,
+   "end_s": 171.909,
+   "dur_s": 4.669,
+   "text": "Unfortunately, I can’t find anything to prove if this is right or wrong."
+  },
+  {
+   "i": 26,
+   "start_s": 172.56,
+   "end_s": 176.34,
+   "dur_s": 3.78,
+   "text": "I’ll keep looking and I’ll let you know as soon as I find out."
+  }
+ ]
+}

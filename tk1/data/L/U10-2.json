@@ -1,0 +1,492 @@
+{
+ "id": "SB_u10_p095_t02",
+ "no": 10.02,
+ "title": "Listening: Teens making plans",
+ "titleZh": "",
+ "audio": "assets/tk1_p095.mp3",
+ "duration": 156.5,
+ "question": null,
+ "unit": 10,
+ "part": "听力",
+ "bookPage": "p095",
+ "srcKey": "SB_u10_p095_t02",
+ "sentences": [
+  {
+   "i": 0,
+   "t": 6.98,
+   "t2": 8.208,
+   "en": "Hey Connor.",
+   "zh": "嘿，康纳。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 1,
+   "t": 8.92,
+   "t2": 10.06,
+   "en": "What are you doing this weekend?",
+   "zh": "你这个周末要做什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 2,
+   "t": 10.72,
+   "t2": 11.06,
+   "en": "Hi!",
+   "zh": "嗨！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 3,
+   "t": 11.54,
+   "t2": 12.88,
+   "en": "I’m quite busy actually.",
+   "zh": "我其实挺忙的。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 4,
+   "t": 13.3,
+   "t2": 13.62,
+   "en": "Why?",
+   "zh": "为什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 5,
+   "t": 14.22,
+   "t2": 17.82,
+   "en": "Well, it’s just that we’ve got that History test coming up.",
+   "zh": "嗯，就是我们马上要考历史了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 6,
+   "t": 18.32,
+   "t2": 20.0,
+   "en": "Do you want to study together?",
+   "zh": "你想不想一起复习？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 7,
+   "t": 20.5,
+   "t2": 21.4,
+   "en": "That would be great!",
+   "zh": "那太好了！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 8,
+   "t": 22.64,
+   "t2": 23.74,
+   "en": "But, let me see.",
+   "zh": "不过，让我想想。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 9,
+   "t": 25.08,
+   "t2": 27.0,
+   "en": "Saturday morning is no good.",
+   "zh": "星期六早上不行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 10,
+   "t": 27.36,
+   "t2": 28.42,
+   "en": "I’m playing football.",
+   "zh": "我要踢足球。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 11,
+   "t": 28.88,
+   "t2": 31.26,
+   "en": "It’s the cup final and I can’t miss that.",
+   "zh": "那是决赛，我不能错过。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 12,
+   "t": 31.64,
+   "t2": 32.64,
+   "en": "Of course not.",
+   "zh": "当然不行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 13,
+   "t": 33.32,
+   "t2": 35.8,
+   "en": "OK, so what about Friday night?",
+   "zh": "好，那星期五晚上呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 14,
+   "t": 37.38,
+   "t2": 39.4,
+   "en": "I’m sorry. I can’t.",
+   "zh": "对不起，我不行。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 15,
+   "t": 39.52,
+   "t2": 39.88,
+   "en": "I’m busy.",
+   "zh": "我很忙。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 16,
+   "t": 40.647,
+   "t2": 46.82,
+   "en": "Dad’s taking me to the sports centre to watch the basketball game, but it doesn’t finish until 10 pm.",
+   "zh": "爸爸要带我去体育中心看篮球赛，比赛要到晚上 10 点才结束。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 17,
+   "t": 47.36,
+   "t2": 49.12,
+   "en": "Yeah, that’s a bit late.",
+   "zh": "是啊，那有点太晚了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 18,
+   "t": 49.78,
+   "t2": 52.2,
+   "en": "OK, how about Saturday afternoon.",
+   "zh": "好，那星期六下午怎么样。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 19,
+   "t": 52.779,
+   "t2": 53.26,
+   "en": "Any chance?",
+   "zh": "有机会吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 20,
+   "t": 55.82,
+   "t2": 59.3,
+   "en": "Saturday afternoon, Saturday afternoon.",
+   "zh": "星期六下午，星期六下午。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 21,
+   "t": 60.395,
+   "t2": 64.78,
+   "en": "It’s my brother’s birthday, so we’re going to the restaurant to celebrate.",
+   "zh": "那是我弟弟的生日，所以我们要去餐厅庆祝。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 22,
+   "t": 65.3,
+   "t2": 68.58,
+   "en": "You know, that new American diner on the high street.",
+   "zh": "你知道的，就是高街上那家新开的美式餐厅。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 23,
+   "t": 68.98,
+   "t2": 71.02,
+   "en": "Oh, yeah, I’ve heard it’s very good.",
+   "zh": "哦，对，我听说过那家店很好。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 24,
+   "t": 71.74,
+   "t2": 74.014,
+   "en": "What time do you think you’ll finish there?",
+   "zh": "你觉得你们大概什么时候能结束？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 25,
+   "t": 74.26,
+   "t2": 78.14,
+   "en": "Probably about 5 pm, but then I’m meeting Nathan.",
+   "zh": "大概下午 5 点，不过之后我要和内森碰面。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 26,
+   "t": 78.66,
+   "t2": 81.5,
+   "en": "We’re going to see the new Spider-Man film at the cinema.",
+   "zh": "我们要去电影院看新的《蜘蛛侠》电影。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 27,
+   "t": 82.26,
+   "t2": 83.86,
+   "en": "Hey, would you like to come?",
+   "zh": "嘿，你想一起去吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 28,
+   "t": 84.42,
+   "t2": 88.6,
+   "en": "Hmmm, Spider-Man – not really my thing.",
+   "zh": "嗯，《蜘蛛侠》——不太合我的口味。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 29,
+   "t": 89.28,
+   "t2": 91.08,
+   "en": "So thanks but no thanks.",
+   "zh": "所以谢谢，但就不用了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 30,
+   "t": 91.94,
+   "t2": 94.2,
+   "en": "I guess that just leaves Sunday.",
+   "zh": "我想那只剩下星期天了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 31,
+   "t": 94.7,
+   "t2": 95.98,
+   "en": "Yeah, Sunday.",
+   "zh": "对，星期天。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 32,
+   "t": 97.68,
+   "t2": 99.32,
+   "en": "Hmmmm, that’s a problem, too.",
+   "zh": "嗯，那也有问题。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 33,
+   "t": 100.2,
+   "t2": 100.72,
+   "en": "Why?",
+   "zh": "为什么？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 34,
+   "t": 101.3,
+   "t2": 106.02,
+   "en": "Well, my grandparents are coming over and we’re taking them to that outdoor museum.",
+   "zh": "嗯，我的祖父母要来，我们要带他们去那个露天博物馆。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 35,
+   "t": 106.6,
+   "t2": 109.42,
+   "en": "Oh, the one with all the cool old buildings?",
+   "zh": "哦，就是那个有很多很酷老建筑的地方吗？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 36,
+   "t": 109.88,
+   "t2": 110.5,
+   "en": "That’s right.",
+   "zh": "没错。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 37,
+   "t": 111.02,
+   "t2": 113.1,
+   "en": "My grandad loves that sort of stuff.",
+   "zh": "我爷爷就喜欢那种东西。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 38,
+   "t": 113.1,
+   "t2": 118.1,
+   "en": "I’d invite you, but I’m really sorry, we haven’t got any room in the car.",
+   "zh": "我本想邀请你，但真的很抱歉，车里没有空位了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 39,
+   "t": 118.44,
+   "t2": 121.14,
+   "en": "I don’t want to see old buildings, Connor.",
+   "zh": "我不想看老建筑，康纳。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 40,
+   "t": 121.6,
+   "t2": 123.34,
+   "en": "I want to study for the test.",
+   "zh": "我想复习考试。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 41,
+   "t": 123.5,
+   "t2": 124.772,
+   "en": "Yeah, of course.",
+   "zh": "对，当然。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 42,
+   "t": 125.28,
+   "t2": 128.76,
+   "en": "Sunday evening maybe, but only after 8 pm.",
+   "zh": "也许星期天晚上，但只能在晚上 8 点以后。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 43,
+   "t": 129.18,
+   "t2": 135.593,
+   "en": "I’ve got a piano lesson from 7 to 8 and we won’t be back from the museum much before 6 pm.",
+   "zh": "我从 7 点到 8 点有钢琴课，我们从博物馆回来最早也要快 6 点了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 44,
+   "t": 136.36,
+   "t2": 138.14,
+   "en": "No, that’s too late.",
+   "zh": "不，那太晚了。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 45,
+   "t": 138.74,
+   "t2": 140.0,
+   "en": "What about next weekend?",
+   "zh": "那下个周末呢？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 46,
+   "t": 140.52,
+   "t2": 142.46,
+   "en": "I’ve got loads of free time next weekend.",
+   "zh": "我下个周末有很多空闲时间。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 47,
+   "t": 142.46,
+   "t2": 143.8,
+   "en": "I’d love to!",
+   "zh": "我很乐意！",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 48,
+   "t": 143.8,
+   "t2": 146.2,
+   "en": "But there’s a problem.",
+   "zh": "但有个问题。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 49,
+   "t": 146.7,
+   "t2": 147.423,
+   "en": "What’s that?",
+   "zh": "什么问题？",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 50,
+   "t": 147.86,
+   "t2": 149.54,
+   "en": "The test is on Monday.",
+   "zh": "考试在星期一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 51,
+   "t": 150.12,
+   "t2": 151.12,
+   "en": "This Monday.",
+   "zh": "就是这周一。",
+   "conf": 1.0,
+   "src": "tb-text"
+  },
+  {
+   "i": 52,
+   "t": 151.62,
+   "t2": 152.98,
+   "en": "First thing in the morning!",
+   "zh": "一大早第一件事！",
+   "conf": 1.0,
+   "src": "tb-text"
+  }
+ ]
+}
