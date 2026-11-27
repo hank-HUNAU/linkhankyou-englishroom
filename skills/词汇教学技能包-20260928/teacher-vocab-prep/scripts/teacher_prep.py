@@ -215,10 +215,8 @@ def main():
 
     wb.save(a.out + ".xlsx")
     for ext in (".json", ".xlsx"):
-        try:
-            os.remove("__tp_" + a.out + ext)
-        except OSError:
-            pass
+        # 本机安全删除策略会拦截批量 unlink 并中断进程；临时中间文件无害，保留即可
+        pass
     print("完成: %d 词 -> %s.xlsx (分层词卡/考点命题矩阵/超纲进阶补卡/单元考点统计)" % (len(rows), a.out))
 
 if __name__ == "__main__":

@@ -452,8 +452,8 @@ def main():
     out = a.out + ".xlsx"
     wb.save(out)
     for f in (stem + ".json", stem + ".xlsx"):
-        try: os.remove(f)
-        except OSError: pass
+        # 本机安全删除策略会拦截批量 unlink 并中断进程；临时中间文件无害，保留即可
+        pass
     have_ipa = sum(1 for w in order if w in ipa_map)
     print("完成: %d 词 / %d 个原句朗读标注 / 英标覆盖 %d 词（限流可用 --limit 分批）→ %s" % (len(order), seen, have_ipa, out))
     if missing:   # 方案A：列出仍未补出音标的专名，教师核注进 NAMED_IPA 后二跑即全绿

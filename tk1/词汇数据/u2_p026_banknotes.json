@@ -1,0 +1,3446 @@
+{
+ "source": "KET | PET | NGSL | NAWL | A1_Movers | A1_Starters | A2_Flyers | CAE | FCE",
+ "total": 288,
+ "numbers": 12,
+ "proper": 19,
+ "cefrMulti": false,
+ "tokens": [
+  {
+   "kind": "word",
+   "form": "Unit",
+   "lemma": "unit",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "num",
+   "form": "2",
+   "lemma": "2",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "Culture",
+   "lemma": "culture",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "These",
+   "lemma": "these",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "days",
+   "lemma": "day",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "we",
+   "lemma": "we",
+   "hit": [
+    0,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "use",
+   "lemma": "use",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "credit",
+   "lemma": "credit",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "cards",
+   "lemma": "card",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "more",
+   "lemma": "more",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "more",
+   "lemma": "more",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "look",
+   "lemma": "look",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "almost",
+   "lemma": "almost",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "identical",
+   "lemma": "identical",
+   "hit": [
+    3,
+    8
+   ],
+   "layer": "NAWL",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "But",
+   "lemma": "but",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "money",
+   "lemma": "money",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "still",
+   "lemma": "still",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "with",
+   "lemma": "with",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "us",
+   "lemma": "us",
+   "hit": [
+    0,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "coins",
+   "lemma": "coin",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknotes",
+   "lemma": "banknotes",
+   "hit": [],
+   "sent": "But money is still with us, in coins and banknotes.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "designs",
+   "lemma": "design",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "over",
+   "lemma": "over",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "world",
+   "lemma": "world",
+   "hit": [
+    0,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "we",
+   "lemma": "we",
+   "hit": [
+    0,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "can",
+   "lemma": "can",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "see",
+   "lemma": "see",
+   "hit": [
+    0,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "examples",
+   "lemma": "example",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "really",
+   "lemma": "really",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "interesting",
+   "lemma": "interesting",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "beautiful",
+   "lemma": "beautiful",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknotes",
+   "lemma": "banknotes",
+   "hit": [],
+   "sent": "The designs are different and all over the world we can see examples of really interesting and beautiful banknotes.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "designs",
+   "lemma": "design",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "usually",
+   "lemma": "usually",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "celebrate",
+   "lemma": "celebrate",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "country",
+   "lemma": "country",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "its",
+   "lemma": "its",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "history",
+   "lemma": "history",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "its",
+   "lemma": "its",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "geography",
+   "lemma": "geography",
+   "hit": [
+    0,
+    1,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "its",
+   "lemma": "its",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "animals",
+   "lemma": "animal",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "birds",
+   "lemma": "bird",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Here",
+   "lemma": "here",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "some",
+   "lemma": "some",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "examples",
+   "lemma": "example",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknotes",
+   "lemma": "banknotes",
+   "hit": [],
+   "sent": "Here are some examples of banknotes from different parts of the world.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "parts",
+   "lemma": "part",
+   "hit": [
+    0,
+    1,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "world",
+   "lemma": "world",
+   "hit": [
+    0,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexico",
+   "lemma": "mexico",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "In",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexico",
+   "lemma": "mexico",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "currency",
+   "lemma": "currency",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "peso",
+   "lemma": "peso",
+   "hit": [],
+   "sent": "Mexico\nIn Mexico the currency is the peso.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "smallest",
+   "lemma": "small",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknote",
+   "lemma": "banknote",
+   "hit": [],
+   "sent": "The smallest banknote is 20 pesos, and the biggest is 1,000 pesos.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "20",
+   "lemma": "20",
+   "hit": []
+  },
+  {
+   "kind": "out",
+   "form": "pesos",
+   "lemma": "pesos",
+   "hit": [],
+   "sent": "The smallest banknote is 20 pesos, and the biggest is 1,000 pesos.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "biggest",
+   "lemma": "biggest",
+   "hit": [
+    2
+   ],
+   "layer": "NGSL",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "1",
+   "lemma": "1",
+   "hit": []
+  },
+  {
+   "kind": "num",
+   "form": "000",
+   "lemma": "000",
+   "hit": []
+  },
+  {
+   "kind": "out",
+   "form": "pesos",
+   "lemma": "pesos",
+   "hit": [],
+   "sent": "The smallest banknote is 20 pesos, and the biggest is 1,000 pesos.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "num",
+   "form": "One",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "always",
+   "lemma": "always",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "has",
+   "lemma": "have",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "face",
+   "lemma": "face",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "famous",
+   "lemma": "famous",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "person",
+   "lemma": "person",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexican",
+   "lemma": "mexican",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "history",
+   "lemma": "history",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "other",
+   "lemma": "other",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "has",
+   "lemma": "have",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "well",
+   "lemma": "well",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "known",
+   "lemma": "know",
+   "hit": [
+    0,
+    1,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "places",
+   "lemma": "place",
+   "hit": [
+    0,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "country",
+   "lemma": "country",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "On",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "500",
+   "lemma": "500",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "note",
+   "lemma": "note",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "portrait",
+   "lemma": "portrait",
+   "hit": [
+    2
+   ],
+   "layer": "NGSL",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "famous",
+   "lemma": "famous",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Mexican",
+   "lemma": "mexican",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "artist",
+   "lemma": "artist",
+   "hit": [
+    1,
+    2,
+    6
+   ],
+   "layer": "PET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Frida",
+   "lemma": "frida",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "proper",
+   "form": "Kahlo",
+   "lemma": "kahlo",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "proper",
+   "form": "Europe",
+   "lemma": "europe",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "Many",
+   "lemma": "many",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "countries",
+   "lemma": "country",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Europe",
+   "lemma": "europe",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "use",
+   "lemma": "use",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "euro",
+   "lemma": "euro",
+   "hit": [
+    0,
+    1
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "but",
+   "lemma": "but",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknotes",
+   "lemma": "banknotes",
+   "hit": [],
+   "sent": "Europe\nMany countries in Europe use the euro, but the banknotes are exactly the same for each country.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "exactly",
+   "lemma": "exactly",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "same",
+   "lemma": "same",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "for",
+   "lemma": "for",
+   "hit": [
+    0,
+    1,
+    2,
+    5,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "each",
+   "lemma": "each",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "country",
+   "lemma": "country",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "On",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "one",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "picture",
+   "lemma": "picture",
+   "hit": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "gate",
+   "lemma": "gate",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "window",
+   "lemma": "window",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "or",
+   "lemma": "or",
+   "hit": [
+    0,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "entrance",
+   "lemma": "entrance",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "other",
+   "lemma": "other",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "bridge",
+   "lemma": "bridge",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "pictures",
+   "lemma": "picture",
+   "hit": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "represent",
+   "lemma": "represent",
+   "hit": [
+    2
+   ],
+   "layer": "NGSL",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "kinds",
+   "lemma": "kind",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "architecture",
+   "lemma": "architecture",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "over",
+   "lemma": "over",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Europe",
+   "lemma": "europe",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "Turkey",
+   "lemma": "turkey",
+   "hit": [
+    1
+   ],
+   "layer": "PET",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "In",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Turkey",
+   "lemma": "turkey",
+   "hit": [
+    1
+   ],
+   "layer": "PET",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "currency",
+   "lemma": "currency",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Turkish",
+   "lemma": "turkish",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "out",
+   "form": "lira",
+   "lemma": "lira",
+   "hit": [],
+   "sent": "Turkey\nIn Turkey the currency is the Turkish lira, and there are six different banknotes.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "there",
+   "lemma": "there",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "six",
+   "lemma": "six",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "banknotes",
+   "lemma": "banknotes",
+   "hit": [],
+   "sent": "Turkey\nIn Turkey the currency is the Turkish lira, and there are six different banknotes.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "Each",
+   "lemma": "each",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "one",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "shows",
+   "lemma": "show",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Kemal",
+   "lemma": "kemal",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "proper",
+   "form": "Atat",
+   "lemma": "atat",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "out",
+   "form": "rk",
+   "lemma": "rk",
+   "hit": [],
+   "sent": "Each one shows Kemal Atatürk, the founder of the Turkish republic, on the front side, and another famous figure from Turkish history on the other side.",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "founder",
+   "lemma": "find",
+   "hit": [
+    0,
+    1,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Turkish",
+   "lemma": "turkish",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "republic",
+   "lemma": "republic",
+   "hit": [
+    3
+   ],
+   "layer": "NAWL",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "front",
+   "lemma": "front",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "another",
+   "lemma": "another",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "famous",
+   "lemma": "famous",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "figure",
+   "lemma": "figure",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "from",
+   "lemma": "from",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Turkish",
+   "lemma": "turkish",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "history",
+   "lemma": "history",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "other",
+   "lemma": "other",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "proper",
+   "form": "Brazil",
+   "lemma": "brazil",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "currency",
+   "lemma": "currency",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Brazil",
+   "lemma": "brazil",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "real",
+   "lemma": "real",
+   "hit": [
+    1,
+    2
+   ],
+   "layer": "PET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "plural",
+   "lemma": "plural",
+   "hit": [
+    3
+   ],
+   "layer": "NAWL",
+   "cefr": ""
+  },
+  {
+   "kind": "out",
+   "form": "reais",
+   "lemma": "reais",
+   "hit": [],
+   "sent": "Brazil\nThe currency in Brazil is the real (plural, reais).",
+   "layer": "out",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "The",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "notes",
+   "lemma": "note",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "are",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "in",
+   "lemma": "in",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "different",
+   "lemma": "different",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "colours",
+   "lemma": "colour",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "but",
+   "lemma": "but",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "they",
+   "lemma": "they",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "all",
+   "lemma": "all",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "have",
+   "lemma": "have",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "picture",
+   "lemma": "picture",
+   "hit": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Effigy",
+   "lemma": "effigy",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "Republic",
+   "lemma": "republic",
+   "hit": [
+    3
+   ],
+   "layer": "NAWL",
+   "cefr": "C1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "national",
+   "lemma": "national",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "symbol",
+   "lemma": "symbol",
+   "hit": [
+    2
+   ],
+   "layer": "NGSL",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "Brazil",
+   "lemma": "brazil",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "num",
+   "form": "one",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "various",
+   "lemma": "various",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "animals",
+   "lemma": "animal",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "birds",
+   "lemma": "bird",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "and",
+   "lemma": "and",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "fish",
+   "lemma": "fish",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "on",
+   "lemma": "on",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "other",
+   "lemma": "other",
+   "hit": [
+    0,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "side",
+   "lemma": "side",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "num",
+   "form": "One",
+   "lemma": "one",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "most",
+   "lemma": "most",
+   "hit": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "beautiful",
+   "lemma": "beautiful",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "is",
+   "lemma": "be",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "perhaps",
+   "lemma": "perhaps",
+   "hit": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "the",
+   "lemma": "the",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "proper",
+   "form": "R",
+   "lemma": "r",
+   "hit": [],
+   "layer": "proper",
+   "cefr": ""
+  },
+  {
+   "kind": "num",
+   "form": "50",
+   "lemma": "50",
+   "hit": []
+  },
+  {
+   "kind": "word",
+   "form": "note",
+   "lemma": "note",
+   "hit": [
+    0,
+    1,
+    2
+   ],
+   "layer": "KET",
+   "cefr": "B1"
+  },
+  {
+   "kind": "word",
+   "form": "which",
+   "lemma": "which",
+   "hit": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "has",
+   "lemma": "have",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A2"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "picture",
+   "lemma": "picture",
+   "hit": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "layer": "KET",
+   "cefr": "B2"
+  },
+  {
+   "kind": "word",
+   "form": "of",
+   "lemma": "of",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "word",
+   "form": "a",
+   "lemma": "a",
+   "hit": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "layer": "KET",
+   "cefr": "A1"
+  },
+  {
+   "kind": "out",
+   "form": "jaguar",
+   "lemma": "jaguar",
+   "hit": [],
+   "sent": "One of the most beautiful is perhaps the R$50 note, which has a picture of a jaguar.",
+   "layer": "out",
+   "cefr": ""
+  }
+ ]
+}

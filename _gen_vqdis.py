@@ -225,6 +225,10 @@ def main():
         for ph in ("__PAGETITLE__", "__UNIT_NO__", "__NWORDS__", "__KEY__", "__TITLE__", "__CATS__"):
             if ph in html:
                 raise SystemExit("[%s] 构建失败：占位符 %s 未被替换" % (fk, ph))
+        # P0 防回归：打印模板里的 </script> 必须写成 <\/script>，否则外层主脚本被提前闭合
+        if html.count("</script>") != 3 or html.count("<\\/script>") != 1:
+            raise SystemExit("[%s] 构建失败：脚本闭合标签数异常（raw=%d escaped=%d）"
+                             % (fk, html.count("</script>"), html.count("<\\/script>")))
         import re as _re
         wrong_unit = sorted({m for m in _re.findall(r"Unit \d+", html) if m != "Unit " + unit[1:]})
         if wrong_unit:

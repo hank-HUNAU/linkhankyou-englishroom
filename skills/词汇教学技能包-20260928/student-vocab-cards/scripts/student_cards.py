@@ -534,10 +534,8 @@ def main():
             psh.column_dimensions[openpyxl.utils.get_column_letter(c)].width = wd
     wb.save(a.out + ".xlsx")
     for ext in (".json", ".xlsx"):
-        try:
-            os.remove("__sb_" + a.out + ext)
-        except OSError:
-            pass
+        # 本机安全删除策略会拦截批量 unlink 并中断进程；临时中间文件无害，保留即可
+        pass
     print("完成: %d 词 -> %s.xlsx (联网补全 %d 词)" % (len(words), a.out, n_net))
 
 if __name__ == "__main__":
