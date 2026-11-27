@@ -687,7 +687,8 @@ function renderPassages(key){
   grid.querySelectorAll('.pg').forEach(function(card){
     card.addEventListener('click', function(e){
       var act = e.target.closest('[data-act]');
-      openPassageAction(card.dataset.key, act ? act.dataset.act : 'follow');
+      if(!act) return; /* 2026-11-27 用户令：删除「点卡片直达逐句听」默认行为，只留卡上两按钮直达 */
+      openPassageAction(card.dataset.key, act.dataset.act);
     });
   });
 }

@@ -781,9 +781,8 @@ function renderPassages(key){
   grid.querySelectorAll('.pg').forEach(function(card){
     card.addEventListener('click', function(e){
       var act = e.target.closest('[data-act]');
-      var key2 = card.dataset.key;
-      if(act){ openPassageAction(key2, act.dataset.act); return; }
-      openPassage(key2);
+      if(!act) return; /* 2026-11-27 用户令：删除「点卡片 → 篇章详情中间页」，只留卡上两按钮直达 */
+      openPassageAction(card.dataset.key, act.dataset.act);
     });
   });
 }
