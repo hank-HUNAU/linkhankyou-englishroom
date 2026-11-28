@@ -2,7 +2,7 @@
 <html lang="zh-CN"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>课文 p114 · 逐句听 / 逐句听写</title>
+<title>My Favourite Journey</title>
 <style>
 :root{
   --bg:#f2f2f7; --card:#fff; --ink:#1c1c1e; --ink2:#3c3c43; --ink3:#8e8e93;
@@ -50,45 +50,6 @@ body.zh-on .sent .zh{display:block}
 .listen-done{margin-top:14px;text-align:center}
 .done-pill{display:inline-flex;align-items:center;gap:8px;background:var(--green-bg);color:#1f6b2e;border-radius:999px;padding:10px 18px;font-weight:800;font-size:13.5px}
 
-/* ── 流程② 逐句听写 ── */
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--rad-lg);padding:18px;margin-bottom:12px}
-.card h3{font-size:15.5px;font-weight:800;margin-bottom:10px}
-.seg{display:flex;gap:6px;margin-bottom:12px}
-.seg button{flex:1;border:none;border-radius:12px;padding:11px 0;font-size:13.5px;font-weight:800;background:#e9e9ee;color:var(--ink2);cursor:pointer}
-.seg button.on{background:var(--blue);color:#fff}
-.lbl{font-size:12px;font-weight:800;color:var(--ink3);letter-spacing:.04em;margin:10px 0 6px}
-.chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{border:none;border-radius:10px;padding:8px 12px;font-size:12.5px;font-weight:700;background:#e9e9ee;color:var(--ink2);cursor:pointer;font-family:var(--fnum)}
-.chip.on{background:var(--blue);color:#fff}
-select.big{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);font-size:14px;font-weight:700;background:#fff;color:var(--ink)}
-.cta{width:100%;margin-top:14px;border:none;border-radius:14px;padding:15px 0;font-size:15.5px;font-weight:900;background:var(--blue);color:#fff;cursor:pointer}
-.cta:disabled{opacity:.4}
-.cta.green{background:#28a745}
-.dtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
-.dtop .n{font-family:var(--fnum);font-size:12.5px;color:var(--ink3)}
-.dops{display:flex;gap:6px}
-.dbtn{border:none;border-radius:10px;padding:9px 14px;font-size:13px;font-weight:800;background:var(--blue);color:#fff;cursor:pointer}
-.dbtn.ghost{background:#e9e9ee;color:var(--ink)}
-.dsent{font-size:12.5px;color:var(--ink3);margin-bottom:8px}
-.din{width:100%;min-height:96px;border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;font-size:16.5px;line-height:1.7;font-family:var(--font);resize:vertical}
-.din:focus{outline:none;border-color:var(--blue)}
-.dres{margin-top:12px;display:none}
-.dres.on{display:block}
-.dres .ok{font-weight:900;font-size:14px;margin-bottom:6px}
-.dres .ok.good{color:#1f6b2e}.dres .ok.bad{color:#b3261e}
-.wline{font-size:17px;line-height:1.9}
-.wc{padding:1px 3px;border-radius:5px;margin-right:4px;display:inline-block}
-.wc.g{background:var(--green-bg);color:#1f6b2e}
-.wc.b{background:#ffe9e7;color:#b3261e;text-decoration:line-through}
-.wc.m{background:#fff3e0;color:#a15c00}
-.dzh{margin-top:8px;padding:10px 12px;background:#f7f7fa;border-radius:12px;font-size:14px;color:var(--ink2)}
-.dnav{display:flex;gap:8px;margin-top:12px}
-.dnav .dbtn{flex:1;padding:13px 0;font-size:14.5px}
-.sum{text-align:center;padding:8px 0}
-.sum .big{font-size:44px;font-weight:900;font-family:var(--fnum)}
-.sum .big.good{color:#1f6b2e}.sum .big.mid{color:#a15c00}.sum .big.bad{color:#b3261e}
-.sum .sub2{color:var(--ink3);font-size:13px;margin-top:4px}
-.hint{font-size:12.5px;color:var(--ink3);margin-top:8px}
 #toast{position:fixed;left:50%;bottom:40px;transform:translateX(-50%) translateY(12px);background:rgba(28,28,30,.9);color:#fff;font-size:13px;padding:9px 16px;border-radius:11px;opacity:0;pointer-events:none;transition:.2s;z-index:99;max-width:86vw;text-align:center}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .hide{display:none!important}
@@ -100,12 +61,8 @@ select.big{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(
   <header class="top">
     <button class="back" id="backBtn" title="返回主站">←</button>
     <div class="titles">
-      <h1 id="tTitle">课文 p114</h1>
+      <h1 id="tTitle">My Favourite Journey</h1>
       <div class="sub" id="tSub"></div>
-    </div>
-    <div class="tabs">
-      <button class="tab on" id="tabListen" type="button">逐句听</button>
-      <button class="tab" id="tabDictate" type="button">逐句听写</button>
     </div>
   </header>
   <main><div class="wrap">
@@ -126,66 +83,6 @@ select.big{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(
       </div>
       <div class="sents" id="sentList"></div>
       <div class="listen-done" id="listenDone"></div>
-    </section>
-
-    <section id="viewDictate" class="hide">
-      <div id="dSetup">
-        <div class="card">
-          <h3>选择听写范围</h3>
-          <div class="seg">
-            <button id="modeRand" class="on" type="button">随机抽句</button>
-            <button id="modePara" type="button">按段落</button>
-          </div>
-          <div id="randOpts">
-            <div class="lbl">抽几句</div>
-            <select class="big" id="countSel">
-              <option value="5">随机 5 句</option>
-              <option value="10" selected>随机 10 句</option>
-              <option value="15">随机 15 句</option>
-              <option value="all">全部句子</option>
-            </select>
-          </div>
-          <div id="paraOpts" class="hide">
-            <div class="lbl">点选段落（可多选）</div>
-            <div class="chips" id="paraChips"></div>
-            <div class="hint" id="paraHint"></div>
-          </div>
-          <div class="lbl">提示</div>
-          <div class="hint">听本句音频（可反复听、可 0.75× 慢速）→ 键盘输入 → 提交后逐词标对错。提交完成全部句子即记听写完成。</div>
-          <button class="cta" id="startBtn" type="button">开始听写</button>
-        </div>
-      </div>
-      <div id="dRunner" class="hide">
-        <div class="card">
-          <div class="dtop">
-            <span class="n" id="dPos">第 1 / N 句</span>
-            <div class="dops">
-              <button class="dbtn ghost" id="dSlow" type="button">0.75×</button>
-              <button class="dbtn" id="dPlay" type="button">▶ 听本句</button>
-            </div>
-          </div>
-          <div class="dsent" id="dHint">听音频后输入你听到的句子</div>
-          <textarea class="din" id="dInput" rows="3" placeholder="输入你听到的句子…" autocomplete="off" spellcheck="false"></textarea>
-          <div class="dres" id="dRes">
-            <div class="ok" id="dVerdict"></div>
-            <div class="wline" id="dWords"></div>
-            <div class="dzh" id="dZh"></div>
-          </div>
-          <div class="dnav">
-            <button class="dbtn ghost" id="dQuit" type="button">结束本次</button>
-            <button class="dbtn" id="dSubmit" type="button">提交</button>
-            <button class="dbtn green hide" id="dNext" type="button">下一句 →</button>
-          </div>
-        </div>
-      </div>
-      <div id="dSummary" class="hide">
-        <div class="card sum">
-          <div class="big" id="sumPct">--</div>
-          <div class="sub2" id="sumTxt"></div>
-          <button class="cta" id="againBtn" type="button">再来一组</button>
-          <button class="cta green" id="finishBtn" type="button">完成，返回设置</button>
-        </div>
-      </div>
     </section>
 
   </div></main>
@@ -389,7 +286,7 @@ var BOOK_EXTRA={"48": {"u": "Unit 5", "audio": "../assets/p048.mp3", "title": "R
 <script src="../assets/timeline-from-srt.js"></script>
 <script>
 'use strict';
-/* ============ 读写单页引擎：流程① 逐句听（纯听+看，中文默认关） · 流程② 逐句听写（随机N句/按段落） ============ */
+/* ============ 逐句听单页引擎（听写已移除，中文默认关） ============ */
 var $=function(id){ return document.getElementById(id); };
 var PG=114;
 var audio=$('audio');
@@ -407,9 +304,9 @@ function stageLoad(){
   var o=null; try{ o=JSON.parse(localStorage.getItem(SK)); }catch(e){}
   if(!o||typeof o!=='object'){
     var lg=null; try{ lg=JSON.parse(localStorage.getItem('tf_follow_'+PG)); }catch(e){}
-    if(lg&&typeof lg==='object') o={listen:!!lg.listen, dictate:!!lg.dictate};
+    if(lg&&typeof lg==='object') o={listen:!!lg.listen};
   }
-  return {listen:!!(o&&o.listen), dictate:!!(o&&o.dictate), lastPct:(o&&o.lastPct)||null};
+  return {listen:!!(o&&o.listen), lastPct:(o&&o.lastPct)||null};
 }
 var STAGE=stageLoad();
 function stageSave(){ try{ localStorage.setItem(SK, JSON.stringify(STAGE)); }catch(e){} }
@@ -421,19 +318,10 @@ var tt=null; function toast(m){ var t=$('toast'); t.textContent=m; t.classList.a
 function normTok(t){ return (t||'').toLowerCase().replace(/[^a-z0-9']/g,''); }
 function tokens(s){ return String(s).trim().split(/\s+/).filter(function(w){ return w; }); }
 
-/* ── 流程切换 ── */
+/* ── 单流程：逐句听（听写入口已移除） ── */
 var state={ flow:'listen', idx:0, auto:false, zh:false, played:{} };
-function setFlow(f){
-  state.flow=f;
-  $('tabListen').classList.toggle('on',f==='listen');
-  $('tabDictate').classList.toggle('on',f==='dictate');
-  $('viewListen').classList.toggle('hide',f!=='listen');
-  $('viewDictate').classList.toggle('hide',f!=='dictate');
-  try{ audio.pause(); }catch(e){}
-}
-$('tabListen').onclick=function(){ setFlow('listen'); };
-$('tabDictate').onclick=function(){ setFlow('dictate'); };
 $('backBtn').onclick=function(){ location.href='../index.html'; };
+
 
 /* ═══════════ 流程① 逐句听 ═══════════ */
 function renderSents(){
@@ -501,125 +389,8 @@ function markPlayed(i){
 }
 function refreshDone(){
   $('listenDone').innerHTML = STAGE.listen
-    ? '<span class="done-pill">✓ 逐句听已完成（进度已记录）</span>' : '';
+    ? '<span class="done-pill">✓ 篇章听读已完成（进度已记录）</span>' : '';
 }
-
-/* ═══════════ 流程② 逐句听写 ═══════════ */
-var D={ mode:'rand', count:10, paras:{}, queue:[], qi:0, checked:false, slow:false,
-        stat:{ tgt:0, hit:0 } };
-function renderParaChips(){
-  $('paraChips').innerHTML = PARA.map(function(p){
-    return '<button class="chip'+(D.paras[p.i]?' on':'')+'" data-p="'+p.i+'" type="button">段'+p.i+' · '+p.n+'句</button>';
-  }).join('');
-  $('paraChips').querySelectorAll('.chip').forEach(function(ch){
-    ch.addEventListener('click',function(){
-      var pi=parseInt(ch.dataset.p,10);
-      D.paras[pi]=!D.paras[pi]; ch.classList.toggle('on',D.paras[pi]); paraHint();
-    });
-  });
-  paraHint();
-}
-function paraHint(){
-  var n=0; for(var k in D.paras) if(D.paras[k]) n+=PARA[k-1].n;
-  $('paraHint').textContent = n? ('已选 '+n+' 句') : '尚未选择段落';
-}
-$('modeRand').onclick=function(){ D.mode='rand'; this.classList.add('on'); $('modePara').classList.remove('on'); $('randOpts').classList.remove('hide'); $('paraOpts').classList.add('hide'); };
-$('modePara').onclick=function(){ D.mode='para'; this.classList.add('on'); $('modeRand').classList.remove('on'); $('paraOpts').classList.remove('hide'); $('randOpts').classList.add('hide'); renderParaChips(); };
-$('countSel').onchange=function(){ D.count=this.value==='all'?'all':parseInt(this.value,10); };
-function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
-$('startBtn').onclick=function(){
-  var idxs=SEGS.map(function(_,i){ return i; });
-  if(D.mode==='rand'){
-    var n=D.count==='all'?idxs.length:Math.min(D.count,idxs.length);
-    D.queue=shuffle(idxs.slice()).slice(0,n);
-  } else {
-    var sel=[]; for(var k in D.paras) if(D.paras[k]) sel.push(parseInt(k,10));
-    if(!sel.length){ toast('请先选择至少一个段落'); return; }
-    D.queue=idxs.filter(function(i){ return sel.indexOf(SEGS[i].p+1)>=0; });
-  }
-  if(!D.queue.length){ toast('没有可听写的句子'); return; }
-  D.qi=0; D.stat={tgt:0,hit:0};
-  $('dSetup').classList.add('hide'); $('dSummary').classList.add('hide'); $('dRunner').classList.remove('hide');
-  renderQ();
-};
-function renderQ(){
-  D.checked=false;
-  var i=D.queue[D.qi], s=SEGS[i];
-  $('dPos').textContent='第 '+(D.qi+1)+' / '+D.queue.length+' 句 · 段'+(s.p+1);
-  $('dHint').textContent='听音频后输入你听到的句子（第 '+(i+1)+' 句 / 全篇 '+SEGS.length+' 句）';
-  $('dInput').value=''; $('dInput').disabled=false;
-  $('dRes').classList.remove('on');
-  $('dSubmit').classList.remove('hide'); $('dNext').classList.add('hide');
-  playD(i,false);
-}
-function playD(i,slow){
-  var iv=TLx[i]; if(!iv){ toast('本句暂无时间轴'); return; }
-  audio.playbackRate=slow?0.75:1;
-  seekingTo=iv[0];
-  try{ audio.currentTime=iv[0]; aplay(); }catch(e){}
-}
-$('dPlay').onclick=function(){ playD(D.queue[D.qi],D.slow); };
-$('dSlow').onclick=function(){ D.slow=!D.slow; this.textContent=D.slow?'1×':'0.75×'; this.classList.toggle('on',D.slow); };
-$('dInput').addEventListener('keydown',function(e){
-  if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); if(!D.checked) $('dSubmit').click(); else $('dNext').click(); }
-});
-$('dSubmit').onclick=function(){
-  if(D.checked) return;
-  var i=D.queue[D.qi], target=SEGS[i].t;
-  var tt=tokens(target), ut=tokens($('dInput').value);
-  /* LCS 对齐：目标词被说出=g，漏掉=m */
-  var dp=[], ui, ti;
-  for(ui=0;ui<=ut.length;ui++){ dp[ui]=[ui]; }
-  for(ti=1;ti<=tt.length;ti++) dp[0][ti]=ti;
-  for(ui=1;ui<=ut.length;ui++) for(ti=1;ti<=tt.length;ti++){
-    dp[ui][ti]=Math.min(dp[ui-1][ti]+1, dp[ui][ti-1]+1, dp[ui-1][ti-1]+(normTok(ut[ui-1])===normTok(tt[ti-1])?0:1));
-  }
-  /* 回溯标记 */
-  var tmark=new Array(tt.length).fill('m'), umark=new Array(ut.length).fill('b');
-  ui=ut.length; ti=tt.length;
-  while(ui>0||ti>0){
-    if(ui>0&&ti>0&&dp[ui][ti]===dp[ui-1][ti-1]+(normTok(ut[ui-1])===normTok(tt[ti-1])?0:1)){
-      if(normTok(ut[ui-1])===normTok(tt[ti-1])){ tmark[ti-1]='g'; umark[ui-1]='g'; }
-      else { tmark[ti-1]='m'; umark[ui-1]='b'; }
-      ui--; ti--;
-    } else if(ui>0&&dp[ui][ti]===dp[ui-1][ti]+1){ umark[ui-1]='b'; ui--; }
-    else { tmark[ti-1]='m'; ti--; }
-  }
-  var hit=tmark.filter(function(x){return x==='g';}).length;
-  D.stat.tgt+=tt.length; D.stat.hit+=hit;
-  var pct=tt.length?Math.round(hit/tt.length*100):0;
-  var v=$('dVerdict');
-  v.textContent = pct===100?'✓ 完全正确！':('词正确 '+hit+' / '+tt.length+'（'+pct+'%）');
-  v.className='ok '+(pct===100?'good':(pct>=60?'':'bad'));
-  $('dWords').innerHTML = tt.map(function(w,k){
-    return '<span class="wc '+(tmark[k]==='g'?'g':'m')+'">'+esc(w)+'</span>';
-  }).join('');
-  var extras=ut.filter(function(w,k){ return umark[k]==='b'; });
-  $('dWords').innerHTML += extras.length? '<div style="margin-top:6px;font-size:13px;color:var(--ink3)">多写/写错：'+
-    extras.map(function(w){ return '<span class="wc b">'+esc(w)+'</span>'; }).join('') + '</div>' : '';
-  $('dZh').textContent = ZHm[target] ? '译文：'+ZHm[target] : '';
-  $('dRes').classList.add('on');
-  $('dInput').disabled=true;
-  D.checked=true;
-  $('dSubmit').classList.add('hide'); $('dNext').classList.remove('hide');
-};
-$('dNext').onclick=function(){
-  if(D.qi<D.queue.length-1){ D.qi++; renderQ(); $('dInput').focus(); }
-  else finishDict();
-};
-$('dQuit').onclick=function(){ try{audio.pause();}catch(e){} $('dRunner').classList.add('hide'); $('dSetup').classList.remove('hide'); };
-function finishDict(){
-  try{audio.pause();}catch(e){}
-  var pct=D.stat.tgt?Math.round(D.stat.hit/D.stat.tgt*100):0;
-  var el=$('sumPct');
-  el.textContent=pct+'%';
-  el.className='big '+(pct>=90?'good':pct>=60?'mid':'bad');
-  $('sumTxt').textContent='本次听写 '+D.queue.length+' 句 · 词正确 '+D.stat.hit+' / '+D.stat.tgt;
-  $('dRunner').classList.add('hide'); $('dSummary').classList.remove('hide');
-  STAGE.dictate=true; STAGE.lastPct=pct; stageSave();
-}
-$('againBtn').onclick=function(){ $('dSummary').classList.add('hide'); $('dSetup').classList.remove('hide'); };
-$('finishBtn').onclick=function(){ $('dSummary').classList.add('hide'); $('dSetup').classList.remove('hide'); };
 
 /* ── 启动 ── */
 (function boot(){
@@ -631,10 +402,9 @@ $('finishBtn').onclick=function(){ $('dSummary').classList.add('hide'); $('dSetu
   }
   function run(){
     $('tSub').textContent = B.u + ' · p' + PG + ' · ' + SEGS.length + ' 句 · ' + PARA.length + ' 段';
-    renderSents(); setIdx(0); updatePos(); renderParaChips();
+    renderSents(); setIdx(0); updatePos();
     if(STAGE.listen){ state.played={}; refreshDone(); }
-    var m=(location.search||'').match(/[?&]flow=(listen|dictate)/);
-    if(m&&m[1]==='dictate') setFlow('dictate'); else setFlow('listen');
+    /* 单流程：逐句听 */
   }
 })();
 </script>

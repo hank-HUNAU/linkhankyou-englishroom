@@ -680,7 +680,7 @@ function renderPassages(key){
       + pgBadges(p)
       + '<div class="acts">'
       + '<div class="act" data-act="vocab"><span class="a-name">'+ICON('book','sm')+' 篇章词汇</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
-      + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 逐句听</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
+      + '<div class="act" data-act="follow"><span class="a-name">'+ICON('sound','sm')+' 篇章听读</span><span class="a-more">'+ICON('right','sm')+'</span></div>'
       + '</div>'
       + '</div>';
   }).join('');
@@ -776,9 +776,9 @@ function renderFlow(){
     + '</div>'
     + vocabBtn
     + '</div>'
-    + stageCard('open-stage-listen', 'ear', '逐句听',
+    + stageCard('open-stage-listen', 'ear', '篇章听读',
         '逐句播放整篇，文本随句显示；中文默认关闭，想看再开。播完全篇自动记完成。',
-        listenBits, '开始逐句听')
+        listenBits, '开始篇章听读')
 
   el.querySelectorAll('[data-action]').forEach(function(b){
     b.addEventListener('click', function(){
