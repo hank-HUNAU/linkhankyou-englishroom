@@ -747,7 +747,7 @@ function renderFlow(){
   var vocabBtn = vLive
     ? actBtn('open-vocab', '开始篇章词汇学习 '+ICON('right','sm'), '')
     : actBtn('soon-vocab', '词汇词卡建设中', 'ghost');
-  /* 篇章文段学习入口：逐句听，数据条 + 打开链接 */
+  /* 篇章听读学习入口：单页逐句听（听写已删 2026-11-28），数据条 + 打开链接 */
   function fmMeta(bits){
     return '<div class="fm-meta" style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px">'
       + bits.map(function(x){ return '<span style="background:#eef2fb;color:#3a5ccc;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:700">'+x+'</span>'; }).join("")
